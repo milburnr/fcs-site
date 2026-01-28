@@ -1,0 +1,181 @@
+# Bradenton, FL - Local Research Data for SEO Content
+
+city: Bradenton
+county: Manatee
+population: "60,000+"
+metro_population: "850,000+ (Sarasota-Manatee metro)"
+coordinates:
+  lat: 27.4989
+  lng: -82.5748
+
+climate:
+  summer_avg: "90°F"
+  winter_avg: "62°F"
+  annual_rainfall: "52 inches"
+  hurricane_frequency: "3-4 named storms within 100 miles annually"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (75-85%)"
+  weather_challenges:
+    - "Manatee River flooding during heavy rains"
+    - "Anna Maria Island highly exposed to hurricanes"
+    - "Salt air exposure in waterfront areas"
+    - "High humidity accelerates deterioration"
+    - "Storm surge risk on barrier islands"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Downtown Bradenton"
+      description: "Revitalized downtown with arts and dining"
+      notable: "Riverwalk, Old Main Street"
+    - name: "Lakewood Ranch"
+      description: "Master-planned community with commercial town center"
+      notable: "Main Street, corporate offices, medical"
+    - name: "Cortez Road Corridor"
+      description: "Major commercial corridor"
+      notable: "Retail, restaurants, services"
+    - name: "State Road 64 Corridor"
+      description: "Growing commercial area"
+      notable: "New retail and office development"
+
+  residential_luxury:
+    - name: "Anna Maria Island"
+      description: "Old Florida beach community with luxury homes"
+      home_values: "$1M-$10M+"
+    - name: "Holmes Beach"
+      description: "Central Anna Maria Island"
+      home_values: "$800K-$8M+"
+    - name: "Longboat Key (north end)"
+      description: "Manatee County portion of barrier island"
+      home_values: "$1.5M-$20M+"
+    - name: "Lakewood Ranch"
+      description: "Master-planned community with multiple price points"
+      home_values: "$400K-$3M+"
+    - name: "River Club"
+      description: "Golf course community"
+      home_values: "$600K-$2M+"
+    - name: "Country Club"
+      description: "Established golf community"
+      home_values: "$400K-$1.5M+"
+
+  historic_districts:
+    - name: "Old Manatee Historic District"
+      description: "Historic settlement area along Manatee River"
+      designation: "National Register Historic District"
+      architectural_style: "Frame Vernacular, Victorian"
+    - name: "Village of the Arts"
+      description: "Arts district with bungalow homes converted to galleries"
+      designation: "Local Historic District"
+      architectural_style: "Bungalow, Craftsman"
+    - name: "Downtown Bradenton"
+      description: "Historic commercial district"
+      designation: "Community Redevelopment Area"
+      architectural_style: "Mediterranean Revival, Art Deco"
+
+landmarks:
+  cultural:
+    - "South Florida Museum (Parker Manatee Aquarium)"
+    - "Bishop Museum of Science and Nature"
+    - "Manatee Performing Arts Center"
+    - "Village of the Arts (gallery district)"
+  sports:
+    - "LECOM Park (Pittsburgh Pirates Spring Training)"
+    - "Lakewood Ranch Polo Club"
+    - "Premier Sports Campus"
+  beach:
+    - "Anna Maria Island beaches"
+    - "Coquina Beach"
+    - "Manatee Public Beach"
+  waterfront:
+    - "Bradenton Riverwalk"
+    - "Manatee River"
+    - "Palma Sola Bay"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (130+ mph on Anna Maria Island)"
+  flood_zones: "AE, VE extensive on barrier islands and riverfront"
+  special_requirements:
+    - "Anna Maria Island building moratorium history"
+    - "Height limits on barrier islands (3 stories typically)"
+    - "Village of the Arts design guidelines"
+    - "Lakewood Ranch community standards"
+    - "Environmental buffers on waterfront"
+
+permit_authorities:
+  primary:
+    - name: "City of Bradenton Building Department"
+      address: "101 Old Main St, Bradenton, FL 34205"
+      phone: "(941) 932-9487"
+  county:
+    - name: "Manatee County Building Department"
+      phone: "(941) 749-3047"
+  special:
+    - name: "City of Anna Maria"
+      role: "Separate jurisdiction, very restrictive"
+    - name: "City of Holmes Beach"
+      role: "Separate jurisdiction on Anna Maria Island"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Heritage Insurance"
+    - "Universal Property & Casualty"
+  challenges:
+    - "Anna Maria Island among hardest to insure in Florida"
+    - "Older beach cottages face coverage issues"
+    - "Flood insurance extremely expensive on barrier islands"
+  notes:
+    - "Lakewood Ranch generally easier to insure than coast"
+    - "Wind mitigation essential for reasonable rates"
+
+economic_context:
+  major_industries:
+    - "Healthcare (Manatee Memorial)"
+    - "Agriculture (tomatoes, citrus)"
+    - "Tourism (Anna Maria Island)"
+    - "Real Estate/Construction"
+    - "Retail/Service"
+  major_employers:
+    - "Manatee County Government"
+    - "Manatee County School District"
+    - "Manatee Memorial Hospital"
+    - "Tropicana (juice processing)"
+    - "Bealls (department store HQ)"
+  recent_developments:
+    - name: "Lakewood Ranch Waterside"
+      description: "New town center development"
+      status: "Under construction"
+    - name: "Downtown Bradenton Revival"
+      description: "Continued investment in historic downtown"
+      status: "Ongoing"
+    - name: "State Road 64 Growth"
+      description: "Commercial expansion eastward"
+      status: "Ongoing"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, high water table near coast"
+  foundation_types: "Slab typical, piles on barrier islands"
+  common_issues:
+    - "Anna Maria Island extremely restrictive for new construction"
+    - "Old beach homes often need complete renovation or rebuild"
+    - "Lakewood Ranch has specific community standards"
+    - "Manatee River flooding affects downtown area"
+  unique_factors:
+    - "Anna Maria known for preserving 'Old Florida' character"
+    - "Lakewood Ranch is one of America's top-selling communities"
+    - "Mix of old beach town and modern master-planned development"
+    - "Growing demand as Tampa Bay expands south"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "Manatee County"
+    - "Anna Maria Island"
+    - "Lakewood Ranch"
+    - "Holmes Beach"
+    - "Downtown Bradenton"
+  long_tail_phrases:
+    - "Bradenton construction contractor"
+    - "Anna Maria Island renovation"
+    - "Lakewood Ranch home builder"
+    - "Manatee County commercial construction"
+    - "Holmes Beach contractor"

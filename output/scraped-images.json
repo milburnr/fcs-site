@@ -1,0 +1,4129 @@
+{
+  "source": "wordpress-static-export",
+  "site": "Florida Construction Specialists",
+  "scannedAt": "2026-01-16T23:49:12.980Z",
+  "stats": {
+    "totalImages": 514,
+    "byContext": {
+      "content": 502,
+      "logo": 7,
+      "hero": 5
+    },
+    "totalSize": 358414687,
+    "totalSizeMB": "341.81"
+  },
+  "images": [
+    {
+      "src": "/wp-content/uploads/2023/12/Custom-home-2-rotated-e1702616203812.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Custom-home-2-rotated-e1702616203812.jpg",
+      "filename": "Custom-home-2-rotated-e1702616203812.jpg",
+      "alt": "Custom home 2 rotated e",
+      "context": "content",
+      "size": 44027
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Custom-home-2-rotated.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Custom-home-2-rotated.jpg",
+      "filename": "Custom-home-2-rotated.jpg",
+      "alt": "Custom home 2 rotated",
+      "context": "content",
+      "size": 72907
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Custom-home-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Custom-home-2.jpg",
+      "filename": "Custom-home-2.jpg",
+      "alt": "Custom home",
+      "context": "content",
+      "size": 111122
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/DRGServicesLogo-Wide1.1-01.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/DRGServicesLogo-Wide1.1-01.png",
+      "filename": "DRGServicesLogo-Wide1.1-01.png",
+      "alt": "DRGServicesLogo Wide1.1",
+      "context": "logo",
+      "size": 126436
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
+      "filename": "Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
+      "alt": "Downtown Tampa Over The Bay At Sunrise 1024x682",
+      "context": "content",
+      "size": 114984
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Eleuthera-Island-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Eleuthera-Island-1.jpeg",
+      "filename": "Eleuthera-Island-1.jpeg",
+      "alt": "Eleuthera Island",
+      "context": "content",
+      "size": 81854
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Eleuthera-Island.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Eleuthera-Island.jpeg",
+      "filename": "Eleuthera-Island.jpeg",
+      "alt": "Eleuthera Island",
+      "context": "content",
+      "size": 81854
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png",
+      "filename": "FCS-Exterior-Waterproofing.png",
+      "alt": "FCS Exterior Waterproofing",
+      "context": "content",
+      "size": 896531
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS-Logo-BW-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-Logo-BW-1.png",
+      "filename": "FCS-Logo-BW-1.png",
+      "alt": "FCS Logo BW",
+      "context": "logo",
+      "size": 23333
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS-Logo-BW.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-Logo-BW.png",
+      "filename": "FCS-Logo-BW.png",
+      "alt": "FCS Logo BW",
+      "context": "logo",
+      "size": 23333
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp",
+      "filename": "FCS-Tiles-on-balcony.webp",
+      "alt": "FCS Tiles on balcony",
+      "context": "content",
+      "size": 140006
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS-commercial-exterior-waterproofing.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-commercial-exterior-waterproofing.png",
+      "filename": "FCS-commercial-exterior-waterproofing.png",
+      "alt": "FCS commercial exterior waterproofing",
+      "context": "content",
+      "size": 536019
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS.png",
+      "filename": "FCS.png",
+      "alt": "FCS",
+      "context": "content",
+      "size": 28736
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FCS_logo.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS_logo.jpg",
+      "filename": "FCS_logo.jpg",
+      "alt": "FCS logo",
+      "context": "logo",
+      "size": 14036
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/FLORIDACONTRUCTIONSPECIALISTS-MASK.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FLORIDACONTRUCTIONSPECIALISTS-MASK.png",
+      "filename": "FLORIDACONTRUCTIONSPECIALISTS-MASK.png",
+      "alt": "FLORIDACONTRUCTIONSPECIALISTS MASK",
+      "context": "content",
+      "size": 3824
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/GulfBeachesMuseum.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/GulfBeachesMuseum.webp",
+      "filename": "GulfBeachesMuseum.webp",
+      "alt": "GulfBeachesMuseum",
+      "context": "content",
+      "size": 81124
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Ian-2-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Ian-2-1.jpg",
+      "filename": "Ian-2-1.jpg",
+      "alt": "Ian 2",
+      "context": "content",
+      "size": 386204
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Ian-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Ian-2.jpg",
+      "filename": "Ian-2.jpg",
+      "alt": "Ian",
+      "context": "content",
+      "size": 386204
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Image-Testemonials-1-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Image-Testemonials-1-1.jpeg",
+      "filename": "Image-Testemonials-1-1.jpeg",
+      "alt": "Image Testemonials 1",
+      "context": "content",
+      "size": 1510
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Image_Placeholder-about-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Image_Placeholder-about-1.jpeg",
+      "filename": "Image_Placeholder-about-1.jpeg",
+      "alt": "Image Placeholder about",
+      "context": "content",
+      "size": 2643
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Image_Placeholder_Hero-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Image_Placeholder_Hero-1.jpeg",
+      "filename": "Image_Placeholder_Hero-1.jpeg",
+      "alt": "Image Placeholder Hero",
+      "context": "hero",
+      "size": 4045
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Italian-Club.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Italian-Club.png",
+      "filename": "Italian-Club.png",
+      "alt": "Italian Club",
+      "context": "content",
+      "size": 54515982
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png",
+      "filename": "Leon-County-Detention-Center-Tallahasse.png",
+      "alt": "Leon County Detention Center Tallahasse",
+      "context": "content",
+      "size": 1907455
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "filename": "Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "alt": "Lions World Vision Institute Building Exterior",
+      "context": "content",
+      "size": 1700576
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Mulberry-Phosphate-Mine.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Mulberry-Phosphate-Mine.png",
+      "filename": "Mulberry-Phosphate-Mine.png",
+      "alt": "Mulberry Phosphate Mine",
+      "context": "content",
+      "size": 4949681
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "filename": "OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "alt": "OVERBAY CONDOMINIUMS REV3 10 19 18 Page",
+      "context": "content",
+      "size": 288878
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Custom-home-2-rotated-e1702616203812.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Custom-home-2-rotated-e1702616203812.jpg",
+      "filename": "Custom-home-2-rotated-e1702616203812.jpg",
+      "alt": "Custom home 2 rotated e",
+      "context": "content",
+      "size": 44027
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Eleuthera-Island-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Eleuthera-Island-1.jpeg",
+      "filename": "Eleuthera-Island-1.jpeg",
+      "alt": "Eleuthera Island",
+      "context": "content",
+      "size": 81854
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/FCS-Exterior-Waterproofing.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Exterior-Waterproofing.png",
+      "filename": "FCS-Exterior-Waterproofing.png",
+      "alt": "FCS Exterior Waterproofing",
+      "context": "content",
+      "size": 896531
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/FCS-Logo-BW-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Logo-BW-1.png",
+      "filename": "FCS-Logo-BW-1.png",
+      "alt": "FCS Logo BW",
+      "context": "logo",
+      "size": 23333
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/FCS-Logo-BW.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Logo-BW.png",
+      "filename": "FCS-Logo-BW.png",
+      "alt": "FCS Logo BW",
+      "context": "logo",
+      "size": 23333
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/FCS-Tiles-on-balcony.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Tiles-on-balcony.webp",
+      "filename": "FCS-Tiles-on-balcony.webp",
+      "alt": "FCS Tiles on balcony",
+      "context": "content",
+      "size": 140006
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/FCS_logo.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS_logo.jpg",
+      "filename": "FCS_logo.jpg",
+      "alt": "FCS logo",
+      "context": "logo",
+      "size": 14036
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+      "filename": "Ian-2-1.jpg",
+      "alt": "Ian 2",
+      "context": "content",
+      "size": 386204
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Ian-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Ian-2.jpg",
+      "filename": "Ian-2.jpg",
+      "alt": "Ian",
+      "context": "content",
+      "size": 386204
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Image-Testemonials-1-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Image-Testemonials-1-1.jpeg",
+      "filename": "Image-Testemonials-1-1.jpeg",
+      "alt": "Image Testemonials 1",
+      "context": "content",
+      "size": 1510
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Image_Placeholder-about-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Image_Placeholder-about-1.jpeg",
+      "filename": "Image_Placeholder-about-1.jpeg",
+      "alt": "Image Placeholder about",
+      "context": "content",
+      "size": 2643
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "filename": "Lions-World-Vision-Institute-Building-Exterior.jpg",
+      "alt": "Lions World Vision Institute Building Exterior",
+      "context": "content",
+      "size": 1700576
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Mulberry-Phosphate-Mine.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Mulberry-Phosphate-Mine.png",
+      "filename": "Mulberry-Phosphate-Mine.png",
+      "alt": "Mulberry Phosphate Mine",
+      "context": "content",
+      "size": 4949681
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "filename": "OVERBAY-CONDOMINIUMS_REV3_10-19-18_Page_28.png",
+      "alt": "OVERBAY CONDOMINIUMS REV3 10 19 18 Page",
+      "context": "content",
+      "size": 288878
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Replacing-roof-decking-and-rafters.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Replacing-roof-decking-and-rafters.jpg",
+      "filename": "Replacing-roof-decking-and-rafters.jpg",
+      "alt": "Replacing roof decking and rafters",
+      "context": "content",
+      "size": 395357
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Tampa-Bay-FEATURE.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Tampa-Bay-FEATURE.jpg",
+      "filename": "Tampa-Bay-FEATURE.jpg",
+      "alt": "Tampa Bay FEATURE",
+      "context": "content",
+      "size": 237288
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png",
+      "filename": "Wellington-Polo-Club.png",
+      "alt": "Wellington Polo Club",
+      "context": "content",
+      "size": 1256066
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/big-graphic-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/big-graphic-1.png",
+      "filename": "big-graphic-1.png",
+      "alt": "big graphic",
+      "context": "content",
+      "size": 47281
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/big-graphic-inverse-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/big-graphic-inverse-1.png",
+      "filename": "big-graphic-inverse-1.png",
+      "alt": "big graphic inverse",
+      "context": "content",
+      "size": 52412
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/big-graphic-inverse-2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/big-graphic-inverse-2.png",
+      "filename": "big-graphic-inverse-2.png",
+      "alt": "big graphic inverse",
+      "context": "content",
+      "size": 41092
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/blueprint-370588_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/blueprint-370588_1280.jpg",
+      "filename": "blueprint-370588_1280.jpg",
+      "alt": "blueprint 370588",
+      "context": "content",
+      "size": 220947
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/bulldozer-2195329_1280-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/bulldozer-2195329_1280-1.jpg",
+      "filename": "bulldozer-2195329_1280-1.jpg",
+      "alt": "bulldozer 2195329 1280",
+      "context": "content",
+      "size": 473483
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/bulldozer-2195329_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/bulldozer-2195329_1280.jpg",
+      "filename": "bulldozer-2195329_1280.jpg",
+      "alt": "bulldozer 2195329",
+      "context": "content",
+      "size": 473483
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/custom-home-construction-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/custom-home-construction-1.jpg",
+      "filename": "custom-home-construction-1.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 141757
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg",
+      "filename": "custom-home-construction-2.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 682898
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/custom-home-construction-3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/custom-home-construction-3.jpg",
+      "filename": "custom-home-construction-3.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 149166
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/custom-home-construction-5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/custom-home-construction-5.jpg",
+      "filename": "custom-home-construction-5.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 168089
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/custom-home2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/custom-home2.png",
+      "filename": "custom-home2.png",
+      "alt": "custom home",
+      "context": "content",
+      "size": 9695232
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/download-18.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/download-18.jpg",
+      "filename": "download-18.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 8211
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/download-19.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/download-19.jpg",
+      "filename": "download-19.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 7186
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "alt": "facility building turner agricivic center arcadia fl",
+      "context": "content",
+      "size": 931967
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/floor-plan-1857175_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/floor-plan-1857175_1280.jpg",
+      "filename": "floor-plan-1857175_1280.jpg",
+      "alt": "floor plan 1857175",
+      "context": "content",
+      "size": 163498
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/frame-building-sunset.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/frame-building-sunset.jpeg",
+      "filename": "frame-building-sunset.jpeg",
+      "alt": "frame building sunset",
+      "context": "content",
+      "size": 229634
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/hd-swimming-pool-water-blue-1080.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/hd-swimming-pool-water-blue-1080.jpg",
+      "filename": "hd-swimming-pool-water-blue-1080.jpg",
+      "alt": "hd swimming pool water blue",
+      "context": "content",
+      "size": 60323
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/historic-preservation-home.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/historic-preservation-home.jpg",
+      "filename": "historic-preservation-home.jpg",
+      "alt": "historic preservation home",
+      "context": "content",
+      "size": 142394
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/historic-preservation.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/historic-preservation.jpg",
+      "filename": "historic-preservation.jpg",
+      "alt": "historic preservation",
+      "context": "content",
+      "size": 1464041
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/home-construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/home-construction.jpg",
+      "filename": "home-construction.jpg",
+      "alt": "home construction",
+      "context": "content",
+      "size": 257837
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/home-hero-after-great-disasters-sandy-crop.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/home-hero-after-great-disasters-sandy-crop.jpg",
+      "filename": "home-hero-after-great-disasters-sandy-crop.jpg",
+      "alt": "home hero after great disasters sandy crop",
+      "context": "hero",
+      "size": 763436
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/hurricane-ian.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/hurricane-ian.webp",
+      "filename": "hurricane-ian.webp",
+      "alt": "hurricane ian",
+      "context": "content",
+      "size": 177598
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/hurricane-restoration-construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/hurricane-restoration-construction.jpg",
+      "filename": "hurricane-restoration-construction.jpg",
+      "alt": "hurricane restoration construction",
+      "context": "content",
+      "size": 142658
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/image-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/image-1.png",
+      "filename": "image-1.png",
+      "alt": "image",
+      "context": "content",
+      "size": 597126
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/image.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/image.jpeg",
+      "filename": "image.jpeg",
+      "alt": "image",
+      "context": "content",
+      "size": 4519
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/image.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/image.png",
+      "filename": "image.png",
+      "alt": "image",
+      "context": "content",
+      "size": 1112924
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1053758464-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1053758464-612x612-1.jpg",
+      "filename": "istockphoto-1053758464-612x612-1.jpg",
+      "alt": "istockphoto 1053758464 612x612",
+      "context": "content",
+      "size": 47331
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1277107370-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1277107370-612x612-1.jpg",
+      "filename": "istockphoto-1277107370-612x612-1.jpg",
+      "alt": "istockphoto 1277107370 612x612",
+      "context": "content",
+      "size": 47486
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1277563088-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1277563088-612x612-1.jpg",
+      "filename": "istockphoto-1277563088-612x612-1.jpg",
+      "alt": "istockphoto 1277563088 612x612",
+      "context": "content",
+      "size": 31341
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1286516900-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1286516900-612x612-1.jpg",
+      "filename": "istockphoto-1286516900-612x612-1.jpg",
+      "alt": "istockphoto 1286516900 612x612",
+      "context": "content",
+      "size": 53305
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1303243385-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1303243385-612x612-1.jpg",
+      "filename": "istockphoto-1303243385-612x612-1.jpg",
+      "alt": "istockphoto 1303243385 612x612",
+      "context": "content",
+      "size": 84804
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1339300601-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1339300601-612x612-1.jpg",
+      "filename": "istockphoto-1339300601-612x612-1.jpg",
+      "alt": "istockphoto 1339300601 612x612",
+      "context": "content",
+      "size": 27162
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1359667366-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1359667366-612x612-1.jpg",
+      "filename": "istockphoto-1359667366-612x612-1.jpg",
+      "alt": "istockphoto 1359667366 612x612",
+      "context": "content",
+      "size": 73785
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1390498854-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1390498854-612x612-1.jpg",
+      "filename": "istockphoto-1390498854-612x612-1.jpg",
+      "alt": "istockphoto 1390498854 612x612",
+      "context": "content",
+      "size": 53909
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1414253390-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1414253390-612x612-1.jpg",
+      "filename": "istockphoto-1414253390-612x612-1.jpg",
+      "alt": "istockphoto 1414253390 612x612",
+      "context": "content",
+      "size": 55586
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1445089396-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1445089396-612x612-1.jpg",
+      "filename": "istockphoto-1445089396-612x612-1.jpg",
+      "alt": "istockphoto 1445089396 612x612",
+      "context": "content",
+      "size": 24984
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-1466479792-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-1466479792-612x612-1.jpg",
+      "filename": "istockphoto-1466479792-612x612-1.jpg",
+      "alt": "istockphoto 1466479792 612x612",
+      "context": "content",
+      "size": 30280
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-466124619-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-466124619-612x612-1.jpg",
+      "filename": "istockphoto-466124619-612x612-1.jpg",
+      "alt": "istockphoto 466124619 612x612",
+      "context": "content",
+      "size": 57389
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/istockphoto-504382878-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/istockphoto-504382878-612x612-1.jpg",
+      "filename": "istockphoto-504382878-612x612-1.jpg",
+      "alt": "istockphoto 504382878 612x612",
+      "context": "content",
+      "size": 54867
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/italian-club-tampa.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/italian-club-tampa.jpg",
+      "filename": "italian-club-tampa.jpg",
+      "alt": "italian club tampa",
+      "context": "content",
+      "size": 562960
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/mall-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/mall-2.jpg",
+      "filename": "mall-2.jpg",
+      "alt": "mall",
+      "context": "content",
+      "size": 93791
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/mall-front.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/mall-front.jpg",
+      "filename": "mall-front.jpg",
+      "alt": "mall front",
+      "context": "content",
+      "size": 58485
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+      "filename": "maya-patel.jpg",
+      "alt": "maya patel",
+      "context": "content",
+      "size": 191110
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/mines1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/mines1.png",
+      "filename": "mines1.png",
+      "alt": "mines",
+      "context": "content",
+      "size": 68222
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/mines2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/mines2.png",
+      "filename": "mines2.png",
+      "alt": "mines",
+      "context": "content",
+      "size": 155641
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/office-building-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/office-building-1.jpg",
+      "filename": "office-building-1.jpg",
+      "alt": "office building",
+      "context": "content",
+      "size": 164908
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/office-building-14.jpg.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/office-building-14.jpg.webp",
+      "filename": "office-building-14.jpg.webp",
+      "alt": "office building 14.jpg",
+      "context": "content",
+      "size": 54098
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/placeholder-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/placeholder-1.png",
+      "filename": "placeholder-1.png",
+      "alt": "placeholder",
+      "context": "content",
+      "size": 5443
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/railing-replacement-best-practices-condos.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/railing-replacement-best-practices-condos.webp",
+      "filename": "railing-replacement-best-practices-condos.webp",
+      "alt": "railing replacement best practices condos",
+      "context": "content",
+      "size": 145378
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/roof-truss-3339206_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/roof-truss-3339206_1280.jpg",
+      "filename": "roof-truss-3339206_1280.jpg",
+      "alt": "roof truss 3339206",
+      "context": "content",
+      "size": 234105
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/southwinds-condo-rear.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/southwinds-condo-rear.jpeg",
+      "filename": "southwinds-condo-rear.jpeg",
+      "alt": "southwinds condo rear",
+      "context": "content",
+      "size": 367853
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/thumb-1920-1105677.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/thumb-1920-1105677.jpg",
+      "filename": "thumb-1920-1105677.jpg",
+      "alt": "thumb 1920",
+      "context": "content",
+      "size": 425826
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/tiara-singer-island-hero.23.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/tiara-singer-island-hero.23.webp",
+      "filename": "tiara-singer-island-hero.23.webp",
+      "alt": "tiara singer island hero.",
+      "context": "hero",
+      "size": 217176
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/waterproofing.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/waterproofing.jpeg",
+      "filename": "waterproofing.jpeg",
+      "alt": "waterproofing",
+      "context": "content",
+      "size": 88056
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Old/wellington-polo-club.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/wellington-polo-club.jpg",
+      "filename": "wellington-polo-club.jpg",
+      "alt": "wellington polo club",
+      "context": "content",
+      "size": 117752
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Replacing-roof-decking-and-rafters.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Replacing-roof-decking-and-rafters.jpg",
+      "filename": "Replacing-roof-decking-and-rafters.jpg",
+      "alt": "Replacing roof decking and rafters",
+      "context": "content",
+      "size": 395357
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Tampa-Bay-FEATURE.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Tampa-Bay-FEATURE.jpg",
+      "filename": "Tampa-Bay-FEATURE.jpg",
+      "alt": "Tampa Bay FEATURE",
+      "context": "content",
+      "size": 237288
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Turner-Agricenter-2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Turner-Agricenter-2.png",
+      "filename": "Turner-Agricenter-2.png",
+      "alt": "Turner Agricenter",
+      "context": "content",
+      "size": 9815231
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Turner-Agricenter.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Turner-Agricenter.png",
+      "filename": "Turner-Agricenter.png",
+      "alt": "Turner Agricenter",
+      "context": "content",
+      "size": 4885492
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+      "filename": "Wellington-Polo-Club.png",
+      "alt": "Wellington Polo Club",
+      "context": "content",
+      "size": 1256066
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/bIG-GRAPHIC.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/bIG-GRAPHIC.png",
+      "filename": "bIG-GRAPHIC.png",
+      "alt": "bIG GRAPHIC",
+      "context": "content",
+      "size": 45136
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/big-graphic-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/big-graphic-1.png",
+      "filename": "big-graphic-1.png",
+      "alt": "big graphic",
+      "context": "content",
+      "size": 47281
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/big-graphic-inverse-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/big-graphic-inverse-1.png",
+      "filename": "big-graphic-inverse-1.png",
+      "alt": "big graphic inverse",
+      "context": "content",
+      "size": 52412
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/big-graphic-inverse-2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/big-graphic-inverse-2.png",
+      "filename": "big-graphic-inverse-2.png",
+      "alt": "big graphic inverse",
+      "context": "content",
+      "size": 41092
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/big-graphic-inverse.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/big-graphic-inverse.png",
+      "filename": "big-graphic-inverse.png",
+      "alt": "big graphic inverse",
+      "context": "content",
+      "size": 45469
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/blueprint-370588_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/blueprint-370588_1280.jpg",
+      "filename": "blueprint-370588_1280.jpg",
+      "alt": "blueprint 370588",
+      "context": "content",
+      "size": 220947
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/bulldozer-2195329_1280-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/bulldozer-2195329_1280-1.jpg",
+      "filename": "bulldozer-2195329_1280-1.jpg",
+      "alt": "bulldozer 2195329 1280",
+      "context": "content",
+      "size": 473483
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/bulldozer-2195329_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/bulldozer-2195329_1280.jpg",
+      "filename": "bulldozer-2195329_1280.jpg",
+      "alt": "bulldozer 2195329",
+      "context": "content",
+      "size": 473483
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/cropped-FCS.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/cropped-FCS.png",
+      "filename": "cropped-FCS.png",
+      "alt": "cropped FCS",
+      "context": "content",
+      "size": 126639
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-1.png",
+      "filename": "custom-home-1.png",
+      "alt": "custom home",
+      "context": "content",
+      "size": 39440634
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-construction-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-construction-1.jpg",
+      "filename": "custom-home-construction-1.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 141757
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-construction-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-construction-2.jpg",
+      "filename": "custom-home-construction-2.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 682898
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-construction-3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-construction-3.jpg",
+      "filename": "custom-home-construction-3.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 149166
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-construction-4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-construction-4.jpg",
+      "filename": "custom-home-construction-4.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 967188
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home-construction-5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home-construction-5.jpg",
+      "filename": "custom-home-construction-5.jpg",
+      "alt": "custom home construction",
+      "context": "content",
+      "size": 168089
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/custom-home2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/custom-home2.png",
+      "filename": "custom-home2.png",
+      "alt": "custom home",
+      "context": "content",
+      "size": 50547239
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/download-18.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/download-18.jpg",
+      "filename": "download-18.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 8211
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/download-19.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/download-19.jpg",
+      "filename": "download-19.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 7186
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl.jpg",
+      "alt": "facility building turner agricivic center arcadia fl",
+      "context": "content",
+      "size": 931967
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/floor-plan-1857175_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/floor-plan-1857175_1280.jpg",
+      "filename": "floor-plan-1857175_1280.jpg",
+      "alt": "floor plan 1857175",
+      "context": "content",
+      "size": 163498
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/frame-building-sunset.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/frame-building-sunset.jpeg",
+      "filename": "frame-building-sunset.jpeg",
+      "alt": "frame building sunset",
+      "context": "content",
+      "size": 229634
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/hd-swimming-pool-water-blue-1080.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hd-swimming-pool-water-blue-1080.jpg",
+      "filename": "hd-swimming-pool-water-blue-1080.jpg",
+      "alt": "hd swimming pool water blue",
+      "context": "content",
+      "size": 60323
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/historic-preservation-home.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/historic-preservation-home.jpg",
+      "filename": "historic-preservation-home.jpg",
+      "alt": "historic preservation home",
+      "context": "content",
+      "size": 142394
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/historic-preservation.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/historic-preservation.jpg",
+      "filename": "historic-preservation.jpg",
+      "alt": "historic preservation",
+      "context": "content",
+      "size": 1464041
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/home-construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/home-construction.jpg",
+      "filename": "home-construction.jpg",
+      "alt": "home construction",
+      "context": "content",
+      "size": 257837
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/home-hero-after-great-disasters-sandy-crop.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/home-hero-after-great-disasters-sandy-crop.jpg",
+      "filename": "home-hero-after-great-disasters-sandy-crop.jpg",
+      "alt": "home hero after great disasters sandy crop",
+      "context": "hero",
+      "size": 763436
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/hurricane-ian.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-ian.webp",
+      "filename": "hurricane-ian.webp",
+      "alt": "hurricane ian",
+      "context": "content",
+      "size": 177598
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/hurricane-insurance-restoration.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-insurance-restoration.webp",
+      "filename": "hurricane-insurance-restoration.webp",
+      "alt": "hurricane insurance restoration",
+      "context": "content",
+      "size": 500604
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/hurricane-restoration-construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-restoration-construction.jpg",
+      "filename": "hurricane-restoration-construction.jpg",
+      "alt": "hurricane restoration construction",
+      "context": "content",
+      "size": 142658
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/hurricane-restoration.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-restoration.jpg",
+      "filename": "hurricane-restoration.jpg",
+      "alt": "hurricane restoration",
+      "context": "content",
+      "size": 430135
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/image (2).jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/image (2).jpeg",
+      "filename": "image (2).jpeg",
+      "alt": "image (2)",
+      "context": "content",
+      "size": 4519
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/image-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/image-1.png",
+      "filename": "image-1.png",
+      "alt": "image",
+      "context": "content",
+      "size": 597126
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/image.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/image.png",
+      "filename": "image.png",
+      "alt": "image",
+      "context": "content",
+      "size": 1112924
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1053758464-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1053758464-612x612-1.jpg",
+      "filename": "istockphoto-1053758464-612x612-1.jpg",
+      "alt": "istockphoto 1053758464 612x612",
+      "context": "content",
+      "size": 47331
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1053758464-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1053758464-612x612-2.jpg",
+      "filename": "istockphoto-1053758464-612x612-2.jpg",
+      "alt": "istockphoto 1053758464 612x612",
+      "context": "content",
+      "size": 47331
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1171112097-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1171112097-612x612-1.jpg",
+      "filename": "istockphoto-1171112097-612x612-1.jpg",
+      "alt": "istockphoto 1171112097 612x612",
+      "context": "content",
+      "size": 45671
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1179563992-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1179563992-612x612-1.jpg",
+      "filename": "istockphoto-1179563992-612x612-1.jpg",
+      "alt": "istockphoto 1179563992 612x612",
+      "context": "content",
+      "size": 68490
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1251274075-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1251274075-612x612-1.jpg",
+      "filename": "istockphoto-1251274075-612x612-1.jpg",
+      "alt": "istockphoto 1251274075 612x612",
+      "context": "content",
+      "size": 35115
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1254088510-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1254088510-612x612-1.jpg",
+      "filename": "istockphoto-1254088510-612x612-1.jpg",
+      "alt": "istockphoto 1254088510 612x612",
+      "context": "content",
+      "size": 47284
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1277107370-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1277107370-612x612-1.jpg",
+      "filename": "istockphoto-1277107370-612x612-1.jpg",
+      "alt": "istockphoto 1277107370 612x612",
+      "context": "content",
+      "size": 47486
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1277563088-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1277563088-612x612-1.jpg",
+      "filename": "istockphoto-1277563088-612x612-1.jpg",
+      "alt": "istockphoto 1277563088 612x612",
+      "context": "content",
+      "size": 31341
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1277563088-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1277563088-612x612-2.jpg",
+      "filename": "istockphoto-1277563088-612x612-2.jpg",
+      "alt": "istockphoto 1277563088 612x612",
+      "context": "content",
+      "size": 31341
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1286516900-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1286516900-612x612-1.jpg",
+      "filename": "istockphoto-1286516900-612x612-1.jpg",
+      "alt": "istockphoto 1286516900 612x612",
+      "context": "content",
+      "size": 53305
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1303243385-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1303243385-612x612-1.jpg",
+      "filename": "istockphoto-1303243385-612x612-1.jpg",
+      "alt": "istockphoto 1303243385 612x612",
+      "context": "content",
+      "size": 84804
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1339300601-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1339300601-612x612-1.jpg",
+      "filename": "istockphoto-1339300601-612x612-1.jpg",
+      "alt": "istockphoto 1339300601 612x612",
+      "context": "content",
+      "size": 27162
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1359667366-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1359667366-612x612-1.jpg",
+      "filename": "istockphoto-1359667366-612x612-1.jpg",
+      "alt": "istockphoto 1359667366 612x612",
+      "context": "content",
+      "size": 73785
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1390498854-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1390498854-612x612-1.jpg",
+      "filename": "istockphoto-1390498854-612x612-1.jpg",
+      "alt": "istockphoto 1390498854 612x612",
+      "context": "content",
+      "size": 53909
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1414253390-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1414253390-612x612-1.jpg",
+      "filename": "istockphoto-1414253390-612x612-1.jpg",
+      "alt": "istockphoto 1414253390 612x612",
+      "context": "content",
+      "size": 55586
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1419944650-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1419944650-612x612-1.jpg",
+      "filename": "istockphoto-1419944650-612x612-1.jpg",
+      "alt": "istockphoto 1419944650 612x612",
+      "context": "content",
+      "size": 28732
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1434398156-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1434398156-612x612-1.jpg",
+      "filename": "istockphoto-1434398156-612x612-1.jpg",
+      "alt": "istockphoto 1434398156 612x612",
+      "context": "content",
+      "size": 37189
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1445089396-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1445089396-612x612-1.jpg",
+      "filename": "istockphoto-1445089396-612x612-1.jpg",
+      "alt": "istockphoto 1445089396 612x612",
+      "context": "content",
+      "size": 24984
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1466479792-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1466479792-612x612-1.jpg",
+      "filename": "istockphoto-1466479792-612x612-1.jpg",
+      "alt": "istockphoto 1466479792 612x612",
+      "context": "content",
+      "size": 30280
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1467191379-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1467191379-612x612-1.jpg",
+      "filename": "istockphoto-1467191379-612x612-1.jpg",
+      "alt": "istockphoto 1467191379 612x612",
+      "context": "content",
+      "size": 22151
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1723642646-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1723642646-612x612-1.jpg",
+      "filename": "istockphoto-1723642646-612x612-1.jpg",
+      "alt": "istockphoto 1723642646 612x612",
+      "context": "content",
+      "size": 25049
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-1802726829-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1802726829-612x612-1.jpg",
+      "filename": "istockphoto-1802726829-612x612-1.jpg",
+      "alt": "istockphoto 1802726829 612x612",
+      "context": "content",
+      "size": 65846
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-466124619-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-466124619-612x612-1.jpg",
+      "filename": "istockphoto-466124619-612x612-1.jpg",
+      "alt": "istockphoto 466124619 612x612",
+      "context": "content",
+      "size": 57389
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-504382878-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-504382878-612x612-1.jpg",
+      "filename": "istockphoto-504382878-612x612-1.jpg",
+      "alt": "istockphoto 504382878 612x612",
+      "context": "content",
+      "size": 54867
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/istockphoto-96311870-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-96311870-612x612-1.jpg",
+      "filename": "istockphoto-96311870-612x612-1.jpg",
+      "alt": "istockphoto 96311870 612x612",
+      "context": "content",
+      "size": 53986
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/italian-club-tampa.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/italian-club-tampa.jpg",
+      "filename": "italian-club-tampa.jpg",
+      "alt": "italian club tampa",
+      "context": "content",
+      "size": 562960
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/mall-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/mall-2.jpg",
+      "filename": "mall-2.jpg",
+      "alt": "mall",
+      "context": "content",
+      "size": 93791
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/mall-front.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/mall-front.jpg",
+      "filename": "mall-front.jpg",
+      "alt": "mall front",
+      "context": "content",
+      "size": 58485
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/maya-patel.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/maya-patel.jpg",
+      "filename": "maya-patel.jpg",
+      "alt": "maya patel",
+      "context": "content",
+      "size": 191110
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/mines1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/mines1.png",
+      "filename": "mines1.png",
+      "alt": "mines",
+      "context": "content",
+      "size": 68222
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/mines2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/mines2.png",
+      "filename": "mines2.png",
+      "alt": "mines",
+      "context": "content",
+      "size": 155641
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/new-home-1664272_1280-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/new-home-1664272_1280-1.jpg",
+      "filename": "new-home-1664272_1280-1.jpg",
+      "alt": "new home 1664272 1280",
+      "context": "content",
+      "size": 403380
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/new-home-1664272_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/new-home-1664272_1280.jpg",
+      "filename": "new-home-1664272_1280.jpg",
+      "alt": "new home 1664272",
+      "context": "content",
+      "size": 403380
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/new-home-1664284_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/new-home-1664284_1280.jpg",
+      "filename": "new-home-1664284_1280.jpg",
+      "alt": "new home 1664284",
+      "context": "content",
+      "size": 408567
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/office-building-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/office-building-1.jpg",
+      "filename": "office-building-1.jpg",
+      "alt": "office building",
+      "context": "content",
+      "size": 164908
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/office-building-14.jpg.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/office-building-14.jpg.webp",
+      "filename": "office-building-14.jpg.webp",
+      "alt": "office building 14.jpg",
+      "context": "content",
+      "size": 54098
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/placeholder-1.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/placeholder-1.png",
+      "filename": "placeholder-1.png",
+      "alt": "placeholder",
+      "context": "content",
+      "size": 5443
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/plant-high-school.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/plant-high-school.webp",
+      "filename": "plant-high-school.webp",
+      "alt": "plant high school",
+      "context": "content",
+      "size": 97172
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/railing-replacement-best-practices-condos.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/railing-replacement-best-practices-condos.webp",
+      "filename": "railing-replacement-best-practices-condos.webp",
+      "alt": "railing replacement best practices condos",
+      "context": "content",
+      "size": 145378
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/rebuild-superJumbo.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/rebuild-superJumbo.jpg",
+      "filename": "rebuild-superJumbo.jpg",
+      "alt": "rebuild superJumbo",
+      "context": "content",
+      "size": 237643
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/roof-truss-3339206_1280.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/roof-truss-3339206_1280.jpg",
+      "filename": "roof-truss-3339206_1280.jpg",
+      "alt": "roof truss 3339206",
+      "context": "content",
+      "size": 234105
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/roofing-construction-job.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/roofing-construction-job.jpg",
+      "filename": "roofing-construction-job.jpg",
+      "alt": "roofing construction job",
+      "context": "content",
+      "size": 120773
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/southwinds-condo-front.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/southwinds-condo-front.jpeg",
+      "filename": "southwinds-condo-front.jpeg",
+      "alt": "southwinds condo front",
+      "context": "content",
+      "size": 281897
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/southwinds-condo-rear.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/southwinds-condo-rear.jpeg",
+      "filename": "southwinds-condo-rear.jpeg",
+      "alt": "southwinds condo rear",
+      "context": "content",
+      "size": 367853
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/tampa.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/tampa.jpeg",
+      "filename": "tampa.jpeg",
+      "alt": "tampa",
+      "context": "content",
+      "size": 101334
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/thumb-1920-1105677.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/thumb-1920-1105677.jpg",
+      "filename": "thumb-1920-1105677.jpg",
+      "alt": "thumb 1920",
+      "context": "content",
+      "size": 425826
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/tiara-singer-island-hero.23.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/tiara-singer-island-hero.23.webp",
+      "filename": "tiara-singer-island-hero.23.webp",
+      "alt": "tiara singer island hero.",
+      "context": "hero",
+      "size": 217176
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/waterproofing.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/waterproofing.jpeg",
+      "filename": "waterproofing.jpeg",
+      "alt": "waterproofing",
+      "context": "content",
+      "size": 88056
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/wellington-polo-club-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/wellington-polo-club-1.jpg",
+      "filename": "wellington-polo-club-1.jpg",
+      "alt": "wellington polo club",
+      "context": "content",
+      "size": 117752
+    },
+    {
+      "src": "/wp-content/uploads/2023/12/wellington-polo-club.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/wellington-polo-club.jpg",
+      "filename": "wellington-polo-club.jpg",
+      "alt": "wellington polo club",
+      "context": "content",
+      "size": 117752
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.1.jpg",
+      "filename": "1.1.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 44437
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.2.jpg",
+      "filename": "1.2.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 77518
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.3.jpg",
+      "filename": "1.3.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 56456
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.4.jpg",
+      "filename": "1.4.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 34068
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.5.jpg",
+      "filename": "1.5.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 50337
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.6.jpg",
+      "filename": "1.6.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 53344
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.7.jpg",
+      "filename": "1.7.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 37973
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1.8.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.8.jpg",
+      "filename": "1.8.jpg",
+      "alt": "1.",
+      "context": "content",
+      "size": 55824
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/100.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/100.jpg",
+      "filename": "100.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 76526
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/111.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/111.jpg",
+      "filename": "111.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 27593
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1111.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1111.jpg",
+      "filename": "1111.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 50248
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1122.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1122.jpg",
+      "filename": "1122.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 47973
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/1133.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1133.jpg",
+      "filename": "1133.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 61330
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/11f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/11f.webp",
+      "filename": "11f.webp",
+      "alt": "11f",
+      "context": "content",
+      "size": 187444
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/13f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/13f.jpg",
+      "filename": "13f.jpg",
+      "alt": "13f",
+      "context": "content",
+      "size": 26289
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/16f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/16f.jpg",
+      "filename": "16f.jpg",
+      "alt": "16f",
+      "context": "content",
+      "size": 53790
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.1-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.1-1.jpg",
+      "filename": "2.1-1.jpg",
+      "alt": "2.1",
+      "context": "content",
+      "size": 54957
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.1.jpg",
+      "filename": "2.1.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 54957
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.2.jpg",
+      "filename": "2.2.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 27287
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.3.jpg",
+      "filename": "2.3.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 31355
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.5.jpg",
+      "filename": "2.5.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 67098
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.6.jpg",
+      "filename": "2.6.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 68900
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.7.jpg",
+      "filename": "2.7.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 36445
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2.8.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.8.jpg",
+      "filename": "2.8.jpg",
+      "alt": "2.",
+      "context": "content",
+      "size": 60612
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/200Park_1024_1673461322.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/200Park_1024_1673461322.jpg",
+      "filename": "200Park_1024_1673461322.jpg",
+      "alt": "200Park 1024",
+      "context": "content",
+      "size": 235785
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/21.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/21.jpg",
+      "filename": "21.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 45557
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/21f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/21f.jpg",
+      "filename": "21f.jpg",
+      "alt": "21f",
+      "context": "content",
+      "size": 10769
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/222.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/222.jpg",
+      "filename": "222.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 36047
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2222.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2222.jpg",
+      "filename": "2222.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 22827
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2f.jpg",
+      "filename": "2f.jpg",
+      "alt": "2f",
+      "context": "content",
+      "size": 52288
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/2f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2f.webp",
+      "filename": "2f.webp",
+      "alt": "2f",
+      "context": "content",
+      "size": 436440
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/3.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3.1.jpg",
+      "filename": "3.1.jpg",
+      "alt": "3.",
+      "context": "content",
+      "size": 41402
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/3.2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3.2.jpg",
+      "filename": "3.2.jpg",
+      "alt": "3.",
+      "context": "content",
+      "size": 38378
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/3.3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3.3.jpg",
+      "filename": "3.3.jpg",
+      "alt": "3.",
+      "context": "content",
+      "size": 11964
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/3.4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3.4.jpg",
+      "filename": "3.4.jpg",
+      "alt": "3.",
+      "context": "content",
+      "size": 12404
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/31f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/31f.jpg",
+      "filename": "31f.jpg",
+      "alt": "31f",
+      "context": "content",
+      "size": 9195
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/32f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/32f.jpg",
+      "filename": "32f.jpg",
+      "alt": "32f",
+      "context": "content",
+      "size": 58428
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/333.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/333.jpg",
+      "filename": "333.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 49160
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/33f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/33f.jpg",
+      "filename": "33f.jpg",
+      "alt": "33f",
+      "context": "content",
+      "size": 64332
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/34f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/34f.jpg",
+      "filename": "34f.jpg",
+      "alt": "34f",
+      "context": "content",
+      "size": 9704
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/35f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/35f.jpg",
+      "filename": "35f.jpg",
+      "alt": "35f",
+      "context": "content",
+      "size": 12335
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/36f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/36f.webp",
+      "filename": "36f.webp",
+      "alt": "36f",
+      "context": "content",
+      "size": 73430
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/37f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/37f.webp",
+      "filename": "37f.webp",
+      "alt": "37f",
+      "context": "content",
+      "size": 46680
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/3f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3f.jpg",
+      "filename": "3f.jpg",
+      "alt": "3f",
+      "context": "content",
+      "size": 7397
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/4.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.1.jpg",
+      "filename": "4.1.jpg",
+      "alt": "4.",
+      "context": "content",
+      "size": 52484
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/4.2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.2.jpg",
+      "filename": "4.2.jpg",
+      "alt": "4.",
+      "context": "content",
+      "size": 8798
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/4.3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.3.jpg",
+      "filename": "4.3.jpg",
+      "alt": "4.",
+      "context": "content",
+      "size": 12917
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/4.4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.4.jpg",
+      "filename": "4.4.jpg",
+      "alt": "4.",
+      "context": "content",
+      "size": 327757
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/40f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/40f.jpg",
+      "filename": "40f.jpg",
+      "alt": "40f",
+      "context": "content",
+      "size": 161431
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/41f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/41f.jpg",
+      "filename": "41f.jpg",
+      "alt": "41f",
+      "context": "content",
+      "size": 62539
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/42f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/42f.webp",
+      "filename": "42f.webp",
+      "alt": "42f",
+      "context": "content",
+      "size": 40328
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/45f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/45f.webp",
+      "filename": "45f.webp",
+      "alt": "45f",
+      "context": "content",
+      "size": 60998
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/4f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4f.jpg",
+      "filename": "4f.jpg",
+      "alt": "4f",
+      "context": "content",
+      "size": 10710
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/5.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/5.1.jpg",
+      "filename": "5.1.jpg",
+      "alt": "5.",
+      "context": "content",
+      "size": 67207
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/51f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/51f.jpg",
+      "filename": "51f.jpg",
+      "alt": "51f",
+      "context": "content",
+      "size": 11516
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/52f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/52f.jpg",
+      "filename": "52f.jpg",
+      "alt": "52f",
+      "context": "content",
+      "size": 9982
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/53f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/53f.jpg",
+      "filename": "53f.jpg",
+      "alt": "53f",
+      "context": "content",
+      "size": 88734
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/54f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/54f.jpg",
+      "filename": "54f.jpg",
+      "alt": "54f",
+      "context": "content",
+      "size": 111573
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/555.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/555.jpg",
+      "filename": "555.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 31033
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/55f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/55f.jpg",
+      "filename": "55f.jpg",
+      "alt": "55f",
+      "context": "content",
+      "size": 207274
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/56f.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/56f.jpeg",
+      "filename": "56f.jpeg",
+      "alt": "56f",
+      "context": "content",
+      "size": 129327
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/57f.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/57f.webp",
+      "filename": "57f.webp",
+      "alt": "57f",
+      "context": "content",
+      "size": 47052
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6-Tips-For-A-Successful-Commercial-Building-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6-Tips-For-A-Successful-Commercial-Building-Construction.jpg",
+      "filename": "6-Tips-For-A-Successful-Commercial-Building-Construction.jpg",
+      "alt": "6 Tips For A Successful Commercial Building Construction",
+      "context": "content",
+      "size": 147861
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6.1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.1.jpg",
+      "filename": "6.1.jpg",
+      "alt": "6.",
+      "context": "content",
+      "size": 46575
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6.2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.2.jpg",
+      "filename": "6.2.jpg",
+      "alt": "6.",
+      "context": "content",
+      "size": 41407
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6.3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.3.jpg",
+      "filename": "6.3.jpg",
+      "alt": "6.",
+      "context": "content",
+      "size": 35706
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6.4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.4.jpg",
+      "filename": "6.4.jpg",
+      "alt": "6.",
+      "context": "content",
+      "size": 38016
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/666.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/666.jpg",
+      "filename": "666.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 39575
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/6f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6f.jpg",
+      "filename": "6f.jpg",
+      "alt": "6f",
+      "context": "content",
+      "size": 10769
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/7777.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/7777.jpg",
+      "filename": "7777.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 31295
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/7f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/7f.jpg",
+      "filename": "7f.jpg",
+      "alt": "7f",
+      "context": "content",
+      "size": 11793
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/8888.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/8888.jpg",
+      "filename": "8888.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 65294
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/8f.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/8f.jpg",
+      "filename": "8f.jpg",
+      "alt": "8f",
+      "context": "content",
+      "size": 12082
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/999.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/999.jpg",
+      "filename": "999.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 62504
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/9999.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/9999.jpg",
+      "filename": "9999.jpg",
+      "alt": "",
+      "context": "content",
+      "size": 39457
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+      "filename": "Building-Materials-in-Commercial-Construction.jpg",
+      "alt": "Building Materials in Commercial Construction",
+      "context": "content",
+      "size": 27043
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Building-Plans-for-Businesses.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Plans-for-Businesses.jpg",
+      "filename": "Building-Plans-for-Businesses.jpg",
+      "alt": "Building Plans for Businesses",
+      "context": "content",
+      "size": 34114
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Building-Renovation-and-Reconstruction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Renovation-and-Reconstruction.jpg",
+      "filename": "Building-Renovation-and-Reconstruction.jpg",
+      "alt": "Building Renovation and Reconstruction",
+      "context": "content",
+      "size": 41864
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Canstar-836251910.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Canstar-836251910.jpg",
+      "filename": "Canstar-836251910.jpg",
+      "alt": "Canstar",
+      "context": "content",
+      "size": 36290
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Choosing-the-Perfect-Location-for-Commercial-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Choosing-the-Perfect-Location-for-Commercial-Construction.jpg",
+      "filename": "Choosing-the-Perfect-Location-for-Commercial-Construction.jpg",
+      "alt": "Choosing the Perfect Location for Commercial Construction",
+      "context": "content",
+      "size": 46900
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Buildings-Facade-Renovations.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Buildings-Facade-Renovations.jpg",
+      "filename": "Commercial-Buildings-Facade-Renovations.jpg",
+      "alt": "Commercial Buildings Facade Renovations",
+      "context": "content",
+      "size": 67565
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-Costs.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Costs.jpg",
+      "filename": "Commercial-Construction-Costs.jpg",
+      "alt": "Commercial Construction Costs",
+      "context": "content",
+      "size": 33141
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-Design.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Design.jpg",
+      "filename": "Commercial-Construction-Design.jpg",
+      "alt": "Commercial Construction Design",
+      "context": "content",
+      "size": 35908
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-Ideas-for-Mall-Revamp-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Ideas-for-Mall-Revamp-1.jpg",
+      "filename": "Commercial-Construction-Ideas-for-Mall-Revamp-1.jpg",
+      "alt": "Commercial Construction Ideas for Mall Revamp",
+      "context": "content",
+      "size": 58974
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-Safety-Specialists.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Safety-Specialists.jpg",
+      "filename": "Commercial-Construction-Safety-Specialists.jpg",
+      "alt": "Commercial Construction Safety Specialists",
+      "context": "content",
+      "size": 47627
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-Trends.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Trends.jpg",
+      "filename": "Commercial-Construction-Trends.jpg",
+      "alt": "Commercial Construction Trends",
+      "context": "content",
+      "size": 35170
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Construction-in-Tampa.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-in-Tampa.jpg",
+      "filename": "Commercial-Construction-in-Tampa.jpg",
+      "alt": "Commercial Construction in Tampa",
+      "context": "content",
+      "size": 50378
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Modular-Construction-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Modular-Construction-1.jpg",
+      "filename": "Commercial-Modular-Construction-1.jpg",
+      "alt": "Commercial Modular Construction",
+      "context": "content",
+      "size": 60890
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Modular-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Modular-Construction.jpg",
+      "filename": "Commercial-Modular-Construction.jpg",
+      "alt": "Commercial Modular Construction",
+      "context": "content",
+      "size": 60890
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Renovation.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Renovation.jpg",
+      "filename": "Commercial-Renovation.jpg",
+      "alt": "Commercial Renovation",
+      "context": "content",
+      "size": 35333
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Space-Solutions.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Space-Solutions.jpg",
+      "filename": "Commercial-Space-Solutions.jpg",
+      "alt": "Commercial Space Solutions",
+      "context": "content",
+      "size": 38047
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial-Sprinklers-for-Renovation.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Sprinklers-for-Renovation.jpg",
+      "filename": "Commercial-Sprinklers-for-Renovation.jpg",
+      "alt": "Commercial Sprinklers for Renovation",
+      "context": "content",
+      "size": 88321
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/CommercialArchitects_3_Tampa_-Pinellas-County-Forensic-Science-Center.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/CommercialArchitects_3_Tampa_-Pinellas-County-Forensic-Science-Center.jpg",
+      "filename": "CommercialArchitects_3_Tampa_-Pinellas-County-Forensic-Science-Center.jpg",
+      "alt": "CommercialArchitects 3 Tampa  Pinellas County Forensic Science Center",
+      "context": "content",
+      "size": 128956
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Commercial_permit.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial_permit.jpg",
+      "filename": "Commercial_permit.jpg",
+      "alt": "Commercial permit",
+      "context": "content",
+      "size": 122392
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Construction-Market-Research-in-Florida.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction-Market-Research-in-Florida.jpg",
+      "filename": "Construction-Market-Research-in-Florida.jpg",
+      "alt": "Construction Market Research in Florida",
+      "context": "content",
+      "size": 109508
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Construction-PG-Page-Images.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction-PG-Page-Images.jpg",
+      "filename": "Construction-PG-Page-Images.jpg",
+      "alt": "Construction PG Page Images",
+      "context": "content",
+      "size": 735545
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Construction-Project-Management-and-Scheduling.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction-Project-Management-and-Scheduling.jpg",
+      "filename": "Construction-Project-Management-and-Scheduling.jpg",
+      "alt": "Construction Project Management and Scheduling",
+      "context": "content",
+      "size": 50641
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Construction.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction.webp",
+      "filename": "Construction.webp",
+      "alt": "Construction",
+      "context": "content",
+      "size": 244030
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Construction_Materials-1100x576-1.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction_Materials-1100x576-1.webp",
+      "filename": "Construction_Materials-1100x576-1.webp",
+      "alt": "Construction Materials 1100x576",
+      "context": "content",
+      "size": 115670
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Converting-Retail-Building-into-MultiTenant-Space.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Converting-Retail-Building-into-MultiTenant-Space.jpg",
+      "filename": "Converting-Retail-Building-into-MultiTenant-Space.jpg",
+      "alt": "Converting Retail Building into MultiTenant Space",
+      "context": "content",
+      "size": 58601
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+      "filename": "Custom-home-2-rotated-1.jpg",
+      "alt": "Custom home 2 rotated",
+      "context": "content",
+      "size": 121831
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+      "filename": "Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+      "alt": "Custom home 2 rotated lines scale 4 00x gigapixel",
+      "context": "content",
+      "size": 463731
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Efficient-Commercial-Construction-Timelines-in-Tampa-by-Florida-Construction-Specialists.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Efficient-Commercial-Construction-Timelines-in-Tampa-by-Florida-Construction-Specialists.jpg",
+      "filename": "Efficient-Commercial-Construction-Timelines-in-Tampa-by-Florida-Construction-Specialists.jpg",
+      "alt": "Efficient Commercial Construction Timelines in Tampa by Florida Construction Specialists",
+      "context": "content",
+      "size": 10862
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Employee-Communication-with-Office-Layout.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Employee-Communication-with-Office-Layout.jpg",
+      "filename": "Employee-Communication-with-Office-Layout.jpg",
+      "alt": "Employee Communication with Office Layout",
+      "context": "content",
+      "size": 49578
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Experienced-Design-Build-Firm.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Experienced-Design-Build-Firm.jpg",
+      "filename": "Experienced-Design-Build-Firm.jpg",
+      "alt": "Experienced Design Build Firm",
+      "context": "content",
+      "size": 47256
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Experienced-Project-Managers.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Experienced-Project-Managers.jpg",
+      "filename": "Experienced-Project-Managers.jpg",
+      "alt": "Experienced Project Managers",
+      "context": "content",
+      "size": 44831
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Gandy-Sherwood-Townhomes.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Gandy-Sherwood-Townhomes.jpeg",
+      "filename": "Gandy-Sherwood-Townhomes.jpeg",
+      "alt": "Gandy Sherwood Townhomes",
+      "context": "content",
+      "size": 108986
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Hora-punta-en-el-rio-Sumida-de-Tokio-Rush-hour-on-Tokyos-Sumida-river.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Hora-punta-en-el-rio-Sumida-de-Tokio-Rush-hour-on-Tokyos-Sumida-river.webp",
+      "filename": "Hora-punta-en-el-rio-Sumida-de-Tokio-Rush-hour-on-Tokyos-Sumida-river.webp",
+      "alt": "Hora punta en el rio Sumida de Tokio Rush hour on Tokyos Sumida river",
+      "context": "content",
+      "size": 99858
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+      "filename": "How-to-prevent-your-home-from-flooding.jpg",
+      "alt": "How to prevent your home from flooding",
+      "context": "content",
+      "size": 257460
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Leading-Commercial-Contractors.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Leading-Commercial-Contractors.jpg",
+      "filename": "Leading-Commercial-Contractors.jpg",
+      "alt": "Leading Commercial Contractors",
+      "context": "content",
+      "size": 61689
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Mold-Inspection.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Mold-Inspection.webp",
+      "filename": "Mold-Inspection.webp",
+      "alt": "Mold Inspection",
+      "context": "content",
+      "size": 24768
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Oahu-Wind-Storm-Damage-Repair-Services-1024x683-1.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Oahu-Wind-Storm-Damage-Repair-Services-1024x683-1.webp",
+      "filename": "Oahu-Wind-Storm-Damage-Repair-Services-1024x683-1.webp",
+      "alt": "Oahu Wind Storm Damage Repair Services 1024x683",
+      "context": "content",
+      "size": 140842
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Quality-Construction-Materials.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Quality-Construction-Materials.jpg",
+      "filename": "Quality-Construction-Materials.jpg",
+      "alt": "Quality Construction Materials",
+      "context": "content",
+      "size": 63688
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Quality-Inn-Bradenton.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Quality-Inn-Bradenton.jpg",
+      "filename": "Quality-Inn-Bradenton.jpg",
+      "alt": "Quality Inn Bradenton",
+      "context": "content",
+      "size": 483805
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Revolutionizing-Commercial-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Revolutionizing-Commercial-Construction.jpg",
+      "filename": "Revolutionizing-Commercial-Construction.jpg",
+      "alt": "Revolutionizing Commercial Construction",
+      "context": "content",
+      "size": 35765
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Stages-of-Construction-Project-Management.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Stages-of-Construction-Project-Management.jpg",
+      "filename": "Stages-of-Construction-Project-Management.jpg",
+      "alt": "Stages of Construction Project Management",
+      "context": "content",
+      "size": 74036
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Summer-Construction-Safety-Tips.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Summer-Construction-Safety-Tips.jpg",
+      "filename": "Summer-Construction-Safety-Tips.jpg",
+      "alt": "Summer Construction Safety Tips",
+      "context": "content",
+      "size": 30222
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Sustainable-Materials-in-Commercial-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Sustainable-Materials-in-Commercial-Construction.jpg",
+      "filename": "Sustainable-Materials-in-Commercial-Construction.jpg",
+      "alt": "Sustainable Materials in Commercial Construction",
+      "context": "content",
+      "size": 47032
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Tampa-Heights-1-MAIN.jpg.optimal.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Tampa-Heights-1-MAIN.jpg.optimal.jpg",
+      "filename": "Tampa-Heights-1-MAIN.jpg.optimal.jpg",
+      "alt": "Tampa Heights 1 MAIN.jpg.optimal",
+      "context": "content",
+      "size": 298425
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Tiara-Condos-on-Singer-Island.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Tiara-Condos-on-Singer-Island.jpg",
+      "filename": "Tiara-Condos-on-Singer-Island.jpg",
+      "alt": "Tiara Condos on Singer Island",
+      "context": "content",
+      "size": 97237
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Unlocking-the-Secrets-to-Successful-Restaurant-Design-with-Florida-Construction-Specialists.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Unlocking-the-Secrets-to-Successful-Restaurant-Design-with-Florida-Construction-Specialists.jpg",
+      "filename": "Unlocking-the-Secrets-to-Successful-Restaurant-Design-with-Florida-Construction-Specialists.jpg",
+      "alt": "Unlocking the Secrets to Successful Restaurant Design with Florida Construction Specialists",
+      "context": "content",
+      "size": 61201
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Utility-Mapping-for-Commercial-Buildings.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Utility-Mapping-for-Commercial-Buildings.jpg",
+      "filename": "Utility-Mapping-for-Commercial-Buildings.jpg",
+      "alt": "Utility Mapping for Commercial Buildings",
+      "context": "content",
+      "size": 43098
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Value-Engineering-in-Commercial-Construction1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Value-Engineering-in-Commercial-Construction1.jpg",
+      "filename": "Value-Engineering-in-Commercial-Construction1.jpg",
+      "alt": "Value Engineering in Commercial Construction",
+      "context": "content",
+      "size": 40267
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Vandalism-2-1024x576-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Vandalism-2-1024x576-1.jpg",
+      "filename": "Vandalism-2-1024x576-1.jpg",
+      "alt": "Vandalism 2 1024x576",
+      "context": "content",
+      "size": 15127
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/Zero-Net-Energy-Boosting-Commercial-Construction.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Zero-Net-Energy-Boosting-Commercial-Construction.jpg",
+      "filename": "Zero-Net-Energy-Boosting-Commercial-Construction.jpg",
+      "alt": "Zero Net Energy Boosting Commercial Construction",
+      "context": "content",
+      "size": 62228
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/adaptation_2019.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/adaptation_2019.jpg",
+      "filename": "adaptation_2019.jpg",
+      "alt": "adaptation",
+      "context": "content",
+      "size": 473976
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/blueprints.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/blueprints.jpg",
+      "filename": "blueprints.jpg",
+      "alt": "blueprints",
+      "context": "content",
+      "size": 39445
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/commercial-remodeling-contractors.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/commercial-remodeling-contractors.jpg",
+      "filename": "commercial-remodeling-contractors.jpg",
+      "alt": "commercial remodeling contractors",
+      "context": "content",
+      "size": 41991
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/d1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d1.jpg",
+      "filename": "d1.jpg",
+      "alt": "d",
+      "context": "content",
+      "size": 19435
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/d2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d2.jpg",
+      "filename": "d2.jpg",
+      "alt": "d",
+      "context": "content",
+      "size": 87809
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/d3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d3.jpg",
+      "filename": "d3.jpg",
+      "alt": "d",
+      "context": "content",
+      "size": 274696
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/d5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d5.jpg",
+      "filename": "d5.jpg",
+      "alt": "d",
+      "context": "content",
+      "size": 12198
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/d6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d6.jpg",
+      "filename": "d6.jpg",
+      "alt": "d",
+      "context": "content",
+      "size": 15181
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-1-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-1-1.jpg",
+      "filename": "download-1-1.jpg",
+      "alt": "download 1",
+      "context": "content",
+      "size": 10841
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-1.jpg",
+      "filename": "download-1.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 10841
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-10.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-10.jpg",
+      "filename": "download-10.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 12517
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-11.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-11.jpg",
+      "filename": "download-11.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 12288
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-2.jpg",
+      "filename": "download-2.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 13400
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-3.jpg",
+      "filename": "download-3.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 15175
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-4.jpg",
+      "filename": "download-4.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 8865
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-5.jpg",
+      "filename": "download-5.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 9597
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-6-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-6-1.jpg",
+      "filename": "download-6-1.jpg",
+      "alt": "download 6",
+      "context": "content",
+      "size": 10454
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-6.jpg",
+      "filename": "download-6.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 10454
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-7.jpg",
+      "filename": "download-7.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 7187
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download-9.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-9.jpg",
+      "filename": "download-9.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 13088
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/download.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download.jpg",
+      "filename": "download.jpg",
+      "alt": "download",
+      "context": "content",
+      "size": 8531
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e1.jpg",
+      "filename": "e1.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 29492
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e10.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e10.jpg",
+      "filename": "e10.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 169001
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e11.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e11.jpg",
+      "filename": "e11.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 63260
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e2.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e2.webp",
+      "filename": "e2.webp",
+      "alt": "e",
+      "context": "content",
+      "size": 74676
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e3-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e3-1.jpg",
+      "filename": "e3-1.jpg",
+      "alt": "e3",
+      "context": "content",
+      "size": 29815
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e3.jpg",
+      "filename": "e3.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 29815
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e4.jpg",
+      "filename": "e4.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 11774
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e6.jpg",
+      "filename": "e6.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 275358
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e7.jpg",
+      "filename": "e7.jpg",
+      "alt": "e",
+      "context": "content",
+      "size": 107650
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e8.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e8.png",
+      "filename": "e8.png",
+      "alt": "e",
+      "context": "content",
+      "size": 223786
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/e9.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e9.jpeg",
+      "filename": "e9.jpeg",
+      "alt": "e",
+      "context": "content",
+      "size": 89579
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f10.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f10.jpg",
+      "filename": "f10.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 8144
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f12.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f12.jpg",
+      "filename": "f12.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 11108
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f14.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f14.jpg",
+      "filename": "f14.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 22876
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f2.jpg",
+      "filename": "f2.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 10857
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f5.jpg",
+      "filename": "f5.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 11545
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/f6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f6.jpg",
+      "filename": "f6.jpg",
+      "alt": "f",
+      "context": "content",
+      "size": 8499
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g1.jpeg",
+      "filename": "g1.jpeg",
+      "alt": "g",
+      "context": "content",
+      "size": 114744
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g2.jpg",
+      "filename": "g2.jpg",
+      "alt": "g",
+      "context": "content",
+      "size": 126439
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g3.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g3.webp",
+      "filename": "g3.webp",
+      "alt": "g",
+      "context": "content",
+      "size": 57524
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g4.jpg",
+      "filename": "g4.jpg",
+      "alt": "g",
+      "context": "content",
+      "size": 12502
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g5.webp",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g5.webp",
+      "filename": "g5.webp",
+      "alt": "g",
+      "context": "content",
+      "size": 50054
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g6.jpg",
+      "filename": "g6.jpg",
+      "alt": "g",
+      "context": "content",
+      "size": 43758
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/g8.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g8.jpg",
+      "filename": "g8.jpg",
+      "alt": "g",
+      "context": "content",
+      "size": 90517
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/gettyimages-1135050517_900xx2121-1193-0-111.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/gettyimages-1135050517_900xx2121-1193-0-111.jpg",
+      "filename": "gettyimages-1135050517_900xx2121-1193-0-111.jpg",
+      "alt": "gettyimages 1135050517 900xx2121 1193 0",
+      "context": "content",
+      "size": 64555
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/h1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/h1.jpg",
+      "filename": "h1.jpg",
+      "alt": "h",
+      "context": "content",
+      "size": 147899
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/h2.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/h2.png",
+      "filename": "h2.png",
+      "alt": "h",
+      "context": "content",
+      "size": 226302
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/h4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/h4.jpg",
+      "filename": "h4.jpg",
+      "alt": "h",
+      "context": "content",
+      "size": 5830
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/hire-top-commercial-contractor.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/hire-top-commercial-contractor.jpg",
+      "filename": "hire-top-commercial-contractor.jpg",
+      "alt": "hire top commercial contractor",
+      "context": "content",
+      "size": 61403
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/historicroundup_lead-750x750-1.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/historicroundup_lead-750x750-1.jpeg",
+      "filename": "historicroundup_lead-750x750-1.jpeg",
+      "alt": "historicroundup lead 750x750",
+      "context": "content",
+      "size": 123415
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i10.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i10.jpg",
+      "filename": "i10.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 14697
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i12.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i12.jpg",
+      "filename": "i12.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 125416
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i13.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i13.jpg",
+      "filename": "i13.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 77035
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i14.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i14.jpg",
+      "filename": "i14.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 128546
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i3.jpg",
+      "filename": "i3.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 216083
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i5.jpg",
+      "filename": "i5.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 503074
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i6.jpg",
+      "filename": "i6.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 128626
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i7-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i7-1.jpg",
+      "filename": "i7-1.jpg",
+      "alt": "i7",
+      "context": "content",
+      "size": 431888
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i7.jpg",
+      "filename": "i7.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 431888
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/i9.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i9.jpg",
+      "filename": "i9.jpg",
+      "alt": "i",
+      "context": "content",
+      "size": 835950
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/images-3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images-3.jpg",
+      "filename": "images-3.jpg",
+      "alt": "images",
+      "context": "content",
+      "size": 8440
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/images-4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images-4.jpg",
+      "filename": "images-4.jpg",
+      "alt": "images",
+      "context": "content",
+      "size": 10776
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/images-5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images-5.jpg",
+      "filename": "images-5.jpg",
+      "alt": "images",
+      "context": "content",
+      "size": 9110
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/images.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images.jpg",
+      "filename": "images.jpg",
+      "alt": "images",
+      "context": "content",
+      "size": 9343
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-0ojB60j37jPQHRNjYu5YaCNg.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-0ojB60j37jPQHRNjYu5YaCNg.png",
+      "filename": "img-0ojB60j37jPQHRNjYu5YaCNg.png",
+      "alt": "img 0ojB60j37jPQHRNjYu5YaCNg",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-1sXXGEnN9IhjIUr9kSeYUi7z.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-1sXXGEnN9IhjIUr9kSeYUi7z.png",
+      "filename": "img-1sXXGEnN9IhjIUr9kSeYUi7z.png",
+      "alt": "img 1sXXGEnN9IhjIUr9kSeYUi7z",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-4vMIg8KOXq5N4zs9k2xmJtNQ.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-4vMIg8KOXq5N4zs9k2xmJtNQ.png",
+      "filename": "img-4vMIg8KOXq5N4zs9k2xmJtNQ.png",
+      "alt": "img 4vMIg8KOXq5N4zs9k2xmJtNQ",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-6Kn8B9E8AyDY7YPXRC0uiBAK.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-6Kn8B9E8AyDY7YPXRC0uiBAK.png",
+      "filename": "img-6Kn8B9E8AyDY7YPXRC0uiBAK.png",
+      "alt": "img 6Kn8B9E8AyDY7YPXRC0uiBAK",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-AHtTu7buvR4odQPqMAh7bk1t.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-AHtTu7buvR4odQPqMAh7bk1t.png",
+      "filename": "img-AHtTu7buvR4odQPqMAh7bk1t.png",
+      "alt": "img AHtTu7buvR4odQPqMAh7bk1t",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-BJB1W4AGDVlcJylvckm4gZV5.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-BJB1W4AGDVlcJylvckm4gZV5.png",
+      "filename": "img-BJB1W4AGDVlcJylvckm4gZV5.png",
+      "alt": "img BJB1W4AGDVlcJylvckm4gZV",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-BLg240M3Q4oXagmWNK5ujmGO.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-BLg240M3Q4oXagmWNK5ujmGO.png",
+      "filename": "img-BLg240M3Q4oXagmWNK5ujmGO.png",
+      "alt": "img BLg240M3Q4oXagmWNK5ujmGO",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-E3GnMvbo2GHPB1dweFcU7M7B.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-E3GnMvbo2GHPB1dweFcU7M7B.png",
+      "filename": "img-E3GnMvbo2GHPB1dweFcU7M7B.png",
+      "alt": "img E3GnMvbo2GHPB1dweFcU7M7B",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-UbN2g2KBAw65VxSfDFKjBRZr.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-UbN2g2KBAw65VxSfDFKjBRZr.png",
+      "filename": "img-UbN2g2KBAw65VxSfDFKjBRZr.png",
+      "alt": "img UbN2g2KBAw65VxSfDFKjBRZr",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-WUwgZUNvmp5gt3UPXg34QAcQ.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-WUwgZUNvmp5gt3UPXg34QAcQ.png",
+      "filename": "img-WUwgZUNvmp5gt3UPXg34QAcQ.png",
+      "alt": "img WUwgZUNvmp5gt3UPXg34QAcQ",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-Y4wow5BPASoUjNxCHnk0CQhW.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-Y4wow5BPASoUjNxCHnk0CQhW.png",
+      "filename": "img-Y4wow5BPASoUjNxCHnk0CQhW.png",
+      "alt": "img Y4wow5BPASoUjNxCHnk0CQhW",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-aJyCrwaljmovr5b9x6OKn5KH.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-aJyCrwaljmovr5b9x6OKn5KH.png",
+      "filename": "img-aJyCrwaljmovr5b9x6OKn5KH.png",
+      "alt": "img aJyCrwaljmovr5b9x6OKn5KH",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-dRY6C08fKAk0ejJl6Mj3drCE.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-dRY6C08fKAk0ejJl6Mj3drCE.png",
+      "filename": "img-dRY6C08fKAk0ejJl6Mj3drCE.png",
+      "alt": "img dRY6C08fKAk0ejJl6Mj3drCE",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-dembcaHfhrn81EOGblVUDw0g.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-dembcaHfhrn81EOGblVUDw0g.png",
+      "filename": "img-dembcaHfhrn81EOGblVUDw0g.png",
+      "alt": "img dembcaHfhrn81EOGblVUDw0g",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-eM7zU5omSkpgZ1u08OHogIBO.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-eM7zU5omSkpgZ1u08OHogIBO.png",
+      "filename": "img-eM7zU5omSkpgZ1u08OHogIBO.png",
+      "alt": "img eM7zU5omSkpgZ1u08OHogIBO",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-pTwRlz8n36TUtVg7CWhm3u9M.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-pTwRlz8n36TUtVg7CWhm3u9M.png",
+      "filename": "img-pTwRlz8n36TUtVg7CWhm3u9M.png",
+      "alt": "img pTwRlz8n36TUtVg7CWhm3u9M",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-sis1Tmls7ev08rRvG4dqaOZz.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-sis1Tmls7ev08rRvG4dqaOZz.png",
+      "filename": "img-sis1Tmls7ev08rRvG4dqaOZz.png",
+      "alt": "img sis1Tmls7ev08rRvG4dqaOZz",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-vpp6iBbjPMwTXIGg7U84sp7a.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-vpp6iBbjPMwTXIGg7U84sp7a.png",
+      "filename": "img-vpp6iBbjPMwTXIGg7U84sp7a.png",
+      "alt": "img vpp6iBbjPMwTXIGg7U84sp7a",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-xUs83qvDbLALbzjnI80XD2RC.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-xUs83qvDbLALbzjnI80XD2RC.png",
+      "filename": "img-xUs83qvDbLALbzjnI80XD2RC.png",
+      "alt": "img xUs83qvDbLALbzjnI80XD2RC",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/img-yrsi9IJpna0bupoCPAiuz8l7.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/img-yrsi9IJpna0bupoCPAiuz8l7.png",
+      "filename": "img-yrsi9IJpna0bupoCPAiuz8l7.png",
+      "alt": "img yrsi9IJpna0bupoCPAiuz8l",
+      "context": "content",
+      "size": 5507874
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/insurance-restoration-services.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/insurance-restoration-services.jpg",
+      "filename": "insurance-restoration-services.jpg",
+      "alt": "insurance restoration services",
+      "context": "content",
+      "size": 60887
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1062007686-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1062007686-612x612-1.jpg",
+      "filename": "istockphoto-1062007686-612x612-1.jpg",
+      "alt": "istockphoto 1062007686 612x612",
+      "context": "content",
+      "size": 57348
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1089207726-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1089207726-612x612-1.jpg",
+      "filename": "istockphoto-1089207726-612x612-1.jpg",
+      "alt": "istockphoto 1089207726 612x612",
+      "context": "content",
+      "size": 74000
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1133542012-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1133542012-612x612-1.jpg",
+      "filename": "istockphoto-1133542012-612x612-1.jpg",
+      "alt": "istockphoto 1133542012 612x612",
+      "context": "content",
+      "size": 51012
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1135793095-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1135793095-612x612-1.jpg",
+      "filename": "istockphoto-1135793095-612x612-1.jpg",
+      "alt": "istockphoto 1135793095 612x612",
+      "context": "content",
+      "size": 45954
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1171642458-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1171642458-612x612-1.jpg",
+      "filename": "istockphoto-1171642458-612x612-1.jpg",
+      "alt": "istockphoto 1171642458 612x612",
+      "context": "content",
+      "size": 60238
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1182641892-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1182641892-612x612-1.jpg",
+      "filename": "istockphoto-1182641892-612x612-1.jpg",
+      "alt": "istockphoto 1182641892 612x612",
+      "context": "content",
+      "size": 49159
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1182641892-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1182641892-612x612-2.jpg",
+      "filename": "istockphoto-1182641892-612x612-2.jpg",
+      "alt": "istockphoto 1182641892 612x612",
+      "context": "content",
+      "size": 49159
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1189235635-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1189235635-612x612-1.jpg",
+      "filename": "istockphoto-1189235635-612x612-1.jpg",
+      "alt": "istockphoto 1189235635 612x612",
+      "context": "content",
+      "size": 65537
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1193143264-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1193143264-612x612-1.jpg",
+      "filename": "istockphoto-1193143264-612x612-1.jpg",
+      "alt": "istockphoto 1193143264 612x612",
+      "context": "content",
+      "size": 30621
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1204102934-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1204102934-612x612-1.jpg",
+      "filename": "istockphoto-1204102934-612x612-1.jpg",
+      "alt": "istockphoto 1204102934 612x612",
+      "context": "content",
+      "size": 25288
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1209265395-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1209265395-612x612-1.jpg",
+      "filename": "istockphoto-1209265395-612x612-1.jpg",
+      "alt": "istockphoto 1209265395 612x612",
+      "context": "content",
+      "size": 44894
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1209265395-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1209265395-612x612-2.jpg",
+      "filename": "istockphoto-1209265395-612x612-2.jpg",
+      "alt": "istockphoto 1209265395 612x612",
+      "context": "content",
+      "size": 44894
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1224026199-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1224026199-612x612-1.jpg",
+      "filename": "istockphoto-1224026199-612x612-1.jpg",
+      "alt": "istockphoto 1224026199 612x612",
+      "context": "content",
+      "size": 78414
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1252339421-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1252339421-612x612-1.jpg",
+      "filename": "istockphoto-1252339421-612x612-1.jpg",
+      "alt": "istockphoto 1252339421 612x612",
+      "context": "content",
+      "size": 36524
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1267010934-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1267010934-612x612-1.jpg",
+      "filename": "istockphoto-1267010934-612x612-1.jpg",
+      "alt": "istockphoto 1267010934 612x612",
+      "context": "content",
+      "size": 59792
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1277750229-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1277750229-612x612-1.jpg",
+      "filename": "istockphoto-1277750229-612x612-1.jpg",
+      "alt": "istockphoto 1277750229 612x612",
+      "context": "content",
+      "size": 61027
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1280750442-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1280750442-612x612-1.jpg",
+      "filename": "istockphoto-1280750442-612x612-1.jpg",
+      "alt": "istockphoto 1280750442 612x612",
+      "context": "content",
+      "size": 71598
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1284193221-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1284193221-612x612-1.jpg",
+      "filename": "istockphoto-1284193221-612x612-1.jpg",
+      "alt": "istockphoto 1284193221 612x612",
+      "context": "content",
+      "size": 56186
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1292475721-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1292475721-612x612-1.jpg",
+      "filename": "istockphoto-1292475721-612x612-1.jpg",
+      "alt": "istockphoto 1292475721 612x612",
+      "context": "content",
+      "size": 45618
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1297780288-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1297780288-612x612-1.jpg",
+      "filename": "istockphoto-1297780288-612x612-1.jpg",
+      "alt": "istockphoto 1297780288 612x612",
+      "context": "content",
+      "size": 56292
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1301768608-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1301768608-612x612-1.jpg",
+      "filename": "istockphoto-1301768608-612x612-1.jpg",
+      "alt": "istockphoto 1301768608 612x612",
+      "context": "content",
+      "size": 84627
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1313505546-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1313505546-612x612-1.jpg",
+      "filename": "istockphoto-1313505546-612x612-1.jpg",
+      "alt": "istockphoto 1313505546 612x612",
+      "context": "content",
+      "size": 52127
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1323310304-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1323310304-612x612-1.jpg",
+      "filename": "istockphoto-1323310304-612x612-1.jpg",
+      "alt": "istockphoto 1323310304 612x612",
+      "context": "content",
+      "size": 50559
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-1.jpg",
+      "filename": "istockphoto-1352673708-612x612-1.jpg",
+      "alt": "istockphoto 1352673708 612x612",
+      "context": "content",
+      "size": 33312
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-2.jpg",
+      "filename": "istockphoto-1352673708-612x612-2.jpg",
+      "alt": "istockphoto 1352673708 612x612",
+      "context": "content",
+      "size": 33312
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1354175335-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1354175335-612x612-1.jpg",
+      "filename": "istockphoto-1354175335-612x612-1.jpg",
+      "alt": "istockphoto 1354175335 612x612",
+      "context": "content",
+      "size": 47138
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1388264093-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1388264093-612x612-1.jpg",
+      "filename": "istockphoto-1388264093-612x612-1.jpg",
+      "alt": "istockphoto 1388264093 612x612",
+      "context": "content",
+      "size": 37917
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1389404840-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1389404840-612x612-1.jpg",
+      "filename": "istockphoto-1389404840-612x612-1.jpg",
+      "alt": "istockphoto 1389404840 612x612",
+      "context": "content",
+      "size": 26578
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1391768162-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1391768162-612x612-1.jpg",
+      "filename": "istockphoto-1391768162-612x612-1.jpg",
+      "alt": "istockphoto 1391768162 612x612",
+      "context": "content",
+      "size": 36376
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1402322179-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1402322179-612x612-1.jpg",
+      "filename": "istockphoto-1402322179-612x612-1.jpg",
+      "alt": "istockphoto 1402322179 612x612",
+      "context": "content",
+      "size": 51939
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1409734626-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1409734626-612x612-1.jpg",
+      "filename": "istockphoto-1409734626-612x612-1.jpg",
+      "alt": "istockphoto 1409734626 612x612",
+      "context": "content",
+      "size": 76516
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1421526094-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1421526094-612x612-1.jpg",
+      "filename": "istockphoto-1421526094-612x612-1.jpg",
+      "alt": "istockphoto 1421526094 612x612",
+      "context": "content",
+      "size": 30497
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1439825149-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1439825149-612x612-1.jpg",
+      "filename": "istockphoto-1439825149-612x612-1.jpg",
+      "alt": "istockphoto 1439825149 612x612",
+      "context": "content",
+      "size": 44606
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1439825149-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1439825149-612x612-2.jpg",
+      "filename": "istockphoto-1439825149-612x612-2.jpg",
+      "alt": "istockphoto 1439825149 612x612",
+      "context": "content",
+      "size": 44606
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1443576938-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1443576938-612x612-1.jpg",
+      "filename": "istockphoto-1443576938-612x612-1.jpg",
+      "alt": "istockphoto 1443576938 612x612",
+      "context": "content",
+      "size": 40762
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1455690288-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1455690288-612x612-1.jpg",
+      "filename": "istockphoto-1455690288-612x612-1.jpg",
+      "alt": "istockphoto 1455690288 612x612",
+      "context": "content",
+      "size": 79583
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1456699734-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1456699734-612x612-1.jpg",
+      "filename": "istockphoto-1456699734-612x612-1.jpg",
+      "alt": "istockphoto 1456699734 612x612",
+      "context": "content",
+      "size": 51214
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1462934693-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1462934693-612x612-1.jpg",
+      "filename": "istockphoto-1462934693-612x612-1.jpg",
+      "alt": "istockphoto 1462934693 612x612",
+      "context": "content",
+      "size": 34981
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1471190131-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1471190131-612x612-1.jpg",
+      "filename": "istockphoto-1471190131-612x612-1.jpg",
+      "alt": "istockphoto 1471190131 612x612",
+      "context": "content",
+      "size": 31913
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1479943080-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1479943080-612x612-1.jpg",
+      "filename": "istockphoto-1479943080-612x612-1.jpg",
+      "alt": "istockphoto 1479943080 612x612",
+      "context": "content",
+      "size": 49733
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1479943080-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1479943080-612x612-2.jpg",
+      "filename": "istockphoto-1479943080-612x612-2.jpg",
+      "alt": "istockphoto 1479943080 612x612",
+      "context": "content",
+      "size": 49733
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1483853377-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1483853377-612x612-1.jpg",
+      "filename": "istockphoto-1483853377-612x612-1.jpg",
+      "alt": "istockphoto 1483853377 612x612",
+      "context": "content",
+      "size": 80845
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1487067623-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1487067623-612x612-1.jpg",
+      "filename": "istockphoto-1487067623-612x612-1.jpg",
+      "alt": "istockphoto 1487067623 612x612",
+      "context": "content",
+      "size": 26120
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1488070840-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1488070840-612x612-1.jpg",
+      "filename": "istockphoto-1488070840-612x612-1.jpg",
+      "alt": "istockphoto 1488070840 612x612",
+      "context": "content",
+      "size": 41431
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1490970017-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1490970017-612x612-1.jpg",
+      "filename": "istockphoto-1490970017-612x612-1.jpg",
+      "alt": "istockphoto 1490970017 612x612",
+      "context": "content",
+      "size": 36447
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1492895565-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1492895565-612x612-1.jpg",
+      "filename": "istockphoto-1492895565-612x612-1.jpg",
+      "alt": "istockphoto 1492895565 612x612",
+      "context": "content",
+      "size": 58698
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1499135714-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1499135714-612x612-1.jpg",
+      "filename": "istockphoto-1499135714-612x612-1.jpg",
+      "alt": "istockphoto 1499135714 612x612",
+      "context": "content",
+      "size": 42823
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-157423577-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-157423577-612x612-1.jpg",
+      "filename": "istockphoto-157423577-612x612-1.jpg",
+      "alt": "istockphoto 157423577 612x612",
+      "context": "content",
+      "size": 58938
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-157423577-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-157423577-612x612-2.jpg",
+      "filename": "istockphoto-157423577-612x612-2.jpg",
+      "alt": "istockphoto 157423577 612x612",
+      "context": "content",
+      "size": 58938
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-170961867-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-170961867-612x612-1.jpg",
+      "filename": "istockphoto-170961867-612x612-1.jpg",
+      "alt": "istockphoto 170961867 612x612",
+      "context": "content",
+      "size": 40704
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-173799627-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-173799627-612x612-1.jpg",
+      "filename": "istockphoto-173799627-612x612-1.jpg",
+      "alt": "istockphoto 173799627 612x612",
+      "context": "content",
+      "size": 55430
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1741415138-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1741415138-612x612-1.jpg",
+      "filename": "istockphoto-1741415138-612x612-1.jpg",
+      "alt": "istockphoto 1741415138 612x612",
+      "context": "content",
+      "size": 69934
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1779280136-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1779280136-612x612-1.jpg",
+      "filename": "istockphoto-1779280136-612x612-1.jpg",
+      "alt": "istockphoto 1779280136 612x612",
+      "context": "content",
+      "size": 48789
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1793894346-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1793894346-612x612-1.jpg",
+      "filename": "istockphoto-1793894346-612x612-1.jpg",
+      "alt": "istockphoto 1793894346 612x612",
+      "context": "content",
+      "size": 33271
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1796838374-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1796838374-612x612-1.jpg",
+      "filename": "istockphoto-1796838374-612x612-1.jpg",
+      "alt": "istockphoto 1796838374 612x612",
+      "context": "content",
+      "size": 32103
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1867132127-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1867132127-612x612-1.jpg",
+      "filename": "istockphoto-1867132127-612x612-1.jpg",
+      "alt": "istockphoto 1867132127 612x612",
+      "context": "content",
+      "size": 49235
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1907032975-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1907032975-612x612-1.jpg",
+      "filename": "istockphoto-1907032975-612x612-1.jpg",
+      "alt": "istockphoto 1907032975 612x612",
+      "context": "content",
+      "size": 32523
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-1907032975-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-1907032975-612x612-2.jpg",
+      "filename": "istockphoto-1907032975-612x612-2.jpg",
+      "alt": "istockphoto 1907032975 612x612",
+      "context": "content",
+      "size": 32523
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-463802971-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-463802971-612x612-1.jpg",
+      "filename": "istockphoto-463802971-612x612-1.jpg",
+      "alt": "istockphoto 463802971 612x612",
+      "context": "content",
+      "size": 55383
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-471075323-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-471075323-612x612-1.jpg",
+      "filename": "istockphoto-471075323-612x612-1.jpg",
+      "alt": "istockphoto 471075323 612x612",
+      "context": "content",
+      "size": 46310
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-488120139-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-488120139-612x612-1.jpg",
+      "filename": "istockphoto-488120139-612x612-1.jpg",
+      "alt": "istockphoto 488120139 612x612",
+      "context": "content",
+      "size": 75924
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-502011582-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-502011582-612x612-1.jpg",
+      "filename": "istockphoto-502011582-612x612-1.jpg",
+      "alt": "istockphoto 502011582 612x612",
+      "context": "content",
+      "size": 74389
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-518527996-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-518527996-612x612-1.jpg",
+      "filename": "istockphoto-518527996-612x612-1.jpg",
+      "alt": "istockphoto 518527996 612x612",
+      "context": "content",
+      "size": 49779
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-521696036-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-521696036-612x612-1.jpg",
+      "filename": "istockphoto-521696036-612x612-1.jpg",
+      "alt": "istockphoto 521696036 612x612",
+      "context": "content",
+      "size": 42365
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-588387908-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-588387908-612x612-1.jpg",
+      "filename": "istockphoto-588387908-612x612-1.jpg",
+      "alt": "istockphoto 588387908 612x612",
+      "context": "content",
+      "size": 46745
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-628578920-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-628578920-612x612-1.jpg",
+      "filename": "istockphoto-628578920-612x612-1.jpg",
+      "alt": "istockphoto 628578920 612x612",
+      "context": "content",
+      "size": 54173
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-636687528-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-636687528-612x612-1.jpg",
+      "filename": "istockphoto-636687528-612x612-1.jpg",
+      "alt": "istockphoto 636687528 612x612",
+      "context": "content",
+      "size": 59202
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-812099500-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-812099500-612x612-1.jpg",
+      "filename": "istockphoto-812099500-612x612-1.jpg",
+      "alt": "istockphoto 812099500 612x612",
+      "context": "content",
+      "size": 31833
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-812099500-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-812099500-612x612-2.jpg",
+      "filename": "istockphoto-812099500-612x612-2.jpg",
+      "alt": "istockphoto 812099500 612x612",
+      "context": "content",
+      "size": 31833
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-812099544-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-812099544-612x612-1.jpg",
+      "filename": "istockphoto-812099544-612x612-1.jpg",
+      "alt": "istockphoto 812099544 612x612",
+      "context": "content",
+      "size": 47063
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-812420536-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-812420536-612x612-1.jpg",
+      "filename": "istockphoto-812420536-612x612-1.jpg",
+      "alt": "istockphoto 812420536 612x612",
+      "context": "content",
+      "size": 61689
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-827154890-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-827154890-612x612-1.jpg",
+      "filename": "istockphoto-827154890-612x612-1.jpg",
+      "alt": "istockphoto 827154890 612x612",
+      "context": "content",
+      "size": 25501
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-852012700-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-852012700-612x612-1.jpg",
+      "filename": "istockphoto-852012700-612x612-1.jpg",
+      "alt": "istockphoto 852012700 612x612",
+      "context": "content",
+      "size": 36758
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-858576274-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-858576274-612x612-1.jpg",
+      "filename": "istockphoto-858576274-612x612-1.jpg",
+      "alt": "istockphoto 858576274 612x612",
+      "context": "content",
+      "size": 35350
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-891429582-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-891429582-612x612-1.jpg",
+      "filename": "istockphoto-891429582-612x612-1.jpg",
+      "alt": "istockphoto 891429582 612x612",
+      "context": "content",
+      "size": 29655
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-899471458-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-899471458-612x612-1.jpg",
+      "filename": "istockphoto-899471458-612x612-1.jpg",
+      "alt": "istockphoto 899471458 612x612",
+      "context": "content",
+      "size": 37046
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-91036851-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-91036851-612x612-1.jpg",
+      "filename": "istockphoto-91036851-612x612-1.jpg",
+      "alt": "istockphoto 91036851 612x612",
+      "context": "content",
+      "size": 48041
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-936346930-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-936346930-612x612-1.jpg",
+      "filename": "istockphoto-936346930-612x612-1.jpg",
+      "alt": "istockphoto 936346930 612x612",
+      "context": "content",
+      "size": 40955
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-940251778-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-940251778-612x612-1.jpg",
+      "filename": "istockphoto-940251778-612x612-1.jpg",
+      "alt": "istockphoto 940251778 612x612",
+      "context": "content",
+      "size": 50187
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-940251778-612x612-2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-940251778-612x612-2.jpg",
+      "filename": "istockphoto-940251778-612x612-2.jpg",
+      "alt": "istockphoto 940251778 612x612",
+      "context": "content",
+      "size": 50187
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-940251778-612x612-3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-940251778-612x612-3.jpg",
+      "filename": "istockphoto-940251778-612x612-3.jpg",
+      "alt": "istockphoto 940251778 612x612",
+      "context": "content",
+      "size": 50187
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-977302930-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-977302930-612x612-1.jpg",
+      "filename": "istockphoto-977302930-612x612-1.jpg",
+      "alt": "istockphoto 977302930 612x612",
+      "context": "content",
+      "size": 42392
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/istockphoto-981344368-612x612-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/istockphoto-981344368-612x612-1.jpg",
+      "filename": "istockphoto-981344368-612x612-1.jpg",
+      "alt": "istockphoto 981344368 612x612",
+      "context": "content",
+      "size": 35262
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/j1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/j1.jpg",
+      "filename": "j1.jpg",
+      "alt": "j",
+      "context": "content",
+      "size": 106170
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/j3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/j3.jpg",
+      "filename": "j3.jpg",
+      "alt": "j",
+      "context": "content",
+      "size": 48375
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/j4.jpeg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/j4.jpeg",
+      "filename": "j4.jpeg",
+      "alt": "j",
+      "context": "content",
+      "size": 645789
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/j4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/j4.jpg",
+      "filename": "j4.jpg",
+      "alt": "j",
+      "context": "content",
+      "size": 115803
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/k1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/k1.jpg",
+      "filename": "k1.jpg",
+      "alt": "k",
+      "context": "content",
+      "size": 13985
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/k2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/k2.jpg",
+      "filename": "k2.jpg",
+      "alt": "k",
+      "context": "content",
+      "size": 72985
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/k4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/k4.jpg",
+      "filename": "k4.jpg",
+      "alt": "k",
+      "context": "content",
+      "size": 966999
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l1-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l1-1.jpg",
+      "filename": "l1-1.jpg",
+      "alt": "l1",
+      "context": "content",
+      "size": 434391
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l1.jpg",
+      "filename": "l1.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 434391
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l11.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l11.jpg",
+      "filename": "l11.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 228233
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l12.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l12.jpg",
+      "filename": "l12.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 13319
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l2.jpg",
+      "filename": "l2.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 273312
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l6.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l6.jpg",
+      "filename": "l6.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 12311
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l7.jpg",
+      "filename": "l7.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 231924
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l8.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l8.jpg",
+      "filename": "l8.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 149326
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/l9.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/l9.jpg",
+      "filename": "l9.jpg",
+      "alt": "l",
+      "context": "content",
+      "size": 108660
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/m88.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/m88.jpg",
+      "filename": "m88.jpg",
+      "alt": "m",
+      "context": "content",
+      "size": 194409
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/schedule.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/schedule.jpg",
+      "filename": "schedule.jpg",
+      "alt": "schedule",
+      "context": "content",
+      "size": 29210
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/trends-construction-industry-feat.2e16d0ba.fill-1200x800-1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/trends-construction-industry-feat.2e16d0ba.fill-1200x800-1.jpg",
+      "filename": "trends-construction-industry-feat.2e16d0ba.fill-1200x800-1.jpg",
+      "alt": "trends construction industry feat.2e16d0ba.fill 1200x800",
+      "context": "content",
+      "size": 38137
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/value-engineering.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/value-engineering.jpg",
+      "filename": "value-engineering.jpg",
+      "alt": "value engineering",
+      "context": "content",
+      "size": 40046
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x10.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x10.jpg",
+      "filename": "x10.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 31140
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x2.jpg",
+      "filename": "x2.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 49984
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x3.jpg",
+      "filename": "x3.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 7985
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x4.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x4.jpg",
+      "filename": "x4.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 71302
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x5.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x5.jpg",
+      "filename": "x5.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 69934
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/x7.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/x7.jpg",
+      "filename": "x7.jpg",
+      "alt": "x",
+      "context": "content",
+      "size": 102486
+    },
+    {
+      "src": "/wp-content/uploads/2024/01/z12.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/z12.jpg",
+      "filename": "z12.jpg",
+      "alt": "z",
+      "context": "content",
+      "size": 30556
+    },
+    {
+      "src": "/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_1.jpg",
+      "filename": "Commercial_Construction_Ruskin_1.jpg",
+      "alt": "Commercial Construction Ruskin",
+      "context": "content",
+      "size": 162549
+    },
+    {
+      "src": "/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_2.jpg",
+      "filename": "Commercial_Construction_Ruskin_2.jpg",
+      "alt": "Commercial Construction Ruskin",
+      "context": "content",
+      "size": 346582
+    },
+    {
+      "src": "/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/02/Commercial_Construction_Ruskin_3.jpg",
+      "filename": "Commercial_Construction_Ruskin_3.jpg",
+      "alt": "Commercial Construction Ruskin",
+      "context": "content",
+      "size": 218527
+    },
+    {
+      "src": "/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_1.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_1.jpg",
+      "filename": "Historic_Preservation_Ruskin_1.jpg",
+      "alt": "Historic Preservation Ruskin",
+      "context": "content",
+      "size": 71025
+    },
+    {
+      "src": "/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_2.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_2.jpg",
+      "filename": "Historic_Preservation_Ruskin_2.jpg",
+      "alt": "Historic Preservation Ruskin",
+      "context": "content",
+      "size": 45967
+    },
+    {
+      "src": "/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_3.jpg",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/03/Historic_Preservation_Ruskin_3.jpg",
+      "filename": "Historic_Preservation_Ruskin_3.jpg",
+      "alt": "Historic Preservation Ruskin",
+      "context": "content",
+      "size": 58968
+    },
+    {
+      "src": "/wp-content/uploads/smush-webp-test.png",
+      "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/smush-webp-test.png",
+      "filename": "smush-webp-test.png",
+      "alt": "smush webp test",
+      "context": "content",
+      "size": 469
+    }
+  ]
+}

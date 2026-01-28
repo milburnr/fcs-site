@@ -1,0 +1,173 @@
+# Brandon, FL - Local Research Data for SEO Content
+
+city: Brandon
+county: Hillsborough
+population: "115,000+"
+metro_population: "3.2 million (Tampa Bay metro)"
+coordinates:
+  lat: 27.9378
+  lng: -82.2859
+
+climate:
+  summer_avg: "92°F"
+  winter_avg: "61°F"
+  annual_rainfall: "49 inches"
+  hurricane_frequency: "Inland but still affected by Tampa Bay storms"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (70-80%)"
+  weather_challenges:
+    - "Inland location reduces direct hurricane impact"
+    - "Still vulnerable to tropical storm wind damage"
+    - "Heavy summer rains cause localized flooding"
+    - "High humidity causes mold issues"
+    - "Frequent lightning during summer"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Brandon Town Center"
+      description: "Westfield mall and surrounding retail"
+      notable: "Major regional shopping destination"
+    - name: "Providence Road Corridor"
+      description: "Restaurant and retail strip"
+      notable: "Dining, entertainment"
+    - name: "State Road 60 Corridor"
+      description: "Major commercial corridor through Brandon"
+      notable: "Auto dealerships, big box retail, restaurants"
+    - name: "Lithia-Pinecrest Road"
+      description: "Growing commercial area"
+      notable: "New retail and medical facilities"
+
+  residential:
+    - name: "FishHawk Ranch"
+      description: "Award-winning master-planned community"
+      home_values: "$400K-$1.5M+"
+    - name: "Valrico"
+      description: "Established suburban community"
+      home_values: "$300K-$800K"
+    - name: "Bloomingdale"
+      description: "Master-planned community"
+      home_values: "$300K-$700K"
+    - name: "Riverview"
+      description: "Fast-growing adjacent community"
+      home_values: "$250K-$600K"
+    - name: "Lithia"
+      description: "More rural area with larger lots"
+      home_values: "$400K-$1M+"
+
+  notable_communities:
+    - name: "FishHawk Ranch"
+      description: "Master-planned community with top-rated schools"
+      features: "Community pools, trails, sports fields, town center"
+    - name: "Panther Trace"
+      description: "Master-planned community in Riverview"
+      features: "Golf, community amenities"
+
+landmarks:
+  commercial:
+    - "Westfield Brandon (major regional mall)"
+    - "Regency Square"
+    - "Brandon Town Center area"
+  recreation:
+    - "Hillsborough River State Park"
+    - "Alafia River State Park"
+    - "Brandon Regional Library"
+  education:
+    - "Hillsborough Community College - Brandon Campus"
+    - "Top-rated schools in FishHawk area"
+  healthcare:
+    - "Brandon Regional Hospital (422 beds)"
+    - "HCA Florida Brandon Hospital"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 2 (110-120 mph design wind speed)"
+  flood_zones: "Limited flood zones, some along Alafia River"
+  special_requirements:
+    - "FishHawk Ranch has specific architectural guidelines"
+    - "Bloomingdale community standards"
+    - "Tree preservation requirements"
+    - "Stormwater management for new development"
+
+permit_authorities:
+  primary:
+    - name: "Hillsborough County Construction Services"
+      address: "601 E. Kennedy Blvd, Tampa, FL 33602"
+      phone: "(813) 272-5600"
+  notes:
+    - "Brandon is unincorporated Hillsborough County"
+    - "All permits through county, not city"
+  special:
+    - name: "FishHawk Ranch HOA"
+      role: "Architectural review for community"
+    - name: "Various HOA design committees"
+      role: "Community-specific reviews"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Universal Property & Casualty"
+    - "Heritage Insurance"
+    - "American Integrity"
+  advantages:
+    - "Inland location means lower wind premiums"
+    - "Limited flood zones"
+    - "More carriers willing to write policies"
+    - "Newer construction often easier to insure"
+  notes:
+    - "Sinkhole coverage may be needed in some areas"
+    - "Newer master-planned communities often have wind mitigation"
+
+economic_context:
+  major_industries:
+    - "Retail and Service"
+    - "Healthcare"
+    - "Education"
+    - "Residential Construction"
+  major_employers:
+    - "Hillsborough County Schools"
+    - "Brandon Regional Hospital"
+    - "Westfield Brandon Mall retailers"
+    - "Various corporate back offices"
+  growth_drivers:
+    - "Affordable housing compared to Tampa"
+    - "Top-rated schools attract families"
+    - "I-75 and Selmon Expressway access"
+    - "Space for continued development"
+  recent_developments:
+    - name: "FishHawk Expansion"
+      description: "Continued residential and retail growth"
+      status: "Ongoing"
+    - name: "Riverview Growth"
+      description: "Massive residential expansion south"
+      status: "Ongoing"
+    - name: "SR 60 Commercial Development"
+      description: "Continued retail and service growth"
+      status: "Ongoing"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, generally good drainage"
+  foundation_types: "Slab-on-grade standard"
+  common_issues:
+    - "HOA approval required in many communities"
+    - "Architectural guidelines vary by community"
+    - "Rapid development strains infrastructure"
+    - "Traffic congestion affects construction logistics"
+  unique_factors:
+    - "Primarily residential market"
+    - "HOAs control much of the construction standards"
+    - "Fast-growing area with ongoing development"
+    - "Family-focused community priorities"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "East Hillsborough"
+    - "FishHawk"
+    - "Valrico"
+    - "Bloomingdale"
+    - "Riverview"
+  long_tail_phrases:
+    - "Brandon FL contractor"
+    - "FishHawk Ranch home builder"
+    - "East Hillsborough construction"
+    - "Valrico renovation contractor"
+    - "Brandon commercial construction"

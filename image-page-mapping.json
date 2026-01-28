@@ -1,0 +1,371 @@
+{
+  "generated": "2025-01-22T16:00:00.000Z",
+  "description": "Maps topic clusters to recommended images for pages",
+  "topicClusters": {
+    "commercial": {
+      "description": "Commercial construction, office buildings, retail, medical facilities",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+          "altText": "Modern commercial building with professional flat roof installation, MVP Orthodontics office",
+          "quality": 92,
+          "recommended": "Primary hero for commercial services"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/office-building-1.jpg",
+          "altText": "Modern commercial office building with flat roof and glass facade at dusk",
+          "quality": 92,
+          "recommended": "Alternative hero - modern office"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+          "altText": "Commercial facility building - Turner Agri-Civic Center",
+          "quality": 88,
+          "recommended": "Public/civic facility pages"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Old/mall-2.jpg",
+          "altText": "Commercial retail building with professional low-slope TPO roofing installation",
+          "quality": 88,
+          "useCases": ["retail construction", "TPO roofing"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/office-building-14.jpg.webp",
+          "altText": "Modern commercial medical facility with professional flat roof installation and desert landscaping",
+          "quality": 92,
+          "useCases": ["medical office", "healthcare construction"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/maya-patel.jpg",
+          "altText": "Modern commercial building with flat roof and contemporary design showcasing professional roofing work",
+          "quality": 92,
+          "useCases": ["commercial roofing", "flat roof systems"]
+        }
+      ],
+      "pages": [
+        "services/commercial/page.tsx",
+        "commercial/page.tsx",
+        "commercial-roofing-services-in-tampa/page.tsx",
+        "tampa-commercial-construction-costs/page.tsx",
+        "affordable-commercial-construction-in-tampa/page.tsx"
+      ]
+    },
+    "residential": {
+      "description": "Custom homes, residential construction, home building",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+          "altText": "Elevated coastal home with new dark asphalt shingle roof and white siding",
+          "quality": 88,
+          "recommended": "Primary hero for residential"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg",
+          "altText": "Luxury home with premium architectural shingle roof at twilight with illuminated windows",
+          "quality": 92,
+          "recommended": "Luxury residential hero"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-3.jpg",
+          "altText": "Luxury French country home with premium dark asphalt shingle roof and stone exterior at dusk",
+          "quality": 92,
+          "recommended": "High-end custom homes"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-1.jpg",
+          "altText": "Wood frame residential construction showing roof trusses and framing under blue sky",
+          "quality": 92,
+          "useCases": ["construction process", "framing"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-5.jpg",
+          "altText": "Modern luxury home with contemporary roofing at dusk featuring warm interior lighting",
+          "quality": 92,
+          "useCases": ["modern homes", "contemporary design"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/image.png",
+          "altText": "Luxury home with gray architectural shingle hip roof and professional landscaping",
+          "quality": 92,
+          "useCases": ["finished projects", "curb appeal"]
+        }
+      ],
+      "pages": [
+        "services/residential/page.tsx",
+        "residential/page.tsx",
+        "tampas-custom-family-home-builders/page.tsx",
+        "tampa-luxury-custom-home-building-services/page.tsx",
+        "custom-home-accessibility-features-in-tampa/page.tsx"
+      ]
+    },
+    "disaster": {
+      "description": "Hurricane damage, disaster recovery, storm restoration",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+          "altText": "Aerial view of severe hurricane damage to coastal homes and roofs requiring emergency repair",
+          "quality": 88,
+          "recommended": "Primary hero for disaster recovery"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/hurricane-ian.webp",
+          "altText": "Aerial view of hurricane damage to coastal homes showing widespread roof and property destruction",
+          "quality": 88,
+          "recommended": "Alternative disaster hero"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/e2.webp",
+          "altText": "Severe wind damage to elevated home roof with workers inspecting destruction",
+          "quality": 82,
+          "useCases": ["wind damage", "roof damage assessment"]
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+          "altText": "Residential home with asphalt shingle roof surrounded by flood waters",
+          "quality": 72,
+          "useCases": ["flood damage", "water damage"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Ian-2.jpg",
+          "altText": "Aerial view of catastrophic hurricane damage to roofs and homes in coastal community",
+          "quality": 88,
+          "useCases": ["hurricane aftermath", "community damage"]
+        }
+      ],
+      "pages": [
+        "services/disaster-recovery/page.tsx",
+        "services/disaster-recovery/hurricane-damage/page.tsx",
+        "hurricane-proof-reconstruction-services-in-tampa/page.tsx",
+        "contractors-role-in-tampa-insurance-restoration/page.tsx",
+        "structural-integrity-evaluation-in-tampa-post-disaster/page.tsx"
+      ]
+    },
+    "historic": {
+      "description": "Historic preservation, restoration, heritage buildings",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/i9.jpg",
+          "altText": "Historic brick commercial building with exterior lighting at twilight after restoration",
+          "quality": 88,
+          "recommended": "Primary hero for historic restoration"
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/j4.jpeg",
+          "altText": "Historic brick building facade with ornate windows under renovation with scaffolding support",
+          "quality": 82,
+          "recommended": "Active restoration hero"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/istockphoto-1409734626-612x612-1.jpg",
+          "altText": "Scaffolding on historic brick building during restoration with arched windows",
+          "quality": 78,
+          "useCases": ["restoration process", "scaffolding work"]
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/1111.jpg",
+          "altText": "Historic church building restoration with scaffolding and clay tile roof repair in progress",
+          "quality": 82,
+          "useCases": ["church restoration", "tile roof repair"]
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/k4.jpg",
+          "altText": "Historic red brick commercial building with slate roof and arched entrance",
+          "quality": 78,
+          "useCases": ["completed restoration", "brick buildings"]
+        }
+      ],
+      "pages": [
+        "services/historic-restoration/page.tsx",
+        "historic-building-preservation-in-tampa/page.tsx",
+        "services/historic-restoration/shpo-compliance/page.tsx",
+        "services/historic-restoration/historic-tax-credits/page.tsx"
+      ]
+    },
+    "balcony": {
+      "description": "Balcony reconstruction, waterproofing, condo repairs",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp",
+          "altText": "Balcony reconstruction with tile installation",
+          "quality": 85,
+          "recommended": "Primary hero for balcony services"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/istockphoto-1359667366-612x612-1.jpg",
+          "altText": "Two workers on ladder performing deck maintenance on residential home balcony",
+          "quality": 78,
+          "recommended": "Alternative - workers on deck"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Old/railing-replacement-best-practices-condos.webp",
+          "altText": "Modern commercial building exterior with curved glass balcony railings",
+          "quality": 78,
+          "useCases": ["railing replacement", "condo exteriors"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png",
+          "altText": "Black bituminous waterproofing applied to exposed brick foundation wall during excavation",
+          "quality": 72,
+          "useCases": ["waterproofing", "foundation work"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/Old/istockphoto-1286516900-612x612-1.jpg",
+          "altText": "Finished rooftop deck with pergola and people enjoying outdoor living space",
+          "quality": 88,
+          "useCases": ["completed deck", "outdoor living"]
+        }
+      ],
+      "pages": [
+        "balcony-reconstruction/page.tsx",
+        "balcony-reconstruction-exterior-waterproofing/page.tsx",
+        "condo-balcony-inspection-requirements/page.tsx",
+        "balcony-safety-measures/page.tsx",
+        "exterior-waterproofing/page.tsx"
+      ]
+    },
+    "construction": {
+      "description": "General construction, building sites, project management",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-2.jpg",
+          "altText": "Construction supervisor in safety gear overlooking commercial building site with crane",
+          "quality": 78,
+          "recommended": "Primary hero for construction"
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/2f.jpg",
+          "altText": "Construction manager in safety gear reviewing blueprints at commercial building site",
+          "quality": 82,
+          "recommended": "Project management hero"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+          "altText": "Construction worker in safety vest and hard hat supervising crane operations at building site",
+          "quality": 72,
+          "useCases": ["supervision", "crane work"]
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/m88.jpg",
+          "altText": "Commercial building construction site with crane and excavator working on concrete structure",
+          "quality": 78,
+          "useCases": ["active construction", "heavy equipment"]
+        },
+        {
+          "path": "/wp-content/uploads/2024/01/9999.jpg",
+          "altText": "Commercial construction site with multiple tower cranes at sunset",
+          "quality": 72,
+          "useCases": ["large projects", "tower cranes"]
+        }
+      ],
+      "pages": [
+        "services/page.tsx",
+        "construction-florida-leading-way-leed-certification/page.tsx",
+        "sustainable-building-practices-florida-green-construction/page.tsx"
+      ]
+    },
+    "condo-compliance": {
+      "description": "SB 4-D compliance, milestone inspections, condo structural work",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-concrete-restoration.webp",
+          "altText": "Condo concrete restoration and milestone inspection remediation",
+          "quality": 85,
+          "recommended": "Primary hero for condo compliance"
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-commercial-building.webp",
+          "altText": "Tampa Bay condominium building compliance",
+          "quality": 85,
+          "recommended": "Alternative - condo building"
+        }
+      ],
+      "inlineImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp",
+          "altText": "Balcony with tile work for condo restoration",
+          "quality": 85,
+          "useCases": ["balcony repair", "tile restoration"]
+        },
+        {
+          "path": "/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png",
+          "altText": "Waterproofing application",
+          "quality": 72,
+          "useCases": ["waterproofing", "exterior work"]
+        }
+      ],
+      "pages": [
+        "condo-milestone-inspection-remediation/page.tsx",
+        "sb-4-d-compliance-tampa-bay-condos/page.tsx",
+        "condo-structural-reserve-study-repairs/page.tsx",
+        "condo-balcony-inspection-requirements/page.tsx"
+      ]
+    },
+    "tampa-location": {
+      "description": "Tampa Bay area, local market pages",
+      "heroImages": [
+        {
+          "path": "/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
+          "altText": "Tampa skyline at dusk with purple-lit bridge and downtown buildings reflected in water",
+          "quality": 95,
+          "recommended": "Primary hero for Tampa location pages"
+        }
+      ],
+      "pages": [
+        "about/page.tsx",
+        "contact/page.tsx",
+        "service-areas/page.tsx"
+      ]
+    }
+  },
+  "brandAssets": {
+    "logos": [
+      {
+        "path": "/wp-content/uploads/2023/12/FCS-Logo-BW-1.png",
+        "altText": "Florida Construction Specialists FCS roofing contractor company logo",
+        "quality": 95,
+        "useCases": ["headers", "footers", "documentation"]
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/FCS-Logo-BW.png",
+        "altText": "Florida Construction Specialists FCS professional roofing contractor logo",
+        "quality": 95,
+        "useCases": ["headers", "footers", "documentation"]
+      }
+    ],
+    "serviceGraphics": [
+      {
+        "path": "/wp-content/uploads/2023/12/DRGServicesLogo-Wide1.1-01.png",
+        "altText": "Professional roofing services graphic showing weather, disaster, insurance, design and rebuild keywords",
+        "quality": 95,
+        "useCases": ["service overviews", "marketing"]
+      }
+    ]
+  },
+  "luxuryResidential": {
+    "description": "Premium images for luxury home pages",
+    "recommended": [
+      {
+        "path": "/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png",
+        "altText": "Luxury Mediterranean-style resort with tile roofing and palm trees under blue sky",
+        "quality": 92
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+        "altText": "Luxury resort with Mediterranean tile roofing and palm tree landscaping under blue sky",
+        "quality": 92
+      }
+    ]
+  }
+}

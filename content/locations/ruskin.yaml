@@ -1,0 +1,185 @@
+# Ruskin, FL - Local Research Data for SEO Content
+
+city: Ruskin
+county: Hillsborough
+population: "25,000+"
+metro_population: "3.2 million (Tampa Bay metro)"
+coordinates:
+  lat: 27.7209
+  lng: -82.4332
+
+climate:
+  summer_avg: "91°F"
+  winter_avg: "62°F"
+  annual_rainfall: "52 inches"
+  hurricane_frequency: "Coastal location increases exposure"
+  hurricane_season: "June 1 - November 30"
+  humidity: "Very high year-round (80%+)"
+  weather_challenges:
+    - "Waterfront areas vulnerable to storm surge"
+    - "High humidity and salt air cause corrosion"
+    - "Tampa Bay location affects hurricane impacts"
+    - "Afternoon thunderstorms frequent in summer"
+    - "Flooding in low-lying areas"
+
+neighborhoods:
+  commercial_districts:
+    - name: "US 41 Corridor"
+      description: "Main commercial corridor through Ruskin/Apollo Beach"
+      notable: "Retail, restaurants, services"
+    - name: "Sun City Center"
+      description: "Large retirement community with commercial area"
+      notable: "Senior-focused retail and medical services"
+    - name: "Apollo Beach"
+      description: "Waterfront community with growing commercial"
+      notable: "Marina, restaurants, waterfront dining"
+
+  residential:
+    - name: "Apollo Beach"
+      description: "Waterfront community with canal access"
+      home_values: "$400K-$2M+"
+    - name: "Sun City Center"
+      description: "55+ active adult community"
+      home_values: "$200K-$600K"
+    - name: "Bahia Beach"
+      description: "Waterfront community"
+      home_values: "$350K-$1.5M+"
+    - name: "Riverwood"
+      description: "Master-planned community"
+      home_values: "$300K-$600K"
+    - name: "Little Harbor"
+      description: "Waterfront residential area"
+      home_values: "$300K-$1M+"
+
+  waterfront_areas:
+    - name: "Apollo Beach"
+      description: "Canal-front homes with Tampa Bay access"
+      features: "Boating, fishing, waterfront dining"
+    - name: "Bahia Beach"
+      description: "Bayside community"
+      features: "Waterfront living, nature preserve access"
+    - name: "Little Harbor"
+      description: "Protected harbor community"
+      features: "Marina access, bay views"
+
+landmarks:
+  natural:
+    - "E.G. Simmons Regional Park"
+    - "Cockroach Bay Aquatic Preserve"
+    - "Camp Bayou Nature Preserve"
+    - "Tampa Bay (direct access)"
+  community:
+    - "Ruskin Family Drive-In (historic)"
+    - "SouthShore Regional Library"
+    - "Ruskin Tomato Festival (annual event)"
+  nearby:
+    - "Port Manatee"
+    - "TECO Manatee Viewing Center (seasonal)"
+    - "Big Bend Power Station"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (120-130 mph in waterfront areas)"
+  flood_zones: "Extensive AE, VE zones in waterfront communities"
+  special_requirements:
+    - "Elevated construction in flood zones"
+    - "Impact-resistant glazing in wind-borne debris region"
+    - "Marine-grade materials for waterfront construction"
+    - "Environmental permits for wetland-adjacent areas"
+    - "Seawall requirements for waterfront properties"
+
+permit_authorities:
+  primary:
+    - name: "Hillsborough County Construction Services"
+      address: "601 E. Kennedy Blvd, Tampa, FL 33602"
+      phone: "(813) 272-5600"
+  notes:
+    - "Ruskin is unincorporated Hillsborough County"
+    - "All permits through county"
+  environmental:
+    - name: "Environmental Protection Commission of Hillsborough County"
+      role: "Wetland and environmental permits"
+    - name: "Southwest Florida Water Management District"
+      role: "Water-related permits"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Universal Property & Casualty"
+    - "Heritage Insurance"
+  challenges:
+    - "Waterfront properties face high premiums"
+    - "Flood insurance required in many areas"
+    - "Storm surge risk affects rates significantly"
+  notes:
+    - "Elevation certificates critical for insurance"
+    - "Wind mitigation can substantially reduce premiums"
+    - "Newer construction often easier to insure"
+
+economic_context:
+  major_industries:
+    - "Agriculture (tomatoes, strawberries)"
+    - "Retirement/Senior Living"
+    - "Logistics (Port Manatee nearby)"
+    - "Tourism/Recreation"
+    - "Residential Construction"
+  major_employers:
+    - "Hillsborough County Schools"
+    - "South Bay Hospital"
+    - "Sun City Center facilities"
+    - "Agricultural operations"
+  growth_drivers:
+    - "Affordable waterfront living"
+    - "Retirement destination"
+    - "Proximity to Tampa and St. Pete"
+    - "Growing young family population"
+  recent_developments:
+    - name: "Apollo Beach Growth"
+      description: "Continued residential development"
+      status: "Ongoing"
+    - name: "SouthShore Commercial Development"
+      description: "Retail and services expanding"
+      status: "Ongoing"
+    - name: "Medical Facilities"
+      description: "Healthcare services growth"
+      status: "Ongoing"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, high water table, coastal influence"
+  foundation_types: "Elevated construction common, slab with fill, pile in flood zones"
+  common_issues:
+    - "Flood zone construction requires elevation"
+    - "Environmental permits can delay projects"
+    - "Seawall condition affects waterfront properties"
+    - "Distance from Tampa increases some costs"
+  unique_factors:
+    - "Mix of agricultural heritage and waterfront development"
+    - "Strong retirement community presence"
+    - "Growing but still somewhat rural character"
+    - "FCS home base - strong local presence"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "South Hillsborough"
+    - "Apollo Beach"
+    - "Sun City Center"
+    - "SouthShore"
+    - "Bahia Beach"
+  long_tail_phrases:
+    - "Ruskin FL contractor"
+    - "Apollo Beach construction"
+    - "South Hillsborough home builder"
+    - "waterfront construction Ruskin"
+    - "SouthShore commercial contractor"
+
+fcs_local_advantage:
+  home_base: true
+  local_relationships:
+    - "Deep knowledge of South Hillsborough area"
+    - "Established relationships with county inspectors"
+    - "Understanding of local soil and water conditions"
+    - "Quick response time for local projects"
+  community_involvement:
+    - "Local business presence"
+    - "Community knowledge"
+    - "Invested in area growth"

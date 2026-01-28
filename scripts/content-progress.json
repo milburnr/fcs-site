@@ -1,0 +1,100 @@
+{
+  "lastUpdated": "2025-01-18T00:00:00Z",
+  "totalPages": 56,
+  "completedPages": 1,
+  "services": [
+    "commercial-construction",
+    "multi-family-construction",
+    "disaster-recovery",
+    "historic-restoration",
+    "luxury-custom-homes",
+    "balcony-reconstruction",
+    "exterior-waterproofing"
+  ],
+  "locations": [
+    "tampa",
+    "st-petersburg",
+    "clearwater",
+    "lakeland",
+    "sarasota",
+    "bradenton",
+    "brandon",
+    "ruskin"
+  ],
+  "status": {
+    "commercial-construction": {
+      "tampa": "done",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "multi-family-construction": {
+      "tampa": "done",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "disaster-recovery": {
+      "tampa": "pending",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "historic-restoration": {
+      "tampa": "pending",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "luxury-custom-homes": {
+      "tampa": "pending",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "balcony-reconstruction": {
+      "tampa": "pending",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    },
+    "exterior-waterproofing": {
+      "tampa": "pending",
+      "st-petersburg": "pending",
+      "clearwater": "pending",
+      "lakeland": "pending",
+      "sarasota": "pending",
+      "bradenton": "pending",
+      "brandon": "pending",
+      "ruskin": "pending"
+    }
+  },
+  "notes": {
+    "commercial-construction-tampa": "Pre-existing well-built page (480 lines, comprehensive local content)",
+    "multi-family-construction-tampa": "Enhanced 2025-01-18 (545 lines, full template with tables, FAQs)"
+  }
+}

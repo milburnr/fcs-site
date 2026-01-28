@@ -1,0 +1,193 @@
+# Tampa, FL - Local Research Data for SEO Content
+# This data should be used to create unique, locally-relevant content
+
+city: Tampa
+county: Hillsborough
+population: "400,000+"
+metro_population: "3.2 million (Tampa Bay metro)"
+coordinates:
+  lat: 27.9506
+  lng: -82.4572
+
+climate:
+  summer_avg: "90°F"
+  winter_avg: "62°F"
+  annual_rainfall: "46 inches"
+  hurricane_frequency: "3-4 named storms within 100 miles annually"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (70-80%)"
+  weather_challenges:
+    - "Intense UV exposure accelerates roof and exterior deterioration"
+    - "High humidity causes mold and moisture intrusion issues"
+    - "Afternoon thunderstorms common May-September"
+    - "Hurricane season requires wind-resistant construction"
+    - "Salt air corrosion in waterfront areas"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Westshore Business District"
+      description: "Tampa Bay's largest office market with over 10 million sq ft of commercial space"
+      notable: "Home to Tampa International Airport, major corporate headquarters"
+    - name: "Downtown Tampa"
+      description: "CBD with mix of high-rise office, government, and entertainment venues"
+      notable: "Water Street Tampa development, Tampa Convention Center"
+    - name: "Tampa International Airport area"
+      description: "Major logistics and hospitality hub"
+      notable: "Hotels, cargo facilities, corporate parks"
+    - name: "USF Research Park"
+      description: "University-adjacent tech and research corridor"
+      notable: "Moffitt Cancer Center, research facilities"
+    - name: "Channelside/Harbour Island"
+      description: "Waterfront mixed-use development area"
+      notable: "Amalie Arena, cruise terminal, residential towers"
+
+  residential_luxury:
+    - name: "Davis Islands"
+      description: "Exclusive island neighborhood with waterfront estates"
+      home_values: "$1M-$10M+"
+    - name: "Hyde Park"
+      description: "Historic neighborhood with Victorian homes"
+      home_values: "$800K-$5M+"
+    - name: "South Tampa"
+      description: "Affluent area including Bayshore Boulevard"
+      home_values: "$600K-$8M+"
+    - name: "Harbour Island"
+      description: "Waterfront community downtown"
+      home_values: "$500K-$3M+"
+    - name: "Beach Park/Culbreath Isles"
+      description: "Exclusive waterfront neighborhoods"
+      home_values: "$2M-$15M+"
+
+  historic_districts:
+    - name: "Ybor City"
+      description: "National Historic Landmark District, former cigar manufacturing center"
+      designation: "National Historic Landmark District"
+      architectural_style: "Italianate, Mediterranean Revival, brick industrial"
+    - name: "Tampa Heights"
+      description: "One of Tampa's oldest neighborhoods, undergoing revitalization"
+      designation: "Local Historic District"
+      architectural_style: "Victorian, Craftsman, Bungalow"
+    - name: "Seminole Heights"
+      description: "Early 20th century residential neighborhood"
+      designation: "Local Historic District"
+      architectural_style: "Bungalow, Mediterranean Revival"
+    - name: "Hyde Park"
+      description: "Historic residential neighborhood"
+      designation: "Local Historic District"
+      architectural_style: "Victorian, Colonial Revival, Mediterranean"
+
+landmarks:
+  major_venues:
+    - "Amalie Arena (19,000+ capacity, Lightning NHL)"
+    - "Raymond James Stadium (65,000+ capacity, Buccaneers NFL)"
+    - "Tampa Convention Center (600,000 sq ft)"
+    - "Florida Aquarium"
+  healthcare:
+    - "Tampa General Hospital (1,000+ beds, Level I Trauma)"
+    - "AdventHealth Tampa"
+    - "James A. Haley Veterans' Hospital"
+    - "St. Joseph's Hospital"
+    - "Moffitt Cancer Center"
+  education:
+    - "University of South Florida (50,000+ students)"
+    - "University of Tampa"
+    - "Hillsborough Community College"
+  government:
+    - "MacDill Air Force Base"
+    - "Hillsborough County Courthouse"
+    - "Tampa City Hall"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (120 mph design wind speed)"
+  flood_zones: "AE, VE zones in coastal and low-lying areas"
+  fire_codes: "NFPA 1, Florida Fire Prevention Code"
+  accessibility: "Florida Accessibility Code for Building Construction"
+  energy: "Florida Energy Conservation Code"
+  special_requirements:
+    - "Impact-resistant windows/doors required in wind-borne debris region"
+    - "Hurricane shutters or impact glass mandatory for openings"
+    - "Elevated construction required in flood zones"
+    - "Concrete block or reinforced construction preferred"
+
+permit_authorities:
+  primary:
+    - name: "City of Tampa Building Department"
+      address: "1400 N. Boulevard, Tampa, FL 33607"
+      phone: "(813) 274-3100"
+      website: "tampa.gov/building"
+  county:
+    - name: "Hillsborough County Construction Services"
+      address: "601 E. Kennedy Blvd, Tampa, FL 33602"
+      phone: "(813) 272-5600"
+  historic:
+    - name: "Tampa Historic Preservation Commission"
+      role: "Reviews projects in local historic districts"
+    - name: "Florida State Historic Preservation Office (SHPO)"
+      role: "Reviews projects involving state/federal tax credits"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance (state insurer of last resort)"
+    - "Universal Property & Casualty"
+    - "Heritage Insurance"
+    - "Florida Peninsula Insurance"
+    - "Security First Insurance"
+  hurricane_deductibles: "2-5% of dwelling coverage typical"
+  flood_insurance: "Required in FEMA flood zones AE, VE"
+  insurance_challenges:
+    - "Many carriers have left Florida market"
+    - "Premiums increasing 20-40% annually"
+    - "Wind mitigation features can reduce premiums"
+    - "Roof age affects insurability (15-year roof rule)"
+
+economic_context:
+  major_industries:
+    - "Healthcare (Tampa General, Moffitt)"
+    - "Finance & Insurance (USAA, Citi)"
+    - "Tourism & Hospitality"
+    - "Port/Logistics (Port Tampa Bay)"
+    - "Technology"
+    - "Defense (MacDill AFB, SOCOM)"
+  major_employers:
+    - "BayCare Health System"
+    - "Tampa General Hospital"
+    - "University of South Florida"
+    - "MacDill Air Force Base"
+    - "Publix Super Markets"
+    - "USAA"
+  recent_developments:
+    - name: "Water Street Tampa"
+      description: "$3.5 billion mixed-use development by Jeff Vinik"
+      status: "Multiple phases complete, ongoing"
+    - name: "Westshore Marina District"
+      description: "Luxury waterfront residential and retail"
+      status: "Completed"
+    - name: "Heights District"
+      description: "Armature Works area redevelopment"
+      status: "Completed"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, high water table in many areas"
+  foundation_types: "Slab-on-grade typical, pile foundations for larger structures"
+  common_issues:
+    - "Sinkholes possible throughout Tampa Bay area"
+    - "High water table affects below-grade construction"
+    - "Hurricane-resistant construction essential"
+    - "Termite treatment required"
+  peak_construction_season: "October - May (dry season)"
+  permit_timeline: "2-4 weeks for residential, 4-8 weeks for commercial"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "South Tampa"
+    - "Tampa Bay"
+    - "Hillsborough County"
+    - "Downtown Tampa"
+    - "Westshore"
+  long_tail_phrases:
+    - "Tampa Bay area contractor"
+    - "Hillsborough County construction"
+    - "Downtown Tampa commercial construction"
+    - "South Tampa luxury home builder"
+    - "Westshore office construction"

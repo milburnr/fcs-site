@@ -1,0 +1,185 @@
+# Sarasota, FL - Local Research Data for SEO Content
+
+city: Sarasota
+county: Sarasota
+population: "57,000+"
+metro_population: "850,000+ (Sarasota-Manatee metro)"
+coordinates:
+  lat: 27.3364
+  lng: -82.5307
+
+climate:
+  summer_avg: "90°F"
+  winter_avg: "63°F"
+  annual_rainfall: "53 inches"
+  hurricane_frequency: "3-4 named storms within 100 miles annually"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (75-85%)"
+  weather_challenges:
+    - "Barrier island exposure increases storm surge risk"
+    - "Intense salt air on keys and waterfront properties"
+    - "High humidity accelerates mold and deterioration"
+    - "UV exposure particularly intense"
+    - "Storm surge flooding on barrier islands"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Downtown Sarasota"
+      description: "Vibrant downtown with arts, dining, and boutique retail"
+      notable: "Main Street, Five Points, Palm Avenue"
+    - name: "University Town Center"
+      description: "Major retail and office development"
+      notable: "The Mall at UTC, corporate offices"
+    - name: "Fruitville Road Corridor"
+      description: "Commercial corridor with medical and office"
+      notable: "Sarasota Memorial Hospital area"
+    - name: "North Trail"
+      description: "US 41 commercial corridor"
+      notable: "Ringling Museum area, mixed commercial"
+
+  residential_luxury:
+    - name: "Bird Key"
+      description: "Exclusive island community"
+      home_values: "$2M-$15M+"
+    - name: "Lido Key"
+      description: "Barrier island with luxury homes and condos"
+      home_values: "$1M-$10M+"
+    - name: "Longboat Key"
+      description: "Prestigious barrier island community"
+      home_values: "$1.5M-$20M+"
+    - name: "St. Armands"
+      description: "Upscale island with shopping circle"
+      home_values: "$1M-$8M+"
+    - name: "Siesta Key"
+      description: "Famous beach community"
+      home_values: "$800K-$15M+"
+    - name: "Harbor Acres"
+      description: "Waterfront neighborhood on mainland"
+      home_values: "$2M-$10M+"
+
+  historic_districts:
+    - name: "Burns Court"
+      description: "Historic neighborhood adjacent to downtown"
+      designation: "Local Historic District"
+      architectural_style: "Mediterranean Revival, Mission"
+    - name: "Laurel Park"
+      description: "Residential district with early Sarasota homes"
+      designation: "Local Historic District"
+      architectural_style: "Bungalow, Craftsman, Mediterranean"
+    - name: "Central Cocoanut"
+      description: "Historic residential neighborhood"
+      designation: "Local Historic District"
+      architectural_style: "Frame Vernacular, Mediterranean"
+
+landmarks:
+  cultural:
+    - "John and Mable Ringling Museum of Art"
+    - "Ca d'Zan Mansion (Ringling estate)"
+    - "Sarasota Opera House"
+    - "Van Wezel Performing Arts Hall"
+    - "Asolo Repertory Theatre"
+    - "Marie Selby Botanical Gardens"
+  beach:
+    - "Siesta Key Beach (#1 ranked beach multiple years)"
+    - "Lido Beach"
+    - "Longboat Key beaches"
+  sports:
+    - "Ed Smith Stadium (Baltimore Orioles Spring Training)"
+    - "Nathan Benderson Park (rowing venue)"
+  education:
+    - "New College of Florida"
+    - "Ringling College of Art and Design"
+    - "University of South Florida Sarasota-Manatee"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (140+ mph design wind speed on keys)"
+  flood_zones: "Extensive AE, VE zones on barrier islands"
+  special_requirements:
+    - "Barrier island height restrictions"
+    - "Coastal High Hazard Area limitations"
+    - "Environmental sensitivity on keys"
+    - "Historic district design guidelines"
+    - "View corridor protection downtown"
+
+permit_authorities:
+  primary:
+    - name: "City of Sarasota Building Department"
+      address: "1565 1st Street, Sarasota, FL 34236"
+      phone: "(941) 263-6424"
+  county:
+    - name: "Sarasota County Building Services"
+      phone: "(941) 861-6163"
+  historic:
+    - name: "Sarasota Historic Preservation Board"
+  special:
+    - name: "Town of Longboat Key"
+      role: "Separate jurisdiction for Longboat Key projects"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Heritage Insurance"
+    - "Universal Property & Casualty"
+  challenges:
+    - "Barrier island properties extremely expensive to insure"
+    - "Many carriers won't write on keys"
+    - "Flood insurance mandatory and costly"
+    - "Hurricane deductibles very high"
+  notes:
+    - "Affluent market means high-value coverage needs"
+    - "Wind mitigation critical for rate reduction"
+
+economic_context:
+  major_industries:
+    - "Healthcare (Sarasota Memorial)"
+    - "Arts and Culture"
+    - "Tourism and Hospitality"
+    - "Real Estate and Construction"
+    - "Retirement/Wealth Management"
+  major_employers:
+    - "Sarasota Memorial Health Care System"
+    - "Sarasota County Government"
+    - "Sarasota County Schools"
+    - "PGT Innovations (impact windows)"
+    - "FCCI Insurance Group"
+  recent_developments:
+    - name: "The Quay Sarasota"
+      description: "Mixed-use waterfront development"
+      status: "Under construction"
+    - name: "Downtown Sarasota Towers"
+      description: "Multiple high-rise residential projects"
+      status: "Ongoing"
+    - name: "University Town Center Expansion"
+      description: "Continued retail and residential growth"
+      status: "Ongoing"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, high water table on barrier islands"
+  foundation_types: "Pile foundations on keys, slab on mainland"
+  common_issues:
+    - "Limited developable land on barrier islands"
+    - "Extremely stringent building requirements on keys"
+    - "Lengthy permitting process for waterfront"
+    - "Environmental restrictions significant"
+    - "Traffic/access challenges on keys during season"
+  unique_factors:
+    - "Affluent, discerning clientele expect high quality"
+    - "Strong arts and culture community influences design"
+    - "Ringling legacy affects architectural preferences"
+    - "Seasonal population doubles demand"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "Sarasota County"
+    - "Siesta Key"
+    - "Longboat Key"
+    - "Bird Key"
+    - "Downtown Sarasota"
+    - "Gulf Coast"
+  long_tail_phrases:
+    - "Sarasota luxury home builder"
+    - "Siesta Key construction contractor"
+    - "Longboat Key renovation"
+    - "Sarasota County commercial contractor"
+    - "barrier island construction Sarasota"

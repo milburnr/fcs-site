@@ -1,0 +1,180 @@
+# St. Petersburg, FL - Local Research Data for SEO Content
+
+city: St. Petersburg
+county: Pinellas
+population: "260,000+"
+metro_population: "3.2 million (Tampa Bay metro)"
+coordinates:
+  lat: 27.7676
+  lng: -82.6403
+
+climate:
+  summer_avg: "90°F"
+  winter_avg: "62°F"
+  annual_rainfall: "52 inches"
+  hurricane_frequency: "3-4 named storms within 100 miles annually"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (75-85%)"
+  weather_challenges:
+    - "Peninsula location increases storm surge risk"
+    - "Intense salt air exposure on waterfront properties"
+    - "High humidity accelerates corrosion and deterioration"
+    - "UV exposure particularly intense due to water reflection"
+    - "Afternoon sea breezes bring daily summer thunderstorms"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Downtown St. Petersburg"
+      description: "Vibrant urban core with mix of office, retail, and residential"
+      notable: "Tropicana Field, major museums, restaurants"
+    - name: "Gateway District"
+      description: "Business park and commercial corridor"
+      notable: "Corporate offices, retail centers"
+    - name: "Central Avenue Corridor"
+      description: "Arts and entertainment district with growing commercial presence"
+      notable: "Galleries, restaurants, boutique retail"
+    - name: "Grand Central District"
+      description: "Antique and design district"
+      notable: "Specialty retail, design showrooms"
+
+  residential_luxury:
+    - name: "Snell Isle"
+      description: "Prestigious waterfront neighborhood with Mediterranean Revival homes"
+      home_values: "$1M-$8M+"
+    - name: "Old Northeast"
+      description: "Historic neighborhood with early 20th century homes"
+      home_values: "$500K-$3M+"
+    - name: "Shore Acres"
+      description: "Waterfront neighborhood with canal access"
+      home_values: "$600K-$4M+"
+    - name: "Isla del Sol"
+      description: "Island community with golf course"
+      home_values: "$400K-$2M+"
+    - name: "St. Pete Beach"
+      description: "Barrier island community with beachfront properties"
+      home_values: "$800K-$10M+"
+
+  historic_districts:
+    - name: "Old Northeast"
+      description: "One of Florida's largest contiguous historic districts"
+      designation: "National Register Historic District"
+      architectural_style: "Mediterranean Revival, Craftsman, Colonial Revival"
+    - name: "Kenwood"
+      description: "Early 20th century residential neighborhood"
+      designation: "Local Historic District"
+      architectural_style: "Bungalow, Craftsman"
+    - name: "Roser Park"
+      description: "Historic African American neighborhood"
+      designation: "National Register Historic District"
+      architectural_style: "Vernacular, Craftsman"
+    - name: "Downtown Commercial District"
+      description: "Historic downtown commercial buildings"
+      designation: "Local Historic District"
+      architectural_style: "Art Deco, Mediterranean Revival, Commercial"
+
+landmarks:
+  major_venues:
+    - "Tropicana Field (Rays MLB, 42,000 capacity)"
+    - "Mahaffey Theater (2,000+ capacity)"
+    - "The Palladium"
+    - "Al Lang Stadium (soccer/baseball)"
+  cultural:
+    - "The Dali Museum"
+    - "Museum of Fine Arts"
+    - "Imagine Museum (glass art)"
+    - "St. Petersburg Museum of History"
+    - "Morean Arts Center"
+  healthcare:
+    - "Bayfront Health St. Petersburg"
+    - "Johns Hopkins All Children's Hospital"
+    - "St. Anthony's Hospital"
+  waterfront:
+    - "St. Pete Pier (26 acres)"
+    - "Vinoy Park"
+    - "North Shore Park"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (130 mph design wind speed on barrier islands)"
+  flood_zones: "AE, VE extensive due to peninsula geography"
+  special_requirements:
+    - "More stringent wind requirements on barrier islands"
+    - "Extensive flood zone compliance required"
+    - "Coastal construction setback requirements"
+    - "Impact-resistant glazing mandatory"
+    - "Historic district design guidelines in designated areas"
+
+permit_authorities:
+  primary:
+    - name: "City of St. Petersburg Building Department"
+      address: "175 5th Street N, St. Petersburg, FL 33701"
+      phone: "(727) 893-7171"
+  county:
+    - name: "Pinellas County Building Services"
+      phone: "(727) 464-3888"
+  historic:
+    - name: "St. Petersburg Historic Preservation Commission"
+    - name: "Community Planning & Preservation Division"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Federated National Insurance"
+    - "Heritage Insurance"
+    - "Universal Property & Casualty"
+  challenges:
+    - "Barrier island properties face highest premiums"
+    - "Storm surge risk affects rates significantly"
+    - "Many carriers limit coastal exposure"
+    - "Flood insurance essential for most properties"
+
+economic_context:
+  major_industries:
+    - "Healthcare (Johns Hopkins All Children's)"
+    - "Tourism and Hospitality"
+    - "Marine and Boating"
+    - "Arts and Culture"
+    - "Technology (emerging tech hub)"
+    - "Financial Services"
+  major_employers:
+    - "Johns Hopkins All Children's Hospital"
+    - "Raymond James Financial"
+    - "Bayfront Health"
+    - "City of St. Petersburg"
+    - "Duke Energy Florida"
+  recent_developments:
+    - name: "Tropicana Field Redevelopment"
+      description: "Proposed mixed-use redevelopment of stadium site"
+      status: "Planning phase"
+    - name: "St. Pete Pier"
+      description: "$92 million waterfront destination"
+      status: "Completed 2020"
+    - name: "EDGE District"
+      description: "Arts and entertainment district development"
+      status: "Ongoing"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, limestone bedrock, high water table"
+  foundation_types: "Slab-on-grade, pile foundations for larger waterfront structures"
+  common_issues:
+    - "Limited lot sizes in older neighborhoods"
+    - "Strict setbacks on waterfront properties"
+    - "Historic district restrictions on design"
+    - "Salt air corrosion requires marine-grade materials"
+  unique_factors:
+    - "Peninsula geography limits expansion"
+    - "Strong preservation community"
+    - "Tourism-driven economy affects construction timing"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "St. Pete"
+    - "Pinellas County"
+    - "Downtown St. Petersburg"
+    - "St. Pete Beach"
+    - "Treasure Island"
+  long_tail_phrases:
+    - "St. Pete commercial contractor"
+    - "downtown St. Petersburg construction"
+    - "Pinellas County general contractor"
+    - "waterfront construction St. Petersburg"

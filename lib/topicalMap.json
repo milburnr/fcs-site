@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "strategy": "Double Helix Split-Funnel",
+    "market": "Tampa Bay High-Value Construction",
+    "version": "2.0",
+    "updated": "2026-01-18"
+  },
+  "silos": {
+    "commercial": {
+      "id": "COMMERCIAL_B2B",
+      "core_theme": "Risk Mitigation, ROI, & Logistics",
+      "hub": "/commercial/",
+      "schema_type": "GeneralContractor",
+      "clusters": [
+        {
+          "name": "Medical Construction",
+          "slug": "medical-construction",
+          "keywords": ["AHCA compliance", "medical gas piping", "clean room standards", "healthcare construction Tampa", "medical office construction"],
+          "required_nodes": [
+            "Navigating AHCA Inspections",
+            "Medical Office Value Engineering",
+            "Clean Room Construction Standards",
+            "Medical Gas Piping Requirements"
+          ]
+        },
+        {
+          "name": "Industrial & Large Scale",
+          "slug": "industrial-construction",
+          "keywords": ["tilt-wall construction", "steel erection", "CPM scheduling", "warehouse construction", "industrial flex space"],
+          "required_nodes": [
+            "CPM Scheduling to Prevent Delays",
+            "Tilt-Wall vs Metal Buildings",
+            "Industrial Flex Space Development",
+            "Warehouse Construction Tampa Bay"
+          ]
+        },
+        {
+          "name": "Historic Restoration (Commercial)",
+          "slug": "historic-restoration-commercial",
+          "keywords": ["Italian Club Tampa", "Cuban Club restoration", "civic building restoration", "SHPO compliance", "historic tax credits"],
+          "required_nodes": [
+            "Tampa's Historic Social Clubs Restoration",
+            "Navigating Florida SHPO Requirements",
+            "Historic Tax Credits for Commercial Buildings",
+            "Adaptive Reuse of Historic Civic Buildings"
+          ]
+        },
+        {
+          "name": "Condo Remediation & Compliance",
+          "slug": "condo-remediation",
+          "keywords": ["SB4-D compliance", "milestone inspections", "SIRS structural", "condo structural assessment", "balcony inspections"],
+          "required_nodes": [
+            "Florida SB4-D Compliance Guide for Condo Associations",
+            "Milestone Inspection Requirements Explained",
+            "SIRS Structural Integrity Reserve Studies",
+            "Condo Balcony Inspection Requirements"
+          ]
+        },
+        {
+          "name": "Multi-Family Disaster Recovery",
+          "slug": "multi-family-disaster",
+          "keywords": ["condo flood restoration", "apartment hurricane damage", "common area rebuild", "multi-unit insurance restoration"],
+          "required_nodes": [
+            "Multi-Family Flood Damage Restoration Process",
+            "Insurance Restoration for Condo Associations",
+            "Common Area Reconstruction After Disasters",
+            "Large Loss Commercial Property Restoration"
+          ]
+        },
+        {
+          "name": "Multi-Family Construction",
+          "slug": "multi-family-construction",
+          "keywords": ["condo construction", "apartment complex", "mixed-use development", "senior living facilities", "student housing"],
+          "required_nodes": [
+            "Multi-Family Construction Project Management",
+            "Condo Common Area Construction",
+            "Mixed-Use Development in Tampa Bay",
+            "Senior Living Construction Requirements"
+          ]
+        }
+      ]
+    },
+    "residential": {
+      "id": "RESIDENTIAL_B2C",
+      "core_theme": "Vision, Legacy, & Regulatory Mastery",
+      "hub": "/residential/",
+      "schema_type": "HomeAndConstructionBusiness",
+      "clusters": [
+        {
+          "name": "South Tampa Regulatory",
+          "slug": "south-tampa-regulatory",
+          "keywords": ["Hyde Park ARC guidelines", "historic preservation Tampa", "certificate of appropriateness", "South Tampa building codes"],
+          "required_nodes": [
+            "The Hyde Park Renovation Guide",
+            "Sourcing Historic Materials in Tampa Bay",
+            "Certificate of Appropriateness Process",
+            "South Tampa Historic District Requirements"
+          ]
+        },
+        {
+          "name": "Coastal Resilience",
+          "slug": "coastal-resilience",
+          "keywords": ["FEMA 50% rule calculator", "flood zone VE vs AE", "breakaway walls", "coastal construction requirements"],
+          "required_nodes": [
+            "The FEMA 50% Rule Explained",
+            "Waterproofing Historic Masonry",
+            "Flood Zone VE vs AE: What Homeowners Need to Know",
+            "Breakaway Wall Construction Requirements"
+          ]
+        },
+        {
+          "name": "Luxury Custom Homes",
+          "slug": "luxury-custom-homes",
+          "keywords": ["waterfront custom homes", "Davis Islands builders", "Harbour Island construction", "luxury home construction Tampa"],
+          "required_nodes": [
+            "Building on Tampa Bay Waterfront Lots",
+            "Smart Home Integration for Luxury Estates",
+            "Hurricane-Resistant Luxury Home Design",
+            "Davis Islands Custom Home Building"
+          ]
+        },
+        {
+          "name": "Waterfront Construction",
+          "slug": "waterfront-construction",
+          "keywords": ["seawall coordination", "marine-grade materials", "waterfront estate homes", "coastal erosion protection"],
+          "required_nodes": [
+            "Seawall Coordination for New Construction",
+            "Marine-Grade Building Materials Guide",
+            "Waterfront Lot Site Preparation",
+            "Living Shoreline vs Traditional Seawall"
+          ]
+        },
+        {
+          "name": "Historic Preservation (Residential)",
+          "slug": "historic-preservation-residential",
+          "keywords": ["historic home renovation", "period-accurate restoration", "Tampa historic homes", "preservation compliance"],
+          "required_nodes": [
+            "Renovating Historic Homes in Tampa",
+            "Period-Accurate Material Sourcing",
+            "Balancing Modern Comfort with Historic Character",
+            "Historic Home Energy Efficiency Upgrades"
+          ]
+        }
+      ]
+    }
+  },
+  "cross_silo_rules": {
+    "forbidden_links": [
+      "Commercial pages MUST NOT link to Residential content",
+      "Residential pages MUST NOT link to Commercial content",
+      "Internal links must stay within the same silo"
+    ],
+    "exceptions": [
+      "Homepage links to both silos (gateway function)",
+      "About and Contact pages are neutral",
+      "Location hub pages may list both pathways"
+    ]
+  }
+}

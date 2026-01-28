@@ -1,0 +1,11 @@
+# Florida Construction Specialists - robots.txt
+# https://floridaconstructionspecialists.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://floridaconstructionspecialists.com/sitemap.xml
+
+# Crawl-delay (optional, be polite to crawlers)
+Crawl-delay: 1

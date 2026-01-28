@@ -1,0 +1,691 @@
+{
+  "generated": "2026-01-22T07:51:34.553Z",
+  "stats": {
+    "totalAnalyzed": 486,
+    "heroQuality": 114,
+    "byTopic": {
+      "commercial": 10,
+      "residential": 10,
+      "disaster": 10,
+      "historic": 10,
+      "balcony": 10,
+      "construction": 10
+    }
+  },
+  "pillarAssignments": [
+    {
+      "page": "services/commercial/page.tsx",
+      "pageName": "Commercial Services",
+      "topic": "commercial",
+      "image": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+      "altText": "Modern commercial building with professional flat roof installation, MVP Orthodontics office",
+      "quality": 92
+    },
+    {
+      "page": "services/residential/page.tsx",
+      "pageName": "Residential Services",
+      "topic": "residential",
+      "image": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+      "altText": "Elevated coastal home with new dark asphalt shingle roof and white siding",
+      "quality": 88
+    },
+    {
+      "page": "services/disaster-recovery/page.tsx",
+      "pageName": "Disaster Recovery",
+      "topic": "disaster",
+      "image": "/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+      "altText": "Aerial view of severe hurricane damage to coastal homes and roofs requiring emergency repair",
+      "quality": 88
+    },
+    {
+      "page": "services/historic-restoration/page.tsx",
+      "pageName": "Historic Restoration",
+      "topic": "historic",
+      "image": "/wp-content/uploads/2024/01/i9.jpg",
+      "altText": "Historic brick commercial building with exterior lighting at twilight after restoration",
+      "quality": 88
+    },
+    {
+      "page": "commercial/page.tsx",
+      "pageName": "Commercial Overview",
+      "topic": "commercial",
+      "image": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+      "altText": "Modern commercial building with professional flat roof installation, MVP Orthodontics office",
+      "quality": 92
+    },
+    {
+      "page": "residential/page.tsx",
+      "pageName": "Residential Overview",
+      "topic": "residential",
+      "image": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+      "altText": "Elevated coastal home with new dark asphalt shingle roof and white siding",
+      "quality": 88
+    }
+  ],
+  "topImages": [
+    {
+      "path": "/wp-content/uploads/2023/12/DRGServicesLogo-Wide1.1-01.png",
+      "altText": "Professional roofing services graphic showing weather, disaster, insurance, design and rebuild keywords",
+      "quality": 95,
+      "tags": [
+        "marketing-graphic",
+        "brand-collateral",
+        "service-keywords",
+        "typography-design",
+        "hero-image",
+        "disaster-relief",
+        "insurance-remediation",
+        "water-fire-damage",
+        "design-build-restoration"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
+      "altText": "Tampa skyline at dusk with purple-lit bridge and downtown buildings reflected in water",
+      "quality": 95,
+      "tags": [
+        "not-roofing-related",
+        "cityscape",
+        "urban-skyline",
+        "evening-photography",
+        "commercial-buildings",
+        "tampa-florida"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": false,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/FCS-Logo-BW-1.png",
+      "altText": "Florida Construction Specialists FCS roofing contractor company logo",
+      "quality": 95,
+      "tags": [
+        "fcs-logo",
+        "florida-construction-specialists",
+        "company-branding",
+        "roofing-contractor-logo",
+        "corporate-identity",
+        "professional-branding",
+        "clean-design"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/FCS-Logo-BW.png",
+      "altText": "Florida Construction Specialists FCS professional roofing contractor logo",
+      "quality": 95,
+      "tags": [
+        "fcs-logo",
+        "florida-construction-specialists",
+        "company-branding",
+        "corporate-identity",
+        "roofing-contractor-logo",
+        "professional-branding",
+        "black-logo"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/FCS-Logo-BW-1.png",
+      "altText": "Florida Construction Specialists FCS logo - professional roofing contractor",
+      "quality": 95,
+      "tags": [
+        "fcs-logo",
+        "company-branding",
+        "florida-construction-specialists",
+        "corporate-identity",
+        "roofing-contractor-logo",
+        "professional-branding"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/FCS-Logo-BW.png",
+      "altText": "Florida Construction Specialists FCS roofing contractor company logo",
+      "quality": 95,
+      "tags": [
+        "fcs-logo",
+        "florida-construction-specialists",
+        "company-branding",
+        "corporate-identity",
+        "roofing-contractor-logo",
+        "professional-logo",
+        "black-logo",
+        "contractor-branding"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": false,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2024/01/6.4.jpg",
+      "altText": "Modern kitchen interior with exposed wood beams - not roofing contractor content",
+      "quality": 95,
+      "tags": [
+        "not-roofing-related",
+        "interior-design",
+        "kitchen",
+        "residential-interior",
+        "misclassified-image",
+        "ceiling-beams",
+        "architectural-interior"
+      ],
+      "useCases": {
+        "hero": false,
+        "gallery": false,
+        "inline": false,
+        "archive": true
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Eleuthera-Island.jpeg",
+      "altText": "Aerial view of coastal road between turquoise ocean and dark blue sea",
+      "quality": 92,
+      "tags": [
+        "not-roofing",
+        "coastal-landscape",
+        "aerial-photography",
+        "ocean-view",
+        "irrelevant"
+      ],
+      "useCases": {
+        "hero": false,
+        "gallery": false,
+        "inline": false,
+        "archive": true
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png",
+      "altText": "Luxury Mediterranean-style resort with tile roofing and palm trees under blue sky",
+      "quality": 92,
+      "tags": [
+        "tile-roofing",
+        "luxury-residential",
+        "mediterranean-architecture",
+        "multi-story-building",
+        "commercial-property",
+        "architectural-rendering",
+        "clay-tile-roof",
+        "resort-style",
+        "hero-image",
+        "tropical-landscaping"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-1.jpg",
+      "altText": "Wood frame residential construction showing roof trusses and framing under blue sky",
+      "quality": 92,
+      "tags": [
+        "new-construction",
+        "wood-framing",
+        "residential-construction",
+        "roof-trusses",
+        "framing-stage",
+        "custom-home",
+        "construction-progress",
+        "engineered-trusses",
+        "hero-quality"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg",
+      "altText": "Luxury home with premium architectural shingle roof at twilight with illuminated windows",
+      "quality": 92,
+      "tags": [
+        "residential-roofing",
+        "asphalt-shingles",
+        "luxury-home",
+        "twilight-photography",
+        "completed-project",
+        "architectural-roofing",
+        "premium-quality",
+        "hero-image",
+        "curb-appeal",
+        "professional-installation"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-3.jpg",
+      "altText": "Luxury French country home with premium dark asphalt shingle roof and stone exterior at dusk",
+      "quality": 92,
+      "tags": [
+        "luxury-residential-roofing",
+        "asphalt-shingle-roof",
+        "french-country-architecture",
+        "completed-project",
+        "premium-roofing",
+        "multi-gable-roof",
+        "residential-exterior",
+        "hero-image",
+        "twilight-photography"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/custom-home-construction-5.jpg",
+      "altText": "Modern luxury home with contemporary roofing at dusk featuring warm interior lighting",
+      "quality": 92,
+      "tags": [
+        "residential-roofing",
+        "modern-architecture",
+        "luxury-home",
+        "contemporary-roof",
+        "completed-project",
+        "evening-photography",
+        "hero-image",
+        "high-end-residential",
+        "architectural-roofing",
+        "premium-roofing"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/image.png",
+      "altText": "Luxury home with gray architectural shingle hip roof and professional landscaping",
+      "quality": 92,
+      "tags": [
+        "residential-roofing",
+        "architectural-shingles",
+        "hip-roof",
+        "luxury-home",
+        "completed-project",
+        "gray-shingles",
+        "custom-home",
+        "landscape-integration",
+        "premium-roofing"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/istockphoto-1053758464-612x612-1.jpg",
+      "altText": "Wood covered deck with exposed beam roof structure overlooking mountains",
+      "quality": 92,
+      "tags": [
+        "covered-deck",
+        "wood-roof-structure",
+        "residential-roofing",
+        "exposed-beam-ceiling",
+        "deck-roof",
+        "wood-construction",
+        "mountain-view",
+        "outdoor-living",
+        "architectural-roofing",
+        "timber-frame"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+      "altText": "Modern commercial building with professional flat roof installation, MVP Orthodontics office",
+      "quality": 92,
+      "tags": [
+        "commercial-roofing",
+        "flat-roof",
+        "modern-architecture",
+        "completed-project",
+        "medical-office",
+        "low-slope-roofing",
+        "professional-photography",
+        "hero-image",
+        "commercial-building"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/office-building-1.jpg",
+      "altText": "Modern commercial office building with flat roof and glass facade at dusk",
+      "quality": 92,
+      "tags": [
+        "commercial-roofing",
+        "flat-roof",
+        "modern-architecture",
+        "office-building",
+        "dusk-photography",
+        "hero-image",
+        "completed-project",
+        "commercial-construction",
+        "architectural-lighting",
+        "premium-quality"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Old/office-building-14.jpg.webp",
+      "altText": "Modern commercial medical facility with professional flat roof installation and desert landscaping",
+      "quality": 92,
+      "tags": [
+        "commercial-roofing",
+        "medical-facility",
+        "flat-roof",
+        "completed-project",
+        "healthcare-building",
+        "modern-architecture",
+        "commercial-construction",
+        "professional-photography",
+        "desert-landscape",
+        "portfolio-quality"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+      "altText": "Luxury resort with Mediterranean tile roofing and palm tree landscaping under blue sky",
+      "quality": 92,
+      "tags": [
+        "tile-roofing",
+        "luxury-residential",
+        "commercial-resort",
+        "mediterranean-architecture",
+        "completed-project",
+        "multi-story-building",
+        "hero-quality",
+        "professional-landscaping",
+        "architectural-roofing",
+        "premium-construction"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    },
+    {
+      "path": "/wp-content/uploads/2023/12/custom-home-construction-2.jpg",
+      "altText": "Luxury home with dark architectural shingle roof at twilight with warm interior lighting",
+      "quality": 92,
+      "tags": [
+        "residential-roofing",
+        "architectural-shingles",
+        "luxury-home",
+        "twilight-photography",
+        "completed-project",
+        "dark-gray-roof",
+        "multi-gable-design",
+        "hero-quality",
+        "professional-photography"
+      ],
+      "useCases": {
+        "hero": true,
+        "gallery": true,
+        "inline": true,
+        "archive": false
+      }
+    }
+  ],
+  "byTopic": {
+    "commercial": [
+      {
+        "path": "/wp-content/uploads/2023/12/Old/maya-patel.jpg",
+        "altText": "Modern commercial building with professional flat roof installation, MVP Orthodontics office",
+        "quality": 92,
+        "matchScore": 11
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/maya-patel.jpg",
+        "altText": "Modern commercial building with flat roof and contemporary design showcasing professional roofing work",
+        "quality": 92,
+        "matchScore": 11
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Old/office-building-1.jpg",
+        "altText": "Modern commercial office building with flat roof and glass facade at dusk",
+        "quality": 92,
+        "matchScore": 9
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/office-building-1.jpg",
+        "altText": "Modern three-story commercial office building with flat roof at dusk featuring illuminated glass facade",
+        "quality": 92,
+        "matchScore": 9
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Old/mall-2.jpg",
+        "altText": "Commercial retail building with professional low-slope TPO roofing installation",
+        "quality": 88,
+        "matchScore": 9
+      }
+    ],
+    "residential": [
+      {
+        "path": "/wp-content/uploads/2023/12/Old/Custom-home-2-rotated-e1702616203812.jpg",
+        "altText": "Completed elevated coastal home with dark asphalt shingle roof and white vinyl siding",
+        "quality": 78,
+        "matchScore": 13
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+        "altText": "Elevated coastal home with new dark asphalt shingle roof and white siding",
+        "quality": 88,
+        "matchScore": 12
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+        "altText": "Elevated coastal home with new gray asphalt shingle roof and white siding",
+        "quality": 88,
+        "matchScore": 12
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Custom-home-2-rotated-e1702616203812.jpg",
+        "altText": "Elevated coastal home with gray asphalt shingle roof and white siding on stilts",
+        "quality": 78,
+        "matchScore": 12
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Custom-home-2-rotated.jpg",
+        "altText": "Elevated coastal home with new gray asphalt shingle roof and white siding",
+        "quality": 78,
+        "matchScore": 12
+      }
+    ],
+    "disaster": [
+      {
+        "path": "/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+        "altText": "Aerial view of severe hurricane damage to coastal homes and roofs requiring emergency repair",
+        "quality": 88,
+        "matchScore": 15
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/hurricane-ian.webp",
+        "altText": "Aerial view of hurricane damage to coastal homes showing widespread roof and property destruction",
+        "quality": 88,
+        "matchScore": 15
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/e2.webp",
+        "altText": "Severe wind damage to elevated home roof with workers inspecting destruction",
+        "quality": 82,
+        "matchScore": 14
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+        "altText": "Residential home with asphalt shingle roof surrounded by flood waters",
+        "quality": 72,
+        "matchScore": 14
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Ian-2.jpg",
+        "altText": "Aerial view of catastrophic hurricane damage to roofs and homes in coastal community",
+        "quality": 88,
+        "matchScore": 13
+      }
+    ],
+    "historic": [
+      {
+        "path": "/wp-content/uploads/2024/01/j4.jpeg",
+        "altText": "Historic brick building facade with ornate windows under renovation with scaffolding support",
+        "quality": 82,
+        "matchScore": 12
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/istockphoto-1409734626-612x612-1.jpg",
+        "altText": "Scaffolding on historic brick building during restoration with arched windows",
+        "quality": 78,
+        "matchScore": 12
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/i9.jpg",
+        "altText": "Historic brick commercial building with exterior lighting at twilight after restoration",
+        "quality": 88,
+        "matchScore": 10
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/1111.jpg",
+        "altText": "Historic church building restoration with scaffolding and clay tile roof repair in progress",
+        "quality": 82,
+        "matchScore": 10
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/k4.jpg",
+        "altText": "Historic red brick commercial building with slate roof and arched entrance",
+        "quality": 78,
+        "matchScore": 10
+      }
+    ],
+    "balcony": [
+      {
+        "path": "/wp-content/uploads/2023/12/Old/istockphoto-1359667366-612x612-1.jpg",
+        "altText": "Two workers on ladder performing deck maintenance on residential home balcony",
+        "quality": 78,
+        "matchScore": 8
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Old/railing-replacement-best-practices-condos.webp",
+        "altText": "Modern commercial building exterior with curved glass balcony railings",
+        "quality": 78,
+        "matchScore": 6
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/istockphoto-1359667366-612x612-1.jpg",
+        "altText": "Two workers on ladder performing deck maintenance on elevated residential balcony",
+        "quality": 78,
+        "matchScore": 6
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/Old/istockphoto-1286516900-612x612-1.jpg",
+        "altText": "Finished rooftop deck with pergola and people enjoying outdoor living space",
+        "quality": 88,
+        "matchScore": 5
+      },
+      {
+        "path": "/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png",
+        "altText": "Black bituminous waterproofing applied to exposed brick foundation wall during excavation",
+        "quality": 72,
+        "matchScore": 5
+      }
+    ],
+    "construction": [
+      {
+        "path": "/wp-content/uploads/2024/01/istockphoto-1352673708-612x612-2.jpg",
+        "altText": "Construction supervisor in safety gear overlooking commercial building site with crane",
+        "quality": 78,
+        "matchScore": 13
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+        "altText": "Construction worker in safety vest and hard hat supervising crane operations at building site",
+        "quality": 72,
+        "matchScore": 13
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/2f.jpg",
+        "altText": "Construction manager in safety gear reviewing blueprints at commercial building site",
+        "quality": 82,
+        "matchScore": 11
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/m88.jpg",
+        "altText": "Commercial building construction site with crane and excavator working on concrete structure",
+        "quality": 78,
+        "matchScore": 11
+      },
+      {
+        "path": "/wp-content/uploads/2024/01/9999.jpg",
+        "altText": "Commercial construction site with multiple tower cranes at sunset",
+        "quality": 72,
+        "matchScore": 11
+      }
+    ]
+  }
+}

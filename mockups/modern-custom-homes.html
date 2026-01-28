@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Home Building | Florida Construction Specialists</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0c0c0c;
+      --surface: #161616;
+      --surface-2: #1f1f1f;
+      --text: #f5f5f5;
+      --text-muted: #888888;
+      --cream: #f5f0e8;
+      --gold: #c9a96e;
+      --gold-light: #d4b87a;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow-x: hidden;
+    }
+
+    /* Luxury serif headings */
+    h1, h2, h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+    }
+
+    /* Elegant gradient */
+    .luxury-gradient {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background: 
+        radial-gradient(ellipse at 50% 0%, rgba(201, 169, 110, 0.08) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 80%, rgba(201, 169, 110, 0.05) 0%, transparent 50%);
+    }
+
+    /* Navigation - Minimal & Elegant */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 1.5rem 0;
+      transition: all 0.4s ease;
+    }
+
+    .nav.scrolled {
+      background: rgba(12, 12, 12, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .nav-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 3rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--text);
+      text-decoration: none;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 3rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8125rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+    .nav-links a.active { color: var(--gold); }
+
+    .nav-cta {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    .nav-phone {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-phone:hover { color: var(--gold); }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 1rem 2rem;
+      font-size: 0.8125rem;
+      font-weight: 500;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: all 0.4s ease;
+      border: none;
+      cursor: pointer;
+    }
+
+    .btn-gold {
+      background: var(--gold);
+      color: var(--bg);
+    }
+
+    .btn-gold:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+      box-shadow: 0 20px 40px rgba(201, 169, 110, 0.2);
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--text);
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .btn-outline:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    /* Hero - Cinematic Full Screen */
+    .hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      padding: 0 0 8rem;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+
+    .hero-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, 
+        rgba(12,12,12,1) 0%, 
+        rgba(12,12,12,0.8) 30%,
+        rgba(12,12,12,0.3) 60%,
+        rgba(12,12,12,0.2) 100%
+      );
+    }
+
+    .hero-content {
+      position: relative;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0 3rem;
+      width: 100%;
+    }
+
+    .hero-label {
+      font-size: 0.75rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      margin-bottom: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 5rem;
+      font-weight: 400;
+      line-height: 1.1;
+      margin-bottom: 2rem;
+      max-width: 800px;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-text {
+      font-size: 1.125rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      margin-bottom: 3rem;
+      max-width: 500px;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    /* Scroll indicator */
+    .scroll-indicator {
+      position: absolute;
+      bottom: 3rem;
+      right: 3rem;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      color: var(--text-muted);
+      font-size: 0.75rem;
+      letter-spacing: 0.1em;
+    }
+
+    .scroll-line {
+      width: 1px;
+      height: 60px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+    }
+
+    /* Intro Section */
+    .intro {
+      padding: 10rem 3rem;
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8rem;
+      align-items: center;
+    }
+
+    .intro-content h2 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      line-height: 1.2;
+    }
+
+    .intro-content p {
+      color: var(--text-muted);
+      line-height: 1.9;
+      margin-bottom: 1.5rem;
+    }
+
+    .intro-content p:first-of-type::first-letter {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 4rem;
+      float: left;
+      line-height: 1;
+      margin-right: 0.5rem;
+      color: var(--gold);
+    }
+
+    .intro-visual {
+      position: relative;
+    }
+
+    .intro-image {
+      width: 100%;
+      aspect-ratio: 3/4;
+      object-fit: cover;
+    }
+
+    .intro-accent {
+      position: absolute;
+      top: -3rem;
+      right: -3rem;
+      width: 200px;
+      height: 200px;
+      border: 1px solid var(--gold);
+      opacity: 0.3;
+    }
+
+    /* Services - Elegant Grid */
+    .services {
+      padding: 10rem 3rem;
+      background: var(--surface);
+    }
+
+    .services-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .services-header {
+      text-align: center;
+      margin-bottom: 6rem;
+    }
+
+    .services-header h2 {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .services-header p {
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+    }
+
+    .service-card {
+      padding: 3rem;
+      border: 1px solid rgba(255,255,255,0.05);
+      transition: all 0.5s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+      transform: scaleX(0);
+      transition: transform 0.5s ease;
+    }
+
+    .service-card:hover {
+      border-color: rgba(201, 169, 110, 0.2);
+      background: rgba(201, 169, 110, 0.02);
+    }
+
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .service-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 4rem;
+      color: rgba(201, 169, 110, 0.2);
+      margin-bottom: 1.5rem;
+      line-height: 1;
+    }
+
+    .service-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .service-card p {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+      line-height: 1.7;
+    }
+
+    /* Gallery - Masonry Style */
+    .gallery {
+      padding: 10rem 3rem;
+    }
+
+    .gallery-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .gallery-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      margin-bottom: 4rem;
+    }
+
+    .gallery-header h2 {
+      font-size: 3rem;
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(2, 300px);
+      gap: 1.5rem;
+    }
+
+    .gallery-item {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.05);
+    }
+
+    .gallery-item.large {
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+
+    .gallery-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(12,12,12,0.9) 0%, transparent 50%);
+      padding: 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .gallery-item:hover .gallery-overlay {
+      opacity: 1;
+    }
+
+    .gallery-overlay h4 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .gallery-overlay p {
+      color: var(--text-muted);
+      font-size: 0.875rem;
+    }
+
+    /* Process Timeline */
+    .process {
+      padding: 10rem 3rem;
+      background: var(--surface);
+    }
+
+    .process-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .process-header {
+      text-align: center;
+      margin-bottom: 6rem;
+    }
+
+    .process-header h2 {
+      font-size: 3rem;
+    }
+
+    .timeline {
+      position: relative;
+    }
+
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: linear-gradient(to bottom, var(--gold), rgba(201,169,110,0.1));
+    }
+
+    .timeline-item {
+      display: grid;
+      grid-template-columns: 1fr 60px 1fr;
+      gap: 2rem;
+      margin-bottom: 4rem;
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+      grid-column: 3;
+      text-align: left;
+    }
+
+    .timeline-item:nth-child(odd) .timeline-content {
+      grid-column: 1;
+      text-align: right;
+    }
+
+    .timeline-dot {
+      grid-column: 2;
+      width: 16px;
+      height: 16px;
+      background: var(--gold);
+      border-radius: 50%;
+      justify-self: center;
+      position: relative;
+    }
+
+    .timeline-dot::after {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border: 1px solid var(--gold);
+      border-radius: 50%;
+      opacity: 0.3;
+    }
+
+    .timeline-content h4 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .timeline-content p {
+      color: var(--text-muted);
+      font-size: 0.9375rem;
+      line-height: 1.7;
+    }
+
+    /* Testimonial */
+    .testimonial {
+      padding: 10rem 3rem;
+      text-align: center;
+    }
+
+    .testimonial-inner {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .testimonial-quote {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.5rem;
+      font-weight: 400;
+      font-style: italic;
+      line-height: 1.5;
+      margin-bottom: 3rem;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+
+    .testimonial-avatar {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+    }
+
+    .testimonial-info {
+      text-align: left;
+    }
+
+    .testimonial-name {
+      font-weight: 500;
+      margin-bottom: 0.25rem;
+    }
+
+    .testimonial-title {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+
+    /* CTA */
+    .cta {
+      padding: 10rem 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cta-bg {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+    }
+
+    .cta-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.3;
+    }
+
+    .cta-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right, rgba(12,12,12,0.95), rgba(12,12,12,0.7));
+    }
+
+    .cta-inner {
+      max-width: 600px;
+      position: relative;
+    }
+
+    .cta h2 {
+      font-size: 3.5rem;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .cta p {
+      color: var(--text-muted);
+      margin-bottom: 2.5rem;
+      line-height: 1.8;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 5rem 3rem;
+      border-top: 1px solid rgba(255,255,255,0.05);
+    }
+
+    .footer-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer p {
+      color: var(--text-muted);
+      font-size: 0.8125rem;
+      letter-spacing: 0.05em;
+    }
+
+    .footer-links {
+      display: flex;
+      gap: 3rem;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8125rem;
+      letter-spacing: 0.05em;
+      transition: color 0.3s;
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .intro { grid-template-columns: 1fr; gap: 4rem; }
+      .services-grid { grid-template-columns: 1fr; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-item.large { grid-column: span 2; grid-row: span 1; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero h1 { font-size: 3rem; }
+      .gallery-grid { grid-template-columns: 1fr; }
+      .gallery-item.large { grid-column: span 1; }
+      .timeline::before { left: 0; }
+      .timeline-item { grid-template-columns: 1fr; }
+      .timeline-item .timeline-content { grid-column: 1 !important; text-align: left !important; padding-left: 2rem; }
+      .timeline-dot { position: absolute; left: -8px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="luxury-gradient"></div>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="modern-homepage.html" class="logo">Florida Construction Specialists</a>
+      <ul class="nav-links">
+        <li><a href="modern-homepage.html">Home</a></li>
+        <li><a href="modern-commercial.html">Commercial</a></li>
+        <li><a href="#" class="active">Custom Homes</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:8134207561" class="nav-phone">(813) 420-7561</a>
+        <a href="#contact" class="btn btn-gold">Inquire</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1920" alt="Luxury Home">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-label">Custom Home Building</p>
+      <h1>Where <em>Vision</em> Becomes Architecture</h1>
+      <p class="hero-text">We don't just build houses. We craft legacies—bespoke residences that reflect your lifestyle, aspirations, and the Florida landscape.</p>
+      <div class="hero-buttons">
+        <a href="#contact" class="btn btn-gold">Begin Your Journey</a>
+        <a href="#gallery" class="btn btn-outline">View Portfolio</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <section class="intro">
+    <div class="intro-content">
+      <h2>The Art of Custom Home Building</h2>
+      <p>Every exceptional home begins with a conversation. We listen to your dreams, study your land, and translate your vision into architectural poetry. Our process is deeply personal—we believe your home should be as unique as the life lived within it.</p>
+      <p>From waterfront estates to hurricane-hardened sanctuaries, we bring decades of Florida expertise to every project. Our homes are built to withstand what nature delivers while embracing the beauty of coastal living.</p>
+    </div>
+    <div class="intro-visual">
+      <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800" alt="Luxury Interior" class="intro-image">
+      <div class="intro-accent"></div>
+    </div>
+  </section>
+
+  <section class="services">
+    <div class="services-inner">
+      <div class="services-header">
+        <h2>Our Expertise</h2>
+        <p>From initial concept to final walkthrough, we guide you through every phase of creating your dream home.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-number">01</div>
+          <h3>Custom Design</h3>
+          <p>Collaborative design process with leading architects to create a home that's uniquely yours—every detail considered, every preference honored.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">02</div>
+          <h3>Waterfront Estates</h3>
+          <p>Specialized expertise in coastal construction. We navigate permitting, seawall requirements, and marine conditions with precision.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">03</div>
+          <h3>Hurricane Protection</h3>
+          <p>Every home engineered for Florida's reality. Impact-resistant construction, fortified roofing, and storm-ready design.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">04</div>
+          <h3>Historic Renovation</h3>
+          <p>Preserving Tampa Bay's architectural heritage while modernizing for contemporary living. Sensitive restoration meets modern luxury.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">05</div>
+          <h3>Smart Home Integration</h3>
+          <p>Seamless technology throughout—climate, lighting, security, and entertainment systems that respond to your lifestyle.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-number">06</div>
+          <h3>Outdoor Living</h3>
+          <p>Florida living extends beyond walls. Custom pools, summer kitchens, and outdoor entertainment spaces designed for year-round enjoyment.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="gallery-inner">
+      <div class="gallery-header">
+        <h2>Selected Works</h2>
+        <a href="#" class="btn btn-outline">View All →</a>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item large">
+          <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=1200" alt="Waterfront Estate">
+          <div class="gallery-overlay">
+            <h4>Harbour Island Estate</h4>
+            <p>12,000 sq ft • Waterfront</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600" alt="Modern Interior">
+          <div class="gallery-overlay">
+            <h4>Davis Islands Modern</h4>
+            <p>8,500 sq ft • Contemporary</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600" alt="Custom Home">
+          <div class="gallery-overlay">
+            <h4>Beach Park Residence</h4>
+            <p>6,200 sq ft • Coastal</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=600" alt="Pool">
+          <div class="gallery-overlay">
+            <h4>Sunset Park Villa</h4>
+            <p>9,800 sq ft • Mediterranean</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1600573472592-401b489a3cdc?w=600" alt="Kitchen">
+          <div class="gallery-overlay">
+            <h4>Bayshore Boulevard</h4>
+            <p>7,400 sq ft • Renovation</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="process">
+    <div class="process-inner">
+      <div class="process-header">
+        <h2>Our Process</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Discovery</h4>
+            <p>We begin by understanding your vision, lifestyle, and aspirations. Site analysis reveals opportunities unique to your land.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Design Development</h4>
+            <p>Working with architects, we refine concepts into detailed plans. Every material, finish, and system carefully specified.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Construction</h4>
+            <p>Our craftsmen bring plans to life with meticulous attention to detail. Weekly updates keep you connected to progress.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Finishing</h4>
+            <p>Interior finishes, landscaping, and smart home integration complete your home. Every detail inspected and perfected.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-content">
+            <h4>Welcome Home</h4>
+            <p>A comprehensive walkthrough ensures everything exceeds expectations. Our relationship continues through warranty and beyond.</p>
+          </div>
+          <div class="timeline-dot"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonial">
+    <div class="testimonial-inner">
+      <p class="testimonial-quote">"They didn't just build our home—they understood our family's way of living and created spaces that enhance every moment. The attention to detail is extraordinary."</p>
+      <div class="testimonial-author">
+        <div class="testimonial-avatar"></div>
+        <div class="testimonial-info">
+          <p class="testimonial-name">The Richardson Family</p>
+          <p class="testimonial-title">Harbour Island Estate</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta" id="contact">
+    <div class="cta-bg">
+      <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=1920" alt="Luxury Home">
+      <div class="cta-overlay"></div>
+    </div>
+    <div class="cta-inner">
+      <h2>Begin Your Story</h2>
+      <p>Every great home starts with a conversation. Share your vision with us, and let's explore what's possible together.</p>
+      <div class="cta-buttons">
+        <a href="#" class="btn btn-gold">Schedule Consultation</a>
+        <a href="tel:8134207561" class="btn btn-outline">Call (813) 420-7561</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>© 2026 Florida Construction Specialists</p>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="modern-homepage.html">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const nav = document.getElementById('nav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('scrolled', window.scrollY > 50);
+    });
+  </script>
+</body>
+</html>

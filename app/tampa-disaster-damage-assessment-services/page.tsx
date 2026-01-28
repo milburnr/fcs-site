@@ -1,0 +1,137 @@
+import Link from "next/link";
+import Image from "next/image";
+import { Phone, ArrowRight, CheckCircle } from "lucide-react";
+import { BUSINESS_INFO } from "@/lib/constants";
+import type { Metadata } from "next";
+import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { InternalLinks } from "@/components/InternalLinks";
+
+export const metadata: Metadata = {
+  title: "Tampa Disaster Damage Assessment Services - Florida Construction Specialists",
+  description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; storms.",
+};
+
+const breadcrumbItems = [
+  { name: "Home", href: "/" },
+  { name: "Tampa Disaster Damage Assessment Services", href: "/tampa-disaster-damage-assessment-services/" },
+];
+
+
+const internalLinks = [
+  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
+  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
+  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
+  { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+export default function Page() {
+  return (
+    <>
+      <LocalBusinessSchema />
+      <BreadcrumbSchema items={breadcrumbItems} />
+      {/* Hero */}
+      <section className="relative py-24 overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/wp-content/uploads/2023/12/hurricane-ian.webp"
+            alt="Hurricane damage restoration"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-red-900/90 via-red-800/85 to-brand-green-dark/90" />
+        </div>
+        <div className="container-custom text-center text-white relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
+            Tampa Disaster Damage Assessment Services
+          </h1>
+          <p className="text-xl max-w-3xl mx-auto text-gray-200">
+            Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; s
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <Link href="/contact/" className="btn-cta">
+              Get Free Estimate
+            </Link>
+            <a
+              href={`tel:${BUSINESS_INFO.phoneRaw}`}
+              className="btn-secondary flex items-center justify-center gap-2"
+            >
+              <Phone className="w-5 h-5" />
+              {BUSINESS_INFO.phone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Content */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto prose prose-lg">
+            
+              <p className="text-gray-600 mb-6">
+                Managing commercial construction delays is crucial for successfully completing a project. As Florida’s top commercial contractor in Tampa, Florida Construction Specialists understands the significance of
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                How disaster recovery aids in property damage assessment
+              </h2>
+              <p className="text-gray-600 mb-6">
+                When hiring a commercial contractor in Tampa, it is important to consider several key factors. One of the first and most important things to evaluate
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                The significance of property damage assessment in insurance claim evaluation
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists, the top commercial contractor in Tampa, is a master in commercial construction. With expertise in commercial building, industrial construction, office construction, retail
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Understanding the role of property inspection in disaster damage assessment
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists is leading the way in sustainable commercial construction in Tampa. As the demand for eco-friendly construction continues to grow, their expertise and
+              </p>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <InternalLinks
+            title="Explore Our Services"
+            links={internalLinks}
+          />
+        </div>
+      </section>
+
+<section className="section bg-brand-green">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
+            Ready to Get Started?
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists today for a free consultation.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Get Free Estimate
+            </Link>
+            <a
+              href={`tel:${BUSINESS_INFO.phoneRaw}`}
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+        </div>
+      </section>
+</>
+  );
+}

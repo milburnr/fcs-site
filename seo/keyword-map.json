@@ -1,0 +1,517 @@
+{
+  "primary_keywords": {
+    "commercial-construction-tampa": {
+      "primary": "commercial construction tampa",
+      "secondary": ["commercial contractor tampa", "commercial builder tampa fl", "tampa commercial construction company"],
+      "long_tail": ["large scale commercial construction tampa", "commercial building contractor tampa fl", "office building construction tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "commercial-construction-st-petersburg": {
+      "primary": "commercial construction st petersburg",
+      "secondary": ["commercial contractor st pete", "commercial builder st petersburg fl"],
+      "long_tail": ["st petersburg commercial construction company", "downtown st pete commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "commercial-construction-clearwater": {
+      "primary": "commercial construction clearwater",
+      "secondary": ["commercial contractor clearwater", "commercial builder clearwater fl"],
+      "long_tail": ["clearwater beach commercial construction", "pinellas county commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "commercial-construction-lakeland": {
+      "primary": "commercial construction lakeland",
+      "secondary": ["commercial contractor lakeland", "commercial builder lakeland fl"],
+      "long_tail": ["polk county commercial construction", "lakeland fl commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "commercial-construction-sarasota": {
+      "primary": "commercial construction sarasota",
+      "secondary": ["commercial contractor sarasota", "commercial builder sarasota fl"],
+      "long_tail": ["sarasota county commercial construction", "downtown sarasota commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "commercial-construction-bradenton": {
+      "primary": "commercial construction bradenton",
+      "secondary": ["commercial contractor bradenton", "commercial builder bradenton fl"],
+      "long_tail": ["manatee county commercial construction", "bradenton fl commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "commercial-construction-brandon": {
+      "primary": "commercial construction brandon",
+      "secondary": ["commercial contractor brandon fl", "commercial builder brandon tampa"],
+      "long_tail": ["brandon fl commercial construction company", "east hillsborough commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "commercial-construction-ruskin": {
+      "primary": "commercial construction ruskin",
+      "secondary": ["commercial contractor ruskin fl", "commercial builder south hillsborough"],
+      "long_tail": ["ruskin fl commercial construction", "south hillsborough county commercial contractor"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    },
+    "multi-family-construction-tampa": {
+      "primary": "multi family construction tampa",
+      "secondary": ["apartment builder tampa", "condo construction tampa fl", "multi family contractor tampa"],
+      "long_tail": ["apartment complex construction tampa", "condominium builder tampa bay", "townhome developer tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "multi-family-construction-st-petersburg": {
+      "primary": "multi family construction st petersburg",
+      "secondary": ["apartment builder st pete", "condo construction st petersburg"],
+      "long_tail": ["downtown st pete apartment construction", "st petersburg condo builder"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "multi-family-construction-clearwater": {
+      "primary": "multi family construction clearwater",
+      "secondary": ["apartment builder clearwater", "condo construction clearwater fl"],
+      "long_tail": ["clearwater beach condo construction", "pinellas apartment builder"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "multi-family-construction-lakeland": {
+      "primary": "multi family construction lakeland",
+      "secondary": ["apartment builder lakeland", "condo construction lakeland fl"],
+      "long_tail": ["polk county apartment construction", "lakeland multi family developer"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "multi-family-construction-sarasota": {
+      "primary": "multi family construction sarasota",
+      "secondary": ["apartment builder sarasota", "condo construction sarasota fl"],
+      "long_tail": ["luxury condo construction sarasota", "sarasota waterfront condo builder"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "multi-family-construction-bradenton": {
+      "primary": "multi family construction bradenton",
+      "secondary": ["apartment builder bradenton", "condo construction bradenton fl"],
+      "long_tail": ["manatee county apartment construction", "bradenton townhome builder"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "multi-family-construction-brandon": {
+      "primary": "multi family construction brandon",
+      "secondary": ["apartment builder brandon fl", "condo construction brandon"],
+      "long_tail": ["brandon fl apartment complex construction", "east tampa multi family builder"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "multi-family-construction-ruskin": {
+      "primary": "multi family construction ruskin",
+      "secondary": ["apartment builder ruskin fl", "multi family contractor south hillsborough"],
+      "long_tail": ["ruskin apartment construction", "south hillsborough condo builder"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    },
+    "disaster-recovery-tampa": {
+      "primary": "disaster recovery contractor tampa",
+      "secondary": ["storm damage repair tampa", "hurricane damage restoration tampa", "insurance restoration tampa"],
+      "long_tail": ["commercial disaster recovery tampa", "large loss restoration tampa fl", "hurricane damage contractor tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "disaster-recovery-st-petersburg": {
+      "primary": "disaster recovery contractor st petersburg",
+      "secondary": ["storm damage repair st pete", "hurricane restoration st petersburg"],
+      "long_tail": ["commercial storm damage st petersburg", "insurance restoration contractor st pete"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "disaster-recovery-clearwater": {
+      "primary": "disaster recovery contractor clearwater",
+      "secondary": ["storm damage repair clearwater", "hurricane restoration clearwater fl"],
+      "long_tail": ["clearwater beach storm damage contractor", "pinellas hurricane restoration"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "disaster-recovery-lakeland": {
+      "primary": "disaster recovery contractor lakeland",
+      "secondary": ["storm damage repair lakeland", "hurricane restoration lakeland fl"],
+      "long_tail": ["polk county disaster recovery", "lakeland insurance restoration contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "disaster-recovery-sarasota": {
+      "primary": "disaster recovery contractor sarasota",
+      "secondary": ["storm damage repair sarasota", "hurricane restoration sarasota fl"],
+      "long_tail": ["sarasota hurricane damage contractor", "coastal storm damage sarasota"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "disaster-recovery-bradenton": {
+      "primary": "disaster recovery contractor bradenton",
+      "secondary": ["storm damage repair bradenton", "hurricane restoration bradenton fl"],
+      "long_tail": ["manatee county disaster recovery", "bradenton insurance restoration"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "disaster-recovery-brandon": {
+      "primary": "disaster recovery contractor brandon",
+      "secondary": ["storm damage repair brandon fl", "hurricane restoration brandon"],
+      "long_tail": ["brandon fl storm damage contractor", "east hillsborough disaster recovery"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "disaster-recovery-ruskin": {
+      "primary": "disaster recovery contractor ruskin",
+      "secondary": ["storm damage repair ruskin fl", "hurricane restoration south hillsborough"],
+      "long_tail": ["ruskin hurricane damage contractor", "south hillsborough storm restoration"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    },
+    "historic-restoration-tampa": {
+      "primary": "historic restoration tampa",
+      "secondary": ["historic preservation contractor tampa", "historic building restoration tampa fl"],
+      "long_tail": ["ybor city historic restoration", "tampa heights preservation contractor", "hyde park historic renovation tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "historic-restoration-st-petersburg": {
+      "primary": "historic restoration st petersburg",
+      "secondary": ["historic preservation contractor st pete", "historic building restoration st petersburg"],
+      "long_tail": ["downtown st pete historic restoration", "old northeast preservation st petersburg"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "historic-restoration-clearwater": {
+      "primary": "historic restoration clearwater",
+      "secondary": ["historic preservation contractor clearwater", "historic building restoration clearwater fl"],
+      "long_tail": ["clearwater historic district restoration", "pinellas county historic preservation"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "historic-restoration-lakeland": {
+      "primary": "historic restoration lakeland",
+      "secondary": ["historic preservation contractor lakeland", "historic building restoration lakeland fl"],
+      "long_tail": ["lakeland munn park historic restoration", "polk county historic preservation contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "historic-restoration-sarasota": {
+      "primary": "historic restoration sarasota",
+      "secondary": ["historic preservation contractor sarasota", "historic building restoration sarasota fl"],
+      "long_tail": ["ringling mansion restoration sarasota", "sarasota historic district contractor"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "historic-restoration-bradenton": {
+      "primary": "historic restoration bradenton",
+      "secondary": ["historic preservation contractor bradenton", "historic building restoration bradenton fl"],
+      "long_tail": ["old manatee historic restoration", "bradenton village of the arts preservation"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "historic-restoration-brandon": {
+      "primary": "historic restoration brandon",
+      "secondary": ["historic preservation contractor brandon fl", "historic building restoration brandon"],
+      "long_tail": ["brandon fl historic home restoration", "east hillsborough historic preservation"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    },
+    "historic-restoration-ruskin": {
+      "primary": "historic restoration ruskin",
+      "secondary": ["historic preservation contractor ruskin fl", "historic building restoration south hillsborough"],
+      "long_tail": ["ruskin fl historic restoration", "south hillsborough historic preservation"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    },
+    "luxury-custom-homes-tampa": {
+      "primary": "luxury home builder tampa",
+      "secondary": ["custom home construction tampa", "high end home builder tampa fl", "luxury custom homes tampa"],
+      "long_tail": ["waterfront luxury home builder tampa", "davis islands custom home construction", "bayshore custom home builder tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "luxury-custom-homes-st-petersburg": {
+      "primary": "luxury home builder st petersburg",
+      "secondary": ["custom home construction st pete", "high end home builder st petersburg"],
+      "long_tail": ["snell isle luxury home builder", "st pete beach custom home construction"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "luxury-custom-homes-clearwater": {
+      "primary": "luxury home builder clearwater",
+      "secondary": ["custom home construction clearwater", "high end home builder clearwater fl"],
+      "long_tail": ["clearwater beach luxury home builder", "belleair custom home construction"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "luxury-custom-homes-lakeland": {
+      "primary": "luxury home builder lakeland",
+      "secondary": ["custom home construction lakeland", "high end home builder lakeland fl"],
+      "long_tail": ["lakeland lakefront custom home builder", "polk county luxury home construction"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "luxury-custom-homes-sarasota": {
+      "primary": "luxury home builder sarasota",
+      "secondary": ["custom home construction sarasota", "high end home builder sarasota fl"],
+      "long_tail": ["siesta key luxury home builder", "bird key custom home construction sarasota", "longboat key luxury builder"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "luxury-custom-homes-bradenton": {
+      "primary": "luxury home builder bradenton",
+      "secondary": ["custom home construction bradenton", "high end home builder bradenton fl"],
+      "long_tail": ["anna maria island luxury home builder", "lakewood ranch custom home construction"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "luxury-custom-homes-brandon": {
+      "primary": "luxury home builder brandon",
+      "secondary": ["custom home construction brandon fl", "high end home builder brandon"],
+      "long_tail": ["fishhawk ranch luxury home builder", "brandon fl custom home construction"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "luxury-custom-homes-ruskin": {
+      "primary": "luxury home builder ruskin",
+      "secondary": ["custom home construction ruskin fl", "waterfront home builder south hillsborough"],
+      "long_tail": ["apollo beach luxury home builder", "ruskin waterfront custom home construction"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "balcony-reconstruction-tampa": {
+      "primary": "balcony repair tampa",
+      "secondary": ["balcony reconstruction tampa", "condo balcony contractor tampa fl"],
+      "long_tail": ["balcony waterproofing tampa", "hoa balcony repair tampa", "concrete balcony restoration tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "balcony-reconstruction-st-petersburg": {
+      "primary": "balcony repair st petersburg",
+      "secondary": ["balcony reconstruction st pete", "condo balcony contractor st petersburg"],
+      "long_tail": ["downtown st pete balcony restoration", "waterfront condo balcony repair st petersburg"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "balcony-reconstruction-clearwater": {
+      "primary": "balcony repair clearwater",
+      "secondary": ["balcony reconstruction clearwater", "condo balcony contractor clearwater fl"],
+      "long_tail": ["clearwater beach condo balcony repair", "sand key balcony restoration"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "balcony-reconstruction-lakeland": {
+      "primary": "balcony repair lakeland",
+      "secondary": ["balcony reconstruction lakeland", "condo balcony contractor lakeland fl"],
+      "long_tail": ["lakeland condo balcony restoration", "polk county balcony repair contractor"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "balcony-reconstruction-sarasota": {
+      "primary": "balcony repair sarasota",
+      "secondary": ["balcony reconstruction sarasota", "condo balcony contractor sarasota fl"],
+      "long_tail": ["siesta key condo balcony repair", "longboat key balcony restoration"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "balcony-reconstruction-bradenton": {
+      "primary": "balcony repair bradenton",
+      "secondary": ["balcony reconstruction bradenton", "condo balcony contractor bradenton fl"],
+      "long_tail": ["anna maria island balcony repair", "manatee county condo balcony restoration"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "balcony-reconstruction-brandon": {
+      "primary": "balcony repair brandon",
+      "secondary": ["balcony reconstruction brandon fl", "condo balcony contractor brandon"],
+      "long_tail": ["brandon fl condo balcony repair", "east hillsborough balcony restoration"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "balcony-reconstruction-ruskin": {
+      "primary": "balcony repair ruskin",
+      "secondary": ["balcony reconstruction ruskin fl", "condo balcony contractor south hillsborough"],
+      "long_tail": ["apollo beach condo balcony repair", "ruskin waterfront balcony restoration"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "exterior-waterproofing-tampa": {
+      "primary": "waterproofing contractor tampa",
+      "secondary": ["building envelope tampa", "exterior waterproofing tampa fl", "commercial waterproofing tampa"],
+      "long_tail": ["parking garage waterproofing tampa", "foundation waterproofing tampa", "plaza deck waterproofing tampa"],
+      "search_intent": "transactional",
+      "page_priority": 1
+    },
+    "exterior-waterproofing-st-petersburg": {
+      "primary": "waterproofing contractor st petersburg",
+      "secondary": ["building envelope st pete", "exterior waterproofing st petersburg fl"],
+      "long_tail": ["commercial waterproofing st petersburg", "foundation waterproofing st pete"],
+      "search_intent": "transactional",
+      "page_priority": 2
+    },
+    "exterior-waterproofing-clearwater": {
+      "primary": "waterproofing contractor clearwater",
+      "secondary": ["building envelope clearwater", "exterior waterproofing clearwater fl"],
+      "long_tail": ["beach condo waterproofing clearwater", "pinellas commercial waterproofing"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "exterior-waterproofing-lakeland": {
+      "primary": "waterproofing contractor lakeland",
+      "secondary": ["building envelope lakeland", "exterior waterproofing lakeland fl"],
+      "long_tail": ["commercial waterproofing lakeland", "polk county foundation waterproofing"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "exterior-waterproofing-sarasota": {
+      "primary": "waterproofing contractor sarasota",
+      "secondary": ["building envelope sarasota", "exterior waterproofing sarasota fl"],
+      "long_tail": ["coastal building waterproofing sarasota", "commercial waterproofing sarasota county"],
+      "search_intent": "transactional",
+      "page_priority": 3
+    },
+    "exterior-waterproofing-bradenton": {
+      "primary": "waterproofing contractor bradenton",
+      "secondary": ["building envelope bradenton", "exterior waterproofing bradenton fl"],
+      "long_tail": ["manatee county waterproofing contractor", "commercial waterproofing bradenton"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "exterior-waterproofing-brandon": {
+      "primary": "waterproofing contractor brandon",
+      "secondary": ["building envelope brandon fl", "exterior waterproofing brandon"],
+      "long_tail": ["brandon fl commercial waterproofing", "east hillsborough foundation waterproofing"],
+      "search_intent": "transactional",
+      "page_priority": 4
+    },
+    "exterior-waterproofing-ruskin": {
+      "primary": "waterproofing contractor ruskin",
+      "secondary": ["building envelope ruskin fl", "exterior waterproofing south hillsborough"],
+      "long_tail": ["coastal waterproofing ruskin", "apollo beach building envelope contractor"],
+      "search_intent": "transactional",
+      "page_priority": 5
+    }
+  },
+  "service_hubs": {
+    "commercial-construction": {
+      "primary": "commercial construction tampa bay",
+      "secondary": ["commercial contractor florida", "commercial builder tampa bay area"],
+      "owns_topics": ["commercial building", "office construction", "retail construction", "medical facility construction"]
+    },
+    "multi-family-construction": {
+      "primary": "multi family construction tampa bay",
+      "secondary": ["apartment builder florida", "condo construction tampa bay"],
+      "owns_topics": ["apartment construction", "condominium building", "townhome development", "senior living construction"]
+    },
+    "disaster-recovery": {
+      "primary": "disaster recovery contractor florida",
+      "secondary": ["insurance restoration tampa bay", "storm damage contractor florida"],
+      "owns_topics": ["hurricane damage restoration", "flood damage repair", "fire damage restoration", "insurance claims"]
+    },
+    "historic-restoration": {
+      "primary": "historic restoration florida",
+      "secondary": ["historic preservation contractor tampa bay", "historic building restoration florida"],
+      "owns_topics": ["historic preservation", "adaptive reuse", "period restoration", "SHPO compliance"]
+    },
+    "luxury-custom-homes": {
+      "primary": "luxury home builder tampa bay",
+      "secondary": ["custom home construction florida", "high end home builder tampa bay"],
+      "owns_topics": ["waterfront homes", "custom residential", "estate homes", "architectural homes"]
+    },
+    "balcony-reconstruction": {
+      "primary": "balcony reconstruction florida",
+      "secondary": ["condo balcony repair tampa bay", "balcony waterproofing florida"],
+      "owns_topics": ["balcony repair", "concrete restoration", "railing replacement", "HOA balcony work"]
+    },
+    "exterior-waterproofing": {
+      "primary": "building envelope florida",
+      "secondary": ["commercial waterproofing tampa bay", "exterior waterproofing florida"],
+      "owns_topics": ["foundation waterproofing", "parking structure waterproofing", "plaza decks", "building envelope"]
+    }
+  },
+  "location_hubs": {
+    "tampa": {
+      "primary": "construction contractor tampa",
+      "secondary": ["general contractor tampa", "commercial contractor tampa fl"],
+      "owns_neighborhoods": ["Downtown Tampa", "Westshore", "Hyde Park", "South Tampa", "Channelside", "Ybor City", "Tampa Heights"]
+    },
+    "st-petersburg": {
+      "primary": "construction contractor st petersburg",
+      "secondary": ["general contractor st pete", "commercial contractor st petersburg fl"],
+      "owns_neighborhoods": ["Downtown St Pete", "Old Northeast", "Snell Isle", "Kenwood", "Grand Central District"]
+    },
+    "clearwater": {
+      "primary": "construction contractor clearwater",
+      "secondary": ["general contractor clearwater", "commercial contractor clearwater fl"],
+      "owns_neighborhoods": ["Clearwater Beach", "Island Estates", "Sand Key", "Belleair", "Downtown Clearwater"]
+    },
+    "lakeland": {
+      "primary": "construction contractor lakeland",
+      "secondary": ["general contractor lakeland", "commercial contractor lakeland fl"],
+      "owns_neighborhoods": ["Downtown Lakeland", "Munn Park", "Lake Hollingsworth", "South Lakeland"]
+    },
+    "sarasota": {
+      "primary": "construction contractor sarasota",
+      "secondary": ["general contractor sarasota", "commercial contractor sarasota fl"],
+      "owns_neighborhoods": ["Downtown Sarasota", "St. Armands", "Lido Key", "Siesta Key", "Bird Key", "Longboat Key"]
+    },
+    "bradenton": {
+      "primary": "construction contractor bradenton",
+      "secondary": ["general contractor bradenton", "commercial contractor bradenton fl"],
+      "owns_neighborhoods": ["Downtown Bradenton", "Village of the Arts", "Palmetto", "Anna Maria Island", "Lakewood Ranch"]
+    },
+    "brandon": {
+      "primary": "construction contractor brandon",
+      "secondary": ["general contractor brandon fl", "commercial contractor brandon"],
+      "owns_neighborhoods": ["Valrico", "FishHawk Ranch", "Riverview", "Bloomingdale"]
+    },
+    "ruskin": {
+      "primary": "construction contractor ruskin",
+      "secondary": ["general contractor ruskin fl", "commercial contractor south hillsborough"],
+      "owns_neighborhoods": ["Apollo Beach", "Sun City Center", "Wimauma", "Gibsonton"]
+    }
+  },
+  "cannibalization_rules": [
+    {
+      "pages": [
+        "/commercial-construction-tampa/",
+        "/florida-construction-specialists-leading-commercial-contractors-in-tampa/"
+      ],
+      "resolution": "commercial-construction-tampa owns 'commercial contractor tampa', redirect article to hub",
+      "action": "301_redirect"
+    },
+    {
+      "pages": [
+        "/disaster-recovery-tampa/",
+        "/hurricane-damage-repair-services-in-tampa/"
+      ],
+      "resolution": "disaster-recovery-tampa owns 'hurricane damage tampa', article focuses on 'hurricane damage repair process'",
+      "action": "differentiate_content"
+    },
+    {
+      "pages": [
+        "/historic-restoration-tampa/",
+        "/historic-restoration-projects-in-tampa/"
+      ],
+      "resolution": "historic-restoration-tampa is service page, article becomes case study/portfolio piece",
+      "action": "differentiate_content"
+    },
+    {
+      "pages": [
+        "/luxury-custom-homes-tampa/",
+        "/high-end-home-construction-in-tampa/"
+      ],
+      "resolution": "luxury-custom-homes-tampa owns 'luxury home builder tampa', redirect article",
+      "action": "301_redirect"
+    }
+  ],
+  "metadata": {
+    "generated": "2026-01-17",
+    "total_service_location_pages": 56,
+    "total_service_hubs": 7,
+    "total_location_hubs": 8,
+    "services": ["commercial-construction", "multi-family-construction", "disaster-recovery", "historic-restoration", "luxury-custom-homes", "balcony-reconstruction", "exterior-waterproofing"],
+    "locations": ["tampa", "st-petersburg", "clearwater", "lakeland", "sarasota", "bradenton", "brandon", "ruskin"]
+  }
+}

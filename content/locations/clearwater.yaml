@@ -1,0 +1,166 @@
+# Clearwater, FL - Local Research Data for SEO Content
+
+city: Clearwater
+county: Pinellas
+population: "117,000+"
+metro_population: "3.2 million (Tampa Bay metro)"
+coordinates:
+  lat: 27.9659
+  lng: -82.8001
+
+climate:
+  summer_avg: "90°F"
+  winter_avg: "61°F"
+  annual_rainfall: "50 inches"
+  hurricane_frequency: "3-4 named storms within 100 miles annually"
+  hurricane_season: "June 1 - November 30"
+  humidity: "High year-round (75-85%)"
+  weather_challenges:
+    - "Clearwater Beach among most hurricane-vulnerable locations"
+    - "Extreme salt air exposure on beach and waterfront properties"
+    - "Storm surge flooding significant concern"
+    - "High humidity accelerates building deterioration"
+    - "Intense sun exposure on west-facing beach properties"
+
+neighborhoods:
+  commercial_districts:
+    - name: "Downtown Clearwater"
+      description: "Redeveloping urban core with mix of office, retail, residential"
+      notable: "Scientology headquarters, Coachman Park"
+    - name: "Clearwater Beach"
+      description: "Tourism-driven commercial district"
+      notable: "Hotels, restaurants, beach attractions"
+    - name: "US 19 Corridor"
+      description: "Major commercial and retail corridor"
+      notable: "Retail centers, auto dealerships, big box stores"
+    - name: "Gulf-to-Bay Corridor"
+      description: "East-west commercial corridor"
+      notable: "Medical facilities, retail, office"
+
+  residential_luxury:
+    - name: "Clearwater Beach"
+      description: "Beachfront condos and single-family homes"
+      home_values: "$800K-$15M+"
+    - name: "Island Estates"
+      description: "Exclusive island community with waterfront homes"
+      home_values: "$1M-$10M+"
+    - name: "Sand Key"
+      description: "High-rise condos on barrier island"
+      home_values: "$500K-$5M+"
+    - name: "Belleair"
+      description: "Affluent neighboring town with luxury estates"
+      home_values: "$1M-$15M+"
+    - name: "Belleair Beach"
+      description: "Small beachfront community"
+      home_values: "$2M-$10M+"
+
+  historic_districts:
+    - name: "Downtown Clearwater"
+      description: "Historic commercial district"
+      designation: "Community Redevelopment Area"
+      architectural_style: "Art Deco, Mediterranean Revival"
+    - name: "Harbor Oaks"
+      description: "Historic residential neighborhood"
+      designation: "Local Historic District"
+      architectural_style: "Mediterranean Revival, Colonial Revival"
+
+landmarks:
+  major_venues:
+    - "Ruth Eckerd Hall (2,100 capacity)"
+    - "Coachman Park (amphitheater)"
+    - "Philadelphia Phillies Spring Training (BayCare Ballpark)"
+    - "Clearwater Marine Aquarium"
+  cultural:
+    - "Capitol Theatre (restored 1921 movie palace)"
+    - "Clearwater Marine Aquarium (Winter the Dolphin)"
+  healthcare:
+    - "Morton Plant Hospital (687 beds)"
+    - "Mease Countryside Hospital"
+  beach:
+    - "Clearwater Beach (#1 ranked beach in US multiple years)"
+    - "Sand Key Park"
+    - "Pier 60"
+
+building_codes:
+  primary: "Florida Building Code 2023 (8th Edition)"
+  wind_zone: "Zone 3 (140+ mph design wind speed on beach)"
+  flood_zones: "Extensive AE, VE zones on barrier islands and coastal areas"
+  special_requirements:
+    - "Most stringent wind requirements on barrier islands"
+    - "Coastal High Hazard Area restrictions"
+    - "Height limits on Clearwater Beach"
+    - "Strict stormwater management requirements"
+    - "Impact-resistant glazing mandatory"
+
+permit_authorities:
+  primary:
+    - name: "City of Clearwater Building Department"
+      address: "100 S. Myrtle Ave, Clearwater, FL 33756"
+      phone: "(727) 562-4567"
+  county:
+    - name: "Pinellas County Building Services"
+      phone: "(727) 464-3888"
+  special:
+    - name: "Clearwater Beach Design Guidelines"
+      role: "Additional design review for beach area projects"
+
+insurance_context:
+  major_carriers:
+    - "Citizens Property Insurance"
+    - "Heritage Insurance"
+    - "American Integrity Insurance"
+  challenges:
+    - "Barrier island properties have highest premiums in region"
+    - "Many private carriers won't write on beach"
+    - "Flood insurance mandatory and expensive"
+    - "Condominium associations face coverage challenges"
+
+economic_context:
+  major_industries:
+    - "Tourism and Hospitality (dominant)"
+    - "Healthcare (Morton Plant, Mease)"
+    - "Retail and Service"
+    - "Religious Organizations (Scientology)"
+  major_employers:
+    - "Morton Plant Mease Healthcare"
+    - "Church of Scientology"
+    - "City of Clearwater"
+    - "Pinellas County Schools"
+    - "Major beach hotels and resorts"
+  recent_developments:
+    - name: "Downtown Redevelopment"
+      description: "Multiple projects transforming downtown"
+      status: "Ongoing"
+    - name: "Clearwater Beach Hotels"
+      description: "New luxury hotel construction"
+      status: "Multiple projects ongoing"
+    - name: "Imagine Clearwater"
+      description: "Waterfront park and development project"
+      status: "Phase 1 complete"
+
+construction_considerations:
+  soil_conditions: "Sandy soil, high water table, limestone"
+  foundation_types: "Pile foundations common on beach, slab inland"
+  common_issues:
+    - "Limited buildable land on barrier islands"
+    - "Strict height limits on beach (150 ft max)"
+    - "Significant permitting timeline for beach projects"
+    - "Seasonal construction restrictions (tourism impact)"
+    - "Extreme salt air corrosion requires marine-grade materials"
+  unique_factors:
+    - "Tourism economy creates seasonal construction windows"
+    - "Strong opposition to large-scale development on beach"
+    - "Scientology organization owns significant downtown property"
+
+local_seo_terms:
+  neighborhood_terms:
+    - "Clearwater Beach"
+    - "Sand Key"
+    - "Pinellas County"
+    - "Island Estates"
+    - "Belleair"
+  long_tail_phrases:
+    - "Clearwater Beach construction contractor"
+    - "Pinellas County commercial contractor"
+    - "Sand Key condo contractor"
+    - "waterfront construction Clearwater"
