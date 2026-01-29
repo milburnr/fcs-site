@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Plant City Construction Contractor | Commercial, Residential & Disaster Recovery | FCS",
-  description: "Premier general contractor serving Plant City, FL. Commercial construction, agricultural facilities, disaster recovery, residential. Just 15 minutes from our Ruskin headquarters. Projects $250K-$50M+. Call (813) 420-7561.",
+  description: "Premier general contractor serving Plant City, FL. Commercial construction, agricultural facilities, disaster recovery, residential. Just 15 minutes from our Ruskin headquarters. Projects $250K-$25M+. Call (813) 420-7561.",
   keywords: "construction contractor plant city, commercial construction plant city fl, disaster recovery plant city, agricultural construction hillsborough county",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Plant City?",
-    answer: "In Plant City, we handle a full range of construction services including commercial construction, agricultural and industrial facilities, disaster recovery, and luxury residential projects. Given Plant City's agricultural heritage, we have particular expertise in warehouses, cold storage facilities, and processing plants. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Plant City, we handle a full range of construction services including commercial construction, agricultural and industrial facilities, disaster recovery, and luxury residential projects. Given Plant City's agricultural heritage, we have particular expertise in warehouses, cold storage facilities, and processing plants. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How close is your office to Plant City?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Plant City?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Plant City. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Plant City. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Plant City?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, agricultural facilities, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Plant City area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, agricultural facilities, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Plant City area."
   },
   {
     question: "How do I get started on a project in Plant City?",
@@ -98,7 +98,7 @@ export default function PlantCityPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Plant City"
-        serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -130,7 +130,7 @@ export default function PlantCityPage() {
               Florida Construction Specialists delivers large-scale commercial, agricultural, and residential construction throughout Plant City and eastern Hillsborough County. Located just 15 minutes from our Ruskin headquarters, Plant City is one of our closest and most accessible service areas.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From agricultural facilities supporting the &quot;Winter Strawberry Capital&quot; to commercial development along the I-4 corridor, we bring 20+ years of experience and $10M+ bonding capacity to every Plant City project.
+              From agricultural facilities supporting the &quot;Winter Strawberry Capital&quot; to commercial development along the I-4 corridor, we bring 20+ years of experience and 40+ years experience and in-house engineering to every Plant City project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -158,7 +158,7 @@ export default function PlantCityPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

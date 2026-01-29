@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bradenton Commercial Construction Contractor | $500K-$50M+ Projects | FCS",
-  description: "Premier general contractor serving Bradenton, FL. Commercial construction, multi-family residential, disaster recovery. Growing market expertise. $10M+ bonding. Call (813) 420-7561.",
+  title: "Bradenton Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  description: "Premier general contractor serving Bradenton, FL. Commercial construction, multi-family residential, disaster recovery. Growing market expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction bradenton, bradenton general contractor, disaster recovery bradenton fl, construction company bradenton florida",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Bradenton?",
-    answer: "In Bradenton, we handle commercial construction, multi-family developments, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Bradenton's growth, we have particular expertise in multi-family residential and commercial development. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Bradenton, we handle commercial construction, multi-family developments, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Bradenton's growth, we have particular expertise in multi-family residential and commercial development. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How far is your office from Bradenton?",
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: "Do you work on multi-family projects in Bradenton?",
-    answer: "Yes, Bradenton's population growth has created strong demand for multi-family housing. We build apartment complexes, condominiums, and townhome communities throughout Manatee County. Our $10M+ bonding capacity enables multi-family projects at any scale, and we understand the specific requirements for these developments including accessibility compliance and efficient unit layouts."
+    answer: "Yes, Bradenton's population growth has created strong demand for multi-family housing. We build apartment complexes, condominiums, and townhome communities throughout Manatee County. Our 40+ years experience and in-house engineering enables multi-family projects at any scale, and we understand the specific requirements for these developments including accessibility compliance and efficient unit layouts."
   },
   {
     question: "What is the Bradenton building permit process?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Bradenton?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Bradenton. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Bradenton. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Bradenton?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, multi-family developments, luxury custom homes, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Bradenton area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, multi-family developments, luxury custom homes, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Bradenton area."
   },
   {
     question: "How do I get started on a project in Bradenton?",
@@ -113,7 +113,7 @@ export default function BradentonPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Bradenton"
-        serviceDescription="Premier general contractor serving Bradenton, FL with commercial construction, multi-family development, disaster recovery, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Bradenton, FL with commercial construction, multi-family development, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -145,7 +145,7 @@ export default function BradentonPage() {
               Historic city experiencing significant commercial and residential growth. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Bradenton and Manatee County.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From multi-family developments to commercial projects serving Bradenton&apos;s growth, we bring 20+ years of experience and $10M+ bonding capacity to every project.
+              From multi-family developments to commercial projects serving Bradenton&apos;s growth, we bring 20+ years of experience and 40+ years experience and in-house engineering to every project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -173,7 +173,7 @@ export default function BradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

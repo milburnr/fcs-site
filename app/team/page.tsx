@@ -42,7 +42,7 @@ const leadershipTeam = [
     ],
     credentials: [
       "Florida State Certified General Contractor",
-      `${BUSINESS_INFO.bondingCapacity} bonding capacity`,
+      `${BUSINESS_INFO.yearsInBusiness} experience`,
       "BBB Accredited Business",
     ],
   },
@@ -200,7 +200,7 @@ export default function TeamPage() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-brand-gold" />
-                <span>{BUSINESS_INFO.bondingCapacity} Bonding</span>
+                <span>{BUSINESS_INFO.yearsInBusiness} Experience</span>
               </div>
             </div>
           </div>

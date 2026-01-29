@@ -30,14 +30,22 @@ export const BUSINESS_INFO = {
     linkedin: "",
     youtube: "",
   },
-  foundingDate: "2004",
+  foundingDate: "1982",
   // Premium positioning data
-  projectValueRange: "$500K - $50M+",
-  bondingCapacity: "$10M+",
-  yearsInBusiness: "20+",
-  projectsCompleted: "150+",
-  totalProjectValue: "$50M+",
+  projectValueRange: "$500K - $25M+",
+  yearsInBusiness: "40+",
+  projectsCompleted: "300+",
+  totalProjectValue: "$25M+",
   licenseNumber: "CBC1262722",
+  // Legacy field - use financingCapability instead for new content
+  bondingCapacity: "40+ Years",
+  // Company history
+  companyHistory: "Florida Construction Specialists (FCS) is a merging of Florida Restoration Team and Shamblin Construction, large scale general contractors that have operated in Florida since 1982.",
+  formerName: "Florida Restoration Team",
+  // Key differentiators
+  inHouseEngineer: true,
+  inHouseArchitecturalDraftsman: true,
+  financingCapability: "Proven track record allows us to easily access construction financing for commercial, residential, and historic preservation projects. Heavy experience in capturing preservation and restoration grants.",
 };
 
 export const SERVICES = [
@@ -114,15 +122,15 @@ export const SERVICES = [
     ],
   },
   {
-    name: "Luxury Custom Homes",
+    name: "Lifetime Custom Homes",
     slug: "luxury-custom-homes",
     silo: "residential" as const,
-    description: "Custom home construction for $1M+ waterfront estates and luxury residences throughout Tampa Bay.",
+    description: "Build a home you'll enjoy for a lifetime. Design/build custom home construction for waterfront estates and luxury residences throughout Tampa Bay.",
     icon: "Home",
     minValue: "$1,000,000",
     features: [
+      "Design/Build services",
       "Waterfront estate homes",
-      "Luxury custom residences",
       "Architectural home builds",
       "Smart home integration",
       "High-end finishes",
@@ -215,9 +223,9 @@ export const COMMERCIAL_SERVICES = [
   { label: "CPM Scheduling", href: "/commercial/cpm-scheduling/" },
 ];
 
-// Residential services (B2C - Vision & Legacy focus)
+// Design/Build services (B2C - Vision & Legacy focus)
 export const RESIDENTIAL_SERVICES = [
-  { label: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
+  { label: "Lifetime Custom Homes", href: "/luxury-custom-homes/" },
   { label: "Waterfront Resilience", href: "/residential/waterfront-homes/" },
   { label: "Historic Preservation (Res)", href: "/residential/historic-preservation/" },
   { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
@@ -258,8 +266,8 @@ export const FAQ_DATABASE = {
       answer: "FCS always serves as the prime general contractor on our projects. We do not work as a subcontractor. As prime contractor, we maintain full project control, direct relationships with owners, and complete accountability for project delivery, quality, and timeline."
     },
     {
-      question: "What is your bonding capacity?",
-      answer: "Florida Construction Specialists maintains bonding capacity of $10 million or more, allowing us to take on large-scale commercial projects with confidence. Our strong financial standing and track record enable us to secure performance and payment bonds for projects of virtually any size."
+      question: "Do you offer construction financing assistance?",
+      answer: "Yes, Florida Construction Specialists has a proven track record that allows us to easily access construction financing for commercial, residential, and historic preservation projects. We have heavy experience in capturing preservation and restoration grants, and can help navigate financing options for qualified projects."
     },
     {
       question: "How long does a typical commercial project take?",
@@ -417,7 +425,7 @@ export const FAQ_DATABASE = {
   general: [
     {
       question: "How long has FCS been in business?",
-      answer: "Florida Construction Specialists brings over 20 years of construction experience to every project. Our leadership team has built or restored hundreds of large-scale projects across the Southeast United States and the Bahamas."
+      answer: "Florida Construction Specialists (FCS) is a merging of Florida Restoration Team and Shamblin Construction, large scale general contractors that have operated in Florida since 1982. With over 40 years of experience and 300+ completed projects, our leadership team has built or restored hundreds of large-scale projects across the Southeast United States and the Bahamas."
     },
     {
       question: "What areas do you serve?",
@@ -429,11 +437,11 @@ export const FAQ_DATABASE = {
     },
     {
       question: "Are you licensed and insured?",
-      answer: "Yes, Florida Construction Specialists is a fully licensed Florida General Contractor with comprehensive insurance coverage including general liability, workers' compensation, and professional liability. We maintain bonding capacity of $10 million or more."
+      answer: "Yes, Florida Construction Specialists is a fully licensed Florida General Contractor with comprehensive insurance coverage including general liability, workers' compensation, and professional liability. We also have an in-house engineer and architectural draftsman on staff."
     },
     {
       question: "What sets FCS apart from other contractors?",
-      answer: "FCS is always the prime contractor—never a sub. We specialize in large-scale, complex projects that require experienced management. Our track record includes $50M+ in completed projects, expertise in insurance restoration, and deep relationships throughout the Tampa Bay construction community."
+      answer: "FCS is always the prime contractor—never a sub. We specialize in large-scale, complex projects that require experienced management. With 40+ years of experience, 300+ completed projects, in-house engineering and architectural drafting capabilities, and deep expertise in insurance restoration and historic preservation, we bring unmatched resources to every project."
     },
   ],
 };

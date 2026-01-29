@@ -24,7 +24,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Medical & Healthcare Construction Tampa | AHCA Compliant | FCS",
   description:
-    "AHCA-compliant medical facility construction in Tampa Bay. Clean rooms, medical gas piping, healthcare buildouts. Licensed contractor with $10M+ bonding.",
+    "AHCA-compliant medical facility construction in Tampa Bay. Clean rooms, medical gas piping, healthcare buildouts. Licensed contractor with 40+ years experience.",
   keywords:
     "medical construction Tampa, healthcare facility construction, AHCA compliance, medical office buildout, clean room construction Florida",
 };
@@ -229,7 +229,7 @@ export default function MedicalConstructionPage() {
                   "Certified medical gas piping installers on staff",
                   "ICRA-trained teams for work in active healthcare settings",
                   "Clean room construction to ISO standards",
-                  `${BUSINESS_INFO.bondingCapacity} bonding for projects of any scale`,
+                  `${BUSINESS_INFO.yearsInBusiness} experience for projects of any scale`,
                   "Direct coordination with healthcare equipment vendors",
                 ].map((item, index) => (
                   <div key={index} className="flex items-start gap-3">

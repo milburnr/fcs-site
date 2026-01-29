@@ -22,9 +22,9 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "About Florida Construction Specialists | Tampa Bay's Premier Builder",
   description:
-    "Learn about Florida Construction Specialists - Tampa Bay's trusted general contractor with 30+ years experience, $15M bonding capacity, and strategic headquarters for rapid deployment across the region.",
+    "Learn about Florida Construction Specialists (FCS) - formed from the merger of Florida Restoration Team and Shamblin Construction, operating in Florida since 1982. 40+ years experience, 300+ projects, in-house engineering.",
   keywords:
-    "about FCS, Tampa general contractor, Florida Construction Specialists history, Tampa Bay construction company",
+    "about FCS, Tampa general contractor, Florida Construction Specialists history, Tampa Bay construction company, Florida Restoration Team",
 };
 
 const values = [
@@ -67,9 +67,9 @@ const capabilities = [
   },
   {
     icon: Target,
-    title: "Residential Excellence",
+    title: "Design/Build & Lifetime Homes",
     items: [
-      "Luxury custom homes ($1M+)",
+      "Lifetime custom homes ($1M+)",
       "Waterfront estates",
       "Historic preservation",
       "FEMA-compliant construction",
@@ -77,20 +77,21 @@ const capabilities = [
   },
   {
     icon: Shield,
-    title: "Specialized Services",
+    title: "Building Envelope & Waterproofing",
     items: [
-      "Insurance restoration",
-      "Disaster recovery",
+      "Commercial waterproofing",
+      "Stucco & exterior finishes",
+      "Roofing systems",
+      "Siding & cladding",
       "Balcony reconstruction",
-      "Exterior waterproofing",
     ],
   },
   {
     icon: TrendingUp,
-    title: "Project Support",
+    title: "Disaster Recovery & Restoration",
     items: [
-      "Pre-construction planning",
-      "Value engineering",
+      "Large loss insurance restoration",
+      "Building consultant services",
       "Expert witness services",
       "Certified estimates",
     ],
@@ -149,9 +150,9 @@ export default function AboutPage() {
               Building Tampa Bay&apos;s Future, One Project at a Time
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl">
-              For over three decades, Florida Construction Specialists has delivered
-              large-scale commercial projects and luxury custom homes throughout Tampa Bay.
-              We&apos;re not just contractors—we&apos;re partners in building your vision.
+              Florida Construction Specialists (FCS) is a merging of Florida Restoration Team and Shamblin Construction, 
+              large scale general contractors that have operated in Florida since 1982. With over 40 years of experience 
+              and 300+ completed projects, we&apos;re not just contractors—we&apos;re partners in building your vision.
             </p>
             <div className="flex flex-wrap gap-6 text-white">
               <div className="flex items-center gap-2">
@@ -160,7 +161,7 @@ export default function AboutPage() {
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-brand-gold" />
-                <span>{BUSINESS_INFO.bondingCapacity} Bonding</span>
+                <span>In-House Engineering</span>
               </div>
               <div className="flex items-center gap-2">
                 <CheckCircle className="w-5 h-5 text-brand-gold" />
@@ -181,8 +182,8 @@ export default function AboutPage() {
             </div>
             <div className="h-10 w-px bg-gray-200 hidden md:block" />
             <div>
-              <p className="text-3xl font-bold text-brand-green">{BUSINESS_INFO.bondingCapacity}</p>
-              <p className="text-sm text-gray-600">Bonding Capacity</p>
+              <p className="text-3xl font-bold text-brand-green">Since 1982</p>
+              <p className="text-sm text-gray-600">Operating in Florida</p>
             </div>
             <div className="h-10 w-px bg-gray-200 hidden md:block" />
             <div>
@@ -202,23 +203,25 @@ export default function AboutPage() {
             </h2>
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-600 mb-6 text-lg">
-                Florida Construction Specialists was founded on a simple principle: be the
-                contractor you&apos;d want to hire for your own project. That means showing up
-                when we say we will, communicating openly about challenges, and never cutting
-                corners on quality.
+                <strong>Florida Construction Specialists (FCS)</strong> is a merging of <strong>Florida Restoration Team</strong> and <strong>Shamblin Construction</strong>, 
+                large scale general contractors that have operated in Florida since 1982. Our combined 40+ years of experience 
+                and 300+ completed projects make us one of Tampa Bay&apos;s most trusted names in construction.
               </p>
               <p className="text-gray-600 mb-6 text-lg">
-                Over three decades, we&apos;ve grown from a small residential contractor into
-                one of Tampa Bay&apos;s most trusted names in both commercial and residential
-                construction. Our portfolio spans medical facilities, industrial warehouses,
-                historic restorations, and luxury custom homes—but our approach hasn&apos;t changed.
+                Our leadership includes <strong>Frank Bragano</strong>, a building consultant specializing in large loss commercial disaster recovery 
+                with decades of hands-on experience in insurance restoration, historic preservation, and complex commercial projects. 
+                We bring an uncommon depth of expertise with an <strong>in-house engineer</strong> and <strong>in-house architectural draftsman</strong> on staff—resources 
+                that most contractors outsource.
+              </p>
+              <p className="text-gray-600 mb-6 text-lg">
+                Our unique background in restoration means we understand buildings inside and out—from structural systems to 
+                building envelope waterproofing. This expertise informs every project we take on, whether it&apos;s a medical facility, 
+                historic restoration, or a lifetime custom home.
               </p>
               <p className="text-gray-600 text-lg">
-                Today, with {BUSINESS_INFO.bondingCapacity} in bonding capacity and a team of
-                experienced project managers, architects, and engineers, we take on projects
-                ranging from $500K to $50M+. But whether it&apos;s a medical office build-out or
-                a waterfront estate on Davis Islands, every client receives the same commitment
-                to excellence.
+                Today, with proven access to construction financing for commercial, residential, and historic preservation projects, 
+                we take on projects ranging from $500K to $25M+. Whether it&apos;s a medical office build-out, disaster recovery, 
+                or a waterfront estate on Davis Islands, every client receives the same commitment to excellence.
               </p>
             </div>
           </div>
@@ -338,7 +341,7 @@ export default function AboutPage() {
                 {[
                   {
                     title: "Financial Strength",
-                    text: `${BUSINESS_INFO.bondingCapacity} bonding capacity means we can handle projects of virtually any scale with the financial backing to see them through.`,
+                    text: `${BUSINESS_INFO.yearsInBusiness} experience means we can handle projects of virtually any scale with the financial backing to see them through.`,
                   },
                   {
                     title: "Regulatory Expertise",

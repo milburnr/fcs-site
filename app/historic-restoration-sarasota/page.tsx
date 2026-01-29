@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Historic Restoration Sarasota FL | Sarasota School of Architecture, Burns Court | FCS",
-  description: "Expert historic restoration contractor in Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival estates. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$50M+. Call (813) 420-7561.",
+  description: "Expert historic restoration contractor in Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival estates. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration sarasota, sarasota school of architecture, burns court restoration, laurel park historic, mediterranean revival sarasota, SHPO sarasota, historic tax credits florida",
 };
 
@@ -90,7 +90,7 @@ export default function HistoricRestorationSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $50M+."
+        serviceDescription="Expert historic restoration contractor serving Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Sarasota"
         minPrice="500000"
       />
@@ -151,7 +151,7 @@ export default function HistoricRestorationSarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

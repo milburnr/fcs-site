@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Clearwater FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "multi-family construction clearwater, apartment construction clearwater, condo builder clearwater fl, townhome construction clearwater, senior living construction clearwater, clearwater beach development",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const clearwaterFaqs = [
   {
     question: "What types of multi-family projects does FCS build in Clearwater?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Clearwater: beach condominiums on Clearwater Beach and Sand Key, mainland apartments throughout Countryside and East Clearwater, townhome developments, senior living facilities near Morton Plant Hospital, workforce housing serving the tourism industry, and mixed-use residential in the Cleveland Street District. Our Clearwater projects range from $1 million to $50 million+ and include both ground-up construction and major renovations."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Clearwater: beach condominiums on Clearwater Beach and Sand Key, mainland apartments throughout Countryside and East Clearwater, townhome developments, senior living facilities near Morton Plant Hospital, workforce housing serving the tourism industry, and mixed-use residential in the Cleveland Street District. Our Clearwater projects range from $1 million to $25 million+ and include both ground-up construction and major renovations."
   },
   {
     question: "What are the unique challenges of building on Clearwater Beach versus mainland?",
@@ -72,7 +72,7 @@ const clearwaterFaqs = [
   },
   {
     question: "What makes FCS different from other Clearwater multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Clearwater multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, $10M+ bonding capacity, and specific expertise in Clearwater's unique construction environment—from barrier island building on Clearwater Beach to Cleveland Street infill projects. Our project managers understand Pinellas County regulations and maintain strong relationships with City of Clearwater permitting."
+    answer: "FCS is always the prime general contractor on Clearwater multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, 40+ years experience and in-house engineering, and specific expertise in Clearwater's unique construction environment—from barrier island building on Clearwater Beach to Cleveland Street infill projects. Our project managers understand Pinellas County regulations and maintain strong relationships with City of Clearwater permitting."
   }
 ];
 
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionClearwaterPage() {
       <LocalBusinessSchema city="Clearwater" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Clearwater"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Clearwater FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-clearwater/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
               Multi-Family Construction in Clearwater, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Clearwater and Pinellas County. From beachfront condominiums on Clearwater Beach to mainland apartment communities, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Clearwater and Pinellas County. From beachfront condominiums on Clearwater Beach to mainland apartment communities, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Clearwater's premier prime contractor for multi-family residential, we handle condominiums, apartments, townhomes, senior living, and workforce housing—never as a subcontractor, always with full project accountability.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
                 Clearwater is a city of contrasts—world-famous Clearwater Beach draws millions of tourists annually while the mainland supports a population of 117,000+ residents across diverse neighborhoods from Downtown to Countryside. This unique market creates multi-family construction opportunities ranging from luxury beach condominiums to workforce housing serving the hospitality industry.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Clearwater's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. Whether you're developing a beachfront condominium tower on Sand Key, a garden-style apartment community in East Clearwater, or senior living near Morton Plant Hospital, we deliver on time and on budget.
+                Florida Construction Specialists serves Clearwater's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing a beachfront condominium tower on Sand Key, a garden-style apartment community in East Clearwater, or senior living near Morton Plant Hospital, we deliver on time and on budget.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Clearwater multi-family project. Our relationships with the City of Clearwater Planning & Development, local subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.

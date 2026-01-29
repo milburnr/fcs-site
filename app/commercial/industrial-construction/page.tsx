@@ -24,7 +24,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Industrial Construction Tampa | Tilt-Wall & Warehouse | FCS",
   description:
-    "Industrial and warehouse construction in Tampa Bay. Tilt-wall, steel erection, flex space, and distribution centers. $500K-$50M+ projects.",
+    "Industrial and warehouse construction in Tampa Bay. Tilt-wall, steel erection, flex space, and distribution centers. $500K-$25M+ projects.",
   keywords:
     "industrial construction Tampa, warehouse construction, tilt-wall construction, flex space development, distribution center construction Florida",
 };
@@ -149,7 +149,7 @@ export default function IndustrialConstructionPage() {
             <p className="text-xl text-white/90 mb-8">
               Large-scale industrial and warehouse construction throughout Tampa Bay.
               Tilt-wall panels, pre-engineered metal buildings, and flex space development
-              from $500K to $50M+.
+              from $500K to $25M+.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

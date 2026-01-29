@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ruskin General Contractor | FCS Headquarters | $500K-$50M+ Projects",
+  title: "Ruskin General Contractor | FCS Headquarters | $500K-$25M+ Projects",
   description: "Florida Construction Specialists headquarters in Ruskin, FL. Premier general contractor for commercial construction, disaster recovery, historic restoration. License CBC1262722. Call (813) 420-7561.",
   keywords: "ruskin general contractor, construction company ruskin fl, florida construction specialists headquarters, commercial construction south hillsborough",
 };
@@ -24,7 +24,7 @@ const breadcrumbItems = [
 const services = [
   {
     title: "Commercial Construction",
-    description: "Office buildings, retail centers, medical facilities, and mixed-use developments. Projects from $500K to $50M+ throughout Tampa Bay.",
+    description: "Office buildings, retail centers, medical facilities, and mixed-use developments. Projects from $500K to $25M+ throughout Tampa Bay.",
     icon: Building2,
     href: "/services/commercial/",
   },
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle?",
-    answer: "We handle large-scale commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. As a prime contractor (never a subcontractor), we take full accountability on every project. Project values typically range from $250,000 to $50 million or more."
+    answer: "We handle large-scale commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. As a prime contractor (never a subcontractor), we take full accountability on every project. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "What areas do you serve from your Ruskin location?",
@@ -67,7 +67,7 @@ const faqs = [
   },
   {
     question: "What is your bonding capacity?",
-    answer: "Florida Construction Specialists maintains $10M+ bonding capacity, enabling us to take on large-scale projects that many contractors cannot. Combined with our Florida General Contractor License #CBC1262722, comprehensive general liability insurance, and workers' compensation coverage, we have the financial strength to handle projects of any size."
+    answer: "Florida Construction Specialists maintains 40+ years experience and in-house engineering, enabling us to take on large-scale projects that many contractors cannot. Combined with our Florida General Contractor License #CBC1262722, comprehensive general liability insurance, and workers' compensation coverage, we have the financial strength to handle projects of any size."
   },
   {
     question: "Do you provide disaster recovery services?",
@@ -79,7 +79,7 @@ const faqs = [
   },
   {
     question: "Are you licensed and insured?",
-    answer: "Yes, Florida Construction Specialists is fully licensed and insured. We hold Florida General Contractor License #CBC1262722, maintain $10M+ bonding capacity, carry comprehensive general liability insurance, and provide full workers' compensation coverage for all employees and subcontractors."
+    answer: "Yes, Florida Construction Specialists is fully licensed and insured. We hold Florida General Contractor License #CBC1262722, maintain 40+ years experience and in-house engineering, carry comprehensive general liability insurance, and provide full workers' compensation coverage for all employees and subcontractors."
   },
   {
     question: "What makes Florida Construction Specialists different?",
@@ -116,7 +116,7 @@ export default function RuskinPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services from Ruskin Headquarters"
-        serviceDescription="Florida Construction Specialists headquarters. Premier general contractor serving Tampa Bay with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Florida Construction Specialists headquarters. Premier general contractor serving Tampa Bay with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -145,7 +145,7 @@ export default function RuskinPage() {
               Florida Construction Specialists Headquarters
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Premier general contractor serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $50M+.
+              Premier general contractor serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $25M+.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Our Ruskin headquarters provides ideal access to Tampa, Brandon, Plant City, Lakeland, Clearwater, St. Petersburg, Sarasota, and Bradenton—the entire Tampa Bay region.
@@ -176,7 +176,7 @@ export default function RuskinPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -201,7 +201,7 @@ export default function RuskinPage() {
               Florida Construction Specialists is a premier general contractor headquartered in Ruskin, FL. Led by Frank Bragano—with 43+ years of experience in property claims and construction—we deliver large-scale commercial and residential construction throughout the Tampa Bay region.
             </p>
             <p className="text-gray-600 mb-8">
-              What sets us apart is our commitment to being a prime contractor on every project. We never subcontract our work, ensuring full accountability and direct project control. Our $10M+ bonding capacity enables projects that many contractors cannot handle, while our insurance industry expertise (Frank&apos;s background as an Allstate Commercial adjuster) gives us unique capabilities in disaster recovery and large loss restoration.
+              What sets us apart is our commitment to being a prime contractor on every project. We never subcontract our work, ensuring full accountability and direct project control. Our 40+ years experience and in-house engineering enables projects that many contractors cannot handle, while our insurance industry expertise (Frank&apos;s background as an Allstate Commercial adjuster) gives us unique capabilities in disaster recovery and large loss restoration.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-12">

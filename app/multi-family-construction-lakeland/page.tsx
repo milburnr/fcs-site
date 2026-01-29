@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Lakeland FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal. Call (813) 420-7561.",
   keywords: "multi-family construction lakeland, apartment construction lakeland fl, condo builder lakeland, townhome construction polk county, senior living construction lakeland, workforce housing lakeland",
 };
 
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Lakeland, Polk County, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Lakeland, Polk County, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Lakeland"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Lakeland FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal."
+        description="Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-lakeland/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionLakelandPage() {
               Multi-Family Construction in Lakeland, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Lakeland and Polk County. From Downtown Lakeland mixed-use developments to suburban apartment communities along the I-4 corridor, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Lakeland and Polk County. From Downtown Lakeland mixed-use developments to suburban apartment communities along the I-4 corridor, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Lakeland's inland location means 15-25% lower construction costs than coastal markets, reduced flood requirements, and lower insurance premiums—advantages that make your multi-family investment more profitable.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionLakelandPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionLakelandPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionLakelandPage() {
                 Lakeland is Central Florida's emerging multi-family market, strategically positioned along the I-4 corridor between Tampa and Orlando. With a population exceeding 115,000 and the Lakeland-Winter Haven metro area approaching 750,000, demand for quality multi-family housing continues to grow across all market segments—from workforce housing serving the booming logistics sector to senior living facilities for Florida's retirement community.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Lakeland's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. Whether you're developing apartments near the Publix headquarters, townhomes in the Providence master-planned community, or student housing near Florida Southern College, we deliver on time and on budget.
+                Florida Construction Specialists serves Lakeland's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing apartments near the Publix headquarters, townhomes in the Providence master-planned community, or student housing near Florida Southern College, we deliver on time and on budget.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Lakeland multi-family project. Our relationships with the City of Lakeland Building Inspection Division, local subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.
@@ -471,7 +471,7 @@ export default function MultiFamilyConstructionLakelandPage() {
               <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Central Florida Expertise</h3>
               <p className="text-gray-600">
-                With $50M+ in completed projects throughout Tampa Bay and Central Florida, we understand Lakeland's unique market—its building codes, soil conditions, growth corridors, and cost advantages over coastal markets.
+                With $25M+ in completed projects throughout Tampa Bay and Central Florida, we understand Lakeland's unique market—its building codes, soil conditions, growth corridors, and cost advantages over coastal markets.
               </p>
             </div>
             <div className="card text-center p-6">

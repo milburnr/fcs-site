@@ -109,7 +109,7 @@ export default function Page() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                <span><strong>Bonding Capacity:</strong> Ability to provide payment and performance bonds for your project size</span>
+                <span><strong>Financial Strength:</strong> Ability to provide payment and performance bonds for your project size</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />

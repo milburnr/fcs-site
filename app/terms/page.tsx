@@ -133,7 +133,7 @@ export default function TermsOfServicePage() {
               </p>
               <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
                 <li>Florida State Certified General Contractor License: {BUSINESS_INFO.licenseNumber}</li>
-                <li>Bonding Capacity: {BUSINESS_INFO.bondingCapacity}</li>
+                <li>Experience: {BUSINESS_INFO.yearsInBusiness} years</li>
                 <li>Comprehensive general liability insurance</li>
                 <li>Workers&apos; compensation insurance</li>
               </ul>

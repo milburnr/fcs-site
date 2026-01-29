@@ -12,7 +12,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Commercial Construction in St. Petersburg | Florida Construction Specialists",
-  description: "St. Petersburg's premier commercial contractor for $500K-$50M+ projects. Design-build, medical, multi-family, historic restoration. Federal compliance expertise. Call (813) 420-7561.",
+  description: "St. Petersburg's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, historic restoration. Federal compliance expertise. Call (813) 420-7561.",
   keywords: [
     "commercial construction st petersburg",
     "commercial contractor st petersburg",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const stPeteFaqs = [
   {
     question: "What types of commercial construction projects do you handle in St. Petersburg?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in St. Petersburg including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, historic restoration, and federal facility compliance projects. Our projects typically range from $500,000 to $50 million or more."
+    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in St. Petersburg including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, historic restoration, and federal facility compliance projects. Our projects typically range from $500,000 to $25 million or more."
   },
   {
     question: "Do you have experience with Pinellas County's permitting process?",
@@ -69,7 +69,7 @@ const stPeteFaqs = [
   },
   {
     question: "What makes Florida Construction Specialists different from other St. Petersburg commercial contractors?",
-    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every St. Petersburg project. Second, our $10M+ bonding capacity enables large-scale projects that many contractors cannot undertake. Third, our unique expertise in federal historic compliance, demonstrated by projects like Bay Pines Veterans Hospital, brings specialized capabilities to St. Petersburg's commercial construction market."
+    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every St. Petersburg project. Second, our 40+ years experience and in-house engineering enables large-scale projects that many contractors cannot undertake. Third, our unique expertise in federal historic compliance, demonstrated by projects like Bay Pines Veterans Hospital, brings specialized capabilities to St. Petersburg's commercial construction market."
   },
 ];
 
@@ -94,7 +94,7 @@ export default function CommercialConstructionStPetersburgPage() {
       <LocalBusinessSchema city="St. Petersburg" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction in St. Petersburg"
-        serviceDescription="Large-scale commercial construction services in St. Petersburg, FL. Design-build, medical facilities, multi-family, industrial, historic restoration, and federal compliance projects from $500K to $50M+."
+        serviceDescription="Large-scale commercial construction services in St. Petersburg, FL. Design-build, medical facilities, multi-family, industrial, historic restoration, and federal compliance projects from $500K to $25M+."
         city="St. Petersburg"
         minPrice="500000"
       />
@@ -128,7 +128,7 @@ export default function CommercialConstructionStPetersburgPage() {
                 Commercial Construction in St. Petersburg, Florida
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is St. Petersburg's trusted commercial contractor for projects ranging from $500K to $50M+. From Downtown St. Pete's vibrant arts district to the Gateway business corridor and historic Old Northeast, we deliver exceptional commercial construction with $10M+ bonding capacity and federal historic compliance expertise.
+                Florida Construction Specialists is St. Petersburg's trusted commercial contractor for projects ranging from $500K to $25M+. From Downtown St. Pete's vibrant arts district to the Gateway business corridor and historic Old Northeast, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and federal historic compliance expertise.
               </p>
 
               {/* Trust Badges */}
@@ -557,7 +557,7 @@ export default function CommercialConstructionStPetersburgPage() {
               Serving Commercial Construction Throughout St. Petersburg
             </h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
-              From our Ruskin headquarters, we serve all of St. Petersburg and Pinellas County for commercial construction projects of $500K to $50M+.
+              From our Ruskin headquarters, we serve all of St. Petersburg and Pinellas County for commercial construction projects of $500K to $25M+.
             </p>
           </div>
           <GoogleMap city="St. Petersburg" height={400} />
@@ -628,7 +628,7 @@ export default function CommercialConstructionStPetersburgPage() {
                 <p className="text-sm text-gray-300 mb-4">St. Petersburg's trusted commercial contractor:</p>
                 <div className="flex flex-wrap gap-4 text-sm text-gray-200">
                   <span>License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>$10M+ Bonding</span>
+                  <span>In-House Engineering</span>
                   <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
                   <span>{BUSINESS_INFO.projectsCompleted}+ Projects</span>
                 </div>

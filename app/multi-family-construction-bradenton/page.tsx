@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Bradenton FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. 15-20% more affordable than Sarasota. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota. Call (813) 420-7561.",
   keywords: "multi-family construction bradenton, apartment construction bradenton, condo builder bradenton fl, townhome construction bradenton, senior living construction bradenton, manatee county contractor",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const bradentonFaqs = [
   {
     question: "What types of multi-family projects does FCS build in Bradenton?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Bradenton and Manatee County: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Bradenton multi-family projects range from $1 million to $50 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown Bradenton, along the Riverwalk corridor, in the Village of the Arts, and throughout Manatee County."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Bradenton and Manatee County: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Bradenton multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown Bradenton, along the Riverwalk corridor, in the Village of the Arts, and throughout Manatee County."
   },
   {
     question: "How does Bradenton's multi-family market compare to Sarasota?",
@@ -68,7 +68,7 @@ const bradentonFaqs = [
   },
   {
     question: "What makes FCS different from other Bradenton multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Bradenton multi-family projects—we never work as a subcontractor. This means direct accountability to you throughout your project. We bring 20+ years of experience, $10M+ bonding capacity, and deep knowledge of Manatee County requirements including Village of the Arts overlay standards, Manatee River setbacks, and coordination with the City of Bradenton Building Division. Our project managers are familiar with local subcontractors and suppliers."
+    answer: "FCS is always the prime general contractor on Bradenton multi-family projects—we never work as a subcontractor. This means direct accountability to you throughout your project. We bring 20+ years of experience, 40+ years experience and in-house engineering, and deep knowledge of Manatee County requirements including Village of the Arts overlay standards, Manatee River setbacks, and coordination with the City of Bradenton Building Division. Our project managers are familiar with local subcontractors and suppliers."
   },
   {
     question: "How does the Downtown Bradenton Riverwalk area affect multi-family development?",
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Bradenton and Manatee County, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Bradenton and Manatee County, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Bradenton"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Bradenton FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. 15-20% more affordable than Sarasota."
+        description="Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-bradenton/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionBradentonPage() {
               Multi-Family Construction in Bradenton, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Bradenton and Manatee County. From Downtown Riverwalk condominiums to senior living facilities serving the growing retirement community, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Bradenton and Manatee County. From Downtown Riverwalk condominiums to senior living facilities serving the growing retirement community, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Bradenton offers 15-20% cost advantages over neighboring Sarasota—making it ideal for workforce housing, attainable ownership, and value-driven developments. As your prime contractor, we deliver full project accountability from groundbreaking to occupancy.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionBradentonPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionBradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -180,7 +180,7 @@ export default function MultiFamilyConstructionBradentonPage() {
                 The city's strategic position—more affordable than Sarasota to the south yet offering similar Gulf Coast lifestyle—drives demand for workforce housing, attainable ownership products, and senior living facilities. The Downtown Bradenton Riverwalk revitalization, Village of the Arts district, and proximity to Anna Maria Island create diverse market opportunities.
               </p>
               <p className="text-gray-600 mb-8">
-                Florida Construction Specialists serves Bradenton's multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Manatee County project.
+                Florida Construction Specialists serves Bradenton's multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Manatee County project.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-green-dark mb-6">

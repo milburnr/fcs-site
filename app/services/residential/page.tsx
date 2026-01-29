@@ -216,7 +216,7 @@ export default function ResidentialConstructionPage() {
                 Your home is more than a building—it's a legacy. At Florida Construction Specialists, we understand the profound responsibility of creating spaces where families grow, memories are made, and generations connect. Our luxury custom home division focuses exclusively on residences valued at $1 million and above, ensuring every project receives the expertise, attention, and resources it deserves.
               </p>
               <p className="mb-6">
-                What distinguishes FCS from typical custom home builders is our comprehensive approach to residential construction. We bring the same rigorous project management, financial stability, and technical expertise that we apply to our commercial projects—$10M+ bonding capacity, detailed scheduling, and experienced superintendents—to every custom home we build. This commercial-grade approach delivers residential projects that run smoother, finish on time, and exceed quality expectations.
+                What distinguishes FCS from typical custom home builders is our comprehensive approach to residential construction. We bring the same rigorous project management, financial stability, and technical expertise that we apply to our commercial projects—40+ years experience and in-house engineering, detailed scheduling, and experienced superintendents—to every custom home we build. This commercial-grade approach delivers residential projects that run smoother, finish on time, and exceed quality expectations.
               </p>
               <p className="mb-6">
                 Tampa Bay's unique environment demands specialized knowledge. Our homes are engineered for Florida's climate, from hurricane-resistant construction that exceeds code requirements to waterfront designs that work harmoniously with seawalls, flood zones, and the salt-air environment. Whether your dream home sits on Davis Islands, the shores of Tampa Bay, or within one of our region's treasured historic districts, we have the experience to navigate local requirements and deliver exceptional results.
@@ -565,7 +565,7 @@ export default function ResidentialConstructionPage() {
               <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
                 Commercial Construction
               </h3>
-              <p className="text-gray-600 mb-4">Large-scale commercial projects from $500K to $50M+ including office, retail, and multi-family development.</p>
+              <p className="text-gray-600 mb-4">Large-scale commercial projects from $500K to $25M+ including office, retail, and multi-family development.</p>
               <span className="inline-flex items-center text-brand-green font-semibold">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </span>

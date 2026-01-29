@@ -97,7 +97,7 @@ const ruskinFaqs = [
   },
   {
     question: "What makes FCS different from other builders in South Hillsborough?",
-    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our commercial construction background brings superior project management, detailed budgeting, and rigorous quality control. Being headquartered locally means you have direct access to our team throughout your project. We also bring $10M+ bonding capacity and 20+ years of experience to every project.",
+    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our commercial construction background brings superior project management, detailed budgeting, and rigorous quality control. Being headquartered locally means you have direct access to our team throughout your project. We also bring 40+ years experience and in-house engineering and 20+ years of experience to every project.",
   },
 ];
 
@@ -189,7 +189,7 @@ export default function LuxuryCustomHomesRuskinPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="w-6 h-6 text-brand-green" />
@@ -450,7 +450,7 @@ export default function LuxuryCustomHomesRuskinPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$50M+</div>
+                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
                 <div className="text-gray-300 text-sm">Local Projects</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
@@ -498,7 +498,7 @@ export default function LuxuryCustomHomesRuskinPage() {
               <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
               <p className="text-gray-600">
-                Our $10M+ bonding capacity, comprehensive insurance, and detailed project accounting give you confidence throughout construction.
+                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout construction.
               </p>
             </div>
           </div>

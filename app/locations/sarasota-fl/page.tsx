@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sarasota Commercial Construction Contractor | $500K-$50M+ Projects | FCS",
-  description: "Premier general contractor serving Sarasota, FL. Commercial construction, luxury residential, disaster recovery. Coastal expertise. $10M+ bonding. Call (813) 420-7561.",
+  title: "Sarasota Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  description: "Premier general contractor serving Sarasota, FL. Commercial construction, luxury residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction sarasota, sarasota general contractor, luxury home builder sarasota fl, disaster recovery sarasota florida",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Sarasota?",
-    answer: "In Sarasota, we handle commercial construction, luxury custom homes, multi-family residential, disaster recovery, waterfront estates, balcony reconstruction, and exterior waterproofing. Given Sarasota's affluent market, we have particular expertise in high-end residential construction and coastal development. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Sarasota, we handle commercial construction, luxury custom homes, multi-family residential, disaster recovery, waterfront estates, balcony reconstruction, and exterior waterproofing. Given Sarasota's affluent market, we have particular expertise in high-end residential construction and coastal development. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How far is your office from Sarasota?",
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: "Do you build luxury homes in Sarasota?",
-    answer: "Yes, Sarasota's affluent communities including Longboat Key, Bird Key, Lido Key, and Siesta Key require construction partners who understand luxury standards. We build custom waterfront estates, high-end renovations, and exclusive residential projects that meet the exacting standards of Sarasota's discerning clientele. Our $10M+ bonding capacity enables projects at any scale."
+    answer: "Yes, Sarasota's affluent communities including Longboat Key, Bird Key, Lido Key, and Siesta Key require construction partners who understand luxury standards. We build custom waterfront estates, high-end renovations, and exclusive residential projects that meet the exacting standards of Sarasota's discerning clientele. Our 40+ years experience and in-house engineering enables projects at any scale."
   },
   {
     question: "What is the Sarasota building permit process?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Sarasota?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Sarasota. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Sarasota. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Sarasota?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, luxury custom homes, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Sarasota area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, luxury custom homes, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Sarasota area."
   },
   {
     question: "How do I get started on a project in Sarasota?",
@@ -113,7 +113,7 @@ export default function SarasotaPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Sarasota"
-        serviceDescription="Premier general contractor serving Sarasota, FL with commercial construction, luxury residential, disaster recovery, and coastal construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Sarasota, FL with commercial construction, luxury residential, disaster recovery, and coastal construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -173,7 +173,7 @@ export default function SarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

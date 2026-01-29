@@ -39,7 +39,7 @@ export const metadata: Metadata = {
 const largeLossCategories = [
   {
     category: "Hurricane/Wind Damage",
-    threshold: "$500K - $50M+",
+    threshold: "$500K - $25M+",
     characteristics: "Multi-building damage, roof systems, water intrusion, business interruption",
     complexity: "Highest - Multiple adjusters, engineers, phased restoration",
     timeline: "12-36 months typical",
@@ -60,7 +60,7 @@ const largeLossCategories = [
   },
   {
     category: "Collapse/Structural",
-    threshold: "$1M - $50M+",
+    threshold: "$1M - $25M+",
     characteristics: "Engineering assessment, shoring, potential demolition, rebuild",
     complexity: "Highest - Safety concerns, forensic analysis, liability issues",
     timeline: "18-48 months typical",

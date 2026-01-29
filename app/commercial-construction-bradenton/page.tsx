@@ -8,8 +8,8 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Bradenton FL | $500K-$50M+ Projects | FCS",
-  description: "Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  title: "Commercial Construction Bradenton FL | $500K-$25M+ Projects | FCS",
+  description: "Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction bradenton, commercial contractor bradenton, commercial builder bradenton fl, office building construction bradenton, medical facility construction bradenton",
 };
 
@@ -43,7 +43,7 @@ const serviceFeatures = [
 const bradentonFaqs = [
   {
     question: "What size commercial construction projects does FCS handle in Bradenton?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Bradenton and Manatee County ranging from $500,000 to over $50 million. We specialize in office buildings, medical facilities near Manatee Memorial Hospital, retail centers, and hospitality venues. Our $10M+ bonding capacity allows us to take on virtually any commercial project in the Bradenton area."
+    answer: "Florida Construction Specialists handles commercial construction projects in Bradenton and Manatee County ranging from $500,000 to over $25 million. We specialize in office buildings, medical facilities near Manatee Memorial Hospital, retail centers, and hospitality venues. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project in the Bradenton area."
   },
   {
     question: "Do you have experience with Bradenton's building codes and permit process?",
@@ -59,7 +59,7 @@ const bradentonFaqs = [
   },
   {
     question: "Why should I choose FCS over other Bradenton commercial contractors?",
-    answer: "FCS is always the prime contractor on every Bradenton project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, $10M+ bonding capacity, and a track record of $50M+ in completed projects throughout Tampa Bay. Our team has deep relationships with Bradenton's building departments and local subcontractors."
+    answer: "FCS is always the prime contractor on every Bradenton project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and a track record of $25M+ in completed projects throughout Tampa Bay. Our team has deep relationships with Bradenton's building departments and local subcontractors."
   },
   {
     question: "How long does a typical commercial construction project take in Bradenton?",
@@ -71,7 +71,7 @@ const bradentonFaqs = [
   },
   {
     question: "What insurance and bonding do you carry for Bradenton commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and bonding capacity of $10 million or more. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Bradenton market."
+    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Bradenton market."
   }
 ];
 
@@ -88,14 +88,14 @@ export default function CommercialConstructionBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. Large-scale projects from $500K to $50M+. Always the prime contractor."
+        serviceDescription="Premier commercial construction contractor serving Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Bradenton"
         minPrice="500000"
       />
 
       <ArticleSchema
-        headline="Commercial Construction Bradenton FL | $500K-$50M+ Projects | FCS"
-        description="Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
+        headline="Commercial Construction Bradenton FL | $500K-$25M+ Projects | FCS"
+        description="Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/commercial-construction-bradenton/"
@@ -118,7 +118,7 @@ export default function CommercialConstructionBradentonPage() {
               Commercial Construction in Bradenton, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Bradenton and Manatee County. From Downtown Bradenton's revitalizing riverfront to medical facilities and retail centers, we bring 20+ years of experience to projects ranging from $500,000 to $50 million.
+              Florida Construction Specialists delivers large-scale commercial construction throughout Bradenton and Manatee County. From Downtown Bradenton's revitalizing riverfront to medical facilities and retail centers, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Bradenton's trusted prime contractor, we handle office buildings, medical facilities, retail centers, hospitality venues, and industrial projects—never as a subcontractor, always with full project accountability.
@@ -145,7 +145,7 @@ export default function CommercialConstructionBradentonPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -153,7 +153,7 @@ export default function CommercialConstructionBradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />

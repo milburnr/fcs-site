@@ -97,7 +97,7 @@ const bradentonFaqs = [
   },
   {
     question: "What makes FCS different from other Bradenton luxury home builders?",
-    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our commercial construction background brings superior project management, detailed scheduling, and quality control to residential projects. We maintain $10M+ bonding capacity for large projects and have established relationships with Manatee County permitting and the best specialty subcontractors in the region. Our track record includes waterfront estates, historic renovations, and complex architectural builds.",
+    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our commercial construction background brings superior project management, detailed scheduling, and quality control to residential projects. We maintain 40+ years experience and in-house engineering for large projects and have established relationships with Manatee County permitting and the best specialty subcontractors in the region. Our track record includes waterfront estates, historic renovations, and complex architectural builds.",
   },
 ];
 
@@ -183,7 +183,7 @@ export default function LuxuryCustomHomesBradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Star className="w-6 h-6 text-brand-green" />
@@ -401,7 +401,7 @@ export default function LuxuryCustomHomesBradentonPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>$10M+ Bonding Capacity:</strong> Financial strength to handle the largest custom home projects in Manatee County</span>
+                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest custom home projects in Manatee County</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />

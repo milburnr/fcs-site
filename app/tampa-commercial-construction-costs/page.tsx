@@ -142,7 +142,7 @@ export default function Page() {
                   <tr>
                     <td className="px-6 py-4 font-medium">Class A Office</td>
                     <td className="px-6 py-4 text-gray-600">$250 - $400</td>
-                    <td className="px-6 py-4 text-gray-600">$5M - $50M+</td>
+                    <td className="px-6 py-4 text-gray-600">$5M - $25M+</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="px-6 py-4 font-medium">Class B Office</td>

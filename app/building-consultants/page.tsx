@@ -28,7 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Building Consultants | Construction Consulting | Florida Construction Specialists",
   description:
-    "Professional building consulting for property owners, attorneys & insurers. 43+ years experience, $10M+ bonding. Schedule your consultation. Call (813) 420-7561.",
+    "Professional building consulting for property owners, attorneys & insurers. 43+ years experience, 40+ years experience. Schedule your consultation. Call (813) 420-7561.",
   keywords: [
     "building consultant Tampa",
     "construction consultant Florida",
@@ -64,7 +64,7 @@ const faqs = [
   {
     question: "What qualifications does Florida Construction Specialists have for building consulting?",
     answer:
-      "Our qualifications include: Licensed Florida General Contractor (CBC1262722), $10M+ bonding capacity demonstrating financial stability, 43+ years combined construction and insurance experience, $50M+ in successfully completed projects across Florida and the Southeast, former insurance adjuster credentials providing carrier-side perspective, and extensive experience with hurricanes including Charley, Irma, Harvey, and other major events.",
+      "Our qualifications include: Licensed Florida General Contractor (CBC1262722), 40+ years experience and in-house engineering demonstrating financial stability, 43+ years combined construction and insurance experience, $25M+ in successfully completed projects across Florida and the Southeast, former insurance adjuster credentials providing carrier-side perspective, and extensive experience with hurricanes including Charley, Irma, Harvey, and other major events.",
   },
   {
     question: "Can you provide owner representation during construction projects?",
@@ -258,7 +258,7 @@ export default function BuildingConsultantsPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
                 <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                <p className="text-sm font-semibold text-white">$10M+ Bonding</p>
+                <p className="text-sm font-semibold text-white">In-House Engineering</p>
                 <p className="text-xs text-gray-400">Financial Stability</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
@@ -309,7 +309,7 @@ export default function BuildingConsultantsPage() {
               </p>
               <p className="mb-6">
                 This insurance industry background, combined with over 20 years leading Florida
-                Construction Specialists and completing $50M+ in construction projects, creates a
+                Construction Specialists and completing $25M+ in construction projects, creates a
                 perspective that few consultants can match. Whether you are a property owner planning
                 a major project, an attorney handling a construction dispute, or an insurance carrier
                 evaluating a claim, we bring the expertise you need.
@@ -515,7 +515,7 @@ export default function BuildingConsultantsPage() {
                 <div className="flex gap-4">
                   <CheckCircle className="w-6 h-6 text-gray-700 flex-shrink-0" />
                   <div>
-                    <h3 className="font-bold text-gray-900 mb-1">$50M+ Project Portfolio</h3>
+                    <h3 className="font-bold text-gray-900 mb-1">$25M+ Project Portfolio</h3>
                     <p className="text-gray-600">
                       Real-world construction experience provides practical, actionable advice
                       grounded in actual project delivery.
@@ -683,7 +683,7 @@ export default function BuildingConsultantsPage() {
               </Link>
             </div>
             <p className="text-sm text-gray-400">
-              Licensed Contractor {BUSINESS_INFO.licenseNumber} | $10M+ Bonding | 150+ Projects
+              Licensed Contractor {BUSINESS_INFO.licenseNumber} | In-House Engineering | 150+ Projects
               Completed
             </p>
           </div>

@@ -9,7 +9,7 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
-  description: "Multi-family construction in Tampa Bay. Apartment buildings, condominiums, townhomes, senior living. Ground-up and renovation. $1M-$50M+ projects. Licensed CBC1262722. Call (813) 420-7561.",
+  description: "Multi-family construction in Tampa Bay. Apartment buildings, condominiums, townhomes, senior living. Ground-up and renovation. $1M-$25M+ projects. Licensed CBC1262722. Call (813) 420-7561.",
   keywords: ["multi-family construction tampa", "apartment construction florida", "condo builder tampa bay", "senior living construction", "townhome developer"],
 };
 
@@ -50,7 +50,7 @@ const projectTypes = [
 const faqs = [
   {
     question: "What size multi-family projects do you handle?",
-    answer: "Florida Construction Specialists handles multi-family projects ranging from $1 million to over $50 million. This includes smaller townhome developments (10-30 units), mid-size apartment communities (50-150 units), and large-scale developments (150+ units). Our $10M+ bonding capacity allows us to take on substantial multi-family projects while our experienced team can efficiently deliver smaller developments.",
+    answer: "Florida Construction Specialists handles multi-family projects ranging from $1 million to over $25 million. This includes smaller townhome developments (10-30 units), mid-size apartment communities (50-150 units), and large-scale developments (150+ units). Our 40+ years experience and in-house engineering allows us to take on substantial multi-family projects while our experienced team can efficiently deliver smaller developments.",
   },
   {
     question: "Do you work with multi-family developers?",
@@ -96,7 +96,7 @@ export default function MultiFamilyPage() {
       <LocalBusinessSchema service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Multi-family residential construction in Tampa Bay including apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Projects from $1M to $50M+."
+        serviceDescription="Multi-family residential construction in Tampa Bay including apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Projects from $1M to $25M+."
         minPrice="1000000"
       />
       <FAQSchema faqs={faqs} />
@@ -120,7 +120,7 @@ export default function MultiFamilyPage() {
               Florida Construction Specialists delivers multi-family projects that meet developer pro forma requirements while creating quality living environments. From townhome communities to large-scale apartment developments, we bring efficiency and expertise to residential construction.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. $1M-$50M+ projects with $10M+ bonding capacity.
+              Apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. $1M-$25M+ projects with 40+ years experience and in-house engineering.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -148,7 +148,7 @@ export default function MultiFamilyPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

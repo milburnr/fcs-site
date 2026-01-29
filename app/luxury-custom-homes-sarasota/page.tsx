@@ -107,7 +107,7 @@ const sarasotaFaqs = [
   },
   {
     question: "What makes FCS different from other Sarasota luxury home builders?",
-    answer: "FCS is always the prime contractor on every project - we never subcontract our management responsibility. Our $10M+ bonding capacity allows us to handle the largest barrier island estates. We maintain long-term relationships with Sarasota's finest specialty contractors who understand the precision required for luxury finishes. Our commercial construction background brings superior project management, detailed scheduling, and rigorous quality control to residential projects. We also have specific expertise in coastal construction that many residential-only builders lack.",
+    answer: "FCS is always the prime contractor on every project - we never subcontract our management responsibility. Our 40+ years experience and in-house engineering allows us to handle the largest barrier island estates. We maintain long-term relationships with Sarasota's finest specialty contractors who understand the precision required for luxury finishes. Our commercial construction background brings superior project management, detailed scheduling, and rigorous quality control to residential projects. We also have specific expertise in coastal construction that many residential-only builders lack.",
   },
 ];
 
@@ -188,7 +188,7 @@ export default function LuxuryCustomHomesSarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -416,7 +416,7 @@ export default function LuxuryCustomHomesSarasotaPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>$10M+ Bonding Capacity:</strong> Financial strength to handle the largest Gulf-front estates and barrier island projects</span>
+                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest Gulf-front estates and barrier island projects</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />

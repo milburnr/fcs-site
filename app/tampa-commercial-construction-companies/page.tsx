@@ -163,7 +163,7 @@ export default function Page() {
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-              Financial Stability and Bonding Capacity
+              Financial Stability and Financial Strength
             </h2>
             <p className="text-gray-600 mb-6">
               A contractor's financial health directly impacts their ability to successfully complete your project. Construction is capital-intensive, and contractors must fund materials, labor, and subcontractors before receiving payment from owners. Financially weak contractors may struggle to maintain project momentum, leading to delays and quality issues.
@@ -237,7 +237,7 @@ export default function Page() {
                   <tr>
                     <td className="px-6 py-4 font-medium">Large National Firms</td>
                     <td className="px-6 py-4 text-gray-600">Major developments, complex projects</td>
-                    <td className="px-6 py-4 text-gray-600">$50M+</td>
+                    <td className="px-6 py-4 text-gray-600">$25M+</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="px-6 py-4 font-medium">Regional Mid-Size Contractors</td>

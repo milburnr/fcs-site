@@ -101,7 +101,7 @@ export default function DisasterRecoveryLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Lakeland, FL. Prime contractor for tornado damage, severe storm restoration, flood damage, and large loss insurance claims. 24/7 emergency response with projects from $250,000 to $50 million."
+        serviceDescription="Professional disaster recovery and insurance restoration services in Lakeland, FL. Prime contractor for tornado damage, severe storm restoration, flood damage, and large loss insurance claims. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Lakeland"
         minPrice="250000"
       />
@@ -128,7 +128,7 @@ export default function DisasterRecoveryLakelandPage() {
               Disaster Recovery & Insurance Restoration in Lakeland
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Polk County's trusted large loss contractor for tornado damage, severe storm restoration, and commercial property disaster recovery. We work directly with insurance companies on claims from $250,000 to $50 million. 24/7 emergency response throughout Lakeland and Central Florida.
+              Polk County's trusted large loss contractor for tornado damage, severe storm restoration, and commercial property disaster recovery. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency response throughout Lakeland and Central Florida.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -156,7 +156,7 @@ export default function DisasterRecoveryLakelandPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <FileText className="w-6 h-6 text-brand-green" />

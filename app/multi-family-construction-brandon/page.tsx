@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Brandon FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "multi-family construction brandon, apartment construction brandon fl, condo builder brandon florida, townhome construction brandon, senior living construction brandon, fishhawk ranch construction",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const brandonFaqs = [
   {
     question: "What types of multi-family projects does FCS build in Brandon?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Brandon: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Brandon multi-family projects range from $1 million to $50 million+ and include both ground-up construction and major renovations. We've completed projects throughout the Brandon area including near Westfield Brandon, along Highway 60, and in master-planned communities like FishHawk Ranch."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Brandon: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Brandon multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects throughout the Brandon area including near Westfield Brandon, along Highway 60, and in master-planned communities like FishHawk Ranch."
   },
   {
     question: "Why is Brandon attractive for multi-family development?",
@@ -72,7 +72,7 @@ const brandonFaqs = [
   },
   {
     question: "What makes FCS different from other Brandon multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Brandon multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, $10M+ bonding capacity, and deep knowledge of Hillsborough County's permitting process. We understand Brandon's specific advantages: suburban land availability, family-focused market demand, and strategic location between Tampa and Lakeland. Our project managers know the local subcontractor market and building department relationships."
+    answer: "FCS is always the prime general contractor on Brandon multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, 40+ years experience and in-house engineering, and deep knowledge of Hillsborough County's permitting process. We understand Brandon's specific advantages: suburban land availability, family-focused market demand, and strategic location between Tampa and Lakeland. Our project managers know the local subcontractor market and building department relationships."
   }
 ];
 
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Brandon"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Brandon FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-brandon/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionBrandonPage() {
               Multi-Family Construction in Brandon, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Brandon and eastern Hillsborough County. From apartment communities near Westfield Brandon to townhome developments in FishHawk Ranch, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Brandon and eastern Hillsborough County. From apartment communities near Westfield Brandon to townhome developments in FishHawk Ranch, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Brandon's premier prime contractor for multi-family residential, we handle condominiums, apartments, townhomes, and senior living—never as a subcontractor, always with full project accountability through Hillsborough County Building Services.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionBrandonPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionBrandonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionBrandonPage() {
                 Brandon is one of Tampa Bay's largest unincorporated communities, with a population exceeding 115,000 and strategic location at the intersection of I-75 and Highway 60. This suburban hub offers multi-family developers compelling advantages: lower land costs than Tampa proper, strong rental demand from families and young professionals, and proximity to major employment centers including Brandon Regional Hospital, Westfield Brandon, and Tampa's job markets.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Brandon's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. Whether you're developing an apartment community along the Highway 60 retail corridor, townhomes in FishHawk Ranch, or senior living facilities serving the established Brandon population, we deliver on time and on budget.
+                Florida Construction Specialists serves Brandon's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing an apartment community along the Highway 60 retail corridor, townhomes in FishHawk Ranch, or senior living facilities serving the established Brandon population, we deliver on time and on budget.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Brandon multi-family project. Our relationships with Hillsborough County Building Services, local subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.

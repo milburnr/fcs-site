@@ -9,8 +9,8 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Sarasota FL | $500K-$50M+ Projects | FCS",
-  description: "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  title: "Commercial Construction Sarasota FL | $500K-$25M+ Projects | FCS",
+  description: "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction sarasota, commercial contractor sarasota, commercial builder sarasota fl, office building construction sarasota, medical facility construction sarasota, hospitality construction sarasota",
 };
 
@@ -45,7 +45,7 @@ const serviceFeatures = [
 const sarasotaFaqs = [
   {
     question: "What size commercial construction projects does FCS handle in Sarasota?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Sarasota ranging from $500,000 to over $50 million. We specialize in large-scale projects including office buildings in Downtown Sarasota and University Parkway area, medical facilities near Sarasota Memorial Hospital, hospitality venues on the keys, and retail centers throughout Sarasota County. Our $10M+ bonding capacity allows us to take on virtually any commercial project."
+    answer: "Florida Construction Specialists handles commercial construction projects in Sarasota ranging from $500,000 to over $25 million. We specialize in large-scale projects including office buildings in Downtown Sarasota and University Parkway area, medical facilities near Sarasota Memorial Hospital, hospitality venues on the keys, and retail centers throughout Sarasota County. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project."
   },
   {
     question: "Do you have experience with Sarasota's building codes and permit process?",
@@ -61,7 +61,7 @@ const sarasotaFaqs = [
   },
   {
     question: "Why should I choose FCS over other Sarasota commercial contractors?",
-    answer: "FCS is always the prime contractor on every Sarasota project—we never work as a subcontractor. This means you get direct accountability, a single point of contact, and our full commitment to your project's success. We bring 20+ years of commercial construction experience, $10M+ bonding capacity, and the quality standards that Sarasota's discerning commercial market demands."
+    answer: "FCS is always the prime contractor on every Sarasota project—we never work as a subcontractor. This means you get direct accountability, a single point of contact, and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and the quality standards that Sarasota's discerning commercial market demands."
   },
   {
     question: "How long does a typical commercial construction project take in Sarasota?",
@@ -73,7 +73,7 @@ const sarasotaFaqs = [
   },
   {
     question: "What insurance and bonding do you carry for Sarasota commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and bonding capacity of $10 million or more. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Sarasota County market."
+    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Sarasota County market."
   }
 ];
 
@@ -90,14 +90,14 @@ export default function CommercialConstructionSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Sarasota, Florida. Office buildings, medical facilities, hospitality, retail centers, luxury commercial projects. Large-scale projects from $500K to $50M+. Always the prime contractor."
+        serviceDescription="Premier commercial construction contractor serving Sarasota, Florida. Office buildings, medical facilities, hospitality, retail centers, luxury commercial projects. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Sarasota"
         minPrice="500000"
       />
 
       <ArticleSchema
-        headline="Commercial Construction Sarasota FL | $500K-$50M+ Projects | FCS"
-        description="Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
+        headline="Commercial Construction Sarasota FL | $500K-$25M+ Projects | FCS"
+        description="Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/commercial-construction-sarasota/"
@@ -120,7 +120,7 @@ export default function CommercialConstructionSarasotaPage() {
               Commercial Construction in Sarasota, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Sarasota and Sarasota County. From Downtown Sarasota office buildings to medical facilities near Sarasota Memorial Hospital and hospitality venues on the keys, we bring 20+ years of experience to projects ranging from $500,000 to $50 million.
+              Florida Construction Specialists delivers large-scale commercial construction throughout Sarasota and Sarasota County. From Downtown Sarasota office buildings to medical facilities near Sarasota Memorial Hospital and hospitality venues on the keys, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Sarasota's trusted prime contractor, we handle office buildings, medical facilities, hospitality projects, retail centers, and luxury commercial developments—never as a subcontractor, always with full project accountability.
@@ -147,7 +147,7 @@ export default function CommercialConstructionSarasotaPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -155,7 +155,7 @@ export default function CommercialConstructionSarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />

@@ -141,7 +141,7 @@ export default function Page() {
             </div>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              The Importance of Bonding Capacity
+              The Importance of Financial Strength
             </h2>
             <p className="text-gray-600 mb-6">
               A contractor's bonding capacity—the maximum amount of bonding available to them—indicates financial strength and surety company confidence. Surety companies conduct thorough financial analysis before issuing bonds, evaluating the contractor's financial statements, work history, management capability, and character. Higher bonding capacity signals that experienced financial underwriters have confidence in the contractor's ability to complete projects successfully.
@@ -216,7 +216,7 @@ export default function Page() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                <span><strong>Confirm Bonding Capacity:</strong> Request a bonding capacity letter from the contractor's surety, confirming their ability to provide bonds for your project size.</span>
+                <span><strong>Confirm Financial Strength:</strong> Request a bonding capacity letter from the contractor's surety, confirming their ability to provide bonds for your project size.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />

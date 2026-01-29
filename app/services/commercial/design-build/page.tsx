@@ -9,7 +9,7 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Design-Build Construction Tampa | Single-Source Commercial Contractor | FCS",
-  description: "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$50M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
+  description: "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$25M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
   keywords: ["design-build construction tampa", "design-build contractor florida", "single-source construction", "integrated design-build"],
 };
 
@@ -107,7 +107,7 @@ const faqs = [
   },
   {
     question: "What size projects do you handle with design-build?",
-    answer: "Florida Construction Specialists handles design-build projects ranging from $500,000 to over $50 million. Our $10M+ bonding capacity allows us to take on large commercial developments, while our experienced team can efficiently deliver smaller tenant improvements and building additions. The design-build approach scales effectively across project sizes.",
+    answer: "Florida Construction Specialists handles design-build projects ranging from $500,000 to over $25 million. Our 40+ years experience and in-house engineering allows us to take on large commercial developments, while our experienced team can efficiently deliver smaller tenant improvements and building additions. The design-build approach scales effectively across project sizes.",
   },
   {
     question: "Do you have design-build experience in my industry?",
@@ -125,7 +125,7 @@ export default function DesignBuildPage() {
       <LocalBusinessSchema service="Design-Build Construction" />
       <ServiceSchema
         serviceName="Design-Build Construction"
-        serviceDescription="Integrated design-build construction services in Tampa Bay. Single-source accountability for commercial projects from $500K to $50M+. Faster delivery, cost certainty, and seamless coordination."
+        serviceDescription="Integrated design-build construction services in Tampa Bay. Single-source accountability for commercial projects from $500K to $25M+. Faster delivery, cost certainty, and seamless coordination."
         minPrice="500000"
       />
       <FAQSchema faqs={faqs} />
@@ -149,7 +149,7 @@ export default function DesignBuildPage() {
               One team. One contract. One point of accountability. Florida Construction Specialists delivers design-build projects that combine architectural excellence with construction expertise—faster timelines, better coordination, and cost certainty from concept to completion.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From $500K tenant improvements to $50M+ commercial developments, our integrated approach eliminates the conflicts and delays of traditional construction delivery.
+              From $500K tenant improvements to $25M+ commercial developments, our integrated approach eliminates the conflicts and delays of traditional construction delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -181,7 +181,7 @@ export default function DesignBuildPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />

@@ -178,7 +178,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -402,7 +402,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>$10M+ Bonding Capacity:</strong> Financial strength to handle the largest beachfront custom home projects</span>
+                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest beachfront custom home projects</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />

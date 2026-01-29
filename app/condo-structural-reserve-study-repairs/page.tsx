@@ -127,11 +127,11 @@ export default function SIRSRepairsPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
@@ -731,7 +731,7 @@ export default function SIRSRepairsPage() {
                 {[
                   {
                     title: "Commercial Expertise, Not Residential",
-                    desc: "Our $50M+ track record is in large-scale commercial and multi-family projects. We're not a residential contractor trying to scale up.",
+                    desc: "Our $25M+ track record is in large-scale commercial and multi-family projects. We're not a residential contractor trying to scale up.",
                   },
                   {
                     title: "Single Point of Accountability",

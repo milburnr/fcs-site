@@ -34,7 +34,7 @@ export default function PremiumHomepage() {
               Projects
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
-              From $500K commercial renovations to $50M+ developments. 
+              From $500K commercial renovations to $25M+ developments. 
               We don't just build structures—we build landmarks that define Tampa Bay.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -276,7 +276,7 @@ export default function PremiumHomepage() {
               },
               {
                 icon: '💰',
-                title: '$10M+ Bonding Capacity',
+                title: 'In-House Engineering',
                 description: 'Financial strength to take on major projects with the security and peace of mind you deserve.'
               },
               {

@@ -9,7 +9,7 @@ import { ServiceAreaLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Large-Scale Commercial Construction | $500K - $50M+ Projects | Florida Construction Specialists",
+  title: "Large-Scale Commercial Construction | $500K - $25M+ Projects | Florida Construction Specialists",
   description: "Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget.",
 };
 
@@ -27,7 +27,7 @@ const features = [
 const faqs = [
   {
     "question": "What size commercial projects does FCS handle?",
-    "answer": "Florida Construction Specialists handles commercial construction projects ranging from $500,000 to over $50 million. We specialize in large-scale projects including office buildings, medical facilities, retail centers, hospitality venues, and educational institutions."
+    "answer": "Florida Construction Specialists handles commercial construction projects ranging from $500,000 to over $25 million. We specialize in large-scale projects including office buildings, medical facilities, retail centers, hospitality venues, and educational institutions."
   },
   {
     "question": "Do you work as a subcontractor or prime contractor?",
@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     "question": "What is your bonding capacity?",
-    "answer": "Florida Construction Specialists maintains bonding capacity of $10 million or more, allowing us to take on large-scale commercial projects with confidence."
+    "answer": "Florida Construction Specialists maintains financial strength to handle projects of virtually any size, allowing us to take on large-scale commercial projects with confidence."
   },
   {
     "question": "How long does a typical commercial project take?",
@@ -84,7 +84,7 @@ export default function CommercialConstructionPage() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
-              <span className="text-brand-gold font-semibold">$500K - $50M+ Projects</span>
+              <span className="text-brand-gold font-semibold">$500K - $25M+ Projects</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Large-Scale Commercial Construction
@@ -114,7 +114,7 @@ export default function CommercialConstructionPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -142,8 +142,8 @@ export default function CommercialConstructionPage() {
                 control and accountability from pre-construction through final completion.
               </p>
               <p className="text-gray-600 mb-6">
-                Our experienced team has completed over $50 million in projects, bringing the expertise
-                and resources needed for projects ranging from $500,000 to $50 million or more.
+                Our experienced team has completed over $25 million in projects, bringing the expertise
+                and resources needed for projects ranging from $500,000 to $25 million or more.
               </p>
               <Link
                 href="/contact/"
@@ -204,7 +204,7 @@ export default function CommercialConstructionPage() {
             </h2>
             <p className="text-gray-600">
               Florida Construction Specialists is always the prime contractor—never a subcontractor.
-              We bring 20+ years of experience and $50M+ in completed projects to every job.
+              We bring 20+ years of experience and $25M+ in completed projects to every job.
             </p>
           </div>
           <div className="grid sm:grid-cols-3 gap-6">
@@ -216,12 +216,12 @@ export default function CommercialConstructionPage() {
             <div className="card text-center p-6">
               <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-2">Proven Track Record</h3>
-              <p className="text-gray-600">$50M+ in completed projects throughout Tampa Bay.</p>
+              <p className="text-gray-600">$25M+ in completed projects throughout Tampa Bay.</p>
             </div>
             <div className="card text-center p-6">
               <Building2 className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-2">Large-Scale Expertise</h3>
-              <p className="text-gray-600">Specializing in projects from $500,000 to $50M+.</p>
+              <p className="text-gray-600">Specializing in projects from $500,000 to $25M+.</p>
             </div>
           </div>
         </div>

@@ -317,7 +317,7 @@ export default function BalconyReconstructionPage() {
                   description: "Frank Bragano's 43 years in insurance claims and construction provides unique insight into documentation and coverage issues.",
                 },
                 {
-                  title: "$10M+ Bonding Capacity",
+                  title: "In-House Engineering",
                   description: "Large-scale multi-unit projects are within our capabilities, providing associations confidence in project completion.",
                 },
                 {

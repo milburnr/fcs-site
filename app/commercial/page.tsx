@@ -23,9 +23,9 @@ import { PARALLAX_IMAGES } from "@/lib/imageMapping";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Commercial Construction Services Tampa | $500K-$50M+ Projects | FCS",
+  title: "Commercial Construction Services Tampa | $500K-$25M+ Projects | FCS",
   description:
-    "Tampa Bay's premier commercial general contractor. Medical facilities, multi-family developments, industrial construction, and large-loss disaster recovery. $10M+ bonding capacity.",
+    "Tampa Bay's premier commercial general contractor. Medical facilities, multi-family developments, industrial construction, and large-loss disaster recovery. 40+ years experience and in-house engineering.",
   keywords:
     "commercial construction Tampa, general contractor Tampa Bay, medical facility construction, multi-family construction, industrial construction Florida",
 };
@@ -139,9 +139,9 @@ export default function CommercialHubPage() {
               Commercial Construction Tampa | Risk & ROI Focus
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl">
-              Large-scale commercial projects from $500K to $50M+. Medical facilities,
+              Large-scale commercial projects from $500K to $25M+. Medical facilities,
               multi-family developments, industrial construction, and disaster recovery
-              with {BUSINESS_INFO.bondingCapacity} bonding capacity.
+              with {BUSINESS_INFO.yearsInBusiness} experience.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
@@ -173,8 +173,8 @@ export default function CommercialHubPage() {
             </div>
             <div className="h-12 w-px bg-gray-200 hidden md:block" />
             <div>
-              <p className="text-3xl font-bold text-brand-green-dark">{BUSINESS_INFO.bondingCapacity}</p>
-              <p className="text-sm text-gray-600">Bonding Capacity</p>
+              <p className="text-3xl font-bold text-brand-green-dark">{BUSINESS_INFO.yearsInBusiness}</p>
+              <p className="text-sm text-gray-600">Financial Strength</p>
             </div>
             <div className="h-12 w-px bg-gray-200 hidden md:block" />
             <div>
@@ -258,7 +258,7 @@ export default function CommercialHubPage() {
             <div className="space-y-4">
               {[
                 "Always prime contractor - never subcontract your project",
-                `${BUSINESS_INFO.bondingCapacity} bonding capacity for projects of any scale`,
+                `${BUSINESS_INFO.yearsInBusiness} experience for projects of any scale`,
                 "Experienced with AHCA, SHPO, and regulatory compliance",
                 "CPM scheduling to prevent costly delays",
                 "Large-loss insurance restoration expertise",
@@ -322,7 +322,7 @@ export default function CommercialHubPage() {
             Ready to Discuss Your Commercial Project?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From $500K tenant improvements to $50M+ developments,
+            From $500K tenant improvements to $25M+ developments,
             Florida Construction Specialists has the experience and bonding capacity
             to deliver your project on time and on budget.
           </p>

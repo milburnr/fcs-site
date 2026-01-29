@@ -9,7 +9,7 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Industrial Construction Tampa | Warehouse & Manufacturing | FCS",
-  description: "Industrial construction in Tampa Bay. Warehouses, distribution centers, manufacturing facilities, flex space. Tilt-wall, steel, concrete. $500K-$50M+ projects. Call (813) 420-7561.",
+  description: "Industrial construction in Tampa Bay. Warehouses, distribution centers, manufacturing facilities, flex space. Tilt-wall, steel, concrete. $500K-$25M+ projects. Call (813) 420-7561.",
   keywords: ["industrial construction tampa", "warehouse construction florida", "manufacturing facility builder", "distribution center construction", "flex space construction"],
 };
 
@@ -65,7 +65,7 @@ const constructionMethods = [
 const faqs = [
   {
     question: "What size industrial projects do you handle?",
-    answer: "Florida Construction Specialists handles industrial construction projects ranging from $500,000 to over $50 million. This includes smaller flex space buildings (10,000-30,000 SF), mid-size warehouses (50,000-150,000 SF), and large distribution centers (150,000+ SF). Our $10M+ bonding capacity allows us to take on substantial industrial developments.",
+    answer: "Florida Construction Specialists handles industrial construction projects ranging from $500,000 to over $25 million. This includes smaller flex space buildings (10,000-30,000 SF), mid-size warehouses (50,000-150,000 SF), and large distribution centers (150,000+ SF). Our 40+ years experience and in-house engineering allows us to take on substantial industrial developments.",
   },
   {
     question: "What construction methods do you use for industrial buildings?",
@@ -111,7 +111,7 @@ export default function IndustrialConstructionPage() {
       <LocalBusinessSchema service="Industrial Construction" />
       <ServiceSchema
         serviceName="Industrial Construction"
-        serviceDescription="Industrial construction in Tampa Bay including warehouses, distribution centers, manufacturing facilities, and flex space. Tilt-wall, steel, and concrete construction. Projects from $500K to $50M+."
+        serviceDescription="Industrial construction in Tampa Bay including warehouses, distribution centers, manufacturing facilities, and flex space. Tilt-wall, steel, and concrete construction. Projects from $500K to $25M+."
         minPrice="500000"
       />
       <FAQSchema faqs={faqs} />
@@ -135,7 +135,7 @@ export default function IndustrialConstructionPage() {
               Florida Construction Specialists builds industrial facilities that support your operations—warehouses that optimize logistics, manufacturing facilities that enable production, and flex spaces that adapt to your business needs.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Tilt-wall, pre-engineered metal, and conventional construction. $500K-$50M+ projects with $10M+ bonding capacity. From the I-4 corridor to Port Tampa Bay.
+              Tilt-wall, pre-engineered metal, and conventional construction. $500K-$25M+ projects with 40+ years experience and in-house engineering. From the I-4 corridor to Port Tampa Bay.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -163,7 +163,7 @@ export default function IndustrialConstructionPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

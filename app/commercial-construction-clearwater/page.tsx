@@ -12,7 +12,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Commercial Construction in Clearwater | Florida Construction Specialists",
-  description: "Clearwater's premier commercial contractor for $500K-$50M+ projects. Design-build, medical, multi-family, industrial construction. $10M+ bonding. Call (813) 420-7561.",
+  description: "Clearwater's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
   keywords: [
     "commercial construction clearwater",
     "commercial contractor clearwater",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const clearwaterFaqs = [
   {
     question: "What types of commercial construction projects do you handle in Clearwater?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Clearwater including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and hospitality projects serving Clearwater Beach's thriving tourism industry. Our projects typically range from $500,000 to $50 million or more."
+    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Clearwater including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and hospitality projects serving Clearwater Beach's thriving tourism industry. Our projects typically range from $500,000 to $25 million or more."
   },
   {
     question: "Do you have experience with Clearwater's permitting process through Pinellas County?",
@@ -69,7 +69,7 @@ const clearwaterFaqs = [
   },
   {
     question: "What makes Florida Construction Specialists different from other Clearwater commercial contractors?",
-    answer: "Three key differentiators set us apart in the Clearwater market: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every project. Second, our $10M+ bonding capacity enables large-scale projects that many local contractors cannot handle. Third, our principal brings 43+ years of construction and insurance industry experience, including work as an Executive General Adjuster, providing unique expertise for risk management and coastal construction challenges."
+    answer: "Three key differentiators set us apart in the Clearwater market: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every project. Second, our 40+ years experience and in-house engineering enables large-scale projects that many local contractors cannot handle. Third, our principal brings 43+ years of construction and insurance industry experience, including work as an Executive General Adjuster, providing unique expertise for risk management and coastal construction challenges."
   },
 ];
 
@@ -121,7 +121,7 @@ export default function CommercialConstructionClearwaterPage() {
       <LocalBusinessSchema city="Clearwater" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction in Clearwater"
-        serviceDescription="Large-scale commercial construction services in Clearwater, FL. Design-build, medical facilities, multi-family, industrial, hospitality, and retail construction from $500K to $50M+."
+        serviceDescription="Large-scale commercial construction services in Clearwater, FL. Design-build, medical facilities, multi-family, industrial, hospitality, and retail construction from $500K to $25M+."
         city="Clearwater"
         minPrice="500000"
       />
@@ -155,7 +155,7 @@ export default function CommercialConstructionClearwaterPage() {
                 Commercial Construction in Clearwater, Florida
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is Clearwater's trusted commercial contractor for projects ranging from $500K to $50M+. From Clearwater Beach's world-renowned hospitality district to the thriving US 19 commercial corridor, we deliver exceptional commercial construction with $10M+ bonding capacity and decades of Pinellas County expertise.
+                Florida Construction Specialists is Clearwater's trusted commercial contractor for projects ranging from $500K to $25M+. From Clearwater Beach's world-renowned hospitality district to the thriving US 19 commercial corridor, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and decades of Pinellas County expertise.
               </p>
 
               {/* Trust Badges */}
@@ -631,7 +631,7 @@ export default function CommercialConstructionClearwaterPage() {
                 <p className="text-sm text-gray-300 mb-4">Clearwater's trusted commercial contractor:</p>
                 <div className="flex flex-wrap gap-4 text-sm text-gray-200">
                   <span>License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>$10M+ Bonding</span>
+                  <span>In-House Engineering</span>
                   <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
                   <span>{BUSINESS_INFO.projectsCompleted}+ Projects</span>
                 </div>

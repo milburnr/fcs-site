@@ -45,7 +45,7 @@ export default function HomePage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="h-5 w-5 text-brand-gold" />
-              <span>Bonding: {BUSINESS_INFO.bondingCapacity}</span>
+              <span>Financing & Grant Assistance</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle className="h-5 w-5 text-brand-gold" />
@@ -84,7 +84,7 @@ export default function HomePage() {
             Tampa Bay&apos;s Premier Large-Scale Construction Specialists
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-2 max-w-3xl">
-            From $500K commercial projects to $50M+ developments
+            From $500K commercial projects to $25M+ developments
           </p>
           <p className="text-lg text-brand-gold font-semibold">
             Choose Your Pathway Below
@@ -110,7 +110,7 @@ export default function HomePage() {
               type="commercial"
               title="Commercial Pathway"
               subtitle="Risk & ROI Focus"
-              projectRange="$500K - $50M+"
+              projectRange="$500K - $25M+"
               features={[
                 "Medical & Healthcare Facilities",
                 "Multi-Family Developments",
@@ -124,18 +124,18 @@ export default function HomePage() {
 
             <PathwayCard
               type="residential"
-              title="Residential Pathway"
+              title="Design/Build Pathway"
               subtitle="Vision & Legacy Focus"
-              projectRange="$1M+ Luxury Homes"
+              projectRange="$1M+ Lifetime Homes"
               features={[
-                "Waterfront Custom Estates",
+                "Lifetime Custom Homes",
                 "Historic Preservation",
                 "FEMA/Flood Zone Compliance",
                 "Balcony Reconstruction",
                 "Hurricane-Resistant Design",
               ]}
               href="/residential/"
-              ctaText="Explore Residential"
+              ctaText="Explore Design/Build"
             />
           </div>
         </div>
@@ -184,7 +184,7 @@ export default function HomePage() {
             <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="w-8 h-8 text-brand-gold" />
             </div>
-            <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{BUSINESS_INFO.bondingCapacity} Bonding</h3>
+            <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{BUSINESS_INFO.yearsInBusiness} Experience</h3>
             <p className="text-gray-600">
               Our financial strength and bonding capacity means we can handle projects of virtually any scale with confidence.
             </p>

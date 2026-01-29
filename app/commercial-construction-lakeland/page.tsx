@@ -9,8 +9,8 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Lakeland FL | $500K-$50M+ Projects | FCS",
-  description: "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  title: "Commercial Construction Lakeland FL | $500K-$25M+ Projects | FCS",
+  description: "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction lakeland, commercial contractor lakeland, commercial builder lakeland fl, warehouse construction lakeland, industrial construction lakeland, office building construction lakeland",
 };
 
@@ -45,7 +45,7 @@ const serviceFeatures = [
 const lakelandFaqs = [
   {
     question: "What size commercial construction projects does FCS handle in Lakeland?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Lakeland ranging from $500,000 to over $50 million. We specialize in large-scale projects including distribution centers along the I-4 corridor, office buildings near Publix corporate headquarters, medical facilities near Lakeland Regional Health, and industrial/manufacturing facilities throughout Polk County. Our $10M+ bonding capacity allows us to take on virtually any commercial project in the Lakeland area."
+    answer: "Florida Construction Specialists handles commercial construction projects in Lakeland ranging from $500,000 to over $25 million. We specialize in large-scale projects including distribution centers along the I-4 corridor, office buildings near Publix corporate headquarters, medical facilities near Lakeland Regional Health, and industrial/manufacturing facilities throughout Polk County. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project in the Lakeland area."
   },
   {
     question: "Do you have experience with Lakeland's building codes and permit process?",
@@ -61,7 +61,7 @@ const lakelandFaqs = [
   },
   {
     question: "Why should I choose FCS over other Lakeland commercial contractors?",
-    answer: "FCS is always the prime contractor on every Lakeland project—we never work as a subcontractor. This means you get direct accountability, a single point of contact, and our full commitment to your project's success. We bring 20+ years of commercial construction experience, $10M+ bonding capacity, and proven expertise in the industrial and distribution projects that define Lakeland's commercial market."
+    answer: "FCS is always the prime contractor on every Lakeland project—we never work as a subcontractor. This means you get direct accountability, a single point of contact, and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and proven expertise in the industrial and distribution projects that define Lakeland's commercial market."
   },
   {
     question: "How long does a typical commercial construction project take in Lakeland?",
@@ -73,7 +73,7 @@ const lakelandFaqs = [
   },
   {
     question: "What insurance and bonding do you carry for Lakeland commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and bonding capacity of $10 million or more. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Lakeland and Polk County market."
+    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Lakeland and Polk County market."
   }
 ];
 
@@ -90,14 +90,14 @@ export default function CommercialConstructionLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Lakeland, Florida. Distribution centers, office buildings, medical facilities, industrial construction, retail centers. Large-scale projects from $500K to $50M+. Always the prime contractor."
+        serviceDescription="Premier commercial construction contractor serving Lakeland, Florida. Distribution centers, office buildings, medical facilities, industrial construction, retail centers. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Lakeland"
         minPrice="500000"
       />
 
       <ArticleSchema
-        headline="Commercial Construction Lakeland FL | $500K-$50M+ Projects | FCS"
-        description="Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
+        headline="Commercial Construction Lakeland FL | $500K-$25M+ Projects | FCS"
+        description="Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/commercial-construction-lakeland/"
@@ -120,7 +120,7 @@ export default function CommercialConstructionLakelandPage() {
               Commercial Construction in Lakeland, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Lakeland and Polk County. From I-4 corridor distribution centers to corporate offices near Publix headquarters, we bring 20+ years of experience to projects ranging from $500,000 to $50 million.
+              Florida Construction Specialists delivers large-scale commercial construction throughout Lakeland and Polk County. From I-4 corridor distribution centers to corporate offices near Publix headquarters, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Lakeland's trusted prime contractor, we handle distribution facilities, office buildings, medical facilities, retail centers, and industrial projects—never as a subcontractor, always with full project accountability.
@@ -147,7 +147,7 @@ export default function CommercialConstructionLakelandPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -155,7 +155,7 @@ export default function CommercialConstructionLakelandPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />

@@ -11,7 +11,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   title: "Commercial Construction in Tampa Bay | Florida Construction Specialists",
-  description: "Tampa Bay's premier commercial contractor for $500K-$50M+ projects. $10M+ bonding, 20+ years experience. Schedule your project consultation. Call (813) 420-7561.",
+  description: "Tampa Bay's premier commercial contractor for $500K-$25M+ projects. 40+ years experience, 20+ years experience. Schedule your project consultation. Call (813) 420-7561.",
   keywords: [
     "commercial construction tampa",
     "commercial contractor florida",
@@ -32,7 +32,7 @@ const commercialFaqs = [
   ...FAQ_DATABASE.commercial,
   {
     question: "What industries do you serve for commercial construction?",
-    answer: "Florida Construction Specialists serves a wide range of industries including healthcare and medical, multi-family residential, industrial and manufacturing, retail and hospitality, educational institutions, municipal and government, and agricultural facilities. Our $10M+ bonding capacity allows us to take on projects across virtually any commercial sector."
+    answer: "Florida Construction Specialists serves a wide range of industries including healthcare and medical, multi-family residential, industrial and manufacturing, retail and hospitality, educational institutions, municipal and government, and agricultural facilities. Our 40+ years experience and in-house engineering allows us to take on projects across virtually any commercial sector."
   },
   {
     question: "How do you ensure projects stay on budget?",
@@ -58,7 +58,7 @@ const clusterServices = [
   {
     name: "Multi-Family Construction",
     href: "/services/commercial/multi-family/",
-    description: "Condominium, apartment complex, and multi-family residential construction from $1M to $50M+ projects.",
+    description: "Condominium, apartment complex, and multi-family residential construction from $1M to $25M+ projects.",
   },
   {
     name: "Industrial & Warehouse",
@@ -110,7 +110,7 @@ export default function CommercialConstructionPage() {
       <LocalBusinessSchema service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Large-scale commercial construction services from $500K to $50M+ including design-build, medical facilities, multi-family, industrial, and retail construction throughout Tampa Bay."
+        serviceDescription="Large-scale commercial construction services from $500K to $25M+ including design-build, medical facilities, multi-family, industrial, and retail construction throughout Tampa Bay."
         minPrice="500000"
       />
       <FAQSchema faqs={commercialFaqs} />
@@ -139,7 +139,7 @@ export default function CommercialConstructionPage() {
                 Commercial Construction Services in Tampa Bay
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists delivers large-scale commercial construction projects from $500K to $50M+ throughout Tampa Bay. As your prime contractor, we bring 20+ years of expertise, $10M+ bonding capacity, and a commitment to excellence on every project.
+                Florida Construction Specialists delivers large-scale commercial construction projects from $500K to $25M+ throughout Tampa Bay. As your prime contractor, we bring 20+ years of expertise, 40+ years experience and in-house engineering, and a commitment to excellence on every project.
               </p>
 
               {/* Trust Badges */}
@@ -207,7 +207,7 @@ export default function CommercialConstructionPage() {
                 Florida Construction Specialists is a prime general contractor serving the Tampa Bay region with comprehensive commercial construction services. We never work as a subcontractor—when you partner with FCS, you get direct accountability, clear communication, and the full resources of an experienced construction firm dedicated to your project's success.
               </p>
               <p className="mb-6">
-                Our commercial construction division handles projects ranging from $500,000 tenant improvements to $50 million+ ground-up developments. With bonding capacity exceeding $10 million, we have the financial strength to take on projects that many contractors cannot. This capacity, combined with our extensive experience across healthcare, multi-family, industrial, retail, and institutional sectors, makes us the contractor of choice for owners and developers throughout Tampa, St. Petersburg, Clearwater, Lakeland, and the surrounding region.
+                Our commercial construction division handles projects ranging from $500,000 tenant improvements to $25 million+ ground-up developments. With bonding capacity exceeding $10 million, we have the financial strength to take on projects that many contractors cannot. This capacity, combined with our extensive experience across healthcare, multi-family, industrial, retail, and institutional sectors, makes us the contractor of choice for owners and developers throughout Tampa, St. Petersburg, Clearwater, Lakeland, and the surrounding region.
               </p>
               <p className="mb-6">
                 What sets FCS apart is our comprehensive approach to commercial construction. We don't just build—we partner with clients from initial concept through final occupancy. Our pre-construction services help refine your vision, optimize your budget, and establish realistic timelines. During construction, our experienced project management team ensures quality control, schedule adherence, and proactive communication. After completion, our warranty support gives you confidence in your investment for years to come.
@@ -411,7 +411,7 @@ export default function CommercialConstructionPage() {
                     <Shield className="w-6 h-6 text-brand-green" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">$10M+ Bonding Capacity</h3>
+                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">In-House Engineering</h3>
                     <p className="text-gray-600">Our substantial bonding capacity means we can take on large-scale projects that many contractors cannot. Whether your project requires a $500K bond or a $10M+ bond, we have the financial strength and track record to secure the coverage you need.</p>
                   </div>
                 </div>
@@ -652,7 +652,7 @@ export default function CommercialConstructionPage() {
                 <p className="text-sm text-gray-300 mb-4">Trusted by property owners throughout Tampa Bay:</p>
                 <div className="flex flex-wrap gap-4 text-sm text-gray-200">
                   <span>✓ License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>✓ $10M+ Bonding</span>
+                  <span>✓ In-House Engineering</span>
                   <span>✓ {BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
                   <span>✓ {BUSINESS_INFO.projectsCompleted}+ Projects</span>
                 </div>

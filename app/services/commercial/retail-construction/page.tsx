@@ -82,7 +82,7 @@ const faqs = [
   },
   {
     question: "What size retail projects do you handle?",
-    answer: "We handle retail projects ranging from $100,000 tenant improvements to $20 million+ shopping center developments. Our experience spans boutique retail buildouts, restaurant construction, multi-tenant strip centers, and large format retail. Our $10M+ bonding capacity supports substantial retail development.",
+    answer: "We handle retail projects ranging from $100,000 tenant improvements to $20 million+ shopping center developments. Our experience spans boutique retail buildouts, restaurant construction, multi-tenant strip centers, and large format retail. Our 40+ years experience and in-house engineering supports substantial retail development.",
   },
   {
     question: "What areas do you serve for retail construction?",
@@ -152,7 +152,7 @@ export default function RetailConstructionPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

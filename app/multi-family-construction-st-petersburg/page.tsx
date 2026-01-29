@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction St. Petersburg FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. Peninsula-ready construction. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Peninsula-ready construction. Call (813) 420-7561.",
   keywords: "multi-family construction st petersburg, apartment construction st pete, condo builder st petersburg fl, townhome construction st pete, senior living construction st petersburg, pinellas county multi-family",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const stPeteFaqs = [
   {
     question: "What types of multi-family projects does FCS build in St. Petersburg?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in St. Petersburg: condominiums (mid-rise and high-rise), garden-style and mid-rise apartments, townhome developments, senior living facilities, student housing, and mixed-use residential. Our St. Pete projects range from $1 million to $50 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown St. Petersburg, the Gateway area, Old Northeast, and neighborhoods throughout Pinellas County."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in St. Petersburg: condominiums (mid-rise and high-rise), garden-style and mid-rise apartments, townhome developments, senior living facilities, student housing, and mixed-use residential. Our St. Pete projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown St. Petersburg, the Gateway area, Old Northeast, and neighborhoods throughout Pinellas County."
   },
   {
     question: "How does St. Petersburg's peninsula geography affect multi-family construction?",
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionStPetersburgPage() {
       <LocalBusinessSchema city="St. Petersburg" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="St. Petersburg"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction St. Petersburg FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-st-petersburg/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionStPetersburgPage() {
               Multi-Family Construction in St. Petersburg, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout St. Petersburg and Pinellas County. From Downtown St. Pete high-rise condominiums to garden-style apartments near Gateway, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout St. Petersburg and Pinellas County. From Downtown St. Pete high-rise condominiums to garden-style apartments near Gateway, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As St. Petersburg's premier prime contractor for multi-family residential, we handle condominiums, apartments, townhomes, senior living, and student housing—never as a subcontractor, always with full project accountability and peninsula-ready construction expertise.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionStPetersburgPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionStPetersburgPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionStPetersburgPage() {
                 St. Petersburg is Pinellas County's largest city with a population exceeding 260,000 and serves as the cultural and economic heart of the peninsula. The city's remarkable downtown renaissance, vibrant arts district, and quality of life make it one of Florida's most desirable locations for multi-family development—from luxury waterfront condominiums to workforce housing serving the growing employment base.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves St. Petersburg's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. Whether you're developing a condominium tower in the Pier District, apartments near Gateway, or senior living in Old Northeast, we deliver on time and on budget.
+                Florida Construction Specialists serves St. Petersburg's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing a condominium tower in the Pier District, apartments near Gateway, or senior living in Old Northeast, we deliver on time and on budget.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every St. Petersburg multi-family project. Our relationships with the City of St. Petersburg Development Services, local subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.
@@ -459,7 +459,7 @@ export default function MultiFamilyConstructionStPetersburgPage() {
               <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Proven Pinellas Track Record</h3>
               <p className="text-gray-600">
-                With $50M+ in completed projects throughout Tampa Bay including St. Petersburg, we bring demonstrated experience with the peninsula's unique challenges—flood zones, coastal construction, and local permitting requirements.
+                With $25M+ in completed projects throughout Tampa Bay including St. Petersburg, we bring demonstrated experience with the peninsula's unique challenges—flood zones, coastal construction, and local permitting requirements.
               </p>
             </div>
             <div className="card text-center p-6">

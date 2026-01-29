@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: "What qualifies Frank Bragano to serve as an insurance appraiser or umpire?",
-    answer: "Frank Bragano brings unique dual expertise to insurance appraisals. From 1982-1989, he served as a Commercial Property adjuster for Allstate, understanding how carriers evaluate claims. He later became an Executive General Adjuster for CJW-Vericlaim/Sedgwick, handling major commercial losses. Combined with 43+ years of construction experience and $50M+ in completed projects, he understands both the insurance and construction sides of every dispute - making him uniquely qualified to render fair, informed appraisal decisions."
+    answer: "Frank Bragano brings unique dual expertise to insurance appraisals. From 1982-1989, he served as a Commercial Property adjuster for Allstate, understanding how carriers evaluate claims. He later became an Executive General Adjuster for CJW-Vericlaim/Sedgwick, handling major commercial losses. Combined with 43+ years of construction experience and $25M+ in completed projects, he understands both the insurance and construction sides of every dispute - making him uniquely qualified to render fair, informed appraisal decisions."
   },
   {
     question: "When should I invoke the appraisal clause instead of filing a lawsuit?",
@@ -180,7 +180,7 @@ export default function InsuranceArbitrationAppraisalPage() {
                 This carrier-side experience provides invaluable insight when serving as an appraiser or umpire. Frank understands the methodologies carriers use, the concerns they have about inflated claims, and the documentation they need to justify payments. He also understands when carriers are undervaluing legitimate losses and the proper way to demonstrate actual repair costs.
               </p>
               <p className="mb-6">
-                Combined with 43+ years of construction experience and over $50 million in completed projects—including complex hurricane restoration and large-loss commercial work—this dual perspective allows for truly balanced, informed appraisal decisions that both parties can trust.
+                Combined with 43+ years of construction experience and over $25 million in completed projects—including complex hurricane restoration and large-loss commercial work—this dual perspective allows for truly balanced, informed appraisal decisions that both parties can trust.
               </p>
             </div>
           </div>
@@ -436,7 +436,7 @@ export default function InsuranceArbitrationAppraisalPage() {
                 <div>
                   <h3 className="text-xl font-bold text-gray-900 mb-2">Real Construction Costs, Not Theories</h3>
                   <p className="text-gray-700">
-                    With 43+ years of actual construction experience and over $50 million in completed projects, our estimates reflect real-world repair costs. We know what materials cost, what labor rates are, and what it actually takes to restore properties to pre-loss condition in the Tampa Bay market.
+                    With 43+ years of actual construction experience and over $25 million in completed projects, our estimates reflect real-world repair costs. We know what materials cost, what labor rates are, and what it actually takes to restore properties to pre-loss condition in the Tampa Bay market.
                   </p>
                 </div>
               </div>

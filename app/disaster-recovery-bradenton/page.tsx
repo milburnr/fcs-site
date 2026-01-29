@@ -63,7 +63,7 @@ const bradentonFaqs = [
   },
   {
     question: "What types of properties do you restore in Bradenton?",
-    answer: "FCS specializes in large loss disaster recovery for commercial properties, multi-family buildings (condos, apartments), hospitality venues serving Anna Maria Island tourism, retail centers, medical facilities, and high-value residential estates. Our Bradenton projects typically range from $250,000 to $50 million. We work on properties throughout Downtown Bradenton, Village of the Arts, Palma Sola, West Bradenton, and surrounding Manatee County areas.",
+    answer: "FCS specializes in large loss disaster recovery for commercial properties, multi-family buildings (condos, apartments), hospitality venues serving Anna Maria Island tourism, retail centers, medical facilities, and high-value residential estates. Our Bradenton projects typically range from $250,000 to $25 million. We work on properties throughout Downtown Bradenton, Village of the Arts, Palma Sola, West Bradenton, and surrounding Manatee County areas.",
   },
   {
     question: "How do historic preservation requirements affect disaster restoration in Bradenton?",
@@ -101,7 +101,7 @@ export default function DisasterRecoveryBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Bradenton, FL. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. Serving Anna Maria Island gateway and Manatee County. 24/7 emergency response with projects from $250,000 to $50 million."
+        serviceDescription="Professional disaster recovery and insurance restoration services in Bradenton, FL. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. Serving Anna Maria Island gateway and Manatee County. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Bradenton"
         minPrice="250000"
       />
@@ -129,7 +129,7 @@ export default function DisasterRecoveryBradentonPage() {
               Disaster Recovery & Insurance Restoration in Bradenton
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Manatee County's trusted large loss contractor for hurricane damage, flood restoration, and commercial property disaster recovery. Gateway to Anna Maria Island with specialized coastal restoration expertise. We work directly with insurance companies on claims from $250,000 to $50 million. 24/7 emergency response.
+              Manatee County's trusted large loss contractor for hurricane damage, flood restoration, and commercial property disaster recovery. Gateway to Anna Maria Island with specialized coastal restoration expertise. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -157,7 +157,7 @@ export default function DisasterRecoveryBradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <FileText className="w-6 h-6 text-brand-green" />

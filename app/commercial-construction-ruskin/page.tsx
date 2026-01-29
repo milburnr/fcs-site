@@ -8,8 +8,8 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Ruskin FL | $500K-$50M+ Projects | FCS Home Base",
-  description: "Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. $10M+ bonding, 20+ years experience. Call (813) 420-7561.",
+  title: "Commercial Construction Ruskin FL | $500K-$25M+ Projects | FCS Home Base",
+  description: "Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction ruskin, commercial contractor ruskin, commercial builder ruskin fl, distribution center construction ruskin, apollo beach commercial construction",
 };
 
@@ -47,7 +47,7 @@ const ruskinFaqs = [
   },
   {
     question: "What size commercial construction projects does FCS handle in Ruskin?",
-    answer: "As our home base, we handle commercial construction projects in Ruskin and South County ranging from $500,000 to over $50 million. We specialize in distribution centers along the I-75 corridor, industrial facilities, waterfront commercial construction in Apollo Beach, and senior living facilities in Sun City Center. Our $10M+ bonding capacity allows us to take on virtually any commercial project."
+    answer: "As our home base, we handle commercial construction projects in Ruskin and South County ranging from $500,000 to over $25 million. We specialize in distribution centers along the I-75 corridor, industrial facilities, waterfront commercial construction in Apollo Beach, and senior living facilities in Sun City Center. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project."
   },
   {
     question: "Do you have experience with waterfront construction in Apollo Beach?",
@@ -59,7 +59,7 @@ const ruskinFaqs = [
   },
   {
     question: "Do you build facilities for the logistics and distribution industry?",
-    answer: "Yes, distribution and logistics construction is a major specialty for FCS. The I-75 corridor near Ruskin has seen tremendous logistics investment, with Amazon and other major companies building distribution centers. We have experience with large-scale warehouse construction, tilt-wall buildings, and specialized logistics facilities ranging from $5 million to $50 million."
+    answer: "Yes, distribution and logistics construction is a major specialty for FCS. The I-75 corridor near Ruskin has seen tremendous logistics investment, with Amazon and other major companies building distribution centers. We have experience with large-scale warehouse construction, tilt-wall buildings, and specialized logistics facilities ranging from $5 million to $25 million."
   },
   {
     question: "Can you build senior living facilities in Sun City Center?",
@@ -71,7 +71,7 @@ const ruskinFaqs = [
   },
   {
     question: "What insurance and bonding do you carry?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and bonding capacity of $10 million or more. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size."
+    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size."
   }
 ];
 
@@ -88,14 +88,14 @@ export default function CommercialConstructionRuskinPage() {
       <LocalBusinessSchema city="Ruskin" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, senior living. Large-scale projects from $500K to $50M+. Always the prime contractor."
+        serviceDescription="Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, senior living. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Ruskin"
         minPrice="500000"
       />
 
       <ArticleSchema
-        headline="Commercial Construction Ruskin FL | $500K-$50M+ Projects | FCS Home Base"
-        description="Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. $10M+ bonding, 20+ years experience. Call (813) 420-7561."
+        headline="Commercial Construction Ruskin FL | $500K-$25M+ Projects | FCS Home Base"
+        description="Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. 40+ years experience, 20+ years experience. Call (813) 420-7561."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/commercial-construction-ruskin/"
@@ -118,7 +118,7 @@ export default function CommercialConstructionRuskinPage() {
               Commercial Construction in Ruskin, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists is proudly headquartered in Ruskin. From distribution centers along the I-75 corridor to waterfront commercial projects in Apollo Beach and senior facilities in Sun City Center, we bring 20+ years of experience to projects ranging from $500,000 to $50 million.
+              Florida Construction Specialists is proudly headquartered in Ruskin. From distribution centers along the I-75 corridor to waterfront commercial projects in Apollo Beach and senior facilities in Sun City Center, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As your local prime contractor, we handle industrial facilities, logistics centers, waterfront construction, healthcare facilities, and retail projects—never as a subcontractor, always with full project accountability.
@@ -149,7 +149,7 @@ export default function CommercialConstructionRuskinPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

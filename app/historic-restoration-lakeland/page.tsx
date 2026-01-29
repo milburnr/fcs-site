@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Historic Restoration Lakeland FL | Frank Lloyd Wright & Downtown | FCS",
-  description: "Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$50M+. Call (813) 420-7561.",
+  description: "Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration lakeland, frank lloyd wright restoration, florida southern college preservation, downtown lakeland historic, dixieland historic district, lake morton historic homes, SHPO lakeland",
 };
 
@@ -89,7 +89,7 @@ export default function HistoricRestorationLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton historic districts. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $50M+."
+        serviceDescription="Expert historic restoration contractor serving Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton historic districts. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Lakeland"
         minPrice="500000"
       />
@@ -150,7 +150,7 @@ export default function HistoricRestorationLakelandPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

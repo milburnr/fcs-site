@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lakeland Commercial & Large-Loss Restoration Contractor | $500K-$50M+ Projects",
+  title: "Lakeland Commercial & Large-Loss Restoration Contractor | $500K-$25M+ Projects",
   description: "Premier general contractor serving Lakeland, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. Always the prime contractor. Call (813) 420-7561.",
   keywords: [
     "Lakeland commercial construction",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Lakeland?",
-    answer: "In Lakeland, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Project values typically range from $500,000 to $50 million or more."
+    answer: "In Lakeland, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Project values typically range from $500,000 to $25 million or more."
   },
   {
     question: "Are you licensed to work in Lakeland?",
@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     question: "What is your typical project size in Lakeland?",
-    answer: "We specialize in large-scale projects in Lakeland ranging from $500,000 to $50 million or more. This includes commercial construction, multi-family residential, historic restoration, and large loss insurance restoration projects."
+    answer: "We specialize in large-scale projects in Lakeland ranging from $500,000 to $25 million or more. This includes commercial construction, multi-family residential, historic restoration, and large loss insurance restoration projects."
   },
   {
     question: "How far is Lakeland from your office?",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What bonding capacity do you have for Lakeland projects?",
-    answer: "Florida Construction Specialists maintains $10M+ bonding capacity, enabling us to take on large commercial and multi-family projects in Lakeland that smaller contractors cannot bond."
+    answer: "Florida Construction Specialists maintains 40+ years experience and in-house engineering, enabling us to take on large commercial and multi-family projects in Lakeland that smaller contractors cannot bond."
   },
   {
     question: "How do I get started on a project in Lakeland?",
@@ -95,7 +95,7 @@ export default function LakelandPage() {
       <FAQSchema faqs={faqs} />
       <ServiceSchema
         serviceName="Construction Services in Lakeland"
-        serviceDescription="Premier general contractor serving Lakeland, FL with commercial construction, multi-family residential, disaster recovery, and historic restoration. Projects from $500K to $50M+."
+        serviceDescription="Premier general contractor serving Lakeland, FL with commercial construction, multi-family residential, disaster recovery, and historic restoration. Projects from $500K to $25M+."
         minPrice="500000"
       />
 
@@ -151,7 +151,7 @@ export default function LakelandPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-blue-600" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-blue-600" />
@@ -185,7 +185,7 @@ export default function LakelandPage() {
                 Lakeland sits at the heart of Central Florida, positioned strategically between Tampa and Orlando
                 along the I-4 corridor. This growing city has seen significant commercial development, and
                 Florida Construction Specialists has been proud to contribute to its growth with projects
-                ranging from $500,000 to $50 million or more.
+                ranging from $500,000 to $25 million or more.
               </p>
               <p>
                 Our principal, Frank Bragano, brings 43+ years of construction and insurance industry experience
@@ -353,7 +353,7 @@ export default function LakelandPage() {
               </div>
               <h3 className="text-xl font-bold text-gray-900 mb-3">Large-Scale Expertise</h3>
               <p className="text-gray-600">
-                Specializing in Lakeland projects from $500K to $50M+. Commercial, multi-family, and luxury residential.
+                Specializing in Lakeland projects from $500K to $25M+. Commercial, multi-family, and luxury residential.
               </p>
             </div>
             <div className="bg-white rounded-xl p-6 shadow-lg text-center">

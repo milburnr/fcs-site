@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Tampa FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "multi-family construction tampa, apartment construction tampa, condo builder tampa fl, townhome construction tampa, senior living construction tampa",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const tampaFaqs = [
   {
     question: "What types of multi-family projects does FCS build in Tampa?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Tampa: condominiums (mid-rise and high-rise), garden-style and mid-rise apartments, townhome developments, senior living facilities, student housing, and mixed-use residential. Our Tampa multi-family projects range from $1 million to $50 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown Tampa, South Tampa, Westshore, and emerging neighborhoods throughout Hillsborough County."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Tampa: condominiums (mid-rise and high-rise), garden-style and mid-rise apartments, townhome developments, senior living facilities, student housing, and mixed-use residential. Our Tampa multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown Tampa, South Tampa, Westshore, and emerging neighborhoods throughout Hillsborough County."
   },
   {
     question: "What multi-family markets are strongest in Tampa right now?",
@@ -72,7 +72,7 @@ const tampaFaqs = [
   },
   {
     question: "What makes FCS different from other Tampa multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Tampa multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, $10M+ bonding capacity, and a track record of $50M+ in completed projects. We understand Tampa's specific challenges: hurricane-resistant construction, rainy season scheduling, flood zone compliance, and local subcontractor relationships. Our project managers live in Tampa Bay and are accessible throughout your project."
+    answer: "FCS is always the prime general contractor on Tampa multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, 40+ years experience and in-house engineering, and a track record of $25M+ in completed projects. We understand Tampa's specific challenges: hurricane-resistant construction, rainy season scheduling, flood zone compliance, and local subcontractor relationships. Our project managers live in Tampa Bay and are accessible throughout your project."
   }
 ];
 
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionTampaPage() {
       <LocalBusinessSchema city="Tampa" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Tampa, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Tampa, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Tampa"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Tampa FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-tampa/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionTampaPage() {
               Multi-Family Construction in Tampa, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Tampa and Hillsborough County. From Downtown Tampa high-rise condominiums to suburban apartment communities, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Tampa and Hillsborough County. From Downtown Tampa high-rise condominiums to suburban apartment communities, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Tampa's premier prime contractor for multi-family residential, we handle condominiums, apartments, townhomes, senior living, and student housing—never as a subcontractor, always with full project accountability.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionTampaPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionTampaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionTampaPage() {
                 Tampa is Florida's third-largest city and one of the nation's fastest-growing metro areas, with a population exceeding 400,000 in the city proper and 3.2 million in the greater Tampa Bay region. This growth drives continuous demand for multi-family housing across all market segments—from luxury downtown condominiums serving young professionals to senior living facilities for Florida's retirement market.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Tampa's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $50 million or more. Whether you're developing a condominium tower in Channelside, a garden-style apartment community in New Tampa, or student housing near USF, we deliver on time and on budget.
+                Florida Construction Specialists serves Tampa's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing a condominium tower in Channelside, a garden-style apartment community in New Tampa, or student housing near USF, we deliver on time and on budget.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Tampa multi-family project. Our relationships with local building departments, subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.
@@ -459,7 +459,7 @@ export default function MultiFamilyConstructionTampaPage() {
               <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Proven Tampa Track Record</h3>
               <p className="text-gray-600">
-                With $50M+ in completed projects throughout Tampa Bay, we bring demonstrated experience in the local market—its building codes, subcontractor relationships, and market conditions.
+                With $25M+ in completed projects throughout Tampa Bay, we bring demonstrated experience in the local market—its building codes, subcontractor relationships, and market conditions.
               </p>
             </div>
             <div className="card text-center p-6">

@@ -176,7 +176,7 @@ export default function DisasterRecoveryTampaPage() {
       <LocalBusinessSchema city="Tampa" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Large loss disaster recovery and insurance restoration services in Tampa, FL. Specializing in hurricane damage, water damage, fire damage, and comprehensive property restoration with 43+ years claims experience. Projects from $250,000 to $50M+."
+        serviceDescription="Large loss disaster recovery and insurance restoration services in Tampa, FL. Specializing in hurricane damage, water damage, fire damage, and comprehensive property restoration with 43+ years claims experience. Projects from $250,000 to $25M+."
         city="Tampa"
         minPrice="250000"
       />

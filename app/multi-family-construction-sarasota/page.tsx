@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Sarasota FL | Luxury Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding. Architectural excellence for discerning buyers. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Architectural excellence for discerning buyers. Call (813) 420-7561.",
   keywords: "multi-family construction sarasota, luxury condo builder sarasota fl, apartment construction sarasota, townhome construction sarasota, senior living construction sarasota, longboat key construction",
 };
 
@@ -44,7 +44,7 @@ const projectTypes = [
 const sarasotaFaqs = [
   {
     question: "What types of multi-family projects does FCS build in Sarasota?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Sarasota: luxury condominiums (mid-rise and high-rise), waterfront apartments, boutique townhome communities, senior living facilities, and mixed-use residential developments. Our Sarasota multi-family projects range from $1 million to $50 million+ and include ground-up construction and major renovations. We've completed projects in Downtown Sarasota, Longboat Key, Lido Key, St. Armands, and throughout Sarasota County. We specialize in the architecturally distinctive, high-quality construction that Sarasota's discerning market demands."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Sarasota: luxury condominiums (mid-rise and high-rise), waterfront apartments, boutique townhome communities, senior living facilities, and mixed-use residential developments. Our Sarasota multi-family projects range from $1 million to $25 million+ and include ground-up construction and major renovations. We've completed projects in Downtown Sarasota, Longboat Key, Lido Key, St. Armands, and throughout Sarasota County. We specialize in the architecturally distinctive, high-quality construction that Sarasota's discerning market demands."
   },
   {
     question: "How does Sarasota's luxury market affect multi-family construction requirements?",
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Sarasota, Florida. Luxury condominiums, waterfront apartments, boutique townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor."
+        serviceDescription="Premier multi-family construction contractor serving Sarasota, Florida. Luxury condominiums, waterfront apartments, boutique townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Sarasota"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Sarasota FL | Luxury Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$50M+ projects. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-sarasota/"
@@ -119,7 +119,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
               Multi-Family Construction in Sarasota, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Sarasota and Sarasota County. From Downtown Sarasota high-rise condominiums to luxury barrier island residences, we bring 20+ years of experience to projects ranging from $1 million to $50 million.
+              Florida Construction Specialists delivers multi-family construction excellence throughout Sarasota and Sarasota County. From Downtown Sarasota high-rise condominiums to luxury barrier island residences, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Sarasota's discerning buyers expect architectural distinction and premium quality. As Sarasota's trusted prime contractor for multi-family residential, we deliver the craftsmanship and design excellence this luxury market demands—never as a subcontractor, always with full project accountability.
@@ -146,7 +146,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -154,7 +154,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />
@@ -177,7 +177,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
                 Sarasota represents one of Florida's most prestigious residential markets, with a population of 57,000+ in the city and 850,000 in the North Port-Sarasota-Bradenton metro area. Known for its world-class cultural institutions, pristine beaches, and affluent, design-conscious residents, Sarasota demands multi-family construction that meets the highest standards of architectural excellence and quality.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Sarasota's premium multi-family construction needs with the expertise, bonding capacity, and commitment to excellence required for projects from $1 million to $50 million or more. Whether you're developing a luxury condominium tower in Downtown Sarasota, a boutique townhome community near St. Armands Circle, or senior living facilities serving the region's retirement community, we deliver the quality this discerning market expects.
+                Florida Construction Specialists serves Sarasota's premium multi-family construction needs with the expertise, bonding capacity, and commitment to excellence required for projects from $1 million to $25 million or more. Whether you're developing a luxury condominium tower in Downtown Sarasota, a boutique townhome community near St. Armands Circle, or senior living facilities serving the region's retirement community, we deliver the quality this discerning market expects.
               </p>
               <p className="text-gray-600 mb-8">
                 As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Sarasota multi-family project. Our relationships with local building departments, architectural review boards, and quality subcontractors ensure smooth execution from groundbreaking to first occupancy.
@@ -469,7 +469,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
               <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Luxury Market Experience</h3>
               <p className="text-gray-600">
-                We understand Sarasota's discerning market. With $50M+ in completed projects, we deliver the architectural distinction, premium finishes, and quality craftsmanship that buyers from high-cost markets expect.
+                We understand Sarasota's discerning market. With $25M+ in completed projects, we deliver the architectural distinction, premium finishes, and quality craftsmanship that buyers from high-cost markets expect.
               </p>
             </div>
             <div className="card text-center p-6">

@@ -187,7 +187,7 @@ export default function LuxuryCustomHomesLakelandPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -450,7 +450,7 @@ export default function LuxuryCustomHomesLakelandPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>$10M+ Bonding Capacity:</strong> Financial strength to handle the largest custom home projects in Lakeland</span>
+                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest custom home projects in Lakeland</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
@@ -465,7 +465,7 @@ export default function LuxuryCustomHomesLakelandPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$50M+</div>
+                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
                 <div className="text-gray-300 text-sm">Residential Projects</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
@@ -513,7 +513,7 @@ export default function LuxuryCustomHomesLakelandPage() {
               <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
               <p className="text-gray-600">
-                Our $10M+ bonding capacity, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
+                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
               </p>
             </div>
           </div>

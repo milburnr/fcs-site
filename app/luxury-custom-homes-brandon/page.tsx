@@ -179,7 +179,7 @@ export default function LuxuryCustomHomesBrandonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -462,7 +462,7 @@ export default function LuxuryCustomHomesBrandonPage() {
               <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
               <p className="text-gray-600">
-                Our $10M+ bonding capacity, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
+                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
               </p>
             </div>
           </div>

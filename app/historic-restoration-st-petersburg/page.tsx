@@ -149,7 +149,7 @@ export default function HistoricRestorationStPetersburgPage() {
       <LocalBusinessSchema city="St. Petersburg" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration services in St. Petersburg, Florida. Old Northeast Historic District, Bay Pines VA Hospital specialists. Section 106 compliance, SHPO coordination, Secretary of Interior Standards, historic tax credit navigation. Projects from $500K to $50M+."
+        serviceDescription="Expert historic restoration services in St. Petersburg, Florida. Old Northeast Historic District, Bay Pines VA Hospital specialists. Section 106 compliance, SHPO coordination, Secretary of Interior Standards, historic tax credit navigation. Projects from $500K to $25M+."
         city="St. Petersburg"
         minPrice="500000"
       />
@@ -687,7 +687,7 @@ export default function HistoricRestorationStPetersburgPage() {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Building2 className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
                 <div className="text-3xl font-bold mb-1">$10M+</div>
-                <div className="text-sm text-gray-300">Bonding Capacity</div>
+                <div className="text-sm text-gray-300">Financial Strength</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Landmark className="w-10 h-10 mx-auto mb-3 text-brand-gold" />

@@ -63,7 +63,7 @@ const sarasotaFaqs = [
   },
   {
     question: "What types of properties do you restore in Sarasota?",
-    answer: "FCS specializes in large loss disaster recovery for Sarasota's high-value properties including luxury waterfront estates on Longboat Key and Bird Key, Gulf-front condominiums on Siesta Key and Lido Key, historic Sarasota School of Architecture homes, downtown commercial buildings, St. Armands Circle retail and hospitality properties, and multi-family buildings. Our Sarasota projects typically range from $250,000 to $50 million.",
+    answer: "FCS specializes in large loss disaster recovery for Sarasota's high-value properties including luxury waterfront estates on Longboat Key and Bird Key, Gulf-front condominiums on Siesta Key and Lido Key, historic Sarasota School of Architecture homes, downtown commercial buildings, St. Armands Circle retail and hospitality properties, and multi-family buildings. Our Sarasota projects typically range from $250,000 to $25 million.",
   },
   {
     question: "How do Sarasota building codes affect disaster restoration on barrier islands?",
@@ -83,7 +83,7 @@ const costData = [
   { category: "Water Damage Restoration", range: "$20,000 - $100,000", timeline: "1-4 weeks", notes: "Higher for barrier island properties with salt water intrusion" },
   { category: "Hurricane Roof Repair", range: "$75,000 - $750,000", timeline: "4-16 weeks", notes: "Luxury homes and tile roofs increase costs" },
   { category: "Storm Surge Restoration", range: "$150,000 - $3M+", timeline: "3-12 months", notes: "Complete rebuild may be required for VE zone properties" },
-  { category: "Full Property Restoration", range: "$500,000 - $50M+", timeline: "6-18 months", notes: "Luxury estates and large condominiums" },
+  { category: "Full Property Restoration", range: "$500,000 - $25M+", timeline: "6-18 months", notes: "Luxury estates and large condominiums" },
 ];
 
 const processSteps = [
@@ -101,7 +101,7 @@ export default function DisasterRecoverySarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Sarasota, FL. Prime contractor for hurricane damage, flood restoration, storm surge damage, and large loss insurance claims for barrier islands and luxury waterfront properties. 24/7 emergency response with projects from $250,000 to $50 million."
+        serviceDescription="Professional disaster recovery and insurance restoration services in Sarasota, FL. Prime contractor for hurricane damage, flood restoration, storm surge damage, and large loss insurance claims for barrier islands and luxury waterfront properties. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Sarasota"
         minPrice="250000"
       />
@@ -129,7 +129,7 @@ export default function DisasterRecoverySarasotaPage() {
               Disaster Recovery & Insurance Restoration in Sarasota
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Sarasota's trusted large loss contractor for hurricane damage, storm surge restoration, and barrier island disaster recovery. Specializing in high-value waterfront properties on Siesta Key, Longboat Key, and St. Armands. We work directly with insurance companies on claims from $250,000 to $50 million. 24/7 emergency response.
+              Sarasota's trusted large loss contractor for hurricane damage, storm surge restoration, and barrier island disaster recovery. Specializing in high-value waterfront properties on Siesta Key, Longboat Key, and St. Armands. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -157,7 +157,7 @@ export default function DisasterRecoverySarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <FileText className="w-6 h-6 text-brand-green" />

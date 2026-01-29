@@ -299,7 +299,7 @@ export default function Page() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-white p-6 rounded-xl shadow-sm">
                 <Building2 className="w-10 h-10 text-brand-green-dark mb-4" />
-                <h3 className="text-lg font-bold text-gray-900 mb-2">$10M+ Bonding Capacity</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">In-House Engineering</h3>
                 <p className="text-gray-600">
                   Our financial strength allows us to take on large-scale remediation projects that smaller contractors can't bond. This protects your association if anything goes wrong.
                 </p>

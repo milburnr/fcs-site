@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Contractor | $500K-$50M+ Projects | FCS",
-  description: "Premier general contractor serving Tampa, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. $10M+ bonding, 20+ years experience. Call (813) 420-7561.",
+  title: "Tampa Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  description: "Premier general contractor serving Tampa, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction tampa, tampa general contractor, disaster recovery tampa, historic restoration tampa fl, large scale construction tampa",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Tampa?",
-    answer: "In Tampa, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Tampa's diverse architecture, we have particular expertise in both modern commercial development and historic preservation, especially in Ybor City. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Tampa, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Tampa's diverse architecture, we have particular expertise in both modern commercial development and historic preservation, especially in Ybor City. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How far is your office from Tampa?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Tampa?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Tampa. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Tampa. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Tampa?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, multi-family developments, historic restoration, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Tampa area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, multi-family developments, historic restoration, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Tampa area."
   },
   {
     question: "How do I get started on a project in Tampa?",
@@ -114,7 +114,7 @@ export default function TampaPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Tampa"
-        serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -146,7 +146,7 @@ export default function TampaPage() {
               Florida&apos;s third-largest city and the economic hub of the Tampa Bay region. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Tampa.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From Ybor City historic restoration to downtown commercial development, we bring 20+ years of experience, $10M+ bonding capacity, and deep local relationships to every Tampa project.
+              From Ybor City historic restoration to downtown commercial development, we bring 20+ years of experience, 40+ years experience and in-house engineering, and deep local relationships to every Tampa project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -174,7 +174,7 @@ export default function TampaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

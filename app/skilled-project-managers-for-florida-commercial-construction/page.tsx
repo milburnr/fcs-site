@@ -307,7 +307,7 @@ export default function Page() {
                 <div className="text-xs text-gray-500">Industry Experience</div>
               </div>
               <div className="bg-green-50 p-4 rounded-lg text-center">
-                <div className="text-3xl font-bold text-brand-green">$50M+</div>
+                <div className="text-3xl font-bold text-brand-green">$25M+</div>
                 <div className="text-sm text-gray-600">Project Volume</div>
                 <div className="text-xs text-gray-500">Successfully Managed</div>
               </div>

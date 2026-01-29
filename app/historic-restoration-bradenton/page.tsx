@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Historic Restoration Bradenton FL | Village of the Arts, Downtown & More | FCS",
-  description: "Expert historic restoration contractor in Bradenton, Florida. Village of the Arts, Downtown Historic District, Old Manatee heritage. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$50M+. Call (813) 420-7561.",
+  description: "Expert historic restoration contractor in Bradenton, Florida. Village of the Arts, Downtown Historic District, Old Manatee heritage. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration bradenton, village of the arts restoration, downtown bradenton historic, old manatee preservation, SHPO bradenton, historic tax credits manatee county",
 };
 
@@ -90,7 +90,7 @@ export default function HistoricRestorationBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Bradenton, Florida. Village of the Arts, Downtown Bradenton, Old Manatee restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $50M+."
+        serviceDescription="Expert historic restoration contractor serving Bradenton, Florida. Village of the Arts, Downtown Bradenton, Old Manatee restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Bradenton"
         minPrice="500000"
       />
@@ -151,7 +151,7 @@ export default function HistoricRestorationBradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

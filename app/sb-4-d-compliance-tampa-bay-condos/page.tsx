@@ -120,7 +120,7 @@ export default function SB4DCompliancePage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
@@ -698,7 +698,7 @@ export default function SB4DCompliancePage() {
               {
                 icon: Shield,
                 title: "Fully Licensed & Bonded",
-                desc: "Florida CGC license, $10M+ bonding capacity, comprehensive insurance. Your association is protected.",
+                desc: "Florida CGC license, 40+ years experience and in-house engineering, comprehensive insurance. Your association is protected.",
               },
               {
                 icon: FileText,

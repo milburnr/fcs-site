@@ -39,7 +39,7 @@ const condoInsuranceTypes = [
   {
     type: "Master Policy (HOA Coverage)",
     covers: "Building structure, common areas, shared systems",
-    typical: "$1M-$50M+ depending on building size",
+    typical: "$1M-$25M+ depending on building size",
     claimProcess: "Association files claim; board oversees restoration",
     challenges: "Multiple decision-makers; political dynamics",
   },

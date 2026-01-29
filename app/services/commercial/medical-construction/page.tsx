@@ -120,7 +120,7 @@ export default function MedicalConstructionPage() {
               Florida Construction Specialists builds healthcare environments where clinical excellence meets construction expertise. From ambulatory surgery centers to medical office buildings, we deliver facilities that support exceptional patient care.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              20+ years of medical construction experience. AHCA compliance expertise. Infection control protocols. Medical gas systems. Projects from $500K to $50M+.
+              20+ years of medical construction experience. AHCA compliance expertise. Infection control protocols. Medical gas systems. Projects from $500K to $25M+.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -152,7 +152,7 @@ export default function MedicalConstructionPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />

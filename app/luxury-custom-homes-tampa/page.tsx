@@ -97,7 +97,7 @@ const tampaFaqs = [
   },
   {
     question: "What makes FCS different from other Tampa luxury home builders?",
-    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our $10M+ bonding capacity allows us to handle the largest custom home projects. We maintain long-term relationships with Tampa's best specialty subcontractors for premium finishes. Our commercial construction background brings superior project management, scheduling, and quality control to residential projects.",
+    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our 40+ years experience and in-house engineering allows us to handle the largest custom home projects. We maintain long-term relationships with Tampa's best specialty subcontractors for premium finishes. Our commercial construction background brings superior project management, scheduling, and quality control to residential projects.",
   },
 ];
 
@@ -178,7 +178,7 @@ export default function LuxuryCustomHomesTampaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -398,7 +398,7 @@ export default function LuxuryCustomHomesTampaPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>$10M+ Bonding Capacity:</strong> Financial strength to handle the largest custom home projects</span>
+                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest custom home projects</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
@@ -461,7 +461,7 @@ export default function LuxuryCustomHomesTampaPage() {
               <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
               <p className="text-gray-600">
-                Our $10M+ bonding capacity, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
+                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
               </p>
             </div>
           </div>

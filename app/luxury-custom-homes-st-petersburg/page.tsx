@@ -97,7 +97,7 @@ const stPetersburgFaqs = [
   },
   {
     question: "What makes FCS different from other St. Petersburg luxury home builders?",
-    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our $10M+ bonding capacity allows us to handle the largest custom home projects. We have specific expertise with St. Petersburg's historic overlay requirements, Pinellas County's coastal regulations, and the unique construction challenges of peninsula building. Our commercial construction background brings superior project management and quality control to every residential project.",
+    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our 40+ years experience and in-house engineering allows us to handle the largest custom home projects. We have specific expertise with St. Petersburg's historic overlay requirements, Pinellas County's coastal regulations, and the unique construction challenges of peninsula building. Our commercial construction background brings superior project management and quality control to every residential project.",
   },
 ];
 
@@ -178,7 +178,7 @@ export default function LuxuryCustomHomesStPetersburgPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -461,7 +461,7 @@ export default function LuxuryCustomHomesStPetersburgPage() {
               <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
               <p className="text-gray-600">
-                Our $10M+ bonding capacity, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process in St. Petersburg.
+                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process in St. Petersburg.
               </p>
             </div>
           </div>

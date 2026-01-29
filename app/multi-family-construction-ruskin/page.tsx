@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Ruskin FL | Condos, Apartments & Townhomes | FCS",
-  description: "Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. FCS home base advantage. 20+ years experience, $10M+ bonding. Call (813) 420-7561.",
+  description: "Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. FCS home base advantage. 20+ years experience, 40+ years experience. Call (813) 420-7561.",
   keywords: "multi-family construction ruskin, apartment construction ruskin fl, condo builder south hillsborough, townhome construction apollo beach, senior living construction sun city center",
 };
 
@@ -48,7 +48,7 @@ const ruskinFaqs = [
   },
   {
     question: "What types of multi-family projects does FCS build in Ruskin?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Ruskin and South Hillsborough County: workforce housing apartments, garden-style and mid-rise apartment complexes, townhome developments on former agricultural land, senior living facilities serving the Sun City Center market, and waterfront condominiums in Apollo Beach. Our Ruskin multi-family projects range from $1 million to $50 million+ and include both ground-up construction and major renovations."
+    answer: "Florida Construction Specialists builds all types of multi-family residential in Ruskin and South Hillsborough County: workforce housing apartments, garden-style and mid-rise apartment complexes, townhome developments on former agricultural land, senior living facilities serving the Sun City Center market, and waterfront condominiums in Apollo Beach. Our Ruskin multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations."
   },
   {
     question: "How do Ruskin's building codes affect multi-family construction?",
@@ -89,14 +89,14 @@ export default function MultiFamilyConstructionRuskinPage() {
       <LocalBusinessSchema city="Ruskin" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Ruskin and South Hillsborough County, Florida. Workforce housing, apartments, townhomes, senior living. Projects from $1M to $50M+. Always the prime contractor. FCS home base."
+        serviceDescription="Premier multi-family construction contractor serving Ruskin and South Hillsborough County, Florida. Workforce housing, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor. FCS home base."
         city="Ruskin"
         minPrice="1000000"
       />
 
       <ArticleSchema
         headline="Multi-Family Construction Ruskin FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$50M+ projects. FCS home base advantage. 20+ years experience, $10M+ bonding."
+        description="Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. FCS home base advantage. 20+ years experience, 40+ years experience."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/multi-family-construction-ruskin/"
@@ -122,7 +122,7 @@ export default function MultiFamilyConstructionRuskinPage() {
               Florida Construction Specialists delivers multi-family construction excellence throughout Ruskin and South Hillsborough County. As FCS's home base, Ruskin developers benefit from faster response times, deep local knowledge, and our commitment to this emerging market.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From workforce housing serving the Amazon fulfillment center to senior living communities near Sun City Center and waterfront condos in Apollo Beach—we handle projects from $1 million to $50 million with full accountability as your prime contractor.
+              From workforce housing serving the Amazon fulfillment center to senior living communities near Sun City Center and waterfront condos in Apollo Beach—we handle projects from $1 million to $25 million with full accountability as your prime contractor.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -150,7 +150,7 @@ export default function MultiFamilyConstructionRuskinPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

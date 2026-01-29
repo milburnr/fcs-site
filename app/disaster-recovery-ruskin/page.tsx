@@ -101,7 +101,7 @@ export default function DisasterRecoveryRuskinPage() {
       <LocalBusinessSchema city="Ruskin" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Ruskin, FL. FCS home base location providing fastest emergency response in Tampa Bay. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. 24/7 emergency response with projects from $250,000 to $50 million."
+        serviceDescription="Professional disaster recovery and insurance restoration services in Ruskin, FL. FCS home base location providing fastest emergency response in Tampa Bay. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Ruskin"
         minPrice="250000"
       />
@@ -128,7 +128,7 @@ export default function DisasterRecoveryRuskinPage() {
               Disaster Recovery & Insurance Restoration in Ruskin
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Ruskin is our home—and that means faster emergency response for Apollo Beach, Sun City Center, and all of South Hillsborough County. We work directly with insurance companies on claims from $250,000 to $50 million. 24/7 emergency dispatch from our local headquarters.
+              Ruskin is our home—and that means faster emergency response for Apollo Beach, Sun City Center, and all of South Hillsborough County. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency dispatch from our local headquarters.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -160,7 +160,7 @@ export default function DisasterRecoveryRuskinPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <FileText className="w-6 h-6 text-brand-green" />
@@ -365,7 +365,7 @@ export default function DisasterRecoveryRuskinPage() {
             <div className="grid grid-cols-2 gap-4">
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$50M+</div>
+                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
                 <div className="text-gray-300 text-sm">Local Projects Completed</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">

@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Brandon Commercial Construction Contractor | $500K-$50M+ Projects | FCS",
-  description: "Premier general contractor serving Brandon, FL. Commercial construction, multi-family residential, disaster recovery. $10M+ bonding, 20+ years experience. Call (813) 420-7561.",
+  title: "Brandon Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  description: "Premier general contractor serving Brandon, FL. Commercial construction, multi-family residential, disaster recovery. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction brandon, brandon general contractor, disaster recovery brandon fl, construction company brandon florida",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Brandon?",
-    answer: "In Brandon, we handle commercial construction, retail and restaurant buildouts, multi-family residential, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Brandon's strong retail presence, we have particular expertise in tenant improvements and commercial buildouts. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Brandon, we handle commercial construction, retail and restaurant buildouts, multi-family residential, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Brandon's strong retail presence, we have particular expertise in tenant improvements and commercial buildouts. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How far is your office from Brandon?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Brandon?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Brandon. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Brandon. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Brandon?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, retail buildouts, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Brandon area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, retail buildouts, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Brandon area."
   },
   {
     question: "How do I get started on a project in Brandon?",
@@ -113,7 +113,7 @@ export default function BrandonPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Brandon"
-        serviceDescription="Premier general contractor serving Brandon, FL with commercial construction, retail buildouts, disaster recovery, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Brandon, FL with commercial construction, retail buildouts, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -145,7 +145,7 @@ export default function BrandonPage() {
               Major Tampa suburb with extensive commercial and retail development. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Brandon.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From retail buildouts to commercial development along Brandon&apos;s major corridors, we bring 20+ years of experience and $10M+ bonding capacity to every project.
+              From retail buildouts to commercial development along Brandon&apos;s major corridors, we bring 20+ years of experience and 40+ years experience and in-house engineering to every project.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -173,7 +173,7 @@ export default function BrandonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />

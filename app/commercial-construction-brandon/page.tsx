@@ -8,8 +8,8 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Brandon FL | $500K-$50M+ Projects | FCS",
-  description: "Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  title: "Commercial Construction Brandon FL | $500K-$25M+ Projects | FCS",
+  description: "Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction brandon, commercial contractor brandon, commercial builder brandon fl, retail construction brandon, medical facility construction brandon",
 };
 
@@ -43,7 +43,7 @@ const serviceFeatures = [
 const brandonFaqs = [
   {
     question: "What size commercial construction projects does FCS handle in Brandon?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Brandon ranging from $500,000 to over $50 million. We specialize in retail centers along the Highway 60 corridor, medical facilities near Brandon Regional Hospital, office buildings, and distribution centers along I-75. Our $10M+ bonding capacity allows us to take on virtually any commercial project in the Brandon area."
+    answer: "Florida Construction Specialists handles commercial construction projects in Brandon ranging from $500,000 to over $25 million. We specialize in retail centers along the Highway 60 corridor, medical facilities near Brandon Regional Hospital, office buildings, and distribution centers along I-75. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project in the Brandon area."
   },
   {
     question: "Do you have experience with Hillsborough County's building permit process in Brandon?",
@@ -59,7 +59,7 @@ const brandonFaqs = [
   },
   {
     question: "Why should I choose FCS over other Brandon commercial contractors?",
-    answer: "FCS is always the prime contractor on every Brandon project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, $10M+ bonding capacity, and a track record of $50M+ in completed projects throughout Tampa Bay. Our proximity to Brandon from our Ruskin headquarters means efficient project oversight."
+    answer: "FCS is always the prime contractor on every Brandon project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and a track record of $25M+ in completed projects throughout Tampa Bay. Our proximity to Brandon from our Ruskin headquarters means efficient project oversight."
   },
   {
     question: "How long does commercial construction typically take in Brandon?",
@@ -71,7 +71,7 @@ const brandonFaqs = [
   },
   {
     question: "What insurance and bonding do you carry for Brandon commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and bonding capacity of $10 million or more. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Brandon market."
+    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Brandon market."
   }
 ];
 
@@ -88,14 +88,14 @@ export default function CommercialConstructionBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. Large-scale projects from $500K to $50M+. Always the prime contractor."
+        serviceDescription="Premier commercial construction contractor serving Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Brandon"
         minPrice="500000"
       />
 
       <ArticleSchema
-        headline="Commercial Construction Brandon FL | $500K-$50M+ Projects | FCS"
-        description="Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. $10M+ bonding, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
+        headline="Commercial Construction Brandon FL | $500K-$25M+ Projects | FCS"
+        description="Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
         datePublished="2024-06-01"
         dateModified="2025-01-18"
         slug="/commercial-construction-brandon/"
@@ -118,7 +118,7 @@ export default function CommercialConstructionBrandonPage() {
               Commercial Construction in Brandon, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Brandon and eastern Hillsborough County. From retail centers along Highway 60 to distribution facilities near I-75, we bring 20+ years of experience to projects ranging from $500,000 to $50 million.
+              Florida Construction Specialists delivers large-scale commercial construction throughout Brandon and eastern Hillsborough County. From retail centers along Highway 60 to distribution facilities near I-75, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               As Brandon's trusted prime contractor, we handle retail centers, medical facilities, office buildings, distribution centers, and hospitality venues—never as a subcontractor, always with full project accountability.
@@ -145,7 +145,7 @@ export default function CommercialConstructionBrandonPage() {
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding Capacity</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -153,7 +153,7 @@ export default function CommercialConstructionBrandonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$50M+ Completed Projects</span>
+              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
             </div>
             <div className="flex items-center gap-2">
               <HardHat className="w-6 h-6 text-brand-green" />

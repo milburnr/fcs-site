@@ -28,7 +28,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "What qualifies Frank Bragano as a construction expert witness?",
-    answer: "Frank Bragano brings 43+ years of combined experience in construction and insurance claims. His credentials include serving as a Commercial Property adjuster for Allstate (1982-1989), Executive General Adjuster for CJW-Vericlaim/Sedgwick, and principal of Florida Construction Specialists with $50M+ in completed projects. This dual expertise in both construction methodology and insurance claims processes provides uniquely comprehensive testimony."
+    answer: "Frank Bragano brings 43+ years of combined experience in construction and insurance claims. His credentials include serving as a Commercial Property adjuster for Allstate (1982-1989), Executive General Adjuster for CJW-Vericlaim/Sedgwick, and principal of Florida Construction Specialists with $25M+ in completed projects. This dual expertise in both construction methodology and insurance claims processes provides uniquely comprehensive testimony."
   },
   {
     question: "What types of cases do you provide expert witness services for?",
@@ -56,7 +56,7 @@ const faqs = [
   },
   {
     question: "Can you testify on construction cost estimates?",
-    answer: "Yes, we provide expert testimony on construction cost estimation including material costs, labor rates, project overhead, contractor profit margins, and total project valuation. Our 20+ years of actual construction experience and $50M+ in completed projects provides real-world basis for cost opinions."
+    answer: "Yes, we provide expert testimony on construction cost estimation including material costs, labor rates, project overhead, contractor profit margins, and total project valuation. Our 20+ years of actual construction experience and $25M+ in completed projects provides real-world basis for cost opinions."
   },
   {
     question: "How do you handle conflicts of interest?",
@@ -137,7 +137,7 @@ export default function ExpertWitnessPage() {
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
                 <FileText className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                <p className="text-sm font-semibold text-white">$50M+</p>
+                <p className="text-sm font-semibold text-white">$25M+</p>
                 <p className="text-xs text-gray-400">Project Experience</p>
               </div>
             </div>
@@ -174,7 +174,7 @@ export default function ExpertWitnessPage() {
                 From 1982 to 1989, Frank served as a Commercial Property adjuster for Allstate, gaining firsthand experience in how insurance carriers evaluate claims, determine coverage, and calculate damages. He later served as an Executive General Adjuster for CJW-Vericlaim/Sedgwick, handling large-loss commercial claims across the country. This carrier-side experience provides invaluable insight when testifying about insurance disputes.
               </p>
               <p className="mb-6">
-                Since founding Florida Construction Specialists, Frank has completed over $50 million in construction projects, including complex hurricane restoration, historic preservation, and commercial construction. This hands-on construction experience ensures testimony is grounded in real-world building practices, not just theoretical knowledge.
+                Since founding Florida Construction Specialists, Frank has completed over $25 million in construction projects, including complex hurricane restoration, historic preservation, and commercial construction. This hands-on construction experience ensures testimony is grounded in real-world building practices, not just theoretical knowledge.
               </p>
               <p>
                 This dual perspective—understanding both how buildings are built and how claims are handled—makes our expert witness testimony particularly effective in cases involving insurance coverage disputes, scope disagreements, and construction defect claims.

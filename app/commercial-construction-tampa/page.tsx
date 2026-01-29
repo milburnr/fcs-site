@@ -12,7 +12,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Commercial Construction in Tampa | Florida Construction Specialists",
-  description: "Tampa's premier commercial contractor for $500K-$50M+ projects. Design-build, medical, multi-family, industrial construction. $10M+ bonding. Call (813) 420-7561.",
+  description: "Tampa's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
   keywords: [
     "commercial construction tampa",
     "commercial contractor tampa",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const tampaFaqs = [
   {
     question: "What types of commercial construction projects do you handle in Tampa?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Tampa including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and commercial additions. Our projects typically range from $500,000 to $50 million or more."
+    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Tampa including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and commercial additions. Our projects typically range from $500,000 to $25 million or more."
   },
   {
     question: "Do you have experience with Tampa's permitting process?",
@@ -69,7 +69,7 @@ const tampaFaqs = [
   },
   {
     question: "What makes Florida Construction Specialists different from other Tampa commercial contractors?",
-    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability. Second, our $10M+ bonding capacity enables large-scale projects. Third, our 43+ years of combined construction and insurance industry experience brings unique expertise to every project."
+    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability. Second, our 40+ years experience and in-house engineering enables large-scale projects. Third, our 43+ years of combined construction and insurance industry experience brings unique expertise to every project."
   },
 ];
 
@@ -94,7 +94,7 @@ export default function CommercialConstructionTampaPage() {
       <LocalBusinessSchema city="Tampa" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction in Tampa"
-        serviceDescription="Large-scale commercial construction services in Tampa, FL. Design-build, medical facilities, multi-family, industrial, and retail construction from $500K to $50M+."
+        serviceDescription="Large-scale commercial construction services in Tampa, FL. Design-build, medical facilities, multi-family, industrial, and retail construction from $500K to $25M+."
         minPrice="500000"
       />
       <FAQSchema faqs={tampaFaqs} />
@@ -127,7 +127,7 @@ export default function CommercialConstructionTampaPage() {
                 Commercial Construction in Tampa, Florida
               </h1>
               <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is Tampa's trusted commercial contractor for projects ranging from $500K to $50M+. From Downtown Tampa's evolving skyline to Westshore's business corridor, we deliver exceptional commercial construction with $10M+ bonding capacity and 20+ years of local expertise.
+                Florida Construction Specialists is Tampa's trusted commercial contractor for projects ranging from $500K to $25M+. From Downtown Tampa's evolving skyline to Westshore's business corridor, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and 20+ years of local expertise.
               </p>
 
               {/* Trust Badges */}
@@ -561,7 +561,7 @@ export default function CommercialConstructionTampaPage() {
                 <p className="text-sm text-gray-300 mb-4">Tampa's trusted commercial contractor:</p>
                 <div className="flex flex-wrap gap-4 text-sm text-gray-200">
                   <span>✓ License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>✓ $10M+ Bonding</span>
+                  <span>✓ In-House Engineering</span>
                   <span>✓ {BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
                   <span>✓ {BUSINESS_INFO.projectsCompleted}+ Projects</span>
                 </div>

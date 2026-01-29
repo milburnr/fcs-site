@@ -148,7 +148,7 @@ export default function HistoricRestorationTampaPage() {
       <LocalBusinessSchema city="Tampa" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration services in Tampa, Florida. Ybor City National Historic Landmark District specialists. SHPO compliance, Secretary of Interior Standards, historic tax credit navigation, Barrio Latino Commission expertise. Projects from $500K to $50M+."
+        serviceDescription="Expert historic restoration services in Tampa, Florida. Ybor City National Historic Landmark District specialists. SHPO compliance, Secretary of Interior Standards, historic tax credit navigation, Barrio Latino Commission expertise. Projects from $500K to $25M+."
         city="Tampa"
         minPrice="500000"
       />
@@ -545,7 +545,7 @@ export default function HistoricRestorationTampaPage() {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Building2 className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
                 <div className="text-3xl font-bold mb-1">$10M+</div>
-                <div className="text-sm text-gray-300">Bonding Capacity</div>
+                <div className="text-sm text-gray-300">Financial Strength</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Landmark className="w-10 h-10 mx-auto mb-3 text-brand-gold" />

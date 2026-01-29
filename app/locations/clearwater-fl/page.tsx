@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Clearwater Commercial Construction Contractor | $500K-$50M+ Projects | FCS",
-  description: "Premier general contractor serving Clearwater, FL. Commercial construction, multi-family residential, disaster recovery. Coastal expertise. $10M+ bonding. Call (813) 420-7561.",
+  title: "Clearwater Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  description: "Premier general contractor serving Clearwater, FL. Commercial construction, multi-family residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction clearwater, clearwater general contractor, disaster recovery clearwater fl, coastal construction clearwater florida",
 };
 
@@ -55,7 +55,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Clearwater?",
-    answer: "In Clearwater, we handle commercial construction, hospitality projects, multi-family residential, disaster recovery, luxury waterfront homes, balcony reconstruction, and exterior waterproofing. Given Clearwater's coastal location, we have particular expertise in hurricane-resistant construction and flood zone compliance. Project values typically range from $250,000 to $50 million or more."
+    answer: "In Clearwater, we handle commercial construction, hospitality projects, multi-family residential, disaster recovery, luxury waterfront homes, balcony reconstruction, and exterior waterproofing. Given Clearwater's coastal location, we have particular expertise in hurricane-resistant construction and flood zone compliance. Project values typically range from $250,000 to $25 million or more."
   },
   {
     question: "How far is your office from Clearwater?",
@@ -79,11 +79,11 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Clearwater?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Clearwater. We carry $10M+ bonding capacity, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Clearwater. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Clearwater?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $50 million or more. This includes commercial construction, hospitality projects, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Clearwater area."
+    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, hospitality projects, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Clearwater area."
   },
   {
     question: "How do I get started on a project in Clearwater?",
@@ -113,7 +113,7 @@ export default function ClearwaterPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Clearwater"
-        serviceDescription="Premier general contractor serving Clearwater, FL with commercial construction, coastal construction, disaster recovery, and residential construction. Projects $250K-$50M+."
+        serviceDescription="Premier general contractor serving Clearwater, FL with commercial construction, coastal construction, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
 
@@ -173,7 +173,7 @@ export default function ClearwaterPage() {
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$10M+ Bonding</span>
+              <span className="font-semibold text-gray-700">In-House Engineering</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
