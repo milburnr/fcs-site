@@ -651,3 +651,107 @@
   from = "/*"
   to = "/404/"
   status = 404
+
+# ===========================================
+# Broken Link Fixes (from FCS-BROKEN-ITEMS-ANALYSIS.md)
+# ===========================================
+
+# Navigation/Core
+[[redirects]]
+  from = "/portfolio/"
+  to = "/gallery/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/tampa/"
+  to = "/contact/"
+  status = 301
+
+# Service Pages
+[[redirects]]
+  from = "/hurricane-damage-restoration/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/water-damage-restoration/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/fire-damage-restoration/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/insurance-claims-management/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/insurance-restoration-brandon/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/insurance-restoration-sarasota/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/waterfront-home-construction-tampa/"
+  to = "/luxury-custom-homes-tampa/"
+  status = 301
+
+# Technical/Compliance
+[[redirects]]
+  from = "/ahca-compliance-medical-construction/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/sb4d-compliance-guide/"
+  to = "/balcony-reconstruction/"
+  status = 301
+
+[[redirects]]
+  from = "/cpm-scheduling-commercial-construction/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/flood-zone-ve-vs-ae-construction/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/balancing-modern-comfort-historic-character/"
+  to = "/historic-restoration/"
+  status = 301
+
+# Nested Structure Fixes
+[[redirects]]
+  from = "/residential/coastal-resilience/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/luxury-custom-homes/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/luxury-home-building/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/waterfront-construction/"
+  to = "/luxury-custom-homes-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/services/commercial/historic-restoration/"
+  to = "/historic-restoration/"
+  status = 301
+
