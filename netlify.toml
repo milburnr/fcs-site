@@ -4,8 +4,7 @@
 
 [build.environment]
   NODE_VERSION = "20"
-  # Enable Next.js build cache
-  NEXT_PRIVATE_LOCAL_WEBPACK = "true"
+  # Note: NEXT_PRIVATE_LOCAL_WEBPACK removed - was causing build issues
 
 # Cache headers for static assets
 [[headers]]
