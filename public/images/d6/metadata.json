@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/d6.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d6.jpg",
+    "alt": "d",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 75,
+      "composition": 80,
+      "lighting": 70,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Steel frame structure under construction",
+      "materials": [
+        "steel framing",
+        "metal studs",
+        "structural steel",
+        "wood sheathing"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "interior elevated",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "steel-frame-construction",
+      "commercial-framing",
+      "roof-structure",
+      "metal-studs",
+      "construction-progress",
+      "structural-steel",
+      "pre-roofing",
+      "interior-view"
+    ],
+    "altText": "Steel frame roof structure under construction showing metal trusses and wood sheathing",
+    "recommendations": [
+      "Good documentation of structural phase before roofing installation",
+      "Shows quality framing work - excellent for portfolio",
+      "Mixed lighting creates some harsh shadows - could benefit from HDR processing",
+      "Strong diagonal lines create dynamic composition",
+      "Ideal for showing construction process and structural integrity"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "d6-large.avif",
+      "path": "output/fcs-optimized/d6/d6-large.avif",
+      "fileSize": 22104
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "d6-large.webp",
+      "path": "output/fcs-optimized/d6/d6-large.webp",
+      "fileSize": 22118
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "d6-large.jpg",
+      "path": "output/fcs-optimized/d6/d6-large.jpg",
+      "fileSize": 19497
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "d6-medium.avif",
+      "path": "output/fcs-optimized/d6/d6-medium.avif",
+      "fileSize": 22104
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "d6-medium.webp",
+      "path": "output/fcs-optimized/d6/d6-medium.webp",
+      "fileSize": 22118
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "d6-medium.jpg",
+      "path": "output/fcs-optimized/d6/d6-medium.jpg",
+      "fileSize": 19497
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "d6-small.avif",
+      "path": "output/fcs-optimized/d6/d6-small.avif",
+      "fileSize": 22104
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "d6-small.webp",
+      "path": "output/fcs-optimized/d6/d6-small.webp",
+      "fileSize": 22118
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "d6-small.jpg",
+      "path": "output/fcs-optimized/d6/d6-small.jpg",
+      "fileSize": 19497
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/d6/d6-large.avif 1600w, /images/d6/d6-medium.avif 1200w, /images/d6/d6-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/d6/d6-large.webp 1600w, /images/d6/d6-medium.webp 1200w, /images/d6/d6-small.webp 800w\" />\n  <img src=\"/images/d6/d6-medium.jpg\"\n       srcset=\"/images/d6/d6-large.jpg 1600w, /images/d6/d6-medium.jpg 1200w, /images/d6/d6-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/d6/d6-large.avif 1600w, /images/d6/d6-medium.avif 1200w, /images/d6/d6-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/d6/d6-large.webp 1600w, /images/d6/d6-medium.webp 1200w, /images/d6/d6-small.webp 800w\" />"
+    ],
+    "fallback": "d6-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:00.936Z"
+}

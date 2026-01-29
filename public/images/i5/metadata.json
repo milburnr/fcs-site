@@ -1,0 +1,178 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i5.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 93,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Historic commercial building renovation with flat roof",
+      "materials": [
+        "flat roofing",
+        "modified bitumen",
+        "parapet walls",
+        "decorative cornices"
+      ],
+      "activity": "completed renovation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "flat-roof",
+      "historic-building",
+      "renovation-complete",
+      "aerial-photography",
+      "parapet-roof",
+      "downtown-commercial",
+      "before-after-quality",
+      "cornerstone-building"
+    ],
+    "altText": "Renovated historic commercial building with flat roof and ornate white cornices aerial view",
+    "recommendations": [
+      "Exceptional drone photography - perfect hero image for portfolio",
+      "Showcases complete building context and neighborhood integration",
+      "Excellent for historic preservation and commercial renovation marketing",
+      "High-quality image demonstrates attention to architectural detail",
+      "Ideal for case study header or commercial roofing capabilities page"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "i5-xl.avif",
+      "path": "output/fcs-optimized/i5/i5-xl.avif",
+      "fileSize": 660764
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "i5-xl.webp",
+      "path": "output/fcs-optimized/i5/i5-xl.webp",
+      "fileSize": 508982
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "i5-xl.jpg",
+      "path": "output/fcs-optimized/i5/i5-xl.jpg",
+      "fileSize": 708383
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "i5-large.avif",
+      "path": "output/fcs-optimized/i5/i5-large.avif",
+      "fileSize": 505593
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "i5-large.webp",
+      "path": "output/fcs-optimized/i5/i5-large.webp",
+      "fileSize": 373430
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "i5-large.jpg",
+      "path": "output/fcs-optimized/i5/i5-large.jpg",
+      "fileSize": 479332
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "i5-medium.avif",
+      "path": "output/fcs-optimized/i5/i5-medium.avif",
+      "fileSize": 294797
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "i5-medium.webp",
+      "path": "output/fcs-optimized/i5/i5-medium.webp",
+      "fileSize": 206660
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "i5-medium.jpg",
+      "path": "output/fcs-optimized/i5/i5-medium.jpg",
+      "fileSize": 252871
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "i5-small.avif",
+      "path": "output/fcs-optimized/i5/i5-small.avif",
+      "fileSize": 191034
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "i5-small.webp",
+      "path": "output/fcs-optimized/i5/i5-small.webp",
+      "fileSize": 128346
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "i5-small.jpg",
+      "path": "output/fcs-optimized/i5/i5-small.jpg",
+      "fileSize": 154358
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i5/i5-xl.avif 2560w, /images/i5/i5-large.avif 1920w, /images/i5/i5-medium.avif 1280w, /images/i5/i5-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/i5/i5-xl.webp 2560w, /images/i5/i5-large.webp 1920w, /images/i5/i5-medium.webp 1280w, /images/i5/i5-small.webp 960w\" />\n  <img src=\"/images/i5/i5-medium.jpg\"\n       srcset=\"/images/i5/i5-xl.jpg 2560w, /images/i5/i5-large.jpg 1920w, /images/i5/i5-medium.jpg 1280w, /images/i5/i5-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i5/i5-xl.avif 2560w, /images/i5/i5-large.avif 1920w, /images/i5/i5-medium.avif 1280w, /images/i5/i5-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i5/i5-xl.webp 2560w, /images/i5/i5-large.webp 1920w, /images/i5/i5-medium.webp 1280w, /images/i5/i5-small.webp 960w\" />"
+    ],
+    "fallback": "i5-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:41:13.574Z"
+}

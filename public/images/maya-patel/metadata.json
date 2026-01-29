@@ -1,0 +1,177 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/maya-patel.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/maya-patel.jpg",
+    "alt": "maya patel",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 92,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern commercial orthodontic office building with flat/low-slope roof",
+      "materials": [
+        "flat roofing",
+        "TPO or single-ply membrane",
+        "metal coping",
+        "horizontal siding"
+      ],
+      "activity": "completed building showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "flat-roof",
+      "modern-architecture",
+      "completed-project",
+      "medical-office",
+      "low-slope-roofing",
+      "commercial-building",
+      "hero-image",
+      "professional-photography"
+    ],
+    "altText": "Modern commercial building with flat roof and contemporary design showcasing professional roofing work",
+    "recommendations": [
+      "Exceptional professional photography - ideal for hero/banner use",
+      "Perfect lighting showcases roof lines and building architecture",
+      "Excellent for commercial roofing portfolio and marketing materials",
+      "Clean composition demonstrates quality workmanship on modern commercial structure"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "maya-patel-xl.avif",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-xl.avif",
+      "fileSize": 417146
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "maya-patel-xl.webp",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-xl.webp",
+      "fileSize": 306852
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "maya-patel-xl.jpg",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-xl.jpg",
+      "fileSize": 460282
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "maya-patel-large.avif",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-large.avif",
+      "fileSize": 300475
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "maya-patel-large.webp",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-large.webp",
+      "fileSize": 216308
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "maya-patel-large.jpg",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-large.jpg",
+      "fileSize": 300725
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "maya-patel-medium.avif",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-medium.avif",
+      "fileSize": 169539
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "maya-patel-medium.webp",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-medium.webp",
+      "fileSize": 111712
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "maya-patel-medium.jpg",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-medium.jpg",
+      "fileSize": 153803
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "maya-patel-small.avif",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-small.avif",
+      "fileSize": 101828
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "maya-patel-small.webp",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-small.webp",
+      "fileSize": 65140
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "maya-patel-small.jpg",
+      "path": "output/fcs-optimized/maya-patel/maya-patel-small.jpg",
+      "fileSize": 89948
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/maya-patel/maya-patel-xl.avif 2560w, /images/maya-patel/maya-patel-large.avif 1920w, /images/maya-patel/maya-patel-medium.avif 1280w, /images/maya-patel/maya-patel-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/maya-patel/maya-patel-xl.webp 2560w, /images/maya-patel/maya-patel-large.webp 1920w, /images/maya-patel/maya-patel-medium.webp 1280w, /images/maya-patel/maya-patel-small.webp 960w\" />\n  <img src=\"/images/maya-patel/maya-patel-medium.jpg\"\n       srcset=\"/images/maya-patel/maya-patel-xl.jpg 2560w, /images/maya-patel/maya-patel-large.jpg 1920w, /images/maya-patel/maya-patel-medium.jpg 1280w, /images/maya-patel/maya-patel-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/maya-patel/maya-patel-xl.avif 2560w, /images/maya-patel/maya-patel-large.avif 1920w, /images/maya-patel/maya-patel-medium.avif 1280w, /images/maya-patel/maya-patel-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/maya-patel/maya-patel-xl.webp 2560w, /images/maya-patel/maya-patel-large.webp 1920w, /images/maya-patel/maya-patel-medium.webp 1280w, /images/maya-patel/maya-patel-small.webp 960w\" />"
+    ],
+    "fallback": "maya-patel-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:31:02.424Z"
+}

@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/2.5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.5.jpg",
+    "alt": "2.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 60,
+      "composition": 75,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Modern commercial building with green architecture",
+      "materials": [
+        "glass curtain wall",
+        "metal panels",
+        "modern cladding"
+      ],
+      "activity": "architectural photography",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-building",
+      "green-architecture",
+      "modern-construction",
+      "sustainable-design",
+      "glass-facade",
+      "urban-landscape",
+      "commercial-roofing",
+      "architectural-photography"
+    ],
+    "altText": "Modern green glass commercial building with sustainable landscaping and contemporary architecture",
+    "recommendations": [
+      "Reduce lens flare in upper left corner - affects professional appearance",
+      "Improve focus sharpness throughout image",
+      "Slight overexposure on glass facade - adjust exposure compensation",
+      "Good for showcasing commercial building projects and green building design",
+      "Consider cropping to remove sun flare for cleaner composition",
+      "Better suited for inline content or gallery rather than hero image due to technical limitations"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-5-display.avif",
+      "path": "output/fcs-optimized/2-5/2-5-display.avif",
+      "fileSize": 77439
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-5-display.webp",
+      "path": "output/fcs-optimized/2-5/2-5-display.webp",
+      "fileSize": 70862
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-5-display.jpg",
+      "path": "output/fcs-optimized/2-5/2-5-display.jpg",
+      "fileSize": 71681
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "2-5-grid.avif",
+      "path": "output/fcs-optimized/2-5/2-5-grid.avif",
+      "fileSize": 123611
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "2-5-grid.webp",
+      "path": "output/fcs-optimized/2-5/2-5-grid.webp",
+      "fileSize": 67056
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "2-5-grid.jpg",
+      "path": "output/fcs-optimized/2-5/2-5-grid.jpg",
+      "fileSize": 76595
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "2-5-thumbnail.avif",
+      "path": "output/fcs-optimized/2-5/2-5-thumbnail.avif",
+      "fileSize": 64960
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "2-5-thumbnail.webp",
+      "path": "output/fcs-optimized/2-5/2-5-thumbnail.webp",
+      "fileSize": 31708
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "2-5-thumbnail.jpg",
+      "path": "output/fcs-optimized/2-5/2-5-thumbnail.jpg",
+      "fileSize": 36115
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/2-5/2-5-display.avif 1200w, /images/2-5/2-5-grid.avif 600w, /images/2-5/2-5-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/2-5/2-5-display.webp 1200w, /images/2-5/2-5-grid.webp 600w, /images/2-5/2-5-thumbnail.webp 400w\" />\n  <img src=\"/images/2-5/2-5-grid.jpg\"\n       srcset=\"/images/2-5/2-5-display.jpg 1200w, /images/2-5/2-5-grid.jpg 600w, /images/2-5/2-5-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/2-5/2-5-display.avif 1200w, /images/2-5/2-5-grid.avif 600w, /images/2-5/2-5-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/2-5/2-5-display.webp 1200w, /images/2-5/2-5-grid.webp 600w, /images/2-5/2-5-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "2-5-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:11.433Z"
+}

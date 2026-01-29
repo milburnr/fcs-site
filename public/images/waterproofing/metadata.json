@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/waterproofing.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/waterproofing.jpeg",
+    "alt": "waterproofing",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 80,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Spray foam roofing application",
+      "materials": [
+        "spray foam",
+        "polyurethane foam",
+        "SPF roofing"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "spray foam equipment",
+        "hoses",
+        "safety gear",
+        "high-visibility clothing"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "spray-foam-roofing",
+      "spf-application",
+      "commercial-roofing",
+      "flat-roof-installation",
+      "worker-safety",
+      "protective-coating",
+      "industrial-roofing",
+      "foam-insulation"
+    ],
+    "altText": "Worker applying spray foam roofing to commercial flat roof with professional equipment",
+    "recommendations": [
+      "Excellent action shot showing active spray foam application process",
+      "Worker in proper PPE and high-visibility gear demonstrates safety compliance",
+      "Good contrast between white foam and existing surface shows coverage",
+      "Perfect for showcasing spray foam roofing services and methodology",
+      "Consider slight exposure adjustment to brighten worker detail"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "waterproofing-large.avif",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-large.avif",
+      "fileSize": 106298
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "waterproofing-large.webp",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-large.webp",
+      "fileSize": 138914
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "waterproofing-large.jpg",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-large.jpg",
+      "fileSize": 124109
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "waterproofing-medium.avif",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-medium.avif",
+      "fileSize": 158997
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "waterproofing-medium.webp",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-medium.webp",
+      "fileSize": 110472
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "waterproofing-medium.jpg",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-medium.jpg",
+      "fileSize": 150977
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "waterproofing-small.avif",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-small.avif",
+      "fileSize": 81003
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "waterproofing-small.webp",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-small.webp",
+      "fileSize": 61796
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "waterproofing-small.jpg",
+      "path": "output/fcs-optimized/waterproofing/waterproofing-small.jpg",
+      "fileSize": 76800
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/waterproofing/waterproofing-large.avif 1600w, /images/waterproofing/waterproofing-medium.avif 1200w, /images/waterproofing/waterproofing-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/waterproofing/waterproofing-large.webp 1600w, /images/waterproofing/waterproofing-medium.webp 1200w, /images/waterproofing/waterproofing-small.webp 800w\" />\n  <img src=\"/images/waterproofing/waterproofing-medium.jpg\"\n       srcset=\"/images/waterproofing/waterproofing-large.jpg 1600w, /images/waterproofing/waterproofing-medium.jpg 1200w, /images/waterproofing/waterproofing-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/waterproofing/waterproofing-large.avif 1600w, /images/waterproofing/waterproofing-medium.avif 1200w, /images/waterproofing/waterproofing-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/waterproofing/waterproofing-large.webp 1600w, /images/waterproofing/waterproofing-medium.webp 1200w, /images/waterproofing/waterproofing-small.webp 800w\" />"
+    ],
+    "fallback": "waterproofing-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:03.396Z"
+}

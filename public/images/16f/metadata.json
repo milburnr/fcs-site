@@ -1,0 +1,178 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/16f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/16f.jpg",
+    "alt": "16f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 93,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern residential home with architectural shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "stone veneer",
+        "paver driveway"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "luxury-home",
+      "completed-project",
+      "modern-architecture",
+      "two-story-home",
+      "dual-garage",
+      "professional-landscaping",
+      "hero-image",
+      "portfolio-quality"
+    ],
+    "altText": "Luxury two-story home with dark architectural shingle roof and stone facade",
+    "recommendations": [
+      "Excellent composition - perfect for hero image or portfolio showcase",
+      "High-quality professional photography ideal for marketing materials",
+      "Well-balanced lighting showcases roof and architectural details",
+      "Could be used for residential roofing landing pages or brochures",
+      "Great example of completed residential roofing project"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "16f-xl.avif",
+      "path": "output/fcs-optimized/16f/16f-xl.avif",
+      "fileSize": 232129
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "16f-xl.webp",
+      "path": "output/fcs-optimized/16f/16f-xl.webp",
+      "fileSize": 223162
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "16f-xl.jpg",
+      "path": "output/fcs-optimized/16f/16f-xl.jpg",
+      "fileSize": 405467
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "16f-large.avif",
+      "path": "output/fcs-optimized/16f/16f-large.avif",
+      "fileSize": 188021
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "16f-large.webp",
+      "path": "output/fcs-optimized/16f/16f-large.webp",
+      "fileSize": 164374
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "16f-large.jpg",
+      "path": "output/fcs-optimized/16f/16f-large.jpg",
+      "fileSize": 276978
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "16f-medium.avif",
+      "path": "output/fcs-optimized/16f/16f-medium.avif",
+      "fileSize": 137467
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "16f-medium.webp",
+      "path": "output/fcs-optimized/16f/16f-medium.webp",
+      "fileSize": 107952
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "16f-medium.jpg",
+      "path": "output/fcs-optimized/16f/16f-medium.jpg",
+      "fileSize": 163322
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "16f-small.avif",
+      "path": "output/fcs-optimized/16f/16f-small.avif",
+      "fileSize": 111827
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "16f-small.webp",
+      "path": "output/fcs-optimized/16f/16f-small.webp",
+      "fileSize": 78262
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "16f-small.jpg",
+      "path": "output/fcs-optimized/16f/16f-small.jpg",
+      "fileSize": 111024
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/16f/16f-xl.avif 2560w, /images/16f/16f-large.avif 1920w, /images/16f/16f-medium.avif 1280w, /images/16f/16f-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/16f/16f-xl.webp 2560w, /images/16f/16f-large.webp 1920w, /images/16f/16f-medium.webp 1280w, /images/16f/16f-small.webp 960w\" />\n  <img src=\"/images/16f/16f-medium.jpg\"\n       srcset=\"/images/16f/16f-xl.jpg 2560w, /images/16f/16f-large.jpg 1920w, /images/16f/16f-medium.jpg 1280w, /images/16f/16f-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/16f/16f-xl.avif 2560w, /images/16f/16f-large.avif 1920w, /images/16f/16f-medium.avif 1280w, /images/16f/16f-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/16f/16f-xl.webp 2560w, /images/16f/16f-large.webp 1920w, /images/16f/16f-medium.webp 1280w, /images/16f/16f-small.webp 960w\" />"
+    ],
+    "fallback": "16f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:00.676Z"
+}

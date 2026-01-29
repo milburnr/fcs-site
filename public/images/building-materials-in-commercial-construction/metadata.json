@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Materials-in-Commercial-Construction.jpg",
+    "alt": "Building Materials in Commercial Construction",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site supervisor observing tower crane operations",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "tower crane",
+        "safety vest",
+        "hard hat"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-supervision",
+      "safety-equipment",
+      "tower-crane",
+      "site-inspection",
+      "hard-hat",
+      "high-visibility-vest",
+      "construction-safety",
+      "project-management"
+    ],
+    "altText": "Construction worker in safety vest and hard hat supervising crane operations at building site",
+    "recommendations": [
+      "Image shows general construction, not roofing-specific work",
+      "Subject is out of focus - background crane is sharper than worker",
+      "Better suited for general construction safety or supervision content",
+      "Not ideal for roofing contractor portfolio - no roofing activity visible",
+      "Consider using for 'Our Team' or 'Safety Culture' sections instead"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-materials-in-commercial-construction-display.avif",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.avif",
+      "fileSize": 24257
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-materials-in-commercial-construction-display.webp",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.webp",
+      "fileSize": 19474
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-materials-in-commercial-construction-display.jpg",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.jpg",
+      "fileSize": 27640
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-materials-in-commercial-construction-grid.avif",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.avif",
+      "fileSize": 29356
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-materials-in-commercial-construction-grid.webp",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.webp",
+      "fileSize": 17968
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-materials-in-commercial-construction-grid.jpg",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.jpg",
+      "fileSize": 30934
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-materials-in-commercial-construction-thumbnail.avif",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.avif",
+      "fileSize": 17910
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-materials-in-commercial-construction-thumbnail.webp",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.webp",
+      "fileSize": 10972
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-materials-in-commercial-construction-thumbnail.jpg",
+      "path": "output/fcs-optimized/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.jpg",
+      "fileSize": 17749
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.avif 1200w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.avif 600w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.webp 1200w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.webp 600w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.webp 400w\" />\n  <img src=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.jpg\"\n       srcset=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.jpg 1200w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.jpg 600w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.avif 1200w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.avif 600w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-display.webp 1200w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-grid.webp 600w, /images/building-materials-in-commercial-construction/building-materials-in-commercial-construction-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "building-materials-in-commercial-construction-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:29.122Z"
+}

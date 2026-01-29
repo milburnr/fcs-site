@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/11f.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/11f.webp",
+    "alt": "11f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern multi-story commercial building exterior at dusk",
+      "materials": [
+        "metal roofing",
+        "brick veneer",
+        "architectural panels",
+        "glass curtain wall"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "metal-roof",
+      "modern-architecture",
+      "multi-story-building",
+      "completed-project",
+      "evening-photography",
+      "commercial-exterior",
+      "portfolio-quality",
+      "architectural-roofing"
+    ],
+    "altText": "Modern commercial building with metal roofing and illuminated windows at sunset",
+    "recommendations": [
+      "Excellent twilight photography showcasing completed commercial project",
+      "Perfect hero image for portfolio and marketing materials",
+      "Dramatic lighting highlights architectural details and roofing work",
+      "Professional quality suitable for website headers and brochures",
+      "Shows scale and complexity ideal for commercial roofing capabilities"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "11f-large.avif",
+      "path": "output/fcs-optimized/11f/11f-large.avif",
+      "fileSize": 267103
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "11f-large.webp",
+      "path": "output/fcs-optimized/11f/11f-large.webp",
+      "fileSize": 179992
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "11f-large.jpg",
+      "path": "output/fcs-optimized/11f/11f-large.jpg",
+      "fileSize": 251679
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "11f-medium.avif",
+      "path": "output/fcs-optimized/11f/11f-medium.avif",
+      "fileSize": 185429
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "11f-medium.webp",
+      "path": "output/fcs-optimized/11f/11f-medium.webp",
+      "fileSize": 108070
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "11f-medium.jpg",
+      "path": "output/fcs-optimized/11f/11f-medium.jpg",
+      "fileSize": 159941
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "11f-small.avif",
+      "path": "output/fcs-optimized/11f/11f-small.avif",
+      "fileSize": 102766
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "11f-small.webp",
+      "path": "output/fcs-optimized/11f/11f-small.webp",
+      "fileSize": 56576
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "11f-small.jpg",
+      "path": "output/fcs-optimized/11f/11f-small.jpg",
+      "fileSize": 81828
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/11f/11f-large.avif 1600w, /images/11f/11f-medium.avif 1200w, /images/11f/11f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/11f/11f-large.webp 1600w, /images/11f/11f-medium.webp 1200w, /images/11f/11f-small.webp 800w\" />\n  <img src=\"/images/11f/11f-medium.jpg\"\n       srcset=\"/images/11f/11f-large.jpg 1600w, /images/11f/11f-medium.jpg 1200w, /images/11f/11f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/11f/11f-large.avif 1600w, /images/11f/11f-medium.avif 1200w, /images/11f/11f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/11f/11f-large.webp 1600w, /images/11f/11f-medium.webp 1200w, /images/11f/11f-small.webp 800w\" />"
+    ],
+    "fallback": "11f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:46.805Z"
+}

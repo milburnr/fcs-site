@@ -1,0 +1,143 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/FCS_logo.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS_logo.jpg",
+    "alt": "FCS logo",
+    "context": "logo"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 95,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Company logo and branding",
+      "materials": null,
+      "activity": "branding",
+      "damageType": null,
+      "people": false,
+      "equipment": null,
+      "weather": null,
+      "perspective": "front-facing",
+      "timeOfDay": null
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": false,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "fcs-logo",
+      "florida-construction-specialists",
+      "company-branding",
+      "roofing-contractor-logo",
+      "corporate-identity",
+      "header-logo",
+      "brand-asset"
+    ],
+    "altText": "Florida Construction Specialists FCS roofing contractor logo with green geometric icon",
+    "recommendations": [
+      "Primary branding asset - use for website header, business cards, and marketing materials",
+      "Clean, professional design with strong brand recognition",
+      "Consider creating versions with transparent background for versatile placement",
+      "Excellent for hero sections, email signatures, and proposals"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-logo-large.avif",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-large.avif",
+      "fileSize": 8396
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-logo-large.webp",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-large.webp",
+      "fileSize": 5856
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-logo-large.jpg",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-large.jpg",
+      "fileSize": 11024
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-logo-medium.avif",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-medium.avif",
+      "fileSize": 8396
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-logo-medium.webp",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-medium.webp",
+      "fileSize": 5856
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-logo-medium.jpg",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-medium.jpg",
+      "fileSize": 11024
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-logo-small.avif",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-small.avif",
+      "fileSize": 8396
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-logo-small.webp",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-small.webp",
+      "fileSize": 5856
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-logo-small.jpg",
+      "path": "output/fcs-optimized/fcs-logo/fcs-logo-small.jpg",
+      "fileSize": 11024
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/fcs-logo/fcs-logo-large.avif 1600w, /images/fcs-logo/fcs-logo-medium.avif 1200w, /images/fcs-logo/fcs-logo-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/fcs-logo/fcs-logo-large.webp 1600w, /images/fcs-logo/fcs-logo-medium.webp 1200w, /images/fcs-logo/fcs-logo-small.webp 800w\" />\n  <img src=\"/images/fcs-logo/fcs-logo-medium.jpg\"\n       srcset=\"/images/fcs-logo/fcs-logo-large.jpg 1600w, /images/fcs-logo/fcs-logo-medium.jpg 1200w, /images/fcs-logo/fcs-logo-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/fcs-logo/fcs-logo-large.avif 1600w, /images/fcs-logo/fcs-logo-medium.avif 1200w, /images/fcs-logo/fcs-logo-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/fcs-logo/fcs-logo-large.webp 1600w, /images/fcs-logo/fcs-logo-medium.webp 1200w, /images/fcs-logo/fcs-logo-small.webp 800w\" />"
+    ],
+    "fallback": "fcs-logo-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:18:14.009Z"
+}

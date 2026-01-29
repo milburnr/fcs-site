@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/8888.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/8888.jpg",
+    "alt": "Aerial view of workers pouring concrete foundation with steel rebar reinforcement grid",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Concrete foundation construction with rebar installation",
+      "materials": [
+        "concrete",
+        "rebar",
+        "steel reinforcement mesh"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "wheelbarrow",
+        "concrete tools",
+        "safety gear"
+      ],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "concrete-construction",
+      "foundation-work",
+      "rebar-installation",
+      "aerial-photography",
+      "construction-workers",
+      "commercial-construction",
+      "safety-gear",
+      "hero-quality",
+      "overhead-view"
+    ],
+    "altText": "Aerial view of workers pouring concrete foundation with steel rebar reinforcement grid",
+    "recommendations": [
+      "Excellent aerial perspective showcasing scale and organization of work",
+      "High-visibility safety gear visible - great for safety culture marketing",
+      "Clear detail of rebar grid demonstrates quality workmanship",
+      "Strong composition with diagonal lines creates visual interest",
+      "Perfect for hero image on commercial construction or foundation services pages"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "8888-large.avif",
+      "path": "output/fcs-optimized/8888/8888-large.avif",
+      "fileSize": 80672
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "8888-large.webp",
+      "path": "output/fcs-optimized/8888/8888-large.webp",
+      "fileSize": 71586
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "8888-large.jpg",
+      "path": "output/fcs-optimized/8888/8888-large.jpg",
+      "fileSize": 71622
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "8888-medium.avif",
+      "path": "output/fcs-optimized/8888/8888-medium.avif",
+      "fileSize": 80672
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "8888-medium.webp",
+      "path": "output/fcs-optimized/8888/8888-medium.webp",
+      "fileSize": 71586
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "8888-medium.jpg",
+      "path": "output/fcs-optimized/8888/8888-medium.jpg",
+      "fileSize": 71622
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "8888-small.avif",
+      "path": "output/fcs-optimized/8888/8888-small.avif",
+      "fileSize": 80672
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "8888-small.webp",
+      "path": "output/fcs-optimized/8888/8888-small.webp",
+      "fileSize": 71586
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "8888-small.jpg",
+      "path": "output/fcs-optimized/8888/8888-small.jpg",
+      "fileSize": 71622
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/8888/8888-large.avif 1600w, /images/8888/8888-medium.avif 1200w, /images/8888/8888-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/8888/8888-large.webp 1600w, /images/8888/8888-medium.webp 1200w, /images/8888/8888-small.webp 800w\" />\n  <img src=\"/images/8888/8888-medium.jpg\"\n       srcset=\"/images/8888/8888-large.jpg 1600w, /images/8888/8888-medium.jpg 1200w, /images/8888/8888-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/8888/8888-large.avif 1600w, /images/8888/8888-medium.avif 1200w, /images/8888/8888-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/8888/8888-large.webp 1600w, /images/8888/8888-medium.webp 1200w, /images/8888/8888-small.webp 800w\" />"
+    ],
+    "fallback": "8888-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:21.817Z"
+}

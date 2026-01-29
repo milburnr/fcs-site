@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i14.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i14.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Building facade restoration and maintenance work",
+      "materials": [
+        "ornamental stone",
+        "decorative columns",
+        "balustrades",
+        "architectural trim"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "boom lift",
+        "aerial work platform"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "building-restoration",
+      "facade-maintenance",
+      "boom-lift",
+      "aerial-work-platform",
+      "ornamental-architecture",
+      "commercial-building",
+      "historic-building",
+      "exterior-restoration",
+      "professional-equipment"
+    ],
+    "altText": "Yellow boom lift accessing ornate facade of historic building for restoration work",
+    "recommendations": [
+      "Excellent image quality with sharp detail on architectural elements",
+      "Strong marketing value - demonstrates capability for complex historic building work",
+      "Perfect for showcasing specialized equipment and high-end commercial projects",
+      "Blue sky provides excellent contrast - ideal for hero or gallery featured image"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i14-large.avif",
+      "path": "output/fcs-optimized/i14/i14-large.avif",
+      "fileSize": 149822
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i14-large.webp",
+      "path": "output/fcs-optimized/i14/i14-large.webp",
+      "fileSize": 130734
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i14-large.jpg",
+      "path": "output/fcs-optimized/i14/i14-large.jpg",
+      "fileSize": 146632
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i14-medium.avif",
+      "path": "output/fcs-optimized/i14/i14-medium.avif",
+      "fileSize": 149822
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i14-medium.webp",
+      "path": "output/fcs-optimized/i14/i14-medium.webp",
+      "fileSize": 130734
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i14-medium.jpg",
+      "path": "output/fcs-optimized/i14/i14-medium.jpg",
+      "fileSize": 146632
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i14-small.avif",
+      "path": "output/fcs-optimized/i14/i14-small.avif",
+      "fileSize": 97296
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i14-small.webp",
+      "path": "output/fcs-optimized/i14/i14-small.webp",
+      "fileSize": 68268
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i14-small.jpg",
+      "path": "output/fcs-optimized/i14/i14-small.jpg",
+      "fileSize": 88573
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i14/i14-large.avif 1600w, /images/i14/i14-medium.avif 1200w, /images/i14/i14-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/i14/i14-large.webp 1600w, /images/i14/i14-medium.webp 1200w, /images/i14/i14-small.webp 800w\" />\n  <img src=\"/images/i14/i14-medium.jpg\"\n       srcset=\"/images/i14/i14-large.jpg 1600w, /images/i14/i14-medium.jpg 1200w, /images/i14/i14-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i14/i14-large.avif 1600w, /images/i14/i14-medium.avif 1200w, /images/i14/i14-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i14/i14-large.webp 1600w, /images/i14/i14-medium.webp 1200w, /images/i14/i14-small.webp 800w\" />"
+    ],
+    "fallback": "i14-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:49.435Z"
+}

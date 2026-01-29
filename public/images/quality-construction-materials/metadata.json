@@ -1,0 +1,156 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Quality-Construction-Materials.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Quality-Construction-Materials.jpg",
+    "alt": "Quality Construction Materials",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 92,
+      "composition": 85,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction worker on commercial building project",
+      "materials": [
+        "brick",
+        "scaffolding",
+        "metal framework"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "crane",
+        "scaffolding",
+        "safety harness",
+        "hard hat",
+        "high-visibility vest"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-construction",
+      "safety-equipment",
+      "high-visibility-vest",
+      "construction-worker",
+      "scaffolding",
+      "crane-operation",
+      "building-inspection",
+      "ppe-safety",
+      "hero-quality"
+    ],
+    "altText": "Construction worker in safety vest inspecting commercial building with crane and scaffolding",
+    "recommendations": [
+      "Excellent lighting and exposure - ideal for hero image",
+      "Strong safety culture messaging - worker in full PPE",
+      "Dynamic composition with upward angle creates professional impact",
+      "Perfect for marketing materials emphasizing safety and professionalism",
+      "Clear blue sky provides clean background for text overlay if needed"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "quality-construction-materials-large.avif",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-large.avif",
+      "fileSize": 69036
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "quality-construction-materials-large.webp",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-large.webp",
+      "fileSize": 60078
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "quality-construction-materials-large.jpg",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-large.jpg",
+      "fileSize": 67106
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "quality-construction-materials-medium.avif",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-medium.avif",
+      "fileSize": 69036
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "quality-construction-materials-medium.webp",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-medium.webp",
+      "fileSize": 60078
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "quality-construction-materials-medium.jpg",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-medium.jpg",
+      "fileSize": 67106
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "quality-construction-materials-small.avif",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-small.avif",
+      "fileSize": 69036
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "quality-construction-materials-small.webp",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-small.webp",
+      "fileSize": 60078
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "quality-construction-materials-small.jpg",
+      "path": "output/fcs-optimized/quality-construction-materials/quality-construction-materials-small.jpg",
+      "fileSize": 67106
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/quality-construction-materials/quality-construction-materials-large.avif 1600w, /images/quality-construction-materials/quality-construction-materials-medium.avif 1200w, /images/quality-construction-materials/quality-construction-materials-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/quality-construction-materials/quality-construction-materials-large.webp 1600w, /images/quality-construction-materials/quality-construction-materials-medium.webp 1200w, /images/quality-construction-materials/quality-construction-materials-small.webp 800w\" />\n  <img src=\"/images/quality-construction-materials/quality-construction-materials-medium.jpg\"\n       srcset=\"/images/quality-construction-materials/quality-construction-materials-large.jpg 1600w, /images/quality-construction-materials/quality-construction-materials-medium.jpg 1200w, /images/quality-construction-materials/quality-construction-materials-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/quality-construction-materials/quality-construction-materials-large.avif 1600w, /images/quality-construction-materials/quality-construction-materials-medium.avif 1200w, /images/quality-construction-materials/quality-construction-materials-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/quality-construction-materials/quality-construction-materials-large.webp 1600w, /images/quality-construction-materials/quality-construction-materials-medium.webp 1200w, /images/quality-construction-materials/quality-construction-materials-small.webp 800w\" />"
+    ],
+    "fallback": "quality-construction-materials-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:01.081Z"
+}

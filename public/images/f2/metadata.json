@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/f2.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f2.jpg",
+    "alt": "f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 92,
+      "composition": 85,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Luxury residential property with pool - roof visible in background",
+      "materials": [
+        "asphalt shingles",
+        "architectural shingles"
+      ],
+      "activity": "none - completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear evening",
+      "perspective": "ground level wide shot",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "luxury-home",
+      "completed-project",
+      "architectural-shingles",
+      "evening-photography",
+      "pool-house",
+      "high-end-residential",
+      "outdoor-living"
+    ],
+    "altText": "Luxury residential home with quality architectural shingle roofing and illuminated pool area",
+    "recommendations": [
+      "Excellent twilight photography - perfect for hero/showcase images",
+      "Shows completed high-end residential project - ideal for luxury portfolio",
+      "Professional lighting highlights roof lines and architecture",
+      "Consider closer shots of roof details for technical portfolio",
+      "Great for upscale residential roofing marketing materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f2-large.avif",
+      "path": "output/fcs-optimized/f2/f2-large.avif",
+      "fileSize": 15310
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f2-large.webp",
+      "path": "output/fcs-optimized/f2/f2-large.webp",
+      "fileSize": 16610
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f2-large.jpg",
+      "path": "output/fcs-optimized/f2/f2-large.jpg",
+      "fileSize": 14462
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f2-medium.avif",
+      "path": "output/fcs-optimized/f2/f2-medium.avif",
+      "fileSize": 15310
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f2-medium.webp",
+      "path": "output/fcs-optimized/f2/f2-medium.webp",
+      "fileSize": 16610
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f2-medium.jpg",
+      "path": "output/fcs-optimized/f2/f2-medium.jpg",
+      "fileSize": 14462
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f2-small.avif",
+      "path": "output/fcs-optimized/f2/f2-small.avif",
+      "fileSize": 15310
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f2-small.webp",
+      "path": "output/fcs-optimized/f2/f2-small.webp",
+      "fileSize": 16610
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f2-small.jpg",
+      "path": "output/fcs-optimized/f2/f2-small.jpg",
+      "fileSize": 14462
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/f2/f2-large.avif 1600w, /images/f2/f2-medium.avif 1200w, /images/f2/f2-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/f2/f2-large.webp 1600w, /images/f2/f2-medium.webp 1200w, /images/f2/f2-small.webp 800w\" />\n  <img src=\"/images/f2/f2-medium.jpg\"\n       srcset=\"/images/f2/f2-large.jpg 1600w, /images/f2/f2-medium.jpg 1200w, /images/f2/f2-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/f2/f2-large.avif 1600w, /images/f2/f2-medium.avif 1200w, /images/f2/f2-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/f2/f2-large.webp 1600w, /images/f2/f2-medium.webp 1200w, /images/f2/f2-small.webp 800w\" />"
+    ],
+    "fallback": "f2-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:43.167Z"
+}

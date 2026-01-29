@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/8f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/8f.jpg",
+    "alt": "8f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 65,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Residential home with tile or asphalt shingle roof and front landscaping",
+      "materials": [
+        "asphalt shingles",
+        "concrete tile"
+      ],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "completed-project",
+      "curb-appeal",
+      "tile-roof",
+      "single-family-home",
+      "landscaping",
+      "front-yard",
+      "gray-roof"
+    ],
+    "altText": "Residential home with gray tile roof and professional landscaping",
+    "recommendations": [
+      "Image focus is primarily on landscaping rather than roof details",
+      "Roof is partially obscured by trees and distance",
+      "Better suited for before/after comparisons or residential portfolio",
+      "Consider closer angle to showcase roofing work more prominently",
+      "Good for demonstrating complete home exterior projects"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "8f-display.avif",
+      "path": "output/fcs-optimized/8f/8f-display.avif",
+      "fileSize": 16608
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "8f-display.webp",
+      "path": "output/fcs-optimized/8f/8f-display.webp",
+      "fileSize": 17644
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "8f-display.jpg",
+      "path": "output/fcs-optimized/8f/8f-display.jpg",
+      "fileSize": 15970
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "8f-grid.avif",
+      "path": "output/fcs-optimized/8f/8f-grid.avif",
+      "fileSize": 48329
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "8f-grid.webp",
+      "path": "output/fcs-optimized/8f/8f-grid.webp",
+      "fileSize": 41482
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "8f-grid.jpg",
+      "path": "output/fcs-optimized/8f/8f-grid.jpg",
+      "fileSize": 54918
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "8f-thumbnail.avif",
+      "path": "output/fcs-optimized/8f/8f-thumbnail.avif",
+      "fileSize": 35665
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "8f-thumbnail.webp",
+      "path": "output/fcs-optimized/8f/8f-thumbnail.webp",
+      "fileSize": 27002
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "8f-thumbnail.jpg",
+      "path": "output/fcs-optimized/8f/8f-thumbnail.jpg",
+      "fileSize": 31959
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/8f/8f-display.avif 1200w, /images/8f/8f-grid.avif 600w, /images/8f/8f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/8f/8f-display.webp 1200w, /images/8f/8f-grid.webp 600w, /images/8f/8f-thumbnail.webp 400w\" />\n  <img src=\"/images/8f/8f-grid.jpg\"\n       srcset=\"/images/8f/8f-display.jpg 1200w, /images/8f/8f-grid.jpg 600w, /images/8f/8f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/8f/8f-display.avif 1200w, /images/8f/8f-grid.avif 600w, /images/8f/8f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/8f/8f-display.webp 1200w, /images/8f/8f-grid.webp 600w, /images/8f/8f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "8f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:23.153Z"
+}

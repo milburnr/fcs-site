@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i9.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i9.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Historic brick commercial building exterior at dusk",
+      "materials": [
+        "brick",
+        "arched windows",
+        "decorative cornice"
+      ],
+      "activity": "completed renovation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "cloudy",
+      "perspective": "ground level wide shot",
+      "timeOfDay": "dusk/twilight"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-building",
+      "historic-renovation",
+      "brick-restoration",
+      "twilight-photography",
+      "commercial-exterior",
+      "architectural-lighting",
+      "heritage-building",
+      "completed-project"
+    ],
+    "altText": "Historic brick commercial building with exterior lighting at twilight after restoration",
+    "recommendations": [
+      "Excellent twilight photography - ideal for hero images and portfolio showcases",
+      "Professional architectural lighting highlights building features beautifully",
+      "Perfect for demonstrating commercial exterior restoration capabilities",
+      "Strong marketing potential for heritage building and commercial renovation projects"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i9-large.avif",
+      "path": "output/fcs-optimized/i9/i9-large.avif",
+      "fileSize": 247736
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i9-large.webp",
+      "path": "output/fcs-optimized/i9/i9-large.webp",
+      "fileSize": 165974
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i9-large.jpg",
+      "path": "output/fcs-optimized/i9/i9-large.jpg",
+      "fileSize": 218548
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i9-medium.avif",
+      "path": "output/fcs-optimized/i9/i9-medium.avif",
+      "fileSize": 212185
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i9-medium.webp",
+      "path": "output/fcs-optimized/i9/i9-medium.webp",
+      "fileSize": 140788
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i9-medium.jpg",
+      "path": "output/fcs-optimized/i9/i9-medium.jpg",
+      "fileSize": 190879
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i9-small.avif",
+      "path": "output/fcs-optimized/i9/i9-small.avif",
+      "fileSize": 102627
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i9-small.webp",
+      "path": "output/fcs-optimized/i9/i9-small.webp",
+      "fileSize": 64894
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i9-small.jpg",
+      "path": "output/fcs-optimized/i9/i9-small.jpg",
+      "fileSize": 90563
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i9/i9-large.avif 1600w, /images/i9/i9-medium.avif 1200w, /images/i9/i9-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/i9/i9-large.webp 1600w, /images/i9/i9-medium.webp 1200w, /images/i9/i9-small.webp 800w\" />\n  <img src=\"/images/i9/i9-medium.jpg\"\n       srcset=\"/images/i9/i9-large.jpg 1600w, /images/i9/i9-medium.jpg 1200w, /images/i9/i9-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i9/i9-large.avif 1600w, /images/i9/i9-medium.avif 1200w, /images/i9/i9-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i9/i9-large.webp 1600w, /images/i9/i9-medium.webp 1200w, /images/i9/i9-small.webp 800w\" />"
+    ],
+    "fallback": "i9-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:42:11.832Z"
+}

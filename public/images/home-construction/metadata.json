@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/home-construction.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/home-construction.jpg",
+    "alt": "home construction",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Residential townhome development with architectural shingle roofing",
+      "materials": [
+        "architectural shingles",
+        "asphalt shingles"
+      ],
+      "activity": "new construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "construction materials",
+        "dumpster"
+      ],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "architectural-shingles",
+      "aerial-photography",
+      "new-construction",
+      "townhomes",
+      "multi-unit-roofing",
+      "waterfront-development",
+      "gray-shingle-roof",
+      "residential-development"
+    ],
+    "altText": "Aerial view of new townhomes with gray architectural shingle roofs near waterfront",
+    "recommendations": [
+      "Excellent aerial perspective showcasing multiple completed roofing projects",
+      "Strong composition with waterfront backdrop - ideal for hero image or project portfolio",
+      "Clear view of roof details and architectural features - perfect for residential marketing",
+      "Natural lighting enhances roof color and texture details"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "home-construction-large.avif",
+      "path": "output/fcs-optimized/home-construction/home-construction-large.avif",
+      "fileSize": 227374
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "home-construction-large.webp",
+      "path": "output/fcs-optimized/home-construction/home-construction-large.webp",
+      "fileSize": 204298
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "home-construction-large.jpg",
+      "path": "output/fcs-optimized/home-construction/home-construction-large.jpg",
+      "fileSize": 222764
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "home-construction-medium.avif",
+      "path": "output/fcs-optimized/home-construction/home-construction-medium.avif",
+      "fileSize": 261926
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "home-construction-medium.webp",
+      "path": "output/fcs-optimized/home-construction/home-construction-medium.webp",
+      "fileSize": 177726
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "home-construction-medium.jpg",
+      "path": "output/fcs-optimized/home-construction/home-construction-medium.jpg",
+      "fileSize": 204448
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "home-construction-small.avif",
+      "path": "output/fcs-optimized/home-construction/home-construction-small.avif",
+      "fileSize": 124797
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "home-construction-small.webp",
+      "path": "output/fcs-optimized/home-construction/home-construction-small.webp",
+      "fileSize": 84904
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "home-construction-small.jpg",
+      "path": "output/fcs-optimized/home-construction/home-construction-small.jpg",
+      "fileSize": 98361
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/home-construction/home-construction-large.avif 1600w, /images/home-construction/home-construction-medium.avif 1200w, /images/home-construction/home-construction-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/home-construction/home-construction-large.webp 1600w, /images/home-construction/home-construction-medium.webp 1200w, /images/home-construction/home-construction-small.webp 800w\" />\n  <img src=\"/images/home-construction/home-construction-medium.jpg\"\n       srcset=\"/images/home-construction/home-construction-large.jpg 1600w, /images/home-construction/home-construction-medium.jpg 1200w, /images/home-construction/home-construction-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/home-construction/home-construction-large.avif 1600w, /images/home-construction/home-construction-medium.avif 1200w, /images/home-construction/home-construction-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/home-construction/home-construction-large.webp 1600w, /images/home-construction/home-construction-medium.webp 1200w, /images/home-construction/home-construction-small.webp 800w\" />"
+    ],
+    "fallback": "home-construction-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:21.341Z"
+}

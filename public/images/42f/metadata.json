@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/42f.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/42f.webp",
+    "alt": "42f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Aerial view of flooded residential neighborhood",
+      "materials": [
+        "asphalt shingles",
+        "metal roofing",
+        "tile roofing"
+      ],
+      "activity": "documentation",
+      "damageType": "water damage",
+      "people": false,
+      "equipment": [],
+      "weather": "post-storm",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "flood-damage",
+      "water-damage",
+      "residential-roofing",
+      "aerial-view",
+      "storm-damage",
+      "disaster-roofing",
+      "emergency-response",
+      "insurance-documentation"
+    ],
+    "altText": "Aerial view of flooded residential neighborhood showing extensive water damage to homes and roofs",
+    "recommendations": [
+      "Excellent for emergency services and storm damage marketing materials",
+      "Strong visual impact for insurance claim documentation content",
+      "Consider adding overlay text for disaster preparedness campaigns",
+      "Ideal for educational content about flood damage prevention"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "42f-large.avif",
+      "path": "output/fcs-optimized/42f/42f-large.avif",
+      "fileSize": 59121
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "42f-large.webp",
+      "path": "output/fcs-optimized/42f/42f-large.webp",
+      "fileSize": 43416
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "42f-large.jpg",
+      "path": "output/fcs-optimized/42f/42f-large.jpg",
+      "fileSize": 46027
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "42f-medium.avif",
+      "path": "output/fcs-optimized/42f/42f-medium.avif",
+      "fileSize": 59121
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "42f-medium.webp",
+      "path": "output/fcs-optimized/42f/42f-medium.webp",
+      "fileSize": 43416
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "42f-medium.jpg",
+      "path": "output/fcs-optimized/42f/42f-medium.jpg",
+      "fileSize": 46027
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "42f-small.avif",
+      "path": "output/fcs-optimized/42f/42f-small.avif",
+      "fileSize": 59121
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "42f-small.webp",
+      "path": "output/fcs-optimized/42f/42f-small.webp",
+      "fileSize": 43416
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "42f-small.jpg",
+      "path": "output/fcs-optimized/42f/42f-small.jpg",
+      "fileSize": 46027
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/42f/42f-large.avif 1600w, /images/42f/42f-medium.avif 1200w, /images/42f/42f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/42f/42f-large.webp 1600w, /images/42f/42f-medium.webp 1200w, /images/42f/42f-small.webp 800w\" />\n  <img src=\"/images/42f/42f-medium.jpg\"\n       srcset=\"/images/42f/42f-large.jpg 1600w, /images/42f/42f-medium.jpg 1200w, /images/42f/42f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/42f/42f-large.avif 1600w, /images/42f/42f-medium.avif 1200w, /images/42f/42f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/42f/42f-large.webp 1600w, /images/42f/42f-medium.webp 1200w, /images/42f/42f-small.webp 800w\" />"
+    ],
+    "fallback": "42f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:31.142Z"
+}

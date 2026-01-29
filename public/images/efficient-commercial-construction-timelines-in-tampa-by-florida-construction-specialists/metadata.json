@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Efficient-Commercial-Construction-Timelines-in-Tampa-by-Florida-Construction-Specialists.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Efficient-Commercial-Construction-Timelines-in-Tampa-by-Florida-Construction-Specialists.jpg",
+    "alt": "Efficient Commercial Construction Timelines in Tampa by Florida Construction Specialists",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 80,
+      "exposure": 82,
+      "composition": 75,
+      "lighting": 78,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction site inspection meeting",
+      "materials": [
+        "concrete",
+        "scaffolding",
+        "structural framework"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "scaffolding",
+        "safety vests",
+        "hard hats"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-inspection",
+      "commercial-construction",
+      "safety-gear",
+      "project-meeting",
+      "building-interior",
+      "construction-team",
+      "safety-culture",
+      "commercial-project"
+    ],
+    "altText": "Construction team in safety gear inspecting commercial building interior during construction phase",
+    "recommendations": [
+      "Strong team collaboration visual - excellent for 'About Us' or safety culture sections",
+      "Good representation of professional standards with proper PPE",
+      "Consider cropping tighter to emphasize the team interaction",
+      "Ideal for website hero showcasing professional consultation services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.avif",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.avif",
+      "fileSize": 15221
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.webp",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.webp",
+      "fileSize": 15220
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.jpg",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.jpg",
+      "fileSize": 14437
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.avif",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.avif",
+      "fileSize": 15221
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.webp",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.webp",
+      "fileSize": 15220
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.jpg",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.jpg",
+      "fileSize": 14437
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.avif",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.avif",
+      "fileSize": 15221
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.webp",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.webp",
+      "fileSize": 15220
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.jpg",
+      "path": "output/fcs-optimized/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.jpg",
+      "fileSize": 14437
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.avif 1600w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.avif 1200w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.webp 1600w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.webp 1200w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.webp 800w\" />\n  <img src=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.jpg\"\n       srcset=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.jpg 1600w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.jpg 1200w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.avif 1600w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.avif 1200w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-large.webp 1600w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.webp 1200w, /images/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists/efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-small.webp 800w\" />"
+    ],
+    "fallback": "efficient-commercial-construction-timelines-in-tampa-by-florida-construction-specialists-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:34.820Z"
+}

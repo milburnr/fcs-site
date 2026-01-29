@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png",
+    "alt": "Leon County Detention Center Tallahasse",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 78,
+      "composition": 65,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Commercial/institutional building with flat roof",
+      "materials": [
+        "flat roofing system",
+        "commercial roofing membrane"
+      ],
+      "activity": "exterior view - no active work visible",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level - street view",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "flat-roof",
+      "institutional-building",
+      "correctional-facility",
+      "security-fencing",
+      "multi-story-building",
+      "commercial-exterior",
+      "before-photo"
+    ],
+    "altText": "Multi-story commercial building with flat roof and security fencing",
+    "recommendations": [
+      "Image shows building from distance - roof details not clearly visible",
+      "Security fencing and trees obstruct clear view of roofing system",
+      "Better for 'before' project documentation than marketing hero image",
+      "Consider closer perspective to show roof membrane and details",
+      "Good for project gallery as contextual/location shot",
+      "Adequate exposure but composition could highlight roofing features more effectively"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "leon-county-detention-center-tallahasse-display.avif",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.avif",
+      "fileSize": 277831
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "leon-county-detention-center-tallahasse-display.webp",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp",
+      "fileSize": 205736
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "leon-county-detention-center-tallahasse-display.jpg",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.jpg",
+      "fileSize": 246264
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "leon-county-detention-center-tallahasse-grid.avif",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.avif",
+      "fileSize": 91718
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "leon-county-detention-center-tallahasse-grid.webp",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.webp",
+      "fileSize": 65398
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "leon-county-detention-center-tallahasse-grid.jpg",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.jpg",
+      "fileSize": 71000
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "leon-county-detention-center-tallahasse-thumbnail.avif",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.avif",
+      "fileSize": 44439
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "leon-county-detention-center-tallahasse-thumbnail.webp",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.webp",
+      "fileSize": 29260
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "leon-county-detention-center-tallahasse-thumbnail.jpg",
+      "path": "output/fcs-optimized/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.jpg",
+      "fileSize": 32759
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.avif 1200w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.avif 600w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp 1200w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.webp 600w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.webp 400w\" />\n  <img src=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.jpg\"\n       srcset=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.jpg 1200w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.jpg 600w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.avif 1200w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.avif 600w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp 1200w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-grid.webp 600w, /images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "leon-county-detention-center-tallahasse-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:17:27.115Z"
+}

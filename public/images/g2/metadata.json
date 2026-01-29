@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/g2.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g2.jpg",
+    "alt": "g",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 90,
+      "composition": 75,
+      "lighting": 88,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Hurricane storm damage to residential properties",
+      "materials": [
+        "wood framing",
+        "debris",
+        "structural materials"
+      ],
+      "activity": "damage assessment",
+      "damageType": "wind damage, water damage, catastrophic storm damage",
+      "people": false,
+      "equipment": null,
+      "weather": "sunny",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "hurricane-damage",
+      "storm-damage",
+      "wind-damage",
+      "residential-damage",
+      "catastrophic-loss",
+      "insurance-claim",
+      "disaster-restoration",
+      "debris-field"
+    ],
+    "altText": "Severe hurricane damage to residential homes with extensive debris and destroyed structures",
+    "recommendations": [
+      "Good documentation of catastrophic storm damage",
+      "Useful for insurance claim documentation and disaster restoration marketing",
+      "Consider adding before/after comparison if available",
+      "Strong educational content for storm preparedness materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g2-large.avif",
+      "path": "output/fcs-optimized/g2/g2-large.avif",
+      "fileSize": 109189
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g2-large.webp",
+      "path": "output/fcs-optimized/g2/g2-large.webp",
+      "fileSize": 72186
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g2-large.jpg",
+      "path": "output/fcs-optimized/g2/g2-large.jpg",
+      "fileSize": 87447
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g2-medium.avif",
+      "path": "output/fcs-optimized/g2/g2-medium.avif",
+      "fileSize": 109189
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g2-medium.webp",
+      "path": "output/fcs-optimized/g2/g2-medium.webp",
+      "fileSize": 72186
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g2-medium.jpg",
+      "path": "output/fcs-optimized/g2/g2-medium.jpg",
+      "fileSize": 87447
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g2-small.avif",
+      "path": "output/fcs-optimized/g2/g2-small.avif",
+      "fileSize": 109189
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g2-small.webp",
+      "path": "output/fcs-optimized/g2/g2-small.webp",
+      "fileSize": 72186
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g2-small.jpg",
+      "path": "output/fcs-optimized/g2/g2-small.jpg",
+      "fileSize": 87447
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/g2/g2-large.avif 1600w, /images/g2/g2-medium.avif 1200w, /images/g2/g2-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/g2/g2-large.webp 1600w, /images/g2/g2-medium.webp 1200w, /images/g2/g2-small.webp 800w\" />\n  <img src=\"/images/g2/g2-medium.jpg\"\n       srcset=\"/images/g2/g2-large.jpg 1600w, /images/g2/g2-medium.jpg 1200w, /images/g2/g2-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/g2/g2-large.avif 1600w, /images/g2/g2-medium.avif 1200w, /images/g2/g2-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/g2/g2-large.webp 1600w, /images/g2/g2-medium.webp 1200w, /images/g2/g2-small.webp 800w\" />"
+    ],
+    "fallback": "g2-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:00.510Z"
+}

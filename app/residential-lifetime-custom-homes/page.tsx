@@ -60,7 +60,7 @@ export default function ResidentialCustomHomesPage() {
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark">
-          <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/custom-home-construction-2.jpg')] bg-cover bg-center opacity-30" />
+          <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-large.webp')] bg-cover bg-center opacity-30" />
         </div>
 
         <div className="absolute bottom-0 left-0 right-0">

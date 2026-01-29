@@ -1,0 +1,146 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-5.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "High-rise construction site with tower cranes",
+      "materials": [],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower cranes",
+        "construction cranes"
+      ],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "construction-site",
+      "tower-cranes",
+      "high-rise-construction",
+      "commercial-building",
+      "urban-development",
+      "not-roofing-related"
+    ],
+    "altText": "Multiple tower cranes at high-rise construction site against cloudy sky",
+    "recommendations": [
+      "Image shows general construction, not roofing work - not relevant for roofing contractor portfolio",
+      "No visible roofing materials, activities, or roofing-specific equipment",
+      "Buildings appear to be structural/framing phase, not roofing phase",
+      "Archive only - not suitable for roofing contractor marketing materials",
+      "Consider replacing with actual roofing project photos showing installation, materials, or completed roofs"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-5-display.avif",
+      "path": "output/fcs-optimized/download-5/download-5-display.avif",
+      "fileSize": 13086
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-5-display.webp",
+      "path": "output/fcs-optimized/download-5/download-5-display.webp",
+      "fileSize": 13836
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-5-display.jpg",
+      "path": "output/fcs-optimized/download-5/download-5-display.jpg",
+      "fileSize": 12681
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-5-grid.avif",
+      "path": "output/fcs-optimized/download-5/download-5-grid.avif",
+      "fileSize": 32865
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-5-grid.webp",
+      "path": "output/fcs-optimized/download-5/download-5-grid.webp",
+      "fileSize": 29462
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-5-grid.jpg",
+      "path": "output/fcs-optimized/download-5/download-5-grid.jpg",
+      "fileSize": 39489
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-5-thumbnail.avif",
+      "path": "output/fcs-optimized/download-5/download-5-thumbnail.avif",
+      "fileSize": 26112
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-5-thumbnail.webp",
+      "path": "output/fcs-optimized/download-5/download-5-thumbnail.webp",
+      "fileSize": 19788
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-5-thumbnail.jpg",
+      "path": "output/fcs-optimized/download-5/download-5-thumbnail.jpg",
+      "fileSize": 24165
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-5/download-5-display.avif 1200w, /images/download-5/download-5-grid.avif 600w, /images/download-5/download-5-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-5/download-5-display.webp 1200w, /images/download-5/download-5-grid.webp 600w, /images/download-5/download-5-thumbnail.webp 400w\" />\n  <img src=\"/images/download-5/download-5-grid.jpg\"\n       srcset=\"/images/download-5/download-5-display.jpg 1200w, /images/download-5/download-5-grid.jpg 600w, /images/download-5/download-5-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-5/download-5-display.avif 1200w, /images/download-5/download-5-grid.avif 600w, /images/download-5/download-5-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-5/download-5-display.webp 1200w, /images/download-5/download-5-grid.webp 600w, /images/download-5/download-5-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "download-5-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:08.107Z"
+}

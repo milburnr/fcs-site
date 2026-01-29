@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e9.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e9.jpeg",
+    "alt": "e",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 60,
+      "composition": 80,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning and site consultation",
+      "materials": [
+        "traditional roofing",
+        "brick"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "safety helmets",
+        "blueprints",
+        "measuring tools",
+        "hard hats"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "roof-inspection",
+      "contractor-consultation",
+      "planning-phase",
+      "safety-equipment",
+      "client-meeting",
+      "project-planning",
+      "traditional-roof"
+    ],
+    "altText": "Roofing contractors consulting with client on residential roof inspection and planning",
+    "recommendations": [
+      "Overexposed highlights (sun flare) reduce technical quality - shoot during different time or angle",
+      "Foreground tools/equipment create good depth and context",
+      "Good for 'consultation process' or 'customer service' marketing content",
+      "Focus on background subjects is soft - could benefit from deeper depth of field",
+      "Shows professional safety practices (hard hats) - good safety messaging"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e9-display.avif",
+      "path": "output/fcs-optimized/e9/e9-display.avif",
+      "fileSize": 56111
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e9-display.webp",
+      "path": "output/fcs-optimized/e9/e9-display.webp",
+      "fileSize": 43812
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e9-display.jpg",
+      "path": "output/fcs-optimized/e9/e9-display.jpg",
+      "fileSize": 62410
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e9-grid.avif",
+      "path": "output/fcs-optimized/e9/e9-grid.avif",
+      "fileSize": 48774
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e9-grid.webp",
+      "path": "output/fcs-optimized/e9/e9-grid.webp",
+      "fileSize": 31292
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e9-grid.jpg",
+      "path": "output/fcs-optimized/e9/e9-grid.jpg",
+      "fileSize": 50913
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e9-thumbnail.avif",
+      "path": "output/fcs-optimized/e9/e9-thumbnail.avif",
+      "fileSize": 31095
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e9-thumbnail.webp",
+      "path": "output/fcs-optimized/e9/e9-thumbnail.webp",
+      "fileSize": 19288
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e9-thumbnail.jpg",
+      "path": "output/fcs-optimized/e9/e9-thumbnail.jpg",
+      "fileSize": 28806
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e9/e9-display.avif 1200w, /images/e9/e9-grid.avif 600w, /images/e9/e9-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/e9/e9-display.webp 1200w, /images/e9/e9-grid.webp 600w, /images/e9/e9-thumbnail.webp 400w\" />\n  <img src=\"/images/e9/e9-grid.jpg\"\n       srcset=\"/images/e9/e9-display.jpg 1200w, /images/e9/e9-grid.jpg 600w, /images/e9/e9-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e9/e9-display.avif 1200w, /images/e9/e9-grid.avif 600w, /images/e9/e9-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e9/e9-display.webp 1200w, /images/e9/e9-grid.webp 600w, /images/e9/e9-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "e9-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:42.127Z"
+}

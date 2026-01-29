@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/h2.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/h2.png",
+    "alt": "h",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 70,
+      "exposure": 80,
+      "composition": 85,
+      "lighting": 75,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Augmented Reality construction planning on tablet device",
+      "materials": [
+        "floor plan overlay",
+        "thermal imaging display",
+        "exposed wood framing"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tablet device",
+        "AR software",
+        "thermal camera display"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up product shot",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "ar-technology",
+      "construction-tech",
+      "digital-inspection",
+      "floor-plan",
+      "thermal-imaging",
+      "innovation",
+      "tablet-software",
+      "renovation-planning",
+      "tech-tools"
+    ],
+    "altText": "AR tablet showing floor plan overlay and thermal imaging during construction inspection",
+    "recommendations": [
+      "Excellent for showcasing technology and innovation in roofing/construction",
+      "Perfect hero image for digital services or inspection technology pages",
+      "Strong marketing value demonstrating modern, professional approach",
+      "Consider higher resolution capture for maximum clarity on large displays",
+      "Ideal for 'Our Technology' or 'Digital Inspection Services' sections"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h2-large.avif",
+      "path": "output/fcs-optimized/h2/h2-large.avif",
+      "fileSize": 156983
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h2-large.webp",
+      "path": "output/fcs-optimized/h2/h2-large.webp",
+      "fileSize": 75402
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h2-large.jpg",
+      "path": "output/fcs-optimized/h2/h2-large.jpg",
+      "fileSize": 109185
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h2-medium.avif",
+      "path": "output/fcs-optimized/h2/h2-medium.avif",
+      "fileSize": 156983
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h2-medium.webp",
+      "path": "output/fcs-optimized/h2/h2-medium.webp",
+      "fileSize": 75402
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h2-medium.jpg",
+      "path": "output/fcs-optimized/h2/h2-medium.jpg",
+      "fileSize": 109185
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h2-small.avif",
+      "path": "output/fcs-optimized/h2/h2-small.avif",
+      "fileSize": 62360
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h2-small.webp",
+      "path": "output/fcs-optimized/h2/h2-small.webp",
+      "fileSize": 44468
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h2-small.jpg",
+      "path": "output/fcs-optimized/h2/h2-small.jpg",
+      "fileSize": 68155
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/h2/h2-large.avif 1600w, /images/h2/h2-medium.avif 1200w, /images/h2/h2-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/h2/h2-large.webp 1600w, /images/h2/h2-medium.webp 1200w, /images/h2/h2-small.webp 800w\" />\n  <img src=\"/images/h2/h2-medium.jpg\"\n       srcset=\"/images/h2/h2-large.jpg 1600w, /images/h2/h2-medium.jpg 1200w, /images/h2/h2-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/h2/h2-large.avif 1600w, /images/h2/h2-medium.avif 1200w, /images/h2/h2-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/h2/h2-large.webp 1600w, /images/h2/h2-medium.webp 1200w, /images/h2/h2-small.webp 800w\" />"
+    ],
+    "fallback": "h2-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:31.511Z"
+}

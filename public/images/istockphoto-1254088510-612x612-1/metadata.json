@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1254088510-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1254088510-612x612-1.jpg",
+    "alt": "istockphoto 1254088510 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Roof coating application with push broom",
+      "materials": [
+        "roof coating",
+        "concrete tile roof",
+        "white elastomeric coating"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "push broom",
+        "applicator brush"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roof-coating",
+      "tile-roof-maintenance",
+      "white-coating",
+      "reflective-coating",
+      "residential-roofing",
+      "energy-efficient",
+      "roof-restoration",
+      "preventive-maintenance",
+      "concrete-tile"
+    ],
+    "altText": "White reflective roof coating being applied to concrete tile roof with push broom",
+    "recommendations": [
+      "Excellent detail showing coating application technique",
+      "Clear contrast between coated and uncoated tiles demonstrates product effectiveness",
+      "Perfect for service pages highlighting roof coating and restoration",
+      "Strong visual for energy-efficiency and cool roof marketing materials",
+      "Could be used in before/during comparison sequences"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1254088510-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.avif",
+      "fileSize": 50080
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1254088510-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.webp",
+      "fileSize": 48842
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1254088510-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.jpg",
+      "fileSize": 53610
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1254088510-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.avif",
+      "fileSize": 50080
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1254088510-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.webp",
+      "fileSize": 48842
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1254088510-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.jpg",
+      "fileSize": 53610
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1254088510-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.avif",
+      "fileSize": 50080
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1254088510-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.webp",
+      "fileSize": 48842
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1254088510-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.jpg",
+      "fileSize": 53610
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.avif 1600w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.avif 1200w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.webp 1600w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.webp 1200w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.jpg 1600w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.jpg 1200w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.avif 1600w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.avif 1200w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-large.webp 1600w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-medium.webp 1200w, /images/istockphoto-1254088510-612x612-1/istockphoto-1254088510-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1254088510-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:02.243Z"
+}

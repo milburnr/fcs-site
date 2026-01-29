@@ -1,0 +1,179 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/office-building-14.jpg.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/office-building-14.jpg.webp",
+    "alt": "office building 14.jpg",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 92,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern commercial medical facility with flat/low-slope roofing system",
+      "materials": [
+        "TPO or single-ply membrane",
+        "metal panels",
+        "glass curtain wall",
+        "stucco/EIFS exterior"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny with clear blue sky",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "medical-facility",
+      "flat-roof",
+      "completed-project",
+      "modern-architecture",
+      "healthcare-building",
+      "desert-landscaping",
+      "professional-photography",
+      "hero-image",
+      "portfolio-quality"
+    ],
+    "altText": "Modern commercial medical facility with flat roofing system and contemporary design",
+    "recommendations": [
+      "Exceptional professional photography - ideal for hero/banner placement",
+      "Perfect lighting showcases building architecture and roofing work",
+      "Excellent for portfolio, website homepage, or marketing materials",
+      "Shows completed commercial roofing project in best light",
+      "Landscape design complements building - great for full project showcase"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "office-building-14-jpg-xl.avif",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-xl.avif",
+      "fileSize": 231343
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "office-building-14-jpg-xl.webp",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-xl.webp",
+      "fileSize": 197518
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "office-building-14-jpg-xl.jpg",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-xl.jpg",
+      "fileSize": 384246
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "office-building-14-jpg-large.avif",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-large.avif",
+      "fileSize": 185497
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "office-building-14-jpg-large.webp",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-large.webp",
+      "fileSize": 148272
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "office-building-14-jpg-large.jpg",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-large.jpg",
+      "fileSize": 264091
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "office-building-14-jpg-medium.avif",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-medium.avif",
+      "fileSize": 134968
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "office-building-14-jpg-medium.webp",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-medium.webp",
+      "fileSize": 96066
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "office-building-14-jpg-medium.jpg",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-medium.jpg",
+      "fileSize": 155354
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "office-building-14-jpg-small.avif",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-small.avif",
+      "fileSize": 106129
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "office-building-14-jpg-small.webp",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-small.webp",
+      "fileSize": 71064
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "office-building-14-jpg-small.jpg",
+      "path": "output/fcs-optimized/office-building-14-jpg/office-building-14-jpg-small.jpg",
+      "fileSize": 105807
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/office-building-14-jpg/office-building-14-jpg-xl.avif 2560w, /images/office-building-14-jpg/office-building-14-jpg-large.avif 1920w, /images/office-building-14-jpg/office-building-14-jpg-medium.avif 1280w, /images/office-building-14-jpg/office-building-14-jpg-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/office-building-14-jpg/office-building-14-jpg-xl.webp 2560w, /images/office-building-14-jpg/office-building-14-jpg-large.webp 1920w, /images/office-building-14-jpg/office-building-14-jpg-medium.webp 1280w, /images/office-building-14-jpg/office-building-14-jpg-small.webp 960w\" />\n  <img src=\"/images/office-building-14-jpg/office-building-14-jpg-medium.jpg\"\n       srcset=\"/images/office-building-14-jpg/office-building-14-jpg-xl.jpg 2560w, /images/office-building-14-jpg/office-building-14-jpg-large.jpg 1920w, /images/office-building-14-jpg/office-building-14-jpg-medium.jpg 1280w, /images/office-building-14-jpg/office-building-14-jpg-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/office-building-14-jpg/office-building-14-jpg-xl.avif 2560w, /images/office-building-14-jpg/office-building-14-jpg-large.avif 1920w, /images/office-building-14-jpg/office-building-14-jpg-medium.avif 1280w, /images/office-building-14-jpg/office-building-14-jpg-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/office-building-14-jpg/office-building-14-jpg-xl.webp 2560w, /images/office-building-14-jpg/office-building-14-jpg-large.webp 1920w, /images/office-building-14-jpg/office-building-14-jpg-medium.webp 1280w, /images/office-building-14-jpg/office-building-14-jpg-small.webp 960w\" />"
+    ],
+    "fallback": "office-building-14-jpg-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:00.047Z"
+}

@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/g5.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g5.webp",
+    "alt": "g",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction manager reviewing blueprints at building site",
+      "materials": [
+        "wood framing",
+        "roof trusses"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hard hat",
+        "safety vest",
+        "blueprints"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "roof-framing",
+      "blueprint-review",
+      "safety-compliance",
+      "residential-construction",
+      "project-management",
+      "building-inspection",
+      "new-construction"
+    ],
+    "altText": "Construction manager in hard hat reviewing blueprints at residential roof framing site",
+    "recommendations": [
+      "Good for 'Our Process' or 'Planning & Inspection' sections",
+      "Shows professional planning aspect of roofing projects",
+      "Could benefit from slightly brighter exposure",
+      "Strong safety compliance messaging with PPE visible",
+      "Better suited for inline content than hero image due to indirect roofing focus"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g5-large.avif",
+      "path": "output/fcs-optimized/g5/g5-large.avif",
+      "fileSize": 87448
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g5-large.webp",
+      "path": "output/fcs-optimized/g5/g5-large.webp",
+      "fileSize": 57736
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g5-large.jpg",
+      "path": "output/fcs-optimized/g5/g5-large.jpg",
+      "fileSize": 108690
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g5-medium.avif",
+      "path": "output/fcs-optimized/g5/g5-medium.avif",
+      "fileSize": 87448
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g5-medium.webp",
+      "path": "output/fcs-optimized/g5/g5-medium.webp",
+      "fileSize": 57736
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g5-medium.jpg",
+      "path": "output/fcs-optimized/g5/g5-medium.jpg",
+      "fileSize": 108690
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g5-small.avif",
+      "path": "output/fcs-optimized/g5/g5-small.avif",
+      "fileSize": 64508
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g5-small.webp",
+      "path": "output/fcs-optimized/g5/g5-small.webp",
+      "fileSize": 46078
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g5-small.jpg",
+      "path": "output/fcs-optimized/g5/g5-small.jpg",
+      "fileSize": 76139
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/g5/g5-large.avif 1600w, /images/g5/g5-medium.avif 1200w, /images/g5/g5-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/g5/g5-large.webp 1600w, /images/g5/g5-medium.webp 1200w, /images/g5/g5-small.webp 800w\" />\n  <img src=\"/images/g5/g5-medium.jpg\"\n       srcset=\"/images/g5/g5-large.jpg 1600w, /images/g5/g5-medium.jpg 1200w, /images/g5/g5-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/g5/g5-large.avif 1600w, /images/g5/g5-medium.avif 1200w, /images/g5/g5-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/g5/g5-large.webp 1600w, /images/g5/g5-medium.webp 1200w, /images/g5/g5-small.webp 800w\" />"
+    ],
+    "fallback": "g5-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:09.833Z"
+}

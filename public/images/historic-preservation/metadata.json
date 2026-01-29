@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/historic-preservation.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/historic-preservation.jpg",
+    "alt": "historic preservation",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic ornate brick building with dome and tower",
+      "materials": [
+        "brick",
+        "decorative masonry",
+        "dome roofing",
+        "ornamental stonework"
+      ],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "historic-building",
+      "brick-masonry",
+      "dome-architecture",
+      "commercial-building",
+      "ornate-facade",
+      "theater",
+      "vintage-architecture",
+      "not-roofing-related"
+    ],
+    "altText": "Historic brick theater building with ornate dome and tower at sunset",
+    "recommendations": [
+      "Image does not show roofing work, installation, or repair activities",
+      "Not suitable for roofing contractor marketing materials",
+      "Consider replacing with actual roofing project photography",
+      "Image shows architectural heritage but lacks roofing contractor relevance",
+      "Archive only - not recommended for commercial roofing portfolio"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-display.avif",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-display.avif",
+      "fileSize": 248388
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-display.webp",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-display.webp",
+      "fileSize": 157868
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-display.jpg",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-display.jpg",
+      "fileSize": 197913
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-grid.avif",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-grid.avif",
+      "fileSize": 64124
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-grid.webp",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-grid.webp",
+      "fileSize": 39480
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-grid.jpg",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-grid.jpg",
+      "fileSize": 51311
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-thumbnail.avif",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-thumbnail.avif",
+      "fileSize": 30557
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-thumbnail.webp",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-thumbnail.webp",
+      "fileSize": 18364
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-thumbnail.jpg",
+      "path": "output/fcs-optimized/historic-preservation/historic-preservation-thumbnail.jpg",
+      "fileSize": 24390
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/historic-preservation/historic-preservation-display.avif 1200w, /images/historic-preservation/historic-preservation-grid.avif 600w, /images/historic-preservation/historic-preservation-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/historic-preservation/historic-preservation-display.webp 1200w, /images/historic-preservation/historic-preservation-grid.webp 600w, /images/historic-preservation/historic-preservation-thumbnail.webp 400w\" />\n  <img src=\"/images/historic-preservation/historic-preservation-grid.jpg\"\n       srcset=\"/images/historic-preservation/historic-preservation-display.jpg 1200w, /images/historic-preservation/historic-preservation-grid.jpg 600w, /images/historic-preservation/historic-preservation-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/historic-preservation/historic-preservation-display.avif 1200w, /images/historic-preservation/historic-preservation-grid.avif 600w, /images/historic-preservation/historic-preservation-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/historic-preservation/historic-preservation-display.webp 1200w, /images/historic-preservation/historic-preservation-grid.webp 600w, /images/historic-preservation/historic-preservation-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "historic-preservation-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:14.622Z"
+}

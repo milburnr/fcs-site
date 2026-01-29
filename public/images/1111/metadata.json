@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/1111.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1111.jpg",
+    "alt": "Historic church building restoration with scaffolding and clay tile roof repair in progress",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 80,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Historic building restoration with scaffolding",
+      "materials": [
+        "clay tile",
+        "stone masonry",
+        "traditional roofing tiles"
+      ],
+      "activity": "restoration",
+      "damageType": "aging",
+      "people": false,
+      "equipment": [
+        "scaffolding",
+        "safety barriers",
+        "protective screening"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "historic-restoration",
+      "clay-tile-roofing",
+      "scaffolding",
+      "commercial-restoration",
+      "heritage-building",
+      "masonry-work",
+      "tile-roof-repair",
+      "church-restoration"
+    ],
+    "altText": "Historic church building restoration with scaffolding and clay tile roof repair in progress",
+    "recommendations": [
+      "Excellent showcase of heritage/historic restoration capabilities",
+      "Strong composition with clear view of scope and safety measures",
+      "Perfect for portfolio demonstrating expertise in specialty restoration projects",
+      "Could be used in heritage preservation or commercial restoration marketing materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "1111-large.avif",
+      "path": "output/fcs-optimized/1111/1111-large.avif",
+      "fileSize": 55703
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "1111-large.webp",
+      "path": "output/fcs-optimized/1111/1111-large.webp",
+      "fileSize": 53952
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "1111-large.jpg",
+      "path": "output/fcs-optimized/1111/1111-large.jpg",
+      "fileSize": 56475
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "1111-medium.avif",
+      "path": "output/fcs-optimized/1111/1111-medium.avif",
+      "fileSize": 55703
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "1111-medium.webp",
+      "path": "output/fcs-optimized/1111/1111-medium.webp",
+      "fileSize": 53952
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "1111-medium.jpg",
+      "path": "output/fcs-optimized/1111/1111-medium.jpg",
+      "fileSize": 56475
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "1111-small.avif",
+      "path": "output/fcs-optimized/1111/1111-small.avif",
+      "fileSize": 55703
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "1111-small.webp",
+      "path": "output/fcs-optimized/1111/1111-small.webp",
+      "fileSize": 53952
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "1111-small.jpg",
+      "path": "output/fcs-optimized/1111/1111-small.jpg",
+      "fileSize": 56475
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/1111/1111-large.avif 1600w, /images/1111/1111-medium.avif 1200w, /images/1111/1111-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/1111/1111-large.webp 1600w, /images/1111/1111-medium.webp 1200w, /images/1111/1111-small.webp 800w\" />\n  <img src=\"/images/1111/1111-medium.jpg\"\n       srcset=\"/images/1111/1111-large.jpg 1600w, /images/1111/1111-medium.jpg 1200w, /images/1111/1111-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/1111/1111-large.avif 1600w, /images/1111/1111-medium.avif 1200w, /images/1111/1111-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/1111/1111-large.webp 1600w, /images/1111/1111-medium.webp 1200w, /images/1111/1111-small.webp 800w\" />"
+    ],
+    "fallback": "1111-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:22.940Z"
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/1.5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.5.jpg",
+    "alt": "1.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Search and rescue training or disaster response scenario",
+      "materials": [
+        "concrete",
+        "debris",
+        "damaged staircase"
+      ],
+      "activity": "inspection",
+      "damageType": "structural damage",
+      "people": true,
+      "equipment": [
+        "safety helmet",
+        "high-visibility vest",
+        "safety harness"
+      ],
+      "weather": "indoor",
+      "perspective": "elevated",
+      "timeOfDay": "indoors"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing",
+      "structural-damage",
+      "safety-training",
+      "disaster-response",
+      "building-collapse",
+      "rescue-worker"
+    ],
+    "altText": "NOT ROOFING CONTENT - Rescue workers inspecting damaged building structure",
+    "recommendations": [
+      "ERROR: This image does not contain roofing-related content",
+      "Image shows interior structural damage/collapse scenario",
+      "Not suitable for roofing contractor marketing materials",
+      "Consider removing from roofing image collection",
+      "This appears to be emergency response or disaster training content"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-5-display.avif",
+      "path": "output/fcs-optimized/1-5/1-5-display.avif",
+      "fileSize": 52094
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-5-display.webp",
+      "path": "output/fcs-optimized/1-5/1-5-display.webp",
+      "fileSize": 48322
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-5-display.jpg",
+      "path": "output/fcs-optimized/1-5/1-5-display.jpg",
+      "fileSize": 55656
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-5-grid.avif",
+      "path": "output/fcs-optimized/1-5/1-5-grid.avif",
+      "fileSize": 73646
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-5-grid.webp",
+      "path": "output/fcs-optimized/1-5/1-5-grid.webp",
+      "fileSize": 46410
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-5-grid.jpg",
+      "path": "output/fcs-optimized/1-5/1-5-grid.jpg",
+      "fileSize": 61182
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-5-thumbnail.avif",
+      "path": "output/fcs-optimized/1-5/1-5-thumbnail.avif",
+      "fileSize": 42786
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-5-thumbnail.webp",
+      "path": "output/fcs-optimized/1-5/1-5-thumbnail.webp",
+      "fileSize": 25836
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-5-thumbnail.jpg",
+      "path": "output/fcs-optimized/1-5/1-5-thumbnail.jpg",
+      "fileSize": 32424
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/1-5/1-5-display.avif 1200w, /images/1-5/1-5-grid.avif 600w, /images/1-5/1-5-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/1-5/1-5-display.webp 1200w, /images/1-5/1-5-grid.webp 600w, /images/1-5/1-5-thumbnail.webp 400w\" />\n  <img src=\"/images/1-5/1-5-grid.jpg\"\n       srcset=\"/images/1-5/1-5-display.jpg 1200w, /images/1-5/1-5-grid.jpg 600w, /images/1-5/1-5-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/1-5/1-5-display.avif 1200w, /images/1-5/1-5-grid.avif 600w, /images/1-5/1-5-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/1-5/1-5-display.webp 1200w, /images/1-5/1-5-grid.webp 600w, /images/1-5/1-5-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "1-5-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:15.001Z"
+}

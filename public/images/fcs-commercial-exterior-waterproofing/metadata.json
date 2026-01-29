@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/FCS-commercial-exterior-waterproofing.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/FCS-commercial-exterior-waterproofing.png",
+    "alt": "FCS commercial exterior waterproofing",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Exterior wall painting and preparation",
+      "materials": [
+        "stucco",
+        "paint",
+        "painter's tape",
+        "masking tape"
+      ],
+      "activity": "painting",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "spray paint gun",
+        "painter's tape",
+        "putty knife"
+      ],
+      "weather": "sunny",
+      "perspective": "close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "exterior-painting",
+      "stucco-painting",
+      "surface-preparation",
+      "masking-tape",
+      "spray-painting",
+      "detail-work",
+      "residential-painting",
+      "wall-coating"
+    ],
+    "altText": "Worker applying paint to textured stucco exterior wall with spray gun and masking tape",
+    "recommendations": [
+      "Good detail shot showing proper masking technique",
+      "Shows professional protective gloves - demonstrates safety practices",
+      "Could use slightly tighter composition to reduce empty space on right",
+      "Good for showcasing attention to detail in exterior painting services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-commercial-exterior-waterproofing-large.avif",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.avif",
+      "fileSize": 85167
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-commercial-exterior-waterproofing-large.webp",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.webp",
+      "fileSize": 60020
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-commercial-exterior-waterproofing-large.jpg",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.jpg",
+      "fileSize": 79557
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-commercial-exterior-waterproofing-medium.avif",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.avif",
+      "fileSize": 85167
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-commercial-exterior-waterproofing-medium.webp",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.webp",
+      "fileSize": 60020
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-commercial-exterior-waterproofing-medium.jpg",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.jpg",
+      "fileSize": 79557
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-commercial-exterior-waterproofing-small.avif",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.avif",
+      "fileSize": 85167
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-commercial-exterior-waterproofing-small.webp",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.webp",
+      "fileSize": 60020
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-commercial-exterior-waterproofing-small.jpg",
+      "path": "output/fcs-optimized/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.jpg",
+      "fileSize": 79557
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.avif 1600w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.avif 1200w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.webp 1600w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.webp 1200w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.webp 800w\" />\n  <img src=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.jpg\"\n       srcset=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.jpg 1600w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.jpg 1200w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.avif 1600w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.avif 1200w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-large.webp 1600w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-medium.webp 1200w, /images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-small.webp 800w\" />"
+    ],
+    "fallback": "fcs-commercial-exterior-waterproofing-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:16:34.318Z"
+}

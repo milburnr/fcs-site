@@ -1,0 +1,177 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/image.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/image.png",
+    "alt": "image",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 95,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Luxury residential home with multi-hip roof system",
+      "materials": [
+        "asphalt shingles",
+        "architectural shingles"
+      ],
+      "activity": "completed installation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "architectural-shingles",
+      "luxury-home",
+      "hip-roof",
+      "completed-project",
+      "curb-appeal",
+      "modern-architecture",
+      "gray-roof",
+      "showcase-quality",
+      "hero-image"
+    ],
+    "altText": "Luxury home with gray architectural shingle hip roof and landscaped driveway",
+    "recommendations": [
+      "Exceptional composition - ideal for hero/banner image on homepage",
+      "Perfect lighting showcases roof texture and color",
+      "Professional landscaping enhances overall presentation",
+      "Excellent for residential portfolio and marketing materials",
+      "Use in before/after comparisons or project showcase galleries"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "image-xl.avif",
+      "path": "output/fcs-optimized/image/image-xl.avif",
+      "fileSize": 168125
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "image-xl.webp",
+      "path": "output/fcs-optimized/image/image-xl.webp",
+      "fileSize": 162130
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "image-xl.jpg",
+      "path": "output/fcs-optimized/image/image-xl.jpg",
+      "fileSize": 342008
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "image-large.avif",
+      "path": "output/fcs-optimized/image/image-large.avif",
+      "fileSize": 133394
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "image-large.webp",
+      "path": "output/fcs-optimized/image/image-large.webp",
+      "fileSize": 122558
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "image-large.jpg",
+      "path": "output/fcs-optimized/image/image-large.jpg",
+      "fileSize": 232097
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "image-medium.avif",
+      "path": "output/fcs-optimized/image/image-medium.avif",
+      "fileSize": 97083
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "image-medium.webp",
+      "path": "output/fcs-optimized/image/image-medium.webp",
+      "fileSize": 78450
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "image-medium.jpg",
+      "path": "output/fcs-optimized/image/image-medium.jpg",
+      "fileSize": 135077
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "image-small.avif",
+      "path": "output/fcs-optimized/image/image-small.avif",
+      "fileSize": 74119
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "image-small.webp",
+      "path": "output/fcs-optimized/image/image-small.webp",
+      "fileSize": 58294
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "image-small.jpg",
+      "path": "output/fcs-optimized/image/image-small.jpg",
+      "fileSize": 90454
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/image/image-xl.avif 2560w, /images/image/image-large.avif 1920w, /images/image/image-medium.avif 1280w, /images/image/image-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/image/image-xl.webp 2560w, /images/image/image-large.webp 1920w, /images/image/image-medium.webp 1280w, /images/image/image-small.webp 960w\" />\n  <img src=\"/images/image/image-medium.jpg\"\n       srcset=\"/images/image/image-xl.jpg 2560w, /images/image/image-large.jpg 1920w, /images/image/image-medium.jpg 1280w, /images/image/image-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/image/image-xl.avif 2560w, /images/image/image-large.avif 1920w, /images/image/image-medium.avif 1280w, /images/image/image-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/image/image-xl.webp 2560w, /images/image/image-large.webp 1920w, /images/image/image-medium.webp 1280w, /images/image/image-small.webp 960w\" />"
+    ],
+    "fallback": "image-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:29:18.098Z"
+}

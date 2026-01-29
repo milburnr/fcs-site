@@ -1,0 +1,141 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/placeholder-1.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/placeholder-1.png",
+    "alt": "placeholder",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 0,
+      "focus": 0,
+      "exposure": 0,
+      "composition": 0,
+      "lighting": 0,
+      "marketingValue": "low"
+    },
+    "content": {
+      "subject": "placeholder image",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "unknown",
+      "perspective": "none",
+      "timeOfDay": "unknown"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "placeholder",
+      "no-content",
+      "generic-image",
+      "unusable",
+      "archive-only"
+    ],
+    "altText": "Placeholder image with no roofing content",
+    "recommendations": [
+      "This is a placeholder/default image with no actual roofing content",
+      "Replace with actual roofing project photography",
+      "Not suitable for any marketing or professional use",
+      "No technical roofing elements visible to analyze"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "placeholder-1-display.avif",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-display.avif",
+      "fileSize": 2294
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "placeholder-1-display.webp",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-display.webp",
+      "fileSize": 3778
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "placeholder-1-display.jpg",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-display.jpg",
+      "fileSize": 8291
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "placeholder-1-grid.avif",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-grid.avif",
+      "fileSize": 1402
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "placeholder-1-grid.webp",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-grid.webp",
+      "fileSize": 1542
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "placeholder-1-grid.jpg",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-grid.jpg",
+      "fileSize": 3773
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "placeholder-1-thumbnail.avif",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-thumbnail.avif",
+      "fileSize": 1079
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "placeholder-1-thumbnail.webp",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-thumbnail.webp",
+      "fileSize": 972
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "placeholder-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/placeholder-1/placeholder-1-thumbnail.jpg",
+      "fileSize": 2463
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/placeholder-1/placeholder-1-display.avif 1200w, /images/placeholder-1/placeholder-1-grid.avif 600w, /images/placeholder-1/placeholder-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/placeholder-1/placeholder-1-display.webp 1200w, /images/placeholder-1/placeholder-1-grid.webp 600w, /images/placeholder-1/placeholder-1-thumbnail.webp 400w\" />\n  <img src=\"/images/placeholder-1/placeholder-1-grid.jpg\"\n       srcset=\"/images/placeholder-1/placeholder-1-display.jpg 1200w, /images/placeholder-1/placeholder-1-grid.jpg 600w, /images/placeholder-1/placeholder-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/placeholder-1/placeholder-1-display.avif 1200w, /images/placeholder-1/placeholder-1-grid.avif 600w, /images/placeholder-1/placeholder-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/placeholder-1/placeholder-1-display.webp 1200w, /images/placeholder-1/placeholder-1-grid.webp 600w, /images/placeholder-1/placeholder-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "placeholder-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:00.692Z"
+}

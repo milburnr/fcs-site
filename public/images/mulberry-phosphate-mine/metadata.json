@@ -1,0 +1,101 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/Mulberry-Phosphate-Mine.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Mulberry-Phosphate-Mine.png",
+    "alt": "Mulberry Phosphate Mine",
+    "context": "content"
+  },
+  "analysis": null,
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "mulberry-phosphate-mine-display.avif",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-display.avif",
+      "fileSize": 265056
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "mulberry-phosphate-mine-display.webp",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-display.webp",
+      "fileSize": 172094
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "mulberry-phosphate-mine-display.jpg",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-display.jpg",
+      "fileSize": 212586
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "mulberry-phosphate-mine-grid.avif",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.avif",
+      "fileSize": 73087
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "mulberry-phosphate-mine-grid.webp",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.webp",
+      "fileSize": 42980
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "mulberry-phosphate-mine-grid.jpg",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.jpg",
+      "fileSize": 54039
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "mulberry-phosphate-mine-thumbnail.avif",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.avif",
+      "fileSize": 33890
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "mulberry-phosphate-mine-thumbnail.webp",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.webp",
+      "fileSize": 19316
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "mulberry-phosphate-mine-thumbnail.jpg",
+      "path": "output/fcs-optimized/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.jpg",
+      "fileSize": 24831
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-display.avif 1200w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.avif 600w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-display.webp 1200w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.webp 600w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.webp 400w\" />\n  <img src=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.jpg\"\n       srcset=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-display.jpg 1200w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.jpg 600w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-display.avif 1200w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.avif 600w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/mulberry-phosphate-mine/mulberry-phosphate-mine-display.webp 1200w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-grid.webp 600w, /images/mulberry-phosphate-mine/mulberry-phosphate-mine-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "mulberry-phosphate-mine-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:18:56.587Z"
+}

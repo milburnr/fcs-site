@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/image-1.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/image-1.png",
+    "alt": "image",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 68,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "severe storm damage to residential structures",
+      "materials": [
+        "asphalt shingles",
+        "wood framing",
+        "siding"
+      ],
+      "activity": "inspection",
+      "damageType": "severe storm damage",
+      "people": true,
+      "equipment": [
+        "safety vest"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "storm-damage",
+      "structural-collapse",
+      "disaster-restoration",
+      "emergency-inspection",
+      "residential-damage",
+      "catastrophic-damage",
+      "insurance-claim",
+      "wind-damage"
+    ],
+    "altText": "Severely damaged yellow house collapsed from storm with inspector on site",
+    "recommendations": [
+      "Useful for storm damage assessment documentation",
+      "Good for insurance claim and emergency services content",
+      "Demonstrates need for structural inspection services",
+      "Consider adding closer shots of specific roof damage",
+      "Effective for disaster restoration portfolio"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "image-1-display.avif",
+      "path": "output/fcs-optimized/image-1/image-1-display.avif",
+      "fileSize": 84844
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "image-1-display.webp",
+      "path": "output/fcs-optimized/image-1/image-1-display.webp",
+      "fileSize": 58146
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "image-1-display.jpg",
+      "path": "output/fcs-optimized/image-1/image-1-display.jpg",
+      "fileSize": 80431
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "image-1-grid.avif",
+      "path": "output/fcs-optimized/image-1/image-1-grid.avif",
+      "fileSize": 74828
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "image-1-grid.webp",
+      "path": "output/fcs-optimized/image-1/image-1-grid.webp",
+      "fileSize": 53000
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "image-1-grid.jpg",
+      "path": "output/fcs-optimized/image-1/image-1-grid.jpg",
+      "fileSize": 71328
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "image-1-thumbnail.avif",
+      "path": "output/fcs-optimized/image-1/image-1-thumbnail.avif",
+      "fileSize": 46034
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "image-1-thumbnail.webp",
+      "path": "output/fcs-optimized/image-1/image-1-thumbnail.webp",
+      "fileSize": 31424
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "image-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/image-1/image-1-thumbnail.jpg",
+      "fileSize": 38865
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/image-1/image-1-display.avif 1200w, /images/image-1/image-1-grid.avif 600w, /images/image-1/image-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/image-1/image-1-display.webp 1200w, /images/image-1/image-1-grid.webp 600w, /images/image-1/image-1-thumbnail.webp 400w\" />\n  <img src=\"/images/image-1/image-1-grid.jpg\"\n       srcset=\"/images/image-1/image-1-display.jpg 1200w, /images/image-1/image-1-grid.jpg 600w, /images/image-1/image-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/image-1/image-1-display.avif 1200w, /images/image-1/image-1-grid.avif 600w, /images/image-1/image-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/image-1/image-1-display.webp 1200w, /images/image-1/image-1-grid.webp 600w, /images/image-1/image-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "image-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:29:00.207Z"
+}

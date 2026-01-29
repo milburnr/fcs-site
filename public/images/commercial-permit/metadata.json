@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Commercial_permit.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial_permit.jpg",
+    "alt": "Commercial permit",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 90,
+      "composition": 70,
+      "lighting": 85,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Building under construction with tower crane",
+      "materials": [
+        "concrete",
+        "steel rebar",
+        "structural framework"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower crane",
+        "safety railings",
+        "scaffolding"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-construction",
+      "tower-crane",
+      "concrete-structure",
+      "multi-story-building",
+      "construction-progress",
+      "structural-framework",
+      "commercial-project"
+    ],
+    "altText": "Yellow tower crane on multi-story concrete building under construction against blue sky",
+    "recommendations": [
+      "Image shows general construction, not roofing work specifically",
+      "No visible roofing materials or roofing activity present",
+      "Good for construction portfolio but limited roofing contractor relevance",
+      "Could be used for commercial construction capabilities or project scale demonstration",
+      "Consider capturing closer shots of actual roofing work for better contractor marketing value"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-permit-large.avif",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-large.avif",
+      "fileSize": 120938
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-permit-large.webp",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-large.webp",
+      "fileSize": 99732
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-permit-large.jpg",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-large.jpg",
+      "fileSize": 131462
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-permit-medium.avif",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-medium.avif",
+      "fileSize": 120938
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-permit-medium.webp",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-medium.webp",
+      "fileSize": 99732
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-permit-medium.jpg",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-medium.jpg",
+      "fileSize": 131462
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-permit-small.avif",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-small.avif",
+      "fileSize": 76426
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-permit-small.webp",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-small.webp",
+      "fileSize": 53428
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-permit-small.jpg",
+      "path": "output/fcs-optimized/commercial-permit/commercial-permit-small.jpg",
+      "fileSize": 73503
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-permit/commercial-permit-large.avif 1600w, /images/commercial-permit/commercial-permit-medium.avif 1200w, /images/commercial-permit/commercial-permit-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-permit/commercial-permit-large.webp 1600w, /images/commercial-permit/commercial-permit-medium.webp 1200w, /images/commercial-permit/commercial-permit-small.webp 800w\" />\n  <img src=\"/images/commercial-permit/commercial-permit-medium.jpg\"\n       srcset=\"/images/commercial-permit/commercial-permit-large.jpg 1600w, /images/commercial-permit/commercial-permit-medium.jpg 1200w, /images/commercial-permit/commercial-permit-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-permit/commercial-permit-large.avif 1600w, /images/commercial-permit/commercial-permit-medium.avif 1200w, /images/commercial-permit/commercial-permit-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-permit/commercial-permit-large.webp 1600w, /images/commercial-permit/commercial-permit-medium.webp 1200w, /images/commercial-permit/commercial-permit-small.webp 800w\" />"
+    ],
+    "fallback": "commercial-permit-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:55.461Z"
+}

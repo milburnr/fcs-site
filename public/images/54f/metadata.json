@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/54f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/54f.jpg",
+    "alt": "54f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic commercial brick building facade",
+      "materials": [
+        "brick",
+        "flat roof",
+        "storefront"
+      ],
+      "activity": "building exterior documentation",
+      "damageType": null,
+      "people": true,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-building",
+      "brick-facade",
+      "flat-roof",
+      "historic-building",
+      "storefront",
+      "before-photo",
+      "commercial-roofing",
+      "multi-story"
+    ],
+    "altText": "Three-story historic brick commercial building with flat roof and red storefront",
+    "recommendations": [
+      "Image shows flat roof system not clearly visible - better roof detail shots recommended",
+      "Good for 'before' documentation or commercial project portfolio",
+      "Consider capturing closer roof details and parapet/flashing systems",
+      "Slight underexposure on storefront - could benefit from HDR processing",
+      "Building signage visible - may need client approval for marketing use"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "54f-display.avif",
+      "path": "output/fcs-optimized/54f/54f-display.avif",
+      "fileSize": 83467
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "54f-display.webp",
+      "path": "output/fcs-optimized/54f/54f-display.webp",
+      "fileSize": 70440
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "54f-display.jpg",
+      "path": "output/fcs-optimized/54f/54f-display.jpg",
+      "fileSize": 85220
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "54f-grid.avif",
+      "path": "output/fcs-optimized/54f/54f-grid.avif",
+      "fileSize": 92066
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "54f-grid.webp",
+      "path": "output/fcs-optimized/54f/54f-grid.webp",
+      "fileSize": 61400
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "54f-grid.jpg",
+      "path": "output/fcs-optimized/54f/54f-grid.jpg",
+      "fileSize": 74524
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "54f-thumbnail.avif",
+      "path": "output/fcs-optimized/54f/54f-thumbnail.avif",
+      "fileSize": 46275
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "54f-thumbnail.webp",
+      "path": "output/fcs-optimized/54f/54f-thumbnail.webp",
+      "fileSize": 29056
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "54f-thumbnail.jpg",
+      "path": "output/fcs-optimized/54f/54f-thumbnail.jpg",
+      "fileSize": 34978
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/54f/54f-display.avif 1200w, /images/54f/54f-grid.avif 600w, /images/54f/54f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/54f/54f-display.webp 1200w, /images/54f/54f-grid.webp 600w, /images/54f/54f-thumbnail.webp 400w\" />\n  <img src=\"/images/54f/54f-grid.jpg\"\n       srcset=\"/images/54f/54f-display.jpg 1200w, /images/54f/54f-grid.jpg 600w, /images/54f/54f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/54f/54f-display.avif 1200w, /images/54f/54f-grid.avif 600w, /images/54f/54f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/54f/54f-display.webp 1200w, /images/54f/54f-grid.webp 600w, /images/54f/54f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "54f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:37.599Z"
+}

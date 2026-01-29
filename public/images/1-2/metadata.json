@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/1.2.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/1.2.jpg",
+    "alt": "1.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 65,
+      "composition": 70,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Utility excavation work with water main",
+      "materials": [
+        "concrete",
+        "earth",
+        "water pipe"
+      ],
+      "activity": "excavation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "concrete pump truck",
+        "safety fencing",
+        "high-visibility vests",
+        "excavation tools"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing",
+      "excavation-work",
+      "utility-work",
+      "water-main",
+      "construction-site",
+      "safety-gear",
+      "irrelevant-content"
+    ],
+    "altText": "Construction workers performing excavation work on water main - not roofing related",
+    "recommendations": [
+      "ERROR: This image does not contain any roofing work or roofing-related content",
+      "Image shows utility/excavation work with water main, not applicable for roofing contractor use",
+      "Overexposed areas in upper left reduce image quality",
+      "Not suitable for roofing contractor marketing materials",
+      "Should be excluded from roofing project galleries"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-2-display.avif",
+      "path": "output/fcs-optimized/1-2/1-2-display.avif",
+      "fileSize": 88125
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-2-display.webp",
+      "path": "output/fcs-optimized/1-2/1-2-display.webp",
+      "fileSize": 88234
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "1-2-display.jpg",
+      "path": "output/fcs-optimized/1-2/1-2-display.jpg",
+      "fileSize": 85598
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-2-grid.avif",
+      "path": "output/fcs-optimized/1-2/1-2-grid.avif",
+      "fileSize": 133988
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-2-grid.webp",
+      "path": "output/fcs-optimized/1-2/1-2-grid.webp",
+      "fileSize": 84454
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "1-2-grid.jpg",
+      "path": "output/fcs-optimized/1-2/1-2-grid.jpg",
+      "fileSize": 91439
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-2-thumbnail.avif",
+      "path": "output/fcs-optimized/1-2/1-2-thumbnail.avif",
+      "fileSize": 72989
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-2-thumbnail.webp",
+      "path": "output/fcs-optimized/1-2/1-2-thumbnail.webp",
+      "fileSize": 42142
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "1-2-thumbnail.jpg",
+      "path": "output/fcs-optimized/1-2/1-2-thumbnail.jpg",
+      "fileSize": 44930
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/1-2/1-2-display.avif 1200w, /images/1-2/1-2-grid.avif 600w, /images/1-2/1-2-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/1-2/1-2-display.webp 1200w, /images/1-2/1-2-grid.webp 600w, /images/1-2/1-2-thumbnail.webp 400w\" />\n  <img src=\"/images/1-2/1-2-grid.jpg\"\n       srcset=\"/images/1-2/1-2-display.jpg 1200w, /images/1-2/1-2-grid.jpg 600w, /images/1-2/1-2-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/1-2/1-2-display.avif 1200w, /images/1-2/1-2-grid.avif 600w, /images/1-2/1-2-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/1-2/1-2-display.webp 1200w, /images/1-2/1-2-grid.webp 600w, /images/1-2/1-2-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "1-2-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:07.882Z"
+}

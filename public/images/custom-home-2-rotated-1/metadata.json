@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg",
+    "alt": "Custom home 2 rotated",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Elevated residential home with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "horizontal siding",
+        "white trim"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "vehicle parked underneath"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "elevated-home",
+      "coastal-construction",
+      "stilt-house",
+      "completed-project",
+      "dark-gray-roof",
+      "exterior-showcase"
+    ],
+    "altText": "Elevated coastal home with new dark asphalt shingle roof and white siding",
+    "recommendations": [
+      "Excellent lighting and composition - ideal for portfolio hero image",
+      "Shows complete home elevation - perfect for coastal/flood zone projects",
+      "Clear roof visibility demonstrates quality workmanship",
+      "Professional presentation suitable for website homepage or marketing materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-1-large.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-large.avif",
+      "fileSize": 42925
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-1-large.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-large.webp",
+      "fileSize": 30276
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-1-large.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-large.jpg",
+      "fileSize": 40023
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-1-medium.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.avif",
+      "fileSize": 42925
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-1-medium.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.webp",
+      "fileSize": 30276
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-1-medium.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.jpg",
+      "fileSize": 40023
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-1-small.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-small.avif",
+      "fileSize": 42925
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-1-small.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-small.webp",
+      "fileSize": 30276
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-1-small.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-1/custom-home-2-rotated-1-small.jpg",
+      "fileSize": 40023
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.avif 1600w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.avif 1200w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.webp 1600w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.webp 1200w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-small.webp 800w\" />\n  <img src=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.jpg\"\n       srcset=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.jpg 1600w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.jpg 1200w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.avif 1600w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.avif 1200w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.webp 1600w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-medium.webp 1200w, /images/custom-home-2-rotated-1/custom-home-2-rotated-1-small.webp 800w\" />"
+    ],
+    "fallback": "custom-home-2-rotated-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:25.837Z"
+}

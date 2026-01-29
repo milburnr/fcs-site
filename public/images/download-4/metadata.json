@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-4.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-4.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning meeting with blueprint review",
+      "materials": [
+        "blueprints",
+        "architectural plans",
+        "construction documents"
+      ],
+      "activity": "planning",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hard hat",
+        "measuring tape",
+        "construction plans",
+        "pencils"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprint-review",
+      "project-consultation",
+      "roofing-estimate",
+      "contractor-meeting",
+      "planning-phase",
+      "hard-hat",
+      "teamwork"
+    ],
+    "altText": "Roofing contractors reviewing blueprints and construction plans during project planning meeting",
+    "recommendations": [
+      "Good for 'consultation process' or 'planning services' content",
+      "Shows professionalism and attention to detail",
+      "Could benefit from showing actual roofing plans or specifications",
+      "Better suited for inline content or gallery rather than hero image",
+      "Consider capturing similar scene with visible roofing materials or roof plans"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-4-display.avif",
+      "path": "output/fcs-optimized/download-4/download-4-display.avif",
+      "fileSize": 12116
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-4-display.webp",
+      "path": "output/fcs-optimized/download-4/download-4-display.webp",
+      "fileSize": 12760
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-4-display.jpg",
+      "path": "output/fcs-optimized/download-4/download-4-display.jpg",
+      "fileSize": 11957
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-4-grid.avif",
+      "path": "output/fcs-optimized/download-4/download-4-grid.avif",
+      "fileSize": 34790
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-4-grid.webp",
+      "path": "output/fcs-optimized/download-4/download-4-grid.webp",
+      "fileSize": 27944
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-4-grid.jpg",
+      "path": "output/fcs-optimized/download-4/download-4-grid.jpg",
+      "fileSize": 42094
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-4-thumbnail.avif",
+      "path": "output/fcs-optimized/download-4/download-4-thumbnail.avif",
+      "fileSize": 25416
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-4-thumbnail.webp",
+      "path": "output/fcs-optimized/download-4/download-4-thumbnail.webp",
+      "fileSize": 18392
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-4-thumbnail.jpg",
+      "path": "output/fcs-optimized/download-4/download-4-thumbnail.jpg",
+      "fileSize": 24808
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-4/download-4-display.avif 1200w, /images/download-4/download-4-grid.avif 600w, /images/download-4/download-4-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-4/download-4-display.webp 1200w, /images/download-4/download-4-grid.webp 600w, /images/download-4/download-4-thumbnail.webp 400w\" />\n  <img src=\"/images/download-4/download-4-grid.jpg\"\n       srcset=\"/images/download-4/download-4-display.jpg 1200w, /images/download-4/download-4-grid.jpg 600w, /images/download-4/download-4-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-4/download-4-display.avif 1200w, /images/download-4/download-4-grid.avif 600w, /images/download-4/download-4-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-4/download-4-display.webp 1200w, /images/download-4/download-4-grid.webp 600w, /images/download-4/download-4-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "download-4-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:06.999Z"
+}

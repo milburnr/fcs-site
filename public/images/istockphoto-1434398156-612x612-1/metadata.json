@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1434398156-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1434398156-612x612-1.jpg",
+    "alt": "istockphoto 1434398156 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Balcony maintenance issues and algae growth",
+      "materials": [
+        "concrete",
+        "glass railing",
+        "metal framing",
+        "brick"
+      ],
+      "activity": "inspection",
+      "damageType": "algae growth, water damage, deterioration",
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "elevated close-up",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "balcony-damage",
+      "algae-growth",
+      "concrete-deterioration",
+      "water-damage",
+      "maintenance-needed",
+      "residential-building",
+      "glass-railing",
+      "before-photo"
+    ],
+    "altText": "Balcony with algae growth and water damage on concrete surface beneath glass railing",
+    "recommendations": [
+      "Good documentation of moisture and algae issues",
+      "Useful for before/after project galleries",
+      "Consider adding closer detail shots of algae growth",
+      "Effective for illustrating need for waterproofing services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1434398156-612x612-1-display.avif",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.avif",
+      "fileSize": 37282
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1434398156-612x612-1-display.webp",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.webp",
+      "fileSize": 33108
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1434398156-612x612-1-display.jpg",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.jpg",
+      "fileSize": 41182
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1434398156-612x612-1-grid.avif",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.avif",
+      "fileSize": 48417
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1434398156-612x612-1-grid.webp",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.webp",
+      "fileSize": 32112
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1434398156-612x612-1-grid.jpg",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.jpg",
+      "fileSize": 45431
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1434398156-612x612-1-thumbnail.avif",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.avif",
+      "fileSize": 27469
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1434398156-612x612-1-thumbnail.webp",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.webp",
+      "fileSize": 17882
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1434398156-612x612-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.jpg",
+      "fileSize": 24143
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.avif 1200w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.avif 600w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.webp 1200w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.webp 600w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.webp 400w\" />\n  <img src=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.jpg\"\n       srcset=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.jpg 1200w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.jpg 600w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.avif 1200w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.avif 600w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-display.webp 1200w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-grid.webp 600w, /images/istockphoto-1434398156-612x612-1/istockphoto-1434398156-612x612-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "istockphoto-1434398156-612x612-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:25.170Z"
+}

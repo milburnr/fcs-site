@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/21.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/21.jpg",
+    "alt": "Multi-story concrete building under construction with yellow crane on site",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 80,
+      "lighting": 82,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Multi-story concrete building under construction",
+      "materials": [
+        "concrete",
+        "rebar",
+        "structural framing"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "yellow crane",
+        "safety barriers"
+      ],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-construction",
+      "concrete-structure",
+      "new-construction",
+      "multi-story-building",
+      "construction-site",
+      "crane-operation",
+      "structural-framing",
+      "pre-roof-stage"
+    ],
+    "altText": "Multi-story concrete building under construction with yellow crane on site",
+    "recommendations": [
+      "Excellent for showcasing commercial new construction projects",
+      "Good for 'ground-up' construction portfolio section",
+      "Shows scale and scope of commercial projects",
+      "Could be used in 'before' project timeline documentation",
+      "Ideal for demonstrating structural phase before roofing installation"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "21-large.avif",
+      "path": "output/fcs-optimized/21/21-large.avif",
+      "fileSize": 45715
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "21-large.webp",
+      "path": "output/fcs-optimized/21/21-large.webp",
+      "fileSize": 43024
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "21-large.jpg",
+      "path": "output/fcs-optimized/21/21-large.jpg",
+      "fileSize": 50364
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "21-medium.avif",
+      "path": "output/fcs-optimized/21/21-medium.avif",
+      "fileSize": 45715
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "21-medium.webp",
+      "path": "output/fcs-optimized/21/21-medium.webp",
+      "fileSize": 43024
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "21-medium.jpg",
+      "path": "output/fcs-optimized/21/21-medium.jpg",
+      "fileSize": 50364
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "21-small.avif",
+      "path": "output/fcs-optimized/21/21-small.avif",
+      "fileSize": 45715
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "21-small.webp",
+      "path": "output/fcs-optimized/21/21-small.webp",
+      "fileSize": 43024
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "21-small.jpg",
+      "path": "output/fcs-optimized/21/21-small.jpg",
+      "fileSize": 50364
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/21/21-large.avif 1600w, /images/21/21-medium.avif 1200w, /images/21/21-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/21/21-large.webp 1600w, /images/21/21-medium.webp 1200w, /images/21/21-small.webp 800w\" />\n  <img src=\"/images/21/21-medium.jpg\"\n       srcset=\"/images/21/21-large.jpg 1600w, /images/21/21-medium.jpg 1200w, /images/21/21-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/21/21-large.avif 1600w, /images/21/21-medium.avif 1200w, /images/21/21-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/21/21-large.webp 1600w, /images/21/21-medium.webp 1200w, /images/21/21-small.webp 800w\" />"
+    ],
+    "fallback": "21-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:40.751Z"
+}

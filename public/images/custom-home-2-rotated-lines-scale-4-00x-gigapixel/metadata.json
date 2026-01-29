@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Custom-home-2-rotated-lines-scale-4_00x-gigapixel.jpg",
+    "alt": "Custom home 2 rotated lines scale 4 00x gigapixel",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Completed elevated coastal home with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "horizontal siding",
+        "composite decking"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "asphalt-shingle-roof",
+      "elevated-home",
+      "coastal-construction",
+      "residential-roofing",
+      "completed-project",
+      "stilt-house",
+      "new-construction",
+      "gray-roof"
+    ],
+    "altText": "Elevated coastal home with new gray asphalt shingle roof and white siding",
+    "recommendations": [
+      "Excellent sharp focus and professional composition",
+      "Perfect for portfolio/gallery showcasing coastal residential work",
+      "Great lighting shows roof texture and home details clearly",
+      "Ideal hero image for residential roofing services in coastal areas"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.avif",
+      "fileSize": 162692
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.webp",
+      "fileSize": 109076
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.jpg",
+      "fileSize": 224551
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.avif",
+      "fileSize": 117316
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.webp",
+      "fileSize": 77184
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.jpg",
+      "fileSize": 146889
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.avif",
+      "fileSize": 72901
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.webp",
+      "fileSize": 48260
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.jpg",
+      "fileSize": 81107
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.avif 1600w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.avif 1200w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.webp 1600w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.webp 1200w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.webp 800w\" />\n  <img src=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.jpg\"\n       srcset=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.jpg 1600w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.jpg 1200w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.avif 1600w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.avif 1200w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-large.webp 1600w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.webp 1200w, /images/custom-home-2-rotated-lines-scale-4-00x-gigapixel/custom-home-2-rotated-lines-scale-4-00x-gigapixel-small.webp 800w\" />"
+    ],
+    "fallback": "custom-home-2-rotated-lines-scale-4-00x-gigapixel-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:34.351Z"
+}

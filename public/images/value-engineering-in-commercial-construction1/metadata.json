@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Value-Engineering-in-Commercial-Construction1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Value-Engineering-in-Commercial-Construction1.jpg",
+    "alt": "Value Engineering in Commercial Construction",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction planning meeting with architectural blueprints",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "laptop",
+        "level",
+        "measuring tools",
+        "safety helmet",
+        "architectural plans"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indoors"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprint-review",
+      "contractor-meeting",
+      "project-consultation",
+      "roofing-estimate",
+      "safety-helmet",
+      "construction-meeting",
+      "architectural-plans",
+      "professional-consultation"
+    ],
+    "altText": "Roofing contractors reviewing blueprints with safety equipment and laptop for project planning",
+    "recommendations": [
+      "Great for showcasing professional consultation process",
+      "Ideal for 'Our Process' or 'Free Estimate' sections",
+      "Shows professionalism with safety gear and detailed planning",
+      "Could benefit from slightly tighter crop on blueprints and hands",
+      "Good use for building trust - shows detailed planning approach"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "value-engineering-in-commercial-construction1-large.avif",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.avif",
+      "fileSize": 40185
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "value-engineering-in-commercial-construction1-large.webp",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.webp",
+      "fileSize": 35230
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "value-engineering-in-commercial-construction1-large.jpg",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.jpg",
+      "fileSize": 43559
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "value-engineering-in-commercial-construction1-medium.avif",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.avif",
+      "fileSize": 40185
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "value-engineering-in-commercial-construction1-medium.webp",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.webp",
+      "fileSize": 35230
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "value-engineering-in-commercial-construction1-medium.jpg",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.jpg",
+      "fileSize": 43559
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "value-engineering-in-commercial-construction1-small.avif",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.avif",
+      "fileSize": 40185
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "value-engineering-in-commercial-construction1-small.webp",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.webp",
+      "fileSize": 35230
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "value-engineering-in-commercial-construction1-small.jpg",
+      "path": "output/fcs-optimized/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.jpg",
+      "fileSize": 43559
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.avif 1600w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.avif 1200w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.webp 1600w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.webp 1200w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.webp 800w\" />\n  <img src=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.jpg\"\n       srcset=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.jpg 1600w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.jpg 1200w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.avif 1600w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.avif 1200w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-large.webp 1600w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-medium.webp 1200w, /images/value-engineering-in-commercial-construction1/value-engineering-in-commercial-construction1-small.webp 800w\" />"
+    ],
+    "fallback": "value-engineering-in-commercial-construction1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:44.025Z"
+}

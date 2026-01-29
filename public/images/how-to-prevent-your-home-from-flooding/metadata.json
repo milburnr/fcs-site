@@ -1,0 +1,147 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/How-to-prevent-your-home-from-flooding.jpg",
+    "alt": "How to prevent your home from flooding",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Flood-damaged residential property with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "vinyl siding"
+      ],
+      "activity": "flood damage documentation",
+      "damageType": "water damage",
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "flood-damage",
+      "water-damage",
+      "residential-property",
+      "asphalt-shingles",
+      "storm-damage",
+      "insurance-claim",
+      "emergency-roofing",
+      "disaster-restoration"
+    ],
+    "altText": "Residential home with asphalt shingle roof surrounded by flood waters",
+    "recommendations": [
+      "Good documentation image for insurance claims and disaster restoration services",
+      "Useful for emergency services and storm damage portfolio",
+      "Could be used in educational content about flood preparedness",
+      "Consider adding before/after comparison for restoration case studies"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "how-to-prevent-your-home-from-flooding-display.avif",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.avif",
+      "fileSize": 317808
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "how-to-prevent-your-home-from-flooding-display.webp",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.webp",
+      "fileSize": 216390
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "how-to-prevent-your-home-from-flooding-display.jpg",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.jpg",
+      "fileSize": 247202
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "how-to-prevent-your-home-from-flooding-grid.avif",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.avif",
+      "fileSize": 100818
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "how-to-prevent-your-home-from-flooding-grid.webp",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.webp",
+      "fileSize": 62572
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "how-to-prevent-your-home-from-flooding-grid.jpg",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.jpg",
+      "fileSize": 69458
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "how-to-prevent-your-home-from-flooding-thumbnail.avif",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.avif",
+      "fileSize": 49670
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "how-to-prevent-your-home-from-flooding-thumbnail.webp",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.webp",
+      "fileSize": 28798
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "how-to-prevent-your-home-from-flooding-thumbnail.jpg",
+      "path": "output/fcs-optimized/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.jpg",
+      "fileSize": 32037
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.avif 1200w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.avif 600w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.webp 1200w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.webp 600w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.webp 400w\" />\n  <img src=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.jpg\"\n       srcset=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.jpg 1200w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.jpg 600w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.avif 1200w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.avif 600w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-display.webp 1200w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-grid.webp 600w, /images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "how-to-prevent-your-home-from-flooding-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:50.809Z"
+}

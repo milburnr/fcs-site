@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Experienced-Design-Build-Firm.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Experienced-Design-Build-Firm.jpg",
+    "alt": "Experienced Design Build Firm",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning meeting with blueprints",
+      "materials": [],
+      "activity": "planning",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "laptop",
+        "blueprints",
+        "hard hat",
+        "safety equipment"
+      ],
+      "weather": "not applicable",
+      "perspective": "close-up",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprints",
+      "project-consultation",
+      "contractor-meeting",
+      "hard-hat",
+      "roofing-estimate",
+      "planning-phase",
+      "professional-services"
+    ],
+    "altText": "Roofing contractors reviewing blueprints and plans with laptop and hard hat on desk",
+    "recommendations": [
+      "Good for 'About Us' or 'Our Process' sections showing planning phase",
+      "Useful for illustrating consultation and project planning services",
+      "Consider cropping tighter on blueprints for more focused composition",
+      "Stock photo aesthetic - may lack authenticity for some marketing uses"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-design-build-firm-display.avif",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-display.avif",
+      "fileSize": 46492
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-design-build-firm-display.webp",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-display.webp",
+      "fileSize": 41188
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-design-build-firm-display.jpg",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-display.jpg",
+      "fileSize": 51625
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "experienced-design-build-firm-grid.avif",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-grid.avif",
+      "fileSize": 60981
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "experienced-design-build-firm-grid.webp",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-grid.webp",
+      "fileSize": 39132
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "experienced-design-build-firm-grid.jpg",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-grid.jpg",
+      "fileSize": 56217
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "experienced-design-build-firm-thumbnail.avif",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-thumbnail.avif",
+      "fileSize": 36695
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "experienced-design-build-firm-thumbnail.webp",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-thumbnail.webp",
+      "fileSize": 22996
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "experienced-design-build-firm-thumbnail.jpg",
+      "path": "output/fcs-optimized/experienced-design-build-firm/experienced-design-build-firm-thumbnail.jpg",
+      "fileSize": 31002
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/experienced-design-build-firm/experienced-design-build-firm-display.avif 1200w, /images/experienced-design-build-firm/experienced-design-build-firm-grid.avif 600w, /images/experienced-design-build-firm/experienced-design-build-firm-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/experienced-design-build-firm/experienced-design-build-firm-display.webp 1200w, /images/experienced-design-build-firm/experienced-design-build-firm-grid.webp 600w, /images/experienced-design-build-firm/experienced-design-build-firm-thumbnail.webp 400w\" />\n  <img src=\"/images/experienced-design-build-firm/experienced-design-build-firm-grid.jpg\"\n       srcset=\"/images/experienced-design-build-firm/experienced-design-build-firm-display.jpg 1200w, /images/experienced-design-build-firm/experienced-design-build-firm-grid.jpg 600w, /images/experienced-design-build-firm/experienced-design-build-firm-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/experienced-design-build-firm/experienced-design-build-firm-display.avif 1200w, /images/experienced-design-build-firm/experienced-design-build-firm-grid.avif 600w, /images/experienced-design-build-firm/experienced-design-build-firm-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/experienced-design-build-firm/experienced-design-build-firm-display.webp 1200w, /images/experienced-design-build-firm/experienced-design-build-firm-grid.webp 600w, /images/experienced-design-build-firm/experienced-design-build-firm-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "experienced-design-build-firm-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:38.960Z"
+}

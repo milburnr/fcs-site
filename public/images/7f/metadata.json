@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/7f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/7f.jpg",
+    "alt": "7f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 85,
+      "lighting": 78,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Two-story residential home exterior with roof",
+      "materials": [
+        "asphalt shingles",
+        "architectural shingles"
+      ],
+      "activity": "none - completed installation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear with sunset/sunrise",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "evening or early morning"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "architectural-shingles",
+      "completed-roof",
+      "two-story-home",
+      "curb-appeal",
+      "finished-project",
+      "evening-photography",
+      "gray-roof",
+      "modern-home"
+    ],
+    "altText": "Modern two-story home with gray architectural shingle roof and attached garage at sunset",
+    "recommendations": [
+      "Excellent twilight photography enhances curb appeal",
+      "Well-manicured landscaping adds to professional presentation",
+      "Perfect for portfolio showcase of completed residential projects",
+      "Good color contrast between roof, siding, and sky",
+      "Could benefit from slightly brighter exposure on roof details"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "7f-large.avif",
+      "path": "output/fcs-optimized/7f/7f-large.avif",
+      "fileSize": 15746
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "7f-large.webp",
+      "path": "output/fcs-optimized/7f/7f-large.webp",
+      "fileSize": 17000
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "7f-large.jpg",
+      "path": "output/fcs-optimized/7f/7f-large.jpg",
+      "fileSize": 15497
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "7f-medium.avif",
+      "path": "output/fcs-optimized/7f/7f-medium.avif",
+      "fileSize": 15746
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "7f-medium.webp",
+      "path": "output/fcs-optimized/7f/7f-medium.webp",
+      "fileSize": 17000
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "7f-medium.jpg",
+      "path": "output/fcs-optimized/7f/7f-medium.jpg",
+      "fileSize": 15497
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "7f-small.avif",
+      "path": "output/fcs-optimized/7f/7f-small.avif",
+      "fileSize": 15746
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "7f-small.webp",
+      "path": "output/fcs-optimized/7f/7f-small.webp",
+      "fileSize": 17000
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "7f-small.jpg",
+      "path": "output/fcs-optimized/7f/7f-small.jpg",
+      "fileSize": 15497
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/7f/7f-large.avif 1600w, /images/7f/7f-medium.avif 1200w, /images/7f/7f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/7f/7f-large.webp 1600w, /images/7f/7f-medium.webp 1200w, /images/7f/7f-small.webp 800w\" />\n  <img src=\"/images/7f/7f-medium.jpg\"\n       srcset=\"/images/7f/7f-large.jpg 1600w, /images/7f/7f-medium.jpg 1200w, /images/7f/7f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/7f/7f-large.avif 1600w, /images/7f/7f-medium.avif 1200w, /images/7f/7f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/7f/7f-large.webp 1600w, /images/7f/7f-medium.webp 1200w, /images/7f/7f-small.webp 800w\" />"
+    ],
+    "fallback": "7f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:19.692Z"
+}

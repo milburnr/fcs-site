@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Custom-home-2-rotated.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Custom-home-2-rotated.jpg",
+    "alt": "Custom home 2 rotated",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Elevated residential home with new roof",
+      "materials": [
+        "asphalt shingles",
+        "horizontal siding",
+        "wooden stairs"
+      ],
+      "activity": "completed installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny with cirrus clouds",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "elevated-home",
+      "coastal-construction",
+      "stilt-house",
+      "completed-project",
+      "gray-roof",
+      "white-siding"
+    ],
+    "altText": "Elevated coastal home with new gray asphalt shingle roof and white siding",
+    "recommendations": [
+      "Good project showcase image for residential portfolio",
+      "Slight shadow from overhead wires - could be edited out for hero use",
+      "Consider retaking with closer perspective to highlight roof details",
+      "Excellent example of coastal elevation construction with new roofing"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-large.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-large.avif",
+      "fileSize": 75151
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-large.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-large.webp",
+      "fileSize": 70172
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "custom-home-2-rotated-large.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-large.jpg",
+      "fileSize": 77057
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-medium.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-medium.avif",
+      "fileSize": 75151
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-medium.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-medium.webp",
+      "fileSize": 70172
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "custom-home-2-rotated-medium.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-medium.jpg",
+      "fileSize": 77057
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-small.avif",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-small.avif",
+      "fileSize": 82572
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-small.webp",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-small.webp",
+      "fileSize": 61008
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "custom-home-2-rotated-small.jpg",
+      "path": "output/fcs-optimized/custom-home-2-rotated/custom-home-2-rotated-small.jpg",
+      "fileSize": 70804
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated/custom-home-2-rotated-large.avif 1600w, /images/custom-home-2-rotated/custom-home-2-rotated-medium.avif 1200w, /images/custom-home-2-rotated/custom-home-2-rotated-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated/custom-home-2-rotated-large.webp 1600w, /images/custom-home-2-rotated/custom-home-2-rotated-medium.webp 1200w, /images/custom-home-2-rotated/custom-home-2-rotated-small.webp 800w\" />\n  <img src=\"/images/custom-home-2-rotated/custom-home-2-rotated-medium.jpg\"\n       srcset=\"/images/custom-home-2-rotated/custom-home-2-rotated-large.jpg 1600w, /images/custom-home-2-rotated/custom-home-2-rotated-medium.jpg 1200w, /images/custom-home-2-rotated/custom-home-2-rotated-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/custom-home-2-rotated/custom-home-2-rotated-large.avif 1600w, /images/custom-home-2-rotated/custom-home-2-rotated-medium.avif 1200w, /images/custom-home-2-rotated/custom-home-2-rotated-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/custom-home-2-rotated/custom-home-2-rotated-large.webp 1600w, /images/custom-home-2-rotated/custom-home-2-rotated-medium.webp 1200w, /images/custom-home-2-rotated/custom-home-2-rotated-small.webp 800w\" />"
+    ],
+    "fallback": "custom-home-2-rotated-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:15:31.145Z"
+}

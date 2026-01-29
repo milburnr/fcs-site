@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/hurricane-ian.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-ian.webp",
+    "alt": "hurricane ian",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Hurricane storm damage to coastal residential community",
+      "materials": [
+        "asphalt shingles",
+        "metal roofing",
+        "debris"
+      ],
+      "activity": "damage assessment",
+      "damageType": "wind damage, water damage, catastrophic storm damage",
+      "people": false,
+      "equipment": [],
+      "weather": "cloudy",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "hurricane-damage",
+      "storm-damage",
+      "wind-damage",
+      "aerial-damage-assessment",
+      "disaster-restoration",
+      "coastal-damage",
+      "catastrophic-loss",
+      "emergency-roofing",
+      "insurance-claim",
+      "beach-community"
+    ],
+    "altText": "Aerial view of hurricane damage to coastal homes showing widespread roof and property destruction",
+    "recommendations": [
+      "Powerful image for storm damage restoration services",
+      "Excellent for insurance claim documentation sections",
+      "Use for emergency response and disaster recovery marketing",
+      "Strong composition showing scale of damage - ideal for hero or case study",
+      "Consider for 'Why Choose Us' sections highlighting storm response capabilities"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "hurricane-ian-large.avif",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-large.avif",
+      "fileSize": 257361
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "hurricane-ian-large.webp",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-large.webp",
+      "fileSize": 193918
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "hurricane-ian-large.jpg",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-large.jpg",
+      "fileSize": 210982
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-ian-medium.avif",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-medium.avif",
+      "fileSize": 257361
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-ian-medium.webp",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-medium.webp",
+      "fileSize": 193918
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-ian-medium.jpg",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-medium.jpg",
+      "fileSize": 210982
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "hurricane-ian-small.avif",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-small.avif",
+      "fileSize": 199409
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "hurricane-ian-small.webp",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-small.webp",
+      "fileSize": 140048
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "hurricane-ian-small.jpg",
+      "path": "output/fcs-optimized/hurricane-ian/hurricane-ian-small.jpg",
+      "fileSize": 150392
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/hurricane-ian/hurricane-ian-large.avif 1600w, /images/hurricane-ian/hurricane-ian-medium.avif 1200w, /images/hurricane-ian/hurricane-ian-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/hurricane-ian/hurricane-ian-large.webp 1600w, /images/hurricane-ian/hurricane-ian-medium.webp 1200w, /images/hurricane-ian/hurricane-ian-small.webp 800w\" />\n  <img src=\"/images/hurricane-ian/hurricane-ian-medium.jpg\"\n       srcset=\"/images/hurricane-ian/hurricane-ian-large.jpg 1600w, /images/hurricane-ian/hurricane-ian-medium.jpg 1200w, /images/hurricane-ian/hurricane-ian-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/hurricane-ian/hurricane-ian-large.avif 1600w, /images/hurricane-ian/hurricane-ian-medium.avif 1200w, /images/hurricane-ian/hurricane-ian-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/hurricane-ian/hurricane-ian-large.webp 1600w, /images/hurricane-ian/hurricane-ian-medium.webp 1200w, /images/hurricane-ian/hurricane-ian-small.webp 800w\" />"
+    ],
+    "fallback": "hurricane-ian-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:39.094Z"
+}

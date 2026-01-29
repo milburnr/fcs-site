@@ -1,0 +1,146 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e7.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e7.jpg",
+    "alt": "e",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Storm damage aftermath with boat displacement",
+      "materials": [
+        "asphalt shingles"
+      ],
+      "activity": "damage assessment",
+      "damageType": "storm damage",
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "storm-damage",
+      "hurricane-damage",
+      "residential-roofing",
+      "asphalt-shingles",
+      "damage-assessment",
+      "emergency-roofing",
+      "coastal-damage",
+      "disaster-recovery"
+    ],
+    "altText": "Storm-damaged residential roofs and displaced boat after hurricane in coastal neighborhood",
+    "recommendations": [
+      "Strong documentation of severe storm damage - excellent for emergency services marketing",
+      "Dramatic imagery shows scope of hurricane/tropical storm impact",
+      "Use for storm damage restoration, insurance claims, and emergency response sections",
+      "Could benefit from closer roof detail shots to complement this wide establishing shot"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e7-large.avif",
+      "path": "output/fcs-optimized/e7/e7-large.avif",
+      "fileSize": 126033
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e7-large.webp",
+      "path": "output/fcs-optimized/e7/e7-large.webp",
+      "fileSize": 122896
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e7-large.jpg",
+      "path": "output/fcs-optimized/e7/e7-large.jpg",
+      "fileSize": 130938
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e7-medium.avif",
+      "path": "output/fcs-optimized/e7/e7-medium.avif",
+      "fileSize": 126033
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e7-medium.webp",
+      "path": "output/fcs-optimized/e7/e7-medium.webp",
+      "fileSize": 122896
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e7-medium.jpg",
+      "path": "output/fcs-optimized/e7/e7-medium.jpg",
+      "fileSize": 130938
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e7-small.avif",
+      "path": "output/fcs-optimized/e7/e7-small.avif",
+      "fileSize": 127931
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e7-small.webp",
+      "path": "output/fcs-optimized/e7/e7-small.webp",
+      "fileSize": 89734
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e7-small.jpg",
+      "path": "output/fcs-optimized/e7/e7-small.jpg",
+      "fileSize": 113300
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e7/e7-large.avif 1600w, /images/e7/e7-medium.avif 1200w, /images/e7/e7-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/e7/e7-large.webp 1600w, /images/e7/e7-medium.webp 1200w, /images/e7/e7-small.webp 800w\" />\n  <img src=\"/images/e7/e7-medium.jpg\"\n       srcset=\"/images/e7/e7-large.jpg 1600w, /images/e7/e7-medium.jpg 1200w, /images/e7/e7-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e7/e7-large.avif 1600w, /images/e7/e7-medium.avif 1200w, /images/e7/e7-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e7/e7-large.webp 1600w, /images/e7/e7-medium.webp 1200w, /images/e7/e7-small.webp 800w\" />"
+    ],
+    "fallback": "e7-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:37.409Z"
+}

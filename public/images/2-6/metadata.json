@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/2.6.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.6.jpg",
+    "alt": "2.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 85,
+      "exposure": 70,
+      "composition": 90,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Modern commercial skyscrapers viewed from ground looking up",
+      "materials": [
+        "glass curtain wall",
+        "metal panels",
+        "architectural cladding"
+      ],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "ground level looking up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "commercial-buildings",
+      "skyscrapers",
+      "urban-architecture",
+      "glass-facades",
+      "not-roofing-related",
+      "architectural-photography",
+      "upward-perspective"
+    ],
+    "altText": "Upward view of modern commercial skyscrapers with glass and metal facades",
+    "recommendations": [
+      "NOT RELEVANT: This image shows architectural facades, not roofing",
+      "No roofing systems, materials, or activities visible",
+      "No commercial or residential roofing content present",
+      "Image shows building exteriors from ground perspective only",
+      "Not suitable for roofing contractor portfolio or marketing",
+      "Consider rejecting - does not meet roofing contractor criteria"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-6-large.avif",
+      "path": "output/fcs-optimized/2-6/2-6-large.avif",
+      "fileSize": 83521
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-6-large.webp",
+      "path": "output/fcs-optimized/2-6/2-6-large.webp",
+      "fileSize": 69074
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-6-large.jpg",
+      "path": "output/fcs-optimized/2-6/2-6-large.jpg",
+      "fileSize": 76119
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-6-medium.avif",
+      "path": "output/fcs-optimized/2-6/2-6-medium.avif",
+      "fileSize": 83521
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-6-medium.webp",
+      "path": "output/fcs-optimized/2-6/2-6-medium.webp",
+      "fileSize": 69074
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-6-medium.jpg",
+      "path": "output/fcs-optimized/2-6/2-6-medium.jpg",
+      "fileSize": 76119
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-6-small.avif",
+      "path": "output/fcs-optimized/2-6/2-6-small.avif",
+      "fileSize": 83521
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-6-small.webp",
+      "path": "output/fcs-optimized/2-6/2-6-small.webp",
+      "fileSize": 69074
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-6-small.jpg",
+      "path": "output/fcs-optimized/2-6/2-6-small.jpg",
+      "fileSize": 76119
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/2-6/2-6-large.avif 1600w, /images/2-6/2-6-medium.avif 1200w, /images/2-6/2-6-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/2-6/2-6-large.webp 1600w, /images/2-6/2-6-medium.webp 1200w, /images/2-6/2-6-small.webp 800w\" />\n  <img src=\"/images/2-6/2-6-medium.jpg\"\n       srcset=\"/images/2-6/2-6-large.jpg 1600w, /images/2-6/2-6-medium.jpg 1200w, /images/2-6/2-6-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/2-6/2-6-large.avif 1600w, /images/2-6/2-6-medium.avif 1200w, /images/2-6/2-6-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/2-6/2-6-large.webp 1600w, /images/2-6/2-6-medium.webp 1200w, /images/2-6/2-6-small.webp 800w\" />"
+    ],
+    "fallback": "2-6-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:14.430Z"
+}

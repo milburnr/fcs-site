@@ -1,0 +1,96 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/6.4.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.4.jpg",
+    "alt": "6.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 95,
+      "focus": 98,
+      "exposure": 95,
+      "composition": 92,
+      "lighting": 96,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern residential kitchen interior",
+      "materials": [
+        "wood ceiling beams",
+        "hardwood flooring",
+        "white cabinetry",
+        "quartz countertops"
+      ],
+      "activity": "interior photography",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "not applicable - interior",
+      "perspective": "wide shot",
+      "timeOfDay": "not determinable"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing-related",
+      "interior-design",
+      "kitchen",
+      "residential-interior",
+      "misclassified-image",
+      "ceiling-beams",
+      "architectural-interior"
+    ],
+    "altText": "Modern kitchen interior with exposed wood beams - not roofing contractor content",
+    "recommendations": [
+      "ERROR: This is NOT a roofing contractor image",
+      "Image shows residential kitchen interior, not roofing work",
+      "This appears to be misclassified - belongs in interior design/remodeling category",
+      "If analyzing ceiling beams for roofing company that does carpentry, quality is excellent",
+      "Not suitable for roofing contractor marketing materials",
+      "Consider using only if company offers interior remodeling services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-4-thumbnail.avif",
+      "path": "output/fcs-optimized/6-4/6-4-thumbnail.avif",
+      "fileSize": 26653
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-4-thumbnail.webp",
+      "path": "output/fcs-optimized/6-4/6-4-thumbnail.webp",
+      "fileSize": 17228
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-4-thumbnail.jpg",
+      "path": "output/fcs-optimized/6-4/6-4-thumbnail.jpg",
+      "fileSize": 25281
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/6-4/6-4-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/6-4/6-4-thumbnail.webp 400w\" />\n  <img src=\"/images/6-4/6-4-thumbnail.jpg\"\n       srcset=\"/images/6-4/6-4-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/6-4/6-4-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/6-4/6-4-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "6-4-thumbnail.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:13.015Z"
+}

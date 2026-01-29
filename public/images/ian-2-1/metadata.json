@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/Ian-2-1.jpg",
+    "alt": "Ian 2",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Hurricane storm damage to coastal residential area",
+      "materials": [
+        "asphalt shingles",
+        "metal roofing",
+        "various residential roofing"
+      ],
+      "activity": "damage assessment",
+      "damageType": "wind damage, water damage, catastrophic storm damage",
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "hurricane-damage",
+      "storm-damage",
+      "wind-damage",
+      "aerial-view",
+      "disaster-restoration",
+      "coastal-damage",
+      "emergency-roofing",
+      "catastrophic-loss",
+      "insurance-claim"
+    ],
+    "altText": "Aerial view of severe hurricane damage to coastal homes and roofs requiring emergency repair",
+    "recommendations": [
+      "Excellent documentation of catastrophic storm damage - ideal for emergency services marketing",
+      "Strong aerial composition showing extent of damage - perfect for insurance restoration services",
+      "High-impact image for storm damage response and disaster recovery sections",
+      "Demonstrates need for emergency roofing services and complete roof replacement"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "ian-2-1-large.avif",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-large.avif",
+      "fileSize": 436794
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "ian-2-1-large.webp",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-large.webp",
+      "fileSize": 422574
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "ian-2-1-large.jpg",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-large.jpg",
+      "fileSize": 416716
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "ian-2-1-medium.avif",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-medium.avif",
+      "fileSize": 490848
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "ian-2-1-medium.webp",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-medium.webp",
+      "fileSize": 368232
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "ian-2-1-medium.jpg",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-medium.jpg",
+      "fileSize": 381840
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "ian-2-1-small.avif",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-small.avif",
+      "fileSize": 234190
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "ian-2-1-small.webp",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-small.webp",
+      "fileSize": 166498
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "ian-2-1-small.jpg",
+      "path": "output/fcs-optimized/ian-2-1/ian-2-1-small.jpg",
+      "fileSize": 171755
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/ian-2-1/ian-2-1-large.avif 1600w, /images/ian-2-1/ian-2-1-medium.avif 1200w, /images/ian-2-1/ian-2-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/ian-2-1/ian-2-1-large.webp 1600w, /images/ian-2-1/ian-2-1-medium.webp 1200w, /images/ian-2-1/ian-2-1-small.webp 800w\" />\n  <img src=\"/images/ian-2-1/ian-2-1-medium.jpg\"\n       srcset=\"/images/ian-2-1/ian-2-1-large.jpg 1600w, /images/ian-2-1/ian-2-1-medium.jpg 1200w, /images/ian-2-1/ian-2-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/ian-2-1/ian-2-1-large.avif 1600w, /images/ian-2-1/ian-2-1-medium.avif 1200w, /images/ian-2-1/ian-2-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/ian-2-1/ian-2-1-large.webp 1600w, /images/ian-2-1/ian-2-1-medium.webp 1200w, /images/ian-2-1/ian-2-1-small.webp 800w\" />"
+    ],
+    "fallback": "ian-2-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:18:24.462Z"
+}

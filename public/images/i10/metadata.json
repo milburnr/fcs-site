@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i10.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i10.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Interior ceiling damage repair",
+      "materials": [
+        "drywall",
+        "joint compound",
+        "putty knife"
+      ],
+      "activity": "repair",
+      "damageType": "water damage",
+      "people": true,
+      "equipment": [
+        "putty knife",
+        "spackle",
+        "hand tools"
+      ],
+      "weather": "interior",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "ceiling-repair",
+      "water-damage",
+      "drywall-repair",
+      "interior-damage",
+      "leak-repair",
+      "patching",
+      "restoration",
+      "ceiling-damage"
+    ],
+    "altText": "Hand repairing water-damaged ceiling with putty knife and joint compound",
+    "recommendations": [
+      "Good for showing water damage consequences from roof leaks",
+      "Effective for before/after galleries when paired with completed work",
+      "Consider adding wider shot showing full extent of damage",
+      "Could improve lighting to reduce shadows on ceiling"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "i10-display.avif",
+      "path": "output/fcs-optimized/i10/i10-display.avif",
+      "fileSize": 15123
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "i10-display.webp",
+      "path": "output/fcs-optimized/i10/i10-display.webp",
+      "fileSize": 14864
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "i10-display.jpg",
+      "path": "output/fcs-optimized/i10/i10-display.jpg",
+      "fileSize": 16442
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "i10-grid.avif",
+      "path": "output/fcs-optimized/i10/i10-grid.avif",
+      "fileSize": 27286
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "i10-grid.webp",
+      "path": "output/fcs-optimized/i10/i10-grid.webp",
+      "fileSize": 20722
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "i10-grid.jpg",
+      "path": "output/fcs-optimized/i10/i10-grid.jpg",
+      "fileSize": 31826
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "i10-thumbnail.avif",
+      "path": "output/fcs-optimized/i10/i10-thumbnail.avif",
+      "fileSize": 19080
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "i10-thumbnail.webp",
+      "path": "output/fcs-optimized/i10/i10-thumbnail.webp",
+      "fileSize": 13130
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "i10-thumbnail.jpg",
+      "path": "output/fcs-optimized/i10/i10-thumbnail.jpg",
+      "fileSize": 18747
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i10/i10-display.avif 1200w, /images/i10/i10-grid.avif 600w, /images/i10/i10-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/i10/i10-display.webp 1200w, /images/i10/i10-grid.webp 600w, /images/i10/i10-thumbnail.webp 400w\" />\n  <img src=\"/images/i10/i10-grid.jpg\"\n       srcset=\"/images/i10/i10-display.jpg 1200w, /images/i10/i10-grid.jpg 600w, /images/i10/i10-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i10/i10-display.avif 1200w, /images/i10/i10-grid.avif 600w, /images/i10/i10-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i10/i10-display.webp 1200w, /images/i10/i10-grid.webp 600w, /images/i10/i10-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "i10-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:39.568Z"
+}

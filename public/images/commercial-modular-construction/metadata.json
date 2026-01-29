@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Commercial-Modular-Construction.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Modular-Construction.jpg",
+    "alt": "Commercial Modular Construction",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 68,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "High-rise residential construction in progress",
+      "materials": [
+        "concrete",
+        "rebar",
+        "building framework"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower crane",
+        "power lines"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "high-rise-construction",
+      "residential-building",
+      "tower-crane",
+      "concrete-construction",
+      "multi-story-building",
+      "urban-development",
+      "construction-progress",
+      "commercial-construction"
+    ],
+    "altText": "High-rise residential buildings under construction with tower crane",
+    "recommendations": [
+      "Image shows construction phase, not roofing work - limited relevance for roofing contractor portfolio",
+      "Power lines create visual obstruction - consider cleaner framing",
+      "Suitable for general construction context or project development timeline",
+      "Would benefit from closer perspective to show roofing details if intended for roofing portfolio"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-modular-construction-display.avif",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-display.avif",
+      "fileSize": 65831
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-modular-construction-display.webp",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-display.webp",
+      "fileSize": 62590
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-modular-construction-display.jpg",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-display.jpg",
+      "fileSize": 68565
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-modular-construction-grid.avif",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-grid.avif",
+      "fileSize": 90767
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-modular-construction-grid.webp",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-grid.webp",
+      "fileSize": 59556
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-modular-construction-grid.jpg",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-grid.jpg",
+      "fileSize": 75195
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-modular-construction-thumbnail.avif",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-thumbnail.avif",
+      "fileSize": 50514
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-modular-construction-thumbnail.webp",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-thumbnail.webp",
+      "fileSize": 32016
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-modular-construction-thumbnail.jpg",
+      "path": "output/fcs-optimized/commercial-modular-construction/commercial-modular-construction-thumbnail.jpg",
+      "fileSize": 38323
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-modular-construction/commercial-modular-construction-display.avif 1200w, /images/commercial-modular-construction/commercial-modular-construction-grid.avif 600w, /images/commercial-modular-construction/commercial-modular-construction-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-modular-construction/commercial-modular-construction-display.webp 1200w, /images/commercial-modular-construction/commercial-modular-construction-grid.webp 600w, /images/commercial-modular-construction/commercial-modular-construction-thumbnail.webp 400w\" />\n  <img src=\"/images/commercial-modular-construction/commercial-modular-construction-grid.jpg\"\n       srcset=\"/images/commercial-modular-construction/commercial-modular-construction-display.jpg 1200w, /images/commercial-modular-construction/commercial-modular-construction-grid.jpg 600w, /images/commercial-modular-construction/commercial-modular-construction-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-modular-construction/commercial-modular-construction-display.avif 1200w, /images/commercial-modular-construction/commercial-modular-construction-grid.avif 600w, /images/commercial-modular-construction/commercial-modular-construction-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-modular-construction/commercial-modular-construction-display.webp 1200w, /images/commercial-modular-construction/commercial-modular-construction-grid.webp 600w, /images/commercial-modular-construction/commercial-modular-construction-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "commercial-modular-construction-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:43.857Z"
+}

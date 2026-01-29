@@ -1,0 +1,101 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Italian-Club.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Italian-Club.png",
+    "alt": "Italian Club",
+    "context": "content"
+  },
+  "analysis": null,
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "italian-club-display.avif",
+      "path": "output/fcs-optimized/italian-club/italian-club-display.avif",
+      "fileSize": 296190
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "italian-club-display.webp",
+      "path": "output/fcs-optimized/italian-club/italian-club-display.webp",
+      "fileSize": 191916
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "italian-club-display.jpg",
+      "path": "output/fcs-optimized/italian-club/italian-club-display.jpg",
+      "fileSize": 253340
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "italian-club-grid.avif",
+      "path": "output/fcs-optimized/italian-club/italian-club-grid.avif",
+      "fileSize": 88069
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "italian-club-grid.webp",
+      "path": "output/fcs-optimized/italian-club/italian-club-grid.webp",
+      "fileSize": 57888
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "italian-club-grid.jpg",
+      "path": "output/fcs-optimized/italian-club/italian-club-grid.jpg",
+      "fileSize": 73147
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "italian-club-thumbnail.avif",
+      "path": "output/fcs-optimized/italian-club/italian-club-thumbnail.avif",
+      "fileSize": 43723
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "italian-club-thumbnail.webp",
+      "path": "output/fcs-optimized/italian-club/italian-club-thumbnail.webp",
+      "fileSize": 28644
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "italian-club-thumbnail.jpg",
+      "path": "output/fcs-optimized/italian-club/italian-club-thumbnail.jpg",
+      "fileSize": 35894
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/italian-club/italian-club-display.avif 1200w, /images/italian-club/italian-club-grid.avif 600w, /images/italian-club/italian-club-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/italian-club/italian-club-display.webp 1200w, /images/italian-club/italian-club-grid.webp 600w, /images/italian-club/italian-club-thumbnail.webp 400w\" />\n  <img src=\"/images/italian-club/italian-club-grid.jpg\"\n       srcset=\"/images/italian-club/italian-club-display.jpg 1200w, /images/italian-club/italian-club-grid.jpg 600w, /images/italian-club/italian-club-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/italian-club/italian-club-display.avif 1200w, /images/italian-club/italian-club-grid.avif 600w, /images/italian-club/italian-club-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/italian-club/italian-club-display.webp 1200w, /images/italian-club/italian-club-grid.webp 600w, /images/italian-club/italian-club-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "italian-club-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:17:21.848Z"
+}

@@ -73,7 +73,7 @@ export default function LuxuryCustomHomesPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/custom-home-1.png"
+            src="/images/custom-home-1/custom-home-1-large.webp"
             alt="Luxury custom home construction"
             fill
             className="object-cover"

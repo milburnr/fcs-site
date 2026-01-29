@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Commercial-Construction-Design.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Design.jpg",
+    "alt": "Commercial Construction Design",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 70,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Architectural planning and consultation meeting",
+      "materials": [
+        "architectural plans",
+        "blueprints",
+        "house model"
+      ],
+      "activity": "consultation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "blueprints",
+        "architectural model",
+        "hard hat"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-consultation",
+      "project-planning",
+      "customer-meeting",
+      "blueprints",
+      "residential-roofing",
+      "planning-phase",
+      "contractor-consultation",
+      "architectural-model"
+    ],
+    "altText": "Roofing contractor consultation with blueprints and house model during project planning meeting",
+    "recommendations": [
+      "Good for 'consultation services' or 'planning process' content sections",
+      "Works well for customer-focused marketing showing collaborative approach",
+      "Consider cropping tighter on hands and model for better focus",
+      "Useful for blog posts about project planning or customer education"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-design-display.avif",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-display.avif",
+      "fileSize": 33255
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-design-display.webp",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-display.webp",
+      "fileSize": 28568
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-design-display.jpg",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-display.jpg",
+      "fileSize": 37818
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-design-grid.avif",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-grid.avif",
+      "fileSize": 40117
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-design-grid.webp",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-grid.webp",
+      "fileSize": 26546
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-design-grid.jpg",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-grid.jpg",
+      "fileSize": 41744
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-design-thumbnail.avif",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-thumbnail.avif",
+      "fileSize": 24746
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-design-thumbnail.webp",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-thumbnail.webp",
+      "fileSize": 16126
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-design-thumbnail.jpg",
+      "path": "output/fcs-optimized/commercial-construction-design/commercial-construction-design-thumbnail.jpg",
+      "fileSize": 24085
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-construction-design/commercial-construction-design-display.avif 1200w, /images/commercial-construction-design/commercial-construction-design-grid.avif 600w, /images/commercial-construction-design/commercial-construction-design-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-construction-design/commercial-construction-design-display.webp 1200w, /images/commercial-construction-design/commercial-construction-design-grid.webp 600w, /images/commercial-construction-design/commercial-construction-design-thumbnail.webp 400w\" />\n  <img src=\"/images/commercial-construction-design/commercial-construction-design-grid.jpg\"\n       srcset=\"/images/commercial-construction-design/commercial-construction-design-display.jpg 1200w, /images/commercial-construction-design/commercial-construction-design-grid.jpg 600w, /images/commercial-construction-design/commercial-construction-design-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-construction-design/commercial-construction-design-display.avif 1200w, /images/commercial-construction-design/commercial-construction-design-grid.avif 600w, /images/commercial-construction-design/commercial-construction-design-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-construction-design/commercial-construction-design-display.webp 1200w, /images/commercial-construction-design/commercial-construction-design-grid.webp 600w, /images/commercial-construction-design/commercial-construction-design-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "commercial-construction-design-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:34.812Z"
+}

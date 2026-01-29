@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/7777.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/7777.jpg",
+    "alt": "Roofing contractor reviewing blueprints and plans on laptop with safety helmet on desk",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning and estimation work",
+      "materials": [
+        "blueprints",
+        "architectural plans"
+      ],
+      "activity": "planning",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "laptop",
+        "architectural drawings",
+        "safety helmet",
+        "building models"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-estimation",
+      "project-planning",
+      "contractor-office",
+      "blueprints",
+      "construction-management",
+      "roofing-contractor",
+      "office-work",
+      "professional-services"
+    ],
+    "altText": "Roofing contractor reviewing blueprints and plans on laptop with safety helmet on desk",
+    "recommendations": [
+      "Good for 'Our Process' or 'Estimation Services' sections",
+      "Shows professionalism and planning expertise",
+      "Consider brighter exposure to enhance clarity",
+      "Works well for inline content about planning and consultation services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "7777-display.avif",
+      "path": "output/fcs-optimized/7777/7777-display.avif",
+      "fileSize": 27053
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "7777-display.webp",
+      "path": "output/fcs-optimized/7777/7777-display.webp",
+      "fileSize": 22240
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "7777-display.jpg",
+      "path": "output/fcs-optimized/7777/7777-display.jpg",
+      "fileSize": 32285
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "7777-grid.avif",
+      "path": "output/fcs-optimized/7777/7777-grid.avif",
+      "fileSize": 30395
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "7777-grid.webp",
+      "path": "output/fcs-optimized/7777/7777-grid.webp",
+      "fileSize": 21018
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "7777-grid.jpg",
+      "path": "output/fcs-optimized/7777/7777-grid.jpg",
+      "fileSize": 36074
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "7777-thumbnail.avif",
+      "path": "output/fcs-optimized/7777/7777-thumbnail.avif",
+      "fileSize": 18858
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "7777-thumbnail.webp",
+      "path": "output/fcs-optimized/7777/7777-thumbnail.webp",
+      "fileSize": 12840
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "7777-thumbnail.jpg",
+      "path": "output/fcs-optimized/7777/7777-thumbnail.jpg",
+      "fileSize": 20522
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/7777/7777-display.avif 1200w, /images/7777/7777-grid.avif 600w, /images/7777/7777-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/7777/7777-display.webp 1200w, /images/7777/7777-grid.webp 600w, /images/7777/7777-thumbnail.webp 400w\" />\n  <img src=\"/images/7777/7777-grid.jpg\"\n       srcset=\"/images/7777/7777-display.jpg 1200w, /images/7777/7777-grid.jpg 600w, /images/7777/7777-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/7777/7777-display.avif 1200w, /images/7777/7777-grid.avif 600w, /images/7777/7777-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/7777/7777-display.webp 1200w, /images/7777/7777-grid.webp 600w, /images/7777/7777-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "7777-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:19.133Z"
+}

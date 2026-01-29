@@ -394,7 +394,7 @@ export default function SouthTampaHistoricDistrictGuidePage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/historic-preservation.jpg"
+            src="/images/historic-preservation/historic-preservation-large.webp"
             alt="Historic building restoration"
             fill
             className="object-cover"

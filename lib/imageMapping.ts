@@ -124,20 +124,21 @@ export const SERVICE_HERO_IMAGES = {
 } as const;
 
 // Parallax section images (used for fixed background sections)
+// Using optimized WebP versions where available for better performance
 export const PARALLAX_IMAGES = {
-  construction: `${BASE_PATH}/home-construction.jpg`,
-  office: `${BASE_PATH}/office-building-1.jpg`,
-  sunset: `${BASE_PATH}/frame-building-sunset.jpeg`,
-  historic: `${BASE_PATH}/historic-preservation-home.jpg`,
-  roofing: `${BASE_PATH}/roofing-construction-job.jpg`,
-  hurricane: `${BASE_PATH}/hurricane-insurance-restoration.webp`,
-  customHome: `${BASE_PATH}/custom-home-construction-2.jpg`,
-  tampaBay: `${BASE_PATH}/Tampa-Bay-FEATURE.jpg`,
-  balcony: `${BASE_PATH}/FCS-Tiles-on-balcony.webp`,
-  waterproofing: `${BASE_PATH}/FCS-Exterior-Waterproofing.png`,
+  construction: `/images/home-construction/home-construction-large.webp`,
+  office: `/images/office-building-1/office-building-1-large.webp`,
+  sunset: `/images/frame-building-sunset/frame-building-sunset-large.webp`,
+  historic: `/images/historic-preservation-home/historic-preservation-home-display.webp`,
+  roofing: `/images/roofing-construction-job/roofing-construction-job-large.webp`,
+  hurricane: `/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp`,
+  customHome: `/images/custom-home-construction-2/custom-home-construction-2-large.webp`,
+  tampaBay: `${BASE_PATH}/Tampa-Bay-FEATURE.jpg`, // Not optimized yet
+  balcony: `${BASE_PATH}/FCS-Tiles-on-balcony.webp`, // Not optimized yet
+  waterproofing: `${BASE_PATH}/FCS-Exterior-Waterproofing.png`, // Not optimized yet
   // Aliases for hub pages
-  commercial: `${BASE_PATH}/office-building-1.jpg`,
-  residential: `${BASE_PATH}/custom-home-construction-2.jpg`,
+  commercial: `/images/office-building-1/office-building-1-large.webp`,
+  residential: `/images/custom-home-construction-2/custom-home-construction-2-large.webp`,
 } as const;
 
 // Map URL patterns to image categories

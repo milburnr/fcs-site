@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/555.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/555.jpg",
+    "alt": "Professional roofer installing metal roofing with tools and safety gloves",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 78,
+      "lighting": 82,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Roofing contractor working with tools and materials",
+      "materials": [
+        "metal roofing",
+        "roofing panels",
+        "fasteners"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hand tools",
+        "tool bag",
+        "safety gloves",
+        "roofing materials"
+      ],
+      "weather": "sunny",
+      "perspective": "close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "metal-roofing-installation",
+      "roofing-contractor",
+      "professional-roofing",
+      "safety-gloves",
+      "roofing-tools",
+      "commercial-roofing",
+      "hands-on-work",
+      "sunny-day-install"
+    ],
+    "altText": "Professional roofer installing metal roofing with tools and safety gloves",
+    "recommendations": [
+      "Strong hands-on work shot - excellent for showcasing craftsmanship",
+      "Good safety gear visibility - reinforces professional standards",
+      "Could benefit from slightly wider framing to show more context",
+      "Perfect for 'Our Process' or 'Professional Service' sections"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "555-large.avif",
+      "path": "output/fcs-optimized/555/555-large.avif",
+      "fileSize": 29254
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "555-large.webp",
+      "path": "output/fcs-optimized/555/555-large.webp",
+      "fileSize": 24704
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "555-large.jpg",
+      "path": "output/fcs-optimized/555/555-large.jpg",
+      "fileSize": 32800
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "555-medium.avif",
+      "path": "output/fcs-optimized/555/555-medium.avif",
+      "fileSize": 29254
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "555-medium.webp",
+      "path": "output/fcs-optimized/555/555-medium.webp",
+      "fileSize": 24704
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "555-medium.jpg",
+      "path": "output/fcs-optimized/555/555-medium.jpg",
+      "fileSize": 32800
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "555-small.avif",
+      "path": "output/fcs-optimized/555/555-small.avif",
+      "fileSize": 29254
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "555-small.webp",
+      "path": "output/fcs-optimized/555/555-small.webp",
+      "fileSize": 24704
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "555-small.jpg",
+      "path": "output/fcs-optimized/555/555-small.jpg",
+      "fileSize": 32800
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/555/555-large.avif 1600w, /images/555/555-medium.avif 1200w, /images/555/555-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/555/555-large.webp 1600w, /images/555/555-medium.webp 1200w, /images/555/555-small.webp 800w\" />\n  <img src=\"/images/555/555-medium.jpg\"\n       srcset=\"/images/555/555-large.jpg 1600w, /images/555/555-medium.jpg 1200w, /images/555/555-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/555/555-large.avif 1600w, /images/555/555-medium.avif 1200w, /images/555/555-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/555/555-large.webp 1600w, /images/555/555-medium.webp 1200w, /images/555/555-small.webp 800w\" />"
+    ],
+    "fallback": "555-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:38.969Z"
+}

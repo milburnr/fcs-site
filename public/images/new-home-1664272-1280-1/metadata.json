@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/new-home-1664272_1280-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/new-home-1664272_1280-1.jpg",
+    "alt": "new home 1664272 1280",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "New residential construction framing",
+      "materials": [
+        "lumber",
+        "plywood sheathing",
+        "OSB panels",
+        "dimensional lumber"
+      ],
+      "activity": "new construction framing",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "lumber bundles",
+        "blue dumpster",
+        "construction materials"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "new-construction",
+      "residential-framing",
+      "construction-site",
+      "wood-framing",
+      "home-building",
+      "construction-progress",
+      "framing-stage",
+      "building-materials"
+    ],
+    "altText": "Residential home framing construction site with wood walls and lumber materials",
+    "recommendations": [
+      "Image shows framing stage before roofing - useful for new construction timeline documentation",
+      "Diffused lighting from overcast sky reduces harsh shadows",
+      "Could benefit from tighter composition focusing on framing details",
+      "Good for showing construction progression or pre-roofing stage",
+      "Consider cropping to reduce excess foreground gravel area"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-1-display.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-display.avif",
+      "fileSize": 337396
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-1-display.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-display.webp",
+      "fileSize": 233364
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-1-display.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-display.jpg",
+      "fileSize": 273818
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-1-grid.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.avif",
+      "fileSize": 106658
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-1-grid.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.webp",
+      "fileSize": 66132
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-1-grid.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.jpg",
+      "fileSize": 75625
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-1-thumbnail.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.avif",
+      "fileSize": 56171
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-1-thumbnail.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.webp",
+      "fileSize": 29736
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.jpg",
+      "fileSize": 34679
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-display.avif 1200w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.avif 600w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-display.webp 1200w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.webp 600w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.webp 400w\" />\n  <img src=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.jpg\"\n       srcset=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-display.jpg 1200w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.jpg 600w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-display.avif 1200w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.avif 600w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/new-home-1664272-1280-1/new-home-1664272-1280-1-display.webp 1200w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-grid.webp 600w, /images/new-home-1664272-1280-1/new-home-1664272-1280-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "new-home-1664272-1280-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:31:08.973Z"
+}

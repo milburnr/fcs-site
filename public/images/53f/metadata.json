@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/53f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/53f.jpg",
+    "alt": "53f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic residential building with clay tile roof",
+      "materials": [
+        "clay tile",
+        "decorative trim",
+        "columns"
+      ],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "clay-tile-roof",
+      "historic-residential",
+      "italian-style-architecture",
+      "green-roof-tiles",
+      "two-story-home",
+      "ornate-details",
+      "before-photo",
+      "residential-roofing"
+    ],
+    "altText": "Historic two-story home with green clay tile roof and ornate architectural details",
+    "recommendations": [
+      "Slightly overcast lighting creates flat appearance - reshoot on sunny day preferred",
+      "Trees partially obscure roof details - tighter crop or different angle would better showcase roofing",
+      "Good for 'before' documentation or historical restoration portfolio",
+      "Consider aerial or elevated shot to better display roof condition and tile pattern"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "53f-display.avif",
+      "path": "output/fcs-optimized/53f/53f-display.avif",
+      "fileSize": 133368
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "53f-display.webp",
+      "path": "output/fcs-optimized/53f/53f-display.webp",
+      "fileSize": 93720
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "53f-display.jpg",
+      "path": "output/fcs-optimized/53f/53f-display.jpg",
+      "fileSize": 95637
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "53f-grid.avif",
+      "path": "output/fcs-optimized/53f/53f-grid.avif",
+      "fileSize": 160651
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "53f-grid.webp",
+      "path": "output/fcs-optimized/53f/53f-grid.webp",
+      "fileSize": 86900
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "53f-grid.jpg",
+      "path": "output/fcs-optimized/53f/53f-grid.jpg",
+      "fileSize": 95937
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "53f-thumbnail.avif",
+      "path": "output/fcs-optimized/53f/53f-thumbnail.avif",
+      "fileSize": 76899
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "53f-thumbnail.webp",
+      "path": "output/fcs-optimized/53f/53f-thumbnail.webp",
+      "fileSize": 40940
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "53f-thumbnail.jpg",
+      "path": "output/fcs-optimized/53f/53f-thumbnail.jpg",
+      "fileSize": 45009
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/53f/53f-display.avif 1200w, /images/53f/53f-grid.avif 600w, /images/53f/53f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/53f/53f-display.webp 1200w, /images/53f/53f-grid.webp 600w, /images/53f/53f-thumbnail.webp 400w\" />\n  <img src=\"/images/53f/53f-grid.jpg\"\n       srcset=\"/images/53f/53f-display.jpg 1200w, /images/53f/53f-grid.jpg 600w, /images/53f/53f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/53f/53f-display.avif 1200w, /images/53f/53f-grid.avif 600w, /images/53f/53f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/53f/53f-display.webp 1200w, /images/53f/53f-grid.webp 600w, /images/53f/53f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "53f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:34.841Z"
+}

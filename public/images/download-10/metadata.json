@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-10.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-10.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Multi-story concrete building construction",
+      "materials": [
+        "concrete",
+        "structural steel",
+        "rebar"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower cranes",
+        "construction scaffolding"
+      ],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "construction-site",
+      "commercial-construction",
+      "concrete-structure",
+      "tower-crane",
+      "multi-story-building",
+      "structural-framing",
+      "not-roofing"
+    ],
+    "altText": "Multi-story commercial building under construction with tower cranes",
+    "recommendations": [
+      "Image shows general construction, not roofing work - not suitable for roofing contractor marketing",
+      "No roofing materials, activities, or roof structures visible",
+      "Buildings are in early structural phase - no roof systems present",
+      "Archive only - not relevant for roofing contractor portfolio",
+      "Consider replacing with images showing actual roofing installation, materials, or completed roof systems"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-10-display.avif",
+      "path": "output/fcs-optimized/download-10/download-10-display.avif",
+      "fileSize": 17728
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-10-display.webp",
+      "path": "output/fcs-optimized/download-10/download-10-display.webp",
+      "fileSize": 17372
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-10-display.jpg",
+      "path": "output/fcs-optimized/download-10/download-10-display.jpg",
+      "fileSize": 16391
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-10-grid.avif",
+      "path": "output/fcs-optimized/download-10/download-10-grid.avif",
+      "fileSize": 49118
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-10-grid.webp",
+      "path": "output/fcs-optimized/download-10/download-10-grid.webp",
+      "fileSize": 39270
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-10-grid.jpg",
+      "path": "output/fcs-optimized/download-10/download-10-grid.jpg",
+      "fileSize": 54298
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-10-thumbnail.avif",
+      "path": "output/fcs-optimized/download-10/download-10-thumbnail.avif",
+      "fileSize": 35485
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-10-thumbnail.webp",
+      "path": "output/fcs-optimized/download-10/download-10-thumbnail.webp",
+      "fileSize": 25762
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-10-thumbnail.jpg",
+      "path": "output/fcs-optimized/download-10/download-10-thumbnail.jpg",
+      "fileSize": 31915
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-10/download-10-display.avif 1200w, /images/download-10/download-10-grid.avif 600w, /images/download-10/download-10-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-10/download-10-display.webp 1200w, /images/download-10/download-10-grid.webp 600w, /images/download-10/download-10-thumbnail.webp 400w\" />\n  <img src=\"/images/download-10/download-10-grid.jpg\"\n       srcset=\"/images/download-10/download-10-display.jpg 1200w, /images/download-10/download-10-grid.jpg 600w, /images/download-10/download-10-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-10/download-10-display.avif 1200w, /images/download-10/download-10-grid.avif 600w, /images/download-10/download-10-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-10/download-10-display.webp 1200w, /images/download-10/download-10-grid.webp 600w, /images/download-10/download-10-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "download-10-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:03.263Z"
+}

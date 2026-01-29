@@ -106,7 +106,7 @@ export default function CommercialConstructionStPetersburgPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"
@@ -210,7 +210,7 @@ export default function CommercialConstructionStPetersburgPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
                 alt="Commercial construction project"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -236,7 +236,7 @@ export default function CommercialConstructionStPetersburgPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png"
+                src="/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp"
                 alt="Multi-story commercial building"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

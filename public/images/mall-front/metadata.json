@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/mall-front.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/mall-front.jpg",
+    "alt": "mall front",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 85,
+      "lighting": 78,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Commercial strip mall storefront",
+      "materials": [
+        "flat roofing",
+        "stucco",
+        "stone veneer",
+        "glass storefronts"
+      ],
+      "activity": "completed construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "strip-mall",
+      "flat-roof",
+      "commercial-building",
+      "retail-center",
+      "storefront",
+      "completed-project",
+      "ground-level"
+    ],
+    "altText": "Commercial strip mall with flat roof and modern storefront architecture",
+    "recommendations": [
+      "Excellent for commercial portfolio showcase",
+      "Strong composition showing full building facade",
+      "Good lighting demonstrates professional finish quality",
+      "Slight overexposure in sky - could benefit from polarizing filter",
+      "Ideal for 'before and after' project documentation"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mall-front-large.avif",
+      "path": "output/fcs-optimized/mall-front/mall-front-large.avif",
+      "fileSize": 57991
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mall-front-large.webp",
+      "path": "output/fcs-optimized/mall-front/mall-front-large.webp",
+      "fileSize": 46698
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mall-front-large.jpg",
+      "path": "output/fcs-optimized/mall-front/mall-front-large.jpg",
+      "fileSize": 67824
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mall-front-medium.avif",
+      "path": "output/fcs-optimized/mall-front/mall-front-medium.avif",
+      "fileSize": 57991
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mall-front-medium.webp",
+      "path": "output/fcs-optimized/mall-front/mall-front-medium.webp",
+      "fileSize": 46698
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mall-front-medium.jpg",
+      "path": "output/fcs-optimized/mall-front/mall-front-medium.jpg",
+      "fileSize": 67824
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mall-front-small.avif",
+      "path": "output/fcs-optimized/mall-front/mall-front-small.avif",
+      "fileSize": 57991
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mall-front-small.webp",
+      "path": "output/fcs-optimized/mall-front/mall-front-small.webp",
+      "fileSize": 46698
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mall-front-small.jpg",
+      "path": "output/fcs-optimized/mall-front/mall-front-small.jpg",
+      "fileSize": 67824
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/mall-front/mall-front-large.avif 1600w, /images/mall-front/mall-front-medium.avif 1200w, /images/mall-front/mall-front-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/mall-front/mall-front-large.webp 1600w, /images/mall-front/mall-front-medium.webp 1200w, /images/mall-front/mall-front-small.webp 800w\" />\n  <img src=\"/images/mall-front/mall-front-medium.jpg\"\n       srcset=\"/images/mall-front/mall-front-large.jpg 1600w, /images/mall-front/mall-front-medium.jpg 1200w, /images/mall-front/mall-front-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/mall-front/mall-front-large.avif 1600w, /images/mall-front/mall-front-medium.avif 1200w, /images/mall-front/mall-front-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/mall-front/mall-front-large.webp 1600w, /images/mall-front/mall-front-medium.webp 1200w, /images/mall-front/mall-front-small.webp 800w\" />"
+    ],
+    "fallback": "mall-front-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:40.734Z"
+}

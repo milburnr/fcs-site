@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/40f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/40f.jpg",
+    "alt": "40f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 85,
+      "exposure": 75,
+      "composition": 68,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Broken window glass with impact damage",
+      "materials": [
+        "glass",
+        "window frame",
+        "metal frame"
+      ],
+      "activity": "damage documentation",
+      "damageType": "impact damage",
+      "people": false,
+      "equipment": [],
+      "weather": "indeterminate",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": true,
+      "archive": true
+    },
+    "tags": [
+      "window-damage",
+      "broken-glass",
+      "impact-damage",
+      "storm-damage",
+      "property-damage",
+      "glass-replacement",
+      "documentation",
+      "insurance-claim"
+    ],
+    "altText": "Shattered window glass showing radial impact damage pattern on commercial building",
+    "recommendations": [
+      "NOT roofing-related - this is window/glass damage documentation",
+      "Useful for storm damage or property damage claims documentation",
+      "Consider better lighting to reduce reflections",
+      "Image shows safety hazard - sharp broken glass visible",
+      "Best used inline for damage assessment reports or insurance documentation"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "40f-display.avif",
+      "path": "output/fcs-optimized/40f/40f-display.avif",
+      "fileSize": 49464
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "40f-display.webp",
+      "path": "output/fcs-optimized/40f/40f-display.webp",
+      "fileSize": 35014
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "40f-display.jpg",
+      "path": "output/fcs-optimized/40f/40f-display.jpg",
+      "fileSize": 47135
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "40f-grid.avif",
+      "path": "output/fcs-optimized/40f/40f-grid.avif",
+      "fileSize": 58747
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "40f-grid.webp",
+      "path": "output/fcs-optimized/40f/40f-grid.webp",
+      "fileSize": 40570
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "40f-grid.jpg",
+      "path": "output/fcs-optimized/40f/40f-grid.jpg",
+      "fileSize": 60423
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "40f-thumbnail.avif",
+      "path": "output/fcs-optimized/40f/40f-thumbnail.avif",
+      "fileSize": 35770
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "40f-thumbnail.webp",
+      "path": "output/fcs-optimized/40f/40f-thumbnail.webp",
+      "fileSize": 24696
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "40f-thumbnail.jpg",
+      "path": "output/fcs-optimized/40f/40f-thumbnail.jpg",
+      "fileSize": 32943
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/40f/40f-display.avif 1200w, /images/40f/40f-grid.avif 600w, /images/40f/40f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/40f/40f-display.webp 1200w, /images/40f/40f-grid.webp 600w, /images/40f/40f-thumbnail.webp 400w\" />\n  <img src=\"/images/40f/40f-grid.jpg\"\n       srcset=\"/images/40f/40f-display.jpg 1200w, /images/40f/40f-grid.jpg 600w, /images/40f/40f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/40f/40f-display.avif 1200w, /images/40f/40f-grid.avif 600w, /images/40f/40f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/40f/40f-display.webp 1200w, /images/40f/40f-grid.webp 600w, /images/40f/40f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "40f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:25.208Z"
+}

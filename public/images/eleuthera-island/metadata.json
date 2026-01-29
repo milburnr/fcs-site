@@ -1,0 +1,88 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Eleuthera-Island.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Eleuthera-Island.jpeg",
+    "alt": "Eleuthera Island",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 95,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Coastal landscape with road and shoreline",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing",
+      "coastal-landscape",
+      "aerial-photography",
+      "ocean-view",
+      "irrelevant"
+    ],
+    "altText": "Aerial view of coastal road between turquoise ocean and dark blue sea",
+    "recommendations": [
+      "This image contains no roofing content whatsoever",
+      "Image shows a coastal landscape with a road dividing two bodies of water",
+      "Not suitable for roofing contractor portfolio or marketing materials",
+      "Recommend removing from roofing image collection",
+      "This appears to be a misclassified or incorrectly uploaded image"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "eleuthera-island-thumbnail.avif",
+      "path": "output/fcs-optimized/eleuthera-island/eleuthera-island-thumbnail.avif",
+      "fileSize": 18830
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "eleuthera-island-thumbnail.webp",
+      "path": "output/fcs-optimized/eleuthera-island/eleuthera-island-thumbnail.webp",
+      "fileSize": 11532
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "eleuthera-island-thumbnail.jpg",
+      "path": "output/fcs-optimized/eleuthera-island/eleuthera-island-thumbnail.jpg",
+      "fileSize": 16516
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/eleuthera-island/eleuthera-island-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/eleuthera-island/eleuthera-island-thumbnail.webp 400w\" />\n  <img src=\"/images/eleuthera-island/eleuthera-island-thumbnail.jpg\"\n       srcset=\"/images/eleuthera-island/eleuthera-island-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/eleuthera-island/eleuthera-island-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/eleuthera-island/eleuthera-island-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "eleuthera-island-thumbnail.jpg"
+  },
+  "processedAt": "2026-01-17T01:16:06.523Z"
+}

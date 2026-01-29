@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/images-4.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images-4.jpg",
+    "alt": "images",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site planning meeting",
+      "materials": [
+        "structural steel",
+        "concrete",
+        "construction framework"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "blueprints",
+        "safety vests",
+        "hard hats"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprint-review",
+      "safety-equipment",
+      "commercial-construction",
+      "project-management",
+      "team-collaboration",
+      "hard-hats",
+      "construction-site"
+    ],
+    "altText": "Construction team reviewing blueprints at commercial building site with safety gear",
+    "recommendations": [
+      "Image shows construction planning but not roofing-specific work",
+      "Harsh backlighting creates slight overexposure - better for midday shooting",
+      "Good for 'project planning' or 'consultation' sections",
+      "Consider adding roofing-specific context if using for roofing contractor marketing",
+      "Strong emphasis on safety culture with proper PPE visible"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-4-display.avif",
+      "path": "output/fcs-optimized/images-4/images-4-display.avif",
+      "fileSize": 15013
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-4-display.webp",
+      "path": "output/fcs-optimized/images-4/images-4-display.webp",
+      "fileSize": 14578
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-4-display.jpg",
+      "path": "output/fcs-optimized/images-4/images-4-display.jpg",
+      "fileSize": 14407
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-4-grid.avif",
+      "path": "output/fcs-optimized/images-4/images-4-grid.avif",
+      "fileSize": 40353
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-4-grid.webp",
+      "path": "output/fcs-optimized/images-4/images-4-grid.webp",
+      "fileSize": 31588
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-4-grid.jpg",
+      "path": "output/fcs-optimized/images-4/images-4-grid.jpg",
+      "fileSize": 46507
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-4-thumbnail.avif",
+      "path": "output/fcs-optimized/images-4/images-4-thumbnail.avif",
+      "fileSize": 29100
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-4-thumbnail.webp",
+      "path": "output/fcs-optimized/images-4/images-4-thumbnail.webp",
+      "fileSize": 21098
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-4-thumbnail.jpg",
+      "path": "output/fcs-optimized/images-4/images-4-thumbnail.jpg",
+      "fileSize": 27484
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/images-4/images-4-display.avif 1200w, /images/images-4/images-4-grid.avif 600w, /images/images-4/images-4-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/images-4/images-4-display.webp 1200w, /images/images-4/images-4-grid.webp 600w, /images/images-4/images-4-thumbnail.webp 400w\" />\n  <img src=\"/images/images-4/images-4-grid.jpg\"\n       srcset=\"/images/images-4/images-4-display.jpg 1200w, /images/images-4/images-4-grid.jpg 600w, /images/images-4/images-4-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/images-4/images-4-display.avif 1200w, /images/images-4/images-4-grid.avif 600w, /images/images-4/images-4-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/images-4/images-4-display.webp 1200w, /images/images-4/images-4-grid.webp 600w, /images/images-4/images-4-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "images-4-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:42:13.604Z"
+}

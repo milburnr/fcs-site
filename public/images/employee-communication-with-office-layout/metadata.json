@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Employee-Communication-with-Office-Layout.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Employee-Communication-with-Office-Layout.jpg",
+    "alt": "Employee Communication with Office Layout",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 85,
+      "lighting": 78,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Business meeting or agreement between construction professionals",
+      "materials": [
+        "blueprints",
+        "architectural plans"
+      ],
+      "activity": "consultation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hard hats",
+        "blueprints",
+        "laptop",
+        "rolled plans"
+      ],
+      "weather": "indoor",
+      "perspective": "ground level",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-consultation",
+      "contractor-handshake",
+      "construction-agreement",
+      "project-planning",
+      "blueprints",
+      "hard-hats",
+      "professional-meeting",
+      "customer-service",
+      "roofing-estimate"
+    ],
+    "altText": "Roofing contractors shaking hands over blueprints with safety helmets on desk",
+    "recommendations": [
+      "Excellent for 'About Us' or 'Our Process' pages",
+      "Perfect for customer service and consultation sections",
+      "Shows professionalism and safety culture",
+      "Good natural lighting from windows",
+      "Could benefit from slightly brighter exposure on subjects"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "employee-communication-with-office-layout-large.avif",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-large.avif",
+      "fileSize": 48575
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "employee-communication-with-office-layout-large.webp",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-large.webp",
+      "fileSize": 42672
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "employee-communication-with-office-layout-large.jpg",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-large.jpg",
+      "fileSize": 53224
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "employee-communication-with-office-layout-medium.avif",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.avif",
+      "fileSize": 48575
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "employee-communication-with-office-layout-medium.webp",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.webp",
+      "fileSize": 42672
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "employee-communication-with-office-layout-medium.jpg",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.jpg",
+      "fileSize": 53224
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "employee-communication-with-office-layout-small.avif",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-small.avif",
+      "fileSize": 48575
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "employee-communication-with-office-layout-small.webp",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-small.webp",
+      "fileSize": 42672
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "employee-communication-with-office-layout-small.jpg",
+      "path": "output/fcs-optimized/employee-communication-with-office-layout/employee-communication-with-office-layout-small.jpg",
+      "fileSize": 53224
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-large.avif 1600w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.avif 1200w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-large.webp 1600w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.webp 1200w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-small.webp 800w\" />\n  <img src=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.jpg\"\n       srcset=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-large.jpg 1600w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.jpg 1200w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-large.avif 1600w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.avif 1200w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/employee-communication-with-office-layout/employee-communication-with-office-layout-large.webp 1600w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-medium.webp 1200w, /images/employee-communication-with-office-layout/employee-communication-with-office-layout-small.webp 800w\" />"
+    ],
+    "fallback": "employee-communication-with-office-layout-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:36.761Z"
+}

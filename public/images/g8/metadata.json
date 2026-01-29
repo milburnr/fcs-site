@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/g8.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/g8.jpg",
+    "alt": "g",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Real estate or roofing contract consultation meeting",
+      "materials": null,
+      "activity": "consultation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "calculator",
+        "contract document",
+        "pen",
+        "house model"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "business hours"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-consultation",
+      "contract-signing",
+      "customer-meeting",
+      "professional-service",
+      "business-meeting",
+      "residential-roofing",
+      "customer-relations",
+      "insurance-claim"
+    ],
+    "altText": "Roofing contractor discussing contract with homeowner at consultation meeting",
+    "recommendations": [
+      "Good for 'Contact Us' or 'Free Estimate' page sections",
+      "Shows professional customer service interaction",
+      "Could be used in insurance claim process content",
+      "Effective for building trust and professionalism",
+      "Consider adding company branding to contract document for hero use"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g8-large.avif",
+      "path": "output/fcs-optimized/g8/g8-large.avif",
+      "fileSize": 75030
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g8-large.webp",
+      "path": "output/fcs-optimized/g8/g8-large.webp",
+      "fileSize": 60904
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "g8-large.jpg",
+      "path": "output/fcs-optimized/g8/g8-large.jpg",
+      "fileSize": 93706
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g8-medium.avif",
+      "path": "output/fcs-optimized/g8/g8-medium.avif",
+      "fileSize": 75030
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g8-medium.webp",
+      "path": "output/fcs-optimized/g8/g8-medium.webp",
+      "fileSize": 60904
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "g8-medium.jpg",
+      "path": "output/fcs-optimized/g8/g8-medium.jpg",
+      "fileSize": 93706
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g8-small.avif",
+      "path": "output/fcs-optimized/g8/g8-small.avif",
+      "fileSize": 59762
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g8-small.webp",
+      "path": "output/fcs-optimized/g8/g8-small.webp",
+      "fileSize": 44420
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "g8-small.jpg",
+      "path": "output/fcs-optimized/g8/g8-small.jpg",
+      "fileSize": 70113
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/g8/g8-large.avif 1600w, /images/g8/g8-medium.avif 1200w, /images/g8/g8-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/g8/g8-large.webp 1600w, /images/g8/g8-medium.webp 1200w, /images/g8/g8-small.webp 800w\" />\n  <img src=\"/images/g8/g8-medium.jpg\"\n       srcset=\"/images/g8/g8-large.jpg 1600w, /images/g8/g8-medium.jpg 1200w, /images/g8/g8-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/g8/g8-large.avif 1600w, /images/g8/g8-medium.avif 1200w, /images/g8/g8-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/g8/g8-large.webp 1600w, /images/g8/g8-medium.webp 1200w, /images/g8/g8-small.webp 800w\" />"
+    ],
+    "fallback": "g8-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:16.511Z"
+}

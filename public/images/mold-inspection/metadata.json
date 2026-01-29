@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Mold-Inspection.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Mold-Inspection.webp",
+    "alt": "Mold Inspection",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 78,
+      "lighting": 80,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Mold remediation and wall preparation",
+      "materials": [
+        "drywall",
+        "concrete",
+        "mold growth"
+      ],
+      "activity": "inspection",
+      "damageType": "water damage",
+      "people": true,
+      "equipment": [
+        "respirator mask",
+        "protective suit",
+        "scraper tool",
+        "disposable coveralls"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "not applicable"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "mold-remediation",
+      "water-damage",
+      "safety-equipment",
+      "mold-inspection",
+      "protective-gear",
+      "wall-damage",
+      "moisture-damage",
+      "remediation-service"
+    ],
+    "altText": "Worker in protective gear inspecting mold damage on interior wall with scraper tool",
+    "recommendations": [
+      "Good for demonstrating proper safety protocols during mold remediation",
+      "Shows clear evidence of water damage and mold growth",
+      "Effective for water damage restoration service pages",
+      "Consider adding before/after context for marketing materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mold-inspection-large.avif",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-large.avif",
+      "fileSize": 31695
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mold-inspection-large.webp",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-large.webp",
+      "fileSize": 24036
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "mold-inspection-large.jpg",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-large.jpg",
+      "fileSize": 31557
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mold-inspection-medium.avif",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-medium.avif",
+      "fileSize": 31695
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mold-inspection-medium.webp",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-medium.webp",
+      "fileSize": 24036
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "mold-inspection-medium.jpg",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-medium.jpg",
+      "fileSize": 31557
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mold-inspection-small.avif",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-small.avif",
+      "fileSize": 31695
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mold-inspection-small.webp",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-small.webp",
+      "fileSize": 24036
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "mold-inspection-small.jpg",
+      "path": "output/fcs-optimized/mold-inspection/mold-inspection-small.jpg",
+      "fileSize": 31557
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/mold-inspection/mold-inspection-large.avif 1600w, /images/mold-inspection/mold-inspection-medium.avif 1200w, /images/mold-inspection/mold-inspection-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/mold-inspection/mold-inspection-large.webp 1600w, /images/mold-inspection/mold-inspection-medium.webp 1200w, /images/mold-inspection/mold-inspection-small.webp 800w\" />\n  <img src=\"/images/mold-inspection/mold-inspection-medium.jpg\"\n       srcset=\"/images/mold-inspection/mold-inspection-large.jpg 1600w, /images/mold-inspection/mold-inspection-medium.jpg 1200w, /images/mold-inspection/mold-inspection-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/mold-inspection/mold-inspection-large.avif 1600w, /images/mold-inspection/mold-inspection-medium.avif 1200w, /images/mold-inspection/mold-inspection-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/mold-inspection/mold-inspection-large.webp 1600w, /images/mold-inspection/mold-inspection-medium.webp 1200w, /images/mold-inspection/mold-inspection-small.webp 800w\" />"
+    ],
+    "fallback": "mold-inspection-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:52.351Z"
+}

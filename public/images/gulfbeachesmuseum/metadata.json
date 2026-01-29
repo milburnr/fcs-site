@@ -1,0 +1,147 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/GulfBeachesMuseum.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/GulfBeachesMuseum.webp",
+    "alt": "GulfBeachesMuseum",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historical museum building with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "wood siding"
+      ],
+      "activity": "exterior documentation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "asphalt-shingle-roof",
+      "historical-building",
+      "residential-style-roof",
+      "steep-pitch",
+      "ground-level",
+      "exterior-view",
+      "tropical-landscape",
+      "architectural-shingles"
+    ],
+    "altText": "Gulf Beaches Historical Museum with gray asphalt shingle roof and palm trees",
+    "recommendations": [
+      "Good for gallery showcase of historical building roofing work",
+      "Consider capturing closer detail shots of roofing materials",
+      "Roof details partially obscured by trees - clearer angle would improve clarity",
+      "Suitable for case study or project portfolio in historical preservation context"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "gulfbeachesmuseum-display.avif",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-display.avif",
+      "fileSize": 122987
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "gulfbeachesmuseum-display.webp",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-display.webp",
+      "fileSize": 88530
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "gulfbeachesmuseum-display.jpg",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-display.jpg",
+      "fileSize": 100141
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "gulfbeachesmuseum-grid.avif",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-grid.avif",
+      "fileSize": 100048
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "gulfbeachesmuseum-grid.webp",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-grid.webp",
+      "fileSize": 66614
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "gulfbeachesmuseum-grid.jpg",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-grid.jpg",
+      "fileSize": 75385
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "gulfbeachesmuseum-thumbnail.avif",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.avif",
+      "fileSize": 56611
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "gulfbeachesmuseum-thumbnail.webp",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.webp",
+      "fileSize": 34342
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "gulfbeachesmuseum-thumbnail.jpg",
+      "path": "output/fcs-optimized/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.jpg",
+      "fileSize": 37765
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-display.avif 1200w, /images/gulfbeachesmuseum/gulfbeachesmuseum-grid.avif 600w, /images/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-display.webp 1200w, /images/gulfbeachesmuseum/gulfbeachesmuseum-grid.webp 600w, /images/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.webp 400w\" />\n  <img src=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-grid.jpg\"\n       srcset=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-display.jpg 1200w, /images/gulfbeachesmuseum/gulfbeachesmuseum-grid.jpg 600w, /images/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-display.avif 1200w, /images/gulfbeachesmuseum/gulfbeachesmuseum-grid.avif 600w, /images/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/gulfbeachesmuseum/gulfbeachesmuseum-display.webp 1200w, /images/gulfbeachesmuseum/gulfbeachesmuseum-grid.webp 600w, /images/gulfbeachesmuseum/gulfbeachesmuseum-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "gulfbeachesmuseum-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:16:37.655Z"
+}

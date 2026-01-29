@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Tampa-Heights-1-MAIN.jpg.optimal.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Tampa-Heights-1-MAIN.jpg.optimal.jpg",
+    "alt": "Tampa Heights 1 MAIN.jpg.optimal",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 80,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Multi-family residential apartment complex architectural rendering",
+      "materials": [
+        "flat roofing",
+        "parapet walls",
+        "metal coping",
+        "brick veneer",
+        "stucco",
+        "glass"
+      ],
+      "activity": "architectural visualization",
+      "damageType": null,
+      "people": true,
+      "equipment": [],
+      "weather": "clear evening",
+      "perspective": "ground level street view",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "architectural-rendering",
+      "multi-family",
+      "flat-roof",
+      "commercial-residential",
+      "conceptual",
+      "3d-visualization",
+      "parapet-roof",
+      "evening-render"
+    ],
+    "altText": "Modern apartment complex architectural rendering showing flat roof and parapet design",
+    "recommendations": [
+      "This is a 3D architectural rendering, not an actual roofing project photo",
+      "Not suitable for portfolio use - shows conceptual design only",
+      "Does not depict actual roofing work, materials, or installation",
+      "Cannot be used to demonstrate completed projects or real craftsmanship",
+      "Archive only - may be useful for design consultation discussions but not marketing",
+      "Consider replacing with actual project photos for credibility and authenticity"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tampa-heights-1-main-jpg-optimal-large.avif",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.avif",
+      "fileSize": 338792
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tampa-heights-1-main-jpg-optimal-large.webp",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.webp",
+      "fileSize": 295366
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tampa-heights-1-main-jpg-optimal-large.jpg",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.jpg",
+      "fileSize": 343054
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-heights-1-main-jpg-optimal-medium.avif",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.avif",
+      "fileSize": 267409
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-heights-1-main-jpg-optimal-medium.webp",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.webp",
+      "fileSize": 178006
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-heights-1-main-jpg-optimal-medium.jpg",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.jpg",
+      "fileSize": 226515
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tampa-heights-1-main-jpg-optimal-small.avif",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.avif",
+      "fileSize": 128925
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tampa-heights-1-main-jpg-optimal-small.webp",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.webp",
+      "fileSize": 81970
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tampa-heights-1-main-jpg-optimal-small.jpg",
+      "path": "output/fcs-optimized/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.jpg",
+      "fileSize": 104730
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.avif 1600w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.avif 1200w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.webp 1600w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.webp 1200w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.webp 800w\" />\n  <img src=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.jpg\"\n       srcset=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.jpg 1600w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.jpg 1200w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.avif 1600w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.avif 1200w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-large.webp 1600w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-medium.webp 1200w, /images/tampa-heights-1-main-jpg-optimal/tampa-heights-1-main-jpg-optimal-small.webp 800w\" />"
+    ],
+    "fallback": "tampa-heights-1-main-jpg-optimal-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:36.222Z"
+}

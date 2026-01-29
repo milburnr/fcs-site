@@ -1,0 +1,171 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/FCS-Logo-BW.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Logo-BW.png",
+    "alt": "FCS Logo BW",
+    "context": "logo"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 95,
+      "focus": 100,
+      "exposure": 95,
+      "composition": 95,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Company logo and branding",
+      "materials": null,
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": null,
+      "weather": null,
+      "perspective": "direct front view",
+      "timeOfDay": null
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": false,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "fcs-logo",
+      "florida-construction-specialists",
+      "company-branding",
+      "corporate-identity",
+      "roofing-contractor-logo",
+      "professional-logo",
+      "black-logo",
+      "contractor-branding"
+    ],
+    "altText": "Florida Construction Specialists FCS roofing contractor company logo",
+    "recommendations": [
+      "Perfect for website header and branding materials",
+      "High resolution and crisp - ideal for print and digital use",
+      "Clean, professional design - excellent brand identity representation",
+      "Use for business cards, letterhead, website headers, and marketing collateral"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "fcs-logo-bw-xl.avif",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-xl.avif",
+      "fileSize": 31995
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "fcs-logo-bw-xl.webp",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-xl.webp",
+      "fileSize": 35810
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "fcs-logo-bw-xl.jpg",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-xl.jpg",
+      "fileSize": 85155
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "fcs-logo-bw-large.avif",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-large.avif",
+      "fileSize": 26405
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "fcs-logo-bw-large.webp",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-large.webp",
+      "fileSize": 27098
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "fcs-logo-bw-large.jpg",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-large.jpg",
+      "fileSize": 59193
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "fcs-logo-bw-medium.avif",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-medium.avif",
+      "fileSize": 19866
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "fcs-logo-bw-medium.webp",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-medium.webp",
+      "fileSize": 18354
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "fcs-logo-bw-medium.jpg",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-medium.jpg",
+      "fileSize": 39758
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "fcs-logo-bw-small.avif",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-small.avif",
+      "fileSize": 15337
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "fcs-logo-bw-small.webp",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-small.webp",
+      "fileSize": 14466
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "fcs-logo-bw-small.jpg",
+      "path": "output/fcs-optimized/fcs-logo-bw/fcs-logo-bw-small.jpg",
+      "fileSize": 29349
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/fcs-logo-bw/fcs-logo-bw-xl.avif 2560w, /images/fcs-logo-bw/fcs-logo-bw-large.avif 1920w, /images/fcs-logo-bw/fcs-logo-bw-medium.avif 1280w, /images/fcs-logo-bw/fcs-logo-bw-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/fcs-logo-bw/fcs-logo-bw-xl.webp 2560w, /images/fcs-logo-bw/fcs-logo-bw-large.webp 1920w, /images/fcs-logo-bw/fcs-logo-bw-medium.webp 1280w, /images/fcs-logo-bw/fcs-logo-bw-small.webp 960w\" />\n  <img src=\"/images/fcs-logo-bw/fcs-logo-bw-medium.jpg\"\n       srcset=\"/images/fcs-logo-bw/fcs-logo-bw-xl.jpg 2560w, /images/fcs-logo-bw/fcs-logo-bw-large.jpg 1920w, /images/fcs-logo-bw/fcs-logo-bw-medium.jpg 1280w, /images/fcs-logo-bw/fcs-logo-bw-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/fcs-logo-bw/fcs-logo-bw-xl.avif 2560w, /images/fcs-logo-bw/fcs-logo-bw-large.avif 1920w, /images/fcs-logo-bw/fcs-logo-bw-medium.avif 1280w, /images/fcs-logo-bw/fcs-logo-bw-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/fcs-logo-bw/fcs-logo-bw-xl.webp 2560w, /images/fcs-logo-bw/fcs-logo-bw-large.webp 1920w, /images/fcs-logo-bw/fcs-logo-bw-medium.webp 1280w, /images/fcs-logo-bw/fcs-logo-bw-small.webp 960w\" />"
+    ],
+    "fallback": "fcs-logo-bw-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:18:06.185Z"
+}

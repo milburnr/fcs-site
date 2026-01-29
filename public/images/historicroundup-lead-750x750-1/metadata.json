@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/historicroundup_lead-750x750-1.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/historicroundup_lead-750x750-1.jpeg",
+    "alt": "historicroundup lead 750x750",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Historic residential estate with clay tile roof",
+      "materials": [
+        "clay tile",
+        "brick",
+        "decorative timber framing"
+      ],
+      "activity": "showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "elevated wide shot",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "clay-tile-roofing",
+      "residential-estate",
+      "historic-property",
+      "premium-roofing",
+      "multi-chimney",
+      "brick-construction",
+      "landscape-grounds",
+      "heritage-home",
+      "luxury-residential"
+    ],
+    "altText": "Historic brick estate with premium clay tile roof and multiple decorative chimneys",
+    "recommendations": [
+      "Excellent showcase of traditional clay tile roofing craftsmanship",
+      "Perfect for portfolio featuring heritage or luxury residential projects",
+      "Wide composition ideal for hero image on premium roofing services page",
+      "Demonstrates long-term durability and aesthetic appeal of quality roofing",
+      "Consider for case studies targeting high-end residential market"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "historicroundup-lead-750x750-1-large.avif",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.avif",
+      "fileSize": 136835
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "historicroundup-lead-750x750-1-large.webp",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.webp",
+      "fileSize": 126254
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "historicroundup-lead-750x750-1-large.jpg",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.jpg",
+      "fileSize": 138157
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "historicroundup-lead-750x750-1-medium.avif",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.avif",
+      "fileSize": 136835
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "historicroundup-lead-750x750-1-medium.webp",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.webp",
+      "fileSize": 126254
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "historicroundup-lead-750x750-1-medium.jpg",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.jpg",
+      "fileSize": 138157
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "historicroundup-lead-750x750-1-small.avif",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.avif",
+      "fileSize": 122115
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "historicroundup-lead-750x750-1-small.webp",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.webp",
+      "fileSize": 82500
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "historicroundup-lead-750x750-1-small.jpg",
+      "path": "output/fcs-optimized/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.jpg",
+      "fileSize": 95818
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.avif 1600w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.avif 1200w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.webp 1600w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.webp 1200w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.webp 800w\" />\n  <img src=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.jpg\"\n       srcset=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.jpg 1600w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.jpg 1200w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.avif 1600w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.avif 1200w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-large.webp 1600w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-medium.webp 1200w, /images/historicroundup-lead-750x750-1/historicroundup-lead-750x750-1-small.webp 800w\" />"
+    ],
+    "fallback": "historicroundup-lead-750x750-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:37.923Z"
+}

@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1339300601-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1339300601-612x612-1.jpg",
+    "alt": "istockphoto 1339300601 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 78,
+      "composition": 68,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Flat roof maintenance or coating application",
+      "materials": [
+        "flat roofing surface",
+        "roof coating",
+        "roofing membrane"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hand tools",
+        "coating applicator"
+      ],
+      "weather": "sunny",
+      "perspective": "close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "flat-roof-maintenance",
+      "roof-coating",
+      "commercial-roofing",
+      "hand-application",
+      "preventative-maintenance",
+      "residential-roofing",
+      "close-up-work"
+    ],
+    "altText": "Roofer applying coating to flat roof surface during maintenance work",
+    "recommendations": [
+      "Good for illustrating hands-on maintenance work",
+      "Consider capturing wider shot to show full roof context",
+      "Image effectively shows detail work but lacks brand visibility",
+      "Suitable for blog posts about roof maintenance and coating services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1339300601-612x612-1-display.avif",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.avif",
+      "fileSize": 22746
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1339300601-612x612-1-display.webp",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.webp",
+      "fileSize": 19576
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1339300601-612x612-1-display.jpg",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.jpg",
+      "fileSize": 28420
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1339300601-612x612-1-grid.avif",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.avif",
+      "fileSize": 28686
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1339300601-612x612-1-grid.webp",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.webp",
+      "fileSize": 17926
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1339300601-612x612-1-grid.jpg",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.jpg",
+      "fileSize": 32559
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1339300601-612x612-1-thumbnail.avif",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.avif",
+      "fileSize": 17101
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1339300601-612x612-1-thumbnail.webp",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.webp",
+      "fileSize": 10854
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1339300601-612x612-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.jpg",
+      "fileSize": 17679
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.avif 1200w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.avif 600w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.webp 1200w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.webp 600w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.webp 400w\" />\n  <img src=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.jpg\"\n       srcset=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.jpg 1200w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.jpg 600w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.avif 1200w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.avif 600w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-display.webp 1200w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-grid.webp 600w, /images/istockphoto-1339300601-612x612-1/istockphoto-1339300601-612x612-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "istockphoto-1339300601-612x612-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:15.100Z"
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Replacing-roof-decking-and-rafters.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Replacing-roof-decking-and-rafters.jpg",
+    "alt": "Replacing roof decking and rafters",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 80,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Residential roof damage and demolition",
+      "materials": [
+        "asphalt shingles",
+        "wood decking",
+        "plywood sheathing"
+      ],
+      "activity": "replacement",
+      "damageType": "structural damage",
+      "people": false,
+      "equipment": [
+        "ladder"
+      ],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roof-damage",
+      "asphalt-shingle-roof",
+      "roof-replacement",
+      "aerial-damage-assessment",
+      "residential-roofing",
+      "structural-damage",
+      "roof-demolition",
+      "storm-damage",
+      "before-photo"
+    ],
+    "altText": "Aerial view of damaged residential roof showing exposed decking and shingle removal during replacement project",
+    "recommendations": [
+      "Excellent damage documentation - ideal for insurance claims and project documentation",
+      "Strong aerial perspective clearly shows extent of damage - perfect for before/after galleries",
+      "Good lighting and clarity - suitable for marketing materials showcasing repair capabilities",
+      "Consider adding after-completion photo for compelling before/after comparison"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "replacing-roof-decking-and-rafters-large.avif",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.avif",
+      "fileSize": 343470
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "replacing-roof-decking-and-rafters-large.webp",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp",
+      "fileSize": 275858
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "replacing-roof-decking-and-rafters-large.jpg",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.jpg",
+      "fileSize": 338147
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "replacing-roof-decking-and-rafters-medium.avif",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.avif",
+      "fileSize": 353543
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "replacing-roof-decking-and-rafters-medium.webp",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.webp",
+      "fileSize": 233756
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "replacing-roof-decking-and-rafters-medium.jpg",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.jpg",
+      "fileSize": 279177
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "replacing-roof-decking-and-rafters-small.avif",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.avif",
+      "fileSize": 205779
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "replacing-roof-decking-and-rafters-small.webp",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.webp",
+      "fileSize": 128152
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "replacing-roof-decking-and-rafters-small.jpg",
+      "path": "output/fcs-optimized/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.jpg",
+      "fileSize": 143599
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.avif 1600w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.avif 1200w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp 1600w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.webp 1200w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.webp 800w\" />\n  <img src=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.jpg\"\n       srcset=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.jpg 1600w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.jpg 1200w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.avif 1600w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.avif 1200w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp 1600w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-medium.webp 1200w, /images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-small.webp 800w\" />"
+    ],
+    "fallback": "replacing-roof-decking-and-rafters-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:24:43.741Z"
+}

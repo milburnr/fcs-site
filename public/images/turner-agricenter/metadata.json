@@ -1,0 +1,101 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Turner-Agricenter.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Turner-Agricenter.png",
+    "alt": "Turner Agricenter",
+    "context": "content"
+  },
+  "analysis": null,
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "turner-agricenter-display.avif",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-display.avif",
+      "fileSize": 278019
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "turner-agricenter-display.webp",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-display.webp",
+      "fileSize": 193278
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "turner-agricenter-display.jpg",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-display.jpg",
+      "fileSize": 217000
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "turner-agricenter-grid.avif",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-grid.avif",
+      "fileSize": 65409
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "turner-agricenter-grid.webp",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-grid.webp",
+      "fileSize": 45936
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "turner-agricenter-grid.jpg",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-grid.jpg",
+      "fileSize": 53753
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "turner-agricenter-thumbnail.avif",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-thumbnail.avif",
+      "fileSize": 28213
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "turner-agricenter-thumbnail.webp",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-thumbnail.webp",
+      "fileSize": 19714
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "turner-agricenter-thumbnail.jpg",
+      "path": "output/fcs-optimized/turner-agricenter/turner-agricenter-thumbnail.jpg",
+      "fileSize": 23459
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/turner-agricenter/turner-agricenter-display.avif 1200w, /images/turner-agricenter/turner-agricenter-grid.avif 600w, /images/turner-agricenter/turner-agricenter-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/turner-agricenter/turner-agricenter-display.webp 1200w, /images/turner-agricenter/turner-agricenter-grid.webp 600w, /images/turner-agricenter/turner-agricenter-thumbnail.webp 400w\" />\n  <img src=\"/images/turner-agricenter/turner-agricenter-grid.jpg\"\n       srcset=\"/images/turner-agricenter/turner-agricenter-display.jpg 1200w, /images/turner-agricenter/turner-agricenter-grid.jpg 600w, /images/turner-agricenter/turner-agricenter-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/turner-agricenter/turner-agricenter-display.avif 1200w, /images/turner-agricenter/turner-agricenter-grid.avif 600w, /images/turner-agricenter/turner-agricenter-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/turner-agricenter/turner-agricenter-display.webp 1200w, /images/turner-agricenter/turner-agricenter-grid.webp 600w, /images/turner-agricenter/turner-agricenter-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "turner-agricenter-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:25:00.258Z"
+}

@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/download-18.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/download-18.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 70,
+      "exposure": 80,
+      "composition": 65,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Commercial flat roof coating application",
+      "materials": [
+        "roof coating",
+        "flat roofing membrane",
+        "white elastomeric coating"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "paint roller",
+        "coating bucket",
+        "protective suit"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roof-coating",
+      "commercial-roofing",
+      "flat-roof-maintenance",
+      "protective-coating",
+      "roofing-contractor",
+      "white-roof-coating",
+      "commercial-maintenance",
+      "reflective-coating"
+    ],
+    "altText": "Roofing contractor applying white protective coating to commercial flat roof",
+    "recommendations": [
+      "Image is slightly cropped at top - worker's head cut off reduces composition quality",
+      "Good documentation of coating application process",
+      "Shows proper protective equipment usage",
+      "Consider capturing full body shots for better composition",
+      "Suitable for gallery showcasing maintenance services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-18-display.avif",
+      "path": "output/fcs-optimized/download-18/download-18-display.avif",
+      "fileSize": 10648
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-18-display.webp",
+      "path": "output/fcs-optimized/download-18/download-18-display.webp",
+      "fileSize": 11276
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-18-display.jpg",
+      "path": "output/fcs-optimized/download-18/download-18-display.jpg",
+      "fileSize": 10979
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-18-grid.avif",
+      "path": "output/fcs-optimized/download-18/download-18-grid.avif",
+      "fileSize": 22235
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-18-grid.webp",
+      "path": "output/fcs-optimized/download-18/download-18-grid.webp",
+      "fileSize": 16962
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-18-grid.jpg",
+      "path": "output/fcs-optimized/download-18/download-18-grid.jpg",
+      "fileSize": 22884
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-18-thumbnail.avif",
+      "path": "output/fcs-optimized/download-18/download-18-thumbnail.avif",
+      "fileSize": 14961
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-18-thumbnail.webp",
+      "path": "output/fcs-optimized/download-18/download-18-thumbnail.webp",
+      "fileSize": 10782
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-18-thumbnail.jpg",
+      "path": "output/fcs-optimized/download-18/download-18-thumbnail.jpg",
+      "fileSize": 13386
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-18/download-18-display.avif 1200w, /images/download-18/download-18-grid.avif 600w, /images/download-18/download-18-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-18/download-18-display.webp 1200w, /images/download-18/download-18-grid.webp 600w, /images/download-18/download-18-thumbnail.webp 400w\" />\n  <img src=\"/images/download-18/download-18-grid.jpg\"\n       srcset=\"/images/download-18/download-18-display.jpg 1200w, /images/download-18/download-18-grid.jpg 600w, /images/download-18/download-18-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-18/download-18-display.avif 1200w, /images/download-18/download-18-grid.avif 600w, /images/download-18/download-18-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-18/download-18-display.webp 1200w, /images/download-18/download-18-grid.webp 600w, /images/download-18/download-18-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "download-18-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:27:52.252Z"
+}

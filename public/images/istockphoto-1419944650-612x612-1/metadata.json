@@ -1,0 +1,145 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1419944650-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1419944650-612x612-1.jpg",
+    "alt": "istockphoto 1419944650 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Exterior house painting contractor at work",
+      "materials": [],
+      "activity": "painting",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "paint roller",
+        "ladder"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "exterior-painting",
+      "house-painter",
+      "residential-contractor",
+      "painting-service",
+      "home-improvement",
+      "contractor-at-work"
+    ],
+    "altText": "Professional painter applying paint to exterior house wall with roller",
+    "recommendations": [
+      "Image shows painting work, not roofing - not relevant for roofing contractor portfolio",
+      "Should be archived or excluded from roofing-specific galleries",
+      "No roofing materials, equipment, or activities visible",
+      "Consider using only for general contractor or home services content"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1419944650-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.avif",
+      "fileSize": 26686
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1419944650-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.webp",
+      "fileSize": 21962
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1419944650-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.jpg",
+      "fileSize": 29955
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1419944650-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.avif",
+      "fileSize": 26686
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1419944650-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.webp",
+      "fileSize": 21962
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1419944650-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.jpg",
+      "fileSize": 29955
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1419944650-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.avif",
+      "fileSize": 26686
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1419944650-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.webp",
+      "fileSize": 21962
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1419944650-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.jpg",
+      "fileSize": 29955
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.avif 1600w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.avif 1200w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.webp 1600w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.webp 1200w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.jpg 1600w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.jpg 1200w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.avif 1600w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.avif 1200w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-large.webp 1600w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-medium.webp 1200w, /images/istockphoto-1419944650-612x612-1/istockphoto-1419944650-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1419944650-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:23.372Z"
+}

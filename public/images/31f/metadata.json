@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/31f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/31f.jpg",
+    "alt": "31f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 92,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Luxury residential home with white architectural shingle roof",
+      "materials": [
+        "architectural shingles",
+        "white siding",
+        "decorative columns"
+      ],
+      "activity": "completed installation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear evening/dusk",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "dusk/evening"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "architectural-shingles",
+      "white-roof",
+      "luxury-home",
+      "completed-project",
+      "curb-appeal",
+      "evening-photography",
+      "hero-image",
+      "traditional-style",
+      "residential-showcase"
+    ],
+    "altText": "Beautiful white luxury home with new architectural shingle roof at dusk",
+    "recommendations": [
+      "Excellent twilight photography - interior lights create warm, inviting atmosphere",
+      "Perfect hero image for residential roofing marketing materials",
+      "Strong curb appeal showcases quality craftsmanship and final result",
+      "Consider adding before/after comparison for enhanced marketing impact"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "31f-large.avif",
+      "path": "output/fcs-optimized/31f/31f-large.avif",
+      "fileSize": 13057
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "31f-large.webp",
+      "path": "output/fcs-optimized/31f/31f-large.webp",
+      "fileSize": 13158
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "31f-large.jpg",
+      "path": "output/fcs-optimized/31f/31f-large.jpg",
+      "fileSize": 12380
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "31f-medium.avif",
+      "path": "output/fcs-optimized/31f/31f-medium.avif",
+      "fileSize": 13057
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "31f-medium.webp",
+      "path": "output/fcs-optimized/31f/31f-medium.webp",
+      "fileSize": 13158
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "31f-medium.jpg",
+      "path": "output/fcs-optimized/31f/31f-medium.jpg",
+      "fileSize": 12380
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "31f-small.avif",
+      "path": "output/fcs-optimized/31f/31f-small.avif",
+      "fileSize": 13057
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "31f-small.webp",
+      "path": "output/fcs-optimized/31f/31f-small.webp",
+      "fileSize": 13158
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "31f-small.jpg",
+      "path": "output/fcs-optimized/31f/31f-small.jpg",
+      "fileSize": 12380
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/31f/31f-large.avif 1600w, /images/31f/31f-medium.avif 1200w, /images/31f/31f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/31f/31f-large.webp 1600w, /images/31f/31f-medium.webp 1200w, /images/31f/31f-small.webp 800w\" />\n  <img src=\"/images/31f/31f-medium.jpg\"\n       srcset=\"/images/31f/31f-large.jpg 1600w, /images/31f/31f-medium.jpg 1200w, /images/31f/31f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/31f/31f-large.avif 1600w, /images/31f/31f-medium.avif 1200w, /images/31f/31f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/31f/31f-large.webp 1600w, /images/31f/31f-medium.webp 1200w, /images/31f/31f-small.webp 800w\" />"
+    ],
+    "fallback": "31f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:01.433Z"
+}

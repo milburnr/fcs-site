@@ -1,0 +1,147 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Gandy-Sherwood-Townhomes.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Gandy-Sherwood-Townhomes.jpeg",
+    "alt": "Gandy Sherwood Townhomes",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Mediterranean-style townhomes with tile roofing",
+      "materials": [
+        "clay tile",
+        "concrete tile"
+      ],
+      "activity": "exterior view",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "tile-roofing",
+      "residential",
+      "mediterranean-style",
+      "townhomes",
+      "clay-tile",
+      "multi-family",
+      "finished-project",
+      "ground-level"
+    ],
+    "altText": "Mediterranean townhomes with clay tile roofing and two-car garages",
+    "recommendations": [
+      "Good for residential tile roofing portfolio",
+      "Consider tighter crop focusing on roof details",
+      "Better angle showing roof pitch and tile detail would enhance marketing value",
+      "Suitable for multi-family residential project showcase"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "gandy-sherwood-townhomes-large.avif",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.avif",
+      "fileSize": 106979
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "gandy-sherwood-townhomes-large.webp",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.webp",
+      "fileSize": 103220
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "gandy-sherwood-townhomes-large.jpg",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.jpg",
+      "fileSize": 111694
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "gandy-sherwood-townhomes-medium.avif",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.avif",
+      "fileSize": 106979
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "gandy-sherwood-townhomes-medium.webp",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.webp",
+      "fileSize": 103220
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "gandy-sherwood-townhomes-medium.jpg",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.jpg",
+      "fileSize": 111694
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "gandy-sherwood-townhomes-small.avif",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.avif",
+      "fileSize": 117999
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "gandy-sherwood-townhomes-small.webp",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.webp",
+      "fileSize": 77186
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "gandy-sherwood-townhomes-small.jpg",
+      "path": "output/fcs-optimized/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.jpg",
+      "fileSize": 99483
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.avif 1600w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.avif 1200w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.webp 1600w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.webp 1200w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.webp 800w\" />\n  <img src=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.jpg\"\n       srcset=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.jpg 1600w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.jpg 1200w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.avif 1600w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.avif 1200w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-large.webp 1600w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-medium.webp 1200w, /images/gandy-sherwood-townhomes/gandy-sherwood-townhomes-small.webp 800w\" />"
+    ],
+    "fallback": "gandy-sherwood-townhomes-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:45.025Z"
+}

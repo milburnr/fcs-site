@@ -1,0 +1,142 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/adaptation_2019.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/adaptation_2019.jpg",
+    "alt": "adaptation",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 80,
+      "exposure": 85,
+      "composition": 75,
+      "lighting": 80,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Urban green space with residential buildings",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing-related",
+      "urban-landscape",
+      "aerial-view",
+      "green-space",
+      "residential-area",
+      "park"
+    ],
+    "altText": "Aerial view of urban park surrounded by high-rise residential buildings",
+    "recommendations": [
+      "This image does not contain roofing content",
+      "Not suitable for roofing contractor marketing materials",
+      "Shows no roofs, roofing materials, activities, or equipment",
+      "Archive only - not relevant to roofing services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "adaptation-2019-large.avif",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-large.avif",
+      "fileSize": 300789
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "adaptation-2019-large.webp",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-large.webp",
+      "fileSize": 159272
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "adaptation-2019-large.jpg",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-large.jpg",
+      "fileSize": 167773
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "adaptation-2019-medium.avif",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-medium.avif",
+      "fileSize": 300789
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "adaptation-2019-medium.webp",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-medium.webp",
+      "fileSize": 159272
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "adaptation-2019-medium.jpg",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-medium.jpg",
+      "fileSize": 167773
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "adaptation-2019-small.avif",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-small.avif",
+      "fileSize": 300789
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "adaptation-2019-small.webp",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-small.webp",
+      "fileSize": 159272
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "adaptation-2019-small.jpg",
+      "path": "output/fcs-optimized/adaptation-2019/adaptation-2019-small.jpg",
+      "fileSize": 167773
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/adaptation-2019/adaptation-2019-large.avif 1600w, /images/adaptation-2019/adaptation-2019-medium.avif 1200w, /images/adaptation-2019/adaptation-2019-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/adaptation-2019/adaptation-2019-large.webp 1600w, /images/adaptation-2019/adaptation-2019-medium.webp 1200w, /images/adaptation-2019/adaptation-2019-small.webp 800w\" />\n  <img src=\"/images/adaptation-2019/adaptation-2019-medium.jpg\"\n       srcset=\"/images/adaptation-2019/adaptation-2019-large.jpg 1600w, /images/adaptation-2019/adaptation-2019-medium.jpg 1200w, /images/adaptation-2019/adaptation-2019-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/adaptation-2019/adaptation-2019-large.avif 1600w, /images/adaptation-2019/adaptation-2019-medium.avif 1200w, /images/adaptation-2019/adaptation-2019-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/adaptation-2019/adaptation-2019-large.webp 1600w, /images/adaptation-2019/adaptation-2019-medium.webp 1200w, /images/adaptation-2019/adaptation-2019-small.webp 800w\" />"
+    ],
+    "fallback": "adaptation-2019-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:52.620Z"
+}

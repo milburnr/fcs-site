@@ -305,7 +305,7 @@ export default function CondoCommonAreaReconstructionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
             alt="Construction services in Tampa Bay"
             fill
             className="object-cover"

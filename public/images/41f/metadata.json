@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/41f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/41f.jpg",
+    "alt": "41f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 65,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Demolition equipment near residential building",
+      "materials": [
+        "corrugated metal roofing",
+        "wood siding"
+      ],
+      "activity": "demolition",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "excavator",
+        "demolition machinery"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "demolition",
+      "residential-roofing",
+      "excavator",
+      "green-metal-roof",
+      "roof-replacement",
+      "ground-level",
+      "construction-equipment",
+      "residential-project"
+    ],
+    "altText": "Excavator demolition work at residential building with green metal roof",
+    "recommendations": [
+      "Subject is partially out of frame - tighter framing on equipment or building would improve composition",
+      "Good lighting conditions but busy foreground with trees creates distraction",
+      "Better suited for project documentation or inline content than hero image",
+      "Consider capturing closer shots of roofing materials and work in progress"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "41f-display.avif",
+      "path": "output/fcs-optimized/41f/41f-display.avif",
+      "fileSize": 64324
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "41f-display.webp",
+      "path": "output/fcs-optimized/41f/41f-display.webp",
+      "fileSize": 56772
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "41f-display.jpg",
+      "path": "output/fcs-optimized/41f/41f-display.jpg",
+      "fileSize": 66806
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "41f-grid.avif",
+      "path": "output/fcs-optimized/41f/41f-grid.avif",
+      "fileSize": 91880
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "41f-grid.webp",
+      "path": "output/fcs-optimized/41f/41f-grid.webp",
+      "fileSize": 55706
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "41f-grid.jpg",
+      "path": "output/fcs-optimized/41f/41f-grid.jpg",
+      "fileSize": 72926
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "41f-thumbnail.avif",
+      "path": "output/fcs-optimized/41f/41f-thumbnail.avif",
+      "fileSize": 54826
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "41f-thumbnail.webp",
+      "path": "output/fcs-optimized/41f/41f-thumbnail.webp",
+      "fileSize": 32860
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "41f-thumbnail.jpg",
+      "path": "output/fcs-optimized/41f/41f-thumbnail.jpg",
+      "fileSize": 39429
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/41f/41f-display.avif 1200w, /images/41f/41f-grid.avif 600w, /images/41f/41f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/41f/41f-display.webp 1200w, /images/41f/41f-grid.webp 600w, /images/41f/41f-thumbnail.webp 400w\" />\n  <img src=\"/images/41f/41f-grid.jpg\"\n       srcset=\"/images/41f/41f-display.jpg 1200w, /images/41f/41f-grid.jpg 600w, /images/41f/41f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/41f/41f-display.avif 1200w, /images/41f/41f-grid.avif 600w, /images/41f/41f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/41f/41f-display.webp 1200w, /images/41f/41f-grid.webp 600w, /images/41f/41f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "41f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:29.082Z"
+}

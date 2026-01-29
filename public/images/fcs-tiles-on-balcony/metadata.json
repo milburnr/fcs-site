@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/FCS-Tiles-on-balcony.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Tiles-on-balcony.webp",
+    "alt": "FCS Tiles on balcony",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Outdoor patio deck heating system installation",
+      "materials": [
+        "porcelain tile",
+        "concrete substrate",
+        "radiant heating cables"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "radiant heating system"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "not-roofing",
+      "patio-deck",
+      "radiant-heating",
+      "outdoor-living",
+      "tile-installation",
+      "deck-system"
+    ],
+    "altText": "Outdoor patio with radiant heating system visible beneath tile installation",
+    "recommendations": [
+      "This image does NOT show roofing work - it depicts a patio deck with radiant floor heating",
+      "Not suitable for roofing contractor portfolio",
+      "Image shows outdoor living space construction, not roof-related services",
+      "Should be excluded from roofing project documentation",
+      "Appears to be a 3D rendering rather than actual construction photography"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-tiles-on-balcony-large.avif",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.avif",
+      "fileSize": 148553
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-tiles-on-balcony-large.webp",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.webp",
+      "fileSize": 100880
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "fcs-tiles-on-balcony-large.jpg",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.jpg",
+      "fileSize": 192250
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-tiles-on-balcony-medium.avif",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.avif",
+      "fileSize": 118745
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-tiles-on-balcony-medium.webp",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.webp",
+      "fileSize": 72700
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-tiles-on-balcony-medium.jpg",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.jpg",
+      "fileSize": 126947
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-tiles-on-balcony-small.avif",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.avif",
+      "fileSize": 62869
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-tiles-on-balcony-small.webp",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.webp",
+      "fileSize": 40308
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "fcs-tiles-on-balcony-small.jpg",
+      "path": "output/fcs-optimized/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.jpg",
+      "fileSize": 64645
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.avif 1600w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.avif 1200w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.webp 1600w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.webp 1200w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.webp 800w\" />\n  <img src=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.jpg\"\n       srcset=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.jpg 1600w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.jpg 1200w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.avif 1600w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.avif 1200w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-large.webp 1600w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-medium.webp 1200w, /images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-small.webp 800w\" />"
+    ],
+    "fallback": "fcs-tiles-on-balcony-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:18:13.423Z"
+}

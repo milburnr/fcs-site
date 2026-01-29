@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Oahu-Wind-Storm-Damage-Repair-Services-1024x683-1.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Oahu-Wind-Storm-Damage-Repair-Services-1024x683-1.webp",
+    "alt": "Oahu Wind Storm Damage Repair Services 1024x683",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 80,
+      "exposure": 78,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Severe hurricane/storm damage to residential properties",
+      "materials": [
+        "tile roofing",
+        "wood framing",
+        "asphalt shingles",
+        "structural lumber"
+      ],
+      "activity": "damage assessment",
+      "damageType": "catastrophic wind damage, structural failure, hurricane damage",
+      "people": false,
+      "equipment": null,
+      "weather": "overcast/post-storm",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "hurricane-damage",
+      "storm-damage",
+      "catastrophic-roof-failure",
+      "wind-damage",
+      "residential-roofing",
+      "insurance-claim",
+      "disaster-restoration",
+      "structural-damage",
+      "tile-roof-damage"
+    ],
+    "altText": "Catastrophic hurricane damage to residential homes showing destroyed roofs and structural failure",
+    "recommendations": [
+      "Use for storm damage restoration services page",
+      "Effective for emergency response marketing materials",
+      "Good documentation of catastrophic damage for insurance/claims",
+      "Consider sensitivity when using - shows severe property loss"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-large.avif",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.avif",
+      "fileSize": 188266
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-large.webp",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.webp",
+      "fileSize": 138156
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-large.jpg",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.jpg",
+      "fileSize": 174071
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-medium.avif",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.avif",
+      "fileSize": 188266
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-medium.webp",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.webp",
+      "fileSize": 138156
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-medium.jpg",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.jpg",
+      "fileSize": 174071
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-small.avif",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.avif",
+      "fileSize": 131118
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-small.webp",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.webp",
+      "fileSize": 87820
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "oahu-wind-storm-damage-repair-services-1024x683-1-small.jpg",
+      "path": "output/fcs-optimized/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.jpg",
+      "fileSize": 112944
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.avif 1600w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.avif 1200w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.webp 1600w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.webp 1200w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.webp 800w\" />\n  <img src=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.jpg\"\n       srcset=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.jpg 1600w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.jpg 1200w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.avif 1600w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.avif 1200w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-large.webp 1600w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-medium.webp 1200w, /images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-small.webp 800w\" />"
+    ],
+    "fallback": "oahu-wind-storm-damage-repair-services-1024x683-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:58.370Z"
+}

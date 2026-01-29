@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/f12.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/f12.jpg",
+    "alt": "f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Two-story residential home with completed asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "brick",
+        "vinyl siding"
+      ],
+      "activity": "completed installation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level wide shot",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "completed-project",
+      "two-story-home",
+      "architectural-shingles",
+      "front-elevation",
+      "brick-exterior",
+      "suburban-home",
+      "portfolio-quality"
+    ],
+    "altText": "Beautiful two-story brick home with new asphalt shingle roof installation",
+    "recommendations": [
+      "Excellent curb appeal showcase - perfect for hero image or portfolio",
+      "Professional landscaping adds to overall presentation",
+      "Good lighting highlights roof texture and color contrast",
+      "Consider adding before/after comparison for stronger marketing impact"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f12-large.avif",
+      "path": "output/fcs-optimized/f12/f12-large.avif",
+      "fileSize": 15208
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f12-large.webp",
+      "path": "output/fcs-optimized/f12/f12-large.webp",
+      "fileSize": 15656
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "f12-large.jpg",
+      "path": "output/fcs-optimized/f12/f12-large.jpg",
+      "fileSize": 14619
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f12-medium.avif",
+      "path": "output/fcs-optimized/f12/f12-medium.avif",
+      "fileSize": 15208
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f12-medium.webp",
+      "path": "output/fcs-optimized/f12/f12-medium.webp",
+      "fileSize": 15656
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "f12-medium.jpg",
+      "path": "output/fcs-optimized/f12/f12-medium.jpg",
+      "fileSize": 14619
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f12-small.avif",
+      "path": "output/fcs-optimized/f12/f12-small.avif",
+      "fileSize": 15208
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f12-small.webp",
+      "path": "output/fcs-optimized/f12/f12-small.webp",
+      "fileSize": 15656
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "f12-small.jpg",
+      "path": "output/fcs-optimized/f12/f12-small.jpg",
+      "fileSize": 14619
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/f12/f12-large.avif 1600w, /images/f12/f12-medium.avif 1200w, /images/f12/f12-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/f12/f12-large.webp 1600w, /images/f12/f12-medium.webp 1200w, /images/f12/f12-small.webp 800w\" />\n  <img src=\"/images/f12/f12-medium.jpg\"\n       srcset=\"/images/f12/f12-large.jpg 1600w, /images/f12/f12-medium.jpg 1200w, /images/f12/f12-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/f12/f12-large.avif 1600w, /images/f12/f12-medium.avif 1200w, /images/f12/f12-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/f12/f12-large.webp 1600w, /images/f12/f12-medium.webp 1200w, /images/f12/f12-small.webp 800w\" />"
+    ],
+    "fallback": "f12-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:42.652Z"
+}

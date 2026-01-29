@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Summer-Construction-Safety-Tips.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Summer-Construction-Safety-Tips.jpg",
+    "alt": "Summer Construction Safety Tips",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Wind energy or industrial site inspector with laptop",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "laptop",
+        "safety vest",
+        "hard hat",
+        "walkie-talkie"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "site-inspection",
+      "safety-equipment",
+      "hi-vis-vest",
+      "field-work",
+      "technology",
+      "industrial-site",
+      "ppe",
+      "digital-tools"
+    ],
+    "altText": "Inspector in safety vest and hard hat using laptop for site inspection",
+    "recommendations": [
+      "NOT roofing-related - appears to be wind energy or general industrial site",
+      "Background lacks roofing context (wind turbine visible)",
+      "Good for general contractor safety/technology content",
+      "Consider replacing with actual roofing inspection imagery",
+      "Useful for blog posts about field technology or safety protocols"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "summer-construction-safety-tips-display.avif",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-display.avif",
+      "fileSize": 27736
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "summer-construction-safety-tips-display.webp",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-display.webp",
+      "fileSize": 23962
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "summer-construction-safety-tips-display.jpg",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-display.jpg",
+      "fileSize": 30906
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "summer-construction-safety-tips-grid.avif",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-grid.avif",
+      "fileSize": 36246
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "summer-construction-safety-tips-grid.webp",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-grid.webp",
+      "fileSize": 22206
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "summer-construction-safety-tips-grid.jpg",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-grid.jpg",
+      "fileSize": 34478
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "summer-construction-safety-tips-thumbnail.avif",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.avif",
+      "fileSize": 21630
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "summer-construction-safety-tips-thumbnail.webp",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.webp",
+      "fileSize": 13092
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "summer-construction-safety-tips-thumbnail.jpg",
+      "path": "output/fcs-optimized/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.jpg",
+      "fileSize": 19267
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-display.avif 1200w, /images/summer-construction-safety-tips/summer-construction-safety-tips-grid.avif 600w, /images/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-display.webp 1200w, /images/summer-construction-safety-tips/summer-construction-safety-tips-grid.webp 600w, /images/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.webp 400w\" />\n  <img src=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-grid.jpg\"\n       srcset=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-display.jpg 1200w, /images/summer-construction-safety-tips/summer-construction-safety-tips-grid.jpg 600w, /images/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-display.avif 1200w, /images/summer-construction-safety-tips/summer-construction-safety-tips-grid.avif 600w, /images/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/summer-construction-safety-tips/summer-construction-safety-tips-display.webp 1200w, /images/summer-construction-safety-tips/summer-construction-safety-tips-grid.webp 600w, /images/summer-construction-safety-tips/summer-construction-safety-tips-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "summer-construction-safety-tips-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:27.869Z"
+}

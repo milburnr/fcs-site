@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1303243385-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1303243385-612x612-1.jpg",
+    "alt": "istockphoto 1303243385 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Brick wall with mortar joints showing frost damage",
+      "materials": [
+        "brick",
+        "mortar",
+        "masonry"
+      ],
+      "activity": "inspection",
+      "damageType": "frost damage, efflorescence, moisture damage",
+      "people": false,
+      "equipment": [],
+      "weather": "not applicable",
+      "perspective": "close-up",
+      "timeOfDay": "not identifiable"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "brick-masonry",
+      "frost-damage",
+      "efflorescence",
+      "mortar-deterioration",
+      "moisture-damage",
+      "chimney-inspection",
+      "masonry-repair",
+      "winter-damage",
+      "close-up-detail"
+    ],
+    "altText": "Close-up of orange brick wall showing frost damage and white efflorescence on mortar joints",
+    "recommendations": [
+      "Excellent macro detail - ideal for educational content about masonry damage",
+      "Sharp focus highlights frost crystallization and efflorescence perfectly",
+      "Great for before/after comparisons in chimney and masonry repair services",
+      "Use in blog posts about winter damage to chimneys and brick structures"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1303243385-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.avif",
+      "fileSize": 105275
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1303243385-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.webp",
+      "fileSize": 98112
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1303243385-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.jpg",
+      "fileSize": 94264
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1303243385-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.avif",
+      "fileSize": 105275
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1303243385-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.webp",
+      "fileSize": 98112
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1303243385-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.jpg",
+      "fileSize": 94264
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1303243385-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.avif",
+      "fileSize": 105275
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1303243385-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.webp",
+      "fileSize": 98112
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1303243385-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.jpg",
+      "fileSize": 94264
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.avif 1600w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.avif 1200w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.webp 1600w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.webp 1200w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.jpg 1600w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.jpg 1200w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.avif 1600w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.avif 1200w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-large.webp 1600w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-medium.webp 1200w, /images/istockphoto-1303243385-612x612-1/istockphoto-1303243385-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1303243385-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:13.345Z"
+}

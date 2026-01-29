@@ -11,12 +11,13 @@ import { Testimonials, FCS_TESTIMONIALS, TestimonialSchema } from "@/components/
 import { ParallaxSection, ParallaxCardsContainer, ParallaxCard } from "@/components/ParallaxSection";
 import { PARALLAX_IMAGES } from "@/lib/imageMapping";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { getOptimizedBgUrl } from "@/components/OptimizedImage";
 
-// Hero slideshow images
+// Hero slideshow images - using optimized versions
 const heroImages = [
-  "/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg",
-  "/wp-content/uploads/2023/12/custom-home-construction-2.jpg",
-  "/wp-content/uploads/2023/12/Custom-home-2.jpg",
+  getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp"),
+  getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-large.webp"),
+  getOptimizedBgUrl("/images/custom-home-2/custom-home-2-large.webp"),
 ];
 
 export default function HomePage() {
@@ -186,7 +187,7 @@ export default function HomePage() {
             </div>
             <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{BUSINESS_INFO.yearsInBusiness} Experience</h3>
             <p className="text-gray-600">
-              Our financial strength and bonding capacity means we can handle projects of virtually any scale with confidence.
+              Our financial strength and expertise means we can handle projects of virtually any scale with confidence.
             </p>
           </ParallaxCard>
 
@@ -227,7 +228,7 @@ export default function HomePage() {
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
               style={{
-                backgroundImage: `url('/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg')`,
+                backgroundImage: `url('${getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp")}')`,
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/90 via-brand-green-dark/50 to-transparent" />
@@ -245,7 +246,7 @@ export default function HomePage() {
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
               style={{
-                backgroundImage: `url('/wp-content/uploads/2023/12/custom-home-construction-2.jpg')`,
+                backgroundImage: `url('${getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-large.webp")}')`,
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-gold-dark/90 via-brand-gold-dark/50 to-transparent" />
@@ -279,7 +280,7 @@ export default function HomePage() {
                   <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-bold text-brand-green-dark">Commercial Projects</h4>
-                    <p className="text-gray-600">$500K+ projects with full project management and bonding</p>
+                    <p className="text-gray-600">$500K+ projects with full project management</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-3">

@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Construction-Market-Research-in-Florida.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction-Market-Research-in-Florida.jpg",
+    "alt": "Construction Market Research in Florida",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "High-rise construction with coastal development aerial view",
+      "materials": [
+        "concrete",
+        "glass curtain wall",
+        "commercial roofing systems"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower cranes",
+        "construction scaffolding"
+      ],
+      "weather": "partly cloudy",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "aerial-photography",
+      "high-rise-construction",
+      "commercial-roofing",
+      "coastal-development",
+      "tower-crane",
+      "urban-construction",
+      "beachfront-property",
+      "large-scale-project",
+      "multi-family-residential",
+      "construction-progress"
+    ],
+    "altText": "Aerial view of high-rise construction with tower cranes along beachfront development",
+    "recommendations": [
+      "Excellent aerial composition showcasing large-scale commercial project scope",
+      "Perfect hero image for portfolio demonstrating capability on major developments",
+      "Strong marketing value for commercial roofing and high-rise construction services",
+      "Shows scale and complexity - ideal for attracting commercial clients",
+      "Consider adding overlay text for 'Large Commercial Projects' section"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-market-research-in-florida-large.avif",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-large.avif",
+      "fileSize": 138649
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-market-research-in-florida-large.webp",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-large.webp",
+      "fileSize": 129700
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-market-research-in-florida-large.jpg",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-large.jpg",
+      "fileSize": 141829
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-market-research-in-florida-medium.avif",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-medium.avif",
+      "fileSize": 138649
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-market-research-in-florida-medium.webp",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-medium.webp",
+      "fileSize": 129700
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-market-research-in-florida-medium.jpg",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-medium.jpg",
+      "fileSize": 141829
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-market-research-in-florida-small.avif",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-small.avif",
+      "fileSize": 158114
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-market-research-in-florida-small.webp",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-small.webp",
+      "fileSize": 84770
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-market-research-in-florida-small.jpg",
+      "path": "output/fcs-optimized/construction-market-research-in-florida/construction-market-research-in-florida-small.jpg",
+      "fileSize": 104842
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-large.avif 1600w, /images/construction-market-research-in-florida/construction-market-research-in-florida-medium.avif 1200w, /images/construction-market-research-in-florida/construction-market-research-in-florida-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-large.webp 1600w, /images/construction-market-research-in-florida/construction-market-research-in-florida-medium.webp 1200w, /images/construction-market-research-in-florida/construction-market-research-in-florida-small.webp 800w\" />\n  <img src=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-medium.jpg\"\n       srcset=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-large.jpg 1600w, /images/construction-market-research-in-florida/construction-market-research-in-florida-medium.jpg 1200w, /images/construction-market-research-in-florida/construction-market-research-in-florida-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-large.avif 1600w, /images/construction-market-research-in-florida/construction-market-research-in-florida-medium.avif 1200w, /images/construction-market-research-in-florida/construction-market-research-in-florida-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/construction-market-research-in-florida/construction-market-research-in-florida-large.webp 1600w, /images/construction-market-research-in-florida/construction-market-research-in-florida-medium.webp 1200w, /images/construction-market-research-in-florida/construction-market-research-in-florida-small.webp 800w\" />"
+    ],
+    "fallback": "construction-market-research-in-florida-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:00.428Z"
+}

@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/2f.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2f.webp",
+    "alt": "2f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 88,
+      "composition": 78,
+      "lighting": 80,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Accessible bedroom interior with outdoor deck view",
+      "materials": [
+        "wood ceiling planks",
+        "metal roofing visible on exterior buildings"
+      ],
+      "activity": "none - residential interior photography",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "wheelchair"
+      ],
+      "weather": "sunny",
+      "perspective": "interior ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "interior-residential",
+      "not-roofing-content",
+      "accessible-bedroom",
+      "deck-view",
+      "rural-setting",
+      "wood-ceiling"
+    ],
+    "altText": "Accessible bedroom interior with sliding glass doors opening to outdoor deck and rural views",
+    "recommendations": [
+      "This image is NOT roofing contractor content - it shows a residential bedroom interior",
+      "Only distant exterior buildings with roofs visible in background",
+      "Not suitable for roofing company marketing materials",
+      "Consider removing from roofing project portfolio",
+      "May have been uploaded to wrong collection/category"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2f-large.avif",
+      "path": "output/fcs-optimized/2f/2f-large.avif",
+      "fileSize": 502871
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2f-large.webp",
+      "path": "output/fcs-optimized/2f/2f-large.webp",
+      "fileSize": 290950
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2f-large.jpg",
+      "path": "output/fcs-optimized/2f/2f-large.jpg",
+      "fileSize": 412529
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2f-medium.avif",
+      "path": "output/fcs-optimized/2f/2f-medium.avif",
+      "fileSize": 325313
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2f-medium.webp",
+      "path": "output/fcs-optimized/2f/2f-medium.webp",
+      "fileSize": 185044
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2f-medium.jpg",
+      "path": "output/fcs-optimized/2f/2f-medium.jpg",
+      "fileSize": 255596
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2f-small.avif",
+      "path": "output/fcs-optimized/2f/2f-small.avif",
+      "fileSize": 172716
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2f-small.webp",
+      "path": "output/fcs-optimized/2f/2f-small.webp",
+      "fileSize": 97352
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2f-small.jpg",
+      "path": "output/fcs-optimized/2f/2f-small.jpg",
+      "fileSize": 127569
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/2f/2f-large.avif 1600w, /images/2f/2f-medium.avif 1200w, /images/2f/2f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/2f/2f-large.webp 1600w, /images/2f/2f-medium.webp 1200w, /images/2f/2f-small.webp 800w\" />\n  <img src=\"/images/2f/2f-medium.jpg\"\n       srcset=\"/images/2f/2f-large.jpg 1600w, /images/2f/2f-medium.jpg 1200w, /images/2f/2f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/2f/2f-large.avif 1600w, /images/2f/2f-medium.avif 1200w, /images/2f/2f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/2f/2f-large.webp 1600w, /images/2f/2f-medium.webp 1200w, /images/2f/2f-small.webp 800w\" />"
+    ],
+    "fallback": "2f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:59.807Z"
+}

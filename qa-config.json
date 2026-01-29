@@ -1,0 +1,28 @@
+{
+  "name": "Florida Construction Specialists",
+  "type": "static-site",
+  "outputDir": "out",
+  "siteUrl": "https://floridaconstructionspecialists.com",
+  "netlifySiteId": "fcs-site",
+  "keyPages": [
+    "/",
+    "/about/",
+    "/contact/",
+    "/commercial/",
+    "/residential/",
+    "/balcony-reconstruction/",
+    "/disaster-recovery/",
+    "/historic-restoration/"
+  ],
+  "checks": {
+    "build": true,
+    "links": true,
+    "deploy": true,
+    "visual": true
+  },
+  "screenshotDir": "./qa-screenshots",
+  "thresholds": {
+    "maxBrokenLinks": 0,
+    "maxBrokenImages": 0
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Tiara-Condos-on-Singer-Island.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Tiara-Condos-on-Singer-Island.jpg",
+    "alt": "Tiara Condos on Singer Island",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Oceanfront high-rise condominium with flat commercial roofing system",
+      "materials": [
+        "flat roofing membrane",
+        "commercial roofing system",
+        "possibly TPO or modified bitumen"
+      ],
+      "activity": "aerial inspection documentation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "high-rise-roofing",
+      "oceanfront-property",
+      "aerial-inspection",
+      "flat-roof",
+      "coastal-building",
+      "commercial-property",
+      "drone-photography",
+      "beach-tower",
+      "multifamily-roofing"
+    ],
+    "altText": "Aerial view of oceanfront high-rise tower with flat commercial roofing system on beachfront property",
+    "recommendations": [
+      "Excellent aerial composition showcasing oceanfront commercial property",
+      "Perfect for portfolio showcasing high-rise commercial roofing capabilities",
+      "Ideal for marketing coastal/oceanfront roofing expertise",
+      "Strong visual appeal for hero image on commercial roofing pages",
+      "Demonstrates drone inspection capabilities for large commercial properties"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-condos-on-singer-island-large.avif",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.avif",
+      "fileSize": 101723
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-condos-on-singer-island-large.webp",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.webp",
+      "fileSize": 96958
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-condos-on-singer-island-large.jpg",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.jpg",
+      "fileSize": 115612
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-condos-on-singer-island-medium.avif",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.avif",
+      "fileSize": 124307
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-condos-on-singer-island-medium.webp",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.webp",
+      "fileSize": 87974
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-condos-on-singer-island-medium.jpg",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.jpg",
+      "fileSize": 122446
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-condos-on-singer-island-small.avif",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.avif",
+      "fileSize": 73800
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-condos-on-singer-island-small.webp",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.webp",
+      "fileSize": 50812
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-condos-on-singer-island-small.jpg",
+      "path": "output/fcs-optimized/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.jpg",
+      "fileSize": 65468
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.avif 1600w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.avif 1200w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.webp 1600w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.webp 1200w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.webp 800w\" />\n  <img src=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.jpg\"\n       srcset=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.jpg 1600w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.jpg 1200w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.avif 1600w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.avif 1200w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-large.webp 1600w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-medium.webp 1200w, /images/tiara-condos-on-singer-island/tiara-condos-on-singer-island-small.webp 800w\" />"
+    ],
+    "fallback": "tiara-condos-on-singer-island-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:40.365Z"
+}

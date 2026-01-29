@@ -121,7 +121,7 @@ export default function CommercialConstructionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
             alt="Turner AgriCivic Center commercial construction project"
             fill
             className="object-cover"
@@ -235,7 +235,7 @@ export default function CommercialConstructionPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
                 alt="Green standing seam metal roof on commercial building covered parking structure"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -248,7 +248,7 @@ export default function CommercialConstructionPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png"
+                src="/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp"
                 alt="Multi-story commercial building with flat roof and security fencing"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -442,7 +442,7 @@ export default function CommercialConstructionPage() {
                 <div className="flex gap-4 border-b border-gray-200 pb-6">
                   <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
                     <Image
-                      src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+                      src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
                       alt="Turner Agri-Center commercial building"
                       fill
                       className="object-cover"
@@ -457,7 +457,7 @@ export default function CommercialConstructionPage() {
                 <div className="flex gap-4 border-b border-gray-200 pb-6">
                   <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
                     <Image
-                      src="/wp-content/uploads/2023/12/Leon-County-Detention-Center-Tallahasse.png"
+                      src="/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp"
                       alt="Leon County Detention Center"
                       fill
                       className="object-cover"

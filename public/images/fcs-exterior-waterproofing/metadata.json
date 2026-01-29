@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Old/FCS-Exterior-Waterproofing.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Old/FCS-Exterior-Waterproofing.png",
+    "alt": "FCS Exterior Waterproofing",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 78,
+      "composition": 70,
+      "lighting": 72,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Foundation waterproofing application",
+      "materials": [
+        "waterproofing membrane",
+        "tar coating",
+        "brick",
+        "concrete block foundation"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "excavation equipment"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "foundation-waterproofing",
+      "tar-coating",
+      "basement-waterproofing",
+      "excavation",
+      "residential-foundation",
+      "waterproofing-membrane",
+      "foundation-repair",
+      "exterior-waterproofing"
+    ],
+    "altText": "Black tar waterproofing applied to residential foundation wall during excavation",
+    "recommendations": [
+      "Good documentation of waterproofing application technique",
+      "Shows clear before/after contrast between coated and uncoated sections",
+      "Consider capturing closer detail shots of application process",
+      "Image effectively demonstrates scope of foundation waterproofing work"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-exterior-waterproofing-display.avif",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.avif",
+      "fileSize": 204090
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-exterior-waterproofing-display.webp",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp",
+      "fileSize": 148296
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "fcs-exterior-waterproofing-display.jpg",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.jpg",
+      "fileSize": 161049
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "fcs-exterior-waterproofing-grid.avif",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.avif",
+      "fileSize": 99850
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "fcs-exterior-waterproofing-grid.webp",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.webp",
+      "fileSize": 69588
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "fcs-exterior-waterproofing-grid.jpg",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.jpg",
+      "fileSize": 76207
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "fcs-exterior-waterproofing-thumbnail.avif",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.avif",
+      "fileSize": 47060
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "fcs-exterior-waterproofing-thumbnail.webp",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.webp",
+      "fileSize": 32262
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "fcs-exterior-waterproofing-thumbnail.jpg",
+      "path": "output/fcs-optimized/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.jpg",
+      "fileSize": 35430
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.avif 1200w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.avif 600w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp 1200w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.webp 600w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.webp 400w\" />\n  <img src=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.jpg\"\n       srcset=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.jpg 1200w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.jpg 600w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.avif 1200w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.avif 600w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp 1200w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-grid.webp 600w, /images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "fcs-exterior-waterproofing-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:17:54.103Z"
+}

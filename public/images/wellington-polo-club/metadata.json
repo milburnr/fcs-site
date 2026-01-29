@@ -1,0 +1,179 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/Wellington-Polo-Club.png",
+    "alt": "Wellington Polo Club",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 90,
+      "composition": 90,
+      "lighting": 92,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Luxury multi-story residential resort with tile roofing",
+      "materials": [
+        "tile roofing",
+        "stucco",
+        "concrete",
+        "architectural trim"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "tile-roofing",
+      "luxury-residential",
+      "commercial-resort",
+      "mediterranean-architecture",
+      "completed-project",
+      "multi-story-building",
+      "hero-quality",
+      "professional-landscaping",
+      "architectural-roofing",
+      "premium-construction"
+    ],
+    "altText": "Luxury resort with Mediterranean tile roofing and palm tree landscaping under blue sky",
+    "recommendations": [
+      "Exceptional quality - perfect for hero image or marketing materials",
+      "Shows completed high-end project - excellent for portfolio and credibility",
+      "Professional architectural photography quality with ideal lighting",
+      "Demonstrates expertise in luxury residential/commercial projects",
+      "Well-composed showing full building, landscaping, and roofing details"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "wellington-polo-club-xl.avif",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-xl.avif",
+      "fileSize": 520646
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "wellington-polo-club-xl.webp",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-xl.webp",
+      "fileSize": 426280
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "wellington-polo-club-xl.jpg",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-xl.jpg",
+      "fileSize": 654592
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "wellington-polo-club-large.avif",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-large.avif",
+      "fileSize": 421090
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "wellington-polo-club-large.webp",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-large.webp",
+      "fileSize": 321948
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "wellington-polo-club-large.jpg",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-large.jpg",
+      "fileSize": 448516
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "wellington-polo-club-medium.avif",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-medium.avif",
+      "fileSize": 292443
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "wellington-polo-club-medium.webp",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-medium.webp",
+      "fileSize": 205442
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "wellington-polo-club-medium.jpg",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-medium.jpg",
+      "fileSize": 255700
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "wellington-polo-club-small.avif",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-small.avif",
+      "fileSize": 216236
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "wellington-polo-club-small.webp",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-small.webp",
+      "fileSize": 146828
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "wellington-polo-club-small.jpg",
+      "path": "output/fcs-optimized/wellington-polo-club/wellington-polo-club-small.jpg",
+      "fileSize": 172542
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/wellington-polo-club/wellington-polo-club-xl.avif 2560w, /images/wellington-polo-club/wellington-polo-club-large.avif 1920w, /images/wellington-polo-club/wellington-polo-club-medium.avif 1280w, /images/wellington-polo-club/wellington-polo-club-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/wellington-polo-club/wellington-polo-club-xl.webp 2560w, /images/wellington-polo-club/wellington-polo-club-large.webp 1920w, /images/wellington-polo-club/wellington-polo-club-medium.webp 1280w, /images/wellington-polo-club/wellington-polo-club-small.webp 960w\" />\n  <img src=\"/images/wellington-polo-club/wellington-polo-club-medium.jpg\"\n       srcset=\"/images/wellington-polo-club/wellington-polo-club-xl.jpg 2560w, /images/wellington-polo-club/wellington-polo-club-large.jpg 1920w, /images/wellington-polo-club/wellington-polo-club-medium.jpg 1280w, /images/wellington-polo-club/wellington-polo-club-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/wellington-polo-club/wellington-polo-club-xl.avif 2560w, /images/wellington-polo-club/wellington-polo-club-large.avif 1920w, /images/wellington-polo-club/wellington-polo-club-medium.avif 1280w, /images/wellington-polo-club/wellington-polo-club-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/wellington-polo-club/wellington-polo-club-xl.webp 2560w, /images/wellington-polo-club/wellington-polo-club-large.webp 1920w, /images/wellington-polo-club/wellington-polo-club-medium.webp 1280w, /images/wellington-polo-club/wellington-polo-club-small.webp 960w\" />"
+    ],
+    "fallback": "wellington-polo-club-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:25:27.706Z"
+}

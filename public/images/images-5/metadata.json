@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/images-5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images-5.jpg",
+    "alt": "images",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 65,
+      "exposure": 70,
+      "composition": 85,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction workers silhouetted against sunset on commercial building",
+      "materials": [
+        "commercial roofing structure"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "crane",
+        "construction equipment"
+      ],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "sunset"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "sunset-silhouette",
+      "construction-workers",
+      "crane-work",
+      "hero-image",
+      "teamwork",
+      "commercial-construction",
+      "roofing-professionals"
+    ],
+    "altText": "Roofing contractors silhouetted at sunset on commercial building with crane",
+    "recommendations": [
+      "Dramatic sunset lighting creates excellent hero image potential",
+      "Silhouette reduces detail visibility - not suitable for technical documentation",
+      "Strong emotional appeal for brand storytelling and website headers",
+      "Consider brightening shadows slightly for better detail if used in gallery",
+      "Perfect for 'about us' or company culture marketing materials"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "images-5-large.avif",
+      "path": "output/fcs-optimized/images-5/images-5-large.avif",
+      "fileSize": 13941
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "images-5-large.webp",
+      "path": "output/fcs-optimized/images-5/images-5-large.webp",
+      "fileSize": 10312
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "images-5-large.jpg",
+      "path": "output/fcs-optimized/images-5/images-5-large.jpg",
+      "fileSize": 11975
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-5-medium.avif",
+      "path": "output/fcs-optimized/images-5/images-5-medium.avif",
+      "fileSize": 13941
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-5-medium.webp",
+      "path": "output/fcs-optimized/images-5/images-5-medium.webp",
+      "fileSize": 10312
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-5-medium.jpg",
+      "path": "output/fcs-optimized/images-5/images-5-medium.jpg",
+      "fileSize": 11975
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "images-5-small.avif",
+      "path": "output/fcs-optimized/images-5/images-5-small.avif",
+      "fileSize": 13941
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "images-5-small.webp",
+      "path": "output/fcs-optimized/images-5/images-5-small.webp",
+      "fileSize": 10312
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "images-5-small.jpg",
+      "path": "output/fcs-optimized/images-5/images-5-small.jpg",
+      "fileSize": 11975
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/images-5/images-5-large.avif 1600w, /images/images-5/images-5-medium.avif 1200w, /images/images-5/images-5-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/images-5/images-5-large.webp 1600w, /images/images-5/images-5-medium.webp 1200w, /images/images-5/images-5-small.webp 800w\" />\n  <img src=\"/images/images-5/images-5-medium.jpg\"\n       srcset=\"/images/images-5/images-5-large.jpg 1600w, /images/images-5/images-5-medium.jpg 1200w, /images/images-5/images-5-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/images-5/images-5-large.avif 1600w, /images/images-5/images-5-medium.avif 1200w, /images/images-5/images-5-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/images-5/images-5-large.webp 1600w, /images/images-5/images-5-medium.webp 1200w, /images/images-5/images-5-small.webp 800w\" />"
+    ],
+    "fallback": "images-5-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:42:14.179Z"
+}

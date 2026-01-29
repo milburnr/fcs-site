@@ -120,7 +120,7 @@ export default function DisasterRecoveryPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/hurricane-ian.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration and disaster recovery"
             fill
             className="object-cover"
@@ -252,7 +252,7 @@ export default function DisasterRecoveryPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Replacing-roof-decking-and-rafters.jpg"
+                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp"
                 alt="Aerial view of damaged residential roof showing exposed decking during replacement"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -265,7 +265,7 @@ export default function DisasterRecoveryPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
                 alt="Turner AgriCivic Center after hurricane reconstruction"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

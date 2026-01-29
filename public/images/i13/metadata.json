@@ -1,0 +1,146 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i13.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i13.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Craftsman-style residential home with roof",
+      "materials": [
+        "asphalt shingles",
+        "wood siding"
+      ],
+      "activity": "completed project",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "craftsman-home",
+      "completed-project",
+      "gray-roof",
+      "front-elevation",
+      "residential-exterior"
+    ],
+    "altText": "Craftsman home with gray asphalt shingle roof and green siding",
+    "recommendations": [
+      "Good for residential gallery portfolio",
+      "Shows complete home exterior context",
+      "Could benefit from higher resolution for hero use",
+      "Consider closer roof detail shots for technical showcase"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i13-large.avif",
+      "path": "output/fcs-optimized/i13/i13-large.avif",
+      "fileSize": 66277
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i13-large.webp",
+      "path": "output/fcs-optimized/i13/i13-large.webp",
+      "fileSize": 49248
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i13-large.jpg",
+      "path": "output/fcs-optimized/i13/i13-large.jpg",
+      "fileSize": 61521
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i13-medium.avif",
+      "path": "output/fcs-optimized/i13/i13-medium.avif",
+      "fileSize": 66277
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i13-medium.webp",
+      "path": "output/fcs-optimized/i13/i13-medium.webp",
+      "fileSize": 49248
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i13-medium.jpg",
+      "path": "output/fcs-optimized/i13/i13-medium.jpg",
+      "fileSize": 61521
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i13-small.avif",
+      "path": "output/fcs-optimized/i13/i13-small.avif",
+      "fileSize": 66277
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i13-small.webp",
+      "path": "output/fcs-optimized/i13/i13-small.webp",
+      "fileSize": 49248
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i13-small.jpg",
+      "path": "output/fcs-optimized/i13/i13-small.jpg",
+      "fileSize": 61521
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i13/i13-large.avif 1600w, /images/i13/i13-medium.avif 1200w, /images/i13/i13-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/i13/i13-large.webp 1600w, /images/i13/i13-medium.webp 1200w, /images/i13/i13-small.webp 800w\" />\n  <img src=\"/images/i13/i13-medium.jpg\"\n       srcset=\"/images/i13/i13-large.jpg 1600w, /images/i13/i13-medium.jpg 1200w, /images/i13/i13-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i13/i13-large.avif 1600w, /images/i13/i13-medium.avif 1200w, /images/i13/i13-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i13/i13-large.webp 1600w, /images/i13/i13-medium.webp 1200w, /images/i13/i13-small.webp 800w\" />"
+    ],
+    "fallback": "i13-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:45.577Z"
+}

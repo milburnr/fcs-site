@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Commercial-Construction-Safety-Specialists.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-Safety-Specialists.jpg",
+    "alt": "Commercial Construction Safety Specialists",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 70,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 85,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site supervision and safety",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "crane",
+        "safety vests",
+        "hard hats"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-safety",
+      "site-inspection",
+      "safety-equipment",
+      "hard-hats",
+      "high-visibility-vests",
+      "construction-supervision",
+      "building-site",
+      "crane-background"
+    ],
+    "altText": "Two construction workers in safety gear inspecting building site with crane in background",
+    "recommendations": [
+      "Image focuses on people rather than roofing work - limited roofing contractor relevance",
+      "Good for safety culture and team pages",
+      "Subjects are backlit and not in sharp focus - consider closer, clearer shots",
+      "No visible roofing materials or specific roofing activity shown",
+      "Best used for general construction safety or team collaboration content"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-construction-safety-specialists-large.avif",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.avif",
+      "fileSize": 50828
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-construction-safety-specialists-large.webp",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.webp",
+      "fileSize": 41254
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercial-construction-safety-specialists-large.jpg",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.jpg",
+      "fileSize": 49981
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-safety-specialists-medium.avif",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.avif",
+      "fileSize": 50828
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-safety-specialists-medium.webp",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.webp",
+      "fileSize": 41254
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-safety-specialists-medium.jpg",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.jpg",
+      "fileSize": 49981
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-construction-safety-specialists-small.avif",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.avif",
+      "fileSize": 50828
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-construction-safety-specialists-small.webp",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.webp",
+      "fileSize": 41254
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercial-construction-safety-specialists-small.jpg",
+      "path": "output/fcs-optimized/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.jpg",
+      "fileSize": 49981
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.avif 1600w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.avif 1200w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.webp 1600w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.webp 1200w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.webp 800w\" />\n  <img src=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.jpg\"\n       srcset=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.jpg 1600w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.jpg 1200w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.avif 1600w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.avif 1200w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-large.webp 1600w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-medium.webp 1200w, /images/commercial-construction-safety-specialists/commercial-construction-safety-specialists-small.webp 800w\" />"
+    ],
+    "fallback": "commercial-construction-safety-specialists-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:36.587Z"
+}

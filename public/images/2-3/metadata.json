@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/2.3.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/2.3.jpg",
+    "alt": "2.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction business meeting and handshake agreement",
+      "materials": [
+        "blueprints",
+        "construction plans",
+        "safety helmets"
+      ],
+      "activity": "business meeting",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "white hard hat",
+        "yellow hard hat",
+        "blueprints",
+        "documents"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-contractor-agreement",
+      "construction-handshake",
+      "business-meeting",
+      "project-consultation",
+      "customer-service",
+      "professional-partnership",
+      "contract-signing",
+      "residential-commercial-roofing"
+    ],
+    "altText": "Roofing contractor handshake agreement with hard hats and blueprints on desk",
+    "recommendations": [
+      "Excellent for 'About Us' or customer trust sections",
+      "Perfect for showcasing professionalism and client relationships",
+      "Use for contract/consultation service pages",
+      "Strong marketing appeal for building customer confidence",
+      "Could benefit from slightly brighter exposure for web hero use"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-3-large.avif",
+      "path": "output/fcs-optimized/2-3/2-3-large.avif",
+      "fileSize": 27507
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-3-large.webp",
+      "path": "output/fcs-optimized/2-3/2-3-large.webp",
+      "fileSize": 21396
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "2-3-large.jpg",
+      "path": "output/fcs-optimized/2-3/2-3-large.jpg",
+      "fileSize": 33352
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-3-medium.avif",
+      "path": "output/fcs-optimized/2-3/2-3-medium.avif",
+      "fileSize": 27507
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-3-medium.webp",
+      "path": "output/fcs-optimized/2-3/2-3-medium.webp",
+      "fileSize": 21396
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "2-3-medium.jpg",
+      "path": "output/fcs-optimized/2-3/2-3-medium.jpg",
+      "fileSize": 33352
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-3-small.avif",
+      "path": "output/fcs-optimized/2-3/2-3-small.avif",
+      "fileSize": 27507
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-3-small.webp",
+      "path": "output/fcs-optimized/2-3/2-3-small.webp",
+      "fileSize": 21396
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "2-3-small.jpg",
+      "path": "output/fcs-optimized/2-3/2-3-small.jpg",
+      "fileSize": 33352
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/2-3/2-3-large.avif 1600w, /images/2-3/2-3-medium.avif 1200w, /images/2-3/2-3-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/2-3/2-3-large.webp 1600w, /images/2-3/2-3-medium.webp 1200w, /images/2-3/2-3-small.webp 800w\" />\n  <img src=\"/images/2-3/2-3-medium.jpg\"\n       srcset=\"/images/2-3/2-3-large.jpg 1600w, /images/2-3/2-3-medium.jpg 1200w, /images/2-3/2-3-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/2-3/2-3-large.avif 1600w, /images/2-3/2-3-medium.avif 1200w, /images/2-3/2-3-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/2-3/2-3-large.webp 1600w, /images/2-3/2-3-medium.webp 1200w, /images/2-3/2-3-small.webp 800w\" />"
+    ],
+    "fallback": "2-3-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:34:08.883Z"
+}

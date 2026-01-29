@@ -1,0 +1,155 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Construction-Project-Management-and-Scheduling.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction-Project-Management-and-Scheduling.jpg",
+    "alt": "Construction Project Management and Scheduling",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 82,
+      "lighting": 75,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Construction team reviewing blueprints on active building site",
+      "materials": [
+        "brick",
+        "concrete",
+        "structural materials"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "blueprints",
+        "laptop",
+        "safety vests",
+        "hard hats"
+      ],
+      "weather": "partly cloudy",
+      "perspective": "elevated",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "safety-compliance",
+      "team-collaboration",
+      "blueprint-review",
+      "residential-construction",
+      "project-inspection",
+      "safety-gear",
+      "construction-site"
+    ],
+    "altText": "Construction crew in safety gear reviewing blueprints at residential building site",
+    "recommendations": [
+      "Strong composition showing teamwork and professionalism",
+      "Excellent for homepage hero or 'About Us' section",
+      "Demonstrates safety compliance with proper PPE",
+      "Slight overexposure in background sky - minor correction recommended",
+      "Great diversity representation in workforce",
+      "Consider for marketing materials highlighting planning and consultation services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-project-management-and-scheduling-large.avif",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.avif",
+      "fileSize": 51182
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-project-management-and-scheduling-large.webp",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.webp",
+      "fileSize": 46240
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-project-management-and-scheduling-large.jpg",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.jpg",
+      "fileSize": 55323
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-project-management-and-scheduling-medium.avif",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.avif",
+      "fileSize": 51182
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-project-management-and-scheduling-medium.webp",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.webp",
+      "fileSize": 46240
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-project-management-and-scheduling-medium.jpg",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.jpg",
+      "fileSize": 55323
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-project-management-and-scheduling-small.avif",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.avif",
+      "fileSize": 51182
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-project-management-and-scheduling-small.webp",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.webp",
+      "fileSize": 46240
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-project-management-and-scheduling-small.jpg",
+      "path": "output/fcs-optimized/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.jpg",
+      "fileSize": 55323
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.avif 1600w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.avif 1200w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.webp 1600w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.webp 1200w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.webp 800w\" />\n  <img src=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.jpg\"\n       srcset=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.jpg 1600w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.jpg 1200w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.avif 1600w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.avif 1200w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-large.webp 1600w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-medium.webp 1200w, /images/construction-project-management-and-scheduling/construction-project-management-and-scheduling-small.webp 800w\" />"
+    ],
+    "fallback": "construction-project-management-and-scheduling-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:02.317Z"
+}

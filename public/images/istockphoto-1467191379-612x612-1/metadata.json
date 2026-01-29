@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1467191379-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1467191379-612x612-1.jpg",
+    "alt": "istockphoto 1467191379 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Paint roller on stamped concrete surface",
+      "materials": [
+        "stamped concrete",
+        "decorative pavers"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "paint roller"
+      ],
+      "weather": "overcast",
+      "perspective": "close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "concrete-sealing",
+      "stamped-concrete",
+      "surface-maintenance",
+      "paint-roller",
+      "decorative-pavers",
+      "concrete-coating",
+      "residential-maintenance",
+      "close-up"
+    ],
+    "altText": "Paint roller on stamped concrete paver surface during sealing maintenance work",
+    "recommendations": [
+      "Good detail shot for maintenance services portfolio",
+      "Consider showing wider context or worker applying sealer for better story",
+      "Works well as inline content for concrete sealing or maintenance articles",
+      "Could benefit from brighter lighting to showcase surface texture better"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1467191379-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.avif",
+      "fileSize": 21266
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1467191379-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.webp",
+      "fileSize": 20216
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1467191379-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.jpg",
+      "fileSize": 23945
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1467191379-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.avif",
+      "fileSize": 21266
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1467191379-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.webp",
+      "fileSize": 20216
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1467191379-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.jpg",
+      "fileSize": 23945
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1467191379-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.avif",
+      "fileSize": 21266
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1467191379-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.webp",
+      "fileSize": 20216
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1467191379-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.jpg",
+      "fileSize": 23945
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.avif 1600w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.avif 1200w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.webp 1600w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.webp 1200w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.jpg 1600w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.jpg 1200w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.avif 1600w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.avif 1200w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-large.webp 1600w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-medium.webp 1200w, /images/istockphoto-1467191379-612x612-1/istockphoto-1467191379-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1467191379-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:27.613Z"
+}

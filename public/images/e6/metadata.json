@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e6.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e6.jpg",
+    "alt": "e",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 65,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Interior demolition and construction debris",
+      "materials": [
+        "drywall",
+        "cardboard",
+        "insulation",
+        "wood framing",
+        "metal studs"
+      ],
+      "activity": "demolition",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "HVAC ductwork",
+        "ventilation system"
+      ],
+      "weather": "indoor",
+      "perspective": "ground level",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": true,
+      "archive": true
+    },
+    "tags": [
+      "interior-demolition",
+      "construction-debris",
+      "renovation",
+      "commercial-space",
+      "hvac-exposed",
+      "demo-phase",
+      "before-photo",
+      "construction-waste"
+    ],
+    "altText": "Commercial interior demolition with debris pile and exposed HVAC ductwork",
+    "recommendations": [
+      "Not roofing-related - appears to be interior commercial demolition",
+      "Image shows construction waste management needs",
+      "Could be used as 'before' photo in renovation project documentation",
+      "Limited marketing value for roofing contractor portfolio",
+      "Better suited for interior renovation or demolition contractor use"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e6-display.avif",
+      "path": "output/fcs-optimized/e6/e6-display.avif",
+      "fileSize": 181325
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e6-display.webp",
+      "path": "output/fcs-optimized/e6/e6-display.webp",
+      "fileSize": 123328
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e6-display.jpg",
+      "path": "output/fcs-optimized/e6/e6-display.jpg",
+      "fileSize": 178548
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e6-grid.avif",
+      "path": "output/fcs-optimized/e6/e6-grid.avif",
+      "fileSize": 109141
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e6-grid.webp",
+      "path": "output/fcs-optimized/e6/e6-grid.webp",
+      "fileSize": 72586
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e6-grid.jpg",
+      "path": "output/fcs-optimized/e6/e6-grid.jpg",
+      "fileSize": 95562
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e6-thumbnail.avif",
+      "path": "output/fcs-optimized/e6/e6-thumbnail.avif",
+      "fileSize": 60659
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e6-thumbnail.webp",
+      "path": "output/fcs-optimized/e6/e6-thumbnail.webp",
+      "fileSize": 39374
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e6-thumbnail.jpg",
+      "path": "output/fcs-optimized/e6/e6-thumbnail.jpg",
+      "fileSize": 49190
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e6/e6-display.avif 1200w, /images/e6/e6-grid.avif 600w, /images/e6/e6-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/e6/e6-display.webp 1200w, /images/e6/e6-grid.webp 600w, /images/e6/e6-thumbnail.webp 400w\" />\n  <img src=\"/images/e6/e6-grid.jpg\"\n       srcset=\"/images/e6/e6-display.jpg 1200w, /images/e6/e6-grid.jpg 600w, /images/e6/e6-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e6/e6-display.avif 1200w, /images/e6/e6-grid.avif 600w, /images/e6/e6-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e6/e6-display.webp 1200w, /images/e6/e6-grid.webp 600w, /images/e6/e6-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "e6-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:33.035Z"
+}

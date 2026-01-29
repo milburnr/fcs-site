@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/37f.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/37f.webp",
+    "alt": "37f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 70,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Crawl space water damage remediation",
+      "materials": [
+        "concrete block",
+        "wooden floor joists",
+        "standing water"
+      ],
+      "activity": "water extraction and remediation",
+      "damageType": "water damage",
+      "people": true,
+      "equipment": [
+        "water extraction hose",
+        "hazmat suit",
+        "protective equipment"
+      ],
+      "weather": "not applicable (interior)",
+      "perspective": "ground level",
+      "timeOfDay": "not applicable (interior)"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "water-damage",
+      "crawl-space",
+      "flood-remediation",
+      "water-extraction",
+      "hazmat-protection",
+      "foundation-flooding",
+      "emergency-services",
+      "basement-water-damage"
+    ],
+    "altText": "Water damage remediation specialist in protective suit extracting standing water from flooded crawl space",
+    "recommendations": [
+      "Good documentation of water damage severity and professional response",
+      "Shows proper safety protocols with full protective equipment",
+      "Could benefit from additional lighting to reduce shadows",
+      "Effective for showing emergency water extraction services",
+      "Consider capturing before/after shots for stronger marketing impact"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "37f-display.avif",
+      "path": "output/fcs-optimized/37f/37f-display.avif",
+      "fileSize": 63367
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "37f-display.webp",
+      "path": "output/fcs-optimized/37f/37f-display.webp",
+      "fileSize": 42982
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "37f-display.jpg",
+      "path": "output/fcs-optimized/37f/37f-display.jpg",
+      "fileSize": 66677
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "37f-grid.avif",
+      "path": "output/fcs-optimized/37f/37f-grid.avif",
+      "fileSize": 40936
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "37f-grid.webp",
+      "path": "output/fcs-optimized/37f/37f-grid.webp",
+      "fileSize": 25312
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "37f-grid.jpg",
+      "path": "output/fcs-optimized/37f/37f-grid.jpg",
+      "fileSize": 43308
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "37f-thumbnail.avif",
+      "path": "output/fcs-optimized/37f/37f-thumbnail.avif",
+      "fileSize": 25769
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "37f-thumbnail.webp",
+      "path": "output/fcs-optimized/37f/37f-thumbnail.webp",
+      "fileSize": 15372
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "37f-thumbnail.jpg",
+      "path": "output/fcs-optimized/37f/37f-thumbnail.jpg",
+      "fileSize": 23740
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/37f/37f-display.avif 1200w, /images/37f/37f-grid.avif 600w, /images/37f/37f-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/37f/37f-display.webp 1200w, /images/37f/37f-grid.webp 600w, /images/37f/37f-thumbnail.webp 400w\" />\n  <img src=\"/images/37f/37f-grid.jpg\"\n       srcset=\"/images/37f/37f-display.jpg 1200w, /images/37f/37f-grid.jpg 600w, /images/37f/37f-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/37f/37f-display.avif 1200w, /images/37f/37f-grid.avif 600w, /images/37f/37f-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/37f/37f-display.webp 1200w, /images/37f/37f-grid.webp 600w, /images/37f/37f-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "37f-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:10.658Z"
+}

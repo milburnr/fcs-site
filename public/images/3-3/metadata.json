@@ -1,0 +1,147 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/3.3.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/3.3.jpg",
+    "alt": "3.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 80,
+      "exposure": 82,
+      "composition": 75,
+      "lighting": 78,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Residential property with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "vinyl siding"
+      ],
+      "activity": "none - property documentation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "blue-house",
+      "corner-lot",
+      "property-exterior",
+      "multi-story-home",
+      "completed-project",
+      "suburban-residence"
+    ],
+    "altText": "Blue residential home with asphalt shingle roof on corner lot with mature landscaping",
+    "recommendations": [
+      "Good for portfolio/gallery showcasing completed residential roofing work",
+      "Consider closer shot to highlight roof detail and shingle texture",
+      "Wide angle captures context but reduces roof visibility - supplement with detail shots",
+      "Trees partially obscure roof - ideal marketing shots should have clearer roof view"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "3-3-large.avif",
+      "path": "output/fcs-optimized/3-3/3-3-large.avif",
+      "fileSize": 17040
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "3-3-large.webp",
+      "path": "output/fcs-optimized/3-3/3-3-large.webp",
+      "fileSize": 17628
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "3-3-large.jpg",
+      "path": "output/fcs-optimized/3-3/3-3-large.jpg",
+      "fileSize": 15994
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "3-3-medium.avif",
+      "path": "output/fcs-optimized/3-3/3-3-medium.avif",
+      "fileSize": 17040
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "3-3-medium.webp",
+      "path": "output/fcs-optimized/3-3/3-3-medium.webp",
+      "fileSize": 17628
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "3-3-medium.jpg",
+      "path": "output/fcs-optimized/3-3/3-3-medium.jpg",
+      "fileSize": 15994
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "3-3-small.avif",
+      "path": "output/fcs-optimized/3-3/3-3-small.avif",
+      "fileSize": 17040
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "3-3-small.webp",
+      "path": "output/fcs-optimized/3-3/3-3-small.webp",
+      "fileSize": 17628
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "3-3-small.jpg",
+      "path": "output/fcs-optimized/3-3/3-3-small.jpg",
+      "fileSize": 15994
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/3-3/3-3-large.avif 1600w, /images/3-3/3-3-medium.avif 1200w, /images/3-3/3-3-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/3-3/3-3-large.webp 1600w, /images/3-3/3-3-medium.webp 1200w, /images/3-3/3-3-small.webp 800w\" />\n  <img src=\"/images/3-3/3-3-medium.jpg\"\n       srcset=\"/images/3-3/3-3-large.jpg 1600w, /images/3-3/3-3-medium.jpg 1200w, /images/3-3/3-3-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/3-3/3-3-large.avif 1600w, /images/3-3/3-3-medium.avif 1200w, /images/3-3/3-3-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/3-3/3-3-large.webp 1600w, /images/3-3/3-3-medium.webp 1200w, /images/3-3/3-3-small.webp 800w\" />"
+    ],
+    "fallback": "3-3-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:00.333Z"
+}

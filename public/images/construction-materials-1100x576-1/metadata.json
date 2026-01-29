@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Construction_Materials-1100x576-1.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Construction_Materials-1100x576-1.webp",
+    "alt": "Construction Materials 1100x576",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 85,
+      "composition": 90,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Steel structural materials warehouse inventory",
+      "materials": [
+        "steel beams",
+        "metal structural components",
+        "I-beams",
+        "steel framing"
+      ],
+      "activity": "storage and inventory",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "warehouse shelving",
+        "industrial racking"
+      ],
+      "weather": "indoor",
+      "perspective": "ground level",
+      "timeOfDay": "indoors"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "steel-warehouse",
+      "structural-materials",
+      "industrial-storage",
+      "metal-beams",
+      "building-materials",
+      "inventory",
+      "non-roofing"
+    ],
+    "altText": "Industrial warehouse with stacked steel beams and structural metal materials",
+    "recommendations": [
+      "NOT ROOFING RELATED - This is a steel materials warehouse",
+      "Image shows structural steel inventory, not roofing materials or activities",
+      "Does not fit roofing contractor portfolio - should be excluded",
+      "High technical quality but wrong subject matter for roofing business"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-materials-1100x576-1-large.avif",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-large.avif",
+      "fileSize": 205999
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-materials-1100x576-1-large.webp",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-large.webp",
+      "fileSize": 134436
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "construction-materials-1100x576-1-large.jpg",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-large.jpg",
+      "fileSize": 188025
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-materials-1100x576-1-medium.avif",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.avif",
+      "fileSize": 205999
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-materials-1100x576-1-medium.webp",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.webp",
+      "fileSize": 134436
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "construction-materials-1100x576-1-medium.jpg",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.jpg",
+      "fileSize": 188025
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-materials-1100x576-1-small.avif",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-small.avif",
+      "fileSize": 142355
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-materials-1100x576-1-small.webp",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-small.webp",
+      "fileSize": 89768
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "construction-materials-1100x576-1-small.jpg",
+      "path": "output/fcs-optimized/construction-materials-1100x576-1/construction-materials-1100x576-1-small.jpg",
+      "fileSize": 108663
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-large.avif 1600w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.avif 1200w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-large.webp 1600w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.webp 1200w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-small.webp 800w\" />\n  <img src=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.jpg\"\n       srcset=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-large.jpg 1600w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.jpg 1200w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-large.avif 1600w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.avif 1200w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/construction-materials-1100x576-1/construction-materials-1100x576-1-large.webp 1600w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-medium.webp 1200w, /images/construction-materials-1100x576-1/construction-materials-1100x576-1-small.webp 800w\" />"
+    ],
+    "fallback": "construction-materials-1100x576-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:21.216Z"
+}

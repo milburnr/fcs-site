@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/hurricane-insurance-restoration.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-insurance-restoration.webp",
+    "alt": "hurricane insurance restoration",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Severe hurricane/storm damage to coastal residential property",
+      "materials": [
+        "tile roofing",
+        "wood framing",
+        "metal roofing panels",
+        "plywood sheathing"
+      ],
+      "activity": "damage documentation",
+      "damageType": "wind damage, catastrophic structural failure, storm surge damage",
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "hurricane-damage",
+      "wind-damage",
+      "catastrophic-damage",
+      "storm-damage",
+      "residential-roofing",
+      "tile-roof",
+      "total-loss",
+      "coastal-damage",
+      "emergency-roofing",
+      "insurance-documentation"
+    ],
+    "altText": "Hurricane damaged coastal home with collapsed roof and debris scattered across property",
+    "recommendations": [
+      "Good for storm damage restoration marketing materials",
+      "Useful for insurance claim documentation examples",
+      "Effective for emergency services portfolio",
+      "Consider adding before/after comparison if reconstruction available",
+      "Strong visual for demonstrating storm preparedness importance"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-insurance-restoration-display.avif",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-display.avif",
+      "fileSize": 326019
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-insurance-restoration-display.webp",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp",
+      "fileSize": 195346
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-insurance-restoration-display.jpg",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-display.jpg",
+      "fileSize": 246354
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-insurance-restoration-grid.avif",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.avif",
+      "fileSize": 106998
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-insurance-restoration-grid.webp",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.webp",
+      "fileSize": 62676
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-insurance-restoration-grid.jpg",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.jpg",
+      "fileSize": 75609
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-insurance-restoration-thumbnail.avif",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.avif",
+      "fileSize": 54505
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-insurance-restoration-thumbnail.webp",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.webp",
+      "fileSize": 32474
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-insurance-restoration-thumbnail.jpg",
+      "path": "output/fcs-optimized/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.jpg",
+      "fileSize": 37771
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.avif 1200w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.avif 600w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp 1200w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.webp 600w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.webp 400w\" />\n  <img src=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.jpg\"\n       srcset=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.jpg 1200w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.jpg 600w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.avif 1200w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.avif 600w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp 1200w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-grid.webp 600w, /images/hurricane-insurance-restoration/hurricane-insurance-restoration-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "hurricane-insurance-restoration-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:45.480Z"
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1359667366-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1359667366-612x612-1.jpg",
+    "alt": "istockphoto 1359667366 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 80,
+      "exposure": 82,
+      "composition": 75,
+      "lighting": 78,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Residential deck/balcony maintenance or repair",
+      "materials": [
+        "wood decking",
+        "horizontal railings",
+        "ladder"
+      ],
+      "activity": "maintenance",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "ladder",
+        "step ladder"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-maintenance",
+      "deck-repair",
+      "home-improvement",
+      "ladder-work",
+      "two-person-crew",
+      "elevated-deck",
+      "exterior-work",
+      "sunny-conditions"
+    ],
+    "altText": "Two workers on ladder performing deck maintenance on elevated residential balcony",
+    "recommendations": [
+      "Image shows deck/exterior work rather than roofing - verify intended use category",
+      "Good documentation of two-person crew safety practices",
+      "Consider cropping tighter on workers for more impact",
+      "Suitable for residential maintenance or home improvement content"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1359667366-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.avif",
+      "fileSize": 83670
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1359667366-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.webp",
+      "fileSize": 79872
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1359667366-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.jpg",
+      "fileSize": 80864
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1359667366-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.avif",
+      "fileSize": 83670
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1359667366-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.webp",
+      "fileSize": 79872
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1359667366-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.jpg",
+      "fileSize": 80864
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1359667366-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.avif",
+      "fileSize": 83670
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1359667366-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.webp",
+      "fileSize": 79872
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1359667366-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.jpg",
+      "fileSize": 80864
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.avif 1600w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.avif 1200w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.webp 1600w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.webp 1200w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.jpg 1600w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.jpg 1200w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.avif 1600w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.avif 1200w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-large.webp 1600w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-medium.webp 1200w, /images/istockphoto-1359667366-612x612-1/istockphoto-1359667366-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1359667366-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:17.208Z"
+}

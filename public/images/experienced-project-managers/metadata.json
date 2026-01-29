@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Experienced-Project-Managers.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Experienced-Project-Managers.jpg",
+    "alt": "Experienced Project Managers",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 70,
+      "exposure": 82,
+      "composition": 80,
+      "lighting": 85,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site inspection and planning",
+      "materials": [
+        "structural steel",
+        "concrete framework"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "tablet",
+        "safety helmets",
+        "safety vest"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-inspection",
+      "site-planning",
+      "safety-equipment",
+      "commercial-construction",
+      "project-management",
+      "team-collaboration",
+      "building-framework",
+      "contractor-meeting"
+    ],
+    "altText": "Construction workers in safety gear inspecting commercial building site with tablet",
+    "recommendations": [
+      "Subject partially out of focus - best for gallery or inline use",
+      "Good safety compliance demonstration with PPE visible",
+      "Strong collaborative team imagery for marketing materials",
+      "Background construction context adds authenticity",
+      "Could benefit from sharper focus on main subjects for hero use"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "experienced-project-managers-large.avif",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-large.avif",
+      "fileSize": 44230
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "experienced-project-managers-large.webp",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-large.webp",
+      "fileSize": 34734
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "experienced-project-managers-large.jpg",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-large.jpg",
+      "fileSize": 45818
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-project-managers-medium.avif",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-medium.avif",
+      "fileSize": 44230
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-project-managers-medium.webp",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-medium.webp",
+      "fileSize": 34734
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "experienced-project-managers-medium.jpg",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-medium.jpg",
+      "fileSize": 45818
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "experienced-project-managers-small.avif",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-small.avif",
+      "fileSize": 44230
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "experienced-project-managers-small.webp",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-small.webp",
+      "fileSize": 34734
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "experienced-project-managers-small.jpg",
+      "path": "output/fcs-optimized/experienced-project-managers/experienced-project-managers-small.jpg",
+      "fileSize": 45818
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/experienced-project-managers/experienced-project-managers-large.avif 1600w, /images/experienced-project-managers/experienced-project-managers-medium.avif 1200w, /images/experienced-project-managers/experienced-project-managers-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/experienced-project-managers/experienced-project-managers-large.webp 1600w, /images/experienced-project-managers/experienced-project-managers-medium.webp 1200w, /images/experienced-project-managers/experienced-project-managers-small.webp 800w\" />\n  <img src=\"/images/experienced-project-managers/experienced-project-managers-medium.jpg\"\n       srcset=\"/images/experienced-project-managers/experienced-project-managers-large.jpg 1600w, /images/experienced-project-managers/experienced-project-managers-medium.jpg 1200w, /images/experienced-project-managers/experienced-project-managers-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/experienced-project-managers/experienced-project-managers-large.avif 1600w, /images/experienced-project-managers/experienced-project-managers-medium.avif 1200w, /images/experienced-project-managers/experienced-project-managers-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/experienced-project-managers/experienced-project-managers-large.webp 1600w, /images/experienced-project-managers/experienced-project-managers-medium.webp 1200w, /images/experienced-project-managers/experienced-project-managers-small.webp 800w\" />"
+    ],
+    "fallback": "experienced-project-managers-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:40.963Z"
+}

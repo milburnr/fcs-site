@@ -1,0 +1,145 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/tampa.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/tampa.jpeg",
+    "alt": "tampa",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Commercial building skyline before storm",
+      "materials": [],
+      "activity": "none",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "stormy",
+      "perspective": "ground level",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "storm-damage",
+      "commercial-buildings",
+      "emergency-roofing",
+      "weather-conditions",
+      "urban-skyline",
+      "storm-preparedness",
+      "dramatic-weather",
+      "tampa-skyline"
+    ],
+    "altText": "Dark storm clouds over commercial buildings showing need for emergency roofing services",
+    "recommendations": [
+      "Excellent for storm damage/emergency services marketing materials",
+      "Strong dramatic appeal for 'before the storm' preparedness campaigns",
+      "Could be hero image for weather damage or commercial roofing sections",
+      "Consider brightening exposure slightly to show building details better",
+      "Perfect for illustrating importance of roof inspections before severe weather"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-display.avif",
+      "path": "output/fcs-optimized/tampa/tampa-display.avif",
+      "fileSize": 80211
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-display.webp",
+      "path": "output/fcs-optimized/tampa/tampa-display.webp",
+      "fileSize": 60686
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "tampa-display.jpg",
+      "path": "output/fcs-optimized/tampa/tampa-display.jpg",
+      "fileSize": 99742
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "tampa-grid.avif",
+      "path": "output/fcs-optimized/tampa/tampa-grid.avif",
+      "fileSize": 35496
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "tampa-grid.webp",
+      "path": "output/fcs-optimized/tampa/tampa-grid.webp",
+      "fileSize": 24606
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "tampa-grid.jpg",
+      "path": "output/fcs-optimized/tampa/tampa-grid.jpg",
+      "fileSize": 37518
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "tampa-thumbnail.avif",
+      "path": "output/fcs-optimized/tampa/tampa-thumbnail.avif",
+      "fileSize": 19258
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "tampa-thumbnail.webp",
+      "path": "output/fcs-optimized/tampa/tampa-thumbnail.webp",
+      "fileSize": 13068
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "tampa-thumbnail.jpg",
+      "path": "output/fcs-optimized/tampa/tampa-thumbnail.jpg",
+      "fileSize": 19482
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/tampa/tampa-display.avif 1200w, /images/tampa/tampa-grid.avif 600w, /images/tampa/tampa-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/tampa/tampa-display.webp 1200w, /images/tampa/tampa-grid.webp 600w, /images/tampa/tampa-thumbnail.webp 400w\" />\n  <img src=\"/images/tampa/tampa-grid.jpg\"\n       srcset=\"/images/tampa/tampa-display.jpg 1200w, /images/tampa/tampa-grid.jpg 600w, /images/tampa/tampa-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa/tampa-display.avif 1200w, /images/tampa/tampa-grid.avif 600w, /images/tampa/tampa-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa/tampa-display.webp 1200w, /images/tampa/tampa-grid.webp 600w, /images/tampa/tampa-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "tampa-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:50.589Z"
+}

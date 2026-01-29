@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1286516900-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1286516900-612x612-1.jpg",
+    "alt": "istockphoto 1286516900 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Rooftop deck with pergola covering",
+      "materials": [
+        "wood decking",
+        "metal pergola",
+        "metal railing"
+      ],
+      "activity": "lifestyle/completed project showcase",
+      "damageType": null,
+      "people": true,
+      "equipment": [],
+      "weather": "clear/overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "rooftop-deck",
+      "pergola-covering",
+      "residential-roofing",
+      "outdoor-living-space",
+      "lifestyle-shot",
+      "completed-project",
+      "deck-installation",
+      "rooftop-amenity",
+      "metal-pergola",
+      "wood-decking"
+    ],
+    "altText": "Rooftop deck with metal pergola and people enjoying outdoor living space",
+    "recommendations": [
+      "Excellent lifestyle image showing finished rooftop living space",
+      "Perfect for marketing residential deck/pergola installations",
+      "Great composition with natural human activity",
+      "Ideal for hero section or project portfolio gallery",
+      "Shows value-add of rooftop outdoor spaces"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1286516900-612x612-1-large.avif",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.avif",
+      "fileSize": 54639
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1286516900-612x612-1-large.webp",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.webp",
+      "fileSize": 52398
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "istockphoto-1286516900-612x612-1-large.jpg",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.jpg",
+      "fileSize": 58629
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1286516900-612x612-1-medium.avif",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.avif",
+      "fileSize": 54639
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1286516900-612x612-1-medium.webp",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.webp",
+      "fileSize": 52398
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1286516900-612x612-1-medium.jpg",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.jpg",
+      "fileSize": 58629
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1286516900-612x612-1-small.avif",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.avif",
+      "fileSize": 54639
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1286516900-612x612-1-small.webp",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.webp",
+      "fileSize": 52398
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "istockphoto-1286516900-612x612-1-small.jpg",
+      "path": "output/fcs-optimized/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.jpg",
+      "fileSize": 58629
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.avif 1600w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.avif 1200w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.webp 1600w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.webp 1200w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.webp 800w\" />\n  <img src=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.jpg\"\n       srcset=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.jpg 1600w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.jpg 1200w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.avif 1600w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.avif 1200w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-large.webp 1600w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-medium.webp 1200w, /images/istockphoto-1286516900-612x612-1/istockphoto-1286516900-612x612-1-small.webp 800w\" />"
+    ],
+    "fallback": "istockphoto-1286516900-612x612-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:10.833Z"
+}

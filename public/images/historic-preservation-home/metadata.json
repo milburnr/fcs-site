@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/historic-preservation-home.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/historic-preservation-home.jpg",
+    "alt": "historic preservation home",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 62,
+      "focus": 55,
+      "exposure": 70,
+      "composition": 65,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic Victorian home exterior painting and restoration",
+      "materials": [
+        "asphalt shingles",
+        "wood siding",
+        "architectural details"
+      ],
+      "activity": "maintenance",
+      "damageType": "aging",
+      "people": false,
+      "equipment": [
+        "extension ladder",
+        "painting equipment"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "historic-home",
+      "victorian-architecture",
+      "exterior-painting",
+      "roof-maintenance",
+      "residential-restoration",
+      "before-after",
+      "wood-siding",
+      "cupola"
+    ],
+    "altText": "Victorian home showing half-painted exterior restoration with dark asphalt roof and cupola",
+    "recommendations": [
+      "Image appears to be a video screenshot - lower resolution and slight motion blur",
+      "Shows clear before/after contrast for restoration work",
+      "Consider retaking as high-resolution still photo for better marketing impact",
+      "Good documentation of restoration progress but lacks sharpness for hero use",
+      "Composition captures full structure well but could benefit from better camera positioning"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-home-display.avif",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-display.avif",
+      "fileSize": 86396
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-home-display.webp",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-display.webp",
+      "fileSize": 68418
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "historic-preservation-home-display.jpg",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-display.jpg",
+      "fileSize": 123829
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-home-grid.avif",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-grid.avif",
+      "fileSize": 48616
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-home-grid.webp",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-grid.webp",
+      "fileSize": 39162
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "historic-preservation-home-grid.jpg",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-grid.jpg",
+      "fileSize": 57011
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-home-thumbnail.avif",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-thumbnail.avif",
+      "fileSize": 31962
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-home-thumbnail.webp",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-thumbnail.webp",
+      "fileSize": 23870
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "historic-preservation-home-thumbnail.jpg",
+      "path": "output/fcs-optimized/historic-preservation-home/historic-preservation-home-thumbnail.jpg",
+      "fileSize": 32224
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/historic-preservation-home/historic-preservation-home-display.avif 1200w, /images/historic-preservation-home/historic-preservation-home-grid.avif 600w, /images/historic-preservation-home/historic-preservation-home-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/historic-preservation-home/historic-preservation-home-display.webp 1200w, /images/historic-preservation-home/historic-preservation-home-grid.webp 600w, /images/historic-preservation-home/historic-preservation-home-thumbnail.webp 400w\" />\n  <img src=\"/images/historic-preservation-home/historic-preservation-home-grid.jpg\"\n       srcset=\"/images/historic-preservation-home/historic-preservation-home-display.jpg 1200w, /images/historic-preservation-home/historic-preservation-home-grid.jpg 600w, /images/historic-preservation-home/historic-preservation-home-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/historic-preservation-home/historic-preservation-home-display.avif 1200w, /images/historic-preservation-home/historic-preservation-home-grid.avif 600w, /images/historic-preservation-home/historic-preservation-home-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/historic-preservation-home/historic-preservation-home-display.webp 1200w, /images/historic-preservation-home/historic-preservation-home-grid.webp 600w, /images/historic-preservation-home/historic-preservation-home-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "historic-preservation-home-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:08.196Z"
+}

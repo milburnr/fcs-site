@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/southwinds-condo-rear.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/southwinds-condo-rear.jpeg",
+    "alt": "southwinds condo rear",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Multi-story residential condominium building with flat roof system",
+      "materials": [
+        "flat roof membrane",
+        "TPO or similar single-ply membrane",
+        "waterproofing"
+      ],
+      "activity": "building overview - no active work visible",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny with scattered clouds",
+      "perspective": "aerial drone view",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "flat-roof-commercial",
+      "multi-family-residential",
+      "aerial-drone-photography",
+      "waterfront-property",
+      "commercial-roofing",
+      "condo-building",
+      "hero-image",
+      "florida-architecture",
+      "roof-replacement-candidate"
+    ],
+    "altText": "Aerial view of waterfront condominium building with flat commercial roof and pool area",
+    "recommendations": [
+      "Excellent high-resolution drone photography - ideal for hero image or large format marketing",
+      "Shows complete building context including amenities and location - great for commercial portfolio",
+      "Clean composition with good depth of field showing surrounding neighborhood",
+      "Perfect for showcasing flat roof systems on multi-family residential projects",
+      "Consider using for before/after comparisons if roof replacement is planned"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "southwinds-condo-rear-large.avif",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-large.avif",
+      "fileSize": 346490
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "southwinds-condo-rear-large.webp",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-large.webp",
+      "fileSize": 343674
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "southwinds-condo-rear-large.jpg",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-large.jpg",
+      "fileSize": 380134
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "southwinds-condo-rear-medium.avif",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-medium.avif",
+      "fileSize": 330489
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "southwinds-condo-rear-medium.webp",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-medium.webp",
+      "fileSize": 227860
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "southwinds-condo-rear-medium.jpg",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-medium.jpg",
+      "fileSize": 281226
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "southwinds-condo-rear-small.avif",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-small.avif",
+      "fileSize": 162375
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "southwinds-condo-rear-small.webp",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-small.webp",
+      "fileSize": 110478
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "southwinds-condo-rear-small.jpg",
+      "path": "output/fcs-optimized/southwinds-condo-rear/southwinds-condo-rear-small.jpg",
+      "fileSize": 133342
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/southwinds-condo-rear/southwinds-condo-rear-large.avif 1600w, /images/southwinds-condo-rear/southwinds-condo-rear-medium.avif 1200w, /images/southwinds-condo-rear/southwinds-condo-rear-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/southwinds-condo-rear/southwinds-condo-rear-large.webp 1600w, /images/southwinds-condo-rear/southwinds-condo-rear-medium.webp 1200w, /images/southwinds-condo-rear/southwinds-condo-rear-small.webp 800w\" />\n  <img src=\"/images/southwinds-condo-rear/southwinds-condo-rear-medium.jpg\"\n       srcset=\"/images/southwinds-condo-rear/southwinds-condo-rear-large.jpg 1600w, /images/southwinds-condo-rear/southwinds-condo-rear-medium.jpg 1200w, /images/southwinds-condo-rear/southwinds-condo-rear-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/southwinds-condo-rear/southwinds-condo-rear-large.avif 1600w, /images/southwinds-condo-rear/southwinds-condo-rear-medium.avif 1200w, /images/southwinds-condo-rear/southwinds-condo-rear-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/southwinds-condo-rear/southwinds-condo-rear-large.webp 1600w, /images/southwinds-condo-rear/southwinds-condo-rear-medium.webp 1200w, /images/southwinds-condo-rear/southwinds-condo-rear-small.webp 800w\" />"
+    ],
+    "fallback": "southwinds-condo-rear-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:48.093Z"
+}

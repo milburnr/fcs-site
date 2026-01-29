@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/CommercialArchitects_3_Tampa_-Pinellas-County-Forensic-Science-Center.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/CommercialArchitects_3_Tampa_-Pinellas-County-Forensic-Science-Center.jpg",
+    "alt": "CommercialArchitects 3 Tampa  Pinellas County Forensic Science Center",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 92,
+      "composition": 85,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Modern commercial building with flat roof at dusk",
+      "materials": [
+        "flat roofing system",
+        "metal panels",
+        "glass curtain wall"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "dusk"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "flat-roof",
+      "modern-architecture",
+      "completed-project",
+      "twilight-photography",
+      "commercial-building",
+      "low-slope-roof",
+      "hero-image",
+      "portfolio-quality"
+    ],
+    "altText": "Modern commercial building with flat roof system at dusk with interior lighting",
+    "recommendations": [
+      "Excellent twilight photography - perfect hero image for commercial roofing portfolio",
+      "Professional composition showcasing completed flat roof project",
+      "High marketing value for website headers and promotional materials",
+      "Ideal for demonstrating commercial roofing expertise and quality workmanship"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.avif",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.avif",
+      "fileSize": 121785
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.webp",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.webp",
+      "fileSize": 87852
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.jpg",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.jpg",
+      "fileSize": 120810
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.avif",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.avif",
+      "fileSize": 121785
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.webp",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.webp",
+      "fileSize": 87852
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.jpg",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.jpg",
+      "fileSize": 120810
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.avif",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.avif",
+      "fileSize": 74534
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.webp",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.webp",
+      "fileSize": 46402
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.jpg",
+      "path": "output/fcs-optimized/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.jpg",
+      "fileSize": 62533
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.avif 1600w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.avif 1200w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.webp 1600w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.webp 1200w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.webp 800w\" />\n  <img src=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.jpg\"\n       srcset=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.jpg 1600w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.jpg 1200w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.avif 1600w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.avif 1200w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-large.webp 1600w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.webp 1200w, /images/commercialarchitects-3-tampa--pinellas-county-forensic-science-center/commercialarchitects-3-tampa--pinellas-county-forensic-science-center-small.webp 800w\" />"
+    ],
+    "fallback": "commercialarchitects-3-tampa--pinellas-county-forensic-science-center-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:50.669Z"
+}

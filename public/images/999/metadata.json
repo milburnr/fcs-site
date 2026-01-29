@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/999.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/999.jpg",
+    "alt": "Roofing contractor installing solar panels on blue corrugated metal roof with safety gear",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Solar panel installation on metal roof",
+      "materials": [
+        "metal roofing",
+        "corrugated metal panels",
+        "solar panels"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "safety harness",
+        "fall protection",
+        "roofing tools"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "solar-panel-installation",
+      "metal-roofing",
+      "corrugated-metal",
+      "safety-equipment",
+      "commercial-roofing",
+      "fall-protection",
+      "renewable-energy",
+      "blue-metal-roof",
+      "worker-safety"
+    ],
+    "altText": "Roofing contractor installing solar panels on blue corrugated metal roof with safety gear",
+    "recommendations": [
+      "Excellent safety equipment visibility - perfect for safety compliance marketing",
+      "Strong composition with diagonal lines creates visual interest",
+      "High-vis clothing stands out well - ideal for hero image use",
+      "Shows professional workmanship and modern renewable energy integration",
+      "Good depth and environmental context with hills in background"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "999-large.avif",
+      "path": "output/fcs-optimized/999/999-large.avif",
+      "fileSize": 77132
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "999-large.webp",
+      "path": "output/fcs-optimized/999/999-large.webp",
+      "fileSize": 60746
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "999-large.jpg",
+      "path": "output/fcs-optimized/999/999-large.jpg",
+      "fileSize": 65791
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "999-medium.avif",
+      "path": "output/fcs-optimized/999/999-medium.avif",
+      "fileSize": 77132
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "999-medium.webp",
+      "path": "output/fcs-optimized/999/999-medium.webp",
+      "fileSize": 60746
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "999-medium.jpg",
+      "path": "output/fcs-optimized/999/999-medium.jpg",
+      "fileSize": 65791
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "999-small.avif",
+      "path": "output/fcs-optimized/999/999-small.avif",
+      "fileSize": 77132
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "999-small.webp",
+      "path": "output/fcs-optimized/999/999-small.webp",
+      "fileSize": 60746
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "999-small.jpg",
+      "path": "output/fcs-optimized/999/999-small.jpg",
+      "fileSize": 65791
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/999/999-large.avif 1600w, /images/999/999-medium.avif 1200w, /images/999/999-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/999/999-large.webp 1600w, /images/999/999-medium.webp 1200w, /images/999/999-small.webp 800w\" />\n  <img src=\"/images/999/999-medium.jpg\"\n       srcset=\"/images/999/999-large.jpg 1600w, /images/999/999-medium.jpg 1200w, /images/999/999-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/999/999-large.avif 1600w, /images/999/999-medium.avif 1200w, /images/999/999-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/999/999-large.webp 1600w, /images/999/999-medium.webp 1200w, /images/999/999-small.webp 800w\" />"
+    ],
+    "fallback": "999-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:25.802Z"
+}

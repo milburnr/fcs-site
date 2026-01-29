@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/i12.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/i12.jpg",
+    "alt": "i",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 85,
+      "composition": 90,
+      "lighting": 85,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Historic colonial building with dark gray asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "wood siding",
+        "stone foundation"
+      ],
+      "activity": "completed installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level street view",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "asphalt-shingle-roof",
+      "historic-building",
+      "residential-roofing",
+      "gray-shingles",
+      "colonial-architecture",
+      "dormer-windows",
+      "completed-project",
+      "street-view",
+      "heritage-roofing"
+    ],
+    "altText": "Historic colonial home with dark gray asphalt shingle roof and dormer windows",
+    "recommendations": [
+      "Excellent clarity and composition - ideal for portfolio showcasing heritage work",
+      "Strong curb appeal demonstrates quality residential roofing on historic properties",
+      "Perfect for marketing materials targeting historic district homeowners",
+      "Could be used to showcase color options for traditional architecture"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i12-large.avif",
+      "path": "output/fcs-optimized/i12/i12-large.avif",
+      "fileSize": 157243
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i12-large.webp",
+      "path": "output/fcs-optimized/i12/i12-large.webp",
+      "fileSize": 156310
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "i12-large.jpg",
+      "path": "output/fcs-optimized/i12/i12-large.jpg",
+      "fileSize": 148724
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i12-medium.avif",
+      "path": "output/fcs-optimized/i12/i12-medium.avif",
+      "fileSize": 157243
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i12-medium.webp",
+      "path": "output/fcs-optimized/i12/i12-medium.webp",
+      "fileSize": 156310
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "i12-medium.jpg",
+      "path": "output/fcs-optimized/i12/i12-medium.jpg",
+      "fileSize": 148724
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i12-small.avif",
+      "path": "output/fcs-optimized/i12/i12-small.avif",
+      "fileSize": 165762
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i12-small.webp",
+      "path": "output/fcs-optimized/i12/i12-small.webp",
+      "fileSize": 122514
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "i12-small.jpg",
+      "path": "output/fcs-optimized/i12/i12-small.jpg",
+      "fileSize": 139607
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/i12/i12-large.avif 1600w, /images/i12/i12-medium.avif 1200w, /images/i12/i12-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/i12/i12-large.webp 1600w, /images/i12/i12-medium.webp 1200w, /images/i12/i12-small.webp 800w\" />\n  <img src=\"/images/i12/i12-medium.jpg\"\n       srcset=\"/images/i12/i12-large.jpg 1600w, /images/i12/i12-medium.jpg 1200w, /images/i12/i12-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/i12/i12-large.avif 1600w, /images/i12/i12-medium.avif 1200w, /images/i12/i12-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/i12/i12-large.webp 1600w, /images/i12/i12-medium.webp 1200w, /images/i12/i12-small.webp 800w\" />"
+    ],
+    "fallback": "i12-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:43.628Z"
+}

@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e11.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e11.jpg",
+    "alt": "e",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 65,
+      "focus": 70,
+      "exposure": 75,
+      "composition": 60,
+      "lighting": 65,
+      "marketingValue": "low"
+    },
+    "content": {
+      "subject": "Construction site demolition and debris removal",
+      "materials": [
+        "concrete rubble",
+        "debris",
+        "safety barriers"
+      ],
+      "activity": "demolition",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "safety barriers",
+        "construction fencing",
+        "debris containers"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "demolition",
+      "construction-site",
+      "debris-removal",
+      "safety-gear",
+      "construction-workers",
+      "site-cleanup",
+      "ground-level"
+    ],
+    "altText": "Construction workers in safety vests clearing debris at demolition site",
+    "recommendations": [
+      "Image does not show roofing work - this is ground-level demolition/construction",
+      "No roofing materials, equipment, or activities visible",
+      "Not suitable for roofing contractor marketing materials",
+      "Consider using images that clearly show roofing installation, repair, or inspection",
+      "Workers wearing proper PPE is positive safety aspect"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e11-display.avif",
+      "path": "output/fcs-optimized/e11/e11-display.avif",
+      "fileSize": 67856
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e11-display.webp",
+      "path": "output/fcs-optimized/e11/e11-display.webp",
+      "fileSize": 63222
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "e11-display.jpg",
+      "path": "output/fcs-optimized/e11/e11-display.jpg",
+      "fileSize": 68989
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e11-grid.avif",
+      "path": "output/fcs-optimized/e11/e11-grid.avif",
+      "fileSize": 100857
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e11-grid.webp",
+      "path": "output/fcs-optimized/e11/e11-grid.webp",
+      "fileSize": 61812
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "e11-grid.jpg",
+      "path": "output/fcs-optimized/e11/e11-grid.jpg",
+      "fileSize": 75408
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e11-thumbnail.avif",
+      "path": "output/fcs-optimized/e11/e11-thumbnail.avif",
+      "fileSize": 57230
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e11-thumbnail.webp",
+      "path": "output/fcs-optimized/e11/e11-thumbnail.webp",
+      "fileSize": 33446
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "e11-thumbnail.jpg",
+      "path": "output/fcs-optimized/e11/e11-thumbnail.jpg",
+      "fileSize": 39709
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e11/e11-display.avif 1200w, /images/e11/e11-grid.avif 600w, /images/e11/e11-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/e11/e11-display.webp 1200w, /images/e11/e11-grid.webp 600w, /images/e11/e11-thumbnail.webp 400w\" />\n  <img src=\"/images/e11/e11-grid.jpg\"\n       srcset=\"/images/e11/e11-display.jpg 1200w, /images/e11/e11-grid.jpg 600w, /images/e11/e11-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e11/e11-display.avif 1200w, /images/e11/e11-grid.avif 600w, /images/e11/e11-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e11/e11-display.webp 1200w, /images/e11/e11-grid.webp 600w, /images/e11/e11-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "e11-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:18.827Z"
+}

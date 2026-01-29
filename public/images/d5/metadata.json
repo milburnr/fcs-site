@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/d5.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/d5.jpg",
+    "alt": "d",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 85,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Residential demolition and debris removal operation",
+      "materials": [
+        "asphalt shingles",
+        "wood debris",
+        "structural materials"
+      ],
+      "activity": "replacement",
+      "damageType": "complete removal",
+      "people": true,
+      "equipment": [
+        "excavator",
+        "dump truck",
+        "debris pile"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roof-replacement",
+      "demolition",
+      "debris-removal",
+      "residential-roofing",
+      "excavator",
+      "tear-off",
+      "roof-removal",
+      "construction-equipment"
+    ],
+    "altText": "Excavator removing old roofing debris during residential roof replacement project",
+    "recommendations": [
+      "Good documentation of demolition phase of roof replacement",
+      "Shows scale of equipment used - useful for customer education",
+      "Consider closer shots of roofing materials for technical detail",
+      "Image effectively demonstrates comprehensive removal service"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "d5-display.avif",
+      "path": "output/fcs-optimized/d5/d5-display.avif",
+      "fileSize": 16798
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "d5-display.webp",
+      "path": "output/fcs-optimized/d5/d5-display.webp",
+      "fileSize": 18288
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "d5-display.jpg",
+      "path": "output/fcs-optimized/d5/d5-display.jpg",
+      "fileSize": 16208
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "d5-grid.avif",
+      "path": "output/fcs-optimized/d5/d5-grid.avif",
+      "fileSize": 45281
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "d5-grid.webp",
+      "path": "output/fcs-optimized/d5/d5-grid.webp",
+      "fileSize": 38676
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "d5-grid.jpg",
+      "path": "output/fcs-optimized/d5/d5-grid.jpg",
+      "fileSize": 49331
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "d5-thumbnail.avif",
+      "path": "output/fcs-optimized/d5/d5-thumbnail.avif",
+      "fileSize": 33378
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "d5-thumbnail.webp",
+      "path": "output/fcs-optimized/d5/d5-thumbnail.webp",
+      "fileSize": 25042
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "d5-thumbnail.jpg",
+      "path": "output/fcs-optimized/d5/d5-thumbnail.jpg",
+      "fileSize": 29234
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/d5/d5-display.avif 1200w, /images/d5/d5-grid.avif 600w, /images/d5/d5-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/d5/d5-display.webp 1200w, /images/d5/d5-grid.webp 600w, /images/d5/d5-thumbnail.webp 400w\" />\n  <img src=\"/images/d5/d5-grid.jpg\"\n       srcset=\"/images/d5/d5-display.jpg 1200w, /images/d5/d5-grid.jpg 600w, /images/d5/d5-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/d5/d5-display.avif 1200w, /images/d5/d5-grid.avif 600w, /images/d5/d5-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/d5/d5-display.webp 1200w, /images/d5/d5-grid.webp 600w, /images/d5/d5-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "d5-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:00.372Z"
+}

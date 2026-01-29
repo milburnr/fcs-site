@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/4.3.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.3.jpg",
+    "alt": "4.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Residential property with dark asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "brick exterior",
+        "concrete walkway"
+      ],
+      "activity": "none - completed property showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level, wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "dark-shingle-roof",
+      "completed-project",
+      "curb-appeal",
+      "traditional-home",
+      "brick-exterior",
+      "landscaping",
+      "before-after-quality"
+    ],
+    "altText": "Dark asphalt shingle roof on traditional brick residential home with manicured lawn",
+    "recommendations": [
+      "Excellent curb appeal shot - perfect for portfolio and hero images",
+      "Well-balanced composition showcasing completed roofing work",
+      "Professional landscaping enhances overall presentation",
+      "Could highlight architectural shingle details in marketing copy"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-3-large.avif",
+      "path": "output/fcs-optimized/4-3/4-3-large.avif",
+      "fileSize": 18459
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-3-large.webp",
+      "path": "output/fcs-optimized/4-3/4-3-large.webp",
+      "fileSize": 20534
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-3-large.jpg",
+      "path": "output/fcs-optimized/4-3/4-3-large.jpg",
+      "fileSize": 17352
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-3-medium.avif",
+      "path": "output/fcs-optimized/4-3/4-3-medium.avif",
+      "fileSize": 18459
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-3-medium.webp",
+      "path": "output/fcs-optimized/4-3/4-3-medium.webp",
+      "fileSize": 20534
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-3-medium.jpg",
+      "path": "output/fcs-optimized/4-3/4-3-medium.jpg",
+      "fileSize": 17352
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-3-small.avif",
+      "path": "output/fcs-optimized/4-3/4-3-small.avif",
+      "fileSize": 18459
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-3-small.webp",
+      "path": "output/fcs-optimized/4-3/4-3-small.webp",
+      "fileSize": 20534
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-3-small.jpg",
+      "path": "output/fcs-optimized/4-3/4-3-small.jpg",
+      "fileSize": 17352
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/4-3/4-3-large.avif 1600w, /images/4-3/4-3-medium.avif 1200w, /images/4-3/4-3-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/4-3/4-3-large.webp 1600w, /images/4-3/4-3-medium.webp 1200w, /images/4-3/4-3-small.webp 800w\" />\n  <img src=\"/images/4-3/4-3-medium.jpg\"\n       srcset=\"/images/4-3/4-3-large.jpg 1600w, /images/4-3/4-3-medium.jpg 1200w, /images/4-3/4-3-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/4-3/4-3-large.avif 1600w, /images/4-3/4-3-medium.avif 1200w, /images/4-3/4-3-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/4-3/4-3-large.webp 1600w, /images/4-3/4-3-medium.webp 1200w, /images/4-3/4-3-small.webp 800w\" />"
+    ],
+    "fallback": "4-3-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:12.565Z"
+}

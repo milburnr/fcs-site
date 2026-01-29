@@ -1,0 +1,143 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/rebuild-superJumbo.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/rebuild-superJumbo.jpg",
+    "alt": "rebuild superJumbo",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 85,
+      "exposure": 70,
+      "composition": 80,
+      "lighting": 65,
+      "marketingValue": "low"
+    },
+    "content": {
+      "subject": "Stilt houses at beach during sunset",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "sunset"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": true
+    },
+    "tags": [
+      "beach-house",
+      "coastal-property",
+      "stilt-construction",
+      "sunset",
+      "residential",
+      "waterfront"
+    ],
+    "altText": "Beach houses on stilts at sunset with ocean waves",
+    "recommendations": [
+      "Image does not show roofing work, materials, or roofing-related content",
+      "Not suitable for roofing contractor portfolio or marketing",
+      "Shows residential coastal structures but no visible roofing detail",
+      "Backlit sunset creates silhouette effect - poor for technical documentation",
+      "Consider retaking during daylight hours if roof inspection/documentation needed"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "rebuild-superjumbo-large.avif",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-large.avif",
+      "fileSize": 143591
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "rebuild-superjumbo-large.webp",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-large.webp",
+      "fileSize": 92342
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "rebuild-superjumbo-large.jpg",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-large.jpg",
+      "fileSize": 154604
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "rebuild-superjumbo-medium.avif",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-medium.avif",
+      "fileSize": 91091
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "rebuild-superjumbo-medium.webp",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-medium.webp",
+      "fileSize": 57488
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "rebuild-superjumbo-medium.jpg",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-medium.jpg",
+      "fileSize": 92863
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "rebuild-superjumbo-small.avif",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-small.avif",
+      "fileSize": 45346
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "rebuild-superjumbo-small.webp",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-small.webp",
+      "fileSize": 28850
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "rebuild-superjumbo-small.jpg",
+      "path": "output/fcs-optimized/rebuild-superjumbo/rebuild-superjumbo-small.jpg",
+      "fileSize": 44980
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/rebuild-superjumbo/rebuild-superjumbo-large.avif 1600w, /images/rebuild-superjumbo/rebuild-superjumbo-medium.avif 1200w, /images/rebuild-superjumbo/rebuild-superjumbo-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/rebuild-superjumbo/rebuild-superjumbo-large.webp 1600w, /images/rebuild-superjumbo/rebuild-superjumbo-medium.webp 1200w, /images/rebuild-superjumbo/rebuild-superjumbo-small.webp 800w\" />\n  <img src=\"/images/rebuild-superjumbo/rebuild-superjumbo-medium.jpg\"\n       srcset=\"/images/rebuild-superjumbo/rebuild-superjumbo-large.jpg 1600w, /images/rebuild-superjumbo/rebuild-superjumbo-medium.jpg 1200w, /images/rebuild-superjumbo/rebuild-superjumbo-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/rebuild-superjumbo/rebuild-superjumbo-large.avif 1600w, /images/rebuild-superjumbo/rebuild-superjumbo-medium.avif 1200w, /images/rebuild-superjumbo/rebuild-superjumbo-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/rebuild-superjumbo/rebuild-superjumbo-large.webp 1600w, /images/rebuild-superjumbo/rebuild-superjumbo-medium.webp 1200w, /images/rebuild-superjumbo/rebuild-superjumbo-small.webp 800w\" />"
+    ],
+    "fallback": "rebuild-superjumbo-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:16.028Z"
+}

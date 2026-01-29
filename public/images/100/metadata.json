@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/100.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/100.jpg",
+    "alt": "Aerial view of commercial high-rise construction with multiple tower cranes and safety netting",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Large-scale commercial construction site with multiple tower cranes",
+      "materials": [
+        "structural steel",
+        "concrete",
+        "construction scaffolding",
+        "safety netting"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower cranes",
+        "safety netting",
+        "scaffolding"
+      ],
+      "weather": "sunny",
+      "perspective": "aerial",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-construction",
+      "tower-cranes",
+      "aerial-photography",
+      "high-rise-building",
+      "urban-development",
+      "construction-site",
+      "structural-phase",
+      "cityscape"
+    ],
+    "altText": "Aerial view of commercial high-rise construction with multiple tower cranes and safety netting",
+    "recommendations": [
+      "Exceptional aerial perspective - ideal for hero image showcasing large-scale commercial capabilities",
+      "Clear documentation of multi-crane coordination and safety measures",
+      "Strong context with urban skyline - demonstrates experience with high-profile projects",
+      "Image shows structural phase before roofing - useful for full construction timeline documentation"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "100-large.avif",
+      "path": "output/fcs-optimized/100/100-large.avif",
+      "fileSize": 88128
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "100-large.webp",
+      "path": "output/fcs-optimized/100/100-large.webp",
+      "fileSize": 82862
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "100-large.jpg",
+      "path": "output/fcs-optimized/100/100-large.jpg",
+      "fileSize": 83202
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "100-medium.avif",
+      "path": "output/fcs-optimized/100/100-medium.avif",
+      "fileSize": 88128
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "100-medium.webp",
+      "path": "output/fcs-optimized/100/100-medium.webp",
+      "fileSize": 82862
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "100-medium.jpg",
+      "path": "output/fcs-optimized/100/100-medium.jpg",
+      "fileSize": 83202
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "100-small.avif",
+      "path": "output/fcs-optimized/100/100-small.avif",
+      "fileSize": 88128
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "100-small.webp",
+      "path": "output/fcs-optimized/100/100-small.webp",
+      "fileSize": 82862
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "100-small.jpg",
+      "path": "output/fcs-optimized/100/100-small.jpg",
+      "fileSize": 83202
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/100/100-large.avif 1600w, /images/100/100-medium.avif 1200w, /images/100/100-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/100/100-large.webp 1600w, /images/100/100-medium.webp 1200w, /images/100/100-small.webp 800w\" />\n  <img src=\"/images/100/100-medium.jpg\"\n       srcset=\"/images/100/100-large.jpg 1600w, /images/100/100-medium.jpg 1200w, /images/100/100-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/100/100-large.avif 1600w, /images/100/100-medium.avif 1200w, /images/100/100-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/100/100-large.webp 1600w, /images/100/100-medium.webp 1200w, /images/100/100-small.webp 800w\" />"
+    ],
+    "fallback": "100-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:33:21.270Z"
+}

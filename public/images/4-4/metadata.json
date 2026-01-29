@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/4.4.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4.4.jpg",
+    "alt": "4.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 85,
+      "composition": 90,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Luxury coastal residence with metal standing seam roof",
+      "materials": [
+        "metal roofing",
+        "standing seam",
+        "metal panels"
+      ],
+      "activity": "showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "metal-roofing",
+      "standing-seam",
+      "coastal-residential",
+      "luxury-home",
+      "white-metal-roof",
+      "florida-style",
+      "completed-project",
+      "high-end-residential",
+      "tropical-landscaping"
+    ],
+    "altText": "White standing seam metal roof on luxury coastal home with palm trees",
+    "recommendations": [
+      "Excellent showcase image for high-end residential metal roofing portfolio",
+      "Perfect for marketing premium metal roofing services in coastal markets",
+      "Great composition showing full property with landscaping context",
+      "Ideal hero image for website homepage or gallery featured project"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-4-large.avif",
+      "path": "output/fcs-optimized/4-4/4-4-large.avif",
+      "fileSize": 401265
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-4-large.webp",
+      "path": "output/fcs-optimized/4-4/4-4-large.webp",
+      "fileSize": 312298
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4-4-large.jpg",
+      "path": "output/fcs-optimized/4-4/4-4-large.jpg",
+      "fileSize": 346287
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-4-medium.avif",
+      "path": "output/fcs-optimized/4-4/4-4-medium.avif",
+      "fileSize": 412611
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-4-medium.webp",
+      "path": "output/fcs-optimized/4-4/4-4-medium.webp",
+      "fileSize": 274148
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4-4-medium.jpg",
+      "path": "output/fcs-optimized/4-4/4-4-medium.jpg",
+      "fileSize": 310126
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-4-small.avif",
+      "path": "output/fcs-optimized/4-4/4-4-small.avif",
+      "fileSize": 205380
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-4-small.webp",
+      "path": "output/fcs-optimized/4-4/4-4-small.webp",
+      "fileSize": 128922
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4-4-small.jpg",
+      "path": "output/fcs-optimized/4-4/4-4-small.jpg",
+      "fileSize": 143729
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/4-4/4-4-large.avif 1600w, /images/4-4/4-4-medium.avif 1200w, /images/4-4/4-4-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/4-4/4-4-large.webp 1600w, /images/4-4/4-4-medium.webp 1200w, /images/4-4/4-4-small.webp 800w\" />\n  <img src=\"/images/4-4/4-4-medium.jpg\"\n       srcset=\"/images/4-4/4-4-large.jpg 1600w, /images/4-4/4-4-medium.jpg 1200w, /images/4-4/4-4-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/4-4/4-4-large.avif 1600w, /images/4-4/4-4-medium.avif 1200w, /images/4-4/4-4-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/4-4/4-4-large.webp 1600w, /images/4-4/4-4-medium.webp 1200w, /images/4-4/4-4-small.webp 800w\" />"
+    ],
+    "fallback": "4-4-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:22.745Z"
+}

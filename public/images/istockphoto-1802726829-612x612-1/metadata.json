@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/istockphoto-1802726829-612x612-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/istockphoto-1802726829-612x612-1.jpg",
+    "alt": "istockphoto 1802726829 612x612",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Deteriorated balcony overhang on historic building facade",
+      "materials": [
+        "metal roofing",
+        "modified bitumen",
+        "decorative metal trim"
+      ],
+      "activity": "inspection",
+      "damageType": "aging, wear and tear, water damage",
+      "people": false,
+      "equipment": [],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "balcony-deterioration",
+      "historic-building",
+      "metal-roofing-damage",
+      "water-damage",
+      "architectural-detail",
+      "building-facade",
+      "maintenance-needed",
+      "aging-roof"
+    ],
+    "altText": "Weathered balcony overhang showing deterioration on historic building facade",
+    "recommendations": [
+      "Good example for showing age-related deterioration and maintenance needs",
+      "Useful for historic building restoration portfolio",
+      "Could illustrate importance of regular inspection and preventive maintenance",
+      "Better lighting would improve detail visibility of damage",
+      "Consider closer shot to show specific deterioration details"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1802726829-612x612-1-display.avif",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.avif",
+      "fileSize": 69381
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1802726829-612x612-1-display.webp",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.webp",
+      "fileSize": 63352
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "istockphoto-1802726829-612x612-1-display.jpg",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.jpg",
+      "fileSize": 71600
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1802726829-612x612-1-grid.avif",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.avif",
+      "fileSize": 96376
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1802726829-612x612-1-grid.webp",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.webp",
+      "fileSize": 60180
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "istockphoto-1802726829-612x612-1-grid.jpg",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.jpg",
+      "fileSize": 76638
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1802726829-612x612-1-thumbnail.avif",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.avif",
+      "fileSize": 52954
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1802726829-612x612-1-thumbnail.webp",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.webp",
+      "fileSize": 30428
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "istockphoto-1802726829-612x612-1-thumbnail.jpg",
+      "path": "output/fcs-optimized/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.jpg",
+      "fileSize": 38188
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.avif 1200w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.avif 600w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.webp 1200w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.webp 600w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.webp 400w\" />\n  <img src=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.jpg\"\n       srcset=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.jpg 1200w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.jpg 600w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.avif 1200w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.avif 600w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-display.webp 1200w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-grid.webp 600w, /images/istockphoto-1802726829-612x612-1/istockphoto-1802726829-612x612-1-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "istockphoto-1802726829-612x612-1-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:30:31.712Z"
+}

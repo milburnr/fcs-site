@@ -1,0 +1,142 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/6.3.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6.3.jpg",
+    "alt": "6.",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 0,
+      "focus": 0,
+      "exposure": 0,
+      "composition": 0,
+      "lighting": 0,
+      "marketingValue": "low"
+    },
+    "content": {
+      "subject": "Modern home office interior workspace",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "indoor",
+      "perspective": "ground level",
+      "timeOfDay": "not applicable"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": false
+    },
+    "tags": [
+      "non-roofing",
+      "interior",
+      "office",
+      "irrelevant",
+      "wrong-category"
+    ],
+    "altText": "Home office interior with desk and chair - not roofing related",
+    "recommendations": [
+      "ERROR: This image contains NO roofing content whatsoever",
+      "Image shows interior office workspace - completely irrelevant to roofing contractor purposes",
+      "This image should be rejected from roofing contractor database",
+      "No roofing materials, activities, damage, or related content visible",
+      "Image appears to be uploaded to wrong category/system entirely"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "6-3-display.avif",
+      "path": "output/fcs-optimized/6-3/6-3-display.avif",
+      "fileSize": 30734
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "6-3-display.webp",
+      "path": "output/fcs-optimized/6-3/6-3-display.webp",
+      "fileSize": 28466
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "6-3-display.jpg",
+      "path": "output/fcs-optimized/6-3/6-3-display.jpg",
+      "fileSize": 37785
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "6-3-grid.avif",
+      "path": "output/fcs-optimized/6-3/6-3-grid.avif",
+      "fileSize": 39776
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "6-3-grid.webp",
+      "path": "output/fcs-optimized/6-3/6-3-grid.webp",
+      "fileSize": 27292
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "6-3-grid.jpg",
+      "path": "output/fcs-optimized/6-3/6-3-grid.jpg",
+      "fileSize": 42989
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-3-thumbnail.avif",
+      "path": "output/fcs-optimized/6-3/6-3-thumbnail.avif",
+      "fileSize": 22570
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-3-thumbnail.webp",
+      "path": "output/fcs-optimized/6-3/6-3-thumbnail.webp",
+      "fileSize": 15278
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "6-3-thumbnail.jpg",
+      "path": "output/fcs-optimized/6-3/6-3-thumbnail.jpg",
+      "fileSize": 23670
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/6-3/6-3-display.avif 1200w, /images/6-3/6-3-grid.avif 600w, /images/6-3/6-3-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/6-3/6-3-display.webp 1200w, /images/6-3/6-3-grid.webp 600w, /images/6-3/6-3-thumbnail.webp 400w\" />\n  <img src=\"/images/6-3/6-3-grid.jpg\"\n       srcset=\"/images/6-3/6-3-display.jpg 1200w, /images/6-3/6-3-grid.jpg 600w, /images/6-3/6-3-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/6-3/6-3-display.avif 1200w, /images/6-3/6-3-grid.avif 600w, /images/6-3/6-3-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/6-3/6-3-display.webp 1200w, /images/6-3/6-3-grid.webp 600w, /images/6-3/6-3-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "6-3-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:12.556Z"
+}

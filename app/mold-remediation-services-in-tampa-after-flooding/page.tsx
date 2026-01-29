@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/hurricane-ian.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

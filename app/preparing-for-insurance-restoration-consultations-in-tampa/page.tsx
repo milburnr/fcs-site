@@ -58,7 +58,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/hurricane-ian.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Preparing for insurance restoration consultations in Tampa"
             fill
             className="object-cover"

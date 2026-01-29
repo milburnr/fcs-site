@@ -125,7 +125,7 @@ export default function TampaPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/Downtown-Tampa-Over-The-Bay-At-Sunrise-1024x682-1.jpg"
+            src="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp"
             alt="Downtown Tampa skyline over Tampa Bay at sunrise"
             fill
             className="object-cover"

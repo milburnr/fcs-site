@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Converting-Retail-Building-into-MultiTenant-Space.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Converting-Retail-Building-into-MultiTenant-Space.jpg",
+    "alt": "Converting Retail Building into MultiTenant Space",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Multi-story building construction and renovation",
+      "materials": [
+        "brick",
+        "metal scaffolding",
+        "exterior cladding",
+        "window frames"
+      ],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "scaffolding",
+        "construction barriers"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "building-construction",
+      "scaffolding",
+      "multi-story-building",
+      "renovation",
+      "commercial-building",
+      "exterior-work",
+      "construction-progress",
+      "building-facade"
+    ],
+    "altText": "Multi-story building under construction with scaffolding and exterior renovation work in progress",
+    "recommendations": [
+      "Image shows general construction but lacks roofing-specific content",
+      "Would benefit from closer view of roof area for roofing contractor portfolio",
+      "Good for general construction capabilities or multi-trade project documentation",
+      "Consider cropping to focus on specific building elements if roofing work is present"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "converting-retail-building-into-multitenant-space-display.avif",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.avif",
+      "fileSize": 62112
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "converting-retail-building-into-multitenant-space-display.webp",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp",
+      "fileSize": 55676
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "converting-retail-building-into-multitenant-space-display.jpg",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.jpg",
+      "fileSize": 62707
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "converting-retail-building-into-multitenant-space-grid.avif",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.avif",
+      "fileSize": 92781
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "converting-retail-building-into-multitenant-space-grid.webp",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.webp",
+      "fileSize": 54346
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "converting-retail-building-into-multitenant-space-grid.jpg",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.jpg",
+      "fileSize": 68956
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "converting-retail-building-into-multitenant-space-thumbnail.avif",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.avif",
+      "fileSize": 50227
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "converting-retail-building-into-multitenant-space-thumbnail.webp",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.webp",
+      "fileSize": 27842
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "converting-retail-building-into-multitenant-space-thumbnail.jpg",
+      "path": "output/fcs-optimized/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.jpg",
+      "fileSize": 34427
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.avif 1200w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.avif 600w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp 1200w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.webp 600w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.webp 400w\" />\n  <img src=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.jpg\"\n       srcset=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.jpg 1200w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.jpg 600w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.avif 1200w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.avif 600w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp 1200w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-grid.webp 600w, /images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "converting-retail-building-into-multitenant-space-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:37:23.799Z"
+}

@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e10.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e10.jpg",
+    "alt": "e",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 65,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 85,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site surveying and planning",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "excavator",
+        "surveying equipment",
+        "theodolite",
+        "tripod"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-site",
+      "site-surveying",
+      "excavation",
+      "safety-gear",
+      "hard-hats",
+      "high-visibility-vest",
+      "planning",
+      "commercial-construction"
+    ],
+    "altText": "Construction workers surveying site with excavator and safety equipment in background",
+    "recommendations": [
+      "Main subject is out of focus - excavator in background is sharper than foreground workers",
+      "Good for showing site preparation or pre-construction planning phase",
+      "Demonstrates proper safety protocols with PPE visibility",
+      "Not roofing-specific - better suited for general construction or site work content",
+      "Could work well for 'site assessment' or 'project planning' sections",
+      "Consider cropping tighter on workers for improved focus on safety gear"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e10-large.avif",
+      "path": "output/fcs-optimized/e10/e10-large.avif",
+      "fileSize": 137944
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e10-large.webp",
+      "path": "output/fcs-optimized/e10/e10-large.webp",
+      "fileSize": 101132
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e10-large.jpg",
+      "path": "output/fcs-optimized/e10/e10-large.jpg",
+      "fileSize": 168691
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e10-medium.avif",
+      "path": "output/fcs-optimized/e10/e10-medium.avif",
+      "fileSize": 91958
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e10-medium.webp",
+      "path": "output/fcs-optimized/e10/e10-medium.webp",
+      "fileSize": 65098
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e10-medium.jpg",
+      "path": "output/fcs-optimized/e10/e10-medium.jpg",
+      "fileSize": 106884
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e10-small.avif",
+      "path": "output/fcs-optimized/e10/e10-small.avif",
+      "fileSize": 54661
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e10-small.webp",
+      "path": "output/fcs-optimized/e10/e10-small.webp",
+      "fileSize": 34472
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e10-small.jpg",
+      "path": "output/fcs-optimized/e10/e10-small.jpg",
+      "fileSize": 57189
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e10/e10-large.avif 1600w, /images/e10/e10-medium.avif 1200w, /images/e10/e10-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/e10/e10-large.webp 1600w, /images/e10/e10-medium.webp 1200w, /images/e10/e10-small.webp 800w\" />\n  <img src=\"/images/e10/e10-medium.jpg\"\n       srcset=\"/images/e10/e10-large.jpg 1600w, /images/e10/e10-medium.jpg 1200w, /images/e10/e10-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e10/e10-large.avif 1600w, /images/e10/e10-medium.avif 1200w, /images/e10/e10-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e10/e10-large.webp 1600w, /images/e10/e10-medium.webp 1200w, /images/e10/e10-small.webp 800w\" />"
+    ],
+    "fallback": "e10-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:16.187Z"
+}

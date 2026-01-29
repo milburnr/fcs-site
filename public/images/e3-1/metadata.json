@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/e3-1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/e3-1.jpg",
+    "alt": "e3",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 80,
+      "exposure": 78,
+      "composition": 70,
+      "lighting": 72,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Catastrophic structural damage and demolition debris",
+      "materials": [
+        "asphalt shingles",
+        "wood framing",
+        "concrete",
+        "metal roofing",
+        "structural lumber"
+      ],
+      "activity": "disaster assessment",
+      "damageType": "catastrophic structural failure",
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "storm-damage",
+      "catastrophic-damage",
+      "structural-failure",
+      "disaster-restoration",
+      "emergency-roofing",
+      "total-loss",
+      "insurance-claim",
+      "debris-removal"
+    ],
+    "altText": "Severe storm damage to residential home showing destroyed roof and structural collapse with debris",
+    "recommendations": [
+      "Effective for insurance claim documentation and emergency services marketing",
+      "Consider using for before/after gallery or disaster response case studies",
+      "Not suitable for hero/homepage use due to distressing nature",
+      "Good for educational content about storm preparedness and emergency response"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e3-1-large.avif",
+      "path": "output/fcs-optimized/e3-1/e3-1-large.avif",
+      "fileSize": 38461
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e3-1-large.webp",
+      "path": "output/fcs-optimized/e3-1/e3-1-large.webp",
+      "fileSize": 32550
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "e3-1-large.jpg",
+      "path": "output/fcs-optimized/e3-1/e3-1-large.jpg",
+      "fileSize": 33807
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e3-1-medium.avif",
+      "path": "output/fcs-optimized/e3-1/e3-1-medium.avif",
+      "fileSize": 38461
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e3-1-medium.webp",
+      "path": "output/fcs-optimized/e3-1/e3-1-medium.webp",
+      "fileSize": 32550
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "e3-1-medium.jpg",
+      "path": "output/fcs-optimized/e3-1/e3-1-medium.jpg",
+      "fileSize": 33807
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e3-1-small.avif",
+      "path": "output/fcs-optimized/e3-1/e3-1-small.avif",
+      "fileSize": 38461
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e3-1-small.webp",
+      "path": "output/fcs-optimized/e3-1/e3-1-small.webp",
+      "fileSize": 32550
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "e3-1-small.jpg",
+      "path": "output/fcs-optimized/e3-1/e3-1-small.jpg",
+      "fileSize": 33807
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/e3-1/e3-1-large.avif 1600w, /images/e3-1/e3-1-medium.avif 1200w, /images/e3-1/e3-1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/e3-1/e3-1-large.webp 1600w, /images/e3-1/e3-1-medium.webp 1200w, /images/e3-1/e3-1-small.webp 800w\" />\n  <img src=\"/images/e3-1/e3-1-medium.jpg\"\n       srcset=\"/images/e3-1/e3-1-large.jpg 1600w, /images/e3-1/e3-1-medium.jpg 1200w, /images/e3-1/e3-1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/e3-1/e3-1-large.avif 1600w, /images/e3-1/e3-1-medium.avif 1200w, /images/e3-1/e3-1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/e3-1/e3-1-large.webp 1600w, /images/e3-1/e3-1-medium.webp 1200w, /images/e3-1/e3-1-small.webp 800w\" />"
+    ],
+    "fallback": "e3-1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:26.305Z"
+}

@@ -1,0 +1,146 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/4f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/4f.jpg",
+    "alt": "4f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 82,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Residential home with hip roof",
+      "materials": [
+        "asphalt shingles"
+      ],
+      "activity": "completed installation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "hip-roof",
+      "completed-project",
+      "single-family-home",
+      "gray-roof",
+      "landscaped-property",
+      "residential-exterior"
+    ],
+    "altText": "Single-story home with gray asphalt shingle hip roof and attached garage",
+    "recommendations": [
+      "Good for gallery showcase of completed residential projects",
+      "Consider closer roof detail shots for technical portfolio",
+      "Ideal for before/after comparisons or project portfolio",
+      "Could benefit from slight color enhancement to make roof stand out more"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4f-large.avif",
+      "path": "output/fcs-optimized/4f/4f-large.avif",
+      "fileSize": 14038
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4f-large.webp",
+      "path": "output/fcs-optimized/4f/4f-large.webp",
+      "fileSize": 13832
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "4f-large.jpg",
+      "path": "output/fcs-optimized/4f/4f-large.jpg",
+      "fileSize": 13612
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4f-medium.avif",
+      "path": "output/fcs-optimized/4f/4f-medium.avif",
+      "fileSize": 14038
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4f-medium.webp",
+      "path": "output/fcs-optimized/4f/4f-medium.webp",
+      "fileSize": 13832
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "4f-medium.jpg",
+      "path": "output/fcs-optimized/4f/4f-medium.jpg",
+      "fileSize": 13612
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4f-small.avif",
+      "path": "output/fcs-optimized/4f/4f-small.avif",
+      "fileSize": 14038
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4f-small.webp",
+      "path": "output/fcs-optimized/4f/4f-small.webp",
+      "fileSize": 13832
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "4f-small.jpg",
+      "path": "output/fcs-optimized/4f/4f-small.jpg",
+      "fileSize": 13612
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/4f/4f-large.avif 1600w, /images/4f/4f-medium.avif 1200w, /images/4f/4f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/4f/4f-large.webp 1600w, /images/4f/4f-medium.webp 1200w, /images/4f/4f-small.webp 800w\" />\n  <img src=\"/images/4f/4f-medium.jpg\"\n       srcset=\"/images/4f/4f-large.jpg 1600w, /images/4f/4f-medium.jpg 1200w, /images/4f/4f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/4f/4f-large.avif 1600w, /images/4f/4f-medium.avif 1200w, /images/4f/4f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/4f/4f-large.webp 1600w, /images/4f/4f-medium.webp 1200w, /images/4f/4f-small.webp 800w\" />"
+    ],
+    "fallback": "4f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:31.625Z"
+}

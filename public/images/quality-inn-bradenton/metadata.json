@@ -1,0 +1,176 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Quality-Inn-Bradenton.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Quality-Inn-Bradenton.jpg",
+    "alt": "Quality Inn Bradenton",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 92,
+      "focus": 95,
+      "exposure": 92,
+      "composition": 90,
+      "lighting": 90,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Quality Inn hotel with commercial low-slope roof",
+      "materials": [
+        "metal roofing",
+        "standing seam metal",
+        "commercial roofing"
+      ],
+      "activity": "completed installation showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "metal-roof",
+      "hotel-roofing",
+      "quality-inn",
+      "standing-seam-metal",
+      "commercial-project",
+      "florida-roofing",
+      "completed-installation",
+      "hero-image"
+    ],
+    "altText": "Quality Inn hotel with green metal commercial roof in sunny Florida setting",
+    "recommendations": [
+      "Excellent professional photography - perfect for hero image and portfolio",
+      "Great showcase of completed commercial roofing project",
+      "Clear brand visibility adds credibility for commercial client work",
+      "Ideal for marketing commercial roofing services to hospitality sector"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "quality-inn-bradenton-xl.avif",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-xl.avif",
+      "fileSize": 650987
+    },
+    {
+      "format": "webp",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "quality-inn-bradenton-xl.webp",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-xl.webp",
+      "fileSize": 453748
+    },
+    {
+      "format": "jpg",
+      "size": "xl",
+      "width": 2560,
+      "height": 1440,
+      "filename": "quality-inn-bradenton-xl.jpg",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-xl.jpg",
+      "fileSize": 650957
+    },
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "quality-inn-bradenton-large.avif",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-large.avif",
+      "fileSize": 439342
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "quality-inn-bradenton-large.webp",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-large.webp",
+      "fileSize": 294168
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1920,
+      "height": 1080,
+      "filename": "quality-inn-bradenton-large.jpg",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-large.jpg",
+      "fileSize": 410237
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "quality-inn-bradenton-medium.avif",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-medium.avif",
+      "fileSize": 232827
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "quality-inn-bradenton-medium.webp",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-medium.webp",
+      "fileSize": 149522
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1280,
+      "height": 720,
+      "filename": "quality-inn-bradenton-medium.jpg",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-medium.jpg",
+      "fileSize": 199201
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "quality-inn-bradenton-small.avif",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-small.avif",
+      "fileSize": 147164
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "quality-inn-bradenton-small.webp",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-small.webp",
+      "fileSize": 86690
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 960,
+      "height": 540,
+      "filename": "quality-inn-bradenton-small.jpg",
+      "path": "output/fcs-optimized/quality-inn-bradenton/quality-inn-bradenton-small.jpg",
+      "fileSize": 117328
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/quality-inn-bradenton/quality-inn-bradenton-xl.avif 2560w, /images/quality-inn-bradenton/quality-inn-bradenton-large.avif 1920w, /images/quality-inn-bradenton/quality-inn-bradenton-medium.avif 1280w, /images/quality-inn-bradenton/quality-inn-bradenton-small.avif 960w\" />\n  <source type=\"image/webp\" srcset=\"/images/quality-inn-bradenton/quality-inn-bradenton-xl.webp 2560w, /images/quality-inn-bradenton/quality-inn-bradenton-large.webp 1920w, /images/quality-inn-bradenton/quality-inn-bradenton-medium.webp 1280w, /images/quality-inn-bradenton/quality-inn-bradenton-small.webp 960w\" />\n  <img src=\"/images/quality-inn-bradenton/quality-inn-bradenton-medium.jpg\"\n       srcset=\"/images/quality-inn-bradenton/quality-inn-bradenton-xl.jpg 2560w, /images/quality-inn-bradenton/quality-inn-bradenton-large.jpg 1920w, /images/quality-inn-bradenton/quality-inn-bradenton-medium.jpg 1280w, /images/quality-inn-bradenton/quality-inn-bradenton-small.jpg 960w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/quality-inn-bradenton/quality-inn-bradenton-xl.avif 2560w, /images/quality-inn-bradenton/quality-inn-bradenton-large.avif 1920w, /images/quality-inn-bradenton/quality-inn-bradenton-medium.avif 1280w, /images/quality-inn-bradenton/quality-inn-bradenton-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/quality-inn-bradenton/quality-inn-bradenton-xl.webp 2560w, /images/quality-inn-bradenton/quality-inn-bradenton-large.webp 1920w, /images/quality-inn-bradenton/quality-inn-bradenton-medium.webp 1280w, /images/quality-inn-bradenton/quality-inn-bradenton-small.webp 960w\" />"
+    ],
+    "fallback": "quality-inn-bradenton-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:22.612Z"
+}

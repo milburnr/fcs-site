@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/images.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/images.jpg",
+    "alt": "images",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Insurance policy documentation with miniature house model",
+      "materials": [
+        "asphalt shingles",
+        "clay tile roof (miniature)"
+      ],
+      "activity": "insurance documentation",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "pen"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "insurance-policy",
+      "homeowners-insurance",
+      "roof-insurance",
+      "documentation",
+      "insurance-claim",
+      "residential-roofing",
+      "policy-paperwork",
+      "roofing-insurance"
+    ],
+    "altText": "Homeowners insurance policy document with model house and red tile roof",
+    "recommendations": [
+      "Best suited for blog posts or articles about insurance claims and roofing",
+      "Use inline within insurance claim guides or homeowner resources",
+      "Consider replacing with actual roof inspection or claim documentation photos for more authentic marketing",
+      "Good for educational content about insurance coverage for roof damage"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-display.avif",
+      "path": "output/fcs-optimized/images/images-display.avif",
+      "fileSize": 12024
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-display.webp",
+      "path": "output/fcs-optimized/images/images-display.webp",
+      "fileSize": 11656
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "images-display.jpg",
+      "path": "output/fcs-optimized/images/images-display.jpg",
+      "fileSize": 11983
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-grid.avif",
+      "path": "output/fcs-optimized/images/images-grid.avif",
+      "fileSize": 29926
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-grid.webp",
+      "path": "output/fcs-optimized/images/images-grid.webp",
+      "fileSize": 23986
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "images-grid.jpg",
+      "path": "output/fcs-optimized/images/images-grid.jpg",
+      "fileSize": 33303
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-thumbnail.avif",
+      "path": "output/fcs-optimized/images/images-thumbnail.avif",
+      "fileSize": 20486
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-thumbnail.webp",
+      "path": "output/fcs-optimized/images/images-thumbnail.webp",
+      "fileSize": 15092
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "images-thumbnail.jpg",
+      "path": "output/fcs-optimized/images/images-thumbnail.jpg",
+      "fileSize": 19135
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/images/images-display.avif 1200w, /images/images/images-grid.avif 600w, /images/images/images-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/images/images-display.webp 1200w, /images/images/images-grid.webp 600w, /images/images/images-thumbnail.webp 400w\" />\n  <img src=\"/images/images/images-grid.jpg\"\n       srcset=\"/images/images/images-display.jpg 1200w, /images/images/images-grid.jpg 600w, /images/images/images-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/images/images-display.avif 1200w, /images/images/images-grid.avif 600w, /images/images/images-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/images/images-display.webp 1200w, /images/images/images-grid.webp 600w, /images/images/images-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "images-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:42:15.140Z"
+}

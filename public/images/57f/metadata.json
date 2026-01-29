@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/57f.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/57f.webp",
+    "alt": "57f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Asphalt shingle installation close-up",
+      "materials": [
+        "asphalt shingles",
+        "roofing felt",
+        "underlayment"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "roofing hammer",
+        "work gloves",
+        "measuring tape"
+      ],
+      "weather": "sunny",
+      "perspective": "close-up",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "asphalt-shingle-installation",
+      "roofing-contractor",
+      "residential-roofing",
+      "worker-close-up",
+      "safety-gloves",
+      "shingle-repair",
+      "professional-installation",
+      "roof-replacement"
+    ],
+    "altText": "Roofer installing asphalt shingles with hammer wearing safety gloves on residential roof",
+    "recommendations": [
+      "Excellent detail showing professional workmanship and proper safety equipment",
+      "Strong composition with leading lines drawing eye to work being performed",
+      "Perfect for showcasing craftsmanship and attention to detail",
+      "Ideal for hero image, service pages, or social media marketing"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "57f-large.avif",
+      "path": "output/fcs-optimized/57f/57f-large.avif",
+      "fileSize": 93889
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "57f-large.webp",
+      "path": "output/fcs-optimized/57f/57f-large.webp",
+      "fileSize": 54024
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "57f-large.jpg",
+      "path": "output/fcs-optimized/57f/57f-large.jpg",
+      "fileSize": 93702
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "57f-medium.avif",
+      "path": "output/fcs-optimized/57f/57f-medium.avif",
+      "fileSize": 93889
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "57f-medium.webp",
+      "path": "output/fcs-optimized/57f/57f-medium.webp",
+      "fileSize": 54024
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "57f-medium.jpg",
+      "path": "output/fcs-optimized/57f/57f-medium.jpg",
+      "fileSize": 93702
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "57f-small.avif",
+      "path": "output/fcs-optimized/57f/57f-small.avif",
+      "fileSize": 66482
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "57f-small.webp",
+      "path": "output/fcs-optimized/57f/57f-small.webp",
+      "fileSize": 43750
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "57f-small.jpg",
+      "path": "output/fcs-optimized/57f/57f-small.jpg",
+      "fileSize": 65934
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/57f/57f-large.avif 1600w, /images/57f/57f-medium.avif 1200w, /images/57f/57f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/57f/57f-large.webp 1600w, /images/57f/57f-medium.webp 1200w, /images/57f/57f-small.webp 800w\" />\n  <img src=\"/images/57f/57f-medium.jpg\"\n       srcset=\"/images/57f/57f-large.jpg 1600w, /images/57f/57f-medium.jpg 1200w, /images/57f/57f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/57f/57f-large.avif 1600w, /images/57f/57f-medium.avif 1200w, /images/57f/57f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/57f/57f-large.webp 1600w, /images/57f/57f-medium.webp 1200w, /images/57f/57f-small.webp 800w\" />"
+    ],
+    "fallback": "57f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:53.230Z"
+}

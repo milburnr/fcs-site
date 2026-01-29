@@ -106,7 +106,7 @@ export default function LakelandPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
             alt="Turner AgriCivic Center commercial facility"
             fill
             className="object-cover"
@@ -289,7 +289,7 @@ export default function LakelandPage() {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                 <Image
-                  src="/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg"
+                  src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
                   alt="Commercial construction project in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

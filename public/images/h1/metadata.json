@@ -1,0 +1,155 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/h1.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/h1.jpg",
+    "alt": "h",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Solar panel installation with fall protection",
+      "materials": [
+        "solar panel mounting rails",
+        "metal brackets",
+        "residential roofing"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "safety harness",
+        "fall protection system",
+        "roofing tools",
+        "hard hat"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "solar-installation",
+      "fall-protection",
+      "safety-equipment",
+      "residential-roofing",
+      "roof-worker",
+      "solar-mounting-rails",
+      "safety-culture",
+      "blue-sky",
+      "professional-installer"
+    ],
+    "altText": "Roofer installing solar panel rails with safety harness on residential roof",
+    "recommendations": [
+      "Excellent safety demonstration - perfect for safety training materials",
+      "Strong composition with dynamic angle - ideal for hero image or homepage",
+      "Clear visibility of PPE (hard hat, harness) - great for safety compliance messaging",
+      "Bright, professional lighting showcases quality workmanship",
+      "Could be used in solar roofing service pages or safety protocol documentation"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h1-large.avif",
+      "path": "output/fcs-optimized/h1/h1-large.avif",
+      "fileSize": 141784
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h1-large.webp",
+      "path": "output/fcs-optimized/h1/h1-large.webp",
+      "fileSize": 121350
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "h1-large.jpg",
+      "path": "output/fcs-optimized/h1/h1-large.jpg",
+      "fileSize": 158559
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h1-medium.avif",
+      "path": "output/fcs-optimized/h1/h1-medium.avif",
+      "fileSize": 141784
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h1-medium.webp",
+      "path": "output/fcs-optimized/h1/h1-medium.webp",
+      "fileSize": 121350
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "h1-medium.jpg",
+      "path": "output/fcs-optimized/h1/h1-medium.jpg",
+      "fileSize": 158559
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h1-small.avif",
+      "path": "output/fcs-optimized/h1/h1-small.avif",
+      "fileSize": 93527
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h1-small.webp",
+      "path": "output/fcs-optimized/h1/h1-small.webp",
+      "fileSize": 73664
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "h1-small.jpg",
+      "path": "output/fcs-optimized/h1/h1-small.jpg",
+      "fileSize": 95790
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/h1/h1-large.avif 1600w, /images/h1/h1-medium.avif 1200w, /images/h1/h1-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/h1/h1-large.webp 1600w, /images/h1/h1-medium.webp 1200w, /images/h1/h1-small.webp 800w\" />\n  <img src=\"/images/h1/h1-medium.jpg\"\n       srcset=\"/images/h1/h1-large.jpg 1600w, /images/h1/h1-medium.jpg 1200w, /images/h1/h1-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/h1/h1-large.avif 1600w, /images/h1/h1-medium.avif 1200w, /images/h1/h1-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/h1/h1-large.webp 1600w, /images/h1/h1-medium.webp 1200w, /images/h1/h1-small.webp 800w\" />"
+    ],
+    "fallback": "h1-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:40:25.067Z"
+}

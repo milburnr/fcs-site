@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Building-Plans-for-Businesses.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Plans-for-Businesses.jpg",
+    "alt": "Building Plans for Businesses",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning meeting with blueprints",
+      "materials": [
+        "architectural plans",
+        "blueprints"
+      ],
+      "activity": "planning",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "measuring tape",
+        "hard hat",
+        "drafting tools",
+        "highlighters",
+        "pens"
+      ],
+      "weather": "indoor",
+      "perspective": "close-up",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprint-review",
+      "project-consultation",
+      "roofing-design",
+      "contractor-meeting",
+      "architectural-plans",
+      "teamwork",
+      "planning-phase"
+    ],
+    "altText": "Roofing contractors reviewing architectural blueprints during project planning meeting",
+    "recommendations": [
+      "Soft focus on blueprints reduces technical detail visibility",
+      "Good for illustrating consultation and planning services",
+      "Works well for 'Our Process' or 'Planning Phase' content sections",
+      "Consider sharper focus on blueprint details for technical documentation",
+      "Effective for conveying professionalism and collaborative approach"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-plans-for-businesses-display.avif",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-display.avif",
+      "fileSize": 30801
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-plans-for-businesses-display.webp",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-display.webp",
+      "fileSize": 24906
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-plans-for-businesses-display.jpg",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-display.jpg",
+      "fileSize": 35823
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-plans-for-businesses-grid.avif",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-grid.avif",
+      "fileSize": 36964
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-plans-for-businesses-grid.webp",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-grid.webp",
+      "fileSize": 23950
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-plans-for-businesses-grid.jpg",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-grid.jpg",
+      "fileSize": 39729
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-plans-for-businesses-thumbnail.avif",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-thumbnail.avif",
+      "fileSize": 22905
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-plans-for-businesses-thumbnail.webp",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-thumbnail.webp",
+      "fileSize": 14492
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-plans-for-businesses-thumbnail.jpg",
+      "path": "output/fcs-optimized/building-plans-for-businesses/building-plans-for-businesses-thumbnail.jpg",
+      "fileSize": 22625
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/building-plans-for-businesses/building-plans-for-businesses-display.avif 1200w, /images/building-plans-for-businesses/building-plans-for-businesses-grid.avif 600w, /images/building-plans-for-businesses/building-plans-for-businesses-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/building-plans-for-businesses/building-plans-for-businesses-display.webp 1200w, /images/building-plans-for-businesses/building-plans-for-businesses-grid.webp 600w, /images/building-plans-for-businesses/building-plans-for-businesses-thumbnail.webp 400w\" />\n  <img src=\"/images/building-plans-for-businesses/building-plans-for-businesses-grid.jpg\"\n       srcset=\"/images/building-plans-for-businesses/building-plans-for-businesses-display.jpg 1200w, /images/building-plans-for-businesses/building-plans-for-businesses-grid.jpg 600w, /images/building-plans-for-businesses/building-plans-for-businesses-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/building-plans-for-businesses/building-plans-for-businesses-display.avif 1200w, /images/building-plans-for-businesses/building-plans-for-businesses-grid.avif 600w, /images/building-plans-for-businesses/building-plans-for-businesses-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/building-plans-for-businesses/building-plans-for-businesses-display.webp 1200w, /images/building-plans-for-businesses/building-plans-for-businesses-grid.webp 600w, /images/building-plans-for-businesses/building-plans-for-businesses-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "building-plans-for-businesses-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:31.026Z"
+}

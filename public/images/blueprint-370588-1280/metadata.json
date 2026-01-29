@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/blueprint-370588_1280.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/blueprint-370588_1280.jpg",
+    "alt": "blueprint 370588",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Architectural blueprints and drafting tools",
+      "materials": [
+        "paper blueprints",
+        "architectural plans"
+      ],
+      "activity": "planning",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "drafting triangle",
+        "measuring ruler",
+        "drafting tools"
+      ],
+      "weather": "indoor",
+      "perspective": "overhead close-up",
+      "timeOfDay": "indoor lighting"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "architectural-plans",
+      "blueprint-design",
+      "roofing-plans",
+      "project-planning",
+      "submittal-documents",
+      "drafting-tools",
+      "technical-drawings",
+      "commercial-planning"
+    ],
+    "altText": "Architectural blueprints with drafting tools for roofing project planning",
+    "recommendations": [
+      "Good for showcasing professional planning and design services",
+      "Ideal for 'Our Process' or 'Planning Phase' sections of website",
+      "Works well for blog posts about proper project documentation",
+      "Consider pairing with actual roofing project photos to show planning-to-completion workflow",
+      "The 'SUBMITTAL' stamp adds authenticity and professional credibility"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "blueprint-370588-1280-large.avif",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-large.avif",
+      "fileSize": 149249
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "blueprint-370588-1280-large.webp",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-large.webp",
+      "fileSize": 103072
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "blueprint-370588-1280-large.jpg",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-large.jpg",
+      "fileSize": 165697
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "blueprint-370588-1280-medium.avif",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-medium.avif",
+      "fileSize": 130489
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "blueprint-370588-1280-medium.webp",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-medium.webp",
+      "fileSize": 88578
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "blueprint-370588-1280-medium.jpg",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-medium.jpg",
+      "fileSize": 136131
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "blueprint-370588-1280-small.avif",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-small.avif",
+      "fileSize": 65452
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "blueprint-370588-1280-small.webp",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-small.webp",
+      "fileSize": 44372
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "blueprint-370588-1280-small.jpg",
+      "path": "output/fcs-optimized/blueprint-370588-1280/blueprint-370588-1280-small.jpg",
+      "fileSize": 65923
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/blueprint-370588-1280/blueprint-370588-1280-large.avif 1600w, /images/blueprint-370588-1280/blueprint-370588-1280-medium.avif 1200w, /images/blueprint-370588-1280/blueprint-370588-1280-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/blueprint-370588-1280/blueprint-370588-1280-large.webp 1600w, /images/blueprint-370588-1280/blueprint-370588-1280-medium.webp 1200w, /images/blueprint-370588-1280/blueprint-370588-1280-small.webp 800w\" />\n  <img src=\"/images/blueprint-370588-1280/blueprint-370588-1280-medium.jpg\"\n       srcset=\"/images/blueprint-370588-1280/blueprint-370588-1280-large.jpg 1600w, /images/blueprint-370588-1280/blueprint-370588-1280-medium.jpg 1200w, /images/blueprint-370588-1280/blueprint-370588-1280-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/blueprint-370588-1280/blueprint-370588-1280-large.avif 1600w, /images/blueprint-370588-1280/blueprint-370588-1280-medium.avif 1200w, /images/blueprint-370588-1280/blueprint-370588-1280-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/blueprint-370588-1280/blueprint-370588-1280-large.webp 1600w, /images/blueprint-370588-1280/blueprint-370588-1280-medium.webp 1200w, /images/blueprint-370588-1280/blueprint-370588-1280-small.webp 800w\" />"
+    ],
+    "fallback": "blueprint-370588-1280-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:25:36.299Z"
+}

@@ -1,0 +1,155 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/56f.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/56f.jpeg",
+    "alt": "56f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 90,
+      "exposure": 85,
+      "composition": 88,
+      "lighting": 87,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Water damage restoration crew in flooded commercial facility",
+      "materials": [
+        "water damage",
+        "industrial equipment",
+        "blue tanks/filtration"
+      ],
+      "activity": "water extraction and flood remediation",
+      "damageType": "water damage",
+      "people": true,
+      "equipment": [
+        "water extraction hoses",
+        "pumps",
+        "safety harnesses",
+        "industrial tanks",
+        "filtration systems"
+      ],
+      "weather": "indoor",
+      "perspective": "ground level",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "water-damage-restoration",
+      "flood-cleanup",
+      "commercial-water-damage",
+      "hazmat-suits",
+      "emergency-response",
+      "water-extraction",
+      "professional-remediation",
+      "safety-equipment"
+    ],
+    "altText": "Water damage restoration team in hazmat suits extracting flood water from commercial facility",
+    "recommendations": [
+      "Excellent documentation of professional emergency response",
+      "Strong visual showing proper safety protocols with hazmat suits",
+      "Good lighting showcases professional equipment and team coordination",
+      "Ideal for emergency services, water damage, or restoration service pages",
+      "Demonstrates serious commercial-scale damage response capability"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "56f-large.avif",
+      "path": "output/fcs-optimized/56f/56f-large.avif",
+      "fileSize": 131555
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "56f-large.webp",
+      "path": "output/fcs-optimized/56f/56f-large.webp",
+      "fileSize": 117754
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "56f-large.jpg",
+      "path": "output/fcs-optimized/56f/56f-large.jpg",
+      "fileSize": 148392
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "56f-medium.avif",
+      "path": "output/fcs-optimized/56f/56f-medium.avif",
+      "fileSize": 146361
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "56f-medium.webp",
+      "path": "output/fcs-optimized/56f/56f-medium.webp",
+      "fileSize": 101762
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "56f-medium.jpg",
+      "path": "output/fcs-optimized/56f/56f-medium.jpg",
+      "fileSize": 149829
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "56f-small.avif",
+      "path": "output/fcs-optimized/56f/56f-small.avif",
+      "fileSize": 85178
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "56f-small.webp",
+      "path": "output/fcs-optimized/56f/56f-small.webp",
+      "fileSize": 58282
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "56f-small.jpg",
+      "path": "output/fcs-optimized/56f/56f-small.jpg",
+      "fileSize": 80331
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/56f/56f-large.avif 1600w, /images/56f/56f-medium.avif 1200w, /images/56f/56f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/56f/56f-large.webp 1600w, /images/56f/56f-medium.webp 1200w, /images/56f/56f-small.webp 800w\" />\n  <img src=\"/images/56f/56f-medium.jpg\"\n       srcset=\"/images/56f/56f-large.jpg 1600w, /images/56f/56f-medium.jpg 1200w, /images/56f/56f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/56f/56f-large.avif 1600w, /images/56f/56f-medium.avif 1200w, /images/56f/56f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/56f/56f-large.webp 1600w, /images/56f/56f-medium.webp 1200w, /images/56f/56f-small.webp 800w\" />"
+    ],
+    "fallback": "56f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:35:48.399Z"
+}

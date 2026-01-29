@@ -1,0 +1,153 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/hurricane-restoration.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/hurricane-restoration.jpg",
+    "alt": "hurricane restoration",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 78,
+      "composition": 70,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Severe tornado damage to residential structures",
+      "materials": [
+        "wood framing",
+        "roofing debris",
+        "metal panels",
+        "insulation"
+      ],
+      "activity": "damage assessment",
+      "damageType": "severe wind damage - tornado",
+      "people": false,
+      "equipment": [
+        "American flag"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "tornado-damage",
+      "severe-wind-damage",
+      "residential-destruction",
+      "storm-damage",
+      "total-loss",
+      "disaster-recovery",
+      "emergency-roofing",
+      "insurance-claim",
+      "debris-field"
+    ],
+    "altText": "Tornado-damaged homes with destroyed roofs and scattered debris across residential property",
+    "recommendations": [
+      "Good documentation of severe storm damage for insurance/restoration marketing",
+      "Useful for emergency response and disaster recovery service pages",
+      "Consider pairing with before/after reconstruction images",
+      "Strong image for storm damage insurance claim documentation services",
+      "Could be used in educational content about storm preparation and emergency services"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-restoration-display.avif",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-display.avif",
+      "fileSize": 307417
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-restoration-display.webp",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-display.webp",
+      "fileSize": 212618
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "hurricane-restoration-display.jpg",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-display.jpg",
+      "fileSize": 262991
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-restoration-grid.avif",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-grid.avif",
+      "fileSize": 111265
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-restoration-grid.webp",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-grid.webp",
+      "fileSize": 71298
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "hurricane-restoration-grid.jpg",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-grid.jpg",
+      "fileSize": 80308
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-restoration-thumbnail.avif",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-thumbnail.avif",
+      "fileSize": 55463
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-restoration-thumbnail.webp",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-thumbnail.webp",
+      "fileSize": 33226
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "hurricane-restoration-thumbnail.jpg",
+      "path": "output/fcs-optimized/hurricane-restoration/hurricane-restoration-thumbnail.jpg",
+      "fileSize": 38379
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/hurricane-restoration/hurricane-restoration-display.avif 1200w, /images/hurricane-restoration/hurricane-restoration-grid.avif 600w, /images/hurricane-restoration/hurricane-restoration-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/hurricane-restoration/hurricane-restoration-display.webp 1200w, /images/hurricane-restoration/hurricane-restoration-grid.webp 600w, /images/hurricane-restoration/hurricane-restoration-thumbnail.webp 400w\" />\n  <img src=\"/images/hurricane-restoration/hurricane-restoration-grid.jpg\"\n       srcset=\"/images/hurricane-restoration/hurricane-restoration-display.jpg 1200w, /images/hurricane-restoration/hurricane-restoration-grid.jpg 600w, /images/hurricane-restoration/hurricane-restoration-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/hurricane-restoration/hurricane-restoration-display.avif 1200w, /images/hurricane-restoration/hurricane-restoration-grid.avif 600w, /images/hurricane-restoration/hurricane-restoration-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/hurricane-restoration/hurricane-restoration-display.webp 1200w, /images/hurricane-restoration/hurricane-restoration-grid.webp 600w, /images/hurricane-restoration/hurricane-restoration-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "hurricane-restoration-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:56.904Z"
+}

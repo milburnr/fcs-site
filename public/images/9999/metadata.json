@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/9999.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/9999.jpg",
+    "alt": "Commercial construction site with multiple tower cranes at sunset",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 60,
+      "composition": 75,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site with tower cranes",
+      "materials": [],
+      "activity": "construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "tower cranes",
+        "excavator"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "late afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-site",
+      "tower-cranes",
+      "commercial-construction",
+      "development",
+      "new-construction",
+      "building-project",
+      "sunset",
+      "excavation"
+    ],
+    "altText": "Commercial construction site with multiple tower cranes at sunset",
+    "recommendations": [
+      "Exposure issues - sun flare causing blown out highlights on right side",
+      "Soft focus throughout - could benefit from sharper image quality",
+      "Not roofing-specific - shows general construction, no visible roofing work",
+      "Better suited for general construction marketing rather than roofing contractor portfolio",
+      "Composition is decent but technical quality limits hero image potential"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "9999-display.avif",
+      "path": "output/fcs-optimized/9999/9999-display.avif",
+      "fileSize": 42007
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "9999-display.webp",
+      "path": "output/fcs-optimized/9999/9999-display.webp",
+      "fileSize": 35290
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "9999-display.jpg",
+      "path": "output/fcs-optimized/9999/9999-display.jpg",
+      "fileSize": 41020
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "9999-grid.avif",
+      "path": "output/fcs-optimized/9999/9999-grid.avif",
+      "fileSize": 60955
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "9999-grid.webp",
+      "path": "output/fcs-optimized/9999/9999-grid.webp",
+      "fileSize": 33812
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "9999-grid.jpg",
+      "path": "output/fcs-optimized/9999/9999-grid.jpg",
+      "fileSize": 44982
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "9999-thumbnail.avif",
+      "path": "output/fcs-optimized/9999/9999-thumbnail.avif",
+      "fileSize": 32517
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "9999-thumbnail.webp",
+      "path": "output/fcs-optimized/9999/9999-thumbnail.webp",
+      "fileSize": 17596
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "9999-thumbnail.jpg",
+      "path": "output/fcs-optimized/9999/9999-thumbnail.jpg",
+      "fileSize": 22585
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/9999/9999-display.avif 1200w, /images/9999/9999-grid.avif 600w, /images/9999/9999-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/9999/9999-display.webp 1200w, /images/9999/9999-grid.webp 600w, /images/9999/9999-thumbnail.webp 400w\" />\n  <img src=\"/images/9999/9999-grid.jpg\"\n       srcset=\"/images/9999/9999-display.jpg 1200w, /images/9999/9999-grid.jpg 600w, /images/9999/9999-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/9999/9999-display.avif 1200w, /images/9999/9999-grid.avif 600w, /images/9999/9999-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/9999/9999-display.webp 1200w, /images/9999/9999-grid.webp 600w, /images/9999/9999-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "9999-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:27.408Z"
+}

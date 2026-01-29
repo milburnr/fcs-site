@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Commercial-Construction-in-Tampa.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Commercial-Construction-in-Tampa.jpg",
+    "alt": "Commercial Construction in Tampa",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 78,
+      "composition": 70,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction site team meeting with cranes",
+      "materials": [],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "gantry crane",
+        "tower crane",
+        "truck"
+      ],
+      "weather": "overcast",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-team",
+      "safety-meeting",
+      "project-consultation",
+      "safety-gear",
+      "commercial-construction",
+      "site-inspection",
+      "teamwork",
+      "hard-hats"
+    ],
+    "altText": "Three construction professionals in safety gear discussing project at industrial site with cranes",
+    "recommendations": [
+      "Image shows general construction site, not roofing-specific work",
+      "Good for 'team consultation' or 'project planning' content sections",
+      "Strong diversity representation - good for company culture pages",
+      "Background industrial equipment not roofing-related (gantry/tower cranes)",
+      "Better suited for general construction marketing than roofing portfolio",
+      "Consider using for 'About Us' or 'Our Team' sections rather than technical roofing galleries"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-in-tampa-display.avif",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-display.avif",
+      "fileSize": 50505
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-in-tampa-display.webp",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp",
+      "fileSize": 42386
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-construction-in-tampa-display.jpg",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-display.jpg",
+      "fileSize": 51639
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-in-tampa-grid.avif",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.avif",
+      "fileSize": 71362
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-in-tampa-grid.webp",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.webp",
+      "fileSize": 40764
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-construction-in-tampa-grid.jpg",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.jpg",
+      "fileSize": 55996
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-in-tampa-thumbnail.avif",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.avif",
+      "fileSize": 43055
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-in-tampa-thumbnail.webp",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.webp",
+      "fileSize": 23954
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-construction-in-tampa-thumbnail.jpg",
+      "path": "output/fcs-optimized/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.jpg",
+      "fileSize": 31692
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.avif 1200w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.avif 600w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp 1200w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.webp 600w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.webp 400w\" />\n  <img src=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.jpg\"\n       srcset=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.jpg 1200w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.jpg 600w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.avif 1200w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.avif 600w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp 1200w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-grid.webp 600w, /images/commercial-construction-in-tampa/commercial-construction-in-tampa-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "commercial-construction-in-tampa-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:39.147Z"
+}

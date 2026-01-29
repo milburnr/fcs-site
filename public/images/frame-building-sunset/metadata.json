@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/frame-building-sunset.jpeg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/frame-building-sunset.jpeg",
+    "alt": "frame building sunset",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 70,
+      "exposure": 60,
+      "composition": 85,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction worker silhouette on structural framework",
+      "materials": [
+        "wood framing",
+        "metal railings",
+        "construction lumber"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hammer",
+        "safety railings",
+        "scaffolding"
+      ],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "evening"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-worker",
+      "silhouette-photography",
+      "residential-framing",
+      "sunset-construction",
+      "roof-framing",
+      "building-structure",
+      "contractor-work",
+      "evening-work"
+    ],
+    "altText": "Construction worker silhouette hammering on roof framing at sunset",
+    "recommendations": [
+      "Strong artistic composition - excellent for hero imagery and branding",
+      "Silhouette creates dramatic effect - good for marketing materials",
+      "Consider brightening slightly to show more structural detail",
+      "Perfect for 'hard work' or 'dedication' messaging in campaigns"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "frame-building-sunset-large.avif",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-large.avif",
+      "fileSize": 70641
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "frame-building-sunset-large.webp",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-large.webp",
+      "fileSize": 57900
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "frame-building-sunset-large.jpg",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-large.jpg",
+      "fileSize": 128517
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "frame-building-sunset-medium.avif",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-medium.avif",
+      "fileSize": 50536
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "frame-building-sunset-medium.webp",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-medium.webp",
+      "fileSize": 41488
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "frame-building-sunset-medium.jpg",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-medium.jpg",
+      "fileSize": 86059
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "frame-building-sunset-small.avif",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-small.avif",
+      "fileSize": 31112
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "frame-building-sunset-small.webp",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-small.webp",
+      "fileSize": 25190
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "frame-building-sunset-small.jpg",
+      "path": "output/fcs-optimized/frame-building-sunset/frame-building-sunset-small.jpg",
+      "fileSize": 48040
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/frame-building-sunset/frame-building-sunset-large.avif 1600w, /images/frame-building-sunset/frame-building-sunset-medium.avif 1200w, /images/frame-building-sunset/frame-building-sunset-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/frame-building-sunset/frame-building-sunset-large.webp 1600w, /images/frame-building-sunset/frame-building-sunset-medium.webp 1200w, /images/frame-building-sunset/frame-building-sunset-small.webp 800w\" />\n  <img src=\"/images/frame-building-sunset/frame-building-sunset-medium.jpg\"\n       srcset=\"/images/frame-building-sunset/frame-building-sunset-large.jpg 1600w, /images/frame-building-sunset/frame-building-sunset-medium.jpg 1200w, /images/frame-building-sunset/frame-building-sunset-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/frame-building-sunset/frame-building-sunset-large.avif 1600w, /images/frame-building-sunset/frame-building-sunset-medium.avif 1200w, /images/frame-building-sunset/frame-building-sunset-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/frame-building-sunset/frame-building-sunset-large.webp 1600w, /images/frame-building-sunset/frame-building-sunset-medium.webp 1200w, /images/frame-building-sunset/frame-building-sunset-small.webp 800w\" />"
+    ],
+    "fallback": "frame-building-sunset-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:28:05.104Z"
+}

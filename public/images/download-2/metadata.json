@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-2.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-2.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic Romanesque Revival stone church with slate roofing",
+      "materials": [
+        "slate",
+        "stone masonry",
+        "copper flashing",
+        "architectural shingles"
+      ],
+      "activity": "exterior reference documentation",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "slate-roofing",
+      "historic-building",
+      "stone-architecture",
+      "church-roofing",
+      "commercial-roofing",
+      "romanesque-architecture",
+      "multi-gable-roof",
+      "specialty-roofing"
+    ],
+    "altText": "Historic stone church with slate roof and multiple gables in commercial district",
+    "recommendations": [
+      "Image shows historic architecture - useful for specialty roofing portfolio",
+      "Multiple roof planes and towers demonstrate complex roofing systems",
+      "Could benefit from better lighting conditions for hero use",
+      "Good reference for slate roofing and historic preservation projects"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-2-display.avif",
+      "path": "output/fcs-optimized/download-2/download-2-display.avif",
+      "fileSize": 18417
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-2-display.webp",
+      "path": "output/fcs-optimized/download-2/download-2-display.webp",
+      "fileSize": 18666
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-2-display.jpg",
+      "path": "output/fcs-optimized/download-2/download-2-display.jpg",
+      "fileSize": 17370
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-2-grid.avif",
+      "path": "output/fcs-optimized/download-2/download-2-grid.avif",
+      "fileSize": 52252
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-2-grid.webp",
+      "path": "output/fcs-optimized/download-2/download-2-grid.webp",
+      "fileSize": 45652
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "download-2-grid.jpg",
+      "path": "output/fcs-optimized/download-2/download-2-grid.jpg",
+      "fileSize": 61247
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-2-thumbnail.avif",
+      "path": "output/fcs-optimized/download-2/download-2-thumbnail.avif",
+      "fileSize": 39201
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-2-thumbnail.webp",
+      "path": "output/fcs-optimized/download-2/download-2-thumbnail.webp",
+      "fileSize": 30464
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "download-2-thumbnail.jpg",
+      "path": "output/fcs-optimized/download-2/download-2-thumbnail.jpg",
+      "fileSize": 36186
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-2/download-2-display.avif 1200w, /images/download-2/download-2-grid.avif 600w, /images/download-2/download-2-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-2/download-2-display.webp 1200w, /images/download-2/download-2-grid.webp 600w, /images/download-2/download-2-thumbnail.webp 400w\" />\n  <img src=\"/images/download-2/download-2-grid.jpg\"\n       srcset=\"/images/download-2/download-2-display.jpg 1200w, /images/download-2/download-2-grid.jpg 600w, /images/download-2/download-2-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-2/download-2-display.avif 1200w, /images/download-2/download-2-grid.avif 600w, /images/download-2/download-2-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-2/download-2-display.webp 1200w, /images/download-2/download-2-grid.webp 600w, /images/download-2/download-2-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "download-2-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:05.743Z"
+}

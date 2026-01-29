@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/commercial-remodeling-contractors.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/commercial-remodeling-contractors.jpg",
+    "alt": "commercial remodeling contractors",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 68,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning meeting with architect and contractor",
+      "materials": [
+        "blueprints",
+        "architectural plans",
+        "construction documents"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "hard hats",
+        "safety helmet",
+        "blueprints",
+        "measuring tools",
+        "tablet"
+      ],
+      "weather": "indoor",
+      "perspective": "elevated",
+      "timeOfDay": "indeterminate"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "construction-planning",
+      "blueprint-review",
+      "contractor-meeting",
+      "safety-gear",
+      "renovation-project",
+      "project-consultation",
+      "commercial-residential",
+      "hardhat"
+    ],
+    "altText": "Contractor and architect reviewing blueprints at construction site wearing safety helmets",
+    "recommendations": [
+      "Warm indoor lighting creates slight color cast - consider color correction",
+      "Good for consultation/planning content sections",
+      "Shows professional collaboration and safety compliance",
+      "Not roof-specific but useful for general contractor marketing"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-remodeling-contractors-display.avif",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-display.avif",
+      "fileSize": 40400
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-remodeling-contractors-display.webp",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-display.webp",
+      "fileSize": 35236
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "commercial-remodeling-contractors-display.jpg",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-display.jpg",
+      "fileSize": 44932
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-remodeling-contractors-grid.avif",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.avif",
+      "fileSize": 52477
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-remodeling-contractors-grid.webp",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.webp",
+      "fileSize": 33130
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "commercial-remodeling-contractors-grid.jpg",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.jpg",
+      "fileSize": 49171
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-remodeling-contractors-thumbnail.avif",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.avif",
+      "fileSize": 31283
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-remodeling-contractors-thumbnail.webp",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.webp",
+      "fileSize": 19084
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "commercial-remodeling-contractors-thumbnail.jpg",
+      "path": "output/fcs-optimized/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.jpg",
+      "fileSize": 27296
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-display.avif 1200w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.avif 600w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-display.webp 1200w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.webp 600w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.webp 400w\" />\n  <img src=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.jpg\"\n       srcset=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-display.jpg 1200w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.jpg 600w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-display.avif 1200w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.avif 600w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/commercial-remodeling-contractors/commercial-remodeling-contractors-display.webp 1200w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-grid.webp 600w, /images/commercial-remodeling-contractors/commercial-remodeling-contractors-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "commercial-remodeling-contractors-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:38:56.449Z"
+}

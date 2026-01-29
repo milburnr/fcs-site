@@ -1,0 +1,150 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/new-home-1664272_1280.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/new-home-1664272_1280.jpg",
+    "alt": "new home 1664272",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 70,
+      "lighting": 65,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Wood frame construction site in early phase",
+      "materials": [
+        "plywood sheathing",
+        "dimensional lumber",
+        "OSB panels"
+      ],
+      "activity": "framing construction",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "lumber bundles",
+        "blue dumpster"
+      ],
+      "weather": "cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "wood-framing",
+      "new-construction",
+      "residential-construction",
+      "construction-site",
+      "pre-roofing-phase",
+      "lumber-materials",
+      "building-progress"
+    ],
+    "altText": "Wood frame residential construction site showing walls and materials before roofing installation",
+    "recommendations": [
+      "Image shows pre-roofing construction phase - good for project timeline documentation",
+      "Could be used to illustrate new construction roofing services",
+      "Flat lighting reduces visual impact - best for gallery or inline use rather than hero",
+      "Shows organized materials staging - useful for project management context"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-display.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-display.avif",
+      "fileSize": 337396
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-display.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-display.webp",
+      "fileSize": 233364
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "new-home-1664272-1280-display.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-display.jpg",
+      "fileSize": 273818
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-grid.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-grid.avif",
+      "fileSize": 106658
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-grid.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-grid.webp",
+      "fileSize": 66132
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "new-home-1664272-1280-grid.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-grid.jpg",
+      "fileSize": 75625
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-thumbnail.avif",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-thumbnail.avif",
+      "fileSize": 56171
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-thumbnail.webp",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-thumbnail.webp",
+      "fileSize": 29736
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "new-home-1664272-1280-thumbnail.jpg",
+      "path": "output/fcs-optimized/new-home-1664272-1280/new-home-1664272-1280-thumbnail.jpg",
+      "fileSize": 34679
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/new-home-1664272-1280/new-home-1664272-1280-display.avif 1200w, /images/new-home-1664272-1280/new-home-1664272-1280-grid.avif 600w, /images/new-home-1664272-1280/new-home-1664272-1280-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/new-home-1664272-1280/new-home-1664272-1280-display.webp 1200w, /images/new-home-1664272-1280/new-home-1664272-1280-grid.webp 600w, /images/new-home-1664272-1280/new-home-1664272-1280-thumbnail.webp 400w\" />\n  <img src=\"/images/new-home-1664272-1280/new-home-1664272-1280-grid.jpg\"\n       srcset=\"/images/new-home-1664272-1280/new-home-1664272-1280-display.jpg 1200w, /images/new-home-1664272-1280/new-home-1664272-1280-grid.jpg 600w, /images/new-home-1664272-1280/new-home-1664272-1280-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/new-home-1664272-1280/new-home-1664272-1280-display.avif 1200w, /images/new-home-1664272-1280/new-home-1664272-1280-grid.avif 600w, /images/new-home-1664272-1280/new-home-1664272-1280-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/new-home-1664272-1280/new-home-1664272-1280-display.webp 1200w, /images/new-home-1664272-1280/new-home-1664272-1280-grid.webp 600w, /images/new-home-1664272-1280/new-home-1664272-1280-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "new-home-1664272-1280-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:31:14.117Z"
+}

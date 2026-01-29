@@ -130,7 +130,7 @@ export default function ResidentialConstructionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/custom-home-1.png"
+            src="/images/custom-home-1/custom-home-1-large.webp"
             alt="Luxury custom home construction in Tampa Bay"
             fill
             className="object-cover"
@@ -244,7 +244,7 @@ export default function ResidentialConstructionPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Custom-home-2.jpg"
+                src="/images/custom-home-2/custom-home-2-large.webp"
                 alt="Elevated coastal home with dark gray asphalt shingle roof and white siding on stilts"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

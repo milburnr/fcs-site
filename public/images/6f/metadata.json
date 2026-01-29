@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/6f.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/6f.jpg",
+    "alt": "6f",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Two-story residential home with asphalt shingle roof",
+      "materials": [
+        "asphalt shingles",
+        "vertical siding",
+        "stone veneer"
+      ],
+      "activity": "showcase",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-roofing",
+      "asphalt-shingles",
+      "new-construction",
+      "two-story-home",
+      "modern-architecture",
+      "completed-project",
+      "curb-appeal",
+      "gable-roof"
+    ],
+    "altText": "Modern two-story home with new asphalt shingle roof and attached garage",
+    "recommendations": [
+      "Excellent clarity and professional presentation - ideal for hero image",
+      "Perfect for residential portfolio and marketing materials",
+      "Great example of completed roofing project with strong curb appeal",
+      "Ideal for website homepage or project gallery showcase"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "6f-large.avif",
+      "path": "output/fcs-optimized/6f/6f-large.avif",
+      "fileSize": 14329
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "6f-large.webp",
+      "path": "output/fcs-optimized/6f/6f-large.webp",
+      "fileSize": 14262
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "6f-large.jpg",
+      "path": "output/fcs-optimized/6f/6f-large.jpg",
+      "fileSize": 13988
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "6f-medium.avif",
+      "path": "output/fcs-optimized/6f/6f-medium.avif",
+      "fileSize": 14329
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "6f-medium.webp",
+      "path": "output/fcs-optimized/6f/6f-medium.webp",
+      "fileSize": 14262
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "6f-medium.jpg",
+      "path": "output/fcs-optimized/6f/6f-medium.jpg",
+      "fileSize": 13988
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "6f-small.avif",
+      "path": "output/fcs-optimized/6f/6f-small.avif",
+      "fileSize": 14329
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "6f-small.webp",
+      "path": "output/fcs-optimized/6f/6f-small.webp",
+      "fileSize": 14262
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "6f-small.jpg",
+      "path": "output/fcs-optimized/6f/6f-small.jpg",
+      "fileSize": 13988
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/6f/6f-large.avif 1600w, /images/6f/6f-medium.avif 1200w, /images/6f/6f-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/6f/6f-large.webp 1600w, /images/6f/6f-medium.webp 1200w, /images/6f/6f-small.webp 800w\" />\n  <img src=\"/images/6f/6f-medium.jpg\"\n       srcset=\"/images/6f/6f-large.jpg 1600w, /images/6f/6f-medium.jpg 1200w, /images/6f/6f-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/6f/6f-large.avif 1600w, /images/6f/6f-medium.avif 1200w, /images/6f/6f-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/6f/6f-large.webp 1600w, /images/6f/6f-medium.webp 1200w, /images/6f/6f-small.webp 800w\" />"
+    ],
+    "fallback": "6f-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:17.040Z"
+}

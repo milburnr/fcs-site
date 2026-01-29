@@ -1,0 +1,152 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/facility-building-turner-agricivic-center-arcadia-fl.jpg",
+    "alt": "facility building turner agricivic center arcadia fl",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 80,
+      "exposure": 75,
+      "composition": 65,
+      "lighting": 70,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Commercial building with metal roof canopy",
+      "materials": [
+        "metal roofing",
+        "standing seam metal",
+        "metal panels"
+      ],
+      "activity": "inspection",
+      "damageType": null,
+      "people": false,
+      "equipment": [
+        "trucks",
+        "flagpole"
+      ],
+      "weather": "clear",
+      "perspective": "ground level",
+      "timeOfDay": "morning"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "metal-roof",
+      "standing-seam",
+      "commercial-building",
+      "green-metal-roof",
+      "covered-carport",
+      "commercial-property",
+      "metal-canopy",
+      "ground-level-view"
+    ],
+    "altText": "Green standing seam metal roof on commercial building covered parking structure",
+    "recommendations": [
+      "Image shows building exterior rather than roof detail - limited roofing technical value",
+      "Good for commercial property portfolio or before/after context",
+      "Consider closer shots of roof seams and panels for technical documentation",
+      "Reframe to emphasize roof structure and materials more prominently",
+      "Better suited for general commercial property work rather than roofing-specific marketing"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-display.avif",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.avif",
+      "fileSize": 222218
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-display.webp",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp",
+      "fileSize": 150406
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-display.jpg",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.jpg",
+      "fileSize": 195205
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-grid.avif",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.avif",
+      "fileSize": 55151
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-grid.webp",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.webp",
+      "fileSize": 38746
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-grid.jpg",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.jpg",
+      "fileSize": 51194
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-thumbnail.avif",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.avif",
+      "fileSize": 25883
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-thumbnail.webp",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.webp",
+      "fileSize": 17766
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "facility-building-turner-agricivic-center-arcadia-fl-thumbnail.jpg",
+      "path": "output/fcs-optimized/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.jpg",
+      "fileSize": 24205
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.avif 1200w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.avif 600w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp 1200w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.webp 600w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.webp 400w\" />\n  <img src=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.jpg\"\n       srcset=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.jpg 1200w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.jpg 600w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.avif 1200w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.avif 600w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp 1200w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-grid.webp 600w, /images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "facility-building-turner-agricivic-center-arcadia-fl-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:27:58.210Z"
+}

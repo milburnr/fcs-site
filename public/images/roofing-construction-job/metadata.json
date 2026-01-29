@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/roofing-construction-job.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/roofing-construction-job.jpg",
+    "alt": "roofing construction job",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 88,
+      "focus": 92,
+      "exposure": 90,
+      "composition": 85,
+      "lighting": 88,
+      "marketingValue": "high"
+    },
+    "content": {
+      "subject": "Roofer working on tile roof installation",
+      "materials": [
+        "tile roofing",
+        "clay tiles",
+        "roof decking"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "scaffolding",
+        "tool belt",
+        "safety equipment"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": true,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "tile-roofing",
+      "roof-installation",
+      "roofing-contractor",
+      "residential-roofing",
+      "professional-roofer",
+      "safety-equipment",
+      "scaffolding",
+      "hero-quality",
+      "craftsman"
+    ],
+    "altText": "Professional roofer installing tile roof with tool belt and scaffolding on sunny day",
+    "recommendations": [
+      "Excellent hero image - shows professionalism and craftsmanship",
+      "Strong composition with worker, materials, and sky creating visual interest",
+      "Good showcase of safety practices with tool belt and proper equipment",
+      "Perfect for homepage, about us, or residential roofing services pages",
+      "Consider for marketing materials highlighting quality workmanship"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "roofing-construction-job-large.avif",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-large.avif",
+      "fileSize": 113287
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "roofing-construction-job-large.webp",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-large.webp",
+      "fileSize": 93192
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "roofing-construction-job-large.jpg",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-large.jpg",
+      "fileSize": 128736
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "roofing-construction-job-medium.avif",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-medium.avif",
+      "fileSize": 113287
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "roofing-construction-job-medium.webp",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-medium.webp",
+      "fileSize": 93192
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "roofing-construction-job-medium.jpg",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-medium.jpg",
+      "fileSize": 128736
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "roofing-construction-job-small.avif",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-small.avif",
+      "fileSize": 89766
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "roofing-construction-job-small.webp",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-small.webp",
+      "fileSize": 60802
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "roofing-construction-job-small.jpg",
+      "path": "output/fcs-optimized/roofing-construction-job/roofing-construction-job-small.jpg",
+      "fileSize": 87779
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/roofing-construction-job/roofing-construction-job-large.avif 1600w, /images/roofing-construction-job/roofing-construction-job-medium.avif 1200w, /images/roofing-construction-job/roofing-construction-job-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/roofing-construction-job/roofing-construction-job-large.webp 1600w, /images/roofing-construction-job/roofing-construction-job-medium.webp 1200w, /images/roofing-construction-job/roofing-construction-job-small.webp 800w\" />\n  <img src=\"/images/roofing-construction-job/roofing-construction-job-medium.jpg\"\n       srcset=\"/images/roofing-construction-job/roofing-construction-job-large.jpg 1600w, /images/roofing-construction-job/roofing-construction-job-medium.jpg 1200w, /images/roofing-construction-job/roofing-construction-job-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/roofing-construction-job/roofing-construction-job-large.avif 1600w, /images/roofing-construction-job/roofing-construction-job-medium.avif 1200w, /images/roofing-construction-job/roofing-construction-job-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/roofing-construction-job/roofing-construction-job-large.webp 1600w, /images/roofing-construction-job/roofing-construction-job-medium.webp 1200w, /images/roofing-construction-job/roofing-construction-job-small.webp 800w\" />"
+    ],
+    "fallback": "roofing-construction-job-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:28.729Z"
+}

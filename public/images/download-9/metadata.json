@@ -1,0 +1,151 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-9.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-9.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 78,
+      "focus": 82,
+      "exposure": 80,
+      "composition": 75,
+      "lighting": 78,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Modern commercial building with flat roof system",
+      "materials": [
+        "flat roofing system",
+        "commercial roofing membrane",
+        "metal coping"
+      ],
+      "activity": "completed project showcase",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "construction crane"
+      ],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "commercial-roofing",
+      "flat-roof",
+      "modern-building",
+      "completed-project",
+      "commercial-property",
+      "urban-development",
+      "flat-roof-system",
+      "commercial-construction"
+    ],
+    "altText": "Modern commercial building with flat roof system and facade in urban setting",
+    "recommendations": [
+      "Image shows completed building exterior rather than detailed roofing work",
+      "Best used for portfolio showcasing commercial project scope",
+      "Consider closer shots of actual roof surface for technical documentation",
+      "Good for demonstrating large-scale commercial capabilities",
+      "Roof details not clearly visible - supplement with aerial or close-up shots"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-9-large.avif",
+      "path": "output/fcs-optimized/download-9/download-9-large.avif",
+      "fileSize": 18723
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-9-large.webp",
+      "path": "output/fcs-optimized/download-9/download-9-large.webp",
+      "fileSize": 16276
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-9-large.jpg",
+      "path": "output/fcs-optimized/download-9/download-9-large.jpg",
+      "fileSize": 16543
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-9-medium.avif",
+      "path": "output/fcs-optimized/download-9/download-9-medium.avif",
+      "fileSize": 18723
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-9-medium.webp",
+      "path": "output/fcs-optimized/download-9/download-9-medium.webp",
+      "fileSize": 16276
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-9-medium.jpg",
+      "path": "output/fcs-optimized/download-9/download-9-medium.jpg",
+      "fileSize": 16543
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-9-small.avif",
+      "path": "output/fcs-optimized/download-9/download-9-small.avif",
+      "fileSize": 18723
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-9-small.webp",
+      "path": "output/fcs-optimized/download-9/download-9-small.webp",
+      "fileSize": 16276
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-9-small.jpg",
+      "path": "output/fcs-optimized/download-9/download-9-small.jpg",
+      "fileSize": 16543
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-9/download-9-large.avif 1600w, /images/download-9/download-9-medium.avif 1200w, /images/download-9/download-9-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-9/download-9-large.webp 1600w, /images/download-9/download-9-medium.webp 1200w, /images/download-9/download-9-small.webp 800w\" />\n  <img src=\"/images/download-9/download-9-medium.jpg\"\n       srcset=\"/images/download-9/download-9-large.jpg 1600w, /images/download-9/download-9-medium.jpg 1200w, /images/download-9/download-9-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-9/download-9-large.avif 1600w, /images/download-9/download-9-medium.avif 1200w, /images/download-9/download-9-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-9/download-9-large.webp 1600w, /images/download-9/download-9-medium.webp 1200w, /images/download-9/download-9-small.webp 800w\" />"
+    ],
+    "fallback": "download-9-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:09.693Z"
+}

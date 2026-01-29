@@ -1,0 +1,140 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/bIG-GRAPHIC.png",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/bIG-GRAPHIC.png",
+    "alt": "bIG GRAPHIC",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 0,
+      "focus": 0,
+      "exposure": 0,
+      "composition": 0,
+      "lighting": 0,
+      "marketingValue": "low"
+    },
+    "content": {
+      "subject": "blank or corrupted image",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "unknown",
+      "perspective": "none",
+      "timeOfDay": "unknown"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": false,
+      "archive": false
+    },
+    "tags": [
+      "blank-image",
+      "no-content",
+      "invalid-file",
+      "corrupted"
+    ],
+    "altText": "Blank or corrupted image file with no visible content",
+    "recommendations": [
+      "Image appears to be blank, corrupted, or failed to load properly",
+      "Please verify the image file and re-upload",
+      "Not usable for any marketing or documentation purposes",
+      "Check original source file for corruption or upload errors"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "big-graphic-display.avif",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-display.avif",
+      "fileSize": 21630
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "big-graphic-display.webp",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-display.webp",
+      "fileSize": 7586
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "big-graphic-display.jpg",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-display.jpg",
+      "fileSize": 58905
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "big-graphic-grid.avif",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-grid.avif",
+      "fileSize": 22700
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "big-graphic-grid.webp",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-grid.webp",
+      "fileSize": 26860
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "big-graphic-grid.jpg",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-grid.jpg",
+      "fileSize": 37895
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "big-graphic-thumbnail.avif",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-thumbnail.avif",
+      "fileSize": 15814
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "big-graphic-thumbnail.webp",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-thumbnail.webp",
+      "fileSize": 17768
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "big-graphic-thumbnail.jpg",
+      "path": "output/fcs-optimized/big-graphic/big-graphic-thumbnail.jpg",
+      "fileSize": 24459
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/big-graphic/big-graphic-display.avif 1200w, /images/big-graphic/big-graphic-grid.avif 600w, /images/big-graphic/big-graphic-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/big-graphic/big-graphic-display.webp 1200w, /images/big-graphic/big-graphic-grid.webp 600w, /images/big-graphic/big-graphic-thumbnail.webp 400w\" />\n  <img src=\"/images/big-graphic/big-graphic-grid.jpg\"\n       srcset=\"/images/big-graphic/big-graphic-display.jpg 1200w, /images/big-graphic/big-graphic-grid.jpg 600w, /images/big-graphic/big-graphic-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/big-graphic/big-graphic-display.avif 1200w, /images/big-graphic/big-graphic-grid.avif 600w, /images/big-graphic/big-graphic-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/big-graphic/big-graphic-display.webp 1200w, /images/big-graphic/big-graphic-grid.webp 600w, /images/big-graphic/big-graphic-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "big-graphic-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:25:30.737Z"
+}

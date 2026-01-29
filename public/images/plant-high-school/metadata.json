@@ -1,0 +1,148 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/plant-high-school.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/plant-high-school.webp",
+    "alt": "plant high school",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 80,
+      "composition": 70,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Historic school building with clay tile roof",
+      "materials": [
+        "clay tile",
+        "terracotta tile",
+        "brick"
+      ],
+      "activity": "architectural reference",
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "sunny",
+      "perspective": "ground level",
+      "timeOfDay": "afternoon"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "clay-tile-roof",
+      "terracotta-roofing",
+      "historic-building",
+      "spanish-style",
+      "commercial-property",
+      "brick-facade",
+      "palm-trees",
+      "henry-b-plant-school"
+    ],
+    "altText": "Historic school building featuring clay tile roof and Spanish Mediterranean architecture",
+    "recommendations": [
+      "Roof partially obscured by trees - consider closer angle for roofing detail",
+      "Good for historical restoration portfolio or tile roofing examples",
+      "Image shows full building context - crop tighter to emphasize roofing system",
+      "Useful for educational facility roofing projects showcase"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "plant-high-school-display.avif",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-display.avif",
+      "fileSize": 149137
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "plant-high-school-display.webp",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-display.webp",
+      "fileSize": 101376
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "plant-high-school-display.jpg",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-display.jpg",
+      "fileSize": 133572
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "plant-high-school-grid.avif",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-grid.avif",
+      "fileSize": 84183
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "plant-high-school-grid.webp",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-grid.webp",
+      "fileSize": 52210
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "plant-high-school-grid.jpg",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-grid.jpg",
+      "fileSize": 61421
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "plant-high-school-thumbnail.avif",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-thumbnail.avif",
+      "fileSize": 44277
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "plant-high-school-thumbnail.webp",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-thumbnail.webp",
+      "fileSize": 25652
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "plant-high-school-thumbnail.jpg",
+      "path": "output/fcs-optimized/plant-high-school/plant-high-school-thumbnail.jpg",
+      "fileSize": 30094
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/plant-high-school/plant-high-school-display.avif 1200w, /images/plant-high-school/plant-high-school-grid.avif 600w, /images/plant-high-school/plant-high-school-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/plant-high-school/plant-high-school-display.webp 1200w, /images/plant-high-school/plant-high-school-grid.webp 600w, /images/plant-high-school/plant-high-school-thumbnail.webp 400w\" />\n  <img src=\"/images/plant-high-school/plant-high-school-grid.jpg\"\n       srcset=\"/images/plant-high-school/plant-high-school-display.jpg 1200w, /images/plant-high-school/plant-high-school-grid.jpg 600w, /images/plant-high-school/plant-high-school-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/plant-high-school/plant-high-school-display.avif 1200w, /images/plant-high-school/plant-high-school-grid.avif 600w, /images/plant-high-school/plant-high-school-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/plant-high-school/plant-high-school-display.webp 1200w, /images/plant-high-school/plant-high-school-grid.webp 600w, /images/plant-high-school/plant-high-school-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "plant-high-school-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:03.993Z"
+}

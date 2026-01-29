@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/666.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/666.jpg",
+    "alt": "Roofing contractor reviewing blueprints and calculating project estimates at desk with safety helmet",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 75,
+      "exposure": 65,
+      "composition": 78,
+      "lighting": 60,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Construction planning and estimation workstation",
+      "materials": [],
+      "activity": "planning",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "safety helmet",
+        "calculator",
+        "laptop",
+        "blueprints"
+      ],
+      "weather": "indoor",
+      "perspective": "elevated close-up",
+      "timeOfDay": "daytime"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "roofing-contractor",
+      "project-planning",
+      "construction-estimation",
+      "blueprint-review",
+      "safety-helmet",
+      "office-work",
+      "contractor-services",
+      "project-consultation"
+    ],
+    "altText": "Roofing contractor reviewing blueprints and calculating project estimates at desk with safety helmet",
+    "recommendations": [
+      "Reduce overexposure from window light - softer lighting would improve quality",
+      "Good for website sections about free estimates, consultation, or planning services",
+      "Useful for showcasing professional planning process",
+      "Consider color grading to reduce harsh yellow tones from window light"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "666-display.avif",
+      "path": "output/fcs-optimized/666/666-display.avif",
+      "fileSize": 39062
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "666-display.webp",
+      "path": "output/fcs-optimized/666/666-display.webp",
+      "fileSize": 33348
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "666-display.jpg",
+      "path": "output/fcs-optimized/666/666-display.jpg",
+      "fileSize": 41685
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "666-grid.avif",
+      "path": "output/fcs-optimized/666/666-grid.avif",
+      "fileSize": 50994
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "666-grid.webp",
+      "path": "output/fcs-optimized/666/666-grid.webp",
+      "fileSize": 31424
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "666-grid.jpg",
+      "path": "output/fcs-optimized/666/666-grid.jpg",
+      "fileSize": 46079
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "666-thumbnail.avif",
+      "path": "output/fcs-optimized/666/666-thumbnail.avif",
+      "fileSize": 28404
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "666-thumbnail.webp",
+      "path": "output/fcs-optimized/666/666-thumbnail.webp",
+      "fileSize": 16696
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "666-thumbnail.jpg",
+      "path": "output/fcs-optimized/666/666-thumbnail.jpg",
+      "fileSize": 24470
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/666/666-display.avif 1200w, /images/666/666-grid.avif 600w, /images/666/666-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/666/666-display.webp 1200w, /images/666/666-grid.webp 600w, /images/666/666-thumbnail.webp 400w\" />\n  <img src=\"/images/666/666-grid.jpg\"\n       srcset=\"/images/666/666-display.jpg 1200w, /images/666/666-grid.jpg 600w, /images/666/666-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/666/666-display.avif 1200w, /images/666/666-grid.avif 600w, /images/666/666-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/666/666-display.webp 1200w, /images/666/666-grid.webp 600w, /images/666/666-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "666-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:15.254Z"
+}

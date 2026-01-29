@@ -1,0 +1,154 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/Building-Renovation-and-Reconstruction.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/Building-Renovation-and-Reconstruction.jpg",
+    "alt": "Building Renovation and Reconstruction",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 72,
+      "focus": 65,
+      "exposure": 70,
+      "composition": 75,
+      "lighting": 75,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Roofing contractor working on exterior wall installation",
+      "materials": [
+        "wood framing",
+        "brick",
+        "metal scaffolding"
+      ],
+      "activity": "installation",
+      "damageType": null,
+      "people": true,
+      "equipment": [
+        "scaffolding",
+        "ladder",
+        "safety harness",
+        "roofing tools"
+      ],
+      "weather": "sunny",
+      "perspective": "elevated",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "residential-construction",
+      "scaffolding-work",
+      "safety-equipment",
+      "exterior-installation",
+      "wall-construction",
+      "worker-pov",
+      "construction-safety",
+      "home-improvement"
+    ],
+    "altText": "Construction worker on scaffolding installing exterior wall materials wearing safety gear",
+    "recommendations": [
+      "Soft focus reduces sharpness - consider retaking with faster shutter speed",
+      "Good perspective showing safety practices and working conditions",
+      "Strong marketing value for safety culture and residential services",
+      "Minor color correction could improve contrast and clarity",
+      "Works well for 'team at work' or safety compliance content"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-renovation-and-reconstruction-display.avif",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.avif",
+      "fileSize": 41486
+    },
+    {
+      "format": "webp",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-renovation-and-reconstruction-display.webp",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.webp",
+      "fileSize": 36700
+    },
+    {
+      "format": "jpg",
+      "size": "display",
+      "width": 1200,
+      "height": 900,
+      "filename": "building-renovation-and-reconstruction-display.jpg",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.jpg",
+      "fileSize": 44840
+    },
+    {
+      "format": "avif",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-renovation-and-reconstruction-grid.avif",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.avif",
+      "fileSize": 56208
+    },
+    {
+      "format": "webp",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-renovation-and-reconstruction-grid.webp",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.webp",
+      "fileSize": 35330
+    },
+    {
+      "format": "jpg",
+      "size": "grid",
+      "width": 600,
+      "height": 450,
+      "filename": "building-renovation-and-reconstruction-grid.jpg",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.jpg",
+      "fileSize": 50104
+    },
+    {
+      "format": "avif",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-renovation-and-reconstruction-thumbnail.avif",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.avif",
+      "fileSize": 32560
+    },
+    {
+      "format": "webp",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-renovation-and-reconstruction-thumbnail.webp",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.webp",
+      "fileSize": 20276
+    },
+    {
+      "format": "jpg",
+      "size": "thumbnail",
+      "width": 400,
+      "height": 300,
+      "filename": "building-renovation-and-reconstruction-thumbnail.jpg",
+      "path": "output/fcs-optimized/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.jpg",
+      "fileSize": 27259
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.avif 1200w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.avif 600w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.avif 400w\" />\n  <source type=\"image/webp\" srcset=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.webp 1200w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.webp 600w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.webp 400w\" />\n  <img src=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.jpg\"\n       srcset=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.jpg 1200w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.jpg 600w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.jpg 400w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.avif 1200w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.avif 600w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.avif 400w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-display.webp 1200w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-grid.webp 600w, /images/building-renovation-and-reconstruction/building-renovation-and-reconstruction-thumbnail.webp 400w\" />"
+    ],
+    "fallback": "building-renovation-and-reconstruction-grid.jpg"
+  },
+  "processedAt": "2026-01-17T01:36:32.982Z"
+}

@@ -1,0 +1,149 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2023/12/tiara-singer-island-hero.23.webp",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2023/12/tiara-singer-island-hero.23.webp",
+    "alt": "tiara singer island hero.",
+    "context": "hero"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 82,
+      "focus": 85,
+      "exposure": 80,
+      "composition": 85,
+      "lighting": 78,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "High-rise condominium buildings and waterfront development",
+      "materials": [
+        "concrete",
+        "glass curtain wall",
+        "flat commercial roofing"
+      ],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "elevated wide shot",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": true,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "high-rise-buildings",
+      "commercial-roofing",
+      "flat-roof",
+      "waterfront-property",
+      "multi-family-residential",
+      "aerial-perspective",
+      "coastal-development",
+      "condominium-complex"
+    ],
+    "altText": "High-rise condominium buildings with flat commercial roofs along waterfront",
+    "recommendations": [
+      "Image shows roofing subjects from too far away for technical detail",
+      "Better suited for market area or service territory showcasing",
+      "Consider cropping or zooming for closer roof detail views",
+      "Good for 'Areas We Service' or regional portfolio sections",
+      "Limited direct roofing detail - use as contextual/location imagery only"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-singer-island-hero-23-large.avif",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.avif",
+      "fileSize": 281605
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-singer-island-hero-23-large.webp",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.webp",
+      "fileSize": 200154
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "tiara-singer-island-hero-23-large.jpg",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.jpg",
+      "fileSize": 249808
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-singer-island-hero-23-medium.avif",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.avif",
+      "fileSize": 204040
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-singer-island-hero-23-medium.webp",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.webp",
+      "fileSize": 136856
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "tiara-singer-island-hero-23-medium.jpg",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.jpg",
+      "fileSize": 160813
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-singer-island-hero-23-small.avif",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.avif",
+      "fileSize": 104109
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-singer-island-hero-23-small.webp",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.webp",
+      "fileSize": 67712
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "tiara-singer-island-hero-23-small.jpg",
+      "path": "output/fcs-optimized/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.jpg",
+      "fileSize": 76590
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.avif 1600w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.avif 1200w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.webp 1600w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.webp 1200w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.webp 800w\" />\n  <img src=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.jpg\"\n       srcset=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.jpg 1600w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.jpg 1200w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.avif 1600w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.avif 1200w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-large.webp 1600w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-medium.webp 1200w, /images/tiara-singer-island-hero-23/tiara-singer-island-hero-23-small.webp 800w\" />"
+    ],
+    "fallback": "tiara-singer-island-hero-23-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:32:57.669Z"
+}

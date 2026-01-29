@@ -1,0 +1,144 @@
+{
+  "original": {
+    "src": "/wp-content/uploads/2024/01/download-6.jpg",
+    "localPath": "/mnt/d/Projects/service-site-builder/sites/fcs-final/wordpress/simply-static-1-1768596916/wp-content/uploads/2024/01/download-6.jpg",
+    "alt": "download",
+    "context": "content"
+  },
+  "analysis": {
+    "quality": {
+      "overall": 75,
+      "focus": 80,
+      "exposure": 85,
+      "composition": 70,
+      "lighting": 80,
+      "marketingValue": "medium"
+    },
+    "content": {
+      "subject": "Urban cityscape with commercial buildings",
+      "materials": [],
+      "activity": null,
+      "damageType": null,
+      "people": false,
+      "equipment": [],
+      "weather": "partly cloudy",
+      "perspective": "ground level",
+      "timeOfDay": "midday"
+    },
+    "useCases": {
+      "hero": false,
+      "gallery": false,
+      "inline": true,
+      "archive": false
+    },
+    "tags": [
+      "cityscape",
+      "commercial-buildings",
+      "urban-skyline",
+      "service-area",
+      "downtown",
+      "office-buildings",
+      "metro-area",
+      "location-image"
+    ],
+    "altText": "Downtown city skyline with commercial buildings and highway",
+    "recommendations": [
+      "No roofing content visible - not suitable for roofing contractor portfolio",
+      "Could be used as service area/location reference image",
+      "Consider capturing actual roofing projects for marketing materials",
+      "Image shows potential commercial client buildings in service area"
+    ]
+  },
+  "outputs": [
+    {
+      "format": "avif",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-6-large.avif",
+      "path": "output/fcs-optimized/download-6/download-6-large.avif",
+      "fileSize": 14025
+    },
+    {
+      "format": "webp",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-6-large.webp",
+      "path": "output/fcs-optimized/download-6/download-6-large.webp",
+      "fileSize": 15020
+    },
+    {
+      "format": "jpg",
+      "size": "large",
+      "width": 1600,
+      "height": 1200,
+      "filename": "download-6-large.jpg",
+      "path": "output/fcs-optimized/download-6/download-6-large.jpg",
+      "fileSize": 13805
+    },
+    {
+      "format": "avif",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-6-medium.avif",
+      "path": "output/fcs-optimized/download-6/download-6-medium.avif",
+      "fileSize": 14025
+    },
+    {
+      "format": "webp",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-6-medium.webp",
+      "path": "output/fcs-optimized/download-6/download-6-medium.webp",
+      "fileSize": 15020
+    },
+    {
+      "format": "jpg",
+      "size": "medium",
+      "width": 1200,
+      "height": 900,
+      "filename": "download-6-medium.jpg",
+      "path": "output/fcs-optimized/download-6/download-6-medium.jpg",
+      "fileSize": 13805
+    },
+    {
+      "format": "avif",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-6-small.avif",
+      "path": "output/fcs-optimized/download-6/download-6-small.avif",
+      "fileSize": 14025
+    },
+    {
+      "format": "webp",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-6-small.webp",
+      "path": "output/fcs-optimized/download-6/download-6-small.webp",
+      "fileSize": 15020
+    },
+    {
+      "format": "jpg",
+      "size": "small",
+      "width": 800,
+      "height": 600,
+      "filename": "download-6-small.jpg",
+      "path": "output/fcs-optimized/download-6/download-6-small.jpg",
+      "fileSize": 13805
+    }
+  ],
+  "responsive": {
+    "html": "<picture>\n  <source type=\"image/avif\" srcset=\"/images/download-6/download-6-large.avif 1600w, /images/download-6/download-6-medium.avif 1200w, /images/download-6/download-6-small.avif 800w\" />\n  <source type=\"image/webp\" srcset=\"/images/download-6/download-6-large.webp 1600w, /images/download-6/download-6-medium.webp 1200w, /images/download-6/download-6-small.webp 800w\" />\n  <img src=\"/images/download-6/download-6-medium.jpg\"\n       srcset=\"/images/download-6/download-6-large.jpg 1600w, /images/download-6/download-6-medium.jpg 1200w, /images/download-6/download-6-small.jpg 800w\"\n       sizes=\"(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px\"\n       loading=\"lazy\"\n       alt=\"[alt text here]\" />\n</picture>",
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/download-6/download-6-large.avif 1600w, /images/download-6/download-6-medium.avif 1200w, /images/download-6/download-6-small.avif 800w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/download-6/download-6-large.webp 1600w, /images/download-6/download-6-medium.webp 1200w, /images/download-6/download-6-small.webp 800w\" />"
+    ],
+    "fallback": "download-6-medium.jpg"
+  },
+  "processedAt": "2026-01-17T01:39:09.187Z"
+}
