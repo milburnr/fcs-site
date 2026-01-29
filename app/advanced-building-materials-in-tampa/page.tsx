@@ -161,7 +161,7 @@ export default function Page() {
                 <div>
                   <h4 className="font-bold text-brand-green-dark text-sm mb-2">Technologies:</h4>
                   <ul className="text-gray-600 text-sm space-y-1">
-                    <li>• Low-E coatings (SHGC < 0.25)</li>
+                    <li>• Low-E coatings (SHGC &lt; 0.25)</li>
                     <li>• Spectrally selective glazing</li>
                     <li>• Electrochromic (smart) glass</li>
                     <li>• Triple-pane assemblies</li>

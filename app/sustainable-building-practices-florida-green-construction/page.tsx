@@ -413,8 +413,6 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists brings comprehensive expertise in sustainable building practices to every commercial project. Our team includes LEED-accredited professionals who understand how to integrate sustainability effectively and cost-efficiently. Whether you're pursuing green building certification or simply want to build more responsibly, we deliver sustainable solutions tailored to Tampa Bay's unique conditions.
             </p>
-
-            {
           </div>
         </div>
       </section>

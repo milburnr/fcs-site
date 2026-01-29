@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
-import { Phone, CheckCircle, Users, MessageSquare, Building2, Lightbulb, HelpCircle, Volume2, Coffee, Zap, LayoutGrid } from "lucide-react";
+import { Phone, CheckCircle, Users, MessageSquare, Building2, Lightbulb, HelpCircle, Volume2, Coffee, Zap, LayoutGrid, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";

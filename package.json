@@ -17,6 +17,7 @@
     "@radix-ui/react-accordion": "^1.2.12",
     "@radix-ui/react-slot": "^1.2.3",
     "@radix-ui/react-tabs": "^1.1.13",
+    "chromium": "^3.0.3",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "framer-motion": "^12.23.24",
@@ -28,12 +29,12 @@
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "netlify-plugin-cache": "^1.0.3",
     "@types/node": "^22.10.5",
     "@types/react": "^19.0.6",
     "@types/react-dom": "^19.0.3",
     "autoprefixer": "^10.4.20",
     "cheerio": "^1.1.2",
+    "netlify-plugin-cache": "^1.0.3",
     "postcss": "^8.4.49",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.2"

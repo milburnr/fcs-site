@@ -327,7 +327,7 @@ export default function Page() {
               </div>
             </div>
 
-            {<h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Build for All of Life's Stages
             </h2>
             <p className="text-gray-600 mb-6">
