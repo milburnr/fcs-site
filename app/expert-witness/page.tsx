@@ -288,8 +288,232 @@ export default function ExpertWitnessPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      
+      {/* Credentials and Experience */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-heading">
+              Professional Credentials & Ongoing Education
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Industry Certifications & Licenses</h3>
+              <p className="mb-6">
+                Florida Construction Specialists maintains current licensing and certifications essential for credible expert witness testimony. Our General Contractor license {BUSINESS_INFO.licenseNumber} demonstrates ongoing compliance with state construction industry requirements. We maintain required continuing education to stay current with evolving building codes, construction techniques, and industry standards.
+              </p>
+              <p className="mb-6">
+                Frank Bragano's insurance industry credentials include extensive training in Commercial Property adjusting, catastrophic loss handling, and coverage interpretation. His experience includes handling claims under standard commercial policies, specialty coverage forms, and complex multi-location claims. This background provides essential understanding of how insurance disputes develop and how claims are evaluated from a carrier perspective.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Major Claims Experience</h3>
+              <p className="mb-6">
+                Our catastrophic loss experience spans multiple major hurricanes and weather events throughout the Southeast. Hurricane Charley (2004) provided extensive experience with wind damage assessment and restoration requirements. Hurricane Irma (2017) and Ian (2022) offered more recent experience with modern construction materials and techniques under extreme conditions.
+              </p>
+              <p className="mb-6">
+                Beyond hurricane damage, our claims experience includes fire losses, water damage from burst pipes and roof leaks, vandalism and theft claims, and complex coverage disputes involving exclusions and policy interpretation. This breadth of experience enables testimony on various types of property damage and insurance coverage issues.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Construction Project Diversity</h3>
+              <p className="mb-6">
+                Our construction experience spans multiple project types and delivery methods, providing comprehensive understanding of industry practices. Medical facilities construction requires understanding of specialized codes, infection control requirements, and complex mechanical systems. Educational facility projects involve detailed coordination with multiple stakeholders and phased construction in occupied buildings.
+              </p>
+              <p className="mb-6">
+                Historic preservation projects demand specialized knowledge of Secretary of Interior Standards, period-appropriate materials and techniques, and coordination with State Historic Preservation Office requirements. This expertise proves valuable in testimony involving historic buildings, restoration disputes, and compliance with preservation standards.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Professional Development</h3>
+              <p className="mb-6">
+                We maintain active participation in industry organizations including the Associated General Contractors of Florida, Florida Building Contractors Association, and relevant insurance industry groups. Regular attendance at seminars, workshops, and continuing education programs ensures our testimony reflects current industry standards and best practices.
+              </p>
+              <p className="mb-6">
+                Our professional library includes current building codes, industry standards from organizations like ACI (American Concrete Institute) and ASTM International, and insurance industry publications. We stay current with legal developments affecting construction and insurance through professional publications and legal education programs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Investigation Methodology */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-heading">
+              Investigation Methodology & Documentation
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Site Investigation Techniques</h3>
+              <p className="mb-6">
+                Our site investigations employ systematic documentation methods designed to withstand scrutiny during cross-examination. We use professional photography equipment to document existing conditions, damage patterns, and construction details. Digital photography with embedded metadata provides timestamp verification and location information that supports testimony credibility.
+              </p>
+              <p className="mb-6">
+                When appropriate, we employ specialized investigation tools including moisture meters for detecting water intrusion, thermal imaging cameras for identifying insulation gaps or moisture patterns, and measuring equipment for verifying dimensions and compliance with plans. All measurements and readings are documented contemporaneously with detailed field notes.
+              </p>
+              <p className="mb-6">
+                Our investigation methodology includes coordination with other experts when cases require multiple disciplines. We work effectively with structural engineers, architects, environmental consultants, and forensic accountants to develop comprehensive case understanding while maintaining clear boundaries between our expertise and other professional disciplines.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Document Review and Analysis</h3>
+              <p className="mb-6">
+                Thorough document review forms the foundation of credible expert testimony. Our review process encompasses construction contracts, plans and specifications, change orders, progress reports, inspection records, material certifications, and warranty documentation. We identify discrepancies between contractual requirements and actual construction that may affect case outcomes.
+              </p>
+              <p className="mb-6">
+                For insurance-related cases, our document analysis includes policy language review, claim files examination, adjuster reports evaluation, and contractor estimates analysis. Our carrier-side experience enables identification of issues that may not be apparent to experts without insurance industry background. We understand how adjusters document their decisions and what factors influence coverage determinations.
+              </p>
+              <p className="mb-6">
+                Our analysis identifies timeline issues that often prove critical in construction disputes. We create detailed project chronologies showing when problems occurred, when they were discovered, when they were reported, and how they were addressed. These timelines help establish causation and responsibility in complex construction disputes.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Industry Standards Research</h3>
+              <p className="mb-6">
+                Credible expert testimony requires grounding in accepted industry standards and practices. Our research methodology includes review of applicable building codes, industry standards from organizations like ACI and ASTM, manufacturer installation requirements, and trade organization best practice guidelines. We distinguish between minimum code requirements and industry best practices when relevant to case issues.
+              </p>
+              <p className="mb-6">
+                We maintain a comprehensive technical library including current and historical building codes, enabling testimony about standards that were in effect when construction occurred. This historical perspective proves essential in cases involving older buildings or long-term construction projects where codes may have changed during construction.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Cost Analysis and Estimation</h3>
+              <p className="mb-6">
+                Our cost analysis methodology combines published cost data with actual project experience to develop credible estimates for repair, replacement, or completion costs. We use multiple cost databases including RSMeans, Marshall & Swift, and local subcontractor pricing to verify estimate reasonableness. Our estimates include detailed breakdowns of materials, labor, equipment, and overhead costs.
+              </p>
+              <p className="mb-6">
+                For insurance claims, we understand the difference between actual cash value and replacement cost calculations, depreciation methodologies, and code upgrade requirements. Our estimates address these insurance-specific considerations while maintaining accuracy in underlying cost calculations. We can testify about appropriate profit margins, overhead rates, and contingency allowances based on actual project experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Collaboration */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-heading">
+              Collaboration with Legal Teams
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Case Strategy Development</h3>
+              <p className="mb-6">
+                Effective expert witness work requires close collaboration with legal counsel to understand case strategy and how technical testimony supports legal theories. We work with attorneys to identify the most compelling technical arguments while maintaining objectivity and professional credibility. Our role is to provide accurate technical information that attorneys can use to build persuasive cases.
+              </p>
+              <p className="mb-6">
+                During case development, we help attorneys understand technical issues that may affect case strategy. This includes explaining construction industry practices, identifying potential weaknesses in opposing arguments, and suggesting areas where additional investigation might be beneficial. We provide technical education to legal teams who may not have construction industry background.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Deposition Preparation</h3>
+              <p className="mb-6">
+                Thorough deposition preparation ensures effective testimony that advances case objectives while withstanding aggressive cross-examination. We work with counsel to anticipate likely areas of questioning, review case facts and opinions thoroughly, and practice explaining technical concepts clearly to non-technical audiences.
+              </p>
+              <p className="mb-6">
+                Our deposition preparation includes review of opposing expert reports when available, identification of areas where our opinions differ, and development of clear explanations for our methodology and conclusions. We prepare exhibits and demonstrative aids that help explain complex technical concepts during testimony.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Trial Testimony Support</h3>
+              <p className="mb-6">
+                Trial testimony requires clear communication of technical concepts to judge and jury audiences without construction industry background. We develop demonstrative exhibits, visual aids, and analogies that help lay audiences understand complex construction and insurance concepts. Our testimony style emphasizes clarity and objectivity over advocacy.
+              </p>
+              <p className="mb-6">
+                We work with legal teams to coordinate our testimony with other witnesses and evidence presentation. This includes understanding how our testimony fits within the overall case narrative and ensuring consistency with other expert opinions where appropriate. We prepare for cross-examination by reviewing opposing counsel's likely approach and preparing responses to anticipated challenges.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Rebuttal and Response</h3>
+              <p className="mb-6">
+                When opposing experts present conflicting opinions, we provide detailed analysis of alternative viewpoints and explain the basis for disagreement. Our rebuttal work focuses on factual and methodological differences rather than personal criticism of opposing experts. We maintain professional objectivity while clearly explaining why our opinions should be preferred.
+              </p>
+              <p className="mb-6">
+                Our rebuttal analysis includes review of opposing expert qualifications, methodology critique where appropriate, and identification of factual errors or unsupported assumptions. We provide detailed written analysis that attorneys can use for cross-examination preparation or in their own expert rebuttal testimony.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Examples */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-heading">
+              Representative Case Examples
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Hurricane Damage Scope Dispute</h3>
+              <p className="mb-6">
+                A large commercial property sustained significant damage during Hurricane Irma, with the carrier's initial estimate significantly lower than the policyholder's restoration estimate. The dispute centered on whether certain damage was wind-related (covered) or resulted from pre-existing maintenance issues (excluded). Our investigation included detailed damage pattern analysis, review of pre-storm building condition, and evaluation of both estimates' methodology.
+              </p>
+              <p className="mb-6">
+                Our testimony addressed wind damage signatures, typical hurricane damage patterns for the building type and age, and appropriate repair techniques for addressing the identified damage. The case settled favorably after our deposition testimony demonstrated the technical basis for the policyholder's position and identified deficiencies in the carrier's damage assessment.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Construction Defect Litigation</h3>
+              <p className="mb-6">
+                A medical facility experienced recurring water intrusion issues within two years of completion, leading to litigation against the general contractor and roofing subcontractor. The case required analysis of building envelope design, construction sequencing, quality control procedures, and compliance with manufacturer specifications.
+              </p>
+              <p className="mb-6">
+                Our testimony covered industry standard construction practices for medical facility envelopes, proper waterproofing installation techniques, and the relationship between observed water intrusion patterns and construction deficiencies. The case resulted in a significant settlement that enabled complete building envelope remediation.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green mb-4">Historic Preservation Dispute</h3>
+              <p className="mb-6">
+                A municipality disputed a contractor's approach to historic courthouse restoration, claiming that modern materials and techniques violated Secretary of Interior Standards. The case required detailed analysis of preservation standards, appropriate restoration techniques for the building's period and condition, and cost implications of alternative approaches.
+              </p>
+              <p className="mb-6">
+                Our testimony addressed the balance between historic preservation requirements and practical building performance needs, appropriate use of modern materials in historic restoration, and industry standards for preservation work. The case resulted in approval of a modified approach that satisfied preservation requirements while ensuring long-term building performance.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green mb-4">Contractor Performance Dispute</h3>
+              <p className="mb-6">
+                An institutional project experienced significant delays and cost overruns, with the owner claiming contractor negligence and the contractor claiming owner-directed changes and unforeseen conditions. The case required analysis of project scheduling, change order documentation, and industry standards for project management and cost control.
+              </p>
+              <p className="mb-6">
+                Our testimony addressed reasonable construction productivity rates, appropriate change order pricing, and industry standards for documenting changed conditions. We provided detailed analysis of project timeline to identify responsibility for various delays and cost impacts. The case was resolved through mediation after our analysis clarified the technical basis for each party's claims.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Fee Structure */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8 font-heading">
+              Expert Witness Fee Structure & Engagement Terms
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Hourly Rate Structure</h3>
+              <p className="mb-6">
+                Our expert witness services are provided on an hourly basis, with rates reflecting the specialized nature of expert testimony work and the time required for thorough case preparation. Rates vary based on the type of activity: document review and analysis, site investigation and travel, report preparation, deposition testimony, and trial testimony.
+              </p>
+              <p className="mb-6">
+                We provide detailed time records for all work performed, including description of activities, time spent, and work product generated. This transparency enables clients to understand how time is being utilized and facilitates efficient case management. We discuss time estimates for major project components during initial case assessment.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Retainer Requirements</h3>
+              <p className="mb-6">
+                Expert witness engagements require an initial retainer to commence work. Retainer amounts vary based on case complexity and anticipated scope of work. The retainer covers initial case review, conflict checking, and preliminary analysis necessary to provide meaningful case assessment. Additional retainers may be required for major project phases like report preparation or trial testimony.
+              </p>
+              <p className="mb-6">
+                We provide regular accounting of retainer use and request additional funds as needed to continue work. Final invoicing occurs upon case completion, with any unused retainer funds returned promptly. Our financial procedures are designed to maintain transparency while ensuring availability for client needs throughout litigation.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Travel and Expense Reimbursement</h3>
+              <p className="mb-6">
+                Cases requiring travel outside the Tampa Bay area include reimbursement for actual travel expenses including airfare, lodging, meals, ground transportation, and incidental expenses. We provide detailed expense reporting with supporting documentation for all reimbursable costs. Travel time is charged at standard hourly rates.
+              </p>
+              <p className="mb-6">
+                For cases requiring extended travel or multiple site visits, we work with counsel to optimize travel efficiency and minimize costs while ensuring thorough investigation. Video conferencing and other technologies are used when appropriate to reduce travel requirements while maintaining effective communication.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-900 mb-4">Engagement Agreement Terms</h3>
+              <p className="mb-6">
+                All expert witness engagements are governed by written agreements that clearly define scope of work, deliverables, timeline expectations, and compensation terms. Engagement agreements include provisions for conflict resolution, work product ownership, and confidentiality requirements. We maintain clear communication about scope changes that might affect fees or timeline.
+              </p>
+              <p className="mb-6">
+                Our engagement terms protect both client and expert interests while ensuring availability for testimony requirements. We understand the unpredictable nature of litigation scheduling and maintain flexibility to accommodate court calendar changes while protecting time availability for trial testimony when required.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

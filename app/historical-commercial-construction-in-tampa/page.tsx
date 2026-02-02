@@ -242,6 +242,9 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               The review process typically examines proposed changes to building facades, storefronts, signage, and other visible elements to ensure compatibility with historic character while allowing appropriate contemporary improvements. Our approach includes early consultation with preservation staff, careful documentation of existing conditions, and design development that balances preservation requirements with project goals and budget constraints.
             </p>
+            <p className="text-gray-600 mb-6">
+              Tampa's Historic Preservation Commission operates under specific design guidelines for each historic district, including the Tampa Heights Historic District, Hyde Park Historic District, and Seminole Heights Historic District. Each district has unique character-defining features and architectural periods that influence review criteria. Our familiarity with these local guidelines enables efficient project approval while ensuring authentic restoration results.
+            </p>
 
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Building Code Compliance for Historic Structures
@@ -251,6 +254,271 @@ export default function Page() {
             </p>
             <p className="text-gray-600 mb-6">
               Common code compliance challenges include fire safety systems, accessibility requirements, structural upgrades, and egress improvements that must be integrated sensitively within historic buildings. Our solutions often involve creative engineering, alternative materials and methods, and careful coordination between preservation and safety requirements to achieve acceptable outcomes for all stakeholders involved in the project approval process.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Florida's building code includes specific provisions for historic structures that allow alternative approaches when strict compliance would compromise historic character. These provisions enable solutions like grandfathered structural systems, alternative fire protection strategies, and modified accessibility requirements that balance preservation goals with safety requirements while maintaining the economic viability of historic commercial building restoration.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Notable Tampa Historic Commercial Construction Projects
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Tampa Theatre District Revitalization
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The Tampa Theatre, built in 1926, represents one of Florida's most significant commercial restoration projects, combining historic preservation with modern theater technology and accessibility improvements. The restoration preserved the building's atmospheric theater design while upgrading mechanical systems, installing modern projection equipment, and providing wheelchair accessibility throughout the historic structure.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Supporting commercial buildings in the theater district have undergone complementary restoration projects that maintain the area's 1920s character while accommodating restaurants, retail shops, and office space that support the theater's operations. These projects demonstrate how coordinated historic preservation creates economic synergies that benefit the entire neighborhood while preserving Tampa's cultural heritage.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The theater district's success has become a model for historic commercial district revitalization throughout Florida, proving that authentic restoration creates lasting economic value while maintaining the unique architectural character that makes these districts attractive to businesses and visitors. The project's impact extends beyond individual buildings to encompass streetscape improvements, parking solutions, and pedestrian amenities that support district-wide economic development.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Ybor City Cigar Factory Adaptive Reuse
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic cigar factories in Ybor City represent unique adaptive reuse opportunities that preserve the district's industrial heritage while creating modern commercial space for offices, restaurants, event venues, and retail businesses. These massive brick buildings feature soaring ceilings, large windows, and open floor plates that adapt well to contemporary commercial uses while maintaining their authentic industrial character.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Restoration of cigar factory buildings requires specialized knowledge of early 20th century industrial construction including heavy timber framing, brick bearing wall systems, and large-span roof structures designed to accommodate cigar manufacturing operations. Modern adaptations must respect the buildings' industrial scale and character while providing contemporary amenities like climate control, elevator access, and technology infrastructure.
+            </p>
+            <p className="text-gray-600 mb-6">
+              These projects often involve complex zoning and parking issues as former industrial buildings are converted to mixed commercial uses that generate different traffic patterns and space requirements. Successful projects balance historic preservation requirements with practical considerations like loading dock access, parking ratios, and utility capacity to create commercially viable developments that respect Ybor City's unique cultural heritage.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Hyde Park Village Historic Commercial Core
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Hyde Park Village represents Tampa's premier historic commercial district, featuring early 20th century commercial buildings that have been successfully adapted for upscale retail, dining, and professional services while maintaining the district's authentic neighborhood character. The area's success demonstrates how historic preservation creates economic value while serving both residents and visitors.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Commercial building restoration in Hyde Park focuses on maintaining authentic storefront configurations, preserving architectural details like decorative cornices and window systems, and coordinating improvements that enhance the district's pedestrian-friendly character. Projects range from individual storefront restoration to comprehensive building renovations that create modern commercial space within historic building shells.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The district's ongoing success requires careful balance between preservation and commercial viability, including parking management, traffic circulation, and building system upgrades that support contemporary business operations while maintaining the intimate scale and authentic character that make Hyde Park Village unique among Tampa's commercial districts.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Material Sourcing and Restoration Techniques
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Historic Masonry Restoration
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Tampa's historic commercial buildings feature masonry constructed from local and regional materials including Florida limestone, Georgia granite, North Carolina clay brick, and various imported stones that require specialized restoration techniques using compatible materials and traditional methods. Understanding the original material sources and construction techniques is essential for authentic restoration that maintains long-term durability in Florida's challenging climate.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Masonry restoration projects often require custom reproduction of missing elements using traditional manufacturing methods, including hand-molded brick, carved stone details, and cast terra cotta elements that match original profiles and compositions. Our restoration work includes partnerships with specialized suppliers and craftsmen who understand historic construction techniques and can deliver materials that meet both preservation standards and structural performance requirements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Modern masonry restoration techniques include advanced analysis methods to understand deterioration patterns, non-destructive testing to assess structural conditions, and conservation treatments that stabilize historic materials while maintaining their authentic appearance and performance characteristics. These techniques enable restoration of severely damaged masonry while preserving maximum amounts of original historic fabric.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Historical Roofing System Restoration
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial buildings in Tampa feature diverse roofing systems including clay tile, slate, built-up tar and gravel, and metal roofing that require restoration using period-appropriate materials and installation methods. Understanding original roof construction and drainage systems is critical for preventing water damage while maintaining authentic appearance and long-term weather resistance.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Roofing restoration often involves complete system replacement using modern materials designed to replicate historic appearance while providing improved performance for contemporary building uses. Projects include structural assessment of roof framing, insulation upgrades that respect vapor permeability requirements, and drainage system improvements that handle Florida's intense rainfall while protecting historic building fabric.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Specialized roofing challenges include restoration of historic gutters and downspouts, repair of decorative roof elements like parapets and cornices, and integration of modern equipment like HVAC units and solar panels in ways that minimize visual impact while providing necessary building services. Our approach emphasizes reversible installations and discrete equipment placement that respects historic building profiles.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Window and Storefront Restoration
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial buildings feature diverse window systems including double-hung sash windows, casement windows, and large storefront glazing systems that require restoration using traditional materials and methods while meeting contemporary performance requirements for energy efficiency and security. Window restoration preserves authentic appearance while improving functionality for modern commercial use.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Storefront restoration involves reconstruction of original configurations using historical evidence and period-appropriate materials including cast iron, structural steel, and large sheets of plate glass that characterized early commercial architecture. Modern storefront systems must provide security and energy performance while maintaining the transparency and visual appeal that makes historic commercial buildings attractive for retail and restaurant use.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Advanced restoration techniques include restoration of original hardware, installation of invisible storm systems for climate protection, and integration of security systems within historic window configurations. These approaches enable historic commercial buildings to meet contemporary performance requirements while preserving the architectural authenticity that makes them economically competitive with modern commercial construction.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Financial Strategies for Historic Commercial Projects
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Development Pro Forma and Financial Planning
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial construction projects require specialized financial analysis that accounts for restoration costs, extended construction schedules, and unique market advantages that historic buildings provide. Our development consulting includes feasibility studies, cost estimating, and financing strategy development that maximizes available incentives while creating realistic project budgets and timelines.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Financial planning for historic projects often involves phased development strategies that enable building stabilization and partial occupancy while completing restoration work in sections. This approach reduces carrying costs and provides cash flow during construction while allowing thorough restoration that meets preservation standards and creates long-term value for building owners and tenants.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Market analysis for historic commercial projects includes assessment of location advantages, competition from modern buildings, and premium pricing potential that authentic historic character provides. Tampa's historic districts consistently demonstrate strong market performance for well-restored commercial buildings that combine character with modern functionality and superior location within established neighborhoods.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Insurance and Risk Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial buildings require specialized insurance coverage that accounts for replacement cost using period-appropriate materials and construction methods, extended construction schedules for restoration work, and unique features that may not be covered by standard commercial policies. Our risk management approach includes working with specialized insurers who understand historic building values and restoration requirements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Risk mitigation for historic projects includes careful documentation of existing conditions, phased construction approaches that minimize exposure, and quality control measures that prevent damage during restoration work. These strategies reduce insurance costs while protecting irreplaceable historic fabric and ensuring successful project completion within budget and schedule constraints.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Emergency preparedness for historic buildings includes disaster response planning, protective measures for severe weather events, and post-disaster restoration procedures that preserve historic fabric while enabling rapid business resumption. Florida's hurricane exposure requires particular attention to wind resistance and water damage prevention for historic commercial buildings that may not have been designed for extreme weather conditions.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa Bay Market Analysis for Historic Commercial Properties
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Current Market Trends and Opportunities
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's historic commercial real estate market demonstrates strong performance with increasing demand for authentic character space in established neighborhoods. Market trends include higher lease rates for restored historic buildings, longer tenant retention periods, and premium sale prices that reflect the irreplaceable nature of historic architecture combined with superior urban locations and walkable neighborhood amenities.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Demographics driving demand include young professionals seeking authentic urban experiences, established businesses wanting distinctive space for branding purposes, and creative industries that benefit from the inspiring environments that historic buildings naturally provide. This market alignment creates sustainable demand for well-restored historic commercial space throughout Tampa's historic districts.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Investment trends show institutional investors increasingly recognizing historic commercial buildings as stable, long-term assets that appreciate consistently while providing steady cash flow and tax advantages. This investor interest supports additional restoration projects and creates market liquidity that benefits property owners who have invested in quality historic preservation work.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Neighborhood-Specific Market Dynamics
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Downtown Tampa's commercial historic buildings benefit from proximity to major employment centers, transportation hubs, and cultural attractions that create strong demand for office space, restaurants, and specialty retail. The area's ongoing residential development increases foot traffic and supports commercial businesses while historic buildings provide unique character that differentiates them from generic modern space.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Ybor City's commercial market focuses on entertainment, hospitality, and creative businesses that capitalize on the district's authentic cultural heritage and nightlife attractions. Historic commercial buildings in Ybor benefit from the area's designation as a National Historic Landmark District and its role as Tampa's primary entertainment destination, creating demand for unique event venues and experiential businesses.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Hyde Park's commercial market serves an affluent residential neighborhood with demand for upscale retail, professional services, and dining establishments. The area's historic commercial buildings command premium rents due to their prestigious location, walkable environment, and sophisticated clientele that appreciates authentic architectural character combined with modern amenities and convenient parking.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Project Management Excellence in Historic Construction
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Specialized Construction Scheduling
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial construction requires extended timelines that accommodate careful documentation, specialized material procurement, skilled craftsman availability, and regulatory review processes that differ significantly from conventional commercial construction. Our scheduling approach includes contingencies for unexpected discoveries, weather delays, and the iterative nature of restoration work that often reveals additional requirements as projects progress.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Critical path analysis for historic projects identifies dependencies between preservation requirements and modern system installations, sequencing work to minimize disruption to historic fabric while enabling efficient completion of contemporary improvements. Scheduling coordination includes specialty contractors, historic preservation consultants, and regulatory agencies that must approve work at various project phases.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Phased construction approaches enable partial building occupancy during restoration work, reducing financial carrying costs while providing cash flow that supports project completion. These strategies require careful coordination between occupied and construction areas, temporary utility systems, and safety measures that protect both workers and building occupants throughout the restoration process.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Control and Documentation
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic construction projects require extensive documentation throughout the construction process to verify compliance with preservation standards, create records for future maintenance and restoration work, and demonstrate proper use of historic tax credit funds when applicable. Our documentation procedures include detailed photography, material testing records, and construction progress reports that satisfy regulatory requirements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Quality control measures include regular inspection by preservation specialists, testing of restoration materials and techniques, and coordination with project architects and preservation consultants to ensure work meets both preservation standards and contemporary performance requirements. These procedures prevent costly corrections while maintaining the high standards necessary for successful historic preservation projects.
+            </p>
+            <p className="text-gray-600 mb-6">
+              As-built documentation includes detailed drawings and specifications that record restoration work, modern system installations, and structural modifications for future reference. This documentation supports building maintenance, future renovations, and compliance reporting while creating valuable records for Tampa's architectural history and construction industry knowledge base.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Subcontractor Coordination and Specialty Services
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial construction requires coordination with specialized subcontractors including historic preservation consultants, materials conservators, architectural historians, and craftsmen skilled in traditional building techniques. Our subcontractor network includes vetted specialists with proven experience in historic restoration who understand the unique requirements and standards for preservation work in Florida's climate.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Specialty services include mortar analysis, structural assessment of historic building systems, environmental testing for hazardous materials, and conservation treatment of decorative elements that require expert knowledge and specialized equipment. Coordinating these services requires understanding preservation priorities, regulatory requirements, and project scheduling constraints that affect multiple trades and specialists.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Subcontractor selection emphasizes experience with historic preservation standards, familiarity with local regulatory requirements, and ability to work within the constraints that historic buildings present. Our long-term relationships with specialty contractors enable consistent quality while providing competitive pricing and reliable scheduling for complex restoration projects that require diverse expertise and coordination.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Long-term Building Performance and Maintenance
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Preventive Maintenance Programs
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial buildings require specialized maintenance programs that address the unique characteristics of historic materials and building systems while maintaining contemporary performance standards for commercial use. Our maintenance consulting includes development of customized programs that prioritize preservation of historic fabric while ensuring reliable building operation and tenant satisfaction.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Preventive maintenance focuses on building envelope protection, mechanical system optimization, and early detection of problems that could cause damage to historic materials or building systems. Regular maintenance programs extend building life, reduce emergency repair costs, and maintain the appearance and performance standards that make historic commercial buildings competitive in Tampa's commercial real estate market.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Maintenance planning includes seasonal inspection schedules, vendor management for specialized services, and budget planning for routine maintenance and periodic renovation work. These programs enable building owners to maintain their properties proactively while preserving the authentic character and performance advantages that make historic commercial buildings attractive to tenants and investors.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Energy Performance Optimization
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial buildings can achieve excellent energy performance through careful upgrades that respect historic character while providing contemporary comfort and operational efficiency. Our energy optimization strategies include building envelope improvements, HVAC system upgrades, lighting retrofits, and building automation systems that reduce operating costs while maintaining authentic appearance.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Energy efficiency measures for historic buildings often involve creative solutions that work within existing building configurations and architectural constraints. Successful projects demonstrate that historic buildings can meet or exceed modern energy performance standards while providing unique character and location advantages that justify premium rents and sale prices.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Utility rebates and green building incentives increasingly recognize historic buildings as sustainable development that preserves embodied energy while reducing environmental impact compared to demolition and new construction. These programs support energy efficiency upgrades while maintaining the environmental benefits that historic preservation provides through building reuse and neighborhood conservation.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Future Trends in Historic Commercial Construction
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Emerging Technologies and Traditional Methods
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Advanced building technologies increasingly support historic preservation through non-invasive assessment methods, improved restoration materials, and building systems that integrate seamlessly with historic architecture. These developments enable more accurate restoration work while reducing costs and construction schedules for complex historic preservation projects throughout Tampa's commercial districts.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Digital documentation methods including 3D scanning, photogrammetry, and building information modeling create precise records of historic buildings while supporting design development for restoration and adaptive reuse projects. These technologies improve project coordination, reduce errors, and create valuable documentation for future building maintenance and additional restoration work.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Sustainable Development and Historic Preservation
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic preservation increasingly aligns with sustainable development goals through building reuse, neighborhood conservation, and reduced environmental impact compared to demolition and new construction. This alignment creates new funding opportunities, regulatory support, and market recognition for historic commercial buildings as environmentally responsible development that serves contemporary business needs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Climate resilience planning for historic buildings includes flood protection measures, hurricane resistance improvements, and adaptation strategies that preserve historic character while protecting buildings and occupants from increasingly severe weather events. These preparations ensure historic commercial buildings remain viable and attractive for long-term investment throughout Tampa Bay's dynamic climate environment.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Partnership Opportunities and Community Impact
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic commercial construction projects create opportunities for partnerships with local organizations, educational institutions, and community groups that support preservation goals while providing workforce development, educational programming, and community engagement that enhances project outcomes and long-term building success in Tampa's neighborhoods.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Educational partnerships with architecture and construction programs provide hands-on learning opportunities while supporting skilled craftsman development for the preservation industry. These programs ensure continued availability of expertise for historic building restoration while creating career opportunities for workers interested in specialized construction trades and preservation techniques.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Community impact extends beyond individual buildings to encompass neighborhood revitalization, economic development, and cultural preservation that makes historic commercial construction an investment in Tampa's future economic competitiveness and quality of life. These broader benefits justify public support for historic preservation while creating market conditions that support continued investment in historic building restoration and adaptive reuse throughout Tampa Bay.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Florida Construction Specialists' commitment to historic commercial construction excellence includes ongoing research into traditional building methods, development of innovative restoration techniques, and partnerships with preservation organizations that advance the practice of historic building restoration throughout the Tampa Bay region. Our expertise contributes to the preservation of Tampa's irreplaceable architectural heritage while creating economic opportunities for property owners, businesses, and communities.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Success in historic commercial construction requires balancing multiple complex factors including preservation standards, regulatory compliance, financial feasibility, and market demands while maintaining authentic architectural character that creates lasting value. Our comprehensive approach ensures project success through careful planning, expert execution, and ongoing support that maximizes both preservation and commercial objectives for Tampa's historic commercial buildings.
             </p>
 
             <div className="bg-brand-green-light/10 border border-brand-green rounded-lg p-6 mb-8">
@@ -281,6 +549,14 @@ export default function Page() {
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
                   <span>Proven track record in Franklin Street, Ybor City, and Hyde Park</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>30+ years experience in historic preservation and commercial construction</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>Specialized knowledge of Florida building codes and historic standards</span>
                 </li>
               </ul>
             </div>

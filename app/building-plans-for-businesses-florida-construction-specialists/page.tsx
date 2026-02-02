@@ -270,15 +270,295 @@ export default function Page() {
                 Our forward-thinking approach includes designing flexible floor plans that can be easily reconfigured, oversizing utility infrastructure to accommodate future expansion, and incorporating smart building technology that can be upgraded as new innovations become available. We also consider Tampa's continued growth and development when planning access routes, parking, and site circulation patterns.
               </p>
 
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Tampa Bay Business Districts and Location-Specific Building Considerations
+              </h2>
+              <p className="text-gray-600 mb-6">
+                The Tampa Bay region encompasses diverse business districts, each with unique characteristics, zoning requirements, and market considerations that influence building plan development. Florida Construction Specialists' extensive experience across all major Tampa Bay business areas enables us to provide location-specific expertise for optimal building plan development.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Downtown Tampa Central Business District</h3>
+              <p className="text-gray-600 mb-6">
+                Building plans for downtown Tampa require sophisticated urban design approaches that maximize limited space while creating impressive business environments. Our team has extensive experience with high-rise construction, mixed-use developments, and historic renovation projects in the heart of Tampa's business district. We understand the complexities of building in dense urban environments, including parking constraints, utility coordination, and the integration of modern business facilities with Tampa's historic architecture.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Westshore Business District</h3>
+              <p className="text-gray-600 mb-6">
+                As Tampa's premier suburban business corridor, Westshore presents unique opportunities for expansive corporate campuses and modern office developments. Our building plans for Westshore area businesses typically incorporate large floor plates, abundant parking, and sophisticated landscape design that takes advantage of the area's more spacious development patterns. We've successfully planned and constructed numerous office buildings, medical facilities, and mixed-use developments throughout the Westshore corridor.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hyde Park and SoHo Districts</h3>
+              <p className="text-gray-600 mb-6">
+                These upscale Tampa neighborhoods require building plans that balance commercial functionality with the residential character and historic charm of the surrounding area. Our designs for Hyde Park and SoHo businesses emphasize architectural compatibility, pedestrian accessibility, and integration with the vibrant street-level commercial environment that defines these popular districts.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Ybor City Historic District</h3>
+              <p className="text-gray-600 mb-6">
+                Building in Ybor City requires specialized expertise in historic preservation and adaptive reuse construction. Our team has extensive experience working with the Tampa Historic Preservation Commission to develop building plans that respect the district's architectural heritage while meeting modern business requirements. We understand the unique challenges of integrating contemporary business needs with historic building structures and preservation requirements.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Airport Business Corridor</h3>
+              <p className="text-gray-600 mb-6">
+                The Tampa International Airport area has become a major business hub, particularly for hospitality, logistics, and international business operations. Our building plans for this rapidly growing area focus on accessibility, professional aesthetics, and proximity to transportation infrastructure. We've planned numerous hotel projects, corporate facilities, and logistics centers that take advantage of the airport corridor's strategic location.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Brandon and East Tampa Development</h3>
+              <p className="text-gray-600 mb-6">
+                Brandon's continued growth has created opportunities for new business development in suburban settings with excellent access to major transportation routes. Our building plans for Brandon area businesses typically emphasize cost-effective construction, efficient site utilization, and integration with the area's family-oriented commercial environment.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Specialized Building Systems for Tampa's Climate and Environment
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida's unique climate presents both challenges and opportunities for commercial building design. Our building plans incorporate advanced systems and technologies specifically designed to optimize performance in Tampa's subtropical environment while minimizing operational costs and environmental impact.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Advanced HVAC Systems for Tampa's Humidity</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's high humidity and year-round cooling requirements demand sophisticated HVAC design that goes beyond standard cooling capacity. Our building plans incorporate advanced dehumidification systems, energy recovery ventilation, and variable refrigerant flow systems that maintain optimal indoor air quality while minimizing energy consumption. We specify high-efficiency equipment and smart control systems that adapt to Tampa's variable weather conditions throughout the year.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane-Resistant Building Envelopes</h3>
+              <p className="text-gray-600 mb-6">
+                Every building plan we develop includes comprehensive hurricane protection measures that exceed Florida Building Code requirements. Our structural systems are designed to withstand 185+ mph winds, and we specify impact-resistant glazing, reinforced roofing systems, and backup power generation to ensure business continuity during severe weather events. These measures not only protect your investment but often result in significant insurance premium reductions.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Integrated Solar and Renewable Energy Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's abundant sunshine makes solar energy an attractive option for commercial facilities. Our building plans can incorporate photovoltaic systems, solar hot water, and battery storage solutions that significantly reduce operating costs. We work with leading renewable energy consultants to optimize system design and take advantage of available federal and state incentives for commercial renewable energy installations.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Stormwater Management and Flood Protection</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's coastal location and intense summer thunderstorms require sophisticated stormwater management systems. Our building plans include comprehensive drainage design, retention pond systems where appropriate, and green infrastructure solutions such as rain gardens and permeable paving. We coordinate closely with the Southwest Florida Water Management District to ensure compliance with environmental regulations while optimizing site development potential.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Advanced Building Technologies and Smart Systems Integration
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Modern business facilities require sophisticated technology infrastructure and smart building systems that enhance operational efficiency while providing flexibility for future upgrades. Florida Construction Specialists incorporates the latest building technologies into our planning process, ensuring that your Tampa facility is equipped for both current needs and future expansion.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Integrated Building Management Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Our building plans include comprehensive building automation systems that integrate HVAC, lighting, security, and fire safety systems into unified platforms. These systems provide real-time monitoring and control capabilities that optimize energy consumption, enhance security, and improve operational efficiency. Tampa businesses benefit from reduced utility costs and improved building performance through these advanced control systems.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">High-Performance Network Infrastructure</h3>
+              <p className="text-gray-600 mb-6">
+                In today's digital economy, robust network infrastructure is essential for business success. Our building plans include comprehensive structured cabling systems, redundant internet connectivity options, and wireless network coverage throughout the facility. We design technology infrastructure to support current operations while providing ample capacity for future growth and technology upgrades.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Advanced Security and Access Control Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Modern commercial facilities require sophisticated security systems that balance access control with operational convenience. Our building plans incorporate multi-zone access control systems, comprehensive CCTV coverage, and integrated alarm systems. We work with leading security consultants to design systems that meet insurance requirements while providing the level of protection appropriate for your business type and location.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Sustainable Building Practices and LEED Certification
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Environmental sustainability has become increasingly important for Tampa Bay businesses, both for operational cost savings and corporate responsibility objectives. Florida Construction Specialists has extensive experience with green building practices and can guide your project through LEED certification or other sustainability programs.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Energy-Efficient Building Design</h3>
+              <p className="text-gray-600 mb-6">
+                Our building plans incorporate advanced energy modeling to optimize building orientation, glazing specifications, and insulation systems for Tampa's climate. We specify high-performance building envelopes that minimize cooling loads while maintaining comfortable indoor environments. LED lighting systems with daylight harvesting controls further reduce energy consumption and operational costs.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Water Conservation Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's water conservation initiatives and rising utility costs make water-efficient building design increasingly important. Our building plans include low-flow plumbing fixtures, native landscape plantings that require minimal irrigation, and rainwater harvesting systems where appropriate. These measures reduce operational costs while demonstrating environmental stewardship.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Sustainable Material Selection</h3>
+              <p className="text-gray-600 mb-6">
+                We prioritize locally-sourced and sustainable building materials that reduce environmental impact while supporting the local Tampa Bay economy. Our material specifications emphasize durability and low maintenance requirements, ensuring that your building performs well throughout its lifespan while minimizing ongoing maintenance costs and environmental impact.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Financing and Project Delivery Options for Tampa Businesses
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Understanding that different businesses have varying financial requirements and project timelines, Florida Construction Specialists offers flexible project delivery and financing options that accommodate diverse business needs throughout the Tampa Bay area.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Design-Build Project Delivery</h3>
+              <p className="text-gray-600 mb-6">
+                Our design-build approach provides single-source responsibility for both building plan development and construction, reducing project complexity and ensuring seamless coordination between design and construction phases. This delivery method typically results in shorter project timelines and better cost control, making it ideal for businesses that need to minimize disruption and ensure predictable project outcomes.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Construction Management and General Contracting</h3>
+              <p className="text-gray-600 mb-6">
+                For clients who prefer to work with separate design professionals, we offer construction management and general contracting services that build upon the detailed building plans developed during the design phase. Our construction team works closely with architects and engineers to ensure that building plans are executed with precision and attention to detail.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Tenant Improvement Specialists</h3>
+              <p className="text-gray-600 mb-6">
+                Many Tampa businesses require customized tenant improvement plans for leased commercial spaces. Our team has extensive experience developing building plans that transform generic commercial spaces into functional business environments while working within the constraints of existing building systems and lease requirements.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Quality Control and Professional Standards
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists maintains the highest professional standards for building plan development, ensuring that every project meets or exceeds industry benchmarks for quality, accuracy, and completeness. Our quality control processes have been refined over 43 years of commercial construction experience in the Tampa Bay market.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Licensed Professional Team</h3>
+              <p className="text-gray-600 mb-6">
+                All building plans are developed by licensed architects and engineers who are registered in the State of Florida and have extensive experience with Tampa area construction. Our professional team maintains continuing education requirements and stays current with the latest building code updates, construction technologies, and industry best practices.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Comprehensive Plan Review Process</h3>
+              <p className="text-gray-600 mb-6">
+                Every set of building plans undergoes multiple review cycles to ensure accuracy, completeness, and constructability. Our review process includes coordination checks between all disciplines, code compliance verification, and constructability reviews by our experienced field personnel. This comprehensive approach minimizes construction issues and ensures smooth project execution.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Client Communication and Project Updates</h3>
+              <p className="text-gray-600 mb-6">
+                Throughout the building plan development process, we maintain regular communication with clients through scheduled review meetings, progress reports, and digital project collaboration platforms. Our transparent communication approach ensures that clients remain informed and engaged throughout the design process, resulting in building plans that truly meet their business objectives.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Post-Construction Services and Long-Term Partnerships
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists' relationship with Tampa Bay businesses extends well beyond the completion of construction. We provide ongoing support services that help ensure your facility continues to perform optimally throughout its operational life, maintaining the investment you've made in quality building plans and construction.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Warranty Services and Building Performance Monitoring</h3>
+              <p className="text-gray-600 mb-6">
+                All construction completed from our building plans is backed by comprehensive warranty programs that protect your investment. Our team provides ongoing monitoring of building systems performance and can identify potential issues before they become costly problems. This proactive approach ensures that your Tampa facility continues to operate efficiently and maintains its value over time.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Future Expansion and Renovation Planning</h3>
+              <p className="text-gray-600 mb-6">
+                As your business grows and evolves, we're available to develop building plans for expansions, renovations, and updates to your existing facility. Our familiarity with your original building plans and construction enables us to seamlessly integrate new development with existing structures, maintaining design continuity and operational efficiency.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Building System Upgrades and Modernization</h3>
+              <p className="text-gray-600 mb-6">
+                Technology and building systems continue to evolve, and our team can help you take advantage of new innovations that improve efficiency and reduce operating costs. Whether upgrading HVAC controls, integrating new security technologies, or implementing energy-saving measures, we provide the expertise needed to keep your Tampa facility at the forefront of commercial building performance.
+              </p>
+
               <div className="bg-gray-50 p-6 rounded-lg mb-8">
                 <h3 className="text-xl font-bold text-brand-green-dark mb-4">Ready to Start Your Building Plan Project?</h3>
                 <p className="text-gray-600 mb-4">
                   Contact Florida Construction Specialists today to begin the development of your custom building plans. Our team of experienced architects, engineers, and construction professionals is ready to transform your business vision into a comprehensive building plan that sets the foundation for your success in the Tampa Bay market.
                 </p>
-                <p className="text-gray-600">
+                <p className="text-gray-600 mb-4">
                   With 43 years of experience in commercial construction throughout Tampa, St. Petersburg, Clearwater, Brandon, Lakeland, and surrounding areas, we have the expertise and local knowledge to deliver exceptional building plans that exceed your expectations while staying within budget and schedule constraints.
                 </p>
+                <p className="text-gray-600">
+                  Our commitment to quality, innovation, and client satisfaction has made us the preferred choice for Tampa Bay businesses seeking exceptional building plans and construction services. Let us help you create a commercial facility that supports your business objectives while enhancing your company's professional image in the competitive Tampa Bay market.
+                </p>
               </div>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Case Studies: Successful Building Plans Across Tampa Bay Industries
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists' portfolio includes hundreds of successful commercial projects throughout the Tampa Bay area, each demonstrating our ability to create building plans that address specific industry requirements while meeting the unique challenges of Florida construction.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Medical Office Complex - Westchase</h3>
+              <p className="text-gray-600 mb-6">
+                Our building plans for a 45,000 square foot medical complex in Westchase addressed the specific requirements of multiple medical specialties while creating a unified, professional environment. The design included specialized HVAC systems for different medical functions, advanced medical gas distribution, and flexible floor plans that could adapt to changing tenant needs. The project was completed on schedule and has become a landmark medical facility serving the rapidly growing Westchase community.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Corporate Headquarters - Downtown Tampa</h3>
+              <p className="text-gray-600 mb-6">
+                A 120,000 square foot corporate headquarters in downtown Tampa required building plans that maximized the use of a constrained urban site while creating an impressive corporate presence. Our design incorporated sustainable building technologies, advanced life safety systems, and flexible office layouts that support both traditional and collaborative work environments. The building achieved LEED Gold certification and has become a model for sustainable commercial development in Tampa's urban core.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Mixed-Use Development - Hyde Park</h3>
+              <p className="text-gray-600 mb-6">
+                Building plans for a mixed-use development in Hyde Park required careful integration of retail, office, and residential components while respecting the neighborhood's historic character. Our design team worked closely with the Tampa Historic Preservation Commission to develop plans that honor the area's architectural heritage while incorporating modern amenities and sustainable building practices. The project has become a successful example of sensitive urban infill development.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Manufacturing Facility - East Tampa</h3>
+              <p className="text-gray-600 mb-6">
+                A 200,000 square foot manufacturing facility required building plans that optimized production workflow while meeting strict environmental and safety requirements. Our design incorporated advanced ventilation systems, specialized flooring for heavy equipment, and flexible utility distribution that allows for future production line reconfiguration. The facility has become a model for efficient manufacturing operations in the Tampa Bay region.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Regional Expertise: Tampa Bay's Unique Construction Landscape
+              </h2>
+              <p className="text-gray-600 mb-6">
+                The Tampa Bay region's diverse geography, from coastal areas to inland suburbs, presents unique challenges and opportunities for commercial building development. Florida Construction Specialists' deep regional expertise ensures that building plans are optimized for specific local conditions and regulatory requirements.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Coastal Construction Considerations</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial buildings near Tampa Bay and the Gulf of Mexico require specialized building plans that address saltwater corrosion, coastal flooding, and hurricane exposure. Our team has extensive experience with marine-grade materials, elevated construction techniques, and coastal engineering requirements. We understand the complex permitting requirements for coastal development and work closely with environmental agencies to ensure project approval and long-term environmental compatibility.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Urban Redevelopment Opportunities</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's ongoing urban revitalization creates opportunities for adaptive reuse and urban infill projects that require specialized building planning expertise. Our team has extensive experience with brownfield redevelopment, historic renovation, and urban density projects that maximize development potential while contributing to neighborhood revitalization. We understand the complex regulatory environment of urban redevelopment and can navigate the approval processes efficiently.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Suburban Business Park Development</h3>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay's suburban areas offer excellent opportunities for business park and office campus development. Our building plans for suburban commercial projects emphasize efficient site utilization, attractive landscaping, and convenient access to major transportation corridors. We understand the importance of creating professional business environments that attract quality tenants and support long-term property value appreciation.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Building Code Expertise and Regulatory Navigation
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida's building codes are among the most stringent in the nation, reflecting the state's unique weather challenges and commitment to public safety. Florida Construction Specialists' building plan development process incorporates comprehensive code compliance analysis to ensure smooth permitting and construction approval.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Florida Building Code Compliance</h3>
+              <p className="text-gray-600 mb-6">
+                Our building plans exceed Florida Building Code requirements in key areas such as wind resistance, flood protection, and energy efficiency. We stay current with code updates and participate in industry organizations that influence code development. This expertise enables us to anticipate regulatory changes and incorporate advanced standards that may become requirements in future code cycles.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Local Tampa Ordinances and Requirements</h3>
+              <p className="text-gray-600 mb-6">
+                Beyond state requirements, Tampa and surrounding municipalities have specific ordinances that affect commercial building development. Our team maintains current knowledge of local landscape requirements, parking standards, setback regulations, and architectural guidelines. We work proactively with local planning departments to ensure that building plans meet all applicable requirements before formal submission.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Environmental Permitting and Compliance</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial development in the Tampa Bay area often requires environmental permits and compliance with wetland protection, stormwater management, and air quality regulations. Our building plan development process includes early coordination with environmental consultants and regulatory agencies to identify potential issues and develop compliant solutions. This proactive approach minimizes permitting delays and ensures successful project approval.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Partnership Network and Professional Relationships
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists has cultivated strong professional relationships throughout the Tampa Bay construction and development community over our 43-year history. These partnerships enhance our ability to deliver exceptional building plans and construction services while providing clients with access to the region's best professional resources.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Architectural and Engineering Partners</h3>
+              <p className="text-gray-600 mb-6">
+                We collaborate with Tampa Bay's leading architectural and engineering firms to ensure that building plans reflect the latest design trends and technical innovations. Our partner network includes specialists in healthcare design, corporate architecture, retail environments, and industrial facilities. This collaboration enables us to provide comprehensive building plan services while leveraging specialized expertise for unique project requirements.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Technology and Innovation Partners</h3>
+              <p className="text-gray-600 mb-6">
+                Our partnerships with technology companies and innovation centers keep us at the forefront of building automation, sustainable design, and construction technology. We work with leading vendors to incorporate the latest smart building technologies, energy management systems, and construction methodologies into our building plans. These partnerships ensure that Tampa Bay businesses have access to the most advanced building technologies available.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Financial and Development Partners</h3>
+              <p className="text-gray-600 mb-6">
+                We maintain relationships with regional banks, development finance institutions, and real estate professionals who understand the Tampa Bay commercial market. These partnerships can provide clients with access to competitive financing options and market insights that support informed decision-making during the building plan development process.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Your Tampa Bay Commercial Success Starts with Exceptional Building Plans
+              </h2>
+              <p className="text-gray-600 mb-6">
+                The foundation of every successful commercial project is a comprehensive, well-designed building plan that addresses both current needs and future opportunities. Florida Construction Specialists combines four decades of Tampa Bay construction expertise with innovative design approaches and advanced technology to create building plans that set the stage for business success in one of Florida's most dynamic markets.
+              </p>
+              <p className="text-gray-600 mb-6">
+                From concept to completion, our team is committed to delivering building plans that exceed expectations while staying within budget and schedule parameters. Contact us today to begin the development of your custom commercial building plans and discover why Tampa Bay's most successful businesses choose Florida Construction Specialists for their construction and development needs.
+              </p>
 
           </div>
         </div>

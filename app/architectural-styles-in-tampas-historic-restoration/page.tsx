@@ -326,13 +326,232 @@ export default function Page() {
                   <h3 className="font-bold text-brand-green-dark mb-2">Are there resources for learning more about Tampa&apos;s architectural history?</h3>
                   <p className="text-gray-600">Tampa Preservation, Inc. offers tours and educational programming. The Ybor City Museum State Park interprets the district&apos;s history, including architectural heritage. The Tampa-Hillsborough County Public Library maintains local history collections. The University of South Florida&apos;s Florida Studies Center provides academic resources on Florida architecture and preservation.</p>
                 </div>
+                
+                <div className="border-l-4 border-brand-green pl-4">
+                  <h3 className="font-bold text-brand-green-dark mb-2">What is the difference between restoration, rehabilitation, and reconstruction?</h3>
+                  <p className="text-gray-600">The Secretary of Interior Standards define four treatment approaches: Preservation (maintaining existing materials), Restoration (returning to appearance at specific time period), Rehabilitation (adapting for contemporary use while preserving character), and Reconstruction (recreating non-surviving buildings). Most Tampa projects involve rehabilitation, which allows more flexibility for contemporary adaptations while requiring preservation of character-defining features.</p>
+                </div>
+                
+                <div className="border-l-4 border-brand-green pl-4">
+                  <h3 className="font-bold text-brand-green-dark mb-2">How do architectural styles affect property values in Tampa&apos;s historic districts?</h3>
+                  <p className="text-gray-600">Well-maintained historic properties often command premium prices due to their unique character, walkable neighborhood locations, and architectural distinction. Mediterranean Revival and other elaborate styles typically have higher market appeal, while vernacular buildings offer more affordable entry points into historic districts. Proper restoration enhances value, while inappropriate alterations can diminish both marketability and eligibility for preservation incentives.</p>
+                </div>
               </div>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Mission Revival and Pueblo Revival: Regional Variations
+              </h2>
+              <p className="text-gray-600 mb-6">
+                While less common in Tampa than Mediterranean Revival, Mission Revival and Pueblo Revival styles appear in scattered buildings throughout the city, often representing Florida's broader connection to southwestern American architectural traditions. These styles reflect the early 20th-century romantic interpretation of Spanish colonial and Native American architectural forms.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Character-Defining Features
+              </h3>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Mission Revival:</strong> Distinctive curved parapet gables, bell towers, red tile roofs, and arcade passages</li>
+                <li><strong>Pueblo Revival:</strong> Flat roofs with parapets, vigas (exposed wooden roof beams), stucco walls, and stepped massing</li>
+                <li><strong>Minimal ornamentation:</strong> Emphasis on form and massing rather than decorative details</li>
+                <li><strong>Earth-tone color palettes:</strong> Natural colors that reflect regional building traditions</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Art Deco and Art Moderne: Depression Era Modernism
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Tampa's Art Deco and Art Moderne buildings, primarily from the 1930s and 1940s, represent the city's participation in nationwide architectural modernization movements. These streamlined styles reflected optimism about technology and progress during the challenging Depression era.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Character-Defining Features
+              </h3>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Art Deco:</strong> Geometric patterns, zigzag motifs, stylized ornamental elements, and vertical emphasis</li>
+                <li><strong>Art Moderne:</strong> Horizontal lines, curved corners, smooth wall surfaces, and minimal ornamentation</li>
+                <li><strong>Metal windows:</strong> Steel casement windows with simple geometric patterns</li>
+                <li><strong>Terrazzo floors:</strong> Decorative concrete flooring with geometric patterns</li>
+                <li><strong>Neon signage:</strong> Integrated electric signage as architectural elements</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Notable Tampa Examples
+              </h3>
+              <p className="text-gray-600 mb-6">
+                The <strong>Franklin Exchange Building</strong> downtown showcases Art Deco verticality and ornamental details, while several Streamline Moderne commercial buildings along North Dale Mabry Highway demonstrate the style's automotive-age aesthetic. These buildings require specialized restoration approaches for their characteristic metal windows, terrazzo work, and architectural lighting.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Material-Specific Restoration Techniques
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Each architectural style utilizes specific materials and construction methods that require specialized restoration approaches. Understanding these technical requirements is essential for successful preservation projects.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Historic Masonry Restoration
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's historic buildings feature diverse masonry types requiring different restoration approaches:
+              </p>
+              
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Handmade Brick:</strong> Common in Ybor City structures, often requiring custom replacement bricks fired to match original size and color variations</li>
+                <li><strong>Ocala Limestone:</strong> Local limestone used in many early buildings, requiring specialized cleaning and pointing techniques</li>
+                <li><strong>Cast Concrete:</strong> Early 20th-century reinforced concrete requiring evaluation of steel reinforcement condition and appropriate patching compounds</li>
+                <li><strong>Terra Cotta:</strong> Glazed and unglazed architectural terra cotta requiring specialized conservation treatments and potential kiln-fired replacements</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Historic Stucco and Plaster Systems
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Mediterranean Revival buildings rely heavily on historic stucco systems that differ significantly from modern synthetic alternatives. Traditional three-coat lime-based plaster systems provide superior performance in Florida's climate but require skilled craftsmen for proper application and repair. Key considerations include:
+              </p>
+              
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Lime Mortars:</strong> Traditional lime-based mortars provide flexibility and breathability essential for historic masonry</li>
+                <li><strong>Hair Reinforcement:</strong> Horsehair or other organic fibers used in historic plaster systems</li>
+                <li><strong>Aggregate Sources:</strong> Local sand and aggregates that match the original texture and color</li>
+                <li><strong>Curing Requirements:</strong> Slow carbonation process requiring proper moisture management during application</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Wood Conservation and Millwork Restoration
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Florida's historic buildings feature extensive use of heart pine lumber and ornamental millwork. Restoration challenges include:
+              </p>
+              
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Species Identification:</strong> Matching wood species for repairs (longleaf pine, cypress, mahogany for trim work)</li>
+                <li><strong>Growth Characteristics:</strong> Old-growth lumber characteristics that affect repair material selection</li>
+                <li><strong>Termite Damage:</strong> Assessment and repair of termite damage common in Florida's climate</li>
+                <li><strong>Paint Analysis:</strong> Identifying historic paint colors and addressing lead paint safely</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Architectural Evolution in Tampa's Historic Districts
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Tampa's architectural character reflects distinct periods of development, each adding layers to the city's built environment. Understanding this evolution helps inform appropriate restoration approaches for buildings from different eras.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Pioneer Era (1880s-1900)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Tampa's earliest surviving structures reflect rapid frontier development and adaptation to Florida's climate. The <strong>Oak Lawn</strong> (1840s) and scattered vernacular buildings demonstrate simple forms, local materials, and practical approaches to subtropical building. These structures often feature balloon frame construction, board-and-batten siding, and minimal ornamentation focused on functional elements like deep overhangs and raised foundations.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Cigar Industry Boom (1900-1920)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                The cigar industry's prosperity created Ybor City's distinctive architectural character. This period saw construction of elaborate social clubs, worker housing, cigar factories, and commercial buildings that combined European architectural traditions with practical Florida adaptations. The <strong>Centro Asturiano</strong> (1914), with its Neo-Classical facade and institutional grandeur, exemplifies this period's architectural ambition.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Florida Land Boom (1920s)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                The 1920s Florida Land Boom brought Mediterranean Revival style to its peak in Tampa. This period produced the city's most elaborate historic buildings, including the <strong>Tampa Theatre</strong>, numerous Hyde Park commercial buildings, and grand residences throughout exclusive neighborhoods. The economic optimism of this era supported elaborate architectural fantasies that define much of Tampa's tourist image today.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Depression and War Years (1930s-1940s)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Economic constraints and changing aesthetic preferences brought simpler, more streamlined architectural styles. WPA projects introduced stripped classical and early modern elements. Military construction during World War II emphasized functional efficiency. Buildings from this period often feature simplified classical details and early modern materials like steel windows and terrazzo floors.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Case Study: Restoration by Architectural Style
+              </h2>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Mediterranean Revival: The Tampa Theatre (1926)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                The Tampa Theatre's recent restoration demonstrates the complexity of preserving atmospheric theaters. The project required specialized conservation of decorative plaster, restoration of original lighting systems, upgrading projection and sound equipment while maintaining historic character, and implementing accessibility improvements. The restoration team documented original decorative schemes, sourced appropriate materials for plaster repair, and integrated modern systems without compromising the theater's romantic Mediterranean atmosphere.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Industrial Architecture: Cigar Factory Adaptive Reuse
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Converting historic cigar factories requires addressing structural systems designed for manufacturing loads, large open floor plates ideal for contemporary office or residential use, and massive masonry construction requiring careful window and door modifications. Successful projects preserve character-defining features like exposed brick walls, heavy timber framing, and industrial windows while accommodating modern HVAC, electrical, and life safety systems.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Vernacular Architecture: Casita Rehabilitation
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Restoring Ybor City casitas presents unique challenges due to their modest construction and decades of incremental modifications. Typical projects involve foundation stabilization, structural reinforcement, window and door restoration, porch reconstruction, and careful removal of inappropriate additions. The goal is preserving the simple dignity of worker housing while meeting contemporary living standards.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Advanced Technical Considerations
+              </h2>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Structural Analysis for Historic Buildings
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Each architectural style presents specific structural considerations:
+              </p>
+              
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li><strong>Mediterranean Revival:</strong> Stucco-clad masonry walls requiring assessment of underlying structure and stucco adhesion</li>
+                <li><strong>Industrial Buildings:</strong> Heavy timber or early concrete framing with potential for deteriorated connections and overloaded members</li>
+                <li><strong>Vernacular Frame:</strong> Balloon frame construction vulnerable to termite damage and foundation settlement</li>
+                <li><strong>Art Deco/Moderne:</strong> Steel frame construction with potential for corrosion in Florida's humid climate</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Climate Control in Historic Buildings
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Florida's subtropical climate presents unique challenges for preserving historic building materials. Effective climate control strategies include understanding vapor permeability of historic wall systems, managing humidity levels to prevent condensation within wall assemblies, providing appropriate ventilation for enclosed spaces, and protecting historic materials from UV damage through window treatments or film applications.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Integration of Modern Systems
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Successfully integrating contemporary mechanical, electrical, and plumbing systems requires understanding each style's character-defining features and available concealment opportunities. Solutions often involve utilizing existing utility chases, concealing equipment in non-historic additions, routing systems through non-character-defining spaces, and designing reversible interventions when possible.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Quality Control and Craftsmanship Standards
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Historic restoration demands higher craftsmanship standards than typical construction. Our quality control processes include detailed documentation of existing conditions, regular preservation consultant reviews, testing of restoration materials for compatibility and performance, and photographic documentation of work progress for federal tax credit compliance.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+                Craftsmen Training and Specialization
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Florida Construction Specialists maintains relationships with craftspeople trained in traditional building trades essential for authentic restoration. Our network includes specialists in lime-based plastering, masonry conservation, wood restoration and repair, decorative painting and gilding, metalwork restoration, and clay tile roofing systems. This expertise ensures restoration work meets both technical performance and aesthetic standards.
+              </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Expert Historic Restoration Services
               </h2>
               <p className="text-gray-600 mb-6">
                 Understanding architectural style is fundamental to successful historic restoration. Whether your project involves a Mediterranean Revival landmark, a vernacular casita, or an industrial cigar factory, Florida Construction Specialists brings the expertise to preserve what matters while adapting your building for contemporary use.
+              </p>
+              
+              <p className="text-gray-600 mb-6">
+                Our comprehensive approach encompasses architectural assessment, material analysis, regulatory compliance, skilled craftsmanship, and quality assurance. We understand that each architectural style presents unique challenges and opportunities—knowledge essential for restoration projects that satisfy preservation standards while meeting contemporary functional requirements.
+              </p>
+              
+              <p className="text-gray-600 mb-6">
+                From Mediterranean Revival grandeur to vernacular simplicity, Tampa's architectural heritage reflects the stories of the people who built and inhabited these structures. Our restoration work honors these stories while ensuring these buildings continue serving our community for generations to come. Every project presents an opportunity to preserve irreplaceable craftsmanship and architectural artistry that cannot be replicated in contemporary construction.
+              </p>
+              
+              <p className="text-gray-600 mb-6">
+                Whether you're restoring a single-family historic home or managing a complex commercial rehabilitation project, understanding architectural style provides the foundation for making informed preservation decisions. Contact Florida Construction Specialists to ensure your project receives the specialized expertise these remarkable buildings deserve.
               </p>
               
               <p className="text-gray-600 mb-6">

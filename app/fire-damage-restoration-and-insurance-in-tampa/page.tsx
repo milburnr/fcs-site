@@ -74,7 +74,15 @@ export default function Page() {
                 Commercial fire damage presents unique challenges that go beyond simply repairing burned areas. Smoke infiltrates HVAC systems, soot damages electronics and inventory, and water from fire suppression creates secondary damage requiring immediate attention. For Tampa Bay commercial property owners—whether you operate an office building, retail center, warehouse, or industrial facility—understanding the restoration process and insurance claim requirements is essential for complete recovery.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides comprehensive fire damage restoration services throughout Tampa, St. Petersburg, Clearwater, and the greater Hillsborough County area. Our integrated approach addresses structural repairs, smoke and odor remediation, contents restoration, and the detailed documentation that supports successful insurance claims.
+                Florida Construction Specialists provides comprehensive fire damage restoration services throughout Tampa, St. Petersburg, Clearwater, and the greater Hillsborough County area. Our integrated approach addresses structural repairs, smoke and odor remediation, contents restoration, and the detailed documentation that supports successful insurance claims. With 43 years of experience working both sides of insurance claims – as contractors advocating for fair settlements and as consultants advising insurance companies on appropriate scope and pricing – we bring unparalleled insight to fire damage restoration and insurance negotiations.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our dual perspective in the insurance industry gives us unique understanding of how fire damage claims are evaluated, what documentation adjusters require, and how to position restoration estimates for maximum coverage. We know exactly what insurance companies expect to see in fire restoration claims and ensure every aspect of our work supports successful insurance recovery while delivering superior restoration results that exceed pre-loss conditions.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Fire damage in Tampa Bay requires specialized knowledge of regional challenges including high humidity that accelerates corrosion, salt air that affects coastal properties, and building codes that may require upgrades during restoration. Our decades of local experience enable us to anticipate and address these factors while navigating insurance coverage provisions that maximize available benefits for our commercial clients.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -247,20 +255,173 @@ export default function Page() {
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Types of Commercial Fires and Their Unique Restoration Challenges
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Different types of commercial fires create distinct damage patterns that require specialized restoration approaches. Understanding these differences is critical for developing effective restoration strategies and supporting accurate insurance claims that reflect the true scope of damage and restoration requirements.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Electrical Fire Damage and Electronic Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Electrical fires are common in commercial properties due to aging wiring, overloaded circuits, and extensive electronic equipment. These fires often produce fine, pervasive soot that infiltrates sensitive electronic systems and requires specialized cleaning techniques. The restoration process must address both visible fire damage and hidden contamination of electrical systems that could cause future failures or safety hazards.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our electrical fire restoration protocol includes comprehensive testing of all electrical systems, specialized cleaning of electronic equipment, and coordination with electrical contractors and equipment manufacturers to ensure proper restoration. Insurance claims for electrical fires often involve complex technical documentation that our experience helps property owners navigate successfully.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Kitchen and Restaurant Fire Damage</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial kitchen fires produce protein-based smoke and grease residues that create some of the most challenging odor and cleaning problems in fire restoration. The high-temperature environment of commercial cooking equipment can also cause extensive damage to expensive specialized equipment and ventilation systems that require expert assessment and restoration.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Restaurant fire restoration requires coordination with health departments, specialized equipment manufacturers, and commercial kitchen designers to ensure compliance with food safety regulations and industry standards. Our experience with commercial kitchen restoration helps restaurant owners navigate insurance claims that often involve business interruption coverage and equipment replacement costs.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Chemical and Hazmat Fire Incidents</h3>
+              <p className="text-gray-600 mb-6">
+                Industrial properties and certain commercial facilities may experience fires involving hazardous chemicals that create contamination risks beyond normal fire damage. These incidents require specialized assessment, containment, and cleanup procedures that comply with environmental regulations while protecting worker safety and public health.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Chemical fire restoration involves coordination with environmental agencies, specialized cleanup contractors, and industrial hygienists to ensure proper contamination assessment and cleanup. Insurance coverage for chemical fires often involves environmental liability provisions and specialized coverage that requires expert documentation and claims handling.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Advanced Fire Damage Assessment and Documentation
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Professional fire damage assessment goes far beyond obvious visual damage to identify hidden problems that could affect long-term building performance and safety. Our comprehensive assessment protocols have been developed through 43 years of experience and incorporate advanced technologies that reveal damage patterns invisible to conventional inspection methods.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Thermal Imaging and Heat Damage Detection</h3>
+              <p className="text-gray-600 mb-6">
+                Thermal imaging cameras reveal heat damage patterns, hidden moisture, and structural compromises that aren't visible through conventional inspection. Heat damage can weaken structural members without obvious external signs, creating safety risks and restoration challenges that must be identified and addressed during the assessment process.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our thermal imaging documentation provides insurance adjusters with scientific evidence of damage extent while identifying restoration requirements that might otherwise be missed. This comprehensive approach often reveals additional covered damage that significantly increases claim values while ensuring complete restoration.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Air Quality and Contamination Testing</h3>
+              <p className="text-gray-600 mb-6">
+                Fire damage creates airborne contaminants including particulates, chemical residues, and combustion byproducts that can pose health risks and require specialized remediation. Professional air quality testing identifies contamination levels and establishes baseline conditions for effective cleanup and safety verification.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Air quality documentation is essential for insurance claims involving health hazards and business interruption, providing objective evidence of contamination that supports coverage for specialized cleaning, temporary relocation, and business impact costs. Our certified testing protocols ensure accurate measurement and proper documentation for insurance purposes.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Structural Engineering Assessment</h3>
+              <p className="text-gray-600 mb-6">
+                Fire damage can compromise structural integrity through heat damage to steel beams, concrete spalling, and thermal shock to structural components. Professional structural engineering assessment identifies safety concerns, determines repair requirements, and provides documentation needed for building permits and insurance approvals.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our coordination with licensed structural engineers ensures that fire-damaged buildings are properly evaluated and restored to meet current building code requirements. Structural engineering reports provide crucial documentation for insurance claims involving building code upgrades and safety improvements required by local authorities.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Insurance Claims Strategy for Commercial Fire Damage
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Successful commercial fire insurance claims require strategic planning that maximizes available coverage while ensuring compliance with policy requirements. Our 43 years of experience working both sides of insurance claims provides unique insight into how adjusters evaluate fire damage and what documentation produces optimal outcomes.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Building Coverage Optimization</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial property insurance building coverage includes not only fire-damaged structures but also improvements, fixtures, and building systems that may be affected by smoke and heat. Understanding coverage definitions and ensuring complete damage documentation helps maximize building coverage while avoiding disputes over covered versus excluded items.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our experience with building coverage interpretation helps commercial property owners understand their coverage and develop restoration strategies that access maximum benefits. We provide detailed documentation that supports building coverage claims while identifying opportunities for code upgrade coverage and improvement provisions.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Business Interruption and Extra Expense Claims</h3>
+              <p className="text-gray-600 mb-6">
+                Business interruption coverage compensates for lost income during restoration periods, while extra expense coverage pays for costs to minimize business disruption. These coverages are critical for commercial fire claims but require careful documentation of loss calculations, alternative operating expenses, and restoration timelines.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our project management expertise helps develop realistic restoration timelines that support business interruption claims while identifying extra expense opportunities including temporary facilities, expedited material delivery, and overtime labor costs. Proper documentation of these costs often exceeds the additional premiums by substantial margins.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Ordinance and Law Coverage Applications</h3>
+              <p className="text-gray-600 mb-6">
+                When commercial fire restoration triggers building code upgrades, ordinance and law coverage can provide additional insurance benefits for required improvements. Understanding local building code requirements and insurance policy provisions helps maximize this valuable coverage that many property owners overlook.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our coordination with local building officials and code specialists ensures that ordinance and law requirements are properly documented and presented to insurance companies in formats they understand and approve. This coverage often provides substantial additional benefits that improve building performance while reducing out-of-pocket upgrade costs.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Specialized Equipment and Technology for Fire Restoration
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Modern fire restoration relies on sophisticated equipment and techniques that enable effective cleanup, contamination removal, and damage documentation under challenging conditions. Our investment in advanced restoration technology ensures optimal results while providing documentation that supports successful insurance claims.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Industrial Cleaning and Decontamination Equipment</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial fire restoration requires industrial-grade cleaning equipment capable of handling large areas, heavy contamination, and specialized materials. Our equipment inventory includes HEPA filtration systems, industrial washing equipment, and specialized chemical application systems designed for commercial-scale restoration projects.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Professional-grade equipment enables efficient restoration while maintaining quality standards that ensure complete contamination removal and proper surface preparation for reconstruction. This equipment investment translates directly into faster restoration timelines and superior results that minimize business interruption and maximize restoration value.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Advanced Odor Control Technologies</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial properties require comprehensive odor control that addresses contamination throughout large spaces, complex HVAC systems, and diverse material types. Advanced odor control technologies including hydroxyl generators, ozone systems, and thermal fogging equipment provide effective treatment for the most challenging commercial odor problems.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our odor control expertise includes understanding when different technologies are appropriate, safety protocols for occupied buildings, and verification testing that documents successful odor elimination for insurance and regulatory compliance. Proper odor control prevents long-term problems that could compromise business operations and property value.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Environmental Monitoring and Documentation Systems</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial fire restoration requires comprehensive environmental monitoring that tracks contamination levels, documents cleanup progress, and verifies safe conditions for occupancy. Our monitoring systems provide real-time data collection and scientific documentation that supports insurance claims and regulatory compliance requirements.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Environmental documentation is particularly important for commercial properties where employee safety, customer exposure, and regulatory compliance create liability concerns beyond basic restoration requirements. Professional monitoring provides the objective evidence needed to demonstrate complete restoration and safe occupancy conditions.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Contents Restoration: Saving Business Assets
               </h2>
               <p className="text-gray-600 mb-6">
-                Commercial contents restoration can save significant money compared to replacement. Specialized cleaning and restoration techniques can salvage:
+                Commercial contents restoration can save significant money compared to replacement while reducing business interruption through faster restoration of essential equipment and inventory. Specialized cleaning and restoration techniques can salvage valuable business assets that might otherwise be considered total losses.
               </p>
-              <ul className="list-disc pl-6 mb-6 text-gray-600">
-                <li className="mb-2"><strong>Electronics and computers:</strong> Ultrasonic cleaning removes soot without damaging components</li>
-                <li className="mb-2"><strong>Documents and records:</strong> Freeze-drying and cleaning recovers critical business documents</li>
-                <li className="mb-2"><strong>Inventory:</strong> Many products can be cleaned and deodorized rather than replaced</li>
-                <li className="mb-2"><strong>Furniture and fixtures:</strong> Professional restoration often costs 40-60% of replacement</li>
-                <li className="mb-2"><strong>Artwork and specialty items:</strong> Expert conservation preserves irreplaceable items</li>
-              </ul>
+              
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Electronic Equipment and Computer Systems</h3>
               <p className="text-gray-600 mb-6">
-                Proper contents restoration reduces claim costs while returning your business assets to usable condition faster than waiting for replacements.
+                Commercial electronic equipment requires specialized restoration techniques that remove smoke contamination without damaging sensitive components. Ultrasonic cleaning, chemical decontamination, and protective treatments can restore electronic systems to full functionality at costs significantly below replacement while maintaining manufacturer warranties.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Our electronics restoration partnerships include authorized service centers and manufacturers who can provide warranty-compliant restoration services that maintain equipment reliability and support. Professional electronics restoration often costs 30-50% of replacement while providing faster return to service than ordering new equipment.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Document and Data Recovery Services</h3>
+              <p className="text-gray-600 mb-6">
+                Critical business documents, records, and data storage media can often be recovered through specialized restoration techniques including freeze-drying, decontamination, and digital recovery services. These services preserve irreplaceable business information while reducing the cost and disruption of document recreation.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Document restoration expertise includes understanding which materials can be successfully restored, proper handling procedures that prevent additional damage, and coordination with legal and regulatory requirements for business records retention. Professional document restoration often saves months of recreation time and prevents permanent loss of critical business information.
+              </p>
+
+              <h3 className="text-lg font-semibold text-gray-800 mb-3">Inventory and Product Restoration</h3>
+              <p className="text-gray-600 mb-6">
+                Commercial inventory damaged by smoke, soot, or water can often be restored through specialized cleaning processes that return products to saleable condition. Professional inventory assessment identifies salvageable items and develops appropriate restoration procedures that meet industry standards and regulatory requirements.
+              </p>
+
+              <p className="text-gray-600 mb-6">
+                Inventory restoration requires understanding of industry-specific standards, regulatory compliance requirements, and customer acceptance criteria that vary by product type and market segment. Professional restoration can often salvage 40-70% of smoke-damaged inventory while providing documentation that supports insurance claims for total loss items.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

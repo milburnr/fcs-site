@@ -319,16 +319,266 @@ export default function Page() {
                 Regular drone flights provide accurate progress documentation and enable early identification of potential issues. Aerial photography and video documentation create permanent records of construction progress and can identify discrepancies between planned and actual progress. This technology is particularly valuable for large Tampa commercial projects where traditional oversight methods may miss developing problems.
               </p>
 
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Managing Subcontractor-Related Delays
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Subcontractor performance issues represent a significant source of construction delays in Tampa's competitive market. Labor shortages, scheduling conflicts, and quality problems can cascade through project schedules, affecting multiple trades and completion deadlines.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Rigorous Subcontractor Selection</h3>
+              <p className="text-gray-600 mb-6">
+                Our subcontractor qualification process evaluates technical capabilities, financial stability, safety records, and schedule performance history. We maintain detailed performance databases tracking subcontractor reliability, quality metrics, and schedule compliance across multiple projects. This data-driven approach enables informed selection decisions that reduce delay risk.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Performance Monitoring and Early Intervention</h3>
+              <p className="text-gray-600 mb-6">
+                Daily productivity monitoring identifies subcontractor performance issues before they impact critical path activities. Our project management system tracks labor productivity, material usage, and quality metrics in real-time, enabling early intervention when performance declines. Regular subcontractor meetings address emerging issues and maintain focus on schedule compliance.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Backup Plans and Resource Flexibility</h3>
+              <p className="text-gray-600 mb-6">
+                For critical path activities, we maintain relationships with backup subcontractors who can mobilize quickly if primary contractors encounter problems. Cross-training among trades and flexible work arrangements enable resource reallocation when schedule pressures develop. This redundancy provides schedule insurance against subcontractor-related delays.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Financial Management to Prevent Schedule Delays
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Financial problems—whether affecting owners, contractors, or subcontractors—can quickly derail construction schedules. Proactive financial management and monitoring help prevent money-related delays that often devastate project timelines.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Cash Flow Management</h3>
+              <p className="text-gray-600 mb-6">
+                Construction projects require careful cash flow management to maintain steady progress and avoid payment delays that slow work. Our project accounting system provides real-time cash flow forecasting, enabling proactive management of funding requirements. We work closely with clients to optimize payment schedules and ensure adequate funding throughout construction.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Subcontractor Financial Monitoring</h3>
+              <p className="text-gray-600 mb-6">
+                Financial stress among subcontractors often manifests as schedule delays before becoming obvious payment issues. We monitor subcontractor financial health through payment patterns, crew size changes, and material ordering behaviors. Early identification of financial problems enables intervention or contractor substitution before schedule impacts occur.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Lien Prevention and Payment Security</h3>
+              <p className="text-gray-600 mb-6">
+                Lien claims can halt construction and create significant delays while legal issues are resolved. Our comprehensive lien prevention program includes proper notice procedures, lien waiver management, and payment bond requirements. This proactive approach prevents payment disputes from disrupting construction schedules.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Quality Control to Prevent Rework Delays
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Quality problems requiring rework represent one of the most expensive and disruptive sources of construction delays. Our quality management system emphasizes prevention over correction, identifying and resolving issues before they require costly remediation.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Integrated Quality Planning</h3>
+              <p className="text-gray-600 mb-6">
+                Quality requirements are integrated into construction planning from project inception. Material specifications, installation standards, and testing requirements are clearly defined and communicated to all trades. Pre-installation meetings ensure understanding of quality expectations and prevent costly mistakes.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Real-Time Quality Inspection</h3>
+              <p className="text-gray-600 mb-6">
+                Our quality control inspectors work alongside construction crews, identifying and correcting problems immediately rather than discovering them during final inspections. Mobile inspection tools enable instant documentation and immediate corrective action. This real-time approach prevents quality problems from accumulating and requiring major rework.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Continuous Improvement Processes</h3>
+              <p className="text-gray-600 mb-6">
+                Post-project reviews analyze quality issues and their schedule impacts, identifying opportunities for process improvement. Lessons learned are incorporated into future project planning, continuously improving our ability to prevent quality-related delays. This systematic approach has reduced our rework rates by 60% over the past decade.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Client Decision Management to Prevent Delays
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Owner decision delays often represent the most challenging schedule risks because they're outside contractor control but can significantly impact project timelines. Proactive decision management helps clients understand decision deadlines and consequences.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Decision Scheduling and Tracking</h3>
+              <p className="text-gray-600 mb-6">
+                Our project management system identifies all required owner decisions and their schedule dependencies. Decision deadlines are clearly communicated with sufficient lead time for proper evaluation. Regular decision status meetings ensure clients understand upcoming choices and their schedule implications.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Information Management and Recommendations</h3>
+              <p className="text-gray-600 mb-6">
+                We provide clients with comprehensive information and professional recommendations for all significant decisions. Cost implications, schedule impacts, and quality considerations are clearly presented to enable informed choices. Our goal is facilitating timely decisions rather than pushing particular solutions.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Contingency Planning for Decision Delays</h3>
+              <p className="text-gray-600 mb-6">
+                When client decisions are delayed, we implement contingency plans that maintain construction progress where possible. Alternative work sequences, temporary solutions, and delayed decision points help minimize schedule impacts while clients finalize their choices.
+              </p>
+
               <div className="bg-gray-50 p-6 rounded-lg mb-8">
                 <h3 className="text-xl font-bold text-brand-green-dark mb-4">Partnering with FCS for On-Time Project Delivery</h3>
                 <p className="text-gray-600 mb-4">
                   Florida Construction Specialists' comprehensive approach to delay prevention and management has resulted in an industry-leading on-time completion rate of 94% for Tampa commercial projects over the past five years. Our systematic methodology, advanced technology, and deep local expertise provide clients with confidence that their projects will be completed on schedule and within budget.
+                </p>
+                <p className="text-gray-600 mb-4">
+                  Our 43 years of experience in the Tampa Bay market has taught us that successful schedule management requires understanding local conditions, building strong relationships, and maintaining focus on proactive problem-solving. We don't just react to delays—we anticipate them and implement prevention strategies that keep projects moving forward.
                 </p>
                 <p className="text-gray-600">
                   Contact Florida Construction Specialists today to learn how our delay prevention strategies can benefit your Tampa commercial construction project. Our team is ready to develop a customized approach that addresses your specific schedule requirements and risk factors while delivering exceptional quality and value.
                 </p>
               </div>
 
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-center text-brand-green-dark mb-12 font-heading">
+            Real Projects: How We Prevented and Managed Delays
+          </h2>
+          <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+                Hurricane Ian Response - Medical Facility
+              </h3>
+              <div className="space-y-4 text-gray-600">
+                <p><span className="font-semibold">Project:</span> 25,000 SF medical office building in South Tampa scheduled to complete November 2022.</p>
+                <p><span className="font-semibold">Challenge:</span> Hurricane Ian made landfall in late September 2022, causing 2-week construction shutdown and material delivery delays.</p>
+                <p><span className="font-semibold">Our Response:</span> Pre-positioned emergency supplies, secured site within 24 hours post-storm, activated backup material suppliers from Georgia, deployed additional crews for recovery work.</p>
+                <p><span className="font-semibold">Result:</span> Project completed only 5 days behind original schedule despite major hurricane impact. Early tenant occupancy maintained medical practice continuity.</p>
+                <div className="bg-brand-green/10 rounded-lg p-4 mt-4">
+                  <p className="font-semibold text-brand-green-dark">Delay Minimization: 9 days saved through rapid response</p>
+                  <p className="font-semibold text-brand-green-dark">Key Success Factor: Hurricane preparedness planning</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+                Permitting Challenge - Downtown Tampa Office
+              </h3>
+              <div className="space-y-4 text-gray-600">
+                <p><span className="font-semibold">Project:</span> 75,000 SF office renovation requiring multiple agency approvals including historic preservation review.</p>
+                <p><span className="font-semibold">Challenge:</span> Initial permit submission rejected due to historic district requirements not identified in early planning.</p>
+                <p><span className="font-semibold">Our Response:</span> Engaged preservation architect, coordinated with Tampa Historic Preservation Commission, developed compliant design solutions, ran parallel approval processes.</p>
+                <p><span className="font-semibold">Result:</span> Recovered 4 weeks through parallel processing and expedited review. Project completed on time with enhanced historic character.</p>
+                <div className="bg-brand-green/10 rounded-lg p-4 mt-4">
+                  <p className="font-semibold text-brand-green-dark">Recovery: 4 weeks saved through process optimization</p>
+                  <p className="font-semibold text-brand-green-dark">Key Success Factor: Local agency relationships</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+                Material Supply Crisis - Manufacturing Facility
+              </h3>
+              <div className="space-y-4 text-gray-600">
+                <p><span className="font-semibold">Project:</span> 120,000 SF manufacturing facility requiring specialized equipment and structural steel.</p>
+                <p><span className="font-semibold">Challenge:</span> Primary steel supplier experienced production shutdown, threatening 8-week delay on critical path activity.</p>
+                <p><span className="font-semibold">Our Response:</span> Activated backup supplier network, modified structural design for available sections, negotiated expedited fabrication, coordinated revised erection sequence.</p>
+                <p><span className="font-semibold">Result:</span> Steel delivery delayed only 2 weeks. Alternative design actually reduced overall project cost by $45,000.</p>
+                <div className="bg-brand-green/10 rounded-lg p-4 mt-4">
+                  <p className="font-semibold text-brand-green-dark">Delay Avoided: 6 weeks through supply flexibility</p>
+                  <p className="font-semibold text-brand-green-dark">Bonus: $45,000 cost savings from design optimization</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="bg-white rounded-xl shadow-lg p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+                Subcontractor Emergency - Retail Center
+              </h3>
+              <div className="space-y-4 text-gray-600">
+                <p><span className="font-semibold">Project:</span> 45,000 SF retail shopping center with tight holiday opening deadline.</p>
+                <p><span className="font-semibold">Challenge:</span> Primary electrical contractor experienced financial difficulties and abandoned project mid-construction in October.</p>
+                <p><span className="font-semibold">Our Response:</span> Mobilized backup electrical contractor within 48 hours, negotiated crew augmentation for accelerated installation, coordinated material transfer and inspection catch-up.</p>
+                <p><span className="font-semibold">Result:</span> Project completed 1 week ahead of holiday deadline. All retail tenants opened for Black Friday shopping season.</p>
+                <div className="bg-brand-green/10 rounded-lg p-4 mt-4">
+                  <p className="font-semibold text-brand-green-dark">Crisis Recovery: 1 week ahead of schedule</p>
+                  <p className="font-semibold text-brand-green-dark">Key Success Factor: Pre-qualified backup contractors</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technology and Tools Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading text-center">
+              Advanced Tools for Delay Prevention and Management
+            </h2>
+            <div className="prose prose-lg">
+              <p className="text-gray-600 mb-8 text-center">
+                Modern construction management requires sophisticated tools and technologies that provide real-time visibility, predictive capabilities, and rapid response to emerging challenges.
+              </p>
+
+              <div className="grid md:grid-cols-2 gap-8 mb-8">
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Project Management Systems</h3>
+                  <ul className="space-y-3 text-gray-600">
+                    <li>• Procore for integrated project management and communication</li>
+                    <li>• Microsoft Project for critical path scheduling and resource management</li>
+                    <li>• Primavera P6 for complex multi-phase project coordination</li>
+                    <li>• PlanGrid for real-time field documentation and issue tracking</li>
+                    <li>• Custom dashboards for stakeholder reporting and decision support</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Monitoring and Analytics</h3>
+                  <ul className="space-y-3 text-gray-600">
+                    <li>• WeatherBug for real-time weather monitoring and lightning detection</li>
+                    <li>• Drone surveys for progress documentation and site monitoring</li>
+                    <li>• IoT sensors for concrete monitoring and environmental conditions</li>
+                    <li>• Predictive analytics for risk identification and trend analysis</li>
+                    <li>• Mobile apps for field reporting and immediate issue escalation</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Communication Platforms</h3>
+                  <ul className="space-y-3 text-gray-600">
+                    <li>• Slack integration for instant team communication</li>
+                    <li>• Video conferencing for remote stakeholder coordination</li>
+                    <li>• Document management systems for version control</li>
+                    <li>• Mobile messaging for field crew coordination</li>
+                    <li>• Automated reporting for consistent stakeholder updates</li>
+                  </ul>
+                </div>
+                <div className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Financial Management</h3>
+                  <ul className="space-y-3 text-gray-600">
+                    <li>• Integrated accounting systems for real-time cost tracking</li>
+                    <li>• Cash flow forecasting for funding requirement planning</li>
+                    <li>• Subcontractor payment tracking and lien waiver management</li>
+                    <li>• Change order management with cost and schedule impact analysis</li>
+                    <li>• Budget variance reporting with trend analysis and forecasting</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Summary Benefits Section */}
+      <section className="section bg-brand-green-dark text-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl font-bold mb-6 font-heading">Why Choose FCS for Schedule-Critical Projects</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              <div className="bg-white/10 rounded-xl p-6">
+                <div className="text-4xl font-bold text-brand-gold mb-2">94%</div>
+                <div className="text-lg font-semibold mb-2">On-Time Completion</div>
+                <p className="text-white/90 text-sm">Projects completed within contracted schedule over past 5 years</p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-6">
+                <div className="text-4xl font-bold text-brand-gold mb-2">43</div>
+                <div className="text-lg font-semibold mb-2">Years Experience</div>
+                <p className="text-white/90 text-sm">Decades of Tampa Bay commercial construction expertise</p>
+              </div>
+              <div className="bg-white/10 rounded-xl p-6">
+                <div className="text-4xl font-bold text-brand-gold mb-2">$2M</div>
+                <div className="text-lg font-semibold mb-2">Average Delay Savings</div>
+                <p className="text-white/90 text-sm">Cost savings per project through proactive delay prevention</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

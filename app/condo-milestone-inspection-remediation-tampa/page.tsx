@@ -352,8 +352,296 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Internal Links */}
+      {/* Remediation Methods */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Professional Remediation Methods We Employ
+            </h2>
+            
+            <div className="prose prose-lg text-gray-700">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Concrete Restoration Techniques</h3>
+              <p>
+                Proper concrete restoration goes far beyond patching visible spalling. We remove all deteriorated concrete to expose sound substrate, treat corroded rebar with appropriate inhibitors, and restore concrete sections with compatible repair materials. For structural repairs, we use high-strength, rapid-set concrete mixtures that bond effectively with existing concrete while achieving required strength within project timelines.
+              </p>
+              <p>
+                In Tampa Bay's marine environment, we pay particular attention to chloride contamination. Simply patching spalled areas without addressing chloride content in surrounding concrete leads to rapid re-deterioration. We test chloride levels, remove contaminated concrete beyond the visible damage, and apply protective treatments to prevent future corrosion.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Post-Tensioned Concrete Repair</h3>
+              <p>
+                Post-tensioned concrete structures—common in Tampa Bay condominiums built from the 1970s-1990s—require specialized expertise when damaged. We work with structural engineers to evaluate cable integrity, determine repair requirements, and execute repairs that maintain structural capacity. This may involve cable replacement, additional reinforcement, or structural modifications depending on damage extent.
+              </p>
+              <p>
+                Balcony repairs in post-tensioned buildings are particularly critical given the Surfside lessons. We use ground-penetrating radar and other non-destructive testing methods to locate cables before any invasive work. Our repairs restore both the concrete structure and the waterproofing systems that protect cables from future corrosion.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Structural Reinforcement Methods</h3>
+              <p>
+                When milestone inspections reveal structural capacity concerns, various reinforcement methods can restore or enhance building strength. Carbon fiber reinforcement provides high strength-to-weight ratio improvements for beams and columns. Steel plate bonding offers traditional, proven reinforcement for heavily loaded members. External post-tensioning can address foundation or major structural issues.
+              </p>
+              <p>
+                We work closely with structural engineers to design reinforcement systems that address specific deficiencies while minimizing disruption to residents. Our goal is always to restore full structural capacity with the least intrusive methods possible, considering both engineering requirements and practical construction constraints.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Waterproofing System Restoration</h3>
+              <p>
+                Most structural deterioration in Tampa Bay condominiums results from water intrusion, making waterproofing restoration a critical component of any remediation project. We remove failed waterproofing completely, address underlying structural issues, and install new waterproofing systems designed for Florida's climate challenges.
+              </p>
+              <p>
+                Our waterproofing approach considers multiple factors: UV resistance for rooftop applications, movement accommodation for structures that expand and contract, drainage system integration to prevent ponding, and long-term maintainability. We typically use fluid-applied membrane systems that provide monolithic coverage and can accommodate minor structural movements without failure.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Balcony and Walkway Reconstruction</h3>
+              <p>
+                Balcony reconstruction often represents the most visible and expensive component of milestone remediation projects. Our approach addresses both structural and waterproofing concerns simultaneously. We remove deteriorated concrete and waterproofing, restore structural integrity, install new drainage systems, and apply comprehensive waterproofing before installing new flooring and railings.
+              </p>
+              <p>
+                Proper balcony reconstruction in Tampa Bay requires attention to drainage design, as pooling water accelerates deterioration. We install sloped concrete surfaces, integrated drainage systems, and waterproofing details that direct water away from vulnerable areas. Our railing systems use stainless steel or aluminum construction resistant to saltwater corrosion.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Management */}
       <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Understanding and Managing Remediation Costs
+            </h2>
+            
+            <div className="prose prose-lg text-gray-700">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Cost Variables and Planning</h3>
+              <p>
+                Milestone remediation costs depend heavily on building age, maintenance history, exposure conditions, and the scope of deterioration found. Buildings with good maintenance records may need only localized repairs, while buildings with deferred maintenance may require extensive restoration. Our experience with Tampa Bay condominiums helps us provide realistic cost projections early in the planning process.
+              </p>
+              <p>
+                Typical cost ranges for common remediation work include: concrete spalling repair at $150-300 per square foot of affected surface, balcony reconstruction at $75-150 per square foot, structural reinforcement at $50-200 per square foot depending on method, and comprehensive waterproofing at $15-40 per square foot. These ranges help boards understand order-of-magnitude costs for budgeting purposes.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Financing Options for Associations</h3>
+              <p>
+                Most condominium associations require financing for major milestone remediation projects. Special assessments remain the most common funding method, though they can create financial hardship for unit owners. Construction loans enable associations to spread costs over time while completing necessary work promptly. We work with HOA-experienced lenders who understand association lending requirements.
+              </p>
+              <p>
+                Phased construction can help associations manage cash flow by spreading work over multiple budget cycles. However, phasing must be done carefully to ensure structural integrity is maintained throughout the process. We work with engineers to identify safe phasing strategies that address critical issues first while allowing less urgent work to proceed when funds permit.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Value Engineering and Cost Control</h3>
+              <p>
+                Our value engineering process examines each remediation requirement to identify opportunities for cost savings without compromising safety or long-term performance. This might involve alternative repair methods, material substitutions that provide equal performance at lower cost, or phasing strategies that optimize cash flow. We present options to boards with clear explanations of trade-offs.
+              </p>
+              <p>
+                Change order management is critical for controlling costs during remediation projects. Unknown conditions are common in renovation work, but proper planning and contingency allowances help minimize surprises. We provide detailed change order documentation and require board approval before proceeding with any additional work beyond the original scope.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Return on Investment Considerations</h3>
+              <p>
+                While milestone remediation represents a significant investment, failing to address identified issues creates even greater risks—potential structural failure, unit owner safety concerns, legal liability for boards, decreased property values, and difficulty obtaining insurance. Properly executed remediation protects and often enhances property values while ensuring resident safety.
+              </p>
+              <p>
+                Insurance benefits from quality remediation work can provide ongoing cost savings. Buildings with documented structural integrity often qualify for reduced insurance premiums, improved coverage terms, and greater insurability. We help associations document their remediation work in ways that maximize insurance benefits and demonstrate proper stewardship to unit owners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Regulatory Compliance */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Navigating SB4-D Regulatory Requirements
+            </h2>
+            
+            <div className="prose prose-lg text-gray-700">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Understanding Phase 1 and Phase 2 Inspections</h3>
+              <p>
+                Phase 1 milestone inspections involve visual examination of structural components by licensed engineers or architects. If this visual inspection identifies signs of substantial structural deterioration affecting the structural stability of the building or the safety of the residents, a Phase 2 inspection is required. Phase 2 inspections involve more detailed testing, analysis, and evaluation of specific concerns identified in Phase 1.
+              </p>
+              <p>
+                The determination of whether Phase 2 inspection is required is critical for associations. "Substantial structural deterioration" is defined in the law, but interpretation can vary. We help associations understand their inspector's findings and the implications for required next steps. If Phase 2 inspection is required, we work with associations to select qualified engineers and prepare for more detailed evaluation.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Documentation and Reporting Requirements</h3>
+              <p>
+                SB4-D establishes specific documentation requirements for milestone inspections and any resulting remediation work. Inspection reports must be provided to association boards and unit owners within specified timeframes. Remediation work must be documented to demonstrate that identified issues have been addressed appropriately.
+              </p>
+              <p>
+                We maintain comprehensive documentation throughout remediation projects to satisfy regulatory requirements and provide boards with records demonstrating compliance. This documentation includes progress photos, material certifications, testing results, and final inspection reports. Proper documentation protects associations and board members while demonstrating responsible stewardship.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Timeline and Compliance Deadlines</h3>
+              <p>
+                While SB4-D establishes milestone inspection deadlines, the law does not specify timeline requirements for completing remediation work. However, failure to address identified structural issues creates significant liability exposure for associations and board members. We recommend treating remediation with urgency appropriate to the safety concerns identified.
+              </p>
+              <p>
+                Our project planning considers both practical construction timelines and the urgency of safety issues. Critical structural deficiencies require immediate attention, while less severe issues may allow for more deliberate planning and execution. We work with boards to develop realistic timelines that address safety concerns while allowing for proper planning and financing.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Structural Integrity Reserve Study (SIRS) Integration</h3>
+              <p>
+                SIRS requirements complement milestone inspections by establishing reserve funding for structural components. Associations must maintain reserves for roof, load-bearing walls, foundation, floor systems, fireproofing, plumbing, electrical, waterproofing, and exterior painting. Unlike traditional reserve studies, SIRS funding cannot be waived by unit owner vote.
+              </p>
+              <p>
+                We help associations understand how milestone remediation work integrates with their SIRS obligations. Major remediation projects often reset the timeline for certain structural components, affecting reserve planning. We coordinate with associations' reserve study providers to ensure that completed work is properly reflected in future reserve planning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Project Management */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Managing Complex Remediation Projects
+            </h2>
+            
+            <div className="prose prose-lg text-gray-700">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Resident Communication and Coordination</h3>
+              <p>
+                Successful remediation projects require careful coordination with residents whose lives are disrupted by construction activities. We develop comprehensive communication plans that keep residents informed about work schedules, access requirements, safety precautions, and project progress. Regular updates help manage expectations and maintain resident cooperation throughout the project.
+              </p>
+              <p>
+                Our project managers coordinate closely with association management and boards to address resident concerns promptly. We provide multiple communication channels—written updates, information meetings, dedicated project hotlines—to ensure residents have access to current information. Managing resident relations effectively is often as important as the technical construction work itself.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Sequencing and Phasing Strategies</h3>
+              <p>
+                Complex remediation projects require careful sequencing to maintain building functionality and resident safety throughout construction. We develop detailed phasing plans that address critical structural issues first while minimizing disruption to residents. This might involve completing work on one building section before moving to the next, or coordinating utility shutdowns to minimize inconvenience.
+              </p>
+              <p>
+                Our sequencing considers both technical requirements and practical constraints. Structural repairs may need to be completed before waterproofing can be installed. Weather considerations affect timing of certain activities. Resident vacation patterns and seasonal occupancy can influence optimal scheduling for different project phases.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Safety and Security During Construction</h3>
+              <p>
+                Construction activities in occupied buildings require enhanced safety protocols beyond typical construction requirements. We implement comprehensive safety plans that protect both workers and residents. This includes controlled access zones, containment systems for dust and debris, daily cleanup protocols, and 24/7 security coordination where needed.
+              </p>
+              <p>
+                Our safety protocols address specific concerns of residential construction: noise limitations during evening and weekend hours, protection of vehicles and personal property, emergency access maintenance, and coordination with building security systems. We maintain insurance coverage specifically designed for occupied building construction projects.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Quality Control and Progress Monitoring</h3>
+              <p>
+                Milestone remediation projects require rigorous quality control to ensure that completed work addresses the deficiencies identified in inspection reports. We implement comprehensive testing and inspection protocols throughout construction. This includes material testing, installation verification, progress documentation, and coordination with third-party inspectors.
+              </p>
+              <p>
+                Our project managers provide regular progress reports to association boards, including photos, schedule updates, and identification of any issues requiring board attention. We maintain detailed records of all work performed, enabling efficient warranty service and providing associations with comprehensive documentation for their records.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tampa Bay Case Study */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Case Study: Beachfront Condominium Remediation
+            </h2>
+            
+            <div className="prose prose-lg text-gray-700">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Project Overview</h3>
+              <p>
+                A 15-story beachfront condominium in St. Petersburg underwent milestone inspection in 2024, revealing extensive concrete deterioration in balconies, parking garage, and exterior walls. The building, constructed in 1985, had experienced minimal maintenance over 35+ years. Salt air exposure had accelerated rebar corrosion throughout the structure's envelope.
+              </p>
+              <p>
+                The Phase 1 inspection identified substantial structural deterioration in multiple areas, triggering Phase 2 detailed analysis. Engineering evaluation revealed that while the building's core structure remained sound, envelope elements required immediate attention to prevent progressive deterioration that could affect structural stability.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Remediation Scope and Challenges</h3>
+              <p>
+                The remediation scope included complete balcony reconstruction on 180 units, parking garage concrete restoration, and exterior wall spalling repair. The project's complexity was compounded by the building's occupied status, proximity to the beach requiring environmental protection measures, and the association's limited financial resources.
+              </p>
+              <p>
+                Key challenges included coordinating work around resident schedules, protecting construction areas from salt air corrosion during the repair process, managing dust and noise in an occupied building, and maintaining beachfront environmental compliance throughout construction.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Solutions and Implementation</h3>
+              <p>
+                We developed a phased approach that addressed the most critical areas first while allowing the association to implement special assessments over two years. The parking garage work was completed first to eliminate immediate safety concerns. Balcony reconstruction proceeded floor by floor to minimize disruption to residents.
+              </p>
+              <p>
+                Technical solutions included complete removal of contaminated concrete beyond visible damage, installation of corrosion-inhibiting additives, application of protective coatings to new concrete, and installation of enhanced waterproofing systems designed for marine environments. All work was documented with comprehensive photography and testing records.
+              </p>
+
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Project Outcomes</h3>
+              <p>
+                The project was completed over 18 months at a total cost of $3.2 million, funded through a combination of reserves and special assessments. Post-completion inspection confirmed that all identified structural deficiencies had been addressed appropriately. The association received insurance premium reductions of 15% due to documented structural improvements.
+              </p>
+              <p>
+                Unit owners reported high satisfaction with communication throughout the project and appreciation for the improved building condition. Property values increased following completion, with several units selling at premium prices highlighting the value of proactive structural maintenance. The association now maintains an enhanced preventive maintenance program to protect their investment.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Additional FAQs */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Additional Questions We Often Hear
+            </h2>
+            
+            <div className="space-y-6">
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">How long does typical milestone remediation take?</h3>
+                <p className="text-gray-700">
+                  Timeline depends on scope, but most projects take 6-18 months. Simple concrete repairs might complete in 2-3 months, while major balcony reconstruction can take 12+ months. Weather, permitting, and resident coordination all affect schedules. We provide realistic timelines during planning and update boards regularly on progress.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Can residents remain in the building during remediation?</h3>
+                <p className="text-gray-700">
+                  Yes, residents typically remain in occupancy throughout remediation projects. We implement safety protocols, dust containment measures, and noise limitations to minimize disruption. Some units may be temporarily inaccessible during specific work phases, but we coordinate scheduling to minimize inconvenience.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">What happens if more problems are discovered during remediation?</h3>
+                <p className="text-gray-700">
+                  Additional issues are common when opening up deteriorated structures. We include appropriate contingencies in our estimates and maintain close communication with boards about any discoveries. All additional work requires board approval before proceeding, with clear explanations of necessity and cost implications.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">How do we select the right contractor for milestone remediation?</h3>
+                <p className="text-gray-700">
+                  Look for contractors with extensive condominium experience, proper licensing and bonding, strong financial capacity, and references from similar projects. Milestone remediation requires specialized knowledge of structural repair techniques, occupied building construction, and HOA dynamics. Check references carefully and verify insurance coverage.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">What warranties do we receive on remediation work?</h3>
+                <p className="text-gray-700">
+                  We provide comprehensive warranties on both materials and workmanship, typically 3-5 years depending on the work type. Structural concrete repairs carry 5-year warranties, while waterproofing systems include manufacturer warranties up to 20 years. We maintain warranty service capabilities throughout the warranty periods.
+                </p>
+              </div>
+
+              <div className="bg-white p-6 rounded-xl">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">How do we prepare our association for a milestone remediation project?</h3>
+                <p className="text-gray-700">
+                  Start by educating your board and unit owners about SB4-D requirements and potential costs. Engage qualified engineers for the milestone inspection, review reserve funding status, and consider financing options early. Clear communication with owners about potential assessments helps avoid surprises and builds support for necessary work.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Internal Links */}
+      <section className="section bg-white">
         <div className="container-custom">
           <InternalLinks
             title="Related Services for Condominium Associations"
