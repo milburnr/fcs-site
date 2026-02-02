@@ -2,6 +2,23 @@
 
 import { useEffect, useState, useRef } from "react";
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
+// Track form events in GA4
+const trackFormEvent = (eventName: string, formVariant: string, formName: string) => {
+  if (typeof window !== "undefined" && window.gtag) {
+    window.gtag("event", eventName, {
+      form_variant: formVariant,
+      form_name: formName,
+      page_path: window.location.pathname,
+    });
+  }
+};
+
 // Form configurations
 const FORMS = {
   residential: {
@@ -53,6 +70,8 @@ export function HighLevelForm({
       (entries) => {
         if (entries[0].isIntersecting) {
           setIsVisible(true);
+          // Track form view event
+          trackFormEvent("form_view", variant, config.name);
           observer.disconnect();
         }
       },
@@ -65,13 +84,14 @@ export function HighLevelForm({
     // This handles cases where IntersectionObserver doesn't fire properly
     const fallbackTimer = setTimeout(() => {
       setIsVisible(true);
+      trackFormEvent("form_view", variant, config.name);
     }, 2000);
 
     return () => {
       observer.disconnect();
       clearTimeout(fallbackTimer);
     };
-  }, []);
+  }, [variant, config.name]);
 
   useEffect(() => {
     if (!isVisible) return;
