@@ -209,18 +209,18 @@ export default function AboutPage() {
                 and 300+ completed projects make us one of Tampa Bay&apos;s most trusted names in construction.
               </p>
               <p className="text-gray-600 mb-6 text-lg">
-                Our leadership includes <strong>Frank Bragano</strong>, a building consultant specializing in large loss commercial disaster recovery 
+                Our leadership includes <strong>Robert Shamblin</strong> and <strong>Frank Bragano</strong>, building consultants specializing in large loss commercial disaster recovery 
                 with decades of hands-on experience in insurance restoration, historic preservation, and complex commercial projects. 
                 We bring an uncommon depth of expertise with an <strong>in-house engineer</strong> and <strong>in-house architectural draftsman</strong> on staff—resources 
                 that most contractors outsource.
               </p>
               <p className="text-gray-600 mb-6 text-lg">
                 Our unique background in restoration means we understand buildings inside and out—from structural systems to 
-                building envelope waterproofing. This expertise informs every project we take on, whether it&apos;s a medical facility, 
+                building envelope waterproofing. This expertise applies to every project we take on, whether it&apos;s a medical facility, 
                 historic restoration, or a lifetime custom home.
               </p>
               <p className="text-gray-600 text-lg">
-                Today, with proven access to construction financing for commercial, residential, and historic preservation projects, 
+                Today, with proven access to construction financing and grant funding for commercial, residential, and historic preservation projects, 
                 we take on projects ranging from $500K to $25M+. Whether it&apos;s a medical office build-out, disaster recovery, 
                 or a waterfront estate on Davis Islands, every client receives the same commitment to excellence.
               </p>
