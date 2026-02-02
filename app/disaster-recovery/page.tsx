@@ -151,7 +151,7 @@ export default function DisasterRecoveryPage() {
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               FCS brings 43 years of insurance industry experience: 7 years as an Allstate adjuster, 
               28 years operating a statewide insurance restoration firm, and deep expertise in large loss 
-              claims from $250,000 to $25 million. We speak insurance fluently because we've lived it.
+              claims from $250,000 to $25 million. With OSHA-certified safety associates on staff, we speak insurance fluently because we've lived it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">

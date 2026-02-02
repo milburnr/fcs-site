@@ -422,7 +422,7 @@ export default function InsuranceRestorationPage() {
                 Your Partner in Large-Loss Insurance Claims
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists stands at the forefront of insurance restoration in the wake of hurricanes and storms in Florida, backed by 43+ years of experience and a comprehensive network of professionals. Our access to executive general adjusters, public adjusters, and attorneys positions us uniquely in managing and assessing large-loss claims with unmatched expertise.
+                Florida Construction Specialists stands at the forefront of insurance restoration in the wake of hurricanes and storms in Florida, backed by 43+ years of experience and a comprehensive network of professionals. With OSHA-certified safety associates on staff, our access to executive general adjusters, public adjusters, and attorneys positions us uniquely in managing and assessing large-loss claims with unmatched expertise.
               </p>
               <p className="text-gray-600 mb-6">
                 We have personally overseen numerous significant claims, providing us with a deep understanding of the complexities involved in commercial, industrial, and residential insurance restorations. Our process encompasses everything from meticulous inspections to precise damage estimation, ensuring every aspect of the restoration is thoroughly addressed.

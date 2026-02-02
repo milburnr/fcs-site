@@ -958,7 +958,7 @@ export default function MultiFamilyConstructionPage() {
                   Florida Construction Specialists&apos; multi-family experience extends beyond these highlighted projects. Our leadership team has been involved in multi-family construction and restoration since 1982, building and restoring apartments, condominiums, townhomes, and senior living facilities throughout Florida and beyond.
                 </p>
                 <p>
-                  Frank Bragano, our principal, brings decades of hands-on experience in large-scale residential construction, insurance restoration, and the complex projects that require both technical expertise and experienced management. This depth of experience—understanding not just how to build, but how buildings age, fail, and can be restored—informs every project we undertake.
+                  Frank Bragano, our principal, brings decades of hands-on experience in large-scale residential construction, insurance restoration, and the complex projects that require both technical expertise and experienced management. This depth of experience—understanding not just how to build, but how buildings age, fail, and can be restored—applies to every project we undertake.
                 </p>
                 <p>
                   Whether you&apos;re developing a new multi-family community, restoring an aging property, or addressing damage from Florida&apos;s inevitable storms, we bring relevant experience to your project.
@@ -1045,7 +1045,7 @@ export default function MultiFamilyConstructionPage() {
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4">Financing Considerations</h3>
             <div className="prose text-gray-600">
               <p>
-                Multi-family construction typically utilizes construction loans that convert to permanent financing upon completion. Our proven track record allows us to easily access construction financing for commercial and residential projects. We have heavy experience capturing preservation and restoration grants for qualifying historic or affordable housing projects.
+                Multi-family construction typically utilizes construction loans that convert to permanent financing upon completion. Our proven track record allows us to easily access construction financing and grant funding for commercial and residential projects. We have heavy experience capturing preservation and restoration grants for qualifying historic or affordable housing projects.
               </p>
               <p>
                 Financing impacts construction in several ways: draw schedules must align with construction progress, lender inspections occur at key milestones, and completion timing affects interest carry. We coordinate with lenders to ensure smooth draw processes and provide documentation supporting construction loan requirements.
