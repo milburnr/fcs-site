@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Sustainable Construction Trends in Florida - Florida Construction Specialists",
+  title: "Sustainable Construction Trends in Florida",
   description: "Explore the latest sustainable construction trends shaping Florida's commercial building industry. From smart buildings to net-zero energy, discover what's next.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Sustainable construction trends in Florida"
             fill
             className="object-cover"

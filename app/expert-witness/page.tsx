@@ -8,7 +8,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Construction Expert Witness Services | Florida Construction Specialists",
+  title: "Construction Expert Witness Services",
   description: "Expert witness testimony for construction disputes in Florida. 43+ years experience, former insurance adjuster. Litigation support for attorneys. Call (813) 420-7561.",
   keywords: [
     "construction expert witness Tampa",

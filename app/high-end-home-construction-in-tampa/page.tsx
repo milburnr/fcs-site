@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "High-End Home Construction in Tampa | Luxury Custom Builders - Florida Construction Specialists",
+  title: "High-End Home Construction in Tampa | Luxury Custom Builders",
   description: "Premier high-end home construction in Tampa Bay. Luxury materials, master craftsmanship, bespoke details, and uncompromising quality. Estate homes from $1M-$10M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="High-end luxury home construction in Tampa"
             fill
             className="object-cover"

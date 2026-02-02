@@ -7,6 +7,53 @@
 
 const BASE_PATH = "/wp-content/uploads/2023/12";
 
+// AI-generated optimized images (SEO-friendly, geotagged for Tampa)
+export const AI_IMAGES = {
+  // Commercial service card images
+  medical: "/images/tampa-medical-facility-construction/tampa-medical-facility-construction-small.webp",
+  multifamily: "/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp",
+  industrial: "/images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-small.webp",
+  historic: "/images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.webp",
+  condo: "/images/tampa-condo-building-construction/tampa-condo-building-construction-small.webp",
+  office: "/images/tampa-commercial-office-construction/tampa-commercial-office-construction-small.webp",
+  retail: "/images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-small.webp",
+  apartment: "/images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-small.webp",
+  church: "/images/tampa-church-building-construction/tampa-church-building-construction-small.webp",
+  hurricane: "/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-small.webp",
+  
+  // Hero images
+  commercialHero: "/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-small.webp",
+  craneHero: "/images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-small.webp",
+  skyline: "/images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-small.webp",
+  
+  // Residential
+  luxury: "/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-small.webp",
+  waterfront: "/images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-small.webp",
+  balcony: "/images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-small.webp",
+  roofRestoration: "/images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-small.webp",
+} as const;
+
+// Alt text for AI images (for SEO and accessibility)
+export const AI_IMAGE_ALT = {
+  medical: "Modern medical facility construction in Tampa Bay Florida",
+  multifamily: "Multi-family housing development construction Tampa Bay",
+  industrial: "Industrial warehouse facility construction in Tampa Bay",
+  historic: "Historic building restoration Tampa Bay Florida",
+  condo: "Condominium building construction in Tampa Bay Florida",
+  office: "Modern commercial office building construction Tampa Bay",
+  retail: "Retail plaza shopping center construction Tampa Bay",
+  apartment: "Multi-story apartment complex construction in Tampa Bay Florida",
+  church: "Modern church building construction project in Tampa Bay",
+  hurricane: "Hurricane damage restoration services Tampa Bay",
+  commercialHero: "Tampa Bay commercial construction general contractor",
+  craneHero: "Construction crane silhouette against sunset Tampa Bay",
+  skyline: "Tampa Bay Florida skyline commercial construction",
+  luxury: "Luxury custom home construction Tampa Bay Florida",
+  waterfront: "Waterfront custom home construction Tampa Bay",
+  balcony: "Condominium balcony restoration Tampa Bay Florida",
+  roofRestoration: "Aerial view roof restoration project Tampa Bay",
+} as const;
+
 // Primary hero/background images for each service category
 export const SERVICE_HERO_IMAGES = {
   // Commercial Construction

@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-luxury-home-builder",
+  "altText": "Luxury home construction Tampa Bay area",
+  "tags": ["residential","luxury","custom-home","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:24.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-luxury-home-builder/tampa-luxury-home-builder-large.avif 1920w, /images/tampa-luxury-home-builder/tampa-luxury-home-builder-medium.avif 1280w, /images/tampa-luxury-home-builder/tampa-luxury-home-builder-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-luxury-home-builder/tampa-luxury-home-builder-large.webp 1920w, /images/tampa-luxury-home-builder/tampa-luxury-home-builder-medium.webp 1280w, /images/tampa-luxury-home-builder/tampa-luxury-home-builder-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-luxury-home-builder-medium.jpg"
+  }
+}

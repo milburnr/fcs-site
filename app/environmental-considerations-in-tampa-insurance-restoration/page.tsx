@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Environmental Considerations in Tampa Insurance Restoration | Florida Construction Specialists",
+  title: "Environmental Considerations in Tampa Insurance Restoration",
   description: "Navigate environmental hazards during Tampa commercial restoration projects. Expert guidance on asbestos, mold, lead paint, and sustainable restoration practices.",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

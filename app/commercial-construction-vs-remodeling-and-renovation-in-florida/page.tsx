@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction vs Remodeling and Renovation in Florida - Florida Construction Specialists",
+  title: "Commercial Construction vs Remodeling and Renovation in Florida",
   description: "Discover the key differences between commercial construction, remodeling, and renovation in Florida. Make informed decisions for your Tampa Bay construction project.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

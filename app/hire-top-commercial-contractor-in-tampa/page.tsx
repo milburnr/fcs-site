@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Hire Top Commercial Contractor in Tampa for Construction - Florida Construction Specialists",
+  title: "Hire Top Commercial Contractor in Tampa for Construction",
   description: "Looking to hire top commercial contractor in Tampa for your Florida construction projects?Our expert team is here to assist you for all your construction needs",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

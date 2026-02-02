@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-multifamily-housing-construction",
+  "altText": "Multi-family housing development construction Tampa Bay",
+  "tags": ["commercial","multi-family","residential","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:15.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-large.avif 1920w, /images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-medium.avif 1280w, /images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-large.webp 1920w, /images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-medium.webp 1280w, /images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-multifamily-housing-construction-medium.jpg"
+  }
+}

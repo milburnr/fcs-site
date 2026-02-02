@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa's Historic Restoration Zoning Laws - Florida Construction Specialists",
+  title: "Tampa's Historic Restoration Zoning Laws",
   description: "Understanding Tampa's zoning regulations as they apply to historic buildings and preservation districts. Navigating overlay zones, variances, and adaptive reuse requirements.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Tampa zoning laws"
             fill
             className="object-cover"

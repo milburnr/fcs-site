@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { Landmark, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, FileText, Building2, Palette, History, Scale, MapPin, Hammer, BookOpen, Users, Star, Heart } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -10,7 +11,7 @@ import { InternalLinks, NearbyLocations, RelatedServices } from "@/components/In
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration in St. Petersburg | Florida Construction Specialists",
+  title: "Historic Restoration in St. Petersburg",
   description: "St. Petersburg historic restoration experts. Old Northeast Historic District, Bay Pines Veterans Hospital ($2M federal project), downtown St. Pete landmarks. SHPO compliance, Section 106. Call (813) 420-7561.",
   keywords: [
     "historic restoration st petersburg",
@@ -334,6 +335,16 @@ export default function HistoricRestorationStPetersburgPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.webp"
+        alt="Historic building restoration"
+        title="Preserving Architectural Heritage"
+        subtitle="Certified historic preservation specialists"
+        overlayOpacity={0.55}
+      />
 
       {/* Services Grid - Cluster Pages */}
       <section className="section-light">
@@ -687,7 +698,7 @@ export default function HistoricRestorationStPetersburgPage() {
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Building2 className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
                 <div className="text-3xl font-bold mb-1">$10M+</div>
-                <div className="text-sm text-gray-300">Financial Strength</div>
+                <div className="text-sm text-gray-300">Years Experience</div>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
                 <Landmark className="w-10 h-10 mx-auto mb-3 text-brand-gold" />

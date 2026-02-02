@@ -23,7 +23,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Our Process | Custom Home Building Journey | Florida Construction Specialists",
+  title: "Our Process | Custom Home Building Journey",
   description:
     "Discover our proven 6-phase custom home building process. From initial consultation to final walkthrough, see how FCS delivers luxury homes in Tampa Bay with transparency and excellence.",
   keywords:
@@ -232,7 +232,7 @@ export default function OurProcessPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Construction services in Tampa Bay"
             fill
             className="object-cover"

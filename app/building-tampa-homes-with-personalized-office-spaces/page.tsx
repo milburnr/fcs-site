@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Building Tampa Homes with Personalized Office Spaces | Home Office Design - Florida Construction Specialists",
+  title: "Building Tampa Homes with Personalized Office Spaces | Home Office Design",
   description: "Design the perfect home office in your Tampa custom home. Executive suites, video conferencing studios, and productive workspaces. Custom home offices from $25K-$150K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom home office construction in Tampa"
             fill
             className="object-cover"

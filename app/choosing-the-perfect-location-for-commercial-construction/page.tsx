@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Choosing the Perfect Location for Commercial Construction - Florida Construction Specialists",
+  title: "Choosing the Perfect Location for Commercial Construction",
   description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving success in your business ventures. Contact Florida Construction Specialists today!",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction site location in Tampa Bay"
             fill
             className="object-cover"

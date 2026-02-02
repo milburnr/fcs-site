@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Sustainable Building Practices: Florida Green Construction - Florida Construction Specialists",
+  title: "Sustainable Building Practices: Florida Green Construction",
   description: "Expert sustainable building practices for Florida commercial construction. LEED-certified contractors delivering green buildings throughout Tampa Bay.",
 };
 
@@ -57,7 +57,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Sustainable building practices in Florida"
             fill
             className="object-cover"

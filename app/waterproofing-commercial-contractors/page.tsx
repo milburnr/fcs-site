@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Commercial Waterproofing Contractors Tampa | High-Rise Specialists - Florida Construction Specialists",
+  title: "Commercial Waterproofing Contractors Tampa | High-Rise Specialists",
   description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant services for parking structures, building envelopes, and balconies.",
 };
 
@@ -85,7 +85,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial waterproofing contractors Tampa"
             fill
             className="object-cover"

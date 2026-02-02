@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-retail-plaza-construction",
+  "altText": "Retail plaza shopping center construction Tampa Bay",
+  "tags": ["commercial","retail","plaza","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:17.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-large.avif 1920w, /images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-medium.avif 1280w, /images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-large.webp 1920w, /images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-medium.webp 1280w, /images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-retail-plaza-construction-medium.jpg"
+  }
+}

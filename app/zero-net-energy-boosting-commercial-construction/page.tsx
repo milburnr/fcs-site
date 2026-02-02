@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Zero Net Energy Boosting Commercial Construction in Tampa - Florida Construction Specialists",
+  title: "Zero Net Energy Boosting Commercial Construction in Tampa",
   description: "Boost your commercial construction project in Tampa with Florida Construction Specialists, experts in zero net energy. Experience the power of zero net energy buildings.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Zero net energy commercial construction in Tampa Bay"
             fill
             className="object-cover"

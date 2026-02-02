@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Home Builders with Artistic Flair | Unique Architecture - Florida Construction Specialists",
+  title: "Tampa Custom Home Builders with Artistic Flair | Unique Architecture",
   description: "Build an architecturally distinctive custom home in Tampa. Unique designs, artistic details, custom millwork, and statement features. Creative luxury homes from $500K-$5M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Artistic custom home construction in Tampa"
             fill
             className="object-cover"

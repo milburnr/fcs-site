@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Leading Commercial Contractors in Tampa | Florida Construction Specialists",
+  title: "Leading Commercial Contractors in Tampa",
   description: "Discover Tampa's leading commercial contractors. Learn what makes contractors industry leaders and how Florida Construction Specialists delivers excellence.",
 };
 
@@ -118,7 +118,7 @@ const selectionCriteria = [
     ],
   },
   {
-    criterion: "Financial Strength",
+    criterion: "Years Experience",
     weight: "15%",
     whatToLook: [
       "Bonding capacity > project size",
@@ -193,7 +193,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Leading commercial contractors in Tampa"
             fill
             className="object-cover"

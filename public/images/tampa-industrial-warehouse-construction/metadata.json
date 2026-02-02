@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-industrial-warehouse-construction",
+  "altText": "Industrial warehouse facility construction in Tampa Bay",
+  "tags": ["commercial","industrial","warehouse","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:18.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-large.avif 1920w, /images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-medium.avif 1280w, /images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-large.webp 1920w, /images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-medium.webp 1280w, /images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-industrial-warehouse-construction-medium.jpg"
+  }
+}

@@ -12,12 +12,13 @@ import { ParallaxSection, ParallaxCardsContainer, ParallaxCard } from "@/compone
 import { PARALLAX_IMAGES } from "@/lib/imageMapping";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { getOptimizedBgUrl } from "@/components/OptimizedImage";
+import { WordGridParallax } from "@/components/WordGridParallax";
 
 // Hero slideshow images - using optimized versions
 const heroImages = [
-  getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp"),
-  getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-large.webp"),
-  getOptimizedBgUrl("/images/custom-home-2/custom-home-2-large.webp"),
+  getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp"),
+  getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-display.webp"),
+  getOptimizedBgUrl("/images/custom-home-2/custom-home-2-display.webp"),
 ];
 
 export default function HomePage() {
@@ -121,6 +122,7 @@ export default function HomePage() {
               ]}
               href="/commercial/"
               ctaText="Explore Commercial"
+              backgroundImage="/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp"
             />
 
             <PathwayCard
@@ -137,28 +139,14 @@ export default function HomePage() {
               ]}
               href="/residential/"
               ctaText="Explore Design/Build"
+              backgroundImage="/images/custom-home-2/custom-home-2-display.webp"
             />
           </div>
         </div>
       </section>
 
-      {/* Brand Statement Section */}
-      <section className="relative h-[50vh] overflow-hidden">
-        {/* Gradient background */}
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark" />
-
-        {/* Transparent PNG text overlay */}
-        <div className="absolute inset-0 flex items-center justify-center">
-          <Image
-            src="/wp-content/uploads/2023/12/big-graphic-1.png"
-            alt="Design Engineer Construction - Florida Construction Specialists"
-            width={800}
-            height={800}
-            className="max-w-full h-auto opacity-90"
-            priority
-          />
-        </div>
-      </section>
+      {/* Brand Statement Section - Water effect with parallax */}
+      <WordGridParallax />
 
       {/* Why Choose FCS - Parallax Section */}
       <ParallaxSection
@@ -185,9 +173,9 @@ export default function HomePage() {
             <div className="w-16 h-16 bg-brand-gold/10 rounded-full flex items-center justify-center mx-auto mb-4">
               <Award className="w-8 h-8 text-brand-gold" />
             </div>
-            <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{BUSINESS_INFO.yearsInBusiness} Experience</h3>
+            <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{BUSINESS_INFO.yearsInBusiness} Years Experience</h3>
             <p className="text-gray-600">
-              Our financial strength and expertise means we can handle projects of virtually any scale with confidence.
+              Four decades of expertise means we can handle projects of virtually any scale with confidence.
             </p>
           </ParallaxCard>
 
@@ -228,7 +216,7 @@ export default function HomePage() {
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
               style={{
-                backgroundImage: `url('${getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp")}')`,
+                backgroundImage: `url('${getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp")}')`,
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/90 via-brand-green-dark/50 to-transparent" />
@@ -246,7 +234,7 @@ export default function HomePage() {
             <div
               className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
               style={{
-                backgroundImage: `url('${getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-large.webp")}')`,
+                backgroundImage: `url('${getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-display.webp")}')`,
               }}
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-gold-dark/90 via-brand-gold-dark/50 to-transparent" />

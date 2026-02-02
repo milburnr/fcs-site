@@ -332,7 +332,7 @@ export default function PremiumHomepage() {
       <section className="relative py-32">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp"
+            src="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp"
             alt="Tampa Bay skyline"
             fill
             className="object-cover"

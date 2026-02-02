@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Impact of Climate on Historic Restoration in Tampa - Florida Construction Specialists",
+  title: "Impact of Climate on Historic Restoration in Tampa",
   description: "Learn how Tampa's subtropical climate affects historic building preservation. Expert strategies for protecting landmarks from humidity, hurricanes, and salt air corrosion.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Climate impact on historic restoration"
             fill
             className="object-cover"

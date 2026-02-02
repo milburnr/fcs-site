@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Sustainable Building Materials in Commercial Construction - Florida Construction Specialists",
+  title: "Sustainable Building Materials in Commercial Construction",
   description: "Florida Construction Specialists is revolutionizing commercial construction in Tampa with innovative and sustainable building materials. Discover eco-friendly solutions for your project.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Sustainable commercial construction project in Tampa Bay"
             fill
             className="object-cover"

@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-historic-building-restoration",
+  "altText": "Historic building restoration Tampa Bay Florida",
+  "tags": ["restoration","historic","preservation","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:12.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-historic-building-restoration/tampa-historic-building-restoration-large.avif 1920w, /images/tampa-historic-building-restoration/tampa-historic-building-restoration-medium.avif 1280w, /images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-historic-building-restoration/tampa-historic-building-restoration-large.webp 1920w, /images/tampa-historic-building-restoration/tampa-historic-building-restoration-medium.webp 1280w, /images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-historic-building-restoration-medium.jpg"
+  }
+}

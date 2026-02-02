@@ -24,7 +24,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Engineering Coordination Services | Florida Construction Specialists",
+  title: "Engineering Coordination Services",
   description: "Expert engineering coordination for construction projects. 43+ years experience, licensed contractor CBC1262722. Schedule consultation. Call (813) 420-7561.",
   keywords: [
     "engineering coordination tampa",

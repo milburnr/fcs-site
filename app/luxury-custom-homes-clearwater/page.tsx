@@ -6,6 +6,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } f
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
   title: "Luxury Custom Homes Clearwater FL | Beach & Waterfront Estates $1M+ | FCS",
@@ -139,7 +140,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-large.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
@@ -282,6 +283,16 @@ export default function LuxuryCustomHomesClearwaterPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-small.webp"
+        alt="Luxury custom home construction"
+        title="Building Dream Homes"
+        subtitle="Waterfront estates and architectural masterpieces"
+        overlayOpacity={0.5}
+      />
 
       {/* Clearwater Neighborhoods */}
       <section className="section bg-gray-50">

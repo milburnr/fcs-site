@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Mastering Commercial Construction Design in Florida - Florida Construction Specialists",
+  title: "Mastering Commercial Construction Design in Florida",
   description: "Learn the ins and outs of architectural design, commercial building design, and commercial construction design with our comprehensive guide for Florida projects.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction design in Florida"
             fill
             className="object-cover"

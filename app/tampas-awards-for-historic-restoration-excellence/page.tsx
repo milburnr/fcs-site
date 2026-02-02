@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa&apos;s Awards for Historic Restoration Excellence - Florida Construction Specialists",
+  title: "Tampa&apos;s Awards for Historic Restoration Excellence",
   description: "Experience the honor of Tampa&apos;s Awards for Historic Restoration Excellence – where the finest restoration accolades and historic renovation celebrate our her...",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

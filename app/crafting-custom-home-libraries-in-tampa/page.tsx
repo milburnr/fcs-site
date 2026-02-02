@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Libraries in Tampa | Luxury Book Rooms & Studies - Florida Construction Specialists",
+  title: "Custom Home Libraries in Tampa | Luxury Book Rooms & Studies",
   description: "Design your dream custom home library in Tampa. Floor-to-ceiling bookshelves, reading nooks, climate control, and luxury finishes. Library additions from $50K-$250K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom home library construction in Tampa"
             fill
             className="object-cover"

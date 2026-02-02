@@ -1,0 +1,20 @@
+{
+  "seoName": "construction-crane-silhouette-tampa",
+  "altText": "Construction crane silhouette against sunset Tampa Bay",
+  "tags": ["construction","crane","sunset","hero","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:14.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-large.avif 1920w, /images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-medium.avif 1280w, /images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-large.webp 1920w, /images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-medium.webp 1280w, /images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-small.webp 960w\" />"
+    ],
+    "fallback": "construction-crane-silhouette-tampa-medium.jpg"
+  }
+}

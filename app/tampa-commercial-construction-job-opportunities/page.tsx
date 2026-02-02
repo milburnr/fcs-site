@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Job Opportunities - Florida Construction Specialists",
+  title: "Tampa Commercial Construction Job Opportunities",
   description: "Explore top Tampa Commercial Construction Job Opportunities. Find the latest job openings in the Tampa construction industry. Your dream job is here!",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

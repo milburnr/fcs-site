@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Cost of Historic Restoration in Tampa - Florida Construction Specialists",
+  title: "Cost of Historic Restoration in Tampa",
   description: "Comprehensive guide to historic restoration costs in Tampa. Budget planning for commercial and institutional projects with tax credit ROI analysis.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Cost of historic restoration"
             fill
             className="object-cover"

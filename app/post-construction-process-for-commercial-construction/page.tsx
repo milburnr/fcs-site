@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "The Ultimate Guide to Post Construction Process in Florida - Florida Construction Specialists",
+  title: "The Ultimate Guide to Post Construction Process in Florida",
   description: "Get your commercial construction project in Florida completed smoothly with the essential post construction process. Discover the key steps for a successful project closeout in Tampa Bay.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

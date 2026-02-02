@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Top Bonded & Insured Commercial Contractor in Tampa | Florida Construction Specialists",
+  title: "Top Bonded & Insured Commercial Contractor in Tampa",
   description: "Learn why bonding and insurance matter for your Tampa commercial project. Florida Construction Specialists provides fully bonded and insured construction services.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Bonded and insured commercial contractor in Tampa Bay"
             fill
             className="object-cover"
@@ -141,7 +141,7 @@ export default function Page() {
             </div>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              The Importance of Financial Strength
+              The Importance of Years Experience
             </h2>
             <p className="text-gray-600 mb-6">
               A contractor's bonding capacity—the maximum amount of bonding available to them—indicates financial strength and surety company confidence. Surety companies conduct thorough financial analysis before issuing bonds, evaluating the contractor's financial statements, work history, management capability, and character. Higher bonding capacity signals that experienced financial underwriters have confidence in the contractor's ability to complete projects successfully.
@@ -216,7 +216,7 @@ export default function Page() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                <span><strong>Confirm Financial Strength:</strong> Request a bonding capacity letter from the contractor's surety, confirming their ability to provide bonds for your project size.</span>
+                <span><strong>Confirm Years Experience:</strong> Request a bonding capacity letter from the contractor's surety, confirming their ability to provide bonds for your project size.</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />

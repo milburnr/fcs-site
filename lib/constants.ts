@@ -225,7 +225,7 @@ export const COMMERCIAL_SERVICES = [
 
 // Design/Build services (B2C - Vision & Legacy focus)
 export const RESIDENTIAL_SERVICES = [
-  { label: "Lifetime Custom Homes", href: "/luxury-custom-homes/" },
+  { label: "Lifetime Custom Homes", href: "/residential/" },
   { label: "Waterfront Resilience", href: "/residential/waterfront-homes/" },
   { label: "Historic Preservation (Res)", href: "/residential/historic-preservation/" },
   { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },

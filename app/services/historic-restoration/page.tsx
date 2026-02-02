@@ -10,7 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Historic Restoration & Preservation in Tampa Bay | Florida Construction Specialists",
+  title: "Historic Restoration & Preservation in Tampa Bay",
   description: "Tampa Bay's expert historic restoration contractor. SHPO compliance, Secretary of Interior Standards, historic tax credits. Ybor City specialists. Call (813) 420-7561.",
   keywords: [
     "historic restoration tampa",
@@ -134,7 +134,7 @@ export default function HistoricRestorationPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic building restoration in Tampa Bay"
             fill
             className="object-cover"

@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Poseidon Fishing Charters: Premier Angling Adventures in Ruskin, FL - Florida Construction Specialists",
+  title: "Poseidon Fishing Charters: Premier Angling Adventures in Ruskin, FL",
   description: "Ruskin, Florida, boasts not only scenic coastal beauty but also the opportunity for thrilling deep-sea fishing adventures, thanks to Poseidon Fishing",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Construction services in Tampa Bay"
             fill
             className="object-cover"

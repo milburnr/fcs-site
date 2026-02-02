@@ -8,7 +8,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Insurance Arbitration & Appraisal Services | Florida Construction Specialists",
+  title: "Insurance Arbitration & Appraisal Services",
   description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster. Schedule consultation: (813) 420-7561.",
   keywords: [
     "insurance arbitration Florida",

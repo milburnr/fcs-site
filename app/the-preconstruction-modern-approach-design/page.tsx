@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/componen
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "The Preconstruction Modern Approach Design | Florida Construction Specialists",
+  title: "The Preconstruction Modern Approach Design",
   description: "Revolutionize your commercial construction with modern preconstruction services. Learn how early planning, value engineering, and design-build integration deliver better outcomes in Tampa Bay.",
 };
 
@@ -106,7 +106,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Modern preconstruction approach for commercial projects"
             fill
             className="object-cover"

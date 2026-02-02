@@ -157,12 +157,32 @@ export function ParallaxCard({
   return (
     <div
       className={`
-        bg-white rounded-xl shadow-xl p-6 md:p-8
-        ${gradient ? "bg-gradient-to-br from-white via-white to-gray-50" : ""}
+        relative overflow-hidden rounded-2xl p-6 md:p-8
+        transition-all duration-500 hover:-translate-y-2
+        ${gradient ? "bg-gradient-to-br from-white via-white to-gray-50/80" : "bg-white"}
         ${className}
       `}
+      style={{
+        boxShadow: `
+          0 4px 6px -1px rgba(0, 0, 0, 0.05),
+          0 10px 30px -5px rgba(0, 0, 0, 0.1),
+          0 25px 50px -12px rgba(0, 0, 0, 0.15)
+        `,
+        border: '1px solid rgba(255, 255, 255, 0.8)',
+      }}
     >
-      {children}
+      {/* Subtle top accent line */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-brand-green via-brand-gold to-brand-green opacity-60" />
+      {/* Glass reflection effect */}
+      <div 
+        className="absolute inset-0 pointer-events-none"
+        style={{
+          background: 'linear-gradient(135deg, rgba(255,255,255,0.4) 0%, transparent 50%)',
+        }}
+      />
+      <div className="relative z-10">
+        {children}
+      </div>
     </div>
   );
 }

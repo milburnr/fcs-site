@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "The Essential Tools for Commercial Construction in Tampa - Florida Construction Specialists",
+  title: "The Essential Tools for Commercial Construction in Tampa",
   description: "Find the essential tools for commercial construction in Tampa, Florida Construction Specialists unveil their top construction tools, and construction machinery.",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

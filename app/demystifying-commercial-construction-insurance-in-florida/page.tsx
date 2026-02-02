@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Demystifying Commercial Construction Insurance in Florida - Florida Construction Specialists",
+  title: "Demystifying Commercial Construction Insurance in Florida",
   description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Discover essential tips for understanding policies and safeguarding your investment.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction insurance in Florida"
             fill
             className="object-cover"

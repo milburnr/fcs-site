@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Impacts of Technology on Historic Restoration in Tampa - Florida Construction Specialists",
+  title: "Impacts of Technology on Historic Restoration in Tampa",
   description: "Discover how cutting-edge technology is transforming historic restoration in Tampa. From 3D scanning to drone surveys, learn about innovative preservation techniques for landmark buildings.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Technology in historic restoration"
             fill
             className="object-cover"

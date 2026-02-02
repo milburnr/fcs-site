@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Top commercial contractor team in Tampa Bay"
             fill
             className="object-cover"
@@ -109,7 +109,7 @@ export default function Page() {
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                <span><strong>Financial Strength:</strong> Ability to provide payment and performance bonds for your project size</span>
+                <span><strong>Years Experience:</strong> Ability to provide payment and performance bonds for your project size</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />

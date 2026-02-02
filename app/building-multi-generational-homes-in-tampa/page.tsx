@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Building Multi-Generational Homes in Tampa | Family Living - Florida Construction Specialists",
+  title: "Building Multi-Generational Homes in Tampa | Family Living",
   description: "Build multi-generational homes in Tampa for extended family living. In-law suites, dual master bedrooms, accessible design, and private living quarters. Multi-gen homes from $500K-$2.5M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Multi-generational home construction in Tampa"
             fill
             className="object-cover"

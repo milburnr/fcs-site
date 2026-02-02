@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Effective Exterior Waterproofing Methods for Commercial Properties Tampa - Florida Construction Specialists",
+  title: "Effective Exterior Waterproofing Methods for Commercial Properties Tampa",
   description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection, facade waterproofing, and SB 4-D compliant solutions.",
 };
 

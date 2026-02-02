@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { Building2, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, MapPin, Briefcase, HardHat, FileCheck, Landmark } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -11,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction in St. Petersburg | Florida Construction Specialists",
+  title: "Commercial Construction in St. Petersburg",
   description: "St. Petersburg's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, historic restoration. Federal compliance expertise. Call (813) 420-7561.",
   keywords: [
     "commercial construction st petersburg",
@@ -106,7 +107,7 @@ export default function CommercialConstructionStPetersburgPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"
@@ -210,7 +211,7 @@ export default function CommercialConstructionStPetersburgPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
                 alt="Commercial construction project"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -308,6 +309,16 @@ export default function CommercialConstructionStPetersburgPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-commercial-construction/tampa-commercial-construction-small.webp"
+        alt="Commercial construction in Tampa Bay"
+        title="40+ Years Building Tampa Bay"
+        subtitle="From ground-up construction to major renovations"
+        overlayOpacity={0.55}
+      />
 
       {/* Services in St. Petersburg */}
       <section className="section bg-white">

@@ -4,6 +4,7 @@ import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from 
 import { Phone, CheckCircle, Building2, Shield, Clock, AlertTriangle, HelpCircle, Users, Stethoscope, Wrench, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 import {
   Accordion,
@@ -245,7 +246,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Medical facility renovation in Tampa Bay"
             fill
             className="object-cover"

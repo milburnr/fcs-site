@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Debris Removal and Cleanup Post-Disaster - Florida Construction Specialists",
+  title: "Tampa Debris Removal and Cleanup Post-Disaster",
   description: "Professional Tampa Debris Removal and Cleanup Post-Disaster services. Quick response to hurricanes, floods &amp; unforeseen events. Call now for reliable assistance",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

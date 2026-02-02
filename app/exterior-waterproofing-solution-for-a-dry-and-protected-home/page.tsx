@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Solutions for Commercial Buildings Tampa - Florida Construction Specialists",
+  title: "Exterior Waterproofing Solutions for Commercial Buildings Tampa",
   description: "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. SB 4-D compliant building envelope protection and facade waterproofing.",
 };
 

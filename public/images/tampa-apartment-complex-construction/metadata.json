@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-apartment-complex-construction",
+  "altText": "Multi-story apartment complex construction in Tampa Bay Florida",
+  "tags": ["commercial","multi-family","apartment","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:19.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-large.avif 1920w, /images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-medium.avif 1280w, /images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-large.webp 1920w, /images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-medium.webp 1280w, /images/tampa-apartment-complex-construction/tampa-apartment-complex-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-apartment-complex-construction-medium.jpg"
+  }
+}

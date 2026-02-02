@@ -6,6 +6,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } f
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
   title: "Multi-Family Construction Brandon FL | Condos, Apartments & Townhomes | FCS",
@@ -108,7 +109,7 @@ export default function MultiFamilyConstructionBrandonPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-large.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
@@ -226,6 +227,16 @@ export default function MultiFamilyConstructionBrandonPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp"
+        alt="Multi-family construction"
+        title="Building Communities"
+        subtitle="Condos, apartments, and townhomes throughout Tampa Bay"
+        overlayOpacity={0.55}
+      />
 
       {/* Brandon Multi-Family Market Section */}
       <section className="section bg-gray-50">

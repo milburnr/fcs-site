@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa's Historical Societies and Restoration Efforts - Florida Construction Specialists",
+  title: "Tampa's Historical Societies and Restoration Efforts",
   description: "Learn about Tampa's historical societies and their role in preservation. Partner organizations supporting restoration of Ybor City, Hyde Park, and Tampa Bay landmarks.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Tampa historical societies"
             fill
             className="object-cover"

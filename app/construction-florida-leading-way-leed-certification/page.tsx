@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Construction in Florida: Leading the Way with LEED Certification - Florida Construction Specialists",
+  title: "Construction in Florida: Leading the Way with LEED Certification",
   description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert guidance through all LEED certification levels with proven results.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="LEED certified commercial construction in Tampa Bay"
             fill
             className="object-cover"

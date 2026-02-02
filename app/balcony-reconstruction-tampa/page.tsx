@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import {
   Phone,
   MapPin,
@@ -39,7 +40,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction in Tampa | Florida Construction Specialists",
+  title: "Balcony Reconstruction in Tampa",
   description:
     "Tampa balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
   keywords:
@@ -507,6 +508,16 @@ export default function BalconyReconstructionTampaPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/fcs-balcony-waterproofing/fcs-balcony-waterproofing-large.webp"
+        alt="Balcony reconstruction services"
+        title="Expert Balcony Reconstruction"
+        subtitle="40+ years protecting Tampa Bay condos and multi-family properties"
+        overlayOpacity={0.55}
+      />
 
       {/* Services Section */}
       <section className="section bg-gray-50">

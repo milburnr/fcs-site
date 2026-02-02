@@ -426,7 +426,7 @@ export default function BuildingOnTampaBayWaterfrontPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury custom home construction"
             fill
             className="object-cover"

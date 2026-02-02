@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from 
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Master Your Post-Construction Checklist | Florida Construction Specialists",
+  title: "Master Your Post-Construction Checklist",
   description: "Complete post-construction checklist for Florida commercial projects. Expert guidance on inspections, documentation, warranty management, and occupancy preparation from Tampa Bay's leading contractor.",
 };
 
@@ -185,7 +185,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Post-construction checklist for commercial buildings"
             fill
             className="object-cover"

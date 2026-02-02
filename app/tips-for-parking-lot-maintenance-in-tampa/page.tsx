@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Expert Tips for Parking Lot Maintenance in Tampa - Florida Construction Specialists",
+  title: "Expert Tips for Parking Lot Maintenance in Tampa",
   description: "Get expert tips from a top commercial contractor on parking lot maintenance and care. Enhance the longevity of your parking lot with these valuable insights.",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Construction services in Tampa Bay"
             fill
             className="object-cover"

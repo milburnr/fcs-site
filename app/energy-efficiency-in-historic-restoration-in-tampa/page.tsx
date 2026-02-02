@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Energy Efficiency in Historic Restoration in Tampa - Florida Construction Specialists",
+  title: "Energy Efficiency in Historic Restoration in Tampa",
   description: "Revitalize Tampa Bay's heritage with energy-efficient historic restoration. Expert renovations blending historic preservation with modern energy conservation.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Energy-efficient historic restoration in Tampa Bay"
             fill
             className="object-cover"

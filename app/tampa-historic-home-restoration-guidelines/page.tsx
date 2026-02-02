@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Historic Home Restoration Guidelines - Florida Construction Specialists",
+  title: "Tampa Historic Home Restoration Guidelines",
   description: "Comprehensive guidelines for restoring Tampa's historic homes in Hyde Park, Seminole Heights, and other preservation districts. Professional standards and best practices.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Tampa historic home restoration"
             fill
             className="object-cover"

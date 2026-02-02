@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Interior Design Services in Tampa | Luxury Design - Florida Construction Specialists",
+  title: "Custom Home Interior Design Services in Tampa | Luxury Design",
   description: "Complete interior design services for Tampa custom homes. Material selection, space planning, custom furniture, and turnkey design packages. Design services from $50K-$500K+.",
 };
 
@@ -57,7 +57,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom home interior design in Tampa"
             fill
             className="object-cover"

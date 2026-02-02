@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Unique Facades | Distinctive Exteriors - Florida Construction Specialists",
+  title: "Tampa Custom Homes with Unique Facades | Distinctive Exteriors",
   description: "Create a distinctive facade for your Tampa custom home. Unique materials, architectural details, and curb appeal that sets your home apart. Premium exteriors from $100K-$500K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom home facade design in Tampa"
             fill
             className="object-cover"

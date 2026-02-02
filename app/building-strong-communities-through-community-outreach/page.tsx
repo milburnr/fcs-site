@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Building Strong Communities Through Community Outreach | Florida Construction Specialists",
+  title: "Building Strong Communities Through Community Outreach",
   description: "Florida Construction Specialists' commitment to Tampa Bay communities through charitable initiatives, local partnerships, workforce development, and social engagement.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Florida Construction Specialists community outreach"
             fill
             className="object-cover"

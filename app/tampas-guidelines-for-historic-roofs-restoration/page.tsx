@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa's Guidelines for Historic Roofs Restoration - Florida Construction Specialists",
+  title: "Tampa's Guidelines for Historic Roofs Restoration",
   description: "Expert guidance on historic roof restoration in Tampa. Preserving clay tile, slate, and metal roofing while meeting hurricane requirements and tax credit standards.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic roof restoration"
             fill
             className="object-cover"

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } f
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
   title: "Historic Restoration Sarasota FL | Sarasota School of Architecture, Burns Court | FCS",
@@ -109,7 +110,7 @@ export default function HistoricRestorationSarasotaPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-large.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">

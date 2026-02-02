@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Historical Property Insurance Restoration Expert - Florida Construction Specialists",
-  description: "Restore Tampa&apos;s landmarks with expert insurance restoration services tailored for historical properties. Trust our skilled team for property insurance restor...",
+  title: "Tampa Historical Property Insurance Restoration Expert | FCS Insurance Claims Specialists",
+  description: "Expert Tampa historical property insurance restoration services. FCS specializes in insurance claims for historic buildings, storm damage restoration, and preservation compliance in Ybor City, Hyde Park, and South Tampa historic districts.",
 };
 
 const breadcrumbItems = [
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
@@ -48,7 +48,7 @@ export default function Page() {
             Tampa’s Historical Property Insurance Restoration
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Restore Tampa&apos;s landmarks with expert insurance restoration services tailored for historical properties. Trust our skilled team for property insurance
+            Expert Tampa historical property insurance restoration services. FCS specializes in insurance claims for historic buildings, storm damage restoration, and preservation compliance for Tampa's irreplaceable architectural heritage.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">

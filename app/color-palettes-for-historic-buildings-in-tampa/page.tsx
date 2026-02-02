@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Color Palettes for Historic Buildings in Tampa - Florida Construction Specialists",
+  title: "Color Palettes for Historic Buildings in Tampa",
   description: "Expert guidance on selecting period-appropriate color palettes for Tampa's historic buildings. Paint analysis, historic color research, and compliance with preservation standards.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic building color palettes"
             fill
             className="object-cover"

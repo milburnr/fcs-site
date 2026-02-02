@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Waterproofing Solutions for Basements & Below-Grade Spaces | Commercial Buildings Tampa - Florida Construction Specialists",
+  title: "Waterproofing Solutions for Basements & Below-Grade Spaces | Commercial Buildings Tampa",
   description: "Professional basement and below-grade waterproofing for commercial buildings and condominiums in Tampa Bay. Expert solutions for parking garages, storage areas, and mechanical rooms.",
 };
 

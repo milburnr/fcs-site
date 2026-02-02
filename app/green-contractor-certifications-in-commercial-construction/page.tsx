@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Green Contractor Certifications in Commercial Construction - Florida Construction Specialists",
+  title: "Green Contractor Certifications in Commercial Construction",
   description: "Understand green contractor certifications and their value in commercial construction. Florida Construction Specialists brings LEED expertise to Tampa Bay projects.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Green contractor certifications for commercial construction"
             fill
             className="object-cover"

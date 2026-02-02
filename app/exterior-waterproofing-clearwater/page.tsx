@@ -7,9 +7,10 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { GoogleMap } from "@/components/GoogleMap";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing in Clearwater | Florida Construction Specialists",
+  title: "Exterior Waterproofing in Clearwater",
   description: `Clearwater exterior waterproofing for commercial buildings, condominiums, and multi-family properties. Building envelope protection, moisture barriers, foundation waterproofing. $100K+ projects. Call ${BUSINESS_INFO.phone}.`,
   keywords: "exterior waterproofing Clearwater, building envelope Clearwater, foundation waterproofing Clearwater, commercial waterproofing Clearwater, condo waterproofing Clearwater, moisture barrier Clearwater",
 };
@@ -382,6 +383,16 @@ export default function ExteriorWaterproofingClearwaterPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
+        alt="Exterior waterproofing application"
+        title="Complete Waterproofing Protection"
+        subtitle="Premium membrane systems for lasting defense against moisture"
+        overlayOpacity={0.55}
+      />
 
       {/* Cost & Timeline Table */}
       <section className="section bg-gray-50">

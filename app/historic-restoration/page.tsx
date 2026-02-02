@@ -6,10 +6,11 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { LocalBusinessSchema, ServiceSchema, ArticleSchema, BreadcrumbSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
+import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration & Preservation | Certified Specialists | Florida Construction Specialists",
+  title: "Historic Restoration & Preservation | Certified Specialists",
   description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO requirements.",
 };
 
@@ -65,7 +66,7 @@ export default function HistoricRestorationPage() {
 
       
       <ArticleSchema
-        headline="Historic Restoration & Preservation | Certified Specialists | Florida Construction Specialists"
+        headline="Historic Restoration & Preservation | Certified Specialists"
         description="Expert historic restoration and preservation services. We restore Tampa Bay"
         datePublished="2024-06-01"
         dateModified="2025-01-15"
@@ -82,7 +83,7 @@ export default function HistoricRestorationPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
@@ -178,6 +179,15 @@ export default function HistoricRestorationPage() {
           </div>
         </div>
       </section>
+
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.webp"
+        alt="Historic building restoration in Tampa Bay"
+        title="Preserving Tampa Bay's Architectural Heritage"
+        subtitle="Restoring the past while meeting today's building standards"
+        overlayOpacity={0.55}
+      />
 
       {/* Process */}
       <section className="section bg-gray-50">

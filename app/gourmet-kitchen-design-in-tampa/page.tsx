@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens - Florida Construction Specialists",
+  title: "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens",
   description: "Create stunning gourmet kitchens in Tampa custom homes. Professional-grade appliances, custom cabinetry, premium countertops, and chef-inspired design. Kitchen investments from $75K-$300K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Gourmet kitchen design in Tampa"
             fill
             className="object-cover"

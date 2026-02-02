@@ -5,7 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata = {
-  title: "Historic Restoration & Preservation Tampa FL | Florida Construction Specialists",
+  title: "Historic Restoration & Preservation Tampa FL",
   description:
     "Distinguished leaders in historic restoration and preservation in Florida. We blend traditional craftsmanship with modern techniques to preserve Florida's architectural heritage.",
 };
@@ -59,7 +59,7 @@ export default function HistoricRestorationPage() {
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark">
-          <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-large.webp')] bg-cover bg-center opacity-30" />
+          <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-display.webp')] bg-cover bg-center opacity-30" />
         </div>
 
         <div className="absolute bottom-0 left-0 right-0">

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Historic Window Restoration Services - Florida Construction Specialists",
+  title: "Tampa Historic Window Restoration Services",
   description: "Expert historic window restoration in Tampa. Preserve original wood windows with repair, weatherstripping, and storm panels that meet Secretary of Interior Standards.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic window restoration"
             fill
             className="object-cover"

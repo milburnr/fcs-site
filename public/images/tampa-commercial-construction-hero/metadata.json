@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-commercial-construction-hero",
+  "altText": "Tampa Bay commercial construction general contractor",
+  "tags": ["commercial","construction","hero","tampa","general-contractor"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:13.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-large.avif 1920w, /images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-medium.avif 1280w, /images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-large.webp 1920w, /images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-medium.webp 1280w, /images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-commercial-construction-hero-medium.jpg"
+  }
+}

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Funding and Grants for Historic Restoration in Tampa - Florida Construction Specialists",
+  title: "Funding and Grants for Historic Restoration in Tampa",
   description: "Comprehensive guide to historic restoration funding in Tampa including federal and state tax credits, grants, and financing options for commercial preservation projects.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic restoration funding"
             fill
             className="object-cover"

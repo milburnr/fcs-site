@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Creating Unique Bedrooms in Tampa Custom Homes | Luxury Master Suites - Florida Construction Specialists",
+  title: "Creating Unique Bedrooms in Tampa Custom Homes | Luxury Master Suites",
   description: "Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites, custom closets, sitting areas, and resort-style amenities from $75K-$300K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury master bedroom in Tampa custom home"
             fill
             className="object-cover"

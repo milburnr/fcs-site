@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Preserving Tampa's Cultural Heritage through Restoration - Florida Construction Specialists",
+  title: "Preserving Tampa's Cultural Heritage through Restoration",
   description: "Protecting Tampa's cultural heritage through expert restoration of historically significant buildings in Ybor City, Hyde Park, and Tampa Bay's diverse ethnic neighborhoods.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Tampa cultural heritage preservation"
             fill
             className="object-cover"

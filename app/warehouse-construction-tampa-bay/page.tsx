@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import Link from "next/link";
 import Image from "next/image";
 import {
@@ -298,7 +299,7 @@ export default function WarehouseConstructionTampaBayPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

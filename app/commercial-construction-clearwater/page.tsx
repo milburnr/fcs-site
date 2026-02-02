@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { Building2, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, MapPin, Briefcase, HardHat, FileCheck, Users, Thermometer, Wind, Droplets } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -11,7 +12,7 @@ import { InternalLinks, RelatedServices, NearbyLocations } from "@/components/In
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction in Clearwater | Florida Construction Specialists",
+  title: "Commercial Construction in Clearwater",
   description: "Clearwater's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
   keywords: [
     "commercial construction clearwater",
@@ -133,7 +134,7 @@ export default function CommercialConstructionClearwaterPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

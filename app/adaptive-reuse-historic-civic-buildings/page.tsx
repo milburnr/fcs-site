@@ -316,7 +316,7 @@ export default function AdaptiveReuseHistoricCivicBuildingsPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic building restoration"
             fill
             className="object-cover"

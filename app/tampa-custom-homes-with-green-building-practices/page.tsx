@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Green Building Practices | LEED & FGBC Certified - Florida Construction Specialists",
+  title: "Tampa Custom Homes with Green Building Practices | LEED & FGBC Certified",
   description: "Build a certified green custom home in Tampa with sustainable materials, low-impact construction, and LEED/FGBC certification. Healthy homes from $425K-$2M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Green building custom home construction in Tampa"
             fill
             className="object-cover"

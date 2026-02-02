@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Preferred Commercial General Contractors in Tampa | Florida Construction Specialists",
+  title: "Preferred Commercial General Contractors in Tampa",
   description: "Discover why Florida Construction Specialists is the preferred commercial general contractor in Tampa Bay. Learn what makes a contractor the preferred choice for commercial projects.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Preferred commercial contractor team in Tampa Bay"
             fill
             className="object-cover"
@@ -97,7 +97,7 @@ export default function Page() {
             </p>
 
             <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
-              Financial Strength and Stability
+              Years Experience and Stability
             </h3>
             <p className="text-gray-600 mb-6">
               Commercial construction demands substantial financial resources. Contractors must fund payroll, purchase materials, pay subcontractors, and manage cash flow across projects of varying duration and payment schedules. Preferred contractors demonstrate financial strength through bonding capacity, banking relationships, and multi-year stability that assures clients their projects will be completed regardless of economic fluctuations.
@@ -132,7 +132,7 @@ export default function Page() {
                     <td className="border border-gray-300 px-4 py-3">Limited history, vague references, no repeat business</td>
                   </tr>
                   <tr>
-                    <td className="border border-gray-300 px-4 py-3 font-semibold">Financial Strength</td>
+                    <td className="border border-gray-300 px-4 py-3 font-semibold">Years Experience</td>
                     <td className="border border-gray-300 px-4 py-3">Strong bonding capacity, banking references, stability</td>
                     <td className="border border-gray-300 px-4 py-3">Low bonding limits, cash flow issues, recent problems</td>
                   </tr>

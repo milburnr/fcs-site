@@ -6,6 +6,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } f
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
   title: "Exterior Waterproofing Sarasota FL | Building Envelope & Foundation | FCS",
@@ -262,6 +263,16 @@ export default function ExteriorWaterproofingSarasotaPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
+        alt="Exterior waterproofing application"
+        title="Complete Waterproofing Protection"
+        subtitle="Premium membrane systems for lasting defense against moisture"
+        overlayOpacity={0.55}
+      />
 
       {/* Cost & Timeline Table */}
       <section className="section bg-gray-50">

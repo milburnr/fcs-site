@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Wine Cellars in Tampa | Climate-Controlled Design - Florida Construction Specialists",
+  title: "Custom Home Wine Cellars in Tampa | Climate-Controlled Design",
   description: "Build a custom wine cellar in your Tampa home. Climate control, proper storage, tasting rooms, and stunning design. Wine cellars from $25K-$200K+ for 500-5,000+ bottles.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom wine cellar construction in Tampa"
             fill
             className="object-cover"

@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Effective Balcony Maintenance Tips for High-Rise Buildings Tampa - Florida Construction Specialists",
+  title: "Effective Balcony Maintenance Tips for High-Rise Buildings Tampa",
   description: "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Inspection schedules, cleaning protocols, and preventive care to extend balcony life and ensure SB 4-D compliance.",
 };
 

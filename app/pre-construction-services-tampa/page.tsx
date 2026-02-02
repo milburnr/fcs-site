@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/componen
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Pre-Construction Services Tampa | Florida Construction Specialists",
+  title: "Pre-Construction Services Tampa",
   description: "Comprehensive pre-construction services in Tampa Bay. Expert estimating, value engineering, scheduling, and constructability review for commercial projects throughout Florida.",
 };
 
@@ -136,7 +136,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Pre-construction services in Tampa Florida"
             fill
             className="object-cover"

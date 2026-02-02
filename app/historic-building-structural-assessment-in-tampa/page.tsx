@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historic Building Structural Assessment in Tampa - Florida Construction Specialists",
+  title: "Historic Building Structural Assessment in Tampa",
   description: "Expert structural assessment for Tampa's historic buildings. Comprehensive evaluation of load-bearing systems, foundation conditions, and structural integrity for preservation projects.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic building structural assessment"
             fill
             className="object-cover"

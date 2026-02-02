@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Homes with Custom Art Studios | Creative Spaces - Florida Construction Specialists",
+  title: "Tampa Homes with Custom Art Studios | Creative Spaces",
   description: "Build custom homes with dedicated art studios in Tampa. North-light windows, specialized ventilation, proper lighting, and purpose-built creative spaces. Artist homes from $500K-$2M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom home with art studio in Tampa"
             fill
             className="object-cover"

@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/componen
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Experienced Design-Build Firm in Florida | Florida Construction Specialists",
+  title: "Experienced Design-Build Firm in Florida",
   description: "Florida Construction Specialists - Tampa Bay's trusted design-build firm with decades of commercial construction experience. Learn what makes an experienced design-build partner essential for project success.",
 };
 
@@ -42,7 +42,7 @@ const experienceIndicators = [
   },
   {
     icon: Shield,
-    title: "Financial Strength",
+    title: "Years Experience",
     description: "Strong bonding capacity and financial stability ensure we can deliver projects regardless of market conditions.",
   },
 ];
@@ -108,7 +108,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Experienced design-build firm in Tampa Bay Florida"
             fill
             className="object-cover"

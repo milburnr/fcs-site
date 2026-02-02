@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-commercial-office-construction",
+  "altText": "Modern commercial office building construction Tampa Bay",
+  "tags": ["commercial","office","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:16.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-commercial-office-construction/tampa-commercial-office-construction-large.avif 1920w, /images/tampa-commercial-office-construction/tampa-commercial-office-construction-medium.avif 1280w, /images/tampa-commercial-office-construction/tampa-commercial-office-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-commercial-office-construction/tampa-commercial-office-construction-large.webp 1920w, /images/tampa-commercial-office-construction/tampa-commercial-office-construction-medium.webp 1280w, /images/tampa-commercial-office-construction/tampa-commercial-office-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-commercial-office-construction-medium.jpg"
+  }
+}

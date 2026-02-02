@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Spacious Family Homes Construction in Tampa | Large Custom Homes - Florida Construction Specialists",
+  title: "Spacious Family Homes Construction in Tampa | Large Custom Homes",
   description: "Build spacious family homes in Tampa with generous floor plans, high ceilings, and room to grow. Custom construction for families who need space. From $450K-$2.5M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Spacious family home construction in Tampa"
             fill
             className="object-cover"

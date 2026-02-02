@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Fire Damage Restoration & Insurance in Tampa | Florida Construction Specialists",
+  title: "Commercial Fire Damage Restoration & Insurance in Tampa",
   description: "Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with insurance claim support.",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Fire damage restoration"
             fill
             className="object-cover"

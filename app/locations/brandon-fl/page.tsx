@@ -124,7 +124,7 @@ export default function BrandonPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial facility construction"
             fill
             className="object-cover"
@@ -230,7 +230,7 @@ export default function BrandonPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                 <Image
-                  src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+                  src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
                   alt="Commercial construction project in Florida"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

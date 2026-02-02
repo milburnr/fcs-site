@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-church-building-construction",
+  "altText": "Modern church building construction project in Tampa Bay",
+  "tags": ["commercial","church","religious","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:17.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-church-building-construction/tampa-church-building-construction-large.avif 1920w, /images/tampa-church-building-construction/tampa-church-building-construction-medium.avif 1280w, /images/tampa-church-building-construction/tampa-church-building-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-church-building-construction/tampa-church-building-construction-large.webp 1920w, /images/tampa-church-building-construction/tampa-church-building-construction-medium.webp 1280w, /images/tampa-church-building-construction/tampa-church-building-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-church-building-construction-medium.jpg"
+  }
+}

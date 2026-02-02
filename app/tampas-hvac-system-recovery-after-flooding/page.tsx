@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa&apos;s HVAC System Recovery After Flooding - Florida Construction Specialists",
+  title: "Tampa&apos;s HVAC System Recovery After Flooding",
   description: "Restore your comfort with Tampa&apos;s HVAC System Recovery After Flooding.We specialize in restoring flood-damaged HVAC units to get your home back to climate co...",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

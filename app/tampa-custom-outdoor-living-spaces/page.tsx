@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Outdoor Living Spaces | Patios, Pools & Kitchens - Florida Construction Specialists",
+  title: "Tampa Custom Outdoor Living Spaces | Patios, Pools & Kitchens",
   description: "Create stunning outdoor living spaces in Tampa. Custom pools, outdoor kitchens, covered patios, fire features, and resort-style amenities. Year-round Florida living from $50K-$500K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Custom outdoor living space in Tampa"
             fill
             className="object-cover"

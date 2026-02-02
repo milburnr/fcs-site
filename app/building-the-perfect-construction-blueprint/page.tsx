@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/componen
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Building the Perfect Construction Blueprint | Florida Construction Specialists",
+  title: "Building the Perfect Construction Blueprint",
   description: "Master the art of construction blueprint development. Learn architectural design principles, structural engineering requirements, and site analysis techniques for Florida commercial projects.",
 };
 
@@ -99,7 +99,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Professional construction blueprint development"
             fill
             className="object-cover"

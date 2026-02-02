@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Balcony Waterproofing for High-Rise Buildings Tampa | Long-Lasting Protection - Florida Construction Specialists",
+  title: "Balcony Waterproofing for High-Rise Buildings Tampa | Long-Lasting Protection",
   description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection for lasting performance.",
 };
 

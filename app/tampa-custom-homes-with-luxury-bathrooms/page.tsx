@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Luxury Bathrooms | Spa-Inspired Design - Florida Construction Specialists",
+  title: "Tampa Custom Homes with Luxury Bathrooms | Spa-Inspired Design",
   description: "Create spa-inspired luxury bathrooms in your Tampa custom home. Soaking tubs, rain showers, heated floors, and premium fixtures. Master bath renovations from $75K-$200K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury bathroom in Tampa custom home"
             fill
             className="object-cover"

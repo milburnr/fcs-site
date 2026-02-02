@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-bay-skyline-construction",
+  "altText": "Tampa Bay Florida skyline commercial construction",
+  "tags": ["tampa","skyline","city","florida","construction"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:25.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-large.avif 1920w, /images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-medium.avif 1280w, /images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-large.webp 1920w, /images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-medium.webp 1280w, /images/tampa-bay-skyline-construction/tampa-bay-skyline-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-bay-skyline-construction-medium.jpg"
+  }
+}

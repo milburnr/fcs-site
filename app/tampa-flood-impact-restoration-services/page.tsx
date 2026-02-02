@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Flood Impact Restoration Services - Florida Construction Specialists",
+  title: "Tampa Flood Impact Restoration Services",
   description: "Recover from disaster with Tampa Flood Impact Restoration Services! Our expert team specializes in flood damage restoration, water damage cleanup, and more.",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"

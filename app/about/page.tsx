@@ -16,11 +16,12 @@ import {
 import { BUSINESS_INFO } from "@/lib/constants";
 import { LocalBusinessSchema, OrganizationSchema, BreadcrumbSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "About Florida Construction Specialists | Tampa Bay's Premier Builder",
+  title: "About Us | Tampa Bay's Premier Builder",
   description:
     "Learn about Florida Construction Specialists (FCS) - formed from the merger of Florida Restoration Team and Shamblin Construction, operating in Florida since 1982. 40+ years experience, 300+ projects, in-house engineering.",
   keywords:
@@ -228,6 +229,15 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/tampa-commercial-construction/tampa-commercial-construction-small.webp"
+        alt="Florida Construction Specialists team at work"
+        title="Building Tampa Bay Since 1982"
+        subtitle="40+ years of excellence in commercial and residential construction"
+        overlayOpacity={0.55}
+      />
+
       {/* Core Values */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
@@ -340,7 +350,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 {[
                   {
-                    title: "Financial Strength",
+                    title: "Years Experience",
                     text: `${BUSINESS_INFO.yearsInBusiness} experience means we can handle projects of virtually any scale with the financial backing to see them through.`,
                   },
                   {

@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Climate-Resilient Custom Homes in Tampa | Hurricane-Ready Luxury - Florida Construction Specialists",
+  title: "Climate-Resilient Custom Homes in Tampa | Hurricane-Ready Luxury",
   description: "Build a climate-resilient custom home in Tampa engineered for hurricanes, flooding, and extreme heat. Fortified construction, backup power, and smart systems from $425K-$2M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Climate-resilient custom home construction in Tampa"
             fill
             className="object-cover"

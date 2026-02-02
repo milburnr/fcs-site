@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Ultimate Waterproofing Guide for Foundations | Commercial Buildings Tampa - Florida Construction Specialists",
+  title: "Ultimate Waterproofing Guide for Foundations | Commercial Buildings Tampa",
   description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums in Tampa Bay. SB 4-D compliant solutions for parking structures, podium decks, and below-grade construction.",
 };
 

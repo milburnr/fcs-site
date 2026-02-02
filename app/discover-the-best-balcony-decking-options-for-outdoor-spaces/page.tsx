@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Best Balcony Decking Options for High-Rise Buildings Tampa - Florida Construction Specialists",
+  title: "Best Balcony Decking Options for High-Rise Buildings Tampa",
   description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Tile, pavers, deck coatings, and composite systems with expert installation and SB 4-D compliance.",
 };
 

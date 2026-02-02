@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Waterproofing Solutions for High-Rise Residential Buildings Tampa - Florida Construction Specialists",
+  title: "Waterproofing Solutions for High-Rise Residential Buildings Tampa",
   description: "Comprehensive waterproofing solutions for high-rise condominiums and residential buildings in Tampa Bay. SB 4-D compliant systems for balconies, garages, and building envelopes.",
 };
 

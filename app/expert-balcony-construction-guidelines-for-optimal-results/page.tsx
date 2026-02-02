@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Expert Balcony Construction Guidelines for High-Rise Buildings Tampa - Florida Construction Specialists",
+  title: "Expert Balcony Construction Guidelines for High-Rise Buildings Tampa",
   description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. SB 4-D compliant structural design, waterproofing specifications, and safety requirements.",
 };
 

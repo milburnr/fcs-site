@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Waterfront Custom Homes in Tampa | Luxury Bayfront Living - Florida Construction Specialists",
+  title: "Waterfront Custom Homes in Tampa | Luxury Bayfront Living",
   description: "Build your dream waterfront custom home in Tampa Bay. Hurricane-resistant construction, private docks, elevated foundations. Luxury coastal living from $750K-$5M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury waterfront custom home in Tampa Bay"
             fill
             className="object-cover"

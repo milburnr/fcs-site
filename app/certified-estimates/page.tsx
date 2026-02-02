@@ -8,7 +8,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Certified Construction Estimates | Florida Construction Specialists",
+  title: "Certified Construction Estimates",
   description: "Professional certified estimates for insurance claims, litigation & project planning. 43+ years experience, former adjuster. Schedule consultation: (813) 420-7561.",
   keywords: [
     "certified construction estimates Tampa",
@@ -175,7 +175,7 @@ export default function CertifiedEstimatesPage() {
               <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
                 <DollarSign className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
                 <p className="text-sm font-semibold text-white">$10M+</p>
-                <p className="text-xs text-gray-400">Financial Strength</p>
+                <p className="text-xs text-gray-400">Years Experience</p>
               </div>
             </div>
 

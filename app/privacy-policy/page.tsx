@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy for Florida Construction Specialists - Florida Construction Specialists",
+  title: "Privacy Policy",
   description: "Effective Date: 12/1/2023",
 };
 
@@ -35,7 +35,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Construction services in Tampa Bay"
             fill
             className="object-cover"
@@ -45,7 +45,7 @@ export default function Page() {
         </div>
         <div className="container-custom text-center text-white relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Privacy Policy for Florida Construction Specialists
+            Privacy Policy
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Effective Date: 12/1/2023

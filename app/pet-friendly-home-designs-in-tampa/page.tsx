@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Pet-Friendly Home Designs in Tampa | Custom Homes for Pet Owners - Florida Construction Specialists",
+  title: "Pet-Friendly Home Designs in Tampa | Custom Homes for Pet Owners",
   description: "Build pet-friendly custom homes in Tampa with built-in features for dogs, cats, and more. Mudrooms, pet suites, fenced yards, durable flooring, and pet-washing stations. From $400K-$2M+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Pet-friendly custom home design in Tampa"
             fill
             className="object-cover"

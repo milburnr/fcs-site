@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa's Premier Commercial Remodeling Contractors | Florida Construction Specialists",
+  title: "Tampa's Premier Commercial Remodeling Contractors",
   description: "Tampa Bay's leading commercial remodeling contractors since 2006. Expert office, retail, medical, and industrial renovations with proven track record across Hillsborough, Pinellas, Pasco, and Polk counties.",
 };
 
@@ -78,7 +78,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Premier commercial remodeling contractors in Tampa Bay"
             fill
             className="object-cover"

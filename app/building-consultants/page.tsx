@@ -26,7 +26,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Building Consultants | Construction Consulting | Florida Construction Specialists",
+  title: "Building Consultants | Construction Consulting",
   description:
     "Professional building consulting for property owners, attorneys & insurers. 43+ years experience, 40+ years experience. Schedule your consultation. Call (813) 420-7561.",
   keywords: [

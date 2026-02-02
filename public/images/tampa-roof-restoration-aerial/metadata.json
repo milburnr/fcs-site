@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-roof-restoration-aerial",
+  "altText": "Aerial view roof restoration project Tampa Bay",
+  "tags": ["restoration","roofing","aerial","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:12.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-large.avif 1920w, /images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-medium.avif 1280w, /images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-large.webp 1920w, /images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-medium.webp 1280w, /images/tampa-roof-restoration-aerial/tampa-roof-restoration-aerial-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-roof-restoration-aerial-medium.jpg"
+  }
+}

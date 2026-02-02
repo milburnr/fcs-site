@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-medical-building-construction",
+  "altText": "Medical office building construction Tampa Bay Florida",
+  "tags": ["commercial","medical","healthcare","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:15.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-medical-building-construction/tampa-medical-building-construction-large.avif 1920w, /images/tampa-medical-building-construction/tampa-medical-building-construction-medium.avif 1280w, /images/tampa-medical-building-construction/tampa-medical-building-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-medical-building-construction/tampa-medical-building-construction-large.webp 1920w, /images/tampa-medical-building-construction/tampa-medical-building-construction-medium.webp 1280w, /images/tampa-medical-building-construction/tampa-medical-building-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-medical-building-construction-medium.jpg"
+  }
+}

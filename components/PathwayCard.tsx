@@ -11,6 +11,7 @@ interface PathwayCardProps {
   features: string[];
   href: string;
   ctaText: string;
+  backgroundImage?: string;
 }
 
 export function PathwayCard({
@@ -21,6 +22,7 @@ export function PathwayCard({
   features,
   href,
   ctaText,
+  backgroundImage,
 }: PathwayCardProps) {
   const isCommercial = type === "commercial";
   const Icon = isCommercial ? Building2 : Home;
@@ -28,17 +30,22 @@ export function PathwayCard({
   return (
     <Link
       href={href}
-      className={`group block relative overflow-hidden rounded-2xl p-8 transition-all duration-500 hover:scale-[1.02] ${
-        isCommercial
-          ? "bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark text-white"
-          : "bg-gradient-to-br from-brand-gold via-brand-gold-dark to-brand-gold text-white"
-      }`}
+      className="group block relative overflow-hidden rounded-2xl p-8 transition-all duration-500 hover:scale-[1.02] text-white"
     >
-      {/* Decorative background pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute -right-8 -top-8 h-48 w-48 rounded-full bg-white/20" />
-        <div className="absolute -bottom-8 -left-8 h-32 w-32 rounded-full bg-white/10" />
-      </div>
+      {/* Background image */}
+      {backgroundImage && (
+        <div 
+          className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
+          style={{ backgroundImage: `url(${backgroundImage})` }}
+        />
+      )}
+      
+      {/* Color overlay */}
+      <div className={`absolute inset-0 ${
+        isCommercial
+          ? "bg-gradient-to-br from-brand-green-dark/85 via-brand-green-forest/80 to-brand-green-dark/90"
+          : "bg-gradient-to-br from-brand-gold/85 via-brand-gold-dark/80 to-brand-gold/90"
+      }`} />
 
       <div className="relative z-10">
         {/* Icon and badge */}

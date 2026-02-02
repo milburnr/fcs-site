@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "High-Rise Balcony Renovation Tampa | Transform Your Condo - Florida Construction Specialists",
+  title: "High-Rise Balcony Renovation Tampa | Transform Your Condo",
   description: "Expert balcony renovation for Tampa Bay high-rise condominiums. Complete structural restoration, waterproofing upgrades, and aesthetic transformations with SB 4-D compliance.",
 };
 

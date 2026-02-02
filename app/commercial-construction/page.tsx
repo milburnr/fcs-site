@@ -9,7 +9,7 @@ import { ServiceAreaLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Large-Scale Commercial Construction | $500K - $25M+ Projects | Florida Construction Specialists",
+  title: "Large-Scale Commercial Construction | $500K - $25M+ Projects",
   description: "Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget.",
 };
 
@@ -73,7 +73,7 @@ export default function CommercialConstructionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction project in Tampa Bay"
             fill
             className="object-cover"

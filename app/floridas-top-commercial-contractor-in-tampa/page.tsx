@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Florida's Top Commercial Contractor in Tampa | Florida Construction Specialists",
+  title: "Florida's Top Commercial Contractor in Tampa",
   description: "Discover why Florida Construction Specialists is recognized as Florida's top commercial contractor in Tampa. Full-service construction, proven results, local expertise.",
 };
 
@@ -156,7 +156,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Florida Construction Specialists commercial project"
             fill
             className="object-cover"

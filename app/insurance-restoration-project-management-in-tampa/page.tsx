@@ -4,6 +4,7 @@ import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from 
 import { Phone, CheckCircle, AlertTriangle, ClipboardList, Users, Calendar, Target } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -58,7 +59,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Insurance restoration project management in Tampa"
             fill
             className="object-cover"

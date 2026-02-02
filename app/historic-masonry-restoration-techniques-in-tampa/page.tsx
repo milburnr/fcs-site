@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historic Masonry Restoration Techniques in Tampa - Florida Construction Specialists",
+  title: "Historic Masonry Restoration Techniques in Tampa",
   description: "Expert historic masonry restoration in Tampa using traditional techniques. Specialized brick, stone, and mortar restoration for Ybor City landmarks and commercial buildings.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic masonry restoration"
             fill
             className="object-cover"

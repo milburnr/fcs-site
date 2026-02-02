@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historical Accuracy in Tampa Restoration - Florida Construction Specialists",
+  title: "Historical Accuracy in Tampa Restoration",
   description: "Achieving historical accuracy in Tampa restoration projects through research, documentation, and traditional craftsmanship. Essential for tax credit approval and authentic preservation.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historical accuracy in restoration"
             fill
             className="object-cover"

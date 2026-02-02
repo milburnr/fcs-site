@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Historic Restoration Permits and Regulations - Florida Construction Specialists",
+  title: "Tampa Historic Restoration Permits and Regulations",
   description: "Navigate Tampa's historic restoration permit process including COA requirements, building permits, SHPO review, and coordination of multiple regulatory approvals.",
 };
 
@@ -34,7 +34,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/historic-preservation/historic-preservation-large.webp"
+            src="/images/historic-preservation/historic-preservation-display.webp"
             alt="Historic restoration permits"
             fill
             className="object-cover"

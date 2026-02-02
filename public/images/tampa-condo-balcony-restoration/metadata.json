@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-condo-balcony-restoration",
+  "altText": "Condominium balcony restoration Tampa Bay Florida",
+  "tags": ["residential","condo","balcony","restoration","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:22.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-large.avif 1920w, /images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-medium.avif 1280w, /images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-large.webp 1920w, /images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-medium.webp 1280w, /images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-condo-balcony-restoration-medium.jpg"
+  }
+}

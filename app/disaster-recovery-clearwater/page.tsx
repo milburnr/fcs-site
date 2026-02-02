@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import {
   Phone,
   MapPin,
@@ -30,7 +31,7 @@ import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery in Clearwater | Florida Construction Specialists",
+  title: "Disaster Recovery in Clearwater",
   description: "Clearwater's large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration projects, all carriers. Call (813) 420-7561.",
   keywords: [
     "disaster recovery clearwater",
@@ -321,7 +322,7 @@ export default function DisasterRecoveryClearwaterPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp"
+                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp"
                 alt="Storm damage restoration"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -334,7 +335,7 @@ export default function DisasterRecoveryClearwaterPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
                 alt="Restored commercial building"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -349,6 +350,16 @@ export default function DisasterRecoveryClearwaterPage() {
           </div>
         </div>
       </section>
+
+      
+      {/* Visual Break */}
+      <ContentParallax
+        src="/images/hurricane-restoration/hurricane-restoration-large.webp"
+        alt="Disaster recovery and storm damage restoration"
+        title="When Disaster Strikes, We Respond"
+        subtitle="43 years of insurance restoration experience"
+        overlayOpacity={0.6}
+      />
 
       {/* Clearwater-Specific Risk Section */}
       <section className="section bg-red-50">

@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-hurricane-damage-restoration",
+  "altText": "Hurricane damage restoration services Tampa Bay",
+  "tags": ["restoration","hurricane","disaster-recovery","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:11.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-large.avif 1920w, /images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-medium.avif 1280w, /images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-large.webp 1920w, /images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-medium.webp 1280w, /images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-hurricane-damage-restoration-medium.jpg"
+  }
+}

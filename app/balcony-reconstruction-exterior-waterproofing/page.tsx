@@ -4,10 +4,11 @@ import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from 
 import { Phone, ArrowRight, CheckCircle, Shield, Clock, DollarSign, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction & Exterior Waterproofing | Tampa | Florida Construction Specialists",
+  title: "Balcony Reconstruction & Exterior Waterproofing | Tampa",
   description: "Expert balcony reconstruction and exterior waterproofing for Tampa Bay condos and high-rise buildings. SB 4-D compliant. Licensed engineers. Free estimates.",
 };
 

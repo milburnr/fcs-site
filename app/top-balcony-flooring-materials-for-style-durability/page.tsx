@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Top Balcony Flooring Materials for High-Rise Buildings Tampa - Florida Construction Specialists",
+  title: "Top Balcony Flooring Materials for High-Rise Buildings Tampa",
   description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Porcelain tiles, deck coatings, pavers, and natural stone with SB 4-D compliant installation.",
 };
 

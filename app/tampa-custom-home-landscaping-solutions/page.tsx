@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Home Landscaping Solutions | Luxury Outdoor Design - Florida Construction Specialists",
+  title: "Tampa Custom Home Landscaping Solutions | Luxury Outdoor Design",
   description: "Create stunning landscapes for your Tampa custom home. Native Florida plants, outdoor living integration, pools, and sustainable irrigation. Complete landscaping from $50K-$500K+.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury landscaping for Tampa custom homes"
             fill
             className="object-cover"

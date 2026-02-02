@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Loans in Tampa - Florida Construction Specialists",
+  title: "Commercial Construction Loans in Tampa",
   description: "Are you in need of construction financing for your commercial project in Tampa? Discover financing options and how Florida Construction Specialists supports your funding needs.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Commercial construction financing in Tampa Bay"
             fill
             className="object-cover"

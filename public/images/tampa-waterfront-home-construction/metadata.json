@@ -1,0 +1,20 @@
+{
+  "seoName": "tampa-waterfront-home-construction",
+  "altText": "Waterfront custom home construction Tampa Bay",
+  "tags": ["residential","waterfront","custom-home","construction","tampa"],
+  "location": {
+    "city": "Tampa",
+    "state": "Florida",
+    "lat": 27.9506,
+    "lon": -82.4572
+  },
+  "copyright": "Florida Construction Specialists",
+  "processedAt": "2026-01-31T05:22:23.000Z",
+  "responsive": {
+    "sources": [
+      "<source type=\"image/avif\" srcset=\"/images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-large.avif 1920w, /images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-medium.avif 1280w, /images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-small.avif 960w\" />",
+      "<source type=\"image/webp\" srcset=\"/images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-large.webp 1920w, /images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-medium.webp 1280w, /images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-small.webp 960w\" />"
+    ],
+    "fallback": "tampa-waterfront-home-construction-medium.jpg"
+  }
+}

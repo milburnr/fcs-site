@@ -10,7 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Disaster Recovery & Insurance Restoration in Tampa Bay | Florida Construction Specialists",
+  title: "Disaster Recovery & Insurance Restoration in Tampa Bay",
   description: "Tampa Bay's expert insurance restoration contractor. 43+ years claims experience, large loss specialists, direct carrier relationships. Call (813) 420-7561.",
   keywords: [
     "disaster recovery contractor tampa",
@@ -120,7 +120,7 @@ export default function DisasterRecoveryPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-large.webp"
+            src="/images/hurricane-ian/hurricane-ian-display.webp"
             alt="Hurricane damage restoration and disaster recovery"
             fill
             className="object-cover"
@@ -252,7 +252,7 @@ export default function DisasterRecoveryPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp"
+                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp"
                 alt="Aerial view of damaged residential roof showing exposed decking during replacement"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -265,7 +265,7 @@ export default function DisasterRecoveryPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
                 alt="Turner AgriCivic Center after hurricane reconstruction"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

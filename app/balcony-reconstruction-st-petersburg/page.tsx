@@ -7,6 +7,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } f
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
   title: "Balcony Reconstruction St. Petersburg FL | SB 4-D Compliance & Condo Restoration | FCS",

@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Customer Satisfaction in Florida Commercial Construction - Florida Construction Specialists",
+  title: "Customer Satisfaction in Florida Commercial Construction",
   description: "Discover the power of customer satisfaction in Florida commercial construction projects, understanding why it plays a vital role in the success of your business.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Satisfied customer at commercial construction project in Tampa Bay"
             fill
             className="object-cover"

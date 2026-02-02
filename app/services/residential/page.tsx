@@ -10,7 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Luxury Custom Home Construction in Tampa Bay | Florida Construction Specialists",
+  title: "Luxury Custom Home Construction in Tampa Bay",
   description: "Tampa Bay's premier luxury home builder for $1M+ waterfront estates and custom residences. Hurricane-resistant construction, 20+ years experience. Call (813) 420-7561.",
   keywords: [
     "luxury home builder tampa",
@@ -130,7 +130,7 @@ export default function ResidentialConstructionPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury custom home construction in Tampa Bay"
             fill
             className="object-cover"
@@ -244,7 +244,7 @@ export default function ResidentialConstructionPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/custom-home-2/custom-home-2-large.webp"
+                src="/images/custom-home-2/custom-home-2-display.webp"
                 alt="Elevated coastal home with dark gray asphalt shingle roof and white siding on stilts"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

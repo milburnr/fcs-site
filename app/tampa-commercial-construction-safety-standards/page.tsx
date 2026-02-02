@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Safety Standards - Florida Construction Specialists",
+  title: "Tampa Commercial Construction Safety Standards",
   description: "Ensure a secure commercial construction process in Tampa with our top-notch safety standards. Discover how our safety measures adhere to the highest industry standards.",
 };
 
@@ -33,7 +33,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Safe commercial construction site in Tampa Bay"
             fill
             className="object-cover"

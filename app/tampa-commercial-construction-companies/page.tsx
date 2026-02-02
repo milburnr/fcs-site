@@ -63,7 +63,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-large.webp"
+            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
             alt="Tampa commercial construction companies"
             fill
             className="object-cover"
@@ -163,7 +163,7 @@ export default function Page() {
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-              Financial Stability and Financial Strength
+              Financial Stability and Years Experience
             </h2>
             <p className="text-gray-600 mb-6">
               A contractor's financial health directly impacts their ability to successfully complete your project. Construction is capital-intensive, and contractors must fund materials, labor, and subcontractors before receiving payment from owners. Financially weak contractors may struggle to maintain project momentum, leading to delays and quality issues.

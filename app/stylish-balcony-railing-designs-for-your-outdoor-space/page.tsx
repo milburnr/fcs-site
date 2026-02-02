@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Stylish Balcony Railing Designs for High-Rise Buildings Tampa - Florida Construction Specialists",
+  title: "Stylish Balcony Railing Designs for High-Rise Buildings Tampa",
   description: "Premium balcony railing designs for Tampa Bay high-rise condominiums. Code-compliant glass, aluminum, and cable railing systems with expert installation and SB 4-D compliance.",
 };
 

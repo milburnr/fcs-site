@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Luxury Custom Home Building Services | Premier Builder - Florida Construction Specialists",
+  title: "Tampa Luxury Custom Home Building Services | Premier Builder",
   description: "Premier luxury custom home building services in Tampa. Bespoke designs, premium materials, white-glove service. Award-winning craftsmanship from $600K-$10M+.",
 };
 
@@ -57,7 +57,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/custom-home-1/custom-home-1-large.webp"
+            src="/images/custom-home-1/custom-home-1-display.webp"
             alt="Luxury custom home construction in Tampa"
             fill
             className="object-cover"
