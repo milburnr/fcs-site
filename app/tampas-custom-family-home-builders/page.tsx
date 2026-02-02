@@ -327,13 +327,230 @@ export default function Page() {
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Smart Home Technology for Families
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern families benefit from technology integration that simplifies daily routines. Our smart home systems include video doorbells for package delivery awareness, garage door controls accessible from anywhere, lighting automation that adjusts to family schedules, and climate systems that learn your preferences. Security systems with child-friendly features let parents monitor homework completion or after-school arrivals remotely.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Kitchen technology integration focuses on family functionality: charging stations for multiple devices, hidden televisions for morning news, intercom systems connecting to bedrooms, and smart appliances that coordinate meal preparation. We wire homes with robust networking infrastructure that supports everything from remote learning to family gaming tournaments.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Energy Efficiency and Family Comfort
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Family homes consume significant energy with multiple family members using various spaces simultaneously. Our energy-efficient design strategies include high-performance windows that reduce cooling costs, superior insulation packages that maintain comfortable temperatures year-round, and HVAC zoning systems that avoid cooling empty bedrooms during school hours while maintaining comfort in active areas.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Solar energy systems increasingly make sense for Tampa Bay families facing rising utility costs. We design solar-ready homes with optimal roof orientation and electrical capacity for future panel installation. Many families add solar during construction, capturing federal tax credits and utility rebates while building long-term energy independence into their family's largest investment.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Special Considerations for Young Children
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Homes with toddlers and young children require specific safety and functionality considerations. Stair railings with appropriate spacing prevent small heads from getting stuck. Bathroom designs include non-slip surfaces and appropriate lighting for middle-of-the-night navigation. Kitchen layouts consider child safety while allowing supervised participation in cooking activities.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Nursery planning extends beyond immediate infant needs. We design nurseries with future conversions in mind—cribs that become toddler beds, changing areas that transform into play spaces, and storage systems that accommodate toys and school supplies as children grow. Soundproofing considerations help preserve family sleep schedules during those challenging early years.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Teen Years and Independence Training
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Teenagers require different spaces than children—areas for independence development while maintaining family connection. Teen bedrooms benefit from study areas, comfortable seating for friends, and storage systems for evolving interests. We design teen bathroom spaces that accommodate longer routines while serving multiple users during busy mornings.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Family homes should include spaces where teenagers can entertain friends under parental supervision—basement recreation areas, bonus rooms with exterior access, or designated zones within open floor plans. These spaces need appropriate technology infrastructure, comfortable seating, and proximate bathroom facilities while remaining connected to main family areas for supervision.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Home Offices and Remote Work Integration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              The remote work revolution affects family home design significantly. Parents need dedicated office spaces with professional backgrounds for video calls, sound isolation for concentration, and proximity to family areas for supervision. Children require homework stations with good lighting, organized supplies, and reduced distractions during study hours.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We design flexible office solutions that adapt to changing work patterns—formal home offices for full-time remote workers, kitchen desk areas for occasional use, and shared family command centers where schedules, homework, and household management converge. Proper electrical and networking infrastructure supports multiple simultaneous users without connectivity issues.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Family Recreation and Entertainment Spaces
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa's climate supports year-round family recreation that indoor and outdoor spaces should accommodate. Game rooms serve multiple purposes—rainy day play areas, birthday party venues, and teen hangouts. We design these spaces with durable finishes, appropriate lighting for various activities, and flexibility for furniture rearrangement.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Media rooms for family movie nights require different considerations than formal home theaters. Child-friendly seating, blackout capabilities that don't permanently darken rooms, and sound systems that provide immersion without disturbing sleeping family members create spaces where families actually gather rather than showcases that remain unused.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Storage Solutions for Growing Families
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Family storage needs evolve constantly—newborn equipment gives way to toddler toys, school supplies multiply yearly, sports equipment varies seasonally, and memories accumulate in photo albums and artwork. We design comprehensive storage systems that accommodate these changing needs without consuming living space.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Attic storage with pull-down stairs or permanent stair access handles seasonal items and memory storage. Basement areas provide sports equipment organization and holiday decoration storage. Garage storage systems organize tools, bicycles, and outdoor equipment while preserving vehicle space. Throughout the home, built-in storage solutions contain daily items without cluttering living areas.
+            </p>
+
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-green-800 mb-3">Timeline for Custom Family Home Construction</h3>
+              <div className="space-y-3 text-green-800">
+                <p><strong>Design Phase:</strong> 2-4 months for custom design development and permit preparation</p>
+                <p><strong>Permitting:</strong> 4-8 weeks depending on jurisdiction and complexity</p>
+                <p><strong>Site Preparation:</strong> 1-2 weeks for clearing, excavation, and utility connections</p>
+                <p><strong>Foundation:</strong> 2-3 weeks for excavation, forming, pouring, and curing</p>
+                <p><strong>Framing:</strong> 3-6 weeks depending on home size and complexity</p>
+                <p><strong>Systems Rough-in:</strong> 2-4 weeks for electrical, plumbing, and HVAC installation</p>
+                <p><strong>Insulation and Drywall:</strong> 3-4 weeks for installation, finishing, and painting</p>
+                <p><strong>Interior Finishes:</strong> 4-8 weeks for flooring, cabinets, trim, and fixtures</p>
+                <p><strong>Final Details:</strong> 2-3 weeks for punch list completion and final inspections</p>
+                <p><strong>Total Timeline:</strong> 8-12 months from design start to move-in ready</p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sustainable Materials for Family Health
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Family homes should prioritize indoor air quality and sustainable materials that create healthy living environments for children's development. We specify low-VOC paints and finishes, formaldehyde-free insulation, and natural materials wherever possible. These choices reduce chemical exposure while maintaining the durability required for family life.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Flooring selections emphasize both health and durability—natural stone and tile with non-toxic sealers, solid hardwood floors with water-based finishes, and natural fiber carpets in bedrooms. We avoid materials with known health concerns while ensuring selections withstand the wear patterns of active family life.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Financing Your Family's Custom Home
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Custom family home construction requires specialized financing different from purchasing existing homes. Construction-to-permanent loans combine construction financing with permanent mortgage financing, simplifying the process and reducing closing costs. We work with experienced construction lenders who understand the unique requirements of custom home projects.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Budget planning for family homes should consider future needs and potential expansions. Building core infrastructure during initial construction—electrical capacity for pools or additions, HVAC systems sized for expansion, and structural provisions for second stories—costs far less than retrofitting later. We help families plan budgets that accommodate both immediate needs and future growth.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Build Your Family's Future Home
             </h2>
             <p className="text-gray-600 mb-6">
               Your family deserves a home designed for how you actually live—not a showpiece that can't survive daily use. Florida Construction Specialists creates custom family homes throughout Tampa Bay that accommodate busy schedules, growing children, changing needs, and the beautiful chaos of family life. From toddler years through teen years and beyond, we build homes that grow with your family.
             </p>
             <p className="text-gray-600 mb-6">
-              Contact us to discuss your family's custom home dreams. We'll help you plan a home where memories are made and your family thrives.
+              Every family has unique requirements based on lifestyle, interests, and goals. Our design process explores these requirements thoroughly, creating homes that support your family's specific needs while providing flexibility for future changes. We understand that family homes aren't just houses—they're the foundation for memories, growth, and happiness.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Contact us to discuss your family's custom home dreams. We'll help you plan a home where memories are made and your family thrives for generations to come.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Choose Florida Construction Specialists for Your Family Home
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Building a custom family home represents one of life's most significant investments—financially and emotionally. You need builders who understand the unique pressures and priorities of family life, who can translate your vision into reality while managing budgets and timelines effectively. Florida Construction Specialists has built hundreds of family homes throughout Tampa Bay, earning trust through consistent delivery of quality, value, and service.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Our family home experience spans every age and stage—from first-time parents planning for growing families to empty nesters preparing for grandchildren's visits. We understand how family needs evolve and design homes with appropriate flexibility. Our project management ensures families can plan around construction schedules, coordinating temporary housing needs with school calendars and work obligations.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-8 my-8">
+              <div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Our Family Home Experience</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• 500+ completed custom family homes in Tampa Bay</li>
+                  <li>• Multi-generational design expertise</li>
+                  <li>• Child safety and accessibility integration</li>
+                  <li>• Energy-efficient systems and sustainable materials</li>
+                  <li>• Smart home technology implementation</li>
+                  <li>• Pool and outdoor living specialization</li>
+                  <li>• Flexible spaces that adapt over time</li>
+                  <li>• Value engineering that maximizes budget impact</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Client-Focused Process</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Detailed consultation on family lifestyle needs</li>
+                  <li>• Transparent pricing with detailed cost breakdowns</li>
+                  <li>• Regular communication and progress updates</li>
+                  <li>• Quality control inspections at every phase</li>
+                  <li>• Coordination with schools and family schedules</li>
+                  <li>• Post-construction support and warranty service</li>
+                  <li>• Relationships with family-focused designers</li>
+                  <li>• Financing guidance and lender relationships</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Recent Family Home Projects in Tampa Bay
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Every family home we build tells a unique story. Recent projects include a multi-generational home in Westchase with separate living quarters for grandparents who provide childcare, a Carrollwood family home designed around accessibility needs for a special-needs child, and a Land O'Lakes estate with separate wings for teenage privacy and parent supervision. Each project required different solutions, but all prioritized family functionality over showcase appeal.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Our South Tampa family homes maximize smaller lots with vertical design and rooftop decks. Suburban projects in Wesley Chapel and New Tampa take advantage of larger lots with spread-out designs and extensive outdoor living. Waterfront family homes in Westshore and Harbour Island integrate boating lifestyles with child safety requirements. Location drives design, but family functionality remains constant across all projects.
+            </p>
+
+            <div className="bg-gray-100 p-6 rounded-lg my-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Client Testimonial</h3>
+              <blockquote className="text-lg text-gray-700 italic mb-4">
+                "Florida Construction Specialists understood that we weren't just building a house—we were creating the foundation for our family's next chapter. They designed around our actual life, not magazine photos. Three years later, our home works perfectly for our daily routine, our children love their spaces, and we still discover thoughtful details they incorporated. The investment was significant, but the value to our family's happiness has been immeasurable."
+              </blockquote>
+              <cite className="text-gray-600 font-medium">— The Morrison Family, Wesley Chapel (2021)</cite>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Getting Started with Your Family Home Project
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Custom family home projects begin with understanding your family's unique story—current needs, future plans, lifestyle priorities, and budget parameters. Our initial consultation explores these factors in detail, helping us understand how your family actually lives rather than how design magazines suggest families should live. This understanding guides every design decision throughout the project.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We encourage families to involve children (age-appropriately) in the design process. Children often identify needs parents might miss and get excited about features that make the home truly theirs. Teenagers can provide valuable input on their space requirements and technology needs. These conversations create buy-in and excitement that makes the construction process a positive family experience rather than a stressful disruption.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Contact Florida Construction Specialists today to begin planning your family's custom home. We'll help you create a space where your family can grow, thrive, and make memories for decades to come.
+            </p>
+
+            <div className="bg-blue-50 p-6 rounded-lg my-8">
+              <h3 className="text-xl font-bold text-blue-800 mb-4">Ready to Start Your Family Home Journey?</h3>
+              <p className="text-blue-700 mb-4">
+                Schedule a complimentary consultation to discuss your family's custom home vision. We'll explore your needs, review your lot or help you find the perfect location, and provide preliminary budget guidance to help you plan this important investment.
+              </p>
+              <div className="grid md:grid-cols-2 gap-4 text-blue-700">
+                <div>
+                  <h4 className="font-semibold mb-2">What We'll Cover:</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Your family's lifestyle and space needs</li>
+                    <li>• Preliminary design concepts and layout options</li>
+                    <li>• Budget planning and financing considerations</li>
+                    <li>• Timeline expectations and project phases</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Next Steps:</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Site evaluation and feasibility assessment</li>
+                    <li>• Detailed proposal with scope and pricing</li>
+                    <li>• Design development and permit preparation</li>
+                    <li>• Construction scheduling and project kickoff</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <p className="text-gray-600 mb-6">
+              We serve families throughout the Greater Tampa Bay area, including Tampa, St. Petersburg, Clearwater, Brandon, Wesley Chapel, Land O'Lakes, Carrollwood, Westchase, New Tampa, and surrounding communities. Each area offers unique advantages for families—from downtown Tampa's urban amenities to Wesley Chapel's family-focused master-planned communities. We help you evaluate neighborhoods based on schools, commute patterns, amenities, and long-term value potential.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Your family's custom home should reflect your values, support your lifestyle, and provide a foundation for decades of happiness and memories. Florida Construction Specialists combines construction expertise with family focus, creating homes that work as hard as parents do while providing the comfort and beauty every family deserves.
+            </p>
+            
+            <p className="text-gray-600 mb-6">
+              Ready to transform your family's housing dreams into reality? Contact us today for a consultation tailored to your unique family needs.
             </p>
 
           </div>

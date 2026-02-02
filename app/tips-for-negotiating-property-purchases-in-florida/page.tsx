@@ -260,6 +260,236 @@ export default function Page() {
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Due Diligence Timeline and Strategy
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Successful commercial property acquisition in Florida requires methodical due diligence that uncovers issues while preserving negotiating position. The timeline begins before making an offer and extends through closing, with construction assessment playing a critical early role.
+            </p>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-blue-800 mb-3">Recommended Due Diligence Timeline</h3>
+              <div className="space-y-3 text-blue-800">
+                <p><strong>Pre-Offer (Days -7 to 0):</strong> Preliminary property walkthrough, initial construction assessment, market research, and financial modeling</p>
+                <p><strong>Week 1:</strong> Contract execution, earnest money deposit, formal inspection scheduling, title company selection</p>
+                <p><strong>Weeks 2-3:</strong> Comprehensive construction inspection, environmental assessment, survey verification, zoning compliance review</p>
+                <p><strong>Weeks 3-4:</strong> Third-party reports review, contractor estimates for identified issues, financial due diligence completion</p>
+                <p><strong>Weeks 4-5:</strong> Renegotiation based on findings, loan application and underwriting, final contract amendments</p>
+                <p><strong>Week 6:</strong> Due diligence period expiration, final walk-through, closing preparation</p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Environmental Considerations in Florida Property Purchases
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's environmental factors significantly impact commercial property value and usability. Construction assessment should include evaluation of potential environmental issues that could affect development rights, insurance costs, or operational expenses. We identify environmental red flags during our property evaluations.
+            </p>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Flood Zone Analysis</h3>
+                <p className="text-gray-600 mb-3">
+                  FEMA flood zone designations affect insurance requirements, development restrictions, and property values. Properties in flood zones require flood insurance, may have limited expansion options, and face stricter building requirements. We evaluate current flood zone status and potential for future remapping.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Current FEMA flood zone designation</li>
+                  <li>• Base flood elevation requirements</li>
+                  <li>• Flood insurance cost estimates</li>
+                  <li>• Historical flooding incidents</li>
+                </ul>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Soil and Foundation Conditions</h3>
+                <p className="text-gray-600 mb-3">
+                  Florida's diverse soil conditions—from sandy coastal areas to clay-heavy inland regions—affect foundation stability and construction costs. We identify signs of settling, sinkholes, or other soil-related issues that could impact the property's structural integrity and future development potential.
+                </p>
+                <ul className="text-sm text-gray-600 space-y-1">
+                  <li>• Foundation settlement indicators</li>
+                  <li>• Sinkhole risk assessment</li>
+                  <li>• Drainage and water management</li>
+                  <li>• Soil bearing capacity evaluation</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Hurricane and Storm Damage Assessment
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's hurricane history directly affects commercial property values and insurance costs. Buildings that have sustained previous storm damage—even if repaired—may have hidden issues or higher future vulnerability. Our assessments identify storm damage indicators and evaluate the adequacy of hurricane protection systems.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Post-storm construction quality varies dramatically depending on contractor selection, oversight, and repair methodologies used. We've seen properties with extensive hidden damage from poor storm repairs that only become apparent years later. Professional evaluation during due diligence prevents these costly surprises.
+            </p>
+
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-amber-800 mb-3">Storm Damage Red Flags</h3>
+              <ul className="space-y-2 text-amber-800">
+                <li>• Mismatched roofing materials indicating partial replacement</li>
+                <li>• New windows mixed with older ones</li>
+                <li>• Fresh paint or finishes hiding water damage</li>
+                <li>• Electrical or mechanical systems with newer components mixed with older</li>
+                <li>• Foundation repairs or underpinning</li>
+                <li>• Insurance claims history showing storm damage</li>
+                <li>• Building permit history for storm-related repairs</li>
+              </ul>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Code Compliance and Zoning Issues
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's evolving building codes and local zoning ordinances create compliance challenges for older commercial properties. Changes in hurricane resistance requirements, accessibility standards, and environmental regulations may require expensive upgrades when properties undergo substantial improvement or change of use.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Our assessments identify code compliance gaps that could trigger upgrade requirements. Understanding these potential costs before acquisition allows you to negotiate appropriate pricing and plan for capital expenditures. Surprise code compliance requirements can significantly impact property economics.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-4">Common Code Compliance Issues in Florida</h3>
+            <div className="grid md:grid-cols-3 gap-4 mb-8">
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h4 className="font-bold text-brand-green-dark mb-2">Wind Resistance</h4>
+                <p className="text-sm text-gray-600">Older buildings may not meet current hurricane resistance standards, requiring upgrades to windows, doors, roofing systems, and structural connections.</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h4 className="font-bold text-brand-green-dark mb-2">ADA Compliance</h4>
+                <p className="text-sm text-gray-600">Accessibility requirements affect entrances, bathrooms, parking, and public spaces. Renovations often trigger comprehensive ADA upgrade requirements.</p>
+              </div>
+              <div className="bg-gray-50 p-4 rounded-lg">
+                <h4 className="font-bold text-brand-green-dark mb-2">Fire/Life Safety</h4>
+                <p className="text-sm text-gray-600">Sprinkler systems, fire alarm systems, emergency lighting, and exit requirements may need upgrades to meet current standards.</p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Seller Motivations and Negotiating Accordingly
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective negotiation requires understanding why sellers are divesting and what terms matter most to them. Different motivations create different negotiating opportunities—cash versus financed purchases, quick versus extended closings, price versus terms flexibility.
+            </p>
+
+            <div className="space-y-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Distressed or Motivated Sellers</h3>
+                <p className="text-gray-600 mb-3">
+                  Properties with deferred maintenance often indicate financial stress or ownership changes. These situations create opportunities for buyers who can close quickly and handle property improvements post-acquisition.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1">Negotiating Strategies:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Emphasize quick, certain closing</li>
+                      <li>• Offer cash or pre-approved financing</li>
+                      <li>• Accept property "as-is" with price adjustment</li>
+                      <li>• Minimize contingencies and inspections</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1">Potential Advantages:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Below-market pricing opportunities</li>
+                      <li>• Seller financing possibilities</li>
+                      <li>• Flexible closing timelines</li>
+                      <li>• Less competition from other buyers</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Owner-Occupant Transitions</h3>
+                <p className="text-gray-600 mb-3">
+                  Business owners selling buildings they occupy often have emotional attachments and specific timeline requirements. They may prioritize smooth transitions over maximum pricing, creating negotiating opportunities for understanding buyers.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1">Negotiating Strategies:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Offer leaseback arrangements during transition</li>
+                      <li>• Accommodate their moving timeline</li>
+                      <li>• Consider owner financing options</li>
+                      <li>• Show respect for their business legacy</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1">Potential Opportunities:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Well-maintained properties</li>
+                      <li>• Established tenant relationships</li>
+                      <li>• Below-market asking prices</li>
+                      <li>• Flexible closing terms</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Institutional Investors</h3>
+                <p className="text-gray-600 mb-3">
+                  Large investment entities often prioritize transaction certainty and speed over maximum pricing. They typically won't negotiate extensively but may accept reasonable offers that close quickly and cleanly.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1">Negotiating Strategies:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Present clean, professional offers</li>
+                      <li>• Demonstrate financial capability clearly</li>
+                      <li>• Minimize unusual terms or contingencies</li>
+                      <li>• Offer quick closing timelines</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1">Typical Characteristics:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Market-rate pricing expectations</li>
+                      <li>• Standardized contract terms</li>
+                      <li>• Professional property management</li>
+                      <li>• Documented maintenance histories</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Advanced Negotiation Tactics Using Construction Intelligence
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Professional construction assessment provides powerful negotiating ammunition beyond simple price reductions. Creative deal structures using construction information can create win-win solutions that address both buyer and seller concerns.
+            </p>
+
+            <div className="space-y-4 mb-8">
+              <div className="border-l-4 border-brand-green p-4 bg-green-50">
+                <h4 className="font-bold text-brand-green-dark mb-2">Graduated Pricing Based on Condition</h4>
+                <p className="text-gray-600 text-sm">
+                  Negotiate pricing tiers based on inspection results: "List price if no major issues found, $X reduction if roof needs replacement, additional $Y reduction if HVAC requires replacement." This approach gives sellers confidence while protecting buyers from unknown costs.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-brand-green p-4 bg-green-50">
+                <h4 className="font-bold text-brand-green-dark mb-2">Performance-Based Seller Credits</h4>
+                <p className="text-gray-600 text-sm">
+                  Structure credits that adjust based on actual repair costs: "Seller provides $50,000 credit for HVAC repairs; any unused portion returns to seller, overages split equally." This aligns interests and provides fairness for both parties when repair scope is uncertain.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-brand-green p-4 bg-green-50">
+                <h4 className="font-bold text-brand-green-dark mb-2">Staged Acquisition with Improvement Milestones</h4>
+                <p className="text-gray-600 text-sm">
+                  For properties requiring extensive work, negotiate staged purchases tied to improvement completion: initial acquisition at reduced price with additional payments as improvements add value. This reduces buyer risk while providing sellers upside participation.
+                </p>
+              </div>
+
+              <div className="border-l-4 border-brand-green p-4 bg-green-50">
+                <h4 className="font-bold text-brand-green-dark mb-2">Seller-Performed Improvements with Buyer Oversight</h4>
+                <p className="text-gray-600 text-sm">
+                  When sellers prefer handling repairs themselves, negotiate for buyer approval of contractors, specifications, and completion standards. Our team can provide oversight services ensuring work meets your standards while maintaining seller responsibility.
+                </p>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Our Property Assessment Process
             </h2>
 

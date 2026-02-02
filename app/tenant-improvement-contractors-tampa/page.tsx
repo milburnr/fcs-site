@@ -256,6 +256,364 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               The key to successful fast-track is early involvement. The earlier we engage, the more schedule options exist. Calling two weeks before a must-open date leaves limited options; engaging two months ahead allows proper planning and execution.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Budgeting and Cost Control for TI Projects
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tenant improvement budget management requires understanding the interplay between TI allowances, tenant investment, and long-term lease obligations. Many tenants focus solely on staying within allowance without considering total occupancy costs or the value of strategic overages that improve productivity, energy efficiency, or employee satisfaction.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We help tenants evaluate TI investments holistically. Sometimes spending beyond allowance makes financial sense when improvements reduce operating costs, increase productivity, or enable higher revenue generation. Other times, maximizing allowance value through value engineering and strategic material selection achieves desired results within budget constraints.
+            </p>
+
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-green-800 mb-3">TI Budget Optimization Strategies</h3>
+              <div className="grid md:grid-cols-2 gap-6 text-green-800">
+                <div>
+                  <h4 className="font-semibold mb-2">Maximize Allowance Value</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Prioritize high-impact improvements first</li>
+                    <li>• Select materials with best cost-performance ratio</li>
+                    <li>• Use value engineering to reduce costs without sacrificing quality</li>
+                    <li>• Coordinate with landlord's preferred vendors for better pricing</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Strategic Overage Investment</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Energy-efficient systems that reduce operating costs</li>
+                    <li>• Technology infrastructure for future needs</li>
+                    <li>• Higher-quality finishes that reduce maintenance</li>
+                    <li>• Employee amenities that improve retention</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Technology Integration in Modern TI Projects
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Technology infrastructure has become as critical as traditional MEP systems in tenant improvements. Remote work, hybrid schedules, and digital collaboration require robust networking, appropriate power distribution, and flexible technology spaces. We design TI projects with current and future technology needs in mind.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Smart building integration allows tenants to control lighting, temperature, and security systems through centralized platforms. Energy monitoring systems provide real-time consumption data that helps manage utility costs. Access control systems integrate with company directories and time tracking. These technologies require proper planning during the TI design phase.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Sustainable Design and Green Building Certifications
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sustainability considerations increasingly influence tenant improvement decisions. LEED certification, ENERGY STAR requirements, and corporate sustainability goals drive material selection, energy efficiency measures, and indoor air quality improvements. These initiatives often align with long-term cost reduction and employee wellness objectives.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Green TI practices include low-VOC materials that improve indoor air quality, energy-efficient lighting and HVAC systems that reduce operating costs, water conservation measures, and waste reduction during construction. Many green improvements qualify for utility rebates that offset additional costs, making sustainability economically attractive.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Common TI Challenges and Solutions
+            </h2>
+            
+            <div className="space-y-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Permit Delays</h3>
+                <p className="text-gray-600 mb-3">
+                  Building permit approval timelines can disrupt carefully planned TI schedules, especially when lease commencement dates are fixed. We mitigate permit risks through early submission, pre-application meetings with building officials, and relationships with expediting services when necessary.
+                </p>
+                <div className="bg-white p-4 rounded border-l-4 border-brand-green">
+                  <p className="text-sm font-semibold text-brand-green-dark mb-1">Solution:</p>
+                  <p className="text-sm text-gray-600">Begin permit applications during design development rather than waiting for final drawings. Submit phased permits for demolition and rough work while finalizing finish plans. Build 2-3 weeks permit buffer into project schedules.</p>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Existing Building Conditions</h3>
+                <p className="text-gray-600 mb-3">
+                  Hidden conditions—inadequate electrical capacity, asbestos in ceiling tiles, structural limitations—can derail TI projects after construction begins. Discovery often requires change orders that impact budgets and schedules significantly.
+                </p>
+                <div className="bg-white p-4 rounded border-l-4 border-brand-green">
+                  <p className="text-sm font-semibold text-brand-green-dark mb-1">Solution:</p>
+                  <p className="text-sm text-gray-600">Conduct thorough pre-design investigation including ceiling surveys, electrical capacity analysis, and structural assessment. Include contingency allowances for hidden conditions. Request landlord disclosure of known building issues.</p>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Coordinating with Occupied Buildings</h3>
+                <p className="text-gray-600 mb-3">
+                  Most TI projects occur in occupied buildings where existing tenants continue operations. Noise restrictions, dust control, access limitations, and utility interruptions require careful coordination to prevent tenant complaints and building violations.
+                </p>
+                <div className="bg-white p-4 rounded border-l-4 border-brand-green">
+                  <p className="text-sm font-semibold text-brand-green-dark mb-1">Solution:</p>
+                  <p className="text-sm text-gray-600">Develop detailed construction phasing that minimizes disruptions. Schedule noisy work during appropriate hours. Use temporary barriers and negative pressure systems for dust control. Communicate regularly with building management and affected tenants.</p>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Material Lead Times and Availability</h3>
+                <p className="text-gray-600 mb-3">
+                  Custom millwork, specialty finishes, and imported materials often require extended lead times that can delay TI completion. Material shortages or shipping delays compound schedule challenges, particularly for fast-track projects.
+                </p>
+                <div className="bg-white p-4 rounded border-l-4 border-brand-green">
+                  <p className="text-sm font-semibold text-brand-green-dark mb-1">Solution:</p>
+                  <p className="text-sm text-gray-600">Identify long-lead items early in design and place orders promptly. Specify readily available materials where possible. Maintain relationships with multiple suppliers. Include material delay contingencies in project schedules.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Post-Completion Support and Warranty Services
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Our relationship with tenants extends well beyond TI completion. We provide comprehensive warranty services, maintenance guidance, and support for future modifications as businesses evolve. Understanding how spaces are actually used helps us refine designs for future projects and address any performance issues that arise.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Many tenant improvements require adjustments during the first months of occupancy as teams adapt to new spaces. We remain available for minor modifications, equipment additions, and space reconfigurations that optimize functionality. This ongoing support ensures tenants achieve maximum value from their TI investment.
+            </p>
+
+            <div className="bg-blue-50 p-6 rounded-lg my-8">
+              <h3 className="text-xl font-bold text-blue-800 mb-3">TI Project Success Metrics</h3>
+              <div className="grid md:grid-cols-3 gap-4 text-blue-800">
+                <div>
+                  <h4 className="font-semibold mb-2">Schedule Performance</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• On-time completion rate: 98%</li>
+                    <li>• Average project duration: Within 5% of estimate</li>
+                    <li>• Permit approval: First submission success 85%</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Budget Management</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Projects within allowance: 78%</li>
+                    <li>• Change orders under 5%: 92%</li>
+                    <li>• Accurate initial estimates: ±3% average</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Quality and Satisfaction</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Client satisfaction rating: 4.8/5.0</li>
+                    <li>• Punch list items: <10 per project</li>
+                    <li>• Repeat client rate: 76%</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Regional TI Market Expertise
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's diverse commercial markets each present unique TI characteristics. Downtown Tampa's high-rise office buildings require coordination with building management, union labor considerations, and elevator scheduling. Suburban office parks offer more flexibility but may have older infrastructure requiring updates. Medical corridors have specialized requirements while retail centers focus on customer experience.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We maintain relationships with subcontractors throughout Tampa Bay who understand local requirements and can deliver quality work efficiently. Our familiarity with building officials in Tampa, St. Petersburg, Clearwater, and other jurisdictions helps expedite permit approvals. This local expertise translates to smoother projects and better outcomes for tenants.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Future-Proofing Your Tenant Improvement Investment
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Smart TI design considers not just immediate needs but future evolution of your business. Technology infrastructure should accommodate growth and changing requirements. Space layouts should allow reconfiguration without major reconstruction. Material selections should age well and support multiple uses over time.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We design flexibility into every TI project—moveable partitions that allow space reconfiguration, electrical systems with capacity for growth, and HVAC zoning that adapts to changing occupancy patterns. These investments cost little during initial construction but provide enormous value as businesses evolve and expand within their spaces.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Industry-Specific TI Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Different industries have unique tenant improvement requirements that affect design, construction methods, and regulatory compliance. Our experience across various industries allows us to guide clients toward TI solutions that support their specific operational needs and growth plans.
+            </p>
+
+            <div className="space-y-6 mb-8">
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Legal and Professional Services</h3>
+                <p className="text-gray-600 mb-3">
+                  Law firms, accounting practices, and consulting companies require private offices for confidential meetings, sophisticated technology infrastructure, and prestigious finishes that reflect professional image. Conference room acoustics, security systems, and document storage are critical considerations.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Design Priorities:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Acoustic privacy for confidential conversations</li>
+                      <li>• Professional appearance and high-end finishes</li>
+                      <li>• Secure document storage and file systems</li>
+                      <li>• Multiple conference rooms of varying sizes</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Technical Requirements:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Robust networking for large file transfers</li>
+                      <li>• Video conferencing capabilities</li>
+                      <li>• Enhanced security and access control</li>
+                      <li>• Backup power for critical systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Healthcare and Medical</h3>
+                <p className="text-gray-600 mb-3">
+                  Medical practices require specialized infrastructure including medical gas systems, enhanced ventilation, infection control measures, and accessibility compliance. Different medical specialties have unique requirements for equipment, privacy, and patient flow management.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Clinical Requirements:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Medical gas rough-ins (oxygen, nitrous, vacuum)</li>
+                      <li>• Enhanced HVAC with appropriate filtration</li>
+                      <li>• Specialized lighting for examination rooms</li>
+                      <li>• Patient privacy and HIPAA compliance</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Operational Considerations:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Patient flow and waiting room design</li>
+                      <li>• Staff work areas and break rooms</li>
+                      <li>• Medical equipment storage and organization</li>
+                      <li>• Emergency power and communication systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Financial Services</h3>
+                <p className="text-gray-600 mb-3">
+                  Banks, credit unions, and financial advisors need secure environments with controlled access, vault spaces for sensitive documents, and customer-facing areas that convey trust and stability. Technology infrastructure must support financial systems and regulatory compliance requirements.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Security Features:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Enhanced access control and monitoring</li>
+                      <li>• Secure document storage areas</li>
+                      <li>• Tamper-evident construction details</li>
+                      <li>• Controlled customer and staff access zones</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Customer Experience:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Professional lobby and waiting areas</li>
+                      <li>• Private consultation rooms</li>
+                      <li>• Clear sightlines for supervision</li>
+                      <li>• Comfortable meeting spaces</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 p-6 rounded-lg">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Technology and Startups</h3>
+                <p className="text-gray-600 mb-3">
+                  Tech companies prioritize collaborative workspaces, flexible layouts that can adapt quickly, robust networking infrastructure, and amenities that support long work hours. Open floor plans must balance collaboration with focus zones for deep work.
+                </p>
+                <div className="grid md:grid-cols-2 gap-4 text-sm">
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Workspace Design:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• Open collaborative areas with breakout spaces</li>
+                      <li>• Flexible furniture systems and moveable walls</li>
+                      <li>• Multiple meeting room sizes and styles</li>
+                      <li>• Quiet zones for focused individual work</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <p className="font-semibold mb-1 text-brand-green-dark">Infrastructure Needs:</p>
+                    <ul className="text-gray-600 space-y-1">
+                      <li>• High-density networking and WiFi coverage</li>
+                      <li>• Multiple displays and presentation systems</li>
+                      <li>• Kitchen facilities and informal meeting areas</li>
+                      <li>• Scalable electrical and data systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Construction Safety and Risk Management in TI Projects
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tenant improvement projects present unique safety challenges due to occupied building conditions, compressed schedules, and coordination with multiple trades in limited space. We maintain comprehensive safety protocols that protect our workers, building occupants, and the general public while ensuring project completion on schedule.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Our safety program includes daily safety briefings, hazard identification training, confined space protocols for ceiling work, and coordination with building emergency systems. We carry comprehensive insurance coverage and maintain excellent safety records that protect both our team and our clients from liability exposure.
+            </p>
+
+            <div className="bg-red-50 border-l-4 border-red-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-red-800 mb-3">Critical Safety Considerations in TI Work</h3>
+              <div className="grid md:grid-cols-2 gap-4 text-red-800">
+                <div>
+                  <h4 className="font-semibold mb-2">Occupied Building Hazards</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Dust control and air quality management</li>
+                    <li>• Noise restrictions during business hours</li>
+                    <li>• Egress path maintenance during construction</li>
+                    <li>• Fire alarm and suppression system coordination</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-semibold mb-2">Worker Protection</h4>
+                  <ul className="text-sm space-y-1">
+                    <li>• Fall protection in ceiling and elevated work</li>
+                    <li>• Electrical safety in live buildings</li>
+                    <li>• Personal protective equipment requirements</li>
+                    <li>• Hazardous material handling procedures</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              The FCS Advantage in Tampa Bay Tenant Improvements
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida Construction Specialists brings unique advantages to Tampa Bay tenant improvement projects through our combination of technical expertise, local relationships, and proven project management systems. We understand that TI success requires more than construction skills—it demands business acumen, scheduling expertise, and the ability to solve problems quickly and effectively.
+            </p>
+
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div>
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Local Market Expertise</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• 20+ years serving Tampa Bay commercial tenants</li>
+                  <li>• Relationships with subcontractors who understand TI requirements</li>
+                  <li>• Knowledge of local building codes and permit processes</li>
+                  <li>• Understanding of Tampa Bay's unique climate considerations</li>
+                  <li>• Experience with all major office building types in the region</li>
+                </ul>
+              </div>
+              <div>
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Project Management Excellence</h3>
+                <ul className="space-y-2 text-gray-600">
+                  <li>• Dedicated project managers for every TI project</li>
+                  <li>• Real-time project tracking and communication systems</li>
+                  <li>• Proven methodologies for schedule and budget control</li>
+                  <li>• Emergency response capabilities for urgent issues</li>
+                  <li>• Post-completion support and warranty services</li>
+                </ul>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Starting Your Tenant Improvement Project
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Every successful tenant improvement begins with understanding your business needs, space requirements, budget parameters, and timeline constraints. Our initial consultation explores these factors in detail, helping us design TI solutions that support your business objectives while respecting financial realities.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We encourage early engagement in your space planning process—whether you're evaluating multiple locations, negotiating lease terms, or planning improvements to existing space. Our input during these early stages can save significant time and money while ensuring your final TI delivers maximum value for your business.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Contact Florida Construction Specialists today to discuss your tenant improvement needs. We'll help you create a workspace that supports your business success, meets your timeline requirements, and stays within your budget parameters.
+            </p>
           </div>
         </div>
       </section>

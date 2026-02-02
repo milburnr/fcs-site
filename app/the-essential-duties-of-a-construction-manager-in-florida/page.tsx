@@ -286,14 +286,291 @@ export default function Page() {
             </div>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Risk Management and Mitigation
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Construction managers serve as the primary risk management professionals on commercial projects, identifying potential risks early and developing mitigation strategies. In Florida, this responsibility takes on added complexity due to the state's unique environmental and regulatory challenges.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Weather-Related Risk Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Florida's weather patterns create significant risks that construction managers must address proactively. Summer thunderstorms can shut down construction for 2-3 hours daily during peak season, while hurricane threats may halt work for days or weeks. Experienced CMs develop weather contingency plans, maintain relationships with temporary structure suppliers for storm protection, and adjust scheduling to account for seasonal weather patterns.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Florida Construction Specialists' 43 years of experience includes managing projects through numerous hurricanes, including Andrew (1992), Charley (2004), Ian (2022), and many others. This experience enables us to develop comprehensive weather protection strategies and maintain project momentum despite Florida's challenging climate.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Supply Chain Risk Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers monitor supply chain risks and develop contingency plans for material procurement delays. In the post-COVID construction market, supply chain disruptions have become commonplace, particularly for specialty building products required for Florida construction. CMs maintain relationships with multiple suppliers, track material lead times, and adjust procurement schedules to prevent construction delays.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Financial and Legal Risk Protection
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers protect owners from financial and legal risks through proper contract administration, insurance verification, and lien waiver management. This includes reviewing subcontractor insurance certificates, processing payment applications with appropriate lien waivers, and ensuring compliance with Florida's construction lien laws.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Technology Integration in Modern Construction Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Today's construction managers leverage advanced technology to enhance project oversight and communication. Modern CM services integrate digital tools that provide real-time project visibility and improved decision-making capabilities.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Project Management Software Systems
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Advanced project management platforms enable construction managers to track schedule progress, monitor costs, manage document flow, and facilitate team communication. These systems provide owners with 24/7 access to project dashboards showing budget status, schedule milestones, and photo documentation of construction progress.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Digital Documentation and Photo Monitoring
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Digital photo documentation provides comprehensive project records while enabling remote monitoring capabilities. Construction managers use 360-degree cameras, drone photography, and time-lapse systems to create detailed visual records of construction progress. This documentation proves invaluable for resolving disputes, tracking quality issues, and providing marketing materials for completed projects.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Building Information Modeling (BIM) Coordination
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers coordinate BIM models from multiple design disciplines to identify clashes and coordination issues before they impact fieldwork. 3D modeling enables virtual walkthroughs for owners, facilitates trade coordination meetings, and helps visualize complex installations in mechanical rooms and other congested areas.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Sustainability and Green Building Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern construction managers increasingly oversee sustainable building initiatives, helping owners achieve environmental goals while managing the complexities of green building certification programs.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              LEED and Florida Green Building Standards
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers coordinate LEED documentation requirements, manage commissioning processes, and ensure that green building measures are properly installed and documented. Florida's green building standards often emphasize water conservation and energy efficiency—critical factors in the state's humid climate and frequent drought conditions.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Energy Efficiency and Code Compliance
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Florida's energy code requirements have become increasingly stringent, requiring careful attention to building envelope performance, HVAC efficiency, and lighting systems. Construction managers ensure that energy-saving measures are properly installed and tested, helping owners achieve both code compliance and operational cost savings.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Stakeholder Management and Community Relations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Construction managers serve as the primary interface between the construction project and the surrounding community, managing stakeholder relationships and addressing concerns that arise during construction.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Neighbor Relations and Impact Mitigation
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Commercial construction in Tampa Bay's developed areas requires careful attention to neighboring properties and businesses. Construction managers develop logistics plans that minimize disruption, coordinate noise-sensitive activities, and maintain clear communication with adjacent property owners. This includes managing construction traffic routing, dust control measures, and noise mitigation strategies.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Municipal and Agency Coordination
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Successful project delivery requires ongoing coordination with multiple government agencies and utility providers. Construction managers maintain relationships with local building departments, fire marshals, environmental regulators, and utility companies to expedite approvals and resolve issues quickly when they arise.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Change Order Management and Cost Control
+            </h2>
+            <p className="text-gray-600 mb-6">
+              One of the most critical aspects of construction management is controlling change orders and additional costs that arise during construction. Effective change order management protects the owner's budget while ensuring necessary work is completed properly.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Change Order Evaluation Process
+            </h3>
+            <p className="text-gray-600 mb-6">
+              When changes are necessary, construction managers evaluate the scope, cost, and schedule impacts before making recommendations to the owner. This includes analyzing whether changes are owner-requested modifications, code-required updates, or contractor error corrections. Each type receives different evaluation criteria and affects the project budget differently.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Contingency Fund Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers help owners establish appropriate contingency reserves and manage these funds throughout the project. In Florida, where subsurface conditions can be unpredictable and hurricane damage may require emergency repairs, maintaining adequate contingencies is essential for project success.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Specialized Florida Construction Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Construction management in Florida requires expertise in state-specific building requirements and environmental considerations that don't apply in other regions.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Hurricane Resistance and Wind Load Requirements
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Florida building codes mandate enhanced wind resistance for all commercial structures. Construction managers ensure proper installation of hurricane strapping, impact-resistant glazing systems, and reinforced roof attachments. These requirements significantly impact construction sequencing and require specialized inspection protocols.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Flood Zone Construction Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Many Tampa Bay commercial sites fall within FEMA flood zones, requiring elevated construction, flood-resistant materials, and specialized electrical and mechanical installations. Construction managers coordinate with flood zone experts, manage special inspections, and ensure compliance with both local and federal flood requirements.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Environmental Protection and Permitting
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Florida's environmental regulations are among the nation's most complex, particularly for coastal construction. Construction managers coordinate with environmental consultants, manage protected species surveys, and ensure compliance with stormwater management requirements. Many Tampa Bay sites require wetland permits, archaeological surveys, or manatee protection measures that add complexity to the construction process.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Post-Construction Responsibilities and Warranty Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              The construction manager's duties extend beyond project completion through the warranty period and initial building operations phase.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Warranty Period Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction managers coordinate warranty claims, manage annual warranty walkthroughs, and ensure contractors respond promptly to warranty issues. This ongoing relationship protects the owner's investment and maintains positive relationships with quality contractors for future projects.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Building Systems Training and Documentation
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Comprehensive turnover includes training building operators on HVAC systems, fire safety equipment, security systems, and other building technologies. Construction managers coordinate these training sessions and ensure that all operation and maintenance manuals are provided to facility management teams.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              The Value Proposition of Professional Construction Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              While construction management adds visible cost to a project, the value delivered typically far exceeds the fee investment. Comprehensive studies show that professional CM services deliver measurable returns through cost savings, schedule improvements, and quality enhancements.
+            </p>
+
+            <div className="bg-brand-green/10 p-6 rounded-lg mb-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+                Measured Benefits of Professional Construction Management
+              </h3>
+              <ul className="list-none space-y-3">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                  <span><strong>Cost Savings:</strong> Value engineering and competitive procurement typically save 3-5% of construction cost</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                  <span><strong>Schedule Performance:</strong> Professional scheduling and coordination reduce delays by an average of 15%</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                  <span><strong>Quality Improvement:</strong> Systematic QA/QC reduces warranty issues and owner callbacks</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                  <span><strong>Risk Mitigation:</strong> Professional management significantly reduces the likelihood of cost overruns and disputes</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                  <span><strong>Owner Focus:</strong> Allows owners to focus on their business while professionals manage construction</span>
+                </li>
+              </ul>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Selecting the Right Construction Manager for Your Tampa Bay Project
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Choosing the right construction management firm can determine your project's success or failure. Key selection criteria should include local experience, relevant project portfolio, financial stability, and cultural fit with your organization.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Local Market Experience
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay construction requires deep understanding of local soil conditions, permitting processes, subcontractor markets, and weather patterns. Construction managers with decades of local experience bring invaluable knowledge that can't be learned from textbooks or obtained quickly by out-of-market firms.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Project Type Expertise
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Different building types require specialized knowledge—healthcare construction involves complex mechanical systems and infection control, while retail projects focus on fast-track scheduling and customer experience protection. Ensure your construction manager has specific experience with your project type and understands the unique challenges involved.
+            </p>
+
+            <h3 className="text-xl font-bold text-brand-green-dark mb-3 font-heading">
+              Team Stability and Continuity
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Construction management is relationship-driven business where personal relationships and institutional knowledge create significant value. Look for firms with stable leadership teams and low turnover rates. The project manager assigned to your job should have authority to make decisions and sufficient bandwidth to provide appropriate attention to your project.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Partner with Florida Construction Specialists
             </h2>
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists brings comprehensive construction management expertise to commercial projects throughout Tampa Bay and Central Florida. Our team understands the unique challenges of building in Florida—from hurricane-resistant construction to complex permitting processes—and applies this knowledge to every project we manage.
             </p>
             <p className="text-gray-600 mb-6">
+              With 43 years of experience in the Tampa Bay market, we've managed construction through multiple economic cycles, weather events, and regulatory changes. Our deep local roots mean we understand not just how to build in Florida, but how to build efficiently and effectively while navigating the complexities that challenge less experienced firms.
+            </p>
+            <p className="text-gray-600 mb-6">
               Whether you're planning a new commercial development, expanding an existing facility, or renovating a tenant space, our construction management services provide the professional oversight needed for successful project delivery. Contact us today to discuss how our construction management expertise can benefit your next Tampa Bay commercial project.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Case Study: Successful CM Implementation
+            </h2>
+            <p className="text-gray-600 mb-6">
+              A recent 150,000 square foot medical office building in South Tampa demonstrates the value of comprehensive construction management. Despite challenging site conditions including high groundwater and strict hospital district requirements, professional CM services delivered the project on schedule and 2% under budget.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Key success factors included early site investigation identifying dewatering needs, value engineering reducing structural costs, proactive scheduling preventing weather delays, and continuous coordination with hospital operations to minimize disruption. The result: a successful project that enhances Tampa Bay's medical infrastructure while demonstrating the measurable benefits of professional construction management.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Ready to Start Your Project?
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Every successful commercial construction project begins with the right management team. Florida Construction Specialists is ready to bring our 43 years of Tampa Bay construction expertise to your next project. Contact us today to discuss how our comprehensive construction management services can ensure your project's success from design through occupancy.
+            </p>
+
+            <div className="bg-gray-50 p-6 rounded-lg">
+              <h3 className="text-lg font-bold text-brand-green-dark mb-3">
+                Our Construction Management Service Areas
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Florida Construction Specialists provides comprehensive construction management services throughout the greater Tampa Bay region, including:
+              </p>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm text-gray-600">
+                <span>• Tampa</span>
+                <span>• St. Petersburg</span>
+                <span>• Clearwater</span>
+                <span>• Lakeland</span>
+                <span>• The Villages</span>
+                <span>• Brandon</span>
+                <span>• Westchase</span>
+                <span>• Carrollwood</span>
+                <span>• Safety Harbor</span>
+                <span>• Dunedin</span>
+                <span>• Largo</span>
+                <span>• Pinellas Park</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
