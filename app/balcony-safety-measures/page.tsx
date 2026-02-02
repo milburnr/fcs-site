@@ -348,6 +348,366 @@ export default function Page() {
         </div>
       </section>
 
+      {/* SB4-D Compliance Detail */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              SB4-D Structural Inspection Requirements
+            </h2>
+            <div className="prose prose-lg max-w-none">
+              <p className="text-gray-600 mb-6">
+                Florida's SB4-D legislation, passed in response to the Champlain Towers South tragedy, establishes mandatory milestone structural inspection requirements for condominiums and cooperatives three stories or higher. This law specifically addresses balcony safety as a critical component of overall building integrity and resident protection.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Balcony inspections under SB4-D must be performed by a licensed architect or structural engineer with experience in building envelope systems and coastal construction. The inspection must assess structural elements, connections to the building, waterproofing systems, drainage components, and safety features like railings and barriers.
+              </p>
+              <p className="text-gray-600 mb-6">
+                When substantial structural deterioration is identified during SB4-D inspections, associations have strict timelines for remediation. Emergency repairs addressing immediate safety hazards must begin within 30 days, while comprehensive restoration must be completed within specified timeframes based on the severity of deficiencies found.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 mt-8">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Inspection Timeline</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Buildings ≥3 miles from coast: First inspection at 30 years</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Buildings &lt;3 miles from coast: First inspection at 25 years</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Subsequent inspections every 10 years thereafter</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Phase 1: Visual inspection and reporting within 180 days</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Phase 2: Detailed assessment if deficiencies found</span>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Required Documentation</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Licensed engineer/architect inspection report</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Photographic documentation of all deficiencies</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Prioritized repair recommendations with timelines</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Reserve study updates reflecting repair needs</span>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <span>Remediation completion certifications</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Environmental Hazards */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Environmental Safety Hazards for Florida Balconies
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Florida's subtropical climate and coastal location create unique environmental challenges that significantly impact balcony safety. Understanding these hazards helps building owners and residents take proactive measures to maintain safe conditions and prevent deterioration.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-3 gap-6">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <AlertTriangle className="w-8 h-8 text-orange-500" />
+                  <h3 className="text-lg font-bold text-brand-green-dark">Salt Air Corrosion</h3>
+                </div>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Accelerated rebar corrosion in concrete structures</li>
+                  <li>• Deterioration of metal railings and fasteners</li>
+                  <li>• Compromised structural connections over time</li>
+                  <li>• Requires specialized marine-grade materials</li>
+                  <li>• More frequent inspection and maintenance needed</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <AlertTriangle className="w-8 h-8 text-blue-500" />
+                  <h3 className="text-lg font-bold text-brand-green-dark">Hurricane Exposure</h3>
+                </div>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Extreme wind loads exceeding design capacity</li>
+                  <li>• Impact from wind-borne debris</li>
+                  <li>• Water intrusion during storm events</li>
+                  <li>• Post-storm structural damage assessment</li>
+                  <li>• Enhanced anchoring requirements</li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <div className="flex items-center gap-3 mb-4">
+                  <AlertTriangle className="w-8 h-8 text-red-500" />
+                  <h3 className="text-lg font-bold text-brand-green-dark">UV Deterioration</h3>
+                </div>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Breakdown of protective coatings and sealants</li>
+                  <li>• Degradation of plastic and polymer components</li>
+                  <li>• Thermal cycling stress from daily heat expansion</li>
+                  <li>• Accelerated aging of waterproofing membranes</li>
+                  <li>• Regular recoating and protection required</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Safety Technology */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Advanced Safety Monitoring Technologies
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Modern balcony safety incorporates advanced monitoring technologies that provide early warning of structural issues, environmental hazards, and maintenance needs. These systems help building managers maintain optimal safety conditions while reducing long-term maintenance costs.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Structural Monitoring Systems</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Wireless strain gauges</strong> - Monitor structural stress and movement in real-time
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Crack monitoring sensors</strong> - Track crack growth and structural changes
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Corrosion monitoring</strong> - Early detection of rebar deterioration
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Load monitoring systems</strong> - Track weight distribution and capacity usage
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Environmental Monitoring</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <Eye className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Moisture detection sensors</strong> - Monitor water intrusion and humidity levels
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Eye className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Weather station integration</strong> - Track wind, rain, and temperature impacts
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Eye className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Drainage monitoring</strong> - Detect clogs and overflow conditions
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Eye className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Security integration</strong> - Access control and safety zone monitoring
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Procedures */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Emergency Response Procedures for Balcony Safety
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                When balcony safety issues are identified, prompt and appropriate response can prevent injuries and minimize property damage. Building managers and residents should be familiar with emergency procedures for various scenarios.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
+                  <AlertTriangle className="w-6 h-6 text-red-500" />
+                  Immediate Safety Hazards
+                </h3>
+                <div className="space-y-4 text-gray-600">
+                  <div>
+                    <strong className="text-brand-green-dark">Structural Failure Signs:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Immediately evacuate the balcony and restrict access</li>
+                      <li>• Contact licensed structural engineer for emergency assessment</li>
+                      <li>• Document conditions with photographs from safe location</li>
+                      <li>• Notify building management and insurance carrier</li>
+                      <li>• Install temporary barriers to prevent accidental access</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark">Railing Failure:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Secure loose railings or restrict balcony access</li>
+                      <li>• Install temporary fall protection if feasible</li>
+                      <li>• Schedule immediate professional inspection</li>
+                      <li>• Document failure mode and contributing factors</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
+                  <Shield className="w-6 h-6 text-blue-500" />
+                  Prevention Planning
+                </h3>
+                <div className="space-y-4 text-gray-600">
+                  <div>
+                    <strong className="text-brand-green-dark">Proactive Measures:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Establish regular inspection schedules with documentation</li>
+                      <li>• Develop relationships with qualified engineers and contractors</li>
+                      <li>• Maintain adequate reserve funds for emergency repairs</li>
+                      <li>• Train building staff to recognize warning signs</li>
+                      <li>• Create resident education programs on safety practices</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark">Documentation Requirements:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Maintain inspection reports and repair records</li>
+                      <li>• Track insurance claims and safety incidents</li>
+                      <li>• Document preventive maintenance activities</li>
+                      <li>• Keep warranty information for materials and work</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Legal and Insurance Considerations */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Legal and Insurance Implications of Balcony Safety
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Balcony safety carries significant legal and insurance implications for condominium associations, property managers, and individual owners. Understanding these responsibilities helps ensure appropriate coverage and risk management.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Legal Responsibilities</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <Shield className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Association Duties:</strong> Maintain common elements including balcony structures, railings, and waterproofing systems
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Shield className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>SB4-D Compliance:</strong> Meet mandatory inspection timelines and remediate identified deficiencies
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Shield className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Building Code Compliance:</strong> Ensure all repairs meet current Florida Building Code requirements
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <Shield className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Documentation Requirements:</strong> Maintain detailed records of inspections, repairs, and safety measures
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Insurance Considerations</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Liability Coverage:</strong> Adequate limits for injury claims related to balcony failures
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Property Coverage:</strong> Protection for structural damage and repair costs
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Maintenance Requirements:</strong> Policy compliance through regular inspections and upkeep
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <FileCheck className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Claims Management:</strong> Prompt reporting and documentation of safety incidents
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Internal Links */}
       <section className="section bg-white">
         <div className="container-custom">

@@ -224,9 +224,93 @@ export default function Page() {
               </p>
             </div>
 
+            {/* Comprehensive Accessibility Checklist */}
+            <div className="bg-gray-50 p-8 rounded-lg my-12">
+              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+                Complete Accessibility Planning Checklist
+              </h2>
+              <div className="grid md:grid-cols-3 gap-8">
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Structural & Layout</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Single-level master suite</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Open floor plan navigation</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Elevator shaft rough-in</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Accessible guest suite</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Wide hallways (42"+ minimum)</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Safety & Security</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Medical alert system wiring</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Emergency backup power</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Visual alert systems</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Slip-resistant surfaces</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Accessible safe room</span>
+                    </li>
+                  </ul>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">Technology & Comfort</h3>
+                  <ul className="space-y-2 text-gray-700">
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Voice-activated controls</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Smart home integration</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Automated lighting systems</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Climate zone controls</span>
+                    </li>
+                    <li className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 text-green-500" />
+                      <span>Communication enhancements</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             {/* Features Grid */}
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-              Accessibility Features
+              Core Accessibility Features
             </h2>
             <div className="grid md:grid-cols-2 gap-6 my-8">
               <div className="bg-gray-50 p-6 rounded-lg">
@@ -328,13 +412,147 @@ export default function Page() {
             </div>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Smart Technology Integration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern accessibility extends beyond physical features to include smart home technology that enhances independence and safety. Voice-activated lighting, door locks, and climate controls allow hands-free operation for users with mobility limitations. Motion sensor lighting eliminates fumbling for switches in dark hallways. Automated blinds and curtains operate without reaching or lifting. Smart doorbell systems with video and two-way audio provide security without answering doors physically.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Emergency response systems integrated throughout the home provide peace of mind for aging residents and their families. Medical alert pendants interface with home automation to summon help when needed. Security systems with medical emergency features ensure rapid response. Smart medication dispensers and health monitoring devices help maintain independence while providing safety oversight.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Exterior Accessibility Planning
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Accessible outdoor living begins with thoughtful grading and entrance design. We eliminate or minimize steps wherever possible, using gentle slopes and attractive landscaping to create barrier-free access. Where elevation changes are necessary, we design graceful ramps with proper slopes (maximum 1:12 rise) and integrated handrails that appear as architectural details rather than medical equipment.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Driveway design considers wheelchair and walker access from vehicles to entrances. Covered drop-off areas protect against weather during vehicle transfers. Accessible parking spaces with proper width and slopes ensure safe vehicle access. Path lighting and non-slip surfaces throughout outdoor areas prevent falls and provide confidence for evening use.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Pool and spa areas can incorporate accessibility through zero-entry designs, transfer walls, and pool lifts. These features benefit elderly users and children while maintaining aesthetic appeal. Accessible outdoor kitchens and entertaining areas ensure full participation in Florida's outdoor lifestyle regardless of mobility limitations.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Future-Proofing Strategies
+            </h2>
+            <p className="text-gray-600 mb-6">
+              The most cost-effective accessibility approach involves planning for future needs during initial construction while installing only features needed immediately. This "future-proofing" strategy provides maximum flexibility at minimum cost. Structural preparations done during construction cost significantly less than retrofitting while preserving all future options.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Electrical rough-in for future motorized equipment—stair lifts, ceiling tracks, automated doors—costs minimal during construction but saves thousands in retrofit situations. HVAC provisions for medical equipment, specialized ventilation, or temperature controls prepare for potential health needs. Plumbing stub-outs for future accessible bathroom modifications eliminate demolition when changes become necessary.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Communication infrastructure supports current and future assistive technology. Robust internet throughout the home enables telehealth appointments, remote monitoring, and smart device connectivity. Backup power provisions ensure accessibility equipment continues operating during outages. These invisible preparations protect your investment while maintaining design flexibility.
+            </p>
+
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-green-800 mb-3">Tampa Bay Accessibility Resources</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Local Support Organizations</h4>
+                  <p className="text-green-900 text-sm">Florida Division of Vocational Rehabilitation, Area Agency on Aging, Tampa General Hospital Rehabilitation Services, and University of South Florida Center for Independent Living provide resources and support for accessibility planning and funding assistance.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Building Code Compliance</h4>
+                  <p className="text-green-900 text-sm">Florida Building Code incorporates enhanced accessibility standards beyond federal minimums. Our team stays current with evolving standards and helps clients exceed minimum requirements for improved functionality.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Insurance and Funding</h4>
+                  <p className="text-green-900 text-sm">Medicare, private insurance, and veteran benefits may cover certain accessibility modifications. Tax credits are available for qualifying improvements. We help clients understand options and coordinate with healthcare providers for medical necessity documentation.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Multi-Generational Living Solutions
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's growing multi-generational households require thoughtful accessibility planning that accommodates different age groups and abilities. We design homes with distinct but connected living zones: main family areas, accessible in-law suites, and private spaces that provide independence while maintaining family connections. These arrangements work particularly well for sandwich generation families caring for both children and aging parents.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Accessible in-law suites include private entrances, full accessibility features, and optional kitchenettes while connecting to main living areas when desired. Sound insulation between zones provides privacy without isolation. Shared outdoor spaces with accessible features encourage family interaction while respecting individual needs for space.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Guest accommodation planning considers visiting family members with accessibility needs. Ground-floor guest rooms with accessible bathrooms ensure comfortable visits for elderly relatives or family members with disabilities. These spaces can serve multiple functions—home offices, guest rooms, or caregiver quarters—as family circumstances evolve.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sensory Accessibility Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Accessibility extends beyond mobility to include sensory considerations for family members with vision, hearing, or cognitive challenges. Lighting design becomes critical for aging eyes and low-vision users. We incorporate task lighting at work surfaces, pathway lighting for safe navigation, and natural light maximization to reduce strain and improve safety.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Acoustic design reduces background noise while enhancing speech clarity—particularly important for family members with hearing loss. Sound-absorbing materials, proper room proportions, and strategic layout minimize echo and noise transmission. Visual alert systems can supplement or replace audible alarms for fire safety and doorbell notifications.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Cognitive accessibility features include clear sight lines throughout the home, simple navigation patterns, and consistent design elements that reduce confusion. Color contrast at transitions and edges improves safety for users with visual or cognitive challenges. These thoughtful details enhance usability for everyone while specifically supporting family members with special needs.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Maintenance and Accessibility
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Accessible design must consider long-term maintenance requirements. Materials and systems should be cleanable and maintainable by users with limited mobility or by caregivers. Lower maintenance finishes reduce burden on aging homeowners while preserving home appearance. Easy-care landscaping minimizes outdoor maintenance requirements while maintaining curb appeal.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Accessible storage throughout the home ensures cleaning supplies, tools, and equipment remain within reach. Utility areas designed for wheelchair or walker access allow homeowners to maintain independence in home care activities. Service access for HVAC, plumbing, and electrical systems considers potential mobility limitations of aging homeowners.
+            </p>
+
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-amber-800 mb-3">Planning Timeline for Accessibility</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Phase 1: Design Integration (Now)</h4>
+                  <p className="text-amber-900 text-sm">Incorporate structural provisions, wider passages, and universal design elements during initial construction. These have minimal cost impact when built initially but maximum future flexibility.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Phase 2: Basic Installations (Move-In)</h4>
+                  <p className="text-amber-900 text-sm">Install comfort-height toilets, lever handles, and curbless showers that benefit everyone immediately while providing accessibility foundation for future needs.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Phase 3: Enhancement (As Needed)</h4>
+                  <p className="text-amber-900 text-sm">Add grab bars, install elevators, or modify existing features when circumstances change. Previous structural provisions make these modifications simple and cost-effective.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Economic Benefits of Accessible Design
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Beyond personal benefits, accessible features provide significant economic advantages. The growing 55+ demographic represents a major segment of luxury home buyers—features that support aging in place appeal strongly to this market. Accessible design elements often double as luxury amenities: curbless showers, first-floor master suites, and wide passages are increasingly expected in high-end homes regardless of accessibility needs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Insurance benefits may apply to certain accessibility modifications when medically necessary. Some features qualify for tax credits or deductions. More importantly, accessible design can delay or eliminate the need for assisted living arrangements—a significant long-term economic benefit for families facing care decisions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Construction timing provides optimal economics for accessibility features. Elevator shafts during new construction cost $3,000-8,000 versus $25,000-50,000 for retrofit. Wider doorways cost nothing extra during framing versus $500-1,500 per door for retrofit. These economic realities make accessibility planning financially prudent regardless of current needs.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa Bay Climate Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's climate presents unique accessibility challenges and opportunities. Hurricane preparedness becomes more complex when family members have mobility limitations. We design safe rooms and emergency shelter areas that accommodate wheelchairs and provide accessible emergency supplies storage. Backup power systems for medical equipment and accessibility devices ensure safety during extended outages.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Heat and humidity considerations affect accessibility design. Indoor air quality becomes critical for family members with respiratory conditions. Enhanced ventilation, humidity control, and air filtration systems provide health benefits beyond basic comfort. Covered outdoor areas allow wheelchair and walker use in all weather conditions, extending usable living space year-round.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Build for All of Life's Stages
             </h2>
             <p className="text-gray-600 mb-6">
               Your custom home should serve your family through all of life's changes. Florida Construction Specialists incorporates accessibility and universal design principles that enhance livability for everyone while preparing for future needs. Whether you're planning for aging parents, family members with current accessibility needs, or simply want a home that adapts gracefully to changing circumstances, we create spaces that work beautifully for all abilities.
             </p>
             <p className="text-gray-600 mb-6">
-              Contact us to discuss accessibility features for your Tampa Bay custom home project. We'll help you identify priorities, understand options, and create a home that serves your family for generations.
+              Our team understands that accessibility is about independence, dignity, and quality of life—not medical accommodation. Every feature we recommend enhances your home's function and beauty while ensuring it serves your family for generations. From initial consultation through final construction, we work closely with clients to identify priorities, understand options, and create homes that adapt to changing needs without compromising aesthetics or function.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Contact Florida Construction Specialists to discuss accessibility features for your Tampa Bay custom home project. We'll help you identify priorities, understand options, and create a home that serves your family for generations while maintaining the luxury standards you expect.
             </p>
 
           </div>

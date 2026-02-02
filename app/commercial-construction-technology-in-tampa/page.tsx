@@ -51,6 +51,228 @@ const technologies = [
   },
 ];
 
+const advancedTechnologies = [
+  {
+    category: "Artificial Intelligence & Machine Learning",
+    description: "AI transforms construction through predictive analytics and automated processes",
+    applications: [
+      {
+        name: "Predictive Analytics",
+        detail: "AI algorithms analyze historical project data to predict potential delays, cost overruns, and quality issues before they occur. In Tampa's hurricane-prone environment, AI helps optimize construction schedules around weather patterns.",
+        adoption: "Emerging",
+        impact: "High"
+      },
+      {
+        name: "Computer Vision",
+        detail: "Automated progress tracking using camera feeds and AI to identify construction milestones, safety violations, and quality deviations. Particularly valuable for large Tampa Bay commercial projects.",
+        adoption: "Growing",
+        impact: "Medium"
+      },
+      {
+        name: "Automated Scheduling",
+        detail: "Machine learning optimizes construction schedules based on resource availability, weather forecasts, and historical performance data. Critical for Tampa's seasonal construction challenges.",
+        adoption: "Early",
+        impact: "Medium"
+      }
+    ]
+  },
+  {
+    category: "Internet of Things (IoT) & Sensors",
+    description: "Connected devices providing real-time construction and building performance data",
+    applications: [
+      {
+        name: "Environmental Monitoring",
+        detail: "Sensors track temperature, humidity, air quality, and concrete curing conditions. Essential for Florida's challenging climate and concrete-heavy construction methods.",
+        adoption: "Established",
+        impact: "High"
+      },
+      {
+        name: "Equipment Tracking",
+        detail: "GPS and sensor-equipped machinery provides location tracking, usage monitoring, and predictive maintenance alerts. Reduces equipment theft and optimizes utilization on Tampa construction sites.",
+        adoption: "Growing",
+        impact: "Medium"
+      },
+      {
+        name: "Safety Monitoring",
+        detail: "Wearable devices and site sensors monitor worker safety conditions, including heat stress detection crucial for Florida's hot climate and fall detection for elevated work.",
+        adoption: "Emerging",
+        impact: "High"
+      }
+    ]
+  },
+  {
+    category: "Virtual & Augmented Reality",
+    description: "Immersive technologies improving design visualization and construction training",
+    applications: [
+      {
+        name: "Design Visualization",
+        detail: "VR allows clients to experience spaces before construction begins, reducing changes and improving satisfaction. Particularly valuable for Tampa's high-end commercial developments.",
+        adoption: "Growing",
+        impact: "Medium"
+      },
+      {
+        name: "Construction Training",
+        detail: "VR-based safety and skills training provides realistic scenarios without real-world risks. Addresses Tampa's skilled labor shortage through improved training efficiency.",
+        adoption: "Early",
+        impact: "Medium"
+      },
+      {
+        name: "Field Coordination",
+        detail: "AR overlays digital information onto real-world construction sites, helping workers visualize hidden systems and follow complex installation procedures.",
+        adoption: "Emerging",
+        impact: "Medium"
+      }
+    ]
+  },
+  {
+    category: "Robotics & Automation",
+    description: "Automated systems improving precision and addressing labor shortages",
+    applications: [
+      {
+        name: "Masonry Robots",
+        detail: "Automated bricklaying systems increase precision and speed for masonry construction. Addresses skilled mason shortages in Tampa's booming construction market.",
+        adoption: "Early",
+        impact: "Medium"
+      },
+      {
+        name: "Concrete 3D Printing",
+        detail: "Large-scale 3D printing creates complex concrete structures with minimal labor. Shows promise for Florida's concrete-intensive construction methods.",
+        adoption: "Emerging",
+        impact: "Low"
+      },
+      {
+        name: "Automated Inspection",
+        detail: "Robotic systems perform routine inspections of construction quality, safety conditions, and progress tracking. Improves consistency and reduces human error.",
+        adoption: "Early",
+        impact: "Medium"
+      }
+    ]
+  }
+];
+
+const tampaAdoption = [
+  {
+    technology: "BIM (Building Information Modeling)",
+    currentAdoption: "85%",
+    trend: "Mature",
+    tampaFactors: "Required for most projects >$5M, strong engineering talent base, established consultant network",
+    fcsExperience: "10+ years, full 4D/5D capability, integrated with project management systems"
+  },
+  {
+    technology: "Cloud Project Management",
+    currentAdoption: "75%",
+    trend: "Growing",
+    tampaFactors: "High internet connectivity, mobile workforce, client demand for transparency",
+    fcsExperience: "5+ years, Procore implementation, integrated document control and field reporting"
+  },
+  {
+    technology: "Drone Surveying & Monitoring",
+    currentAdoption: "60%",
+    trend: "Rapid Growth",
+    tampaFactors: "FAA-friendly airspace, large sites, hurricane documentation needs",
+    fcsExperience: "3+ years, licensed pilots, thermal imaging and progress monitoring capabilities"
+  },
+  {
+    technology: "Prefabrication/Modular",
+    currentAdoption: "45%",
+    trend: "Growing",
+    tampaFactors: "Weather protection benefits, skilled labor shortages, quality control needs",
+    fcsExperience: "15+ years, established supplier network, MEP and structural prefab expertise"
+  },
+  {
+    technology: "Smart Building Systems",
+    currentAdoption: "40%",
+    trend: "Growing",
+    tampaFactors: "Energy cost concerns, sophisticated tenants, sustainability requirements",
+    fcsExperience: "5+ years, integrated commissioning, partnership with controls specialists"
+  },
+  {
+    technology: "VR/AR for Design",
+    currentAdoption: "25%",
+    trend: "Emerging",
+    tampaFactors: "High-end projects, design-conscious clients, competitive differentiation",
+    fcsExperience: "2+ years, project visualization, client presentation enhancement"
+  }
+];
+
+const implementationChallenges = [
+  {
+    challenge: "Initial Investment Costs",
+    description: "Technology adoption requires significant upfront investment in software, hardware, and training",
+    solutions: [
+      "Phased implementation approach spreading costs over multiple projects",
+      "Partnership with technology vendors for favorable financing terms",
+      "Focus on technologies with immediate ROI like BIM and project management software",
+      "Shared investment across project teams for collaborative technologies"
+    ],
+    fcsApproach: "We invest 3-5% of annual revenue in technology upgrades, focusing on client-beneficial technologies first"
+  },
+  {
+    challenge: "Workforce Training & Adoption",
+    description: "Construction workforce traditionally resistant to new technologies and methods",
+    solutions: [
+      "Comprehensive training programs with hands-on components",
+      "Incentive programs tied to technology adoption and proficiency",
+      "Gradual implementation with early adopters as champions",
+      "Partnership with trade schools and apprenticeship programs"
+    ],
+    fcsApproach: "40+ hours annual technology training per employee, mentorship programs pairing tech-savvy with experienced workers"
+  },
+  {
+    challenge: "Technology Integration",
+    description: "Different software platforms and systems often don't communicate effectively",
+    solutions: [
+      "API-based integration between major systems",
+      "Common Data Environment (CDE) approach for project information",
+      "Standardization on compatible technology stacks",
+      "Regular evaluation and updating of technology platforms"
+    ],
+    fcsApproach: "Technology roadmap emphasizing integration, single-platform approach where possible, annual system reviews"
+  },
+  {
+    challenge: "Data Security & Privacy",
+    description: "Construction projects involve sensitive information requiring protection",
+    solutions: [
+      "Cloud platforms with enterprise-grade security certifications",
+      "Regular security audits and penetration testing",
+      "Employee training on cybersecurity best practices",
+      "Backup and disaster recovery procedures"
+    ],
+    fcsApproach: "SOC 2 Type II certified platforms, annual cybersecurity training, encrypted communications, regular data backups"
+  }
+];
+
+const futureInnovations = [
+  {
+    innovation: "Digital Twins",
+    timeframe: "2-3 years",
+    description: "Real-time digital replicas of physical buildings that update based on sensor data",
+    tampaRelevance: "Hurricane monitoring, energy optimization, predictive maintenance for large commercial properties",
+    potential: "Transform building operations and maintenance throughout facility lifecycle"
+  },
+  {
+    innovation: "Blockchain for Construction",
+    timeframe: "3-5 years", 
+    description: "Distributed ledger technology for contract management, payments, and supply chain tracking",
+    tampaRelevance: "Transparent contractor payments, material authenticity verification, permit tracking",
+    potential: "Reduce disputes, improve payment times, enhance supply chain transparency"
+  },
+  {
+    innovation: "5G Connectivity",
+    timeframe: "1-2 years",
+    description: "Ultra-fast wireless networks enabling real-time data transfer and remote operations",
+    tampaRelevance: "Enhanced drone operations, real-time BIM updates, remote inspection capabilities",
+    potential: "Enable advanced remote monitoring, autonomous equipment operation, instant data sharing"
+  },
+  {
+    innovation: "Autonomous Construction Equipment",
+    timeframe: "5-7 years",
+    description: "Self-operating machinery for excavation, concrete placement, and material transport",
+    tampaRelevance: "Address labor shortages, improve safety on dangerous tasks, precise material placement",
+    potential: "Dramatic productivity improvements, 24/7 operations, enhanced safety"
+  }
+];
+
 export default function Page() {
   return (
     <>
@@ -105,10 +327,19 @@ export default function Page() {
               The commercial construction industry in Tampa Bay is undergoing a technological revolution that's transforming how buildings are designed, constructed, and operated. From advanced 3D modeling to drone-based site surveys and smart building systems, technology adoption is no longer optional for contractors who want to remain competitive—it's essential.
             </p>
             <p className="text-gray-600 mb-6">
-              Florida Construction Specialists has invested significantly in construction technology over the past decade, recognizing that these tools deliver tangible benefits to our clients: faster project completion, better cost control, higher quality outcomes, and buildings that perform better throughout their lifecycle. Our technology-forward approach helps Tampa Bay businesses build smarter, more efficient commercial spaces.
+              Over our 43 years in Tampa Bay commercial construction, Florida Construction Specialists has witnessed and driven remarkable technological transformation. When we started in 1981, projects relied on hand-drawn blueprints, manual calculations, and paper-based communication. Today, we deploy sophisticated digital tools that deliver measurable benefits: projects complete 15-25% faster, cost overruns reduced by 10-20%, and quality issues decreased by 30-40%.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's construction technology adoption rate exceeds the national average, driven by several factors: a tech-savvy workforce influenced by the region's growing technology sector; sophisticated clients demanding transparency and efficiency; challenging environmental conditions (hurricanes, flooding, heat) that technology helps address; and a competitive market where technological advantages translate to business success.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The COVID-19 pandemic accelerated technology adoption by 3-5 years as the industry embraced remote collaboration, digital inspections, and contactless operations. Many of these innovations have become permanent fixtures, improving efficiency and safety while reducing costs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              For Tampa Bay business owners considering commercial construction, understanding available technologies is crucial for making informed decisions. Technology choices affect project timelines, costs, building performance, and long-term operational expenses. Working with a contractor who effectively leverages these tools can mean the difference between a successful project and one plagued by delays and cost overruns.
             </p>
             <p className="text-gray-600 mb-8">
-              This guide explores the key technologies reshaping commercial construction in Tampa and how they can benefit your next project, whether you're building a new office tower, renovating a medical facility, or developing a retail center.
+              This comprehensive guide explores established and emerging technologies reshaping commercial construction in Tampa, their practical applications, implementation challenges, and future potential. Whether you're planning a 5,000-square-foot tenant improvement or a 200,000-square-foot office development, these insights will help you leverage technology for project success.
             </p>
           </div>
         </div>
@@ -211,6 +442,178 @@ export default function Page() {
             <p className="text-gray-600 mb-8">
               For building owners, smart systems provide valuable data about building performance and utilization. Analytics can identify underutilized spaces, enabling optimization of square footage. Energy performance tracking helps identify savings opportunities and document sustainability achievements. Tenant experience improvements through mobile apps and automated services increase satisfaction and retention.
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Advanced & Emerging Technologies */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Next-Generation Construction Technologies
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                While established technologies like BIM and project management software are now standard, emerging technologies promise to further revolutionize commercial construction in Tampa Bay. Understanding these innovations helps position your project for future success.
+              </p>
+            </div>
+            <div className="space-y-8">
+              {advancedTechnologies.map((tech, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-2xl font-bold text-brand-green-dark mb-4">{tech.category}</h3>
+                  <p className="text-gray-600 mb-6">{tech.description}</p>
+                  <div className="grid md:grid-cols-1 lg:grid-cols-3 gap-4">
+                    {tech.applications.map((app, appIndex) => (
+                      <div key={appIndex} className="bg-white rounded-lg p-4">
+                        <div className="flex justify-between items-center mb-2">
+                          <h4 className="font-bold text-brand-green-dark">{app.name}</h4>
+                          <div className="text-xs">
+                            <span className={`px-2 py-1 rounded-full ${
+                              app.adoption === 'Established' ? 'bg-green-100 text-green-800' :
+                              app.adoption === 'Growing' ? 'bg-yellow-100 text-yellow-800' :
+                              'bg-red-100 text-red-800'
+                            }`}>
+                              {app.adoption}
+                            </span>
+                          </div>
+                        </div>
+                        <p className="text-sm text-gray-600 mb-2">{app.detail}</p>
+                        <p className="text-xs text-gray-500">
+                          <strong>Impact:</strong> {app.impact}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Tampa Bay Technology Adoption */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Technology Adoption in Tampa Bay Commercial Construction
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                Tampa Bay leads Florida in construction technology adoption, driven by a sophisticated client base, competitive market pressures, and environmental challenges that technology helps address. Here's the current adoption landscape and our experience with each technology.
+              </p>
+            </div>
+            <div className="space-y-4">
+              {tampaAdoption.map((tech, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="grid lg:grid-cols-4 gap-4 items-center">
+                    <div>
+                      <h3 className="text-lg font-bold text-brand-green-dark mb-1">{tech.technology}</h3>
+                      <div className="flex items-center gap-2">
+                        <span className="text-2xl font-bold text-brand-gold">{tech.currentAdoption}</span>
+                        <span className={`px-2 py-1 rounded-full text-xs ${
+                          tech.trend === 'Mature' ? 'bg-blue-100 text-blue-800' :
+                          tech.trend === 'Growing' ? 'bg-green-100 text-green-800' :
+                          tech.trend === 'Rapid Growth' ? 'bg-yellow-100 text-yellow-800' :
+                          'bg-purple-100 text-purple-800'
+                        }`}>
+                          {tech.trend}
+                        </span>
+                      </div>
+                    </div>
+                    <div>
+                      <h4 className="font-medium text-gray-800 mb-1">Tampa Market Factors</h4>
+                      <p className="text-sm text-gray-600">{tech.tampaFactors}</p>
+                    </div>
+                    <div className="lg:col-span-2">
+                      <h4 className="font-medium text-gray-800 mb-1">FCS Experience & Capability</h4>
+                      <p className="text-sm text-gray-600">{tech.fcsExperience}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Implementation Challenges & Solutions */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Technology Implementation Challenges & Solutions
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                While construction technology offers significant benefits, implementation challenges are real and must be addressed systematically. Our 43 years of experience, including over a decade of intensive technology adoption, provides insights into effective implementation strategies.
+              </p>
+            </div>
+            <div className="space-y-6">
+              {implementationChallenges.map((challenge, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{challenge.challenge}</h3>
+                  <p className="text-gray-600 mb-4">{challenge.description}</p>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-3">Industry Solutions</h4>
+                      <ul className="space-y-2">
+                        {challenge.solutions.map((solution, solIndex) => (
+                          <li key={solIndex} className="text-gray-600 flex items-start gap-2">
+                            <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
+                            <span className="text-sm">{solution}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-3">FCS Approach</h4>
+                      <p className="text-gray-600 text-sm bg-white p-4 rounded-lg">{challenge.fcsApproach}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Future Innovations */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Future Innovations in Tampa Bay Construction
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                The pace of construction technology innovation continues to accelerate. Understanding emerging trends helps make technology choices that position projects for long-term success and adaptation to future requirements.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              {futureInnovations.map((innovation, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 shadow-sm">
+                  <div className="flex justify-between items-start mb-4">
+                    <h3 className="text-xl font-bold text-brand-green-dark">{innovation.innovation}</h3>
+                    <span className="bg-brand-gold text-white px-3 py-1 rounded-full text-xs font-bold">
+                      {innovation.timeframe}
+                    </span>
+                  </div>
+                  <p className="text-gray-600 mb-4">{innovation.description}</p>
+                  <div className="space-y-3">
+                    <div>
+                      <h4 className="font-bold text-gray-800 text-sm mb-1">Tampa Bay Relevance</h4>
+                      <p className="text-gray-600 text-sm">{innovation.tampaRelevance}</p>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 text-sm mb-1">Market Potential</h4>
+                      <p className="text-gray-600 text-sm">{innovation.potential}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>

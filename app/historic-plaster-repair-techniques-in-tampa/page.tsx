@@ -100,6 +100,248 @@ export default function Page() {
             </p>
 
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Understanding Historic Lath Systems in Tampa Buildings
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The substrate for historic plaster varies significantly across Tampa's building periods and construction types. Early buildings from the 1880s-1910s typically feature hand-split wood lath approximately 1/4" thick and 1.5" wide, with 3/8" gaps between strips. This spacing allows plaster to squeeze through and form "keys" that mechanically anchor the plaster system to the structural framework.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Later buildings (1910-1930) often employ machine-cut lath with more consistent dimensions and spacing. Some institutional and commercial buildings from this period feature expanded metal lath, particularly in areas requiring fire resistance. Understanding the original lath system guides repair decisions—whether to preserve existing lath, supplement with compatible materials, or replace deteriorated sections.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Lath condition assessment requires careful examination of attachment, deterioration, and structural adequacy. Original lath was attached using cut nails that may have loosened over time, particularly in Tampa's humid conditions that promote wood movement. Failed attachment can cause plaster failure even when the plaster itself remains sound, requiring re-attachment using compatible fasteners and techniques.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Historic Plaster Materials and Composition Analysis
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Successful historic plaster restoration requires understanding the original material composition through careful analysis. Tampa's historic plasters typically incorporate lime putty as the primary binder, with local sand aggregates and various fibrous reinforcement materials. Chemical analysis identifies lime type, aggregate characteristics, and any additives that affect performance and compatibility of repair materials.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Microscopic examination reveals aggregate gradation, fiber types and distribution, and void structure that influences permeability and thermal performance. This information guides formulation of compatible repair mortars that will bond properly with existing plaster while providing similar expansion characteristics and moisture movement properties essential for long-term stability.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Period-specific materials included local lime sources from Florida limestone, river sand from Tampa Bay watersheds, and organic fibers including horsehair, goat hair, and occasionally manila hemp. These materials created plaster systems specifically adapted to Tampa's climate, with permeability characteristics that accommodate seasonal humidity fluctuations without failure.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa Historic District Plaster Characteristics
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Ybor City Cigar Factory Plaster Systems
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The historic cigar factories of Ybor City feature unique plaster systems designed for industrial use while maintaining the decorative character expected in these architecturally significant buildings. Factory interiors often employed heavy-duty plaster formulations with increased fiber content and coarser aggregates to withstand vibration from machinery and higher occupancy loads than typical residential buildings.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Many cigar factories feature specialized decorative plaster elements including molded cornices, ceiling medallions, and wall panels that reflect the cultural heritage of the Cuban and Spanish communities that built these structures. Restoration of these elements requires understanding traditional European plastering techniques adapted to local materials and climate conditions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Environmental conditions in cigar factories—including controlled humidity for tobacco processing—created unique aging patterns in historic plaster. These buildings often retain excellent original plaster condition due to stable interior environments, but restoration must account for modern climate control systems that may create different moisture conditions than originally designed.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Hyde Park Residential Plaster Traditions
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Hyde Park's historic residences showcase the evolution of domestic plaster systems from simple lime plaster walls to elaborate decorative schemes featuring multiple textures, colors, and applied ornaments. Early bungalows (1900-1920) typically feature relatively simple plaster walls with minimal decoration, while later Colonial Revival and Mediterranean Revival homes (1920-1940) often incorporate complex molded details and specialized finish techniques.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The progression of plaster techniques in Hyde Park reflects both changing architectural styles and advancing material technology. Early homes rely primarily on lime-based systems with horsehair reinforcement, while later construction may incorporate early gypsum plasters and machine-mixed aggregates that required different application techniques and aging patterns.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Restoration approaches in Hyde Park must respect the neighborhood's varied architectural character while maintaining consistency with individual property styles. This requires careful analysis of each building's specific plaster system and adaptation of restoration techniques to preserve the unique characteristics that contribute to the district's overall historic character.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              South Tampa Institutional Building Plaster
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic institutional buildings in South Tampa—including schools, churches, and civic buildings—often feature elaborate plaster systems designed for both durability and impressive appearance. These buildings typically employed higher-grade materials and specialized techniques including cast plaster ornaments, hand-modeled decorative elements, and multi-color finish schemes that require advanced restoration skills.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Churches and auditoriums present unique challenges due to large uninterrupted wall and ceiling areas that require scaffolding systems and specialized equipment for restoration access. These spaces often feature complex acoustic considerations that influence plaster thickness, texture, and finish selection—factors that must be preserved during restoration to maintain the buildings' functional performance.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Educational buildings from Tampa's early development period often incorporate both utilitarian and decorative plaster elements, reflecting the civic pride associated with public architecture. Restoration of these buildings must balance preservation of decorative features with practical considerations for continued institutional use and modern building code requirements.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Advanced Restoration Techniques and Case Studies
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Tampa Theatre Plaster Restoration Project
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The restoration of Tampa Theatre's elaborate plaster systems demonstrates the complex techniques required for preserving decorative plaster in a climate-controlled environment while maintaining operational requirements for a working theater. The project involved comprehensive assessment of existing conditions, development of compatible repair materials, and specialized application techniques for overhead work in an occupied building.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Restoration challenges included matching original decorative plaster colors and textures, stabilizing loose sections without removing original material, and coordinating work around theater operations. Solutions involved development of lightweight repair materials for overhead application, creation of detailed molds for missing decorative elements, and implementation of staged restoration approaches that minimized operational disruption.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The completed restoration preserved approximately 90% of original plaster through stabilization and repair techniques, with new material limited to areas where structural integrity could not be maintained through conservation methods. This approach achieved tax credit certification while maintaining the theater's architectural integrity and continuing operational requirements.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Historic Residence Restoration in Hyde Park
+            </h3>
+            <p className="text-gray-600 mb-6">
+              A comprehensive restoration of a 1915 Colonial Revival home in Hyde Park illustrates typical residential plaster restoration challenges including moisture damage remediation, decorative element reconstruction, and integration of modern systems with historic fabric. The project required assessment of water damage from roof leaks, development of appropriate repair materials, and reconstruction of damaged ceiling details.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Restoration work included removal of damaged plaster sections, repair of underlying lath systems, application of traditional three-coat lime plaster, and hand-finishing decorative elements to match original appearance. Modern moisture control systems were integrated without compromising the historic plaster's permeability characteristics essential for proper performance in Tampa's climate.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The project achieved National Register compliance and federal tax credit certification through careful documentation of existing conditions, use of appropriate restoration materials and techniques, and preservation of character-defining features. The restored plaster systems now provide improved moisture performance while maintaining authentic historic appearance and texture.
+            </p>
+
+            {/* Plaster Repair Techniques Table */}
+            <div className="my-8 overflow-x-auto">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Historic Plaster Repair Techniques and Applications</h3>
+              <table className="min-w-full border border-gray-300">
+                <thead className="bg-brand-green-dark text-white">
+                  <tr>
+                    <th className="px-4 py-2 text-left">Repair Type</th>
+                    <th className="px-4 py-2 text-left">Application Method</th>
+                    <th className="px-4 py-2 text-left">Materials Required</th>
+                    <th className="px-4 py-2 text-left">Cost Range (per SF)</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-300">
+                  <tr className="bg-white">
+                    <td className="px-4 py-2">Crack Repair</td>
+                    <td className="px-4 py-2">Injection/patching</td>
+                    <td className="px-4 py-2">Lime putty, fine aggregate</td>
+                    <td className="px-4 py-2">$3 - $8</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="px-4 py-2">Section Replacement</td>
+                    <td className="px-4 py-2">Three-coat application</td>
+                    <td className="px-4 py-2">Lime, sand, horsehair</td>
+                    <td className="px-4 py-2">$12 - $25</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="px-4 py-2">Decorative Elements</td>
+                    <td className="px-4 py-2">Casting/hand-modeling</td>
+                    <td className="px-4 py-2">Specialized lime plaster</td>
+                    <td className="px-4 py-2">$35 - $125</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="px-4 py-2">Surface Consolidation</td>
+                    <td className="px-4 py-2">Injection/stabilization</td>
+                    <td className="px-4 py-2">Lime water, consolidants</td>
+                    <td className="px-4 py-2">$5 - $15</td>
+                  </tr>
+                  <tr className="bg-white">
+                    <td className="px-4 py-2">Lath Repair</td>
+                    <td className="px-4 py-2">Replacement/stabilization</td>
+                    <td className="px-4 py-2">Wood lath, cut nails</td>
+                    <td className="px-4 py-2">$8 - $18</td>
+                  </tr>
+                  <tr className="bg-gray-50">
+                    <td className="px-4 py-2">Complete Restoration</td>
+                    <td className="px-4 py-2">Full system replacement</td>
+                    <td className="px-4 py-2">All traditional materials</td>
+                    <td className="px-4 py-2">$25 - $65</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Environmental Considerations for Tampa Historic Plaster
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Humidity and Moisture Management
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Tampa's subtropical climate creates unique challenges for historic plaster preservation, with seasonal humidity variations that can cause expansion and contraction stresses in plaster systems not designed for modern climate control. Traditional lime plaster's permeability characteristics allow moisture movement that prevents accumulation and related deterioration, but this same permeability can create problems when buildings are retrofitted with impermeable modern materials.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Moisture management strategies must balance preservation of historic plaster characteristics with practical requirements for modern building use. Solutions include selective vapor barriers that protect structural elements while allowing plaster to breathe, humidity control systems designed to minimize cycling, and building envelope improvements that reduce moisture infiltration without trapping moisture within wall systems.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Monitoring systems track humidity levels and moisture content within historic plaster to verify that restoration approaches provide appropriate performance. Data collection over seasonal cycles identifies problematic conditions and guides adjustments to environmental controls or maintenance procedures that optimize long-term preservation outcomes.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Salt Air and Atmospheric Pollution Effects
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Tampa's coastal location exposes historic buildings to salt-laden air that can accumulate in porous plaster systems and cause deterioration through crystallization cycles. Salt damage typically appears as surface scaling, powdery deposits, and gradual loss of surface material that compromises both appearance and weather protection. Understanding salt damage mechanisms guides selection of appropriate cleaning and consolidation approaches.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Desalination techniques remove accumulated salts through controlled washing with demineralized water, followed by thorough drying and monitoring to ensure complete salt removal. This process may require multiple cycles and careful moisture control to prevent damage from rapid wetting and drying. Successful desalination often provides the foundation for long-term consolidation and protection of historic plaster surfaces.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Atmospheric pollution from vehicle emissions and industrial sources creates chemical deposits on plaster surfaces that can cause staining and gradual chemical degradation. Cleaning strategies address both surface contamination and chemical penetration using pH-controlled washing systems and neutralization treatments that restore appropriate chemical balance to historic lime plaster systems.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Modern Integration with Historic Plaster Systems
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              HVAC System Compatibility
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Installing modern heating, ventilation, and air conditioning systems in buildings with historic plaster requires careful planning to avoid damage to existing fabric while providing adequate climate control. Traditional plaster systems provide natural humidity buffering that can be disrupted by forced-air systems that create rapid moisture changes and air movement patterns not anticipated in original building design.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Compatible HVAC approaches include hydronic heating systems that provide gentle, even temperature distribution, humidity control systems that maintain appropriate moisture levels without excessive cycling, and air distribution systems that minimize direct airflow across historic plaster surfaces. Ductwork routing must avoid damage to structural lath systems while providing adequate air distribution for modern comfort requirements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              System integration often requires concealed installation methods that preserve architectural character while accommodating modern equipment. Solutions include installation within floor and ceiling cavities, routing through non-historic spaces, and use of high-velocity systems that require smaller ductwork and cause less disruption to historic fabric.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Electrical and Technology Integration
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Installing modern electrical systems and technology infrastructure in buildings with historic plaster requires specialized techniques that minimize damage while providing adequate service for contemporary use. Traditional plaster-on-lath construction creates natural voids that can accommodate wiring, but access requires careful opening and repair using compatible materials and techniques.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Wire routing strategies include using existing cavities where possible, creating concealed channels that can be repaired invisibly, and coordinating with other system installations to minimize overall disturbance. Modern wireless technologies reduce wiring requirements while providing enhanced functionality, making them particularly appropriate for historic preservation applications.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Outlet and fixture installation requires careful cutting and patching techniques that maintain plaster integrity around openings. Traditional hand tools and techniques often provide better control than power tools, reducing risk of damage to adjacent areas. Proper reinforcement around openings prevents crack formation and maintains long-term plaster stability.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Training and Skill Development in Historic Plaster Techniques
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Traditional Craftsmanship Requirements
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic plaster restoration requires specialized skills that differ significantly from modern drywall and synthetic plaster applications. These traditional techniques must be learned through hands-on training with experienced craftsmen who understand the timing, mixing, and application methods essential for successful lime plaster work. Florida Construction Specialists maintains a team of trained craftsmen with extensive experience in Tampa's specific building types and climate conditions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Skill development includes understanding lime putty preparation and aging, proper mixing ratios for different coat applications, hand tool techniques for achieving period-appropriate textures, and timing requirements for multi-coat applications. These skills require considerable practice and cannot be effectively learned from written instructions alone—hands-on training under expert supervision provides the foundation for quality restoration work.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Ongoing education includes staying current with preservation research, understanding new conservation materials and techniques, and participating in professional development opportunities through preservation organizations. This continuing education ensures that restoration approaches reflect current best practices while maintaining traditional craftsmanship standards.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Standards and Professional Certification
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Professional standards for historic plaster restoration require understanding both technical requirements and preservation principles. Quality control measures include material testing, application technique verification, and final inspection by qualified professionals who can assess both technical performance and historical appropriateness of completed work.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Certification programs through preservation organizations provide formal recognition of competency in historic plaster restoration techniques. These programs typically include both classroom instruction and practical examinations that verify understanding of materials, techniques, and preservation principles. Certified craftsmen provide assurance of quality for property owners and regulatory authorities reviewing restoration projects.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Professional development opportunities include workshops, conferences, and field training programs that expose practitioners to new techniques and research findings. Participation in these programs ensures that restoration approaches continue to evolve while maintaining traditional craftsmanship values and preservation principles essential for successful historic building restoration.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Horsehair Reinforcement in Tampa's Historic Plaster
             </h3>
             <p className="text-gray-600 mb-6">
@@ -262,6 +504,29 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Maintenance planning includes documentation of original materials and techniques, sources for compatible repair materials, and contact information for qualified craftsmen. This comprehensive approach ensures that future maintenance work continues to preserve historic character while maintaining the structural integrity and aesthetic quality achieved through professional restoration.
             </p>
+            <p className="text-gray-600 mb-6">
+              Annual inspection protocols focus on areas prone to moisture infiltration, mechanical damage, and normal wear patterns. Seasonal maintenance activities include cleaning of decorative elements, touch-up repairs of minor damage, and environmental monitoring to verify that climate control systems maintain appropriate conditions. Early intervention prevents minor issues from developing into major restoration requirements.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Comprehensive Historic Plaster Restoration Services
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida Construction Specialists provides complete historic plaster restoration services throughout Tampa's historic districts, combining traditional craftsmanship with modern conservation science to achieve lasting preservation outcomes. Our team understands the unique requirements of Tampa's climate and building types, ensuring that restoration work provides both immediate improvement and long-term durability.
+            </p>
+            <p className="text-gray-600 mb-6">
+              From initial assessment through final inspection, our historic plaster restoration process maintains focus on preserving original character while addressing practical requirements for modern use. We work closely with property owners, preservation consultants, and regulatory authorities to ensure that restoration approaches meet all applicable standards while achieving client goals for functionality and appearance.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Project Timeline and Scheduling Considerations
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Historic plaster restoration requires careful scheduling that accommodates material curing times, environmental conditions, and coordination with other building trades. Lime plaster systems require extended curing periods—typically 28 days for full carbonation—that must be protected from rapid moisture loss, extreme temperatures, and mechanical damage. Project schedules account for these requirements while maintaining progress toward completion goals.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Optimal scheduling coordinates plaster work with other restoration activities to minimize conflicts and protect completed work. Structural repairs, roofing work, and window restoration typically precede plaster restoration to ensure adequate weather protection. Electrical and plumbing rough-in occurs before plaster application, while finish trades follow plaster completion to avoid damage to newly restored surfaces.
+            </p>
 
             <div className="bg-brand-green-light/10 border border-brand-green rounded-lg p-6 mb-8">
               <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -291,6 +556,14 @@ export default function Page() {
                 <li className="flex items-start">
                   <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
                   <span>Historic tax credit project experience and compliance support</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>Specialized equipment and access systems for complex restoration projects</span>
+                </li>
+                <li className="flex items-start">
+                  <CheckCircle className="w-5 h-5 mr-3 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>Long-term maintenance planning and post-restoration support</span>
                 </li>
               </ul>
             </div>

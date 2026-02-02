@@ -265,10 +265,259 @@ export default function Page() {
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Case Study: Hurricane Ian Commercial Recovery Success
+              </h2>
+              <p className="text-gray-600 mb-6">
+                When Hurricane Ian devastated Southwest Florida in September 2022, a 45,000-square-foot Tampa office complex suffered catastrophic roof damage, flooding three floors and displacing 200+ employees. Within 72 hours of the storm's passage, our emergency response team had stabilized the building and documented all damage for insurance claims.
+              </p>
+              <p className="text-gray-600 mb-6">
+                The challenge: The building's 1987 construction predated current wind resistance requirements, necessitating complete roof replacement rather than repair. Standard adjusting would have covered only basic repairs, leaving the owner vulnerable to future storms. Our documentation expertise secured full Ordinance and Law coverage, resulting in a $2.3 million settlement instead of the initial $850,000 estimate.
+              </p>
+              <p className="text-gray-600 mb-6">
+                The outcome: Complete restoration was finished in 4.5 months, with upgraded hurricane-resistant roofing, new MEP systems, and improved building envelope performance. Business Income coverage compensated for lost revenue, and the upgraded building now commands higher lease rates. This case exemplifies how proper disaster recovery transforms crisis into opportunity.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Advanced Restoration Technologies for Commercial Properties
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Thermal Imaging and Moisture Detection
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Modern commercial disaster recovery relies heavily on advanced diagnostic technology. FLIR thermal imaging cameras detect hidden moisture within walls, ceiling cavities, and structural assemblies that traditional methods might miss. This technology is particularly crucial in Tampa Bay's masonry and concrete construction, where water intrusion can remain undetected for weeks while creating mold conditions and structural deterioration.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our moisture detection protocol includes:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>Infrared thermography</strong> — Identifying temperature differentials that indicate moisture presence</li>
+                <li className="mb-2"><strong>Pin-type moisture meters</strong> — Direct measurement of moisture content in building materials</li>
+                <li className="mb-2"><strong>Non-invasive moisture sensors</strong> — Surface scanning without damaging finishes</li>
+                <li className="mb-2"><strong>Hygrometers and psychrometers</strong> — Measuring relative humidity and vapor pressure</li>
+                <li className="mb-2"><strong>Borescope inspection</strong> — Visual assessment inside wall and ceiling cavities</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                ConvectionDrying® and Advanced Dehumidification
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Traditional drying methods can take weeks in commercial buildings, extending business interruption and increasing secondary damage risks. ConvectionDrying® technology creates controlled airflow patterns that accelerate moisture removal by 30-40% compared to conventional methods. This system is particularly effective in Tampa's humid climate, where ambient moisture can actually slow drying progress.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our drying systems include low-grain refrigerant (LGR) dehumidifiers capable of removing moisture down to 30-40 grains per pound—essential for preventing mold growth in commercial buildings with complex HVAC systems. Desiccant dehumidifiers provide even lower humidity levels when required for sensitive equipment or materials.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Antimicrobial Treatment and Mold Prevention
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial properties require proactive mold prevention rather than reactive remediation. Our antimicrobial treatment protocol includes EPA-registered biocides applied during the drying phase, creating hostile conditions for mold spore germination. This preventative approach is more cost-effective than subsequent mold remediation and minimizes business interruption.
+              </p>
+              <p className="text-gray-600 mb-6">
+                For commercial properties where mold growth has already occurred, Florida requires licensed mold assessment and remediation. We coordinate with certified Industrial Hygienists for air sampling and clearance testing, ensuring compliance with Florida Department of Health regulations while expediting the restoration timeline.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Commercial Property Types and Specialized Considerations
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Office Buildings and Corporate Headquarters
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Multi-tenant office buildings present unique disaster recovery challenges. Individual tenant improvements may have different insurance coverage, creating complex coordination requirements. MEP systems often serve multiple tenants, requiring careful planning to maintain operations in undamaged areas while restoring affected spaces.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Modern office buildings typically include sophisticated fire suppression, security, and communication systems that require specialized restoration expertise. Water damage from sprinkler activation often affects multiple floors, and business operations depend on data centers and server rooms that demand immediate attention.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Retail Centers and Shopping Complexes
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Retail properties face unique challenges during disaster recovery. Anchor tenants may have lease provisions requiring restoration within specific timeframes, while smaller tenants often lack comprehensive insurance coverage. Coordinating restoration across multiple units while maintaining common area access requires careful project management.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Retail restoration must consider seasonal business patterns—hurricane damage during peak holiday season creates maximum business interruption impact. Our restoration schedules prioritize critical revenue areas while ensuring life safety compliance throughout the recovery process.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Industrial and Manufacturing Facilities
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Industrial properties often contain specialized equipment worth millions of dollars. Disaster recovery must address both building restoration and equipment decontamination or replacement. Process interruption can affect entire supply chains, making rapid restoration critical for regional economic stability.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Industrial restoration requires understanding of process flows, utility requirements, and environmental regulations. Many Tampa Bay industrial facilities handle hazardous materials, requiring coordination with environmental consultants and regulatory agencies during restoration.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Healthcare and Medical Facilities
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Medical facilities must maintain critical operations during restoration. Emergency departments, surgical suites, and intensive care units cannot tolerate extended downtime. Restoration planning must address infection control requirements, medical gas systems, and specialized HVAC systems that maintain sterile environments.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Healthcare restoration requires contractors familiar with NFPA 99 (Health Care Facilities Code), Joint Commission standards, and state health department regulations. Coordination with medical equipment vendors ensures that sophisticated diagnostic and treatment equipment is properly protected or relocated during restoration.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Florida Building Code Compliance and Restoration
+              </h2>
+              <p className="text-gray-600 mb-6">
+                The Florida Building Code (8th Edition, 2023) establishes minimum standards for disaster-resistant construction. When commercial properties suffer damage exceeding 50% of their assessed value, substantial improvement requirements may trigger compliance with current code standards—even for portions of the building not directly damaged.
+              </p>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Wind Resistance Requirements
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay commercial properties must meet specific wind resistance standards based on their location within designated wind zones. The High-Velocity Hurricane Zone (HVHZ) extends into portions of Tampa Bay, requiring design for wind speeds up to 175 mph. Roof systems, windows, and doors must meet impact resistance standards when replacement is required during restoration.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Flood Resistance and Elevation Requirements
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Properties within FEMA Special Flood Hazard Areas face specific elevation requirements during substantial improvement. The base flood elevation (BFE) determines minimum heights for utilities, with mechanical equipment typically required to be elevated above the BFE plus one foot of freeboard. These requirements significantly impact restoration costs but are typically covered under code upgrade endorsements.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Accessibility (ADA) Compliance
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial restoration projects must address accessibility compliance under both the Americans with Disabilities Act (ADA) and Florida Accessibility Code. When restoration costs exceed 20% of the building's assessed value, accessibility upgrades may be required throughout the entire facility—costs that can often be recovered through proper insurance claim preparation.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Insurance Claim Optimization Strategies
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Immediate Documentation Protocols
+              </h3>
+              <p className="text-gray-600 mb-6">
+                The first 48 hours after a disaster are critical for claim success. Our documentation protocol begins before any cleanup or mitigation work, capturing the full extent of damage through high-resolution photography, 360-degree video tours, and detailed written inventories. This evidence package forms the foundation of your insurance claim.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Digital documentation includes GPS coordinates, timestamp verification, and metadata preservation to ensure admissibility in any dispute. We photograph damage from multiple angles, capture close-up details of material failures, and document the relationship between cause and effect—crucial for coverage determination under commercial property policies.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Supplemental Claim Development
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial restoration projects frequently reveal additional damage during demolition and investigation. Florida law provides an 18-month window for supplemental claims from the date of the original loss. Our project management process anticipates this possibility, documenting newly discovered damage with the same rigor as initial assessments.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Supplemental claims often represent 20-40% of total claim value on complex commercial projects. Hidden damage to structural systems, concealed mechanical equipment, and building envelope components frequently emerges as restoration progresses. Proper documentation and timely filing of supplemental claims ensures maximum recovery.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Working with Insurance Adjusters
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial insurance adjusters expect detailed, professional documentation using industry-standard estimating software. Our estimates utilize Xactimate pricing databases with local labor and material costs, providing adjusters with familiar formatting and pricing that expedites claim review and approval.
+              </p>
+              <p className="text-gray-600 mb-6">
+                We coordinate adjuster inspections, providing technical explanations of damage mechanisms and repair requirements. Our project managers understand insurance terminology, policy provisions, and claim procedures—bridging the communication gap between technical restoration requirements and insurance coverage determinations.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Business Continuity and Temporary Operations
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Temporary Facility Solutions
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Many commercial insurance policies include coverage for temporary relocation expenses under Extra Expense or Civil Authority provisions. We coordinate with tenant representatives and commercial real estate professionals to identify suitable temporary space, ensuring business operations continue while permanent restoration proceeds.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Temporary facility considerations include IT infrastructure, telecommunications, parking availability, accessibility compliance, and proximity to customers or employees. Proper documentation of temporary facility costs—including installation of specialized equipment, utility connections, and security systems—ensures maximum recovery under Extra Expense coverage.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Phased Restoration Strategies
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Large commercial properties often benefit from phased restoration that allows partial occupancy during construction. We develop restoration sequences that prioritize critical business functions while maintaining life safety compliance throughout the project. This approach minimizes business interruption while ensuring thorough restoration.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Phased restoration requires careful coordination of temporary systems—emergency lighting, fire alarm monitoring, and HVAC provisions for occupied areas. Our project management team maintains communication with building occupants, ensuring minimal disruption to ongoing business operations.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Environmental Considerations and Regulatory Compliance
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Asbestos and Lead Paint Management
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial buildings constructed before 1980 commonly contain asbestos in various building materials—insulation, floor tiles, ceiling systems, and roofing materials. Disaster damage may disturb these materials, requiring specialized abatement by licensed contractors under EPA and Florida Department of Environmental Protection regulations.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Lead paint is present in many commercial buildings built before 1978. Renovation activities affecting surfaces with lead paint must comply with EPA's Renovation, Repair, and Painting (RRP) Rule. Our contractors maintain EPA certification for lead-safe work practices, ensuring compliance while minimizing regulatory delays.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Waste Management and Disposal
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial disaster debris often includes regulated materials requiring specialized disposal. Our waste management protocol segregates materials at the source—separating recyclable metals, disposing of contaminated materials through licensed haulers, and documenting disposal for insurance claim support.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Florida's Construction and Demolition Debris regulations require specific handling for materials like gypsum wallboard, concrete, and metal roofing. Proper segregation reduces disposal costs while supporting environmental sustainability goals.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Quality Control and Project Management
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Daily Progress Documentation
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial restoration projects require detailed progress tracking for both quality control and insurance documentation. Our project management system captures daily progress through photographic records, labor time tracking, and material delivery logs. This documentation supports progress payments while providing evidence of work completed for insurance purposes.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Third-Party Quality Inspections
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Large commercial projects benefit from independent quality inspections at critical milestones. We coordinate with structural engineers, MEP consultants, and code officials to ensure work meets or exceeds industry standards. These inspections provide additional documentation supporting claim payments while ensuring lasting quality.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Post-Restoration Services and Warranty Protection
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Our commitment to commercial property owners extends beyond project completion. We provide comprehensive warranty protection on all restoration work, with extended warranties available for roofing and structural systems. Regular post-restoration inspections ensure early identification of any issues while warranties remain in effect.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Preventive maintenance programs help protect restored commercial properties from future disasters. Our maintenance services include roof inspections, HVAC system evaluation, and building envelope assessments—identifying potential problems before they become major issues.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Why Choose Florida Construction Specialists for Commercial Disaster Recovery
+              </h2>
+              <p className="text-gray-600 mb-6">
+                Commercial disaster recovery requires more than basic construction skills—it demands expertise in insurance policies, building codes, project management, and business continuity. Florida Construction Specialists combines 43 years of construction experience with specialized training in commercial restoration and insurance claim optimization.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our team includes licensed general contractors, certified restoration technicians, and project managers with extensive commercial experience. We maintain relationships with structural engineers, environmental consultants, and specialty contractors to address every aspect of complex commercial restoration projects.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Most importantly, we understand that commercial disaster recovery is about more than repairing buildings—it's about restoring livelihoods, protecting investments, and ensuring business continuity. Every project receives the personal attention and technical expertise your recovery deserves.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Trust Tampa Bay&apos;s Commercial Disaster Recovery Experts
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists has guided commercial property owners through disaster recovery and insurance restoration for over two decades. From the first emergency call through final certificate of occupancy, our team provides the expertise, documentation, and quality construction your recovery requires.
+                Florida Construction Specialists has guided commercial property owners through disaster recovery and insurance restoration for over four decades. From the first emergency call through final certificate of occupancy, our team provides the expertise, documentation, and quality construction your recovery requires.
               </p>
               <p className="text-gray-600 mb-6">
                 <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss your commercial disaster recovery needs. For emergencies requiring immediate response, call our 24/7 <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery hotline</Link>.

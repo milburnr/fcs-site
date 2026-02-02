@@ -197,6 +197,156 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Installation methods for stone tile depend on waterproofing system requirements. Thin-set applications bond tiles directly to compatible waterproofing membranes, creating a permanent installation. Pedestal support systems allow stone tiles (cut to paver dimensions) to install above membranes without adhesive, preserving inspection access. Mortar-bed installations over waterproofing provide maximum flexibility for irregular stone but add significant weight.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Composite and Alternative Decking Materials
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Composite decking materials offer another category of balcony finishing options with unique performance characteristics. Wood-plastic composite (WPC) products combine wood fibers with polymers to create materials that resist rot, insects, and moisture while providing natural wood aesthetics. Advanced composite formulations include UV inhibitors that prevent color fading common in earlier composite products.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Interlocking deck tile systems provide removable decking solutions that install without adhesives or permanent fasteners. These tiles typically feature polymer bases with various surface materials—wood composite, stone composite, or artificial grass. The modular design allows easy removal for waterproofing access and facilitates replacement of damaged sections without affecting surrounding areas.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Aluminum decking systems offer exceptional corrosion resistance for coastal environments. Powder-coated aluminum grating or solid panels provide durable surfaces with minimal thermal expansion. While appearance options are more limited than other materials, aluminum systems work well for balconies requiring maximum durability with minimal maintenance. The lightweight construction doesn't stress structural capacity of balcony slabs.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Environmental Performance in Tampa Bay Climate
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's subtropical climate presents specific challenges for balcony decking materials. High humidity affects material dimensional stability and promotes biological growth. Intense UV radiation fades colors and degrades polymer-based materials. Daily thermal cycling from air-conditioned interiors to hot exteriors creates significant temperature differentials that stress material joints and connections. Salt air accelerates corrosion of metallic components.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              UV resistance becomes critical for long-term appearance retention. Porcelain pavers offer excellent UV stability with minimal color change over their service life. Stone tiles vary—granite and quartzite maintain color well, while some sedimentary stones may fade. Deck coatings require UV-stable pigments and topcoat systems. Composite materials need advanced UV inhibitor packages to prevent early degradation.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Thermal performance affects both comfort and material durability. Dark-colored surfaces can reach extreme temperatures that make balconies unusable during summer afternoons. Light colors reflect heat for better comfort but may show dirt more readily. Textured surfaces provide slip resistance but can retain heat and be harder to clean. Thermal expansion considerations affect joint design and spacing for rigid materials like stone.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Waterproofing Integration and Compatibility
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Successful balcony decking installations require careful integration with waterproofing systems. Direct-applied coatings and thin-set tile installations must use waterproofing membranes specifically rated for their intended covering. Chemical compatibility between decking adhesives and membrane materials is essential to prevent delamination or membrane degradation over time.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Pedestal systems offer advantages for waterproofing protection and maintenance. The elevated installation protects membranes from UV exposure that can degrade polymer-based waterproofing over time. Foot traffic and furniture movement occur on the decking rather than directly on the membrane. Access for membrane inspection and repair doesn't require decking removal—a significant advantage for buildings subject to SB 4-D inspection requirements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Drainage design becomes more complex with overlay decking systems. Water must flow through or around the decking to reach drain points. Pedestal systems create drainage cavities beneath decking, but proper slopes must still direct water to drains. Edge details require special attention to prevent water from flowing off balcony edges or into adjacent building elements. Overflow provisions handle storm conditions when primary drainage becomes inadequate.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Installation Techniques and Quality Control
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Installation quality determines the long-term performance of any decking system. Surface preparation requirements vary by system—deck coatings require clean, dry substrates with proper surface profile for adhesion. Tile installations need level, stable surfaces with appropriate waterproofing membranes. Pedestal systems require accurate slope surveying to achieve level finished surfaces despite sloped structural slabs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Environmental conditions during installation affect system performance. Temperature and humidity limits must be observed for coating applications and adhesive curing. Wind conditions can affect spray-applied materials and lightweight components. Rain protection prevents water contamination during cure periods. Professional contractors understand these requirements and adjust schedules accordingly.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Quality control procedures verify proper installation and system performance. Joint spacing and alignment affect both appearance and water management. Adhesion testing confirms proper bonding between layers. Level and slope verification ensure proper drainage. These quality measures prevent premature failures that could compromise waterproofing systems or require expensive corrections.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Load Considerations and Structural Compatibility
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Balcony decking adds dead load to structural slabs that must be evaluated against design capacity. Thin deck coatings add negligible weight (typically 1-3 psf), while thick stone installations can add 15-30 psf or more depending on setting bed thickness and stone density. These loads may exceed the reserve capacity available in older buildings designed to minimum standards.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Structural evaluation by a qualified engineer determines whether proposed decking loads are acceptable. Original design drawings and specifications provide baseline load capacities. Field investigation may be required to verify actual construction details and material strengths. Load calculations consider both dead loads from decking materials and live loads from furniture and occupancy.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              For buildings approaching SB 4-D milestone inspections, structural evaluation becomes part of the compliance process. Documenting actual loads from decking materials supports the engineering calculations required for inspection reports. If decking loads exceed structural capacity, remediation may require lighter systems or structural reinforcement—both considerations for reserve study planning.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Maintenance Requirements and Life-Cycle Costs
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Maintenance requirements significantly affect the total cost of ownership for balcony decking systems. Deck coatings typically require recoating every 5-10 years to maintain appearance and protection. Power washing annually removes biological growth and surface contaminants. Touch-up applications address minor damage before widespread coating failure occurs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Stone and porcelain paver systems require minimal ongoing maintenance. Occasional cleaning and joint sand replenishment for sand-set installations maintain appearance and stability. Individual pavers can be replaced if damaged without affecting surrounding areas. The durability of quality pavers often provides 25-30 years of service with minimal maintenance beyond cleaning.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Composite materials require periodic cleaning and may need protective treatments to maintain appearance. Some composite products require annual or bi-annual applications of protective stains or sealers. UV damage that affects early composite products may require sanding and refinishing. Newer formulations with improved UV resistance reduce these maintenance requirements.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Fire Safety and Code Compliance
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Fire safety requirements affect material selection for balcony decking, particularly in high-rise buildings. Florida Building Code addresses both flame spread characteristics of surface materials and the fire resistance of overall floor assemblies. Materials used on balcony surfaces must meet specified flame spread and smoke development ratings when tested according to ASTM E84.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Stone and ceramic materials typically provide excellent fire performance with minimal flame spread or smoke generation. Organic materials including wood and many composites require fire-retardant treatments or careful product selection to meet code requirements. Some polymer-based deck coatings may require special formulations for high-rise applications where fire safety is particularly critical.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Fire-rated floor assemblies may impose restrictions on materials and installation methods. Penetrations through fire-rated slabs for deck attachment or drainage must maintain the assembly's fire resistance rating. Compatibility between decking systems and any required fireproofing materials needs verification during design. These requirements can influence both material selection and installation costs.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Aesthetic Coordination and Design Flexibility
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Balcony decking contributes significantly to building aesthetics and unit marketability. Material selection affects both individual unit appeal and overall building character. Uniform materials throughout the building create cohesive appearance, while varied materials can provide visual interest but may complicate maintenance and replacement planning for associations.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Color coordination with building architecture affects material selection. Light colors complement contemporary designs while providing better heat reflection. Earth tones suit traditional architecture but may show less contrast with dirt and staining. Bold colors create visual impact but risk becoming dated and may limit future material options if individual replacement becomes necessary.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Pattern and texture options vary significantly among material types. Large-format pavers create clean, modern appearances with fewer joints. Mixed sizes and patterns provide traditional looks but increase installation complexity. Textured surfaces add visual interest and slip resistance but can be harder to clean and maintain. These aesthetic choices affect both initial costs and long-term maintenance requirements.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Project Phasing and Resident Impact Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Large-scale balcony decking projects require careful scheduling to minimize resident disruption while maintaining project efficiency. Building-wide projects can achieve significant cost savings through volume purchasing and efficient crew deployment, but they also affect many residents simultaneously. Strategic phasing balances these competing considerations.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Access requirements affect scheduling and resident coordination. Pedestal paver installation typically requires one day per balcony with minimal noise generation. Deck coating applications may require multiple days with surface preparation generating noise and dust. Weather dependencies can extend schedules during Tampa Bay's rainy season. Clear communication helps residents prepare for construction activities.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Dust and debris control protects both adjacent units and building common areas. Containment systems prevent coating overspray from affecting neighboring balconies. Proper cleanup procedures ensure that construction debris doesn't compromise building drainage systems or create slip hazards. Professional contractors include these provisions in their standard procedures.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Future Technology and Innovation Trends
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Emerging technologies continue to expand options for balcony decking materials and installation methods. Advanced composite formulations offer improved UV resistance and dimensional stability compared to earlier products. Smart materials can change color or texture in response to temperature or moisture conditions. Photocatalytic coatings break down organic pollutants and help maintain cleaner surfaces.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Sustainable materials address growing environmental consciousness among building owners and residents. Recycled content materials reduce resource consumption while providing comparable performance. Rapidly renewable materials like bamboo offer natural aesthetics with faster replacement cycles than traditional hardwoods. Local material sourcing reduces transportation impacts while supporting regional economies.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Installation technologies continue to evolve toward faster, more efficient methods. Prefabricated panel systems reduce on-site installation time while improving quality control. Robotic installation equipment may eventually automate repetitive tasks like paver placement or coating application. These innovations offer potential for reduced costs and improved consistency as they mature and become widely available.
+            </p>
           </div>
         </div>
       </section>

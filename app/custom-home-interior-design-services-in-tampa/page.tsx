@@ -164,13 +164,140 @@ export default function Page() {
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Room-by-Room Design Expertise
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Each room in your custom home requires specialized design knowledge. Kitchen design affects daily workflow: island proportions, storage accessibility, appliance integration, and traffic patterns all impact how you cook and entertain. Interior designers collaborate with kitchen specialists to ensure beautiful spaces function flawlessly. They select materials that withstand heavy use while maintaining aesthetic appeal. They position seating and lighting to create comfortable gathering spaces within working kitchens.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Master bedroom and bathroom suites deserve particular attention—these private retreats should reflect your personal preferences more than public spaces. Bedroom design creates peaceful environments with appropriate lighting, storage solutions, and seating areas. Bathroom design balances luxury features with practical function: spacious showers, comfortable vanity seating, adequate storage, and lighting that flatters rather than glares.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Living areas require flexibility for different activities: intimate conversation, large-scale entertaining, quiet reading, television viewing. Furniture arrangements that work for couples may not accommodate extended family gatherings. Lighting scenarios change throughout the day and across different uses. Storage solutions hide everyday clutter while maintaining accessibility. These complex requirements benefit from professional space planning.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Technology Integration in Design
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern homes require seamless technology integration that enhances living without dominating aesthetics. Entertainment systems need thoughtful planning: screen sizes appropriate to viewing distances, speaker placement that provides immersive audio without visible components, equipment storage that allows ventilation and access. Control systems should be intuitive for all family members while offering sophisticated capability.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Smart home systems enable personalized environments through scene control: lighting levels, music, temperature, and even artwork (through digital displays) can adjust automatically based on time, activity, or preference. Interior designers specify user interfaces that complement room aesthetics rather than appearing as technological afterthoughts. They plan charging stations, network infrastructure, and future upgrade paths.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Security and communication systems require design coordination to maintain aesthetics while ensuring functionality. Cameras, intercoms, access controls, and alarm components can integrate invisibly when planned during design phases. Window and door sensors become part of architectural details. Central monitoring displays complement room design rather than dominating wall spaces.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sustainable Design Practices
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sustainable interior design emphasizes durability, health, and environmental responsibility without sacrificing beauty or comfort. Material selections favor low-emission finishes, renewable resources, and products with recycling content. Natural materials like stone, hardwood, and natural fibers provide beauty while avoiding synthetic chemicals that can affect indoor air quality.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Furniture selections emphasize quality construction that lasts generations rather than disposable pieces requiring frequent replacement. Classic designs age gracefully; trendy styles become dated quickly. Investment in superior upholstery and refinishing capability extends furniture life significantly. Modular and adaptable pieces accommodate changing needs without complete replacement.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Energy efficiency considerations affect interior design through window treatments that manage solar heat gain, lighting systems that minimize energy consumption, and appliance selections that balance performance with efficiency. These practical considerations integrate with aesthetics to create environmentally responsible homes that also reduce operating costs.
+            </p>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-blue-800 mb-3">Tampa Bay Design Resources</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Local Showrooms and Design Centers</h4>
+                  <p className="text-blue-900 text-sm">Tampa Bay offers extensive design resources including major manufacturer showrooms, tile and stone galleries, furniture markets, and specialized trade suppliers. Our design partners maintain relationships with vendors throughout the region, ensuring access to the widest selection of materials and products.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Artisan and Craftsman Networks</h4>
+                  <p className="text-blue-900 text-sm">Local artists, furniture makers, and specialty craftsmen provide custom solutions for unique design challenges. From hand-forged iron work to custom upholstery, Tampa Bay's artisan community contributes authenticity and craftsmanship to luxury interior projects.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Climate Considerations</h4>
+                  <p className="text-blue-900 text-sm">Florida's climate affects material performance and comfort. UV protection, humidity resistance, and cooling efficiency inform selection of fabrics, finishes, and equipment. Outdoor living spaces require materials that withstand year-round exposure while maintaining beauty.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Project Management and Timeline
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Interior design for custom homes requires careful coordination with construction schedules. Selection deadlines ensure materials arrive when needed without delaying construction progress. Early selections—tile, countertops, cabinetry—require longer lead times and affect structural decisions. Later selections—paint, fixtures, furniture—can adjust as design develops but still need coordination for installation.
+            </p>
+            <p className="text-gray-600 mb-6">
+              We maintain detailed selection schedules that align design decisions with construction requirements. Designers receive advance notice of required selections, allowing time for client review and vendor coordination. Change orders are minimized through thorough planning, but we accommodate evolution in client preferences when timing allows.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Installation coordination ensures trades work efficiently without conflicts. Flooring installation precedes furniture delivery. Paint completion allows for final fixture installation. Electronic installations coordinate with furniture placement. Detailed scheduling prevents delays and protects finishes during final phases.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Outdoor Living Integration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida custom homes extend living spaces outdoors through sophisticated patio, pool, and garden areas that require design attention equal to interior spaces. Outdoor furniture must withstand weather while providing comfort comparable to interior seating. Fabric selections balance durability with aesthetic appeal. Storage solutions protect cushions and accessories when not in use.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Outdoor kitchen and entertainment areas require specialized equipment and materials. Appliances designed for outdoor use, surfaces that resist staining and fading, storage that protects contents from moisture. Lighting creates ambiance while providing task illumination for cooking and safety. Heating and cooling solutions extend usability throughout Florida's varied weather conditions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Transition zones between indoor and outdoor spaces receive particular design attention. Material continuity creates flow between areas while accounting for weather exposure differences. Door systems—sliding, folding, or disappearing—affect spatial connection and furniture arrangement. Covered areas allow year-round use while protecting interior spaces from rain and sun.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Furniture and Accessories
             </h2>
             <p className="text-gray-600 mb-6">
               Furniture procurement often represents a significant investment beyond construction costs—comparable to a luxury vehicle for each major room in higher-end projects. Interior designers access trade pricing, often 30-40% below retail, that can offset their fees while ensuring access to superior products. They navigate extensive options to find pieces that fit your scale, style, and quality expectations.
             </p>
             <p className="text-gray-600 mb-6">
+              Scale considerations become critical in custom homes with large rooms and high ceilings. Standard furniture can appear diminutive in generous spaces; oversized pieces may overwhelm smaller rooms. Designers understand proportional relationships and specify furniture sized appropriately for each space. Custom pieces fill gaps when standard options don't provide ideal solutions.
+            </p>
+            <p className="text-gray-600 mb-6">
               Accessories and art complete the design—table lamps, decorative objects, pillows, throws, and artwork that layer personality into spaces. Designers curate these elements to reflect your interests and experiences rather than applying generic staging. Installation and styling services ensure everything is placed optimally, creating magazine-worthy presentations that also function for daily life.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Budget Planning and Value Engineering
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Interior design budgets require strategic allocation across multiple categories: design fees, furniture and fixtures, accessories and art, installation and styling. Designers help prioritize spending to achieve maximum impact—investing in quality pieces for heavily used areas while finding value options for occasional-use spaces.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Phased implementation allows spreading costs over time. Essential items for move-in functionality take priority: window treatments for privacy, basic seating and dining furniture, bedroom essentials. Decorative elements and specialty pieces can be added gradually as budget allows. This approach also enables living in spaces before finalizing all decorative decisions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Value engineering identifies cost-saving opportunities without compromising design quality. Generic versions of expensive fixtures, remnant materials for smaller applications, and strategic use of high-impact elements can reduce costs while maintaining aesthetic goals. Experienced designers balance client vision with budget realities to achieve outstanding results at any investment level.
+            </p>
+
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-amber-800 mb-3">Design Timeline and Milestones</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Pre-Construction (3-4 months)</h4>
+                  <p className="text-amber-900 text-sm">Design concept development, material selections for construction integration, custom millwork designs, electrical and plumbing fixture specifications. Early decisions affect construction and cannot be easily changed later.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">During Construction (8-12 months)</h4>
+                  <p className="text-amber-900 text-sm">Lighting fixture delivery, paint color finalization, furniture ordering (12-16 week lead times), accessory procurement, installation scheduling. Continuous coordination with construction progress prevents delays.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Final Installation (2-4 weeks)</h4>
+                  <p className="text-amber-900 text-sm">Furniture delivery and placement, art installation, styling and accessorizing, final walk-through, and client orientation. Professional installation ensures damage protection and optimal placement.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Maintenance and Longevity Planning
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Superior design considers long-term maintenance requirements. Fabric and finish selections balance beauty with cleanability, especially important for families with children or pets. Furniture construction quality affects longevity—solid wood and quality upholstery age gracefully while lesser materials require frequent replacement.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Designers provide maintenance guidance for all specified materials and furnishings. Appropriate cleaning products and techniques preserve finishes and extend life. Professional cleaning and restoration services maintain investment value. Replacement planning for items with limited lifespan prevents future budget surprises.
             </p>
 
             {/* Cost Table */}
@@ -320,13 +447,108 @@ export default function Page() {
             </div>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Specialty Design Services
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Luxury custom homes often include specialty spaces requiring specialized design expertise. Home theaters demand acoustic treatment, specialized seating, and lighting that won't interfere with viewing. Wine cellars require climate control, proper storage systems, and ambiance appropriate for tasting and appreciation. Home gyms need durable surfaces, ventilation, equipment storage, and motivating environments.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Home offices and libraries serve working professionals requiring focused environments. Acoustic treatment prevents disruption during calls and meetings. Task lighting supports extended computer work without eye strain. Storage systems accommodate files, books, and equipment. Ergonomic furniture prevents physical stress during long working sessions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Children's spaces require growth flexibility and safety considerations. Playrooms need durable, cleanable surfaces and storage for toys and games. Bedrooms should adapt as children age from toddlers to teenagers. Study areas support homework and creative activities. Safety features like soft corners, secure storage, and non-toxic materials protect younger family members.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Art and Personal Collections
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Art and personal collections require thoughtful integration into interior design. Lighting must highlight pieces without causing damage from UV exposure or excessive heat. Security systems protect valuable works while maintaining accessibility for enjoyment. Climate control maintains appropriate humidity and temperature. Placement considers viewing angles and traffic patterns.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Collection display systems accommodate changing exhibitions and acquisitions. Track lighting allows repositioning as collections evolve. Wall systems provide flexible mounting options. Storage areas protect pieces not currently displayed while maintaining organization and accessibility. Conservation considerations preserve value for future generations.
+            </p>
+
+            <div className="bg-green-50 border-l-4 border-green-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-green-800 mb-3">Design Style Expertise</h3>
+              <div className="grid md:grid-cols-2 gap-6">
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Traditional & Transitional</h4>
+                  <ul className="space-y-1 text-green-900 text-sm">
+                    <li>• Classic proportions and symmetry</li>
+                    <li>• Rich material palettes</li>
+                    <li>• Detailed millwork and moldings</li>
+                    <li>• Timeless furniture silhouettes</li>
+                    <li>• Layered lighting and textures</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Contemporary & Modern</h4>
+                  <ul className="space-y-1 text-green-900 text-sm">
+                    <li>• Clean lines and minimal ornamentation</li>
+                    <li>• Open space planning</li>
+                    <li>• Natural light emphasis</li>
+                    <li>• Innovative material applications</li>
+                    <li>• Integrated technology solutions</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Mediterranean & Coastal</h4>
+                  <ul className="space-y-1 text-green-900 text-sm">
+                    <li>• Natural stone and tile materials</li>
+                    <li>• Wrought iron and wood details</li>
+                    <li>• Outdoor living integration</li>
+                    <li>• Earth-tone color palettes</li>
+                    <li>• Casual elegance approach</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-green-900 mb-2">Eclectic & Custom</h4>
+                  <ul className="space-y-1 text-green-900 text-sm">
+                    <li>• Personal style expression</li>
+                    <li>• Mixed period and style elements</li>
+                    <li>• Unique material combinations</li>
+                    <li>• Custom furniture and art</li>
+                    <li>• Narrative and meaning emphasis</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Client Collaboration Process
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Successful interior design projects begin with thorough discovery: understanding how you live, what you value, and what environments make you comfortable. Design questionnaires, lifestyle interviews, and style preference exercises inform design direction. Family routine assessment identifies peak usage periods and activity patterns that affect space planning.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Design presentation methods help clients visualize proposed solutions. Computer renderings show spatial relationships and material combinations. Physical samples allow tactile evaluation of textures and finishes. Mood boards communicate aesthetic direction and emotional response goals. Regular review sessions ensure design evolution aligns with client vision.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Decision-making support helps navigate the overwhelming array of choices in custom home design. Designers present edited selections that meet criteria rather than infinite options. Priority guidance focuses decision-making on elements with greatest impact. Budget allocation advice ensures resources target areas producing maximum satisfaction and value.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Quality Control and Installation
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Quality control throughout the procurement and installation process protects your investment and ensures satisfaction. Inspection of materials before delivery prevents installation of defective products. Coordination with delivery services schedules arrivals appropriately and protects against damage. Installation supervision ensures proper placement and handling of valuable items.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Final styling and placement optimize the presentation of every element. Furniture arrangement considers traffic flow, conversation groupings, and aesthetic balance. Accessory placement creates visual interest without clutter. Artwork hanging achieves proper height and spacing for maximum impact. Plants and flowers add life and freshness to completed spaces.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Complete Your Vision
             </h2>
             <p className="text-gray-600 mb-6">
               Your custom home deserves interiors as exceptional as its architecture. Florida Construction Specialists coordinates comprehensive interior design services that bring every space to life—from material selections that create lasting beauty to furnishings that make your house a home. Whether you work with our design partners or bring your own team, we ensure seamless integration that produces outstanding results.
             </p>
             <p className="text-gray-600 mb-6">
-              Contact us to discuss interior design coordination for your Tampa Bay custom home project. We'll help you assemble the right team and create the home you've always imagined.
+              Our experience with luxury custom homes throughout Tampa Bay provides deep understanding of local preferences, climate considerations, and design resources. We know which materials perform best in Florida conditions, which vendors provide superior service, and how to coordinate complex projects efficiently. This local expertise, combined with access to national and international resources, ensures your interior design exceeds expectations.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Every custom home is unique, and every interior design project reflects the family it serves. From contemporary minimalism to traditional elegance, from family-friendly functionality to sophisticated entertaining spaces, we create homes that are distinctly yours. Contact us to discuss interior design coordination for your Tampa Bay custom home project. We'll help you assemble the right team and create the home you've always imagined.
             </p>
 
           </div>

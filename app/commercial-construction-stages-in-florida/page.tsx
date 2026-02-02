@@ -24,6 +24,200 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const detailedPhases = [
+  {
+    phase: "Pre-Construction Planning",
+    weeks: "4-12",
+    description: "The foundation of project success",
+    activities: [
+      {
+        activity: "Site Analysis & Due Diligence",
+        details: "Comprehensive evaluation including topography, utilities, easements, environmental conditions, and zoning compliance. In Tampa Bay, this includes flood zone verification, soil conditions analysis, and hurricane risk assessment.",
+        duration: "1-2 weeks",
+        responsibility: "Owner/Contractor/Consultants"
+      },
+      {
+        activity: "Feasibility Studies",
+        details: "Financial analysis, market research, highest and best use evaluation. For Florida projects, includes hurricane insurance cost analysis and impact of Florida Building Code requirements on project economics.",
+        duration: "1-3 weeks",
+        responsibility: "Owner/Financial Advisors"
+      },
+      {
+        activity: "Team Selection",
+        details: "Architect, engineer, and contractor selection through RFP process. FCS recommends early contractor involvement for complex projects to leverage construction expertise during design.",
+        duration: "2-4 weeks",
+        responsibility: "Owner"
+      },
+      {
+        activity: "Budget Development",
+        details: "Preliminary cost estimates including site work, construction, permits, and contingencies. Florida-specific costs include hurricane-resistant features, special foundations, and extended permitting timelines.",
+        duration: "1-2 weeks",
+        responsibility: "Contractor/Cost Estimator"
+      },
+      {
+        activity: "Master Schedule Creation",
+        details: "Critical path method (CPM) scheduling considering Florida's seasonal constraints, permitting timelines, and material lead times. Includes weather delay allowances for rainy season.",
+        duration: "1 week",
+        responsibility: "Contractor/Project Manager"
+      }
+    ]
+  },
+  {
+    phase: "Design Development",
+    weeks: "6-16",
+    description: "Translating vision into buildable plans",
+    activities: [
+      {
+        activity: "Schematic Design",
+        details: "Initial design concepts, space programming, and site planning. For Florida projects, includes hurricane shelter areas, emergency egress planning, and flood-resistant design strategies.",
+        duration: "2-4 weeks",
+        responsibility: "Architect"
+      },
+      {
+        activity: "Design Development",
+        details: "Detailed architectural plans, structural systems selection, and MEP system design. Emphasizes Florida Building Code compliance, energy efficiency, and hurricane resistance.",
+        duration: "3-6 weeks",
+        responsibility: "Architect/Engineers"
+      },
+      {
+        activity: "Construction Documents",
+        details: "Final drawings and specifications for permitting and construction. Includes detailed hurricane strapping, impact-resistant glazing specifications, and flood-resistant construction details.",
+        duration: "4-8 weeks",
+        responsibility: "Design Team"
+      },
+      {
+        activity: "Value Engineering",
+        details: "Cost optimization while maintaining design intent and code compliance. Often identifies Florida-specific cost savings in foundation systems, HVAC design, and envelope strategies.",
+        duration: "1-2 weeks",
+        responsibility: "Contractor/Design Team"
+      },
+      {
+        activity: "Code Review & Compliance",
+        details: "Comprehensive review for Florida Building Code, ADA, fire code, and local ordinance compliance. Includes hurricane design verification and energy code calculations.",
+        duration: "1-2 weeks",
+        responsibility: "Architect/Engineers"
+      }
+    ]
+  },
+  {
+    phase: "Permitting & Approvals",
+    weeks: "4-8",
+    description: "Navigating regulatory requirements",
+    activities: [
+      {
+        activity: "Building Permit Application",
+        details: "Submission to local building department with complete construction documents. Tampa Bay jurisdictions have varying requirements and review timelines.",
+        duration: "4-6 weeks",
+        responsibility: "Contractor/Architect"
+      },
+      {
+        activity: "Environmental Permitting",
+        details: "SWFWMD environmental resource permits for stormwater management, wetland impacts, and water use. Required for most commercial development in Florida.",
+        duration: "6-12 weeks",
+        responsibility: "Civil Engineer"
+      },
+      {
+        activity: "Fire Department Review",
+        details: "Fire protection system review, access road approval, and water supply verification. Often runs concurrent with building permit review.",
+        duration: "3-5 weeks",
+        responsibility: "Fire Protection Engineer"
+      },
+      {
+        activity: "Utility Coordination",
+        details: "Electric, gas, water, sewer, and telecommunications service connections. In Florida, includes coordination with multiple utility providers and hurricane hardening requirements.",
+        duration: "2-8 weeks",
+        responsibility: "Contractor/Utilities"
+      },
+      {
+        activity: "Final Approvals",
+        details: "Resolution of plan review comments, fee payments, and permit issuance. May require multiple review cycles for complex projects.",
+        duration: "1-3 weeks",
+        responsibility: "Contractor/Design Team"
+      }
+    ]
+  }
+];
+
+const qualityControlMeasures = [
+  {
+    stage: "Foundation",
+    inspections: ["Footing excavation", "Reinforcement placement", "Concrete placement", "Foundation survey"],
+    critical: "Proper drainage and waterproofing in Florida's high water table",
+    common_issues: "Inadequate dewatering, improper reinforcement lap lengths, concrete strength"
+  },
+  {
+    stage: "Structural Framing",
+    inspections: ["Steel erection", "Concrete placement", "Post-tensioning", "Welding inspection"],
+    critical: "Hurricane tie-downs and continuous load path connections",
+    common_issues: "Missing hurricane straps, inadequate connection details, material substitutions"
+  },
+  {
+    stage: "Envelope Systems",
+    inspections: ["Waterproofing", "Window installation", "Roof systems", "Cladding attachment"],
+    critical: "Water intrusion protection and wind resistance",
+    common_issues: "Improper flashing, inadequate sealant application, missing hurricane clips"
+  },
+  {
+    stage: "MEP Rough-in",
+    inspections: ["Electrical rough", "Plumbing rough", "HVAC rough", "Fire protection rough"],
+    critical: "Proper system sizing for Florida climate and code compliance",
+    common_issues: "Undersized HVAC, improper electrical grounding, inadequate ventilation"
+  },
+  {
+    stage: "Final Systems",
+    inspections: ["Final electrical", "Final plumbing", "Final mechanical", "Fire alarm testing"],
+    critical: "System commissioning and performance verification",
+    common_issues: "Control system programming, air balancing, water pressure issues"
+  }
+];
+
+const riskManagement = [
+  {
+    category: "Weather-Related Risks",
+    description: "Florida's climate creates unique challenges",
+    mitigation: [
+      "Schedule weather-sensitive work during optimal seasons",
+      "Implement comprehensive site drainage and erosion control",
+      "Use hurricane-resistant temporary facilities and storage",
+      "Plan for extended rainy season delays (June-September)",
+      "Coordinate concrete pours with weather forecasts"
+    ]
+  },
+  {
+    category: "Regulatory Risks",
+    description: "Complex permitting and code compliance requirements",
+    mitigation: [
+      "Early engagement with building departments and agencies",
+      "Use experienced local design teams familiar with jurisdictions",
+      "Build adequate time into schedules for permit reviews",
+      "Maintain current knowledge of code changes and updates",
+      "Establish relationships with key regulatory personnel"
+    ]
+  },
+  {
+    category: "Environmental Risks",
+    description: "Wetlands, contamination, and protected species",
+    mitigation: [
+      "Conduct early environmental assessments and surveys",
+      "Engage environmental consultants familiar with Florida regulations",
+      "Plan for potential mitigation requirements and costs",
+      "Coordinate with appropriate environmental agencies",
+      "Build environmental compliance into project schedules"
+    ]
+  },
+  {
+    category: "Market Risks",
+    description: "Material availability, labor, and cost fluctuations",
+    mitigation: [
+      "Early procurement of long-lead-time materials",
+      "Maintain relationships with multiple trade contractors",
+      "Use escalation clauses in contracts where appropriate",
+      "Monitor market conditions and plan accordingly",
+      "Consider alternative materials and systems for cost control"
+    ]
+  }
+];
+
 const stages = [
   {
     icon: FileText,
@@ -181,8 +375,17 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Unlike residential construction, commercial projects in Florida must navigate additional complexities: stricter building codes designed for hurricane resistance, ADA accessibility requirements, fire safety regulations, and often multi-jurisdictional permitting processes. Working with an experienced Florida general contractor who understands these nuances can mean the difference between a smooth project and one plagued by delays.
             </p>
+            <p className="text-gray-600 mb-6">
+              Over our 43 years of commercial construction experience in Florida, Florida Construction Specialists has refined our approach to each construction stage. We've witnessed the evolution of building codes following major hurricanes, adapted to changing environmental regulations, and navigated economic cycles that affect material availability and labor markets. This experience enables us to anticipate challenges and implement solutions before they impact project schedules.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Florida's unique construction environment requires specialized expertise. Our sandy soils demand different foundation approaches than other regions. Hurricane-resistant construction adds complexity and cost but provides essential protection for long-term building performance. Environmental regulations, particularly wetlands protection and stormwater management, affect nearly every commercial development.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The permitting landscape varies significantly across Tampa Bay jurisdictions. Hillsborough County's rural areas have different requirements than urban Tampa. St. Petersburg's coastal construction standards differ from inland Pinellas County requirements. Understanding these nuances helps predict accurate timelines and avoid permit delays that can extend projects by months.
+            </p>
             <p className="text-gray-600 mb-8">
-              At Florida Construction Specialists, we've guided hundreds of commercial projects through this process across Tampa, St. Petersburg, Clearwater, and throughout the greater Tampa Bay region. Here's what you can expect at each stage.
+              Success in Florida commercial construction requires proactive planning, experienced local expertise, and systematic execution. Here's what you can expect at each stage, including the Florida-specific considerations that impact scheduling, costs, and construction methods.
             </p>
           </div>
         </div>
@@ -253,6 +456,171 @@ export default function Page() {
                 Florida's rainy season (June through September) can significantly impact construction schedules. Concrete work, roofing, and exterior finishes are particularly weather-sensitive. Experienced contractors build weather delays into their schedules and sequence work to minimize impact—scheduling foundation and framing during drier months when possible, and planning interior finish work during the rainy season.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Detailed Phase Breakdown */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+            Detailed Phase Breakdown
+          </h2>
+          <div className="space-y-8">
+            {detailedPhases.map((phase, index) => (
+              <div key={index} className="bg-gray-50 rounded-xl p-8">
+                <div className="flex items-center justify-between mb-6">
+                  <h3 className="text-2xl font-bold text-brand-green-dark">{phase.phase}</h3>
+                  <span className="bg-brand-green text-white px-4 py-2 rounded-full font-bold">
+                    {phase.weeks} weeks
+                  </span>
+                </div>
+                <p className="text-gray-600 mb-6">{phase.description}</p>
+                <div className="space-y-4">
+                  {phase.activities.map((activity, actIndex) => (
+                    <div key={actIndex} className="bg-white rounded-lg p-4 border-l-4 border-brand-green">
+                      <div className="flex justify-between items-start mb-2">
+                        <h4 className="text-lg font-bold text-brand-green-dark">{activity.activity}</h4>
+                        <span className="text-sm font-medium text-brand-green">{activity.duration}</span>
+                      </div>
+                      <p className="text-gray-600 mb-2">{activity.details}</p>
+                      <p className="text-sm text-gray-500">
+                        <strong>Responsibility:</strong> {activity.responsibility}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Control & Inspections */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Quality Control & Inspection Protocols
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                Florida's challenging environment demands rigorous quality control throughout construction. Our 43 years of experience has taught us that proactive inspection and quality management prevent costly corrections and ensure long-term building performance.
+              </p>
+            </div>
+            <div className="grid gap-6">
+              {qualityControlMeasures.map((measure, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 shadow-sm">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-4">{measure.stage} Phase</h3>
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Required Inspections</h4>
+                      <ul className="space-y-1">
+                        {measure.inspections.map((inspection, inspIndex) => (
+                          <li key={inspIndex} className="text-gray-600 flex items-center gap-2">
+                            <CheckCircle className="w-4 h-4 text-brand-green" />
+                            {inspection}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-800 mb-2">Florida-Specific Critical Items</h4>
+                      <p className="text-gray-600 mb-3">{measure.critical}</p>
+                      <h4 className="font-bold text-gray-800 mb-2">Common Issues to Prevent</h4>
+                      <p className="text-gray-600">{measure.common_issues}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Risk Management */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+              Risk Management Throughout Construction
+            </h2>
+            <div className="prose prose-lg mb-8">
+              <p className="text-gray-600">
+                Successful commercial construction in Florida requires proactive risk management. Understanding and mitigating common risks prevents delays, cost overruns, and quality issues that can plague projects.
+              </p>
+            </div>
+            <div className="grid md:grid-cols-2 gap-6">
+              {riskManagement.map((risk, index) => (
+                <div key={index} className="bg-gray-50 rounded-xl p-6">
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{risk.category}</h3>
+                  <p className="text-gray-600 mb-4">{risk.description}</p>
+                  <h4 className="font-bold text-gray-800 mb-3">Mitigation Strategies</h4>
+                  <ul className="space-y-2">
+                    {risk.mitigation.map((strategy, stratIndex) => (
+                      <li key={stratIndex} className="text-gray-600 flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
+                        {strategy}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* FCS Experience & Lessons */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto prose prose-lg">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Four Decades of Construction Evolution in Tampa Bay
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Since 1981, Florida Construction Specialists has witnessed dramatic changes in commercial construction practices, regulations, and technologies. This evolution has shaped our approach to each construction stage and informed our best practices for Florida projects.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Regulatory Evolution
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The most significant change came following Hurricane Andrew in 1992, when Florida adopted the most stringent building codes in the nation. We had to completely revise our construction methods to accommodate new wind resistance requirements, impact glazing standards, and enhanced connection details. Projects that once took 6 months extended to 8-10 months as we adapted to new realities.
+            </p>
+            <p className="text-gray-600 mb-6">
+              The Americans with Disabilities Act implementation in the 1990s required significant changes to our design and construction approach. Accessibility became a fundamental consideration rather than an afterthought, affecting everything from parking design to restroom layouts to door hardware selection.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Technology Integration
+            </h3>
+            <p className="text-gray-600 mb-6">
+              The transition from hand-drawn plans to computer-aided design revolutionized our design development and coordination processes. Building Information Modeling (BIM) now allows us to identify conflicts before construction begins, reducing field changes that historically added weeks to project timelines.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Electronic plan review and permitting systems have streamlined many processes while creating new requirements for digital submission standards. What once required multiple trips to building departments now happens online, though proper preparation remains critical for smooth approvals.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Environmental Consciousness
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Environmental regulations have become increasingly complex and important. Early projects faced minimal environmental oversight. Today's projects require comprehensive stormwater management, wetlands mitigation, and often pursuit of green building certifications that add value while requiring specialized expertise.
+            </p>
+            <p className="text-gray-600 mb-6">
+              LEED certification, once rare, is now common for commercial projects. Energy efficiency requirements have evolved from basic insulation standards to comprehensive building performance requirements that affect every building system.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Market Adaptations
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Economic cycles have taught us the importance of flexible project delivery methods. Design-build delivery, once uncommon, now represents a significant portion of our work because it allows faster project delivery and better cost control during uncertain economic periods.
+            </p>
+            <p className="text-gray-600 mb-8">
+              The COVID-19 pandemic accelerated changes in inspection procedures, introduced virtual inspections for certain trades, and highlighted the importance of flexible construction management systems. These changes have generally improved efficiency and may become permanent fixtures in the construction process.
+            </p>
           </div>
         </div>
       </section>

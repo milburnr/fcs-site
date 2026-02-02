@@ -339,6 +339,259 @@ export default function Page() {
               ))}
             </div>
 
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Property Valuation and Market Analysis
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Understanding how improvements affect property value requires knowledge of Tampa Bay's commercial real estate market dynamics. Properties are valued using multiple approaches—income, cost, and comparable sales—and improvements can positively impact each method.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Income Approach: Rental Rate and Occupancy Impact
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Most commercial properties are valued primarily on income production capacity. Improvements that increase rental rates or reduce vacancy have direct, measurable value impact. In Tampa Bay's competitive market, properties with modern amenities and efficient systems command premium rents and attract tenants faster.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Typical rent premiums for well-improved properties include: office buildings with modern lobbies and systems (15-25% premium), retail centers with excellent curb appeal and parking (10-20% premium), and industrial properties with enhanced functionality (5-15% premium). Reduced vacancy periods—from weeks to months faster leasing—also significantly impact value calculations.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Operating Expense Reduction
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Improvements that reduce operating expenses increase net operating income, directly impacting property value. Energy-efficient HVAC systems, LED lighting, and reflective roofing can reduce utility costs by 20-40%. These savings flow directly to the bottom line, increasing property value.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Reduced maintenance expenses also improve NOI. New roofing eliminates leak repairs, updated HVAC systems require less maintenance, and quality materials reduce ongoing repair costs. Insurance savings from risk reduction (security systems, fire protection, roof improvements) also contribute to expense reduction.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa Bay Market Specific Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's commercial real estate market has unique characteristics that affect improvement strategies. Understanding these local factors helps optimize improvement investments for maximum value creation.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Climate-Related Improvements
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Florida's climate creates specific improvement opportunities and necessities. Hurricane preparedness improvements (impact windows, reinforced structures, backup power) provide insurance discounts and tenant confidence. Energy efficiency improvements deliver higher savings in cooling-dominated climates.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Moisture management improvements—proper waterproofing, HVAC humidity control, mold prevention—address Florida-specific challenges that can significantly impact property operations and tenant satisfaction. These improvements often provide returns through reduced maintenance and improved tenant retention.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Growth Market Dynamics
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Tampa Bay's growing population and economy create strong demand for quality commercial space. Properties positioned with modern amenities and efficiency capture premium rents and appreciation. Improvement strategies should anticipate continued growth and tenant sophistication.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Technology infrastructure requirements continue evolving with growth in knowledge-based businesses. Upgraded electrical systems, communication infrastructure, and flexible space design help future-proof properties for changing tenant needs.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Financing Property Improvements
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Strategic financing can enhance improvement returns and enable larger projects that create greater value. Multiple financing options exist for commercial property improvements, each with advantages depending on project scope and ownership strategy.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Refinancing for Improvement Capital
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Property refinancing can provide improvement capital at attractive rates while potentially reducing overall debt service. If property values have increased or interest rates are favorable, refinancing may fund improvements without additional equity investment.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Many lenders offer improvement loan programs that combine property refinancing with improvement funding. These programs recognize that strategic improvements increase property value and improve loan security, enabling competitive rates for combined financing.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Energy Efficiency Financing Programs
+            </h3>
+            <p className="text-gray-600 mb-4">
+              PACE financing (Property Assessed Clean Energy) enables energy efficiency improvements with repayment through property tax assessments. These programs provide long-term, fixed-rate financing for qualifying improvements including HVAC upgrades, insulation, windows, and renewable energy systems.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Utility rebates and incentives can offset improvement costs significantly. TECO, Duke Energy, and other Tampa Bay utilities offer rebates for efficient equipment installation. Federal and state tax incentives provide additional returns for energy-efficient and renewable energy improvements.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Case Studies: Successful Value Enhancement Projects
+            </h2>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Case Study 1: Class B Office Building Revival - Westshore District
+            </h3>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Property:</span> 85,000 SF office building, 40% vacant, struggling with dated appearance and inefficient systems.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Investment:</span> $850,000 total improvement budget focused on high-impact visible improvements and system upgrades.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Improvements:</span> Complete lobby renovation with modern finishes, new lighting, and furniture ($150,000). Common area corridor and restroom upgrades ($200,000). HVAC system replacement for efficient zones ($350,000). Exterior painting, landscaping, and signage ($150,000).
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Results:</span> Occupancy increased from 60% to 95% within 18 months. Achieved 18% rent premium over pre-renovation rates. Property value increased by $2.1 million based on appraisal. Total ROI of 147% over 24 months including rental income improvement.
+              </p>
+              <p className="text-gray-600">
+                <span className="font-semibold">Key Success Factors:</span> Focus on visible improvements that immediately changed property perception. Energy efficient systems reduced operating costs, enabling competitive rental rates while improving margins.
+              </p>
+            </div>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Case Study 2: Retail Strip Center Transformation - South Tampa
+            </h3>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Property:</span> 25,000 SF neighborhood strip center, tired appearance, parking and access issues limiting tenant appeal.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Investment:</span> $425,000 improvement budget targeting tenant attraction and customer experience enhancement.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Improvements:</span> Complete façade renovation with modern materials and color scheme ($180,000). Parking lot reconstruction with improved circulation and landscaping ($150,000). New monument signage and tenant sign program ($45,000). LED lighting throughout property ($50,000).
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Results:</span> Tenant retention improved—eliminated turnover that had averaged 20% annually. Attracted higher-quality tenants with 22% higher average rent. Customer traffic increased measurably based on tenant reports. Property sold for 35% above pre-improvement appraisal within three years.
+              </p>
+              <p className="text-gray-600">
+                <span className="font-semibold">Key Success Factors:</span> Comprehensive exterior improvements created completely different property perception. Functional improvements (parking, access) enhanced tenant operational success.
+              </p>
+            </div>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Case Study 3: Industrial Building Repositioning - East Tampa
+            </h3>
+            <div className="bg-gray-50 p-6 rounded-lg mb-6">
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Property:</span> 120,000 SF older industrial building, limited dock access, inadequate office space for modern distribution users.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Investment:</span> $480,000 focused on functionality improvements to capture higher-paying distribution tenants.
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Improvements:</span> Added four additional dock doors with hydraulic levelers ($180,000). Office build-out expansion from 2,000 to 6,000 SF ($120,000). Electrical service upgrade to 1,200 amps ($80,000). Yard improvements including trailer parking area ($100,000).
+              </p>
+              <p className="text-gray-600 mb-4">
+                <span className="font-semibold">Results:</span> Transitioned from manufacturing tenant ($4.50/SF) to distribution operations ($6.75/SF). New tenant signed 10-year lease with built-in increases. Property functionality improvements eliminated capital expenditure requests from tenants.
+              </p>
+              <p className="text-gray-600">
+                <span className="font-semibold">Key Success Factors:</span> Improvements directly addressed requirements of target tenant segment. Investment in functionality over aesthetics appropriate for industrial property type.
+              </p>
+            </div>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Technology Integration for Property Value
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern commercial properties increasingly compete on technology capabilities. Smart building systems, high-speed internet infrastructure, and automated operations appeal to today's tenants while reducing operating costs for owners.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Smart HVAC and Energy Management
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Intelligent building systems optimize energy consumption while improving tenant comfort. Programmable thermostats, occupancy sensors, and automated lighting controls can reduce energy consumption by 15-30% while providing detailed usage data for optimization.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Advanced systems enable remote monitoring and control, reducing maintenance costs and enabling proactive problem resolution. Tenants appreciate consistent temperatures and reduced energy costs, while owners benefit from lower operating expenses and improved NOI.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Security and Access Control Systems
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Modern security systems with keycard access, security cameras, and monitoring capabilities provide tenant safety while reducing insurance costs. Cloud-based systems enable remote management and provide detailed access logs for security and tenant management.
+            </p>
+            <p className="text-gray-600 mb-6">
+              These systems particularly appeal to professional service tenants who require security for client information and employee safety. Enhanced security can justify premium rents while reducing owner liability and insurance costs.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sustainability and Environmental Improvements
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Environmental improvements increasingly influence tenant decisions and property values. Sustainable features reduce operating costs, may qualify for incentives, and appeal to environmentally conscious tenants and investors.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Solar Energy and Renewable Systems
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Solar installations can significantly reduce property energy costs while providing marketing advantages. In Florida's sunny climate, properly designed systems often achieve 6-10 year payback periods through energy savings and available incentives.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Net metering programs enable excess solar production to offset grid electricity consumption, maximizing savings. Property-generated renewable energy appeals to environmentally conscious tenants and can support premium rental positioning.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Water Conservation and Management
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Water-efficient fixtures, smart irrigation systems, and rainwater collection can reduce utility costs while demonstrating environmental stewardship. These improvements often qualify for utility rebates and may reduce impact fees for expansions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Native landscaping and drought-resistant plantings reduce maintenance costs while meeting local landscape requirements. These sustainable approaches often provide superior aesthetics while reducing long-term care expenses.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Timing and Phasing Strategies
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Strategic timing of improvements can maximize value creation while minimizing tenant disruption and carrying costs. Market conditions, lease terms, and capital availability all influence optimal improvement timing.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Vacancy-Driven Improvement Timing
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Major improvements during vacancy periods eliminate tenant disruption while enabling comprehensive renovations. However, carrying costs during extended vacancy must be balanced against improvement benefits and faster lease-up from improved conditions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Staged improvements can begin with occupied areas (exterior, common areas) while planning interior renovations during natural tenant turnover. This approach maintains cash flow while progressively improving property conditions.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Market Cycle Considerations
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Real estate market cycles influence improvement returns. During strong markets, improvements enable capturing peak rental rates and property values. During slower markets, improvements help maintain competitive positioning and minimize vacancy.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Construction costs and contractor availability fluctuate with market cycles. Planning improvements during slower construction periods can reduce costs while positioning properties for market recovery. Material procurement and contractor selection strategies should consider market conditions.
+            </p>
+
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Regulatory Compliance and Code Updates
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Property improvements provide opportunities to address regulatory compliance issues while adding value. Proactive code compliance prevents future problems while improvements often trigger requirements for accessibility, life safety, and energy efficiency updates.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              ADA Compliance Integration
+            </h3>
+            <p className="text-gray-600 mb-4">
+              Accessibility improvements can be integrated into renovation projects to address compliance requirements while enhancing property appeal. Modern accessibility features—automatic doors, accessible restrooms, proper signage—benefit all users while meeting legal requirements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Planning accessibility improvements as part of larger renovations often reduces total costs compared to standalone compliance projects. Experienced contractors can identify efficient approaches that address compliance while supporting overall improvement goals.
+            </p>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Life Safety and Building Code Updates
+            </h3>
+            <p className="text-gray-600 mb-6">
+              Fire protection systems, emergency lighting, and egress improvements may be required during major renovations. Planning these upgrades strategically can minimize costs while ensuring compliance and reducing insurance premiums through improved safety systems.
+            </p>
+
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Maximize Your Property's Potential</h3>
               <p className="mb-6 text-gray-200">

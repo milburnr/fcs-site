@@ -283,13 +283,357 @@ export default function Page() {
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Advanced Environmental Testing and Assessment Protocols
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Pre-Disturbance Environmental Surveys
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Successful commercial restoration projects begin with comprehensive environmental assessments before any demolition or construction work begins. These surveys identify potential hazardous materials and contamination concerns that could affect project scope, timeline, and costs. In Tampa Bay's building stock, which includes structures dating back to the early 1900s, environmental surprises are common and can dramatically impact restoration budgets.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our pre-disturbance survey protocol includes:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>Visual inspection</strong> — Identifying suspect materials based on age, type, and condition</li>
+                <li className="mb-2"><strong>Material sampling</strong> — Laboratory analysis of suspected asbestos-containing materials (ACMs)</li>
+                <li className="mb-2"><strong>Lead paint testing</strong> — X-ray fluorescence (XRF) screening for lead content</li>
+                <li className="mb-2"><strong>Mold investigation</strong> — Air and surface sampling in areas with water damage history</li>
+                <li className="mb-2"><strong>Soil assessment</strong> — Evaluating potential contamination from underground storage tanks or spills</li>
+                <li className="mb-2"><strong>Indoor air quality baseline</strong> — Establishing pre-construction conditions for comparison</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Regulatory Agency Coordination
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration in Tampa Bay involves multiple regulatory agencies with overlapping jurisdictions. Successful project management requires understanding each agency's requirements and maintaining ongoing communication throughout the restoration process. Our experienced environmental coordination team manages these relationships to prevent delays and ensure compliance.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Key regulatory agencies include:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>Florida Department of Environmental Protection (FDEP)</strong> — Oversees air quality, water pollution, and hazardous waste</li>
+                <li className="mb-2"><strong>Florida Department of Health</strong> — Regulates mold assessors and remediators statewide</li>
+                <li className="mb-2"><strong>Hillsborough County Health Department</strong> — Local asbestos notification and enforcement</li>
+                <li className="mb-2"><strong>Southwest Florida Water Management District</strong> — Stormwater management and wetland protection</li>
+                <li className="mb-2"><strong>EPA Region 4</strong> — Federal oversight of environmental regulations</li>
+                <li className="mb-2"><strong>City of Tampa Environmental Protection Commission</strong> — Local environmental ordinances</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Case Study: Hillsborough County Office Complex Environmental Restoration
+              </h2>
+              <p className="text-gray-600 mb-6">
+                A 1970s-era government office complex in Tampa suffered extensive water damage during Hurricane Ian, affecting three floors and approximately 75,000 square feet of space. Initial damage appeared limited to water intrusion and ceiling collapse, but environmental assessment revealed multiple contamination concerns requiring specialized handling.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Environmental challenges discovered included:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2">Extensive asbestos in damaged ceiling tiles and pipe insulation</li>
+                <li className="mb-2">Lead paint on structural elements exposed by flood damage</li>
+                <li className="mb-2">Mold growth throughout HVAC systems and wall cavities</li>
+                <li className="mb-2">PCB-containing electrical transformers damaged by flooding</li>
+                <li className="mb-2">Category 3 flood water contamination requiring specialized cleanup</li>
+              </ul>
+              <p className="text-gray-600 mb-6">
+                Our environmental management approach addressed each hazard systematically while maintaining project schedule and budget. The result: successful remediation of all environmental concerns, full regulatory compliance, and complete insurance coverage for environmental costs totaling $1.2 million. The building reopened with improved indoor air quality and updated environmental systems that exceed current standards.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Specialized Environmental Hazards in Commercial Buildings
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                PCBs and Electrical Equipment
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Polychlorinated biphenyls (PCBs) were widely used in electrical equipment until banned in 1979. Commercial buildings with original electrical systems may contain PCB-filled transformers, ballasts, and capacitors that require specialized disposal when damaged during disasters. PCB contamination can significantly complicate restoration projects and requires EPA notification and specialized cleanup procedures.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay commercial properties built before 1979 should anticipate PCB assessment during major electrical restoration projects. When PCB-containing equipment is damaged, specialized cleanup and disposal can cost $10,000-$50,000 or more, but these costs are typically covered under property insurance when part of a covered loss.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Mercury-Containing Devices
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Older commercial buildings often contain mercury in thermostats, switches, and fluorescent light ballasts. Mercury spills during disaster cleanup create immediate health hazards and require specialized cleanup procedures. Florida regulations require proper collection and disposal of mercury-containing devices to prevent environmental contamination.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Refrigerant and Chemical Storage
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial HVAC systems contain refrigerants that require recovery before equipment disposal. Additionally, many commercial properties store cleaning chemicals, maintenance supplies, and process chemicals that can create contamination when containers are damaged during disasters. Proper assessment and cleanup of chemical spills prevents soil and groundwater contamination while ensuring worker safety.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Underground Storage Tanks (USTs)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Older commercial properties may have abandoned underground fuel storage tanks that can leak during ground movement caused by floods or sinkholes. UST contamination requires immediate notification to FDEP and can involve extensive soil and groundwater remediation. Properties with known or suspected USTs should conduct environmental assessments before major restoration projects begin.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Indoor Air Quality Management During Restoration
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Containment and Negative Pressure Systems
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial restoration projects often require sophisticated containment systems to prevent contamination spread during remediation work. Negative pressure systems use HEPA-filtered air scrubbers to create controlled airflow that keeps contaminants within work areas. These systems are essential for asbestos abatement, mold remediation, and lead paint removal projects.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Proper containment design considers building HVAC systems, occupancy requirements, and work area access. For occupied commercial buildings, containment allows restoration work to proceed while maintaining normal operations in unaffected areas. This approach minimizes business interruption while ensuring safety compliance.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Air Monitoring and Quality Control
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration projects require continuous air monitoring to verify that containment systems are working effectively and worker exposure limits are not exceeded. Real-time monitoring for asbestos fibers, mold spores, and lead particles provides immediate feedback that allows adjustments to work practices and containment systems.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay's outdoor air quality can affect indoor restoration work, particularly during high pollen seasons or air quality alerts. Our monitoring protocols account for these variables to ensure accurate assessment of project-related contamination levels versus background conditions.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Post-Remediation Verification
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Successful environmental remediation requires independent verification that cleanup has been completed successfully and building occupancy is safe. This process typically involves clearance testing by licensed professionals who were not involved in the remediation work, providing objective confirmation that environmental hazards have been eliminated.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Verification protocols include:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>Visual inspection</strong> — Confirming complete removal of contaminated materials</li>
+                <li className="mb-2"><strong>Air sampling</strong> — Verifying that airborne contaminant levels meet acceptable standards</li>
+                <li className="mb-2"><strong>Surface sampling</strong> — Testing surfaces for residual contamination</li>
+                <li className="mb-2"><strong>Final documentation</strong> — Comprehensive reports suitable for building reoccupancy and insurance purposes</li>
+              </ul>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Waste Management and Disposal Compliance
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Hazardous Waste Classification and Handling
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration often generates waste materials that require classification and specialized disposal procedures. Asbestos-containing materials, lead-contaminated debris, PCB equipment, and contaminated soil may all be classified as hazardous waste requiring manifest tracking and disposal at licensed facilities.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Florida's hazardous waste regulations follow federal EPA guidelines with additional state-specific requirements. Commercial property owners are legally responsible for proper waste characterization and disposal, even when contractors handle the physical work. Our waste management protocols ensure full compliance while minimizing disposal costs through proper waste segregation and recycling where possible.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Construction and Demolition Debris Recycling
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Florida regulations encourage recycling of construction and demolition debris to reduce landfill disposal. Clean concrete, metal, wood, and gypsum wallboard can often be recycled, reducing both environmental impact and disposal costs. However, materials contaminated with hazardous substances require special handling and may not be recyclable.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our waste management planning separates recyclable materials from contaminated waste streams, maximizing recycling opportunities while ensuring proper handling of hazardous materials. This approach often reduces overall disposal costs by 20-30% compared to mixed waste disposal.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Transportation and Disposal Documentation
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Hazardous waste transportation requires licensed haulers, manifest documentation, and chain-of-custody tracking from generation to final disposal. This documentation provides legal protection for property owners while ensuring regulatory compliance. Our waste management team maintains all required documentation and coordinates with licensed disposal facilities throughout Florida.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Green Building and Sustainability in Environmental Restoration
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                LEED and Green Building Certification Considerations
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial properties seeking LEED (Leadership in Energy and Environmental Design) certification or other green building credentials must address specific environmental requirements during restoration. These may include indoor air quality testing, low-emitting materials selection, and construction activity pollution prevention measures.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration provides opportunities to earn LEED credits through:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>Materials and Resources</strong> — Recycling construction waste and using recycled content materials</li>
+                <li className="mb-2"><strong>Indoor Environmental Quality</strong> — Low-VOC adhesives, sealants, paints, and carpets</li>
+                <li className="mb-2"><strong>Innovation</strong> — Advanced environmental remediation techniques and sustainable practices</li>
+                <li className="mb-2"><strong>Regional Priority</strong> — Addressing local environmental concerns specific to Tampa Bay</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Energy Efficiency Integration
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration often provides opportunities to improve building energy efficiency through upgraded HVAC systems, improved building envelope performance, and enhanced controls. These improvements reduce operating costs while providing better indoor environmental quality and reducing the building's environmental footprint.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Energy efficiency measures commonly integrated with environmental restoration include:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2">High-efficiency HVAC equipment with improved filtration</li>
+                <li className="mb-2">LED lighting systems with occupancy and daylight controls</li>
+                <li className="mb-2">Improved insulation and air sealing</li>
+                <li className="mb-2">Energy recovery ventilation systems</li>
+                <li className="mb-2">Smart building controls and monitoring systems</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Water Conservation and Management
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay's water supply challenges make conservation an important consideration in restoration projects. Water-efficient fixtures, rainwater harvesting systems, and drought-resistant landscaping can be integrated with restoration work to reduce long-term water consumption and operating costs.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Emerging Environmental Concerns and Future Considerations
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Per- and Polyfluoroalkyl Substances (PFAS)
+              </h3>
+              <p className="text-gray-600 mb-6">
+                PFAS chemicals, found in firefighting foam, waterproofing materials, and various industrial products, are increasingly recognized as environmental contaminants. While not yet widely regulated in restoration contexts, PFAS contamination may become a concern for properties with fire department responses or industrial operations. Staying informed about emerging PFAS regulations helps property owners prepare for potential future requirements.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Climate Change Adaptation
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Tampa Bay's vulnerability to sea level rise, increased storm intensity, and changing precipitation patterns affects long-term building design and restoration decisions. Environmental restoration provides opportunities to improve climate resilience through elevated utilities, flood-resistant materials, and enhanced stormwater management systems.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Microplastics and Indoor Air Quality
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Emerging research on microplastics in indoor environments may influence future restoration material selections and indoor air quality standards. While not currently regulated, awareness of these potential concerns helps inform material choices that may provide long-term benefits for building occupants.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Worker Safety and Training Requirements
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                OSHA Compliance and Training Standards
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration work requires specialized worker training and safety protocols that exceed standard construction requirements. OSHA's Hazard Communication Standard (HazCom), Respiratory Protection Standard, and Personal Protective Equipment requirements all apply to environmental restoration projects.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Our worker safety program includes:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2"><strong>40-Hour HAZWOPER Training</strong> — For workers handling hazardous waste and contaminated materials</li>
+                <li className="mb-2"><strong>Asbestos Worker Certification</strong> — EPA-required training for asbestos abatement work</li>
+                <li className="mb-2"><strong>Lead RRP Certification</strong> — EPA training for lead-safe work practices</li>
+                <li className="mb-2"><strong>Respiratory Fit Testing</strong> — Ensuring proper respirator protection for each worker</li>
+                <li className="mb-2"><strong>Medical Monitoring</strong> — Health surveillance for workers with potential exposure to hazardous materials</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Emergency Response and Exposure Control
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration projects must include emergency response procedures for accidental exposures, equipment failures, and unexpected contamination discoveries. Our safety protocols include immediate response procedures, decontamination systems, and medical evaluation procedures that protect workers and comply with OSHA requirements.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Insurance Claim Optimization for Environmental Costs
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Documentation Requirements for Environmental Claims
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental remediation claims require specific documentation that demonstrates the connection between covered damage and environmental contamination. Our claim documentation process includes pre-loss condition assessment, damage-specific environmental testing, and detailed correlation between the covered peril and environmental contamination.
+              </p>
+              <p className="text-gray-600 mb-6">
+                Critical documentation elements include:
+              </p>
+              <ul className="list-disc pl-6 mb-6 text-gray-600">
+                <li className="mb-2">Photographic evidence of damage and contamination</li>
+                <li className="mb-2">Laboratory testing results with chain-of-custody documentation</li>
+                <li className="mb-2">Expert opinions linking damage to environmental contamination</li>
+                <li className="mb-2">Regulatory agency correspondence and permits</li>
+                <li className="mb-2">Detailed cost estimates from licensed environmental contractors</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Working with Environmental Insurance Adjusters
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental claims often require specialized adjusters with technical expertise in contamination assessment and remediation costs. These adjusters understand the regulatory requirements and industry standards that affect environmental restoration costs. Our experience working with environmental adjusters helps ensure that claims are properly evaluated and settlements reflect the true cost of comprehensive remediation.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Supplemental Claims for Environmental Discoveries
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental contamination is often discovered during restoration work, requiring supplemental insurance claims for additional remediation costs. Florida's 18-month supplemental claim window allows time for proper assessment and documentation of newly discovered contamination. Our project management includes ongoing environmental monitoring to identify and document these additional costs promptly.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Long-Term Environmental Monitoring and Maintenance
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Post-Restoration Environmental Monitoring
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Some environmental restoration projects require long-term monitoring to verify that remediation remains effective and contamination does not recur. This is particularly important for mold remediation in Tampa Bay's humid climate, where moisture control must be maintained to prevent recurrence.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Preventive Environmental Management
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Successful environmental restoration includes preventive measures that reduce the likelihood of future contamination. This may include improved moisture control systems, enhanced ventilation, and regular environmental monitoring. These preventive measures protect building occupants while reducing the risk of future environmental problems that could affect insurance coverage or property values.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+                Selecting Environmental Restoration Professionals
+              </h2>
+              
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Licensing and Certification Requirements
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental restoration requires contractors with specialized licenses and certifications. In Florida, mold assessors and remediators must hold state licenses, while asbestos and lead abatement contractors need EPA certification. Verify all credentials before beginning work, as using unlicensed contractors can void insurance coverage and create liability exposure.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Insurance and Bonding Considerations
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Environmental contractors should carry specialized insurance coverage including pollution liability, errors and omissions, and higher general liability limits appropriate for environmental work. Bonding requirements may apply for large commercial projects, providing additional financial protection for property owners.
+              </p>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
+                Experience with Commercial Projects
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Commercial environmental restoration differs significantly from residential work in scope, complexity, and regulatory requirements. Contractors should demonstrate specific experience with commercial properties, familiarity with business continuity requirements, and understanding of complex building systems that affect environmental remediation approaches.
+              </p>
+
+              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Partner with Environmental Restoration Experts
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists coordinates all aspects of commercial restoration, including the environmental considerations that complicate many insurance claims. From initial assessments through final clearance testing, we ensure your project meets all regulatory requirements while maximizing your insurance recovery.
+                Florida Construction Specialists coordinates all aspects of commercial restoration, including the environmental considerations that complicate many insurance claims. From initial assessments through final clearance testing, we ensure your project meets all regulatory requirements while maximizing your insurance recovery. Our team includes licensed environmental professionals and maintains relationships with specialized environmental contractors throughout Florida.
               </p>
               <p className="text-gray-600 mb-6">
-                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss environmental concerns in your restoration project. Our team serves commercial properties throughout Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area with comprehensive <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery services</Link>.
+                Our comprehensive approach addresses environmental challenges proactively, preventing delays and cost overruns that often affect restoration projects where environmental issues are discovered after work begins. With over four decades of experience in Tampa Bay commercial restoration, we understand the local environmental challenges and regulatory landscape that affect restoration projects in this region.
+              </p>
+              <p className="text-gray-600 mb-6">
+                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss environmental concerns in your restoration project. Our team serves commercial properties throughout Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area with comprehensive <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery services</Link> that address every aspect of environmental compliance and remediation.
               </p>
           </div>
         </div>

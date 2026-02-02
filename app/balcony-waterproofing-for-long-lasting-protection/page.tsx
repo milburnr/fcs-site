@@ -237,6 +237,335 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Advanced Waterproofing Technologies */}
+      <section className="section bg-blue-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Advanced Waterproofing Technologies for Florida Climate
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Florida's aggressive environmental conditions demand advanced waterproofing technologies that go beyond basic water exclusion. Modern balcony waterproofing systems must resist salt air corrosion, UV degradation, thermal cycling, hurricane-force winds, and daily moisture exposure while maintaining structural integrity and aesthetic appeal for decades.
+              </p>
+              <p className="text-gray-600 mb-6">
+                High-performance membrane systems incorporate multiple layers of protection, each engineered for specific functions. Primer layers ensure maximum adhesion to concrete substrates while penetrating and sealing surface pores. Base membranes provide the primary waterproof barrier with crack-bridging capabilities to accommodate structural movement. Intermediate layers offer chemical resistance and enhanced puncture protection. Topcoat systems protect underlying membranes from UV radiation while providing slip resistance and aesthetic finishes.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Polyurethane Membrane Systems</h3>
+                <div className="space-y-3 text-gray-600">
+                  <div>
+                    <strong className="text-brand-green-dark">Advantages:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Exceptional elasticity accommodates structural movement</li>
+                      <li>• Superior UV resistance with minimal degradation</li>
+                      <li>• Seamless application eliminates failure points</li>
+                      <li>• Chemical resistance to salt spray and pollutants</li>
+                      <li>• Self-leveling properties create smooth surfaces</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark">Best Applications:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• High-traffic balcony decks</li>
+                      <li>• Complex geometric surfaces</li>
+                      <li>• Buildings with significant movement</li>
+                      <li>• Premium aesthetic requirements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Polyurea Coating Systems</h3>
+                <div className="space-y-3 text-gray-600">
+                  <div>
+                    <strong className="text-brand-green-dark">Advantages:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Rapid curing minimizes weather exposure during application</li>
+                      <li>• Exceptional durability and impact resistance</li>
+                      <li>• Outstanding chemical and abrasion resistance</li>
+                      <li>• Wide temperature range performance</li>
+                      <li>• Low-temperature application capability</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark">Best Applications:</strong>
+                    <ul className="mt-2 space-y-1 text-sm">
+                      <li>• Heavy-traffic commercial balconies</li>
+                      <li>• Harsh marine environments</li>
+                      <li>• Time-sensitive renovations</li>
+                      <li>• High-durability requirements</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Installation Process */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Professional Installation Process
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Successful balcony waterproofing requires meticulous attention to surface preparation, environmental conditions, and application techniques. The installation process follows industry best practices established by ASTM, ICRI, and manufacturer specifications, with additional considerations for Florida's challenging climate conditions.
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
+                  <span className="bg-brand-green text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold">1</span>
+                  Surface Assessment and Preparation
+                </h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Condition Evaluation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Concrete strength testing using rebound hammer</li>
+                      <li>• Moisture content measurement with calibrated meters</li>
+                      <li>• Surface bond testing for existing coatings</li>
+                      <li>• Crack mapping and structural movement assessment</li>
+                      <li>• Contamination testing for oil, grease, or chemical exposure</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Surface Preparation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Mechanical abrading to ICRI CSP-2 or CSP-3 profile</li>
+                      <li>• Complete removal of loose material and contaminants</li>
+                      <li>• Crack repair using compatible polymer mortars</li>
+                      <li>• Substrate moisture reduction if above specification limits</li>
+                      <li>• Dust removal using industrial vacuum systems</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
+                  <span className="bg-brand-green text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold">2</span>
+                  Primer and Base Membrane Application
+                </h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Primer Systems:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Penetrating sealers for porous concrete substrates</li>
+                      <li>• Moisture-tolerant primers for humid conditions</li>
+                      <li>• Epoxy primers for maximum adhesion strength</li>
+                      <li>• Application in thin, uniform coats per specifications</li>
+                      <li>• Proper cure time monitoring before membrane application</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Base Membrane:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Multiple coat application for specified dry film thickness</li>
+                      <li>• Reinforcement fabric embedding in wet membrane</li>
+                      <li>• Seamless application with proper overlap techniques</li>
+                      <li>• Flash coating of vertical surfaces and transitions</li>
+                      <li>• Quality control testing for pinhole defects</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
+                  <span className="bg-brand-green text-white rounded-full w-8 h-8 flex items-center justify-center text-lg font-bold">3</span>
+                  Topcoat and Protection Systems
+                </h3>
+                <div className="grid md:grid-cols-2 gap-6">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">UV Protection:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Aliphatic polyurethane topcoats for UV stability</li>
+                      <li>• Acrylic coatings for enhanced weather resistance</li>
+                      <li>• Color-stable pigment systems preventing chalking</li>
+                      <li>• Multiple coat application for uniform appearance</li>
+                      <li>• Accelerated weathering test validation</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Traffic Protection:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Anti-slip additives for pedestrian safety</li>
+                      <li>• Broadcast aggregate systems for heavy traffic areas</li>
+                      <li>• Elastomeric coatings accommodating movement</li>
+                      <li>• Chemical resistance for cleaning product exposure</li>
+                      <li>• Abrasion testing to ensure durability standards</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Quality Control and Testing */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Quality Control and Performance Testing
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Professional waterproofing installation requires comprehensive quality control measures throughout the application process. Testing protocols verify that installed systems meet design specifications and will provide expected service life under Florida's challenging environmental conditions.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Installation Quality Control</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Substrate preparation verification:</strong> Surface profile measurement, cleanliness inspection, and moisture content documentation
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Material quality control:</strong> Batch testing, mix ratio verification, and pot life monitoring during application
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Application monitoring:</strong> Film thickness measurement, coverage rate verification, and environmental condition logging
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Cure monitoring:</strong> Tack-free time verification, recoat window compliance, and final cure confirmation
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Performance Testing</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Waterproof integrity testing:</strong> Flood testing or electronic leak detection to verify membrane continuity
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Adhesion testing:</strong> Pull-off tests to verify bond strength between membrane and substrate
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Hardness and durability:</strong> Shore A durometer testing and abrasion resistance verification
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Drainage verification:</strong> Flow testing to ensure proper water removal under design conditions
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Environmental Compliance */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Environmental Compliance and Sustainability
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Modern balcony waterproofing systems incorporate environmental considerations including VOC compliance, sustainable materials, and end-of-life recyclability. Florida's environmental regulations and green building standards influence material selection and application procedures.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Regulatory Compliance</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>VOC Regulations:</strong> Low-emission coatings meeting EPA and state air quality standards
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Water Quality Protection:</strong> Runoff management preventing contamination of storm water systems
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Waste Management:</strong> Proper disposal of removed materials and application waste
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Safety Standards:</strong> Worker protection and resident safety during application
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Sustainable Practices</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Extended Service Life:</strong> High-performance systems reducing replacement frequency
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Energy Efficiency:</strong> Reflective coatings reducing cooling loads in high-rise buildings
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Resource Conservation:</strong> Precise application minimizing material waste
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Recyclable Materials:</strong> System components with end-of-life recovery options
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose FCS */}
       <section className="section bg-white">
         <div className="container-custom">

@@ -189,6 +189,171 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Two primary resin types serve different purposes. Polyurethane resins expand upon contact with water, making them ideal for active leaks where water is flowing through cracks. The expanding foam fills the entire crack volume and provides immediate water cutoff. Epoxy resins provide structural bonding that restores monolithic concrete behavior—important for cracks that affect structural capacity. Some repairs use both materials: polyurethane to stop water flow, followed by epoxy to restore structural integrity.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Crystalline Waterproofing Technology
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Crystalline waterproofing represents a unique approach that works by forming insoluble crystals within the concrete matrix itself. These products contain cement, sand, and proprietary chemical compounds that react with free lime and water in concrete to create microscopic crystals throughout the pore structure. As additional moisture enters the concrete, more crystals form, actually improving waterproofing performance over time.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              The crystalline process can be achieved through surface-applied treatments or integral admixtures added during concrete mixing. Surface-applied treatments work best on dense, well-cured concrete where the active compounds can penetrate effectively. Integral admixtures provide waterproofing throughout the entire concrete cross-section and are particularly effective for new construction projects. Both approaches create permanent waterproofing that doesn't depend on surface coatings or membranes that can be damaged or wear away.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Crystalline systems work particularly well in Tampa Bay's environment because they're unaffected by thermal cycling and UV exposure that degrades organic waterproofing materials. The crystals remain stable through temperature variations and actually continue growing when moisture is present. However, these systems require proper pH conditions in the concrete and may not be effective on severely deteriorated substrates where the concrete chemistry has been altered by contamination.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Cavity Drainage Systems for Interior Waterproofing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Cavity drainage systems provide an alternative approach that manages water rather than attempting to exclude it completely. These systems acknowledge that some water may penetrate foundation walls but provide controlled pathways for collection and removal. Dimpled plastic membranes installed against interior foundation walls create drainage cavities that intercept infiltrating water and direct it to collection sumps for mechanical removal.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              The membrane system creates a separation between the wet foundation wall and interior spaces. Water entering through the wall flows down the dimpled membrane surface to perimeter drainage channels connected to sump pump systems. This approach provides protection for interior spaces while allowing the foundation wall to remain in contact with groundwater. Cavity drainage systems can be combined with other treatments like cementitious coatings for enhanced protection.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Proper installation requires careful detailing at membrane terminations, penetrations, and corners to ensure continuous drainage paths. Sump pump systems must be sized for expected water volumes and include backup pumps or battery backup to maintain protection during power outages. Regular maintenance includes cleaning drainage channels and testing pump operation to ensure reliable performance.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Exterior Excavation and Positive-Side Restoration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              When below-grade waterproofing failures are extensive or when long-term protection is paramount, exterior excavation and positive-side waterproofing may provide the most effective solution. This approach involves excavating around foundation walls to expose exterior surfaces for waterproofing system installation or restoration. While costly and disruptive, exterior waterproofing provides the highest level of protection by keeping water away from structural concrete.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Excavation projects must address both waterproofing and drainage to achieve lasting results. Foundation drainage systems—including drain tile, gravel backfill, and connection to storm systems—remove water from foundation perimeters to reduce hydrostatic pressure. Protective measures like drainage boards or insulation protect waterproofing membranes from damage during backfilling and provide additional thermal benefits.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Site constraints in commercial developments often limit excavation options. Adjacent buildings, utilities, landscaping, and paved areas may prevent access to foundation walls. Selective excavation may address the worst problem areas while interior treatments protect remaining surfaces. Our assessment process identifies optimal approaches that balance effectiveness with practical constraints and budget considerations.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Tampa Bay Geological and Hydrological Challenges
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's unique geology creates specific challenges for below-grade waterproofing that don't exist in other regions. The area sits on limestone bedrock with overlying sandy soils that drain rapidly during storm events. This combination means large volumes of stormwater reach foundation perimeters quickly, creating sudden increases in hydrostatic pressure. The region's flat topography provides limited natural drainage, often requiring mechanical systems to manage water accumulation.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              The shallow water table—often 3-8 feet below grade—subjects below-grade structures to constant hydrostatic pressure. During wet seasons and major storm events, water levels rise rapidly, sometimes reaching ground surface in low-lying areas. Buildings constructed during dry seasons may not have been tested by high water conditions until years after construction, when waterproofing systems may already have begun deteriorating.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Tidal influences along Tampa Bay's extensive coastline create additional complexity. Underground water levels fluctuate with tidal cycles, creating pressure variations that stress waterproofing systems. Salt water intrusion affects groundwater chemistry and can accelerate concrete deterioration when waterproofing systems fail. These factors require waterproofing designs specifically adapted to coastal conditions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Mechanical System Integration and Protection
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Below-grade mechanical rooms and electrical systems require specialized waterproofing approaches because equipment cannot tolerate any water intrusion. HVAC systems, electrical panels, emergency generators, and fire pump systems represent critical building infrastructure that must remain operational even during extreme weather events. Water intrusion can cause immediate equipment failure and create life-safety hazards.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Waterproofing for mechanical spaces often requires redundant systems and special detailing around equipment connections. Raised equipment platforms elevate critical systems above potential flood levels. Waterproof electrical connections and sealed penetrations prevent water entry through utility systems. Sump pump systems with battery backup provide protection even during power outages that commonly accompany severe storms.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Coordination between waterproofing contractors and mechanical/electrical trades ensures that protective systems work together rather than creating conflicting requirements. Waterproofing penetration seals must accommodate thermal movement in piping systems. Equipment vibration isolation must not compromise waterproofing continuity. This coordination is particularly critical for elevator pits and fire pump rooms where water intrusion creates immediate safety hazards.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Condition Assessment and Diagnostic Methods
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective below-grade waterproofing solutions require thorough assessment of existing conditions and accurate diagnosis of water intrusion pathways. Visual inspection identifies obvious problems like active leaks, efflorescence, and deteriorated coatings, but water often travels considerable distances within building assemblies before appearing as interior damage. Advanced diagnostic methods reveal hidden problems and guide solution selection.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Moisture mapping using electronic meters reveals elevated water content in concrete and masonry materials. Ground-penetrating radar identifies voids, delaminations, and reinforcement corrosion within concrete slabs and walls. Core drilling and laboratory testing determine concrete condition, contamination levels, and the effectiveness of existing waterproofing treatments. Water testing with controlled flooding or spray equipment verifies the performance of completed repairs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Documentation from condition assessment supports both immediate repair decisions and long-term planning. Detailed reports with photos and measurements provide baselines for monitoring system performance over time. For associations subject to SB 4-D requirements, comprehensive assessment documentation demonstrates due diligence in building maintenance and supports reserve study funding decisions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Traffic Coating Systems for Parking Structures
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Parking structure waterproofing must withstand both water exposure and vehicle traffic—a combination that eliminates many otherwise effective waterproofing approaches. Traffic-bearing systems typically employ multi-component designs where each layer serves specific functions. Base coats provide adhesion and waterproofing. Intermediate layers build thickness and provide crack-bridging capability. Topcoats provide UV resistance, chemical resistance, and the durability needed for traffic exposure.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Material selection depends on traffic intensity and chemical exposure. Polyurea systems cure rapidly and provide excellent abrasion resistance but require specialized application equipment and environmental controls. Polyurethane systems offer good flexibility and chemical resistance with more forgiving application requirements. Epoxy systems provide maximum chemical resistance and hardness but less flexibility for crack bridging. Hybrid systems combine material properties to optimize performance.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Surface preparation for parking deck coatings requires complete removal of existing coatings, oils, and contaminants that interfere with adhesion. Shot blasting or scarification creates the surface profile needed for coating adhesion. Crack repairs must be completed before coating application. Proper drainage must be maintained—slopes to drains, functional drainage systems, and details that prevent water accumulation in low areas.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Drainage System Design and Implementation
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective below-grade waterproofing requires more than just waterproof coatings—it demands comprehensive drainage systems that remove water from building perimeters and below-grade spaces. Foundation drainage begins with proper site grading that directs surface water away from buildings. Subsurface drainage systems intercept groundwater before it can create hydrostatic pressure against foundation walls.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Perimeter drain systems typically consist of perforated pipe installed at foundation footing level, surrounded by graded gravel and protected by filter fabric. The pipe system connects to storm drains or pumping systems for water removal. In Tampa Bay's flat terrain, mechanical pumping is often required since gravity drainage may not provide adequate capacity for storm events. Backup pumps and emergency power ensure continued operation during severe weather.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Interior drainage systems manage water that enters below-grade spaces despite exterior waterproofing measures. Floor drains, trench drains, and sump systems collect and remove infiltrating water. For parking structures, proper slopes direct spilled fluids and wash water to drainage systems that separate them from stormwater runoff. These systems must comply with environmental regulations regarding contaminated water handling.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Vapor Control and Humidity Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Below-grade spaces in Florida face unique humidity challenges that affect both waterproofing performance and interior conditions. Even when liquid water intrusion is controlled, water vapor transmission through concrete and masonry can create humidity levels that promote mold growth, corrode equipment, and degrade stored materials. Vapor control strategies must address both bulk water intrusion and vapor transmission.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Vapor barrier systems applied to interior surfaces reduce moisture transmission through foundation walls. However, these systems must be carefully designed to prevent condensation within wall assemblies. In Florida's cooling-dominated climate, vapor barriers typically perform best on the exterior (warm) side of thermal insulation to prevent warm, humid air from reaching cool interior surfaces where condensation occurs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Mechanical dehumidification provides active humidity control in below-grade spaces where passive measures aren't sufficient. Dehumidification systems must be sized for actual moisture loads including vapor transmission, air infiltration, and latent loads from occupancy. Energy-efficient heat recovery systems capture cooling from dehumidification to reduce operating costs. Continuous operation maintains controlled conditions even when buildings are unoccupied.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Control and Performance Testing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Quality control during waterproofing installation determines long-term system performance. Surface preparation must be verified before material application—moisture content, cleanliness, and profile all affect coating adhesion. Environmental conditions including temperature, humidity, and surface wetness must be within manufacturer specifications during installation. Application rates and thickness must meet design requirements for effective performance.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Performance testing during construction provides verification that installed systems meet design requirements. Flood testing with controlled water depths simulates hydrostatic pressure conditions. Electronic leak detection can identify membrane defects before they're concealed by protection courses or backfill. Adhesion testing verifies coating bond strength. These tests identify problems while correction is still economical.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Documentation from quality control programs supports warranty claims and future maintenance decisions. Application photos record details that may be concealed after construction completion. Test reports establish performance baselines for comparison during future inspections. Material certificates verify that specified products were actually installed and properly stored before use.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Economic Considerations and Life-Cycle Analysis
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Below-grade waterproofing investment decisions should consider total lifecycle costs rather than just initial installation prices. Premium systems with higher upfront costs often provide better value through longer service lives, lower maintenance requirements, and reduced risk of catastrophic failure. Deferred maintenance frequently results in exponentially higher repair costs as minor problems progress to major system failures requiring structural repairs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Water intrusion damage extends far beyond the cost of waterproofing repairs. Parking structure deterioration affects property values and marketability. Equipment damage in mechanical rooms can interrupt building operations. Liability exposure from slip hazards and property damage affects insurance costs. Proactive waterproofing maintenance provides protection against these consequential damages that often exceed the cost of the waterproofing work itself.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              For condominium associations, waterproofing investments protect unit owner equity while satisfying regulatory requirements. Well-maintained buildings command higher sale and rental prices. Conversely, buildings with water intrusion problems and deferred maintenance suffer reduced values that affect all unit owners. SB 4-D requirements make waterproofing maintenance legally mandated rather than optional, emphasizing the importance of proactive programs.
+            </p>
           </div>
         </div>
       </section>

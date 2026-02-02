@@ -252,6 +252,432 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Seasonal Maintenance Guide */}
+      <section className="section bg-blue-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Seasonal Maintenance Guide for Florida Balconies
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Florida's distinct seasonal patterns create specific maintenance requirements for high-rise balconies. Hurricane season, winter dry periods, and summer heat cycles each present unique challenges that require targeted maintenance attention to prevent deterioration and ensure resident safety.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Spring Preparation (March-May)</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Post-Winter Inspection:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Document any coating damage from winter temperature cycling</li>
+                      <li>• Check for new cracks in concrete surfaces</li>
+                      <li>• Inspect drainage systems for debris accumulation</li>
+                      <li>• Evaluate railing connections for loosening</li>
+                      <li>• Test door and window operation after seasonal movement</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Hurricane Season Preparation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Secure or remove loose objects that could become projectiles</li>
+                      <li>• Verify drainage system capacity for heavy rainfall</li>
+                      <li>• Document pre-season condition with photographs</li>
+                      <li>• Review emergency procedures with residents</li>
+                      <li>• Schedule any needed repairs before storm season</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Summer Maintenance (June-August)</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Heat Protection:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Monitor coating performance under intense UV exposure</li>
+                      <li>• Increase cleaning frequency for dust and salt accumulation</li>
+                      <li>• Inspect for thermal expansion-related movement</li>
+                      <li>• Ensure adequate ventilation for enclosed balcony spaces</li>
+                      <li>• Check for heat-related sealant deterioration</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Storm Response:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Post-storm inspections for wind and water damage</li>
+                      <li>• Immediate clearing of debris from drainage systems</li>
+                      <li>• Document storm-related damage for insurance claims</li>
+                      <li>• Emergency repairs to prevent further deterioration</li>
+                      <li>• Assessment of structural integrity after severe weather</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Fall Assessment (September-November)</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Post-Hurricane Evaluation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Comprehensive assessment of storm season damage</li>
+                      <li>• Prioritize repairs before winter weather patterns</li>
+                      <li>• Update reserve studies with identified repair needs</li>
+                      <li>• Plan major maintenance projects for dry season</li>
+                      <li>• Document annual condition for SB4-D compliance</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Winter Preparation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Complete repairs while weather permits</li>
+                      <li>• Apply protective treatments before temperature drops</li>
+                      <li>• Adjust maintenance schedules for seasonal labor availability</li>
+                      <li>• Stock emergency repair materials for immediate needs</li>
+                      <li>• Plan resident communications for upcoming work</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Winter Monitoring (December-February)</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Temperature Cycling:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Monitor for thermal stress cracking in sealants</li>
+                      <li>• Watch for coating brittleness in extreme cold</li>
+                      <li>• Document any unusual structural movement</li>
+                      <li>• Maintain heating in enclosed balcony spaces</li>
+                      <li>• Adjust cleaning schedules for reduced usage</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Planning Season:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Develop maintenance budgets for upcoming year</li>
+                      <li>• Schedule major renovation projects for spring</li>
+                      <li>• Review contractor performance and agreements</li>
+                      <li>• Update emergency response procedures</li>
+                      <li>• Plan SB4-D inspection schedules if required</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Professional Maintenance Programs */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Professional Maintenance Program Development
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Comprehensive balcony maintenance programs provide systematic, proactive care that extends service life, ensures safety compliance, and reduces long-term costs. Professional programs combine regular inspection schedules, preventive maintenance protocols, and documentation systems that support SB4-D compliance and reserve fund management.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-2 gap-8">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Inspection Protocols</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Monthly Resident Inspections:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Visual assessment of coating condition and wear patterns</li>
+                      <li>• Drainage system function and debris clearing</li>
+                      <li>• Railing stability testing and hardware inspection</li>
+                      <li>• Documentation of any changes or new damage</li>
+                      <li>• Safety hazard identification and immediate reporting</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Quarterly Professional Reviews:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Detailed condition assessment by qualified personnel</li>
+                      <li>• Photographic documentation for comparison tracking</li>
+                      <li>• Performance testing of waterproofing systems</li>
+                      <li>• Maintenance needs prioritization and scheduling</li>
+                      <li>• Cost estimation for identified repair requirements</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Annual Engineering Evaluation:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Structural integrity assessment by licensed engineer</li>
+                      <li>• Building code compliance verification</li>
+                      <li>• SB4-D milestone inspection preparation</li>
+                      <li>• Reserve study updates and lifecycle planning</li>
+                      <li>• Performance warranty compliance documentation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Preventive Care Schedules</h3>
+                <div className="space-y-4">
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Routine Maintenance:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Regular cleaning with appropriate materials and techniques</li>
+                      <li>• Sealant inspection and renewal on schedule</li>
+                      <li>• Drainage system maintenance and flow testing</li>
+                      <li>• Hardware lubrication and adjustment</li>
+                      <li>• Surface protection application and renewal</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Condition-Based Interventions:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Crack repair before water intrusion occurs</li>
+                      <li>• Coating touch-ups in high-wear areas</li>
+                      <li>• Localized waterproofing renewal as needed</li>
+                      <li>• Safety feature upgrades to meet current codes</li>
+                      <li>• Structural reinforcement before deterioration advances</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <strong className="text-brand-green-dark block mb-2">Lifecycle Management:</strong>
+                    <ul className="space-y-1 text-gray-600 text-sm">
+                      <li>• Component replacement planning and budgeting</li>
+                      <li>• System upgrade evaluation and implementation</li>
+                      <li>• Performance monitoring and optimization</li>
+                      <li>• Technology integration for enhanced monitoring</li>
+                      <li>• Long-term value preservation strategies</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Documentation and Compliance */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Documentation and Compliance Management
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Proper documentation of balcony maintenance activities supports SB4-D compliance, warranty preservation, insurance coverage, and effective reserve fund management. Digital documentation systems provide accessible, organized records that demonstrate proactive maintenance and facilitate professional inspections.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Required Documentation</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Inspection Records:</strong> Date, inspector qualifications, findings, and recommendations for all scheduled and emergency inspections
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Maintenance Logs:</strong> Work performed, materials used, dates, and contractor information for all maintenance activities
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Photographic Documentation:</strong> Timestamped images showing conditions before and after maintenance work
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Warranty Information:</strong> Material and workmanship warranties with compliance documentation
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Cost Tracking:</strong> Detailed financial records supporting reserve study updates and budget planning
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Compliance Benefits</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>SB4-D Preparation:</strong> Maintenance records demonstrate proactive care and may reduce inspection scope
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Insurance Support:</strong> Documentation supports claims and may qualify for premium reductions
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Warranty Protection:</strong> Proper maintenance documentation preserves manufacturer warranty coverage
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Liability Management:</strong> Records demonstrate reasonable care and may limit association liability
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Property Values:</strong> Well-documented maintenance supports property valuations and marketability
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Response */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Emergency Maintenance Response Procedures
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Emergency situations require immediate response to prevent injury and minimize property damage. Established procedures ensure rapid assessment, appropriate interim measures, and coordination with professional services when balcony safety is compromised.
+              </p>
+            </div>
+
+            <div className="grid lg:grid-cols-3 gap-6">
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-4">Immediate Safety</h3>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Evacuate affected balcony and secure access</li>
+                  <li>• Assess injury risk and call emergency services if needed</li>
+                  <li>• Install temporary barriers to prevent accidental entry</li>
+                  <li>• Document conditions with photographs from safe locations</li>
+                  <li>• Notify building management and affected residents</li>
+                  <li>• Contact emergency maintenance contractor</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-4">Assessment Phase</h3>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Professional structural evaluation within 24 hours</li>
+                  <li>• Determine scope of safety hazard and affected areas</li>
+                  <li>• Develop interim protection measures</li>
+                  <li>• Estimate repair timeline and resource requirements</li>
+                  <li>• Notify insurance carrier and legal counsel</li>
+                  <li>• Communicate with residents about safety measures</li>
+                </ul>
+              </div>
+              <div className="bg-gray-50 rounded-xl p-6">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-4">Repair Coordination</h3>
+                <ul className="space-y-2 text-gray-600 text-sm">
+                  <li>• Obtain permits for emergency structural work</li>
+                  <li>• Coordinate with qualified emergency repair contractors</li>
+                  <li>• Implement temporary stabilization measures</li>
+                  <li>• Plan permanent repairs addressing root causes</li>
+                  <li>• Monitor contractor work for quality and safety</li>
+                  <li>• Document all emergency response activities</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technology Integration */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+              Technology-Enhanced Maintenance Programs
+            </h2>
+            <div className="prose prose-lg max-w-none mb-8">
+              <p className="text-gray-600 mb-6">
+                Modern technology enhances maintenance program effectiveness through automated monitoring, predictive analytics, and integrated documentation systems. These tools provide early warning of developing problems and optimize maintenance scheduling for cost-effective care.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Monitoring Technologies</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>IoT Sensors:</strong> Moisture, movement, and structural stress monitoring with real-time alerts
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Drone Inspections:</strong> High-resolution imaging for hard-to-access areas and condition documentation
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Weather Integration:</strong> Environmental data correlation with maintenance needs and timing
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Mobile Applications:</strong> Field data collection and real-time reporting capabilities
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div className="bg-white rounded-xl shadow-md p-6">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Data Management Systems</h3>
+                <ul className="space-y-3 text-gray-600">
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Cloud-Based Records:</strong> Accessible documentation with automated backup and version control
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Predictive Analytics:</strong> Trend analysis and maintenance scheduling optimization
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Integration Platforms:</strong> Coordination between maintenance, financial, and compliance systems
+                    </div>
+                  </li>
+                  <li className="flex items-start gap-3">
+                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                    <div>
+                      <strong>Reporting Automation:</strong> Scheduled reports for management, boards, and regulatory compliance
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose FCS */}
       <section className="section bg-white">
         <div className="container-custom">

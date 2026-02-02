@@ -189,6 +189,126 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Phasing strategies help maintain building operations during restoration. We typically work on one building elevation at a time, allowing residents on unaffected sides to continue using their balconies normally. Advance notice protocols keep residents informed of scheduled work, and our crews are trained in the sensitivities of working in occupied residential buildings.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Advanced Structural Repair Techniques
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern balcony restoration employs sophisticated repair techniques that go far beyond simple patching. Structural engineers first conduct non-destructive testing including ground-penetrating radar scanning to map rebar locations and identify delamination zones, rebound hammer tests to assess concrete strength, and half-cell potential mapping to evaluate corrosion activity throughout the structure. This comprehensive assessment guides the extent of removal and repair required.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              When extensive concrete removal is necessary, we utilize controlled demolition techniques that preserve the structural integrity of adjacent areas. Hydrodemolition, which uses high-pressure water jets, selectively removes deteriorated concrete while leaving sound concrete and rebar intact. This method is particularly valuable when working around post-tensioned cables or complex reinforcement patterns common in high-rise construction.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Rebar restoration involves multiple steps beyond simple cleaning and coating. Chloride contamination testing determines whether existing steel can be salvaged or must be replaced entirely. Cathodic protection systems may be installed in severely aggressive environments, providing long-term corrosion control through electrochemical means. Corrosion-inhibiting admixtures in repair mortars provide additional protection, while high-performance repair materials like polymer-modified mortars ensure compatibility with existing concrete.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Engineering Documentation and Permits
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Professional balcony restoration requires extensive engineering documentation to ensure compliance with Florida Building Code and SB 4-D requirements. Licensed structural engineers must review existing building plans, assess current conditions, and develop repair specifications that meet or exceed original design standards. For substantial alterations, new structural calculations may be required, particularly when modifying railing systems or making drainage improvements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Permit requirements for balcony restoration vary by jurisdiction but typically include building permits for structural work, electrical permits if new lighting or electrical systems are installed, and special permits for work involving occupied high-rise buildings. Some municipalities require additional safety measures like temporary fall protection systems, enhanced insurance coverage, or special inspection requirements during construction.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Construction documentation throughout the project provides crucial records for future maintenance and SB 4-D compliance. Photographic documentation before, during, and after construction, material certificates and test reports, inspection records from the building department, warranty documentation for all materials and workmanship, and as-built drawings showing any modifications to the original design all become part of the permanent building record.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Specialized Access and Safety Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              High-rise balcony restoration presents unique access challenges that require specialized equipment and safety protocols. Swing stage scaffolding, suspended from the roof structure, provides access to balcony faces and undersides while maintaining resident access to interior spaces. For buildings with complex architectural features, custom access solutions may include boom lifts, mast climbers, or traditional tube-and-clamp scaffolding systems.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Safety protocols exceed standard construction requirements due to the risks associated with high-elevation work and occupied buildings. Fall protection systems must be redundant, with primary and backup arrest systems for every worker. Material handling protocols prevent dropped objects, while dust control measures protect residents from construction debris. Wind speed monitoring ensures work safety during Florida's frequent weather events.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Coordination with building operations includes scheduling around resident activities, providing alternative access routes when balconies are out of service, and maintaining emergency egress requirements throughout construction. Property managers work closely with our project coordinators to minimize conflicts with building operations and ensure resident comfort during the restoration process.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Material Selection for Florida Climate
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's aggressive coastal environment demands careful material selection for long-term performance. Concrete repair mortars must resist chloride intrusion, thermal cycling, and UV exposure while maintaining bond strength with existing concrete. High-performance repair mortars incorporating silica fume, fly ash, or polymer modifiers provide enhanced durability compared to standard Portland cement-based materials.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Waterproofing membrane selection considers not only water exclusion but also thermal movement, puncture resistance, and UV stability. Polyurethane and polyurea coatings offer excellent flexibility and durability, while modified bitumen systems provide proven long-term performance in marine environments. The selection depends on exposure conditions, expected traffic, and aesthetic requirements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Railing materials must withstand salt air exposure without excessive maintenance requirements. Marine-grade aluminum alloys provide excellent corrosion resistance with minimal upkeep, while stainless steel offers superior strength and longevity. Glass panel systems use tempered or laminated safety glass designed to withstand hurricane-force winds and temperature extremes. All fasteners and hardware must be compatible materials to prevent galvanic corrosion.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Control and Testing Protocols
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Comprehensive quality control ensures restoration work meets design specifications and provides long-term durability. Concrete strength testing verifies that repair materials achieve design strengths, while bond testing confirms proper adhesion between new and existing materials. Waterproofing systems undergo flood testing to verify membrane integrity before protective coatings are applied.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Railing systems receive load testing to confirm compliance with building code requirements for both vertical and horizontal forces. Anchor pull tests verify connection strength to the substrate, while deflection measurements ensure stiffness requirements are met. Weatherstripping and sealant joints are pressure-tested to confirm water exclusion performance.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Final inspections include detailed photography documenting completed work, punch list preparation identifying any items requiring correction, system startup and commissioning for any mechanical components, and preparation of warranty documentation. Independent third-party inspection may be required for warranty validation or insurance compliance.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Long-Term Maintenance Programs
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Professional restoration is most cost-effective when coupled with a comprehensive maintenance program that protects the investment and extends service life. Preventive maintenance protocols include regular cleaning to remove salt and dirt accumulation, periodic sealant inspection and renewal, drainage system cleaning to prevent blockages, and protective coating touch-up before deterioration begins.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Annual inspection programs identify minor issues before they become major problems. Professional inspections document the condition of all restored elements, identify maintenance needs, track performance over time, and provide early warning of potential warranty claims. This documentation becomes invaluable for future SB 4-D inspections and helps demonstrate proper maintenance to preserve warranty coverage.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Reserve study updates reflect the improved condition and extended service life resulting from professional restoration. Properly executed balcony restoration typically extends service life by 20-30 years, reducing annual reserve contributions while improving building safety and marketability. Updated reserve studies should reflect both the immediate improvement and the ongoing maintenance requirements to sustain performance.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Cost-Benefit Analysis of Professional Restoration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              While professional balcony restoration requires significant upfront investment, the long-term benefits far exceed the costs when compared to reactive maintenance or deferred repairs. Professional restoration typically costs 60-70% less than complete replacement while providing comparable service life extension. The work eliminates safety hazards that could result in liability exposure far exceeding restoration costs.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Property value benefits are immediate and substantial. Buildings with recently restored balconies command premium pricing compared to those with visible deterioration or maintenance backlogs. Real estate professionals report that quality restoration work can increase unit values by 8-15% while improving marketability and reducing time on market for individual sales.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Insurance benefits may include reduced premiums for buildings demonstrating proactive maintenance, improved coverage terms for structures meeting current building codes, and reduced liability exposure from eliminating known hazards. Some insurers offer specific incentives for buildings completing comprehensive restoration programs that address structural deficiencies.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Regional Considerations for Tampa Bay
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's unique environmental conditions create specific challenges that influence restoration design and execution. The region's proximity to salt water creates elevated chloride exposure that accelerates concrete deterioration, particularly in buildings within three miles of the coast. Hurricane exposure requires enhanced anchorage and impact resistance for all exterior elements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Local geology includes expansive clay soils that can cause building settlement and structural movement over time. This movement must be considered in restoration design to prevent premature failure of rigid elements. Expansion joints and flexible connections accommodate ongoing building movement while maintaining water exclusion and structural integrity.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Regional building code amendments address specific hurricane and flood risks common to Florida construction. Wind load requirements exceed national standards, while flood-resistant construction requirements apply to buildings in designated flood zones. Our restoration specifications incorporate these enhanced requirements to ensure long-term performance and compliance.
+            </p>
           </div>
         </div>
       </section>
@@ -225,6 +345,147 @@ export default function Page() {
         </div>
       </section>
 
+      {/* Project Case Studies */}
+      <section className="section bg-blue-50">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Recent Balcony Restoration Projects
+          </h2>
+          <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-xl shadow-md p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Oceanfront Tower - Clearwater Beach</h3>
+              <div className="space-y-4 text-gray-600">
+                <p><strong>Challenge:</strong> 20-story condominium with severe concrete spalling affecting 85% of balconies, discovered during SB 4-D milestone inspection.</p>
+                <p><strong>Solution:</strong> Comprehensive restoration of 120 balconies including structural repairs, rebar replacement, waterproofing membrane installation, and railing upgrades.</p>
+                <p><strong>Timeline:</strong> 8-month phased project working on two elevations simultaneously to minimize resident disruption.</p>
+                <p><strong>Results:</strong> 25-year service life extension, improved property values, and full SB 4-D compliance documentation.</p>
+              </div>
+            </div>
+            <div className="bg-white rounded-xl shadow-md p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Bayview Condominiums - Tampa</h3>
+              <div className="space-y-4 text-gray-600">
+                <p><strong>Challenge:</strong> 15-story building with failing waterproofing systems causing water intrusion into units below balconies.</p>
+                <p><strong>Solution:</strong> Complete waterproofing system replacement with traffic-bearing membrane, drainage improvements, and preventive structural repairs.</p>
+                <p><strong>Timeline:</strong> 6-month project coordinated with interior unit renovations affected by water damage.</p>
+                <p><strong>Results:</strong> Eliminated water intrusion, reduced insurance claims, and improved resident satisfaction scores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Specifications */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Technical Specifications and Standards
+          </h2>
+          <div className="grid lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="bg-white rounded-xl shadow-md p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Structural Requirements</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>Florida Building Code Chapter 16 compliance for structural repairs</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ACI 562 standard for concrete repair and rehabilitation</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ASTM C876 corrosion potential testing protocols</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>SSPC steel surface preparation standards for rebar treatment</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ICRI concrete surface preparation specifications</span>
+                </li>
+              </ul>
+            </div>
+            <div className="bg-white rounded-xl shadow-md p-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Waterproofing Standards</h3>
+              <ul className="space-y-3 text-gray-600">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ASTM C957 high-solids polyurethane waterproofing systems</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ASTM C794 thermoplastic membrane specifications</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ASTM D6083 liquid membrane forming compounds</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>ASTM E331 water penetration testing procedures</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
+                  <span>AAMA 501.2 field testing of installed waterproofing systems</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Emergency Response */}
+      <section className="section bg-white">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Emergency Balcony Stabilization Services
+          </h2>
+          <div className="prose prose-lg max-w-none">
+            <p className="text-gray-600 mb-6">
+              When balcony deterioration presents immediate safety hazards, Florida Construction Specialists provides emergency stabilization services to protect residents while permanent restoration plans are developed. Emergency protocols include immediate area isolation, temporary load restrictions, and expedited engineering assessment to determine safe occupancy levels.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Temporary stabilization measures may include shoring systems to support compromised structural elements, temporary railing installation if existing guardrails are compromised, emergency waterproofing to prevent further deterioration, and access restrictions to limit loading on damaged areas. These measures provide immediate safety while allowing time for proper restoration planning and permitting.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Emergency response coordination includes immediate notification of building management and relevant authorities, expedited engineering evaluation by licensed professionals, coordination with insurance carriers and legal counsel, and development of permanent repair strategies that address underlying causes. Our emergency response team is available 24/7 for critical situations requiring immediate attention.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Warranty and Guarantees */}
+      <section className="section bg-gray-50">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Comprehensive Warranty Programs
+          </h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Material Warranties</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Waterproofing membranes: 10-15 years manufacturer warranty</li>
+                <li>• Repair mortars: 5-10 years material performance guarantee</li>
+                <li>• Railing systems: 10-20 years depending on material</li>
+                <li>• Protective coatings: 3-7 years UV and weathering protection</li>
+                <li>• Sealants and gaskets: 2-5 years movement and adhesion</li>
+              </ul>
+            </div>
+            <div className="bg-white rounded-xl shadow-md p-6">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Workmanship Guarantees</h3>
+              <ul className="space-y-2 text-gray-600">
+                <li>• Structural repairs: 10 years against defects in execution</li>
+                <li>• Waterproofing installation: 5 years leak-free guarantee</li>
+                <li>• Railing installation: 10 years attachment and stability</li>
+                <li>• Surface preparation: 5 years adhesion and bond strength</li>
+                <li>• General workmanship: 2 years against construction defects</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose FCS */}
       <section className="section bg-white">
         <div className="container-custom">
@@ -234,20 +495,49 @@ export default function Page() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
             {[
               "Licensed and insured commercial contractor",
-              "Extensive high-rise restoration experience",
+              "Extensive high-rise restoration experience", 
               "SB 4-D compliance expertise",
               "In-house engineering coordination",
               "Premium waterproofing systems",
               "Comprehensive warranty programs",
               "Minimal disruption to residents",
               "Detailed project documentation",
-              "Serving all Tampa Bay communities"
+              "Serving all Tampa Bay communities",
+              "Emergency response capabilities",
+              "Quality control and testing protocols",
+              "Long-term maintenance programs"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />
                 <span className="text-gray-700">{item}</span>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Service Areas */}
+      <section className="section bg-gray-50">
+        <div className="container-custom max-w-4xl text-center">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
+            Serving Tampa Bay's High-Rise Communities
+          </h2>
+          <p className="text-gray-600 mb-8">
+            Florida Construction Specialists provides professional balcony restoration services throughout the Tampa Bay area, with extensive experience in the region's diverse high-rise condominium and commercial markets.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
+            <div className="text-center">
+              <h3 className="font-bold text-brand-green-dark mb-2">Tampa Metro</h3>
+              <p className="text-gray-600 text-sm">Downtown, Westshore, Carrollwood, Temple Terrace</p>
+            </div>
+            <div className="text-center">
+              <h3 className="font-bold text-brand-green-dark mb-2">St. Petersburg</h3>
+              <p className="text-gray-600 text-sm">Downtown, Beach Drive, Vinoy, Mirror Lake</p>
+            </div>
+            <div className="text-center">
+              <h3 className="font-bold text-brand-green-dark mb-2">Clearwater Beach</h3>
+              <p className="text-gray-600 text-sm">Sand Key, Belcher Road, Island Estates</p>
+            </div>
           </div>
         </div>
       </section>

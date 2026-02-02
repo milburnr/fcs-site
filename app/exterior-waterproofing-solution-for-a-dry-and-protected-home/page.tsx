@@ -201,6 +201,141 @@ export default function Page() {
             <p className="text-gray-600 mb-6">
               Weep systems require regular maintenance to function properly. Clogged weeps trap water within frame assemblies, causing corrosion, staining, and eventual frame deterioration. Annual cleaning ensures water drains as designed. Inspection during maintenance visits identifies damaged weeps requiring repair.
             </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Below-Grade Waterproofing Solutions
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Below-grade waterproofing protects foundation walls and basement spaces from groundwater intrusion. In Tampa Bay's flat topography with high water tables, hydrostatic pressure against foundation walls can force water through any opening or crack. Waterproofing systems must address both liquid water intrusion and water vapor transmission through concrete and masonry.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Crystalline admixtures in concrete create integral waterproofing by reacting with cement hydration products to form insoluble crystals within the concrete matrix. These products provide permanent protection that actually improves over time as more crystals form. However, they don't address existing cracks or construction joints that require sealant or membrane treatments.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Membrane waterproofing systems applied to foundation exteriors provide positive-side protection that keeps water away from structural elements. However, membrane application requires excavation that's costly and disruptive for existing buildings. Interior waterproofing systems manage water after it enters the foundation wall, relying on drainage and dehumidification rather than exclusion.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Tampa Bay Climate Challenges for Exterior Waterproofing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's subtropical climate creates unique challenges for exterior waterproofing systems. High humidity affects material curing and performance. Intense UV radiation accelerates degradation of organic compounds in sealants and coatings. Daily thermal cycling from air-conditioned interiors to hot exteriors stresses material joints. Hurricane season brings wind-driven rain and pressure differentials that test envelope systems beyond normal limits.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Humidity levels regularly exceed 80% during summer months, affecting the curing of many waterproofing products. Silicone sealants cure by reacting with atmospheric moisture, but excessive humidity can cause surface skinning before deep cure occurs. Urethane coatings may exhibit slower curing that extends application windows but delays return to service. Contractors must adjust techniques and scheduling to accommodate these conditions.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              UV radiation in Florida reaches intensities that can degrade coating binders within 3-5 years without proper UV stabilization. Titanium dioxide pigments in light colors provide some protection, but organic binders still require UV-stable chemistry. The combination of UV exposure and thermal cycling creates an accelerated aging environment that demands premium waterproofing products for high-rise applications.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Comprehensive Building Assessment and Diagnostics
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective waterproofing solutions begin with comprehensive assessment of existing building conditions and water intrusion pathways. Visual inspection identifies obvious problems like failed sealants, deteriorated coatings, and damaged flashings. However, water often travels considerable distances within building assemblies before appearing as interior damage, making root cause identification challenging without diagnostic tools.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Infrared thermography reveals temperature differences caused by moisture within wall assemblies. Wet materials appear cooler due to evaporative cooling effects. Early morning or late evening scanning provides best results before solar heating equalizes temperatures. Thermal imaging should be combined with moisture meter readings for verification of suspected problems.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Water testing with calibrated spray equipment verifies envelope performance and identifies specific failure locations. ASTM E1105 testing simulates wind-driven rain on window assemblies. Flood testing evaluates horizontal surface performance. Electronic leak detection can pinpoint membrane failures without destructive investigation. These diagnostic methods ensure waterproofing solutions address actual problems rather than assumptions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Advanced Coating Technologies and Material Selection
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern coating technologies offer improved performance for Florida's demanding environment. Ceramic-filled coatings provide enhanced thermal reflection that reduces substrate temperatures and extends coating life. Nano-technology additives improve dirt resistance and maintain appearance between maintenance cycles. Self-cleaning coatings break down organic deposits through photocatalytic action when exposed to UV radiation.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Hybrid coating systems combine the durability of urethane chemistry with the weathering resistance of fluoropolymer topcoats. These systems provide 15-20 year performance expectations compared to 10-12 years for conventional acrylics. While initial costs are higher, life-cycle economics often favor premium systems for high-rise applications where access costs dominate project budgets.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Intumescent coatings provide fire protection combined with weather resistance for structural steel exposed in building facades. These specialized products expand when exposed to heat, forming insulating char layers that protect steel from fire damage. However, they require careful specification to ensure compatibility with other envelope components.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Air Barrier Integration and Pressure Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern building envelope design recognizes that air leakage control is as important as water resistance for overall performance. Air barriers limit uncontrolled air movement that can transport moisture vapor into wall assemblies where it may condense on cold surfaces. In Florida's cooling-dominated climate, warm humid exterior air must be prevented from reaching cool interior surfaces.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Pressure equalization systems balance air pressure across envelope assemblies to reduce driving forces for both air leakage and water penetration. Rainscreen construction creates ventilated cavities behind cladding materials that equalize pressure and provide drainage paths. However, pressure equalization requires careful detailing at penetrations and transitions to maintain effectiveness.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Continuous air barriers must be maintained through all envelope penetrations including windows, doors, mechanical systems, and structural connections. Compatible sealants and gaskets provide air-tight seals that maintain barrier continuity. Testing during construction verifies air barrier performance before concealment by interior finishes.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Maintenance Programs and Lifecycle Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Preventive maintenance preserves waterproofing performance and extends system life between major renovations. Annual inspections identify minor problems before they escalate to major failures. Five-year comprehensive evaluations include performance testing and condition assessment. Ten-year evaluations determine remaining service life and replacement timing.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Maintenance activities include surface cleaning, minor repairs, and protective treatments. Pressure washing removes biological growth and surface contamination that can retain moisture against building surfaces. Touch-up coating applications address small areas of wear before widespread failure occurs. Sealant joint maintenance includes cleaning, inspection, and selective replacement of deteriorated materials.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Documentation systems track maintenance history, warranty status, and performance trends over time. Digital asset management stores photos, reports, and inspection data for easy retrieval. This information supports warranty claims, insurance documentation, and future project planning. For condominium associations, maintenance records demonstrate compliance with reserve study requirements under SB 4-D.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Emergency Response and Storm Damage Restoration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Hurricane season presents annual challenges for Tampa Bay building owners. While properly designed and maintained waterproofing systems can withstand most storm conditions, extreme events may cause damage that requires immediate attention. Emergency response procedures minimize water intrusion damage while permanent repairs are planned and executed.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Temporary protective measures include emergency tarping, board-up services, and water extraction. However, these measures must be properly detailed to avoid creating secondary problems. Improperly installed tarps can trap moisture or create wind loads on damaged structures. Emergency repairs must consider both immediate protection and compatibility with permanent restoration work.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Post-storm building evaluation identifies both obvious damage and hidden problems that may not become apparent until the next rain event. Insurance documentation requirements include detailed damage assessment with photos and repair estimates. Coordination with adjusters and restoration contractors ensures appropriate scope and pricing for required repairs.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Sustainable Design and Environmental Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sustainable waterproofing solutions consider environmental impact throughout material lifecycle—from manufacturing through installation to eventual disposal. Low-VOC coatings reduce environmental emissions during application and curing. Water-based formulations eliminate solvent emissions while providing comparable performance to traditional systems. Recycled content in membrane products reduces resource consumption.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Cool roof and wall technologies reduce building energy consumption while extending waterproofing system life. Reflective coatings reduce surface temperatures by 30-50°F compared to dark colors, decreasing thermal stress on waterproofing materials. Energy savings from reduced cooling loads partially offset waterproofing system costs over their service lives.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Green roof systems provide waterproofing challenges that require specialized solutions. Root barriers protect membrane integrity. Drainage systems must handle both normal rainfall and irrigation requirements. Structural loads from saturated growing media exceed conventional roof loading. However, properly designed systems provide excellent waterproofing performance combined with energy savings and environmental benefits.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Assurance and Performance Verification
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Quality assurance programs ensure waterproofing installations meet design requirements and manufacturer specifications. Material verification confirms that delivered products match specifications and haven't exceeded shelf life. Environmental monitoring ensures installation occurs within temperature, humidity, and wind speed limits. Application monitoring verifies proper coverage rates and film thickness.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Third-party inspection services provide independent verification of installation quality. Certified inspectors evaluate surface preparation, application techniques, and final appearance. Performance testing during construction identifies problems while correction is still economical. Documentation from quality assurance programs supports warranty claims and future maintenance decisions.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Commissioning procedures verify that completed waterproofing systems perform as intended. Water testing simulates service conditions and confirms water tightness. Air leakage testing evaluates envelope continuity. Thermal imaging identifies installation defects that may not be visible to naked eye inspection. These verification procedures provide confidence in system performance before building occupancy.
+            </p>
           </div>
         </div>
       </section>

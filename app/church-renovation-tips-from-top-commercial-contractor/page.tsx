@@ -250,45 +250,328 @@ export default function Page() {
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Accessibility and ADA Compliance
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Churches built before 1992 often have significant accessibility barriers. As places of public accommodation, churches must provide accessibility when renovating. This legal requirement also represents an opportunity to welcome members and visitors with disabilities more fully into church life.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Entrance Accessibility:</strong> Many older churches have steps at all entrances. Creating accessible entrances may involve ramps (maximum 1:12 slope), platform lifts, or in some cases, new entrance construction. Ramps longer than 30 feet require intermediate landings, which affects design and site planning. Automatic door operators help those using mobility devices and carrying children or supplies.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Worship Space Access:</strong> ADA requires accessible seating locations throughout the sanctuary—not just in the back. Accessible seating should offer comparable sightlines and proximity to the altar/pulpit. Some churches remove selected pews to create wheelchair spaces; others install fold-down seats. Aisles must be wide enough for wheelchair passage. Consider how accessible seating integrates with congregational preferences for family groups and regular seat locations.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Assistive Listening Systems:</strong> Required for assembly spaces seating 50 or more, these systems help members with hearing loss participate more fully in worship. FM systems, infrared systems, and hearing loops each have advantages. Many churches find hearing loops most effective—they work with hearing aids, provide excellent sound quality, and don't require distributing equipment. Loop installation during renovation costs far less than retrofitting.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Building Systems and Infrastructure Upgrades
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Church renovation often reveals aging infrastructure that needs updating. These "invisible" improvements don't generate excitement like new finishes, but they're essential for long-term facility operation and occupant comfort. Addressing infrastructure during renovation prevents future disruption and expense.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>HVAC System Modernization:</strong> Many church HVAC systems date from decades past and struggle to maintain comfort while consuming excessive energy. Modern systems provide better temperature control, improved air quality, and 40-60% energy savings. Churches with high ceilings face particular challenges—warm air rises, leaving occupied zones cooler while wasting energy heating unused space. Proper system design addresses these challenges through zoning, air distribution, and system sizing.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Electrical System Updates:</strong> Contemporary churches require far more electrical capacity than was anticipated decades ago. Audio/visual systems, LED lighting with dimming controls, security systems, and expanded electrical outlets strain older electrical systems. Modern electrical panels, proper grounding, and adequate circuit capacity support current needs while enabling future expansion.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Technology Infrastructure:</strong> Today's churches rely on technology for worship, communication, and administration. Robust internet infrastructure supports streaming, online giving, and administrative systems. Security systems require power and data connectivity. Audio/visual systems need dedicated electrical circuits and signal distribution throughout buildings. Planning technology infrastructure during renovation prevents costly retrofitting.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Energy Efficiency and Sustainability
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Church buildings often operate on tight budgets, making energy efficiency improvements particularly valuable. Utilities represent significant ongoing expenses that can be reduced dramatically through renovation improvements. Additionally, environmental stewardship resonates with many congregations' values.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>LED Lighting Conversion:</strong> Converting to LED lighting typically reduces lighting energy consumption by 60-80% while improving light quality and reducing maintenance. Churches see immediate utility bill reduction and long-term savings from reduced bulb replacement. LED systems enable advanced lighting control—dimming, color temperature adjustment, and scene presets that enhance worship atmosphere.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Building Envelope Improvements:</strong> Many churches have minimal insulation and inefficient windows that waste heating and cooling energy. Adding insulation, air sealing, and upgrading windows reduces energy consumption significantly. In Tampa's climate, focusing on cooling load reduction through proper insulation and solar heat gain control produces the greatest savings.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Solar Energy Considerations:</strong> Churches often have large roof areas ideal for solar installations. Solar panels can reduce or eliminate electric bills while demonstrating environmental commitment. Many church solar installations also provide educational opportunities and community outreach. Federal tax credits apply to church solar installations when structured appropriately.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Security Enhancements in Church Renovation
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Unfortunately, church security has become a significant concern requiring thoughtful attention during renovation. Security improvements must balance protection with the welcoming atmosphere essential to church ministry. The goal is creating safety without creating fortress-like environments that discourage visitors and community engagement.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Access Control Systems:</strong> Electronic locks on exterior doors allow controlled access while maintaining openness during services. Panic hardware on exit doors ensures rapid evacuation if needed. Children's areas often require additional security measures including check-in systems, controlled access, and communication with parents during emergencies.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Communication Systems:</strong> Wireless communication systems enable staff and volunteers to coordinate during emergencies. These systems integrate with security monitoring and can provide discrete communication during services when needed. Some churches install notification systems that can broadcast instructions during emergencies.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Visibility and Lighting:</strong> Proper lighting and clear sightlines deter criminal activity while improving general safety. Exterior lighting illuminates parking areas and building perimeters. Interior design should minimize hiding places and ensure good visual supervision of children's areas.
+            </p>
+
+            <div className="bg-blue-50 border-l-4 border-blue-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-blue-800 mb-3">Tampa Bay Church Renovation Resources</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Permits and Regulations</h4>
+                  <p className="text-blue-900 text-sm">City of Tampa, Hillsborough County, and other local jurisdictions require standard commercial permits for church renovation. Religious buildings must comply with assembly occupancy codes including fire safety, egress, and accessibility requirements. Historic churches may require additional approvals from preservation commissions.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Specialized Consultants</h4>
+                  <p className="text-blue-900 text-sm">Church renovation often requires specialized expertise: acoustical consultants for worship spaces, audio/visual integrators with house of worship experience, liturgical design consultants for traditional denominations, and kitchen consultants for commercial food service areas.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-blue-900 mb-2">Financing Resources</h4>
+                  <p className="text-blue-900 text-sm">Church Extension Fund, Evangelical Christian Credit Union, and other faith-based lenders specialize in church construction loans. Many local banks also have religious institution lending programs. Some denominations provide grants or low-interest loans for member church facility improvements.</p>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Project Phasing and Ministry Continuity
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Most churches cannot close entirely during renovation—ministry must continue while construction proceeds. Successful phasing minimizes disruption while enabling necessary work. Planning phase sequences during design prevents conflicts and ensures spaces are ready when needed.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Sanctuary Renovation Phasing:</strong> Some sanctuary renovations can proceed while worship continues in fellowship halls or other spaces. More extensive sanctuary work may require temporary relocation to schools, partner churches, or portable buildings. Plan these arrangements well in advance and communicate clearly with congregation members.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Noise and Disruption Management:</strong> Construction scheduling should consider worship services, meetings, and special events. Disruptive work like demolition and concrete cutting should occur on weekdays when possible. Clear communication about noise schedules helps ministries plan accordingly.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Temporary Facilities:</strong> Portable buildings, tent structures, and space sharing arrangements can provide temporary facilities during major renovation. These arrangements require planning for electrical service, restroom access, and climate control. Factor temporary facility costs into renovation budgets.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Historic Church Considerations
             </h2>
             <p className="text-gray-600 mb-6">
               Tampa Bay has numerous historic churches—some over a century old—that present unique renovation challenges. Historic preservation is both a stewardship responsibility and often a legal requirement when buildings are listed on historic registers or located in historic districts.
             </p>
             <p className="text-gray-600 mb-6">
-              Balancing preservation with contemporary ministry needs requires creativity and expertise. We've helped historic churches install modern HVAC systems without visible ductwork, integrate AV systems without compromising architectural integrity, improve accessibility while respecting original design, and upgrade building systems while preserving historic character. The Secretary of the Interior's Standards for Historic Preservation guide appropriate approaches.
+              <strong>Preservation Standards:</strong> The Secretary of the Interior's Standards for Historic Preservation guide appropriate renovation approaches. These standards emphasize preserving historic character while allowing sensitive updates for contemporary use. Original materials, architectural features, and spatial relationships should be preserved when possible. New additions should be compatible but distinguishable from historic fabric.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Material Conservation:</strong> Historic churches often contain materials and craftsmanship that cannot be replicated economically. Stained glass windows, carved woodwork, decorative plaster, and structural elements may require specialized restoration rather than replacement. Working with conservation specialists ensures appropriate treatment of irreplaceable elements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              Balancing preservation with contemporary ministry needs requires creativity and expertise. We've helped historic churches install modern HVAC systems without visible ductwork, integrate AV systems without compromising architectural integrity, improve accessibility while respecting original design, and upgrade building systems while preserving historic character. These projects require additional planning time but produce results that honor both heritage and ministry.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Budgeting and Financial Planning
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Church renovation budgets require careful attention to multiple cost categories beyond basic construction. Churches often underestimate total project costs, leading to disappointment or incomplete projects. Comprehensive budgeting prevents these problems.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Hidden Costs:</strong> Professional fees (architect, engineer, consultants) typically add 10-15% to construction costs. Permits and inspections, temporary facilities, furniture and equipment, and technology systems represent additional expenses. Many churches discover code compliance issues that require unexpected expenditures. Budget 15-20% contingency for unforeseen items.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Value Engineering:</strong> When initial designs exceed budgets, value engineering identifies cost reduction opportunities without compromising essential functions. This might involve phasing projects over multiple years, selecting different materials or finishes, or simplifying complex architectural elements. Experienced contractors can suggest alternatives that maintain design intent while reducing costs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Long-term Costs:</strong> Consider operating costs when making renovation decisions. Energy-efficient lighting and HVAC systems cost more initially but provide ongoing savings. Durable materials reduce maintenance requirements. These long-term benefits often justify higher initial investments, particularly for churches operating on limited budgets.
             </p>
           </div>
         </div>
       </section>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Contractor Selection for Church Projects
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Selecting the right contractor is crucial for church renovation success. Church projects require understanding of sacred space sensitivities, experience with assembly occupancy requirements, and ability to work around ongoing ministry activities. Not all commercial contractors have this specialized experience.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Church-Specific Experience:</strong> Look for contractors with demonstrated church renovation experience. Ask to visit completed projects and speak with church references. Experience with similar denominations and worship styles is particularly valuable—contractors familiar with liturgical traditions understand altar area requirements, while those experienced with contemporary worship understand staging and technology needs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Insurance and Bonding:</strong> Church contractors should carry appropriate insurance including general liability, workers compensation, and builder's risk coverage. Bonding protects against contractor default. Many denominations require specific insurance levels and may offer group purchasing programs that reduce costs.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Communication and Sensitivity:</strong> Church renovation involves many stakeholders with strong opinions about sacred space. Successful contractors communicate clearly with church committees, accommodate multiple decision-makers, and remain sensitive to congregational concerns throughout the process. Regular progress meetings and clear communication prevent misunderstandings.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Audio/Visual System Design Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern worship relies heavily on quality audio and visual systems, but integrating these into traditional church architecture requires careful planning. Poor AV design can compromise worship quality while dominating architectural features. Successful integration enhances worship while respecting sacred space.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Acoustical Challenges:</strong> Church sanctuaries present unique acoustical challenges. High ceilings, hard surfaces, and large volumes can create echoes and reverberation that interfere with speech intelligibility. Some churches have "dead" acoustics that require sound reinforcement; others are overly reverberant and need acoustical treatment. Professional acoustical analysis identifies problems and solutions.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Speaker Placement:</strong> Effective sound reinforcement requires proper speaker placement that provides even coverage without visual dominance. Line array systems work well in larger sanctuaries. Point source systems suit smaller spaces. Speakers can be concealed in architectural elements or integrated into ceiling designs. Avoid placing speakers where they compete visually with crosses, altars, or other sacred elements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Video System Integration:</strong> Projection screens and video displays must be positioned for good visibility without dominating the worship space. Retractable screens preserve traditional aesthetics when not in use. LED video walls offer bright, clear images but may be too prominent for traditional sanctuaries. Consider how video systems affect sight lines to altar areas and pulpits.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Control Systems:</strong> User-friendly control systems enable volunteers to operate complex AV equipment effectively. Preset scenes simplify operation for different worship elements. Remote control capability allows adjustment during services without visible operator activity. Training and documentation help volunteers use systems confidently.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Lighting Design for Sacred Spaces
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Lighting dramatically affects worship atmosphere and functionality. Many church sanctuaries suffer from inadequate or poorly designed lighting that creates harsh shadows, uneven illumination, or inappropriate mood. Thoughtful lighting design enhances worship while providing necessary visibility for reading and safety.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Layered Lighting Approach:</strong> Effective church lighting combines general illumination for congregation seating, accent lighting for architectural features, task lighting for reading and music, and architectural lighting for sacred elements. Dimming controls enable mood adjustment throughout worship services. Emergency lighting ensures safety during power outages.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Natural Light Integration:</strong> Stained glass windows and clerestory lighting provide beautiful natural illumination but can create challenges for video projection and create uneven lighting throughout the day. Window treatments may be necessary to control light levels while preserving the beauty of natural lighting. Some churches install automated systems that adjust artificial lighting based on natural light levels.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>LED Technology Benefits:</strong> LED lighting offers significant advantages for churches: 70-80% energy savings, 15-20 year lifespans, precise dimming control, and minimal heat output. Color-tunable LED systems enable seasonal lighting changes—warmer tones for Advent, cooler tones for Easter, colored lighting for special celebrations. LED systems pay for themselves through energy savings while providing superior lighting quality.
+            </p>
+
+            <div className="bg-amber-50 border-l-4 border-amber-500 p-6 my-8">
+              <h3 className="text-xl font-bold text-amber-800 mb-3">Common Church Renovation Mistakes to Avoid</h3>
+              <div className="space-y-4">
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Inadequate Planning and Communication</h4>
+                  <ul className="space-y-1 text-amber-900 text-sm">
+                    <li>• Rushing into construction without thorough ministry assessment</li>
+                    <li>• Failing to involve diverse congregation voices in planning</li>
+                    <li>• Underestimating total project costs including hidden expenses</li>
+                    <li>• Poor communication during construction leading to conflicts</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Technical and Design Issues</h4>
+                  <ul className="space-y-1 text-amber-900 text-sm">
+                    <li>• Installing AV systems without proper acoustical treatment</li>
+                    <li>• Ignoring accessibility requirements until late in design</li>
+                    <li>• Selecting inappropriate materials for high-traffic areas</li>
+                    <li>• Failing to plan for future technology and ministry evolution</li>
+                  </ul>
+                </div>
+                <div>
+                  <h4 className="font-bold text-amber-900 mb-2">Budget and Timeline Problems</h4>
+                  <ul className="space-y-1 text-amber-900 text-sm">
+                    <li>• Beginning construction without adequate funding secured</li>
+                    <li>• Failing to budget for furniture, fixtures, and technology</li>
+                    <li>• Unrealistic timeline expectations affecting quality</li>
+                    <li>• Poor contractor selection based solely on lowest price</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Outdoor and Site Improvements
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Church renovation often includes outdoor improvements that enhance accessibility, safety, and ministry capability. These site improvements may be required for code compliance or desired for ministry expansion. Outdoor areas can provide additional programming space and improve overall facility function.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Parking and Accessibility:</strong> Adequate accessible parking must be provided based on sanctuary seating capacity. Accessible spaces require proper dimensions, signage, and accessible routes to building entrances. Consider how parking functions during different events—Sunday services vs. weekday meetings vs. large gatherings. Additional parking may be needed for facility expansion.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Outdoor Ministry Spaces:</strong> Courtyards, pavilions, and outdoor gathering areas extend ministry programming and provide backup spaces for indoor events. These areas require consideration of sight lines, acoustics, weather protection, and utility access. Some churches install outdoor projection and sound systems for large events or overflow seating.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Landscaping and Maintenance:</strong> Church landscaping should be attractive while requiring minimal maintenance given volunteer labor constraints. Native plants reduce water requirements and maintenance needs. Consider how landscaping affects building security—avoid creating hiding places while maintaining attractive appearance. Outdoor lighting improves safety and extends facility use hours.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Post-Construction Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Church renovation completion requires attention to several important factors beyond final construction. Proper close-out ensures long-term satisfaction and protects the church's investment in facility improvements.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Training and Documentation:</strong> Complex building systems require proper training for staff and volunteers who will operate and maintain them. HVAC controls, security systems, AV equipment, and automated lighting all need training programs. Comprehensive documentation including warranties, operation manuals, and maintenance schedules protects long-term performance.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Warranty and Maintenance Planning:</strong> Develop maintenance schedules for all new systems and finishes. Many warranty claims result from improper maintenance rather than defective products. Plan budget for ongoing maintenance and eventual replacement of components with limited lifespans. Establish relationships with qualified service providers for specialized equipment.
+            </p>
+            <p className="text-gray-600 mb-6">
+              <strong>Dedication and Celebration:</strong> Church renovation completion deserves appropriate celebration and dedication. These events allow the congregation to experience renewed facilities while acknowledging those who contributed to the project. Consider how dedication ceremonies can demonstrate facility capabilities and invite community participation.
+            </p>
 
       {/* Planning Checklist */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading text-center">
-              Church Renovation Planning Checklist
+              Comprehensive Church Renovation Planning Checklist
             </h2>
+            <div className="grid md:grid-cols-2 gap-6 mb-8">
+              <div className="space-y-4">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Pre-Planning Phase</h3>
+                {[
+                  "Complete ministry assessment identifying space needs",
+                  "Conduct professional building evaluation",
+                  "Form building committee with broad representation",
+                  "Define must-have vs. nice-to-have improvements",
+                  "Develop realistic budget with 15-20% contingency",
+                  "Establish funding strategy and timeline"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3 bg-gray-50 p-4 rounded-lg">
+                    <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="space-y-4">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Design & Construction</h3>
+                {[
+                  "Engage architect with church experience",
+                  "Plan for ministry continuity during construction",
+                  "Consider future growth and ministry evolution",
+                  "Obtain multiple contractor proposals",
+                  "Communicate regularly with congregation",
+                  "Document decisions and rationale for future reference"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3 bg-gray-50 p-4 rounded-lg">
+                    <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
             <div className="grid md:grid-cols-2 gap-6">
-              {[
-                "Complete ministry assessment identifying space needs",
-                "Conduct professional building evaluation",
-                "Develop realistic budget with 15-20% contingency",
-                "Establish funding strategy and timeline",
-                "Form building committee with broad representation",
-                "Define must-have vs. nice-to-have improvements",
-                "Plan for ministry continuity during construction",
-                "Consider future growth and ministry evolution",
-                "Engage architect with church experience",
-                "Obtain multiple contractor proposals",
-                "Communicate regularly with congregation",
-                "Document decisions and rationale for future reference"
-              ].map((item, index) => (
-                <div key={index} className="flex items-start gap-3 bg-gray-50 p-4 rounded-lg">
-                  <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
-                  <span className="text-gray-700">{item}</span>
-                </div>
-              ))}
+              <div className="space-y-4">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Technical Considerations</h3>
+                {[
+                  "Evaluate acoustical requirements and solutions",
+                  "Plan integrated audio/visual system design",
+                  "Address accessibility compliance requirements",
+                  "Consider energy efficiency improvements",
+                  "Plan for adequate electrical and technology infrastructure",
+                  "Address security and safety improvements"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3 bg-gray-50 p-4 rounded-lg">
+                    <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
+              <div className="space-y-4">
+                <h3 className="text-lg font-bold text-brand-green-dark mb-3">Project Completion</h3>
+                {[
+                  "Plan for furniture, fixtures, and equipment",
+                  "Arrange staff training on new systems",
+                  "Develop maintenance schedules and procedures",
+                  "Organize warranty documentation",
+                  "Plan dedication and celebration events",
+                  "Evaluate project success and lessons learned"
+                ].map((item, index) => (
+                  <div key={index} className="flex items-start gap-3 bg-gray-50 p-4 rounded-lg">
+                    <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
+                    <span className="text-gray-700">{item}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
