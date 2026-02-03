@@ -14,11 +14,12 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { getOptimizedBgUrl } from "@/components/OptimizedImage";
 import { WordGridParallax } from "@/components/WordGridParallax";
 
-// Hero slideshow images - using optimized versions
+// Hero slideshow images - easy to swap, just update this array
+// Using direct paths for Next.js Image component optimization
 const heroImages = [
-  getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp"),
-  getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-display.webp"),
-  getOptimizedBgUrl("/images/custom-home-2/custom-home-2-display.webp"),
+  "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp",
+  "/images/custom-home-construction-2/custom-home-construction-2-large.webp",
+  "/images/custom-home-2/custom-home-2-large.webp",
 ];
 
 export default function HomePage() {
@@ -61,7 +62,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Hero Section with Ken Burns Slideshow */}
+      {/* Hero Section with Ken Burns Slideshow - Using Next.js Image for LCP optimization */}
       <section className="relative h-[60vh] overflow-hidden">
         {/* Slideshow backgrounds with Ken Burns effect */}
         {heroImages.map((image, index) => (
@@ -71,10 +72,16 @@ export default function HomePage() {
               index === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
-            <div
-              className="absolute inset-0 bg-cover bg-center animate-ken-burns"
-              style={{ backgroundImage: `url(${image})` }}
-            />
+            <div className="absolute inset-0 animate-ken-burns">
+              <Image
+                src={image}
+                alt="Florida Construction Specialists - Tampa Bay commercial construction"
+                fill
+                className="object-cover"
+                priority={index === 0}
+                sizes="100vw"
+              />
+            </div>
           </div>
         ))}
 
