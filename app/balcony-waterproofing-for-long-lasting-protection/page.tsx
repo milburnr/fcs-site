@@ -5,6 +5,7 @@ import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -13,7 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Balcony Waterproofing for High-Rise Buildings Tampa | Long-Lasting Protection",
+  title: "Balcony Waterproofing Tampa | High-Rise | FCS",
   description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection for lasting performance.",
 };
 
@@ -28,6 +29,29 @@ const internalLinks = [
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
 ];
 
 const faqs = [
@@ -620,6 +644,10 @@ export default function Page() {
           </Accordion>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

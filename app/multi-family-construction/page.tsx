@@ -10,7 +10,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Tampa | Apartment & Condo Builder Florida | FCS",
+  title: "Multi-Family Construction Tampa | Apartments | FCS",
   description: "Tampa Bay's premier multi-family construction contractor. 40+ years building condos, apartments, townhomes & mixed-use developments. Projects $1M-$50M+. Licensed, bonded, in-house engineering.",
   keywords: "multi-family construction Tampa, apartment construction Florida, condo construction Tampa Bay, multi-family general contractor, apartment building contractor Florida, condominium builder Tampa",
 };

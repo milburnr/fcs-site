@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Sustainable Building Practices: Florida Green Construction",
@@ -23,6 +24,29 @@ const internalLinks = [
   { href: "/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
   { href: "/construction-florida-leading-way-leed-certification/", label: "LEED Certification Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Florida Leading the Way in LEED Certification",
+    "href": "/construction-florida-leading-way-leed-certification/",
+    "description": "How Florida projects are achieving LEED certification for commercial buildings."
+  },
+  {
+    "title": "Zero Net Energy in Commercial Construction",
+    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "description": "Designing commercial buildings that produce as much energy as they consume."
+  },
+  {
+    "title": "Benefits of Sustainable Materials",
+    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "description": "How green materials improve building performance and reduce costs."
+  },
+  {
+    "title": "Green Contractor Certifications",
+    "href": "/green-contractor-certifications-in-commercial-construction/",
+    "description": "Understanding certifications that validate sustainable construction expertise."
+  }
 ];
 
 const faqs = [
@@ -423,6 +447,10 @@ export default function Page() {
         title="Frequently Asked Questions About Sustainable Building Practices" 
         description="Common questions about sustainable and green construction in Florida"
       />
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

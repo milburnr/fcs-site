@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery Bradenton FL | Hurricane & Storm Damage Restoration | FCS",
+  title: "Disaster Recovery Bradenton | Hurricane | FCS",
   description: "Bradenton disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. Prime contractor for large loss insurance claims $250K-$50M. Anna Maria Island gateway. 24/7 emergency response.",
   keywords: "disaster recovery Bradenton, hurricane damage restoration Bradenton, storm damage repair Bradenton, flood damage Bradenton, insurance restoration Bradenton, Manatee River flood damage, Anna Maria Island storm damage",
 };

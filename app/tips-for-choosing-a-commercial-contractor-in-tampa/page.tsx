@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Shield, Award, Users, FileCheck, AlertTriangle, Star, Building, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How many contractors should I get bids from for my Tampa commercial project?",
+    answer: "We recommend soliciting 3-5 bids for most commercial projects. Fewer than three doesn't provide adequate comparison, while more than five becomes difficult to evaluate thoroughly. Focus on pre-qualified contractors who meet your basic requirements before issuing bid invitations."
+  },
+  {
+    question: "Should I always choose the lowest bidder?",
+    answer: "No. In commercial construction, the lowest bidder is often not the best choice. Bids significantly below the average (15-20% or more) often indicate missed scope, inadequate understanding of Florida building requirements, or a strategy of aggressive change orders. Evaluate bids in context of contractor qualifications, not just price."
+  },
+  {
+    question: "How can I verify a contractor's Florida license?",
+    answer: "Visit the Florida Department of Business and Professional Regulation (DBPR) website at myfloridalicense.com. Enter the contractor's name or license number to verify active status, view any complaints or disciplinary actions, and confirm their license scope covers commercial construction (look for CGC - Certified General Contractor)."
+  },
+  {
+    question: "What should I look for when checking contractor references?",
+    answer: "Ask references specific questions: Was the project completed on time? Were there significant change orders? How did the contractor handle problems? Would you hire them again? Also ask about the project manager—is that same person proposed for your project? Visit completed projects if possible to assess quality firsthand."
+  },
+  {
+    question: "How important is local Tampa Bay experience versus general construction experience?",
+    answer: "Local experience is critical in Florida. Hurricane code requirements, permitting processes, soil conditions, and climate considerations vary significantly from other regions. A contractor new to Tampa Bay may underestimate these factors, leading to code compliance issues, permit delays, and inappropriate material selections. Prioritize contractors with demonstrated Tampa Bay project history."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Adaptive Reuse of Historic Buildings in Tampa | Expert Restoration Services",
+  title: "Adaptive Reuse Historic Buildings Tampa | FCS",
   description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City, Hyde Park & Tampa Heights preservation projects with federal tax credit expertise.",
 };
 
@@ -25,11 +25,63 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How long does a typical adaptive reuse project take in Tampa?",
+    answer: "Commercial adaptive reuse projects typically require 12-24 months from initial assessment through completion. The timeline includes 2-4 months for feasibility study and design, 2-6 months for regulatory approvals and tax credit applications, and 8-14 months for construction. Complex projects involving significant structural work or federal tax credits may extend longer."
+  },
+  {
+    question: "Can any historic building be adaptively reused?",
+    answer: "Most historic buildings can be adapted for new uses, but feasibility depends on structural condition, environmental factors, zoning compatibility, and economic viability. Some buildings may require significant structural intervention, while others may have contamination issues that affect development costs. A professional feasibility study is essential before committing to any adaptive reuse project."
+  },
+  {
+    question: "What happens if my project doesn&apos;t meet Secretary of Interior Standards?",
+    answer: "Projects that fail to meet the Standards will not receive federal tax credit certification. Additionally, work that damages character-defining features of a locally designated historic property may result in fines up to $15,000 under Tampa&apos;s amended ordinance and could require costly remediation. Working with an experienced preservation contractor from the outset prevents these issues."
+  },
+  {
+    question: "Are there alternatives to the 20% federal tax credit?",
+    answer: "Yes. While the 20% credit is the most significant incentive, Tampa-area projects may also benefit from local property tax abatements, historic preservation grants, New Market Tax Credits in qualifying census tracts, and various economic development incentives. Non-income-producing properties may qualify for charitable contribution deductions through preservation easements."
+  },
+  {
+    question: "How do I know if my building qualifies as historic?",
+    answer: "Buildings may be designated at the local, state, or national level. The Florida Master Site File maintains records of surveyed historic properties. Tampa&apos;s Land Development Coordination division can confirm local designations. For National Register status, check the National Park Service database or consult with the Florida Division of Historical Resources."
+  },
+  {
+    question: "What are the most common adaptive reuse challenges in Tampa?",
+    answer: "The most frequent challenges include structural deficiencies in masonry bearing wall construction, environmental remediation costs for asbestos and lead paint, integrating modern HVAC and electrical systems without damaging historic fabric, achieving ADA compliance while maintaining character-defining features, and coordinating multiple approval processes (city, county, state, and federal reviews)."
+  },
+  {
+    question: "How does Tampa&apos;s climate affect historic building adaptive reuse?",
+    answer: "Tampa&apos;s subtropical climate creates specific challenges including high humidity that accelerates material deterioration, intense UV radiation requiring window protection strategies, salt air corrosion in coastal areas, and hurricane preparedness requirements. These factors influence material selection, building envelope treatments, and mechanical system design in adaptive reuse projects."
+  },
+  {
+    question: "Can adaptive reuse projects include modern additions?",
+    answer: "Yes, when designed appropriately. The Secretary of Interior Standards permit new additions that are differentiated from but compatible with the historic building. Additions should be located on non-primary elevations, use complementary but distinguishable materials, and be reversible if possible. Tampa&apos;s review commissions evaluate addition proposals for their impact on the historic building&apos;s character and setting."
+  },
+  {
+    question: "Standard 1: Historic Use",
+    answer: "A property will be used as it was historically, or be given a new use that maximizes the retention of distinctive materials, features, spaces, and spatial relationships."
+  },
+  {
+    question: "Standard 2: Historic Character",
+    answer: "The historic character of a property will be retained and preserved. The removal of distinctive materials or alteration of features, spaces, and spatial relationships that characterize a property will be avoided."
+  },
+  {
+    question: "Standard 9: Compatible Design",
+    answer: "New additions, exterior alterations, or related new construction will not destroy historic materials, features, and spatial relationships that characterize the property."
+  },
+  {
+    question: "Standard 10: Reversibility",
+    answer: "New additions and adjacent or related new construction will be undertaken in such a manner that, if removed in the future, the essential form and integrity of the historic property and its environment would be unimpaired."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

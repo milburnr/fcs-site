@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, FileText, Search, Users, Scale, CheckCircle, ClipboardList } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Bidding Process | Complete Guide",
+  title: "Tampa Commercial Construction Bidding | Guide",
   description: "Navigate Tampa's commercial construction bidding process with confidence. Learn bid preparation, evaluation, and negotiation strategies for successful project outcomes.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const biddingSteps = [
@@ -57,11 +81,35 @@ const biddingSteps = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How long should the bidding period be for commercial projects?",
+    answer: "Allow 3-4 weeks for most commercial projects, longer for complex or large-scale work. Adequate bidding time enables thorough pricing, multiple subcontractor quotes, and careful review. Rushed bidding often yields less accurate pricing with more contingencies."
+  },
+  {
+    question: "Should I hold a pre-bid meeting?",
+    answer: "Pre-bid meetings are valuable for complex projects, renovations, or work with unusual conditions. They allow contractors to ask questions, view the site, and understand project requirements. Document discussions and issue addenda for significant clarifications."
+  },
+  {
+    question: "How many contractors should I invite to bid?",
+    answer: "Three to five prequalified bidders typically provides adequate competition while remaining manageable. Too few bidders reduce competitive pressure; too many waste industry resources and reduce bid quality as contractors question their likelihood of winning."
+  },
+  {
+    question: "Can I negotiate with bidders after bid opening?",
+    answer: "Post-bid negotiation is common in private sector construction. You can negotiate scope clarifications, alternates, and terms with the preferred bidder. However, \"shopping\" bids by revealing competitors' pricing is unethical and damages contractor relationships."
+  },
+  {
+    question: "What if all bids exceed my budget?",
+    answer: "When bids exceed budget, options include negotiating scope reductions with the low bidder, value engineering specific elements, revising and rebidding the project, phasing construction over time, or revisiting budget expectations. Understanding why bids are high helps identify the best path forward."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Tampa Commercial Construction Bidding Process"
         description="Navigate Tampa's commercial construction bidding process with confidence using our complete guide."
@@ -317,6 +365,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

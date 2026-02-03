@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "St. Petersburg Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  title: "St. Petersburg Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving St. Petersburg, FL. Commercial construction, historic restoration, disaster recovery. Bay Pines VA experience. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction st petersburg, st petersburg general contractor, historic restoration st pete fl, disaster recovery st petersburg florida",
 };

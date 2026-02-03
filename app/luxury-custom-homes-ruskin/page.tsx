@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Luxury Custom Homes Ruskin FL | Apollo Beach Waterfront Estates | FCS Home Base",
+  title: "Luxury Custom Homes Ruskin FL | Apollo Beach | FCS",
   description: "Ruskin & Apollo Beach luxury custom home builder. Waterfront estates from $750K-$5M+ on Tampa Bay. FCS headquarters location means exceptional local service. Sun City Center, Little Harbor, Bahia Beach specialists.",
   keywords: "luxury custom homes Ruskin, waterfront homes Apollo Beach, Tampa Bay waterfront estates, custom home builder South Hillsborough, Sun City Center custom homes, Little Harbor homes",
 };

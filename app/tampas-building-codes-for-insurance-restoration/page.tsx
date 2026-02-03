@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Building2, Shield, FileText, Wind } 
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Building Codes for Insurance Restoration | Florida Building Code Guide",
+  title: "Tampa Building Codes for Insurance Restoration",
   description: "Understanding Tampa building codes for insurance restoration. Florida Building Code requirements, wind mitigation, flood regulations, and code upgrade coverage for commercial properties.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/understanding-tampa-insurance-restoration-claims/", label: "Understanding Insurance Claims" },
   { href: "/impact-of-climate-change-on-tampa-insurance-restoration/", label: "Climate Change Impacts" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
 ];
 
 export default function Page() {
@@ -378,6 +402,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

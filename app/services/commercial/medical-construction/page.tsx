@@ -8,7 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Medical Construction Tampa | Healthcare Facility Builder | FCS",
+  title: "Medical Construction Tampa | Healthcare | FCS",
   description: "Medical and healthcare construction in Tampa Bay. Clinics, surgical centers, medical offices, urgent care. AHCA compliance, infection control, medical gas systems. Call (813) 420-7561.",
   keywords: ["medical construction tampa", "healthcare facility construction florida", "medical office builder", "surgical center construction", "AHCA compliance contractor"],
 };

@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Common Construction Mistakes to Avoid for Commercial Projects | Tampa",
+  title: "Construction Mistakes to Avoid | Commercial Tampa",
   description: "Learn the most common commercial construction mistakes and how to avoid them. Protect your Tampa Bay project investment with insights from Florida Construction Specialists.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the most common construction mistake you see?",
+    answer: "Inadequate planning and rushing to start construction before thoroughly defining scope, budget, and schedule. This single mistake underlies many of the other problems that emerge during construction. Time invested in thorough pre-construction planning is never wasted and typically saves multiples of that investment during execution."
+  },
+  {
+    question: "How can I protect myself from contractor problems?",
+    answer: "Thorough contractor selection, proper contracts, adequate insurance and bonding, clear communication, and regular oversight. Verify credentials before contracting, establish clear expectations in writing, ensure proper protections are in place, and stay engaged throughout the project. Prevention through good practices beats remediation of problems after they occur."
+  },
+  {
+    question: "What should I do if I discover a mistake during construction?",
+    answer: "Address it immediately. Document the issue, communicate it clearly to the contractor, and work together to develop a correction plan. Mistakes addressed promptly typically have manageable solutions; mistakes ignored tend to escalate. Don't accept \"we'll fix it later\" for significant issues—later rarely comes without persistent follow-up."
+  },
+  {
+    question: "Are some mistakes more serious than others?",
+    answer: "Yes. Mistakes affecting structural integrity, life safety, or water intrusion are particularly serious because they can have severe consequences and are often difficult or expensive to correct after the fact. Quality control for these elements deserves special attention during construction. Cosmetic issues, while annoying, are generally correctable without major impact."
+  },
+  {
+    question: "Should I hire an owner's representative to help avoid mistakes?",
+    answer: "For significant projects, particularly if you lack construction experience, an owner's representative can provide valuable protection. They bring expertise in contractor selection, contract negotiation, quality oversight, and problem resolution. The cost of professional representation often saves more than its expense through better outcomes and avoided problems."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -427,6 +475,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

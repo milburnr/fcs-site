@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Interior Design Services in Tampa | Luxury Design",
+  title: "Custom Home Interior Design Tampa | Luxury",
   description: "Complete interior design services for Tampa custom homes. Material selection, space planning, custom furniture, and turnkey design packages. Design services from $50K-$500K+.",
 };
 

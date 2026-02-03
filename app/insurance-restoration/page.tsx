@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Services | Large Loss Commercial Claims | Tampa Bay",
+  title: "Insurance Restoration Tampa | Large Loss Claims",
   description: "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. We work directly with adjusters on large loss claims from hurricanes, storms, and disasters. 43+ years experience.",
 };
 

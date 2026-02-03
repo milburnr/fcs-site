@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Historic Restoration Zoning Laws",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "Does historic designation override zoning requirements?",
+    answer: "No, historic designation and zoning operate as separate regulatory systems. Historic buildings must generally comply with zoning unless specific exemptions, overlay provisions, or variances apply. However, the preservation imperative—and physical constraints of historic buildings—often supports flexibility in zoning application."
+  },
+  {
+    question: "Can I convert a historic industrial building to residential use?",
+    answer: "Potentially, depending on zoning and available flexibility mechanisms. Adaptive reuse provisions may permit conversions that underlying zoning would prohibit. Special use permits or rezoning may also enable residential conversion. Early zoning analysis identifies what approvals are needed and assesses feasibility."
+  },
+  {
+    question: "How do I handle parking requirements for a historic building?",
+    answer: "Historic buildings frequently cannot provide parking that modern codes require. Options include reduced parking requirements for adaptive reuse, off-site parking arrangements, payment in lieu of parking, shared parking with complementary uses, or variance from parking requirements. The appropriate strategy depends on specific zoning provisions and project circumstances."
+  },
+  {
+    question: "Can I expand a nonconforming historic building?",
+    answer: "Zoning provisions for nonconforming structures determine what changes are permitted. Many codes prohibit expansion of nonconformities, but historic buildings may receive special treatment. Additions that don't increase the nonconforming aspect (adding within existing setback rather than projecting further) may be treated differently than expansions that increase nonconformity."
+  },
+  {
+    question: "What if zoning requirements conflict with preservation standards?",
+    answer: "Conflicts between zoning and preservation requirements require careful navigation. Generally, preservation standards are inflexible for tax credit projects—the Standards must be met. Zoning may offer more flexibility through variances, special provisions for historic properties, or administrative interpretation. Florida Construction Specialists helps identify solutions that satisfy both systems."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -259,6 +307,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

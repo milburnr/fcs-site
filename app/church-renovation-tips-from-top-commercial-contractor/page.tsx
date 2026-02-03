@@ -5,9 +5,10 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Church Renovation Tips from Tampa's Top Commercial Contractor | FCS",
+  title: "Church Renovation Tips Tampa | Commercial | FCS",
   description: "Expert church renovation guidance for Tampa Bay congregations. Sanctuary updates, fellowship hall expansion, ADA compliance, and historic preservation tips from Florida Construction Specialists.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/maximize-savings-on-commercial-renovation/", label: "Maximize Renovation Savings" },
   { href: "/revitalize-your-older-building-renovation-and-reconstruction/", label: "Building Revitalization" },
   { href: "/contact/", label: "Schedule Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const renovationAreas = [
@@ -596,6 +620,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

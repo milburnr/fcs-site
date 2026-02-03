@@ -20,9 +20,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "FEMA 50% Rule Explained | Tampa Substantial Improvement Calculator | FCS",
+  title: "FEMA 50% Rule Tampa | Substantial Improvement",
   description:
     "Complete guide to the FEMA 50% Rule for Tampa Bay homeowners. Learn how substantial improvement calculations affect your flood zone renovation project.",
   keywords:
@@ -123,6 +124,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 export default function FEMA50PercentRulePage() {
@@ -541,6 +565,10 @@ export default function FEMA50PercentRulePage() {
           </Link>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

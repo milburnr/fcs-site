@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Safety First in Florida Commercial Construction | OSHA Compliance Tampa",
+  title: "Safety First Florida Commercial | OSHA Tampa",
   description: "Learn how Florida Construction Specialists puts safety first in commercial construction projects across Tampa Bay with OSHA compliance, comprehensive safety programs, and Florida Building Code adherence.",
 };
 

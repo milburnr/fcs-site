@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, DollarSign, Target, Lightbulb, TrendingUp, Scale, Zap, AlertTriangle, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Benefits of Value Engineering for Construction | Tampa FL",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const keyBenefits = [
@@ -124,11 +148,35 @@ const caseSavings = [
   { project: "Industrial Facility", size: "80,000 SF", savings: "$680,000", percentage: "18%", key: "Foundation redesign" },
 ];
 
+const faqs = [
+  {
+    question: "Does value engineering always reduce costs?",
+    answer: "Usually, yes—typical savings range from 10-25% of construction costs. However, VE sometimes reveals that original designs were underbuilt, and proper solutions cost more. The goal is optimal value, not lowest first cost. Sometimes that means investing more to reduce lifecycle costs."
+  },
+  {
+    question: "When should value engineering happen?",
+    answer: "The earlier, the better. VE during schematic design offers maximum flexibility with minimal redesign cost. By the time construction documents are complete, changes are expensive. Design-build delivery enables continuous VE throughout design, capturing opportunities as they arise."
+  },
+  {
+    question: "How long does a formal VE study take?",
+    answer: "A dedicated VE workshop typically runs 3-5 days depending on project complexity, with additional time for follow-up analysis. However, in design-build, VE is continuous rather than a discrete event—it's built into how we approach every project decision."
+  },
+  {
+    question: "Will value engineering compromise my building's quality?",
+    answer: "True value engineering never compromises quality—that's cost cutting, not VE. Proper value engineering maintains or improves performance while reducing cost. We've often found VE alternatives that perform better than original designs. Every VE recommendation includes quality and performance analysis."
+  },
+  {
+    question: "Who participates in value engineering?",
+    answer: "Effective VE requires diverse perspectives: designers who understand the intent, builders who know construction realities, specialty consultants for technical systems, and owners who can validate functional requirements. At FCS, our project teams include all these perspectives from the start."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Benefits of Value Engineering for Construction"
         description="How value engineering delivers cost savings without sacrificing quality in commercial construction."
@@ -503,6 +551,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

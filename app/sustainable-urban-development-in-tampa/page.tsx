@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Building, Users, TrendingUp, Award, Sun, Droplets, TreePine } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much does sustainable construction add to project costs?",
+    answer: "The cost premium for sustainable construction has declined significantly and now typically ranges from 0-5% for most commercial projects. When factoring in available incentives (179D deduction, solar ITC, utility rebates), the net premium is often negligible. More importantly, sustainable buildings deliver 20-30% lower operating costs, higher rents, and better occupancy—typically recovering any additional investment within 3-7 years."
+  },
+  {
+    question: "What is LEED-ND certification and how does it apply to developments?",
+    answer: "LEED for Neighborhood Development (LEED-ND) certifies entire districts or communities rather than individual buildings. It evaluates smart location and linkage, neighborhood pattern and design, and green infrastructure. LEED-ND certification signals to tenants, investors, and the community that a development has been designed and built to the highest sustainability standards, enhancing marketability and long-term value."
+  },
+  {
+    question: "How does sustainable development address Tampa's flood and hurricane risks?",
+    answer: "Sustainable urban development integrates resilience as a core principle. This includes building above base flood elevation, using flood-resistant materials at lower levels, designing structures to exceed wind load requirements, and incorporating features like hurricane-rated glazing and reinforced connections. Green infrastructure elements like rain gardens and permeable surfaces also reduce flooding by managing stormwater naturally."
+  },
+  {
+    question: "What incentives are available for sustainable development in Tampa?",
+    answer: "Tampa Bay offers numerous incentives: the federal 179D deduction (up to $5/sq ft for energy-efficient buildings), 30% solar Investment Tax Credit, PACE financing for energy improvements, City of Tampa expedited permitting for LEED projects, and utility rebates from TECO and Duke Energy. Our team helps identify and maximize available incentives for every project."
+  },
+  {
+    question: "How long does LEED certification add to the project timeline?",
+    answer: "LEED certification doesn't significantly extend construction timelines—sustainable practices are integrated into our standard approach. The documentation process runs parallel to construction, with final certification typically occurring 3-6 months after completion. Early planning for LEED ensures requirements are incorporated from design through construction, avoiding delays."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

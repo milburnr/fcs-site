@@ -28,9 +28,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Building on Tampa Bay Waterfront | Custom Home Construction | FCS",
+  title: "Tampa Bay Waterfront Custom Homes | FCS",
   description:
     "Expert waterfront home construction on Tampa Bay. Navigate flood zones, seawall requirements, SWFWMD permits, and marine construction challenges for your dream waterfront property.",
   keywords:
@@ -391,6 +392,29 @@ const internalLinks = [
   { href: "/services/residential/home-additions/", label: "Home Additions" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Living Shoreline vs Seawall",
+    "href": "/living-shoreline-vs-seawall/",
+    "description": "Comparing natural and hardened shoreline protection approaches."
+  },
+  {
+    "title": "Flood Zone VE vs AE Guide",
+    "href": "/flood-zone-ve-vs-ae-guide/",
+    "description": "Understanding flood zone designations and construction requirements."
+  },
+  {
+    "title": "Breakaway Wall Construction Requirements",
+    "href": "/breakaway-wall-construction-requirements/",
+    "description": "Building flood-compliant structures in coastal high hazard areas."
+  },
+  {
+    "title": "Marine Grade Building Materials Guide",
+    "href": "/marine-grade-building-materials-guide/",
+    "description": "Selecting materials that withstand coastal conditions."
+  }
 ];
 
 export default function BuildingOnTampaBayWaterfrontPage() {
@@ -819,6 +843,10 @@ export default function BuildingOnTampaBayWaterfrontPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

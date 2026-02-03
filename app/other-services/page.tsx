@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Specialty Construction Services | Balcony, Waterproofing, Assessments | Tampa Bay",
+  title: "Specialty Construction Services Tampa Bay | FCS",
   description: "Specialized construction services in Tampa Bay including balcony reconstruction, exterior waterproofing, condo assessments, building envelope repairs, and structural remediation. Expert contractors with 43+ years experience.",
 };
 

@@ -5,9 +5,10 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Top Commercial Construction in Florida: Setting Industry Standards",
+  title: "Top Commercial Construction Florida | Standards",
   description: "Discover Florida&apos;s top-tier Commercial Construction specialist outshining competitors in multiple states. With a keen eye on the latest trends and regulations.",
 };
 
@@ -23,6 +24,29 @@ const internalLinks = [
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 export default function Page() {
@@ -488,6 +512,10 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, MapPin, Building, Car, Users, FileText, AlertTriangle, DollarSign, Shield, TrendingUp } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Choosing the Perfect Location for Commercial Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How early should I involve a contractor in site selection?",
+    answer: "Ideally, before you sign a purchase contract. Florida Construction Specialists can provide invaluable insight into construction costs for different sites, potentially saving you from expensive surprises. Even a preliminary site visit can reveal issues that affect feasibility or cost. Include contingencies in purchase contracts allowing time for proper due diligence."
+  },
+  {
+    question: "What's the biggest site selection mistake you see in Tampa Bay?",
+    answer: "Underestimating the impact of flood zones. Properties in AE or VE flood zones can cost 15-30% more to develop due to elevation requirements, and carry significant ongoing insurance costs. Always verify flood zone designation early—it's one of the first questions we ask when clients present potential sites."
+  },
+  {
+    question: "How much should I budget for site due diligence?",
+    answer: "For a typical commercial site in Tampa Bay, budget $15,000-$50,000 for comprehensive due diligence including boundary survey, geotechnical report, Phase I environmental assessment, wetland determination, and protected species survey. This investment is tiny compared to the cost of discovering problems after purchase."
+  },
+  {
+    question: "What if the site I want has zoning issues?",
+    answer: "Zoning changes or variances are possible but add time (6-12+ months) and uncertainty to projects. Success depends on the nature of the request, adjacent uses, and political climate. We can help assess the likelihood of approval and identify alternative approaches. Never purchase property requiring rezoning without appropriate contingencies."
+  },
+  {
+    question: "How do impact fees affect site selection in Tampa Bay?",
+    answer: "Impact fees vary significantly across Tampa Bay jurisdictions and can add $5-$20+ per square foot to project costs. Hillsborough County, Pinellas County, and individual municipalities each have their own fee structures. We include impact fee estimates in our site evaluations and can help compare the true development cost across different jurisdictions."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -424,6 +472,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Sarasota Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  title: "Sarasota Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Sarasota, FL. Commercial construction, luxury residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction sarasota, sarasota general contractor, luxury home builder sarasota fl, disaster recovery sarasota florida",
 };

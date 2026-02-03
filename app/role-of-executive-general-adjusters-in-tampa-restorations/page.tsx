@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Users, FileText, Scale, Shield } fro
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Executive General Adjusters in Tampa Restorations | Large Loss Claim Management",
+  title: "Executive General Adjusters Tampa | Large Loss",
   description: "Understanding the role of Executive General Adjusters (EGAs) in Tampa commercial property restorations. How EGAs manage large loss claims and coordinate complex insurance recoveries.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/property-damage-assessment-for-insurance-claims-in-tampa/", label: "Property Damage Assessment" },
   { href: "/understanding-tampa-insurance-restoration-claims/", label: "Understanding Insurance Claims" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
 ];
 
 export default function Page() {
@@ -362,6 +386,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

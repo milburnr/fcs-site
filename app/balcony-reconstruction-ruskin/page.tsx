@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction Ruskin FL | SB 4-D Compliance & Condo Restoration | FCS",
+  title: "Balcony Reconstruction Ruskin | SB 4-D | FCS",
   description: "Ruskin balcony reconstruction specialists for Apollo Beach condos, Sun City Center properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. FCS headquarters location serving South Hillsborough County. Licensed, bonded, insured.",
   keywords: "balcony reconstruction Ruskin, SB 4-D compliance Ruskin, condo balcony repair Apollo Beach, balcony waterproofing Sun City Center, milestone inspection Ruskin, HOA balcony contractor South Hillsborough County",
 };

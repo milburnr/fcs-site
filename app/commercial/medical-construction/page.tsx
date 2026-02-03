@@ -39,13 +39,13 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Medical Facility Construction Tampa | AHCA Compliant Healthcare Builder | FCS",
+  title: "Medical Facility Construction Tampa | AHCA | FCS",
   description:
     "Expert medical facility construction in Tampa Bay. AHCA compliant healthcare construction, clean rooms, medical gas systems, hospital renovations. 40+ years experience building medical offices, surgical centers, and healthcare facilities across Florida.",
   keywords:
     "medical facility construction Tampa, healthcare construction Florida, AHCA compliant construction, medical office construction Tampa Bay, hospital construction contractor, surgical center construction, clean room construction, medical gas installation",
   openGraph: {
-    title: "Medical Facility Construction Tampa | AHCA Compliant Healthcare Builder",
+    title: "Medical Facility Construction Tampa | AHCA | FCS",
     description: "Expert medical facility construction in Tampa Bay. AHCA compliant healthcare construction, clean rooms, medical gas systems. 40+ years experience.",
     type: "website",
   },

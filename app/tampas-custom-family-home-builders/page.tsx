@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Custom Family Home Builders | Design for Life",
@@ -23,6 +24,29 @@ const internalLinks = [
   { href: "/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
   { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  },
+  {
+    "title": "Tampa Custom Homes with Green Building Practices",
+    "href": "/tampa-custom-homes-with-green-building-practices/",
+    "description": "Sustainable construction for energy-efficient custom homes."
+  }
 ];
 
 const faqs = [
@@ -563,6 +587,10 @@ export default function Page() {
         title="Frequently Asked Questions" 
         description="Common questions about custom family home construction in Tampa"
       />
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

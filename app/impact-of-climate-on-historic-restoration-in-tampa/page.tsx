@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can historic buildings in Tampa be made truly hurricane-resistant?",
+    answer: "While no building is completely hurricane-proof, historic structures can be significantly strengthened through code-compliant techniques that preserve historical character. Concealed reinforcement, impact-resistant glazing that replicates historic profiles, and improved roof connections can bring historic buildings closer to modern wind resistance standards."
+  },
+  {
+    question: "Will installing air conditioning damage historic buildings?",
+    answer: "Properly designed HVAC systems actually protect historic buildings by controlling humidity and reducing moisture-related deterioration. The key is selecting equipment and distribution systems that minimize impact on historic fabric while providing appropriate climate control. Ductless mini-split systems and concealed ductwork often work well in historic contexts."
+  },
+  {
+    question: "Do historic tax credits cover climate resilience improvements?",
+    answer: "Yes, qualified rehabilitation expenditures for federal and state historic tax credits can include work that improves building resilience when the work conforms to the Secretary of the Interior's Standards. Hurricane protection, moisture management systems, and structural reinforcement typically qualify when properly designed and documented."
+  },
+  {
+    question: "How often should historic buildings in Tampa receive maintenance?",
+    answer: "Tampa's climate demands more frequent maintenance than temperate regions. Exterior paint may require renewal every 5-7 years versus 10-15 years in northern states. Annual inspections for moisture intrusion, pest activity, and storm damage should be standard practice. Proactive maintenance costs significantly less than deferred repairs."
+  },
+  {
+    question: "What's the biggest climate threat to Tampa's historic buildings?",
+    answer: "While hurricanes receive the most attention, chronic moisture-related deterioration actually causes more cumulative damage to Tampa's historic buildings. The combination of high humidity, frequent rain, and inadequate historic ventilation systems creates conditions for wood rot, mold growth, and masonry deterioration that gradually undermines building integrity."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

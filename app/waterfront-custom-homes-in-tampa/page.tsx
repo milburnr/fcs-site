@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Waves, Anchor, Shield, Sun } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What are the additional costs of building waterfront versus inland?",
+    answer: "Waterfront construction in Tampa Bay typically costs 20-35% more than comparable inland builds due to elevated foundations, enhanced hurricane systems, marine-grade materials, and specialized permitting. A 4,000 sq ft inland home at $300/sq ft might cost $400-425/sq ft on the waterfront. However, waterfront properties also appreciate faster and command significant premiums at resale, often offsetting the additional construction investment."
+  },
+  {
+    question: "How long does the dock permitting process take in Tampa Bay?",
+    answer: "New dock permits in Tampa Bay typically require 6-12 months for approval, involving FDEP, Army Corps of Engineers, and local environmental agencies. Modifications to existing docks may process faster (3-6 months). We recommend starting the permitting process early in your home design phase so dock construction can coincide with or immediately follow home completion. Our team handles all permit applications and coordinates required environmental surveys."
+  },
+  {
+    question: "What flood insurance considerations affect waterfront homes?",
+    answer: "Most Tampa Bay waterfront properties fall within FEMA flood zones requiring flood insurance. However, our elevated construction strategies can significantly reduce premiums. Building your lowest finished floor above the Base Flood Elevation (BFE) by 2-4 feet can reduce annual flood insurance costs by 50-75%. We work with FEMA Elevation Certificate requirements to document your home's elevation and minimize insurance costs."
+  },
+  {
+    question: "Can I build a pool at my waterfront property?",
+    answer: "Yes, though waterfront pool construction requires additional engineering and permitting. We design pools that complement your water views—often infinity-edge designs that visually merge with Tampa Bay. Elevated properties may require structural pools integrated into the foundation system. Pool placement must account for setback requirements, seawall locations, and environmental considerations. Our design team creates seamless indoor-outdoor transitions that maximize both pool and bay enjoyment."
+  },
+  {
+    question: "How do you protect against salt air corrosion?",
+    answer: "Salt air is the persistent enemy of coastal construction, and we address it comprehensively. All fasteners and hardware are stainless steel (316 grade for maximum corrosion resistance). Exterior metals receive marine-grade coatings. HVAC systems use coated coils designed for coastal environments. We specify windows with corrosion-resistant frames and recommend regular maintenance protocols to our clients. With proper materials and maintenance, waterfront homes can match inland longevity."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

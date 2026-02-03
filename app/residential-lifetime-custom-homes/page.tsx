@@ -4,6 +4,7 @@ import { Phone, Home, Shield, Hammer, Sparkles, ArrowRight } from "lucide-react"
 import { BUSINESS_INFO } from "@/lib/constants";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata = {
   title: "Custom Home Builder Tampa FL",
@@ -23,6 +24,29 @@ const internalLinks = [
   { href: "/services/residential/home-additions/", label: "Home Additions" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
 ];
 
 export default function ResidentialCustomHomesPage() {
@@ -261,6 +285,10 @@ export default function ResidentialCustomHomesPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

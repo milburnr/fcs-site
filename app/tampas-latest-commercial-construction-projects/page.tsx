@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa's Latest Commercial Construction Projects 2024-2025 | Development News",
+  title: "Tampa Commercial Construction Projects 2024-2025",
   description: "Explore Tampa's latest commercial construction projects. See what's being built across Tampa Bay—from downtown skyscrapers to suburban retail centers.",
 };
 

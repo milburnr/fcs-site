@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Monitor, Wifi, Lock, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Building Tampa Homes with Personalized Office Spaces | Home Office Design",
+  title: "Tampa Homes with Personalized Office Spaces",
   description: "Design the perfect home office in your Tampa custom home. Executive suites, video conferencing studios, and productive workspaces. Custom home offices from $25K-$150K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the minimum size for an effective home office?",
+    answer: "A functional single-person office needs at least 100 square feet—120-150 is more comfortable for executive-level work with guest seating. Dual offices need 250+ square feet for proper separation. Meeting spaces add another 100-150 square feet. Consider how you work: frequent standing? Need a second desk for spreading documents? Want a seating area for calls? These activities drive space requirements beyond minimum desk dimensions."
+  },
+  {
+    question: "Where should the home office be located in the floor plan?",
+    answer: "Ideal locations balance accessibility and separation. Near the front entry allows clients or deliveries without traversing the home. Away from children's spaces reduces interruption. Natural light from north or east windows provides quality illumination without afternoon glare. Some clients prefer detached offices—above garages or in outbuildings—for maximum separation between work and home life."
+  },
+  {
+    question: "How much soundproofing is really necessary?",
+    answer: "It depends on your situation. If you live alone and rarely have video calls, basic construction suffices. If children play loudly nearby and you conduct confidential client calls, comprehensive soundproofing is essential. For most professionals, moderate improvements—double drywall, insulated cavities, solid-core doors—provide adequate privacy. Studios for recording or legal/medical work may need higher specifications."
+  },
+  {
+    question: "Can home office construction be deducted as a business expense?",
+    answer: "Tax treatment depends on your specific situation—consult your accountant or tax advisor. Generally, space used \"regularly and exclusively\" for business may qualify for home office deductions. Dedicated, separately-entered office spaces have clearer qualification than converted bedrooms. Construction costs may depreciate differently than operating expenses. Document your office's dimensions, features, and exclusive business use carefully."
+  },
+  {
+    question: "What if my work-from-home situation changes?",
+    answer: "Well-designed home offices adapt to changing circumstances. An executive office can become a teenager's homework headquarters, guest suite, or music practice room. Quality built-ins and finishes maintain value regardless of use. Technology infrastructure supports entertainment as easily as work. Design for your current needs while selecting features that provide flexibility—you're building for the long term."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -372,6 +420,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

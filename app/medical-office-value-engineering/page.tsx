@@ -26,7 +26,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Medical Office Value Engineering | Healthcare Construction Tampa | FCS",
+  title: "Medical Office Value Engineering Tampa | FCS",
   description:
     "Strategic value engineering for medical office construction in Tampa Bay. Reduce costs without compromising quality, compliance, or patient experience.",
   keywords:

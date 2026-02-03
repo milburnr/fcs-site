@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Shield, AlertTriangle, Users, FileText, HardHat, Eye, Clipboard, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa Commercial Construction Safety Standards",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "What is EMR and why does it matter?",
+    answer: "Experience Modification Rate (EMR) is an insurance industry measure of a company's safety record compared to the industry average. An EMR of 1.0 represents average performance; below 1.0 indicates better-than-average safety. Our EMR of 0.75 means we experience 25% fewer claims than the industry average, resulting in lower insurance costs and demonstrating our safety commitment."
+  },
+  {
+    question: "How does good safety performance benefit project owners?",
+    answer: "Strong safety performance benefits owners in multiple ways: fewer delays from accidents, lower insurance costs passed through to projects, reduced liability exposure, better quality work (safety discipline correlates with quality discipline), and protection of your company's reputation. A contractor's safety record is one of the best predictors of overall project performance."
+  },
+  {
+    question: "What happens if there's an accident on my project?",
+    answer: "While our goal is zero incidents, we're prepared for any situation. Our response includes immediate medical attention, site securing, incident investigation, root cause analysis, and corrective action implementation. We maintain detailed documentation and communicate promptly with project owners. Our workers' compensation and liability insurance provides appropriate coverage for any work-related injuries."
+  },
+  {
+    question: "Can visitors come to the construction site?",
+    answer: "Yes, with appropriate protocols. All visitors must check in with site supervision, receive a safety orientation, and wear required PPE (hard hat, safety glasses, high-visibility vest—provided if needed). Visitors are escorted through active work areas. We welcome owner visits and can arrange safe observation areas for progress monitoring."
+  },
+  {
+    question: "How do you handle safety during occupied building renovations?",
+    answer: "Occupied building work requires additional safety measures to protect both workers and building occupants. We implement physical barriers separating work areas, coordinate with building management on fire alarm and evacuation procedures, schedule noisy or dusty work during low-occupancy periods, and maintain clear egress paths throughout construction. Detailed logistics plans address these challenges before work begins."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -461,6 +509,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

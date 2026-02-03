@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Condo Structural Reserve Study Repairs | SIRS Capital Projects | FCS Tampa Bay",
+  title: "Condo Reserve Study Repairs | SIRS | FCS Tampa",
   description: "Expert planning and execution of major condo capital projects identified in Structural Integrity Reserve Studies. Roof replacement, concrete restoration, waterproofing, and more throughout Tampa Bay.",
   keywords: "structural integrity reserve study repairs, SIRS repairs florida, condo reserve fund repairs, florida condo capital improvements, condo structural repairs tampa",
 };

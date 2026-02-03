@@ -20,7 +20,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Project Gallery | Commercial & Residential Portfolio | FCS Tampa",
+  title: "Project Gallery Tampa | Commercial Portfolio | FCS",
   description:
     "Explore Florida Construction Specialists' portfolio of commercial construction, luxury custom homes, historic restorations, and insurance restoration projects throughout Tampa Bay.",
   keywords:

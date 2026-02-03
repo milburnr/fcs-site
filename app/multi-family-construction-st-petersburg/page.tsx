@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction St. Petersburg FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction St. Petersburg | FCS",
   description: "Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Peninsula-ready construction. Call (813) 420-7561.",
   keywords: "multi-family construction st petersburg, apartment construction st pete, condo builder st petersburg fl, townhome construction st pete, senior living construction st petersburg, pinellas county multi-family",
 };

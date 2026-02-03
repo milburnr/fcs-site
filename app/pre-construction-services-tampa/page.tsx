@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, FileText, DollarSign, Clock, Target, Lightbulb, Users, Building2, Scale, Shield, TrendingUp } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -120,11 +120,35 @@ const processSteps = [
   { step: 6, title: "GMP Proposal", description: "Deliver guaranteed maximum price with defined scope and schedule" },
 ];
 
+const faqs = [
+  {
+    question: "When should pre-construction services begin?",
+    answer: "Ideally, engage us before you finalize site selection. We can evaluate sites for constructability, hidden costs, and permit challenges. At minimum, engage during conceptual design to capture the full benefit of value engineering and cost validation. The earlier we're involved, the more value we can add."
+  },
+  {
+    question: "How are pre-construction services priced?",
+    answer: "We typically propose pre-construction as a fixed fee based on project scope and duration. This fee is often credited against construction costs if we proceed with construction. For design-build projects, pre-construction is integrated into our overall services. Contact us for a specific proposal based on your project."
+  },
+  {
+    question: "Do I have to use you for construction if I use pre-construction services?",
+    answer: "No. Our pre-construction services are valuable standalone, and you're free to bid the project competitively. However, the greatest benefits come from design-build delivery where our pre-construction work directly informs construction. The insights we gain during pre-construction enable better execution if we continue."
+  },
+  {
+    question: "What information do you need to start pre-construction?",
+    answer: "At minimum: project location, intended use, approximate size, and target budget or quality level. More information enables better estimates—site surveys, geotechnical data, architectural concepts, and specific program requirements all improve our analysis. We'll tell you what additional information would be helpful."
+  },
+  {
+    question: "How accurate are pre-construction estimates?",
+    answer: "Estimate accuracy improves as design develops. Conceptual estimates (before design) are typically ±15-20%. Schematic design estimates improve to ±10-15%. Design development estimates achieve ±5-10%. Our GMP proposals at 60-70% design provide contractual cost certainty within defined contingencies."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Pre-Construction Services Tampa"
         description="Comprehensive pre-construction services in Tampa Bay for commercial construction projects."

@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction Sarasota FL | SB 4-D Compliance & Condo Restoration | FCS",
+  title: "Balcony Reconstruction Sarasota | SB 4-D | FCS",
   description: "Sarasota balcony reconstruction specialists for Gulf-front condos, Siesta Key properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. Expert contractors serving Sarasota County. Licensed, bonded, insured.",
   keywords: "balcony reconstruction Sarasota, SB 4-D compliance Sarasota, condo balcony repair Siesta Key, balcony waterproofing Longboat Key, milestone inspection Sarasota, HOA balcony contractor Sarasota FL",
 };

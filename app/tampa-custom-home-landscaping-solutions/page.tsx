@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, TreePine, Droplets, Sun, Flower2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Home Landscaping Solutions | Luxury Outdoor Design",
+  title: "Tampa Custom Home Landscaping | Luxury Outdoor",
   description: "Create stunning landscapes for your Tampa custom home. Native Florida plants, outdoor living integration, pools, and sustainable irrigation. Complete landscaping from $50K-$500K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "When should landscaping be installed relative to home construction?",
+    answer: "We typically complete rough grading and major hardscape during construction, then install plantings after home completion to protect them from construction damage. Irrigation systems go in after rough grading but before final landscaping. Pool construction usually occurs concurrent with home building. This phased approach protects investments while keeping the overall project timeline efficient. Final landscape completion typically occurs 2-4 weeks after home occupancy."
+  },
+  {
+    question: "How much should I budget for landscaping a custom home?",
+    answer: "A general guideline is 10-15% of home construction cost for comprehensive landscaping, though this varies widely based on lot size, desired features, and plant material selections. Pool and major outdoor structures can significantly increase this figure. Some clients phase investments—installing essential elements initially and adding features over time. We provide detailed landscape budgets early in design so you can make informed allocation decisions."
+  },
+  {
+    question: "What maintenance will my landscape require?",
+    answer: "Maintenance varies based on plant selections and feature complexity. Native and Florida-Friendly landscapes require less maintenance than tropical or formal designs. Most Tampa custom home landscapes need weekly lawn maintenance during growing season (March-October) and monthly during winter. Pools require weekly service. Irrigation systems need seasonal adjustment and annual maintenance. We can recommend maintenance services appropriate for your landscape's needs."
+  },
+  {
+    question: "Can existing trees be preserved during construction?",
+    answer: "Yes, and we strongly encourage preservation of valuable existing trees. Mature oaks, palms, and other specimens add immediate character that new plantings take decades to achieve. Protection requires proper fencing beyond drip lines, avoiding grade changes over roots, and careful coordination of utility routing. Our landscape architects evaluate existing vegetation early in design to identify preservation priorities and plan construction accordingly."
+  },
+  {
+    question: "What landscaping restrictions apply in Tampa Bay communities?",
+    answer: "Many Tampa Bay communities have landscaping guidelines addressing plant species, tree requirements, fence heights, and pool placement. HOA-governed communities often require architectural review approval before installation. Waterfront properties may have environmental restrictions protecting wetlands and shorelines. We navigate these requirements as part of our design process, ensuring your landscape complies with all applicable regulations while achieving your aesthetic goals."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -368,6 +416,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

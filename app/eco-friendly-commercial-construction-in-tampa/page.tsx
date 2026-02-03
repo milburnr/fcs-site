@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, Leaf, Sun, Droplets, Wind, Recycle, CheckCircle, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Eco-Friendly Commercial Construction in Tampa | Green Building Guide",
+  title: "Eco-Friendly Commercial Construction Tampa",
   description: "Build sustainably in Tampa Bay with eco-friendly commercial construction. LEED certification, energy efficiency, sustainable materials & green building expertise.",
 };
 
@@ -47,11 +47,35 @@ const greenFeatures = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How much more does green commercial construction cost in Tampa?",
+    answer: "Green building premiums in Tampa typically range from 2-8% depending on the certification level and features included. Many sustainable features like efficient lighting, low-flow fixtures, and smart controls add minimal cost. More substantial investments like solar panels and high-performance HVAC systems have clear payback periods through operating cost savings."
+  },
+  {
+    question: "Is LEED certification worth it for Tampa commercial buildings?",
+    answer: "For most Tampa commercial buildings, LEED certification provides strong value. The certification delivers operating cost savings, commands higher rental rates, improves marketability, and may provide tax benefits. The process also ensures a systematic approach to sustainable design that often identifies opportunities that might otherwise be missed."
+  },
+  {
+    question: "What green building incentives are available in Tampa?",
+    answer: "Tampa Bay offers several incentives for green commercial construction. Federal tax credits for solar installations (26% ITC). Duke Energy and TECO rebates for energy-efficient equipment. Potential expedited permitting for green-certified buildings. Property tax exemptions for renewable energy systems. Some municipalities offer density bonuses for LEED-certified projects."
+  },
+  {
+    question: "How long does LEED certification add to the construction timeline?",
+    answer: "LEED certification itself doesn't necessarily extend construction timelines when integrated from project inception. The certification process runs parallel to construction. Some sustainable features may add modest time—commissioning processes, for example. Working with an experienced green building contractor minimizes any schedule impact."
+  },
+  {
+    question: "Can existing Tampa buildings be retrofitted for green certification?",
+    answer: "Yes, LEED offers certification paths for existing buildings (LEED O+M) and for major renovations. Many sustainable features can be added during renovation or tenant improvement projects. Energy efficiency upgrades, lighting retrofits, and water conservation measures are particularly cost-effective for existing buildings."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Eco-Friendly Commercial Construction in Tampa"
         description="Build sustainably in Tampa Bay with eco-friendly commercial construction practices, LEED certification, and green building expertise."

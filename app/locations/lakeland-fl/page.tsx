@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Lakeland Commercial & Large-Loss Restoration Contractor | $500K-$25M+ Projects",
+  title: "Lakeland Commercial Restoration | $500K-$25M+ | FCS",
   description: "Premier general contractor serving Lakeland, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. Always the prime contractor. Call (813) 420-7561.",
   keywords: [
     "Lakeland commercial construction",

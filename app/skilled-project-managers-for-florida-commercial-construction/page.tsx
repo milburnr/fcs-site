@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Users, ClipboardList, Target, Clock, Shield, Award, BarChart, MessageSquare } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Skilled Project Managers in Commercial Construction Florida",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How often will the project manager communicate with me?",
+    answer: "Our standard practice includes weekly formal progress reports with photos and budget updates. However, your PM is available daily for questions or concerns. Most clients receive 2-3 informal updates per week in addition to the formal report. We tailor communication frequency to your preferences—some clients prefer daily briefings, others are comfortable with weekly summaries."
+  },
+  {
+    question: "Will the same project manager handle my entire project?",
+    answer: "Yes. Continuity is crucial for project success. The PM assigned to your project at the start will be with you through completion. We intentionally manage our project portfolio to ensure PMs aren't stretched across too many simultaneous projects—typically 2-3 major projects per PM maximum."
+  },
+  {
+    question: "How do your project managers handle problems or delays?",
+    answer: "Transparency and proactive communication are core values. When issues arise, you'll hear about them immediately along with proposed solutions. Our PMs don't hide problems—they address them head-on with clear options and recommendations. We maintain schedule and cost contingencies to handle typical project challenges without derailing overall goals."
+  },
+  {
+    question: "Can I meet the project manager before signing a contract?",
+    answer: "Absolutely. We encourage clients to meet their proposed PM during the proposal phase. You're trusting this person with a significant investment and months of your business life—you should be confident in the relationship before committing. We'll introduce the PM who would actually manage your project, not a sales representative."
+  },
+  {
+    question: "What happens if I'm not satisfied with my project manager's performance?",
+    answer: "Client satisfaction is paramount. If concerns arise about PM performance, raise them immediately with our operations team. We'll address issues directly and, if necessary, make personnel changes to ensure your project succeeds. This is rare because of our careful PM selection and training, but we stand behind your satisfaction."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -424,6 +472,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

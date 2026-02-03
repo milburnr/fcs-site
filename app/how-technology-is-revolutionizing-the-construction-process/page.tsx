@@ -5,9 +5,10 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "How Technology Is Revolutionizing the Construction Process | Tampa Bay",
+  title: "Technology Revolutionizing Construction | Tampa",
   description: "Discover how technology is revolutionizing construction in Tampa Bay. BIM, drones, project management software, and more. Florida Construction Specialists embraces innovation.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/top-commercial-modular-construction-in-tampa/", label: "Modular Construction" },
   { href: "/the-essential-role-of-florida-construction-specialists/", label: "About Our Approach" },
   { href: "/contact/", label: "Discuss Your Project" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 export default function Page() {
@@ -564,6 +588,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

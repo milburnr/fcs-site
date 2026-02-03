@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Brandon FL | 43 Years Insurance Experience | Storm & Property Damage",
+  title: "Insurance Restoration Brandon FL | Storm Damage | FCS",
   description: "Brandon's most experienced insurance restoration contractor. 43 years claims expertise—7 as adjuster, 28 as contractor. Storm damage, fire restoration, flood recovery for Brandon, Valrico, Riverview, FishHawk. Fast response from nearby headquarters. Commercial & HOA specialists.",
   keywords: "insurance restoration Brandon FL, property damage restoration East Hillsborough, storm damage Brandon, commercial restoration Valrico, insurance claim contractor Brandon, HOA restoration Riverview, FishHawk storm damage, Bloomingdale property restoration",
 };

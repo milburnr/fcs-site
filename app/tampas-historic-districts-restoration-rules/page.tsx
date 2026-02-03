@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Historic Districts Restoration Rules",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "What work requires Certificate of Appropriateness approval?",
+    answer: "Generally, any visible exterior work requires COA approval in Tampa's historic districts. This includes building modifications, roofing, windows and doors, painting, signage, fencing, and significant landscape changes. Interior work not visible from outside typically doesn't require approval. Ordinary maintenance using same materials usually doesn't require approval, but consultation with preservation staff clarifies specific situations."
+  },
+  {
+    question: "How long does the approval process take?",
+    answer: "Administrative staff review for minor projects may complete within 2-4 weeks. Projects requiring board review must wait for scheduled meetings, typically monthly, and may require 6-8 weeks or longer from application to approval. Complex or controversial projects may require multiple review cycles. Early pre-application consultation helps identify requirements and streamline the process."
+  },
+  {
+    question: "Can I appeal if my application is denied?",
+    answer: "Yes, applicants may appeal adverse decisions to higher authorities—typically the City Council or a designated appeals board. Appeals must be filed within specified timeframes and should present new information or arguments addressing reasons for denial. Consultation with preservation professionals can strengthen appeal presentations."
+  },
+  {
+    question: "Do historic district rules apply to interior renovations?",
+    answer: "Local historic district regulations typically apply only to visible exterior elements. Interior work generally doesn't require local preservation approval (though building permits still apply). However, federal tax credit requirements apply to both interior and exterior work on character-defining features. Interior work on individually designated landmarks may face additional scrutiny."
+  },
+  {
+    question: "What happens if I do work without required approval?",
+    answer: "Unauthorized work in historic districts may result in stop-work orders, fines, and requirements to remove or modify non-conforming work. Enforcement varies by jurisdiction, but the risk of costly remediation argues strongly for obtaining required approvals before construction. If unauthorized work has already occurred, consultation with preservation staff can identify remediation options."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -254,6 +302,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

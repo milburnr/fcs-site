@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa Historic Restoration Workshops and Training",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "What training should I look for in a historic restoration contractor?",
+    answer: "Look for contractors whose personnel have participated in preservation-specific training beyond standard construction education. Experience working on tax credit projects demonstrates familiarity with preservation standards. Membership in preservation organizations like the Association for Preservation Technology suggests commitment to professional development. Ask about specific training relevant to your project type."
+  },
+  {
+    question: "Are there free historic preservation training resources?",
+    answer: "Yes, the National Park Service provides extensive free resources through its Technical Preservation Services website, including Preservation Briefs and Technical Notes covering numerous restoration topics. SHPO offices offer periodic free workshops and guidance documents. Local historical societies often provide educational programs at low or no cost to the public."
+  },
+  {
+    question: "How do I learn lime mortar techniques?",
+    answer: "Several organizations offer hands-on lime mortar workshops, typically lasting 2-5 days and combining classroom instruction with practical application. Lime mortar manufacturers and suppliers sometimes offer training as well. Florida Construction Specialists can recommend appropriate training programs for contractors seeking to develop this essential skill."
+  },
+  {
+    question: "What credentials should preservation architects have?",
+    answer: "Look for architects with demonstrated preservation experience and, ideally, graduate education in historic preservation. Membership in organizations like the Association for Preservation Technology indicates engagement with the preservation community. Experience with similar building types and successful tax credit projects demonstrates practical competency. State architectural licensing is, of course, required."
+  },
+  {
+    question: "Does Florida Construction Specialists provide training?",
+    answer: "We invest significantly in training our own personnel and periodically share our expertise through presentations, workshops, and educational consultations. Building owners considering restoration projects benefit from our project-specific guidance, which includes education on preservation standards, regulatory requirements, and available incentives as they apply to specific situations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -259,6 +307,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Services Tampa | Apartment & Condo Builder",
+  title: "Multi-Family Construction Services Tampa | FCS",
   description: "Expert multi-family construction services in Tampa Bay. Apartments, condominiums, townhomes, and mixed-use developments. Ground-up and renovation specialists.",
 };
 

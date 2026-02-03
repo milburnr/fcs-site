@@ -35,7 +35,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration Tampa | National Register & SHPO Compliance | FCS",
+  title: "Historic Restoration Tampa | SHPO Compliance | FCS",
   description:
     "Expert historic restoration in Tampa Bay with proven National Register experience. Historic tax credits, SHPO compliance, Ybor City specialists. Italian Club, Lion's Eye Institute, Bay Pines VA Hospital restoration.",
   keywords:

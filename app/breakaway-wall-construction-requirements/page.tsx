@@ -25,9 +25,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Breakaway Wall Construction Requirements | Coastal Homes Tampa Bay | FCS",
+  title: "Breakaway Wall Construction Tampa Bay | FCS",
   description:
     "Complete guide to breakaway wall construction requirements for coastal homes in flood zones. FEMA regulations, design criteria, and construction standards for Tampa Bay waterfront properties.",
   keywords:
@@ -256,6 +257,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Building on Tampa Bay Waterfront",
+    "href": "/building-on-tampa-bay-waterfront/",
+    "description": "Special considerations for waterfront property construction in Tampa Bay."
+  },
+  {
+    "title": "Living Shoreline vs Seawall",
+    "href": "/living-shoreline-vs-seawall/",
+    "description": "Comparing natural and hardened shoreline protection approaches."
+  },
+  {
+    "title": "Flood Zone VE vs AE Guide",
+    "href": "/flood-zone-ve-vs-ae-guide/",
+    "description": "Understanding flood zone designations and construction requirements."
+  },
+  {
+    "title": "Marine Grade Building Materials Guide",
+    "href": "/marine-grade-building-materials-guide/",
+    "description": "Selecting materials that withstand coastal conditions."
+  }
 ];
 
 export default function BreakawayWallConstructionRequirementsPage() {
@@ -653,6 +677,10 @@ export default function BreakawayWallConstructionRequirementsPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

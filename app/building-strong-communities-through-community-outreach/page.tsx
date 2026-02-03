@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Heart, Users, Building2, Award, Handshake } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Building Strong Communities Through Community Outreach",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Contact Us" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How can my nonprofit organization request support?",
+    answer: "We review community support requests quarterly. Submit requests via our website contact form with information about your organization, the proposed project, estimated scope, and timeline. We prioritize projects where construction expertise provides unique value, organizations serving Tampa Bay communities, and initiatives aligned with our focus areas. Response time is typically 4-6 weeks from submission."
+  },
+  {
+    question: "How can I join Florida Construction Specialists' apprenticeship program?",
+    answer: "Apprenticeship openings are posted on our careers page and with local workforce development agencies. Requirements include high school diploma or GED, valid driver's license, ability to pass background check and drug screening, and genuine interest in construction careers. We especially welcome applicants from underrepresented groups in construction including women, veterans, and returning citizens."
+  },
+  {
+    question: "Does Florida Construction Specialists offer scholarships?",
+    answer: "Yes, we fund scholarships through Hillsborough Education Foundation and Pinellas Education Foundation supporting students pursuing construction-related education, including construction management, architecture, engineering, and skilled trades programs. Scholarship applications are handled through these foundations—visit their websites for eligibility requirements and application deadlines."
+  },
+  {
+    question: "Can I volunteer with Florida Construction Specialists on community projects?",
+    answer: "Most volunteer opportunities are available to our employees and their families. However, community members can volunteer alongside us through our partner organizations—particularly Habitat for Humanity, which welcomes community volunteers on all build days. Contact local Habitat chapters for volunteer registration. We occasionally sponsor community build events with broader volunteer participation."
+  },
+  {
+    question: "How does community engagement benefit your construction clients?",
+    answer: "Clients benefit in several ways: our workforce development programs help address labor shortages that could affect project timelines; community relationships provide insights into local needs and conditions; employee engagement improves retention and quality; and our reputation for community investment attracts similarly values-driven clients. Companies increasingly want to work with contractors who share their commitment to social responsibility."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -364,6 +412,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

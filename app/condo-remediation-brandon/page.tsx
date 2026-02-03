@@ -43,7 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Condo Remediation Brandon FL | SB4-D Compliance Hillsborough | FCS",
+  title: "Condo Remediation Brandon | SB4-D | FCS",
   description:
     "Brandon condo remediation & SB4-D compliance experts. Milestone inspections, SIRS, structural repairs for condos 3+ stories. Serving Valrico, Riverview, FishHawk. Near FCS headquarters. Call (813) 420-7561.",
   keywords:

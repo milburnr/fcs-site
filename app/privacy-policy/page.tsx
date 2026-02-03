@@ -8,7 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
-  description: "Effective Date: 12/1/2023",
+  description: "Read Florida Construction Specialists' privacy policy. Learn how we collect, protect, and use your personal information when you visit our Tampa Bay construction company website.",
 };
 
 const breadcrumbItems = [

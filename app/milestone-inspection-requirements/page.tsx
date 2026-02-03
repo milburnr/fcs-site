@@ -25,9 +25,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Milestone Inspection Requirements | Florida Condo SB 4-D | FCS",
+  title: "Milestone Inspection Requirements FL | SB 4-D",
   description:
     "Complete guide to milestone structural inspections for Florida condominiums under SB 4-D. Phase 1, Phase 2 requirements, timelines, and what to expect.",
   keywords:
@@ -225,6 +226,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
 ];
 
 export default function MilestoneInspectionRequirementsPage() {
@@ -580,6 +604,10 @@ export default function MilestoneInspectionRequirementsPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

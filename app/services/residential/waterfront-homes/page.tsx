@@ -8,7 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Waterfront Home Construction Tampa | Luxury Coastal Builder | FCS",
+  title: "Waterfront Home Construction Tampa | Coastal",
   description: "Waterfront custom home construction in Tampa Bay. Bayfront, Gulf, river, and lakefront properties. FEMA compliance, seawall coordination, marine-grade materials. $1M+ homes. Call (813) 420-7561.",
   keywords: ["waterfront home construction tampa", "bayfront home builder", "luxury waterfront builder florida", "coastal home construction", "waterfront custom homes"],
 };

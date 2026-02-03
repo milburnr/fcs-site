@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Balcony Restoration Services Tampa | High-Rise Commercial Experts",
+  title: "Balcony Restoration Services Tampa | High-Rise",
   description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant structural repairs, waterproofing, and complete balcony rehabilitation.",
 };
 

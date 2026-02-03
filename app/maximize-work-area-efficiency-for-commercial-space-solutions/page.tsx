@@ -5,6 +5,7 @@ import { Phone, CheckCircle, Building2, LayoutGrid, Users, DollarSign, HelpCircl
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -13,7 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Maximize Work Area Efficiency | Commercial Space Solutions Tampa",
+  title: "Maximize Work Area Efficiency Tampa | Commercial",
   description: "Expert guide to maximizing work area efficiency in commercial spaces. Space planning, layout optimization, density strategies, and construction solutions for Tampa Bay businesses.",
 };
 
@@ -28,6 +29,29 @@ const internalLinks = [
   { href: "/industrial-flex-space-development/", label: "Flex Space Development" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const efficiencyMetrics = [
@@ -562,6 +586,10 @@ export default function Page() {
           </Accordion>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

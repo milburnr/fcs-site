@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historical Commercial Construction in Tampa | Heritage Building Restoration & Preservation",
+  title: "Historic Commercial Construction Tampa | Heritage Building",
   description: "Expert historical commercial construction in Tampa. FCS preserves heritage buildings, historic storefronts, and commercial districts in Ybor City and downtown Tampa using traditional techniques and Secretary of Interior standards for authentic restoration.",
 };
 

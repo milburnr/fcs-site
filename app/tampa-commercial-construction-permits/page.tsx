@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, FileText, Clock, Building2, Clipboar
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Permits | Building Permit Guide & Process",
+  title: "Tampa Commercial Construction Permits | Guide",
   description: "Complete guide to Tampa commercial construction permits. Learn about the City of Tampa building permit process, requirements, fees, timelines, and how Florida Construction Specialists manages permit approvals.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/", label: "Permit Insights" },
   { href: "/tampa-historic-restoration-permits-and-regulations/", label: "Historic Restoration Permits" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 export default function Page() {
@@ -454,6 +478,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

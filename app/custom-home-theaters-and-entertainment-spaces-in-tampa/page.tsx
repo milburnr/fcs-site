@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Tv, Speaker, Film, Gamepad2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What's the minimum room size for a home theater?",
+    answer: "Dedicated theaters work well starting at about 250 square feet (for 4-6 seats), though 400+ square feet allows for stadium seating and better acoustic treatment. Ceiling height is equally important—10 feet minimum for tiered seating, 9 feet minimum otherwise. Rooms smaller than 250 square feet can still support excellent media room setups without formal theater seating."
+  },
+  {
+    question: "Projection vs. large flat panel—which is better?",
+    answer: "Projection delivers larger images (120-180+ inches vs. 98\" maximum panels) and creates more cinematic impact in dedicated dark rooms. Flat panels offer superior performance in rooms with ambient light, simpler installation, and better gaming performance. Many enthusiasts prefer projection for movie viewing and large panels for sports, gaming, and casual content. Budget, room conditions, and usage patterns guide the best choice."
+  },
+  {
+    question: "How important is acoustic treatment?",
+    answer: "Critically important. Even $50,000 in equipment performs poorly in untreated rooms, while modest equipment in properly treated spaces sounds impressive. Acoustic treatment controls reflections that blur dialogue and imaging, manages bass response for tight and accurate low frequencies, and creates the natural soundfield that makes audio enveloping rather than fatiguing. We consider acoustics fundamental rather than optional."
+  },
+  {
+    question: "Will theater sound disturb the rest of the house?",
+    answer: "Not with proper soundproofing. We construct theaters with isolated wall and ceiling assemblies that prevent sound transmission to adjacent spaces. Double-layer drywall with damping compound, decoupled framing, solid-core doors with acoustic seals, and isolated HVAC systems contain sound effectively. Family members elsewhere in the house shouldn't hear theater audio at reference volumes."
+  },
+  {
+    question: "Can home theaters be integrated with whole-home automation?",
+    answer: "Absolutely—this is standard in our installations. One-touch scenes dim lights, lower shades, power equipment, select sources, and adjust climate for viewing. When you pause or stop content, lights gradually return. Integration with distributed audio allows music throughout the home when the theater isn't in use. Remote monitoring lets you check that equipment powered down after guests used the system."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

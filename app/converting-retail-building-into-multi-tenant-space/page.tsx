@@ -5,6 +5,7 @@ import { Phone, CheckCircle, Building2, Store, Users, DollarSign, Clock, HelpCir
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -13,7 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Converting Retail Building into Multi-Tenant Space | Tampa Bay Guide",
+  title: "Converting Retail to Multi-Tenant | Tampa Bay",
   description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Learn about demising walls, utilities, code requirements, costs, and ROI for retail subdivisions.",
 };
 
@@ -28,6 +29,29 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/industrial-flex-space-development/", label: "Flex Space Development" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const conversionTypes = [
@@ -581,6 +605,10 @@ export default function Page() {
           </Accordion>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

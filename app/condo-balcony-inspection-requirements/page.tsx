@@ -28,7 +28,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Condo Balcony Inspection Requirements Florida | SB 4-D Compliance | FCS",
+  title: "Condo Balcony Inspection Florida | SB 4-D | FCS",
   description:
     "Complete guide to Florida condo balcony inspection requirements under SB 4-D and milestone inspections. Understand inspection scope, repair timelines, and compliance obligations.",
   keywords:

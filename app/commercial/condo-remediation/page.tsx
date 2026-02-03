@@ -34,7 +34,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "SB4-D Compliance Tampa | Condo Milestone Inspections & SIRS | FCS",
+  title: "SB4-D Compliance Tampa | Condo Milestone | FCS",
   description:
     "Florida SB4-D compliance specialists serving Tampa Bay. Milestone inspections, SIRS structural reserve studies, balcony reconstruction, and condo remediation. Deadlines approaching - act now.",
   keywords:

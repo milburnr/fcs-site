@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Target, Lightbulb, Building2, DollarSign, TrendingUp, Settings, Wrench, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Decoding Value Engineering: Florida Construction Expertise | Tampa",
+  title: "Value Engineering Florida | Construction Tampa",
   description: "Deep dive into value engineering methodology for commercial construction. Learn how Florida Construction Specialists applies systematic analysis to optimize building value while reducing costs.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const veFundamentals = [
@@ -143,11 +167,35 @@ const costOptimization = [
   { strategy: "Construction Method Optimization", description: "Choosing methods that match local labor skills and equipment availability", savings: "5-12%" },
 ];
 
+const faqs = [
+  {
+    question: "What's the difference between value engineering and value analysis?",
+    answer: "The terms are often used interchangeably. Technically, value engineering applies to new projects during design, while value analysis applies to existing products or processes. The methodology is the same: analyze functions and find better ways to achieve them."
+  },
+  {
+    question: "How do you quantify VE savings?",
+    answer: "We compare the cost of original design elements to proposed alternatives, including any changes to schedule, maintenance, or energy costs. Savings are documented with detailed estimates for each VE item. We only count savings where quality and performance are maintained or improved."
+  },
+  {
+    question: "What if VE recommendations change the design intent?",
+    answer: "VE recommendations that affect aesthetics or user experience are presented as options with clear trade-off analysis. The owner makes final decisions on these items. Pure cost-reduction items that don't affect design intent are typically straightforward recommendations."
+  },
+  {
+    question: "Can VE be applied to renovation projects?",
+    answer: "Absolutely. Renovation VE examines existing conditions and proposed changes to find efficiencies. Often, understanding what's already in place reveals opportunities—existing structure that can be retained, systems that can be extended rather than replaced, or configurations that work better with existing conditions."
+  },
+  {
+    question: "How do you prioritize VE recommendations?",
+    answer: "We rank recommendations by: (1) savings magnitude, (2) risk level, (3) impact on design intent, and (4) implementation complexity. High-savings, low-risk items with minimal design impact are presented as strong recommendations. Items with significant trade-offs are presented as options for owner consideration."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Decoding Value Engineering: Florida Construction Expertise"
         description="Deep dive into value engineering methodology for commercial construction in Florida."
@@ -478,6 +526,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

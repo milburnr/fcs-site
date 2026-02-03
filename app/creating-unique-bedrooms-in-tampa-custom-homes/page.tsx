@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Bed, Moon, Sparkles, PaintBucket } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Creating Unique Bedrooms in Tampa Custom Homes | Luxury Master Suites",
+  title: "Unique Bedrooms in Tampa Custom Homes | Luxury",
   description: "Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites, custom closets, sitting areas, and resort-style amenities from $75K-$300K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the ideal master bedroom size for Tampa luxury homes?",
+    answer: "For luxury custom homes, we recommend minimum 350-400 square feet for the bedroom proper (not including bathroom or closet), with 450-600 square feet being ideal for incorporating sitting areas, fireplaces, and generous furniture arrangements. Combined with bath and closet, total master suite size typically ranges from 700-1,500 square feet in our higher-end Tampa builds. However, quality of design and finishes matters more than raw square footage."
+  },
+  {
+    question: "Should the master suite be on the first or second floor?",
+    answer: "This depends on lifestyle and site characteristics. First-floor masters offer accessibility and single-level living convenience—popular with empty nesters and for aging-in-place planning. Second-floor masters provide better views (especially on waterfront properties), more privacy from common areas, and often better natural light. Many Tampa clients opt for first-floor masters with elevator provisions for future accessibility, gaining both convenience and privacy planning."
+  },
+  {
+    question: "How do you handle closet design for couples with different needs?",
+    answer: "Separate his and hers closets often work best for couples with significantly different wardrobe sizes or organization preferences. When space allows, we create completely separate closet rooms accessible from different sides of the bedroom. In combined closets, clear division with different configurations for each partner maintains organization. We assess each partner's wardrobe during design—counting hanging items, folded items, shoes, and accessories—to create appropriately sized and configured spaces."
+  },
+  {
+    question: "What soundproofing options work best for master bedrooms?",
+    answer: "Effective bedroom soundproofing addresses both exterior noise (traffic, neighbors) and interior noise (other family members, HVAC). We use combination strategies: resilient channel or sound-rated drywall systems in walls, solid-core doors with acoustic seals, and insulated windows. Floor-ceiling assemblies in two-story homes receive additional insulation. For critical applications, we add mass-loaded vinyl barriers and acoustic caulk at penetrations. Duct silencers prevent HVAC noise transmission."
+  },
+  {
+    question: "Can you incorporate exercise space into the master suite?",
+    answer: "Yes—private exercise areas adjacent to or within master suites have become increasingly popular. These range from small yoga/stretching spaces to fully equipped private gyms. Key considerations include flooring (rubber or resilient options), enhanced ventilation/cooling, mirrors, and appropriate electrical for equipment. Some clients prefer morning workout convenience; others want the privacy that a master-adjacent location provides versus shared home gyms."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -375,6 +423,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

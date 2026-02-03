@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Building, Hammer, RefreshCw, Clock, DollarSign, FileText, AlertTriangle, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction vs Remodeling and Renovation in Florida",
+  title: "Commercial Construction vs Remodeling Florida",
   description: "Discover the key differences between commercial construction, remodeling, and renovation in Florida. Make informed decisions for your Tampa Bay construction project.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Is it cheaper to renovate or build new commercial space in Tampa?",
+    answer: "Renovation typically costs 30-60% less than new construction for comparable square footage. However, the total picture is more nuanced. When you factor in land costs for new construction and potential hidden issues in renovation projects, the gap narrows. Additionally, new construction offers better energy efficiency and lower long-term maintenance costs. We recommend comparing total cost of ownership over your intended holding period."
+  },
+  {
+    question: "How do I know if an existing building is worth renovating?",
+    answer: "Florida Construction Specialists conducts pre-purchase building assessments to evaluate renovation candidates. We examine structural integrity, mechanical system condition, code compliance status, and potential hidden issues (asbestos, electrical capacity, roof condition). If renovation costs would exceed 70-80% of replacement cost, new construction typically makes more sense."
+  },
+  {
+    question: "Can I stay open during renovation or remodeling?",
+    answer: "Often yes, but it depends on the scope. We specialize in phased construction that allows businesses to maintain operations during renovation. This approach typically extends the timeline somewhat but minimizes business disruption. For significant remodeling projects, temporary relocation may be more cost-effective than the inefficiencies of working around ongoing operations."
+  },
+  {
+    question: "What triggers the 50% rule in Florida building code?",
+    answer: "The 50% rule is triggered when the cost of alterations, additions, or repairs (not including routine maintenance) exceeds 50% of the building's market value. When triggered, the entire building must be brought into compliance with current codes, including hurricane protection, ADA accessibility, fire safety, and energy efficiency requirements. This can add significant unexpected costs to renovation projects."
+  },
+  {
+    question: "How long does each type of project typically take?",
+    answer: "In Tampa Bay, simple renovations can be completed in 2-4 months. Significant remodeling projects typically take 4-12 months depending on scope. New commercial construction ranges from 12-24 months for most projects. Add 2-3 months for permitting in any scenario. Florida Construction Specialists provides detailed timelines during pre-construction planning to help you plan your business transition."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -439,6 +487,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

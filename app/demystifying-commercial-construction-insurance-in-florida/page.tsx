@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Shield, FileText, AlertTriangle, Building, Users, DollarSign, Umbrella, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Demystifying Commercial Construction Insurance in Florida",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Who should purchase Builder's Risk insurance—the owner or contractor?",
+    answer: "Either party can purchase Builder's Risk coverage, but the contract should clearly specify responsibility. Owner-provided policies ensure the owner controls coverage terms and limits. Contractor-provided coverage is common for smaller projects or when rolled into the construction contract. Regardless of who purchases, both parties (plus lenders and major subcontractors) should be named as insureds."
+  },
+  {
+    question: "What happens if a hurricane damages my project during construction?",
+    answer: "Builder's Risk insurance covers hurricane damage, subject to the named storm deductible (typically 2-5% of coverage amount). The policy pays to repair or replace damaged work and materials. Soft cost coverage (if included) can cover extended construction financing, additional rental costs, and other delay-related expenses. Florida Construction Specialists implements comprehensive hurricane preparation to minimize damage exposure."
+  },
+  {
+    question: "How do I verify that subcontractors have proper insurance?",
+    answer: "Florida Construction Specialists maintains rigorous subcontractor prequalification that includes insurance verification. We collect and verify certificates of insurance before any subcontractor begins work, confirm coverage meets our minimum requirements, track certificate expiration dates, and require additional insured status for Florida Construction Specialists and the project owner."
+  },
+  {
+    question: "What is an EMR and why should I care about my contractor's rating?",
+    answer: "Experience Modification Rate (EMR) measures a company's workers' compensation claims experience against the industry average. An EMR of 1.0 is average; lower is better. A contractor with a high EMR (above 1.0) has more claims than average, indicating potential safety problems. Our EMR of 0.75 demonstrates our commitment to safety and results in lower insurance costs—savings we pass on to clients."
+  },
+  {
+    question: "Do I need insurance coverage after construction is complete?",
+    answer: "Yes—Builder's Risk coverage ends at project completion or occupancy, requiring transition to permanent property insurance. Additionally, construction defect claims can arise years after completion. Contractor's \"completed operations\" coverage under their CGL policy addresses this exposure. Ensure your contractor maintains completed operations coverage for at least the applicable statute of limitations (in Florida, typically 4 years for latent defects, 10 years under the statute of repose)."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -471,6 +519,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

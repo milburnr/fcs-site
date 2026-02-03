@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Award, Building, Clock, Shield, Users, Star, MapPin, Briefcase } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What size commercial projects does Florida Construction Specialists handle?",
+    answer: "We handle commercial projects ranging from small tenant improvements (1,000+ square feet) to large ground-up construction projects exceeding 100,000 square feet. Our diverse capabilities allow us to right-size our approach for your specific project needs, whether it's a $100,000 renovation or a multi-million dollar new construction."
+  },
+  {
+    question: "How early in the process should I contact Florida Construction Specialists?",
+    answer: "The earlier, the better. Our pre-construction services can provide valuable input during the planning and design phases, helping optimize your project for budget, schedule, and constructability. Engaging us before design is complete allows us to identify cost-saving opportunities and potential challenges before they become expensive problems."
+  },
+  {
+    question: "How do you handle projects during hurricane season?",
+    answer: "We've developed comprehensive hurricane preparedness protocols refined over decades of Tampa Bay construction. Our plans include site securing procedures, material protection strategies, and contingency scheduling. We monitor weather closely during June through November and take proactive measures when storms threaten. Our hurricane experience means we minimize weather-related delays while protecting work in progress."
+  },
+  {
+    question: "What is your typical project timeline?",
+    answer: "Timelines vary significantly based on project scope. A typical tenant improvement might take 8-16 weeks, while a ground-up commercial building could require 12-18 months. During our initial consultation, we'll provide a preliminary schedule based on your specific project requirements. We're known for meeting or beating our committed schedules."
+  },
+  {
+    question: "Do you offer financing assistance for commercial construction projects?",
+    answer: "While we don't provide direct financing, we work closely with many Tampa Bay commercial lenders and can provide referrals to institutions experienced in construction financing. Our detailed cost estimates and professional documentation support your financing applications. We also structure payment schedules that align with typical construction loan draw procedures."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

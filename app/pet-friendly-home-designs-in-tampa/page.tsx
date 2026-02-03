@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Dog, Home, Shield, Heart, Droplets } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Pet-Friendly Home Designs in Tampa | Custom Homes for Pet Owners",
+  title: "Pet-Friendly Home Designs Tampa | Custom Homes",
   description: "Build pet-friendly custom homes in Tampa with built-in features for dogs, cats, and more. Mudrooms, pet suites, fenced yards, durable flooring, and pet-washing stations. From $400K-$2M+.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Do pet-friendly features affect home resale value?",
+    answer: "Most pet-friendly features appeal to buyers beyond just pet owners. Mudrooms, durable flooring, and fenced yards have broad appeal. Purpose-built pet features like washing stations attract pet-owning buyers who increasingly expect such amenities. The key is designing features that feel integrated rather than afterthoughts—elegant solutions that enhance homes for any owner while particularly appealing to pet families."
+  },
+  {
+    question: "How do you handle large or multiple dogs?",
+    answer: "Large dogs need larger features: washing stations sized for Great Danes rather than Chihuahuas, wider pet doors, more substantial fencing. Multiple-dog households benefit from separated feeding stations, larger outdoor areas, and potentially separate indoor rest areas if dogs don't always get along. We discuss your specific pets during planning to ensure features match their actual needs."
+  },
+  {
+    question: "What flooring is best for pets?",
+    answer: "Luxury vinyl plank (LVP) offers the best all-around pet performance: water-resistant, scratch-resistant, comfortable underfoot, and available in beautiful wood-look designs. Porcelain tile is nearly indestructible but harder underfoot. Polished concrete is extremely durable but requires area rugs for pet comfort. We recommend different solutions for different areas based on traffic, visibility, and pet behavior."
+  },
+  {
+    question: "Can existing homes be retrofitted with pet features?",
+    answer: "Many pet features can be added to existing homes: pet doors, washing stations in laundry rooms or garages, fencing, and flooring replacement. Built-in feeding stations are easier during kitchen renovations. Some features—like mudroom additions—require more significant construction. We evaluate existing conditions and recommend the most practical approach for adding pet amenities."
+  },
+  {
+    question: "How do you handle exotic pets?",
+    answer: "Beyond cats and dogs, we've designed features for birds (aviaries, dedicated bird rooms), reptiles (custom terrariums, temperature-controlled spaces), fish (built-in aquariums, pond integration), and other exotic pets. Each species has unique requirements—we research specific needs and consult with veterinarians or specialists when designing custom accommodations for unusual pets."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

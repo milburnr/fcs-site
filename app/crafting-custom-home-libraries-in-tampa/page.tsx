@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, BookOpen, Lamp, Armchair, PanelTop } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can you add a library to my existing Tampa home?",
+    answer: "Absolutely. We regularly convert existing rooms—formal living rooms, large bedrooms, or underutilized dens—into custom libraries. Alternatively, we can design library additions that seamlessly integrate with your home's architecture. The conversion approach typically costs less and moves faster, while additions offer complete design freedom and dedicated space. During consultation, we'll evaluate your home and recommend the best approach for your goals and budget."
+  },
+  {
+    question: "What wood species work best for Tampa library millwork?",
+    answer: "Traditional libraries favor rich, dark woods: mahogany, walnut, and cherry offer classic appeal and excellent workability. White oak provides a more contemporary aesthetic and superior durability. For painted millwork, poplar offers excellent value with a smooth finish surface. We source kiln-dried lumber and condition materials in our climate-controlled shop before installation to prevent warping or gaps in Tampa's humidity. Exotic woods are available for special projects."
+  },
+  {
+    question: "How do you protect books from Tampa's humidity?",
+    answer: "We implement layered humidity management: dedicated HVAC zoning with dehumidification capabilities (maintaining 35-45% relative humidity), vapor barriers in exterior walls, and continuous air circulation. For valuable collections, we add room-specific monitoring systems that alert you to condition changes. UV-filtering window treatments protect against sun damage. These systems add $5,000-15,000 to typical projects but are essential for preserving book collections in Florida's climate."
+  },
+  {
+    question: "How long does custom library construction take?",
+    answer: "A typical room conversion with custom millwork requires 8-12 weeks from design approval through completion. Library additions follow standard construction timelines of 4-6 months depending on size and complexity. Custom millwork is fabricated in our shop concurrent with site preparation, then installed in a coordinated sequence to minimize disruption. We provide detailed schedules during the planning phase."
+  },
+  {
+    question: "Can the library also function as a home office?",
+    answer: "Yes—many clients combine library and office functions successfully. We design dedicated work areas with appropriate technology integration, task lighting, and ergonomic furniture while maintaining the library's aesthetic character. Hidden cable management, motorized TV lifts, and integrated charging keep technology available but unobtrusive. Soundproofing can separate the library/office from household activity, creating a productive work environment surrounded by your books."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

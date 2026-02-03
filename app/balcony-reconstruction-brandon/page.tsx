@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction Brandon FL | SB 4-D Compliance & Condo Restoration | FCS",
+  title: "Balcony Reconstruction Brandon | SB 4-D | FCS",
   description: "Brandon balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for Hillsborough County properties, structural repairs, waterproofing. Expert contractors serving Brandon and Greater Tampa. Licensed, bonded, insured.",
   keywords: "balcony reconstruction Brandon, SB 4-D compliance Brandon, condo balcony repair Brandon FL, balcony waterproofing Hillsborough County, milestone inspection Brandon, HOA balcony contractor Brandon Florida",
 };

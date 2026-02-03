@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Luxury Custom Homes Clearwater FL | Beach & Waterfront Estates $1M+ | FCS",
+  title: "Luxury Custom Homes Clearwater | Beach | FCS",
   description: "Clearwater luxury custom home builder specializing in $1M-$15M+ beachfront estates, Gulf-front properties, and waterfront residences. Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, Belleair. Licensed, bonded, insured.",
   keywords: "luxury custom homes Clearwater, Clearwater Beach waterfront homes, Sand Key estate homes, custom home builder Clearwater, beachfront construction Clearwater FL",
 };

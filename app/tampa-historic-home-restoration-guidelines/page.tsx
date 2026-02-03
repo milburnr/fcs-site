@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa Historic Home Restoration Guidelines",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "Do I need approval to paint my house?",
+    answer: "Repainting with existing colors generally doesn't require approval in Tampa's historic districts. Changing colors typically does require Certificate of Appropriateness approval. Most districts have approved color palettes or guidelines for period-appropriate colors. Consultation with preservation staff clarifies requirements for your specific situation."
+  },
+  {
+    question: "Can I replace my windows with energy-efficient models?",
+    answer: "Historic districts typically require maintaining historic windows or replacing with matching wood windows. Vinyl and aluminum replacements are generally not approved. However, adding interior storm windows with low-E glass provides excellent energy performance without altering historic windows. Window restoration with weatherstripping also significantly improves energy efficiency."
+  },
+  {
+    question: "Are there tax credits for residential historic restoration?",
+    answer: "The federal 20% historic tax credit applies only to income-producing properties, not owner-occupied residences. However, if you rent part of your historic home, that portion may qualify. Some owners convert residences to rental or B&B use to access credits. Property tax incentives for historic properties may also provide ongoing tax benefits for residential restoration."
+  },
+  {
+    question: "How do I find a contractor experienced with historic homes?",
+    answer: "Seek contractors with demonstrated experience on similar historic homes. Ask for references from projects in Tampa's historic districts. Verify they understand local preservation requirements and won't propose inappropriate changes. Tampa Preservation Inc. and neighborhood preservation organizations may have contractor recommendations."
+  },
+  {
+    question: "What if my historic home has been previously altered?",
+    answer: "Previous inappropriate alterations don't prevent thoughtful restoration going forward. Some alterations may be appropriate to reverse—removing vinyl siding to restore original wood siding, for example. Other alterations may have become part of the building's history and may be appropriate to retain. Evaluation of specific conditions guides appropriate treatment decisions."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -248,6 +296,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Top Tools for Commercial Construction in Tampa | Essential Equipment Guide",
+  title: "Top Tools for Commercial Construction Tampa",
   description: "Essential tools and equipment for commercial construction in Tampa's challenging climate. Hand tools, power equipment, technology solutions, and machinery from industry experts.",
 };
 

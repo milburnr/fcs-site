@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Recycle, TreePine, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Green Building Practices | LEED & FGBC Certified",
+  title: "Tampa Green Custom Homes | LEED Certified | FCS",
   description: "Build a certified green custom home in Tampa with sustainable materials, low-impact construction, and LEED/FGBC certification. Healthy homes from $425K-$2M+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the difference between LEED and FGBC certification?",
+    answer: "LEED (Leadership in Energy and Environmental Design) is a national program with broad recognition and strong market value impact. FGBC (Florida Green Building Coalition) is tailored specifically to Florida's climate, construction practices, and regulatory environment, with criteria addressing hurricane resistance, humidity management, and other Florida-specific issues. Many clients pursue FGBC for its practical relevance and insurance discounts, while others prefer LEED's broader recognition. We can pursue either or both certifications."
+  },
+  {
+    question: "How much do green building practices add to construction costs?",
+    answer: "Entry-level green certification (FGBC Bronze) typically adds 5-8% to construction costs—often offset by energy savings within 5-7 years. Gold-level certification adds 10-15%, while pursuing LEED Platinum requires 15-25% premium for comprehensive sustainable features. The value equation improves when you consider enhanced resale value (8-10% higher for certified homes), reduced operating costs, and health benefits of superior indoor air quality. Insurance discounts under FGBC further improve returns."
+  },
+  {
+    question: "Can I get green certification for a home designed by my architect?",
+    answer: "Yes, though early involvement is important. We recommend engaging our green building team during schematic design to identify certification opportunities and avoid costly redesign later. Many architectural decisions—building orientation, window placement, material selection—significantly impact certification scores. We work collaboratively with your architect to integrate green features seamlessly into your design vision while meeting certification requirements."
+  },
+  {
+    question: "Are green building materials as durable as conventional alternatives?",
+    answer: "In most cases, green materials match or exceed conventional durability—that's actually part of what makes them green. Products that last longer require fewer replacements over your home's lifespan. FSC-certified wood is identical to conventional lumber in performance. Recycled steel is actually superior to virgin steel. Low-VOC paints perform identically to conventional formulations. The key is selecting quality products, which we do regardless of certification goals."
+  },
+  {
+    question: "What ongoing requirements does green certification have?",
+    answer: "Most residential green certifications apply at the time of construction with no ongoing recertification requirements. However, maintaining your home's green features is important for realizing long-term benefits. We provide homeowner manuals documenting all green features and their maintenance requirements—filter change schedules, ERV maintenance, landscaping care for native plants, etc. Proper maintenance ensures your green home performs as designed for decades."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -370,6 +418,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

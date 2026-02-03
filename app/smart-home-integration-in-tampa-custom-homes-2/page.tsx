@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Smartphone, Wifi, Shield, Volume2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Smart Home Integration in Tampa Custom Homes | Automation & Control",
+  title: "Smart Home Integration Tampa | Automation | FCS",
   description: "Integrate smart home technology in your Tampa custom home. Lighting control, climate automation, security, and entertainment systems. Complete automation from $25K-$200K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  },
+  {
+    "title": "Tampa Custom Homes with Green Building Practices",
+    "href": "/tampa-custom-homes-with-green-building-practices/",
+    "description": "Sustainable construction for energy-efficient custom homes."
+  }
+];
+
+const faqs = [
+  {
+    question: "Can I start with basic automation and expand later?",
+    answer: "Absolutely—this is actually our recommended approach for many clients. We install comprehensive infrastructure (wiring, network, equipment space) during construction, which is far less expensive than retrofitting later. Then we activate systems in phases based on budget and priorities. Lighting control might come first, followed by security, then full audio, then motorized shades. The infrastructure supports full capability whenever you're ready to expand."
+  },
+  {
+    question: "Will my smart home system become obsolete?",
+    answer: "Professional platforms like Savant, Control4, and Crestron are designed for longevity with software updates extending system life. The infrastructure we install—wiring, speakers, motor locations—will support technology evolution for decades. While individual components may eventually need replacement (like any technology), the core investment remains valuable. We also select systems with strong manufacturer track records and dealer support for long-term serviceability."
+  },
+  {
+    question: "How do smart homes handle power outages?",
+    answer: "We design systems with resilience in mind. Battery backup protects automation processors, network equipment, and security systems during brief outages. For longer outages, integration with whole-home generators keeps everything running. Even without backup power, mechanical overrides allow manual operation of lights, locks, and HVAC—you're never locked out by technology failures. Professional systems are far more reliable than consumer alternatives in outage recovery."
+  },
+  {
+    question: "What about cybersecurity for smart homes?",
+    answer: "Professional automation systems implement enterprise-grade security including encrypted communications, secure cloud connections, and regular security updates. We configure networks with proper segmentation—keeping IoT devices separated from computers and phones. Strong password policies, two-factor authentication, and guest network isolation protect your privacy. Consumer devices often have weaker security; professional installation addresses these vulnerabilities systematically."
+  },
+  {
+    question: "Do I need ongoing service for my smart home?",
+    answer: "Most professional systems include optional service agreements covering software updates, remote diagnostics, and on-site support. We recommend these agreements for complex installations—they ensure your system continues performing optimally and provide priority response if issues arise. Basic systems may only need occasional service calls as needs change or components age. We remain available for modifications, expansions, and troubleshooting throughout your ownership."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -381,6 +429,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

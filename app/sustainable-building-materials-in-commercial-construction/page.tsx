@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Recycle, Sun, Droplets, Wind, Building } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Sustainable Building Materials in Commercial Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much more do sustainable materials cost compared to conventional options?",
+    answer: "Sustainable materials typically add 2-8% to initial construction costs for Tampa Bay commercial projects. However, most sustainable upgrades pay for themselves within 3-7 years through reduced energy costs, lower maintenance requirements, and utility incentives. Many sustainable options, like recycled steel framing, are actually cost-competitive or cheaper than conventional alternatives when factoring in Florida's termite treatment requirements for wood construction."
+  },
+  {
+    question: "Can sustainable buildings withstand Florida hurricanes?",
+    answer: "Absolutely. Many sustainable building systems actually exceed conventional construction in hurricane resistance. ICF (Insulated Concrete Form) construction, for example, creates solid reinforced concrete walls that routinely achieve ratings exceeding 200 mph wind speeds. Recycled steel framing offers superior wind resistance compared to wood. All sustainable materials we specify meet or exceed Florida Building Code requirements for High-Velocity Hurricane Zones."
+  },
+  {
+    question: "Are sustainable materials available locally in Tampa?",
+    answer: "Yes, Tampa Bay has a growing network of sustainable material suppliers. We source recycled steel from regional mills, FSC-certified lumber from Florida operations, locally manufactured high-performance windows, and recycled concrete aggregate from Hillsborough County facilities. Using regional materials reduces transportation emissions and typically improves project timelines."
+  },
+  {
+    question: "How do sustainable materials affect building insurance rates?",
+    answer: "Many sustainable building features can reduce insurance premiums. Impact-resistant roofing and windows, steel or concrete construction, and cool roof systems often qualify for insurance discounts in Florida. Some insurers offer specific \"green building\" endorsements that recognize the enhanced durability and lower risk profile of sustainable construction."
+  },
+  {
+    question: "What certifications verify that materials are truly sustainable?",
+    answer: "Look for recognized third-party certifications including FSC (Forest Stewardship Council) for wood products, Cradle to Cradle certification for manufacturing processes, GREENGUARD for low-emission products, and Energy Star ratings for equipment and windows. Florida Construction Specialists maintains documentation of all environmental certifications for materials used in our projects, supporting LEED and other green building certification applications."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -386,6 +434,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

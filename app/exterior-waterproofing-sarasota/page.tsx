@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Sarasota FL | Building Envelope & Foundation | FCS",
+  title: "Exterior Waterproofing Sarasota | Envelope | FCS",
   description: "Sarasota exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, luxury condo waterproofing. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing Sarasota, building envelope waterproofing Sarasota, foundation waterproofing Sarasota, commercial waterproofing Sarasota, luxury condo waterproofing Sarasota",
 };

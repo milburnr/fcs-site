@@ -38,7 +38,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Industrial Construction Tampa | Tilt-Wall & Warehouse Construction Florida | FCS",
+  title: "Industrial Construction Tampa | Tilt-Wall | FCS",
   description:
     "Industrial and warehouse construction in Tampa Bay. Tilt-wall construction, steel buildings, flex space, and distribution centers. $500K-$25M+ projects. 40+ years experience.",
   keywords:

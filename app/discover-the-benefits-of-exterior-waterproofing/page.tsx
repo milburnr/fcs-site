@@ -5,9 +5,10 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Discover the Benefits of Exterior Waterproofing | Tampa Bay Condos",
+  title: "Benefits of Exterior Waterproofing Tampa Bay",
   description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends building life, and reduces long-term maintenance costs. SB 4-D compliance guide.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/choosing-the-right-waterproofing-solution-your-ultimate-guide/", label: "Waterproofing Selection Guide" },
   { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
 ];
 
 const faqItems = [
@@ -498,6 +522,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

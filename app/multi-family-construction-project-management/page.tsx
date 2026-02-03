@@ -31,7 +31,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Project Management Tampa | Apartment Building PM | FCS",
+  title: "Multi-Family Construction PM Tampa | Apartments",
   description:
     "Expert project management for multi-family construction in Tampa Bay. Condo, apartment, and mixed-use development scheduling, budgeting, stakeholder coordination, and risk management.",
   keywords:

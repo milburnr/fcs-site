@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Home, Ruler, Users, Shield, Maximize } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Spacious Family Homes Construction in Tampa | Large Custom Homes",
+  title: "Spacious Family Homes Tampa | Large Custom Homes",
   description: "Build spacious family homes in Tampa with generous floor plans, high ceilings, and room to grow. Custom construction for families who need space. From $450K-$2.5M+.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What's the minimum lot size for a spacious home?",
+    answer: "For homes over 4,000 square feet with proper setbacks and outdoor living, we typically recommend lots of at least 15,000 square feet (about one-third acre). Larger homes of 6,000+ square feet benefit from half-acre or larger lots. Zoning setback requirements vary by municipality and neighborhood, so we analyze specific lots during project planning to ensure your vision fits the site."
+  },
+  {
+    question: "Do higher ceilings significantly increase construction costs?",
+    answer: "Moving from 8-foot to 10-foot ceilings adds approximately 5-8% to construction costs due to additional wall materials, taller doors and windows, and increased HVAC requirements. However, the dramatic improvement in home feel and livability typically justifies this investment. Two-story volume spaces cost more proportionally but create the most impressive visual impact."
+  },
+  {
+    question: "How do you prevent large homes from feeling cavernous?",
+    answer: "Scale and proportion matter more than sheer size. We design homes with varied ceiling heights—higher in public spaces, slightly lower in bedrooms and intimate areas. Furniture groupings define zones within open spaces. Lighting design creates warmth and intimacy. Architectural details at human scale—wainscoting, built-ins, fireplace surrounds—bring large rooms into comfortable proportion. The goal is spacious, not overwhelming."
+  },
+  {
+    question: "What about energy efficiency in larger homes?",
+    answer: "Larger homes require thoughtful energy design. We use high-performance building envelopes, zoned HVAC systems that condition occupied spaces rather than heating/cooling the entire home, and energy recovery ventilation. Spray foam insulation maintains comfort in high-ceiling spaces. Smart home systems optimize efficiency based on occupancy patterns. These measures keep operating costs reasonable despite larger square footage."
+  },
+  {
+    question: "Can you build spacious homes on narrower urban lots?",
+    answer: "Yes, through vertical design. Multi-story homes with rooftop terraces, courtyards that bring light deep into floor plans, and elevated outdoor living spaces maximize space on constrained lots. We've built impressive homes on 50-foot-wide lots by thinking creatively about volume and flow. The key is early planning—understanding site constraints before design begins enables creative solutions."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

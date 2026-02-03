@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Lakeland FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction Lakeland | Condos | FCS",
   description: "Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal. Call (813) 420-7561.",
   keywords: "multi-family construction lakeland, apartment construction lakeland fl, condo builder lakeland, townhome construction polk county, senior living construction lakeland, workforce housing lakeland",
 };

@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, Lock, Camera, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Secure Custom Home Construction in Tampa | Safety & Protection",
+  title: "Secure Custom Home Construction Tampa | Safety",
   description: "Build a secure custom home in Tampa with integrated security systems, safe rooms, reinforced construction, and smart access control. Complete security from $25K-$150K+.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much does a residential safe room cost?",
+    answer: "Safe rooms built during new construction typically range from $15,000-50,000 depending on size, specification level, and equipment. A basic FEMA 320 shelter for storm protection costs less than a high-security panic room with reinforced construction, backup communications, and supplies storage. Building during construction saves 30-50% compared to retrofitting existing homes, where demolition and structural modifications increase costs significantly."
+  },
+  {
+    question: "What camera resolution do you recommend?",
+    answer: "We recommend 4K (8MP) cameras for key areas like entry points and driveways where facial and license plate identification matters, with 1080p adequate for general coverage areas. 4K provides sufficient detail for law enforcement identification from reasonable distances. Storage requirements increase with resolution, so we size NVR systems appropriately and configure motion-activated recording to optimize storage while maintaining complete coverage."
+  },
+  {
+    question: "Can security systems be hacked?",
+    answer: "Any networked system carries some vulnerability, but professional security installations implement enterprise-grade protection: encrypted communications, secure cloud connections, regular firmware updates, and network segmentation. Consumer-grade DIY systems are more vulnerable than professional installations. We configure proper cybersecurity practices including strong passwords, two-factor authentication, and isolated networks for security equipment."
+  },
+  {
+    question: "Do I need professional monitoring?",
+    answer: "Professional monitoring provides 24/7 response when you can't respond personally—during sleep, travel, or when phones are silenced. Monitored systems verify alarms and dispatch authorities without requiring your intervention. Self-monitoring works for some clients, but response delays can be significant. Many insurance companies offer premium discounts for professionally monitored systems. We recommend monitoring for comprehensive security but design systems to function either way."
+  },
+  {
+    question: "How do you secure homes during construction?",
+    answer: "Construction-phase security includes temporary fencing, lockable tool storage, camera systems, and controlled access for workers and deliveries. High-value materials are delivered just-in-time rather than stored on site. We maintain sign-in logs and background check key personnel. For luxury projects, we implement enhanced protocols including temporary alarm systems and security patrols during critical phases when expensive materials are installed."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

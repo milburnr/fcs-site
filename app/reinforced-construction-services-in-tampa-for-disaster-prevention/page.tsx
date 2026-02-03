@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Shield, Wrench, Building2, FileCheck
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Reinforced Construction Services Tampa | Hurricane & Disaster Prevention",
+  title: "Reinforced Construction Tampa | Hurricane-Proof",
   description: "Reinforced construction services in Tampa for disaster prevention. Commercial building hardening, hurricane-resistant upgrades, and structural reinforcement to protect Tampa Bay businesses.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
   { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 export default function Page() {
@@ -416,6 +440,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

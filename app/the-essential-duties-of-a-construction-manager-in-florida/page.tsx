@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Essential Duties of a Construction Manager in Florida | Tampa Bay",
+  title: "Construction Manager Duties Florida | Tampa",
   description: "Discover the critical responsibilities of construction managers in Florida commercial projects. Learn how professional CM services ensure project success in Tampa Bay.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  },
+  {
+    "title": "Building the Perfect Construction Blueprint",
+    "href": "/building-the-perfect-construction-blueprint/",
+    "description": "How detailed planning documents set projects up for success."
+  }
+];
+
+const faqs = [
+  {
+    question: "Do construction managers need a contractor's license in Florida?",
+    answer: "It depends on the contract structure. Construction managers operating \"at risk\" (holding contracts with subcontractors) must hold appropriate Florida contractor licenses. CMs working purely as the owner's agent may not require licensure but typically hold licenses anyway to provide comprehensive services. Florida Construction Specialists maintains all required state licenses for construction management services."
+  },
+  {
+    question: "How does a construction manager differ from a project manager?",
+    answer: "While the terms are sometimes used interchangeably, a construction manager typically refers to the firm or lead individual providing CM services, while project managers are employees assigned to specific projects. The CM firm's project manager handles day-to-day management, supported by superintendents, engineers, and administrative staff depending on project size and complexity."
+  },
+  {
+    question: "What qualifications should a Florida construction manager have?",
+    answer: "Look for CMs with extensive Florida experience, proper licensing, strong safety records, and professional credentials such as CCM (Certified Construction Manager) from the Construction Management Association of America. Experience with your specific project type (healthcare, retail, office, etc.) and familiarity with local Tampa Bay jurisdictions are also important qualifications."
+  },
+  {
+    question: "How much does construction management cost in Tampa Bay?",
+    answer: "CM fees typically range from 3-8% of construction cost, depending on project size, complexity, and the scope of services required. While this adds visible cost, effective construction management often saves multiples of the fee through value engineering, competitive procurement, and avoiding costly delays and errors. Many owners find that professional CM services provide excellent return on investment."
+  },
+  {
+    question: "When should I hire a construction manager for my project?",
+    answer: "The earlier the better. Ideally, engage a construction manager during the programming or schematic design phase to maximize the value of pre-construction services. However, CMs can add value at any stage—even projects already in design can benefit from constructability review, cost estimation, and procurement management. Contact Florida Construction Specialists to discuss your project's specific timing needs."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -574,6 +622,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

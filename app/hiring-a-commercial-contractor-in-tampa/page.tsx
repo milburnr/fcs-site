@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Expert Tips for Hiring a Commercial Contractor in Tampa | Complete Guide",
+  title: "Hiring a Commercial Contractor Tampa | Guide",
   description: "Looking for a dependable commercial contractor in Tampa? Discover the top considerations for hiring one, from expertise and qualifications to reputation and pricing.",
 };
 

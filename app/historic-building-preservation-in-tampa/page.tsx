@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Historic Building Preservation in Tampa | Expert Restoration Services",
+  title: "Historic Building Preservation Tampa | FCS",
   description: "Comprehensive guide to historic building preservation in Tampa. Learn about National Register listings, local designations, tax credits, and preservation standards.",
 };
 

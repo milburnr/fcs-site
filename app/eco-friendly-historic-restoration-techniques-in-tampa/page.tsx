@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Eco-Friendly Historic Restoration Techniques in Tampa | Sustainable Preservation",
+  title: "Eco-Friendly Historic Restoration Tampa | Green",
   description: "Discover sustainable historic restoration in Tampa. Learn how preservation conserves embodied energy, combines with LEED certification, and qualifies for tax credits.",
 };
 
@@ -25,11 +25,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can I install solar panels on a historic building?",
+    answer: "Solar panels can often be installed on historic buildings if properly located and designed. The National Park Service and local preservation commissions generally accept installations that are not visible from public rights-of-way and do not damage historic roofing materials. Flat roofs, rear-facing slopes, and accessory structures often provide acceptable locations. We work with preservation consultants to develop solar strategies that meet both sustainability goals and preservation standards."
+  },
+  {
+    question: "Should I replace historic windows with energy-efficient units?",
+    answer: "In most cases, no. Properly restored historic windows with weatherstripping and storm windows can achieve energy performance within 15-20% of replacement windows—while preserving original materials, maintaining historic character, and avoiding the environmental impact of manufacturing. Additionally, replacement windows have a typical lifespan of 15-25 years, while well-maintained historic wood windows can last indefinitely. The Secretary of the Interior&apos;s Standards generally require retaining original windows."
+  },
+  {
+    question: "How does historic preservation compare to new green construction environmentally?",
+    answer: "Research by the Preservation Green Lab found that building reuse almost always offers environmental savings over new construction. Even when new construction incorporates green building practices, it can take 10-80 years to overcome the negative climate impacts of demolition and new construction. Rehabilitation of historic buildings preserves embodied energy, avoids construction waste, and typically requires fewer new materials."
+  },
+  {
+    question: "Can a historic building achieve LEED certification?",
+    answer: "Yes. Numerous historic buildings have achieved LEED certification, including Platinum certification, while meeting the Secretary of the Interior&apos;s Standards. The USGBC&apos;s LEED program includes credits specifically recognizing historic building reuse. Key strategies include maximizing the sustainability of existing features, carefully integrating efficient systems, and selecting sustainable materials for new work."
+  },
+  {
+    question: "What incentives are available for sustainable historic restoration?",
+    answer: "Projects may benefit from multiple incentive programs: the 20% federal historic tax credit for qualified rehabilitation expenditures (including many sustainable improvements), utility rebates for energy-efficient equipment, and potential PACE financing for energy and water improvements. Some jurisdictions offer additional incentives for combined historic preservation and green building achievements."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

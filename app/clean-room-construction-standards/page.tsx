@@ -20,6 +20,7 @@ import { LocalBusinessSchema, ServiceSchema, ArticleSchema, FAQSchema, Breadcrum
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -28,7 +29,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Clean Room Construction Standards | Medical & Pharmaceutical | FCS Tampa",
+  title: "Clean Room Construction Tampa | Medical | FCS",
   description:
     "Expert guide to clean room construction standards for medical facilities, pharmaceutical labs, and manufacturing in Tampa Bay. ISO classifications and HVAC requirements explained.",
   keywords:
@@ -254,6 +255,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Key Considerations for Building Medical Facilities",
+    "href": "/key-considerations-for-building-medical-facilities-in-florida/",
+    "description": "Specialized requirements for healthcare construction in Florida."
+  },
+  {
+    "title": "Navigating AHCA Inspections",
+    "href": "/navigating-ahca-inspections/",
+    "description": "Preparing for and passing Florida healthcare facility inspections."
+  },
+  {
+    "title": "Medical Facility Renovations",
+    "href": "/medical-facility-renovations-with-construction-specialists/",
+    "description": "Renovating healthcare spaces while maintaining operations and compliance."
+  },
+  {
+    "title": "Senior Living Construction Requirements",
+    "href": "/senior-living-construction-requirements/",
+    "description": "Building assisted living and senior care facilities in Florida."
+  }
 ];
 
 export default function CleanRoomConstructionStandardsPage() {
@@ -615,6 +639,10 @@ export default function CleanRoomConstructionStandardsPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

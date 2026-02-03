@@ -10,7 +10,7 @@ import { ContentImage, ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Tampa | Building Waterproofing Florida | FCS",
+  title: "Exterior Waterproofing Tampa | Florida | FCS",
   description: "Expert exterior waterproofing Tampa services for commercial and residential buildings. Premium building waterproofing Florida solutions. Foundation, plaza deck, parking structure waterproofing. Call today!",
   keywords: "exterior waterproofing Tampa, building waterproofing Florida, commercial waterproofing contractor, foundation waterproofing Tampa Bay, below-grade waterproofing, plaza deck waterproofing",
 };

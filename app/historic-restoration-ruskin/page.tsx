@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration Ruskin FL | Ruskin Colony & Fishing Village Heritage | FCS",
+  title: "Historic Restoration Ruskin FL | Colony Heritage",
   description: "Expert historic restoration contractor in Ruskin, Florida. Ruskin Colony heritage buildings, fishing village structures, agricultural packing houses. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration ruskin, ruskin colony restoration, fishing village preservation, agricultural heritage buildings ruskin, historic preservation south hillsborough, SHPO ruskin florida",
 };

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ChefHat, Flame, Refrigerator, UtensilsCrossed, Wine } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Are professional-grade appliances worth the premium?",
+    answer: "For serious home cooks, absolutely. Professional ranges provide heat output and control that standard units can't match—essential for techniques like proper searing, wok cooking, and rapid boiling. Built-in refrigeration preserves food better and lasts longer. However, if you rarely cook elaborate meals, premium appliances may exceed your needs. Be honest about your cooking habits when specifying equipment."
+  },
+  {
+    question: "How much space does a gourmet kitchen require?",
+    answer: "Functional gourmet kitchens typically need 200-400 square feet minimum, with 300-500 square feet ideal for most serious home cooks. Islands require clearance of 42-48 inches on all sides for comfortable circulation. Butler's pantries add another 50-100+ square feet. Very large kitchens (500+ square feet) risk inefficient workflow if not designed carefully—bigger isn't always better."
+  },
+  {
+    question: "What countertop material is best for gourmet kitchens?",
+    answer: "There's no single best choice—optimal selection depends on your cooking style and maintenance tolerance. Quartzite offers excellent all-around performance with natural beauty. Quartz composites provide low maintenance with consistent appearance. Granite remains popular for good reason. Marble is ideal for pastry but requires careful maintenance. Many gourmet kitchens combine materials strategically."
+  },
+  {
+    question: "Do gourmet kitchens add resale value?",
+    answer: "High-quality kitchens consistently rank among the best investments for home value. Gourmet kitchens particularly appeal to buyers who will appreciate the features—serious cooks who understand equipment quality and design sophistication. In Tampa Bay's luxury market, premium kitchens are expected rather than exceptional. ROI typically ranges 60-80% for quality kitchen investments."
+  },
+  {
+    question: "How do you accommodate multiple cooks?",
+    answer: "Multi-cook kitchens require additional workspace, multiple prep areas, and careful traffic flow planning. Two prep sinks prevent congestion at the main sink. Separate prep zones with dedicated counter space let cooks work simultaneously. Clearances must accommodate passing each other safely around hot equipment. Some designs include separate stations for different tasks—baking areas, for example, separated from hot cooking zones."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

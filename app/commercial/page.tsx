@@ -30,7 +30,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Commercial Construction Services Tampa | $500K-$25M+ Projects | FCS",
+  title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
   description:
     "Tampa Bay's premier commercial general contractor. Medical facilities, multi-family developments, industrial construction, and large-loss disaster recovery. 40+ years experience and in-house engineering.",
   keywords:

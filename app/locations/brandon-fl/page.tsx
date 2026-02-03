@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Brandon Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  title: "Brandon Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Brandon, FL. Commercial construction, multi-family residential, disaster recovery. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction brandon, brandon general contractor, disaster recovery brandon fl, construction company brandon florida",
 };

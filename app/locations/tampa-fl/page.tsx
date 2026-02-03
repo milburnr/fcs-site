@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  title: "Tampa Commercial Construction | $500K-$25M+ | FCS",
   description: "Premier general contractor serving Tampa, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction tampa, tampa general contractor, disaster recovery tampa, historic restoration tampa fl, large scale construction tampa",
 };

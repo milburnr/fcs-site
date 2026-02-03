@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Building, Sun, Droplets, Wind, Award, TrendingUp, DollarSign, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much does sustainable commercial construction cost compared to conventional?",
+    answer: "The cost premium for sustainable construction has declined significantly and now ranges from 0-5% for most projects. Many sustainable features are now standard practice with minimal premium. When factoring in available incentives (179D, solar ITC, utility rebates), the net premium is often negligible. The 25-35% operating cost savings typically recover any additional investment within 3-7 years."
+  },
+  {
+    question: "Is LEED certification worth pursuing for my Tampa commercial project?",
+    answer: "For most commercial projects, yes. LEED-certified buildings command 10-20% higher rents, experience better occupancy, and achieve higher sale prices. The certification process ensures your building achieves its sustainability goals. Tampa also offers expedited permitting for LEED-registered projects. We can help you determine whether LEED, Florida Green Building Coalition, or another certification best fits your project."
+  },
+  {
+    question: "What sustainable features offer the best return on investment?",
+    answer: "LED lighting with smart controls typically offers the fastest payback (1-3 years), followed by building automation systems (3-5 years), and efficient HVAC (4-7 years). Solar PV delivers strong returns in Tampa's sunny climate, especially after the 30% federal tax credit. Cool roofing is particularly valuable in Florida, with 3-5 year payback on cooling cost reductions."
+  },
+  {
+    question: "How do sustainable buildings perform during Florida hurricanes?",
+    answer: "Sustainable buildings often outperform conventional structures during hurricanes because they feature enhanced building envelopes, impact-resistant glazing, and superior construction quality. Solar panels are engineered for 180+ mph winds. Battery storage provides power during extended outages. The emphasis on durability in sustainable construction aligns perfectly with hurricane resilience."
+  },
+  {
+    question: "What incentives are available for sustainable construction in Tampa?",
+    answer: "Tampa Bay offers numerous incentives: federal 179D tax deduction (up to $5/SF), 30% solar Investment Tax Credit, TECO and Duke Energy rebates, PACE financing for qualifying improvements, and Tampa's expedited permitting for LEED projects. Our team helps identify and maximize all available incentives for your specific project."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

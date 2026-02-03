@@ -22,9 +22,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Florida SB4-D Compliance Guide | Condo Milestone Inspections & SIRS | FCS",
+  title: "Florida SB4-D Compliance Guide | Milestone | FCS",
   description:
     "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections, SIRS requirements, deadlines, and remediation planning for Tampa Bay.",
   keywords:
@@ -143,6 +144,29 @@ const internalLinks = [
   { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  },
+  {
+    "title": "Choosing the Right Waterproofing Solution",
+    "href": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+    "description": "Compare waterproofing systems for optimal performance in Florida's climate."
+  }
 ];
 
 export default function SB4DCompliancePage() {
@@ -585,6 +609,10 @@ export default function SB4DCompliancePage() {
           </Link>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

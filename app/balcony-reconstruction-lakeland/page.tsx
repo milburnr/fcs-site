@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Balcony Reconstruction Lakeland FL | SB 4-D Compliance & Condo Restoration | FCS",
+  title: "Balcony Reconstruction Lakeland | SB 4-D | FCS",
   description: "Lakeland balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance (30-year inland requirement), structural repairs, waterproofing. Expert contractors serving Polk County. Licensed, bonded, insured.",
   keywords: "balcony reconstruction Lakeland, SB 4-D compliance Lakeland, condo balcony repair Lakeland FL, balcony waterproofing Polk County, milestone inspection Lakeland, HOA balcony contractor Lakeland",
 };

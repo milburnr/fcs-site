@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "The Role of a Construction Manager in Tampa Commercial Projects",
+  title: "Construction Manager Role Tampa | Commercial",
   description: "Discover how construction managers guide commercial building projects from concept to completion. Learn about CM services from Florida Construction Specialists.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the difference between a construction manager and a project manager?",
+    answer: "\"Construction manager\" typically refers to the firm providing CM services or the senior professional leading the engagement. \"Project manager\" usually refers to the individual from that firm assigned to manage your specific project on a day-to-day basis. The CM firm provides the project manager along with supporting resources like superintendents, engineers, and administrative staff."
+  },
+  {
+    question: "Do I still need an architect if I have a construction manager?",
+    answer: "Yes. Construction managers provide project oversight and construction expertise, but they don't replace design professionals. You'll still need architects and engineers to design your building. The CM works alongside these professionals, providing constructability input during design and managing construction execution afterward."
+  },
+  {
+    question: "Can a construction manager also serve as the general contractor?",
+    answer: "Yes, particularly under the CM at Risk delivery method. In this case, the construction manager provides early involvement and professional oversight services while also contracting directly with subcontractors and assuming financial responsibility for construction costs. This hybrid approach combines benefits of both CM and GC models."
+  },
+  {
+    question: "How involved should I be if I hire a construction manager?",
+    answer: "Your involvement level depends on your preference and the contract structure. Most owners appreciate regular progress meetings and milestone approvals while delegating day-to-day decisions to the CM. The construction manager should keep you informed and seek input on significant decisions while handling routine matters independently. We tailor our communication approach to each owner's preferences."
+  },
+  {
+    question: "What size project warrants hiring a construction manager?",
+    answer: "While there's no strict minimum, construction management typically provides the greatest value on projects with budgets of $1 million or more, complex scope, tight schedules, or owners who lack internal construction expertise. For smaller projects, the CM fee may represent a larger percentage of total cost. However, even smaller projects can benefit from CM services when complexity or risk justify the investment."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -562,6 +610,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

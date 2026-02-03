@@ -8,7 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Hurricane-Resistant Home Construction Tampa | Storm-Proof Building | FCS",
+  title: "Hurricane-Resistant Home Construction Tampa | FCS",
   description: "Hurricane-resistant home construction in Tampa Bay. Impact windows, reinforced roofing, continuous load paths, flood protection. Custom homes built to exceed Florida Building Code. Call (813) 420-7561.",
   keywords: ["hurricane resistant construction tampa", "storm proof home building", "impact resistant construction florida", "fortified home builder", "hurricane protection construction"],
 };

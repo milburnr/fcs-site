@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Trophy, Target, Dumbbell, Waves, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Customized Outdoor Sports Facilities in Tampa Homes | Courts & Fields",
+  title: "Outdoor Sports Facilities Tampa Homes | Courts",
   description: "Build custom sports facilities at your Tampa home. Tennis courts, basketball courts, putting greens, batting cages, pickleball, and athletic amenities. Sports homes from $100K-$500K+ additions.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much land do I need for a tennis court?",
+    answer: "A regulation tennis court itself is 78 x 36 feet, but you need clearance around all sides—minimum 12 feet behind baselines and 6 feet on sides, though more is better. Total footprint is typically 120 x 60 feet (7,200 square feet). Add space for fencing, gates, and any desired seating or shade. Consider access for construction equipment during building and maintenance vehicles afterward. Most residential courts work well on half-acre or larger lots."
+  },
+  {
+    question: "What maintenance do sports courts require?",
+    answer: "Hard courts need periodic cleaning, pressure washing, and resurfacing every 4-8 years depending on use and conditions. Annual costs typically run $500-2,000. Clay courts require daily maintenance—rolling, watering, line brushing—making them impractical without staff or extreme dedication. Synthetic turf facilities need occasional brushing, infill replenishment, and cleaning. Proper maintenance preserves playing quality and extends facility life significantly."
+  },
+  {
+    question: "Can sports facilities increase property value?",
+    answer: "Quality sports facilities typically return 30-50% of investment at resale—less than pools or outdoor kitchens but meaningful for buyers who value athletics. Tennis courts and pickleball courts have broad appeal given current popularity. More specialized facilities (batting cages, golf simulators) appeal to narrower buyer pools. Location matters: properties in country club areas or athletic communities see better returns than facilities in neighborhoods where they seem out of place."
+  },
+  {
+    question: "How do you handle drainage for sports facilities?",
+    answer: "Proper drainage is critical—courts must shed water without puddling while not flooding surrounding areas. We grade surfaces with precise slopes (typically 1% for hard courts) and install perimeter drainage systems that handle Tampa's heavy rains. Subsurface preparation includes compacted base materials that promote drainage. Poor drainage leads to standing water, algae growth, surface damage, and shortened facility life. This is where professional construction pays dividends."
+  },
+  {
+    question: "What about HOA restrictions on sports facilities?",
+    answer: "Many HOAs regulate or prohibit certain sports facilities, particularly those visible from streets or neighboring properties. Height restrictions may affect fencing or lighting. Some communities require architectural review approval. We research restrictions before design and can often develop approaches that satisfy HOA requirements while achieving your goals. Sometimes negotiation or variance requests are appropriate—having a professional design helps these conversations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -382,6 +430,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Post-Disaster Health & Safety Inspections Tampa | Hurricane Building Assessment",
+  title: "Post-Disaster Safety Inspections Tampa | Hurricane",
   description: "Professional post-disaster health and safety inspections in Tampa Bay. Expert assessment of hurricane, flood, and storm damage to ensure building safety and support insurance claims.",
 };
 

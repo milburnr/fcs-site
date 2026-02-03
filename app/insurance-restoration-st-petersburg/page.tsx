@@ -43,7 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration St. Petersburg | 43 Years Claims Experience",
+  title: "Insurance Restoration St. Petersburg | 43 Years",
   description:
     "St. Petersburg's most experienced insurance restoration contractor. 43 years claims expertise from both sides—adjuster AND contractor. Hurricane, flood, fire damage restoration. Historic district specialists. Call (813) 420-7561.",
   keywords:

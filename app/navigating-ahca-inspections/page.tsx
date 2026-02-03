@@ -22,9 +22,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Navigating AHCA Inspections | Medical Facility Construction Tampa | FCS",
+  title: "AHCA Inspections Tampa | Medical Construction",
   description:
     "Expert guide to AHCA compliance for medical facility construction in Tampa Bay. CON requirements, licensure inspections, and healthcare building codes.",
   keywords:
@@ -167,6 +168,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Key Considerations for Building Medical Facilities",
+    "href": "/key-considerations-for-building-medical-facilities-in-florida/",
+    "description": "Specialized requirements for healthcare construction in Florida."
+  },
+  {
+    "title": "Medical Facility Renovations",
+    "href": "/medical-facility-renovations-with-construction-specialists/",
+    "description": "Renovating healthcare spaces while maintaining operations and compliance."
+  },
+  {
+    "title": "Clean Room Construction Standards",
+    "href": "/clean-room-construction-standards/",
+    "description": "Meeting stringent requirements for controlled environment construction."
+  },
+  {
+    "title": "Senior Living Construction Requirements",
+    "href": "/senior-living-construction-requirements/",
+    "description": "Building assisted living and senior care facilities in Florida."
+  }
 ];
 
 export default function AHCAInspectionsPage() {
@@ -572,6 +596,10 @@ export default function AHCAInspectionsPage() {
           </Link>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Tampa FL | Building Envelope & Foundation | FCS",
+  title: "Exterior Waterproofing Tampa FL | Envelope | FCS",
   description: "Tampa exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, plaza decks. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing Tampa, building envelope waterproofing Tampa, foundation waterproofing Tampa, commercial waterproofing Tampa, parking deck waterproofing Tampa",
 };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can I combine federal and state historic tax credits?",
+    answer: "Yes, federal and Florida state historic tax credits can be combined on the same project, providing up to 45% credit on qualified rehabilitation expenditures. The Florida credit is calculated on the full QRE amount (not reduced by the federal credit), maximizing combined benefit. Both programs require the same basic qualifications—National Register listing and compliance with the Secretary of the Interior's Standards."
+  },
+  {
+    question: "My building isn't listed on the National Register. Can I still get tax credits?",
+    answer: "Buildings that are not currently listed but located within National Register-listed historic districts may qualify if they \"contribute\" to the district's character. Individual properties can pursue National Register nomination—a process typically taking 6-12 months. Pre-application consultation with SHPO can determine eligibility potential before investing in the nomination process."
+  },
+  {
+    question: "What counts as \"qualified rehabilitation expenditure\" for tax credits?",
+    answer: "QREs generally include construction costs for work on the historic building itself—structural repairs, mechanical/electrical systems, interior finishes, and code compliance improvements. Land, acquisition costs, new additions, site work, and furnishings typically don't qualify. Careful categorization during budgeting maximizes QRE amounts and resulting credits."
+  },
+  {
+    question: "How long does the tax credit process take?",
+    answer: "The three-part application process typically spans the project timeline. Part 1 (historic significance) takes 30-60 days for NPS review. Part 2 (description of rehabilitation) may take 60-90 days and must be approved before construction begins. Part 3 (completed work certification) follows construction completion. Planning should begin 6-12 months before construction start."
+  },
+  {
+    question: "What happens if my project doesn't qualify for tax credits?",
+    answer: "Projects that don't meet tax credit requirements may still access other funding sources—property tax incentives, foundation grants, and specialized lending remain available for historic properties regardless of tax credit eligibility. Additionally, modifications to project scope may enable qualification—early consultation can identify changes that preserve project goals while meeting credit requirements."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

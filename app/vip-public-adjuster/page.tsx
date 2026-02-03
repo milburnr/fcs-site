@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "VIP Public Adjuster Services Tampa | Commercial Insurance Claim Advocacy",
+  title: "VIP Public Adjuster Tampa | Commercial Claims",
   description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Maximize insurance claim settlements with professional advocacy, documentation, and negotiation support.",
 };
 

@@ -8,7 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   title: "Terms and Conditions",
-  description: "1. Introduction",
+  description: "Review the terms and conditions for using Florida Construction Specialists' website. Understand your rights, responsibilities, and our policies for Tampa Bay construction services.",
 };
 
 const breadcrumbItems = [

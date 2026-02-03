@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Building, Sun, Droplets, Wind, Award, TrendingUp, DollarSign, Zap, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Unlocking the Power of Sustainable Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Sustainable Building Practices in Florida",
+    "href": "/sustainable-building-practices-florida-green-construction/",
+    "description": "Green construction methods suited to Florida's climate and regulations."
+  },
+  {
+    "title": "Florida Leading the Way in LEED Certification",
+    "href": "/construction-florida-leading-way-leed-certification/",
+    "description": "How Florida projects are achieving LEED certification for commercial buildings."
+  },
+  {
+    "title": "Zero Net Energy in Commercial Construction",
+    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "description": "Designing commercial buildings that produce as much energy as they consume."
+  },
+  {
+    "title": "Benefits of Sustainable Materials",
+    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "description": "How green materials improve building performance and reduce costs."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much does sustainable construction really cost compared to conventional?",
+    answer: "The cost premium for sustainable construction has declined dramatically and now typically ranges from 0-5% for most commercial projects. Many sustainable features are now standard practice. When factoring in incentives (179D, solar ITC, utility rebates), the net premium is often negligible. The 25-35% operating cost savings typically recover any additional investment within 3-7 years—and the value creation continues for decades after."
+  },
+  {
+    question: "What sustainable features should I prioritize for maximum ROI?",
+    answer: "Start with features offering the fastest payback: LED lighting with controls (1-3 years), building automation (3-5 years), and water-efficient fixtures (1-2 years). Then add high-performance envelope and HVAC improvements (5-8 years). Solar PV delivers strong returns in Tampa's sunny climate after the federal tax credit. If pursuing certification, LEED Silver often represents the best value balance."
+  },
+  {
+    question: "Is LEED certification worth the investment?",
+    answer: "For most Tampa Bay commercial projects, yes. LEED buildings command 10-20% rent premiums and sell for similar premiums. The certification process ensures your building achieves its sustainability goals. Tampa offers expedited permitting for LEED projects. The market recognition attracts quality tenants. We can help you determine the optimal certification level for your project."
+  },
+  {
+    question: "How do sustainable buildings perform during Florida hurricanes?",
+    answer: "Sustainable buildings typically outperform conventional structures. Enhanced building envelopes resist wind and water better. Impact-resistant glazing protects against flying debris. Solar panels are engineered for 180+ mph winds. Battery storage maintains operations during extended outages. The durability emphasis in sustainable construction aligns perfectly with hurricane resilience."
+  },
+  {
+    question: "What incentives can reduce my sustainable construction costs?",
+    answer: "Multiple incentives are available: federal 179D tax deduction (up to $5/SF), 30% solar Investment Tax Credit, TECO and Duke Energy rebates for efficiency measures, PACE financing for qualifying improvements, and Tampa's expedited permitting for LEED projects. Combined, these incentives can offset most or all of the sustainability premium while accelerating project timelines."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -417,6 +465,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

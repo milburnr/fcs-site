@@ -44,7 +44,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Condo Remediation Lakeland | SB4-D Compliance Polk County | FCS",
+  title: "Condo Remediation Lakeland | SB4-D Polk | FCS",
   description:
     "Lakeland condo remediation experts. SB4-D compliance, milestone inspections (30-year inland deadline), SIRS structural reserve studies. Polk County licensed contractor. Call (813) 420-7561.",
   keywords:

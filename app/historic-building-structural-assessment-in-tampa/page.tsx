@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How do I know if my historic building needs structural assessment?",
+    answer: "Any historic building should receive structural assessment before significant restoration investment. Visible indicators requiring immediate assessment include cracks in masonry, bulging walls, sagging floors or roofs, evidence of settlement, and water damage. Even without visible problems, assessment before purchase or major rehabilitation protects against costly surprises."
+  },
+  {
+    question: "Will structural assessment damage historic fabric?",
+    answer: "Professional assessment minimizes physical investigation using non-destructive techniques where possible. When probes, cores, or test pits are necessary, locations are selected to minimize impact on significant features. Investigation openings can often be located in areas scheduled for modification, and all openings are repaired following investigation."
+  },
+  {
+    question: "Can historic buildings be strengthened to meet modern codes?",
+    answer: "Most historic buildings can be strengthened to improve safety, though achieving full modern code compliance may not be required or appropriate. Building codes often provide flexibility for historic structures, allowing compliance paths that preserve historic character. Assessment identifies minimum required strengthening and options for enhanced performance."
+  },
+  {
+    question: "How does structural work affect historic tax credit eligibility?",
+    answer: "Structural repairs qualify as rehabilitation expenditures for tax credit purposes when performed according to the Secretary of the Interior's Standards. Work that preserves historic structural systems typically receives credit approval. Replacement of structural elements may require justification demonstrating that repair is not feasible and that replacement matches original character."
+  },
+  {
+    question: "Who should perform structural assessment of historic buildings?",
+    answer: "Assessment should be performed by structural engineers with specific experience in historic buildings. General structural engineers may not understand historic construction methods, typical deterioration patterns, or preservation-appropriate repair approaches. Florida Construction Specialists works with engineers who specialize in historic structures and understand both engineering requirements and preservation standards."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

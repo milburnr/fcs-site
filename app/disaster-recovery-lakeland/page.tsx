@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery Lakeland FL | Storm & Tornado Damage Restoration | FCS",
+  title: "Disaster Recovery Lakeland FL | Storm | FCS",
   description: "Lakeland disaster recovery contractor specializing in tornado, severe storm, and flood damage restoration. Prime contractor for large loss insurance claims $250K-$50M. 24/7 emergency response. Licensed, bonded, insured.",
   keywords: "disaster recovery Lakeland, tornado damage restoration Lakeland, storm damage repair Lakeland, flood damage Lakeland, insurance restoration Lakeland, large loss contractor Lakeland, Frank Lloyd Wright restoration",
 };

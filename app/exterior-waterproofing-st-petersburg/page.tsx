@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing St. Petersburg FL | Building Envelope & Foundation | FCS",
+  title: "Exterior Waterproofing St. Petersburg | FCS",
   description: "St. Petersburg exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, plaza decks. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing St. Petersburg, building envelope waterproofing St. Petersburg, foundation waterproofing St. Petersburg, commercial waterproofing St. Petersburg, parking deck waterproofing St. Petersburg",
 };

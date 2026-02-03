@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building, Leaf, Sun, Wind, Droplets, Shield, Zap, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much do advanced materials add to construction costs?",
+    answer: "Advanced materials typically add 5-15% to affected building systems, but many deliver rapid payback through reduced operating costs. Some advanced options, like recycled steel framing in Florida, can actually cost less than conventional alternatives when factoring in termite treatment requirements. The total impact on project cost depends on which advanced materials you select and their scope within the project."
+  },
+  {
+    question: "Which advanced materials offer the best ROI in Tampa Bay?",
+    answer: "Cool roofing typically offers the fastest payback (3-5 years) due to Tampa's intense sun. ICF construction provides excellent returns through dramatically reduced cooling costs plus hurricane resilience. High-performance glazing pays back over 4-8 years while providing comfort and daylight benefits from day one. Recycled steel framing often costs less than treated wood upfront while eliminating termite concerns permanently."
+  },
+  {
+    question: "Are advanced materials as durable as conventional options?",
+    answer: "In most cases, advanced materials match or exceed conventional durability—that's often what makes them \"advanced.\" ICF walls last indefinitely. Quality cool roofing systems outlast conventional roofs due to reduced thermal cycling. High-performance windows are typically more robust than standard options. We select materials with proven track records in Tampa Bay's demanding climate."
+  },
+  {
+    question: "How do advanced materials contribute to LEED certification?",
+    answer: "Advanced materials earn LEED credits across multiple categories: recycled content and regional materials in Materials & Resources; high-performance envelope and glazing in Energy & Atmosphere; low-VOC products in Indoor Environmental Quality. We help identify material choices that maximize certification points while meeting performance and budget goals."
+  },
+  {
+    question: "Can advanced materials withstand Florida hurricanes?",
+    answer: "Many advanced materials offer superior hurricane resistance. ICF construction routinely achieves ratings exceeding 200 mph winds. Impact-resistant glazing protects against flying debris. Steel framing provides excellent wind resistance. We specify materials that meet or exceed Florida Building Code requirements for High-Velocity Hurricane Zones, ensuring your investment is protected."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

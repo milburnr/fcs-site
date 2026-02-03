@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Post-Disaster Landscaping Restoration Tampa | Commercial Site Recovery",
+  title: "Post-Disaster Landscaping Restoration Tampa",
   description: "Post-disaster landscaping restoration in Tampa. Commercial property debris removal, tree services, irrigation repair, and landscape reconstruction after hurricanes and storms.",
 };
 

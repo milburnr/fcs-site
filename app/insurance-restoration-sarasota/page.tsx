@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Sarasota FL | Hurricane Ian Recovery | 43 Years Claims Experience | FCS",
+  title: "Insurance Restoration Sarasota FL | Hurricane Recovery | FCS",
   description: "Sarasota insurance restoration contractor with 43 years claims experience from adjuster to contractor. Hurricane Ian recovery specialists. Luxury property claims, barrier island restoration on Siesta Key, Longboat Key, Lido Key. $250K-$50M projects.",
   keywords: "insurance restoration Sarasota, Hurricane Ian restoration Sarasota, flood damage Siesta Key, luxury property restoration Sarasota, Longboat Key storm damage, Lido Key hurricane repair, insurance claim contractor Sarasota, high-value home restoration",
 };

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Property Damage Restoration Tampa | Office & Retail Building Repair",
+  title: "Commercial Property Damage Restoration Tampa",
   description: "Expert commercial property damage restoration in Tampa. Office buildings, retail centers, and commercial facilities restored after hurricane, flood, fire, and storm damage. Insurance claim specialists.",
 };
 

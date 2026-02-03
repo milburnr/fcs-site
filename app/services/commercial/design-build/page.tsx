@@ -8,7 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Design-Build Construction Tampa | Single-Source Commercial Contractor | FCS",
+  title: "Design-Build Construction Tampa | FCS",
   description: "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$25M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
   keywords: ["design-build construction tampa", "design-build contractor florida", "single-source construction", "integrated design-build"],
 };

@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery Ruskin FL | Hurricane & Storm Damage Restoration | FCS",
+  title: "Disaster Recovery Ruskin FL | Hurricane | FCS",
   description: "Ruskin disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. FCS home base location with fastest emergency response. Prime contractor for large loss insurance claims $250K-$50M. 24/7 emergency response.",
   keywords: "disaster recovery Ruskin, hurricane damage restoration Ruskin, storm damage repair Ruskin, flood damage Apollo Beach, insurance restoration Ruskin, Sun City Center restoration, large loss contractor Ruskin",
 };

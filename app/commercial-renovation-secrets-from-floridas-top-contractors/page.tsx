@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, RefreshCw, Eye, Calendar, Shield, CheckCircle, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Commercial Renovation Secrets from Florida's Top Contractors",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const renovationSecrets = [
@@ -51,11 +75,31 @@ const renovationSecrets = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Is it cheaper to renovate or build new?",
+    answer: "It depends on the extent of renovation required and the condition of the existing building. Minor renovations clearly cost less than new construction. Major gut renovations with significant structural work can approach or exceed new construction costs while accepting the constraints of the existing structure."
+  },
+  {
+    question: "How long does commercial renovation take?",
+    answer: "Timelines vary widely by scope. Simple tenant improvements may complete in 8-12 weeks. Moderate renovations typically take 3-6 months. Major renovations and adaptive reuse projects can take 9-18 months. Phased work in occupied buildings typically extends timelines compared to complete shutdowns."
+  },
+  {
+    question: "What permits are needed for commercial renovation in Tampa?",
+    answer: "Most commercial renovations require building permits. Depending on scope, separate electrical, plumbing, mechanical, and fire protection permits may be needed. Change of use may require zoning approval. Your contractor should handle permit applications as part of their services."
+  },
+  {
+    question: "Can we stay open during renovation?",
+    answer: "Often yes, with proper planning. Phased construction, after-hours work, and appropriate barriers and dust control enable continued operations during many renovations. The feasibility depends on work scope, building layout, and operational requirements. Discuss this goal early with your contractor."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Commercial Renovation Secrets from Florida's Top Contractors"
         description="Insider tips for successful commercial renovation in Tampa Bay from experienced Florida contractors."
@@ -313,6 +357,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

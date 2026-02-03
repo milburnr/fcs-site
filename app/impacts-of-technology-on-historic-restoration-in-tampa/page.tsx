@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How does 3D scanning help with historic tax credit applications?",
+    answer: "3D scanning provides precise documentation of existing conditions required for Part 1 and Part 2 of the federal historic tax credit application. This technology creates accurate baseline records that demonstrate how proposed work complies with the Secretary of the Interior's Standards, improving approval rates and reducing review times."
+  },
+  {
+    question: "Can drone surveys damage historic buildings?",
+    answer: "When conducted by experienced operators, drone surveys pose no risk to historic structures. Drones maintain safe distances while capturing high-resolution imagery and thermal data. This non-invasive approach actually protects historic fabric by eliminating the need for scaffolding attachment points or manual access to fragile areas."
+  },
+  {
+    question: "Is BIM technology appropriate for all historic restoration projects?",
+    answer: "While BIM provides significant benefits for complex institutional and commercial projects, the technology investment may not be justified for smaller restoration work. Projects exceeding $1 million in scope, involving multiple building systems, or seeking historic tax credits typically benefit most from BIM implementation."
+  },
+  {
+    question: "How do material analysis costs compare to the value they provide?",
+    answer: "Material analysis typically costs $2,000-$10,000 but can prevent costly mistakes in material selection. Using incompatible replacement materials can cause deterioration, void tax credit eligibility, and require expensive remediation. The investment in proper analysis protects both historic integrity and financial returns."
+  },
+  {
+    question: "What technology should be prioritized for a typical commercial historic restoration?",
+    answer: "For most commercial historic restorations in Tampa, we recommend prioritizing comprehensive photography, drone survey for exterior assessment, and material analysis. Projects seeking tax credits should add 3D scanning for documentation. BIM should be considered for complex adaptive reuse projects with significant mechanical system integration."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

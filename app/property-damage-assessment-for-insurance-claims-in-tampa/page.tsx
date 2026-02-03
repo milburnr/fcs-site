@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Property Damage Assessment for Insurance Claims Tampa | Commercial Claim Documentation",
+  title: "Property Damage Assessment Tampa | Insurance Claims",
   description: "Expert property damage assessment for insurance claims in Tampa. Comprehensive documentation, damage quantification, and claim support for commercial hurricane, flood, and storm damage.",
 };
 

@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Historic Home Preservation Tampa | Hyde Park & South Tampa | FCS",
+  title: "Historic Home Preservation Tampa | Hyde Park",
   description:
     "Residential historic preservation in Tampa Bay. Hyde Park ARC compliance, South Tampa historic districts, period-accurate restoration. Certificate of appropriateness specialists.",
   keywords:

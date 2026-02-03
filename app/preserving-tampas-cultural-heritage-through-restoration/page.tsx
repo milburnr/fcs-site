@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Preserving Tampa's Cultural Heritage through Restoration",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  },
+  {
+    "title": "Tampa's Historic Districts Restoration Rules",
+    "href": "/tampas-historic-districts-restoration-rules/",
+    "description": "Guidelines for restoration projects in Tampa's designated historic areas."
+  }
+];
+
+const faqs = [
+  {
+    question: "How does cultural significance affect restoration approach?",
+    answer: "Buildings with strong cultural associations may require treatment approaches that go beyond standard preservation practice. Spaces or elements with particular community meaning may deserve enhanced protection even if not architecturally distinguished. Community input helps identify these culturally significant aspects that physical analysis alone might miss."
+  },
+  {
+    question: "Can culturally significant buildings qualify for tax credits?",
+    answer: "Yes, cultural significance is one criterion for National Register eligibility. Properties significant for their association with important events, persons, or cultural patterns may qualify even if their architecture is not individually distinctive. Many of Tampa's culturally significant buildings qualify for both federal and state historic tax credits."
+  },
+  {
+    question: "How do you balance preservation with continued cultural use?",
+    answer: "Culturally significant buildings often remain in active use by the communities they serve. Restoration must accommodate this ongoing use—providing modern systems, accessibility, and functional requirements—while preserving character that supports cultural function. The goal is enabling continued cultural use, not creating a museum."
+  },
+  {
+    question: "What role do ethnic heritage organizations play in restoration?",
+    answer: "Organizations maintaining culturally significant buildings possess institutional knowledge essential for appropriate restoration. The Italian Club's leadership understands how the building serves its community; religious congregations understand liturgical requirements. This knowledge should inform restoration decisions alongside technical preservation expertise."
+  },
+  {
+    question: "How can interpretation be incorporated into restoration?",
+    answer: "Interpretive elements—historic photographs, timeline markers, explanatory text—can be integrated into restoration projects with sensitivity to historic character. Placement, design, and materials should complement rather than detract from historic elements. Interpretation helps visitors understand significance that the building itself may not fully convey."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -250,6 +298,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

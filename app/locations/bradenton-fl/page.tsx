@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Bradenton Commercial Construction Contractor | $500K-$25M+ Projects | FCS",
+  title: "Bradenton Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Bradenton, FL. Commercial construction, multi-family residential, disaster recovery. Growing market expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction bradenton, bradenton general contractor, disaster recovery bradenton fl, construction company bradenton florida",
 };

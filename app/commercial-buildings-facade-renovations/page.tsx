@@ -5,9 +5,10 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Commercial Building Facade Renovations Tampa | Exterior Upgrades & Restoration",
+  title: "Commercial Facade Renovations Tampa | Exterior",
   description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization, EIFS repair, curtain wall upgrades, and exterior restoration from Florida Construction Specialists.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/revitalize-your-older-building-renovation-and-reconstruction/", label: "Building Revitalization" },
   { href: "/key-signs-your-commercial-remodel-needs/", label: "Signs You Need Renovation" },
   { href: "/contact/", label: "Get Free Estimate" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const facadeTypes = [
@@ -587,6 +611,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

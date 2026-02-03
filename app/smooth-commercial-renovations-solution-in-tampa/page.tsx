@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Smooth Commercial Renovations in Tampa | Stay Open During Construction",
+  title: "Smooth Commercial Renovations Tampa | Stay Open",
   description: "Keep your Tampa business running during commercial renovation. Phased construction, after-hours work, and business continuity strategies from Florida Construction Specialists.",
 };
 

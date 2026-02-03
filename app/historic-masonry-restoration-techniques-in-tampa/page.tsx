@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Why can't I use regular Portland cement mortar for repointing?",
+    answer: "Portland cement mortars are significantly harder than historic lime mortars and most historic brick. This hardness differential forces thermal and moisture movement stresses into the brick rather than the mortar, causing brick spalling and deterioration. Additionally, cement mortars can trap moisture within walls, accelerating deterioration in Tampa's humid climate."
+  },
+  {
+    question: "How can I tell if previous repointing damaged my historic building?",
+    answer: "Signs of improper repointing include brick faces spalling off adjacent to mortar joints, mortar that appears much harder or different in color than remaining original mortar, mortar smeared across brick faces, and accelerated deterioration in repointed areas compared to original mortar areas. If you observe these conditions, professional assessment can determine appropriate remediation."
+  },
+  {
+    question: "Is mortar analysis really necessary for a tax credit project?",
+    answer: "The National Park Service reviewers who approve historic tax credit applications expect mortar analysis for significant masonry restoration projects. Analysis documents the composition of original mortar and provides the basis for compatible replacement formulations. Skipping analysis risks credit denial if reviewers question whether replacement mortar is appropriate."
+  },
+  {
+    question: "Can deteriorated brick be repaired rather than replaced?",
+    answer: "Yes, conservation treatments including consolidation with appropriate products and compatible patching materials can often repair deteriorated brick. These techniques preserve original fabric—a priority under the Secretary of the Interior's Standards. Replacement should occur only when deterioration is too severe for repair, and replacement brick should match original characteristics as closely as possible."
+  },
+  {
+    question: "How long does proper masonry restoration last?",
+    answer: "Quality masonry restoration using appropriate materials and techniques should provide 50-100 years of service life—comparable to original construction. The key is using compatible materials that work with the building rather than against it. Improper restoration using incompatible materials may fail within 10-20 years and cause additional damage."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

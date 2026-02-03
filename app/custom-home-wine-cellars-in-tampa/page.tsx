@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Wine, Thermometer, Lock, Sparkles } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Wine Cellars in Tampa | Climate-Controlled Design",
+  title: "Custom Home Wine Cellars Tampa | Climate Control",
   description: "Build a custom wine cellar in your Tampa home. Climate control, proper storage, tasting rooms, and stunning design. Wine cellars from $25K-$200K+ for 500-5,000+ bottles.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can I add a wine cellar to my existing Tampa home?",
+    answer: "Absolutely. We regularly convert closets, portions of garages, or underutilized rooms into properly conditioned wine cellars. The key requirements are adequate space, access for cooling equipment installation, and structural capacity for loaded wine racks (which can weigh thousands of pounds). During consultation, we'll evaluate your space and recommend the best approach for your collection size and budget."
+  },
+  {
+    question: "What happens if the cooling system fails?",
+    answer: "A properly insulated cellar maintains temperature for 24-48 hours during equipment failure, providing time for repairs. We recommend remote monitoring systems that alert you immediately to temperature changes. For valuable collections, dual cooling units provide full redundancy—if one fails, the other maintains conditions. Battery backup for monitoring ensures alerts even during power outages."
+  },
+  {
+    question: "How much does it cost to operate a wine cellar in Tampa?",
+    answer: "Operating costs depend on cellar size, insulation quality, and equipment efficiency. A well-built 500-bottle cellar typically costs $30-60 monthly in electricity. Larger cellars with proper construction remain proportionally efficient. Poor construction—inadequate insulation or vapor barrier failures—can dramatically increase costs as equipment struggles against Tampa's heat and humidity."
+  },
+  {
+    question: "What wood species work best for wine racking?",
+    answer: "All-heart redwood is the traditional choice—naturally resistant to humidity-related expansion and contraction, with warm color that complements wine. Mahogany offers similar performance with richer coloring. Premium pine provides economical options for staining. Metal and acrylic systems avoid wood entirely for contemporary aesthetics. Avoid oak in conditioned cellars—it can impart aromas that affect wine."
+  },
+  {
+    question: "Can I display wines visible from other rooms?",
+    answer: "Yes—glass-enclosed wine displays have become popular features in Tampa luxury homes. Proper insulated glass, adequate cooling capacity, and careful thermal engineering make these installations successful. Glass cellars require approximately 20-40% more cooling capacity than solid-wall construction. We design these showcase cellars to maintain proper conditions while creating stunning visual statements visible from dining or living areas."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

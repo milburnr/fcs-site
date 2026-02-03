@@ -8,7 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Custom Home Accessibility Features in Tampa | Universal Design",
+  title: "Custom Home Accessibility Tampa | Universal Design",
   description: "Build an accessible custom home in Tampa with universal design features. Elevator-ready, wide doorways, accessible bathrooms, and aging-in-place planning from $400K-$2M+.",
 };
 

@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, Users, Wrench, Shield, Handshake, CheckCircle, HardHat } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Subcontractors in Florida Commercial Construction | Complete Guide",
+  title: "Subcontractors in Florida Commercial | Guide",
   description: "Understand the vital role of subcontractors in Florida commercial construction. Learn how general contractors manage trade partners for successful Tampa Bay projects.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/tampa-commercial-construction-bidding-process/", label: "Bidding Process" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const keyTrades = [
@@ -67,11 +91,35 @@ const keyTrades = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Can I specify which subcontractors work on my project?",
+    answer: "Some contract structures allow owner-specified subcontractors, but this approach has tradeoffs. The general contractor typically loses leverage in managing subcontractor performance when they didn't select the sub. Most owners find it more effective to select a general contractor they trust to manage subcontractor selection appropriately."
+  },
+  {
+    question: "What happens if a subcontractor fails to perform?",
+    answer: "The general contractor is responsible for subcontractor performance. Options include providing additional supervision, bringing in supplemental resources, or ultimately replacing the subcontractor. Good general contractors identify problems early and act decisively to protect project schedules and quality."
+  },
+  {
+    question: "How are subcontractors paid on commercial projects?",
+    answer: "Subcontractors typically invoice the general contractor monthly for work completed. The general contractor includes these amounts in their monthly application for payment to the owner. Once the owner pays, the general contractor pays subcontractors. Florida's prompt payment statutes require payment within specified timeframes."
+  },
+  {
+    question: "Are subcontractors covered by the general contractor's insurance?",
+    answer: "No—subcontractors maintain their own insurance coverage. General contractors verify subcontractor insurance and may require specific coverage levels and additional insured status. This ensures adequate coverage exists for work performed by each trade without gaps that could leave owners exposed."
+  },
+  {
+    question: "What's the difference between a subcontractor and a supplier?",
+    answer: "Subcontractors provide labor and typically materials for their trade work—they install what they furnish. Suppliers provide materials only, without installation. Both have lien rights in Florida but follow different notice and timing requirements. General contractors manage relationships with both."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="The Power of Subcontractors in Florida Commercial Construction"
         description="Understand the vital role of subcontractors in Florida commercial construction and how trade management affects project success."
@@ -326,6 +374,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

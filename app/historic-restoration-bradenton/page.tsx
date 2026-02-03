@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration Bradenton FL | Village of the Arts, Downtown & More | FCS",
+  title: "Historic Restoration Bradenton FL | Village | FCS",
   description: "Expert historic restoration contractor in Bradenton, Florida. Village of the Arts, Downtown Historic District, Old Manatee heritage. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration bradenton, village of the arts restoration, downtown bradenton historic, old manatee preservation, SHPO bradenton, historic tax credits manatee county",
 };

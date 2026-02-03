@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Key Factors for Choosing the Top Commercial Contractor in Tampa | FCS",
+  title: "Choosing Top Commercial Contractor Tampa | FCS",
   description: "Learn the critical factors that determine contractor quality in Tampa Bay. Make informed decisions when selecting your commercial construction partner.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much weight should I give to price when selecting a contractor?",
+    answer: "Price should be one factor among many, not the decisive factor. Proposals within 5-10% of each other should be evaluated primarily on qualifications, experience, and approach. Significantly lower prices warrant scrutiny—understand why they're lower and whether the savings reflect real value or hidden risks."
+  },
+  {
+    question: "What if the best-qualified contractor isn't the one I like most personally?",
+    answer: "Personal chemistry matters for the working relationship. A contractor who communicates well, responds appropriately, and fits your working style often produces better outcomes than a technically superior contractor with poor interpersonal skills. Trust your instincts about relationship fit while ensuring minimum qualification standards are met."
+  },
+  {
+    question: "How important is it that my contractor has built exactly my project type before?",
+    answer: "Specific experience is valuable, particularly for specialized buildings like medical facilities, restaurants, or laboratories. However, skilled commercial contractors can often deliver excellent results on project types new to them if they demonstrate strong overall capability and willingness to learn specific requirements. Evaluate each situation individually."
+  },
+  {
+    question: "Should company size be a factor in my decision?",
+    answer: "Match contractor size to project needs. Large contractors may overlook smaller projects; small contractors may lack capacity for complex work. Mid-sized contractors often provide an ideal balance—sufficient resources and systems to handle substantial projects while providing personalized attention and direct access to leadership."
+  },
+  {
+    question: "How do I evaluate factors I can't easily measure, like communication or culture?",
+    answer: "Observe these qualities during the selection process—they're demonstrated, not claimed. Notice response times, proposal quality, interview preparation, and how contractors handle difficult questions. Talk to references specifically about communication and working relationship. Visit job sites to see culture in action. Trust your observations over contractor claims."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -30,6 +30,11 @@ export default function Page() {
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema 
+        serviceName="Water Damage Mitigation"
+        serviceDescription="Fast, expert water damage mitigation in Tampa for homes and businesses. 24/7 emergency water damage repair services to ensure your property is safe and restored quickly."
+        city="Tampa"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

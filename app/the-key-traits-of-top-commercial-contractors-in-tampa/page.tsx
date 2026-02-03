@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Key Traits of Top Commercial Contractors in Tampa | What to Look For",
+  title: "Key Traits of Top Commercial Contractors Tampa",
   description: "Discover the essential characteristics that distinguish outstanding commercial contractors in Tampa Bay. Learn what separates the best from the rest in Florida's competitive market.",
 };
 
@@ -24,11 +24,47 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Define Project Requirements",
+    answer: "Clearly define scope, budget, schedule, and quality expectations before beginning contractor evaluation."
+  },
+  {
+    question: "Develop Contractor Criteria",
+    answer: "Weight evaluation criteria based on project priorities and risk factors specific to your project."
+  },
+  {
+    question: "Research Potential Contractors",
+    answer: "Identify contractors with relevant experience, proper licensing, and good reputations in Tampa Bay."
+  },
+  {
+    question: "Request and Evaluate Proposals",
+    answer: "Provide detailed project information to qualified contractors and evaluate their responses systematically."
+  },
+  {
+    question: "Verify Credentials and References",
+    answer: "Thoroughly verify licensing, insurance, bonding, and check references from similar projects."
+  },
+  {
+    question: "Interview Key Personnel",
+    answer: "Meet the actual project team members who will manage your project, not just sales representatives."
+  },
+  {
+    question: "Visit Project Sites",
+    answer: "Observe active job sites and completed projects to evaluate quality standards and project management."
+  },
+  {
+    question: "Make Value-Based Decision",
+    answer: "Select the contractor offering the best value combination of experience, capabilities, and price."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

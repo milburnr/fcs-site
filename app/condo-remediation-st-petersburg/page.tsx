@@ -43,7 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Condo Remediation St Petersburg FL | SB4-D Compliance & SIRS | FCS",
+  title: "Condo Remediation St Petersburg | SB4-D | FCS",
   description:
     "St. Petersburg condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony reconstruction for condos 3+ stories. Serving Downtown St. Pete, St. Pete Beach, Treasure Island. Licensed CBC1262722.",
   keywords:

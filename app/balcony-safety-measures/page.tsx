@@ -5,9 +5,10 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Balcony Safety Measures | Florida Compliance & Best Practices",
+  title: "Balcony Safety Measures Florida | Compliance",
   description: "Essential balcony safety measures for Florida condos and apartments. Learn about SB4-D inspection requirements, structural safety, railings, waterproofing, and fall prevention.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
   { href: "/contact/", label: "Schedule an Inspection" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
 ];
 
 const safetyCategories = [
@@ -707,6 +731,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

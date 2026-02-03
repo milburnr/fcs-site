@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Tampa FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction Tampa FL | Condos | FCS",
   description: "Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "multi-family construction tampa, apartment construction tampa, condo builder tampa fl, townhome construction tampa, senior living construction tampa",
 };

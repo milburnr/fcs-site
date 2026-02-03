@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Lightbulb, AlertTriangle, FileText, Users, Calendar, DollarSign, Building2, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Expert Tips for Planning Your Commercial Construction Project | Tampa FL",
+  title: "Planning Commercial Construction Tampa | Tips",
   description: "Comprehensive guide to planning commercial construction in Florida. Expert advice on budgeting, permits, contractor selection, and project management from Tampa Bay's leading design-build firm.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/construction-project-management-and-scheduling/", label: "Project Management Tips" },
   { href: "/pre-construction-services-tampa/", label: "Pre-Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const planningPhases = [
@@ -113,11 +137,35 @@ const planningTimeline = [
   { phase: "Closeout & Occupancy", duration: "1-2 months", percentage: "5%" },
 ];
 
+const faqs = [
+  {
+    question: "How early should I start planning a commercial construction project?",
+    answer: "Begin planning 12-18 months before your target occupancy date for a typical commercial project. This allows time for site selection, design, permitting, and construction. Projects with complex permitting (rezoning, variances) or longer construction durations may need 24+ months."
+  },
+  {
+    question: "What's the difference between a budget and an estimate?",
+    answer: "A budget is your target cost, established before design begins. An estimate is the predicted cost based on design documents, prepared by the contractor. Early estimates inform budget feasibility; later estimates become the basis for contracts. Design-build aligns these throughout the process."
+  },
+  {
+    question: "Should I buy land before engaging a contractor?",
+    answer: "Engage a contractor for feasibility analysis before purchasing if possible. Site conditions (soil, utilities, zoning) significantly impact project cost and viability. A due diligence assessment costs a few thousand dollars but can prevent hundred-thousand-dollar mistakes."
+  },
+  {
+    question: "How do I know if my budget is realistic?",
+    answer: "Get professional estimates before committing to a budget. Share your budget target with potential contractors during selection—good firms will tell you honestly whether your goals are achievable. Warning sign: a contractor who says yes to every budget without detailed analysis."
+  },
+  {
+    question: "What decisions will I need to make during planning?",
+    answer: "Key decisions include: site selection, building size/program, quality level/finishes, delivery method (design-build vs. traditional), project team selection, financing approach, and schedule priorities. Experienced contractors guide you through these decisions with clear options and recommendations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Expert Tips for Planning Your Commercial Construction Project"
         description="Comprehensive guide to planning commercial construction in Florida."
@@ -476,6 +524,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

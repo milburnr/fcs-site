@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, MapPin, Droplets, TreeDeciduous, Car, CheckCircle, Compass } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Efficient Site Planning for Commercial Construction in Florida",
+  title: "Site Planning for Commercial Construction FL",
   description: "Master site planning for Florida commercial construction. Expert guidance on drainage, utilities, parking, permitting, and environmental considerations for Tampa Bay projects.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/commercial-construction-regulations-in-tampa/", label: "Regulations" },
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const sitePlanningElements = [
@@ -47,11 +71,35 @@ const sitePlanningElements = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How much of my site can be developed?",
+    answer: "Florida jurisdictions limit impervious coverage (buildings and paving) to 65-85% of site area depending on zoning. Required landscaping, stormwater retention, setbacks, and buffers further reduce buildable area. Actual development capacity depends on specific site conditions and local requirements."
+  },
+  {
+    question: "How long does site permitting take in Tampa?",
+    answer: "Site development permits typically require 6-12 weeks in Tampa Bay jurisdictions. SWFWMD Environmental Resource Permits add 30-90 days. Environmental permits for wetlands or protected species can add months. Early application and complete submittals help minimize delays."
+  },
+  {
+    question: "What are impact fees in Tampa Bay?",
+    answer: "Impact fees fund infrastructure improvements necessitated by new development. Fees vary by jurisdiction and use type. Hillsborough County commercial impact fees range from $2,000-20,000+ depending on building type and size. Water and sewer connection fees add substantial additional costs."
+  },
+  {
+    question: "Can I start site work before building design is complete?",
+    answer: "Often yes. Early site work packages can clear, grade, and install infrastructure while building design continues. This approach can compress overall schedule by several months. The site design must be far enough along to obtain site development permits and SWFWMD approval."
+  },
+  {
+    question: "What if my site has wetlands?",
+    answer: "Wetlands limit but don't necessarily prevent development. Options include avoiding wetlands through site layout, minimizing impacts through design, and mitigating unavoidable impacts through preservation, creation, or mitigation bank credits. Early wetland delineation is essential for planning."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Efficient Site Planning for Commercial Construction in Florida"
         description="Master site planning for Florida commercial construction with expert guidance on drainage, utilities, and permitting."
@@ -631,6 +679,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

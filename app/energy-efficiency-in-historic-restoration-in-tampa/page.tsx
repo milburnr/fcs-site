@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building, Leaf, Sun, Wind, Award, History, Shield, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can I make energy improvements and still qualify for historic tax credits?",
+    answer: "Yes, many energy improvements are compatible with historic tax credit requirements. The key is ensuring improvements don't damage or obscure character-defining features. Interior insulation, mechanical upgrades, and lighting improvements are typically acceptable. Window treatments require careful approach—interior storm windows usually work, while replacement of original windows generally does not qualify. We coordinate with the State Historic Preservation Office to ensure compliance."
+  },
+  {
+    question: "Should I restore or replace historic windows?",
+    answer: "In most cases, restoration with interior storm panels is preferred over replacement. Original windows can be restored to excellent condition with proper weatherstripping and glazing compound. High-quality interior storm windows with low-E glass can achieve thermal performance comparable to replacement windows while preserving the historic character that contributes to property value and tax credit eligibility."
+  },
+  {
+    question: "How much can I realistically reduce energy costs in a historic building?",
+    answer: "Comprehensive energy-efficient restoration typically achieves 30-50% reduction in energy consumption. The largest gains come from attic insulation, air sealing, and HVAC upgrades—improvements that often have minimal impact on historic character. LED lighting provides additional savings. Actual results depend on existing conditions and the extent of improvements, but most historic buildings offer significant efficiency improvement potential."
+  },
+  {
+    question: "What historic tax credits are available in Florida?",
+    answer: "Income-producing historic buildings listed on the National Register (or contributing to a listed district) can qualify for a 20% federal historic tax credit. Florida also offers a 20% state historic tax credit for properties in Florida Main Street areas or listed as Florida Heritage landmarks. Combined with energy efficiency incentives like the 179D deduction and utility rebates, these credits can significantly reduce project costs."
+  },
+  {
+    question: "Can solar panels be installed on historic buildings?",
+    answer: "Solar is often possible on historic buildings when thoughtfully integrated. Panels can typically be installed on flat roofs not visible from street level, on rear roof slopes, or on adjacent structures. Ground-mount or parking structure solar is another option. The State Historic Preservation Office provides guidance on acceptable solar installations for tax credit projects. Modern low-profile panels and building-integrated options expand possibilities."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

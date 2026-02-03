@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Sun, Droplets, Flame, Trees, UtensilsCrossed } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Outdoor Living Spaces | Patios, Pools & Kitchens",
+  title: "Tampa Outdoor Living Spaces | Patios & Pools",
   description: "Create stunning outdoor living spaces in Tampa. Custom pools, outdoor kitchens, covered patios, fire features, and resort-style amenities. Year-round Florida living from $50K-$500K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do you protect outdoor spaces during hurricanes?",
+    answer: "Hurricane preparation is built into our designs. Outdoor kitchens use marine-grade materials and stainless steel that survive storms. Pool equipment is positioned for protection. Outdoor furniture can be stored or secured. Structures are engineered for wind loads. Some features—pergolas with removable shade sails, for example—include components designed for quick pre-storm removal. We also design with recovery in mind: damage that occurs should be repairable rather than requiring complete replacement."
+  },
+  {
+    question: "What maintenance do outdoor living spaces require?",
+    answer: "Pools require regular chemical maintenance, cleaning, and equipment servicing—typically $100-300/month for professional service. Outdoor kitchens need appliance maintenance similar to indoor equivalents plus periodic cleaning of exterior surfaces. Landscapes require regular maintenance; tropical plantings need more attention than native xeriscaping. Covered structures need occasional cleaning and resealing. We design for realistic maintenance requirements and can recommend service providers."
+  },
+  {
+    question: "Should we build everything at once or in phases?",
+    answer: "There are advantages to comprehensive construction: better design integration, single permit process, one construction disruption, and often better pricing. However, phased construction allows budget spreading and learning what you actually use. If phasing, prioritize items with construction dependencies—pools should typically come early since adding them later damages existing landscaping. We can design a master plan with logical phasing regardless of which approach you choose."
+  },
+  {
+    question: "How do you handle drainage with outdoor construction?",
+    answer: "Tampa's flat terrain and high water table make drainage critical. We engineer proper slopes, install French drains and catch basins, and ensure additions don't redirect water onto neighboring properties or toward the house. Pool decks slope away from pools and structures. Permeable pavers reduce runoff. Some projects require stormwater retention features. Proper drainage planning prevents flooding, erosion, and standing water mosquito breeding."
+  },
+  {
+    question: "Can outdoor living spaces increase home value?",
+    answer: "Well-designed outdoor living typically returns 50-70% of investment at resale in Tampa Bay, where outdoor lifestyle is highly valued. Pools can be neutral to negative in some markets but are generally positive here. Outdoor kitchens appeal to the entertaining-focused buyer. The key is quality design and construction—cheap additions can hurt value while premium work enhances it. Location matters too; waterfront properties benefit more from outdoor investment than inland lots."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -372,6 +420,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

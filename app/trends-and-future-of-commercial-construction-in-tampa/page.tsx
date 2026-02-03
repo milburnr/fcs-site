@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, TrendingUp, Building2, Leaf, Cpu, Users, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Trends and Future of Commercial Construction in Tampa | 2024 Guide",
+  title: "Future of Commercial Construction Tampa | 2024",
   description: "Discover the latest commercial construction trends shaping Tampa's skyline. From sustainable building to smart technology, explore what's driving the future of commercial development in Tampa Bay.",
 };
 
@@ -47,11 +47,35 @@ const trends = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What is driving commercial construction growth in Tampa?",
+    answer: "Tampa's commercial construction boom is fueled by continued population migration from high-tax states, major corporate relocations, healthcare system expansion, and the region's emergence as a technology and finance hub. The combination of business-friendly tax environment, quality of life, and growing talent pool makes Tampa Bay increasingly attractive for commercial development."
+  },
+  {
+    question: "How much does commercial construction cost per square foot in Tampa?",
+    answer: "Commercial construction costs in Tampa vary significantly by building type. Office buildings typically range from $180-350 per square foot, retail spaces from $150-275, medical facilities from $350-550, and warehouse/industrial from $85-150. These ranges reflect base building costs and can increase substantially based on finishes, systems complexity, and site conditions."
+  },
+  {
+    question: "What sustainable building certifications are popular in Tampa?",
+    answer: "LEED (Leadership in Energy and Environmental Design) remains the most recognized certification in Tampa's commercial market. WELL Building Standard certification is gaining popularity for office and healthcare projects. Florida Green Building Coalition certification offers a state-specific alternative. Energy Star certification is common for building systems and overall building performance."
+  },
+  {
+    question: "How long does commercial construction typically take in Tampa?",
+    answer: "Project timelines in Tampa vary by scope and complexity. Tenant improvement projects typically take 8-16 weeks, small to mid-size commercial buildings 8-14 months, and large-scale developments 18-36 months. Permitting adds 4-12 weeks depending on jurisdiction. Working with an experienced contractor familiar with local processes can significantly reduce timeline risks."
+  },
+  {
+    question: "What should I look for in a Tampa commercial construction company?",
+    answer: "Key factors include experience with your specific building type, strong relationships with local subcontractors and suppliers, familiarity with Tampa Bay permitting processes, financial stability to handle your project scale, references from similar completed projects, and clear communication practices. Pre-construction services and design-build capabilities are increasingly valuable for optimizing project outcomes."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Trends and Future of Commercial Construction in Tampa"
         description="Discover the latest commercial construction trends shaping Tampa's skyline and what's driving the future of commercial development."

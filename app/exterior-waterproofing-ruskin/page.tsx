@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Exterior Waterproofing Ruskin FL | FCS Headquarters | Building Envelope & Foundation",
+  title: "Exterior Waterproofing Ruskin FL | FCS Headquarters",
   description: "Exterior waterproofing in Ruskin FL from FCS headquarters. Apollo Beach coastal waterproofing, Sun City Center building protection, Tampa Bay industrial waterproofing. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing Ruskin, Apollo Beach waterproofing, Sun City Center waterproofing, commercial waterproofing South Hillsborough, foundation waterproofing Ruskin",
 };

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, DollarSign, Building, FileText, Clock, TrendingUp, Shield, Calculator, Landmark } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much down payment is required for a commercial construction loan?",
+    answer: "Most commercial construction loans require 20-35% equity contribution, depending on the project type, borrower experience, and current market conditions. SBA 504 loans may allow as little as 10% down for qualifying owner-occupied projects. Land equity can often count toward your equity contribution if you already own the property."
+  },
+  {
+    question: "What happens if my construction project exceeds the budget?",
+    answer: "Cost overruns must typically be funded by additional equity—banks rarely increase construction loan amounts mid-project. This is why having a qualified contractor with accurate estimating is crucial. Florida Construction Specialists' detailed budgets and contingency planning help prevent this situation. We recommend maintaining a 5-10% contingency reserve."
+  },
+  {
+    question: "Can I get construction financing with less-than-perfect credit?",
+    answer: "While most construction lenders prefer credit scores above 680, options exist for borrowers with lower scores. Higher equity contributions, stronger project fundamentals, or working with alternative lenders can help. SBA loans sometimes have more flexibility. Private construction lenders may focus more on project quality than personal credit, though rates will be higher."
+  },
+  {
+    question: "How does the construction draw process work?",
+    answer: "Funds are released in draws as construction progresses. Typically, your contractor submits a draw request with supporting documentation (invoices, lien waivers), the lender's inspector verifies work completion, and funds are released within 5-10 business days. Florida Construction Specialists manages this process efficiently to prevent cash flow interruptions on your project."
+  },
+  {
+    question: "What happens when construction is complete?",
+    answer: "Most construction loans convert to permanent financing upon completion. With construction-to-permanent loans, this conversion is automatic. Standalone construction loans require refinancing into a permanent mortgage before the construction loan matures. We recommend having your permanent financing strategy planned before construction begins."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

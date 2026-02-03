@@ -27,9 +27,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Seawall Coordination for New Construction | Tampa Bay Waterfront | FCS",
+  title: "Seawall Coordination Tampa Bay | Waterfront | FCS",
   description:
     "Coordinating seawall work with new waterfront home construction in Tampa Bay. Timing, permits, setbacks, and contractor coordination for successful waterfront projects.",
   keywords:
@@ -301,6 +302,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Building on Tampa Bay Waterfront",
+    "href": "/building-on-tampa-bay-waterfront/",
+    "description": "Special considerations for waterfront property construction in Tampa Bay."
+  },
+  {
+    "title": "Living Shoreline vs Seawall",
+    "href": "/living-shoreline-vs-seawall/",
+    "description": "Comparing natural and hardened shoreline protection approaches."
+  },
+  {
+    "title": "Flood Zone VE vs AE Guide",
+    "href": "/flood-zone-ve-vs-ae-guide/",
+    "description": "Understanding flood zone designations and construction requirements."
+  },
+  {
+    "title": "Breakaway Wall Construction Requirements",
+    "href": "/breakaway-wall-construction-requirements/",
+    "description": "Building flood-compliant structures in coastal high hazard areas."
+  }
 ];
 
 export default function SeawallCoordinationNewConstructionPage() {
@@ -738,6 +762,10 @@ export default function SeawallCoordinationNewConstructionPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

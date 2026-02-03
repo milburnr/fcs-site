@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, MapPin, Zap, Droplets, Flame, Radio 
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Utility Mapping for Commercial Buildings Tampa | Underground Utility Location",
+  title: "Utility Mapping Tampa | Commercial Underground",
   description: "Professional utility mapping services for commercial buildings in Tampa. Locate underground utilities before construction to prevent damage, injuries, and costly delays using SUE and GPR technology.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/leading-engineering-services-for-commercial-buildings-in-tampa/", label: "Engineering Services" },
   { href: "/ensuring-construction-site-safety-a-top-priority/", label: "Construction Safety" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 export default function Page() {
@@ -451,6 +475,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

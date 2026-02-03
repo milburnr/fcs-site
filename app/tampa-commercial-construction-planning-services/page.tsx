@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Planning Services | Preconstruction Experts",
+  title: "Tampa Commercial Construction Planning | FCS",
   description: "Professional construction planning services for Tampa commercial projects. Expert preconstruction, budgeting, scheduling, and project management from concept to completion.",
 };
 

@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Mold Remediation Services in Tampa After Flooding",
@@ -25,11 +26,39 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema 
+        serviceName="Mold Remediation Services"
+        serviceDescription="Expert mold remediation services in Tampa after flooding. Comprehensive mold removal, water damage cleanup, and flood damage restoration for residential and commercial properties."
+        city="Tampa"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -397,6 +426,10 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

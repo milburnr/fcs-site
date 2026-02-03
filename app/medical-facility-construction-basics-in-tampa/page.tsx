@@ -14,7 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Medical Facility Construction Basics in Tampa | Healthcare Building Guide",
+  title: "Medical Facility Construction Basics Tampa",
   description: "Complete guide to medical facility construction in Tampa Bay. Learn about AHCA requirements, infection control, MEP systems, and costs for building healthcare facilities in Florida.",
 };
 

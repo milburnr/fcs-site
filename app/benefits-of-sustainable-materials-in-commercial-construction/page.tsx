@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, DollarSign, Heart, TrendingUp, Award, Building, Sun, Recycle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Benefits of Sustainable Materials in Commercial Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Do sustainable materials really provide a return on investment?",
+    answer: "Yes, definitively. Most sustainable building features pay for themselves within 3-7 years through reduced operating costs. When you factor in increased property values (LEED buildings typically sell for 10-20% premiums), enhanced tenant attraction, and available incentives, sustainable construction delivers compelling financial returns alongside environmental benefits."
+  },
+  {
+    question: "Are sustainable buildings more expensive to construct?",
+    answer: "The cost premium for sustainable construction has declined dramatically and now ranges from 0-5% for most projects. Many sustainable materials are cost-competitive with conventional alternatives, and some (like recycled steel in Florida) can actually be less expensive when factoring in termite treatment requirements for wood construction. Our pre-construction services identify cost-effective sustainable strategies tailored to your budget."
+  },
+  {
+    question: "How do I decide which sustainable features are right for my project?",
+    answer: "Florida Construction Specialists conducts detailed analyses during pre-construction to identify sustainability features with the best return for your specific project. We consider your building type, occupancy patterns, utility rates, and budget to recommend prioritized sustainable investments. Features with shorter paybacks (LED lighting, cool roofing) typically take precedence, followed by options offering additional non-financial benefits."
+  },
+  {
+    question: "Will sustainable materials perform well in Florida's harsh climate?",
+    answer: "The sustainable materials we specify are specifically selected for Florida performance. Many offer superior durability compared to conventional options—metal roofing outlasts asphalt shingles, fiber cement resists humidity and termites, and high-performance windows handle UV exposure better than standard glazing. We only recommend materials with proven track records in Tampa Bay's demanding conditions."
+  },
+  {
+    question: "How long does LEED certification add to the project timeline?",
+    answer: "LEED certification itself doesn't significantly extend construction timelines—our sustainable construction practices are integrated into standard project workflows. The documentation and certification process happens parallel to construction, with final certification typically occurring 3-6 months after project completion. Early planning for LEED helps avoid delays; engaging Florida Construction Specialists early ensures certification requirements are incorporated from the start."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -415,6 +463,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

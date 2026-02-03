@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Building2, Users, Lightbulb, TrendingUp, Layout } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Interior Design in Tampa | Office & Retail Design Services",
+  title: "Commercial Interior Design Tampa | Office",
   description: "Transform your Tampa Bay commercial space with expert interior design. Office space planning, retail design, healthcare interiors, and hospitality environments that enhance business performance.",
 };
 
@@ -106,11 +106,35 @@ const costBreakdown = [
   { category: "Construction", percentage: "15-25%", description: "Walls, doors, millwork, general conditions" },
 ];
 
+const faqs = [
+  {
+    question: "How long does commercial interior design take?",
+    answer: "Design timelines depend on project scope. Space planning and schematic design typically takes 3-4 weeks. Design development adds another 4-6 weeks. Construction documents require 4-8 weeks. Total design time is usually 3-5 months for a typical office or retail project, with construction adding another 2-6 months depending on scope."
+  },
+  {
+    question: "Do you handle furniture selection and procurement?",
+    answer: "Yes. We provide complete FF&E (furniture, fixtures, and equipment) services including selection, specification, procurement, and installation coordination. We work with major commercial furniture manufacturers and can leverage dealer relationships for competitive pricing on quality products."
+  },
+  {
+    question: "How do you ensure the design works for our specific operations?",
+    answer: "We begin every project with thorough programming that documents your workflows, space needs, adjacency requirements, and growth projections. For offices, this includes staff counts by department and work style analysis. For retail, it includes customer journey mapping. This data-driven approach ensures designs support real operational needs."
+  },
+  {
+    question: "Can you design within our existing shell space?",
+    answer: "Absolutely. Many of our projects are tenant improvements within existing buildings. We evaluate your space's infrastructure (electrical capacity, HVAC, structural grid) and design interior environments that work within those constraints while maximizing the space's potential."
+  },
+  {
+    question: "How do you handle ADA compliance in commercial interiors?",
+    answer: "ADA compliance is integrated into every design decision, not an afterthought. This includes accessible routes, restroom configurations, counter heights, door hardware, and signage. For certain facilities like healthcare, additional accessibility requirements apply. Our designs always meet or exceed code requirements."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Commercial Interior Design in Tampa"
         description="Transform your Tampa Bay commercial space with expert interior design services."

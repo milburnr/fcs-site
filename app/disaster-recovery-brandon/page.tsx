@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery Brandon FL | Hurricane & Storm Damage Restoration | FCS",
+  title: "Disaster Recovery Brandon FL | Hurricane | FCS",
   description: "Brandon disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. Prime contractor for large loss insurance claims $225K-$45M. 24/7 emergency response. Licensed, bonded, insured.",
   keywords: "disaster recovery Brandon, hurricane damage restoration Brandon, storm damage repair Brandon, flood damage Brandon, insurance restoration Brandon, large loss contractor Brandon, Alafia River flooding",
 };

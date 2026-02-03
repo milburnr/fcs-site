@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Building2, Users, Sparkles, Award, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Bespoke Architectural Design in Tampa | Custom Commercial Design",
+  title: "Bespoke Architectural Design Tampa | Commercial",
   description: "Custom architectural design services for commercial buildings in Tampa Bay. Tailored solutions that reflect your brand, optimize operations, and create distinctive spaces.",
 };
 
@@ -77,11 +77,35 @@ const costTable = [
   { projectType: "Landmark/Iconic Structure", designFee: "12-15%+", timeframe: "9-18 months", complexity: "Very High" },
 ];
 
+const faqs = [
+  {
+    question: "Is bespoke design worth the additional investment?",
+    answer: "For owner-occupied buildings, absolutely. Custom design typically costs 2-5% more than spec-level design but can improve operational efficiency, employee productivity, customer experience, and brand perception in ways that far exceed the investment. For investment properties, distinctive design commands premium rents and lower vacancy rates."
+  },
+  {
+    question: "How do you balance custom design with budget constraints?",
+    answer: "Design-build integration allows us to provide real-time cost feedback during design. We focus custom details on high-impact areas visible to customers or employees, while using value-engineered solutions in back-of-house spaces. The result is maximum design impact within your budget."
+  },
+  {
+    question: "How involved will I be in the design process?",
+    answer: "Bespoke design requires meaningful client collaboration. Expect multiple design presentations, material selection sessions, and decision points throughout the process. Your input ensures the final design truly reflects your vision and business needs. We guide you through each decision with clear recommendations."
+  },
+  {
+    question: "Can you work with our existing branding guidelines?",
+    answer: "Absolutely. We regularly collaborate with corporate branding teams to ensure architectural design reinforces brand identity. This includes incorporating brand colors, materials, and design language into the architecture while meeting Florida's building requirements."
+  },
+  {
+    question: "Does custom design extend the project timeline?",
+    answer: "Bespoke design does require more design time than spec-level work—typically 2-4 additional months. However, design-build delivery allows construction to begin while design is being finalized, often recovering this time. The result is a custom building on a competitive overall schedule."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Bespoke Architectural Design in Tampa"
         description="Custom architectural design services for commercial buildings in Tampa Bay."

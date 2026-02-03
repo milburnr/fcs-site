@@ -10,7 +10,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Luxury Custom Home Builders Tampa | Waterfront Estate Construction",
+  title: "Luxury Custom Home Builders Tampa | Waterfront",
   description: "Tampa Bay's premier custom home builder for $1M+ luxury residences. Waterfront estates, hurricane-resistant construction, smart home integration, and design-build excellence. 40+ years of building architectural masterpieces.",
   keywords: "custom home builders Tampa, luxury home construction Florida, waterfront home builders Tampa Bay, custom home design build, Florida custom homes, luxury estate builder, architectural custom homes",
 };

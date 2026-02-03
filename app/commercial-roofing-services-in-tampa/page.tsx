@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Roofing Services in Tampa | Expert Roof Installation & Repair",
+  title: "Commercial Roofing Services Tampa | Expert",
   description: "Complete commercial roofing services in Tampa Bay. TPO, EPDM, metal, and built-up roofing systems. Hurricane-rated installations, repairs, and maintenance from Florida Construction Specialists.",
 };
 

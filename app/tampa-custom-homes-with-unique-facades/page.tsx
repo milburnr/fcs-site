@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, Layers, Palette, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Unique Facades | Distinctive Exteriors",
+  title: "Tampa Custom Homes Unique Facades | Distinctive",
   description: "Create a distinctive facade for your Tampa custom home. Unique materials, architectural details, and curb appeal that sets your home apart. Premium exteriors from $100K-$500K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do HOA restrictions affect unique facade designs?",
+    answer: "Most Tampa Bay HOAs have architectural guidelines that govern exterior design—covering everything from color palettes to material specifications to roof pitches. We navigate these requirements during design, working within guidelines while maximizing design distinction. Some communities welcome contemporary designs; others require traditional expressions. Understanding your neighborhood's requirements early avoids costly redesign."
+  },
+  {
+    question: "Which facade materials perform best in Tampa's climate?",
+    answer: "Materials must withstand heat, humidity, salt air (in coastal areas), and hurricane-force winds. Stone, stucco, and fiber cement perform excellently. Wood species like ipe and thermally modified woods resist rot if properly detailed. Metals require coatings or inherent corrosion resistance. We select materials appropriate to each project's location and exposure, prioritizing durability alongside aesthetics."
+  },
+  {
+    question: "Can unique facades comply with hurricane code requirements?",
+    answer: "Yes—distinctive design and storm resistance aren't mutually exclusive. Impact-rated windows and doors are available in numerous configurations including oversized units and corner glass. Stone and stucco facades exceed wind-borne debris requirements. Metal panels and cladding systems can be engineered for high wind loads. We achieve both architectural distinction and Florida Building Code compliance in every project."
+  },
+  {
+    question: "How do you ensure facade quality during construction?",
+    answer: "Facade quality depends on skilled craftspeople and proper sequencing. We work with specialized stone masons, stucco artisans, and wood installers who understand the precision luxury facades demand. Mock-ups of critical details verify appearance before full installation. Progressive inspections catch issues early. Our project managers dedicate particular attention to visible facade work that defines your home's first impression."
+  },
+  {
+    question: "Do distinctive facades affect resale value?",
+    answer: "Quality facade design generally enhances resale value—curb appeal strongly influences buyer perception and willingness to pay premium prices. However, extremely unusual designs may limit buyer pool to those who share your aesthetic. Timeless design executed with quality materials ages gracefully and appeals broadly. We help clients balance personal expression with lasting value."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -365,6 +413,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

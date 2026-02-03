@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Ruskin General Contractor | FCS Headquarters | $500K-$25M+ Projects",
+  title: "Ruskin General Contractor | FCS HQ | $500K+",
   description: "Florida Construction Specialists headquarters in Ruskin, FL. Premier general contractor for commercial construction, disaster recovery, historic restoration. License CBC1262722. Call (813) 420-7561.",
   keywords: "ruskin general contractor, construction company ruskin fl, florida construction specialists headquarters, commercial construction south hillsborough",
 };

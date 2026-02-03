@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Bradenton FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction Bradenton | Condos | FCS",
   description: "Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota. Call (813) 420-7561.",
   keywords: "multi-family construction bradenton, apartment construction bradenton, condo builder bradenton fl, townhome construction bradenton, senior living construction bradenton, manatee county contractor",
 };

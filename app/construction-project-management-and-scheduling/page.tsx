@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Calendar, Clock, Users, FileText, AlertTriangle, Target, TrendingUp, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Construction Project Management and Scheduling Tips | Tampa FL",
+  title: "Construction Project Management Tampa | Tips",
   description: "Essential tips for effective commercial construction project management and scheduling in Florida. Learn proven strategies for keeping projects on track and on budget.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
 ];
 
 const managementPrinciples = [
@@ -107,11 +131,35 @@ const projectMetrics = [
   { metric: "Quality Deficiencies", target: "< 1 per 1000 SF", description: "Punch list items at substantial completion" },
 ];
 
+const faqs = [
+  {
+    question: "How often should project schedules be updated?",
+    answer: "Master schedules should be updated at least monthly with formal schedule updates. Look-ahead schedules (3-6 week detailed plans) should be updated weekly. Daily superintendent reports track actual progress against the look-ahead. This tiered approach provides both long-term visibility and short-term execution control."
+  },
+  {
+    question: "What software do you use for project management?",
+    answer: "We use industry-standard tools including Primavera P6 for CPM scheduling, Procore for project management and documentation, and BIM 360 for model coordination. The specific tools matter less than consistent use and discipline in keeping information current. All stakeholders access real-time project data."
+  },
+  {
+    question: "How do you handle schedule delays when they occur?",
+    answer: "When delays occur, we immediately assess impact on the critical path, identify recovery options (overtime, resequencing, additional resources), and present alternatives to the owner with cost/schedule trade-offs. Early detection through proactive monitoring allows more recovery options at lower cost."
+  },
+  {
+    question: "What role does the owner play in schedule management?",
+    answer: "Owners significantly impact schedules through decision timeliness. We establish clear decision schedules at project start, identifying when each owner decision is needed to maintain schedule. Weekly owner meetings review upcoming decisions and address any pending items. Delayed decisions often delay projects more than construction issues."
+  },
+  {
+    question: "How does design-build improve schedule performance?",
+    answer: "Design-build compresses schedules 20-33% compared to traditional delivery by overlapping design and construction, eliminating bid phase, and reducing coordination conflicts. The single-team approach allows construction to begin while design is finalized and enables faster decision-making when issues arise."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Construction Project Management and Scheduling"
         description="Essential tips for effective commercial construction project management in Florida."
@@ -433,6 +481,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

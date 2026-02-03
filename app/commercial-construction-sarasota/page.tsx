@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Sarasota FL | $500K-$25M+ Projects | FCS",
+  title: "Commercial Construction Sarasota | $500K+ | FCS",
   description: "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction sarasota, commercial contractor sarasota, commercial builder sarasota fl, office building construction sarasota, medical facility construction sarasota, hospitality construction sarasota",
 };

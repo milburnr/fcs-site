@@ -8,7 +8,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tenant Improvement Contractors Tampa | Commercial TI Build-Out Experts",
+  title: "Tenant Improvement Contractors Tampa | TI | FCS",
   description: "Expert tenant improvement contractors in Tampa Bay. Office, retail, and medical TI build-outs with fast-track delivery and budget management from Florida Construction Specialists.",
 };
 
@@ -394,7 +394,7 @@ export default function Page() {
                   <h4 className="font-semibold mb-2">Quality and Satisfaction</h4>
                   <ul className="text-sm space-y-1">
                     <li>• Client satisfaction rating: 4.8/5.0</li>
-                    <li>• Punch list items: <10 per project</li>
+                    <li>• Punch list items: &lt;10 per project</li>
                     <li>• Repeat client rate: 76%</li>
                   </ul>
                 </div>

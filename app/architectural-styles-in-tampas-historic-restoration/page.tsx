@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Architectural Styles in Tampa's Historic Restoration | Expert Preservation",
+  title: "Architectural Styles in Tampa Historic Restoration",
   description: "Expert guide to Tampa's historic architectural styles: Mediterranean Revival, Vernacular, Tampa Bungalow. Learn restoration techniques for Ybor City, Hyde Park & more.",
 };
 
@@ -25,11 +26,66 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  },
+  {
+    "title": "Tampa's Historic Districts Restoration Rules",
+    "href": "/tampas-historic-districts-restoration-rules/",
+    "description": "Guidelines for restoration projects in Tampa's designated historic areas."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do I determine my building&apos;s architectural style?",
+    answer: "Start by examining character-defining features: roof form, materials, window types, decorative elements, and overall massing. Tampa&apos;s historic property surveys, available through the Florida Master Site File, often include style classifications. For locally designated properties, contact Tampa&apos;s Historic Preservation division. Florida Construction Specialists can provide architectural assessments as part of our pre-project consultation."
+  },
+  {
+    question: "Can I use modern materials that replicate historic appearances?",
+    answer: "It depends on visibility, significance, and the specific material. For federal tax credit projects, the Secretary of the Interior&apos;s Standards generally require in-kind replacement of historic materials on character-defining features. Local commissions may have more flexibility for non-contributing elements or areas not visible from public ways. Any substitute material must be carefully evaluated for compatibility and long-term performance."
+  },
+  {
+    question: "What if my building has been altered from its original style?",
+    answer: "Many historic buildings have accumulated changes over time. Some alterations may themselves be historically significant if they occurred during the building&apos;s period of significance. Others may be candidates for removal to restore the original design. A professional assessment can help determine which elements should be preserved, which can be removed, and how to integrate necessary contemporary systems without compromising historic character."
+  },
+  {
+    question: "How do I find craftsmen skilled in historic techniques?",
+    answer: "Florida Construction Specialists maintains relationships with skilled tradespeople experienced in historic plasterwork, masonry restoration, wood repair, and other specialized preservation trades. We also work with preservation architects and consultants who understand Tampa&apos;s architectural heritage. This network is essential for executing restoration work that meets both technical and aesthetic standards."
+  },
+  {
+    question: "Are there resources for learning more about Tampa&apos;s architectural history?",
+    answer: "Tampa Preservation, Inc. offers tours and educational programming. The Ybor City Museum State Park interprets the district&apos;s history, including architectural heritage. The Tampa-Hillsborough County Public Library maintains local history collections. The University of South Florida&apos;s Florida Studies Center provides academic resources on Florida architecture and preservation."
+  },
+  {
+    question: "What is the difference between restoration, rehabilitation, and reconstruction?",
+    answer: "The Secretary of Interior Standards define four treatment approaches: Preservation (maintaining existing materials), Restoration (returning to appearance at specific time period), Rehabilitation (adapting for contemporary use while preserving character), and Reconstruction (recreating non-surviving buildings). Most Tampa projects involve rehabilitation, which allows more flexibility for contemporary adaptations while requiring preservation of character-defining features."
+  },
+  {
+    question: "How do architectural styles affect property values in Tampa&apos;s historic districts?",
+    answer: "Well-maintained historic properties often command premium prices due to their unique character, walkable neighborhood locations, and architectural distinction. Mediterranean Revival and other elaborate styles typically have higher market appeal, while vernacular buildings offer more affordable entry points into historic districts. Proper restoration enhances value, while inappropriate alterations can diminish both marketability and eligibility for preservation incentives."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -563,6 +619,10 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -25,9 +25,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Historic Social Clubs Restoration | Ybor City Heritage | FCS",
+  title: "Tampa Historic Social Clubs | Ybor City | FCS",
   description:
     "Restoring Tampa's historic social clubs and mutual aid societies. Expert preservation of Ybor City's Italian, Cuban, and Spanish club buildings with historic tax credit guidance.",
   keywords:
@@ -259,6 +260,29 @@ const internalLinks = [
   { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
   { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
 ];
 
 export default function TampaHistoricSocialClubsRestorationPage() {
@@ -649,6 +673,10 @@ export default function TampaHistoricSocialClubsRestorationPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

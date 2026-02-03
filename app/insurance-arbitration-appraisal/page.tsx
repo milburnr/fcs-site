@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Insurance Arbitration & Appraisal Services",
@@ -84,6 +85,29 @@ const internalLinks = [
   { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
   { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  },
+  {
+    "title": "Impact of Climate Change on Tampa Insurance Restoration",
+    "href": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+    "description": "How changing weather patterns affect property damage and restoration needs."
+  }
 ];
 
 export default function InsuranceArbitrationAppraisalPage() {
@@ -474,6 +498,10 @@ export default function InsuranceArbitrationAppraisalPage() {
       </section>
 
       {/* CTA Section */}
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       
       {/* Internal Links */}
       <section className="section bg-gray-50">

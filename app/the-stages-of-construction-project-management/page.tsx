@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "The Stages of Construction Project Management | Tampa Bay Guide",
+  title: "Construction Project Management Stages | Tampa",
   description: "Understand the five key stages of construction project management. Learn how professional management guides Tampa Bay commercial projects from concept to completion.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How long does a typical commercial construction project take?",
+    answer: "Duration varies enormously by project type and size. Simple tenant improvements might take 2-3 months; complex ground-up commercial buildings might take 12-18 months or longer. Add 3-6 months of planning/pre-construction before construction begins. Florida Construction Specialists provides realistic schedule estimates based on your specific project parameters."
+  },
+  {
+    question: "When should I engage a construction manager or contractor?",
+    answer: "Earlier is generally better. Engaging construction expertise during the initiation or early planning stage maximizes the value of pre-construction services—constructability input, cost estimating, and schedule development all benefit from early involvement. Even if design isn't complete, construction managers can begin adding value."
+  },
+  {
+    question: "What causes projects to deviate from planned schedules?",
+    answer: "Common causes include delayed permits, unforeseen site conditions, weather impacts, design changes, material delays, subcontractor issues, and inspection failures. Effective project management anticipates many of these issues, builds appropriate contingencies into schedules, and implements recovery measures when delays occur."
+  },
+  {
+    question: "How involved should owners be during construction?",
+    answer: "Owner involvement levels vary based on preference and project complexity. At minimum, owners should participate in regular progress meetings, approve changes promptly, and make decisions when required. Many owners prefer more active involvement; others delegate to professional representatives. Discuss preferred involvement levels with your contractor early in the project."
+  },
+  {
+    question: "What happens if my project encounters major problems?",
+    answer: "Experienced project managers have dealt with every type of problem and know how to respond. The key is early identification and transparent communication. Problems addressed promptly usually have manageable solutions; problems hidden or ignored tend to escalate. Choose a contractor who communicates openly about challenges rather than minimizing concerns."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -355,6 +403,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

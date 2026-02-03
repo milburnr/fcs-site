@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Star, Users, MessageSquare, ThumbsUp, Award, Building, Clock, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Customer Satisfaction in Florida Commercial Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How can I evaluate a contractor's customer satisfaction record before hiring?",
+    answer: "Request references from recent projects similar to yours and actually contact them. Ask specific questions: Was communication good? Were there budget surprises? How were problems handled? Would they hire the contractor again? Also check online reviews, BBB ratings, and industry reputation. Florida Construction Specialists welcomes these inquiries and provides comprehensive reference lists."
+  },
+  {
+    question: "What should I do if I'm not satisfied with something during construction?",
+    answer: "Speak up immediately. The sooner issues are raised, the easier they are to address. Contact your project manager directly with specific concerns. At Florida Construction Specialists, we view feedback as an opportunity to improve and will work diligently to resolve any concerns. Documenting issues in writing ensures clear communication and accountability."
+  },
+  {
+    question: "How does customer satisfaction affect project outcomes?",
+    answer: "Strongly. Contractors focused on customer satisfaction tend to have better processes, more disciplined project management, and stronger quality control. The same mindset that drives client satisfaction drives schedule and budget performance. Additionally, good communication prevents misunderstandings that lead to disputes and delays."
+  },
+  {
+    question: "What happens if there's a dispute during the project?",
+    answer: "Most disputes arise from miscommunication or differing expectations. Our approach is to address issues directly and professionally, seeking mutually acceptable solutions. Our contracts include clear dispute resolution procedures, but our goal is to resolve concerns before they escalate. Open communication and good faith typically prevent formal disputes."
+  },
+  {
+    question: "How do you handle warranty issues after the project is complete?",
+    answer: "We provide responsive warranty service throughout the warranty period (typically one year for general workmanship, longer for specific systems). Report issues to your project manager or our warranty coordinator. We assess the concern, determine responsibility, and resolve valid warranty items promptly. Our 11-month proactive walk-through catches issues before the warranty expires."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -364,6 +412,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

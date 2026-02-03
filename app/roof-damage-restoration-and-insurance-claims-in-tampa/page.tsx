@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Roof Damage Restoration & Insurance Claims Tampa | Commercial Roofing Repair",
+  title: "Roof Damage Restoration Tampa | Insurance Claims",
   description: "Commercial roof damage restoration and insurance claims in Tampa. Hurricane, wind, and storm damage repair. Expert claim documentation, fast repairs, and quality workmanship for Tampa Bay businesses.",
 };
 

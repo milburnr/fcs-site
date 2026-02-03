@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Bug, Shield, FileText, Droplets } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Mold Remediation and Insurance Coverage Tampa | Commercial Property Guide",
+  title: "Mold Remediation & Insurance Tampa | Commercial",
   description: "Expert mold remediation services in Tampa with insurance claim guidance. Understanding Florida mold coverage, remediation requirements, and claim documentation for commercial properties.",
 };
 
@@ -53,6 +53,11 @@ export default function Page() {
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
+      <ServiceSchema 
+        serviceName="Mold Remediation & Insurance Claims"
+        serviceDescription="Expert mold remediation services in Tampa with insurance claim guidance. Understanding Florida mold coverage, remediation requirements, and claim documentation for commercial properties."
+        city="Tampa"
+      />
       
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

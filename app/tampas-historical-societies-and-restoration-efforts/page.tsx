@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Historical Societies and Restoration Efforts",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "How can historical societies help with my restoration project?",
+    answer: "Historical societies provide research resources (photographs, documents, archives), connect building owners with qualified professionals, offer guidance on preservation regulations and incentives, and can advocate for projects that face regulatory challenges. Their involvement often strengthens tax credit applications by providing documentary support for historical significance claims."
+  },
+  {
+    question: "Do I need to be a member to access historical society resources?",
+    answer: "Most historical societies welcome research inquiries from non-members, though membership often provides enhanced access and supports the organization's preservation mission. Membership fees typically range from $25-$100 annually—a modest investment that supports community preservation efforts while providing research access and networking opportunities."
+  },
+  {
+    question: "Can historical societies help me get my building listed on the National Register?",
+    answer: "Historical societies can assist with research supporting National Register nominations, though the formal nomination process goes through the State Historic Preservation Office. Tampa Preservation Inc. and similar organizations have helped numerous building owners navigate the nomination process, connecting them with consultants who prepare nomination documents and guiding projects through state and federal review."
+  },
+  {
+    question: "What if historical society recommendations conflict with my project plans?",
+    answer: "Historical societies are advisory; they don't have regulatory authority over private property (unless local landmark designation applies). However, their recommendations often align with the Secretary of the Interior's Standards that govern tax credit eligibility. If conflicts arise, early dialogue usually identifies solutions that meet both project requirements and preservation standards."
+  },
+  {
+    question: "How do I find the appropriate historical society for my building?",
+    answer: "Start with geographic and thematic connections. Buildings in Ybor City benefit from Ybor City Museum Society resources. Hyde Park properties connect with neighborhood preservation groups. Tampa Preservation Inc. provides regional coverage and can refer projects to specialized organizations. Florida Construction Specialists helps clients identify and engage appropriate historical society partners."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -269,6 +317,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

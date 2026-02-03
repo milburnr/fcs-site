@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Shield, FileText, Scale, Search, Bad
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Why Hire Licensed Contractors for Commercial Construction | Florida Guide",
+  title: "Licensed Contractors for Commercial | Florida",
   description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. Understand licensing requirements, risks of unlicensed work, and how to verify credentials.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/key-questions-for-floridas-top-commercial-contractor/", label: "Questions to Ask Contractors" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages Guide" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const licenseTypes = [
@@ -366,6 +390,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

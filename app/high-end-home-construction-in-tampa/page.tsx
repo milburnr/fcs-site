@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Crown, Diamond, Award, Sparkles, Star } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How long does high-end home construction take?",
+    answer: "Expect 18-30 months for most high-end projects, with very complex or large estates potentially taking longer. This timeline reflects the reality that quality cannot be rushed—materials require sourcing lead times, craftsmanship requires patience, and proper curing of finishes requires appropriate time. We provide realistic schedules and communicate proactively about any changes."
+  },
+  {
+    question: "How do you ensure quality throughout construction?",
+    answer: "Quality systems include: detailed specifications approved before construction begins; material samples and mock-ups reviewed before installation; daily on-site supervision by experienced project managers; milestone inspections with documented checklists; and final punch list review with clients before completion. We catch and correct issues early rather than discovering them at the end."
+  },
+  {
+    question: "What warranties do you provide?",
+    answer: "We provide comprehensive warranties exceeding industry standards: one year on workmanship covering all aspects of construction; two years on mechanical, electrical, and plumbing systems; and ten years on structural elements. Many materials and systems carry manufacturer warranties extending even longer. We remain available after warranty periods for service and future modifications."
+  },
+  {
+    question: "How involved should clients be during construction?",
+    answer: "We tailor involvement to client preferences. Some clients visit weekly for detailed walkthroughs; others prefer monthly summaries and trust our judgment on details. Most fall somewhere between. We require client participation at critical decision points—material selections, system configurations, and milestone approvals—but handle routine construction decisions based on approved plans and specifications."
+  },
+  {
+    question: "Do high-end homes hold their value?",
+    answer: "Quality construction typically appreciates better than average construction, though location remains the primary value driver. High-end homes in desirable areas with quality schools and amenities appreciate strongly. Premium materials and systems reduce maintenance costs and extend useful life. Distinctive architecture by recognized designers can command premiums. We help clients make decisions that balance immediate satisfaction with long-term value."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

@@ -7,7 +7,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/componen
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 export const metadata: Metadata = {
-  title: "FEMA Compliance Tampa | 50% Rule & Flood Zone Construction | FCS",
+  title: "FEMA Compliance Tampa | 50% Rule | Flood Zone",
   description:
     "FEMA 50% rule specialists in Tampa Bay. Substantial improvement calculations, flood zone VE vs AE, elevation certificates, breakaway wall construction.",
   keywords:

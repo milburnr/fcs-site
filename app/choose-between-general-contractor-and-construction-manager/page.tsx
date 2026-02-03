@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "General Contractor vs Construction Manager: Which Do You Need? | Tampa",
+  title: "GC vs Construction Manager Tampa | Which to Choose",
   description: "Learn the key differences between general contractors and construction managers for your Tampa commercial project. Expert guidance on choosing the right approach for your building needs.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Is a construction manager more expensive than a general contractor?",
+    answer: "Not necessarily. While construction management fees add a visible cost, general contractors include their profit and overhead in their lump-sum bids. Construction management often delivers lower total project costs through early value engineering, competitive subcontractor bidding, and elimination of contingencies that general contractors build into fixed-price bids. For complex Tampa Bay projects, CM at Risk with a GMP often provides better value than traditional GC bidding."
+  },
+  {
+    question: "Can a company serve as both general contractor and construction manager?",
+    answer: "Yes, many full-service commercial construction firms like Florida Construction Specialists offer both services. The appropriate delivery method depends on your specific project needs, timeline, and desired level of involvement. We evaluate each project individually and recommend the approach that best serves your goals."
+  },
+  {
+    question: "What is a Guaranteed Maximum Price (GMP) in construction management?",
+    answer: "A GMP is a contract structure where the construction manager guarantees that the project will not exceed a specified maximum cost. If actual costs come in under the GMP, savings are typically shared between the owner and CM. If costs exceed the GMP due to CM error, the construction manager absorbs the overage. This structure combines the early involvement benefits of CM with cost certainty similar to a lump-sum GC contract."
+  },
+  {
+    question: "How do Florida licensing requirements differ between GCs and CMs?",
+    answer: "In Florida, both general contractors and construction managers performing at-risk work must hold appropriate contractor licenses (CGC for general contractors). Construction managers operating purely as agents (CMa) may work under different arrangements, but most commercial CMs in Tampa Bay hold CGC licenses to provide full-service capabilities. Always verify your contractor's license status through the Florida DBPR website."
+  },
+  {
+    question: "Which approach is better for fast-track commercial projects in Tampa?",
+    answer: "Construction management is typically better suited for fast-track projects because the CM can begin early work packages (site work, foundations) while design continues on later phases. This overlapping of design and construction can shave months off the overall schedule—a significant advantage in Tampa Bay's competitive commercial market where earlier occupancy means earlier revenue generation."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -618,6 +666,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

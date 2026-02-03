@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
 import { Phone, CheckCircle, AlertTriangle, Shield, FileText, Building2, Camera } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -8,7 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration for Vandalism Damage Tampa | Commercial Property Repair",
+  title: "Vandalism Damage Restoration Tampa | Commercial",
   description: "Insurance restoration for vandalism damage in Tampa. Commercial property repair for graffiti, break-ins, and intentional destruction. Expert claim documentation and complete restoration services.",
 };
 
@@ -54,6 +54,11 @@ export default function Page() {
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
+      <ServiceSchema 
+        serviceName="Vandalism Damage Insurance Restoration"
+        serviceDescription="Expert insurance restoration for vandalism damage in Tampa. Commercial property repair for graffiti, break-ins, and intentional destruction with complete claim documentation and restoration services."
+        city="Tampa"
+      />
       
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

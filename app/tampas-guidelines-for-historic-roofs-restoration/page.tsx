@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Guidelines for Historic Roofs Restoration",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "Can I replace a clay tile roof with modern materials?",
+    answer: "In Tampa's historic districts, replacement of clay tile with other materials would typically not receive COA approval. For tax credit projects, such replacement would likely fail Standards review. Clay tile remains the appropriate material for buildings that historically had tile roofs. Modern tile production makes matching possible for most historic profiles."
+  },
+  {
+    question: "How do I find matching clay tiles for my historic roof?",
+    answer: "Current manufacturers produce tiles in profiles matching most historic patterns. Color matching may require samples for comparison. Salvage tiles from demolished buildings provide the best match but have limited availability. Florida Construction Specialists can source tiles from multiple suppliers to achieve the best possible match for your specific roof."
+  },
+  {
+    question: "Can historic roofs meet Florida's hurricane requirements?",
+    answer: "Yes, with appropriate enhancement. Modern fastening systems, foam adhesives, and structural reinforcement can bring historic roofs to code-compliant wind resistance without altering visible appearance. These improvements are installed during restoration and are invisible in the completed roof."
+  },
+  {
+    question: "How often do historic roofs need replacement?",
+    answer: "Longevity varies by material and maintenance history. Clay tile and slate can last 75-100+ years when properly maintained. Metal roofs may last 50-100 years with periodic coating renewal. Most failures occur in underlayment and flashing before the primary roofing material fails. Regular inspection and maintenance dramatically extends roof life."
+  },
+  {
+    question: "Does roof restoration qualify for historic tax credits?",
+    answer: "Yes, roof restoration qualifies as a rehabilitation expenditure when work meets the Secretary of Interior's Standards. This includes repair and replacement of historic roofing materials, structural reinforcement, and associated elements like gutters and flashing. Documentation must demonstrate that work preserves or restores historic character."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -254,6 +302,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

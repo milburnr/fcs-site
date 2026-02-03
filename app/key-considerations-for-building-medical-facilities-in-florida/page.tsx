@@ -5,6 +5,7 @@ import { Phone, CheckCircle, Building2, Shield, MapPin, FileText, HelpCircle, Al
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -13,7 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Key Considerations for Building Medical Facilities in Florida | Planning Guide",
+  title: "Building Medical Facilities Florida | Guide",
   description: "Essential planning guide for medical facility construction in Florida. Site selection, zoning, AHCA requirements, regulatory compliance, and budget considerations for Tampa Bay healthcare projects.",
 };
 
@@ -28,6 +29,29 @@ const internalLinks = [
   { href: "/medical-office-value-engineering/", label: "Value Engineering" },
   { href: "/services/commercial/medical-construction/", label: "Medical Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Navigating AHCA Inspections",
+    "href": "/navigating-ahca-inspections/",
+    "description": "Preparing for and passing Florida healthcare facility inspections."
+  },
+  {
+    "title": "Medical Facility Renovations",
+    "href": "/medical-facility-renovations-with-construction-specialists/",
+    "description": "Renovating healthcare spaces while maintaining operations and compliance."
+  },
+  {
+    "title": "Clean Room Construction Standards",
+    "href": "/clean-room-construction-standards/",
+    "description": "Meeting stringent requirements for controlled environment construction."
+  },
+  {
+    "title": "Senior Living Construction Requirements",
+    "href": "/senior-living-construction-requirements/",
+    "description": "Building assisted living and senior care facilities in Florida."
+  }
 ];
 
 const siteSelectionCriteria = [
@@ -583,6 +607,10 @@ export default function Page() {
           </Accordion>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

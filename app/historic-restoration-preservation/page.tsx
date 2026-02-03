@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
 import { Phone, Building2, History, Shield, Award, ArrowRight } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata = {
   title: "Historic Restoration & Preservation Tampa FL",
@@ -22,6 +23,64 @@ const internalLinks = [
   { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
   { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do I determine if my Tampa property is historically significant?",
+    answer: "Historic significance can be established through several pathways. Individual properties may be listed on the National Register of Historic Places or designated locally by Tampa's Historic Preservation Commission. Properties within established historic districts like Ybor City or Hyde Park may contribute to the district's significance even without individual designation. The Florida Master Site File maintains comprehensive records of surveyed properties, and our team can help assess your building's historic status and preservation potential."
+  },
+  {
+    question: "What approvals are required for historic preservation projects in Tampa?",
+    answer: "Approval requirements depend on your property's designation level. Projects in Ybor City require Certificate of Appropriateness from the Barrio Latino Commission. Other locally designated historic districts require Architectural Review Commission approval. Individual landmarks need Historic Preservation Commission review. Federal tax credit projects must receive certification through the three-part application process managed by SHPO and the National Park Service. We coordinate all required approvals to ensure smooth project progression."
+  },
+  {
+    question: "Can I receive federal tax credits for my Tampa historic preservation project?",
+    answer: "The 20% Federal Historic Preservation Tax Credit is available for certified historic structures used for income-producing purposes. Qualifying projects must comply with the Secretary of Interior's Standards and involve substantial rehabilitation expenditures exceeding the building's adjusted basis. While owner-occupied residences don't qualify for the 20% credit, they may be eligible for state tax credits or local incentives. Commercial, rental residential, and mixed-use projects typically qualify for the federal program."
+  },
+  {
+    question: "How long does a typical historic preservation project take in Tampa?",
+    answer: "Project timelines vary significantly based on scope and complexity. Simple preservation maintenance might require 2-6 weeks, while comprehensive restoration can take 12-24 months. Regulatory review processes typically add 2-6 months to overall timelines, depending on the approval level required. Federal tax credit projects require additional time for the three-part application process, particularly if amendments are needed. We develop realistic schedules that account for regulatory requirements and preservation-specific complexities."
+  },
+  {
+    question: "What makes historic preservation construction more expensive than regular renovation?",
+    answer: "Historic preservation requires specialized materials, skilled craftsmen, and compliance with preservation standards that add complexity and cost. Factors include custom millwork replication, specialty conservation materials, skilled heritage tradespeople, regulatory compliance documentation, and careful protection of existing historic fabric during work. However, available tax credits and incentives often offset these premiums, and the enhanced property value typically justifies the additional investment."
+  },
+  {
+    question: "Can I update my historic building's systems for energy efficiency?",
+    answer: "Yes, the Secretary of Interior's Standards permit energy efficiency improvements that don't compromise character-defining features. Common approaches include adding insulation in concealed locations, upgrading HVAC equipment while maintaining historic register locations, installing energy-efficient lighting that matches historic fixture appearance, and improving building envelope performance through reversible interventions. Each improvement must be evaluated for its impact on historic character and approved through appropriate review processes."
+  },
+  {
+    question: "What happens if preservation work is done without proper approvals?",
+    answer: "Unauthorized work on designated historic properties can result in significant penalties and complications. Tampa's recent ordinance amendments (24-4) allow fines up to $15,000 for irreparable damage to contributing structures. Unauthorized work can also disqualify projects from tax credit programs and require costly remediation to restore damaged historic features. Federal tax credit projects that deviate from approved plans risk losing certification and must repay credits received. Always obtain required approvals before beginning any work on historic properties."
+  },
+  {
+    question: "How do I find qualified contractors for historic preservation work in Tampa?",
+    answer: "Historic preservation requires contractors with specific experience and understanding of heritage building techniques. Look for contractors with demonstrated experience in historic projects, relationships with preservation consultants and heritage tradespeople, knowledge of local preservation review processes, and successful completion of tax credit projects. Florida Construction Specialists maintains all necessary expertise and professional relationships to ensure successful preservation outcomes."
+  }
 ];
 
 export default function HistoricRestorationPage() {
@@ -56,6 +115,11 @@ export default function HistoricRestorationPage() {
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
+      <ServiceSchema 
+        serviceName="Historic Restoration & Preservation"
+        serviceDescription="Distinguished leaders in historic restoration and preservation in Florida. We blend traditional craftsmanship with modern techniques to preserve Florida's architectural heritage while meeting Secretary of Interior standards."
+      />
       {/* Hero Section */}
       <section className="relative min-h-[50vh] flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark">
@@ -265,7 +329,7 @@ export default function HistoricRestorationPage() {
                   <li>• Certified historic structure</li>
                   <li>• Income-producing use</li>
                   <li>• Secretary of Interior Standards compliance</li>
-                  <li>• Substantial rehabilitation (QRE > adjusted basis)</li>
+                  <li>• Substantial rehabilitation (QRE &gt; adjusted basis)</li>
                   <li>• Three-part application process</li>
                 </ul>
               </div>
@@ -610,6 +674,10 @@ export default function HistoricRestorationPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

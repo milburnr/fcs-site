@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle, Leaf, Sun, Droplets, Wind } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Eco-Friendly Custom Homes in Tampa | Sustainable Luxury Building",
+  title: "Eco-Friendly Custom Homes Tampa | Sustainable",
   description: "Build your dream eco-friendly custom home in Tampa. Solar-ready designs, sustainable materials, LEED-certified construction. Green luxury living from $450K-$2M+.",
 };
 
@@ -25,11 +25,27 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Real-Time Energy Monitoring",
+    answer: "Advanced monitoring systems track energy production, consumption, and efficiency in real-time. Smartphone apps allow homeowners to optimize usage patterns, identify opportunities for additional savings, and ensure all systems operate at peak performance. Data analytics help predict maintenance needs and identify optimization opportunities."
+  },
+  {
+    question: "Performance Verification",
+    answer: "Post-occupancy testing verifies that homes perform as designed. Blower door tests confirm air sealing effectiveness, thermal imaging identifies insulation gaps, and energy audits validate efficiency projections. We provide one-year performance reviews to ensure all systems meet design expectations."
+  },
+  {
+    question: "Continuous Improvement",
+    answer: "Technology advances continuously in green building. We maintain relationships with homeowners to recommend upgrades as new opportunities become available. Software updates, system optimizations, and equipment replacements keep homes performing at their best throughout their operational life."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

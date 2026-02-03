@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What makes a building a \"landmark\" versus just \"historic\"?",
+    answer: "Landmark designation typically indicates exceptional significance and legal protection beyond basic historic status. National Historic Landmarks represent the highest federal designation, while local landmark designation provides municipal protection. National Register listing, the most common historic designation, makes properties eligible for tax credits but provides limited protection from alteration or demolition."
+  },
+  {
+    question: "Can landmark buildings be modified for new uses?",
+    answer: "Yes, the Secretary of the Interior's Standards for Rehabilitation specifically addresses adaptive reuse that changes building function while preserving historic character. Successful adaptive reuse projects balance new use requirements with protection of character-defining features. The key is distinguishing between essential historic elements that must be preserved and less significant areas where changes may be acceptable."
+  },
+  {
+    question: "How long does a typical landmark restoration project take?",
+    answer: "Timeline varies significantly based on building size, condition, and project scope. Planning and regulatory approval typically requires 6-18 months. Construction for major landmark projects often spans 18-36 months. The historic tax credit process adds additional timeline constraints, as Part 2 approval must precede construction commencement. Overall project duration of 3-5 years is common for significant landmarks."
+  },
+  {
+    question: "Are there restrictions on what changes can be made to landmarks?",
+    answer: "Restrictions depend on designation level and whether the project seeks tax credits. National Historic Landmarks face the strictest standards. Tax credit projects must comply with the Secretary of the Interior's Standards, which generally require preserving character-defining features while allowing appropriate changes. Local landmark designation may impose additional municipal review requirements."
+  },
+  {
+    question: "What happens if inappropriate changes were previously made to a landmark?",
+    answer: "Previous inappropriate alterations don't necessarily prevent restoration or tax credit eligibility. Part 2 applications often include removal of non-historic alterations as part of the rehabilitation scope. Restoration of previously altered areas can actually strengthen tax credit applications by demonstrating commitment to historic integrity. Professional assessment determines which previous changes are reversible."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

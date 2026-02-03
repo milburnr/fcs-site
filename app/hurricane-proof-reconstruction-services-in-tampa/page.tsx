@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Hurricane-Proof Reconstruction Services in Tampa | Commercial Storm Hardening",
+  title: "Hurricane-Proof Reconstruction Tampa | Commercial",
   description: "Expert hurricane-proof reconstruction services in Tampa. Commercial building fortification, impact-resistant systems, and Florida Building Code compliance. FEMA-approved contractors serving Tampa Bay businesses.",
 };
 

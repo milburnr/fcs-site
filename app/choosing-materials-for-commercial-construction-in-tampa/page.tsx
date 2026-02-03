@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, Layers, Shield, Sun, Droplets, CheckCircle, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Choosing Materials for Commercial Construction in Tampa | Expert Guide",
+  title: "Materials for Commercial Construction Tampa",
   description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant, humidity-proof, and cost-effective material options for commercial buildings.",
 };
 
@@ -47,11 +47,35 @@ const materialCategories = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What building materials work best in Tampa's hurricane zone?",
+    answer: "Reinforced concrete, properly designed structural steel, and masonry construction all provide excellent hurricane resistance. The key is proper design and connection details—the continuous load path from roof to foundation. Impact-resistant glazing and properly attached roofing systems are essential for maintaining building envelope integrity during storms."
+  },
+  {
+    question: "How does Florida's humidity affect material selection?",
+    answer: "Humidity creates risks of mold growth, material degradation, and corrosion. Material selection should emphasize moisture-resistant products, proper vapor barriers, and corrosion protection for metals. Proper HVAC design maintains interior humidity levels that protect materials and occupant comfort."
+  },
+  {
+    question: "Are \"cool\" roofing materials required in Tampa?",
+    answer: "Florida Energy Code requires roofing with minimum solar reflectance for most commercial buildings. Cool roofing materials reduce cooling energy consumption by 10-15% and contribute to a more comfortable interior environment. Most modern commercial roofing materials meet these requirements."
+  },
+  {
+    question: "What's the cost difference between impact glass and hurricane shutters?",
+    answer: "Impact-resistant glazing typically costs 30-50% more than standard glass with hurricane shutters. However, impact glass provides permanent protection without deployment, better aesthetics, improved security, and reduced noise transmission. For commercial buildings with regular occupancy, impact glass usually provides better value despite higher initial cost."
+  },
+  {
+    question: "How do I choose between different structural systems?",
+    answer: "The optimal structural system depends on building type, spans required, budget, and schedule. Tilt-wall concrete is typically most economical for single-story warehouses and industrial buildings. Structural steel provides design flexibility for multi-story or complex buildings. Masonry works well for smaller buildings. An experienced contractor can help evaluate options for your specific project."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Choosing Materials for Commercial Construction in Tampa"
         description="Expert guidance on selecting construction materials suited for Tampa's climate and building requirements."

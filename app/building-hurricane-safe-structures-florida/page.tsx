@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, Wind, Home, Droplets, AlertTriangle, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Building Hurricane-Safe Structures in Florida | Construction Guide",
+  title: "Hurricane-Safe Structures Florida | Guide",
   description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design, impact glazing, and storm-proof construction from Tampa Bay contractors.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/reinforced-construction-services-in-tampa-for-disaster-prevention/", label: "Reinforced Construction" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 const windZones = [
@@ -101,11 +125,39 @@ const codeTimeline = [
   { year: "2023", description: "FBC 8th Edition with post-Ian/Nicole improvements" },
 ];
 
+const faqs = [
+  {
+    question: "How much does hurricane-resistant construction cost compared to standard building?",
+    answer: "Hurricane-resistant construction typically adds 3-8% to initial building costs, with impact-resistant glazing being the largest cost factor. However, insurance savings, improved durability, and business continuity benefits often justify this investment within 5-10 years. The exact cost depends on building type, protection level desired, and current market conditions."
+  },
+  {
+    question: "Can existing buildings be retrofitted for hurricane resistance?",
+    answer: "Yes, many hurricane-resistant features can be added to existing buildings. Common retrofits include hurricane shutters or impact glazing, roof reinforcement, garage door bracing, and structural connections enhancement. However, some improvements may require significant renovation work. A professional assessment can identify the most cost-effective upgrade options."
+  },
+  {
+    question: "What's the difference between wind resistance and impact resistance?",
+    answer: "Wind resistance refers to a building's ability to withstand high winds without structural failure. Impact resistance specifically addresses the ability to resist wind-borne debris without envelope breach. Both are important for hurricane protection, but impact resistance prevents the internal pressure changes that can cause catastrophic failures."
+  },
+  {
+    question: "How often should hurricane-resistant buildings be inspected?",
+    answer: "Annual inspections help ensure continued performance, with more frequent inspections recommended for coastal buildings exposed to salt air. Post-storm inspections are essential after any significant wind event, even if no obvious damage is visible. Professional maintenance programs help identify issues before they compromise performance."
+  },
+  {
+    question: "Do hurricane-resistant buildings require special insurance considerations?",
+    answer: "Hurricane-resistant features often qualify for insurance discounts and improved coverage terms. Documentation of above-code construction, Miami-Dade approved materials, and enhanced designs should be provided to insurance carriers. Some carriers offer specialized coverage for high-performance buildings with additional benefits and lower deductibles."
+  },
+  {
+    question: "What role does proper installation play in hurricane resistance?",
+    answer: "Proper installation is absolutely critical for achieving design performance. Hurricane-resistant materials and systems must be installed exactly according to manufacturer specifications and approved plans. Poor installation can completely negate the benefits of high-performance materials, which is why special inspections and quality control are essential."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Building Hurricane-Safe Structures in Florida"
         description="Learn how Florida's building codes create hurricane-resistant commercial structures."
@@ -604,6 +656,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

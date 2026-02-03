@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, FileText, Ruler, Building2, AlertTriangle, Target, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Building the Perfect Construction Blueprint",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/commercial-building-design-services-in-tampa/", label: "Commercial Design Services" },
   { href: "/pre-construction-services-tampa/", label: "Pre-Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
 ];
 
 const blueprintElements = [
@@ -83,11 +107,35 @@ const costFactors = [
   { factor: "Typical Design Fee", small: "5-7% of construction", medium: "7-9% of construction", large: "9-12% of construction" },
 ];
 
+const faqs = [
+  {
+    question: "What's included in a complete commercial blueprint package?",
+    answer: "A complete package includes: architectural drawings (floor plans, elevations, sections, details), structural drawings (foundation, framing, connections), MEP drawings (mechanical, electrical, plumbing, fire protection), civil drawings (site plan, grading, utilities), and specifications. The number of sheets depends on project complexity—typically 50-200+ sheets for commercial projects."
+  },
+  {
+    question: "How does design-build improve blueprint quality?",
+    answer: "When architects and builders work together from the start, blueprints benefit from construction expertise during design. The builder identifies constructability issues, value engineering opportunities, and potential coordination problems before documents are finalized. This collaborative approach produces more buildable documents with fewer change orders."
+  },
+  {
+    question: "What software is used for modern construction blueprints?",
+    answer: "Most commercial projects now use Building Information Modeling (BIM) software like Revit or ArchiCAD rather than traditional 2D CAD. BIM creates a 3D model that generates coordinated drawings, performs clash detection between systems, and provides quantity takeoffs for estimating. This technology significantly reduces documentation errors."
+  },
+  {
+    question: "How do I know if my blueprints are permit-ready?",
+    answer: "Permit-ready blueprints include: complete code analysis, structural engineer's sealed calculations, energy code compliance documentation, fire protection plans, accessibility (ADA) compliance details, and all required signatures. Experienced design teams know exactly what Hillsborough County and other Tampa Bay jurisdictions require."
+  },
+  {
+    question: "What causes blueprint revisions and how can they be minimized?",
+    answer: "Revisions typically result from: owner scope changes, permitting authority comments, value engineering decisions, or errors discovered during construction. Minimize revisions by defining scope clearly at project start, involving all stakeholders in design reviews, and using experienced design-build teams who catch issues early."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Building the Perfect Construction Blueprint"
         description="Master the art of construction blueprint development for Florida commercial projects."
@@ -445,6 +493,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

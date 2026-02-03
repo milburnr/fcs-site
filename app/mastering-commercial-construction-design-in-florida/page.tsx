@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Pencil, Building, Sun, Wind, Users, Shield, Award, Lightbulb, Target, Palette } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Mastering Commercial Construction Design in Florida",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  },
+  {
+    "title": "Key Questions for Florida's Top Commercial Contractor",
+    "href": "/key-questions-for-floridas-top-commercial-contractor/",
+    "description": "Essential questions to ask before hiring a commercial contractor for your Florida project."
+  }
+];
+
+const faqs = [
+  {
+    question: "How long does the design phase typically take?",
+    answer: "Design timelines vary based on project complexity. A straightforward tenant improvement might require 4-8 weeks of design. Ground-up commercial buildings typically need 3-6 months for complete design development. Design-build allows construction to begin before design is 100% complete, reducing overall project duration."
+  },
+  {
+    question: "How much should design services cost?",
+    answer: "Design fees typically range from 5-12% of construction cost depending on project complexity and the extent of services. Design-build often reduces total design cost by eliminating redundant coordination and reducing change-driven redesign. Our design-build proposals include all design services for transparent, predictable pricing."
+  },
+  {
+    question: "Can you work with our architect, or do we have to use yours?",
+    answer: "We can work either way. For projects with existing architectural relationships, we collaborate closely with your design team as construction manager. For design-build projects, our in-house capabilities provide single-source convenience. We'll recommend the approach that best serves your project's needs."
+  },
+  {
+    question: "How do you ensure designs meet our budget?",
+    answer: "Budget alignment is a core benefit of design-build. We establish target budgets at project inception and provide real-time cost feedback as design progresses. If design direction exceeds budget, we immediately identify alternatives. You never experience the surprise of bids exceeding budget that plagues traditional design-bid-build."
+  },
+  {
+    question: "What role do I play in the design process?",
+    answer: "You're central to the process. Design begins with understanding your business needs, operational requirements, and aesthetic preferences. We present options, explain trade-offs, and incorporate your feedback throughout. Formal design reviews at key milestones ensure the project stays aligned with your vision before construction begins."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -420,6 +468,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

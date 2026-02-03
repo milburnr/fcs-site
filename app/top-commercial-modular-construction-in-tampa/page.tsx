@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Top Commercial Modular Construction in Tampa | Prefab Building Solutions",
+  title: "Commercial Modular Construction Tampa | Prefab",
   description: "Tampa's leading commercial modular construction specialists. Faster timelines, controlled costs, quality prefab buildings for offices, healthcare, education, and more.",
 };
 

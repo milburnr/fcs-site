@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Quality Construction Materials Tampa | Florida Building Code Compliance",
+  title: "Quality Construction Materials Tampa | Code",
   description: "Learn why quality construction materials matter in Tampa's demanding climate. Florida Construction Specialists explains FBC requirements, hurricane-resistant materials, and material specifications for commercial buildings.",
 };
 

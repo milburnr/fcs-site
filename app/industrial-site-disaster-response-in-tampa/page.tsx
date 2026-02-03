@@ -13,7 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Industrial Site Disaster Response in Tampa | Emergency Construction Services",
+  title: "Industrial Disaster Response Tampa | Emergency",
   description: "24/7 industrial disaster response in Tampa Bay. Rapid emergency recovery for warehouses, manufacturing facilities, and distribution centers after hurricanes, fires, and floods.",
 };
 

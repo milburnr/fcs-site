@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, DollarSign, Calculator, TrendingUp, PieChart, FileText, Shield, AlertTriangle, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Financial Planning for Commercial Construction in Tampa | FCS",
+  title: "Financial Planning Commercial Construction Tampa",
   description: "Expert guidance on budgeting, financing, and cost management for commercial construction in Tampa Bay. Learn about construction loans, cost estimation, and ROI optimization.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const budgetCategories = [
@@ -111,11 +135,35 @@ const budgetingBestPractices = [
   },
 ];
 
+const faqs = [
+  {
+    question: "How accurate are early-stage construction estimates?",
+    answer: "Conceptual estimates (before design) are typically accurate within ±15-20%. Schematic design estimates improve to ±10-15%. By design development, estimates should be within ±5-10%. GMP proposals at 60-70% design completion provide contractual cost certainty."
+  },
+  {
+    question: "What percentage should I budget for soft costs?",
+    answer: "Soft costs typically run 15-25% of hard construction costs. This includes: architectural/engineering fees (7-12%), permits and fees (1-3%), testing and inspections (1-2%), legal/accounting (1-2%), insurance (1-2%), and project management/owner's rep (2-4%). Complex projects or those requiring rezoning run higher."
+  },
+  {
+    question: "How do I protect against material price increases?",
+    answer: "Several strategies help: include escalation allowances (3-5% annually) in early budgets, lock in prices through early procurement of long-lead items, use GMP contracts that shift price risk to the contractor, and maintain adequate contingency. Design-build delivery allows earlier price certainty than traditional approaches."
+  },
+  {
+    question: "What contingency percentage is appropriate?",
+    answer: "For new construction: 5-10% if design is complete and site conditions are known; 10-15% for design-build with GMP at partial design completion. For renovations: 15-20% minimum due to unknown conditions. Complex renovations or historic buildings may warrant 20-25%. Never proceed without contingency—it's not padding, it's risk management."
+  },
+  {
+    question: "How does design-build affect project financing?",
+    answer: "Design-build provides earlier cost certainty, which lenders prefer. A GMP commitment at 60-70% design gives lenders confidence in the construction budget. This can result in more favorable loan terms. Design-build's faster delivery also reduces interest carry during construction—a meaningful savings on large projects."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Financial Planning for Commercial Construction in Tampa"
         description="Expert guidance on budgeting, financing, and cost management for commercial construction."
@@ -496,6 +544,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

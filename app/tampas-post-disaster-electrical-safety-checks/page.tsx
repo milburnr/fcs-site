@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Zap, Shield, Droplets, Flame, FileCh
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Post-Disaster Electrical Safety Checks Tampa | Hurricane Electrical Inspection",
+  title: "Post-Disaster Electrical Safety Tampa | Hurricane",
   description: "Professional post-disaster electrical safety checks in Tampa Bay. Expert inspection of electrical systems after hurricanes, floods, and storms to prevent fire and electrocution hazards.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
   { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Inspection" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 export default function Page() {
@@ -448,6 +472,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

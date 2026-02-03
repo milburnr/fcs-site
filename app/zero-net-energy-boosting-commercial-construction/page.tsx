@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Sun, Zap, Leaf, Building, TrendingDown, Award, DollarSign, Wind } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Zero Net Energy Boosting Commercial Construction in Tampa",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Is Zero Net Energy achievable for existing buildings?",
+    answer: "ZNE retrofits are more challenging than new construction but can be achieved for suitable buildings. Deep energy retrofits can reduce consumption by 50-70%, and solar additions offset the remainder. Buildings with large roof areas relative to their floor area are the best retrofit candidates. Florida Construction Specialists can evaluate your existing building's ZNE potential."
+  },
+  {
+    question: "How much does ZNE add to construction costs?",
+    answer: "ZNE typically adds 10-20% to construction costs before incentives. After the 30% federal ITC and other available incentives, the net premium is often 5-15%. This investment is typically recovered in 6-10 years through eliminated energy costs, with 20+ additional years of free energy following payback."
+  },
+  {
+    question: "What happens if the building uses more energy than expected?",
+    answer: "If actual energy use exceeds design targets, the building may achieve \"net zero ready\" rather than true ZNE status. Detailed energy modeling and commissioning minimize this risk. Additional solar capacity can be added if needed. Building automation systems enable ongoing optimization to reach performance targets."
+  },
+  {
+    question: "Can ZNE buildings withstand Florida hurricanes?",
+    answer: "Yes—ZNE features complement hurricane resilience. Enhanced building envelopes resist wind and water better than code-minimum construction. Modern solar mounting systems are engineered for 180+ mph winds. The superior insulation and airtightness also help maintain interior conditions during extended outages."
+  },
+  {
+    question: "Does ZNE make sense for my building type?",
+    answer: "ZNE is most readily achievable for single-story buildings with large roof areas relative to floor area—retail, office, light industrial, and warehouse applications. Multi-story buildings can achieve ZNE with solar parking, facades, or nearby ground-mount systems. High energy density uses like data centers or 24/7 manufacturing are challenging. We can assess your specific situation during pre-construction consultation."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -445,6 +493,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

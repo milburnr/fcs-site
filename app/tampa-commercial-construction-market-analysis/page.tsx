@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, TrendingUp, Building2, MapPin, Users, BarChart3, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction Market Analysis | 2024 Industry Report",
+  title: "Tampa Commercial Construction Market 2024",
   description: "In-depth analysis of Tampa's commercial construction market. Current trends, sector performance, cost data, and forecasts for developers and investors.",
 };
 
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/tampa-commercial-construction-companies/", label: "Top Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const marketSectors = [
@@ -63,11 +87,35 @@ const marketSectors = [
   },
 ];
 
+const faqs = [
+  {
+    question: "Is Tampa a good market for commercial real estate investment?",
+    answer: "Tampa Bay offers attractive fundamentals including population growth, job creation, and business-friendly environment. While cap rates have compressed and construction costs have risen, the market's growth trajectory supports continued investment activity across most property sectors."
+  },
+  {
+    question: "Which areas of Tampa Bay are seeing the most commercial development?",
+    answer: "Downtown Tampa, Water Street, and Westshore continue to attract significant office and mixed-use development. East Hillsborough and Pasco County lead industrial development. South Tampa and St. Petersburg attract retail and hospitality projects. Healthcare development is distributed throughout the region."
+  },
+  {
+    question: "How competitive is Tampa's commercial construction market?",
+    answer: "The market is highly competitive, with strong demand for commercial construction services. Contractors with established teams and subcontractor relationships can be selective about projects. Adequate lead time and competitive budgets help attract quality contractors."
+  },
+  {
+    question: "What's the typical timeline for commercial development in Tampa?",
+    answer: "From concept to completion, commercial projects typically take 18-36 months. This includes 3-6 months for due diligence and design, 3-6 months for permitting, and 8-18 months for construction depending on project size and complexity."
+  },
+  {
+    question: "How do Tampa's construction costs compare to other Florida markets?",
+    answer: "Tampa's construction costs are generally comparable to Orlando and slightly below Miami. Factors like land costs, labor availability, and local code requirements create variations. Tampa offers good value compared to South Florida markets while maintaining access to quality contractors and materials."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Tampa Commercial Construction Market Analysis"
         description="In-depth analysis of Tampa's commercial construction market with current trends, sector performance, and forecasts."
@@ -354,6 +402,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

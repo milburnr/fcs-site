@@ -27,9 +27,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Living Shoreline vs Traditional Seawall | Tampa Bay Waterfront | FCS",
+  title: "Living Shoreline vs Seawall Tampa Bay | FCS",
   description:
     "Compare living shorelines and traditional seawalls for Tampa Bay waterfront properties. Environmental benefits, costs, permits, and which approach suits your property.",
   keywords:
@@ -272,6 +273,29 @@ const internalLinks = [
   { href: "/services/residential/home-additions/", label: "Home Additions" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Building on Tampa Bay Waterfront",
+    "href": "/building-on-tampa-bay-waterfront/",
+    "description": "Special considerations for waterfront property construction in Tampa Bay."
+  },
+  {
+    "title": "Flood Zone VE vs AE Guide",
+    "href": "/flood-zone-ve-vs-ae-guide/",
+    "description": "Understanding flood zone designations and construction requirements."
+  },
+  {
+    "title": "Breakaway Wall Construction Requirements",
+    "href": "/breakaway-wall-construction-requirements/",
+    "description": "Building flood-compliant structures in coastal high hazard areas."
+  },
+  {
+    "title": "Marine Grade Building Materials Guide",
+    "href": "/marine-grade-building-materials-guide/",
+    "description": "Selecting materials that withstand coastal conditions."
+  }
 ];
 
 export default function LivingShorelineVsSeawallPage() {
@@ -677,6 +701,10 @@ export default function LivingShorelineVsSeawallPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

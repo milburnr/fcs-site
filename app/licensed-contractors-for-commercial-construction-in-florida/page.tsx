@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Licensed Contractors for Commercial Construction in Florida | Tampa Bay",
+  title: "Licensed Commercial Contractors Florida | Tampa",
   description: "Understand Florida contractor licensing requirements and why licensed contractors are essential for commercial construction. Verify credentials before hiring.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Can out-of-state contractors work on Florida commercial projects?",
+    answer: "Out-of-state contractors must obtain Florida licensure before performing work in the state. Florida doesn't have reciprocity agreements with other states for contractor licenses. Some out-of-state contractors qualify for expedited examination based on equivalent credentials, but they must still pass Florida-specific examinations and meet all licensing requirements."
+  },
+  {
+    question: "What's the difference between a contractor's personal license and company license?",
+    answer: "Individual contractors hold licenses personally based on their qualifications. However, construction companies can \"qualify\" under an individual's license, allowing the company to contract for work. When verifying licenses, ensure the company you're contracting with is properly qualified—not just that an employee holds a personal license. The licensed individual must have a defined relationship with the company."
+  },
+  {
+    question: "Do construction managers need contractor licenses in Florida?",
+    answer: "It depends on the contract structure. Construction managers who contract directly with trade contractors (CM at Risk) typically need general contractor licenses. Construction managers acting purely as owner's agents (CM as Agent) may not require licenses if they don't contract for construction work directly. Most professional construction managers hold licenses regardless to provide comprehensive services."
+  },
+  {
+    question: "How often should I verify a contractor's license status?",
+    answer: "Verify license status before signing contracts and periodically during lengthy projects. Licenses can be suspended, revoked, or allowed to expire. For projects spanning multiple years, annual verification provides reasonable assurance that credentials remain current. Also verify whenever you have concerns about contractor performance or professionalism."
+  },
+  {
+    question: "What if my contractor's license expires during my project?",
+    answer: "Work performed under an expired license violates Florida law and can result in permit revocation, stop-work orders, and other serious consequences. If you discover your contractor's license has expired, stop work immediately and insist on license renewal before proceeding. Reputable contractors maintain license renewals well in advance of expiration to prevent such situations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -312,6 +360,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

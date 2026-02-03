@@ -5,9 +5,10 @@ import { Phone, CheckCircle, AlertTriangle, Shield, HardHat, ClipboardCheck, Use
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Construction Site Safety | Top Priority for Tampa Contractors",
+  title: "Construction Site Safety Tampa | Top Priority",
   description: "Ensuring construction site safety is Florida Construction Specialists' top priority. Learn about OSHA compliance, Florida Building Code requirements, and comprehensive safety programs in Tampa Bay.",
 };
 
@@ -45,6 +46,29 @@ const internalLinks = [
   { href: "/safety-first-in-florida-commercial-construction-projects/", label: "Safety First in Commercial Projects" },
   { href: "/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Zero Accident Workplace in Tampa's Commercial Construction",
+    "href": "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+    "description": "Creating a culture of safety on commercial construction sites."
+  },
+  {
+    "title": "Summer Construction Safety Tips",
+    "href": "/summer-construction-safety-tips-from-top-contractors/",
+    "description": "Protecting workers from heat and other summer hazards in Florida."
+  },
+  {
+    "title": "Tampa Commercial Construction Safety Standards",
+    "href": "/tampa-commercial-construction-safety-standards/",
+    "description": "Understanding safety requirements for Tampa area construction."
+  },
+  {
+    "title": "Zero Accidents Commercial Construction",
+    "href": "/zero-accidents-commercial-construction-safety-specialists/",
+    "description": "Achieving perfect safety records on commercial projects."
+  }
 ];
 
 export default function Page() {
@@ -475,6 +499,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

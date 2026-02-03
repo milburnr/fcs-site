@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Flood Remediation Contractors Tampa | Commercial Flood Damage Restoration",
+  title: "Flood Remediation Tampa | Commercial Damage | FCS",
   description: "Licensed flood remediation contractors in Tampa. Commercial flood damage restoration, water extraction, structural drying, and mold prevention. IICRC-certified technicians serving Tampa Bay businesses.",
 };
 

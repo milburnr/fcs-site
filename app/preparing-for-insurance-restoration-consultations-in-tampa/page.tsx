@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Preparing for Insurance Restoration Consultations Tampa | Commercial Property Guide",
+  title: "Insurance Restoration Consultations Tampa | Guide",
   description: "How to prepare for insurance restoration consultations in Tampa. Checklist of documents, questions to ask, and what to expect from professional restoration contractors.",
 };
 

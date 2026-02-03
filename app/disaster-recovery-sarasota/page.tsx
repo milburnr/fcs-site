@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Disaster Recovery Sarasota FL | Hurricane & Storm Damage Restoration | FCS",
+  title: "Disaster Recovery Sarasota | Hurricane | FCS",
   description: "Sarasota disaster recovery contractor specializing in hurricane, storm, and flood damage restoration for barrier islands and waterfront properties. Prime contractor for large loss insurance claims $250K-$50M. 24/7 emergency response.",
   keywords: "disaster recovery Sarasota, hurricane damage restoration Sarasota, storm damage repair Sarasota, flood damage Sarasota, insurance restoration Sarasota, barrier island restoration, Siesta Key disaster recovery, Longboat Key storm damage",
 };

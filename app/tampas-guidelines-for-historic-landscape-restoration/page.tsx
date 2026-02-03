@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa's Guidelines for Historic Landscape Restoration",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "Do I need approval for landscape work in Tampa's historic districts?",
+    answer: "Most visible exterior work in Tampa's historic districts requires Certificate of Appropriateness approval. This includes changes to paving, significant plantings, fencing, and site features. Minor maintenance typically doesn't require approval, but consultation with the local preservation office clarifies requirements for specific projects."
+  },
+  {
+    question: "Can I add parking to a historic property?",
+    answer: "Parking additions are often possible but must be sensitively designed. Guidelines typically require parking in locations least visible from public ways, screened with appropriate landscaping or fencing, and paved with materials compatible with historic character. Large parking areas in historically residential or pedestrian-oriented areas face more restrictive review."
+  },
+  {
+    question: "What plants are appropriate for historic landscapes in Tampa?",
+    answer: "Appropriate plants depend on property period and style. Generally, species documented in Tampa during the property's period of significance are preferred. Florida native plants often work well and support sustainability goals. Avoid species that didn't exist in Tampa historically (many palm varieties, for example) and invasive species. Landscape historians can help identify period-appropriate plantings."
+  },
+  {
+    question: "How do I protect trees during construction?",
+    answer: "Tree protection begins with establishing fenced protection zones at the drip line or beyond, prohibiting equipment operation, material storage, and grade changes within these zones. Root pruning, if necessary, should be performed by certified arborists. Construction planning should route utilities and access around significant trees. Tampa's tree ordinance and historic district guidelines establish minimum protection requirements."
+  },
+  {
+    question: "Can I replace historic brick paving with new materials?",
+    answer: "Generally, historic brick paving should be preserved or restored with matching materials. Replacement with new materials is typically appropriate only where original paving no longer exists or is damaged beyond repair. New brick or compatible materials should match historic dimensions, colors, and laying patterns. Concrete or asphalt replacement of historic brick would typically not receive approval in Tampa's historic districts."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -564,6 +612,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

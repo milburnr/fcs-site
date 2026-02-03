@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Florida Construction Specialists - Committed to the Tampa Community",
+  title: "FCS - Committed to the Tampa Community",
   description: "Florida Construction Specialists is deeply committed to the Tampa Bay community. Local partnerships, workforce development, sustainable practices, and community support.",
 };
 

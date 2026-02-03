@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Bath, Droplets, Sparkles, Thermometer } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Homes with Luxury Bathrooms | Spa-Inspired Design",
+  title: "Tampa Custom Homes Luxury Bathrooms | Spa",
   description: "Create spa-inspired luxury bathrooms in your Tampa custom home. Soaking tubs, rain showers, heated floors, and premium fixtures. Master bath renovations from $75K-$200K+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "What's the best material for luxury bathroom surfaces?",
+    answer: "Natural stone remains the premier choice for luxury bathrooms—marble, limestone, and travertine create timeless elegance. Porcelain tile offers lower maintenance with realistic stone appearances. Quartz provides durability for vanity tops. We often combine materials: marble feature walls with porcelain floor tile, for example. Material selection depends on aesthetic goals, maintenance preferences, and budget priorities."
+  },
+  {
+    question: "How do you handle moisture and humidity in luxury baths?",
+    answer: "Proper ventilation is critical—we install high-capacity exhaust fans (often with humidity sensors for automatic operation) and ensure adequate air exchange. Steam showers require specialized vapor barriers, sloped ceilings, and marine-grade materials. Radiant floor heating helps dry surfaces after use. Properly specified materials resist moisture damage even in Tampa's humid climate when installed with correct waterproofing methods."
+  },
+  {
+    question: "Do freestanding tubs require special installation?",
+    answer: "Yes—freestanding tubs require floor reinforcement (many weigh 500+ pounds when filled), dedicated plumbing rough-in positioned for floor-mounted or wall-mounted fillers, and careful placement to ensure adequate access from all sides. Overflow and drain connections require planning during framing phase. We coordinate these requirements early in design to avoid costly adjustments during construction."
+  },
+  {
+    question: "What makes designer fixtures worth the premium price?",
+    answer: "Premium fixtures offer superior materials (solid brass vs. zinc), finer finishes (hand-polished vs. electroplated), better engineering (ceramic disc valves, precisely machined components), and longer warranties. The visual difference is immediately apparent, and performance remains superior for decades. Designer fixtures also hold resale value and contribute significantly to bathroom appraisal values."
+  },
+  {
+    question: "Should secondary bathrooms match the master?",
+    answer: "While secondary bathrooms needn't replicate master bath investments, maintaining consistent quality levels throughout your home is important for both daily living and resale value. Guest baths visible to visitors should reflect your home's overall quality. Children's and secondary baths can use more durable, lower-maintenance materials while still incorporating quality fixtures and finishes appropriate to a luxury home."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -365,6 +413,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

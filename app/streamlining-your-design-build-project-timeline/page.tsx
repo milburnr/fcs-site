@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Clock, Calendar, AlertTriangle, Zap, FileText, Users, ArrowRight, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Streamlining Your Design-Build Project Timeline | Tampa FL",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/avoid-commercial-construction-delays-in-florida/", label: "Avoiding Construction Delays" },
   { href: "/the-preconstruction-modern-approach-design/", label: "Modern Preconstruction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
 ];
 
 const timelinePhases = [
@@ -95,11 +119,35 @@ const commonDelays = [
   { cause: "Inspections/approvals", impact: "1-3 weeks", prevention: "Quality control, relationship management, advance scheduling" },
 ];
 
+const faqs = [
+  {
+    question: "How much faster is design-build than traditional delivery?",
+    answer: "Design-build typically completes 20-33% faster than traditional design-bid-build. For a project that would take 18 months traditionally, design-build might complete in 12-14 months. The savings come from overlapping design and construction phases, single-source responsibility, and reduced conflict resolution time."
+  },
+  {
+    question: "What are \"long-lead items\" and how do they affect schedule?",
+    answer: "Long-lead items are materials or equipment that require extended fabrication or delivery times—typically 8-20+ weeks. Common examples: structural steel, switchgear, elevators, generators, custom glazing, and specialty HVAC equipment. Identifying and ordering these during design, rather than after construction starts, can save months."
+  },
+  {
+    question: "Can you start construction before design is 100% complete?",
+    answer: "Yes, with proper planning. Site work and foundation can typically begin when design reaches 50-60% completion. Shell construction can proceed while interior design is finalized. This \"fast-track\" approach requires careful coordination but can compress schedules by 2-4 months. Design-build is ideally suited for this approach."
+  },
+  {
+    question: "How do you handle schedule changes during construction?",
+    answer: "Our project management includes continuous schedule monitoring with weekly updates. When delays occur or scope changes are requested, we immediately assess schedule impact and present recovery options. This proactive approach catches issues early when mitigation is still possible, rather than discovering delays after they've become critical."
+  },
+  {
+    question: "What schedule guarantees do you provide?",
+    answer: "Our contracts include substantial completion dates with liquidated damages for delays within our control. We also identify owner-caused delays (decision delays, change orders, etc.) and weather events that may extend the schedule. The GMP contract structure aligns our interests with yours—we have strong incentive to finish on time."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Streamlining Your Design-Build Project Timeline"
         description="Expert strategies for managing commercial construction timelines in Tampa Bay."
@@ -468,6 +516,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

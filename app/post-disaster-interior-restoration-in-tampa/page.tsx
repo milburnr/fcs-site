@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Post-Disaster Interior Restoration Tampa | Commercial Interior Rebuild",
+  title: "Post-Disaster Interior Restoration Tampa",
   description: "Expert post-disaster interior restoration in Tampa. Complete commercial interior rebuild after hurricane, flood, and storm damage. Drywall, flooring, ceilings, and finishes restored to pre-loss condition.",
 };
 

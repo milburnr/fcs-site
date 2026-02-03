@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How long does the contractor selection process typically take?",
+    answer: "Allow four to eight weeks for a thorough selection process: one to two weeks for RFP development and distribution, two to three weeks for proposal preparation, one to two weeks for evaluation and interviews, and one week for reference checking and negotiation. Rushing this process increases the risk of poor contractor selection."
+  },
+  {
+    question: "Should I negotiate price after receiving proposals?",
+    answer: "Price negotiation is appropriate but should focus on value, not just reducing numbers. Ask contractors to explain their pricing, identify areas where scope might be adjusted, and discuss alternatives. Avoid \"bid shopping\"—using one contractor's price to pressure another—as this damages relationships and often results in reduced quality or scope."
+  },
+  {
+    question: "What if my preferred contractor is significantly more expensive than others?",
+    answer: "Understand why before dismissing them. Higher prices may reflect more complete scope inclusion, better quality subcontractors, or realistic rather than optimistic estimating. Ask the contractor to explain their pricing and help you understand what drives the difference. Sometimes the higher price represents better value when total project cost is considered."
+  },
+  {
+    question: "Should I hire a construction consultant to help with contractor selection?",
+    answer: "For significant projects, professional assistance can be valuable—particularly if you lack construction experience. Owner's representatives, construction consultants, or your architect can guide the selection process, help evaluate proposals, and ensure contracts protect your interests. The cost of this assistance typically saves money through better contractor selection and contract terms."
+  },
+  {
+    question: "What if I'm not satisfied with any of the contractors who submitted proposals?",
+    answer: "Don't settle. Expand your search, solicit additional proposals, or reconsider your project timeline if necessary. Hiring a contractor you're not confident in rarely ends well. It's better to delay the project and find the right contractor than to proceed with misgivings."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

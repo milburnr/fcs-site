@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Sun, Ruler, Lightbulb, Paintbrush } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Tampa Homes with Custom Art Studios | Creative Spaces",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "Should the studio be attached or detached from the home?",
+    answer: "Both have advantages. Attached studios offer convenience, shared utilities, and climate control continuity. Detached studios provide noise isolation, separation of work and living, and potential for separate client access without entering the home. Messy or hazardous processes often benefit from detachment. We can design either approach—or hybrid solutions like breezeway connections—based on your specific needs and lot configuration."
+  },
+  {
+    question: "What ceiling height is ideal for an art studio?",
+    answer: "Minimum 10 feet for most work; 12-14 feet for large-scale painting or sculpture. Higher ceilings provide better lighting options, allow larger work, and create more comfortable workspace volume. Some artists working on very large pieces need 16+ foot clearance. Consider not just the work itself but how you'll view it—stepping back from a large painting requires proportionate space and ceiling height."
+  },
+  {
+    question: "How do you handle zoning for home-based art business?",
+    answer: "Most Tampa Bay jurisdictions allow home-based creative businesses with limitations on client visits, signage, and external business indicators. Studios where art is created but sold elsewhere rarely face restrictions. Studios receiving regular client or gallery visits may need home occupation permits. We research requirements during planning and can design features—separate entries, parking, etc.—that support business use where permitted."
+  },
+  {
+    question: "What about resale value of homes with art studios?",
+    answer: "Purpose-built studios appeal to the artist buyer pool but may not add equivalent value for general buyers. We design studios that can convert to other uses—home offices, guest suites, home gyms—without major renovation. Flexible infrastructure (generous electrical, plumbing stubs, ventilation capacity) supports various uses. The studio can be a compelling selling point for the right buyer while not limiting your market to only artists."
+  },
+  {
+    question: "Can existing homes be renovated to add studios?",
+    answer: "Absolutely. Garage conversions, additions, and detached new construction can add studio space to existing homes. Existing spaces may already have some requirements (garage ceiling heights, for example) while lacking others (proper lighting, ventilation). We evaluate existing conditions and develop efficient approaches to create functional studios. Sometimes renovation makes more sense than new construction; sometimes the reverse is true."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -372,6 +420,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

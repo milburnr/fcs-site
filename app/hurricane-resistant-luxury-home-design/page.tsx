@@ -27,9 +27,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Hurricane-Resistant Luxury Home Design | Tampa Bay Custom Homes | FCS",
+  title: "Hurricane-Resistant Luxury Homes Tampa Bay | FCS",
   description:
     "Design strategies for hurricane-resistant luxury homes in Tampa Bay. Impact windows, fortified construction, backup power systems, and architectural features that protect without compromising elegance.",
   keywords:
@@ -244,6 +245,29 @@ const internalLinks = [
   { href: "/services/residential/home-additions/", label: "Home Additions" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 export default function HurricaneResistantLuxuryHomeDesignPage() {
@@ -637,6 +661,10 @@ export default function HurricaneResistantLuxuryHomeDesignPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

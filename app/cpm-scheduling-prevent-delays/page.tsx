@@ -25,9 +25,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "CPM Scheduling to Prevent Delays | Commercial Construction Tampa | FCS",
+  title: "CPM Scheduling Tampa | Prevent Delays | FCS",
   description:
     "How Critical Path Method scheduling prevents costly delays on large commercial construction projects. Expert scheduling services for Tampa Bay industrial and commercial projects.",
   keywords:
@@ -253,6 +254,29 @@ const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  },
+  {
+    "title": "Building the Perfect Construction Blueprint",
+    "href": "/building-the-perfect-construction-blueprint/",
+    "description": "How detailed planning documents set projects up for success."
+  }
 ];
 
 export default function CPMSchedulingPreventDelaysPage() {
@@ -606,6 +630,10 @@ export default function CPMSchedulingPreventDelaysPage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

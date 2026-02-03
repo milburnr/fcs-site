@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Zap, Thermometer, Home, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Energy-Efficient Custom Homes in Tampa | Save 40-60% on Utilities",
+  title: "Energy-Efficient Custom Homes Tampa | Save 40%+",
   description: "Build an energy-efficient custom home in Tampa with advanced insulation, high-SEER HVAC, and smart systems. Reduce utility costs by 40-60%. Luxury homes from $400K-$2M+.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "What is a HERS score and why does it matter?",
+    answer: "HERS (Home Energy Rating System) is the industry standard for measuring residential energy efficiency. A standard code-built home scores 100; lower is better. Our energy-efficient homes achieve HERS scores of 45-65, meaning they use 35-55% less energy than code-minimum construction. Appraisers and buyers increasingly use HERS scores to evaluate homes, and lower scores correlate directly with higher resale values in the Tampa market."
+  },
+  {
+    question: "How quickly will I see return on investment for energy-efficient features?",
+    answer: "Most energy efficiency upgrades pay for themselves within 4-7 years through reduced utility bills. In Tampa, where cooling costs dominate, high-efficiency HVAC and superior insulation provide the fastest payback—often under 5 years. When you factor in increased home value and reduced maintenance costs (high-efficiency equipment typically lasts longer), the total ROI is even better. Many buyers find their monthly mortgage payment plus utilities is lower in an efficient home than in a cheaper but wasteful alternative."
+  },
+  {
+    question: "Will an energy-efficient home feel different from a standard home?",
+    answer: "Yes—but in positive ways. Our clients consistently report more even temperatures throughout their homes, with no hot or cold spots common in standard construction. Humidity levels stay comfortable without that clammy feeling during Tampa summers. Homes are quieter due to better insulation and sealed construction. Indoor air quality improves because controlled ventilation filters incoming air. Most homeowners say they could never go back to standard construction after experiencing the comfort of an energy-efficient home."
+  },
+  {
+    question: "Can I add solar panels to maximize efficiency?",
+    answer: "Absolutely. All our energy-efficient homes are built solar-ready with appropriately sized electrical panels, conduit runs to the roof, and structural support for panel arrays. We recommend optimizing efficiency first—every dollar spent on insulation and high-performance systems reduces the solar array size needed to achieve net-zero status. Many clients add solar at construction time to take advantage of 30% federal tax credits and Tampa Electric incentives."
+  },
+  {
+    question: "Do you provide energy performance guarantees?",
+    answer: "Every energy-efficient custom home we build comes with documented HERS testing and ENERGY STAR certification. We provide estimated annual energy costs based on third-party modeling, and our track record shows actual performance consistently meeting or exceeding projections. We also offer post-construction blower door testing documentation that proves your home's actual air tightness performance."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

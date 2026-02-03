@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Disaster-Related Demolition Services | Emergency Commercial Demolition",
+  title: "Tampa Disaster Demolition | Emergency Commercial",
   description: "Professional disaster-related demolition services in Tampa. Emergency structural demolition, hurricane debris removal, and commercial property clearing. Licensed, insured, OSHA-compliant contractors.",
 };
 

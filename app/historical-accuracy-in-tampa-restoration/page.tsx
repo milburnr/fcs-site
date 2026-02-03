@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Historical Accuracy in Tampa Restoration",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa Historic Restoration Permits and Regulations",
+    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
+  },
+  {
+    "title": "Preserving Tampa's Cultural Heritage",
+    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
+  },
+  {
+    "title": "Architectural Styles in Tampa's Historic Restoration",
+    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
+  },
+  {
+    "title": "Historic Tax Credits for Commercial Buildings",
+    "href": "/historic-tax-credits-commercial-buildings/",
+    "description": "Maximize ROI with federal and state historic preservation tax incentives."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do I know if my building's original features are still intact?",
+    answer: "Physical investigation by preservation professionals can identify original features beneath later modifications. Paint layers, covered surfaces, and architectural details often survive hidden beneath more recent work. Archival research using historic photographs helps identify what features existed originally, guiding investigation to find surviving elements."
+  },
+  {
+    question: "What if I can't find documentation of my building's original appearance?",
+    answer: "When documentary evidence is limited, physical evidence becomes primary. Paint analysis, mortar analysis, and careful examination of surviving details can reveal original characteristics. Comparison with similar buildings of the same era and style provides context for informed decisions. In some cases, a range of appropriate treatments may be acceptable when specific original details cannot be determined."
+  },
+  {
+    question: "Will the National Park Service reject my tax credit application if I can't achieve perfect accuracy?",
+    answer: "NPS reviewers understand that absolute accuracy is not always achievable. They evaluate whether the overall rehabilitation conforms to the Secretary of the Interior's Standards and preserves character-defining features. Well-documented decisions based on available evidence, even when complete information is unavailable, generally receive favorable review. The key is demonstrating good-faith effort to achieve accuracy."
+  },
+  {
+    question: "Can I use modern materials if they look like historic materials?",
+    answer: "Appearance alone doesn't satisfy accuracy requirements for significant elements. Character-defining features should be repaired or replaced with matching materials—historic wood windows with wood windows, lime mortar with lime mortar, etc. However, less prominent areas may accommodate compatible modern materials when they don't compromise overall historic character. Each decision requires evaluation of the specific element's significance."
+  },
+  {
+    question: "How much does research add to project costs?",
+    answer: "Research typically represents 2-5% of total project costs but can prevent much larger expenses from inaccurate work requiring correction. For a $2 million restoration, $40,000-$100,000 in research costs protects $400,000+ in potential tax credits. The research investment also improves construction efficiency by providing clear direction, reducing change orders and delays from uncertainty about appropriate treatments."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -263,6 +311,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

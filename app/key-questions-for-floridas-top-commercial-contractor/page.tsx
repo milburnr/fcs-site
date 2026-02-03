@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Key Questions for Florida's Top Commercial Contractors | Tampa Bay",
+  title: "Questions for Florida Commercial Contractors | Tampa",
   description: "Essential questions to ask before hiring a commercial contractor in Tampa Bay. Learn what to evaluate and how to identify the best contractor for your Florida project.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How many contractors should I interview before making a decision?",
+    answer: "Three to five qualified contractors typically provides sufficient options without becoming overwhelming. Focus on quality over quantity—thoroughly evaluating three excellent contractors yields better results than superficially reviewing ten. Invest time in deep evaluation of your finalists rather than casting the widest possible net."
+  },
+  {
+    question: "Should I be concerned if a contractor can't answer a question immediately?",
+    answer: "Not necessarily—some questions require research for accurate answers. What matters is how they handle it. Do they commit to providing the information promptly and follow through? Do they seem evasive or defensive? Thoughtful contractors may pause before answering rather than making things up. Evaluate responsiveness to follow-up requests as much as immediate answers."
+  },
+  {
+    question: "What if contractors give very different answers to the same questions?",
+    answer: "Different answers reveal different approaches, capabilities, and values. Significantly different schedule estimates may indicate one contractor understands your project better than another—or is being unrealistic. Different insurance limits may reflect different risk tolerance. Use variations to understand each contractor's perspective and determine whose approach best matches your needs."
+  },
+  {
+    question: "Should I share other contractors' responses or pricing with competitors?",
+    answer: "Generally, avoid sharing specific competitor information. This can lead to \"bid shopping\" where contractors lower prices by cutting scope or quality rather than providing their best legitimate proposal. Evaluate each contractor's response independently. If you want to negotiate, do so based on your own assessment of value rather than using competitors' information as leverage."
+  },
+  {
+    question: "Is it appropriate to ask about current workload and capacity?",
+    answer: "Absolutely—this question reveals whether the contractor can prioritize your project. Ask about current projects, upcoming commitments, and how your project fits into their capacity. Contractors stretched too thin may struggle to provide adequate attention. Conversely, a contractor with very little work may raise questions about why they're not busier."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -364,6 +412,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

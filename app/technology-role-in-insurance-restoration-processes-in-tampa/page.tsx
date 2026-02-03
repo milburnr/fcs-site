@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Technology in Tampa Insurance Restoration | Modern Claim Documentation Tools",
+  title: "Technology in Tampa Insurance Restoration | Tools",
   description: "Discover how technology transforms insurance restoration in Tampa. Drones, thermal imaging, 3D scanning, and digital documentation tools for commercial property claims.",
 };
 

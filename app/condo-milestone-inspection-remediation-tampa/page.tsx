@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Condo Milestone Inspection Remediation Tampa | SB4-D Compliance Contractor",
+  title: "Condo Milestone Inspection Tampa | SB4-D | FCS",
   description: "Florida Construction Specialists provides SB4-D milestone inspection remediation for Tampa Bay condominiums. Expert structural repairs, SIRS compliance, and HOA board guidance for buildings 3+ stories.",
   keywords: "milestone inspection remediation Tampa, SB4-D contractor, condo structural repairs Tampa, SIRS compliance Florida, condominium inspection repairs, structural integrity reserve study",
 };

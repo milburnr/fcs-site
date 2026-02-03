@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Who pays for construction bonds?",
+    answer: "Typically, the contractor pays bond premiums and includes this cost in their project pricing. Bond premiums generally range from 1-3% of the contract value, depending on the contractor's financial strength and the project type. While this adds to project cost, the protection provided far exceeds the premium expense."
+  },
+  {
+    question: "Can I require bonding even if it's not legally mandated?",
+    answer: "Absolutely. While public projects in Florida require bonding by law, private owners can require bonds in their construction contracts. Most commercial property owners and lenders require performance and payment bonds for substantial projects. Contractors who cannot provide bonds may lack the financial stability to complete your project."
+  },
+  {
+    question: "What happens if I need to make a bond claim?",
+    answer: "If contractor default triggers a bond claim, you notify the surety company in writing, providing documentation of the default and your losses. The surety investigates the claim, then either completes the project through another contractor, pays your documented losses, or denies the claim if the contractor hasn't actually defaulted. Having clear contract terms and documentation supports successful claims."
+  },
+  {
+    question: "Should I have my own builder's risk policy, or rely on the contractor's?",
+    answer: "This depends on project circumstances, but owner-purchased builder's risk policies are often preferred for major projects. Owner policies ensure coverage reflects your interests exclusively. Contract arrangements vary—sometimes owners purchase builder's risk, sometimes contractors include it in their scope. Discuss with your insurance advisor and ensure adequate coverage regardless of who purchases it."
+  },
+  {
+    question: "How can I verify a contractor's claims about their bonding capacity?",
+    answer: "Request a bonding capacity letter directly from the contractor's surety company—not from the contractor. This letter confirms the surety's willingness to provide bonds for projects of specified size. Reputable contractors readily provide this documentation, and reluctance to provide verification should raise concerns."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

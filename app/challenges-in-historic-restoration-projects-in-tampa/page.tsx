@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Challenges in Historic Restoration Projects in Tampa | Expert Solutions",
+  title: "Historic Restoration Challenges Tampa | Solutions",
   description: "Navigate Tampa historic restoration challenges: regulatory compliance, hazardous materials, structural issues, code requirements. FCS provides expert solutions for complex projects.",
 };
 
@@ -25,11 +25,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How can I minimize surprises during historic restoration?",
+    answer: "Invest in comprehensive pre-construction investigation including structural assessment, environmental surveys, and exploratory demolition in concealed areas. While this increases upfront costs, it reduces costly changes during construction and enables more accurate budgeting. Buildings with significant deferred maintenance or unknown construction history warrant more extensive investigation."
+  },
+  {
+    question: "What if regulatory requirements conflict with each other?",
+    answer: "Conflicts between building codes and preservation standards are common. The Florida Building Code - Existing Building provides flexibility for historic structures, and most preservation review authorities understand the need for code compliance. Working with authorities early to identify potential conflicts and develop acceptable solutions prevents delays. Documentation showing that preservation-sensitive alternatives were explored strengthens requests for code modifications."
+  },
+  {
+    question: "How long should I expect a historic restoration project to take?",
+    answer: "Most commercial historic restoration projects require 18-36 months from initial planning through completion. This includes 3-6 months for assessment and design, 3-6 months for regulatory approvals and permitting, and 12-24 months for construction. Projects seeking federal tax credits add 3-6 months for the Part 1/Part 2 application review process. Complex projects involving structural intervention or extensive environmental remediation may extend longer."
+  },
+  {
+    question: "Is it worth pursuing federal historic tax credits given the complexity?",
+    answer: "For qualified projects, the 20% federal tax credit can significantly offset the higher costs of historic restoration. The credit applies to qualified rehabilitation expenditures—not just the historic-specific work but most construction costs on certified rehabilitation projects. For a $2 million rehabilitation, the credit could exceed $400,000. Our team manages the application process to maximize credit value while minimizing administrative burden."
+  },
+  {
+    question: "What happens if we discover issues after construction begins?",
+    answer: "Discovery of unforeseen conditions during construction is common in historic restoration. Effective project management includes protocols for documenting conditions, evaluating options, and making timely decisions. For tax credit projects, significant scope changes require consultation with SHPO to ensure continued compliance. Adequate contingency budgeting provides financial flexibility to address discoveries without derailing the project."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Residential Insurance Restoration Services Tampa | Home Restoration Specialists",
+  title: "Residential Insurance Restoration Tampa | Homes",
   description: "Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support for homeowners.",
 };
 

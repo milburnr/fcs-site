@@ -29,7 +29,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Renovating Historic Homes Tampa Bay | Expert Preservation | FCS",
+  title: "Renovating Historic Homes Tampa Bay | FCS",
   description:
     "Expert historic home renovation in Tampa Bay. Navigate preservation requirements, restore period features, and modernize sensitively while maintaining character in Hyde Park, Seminole Heights, and beyond.",
   keywords:

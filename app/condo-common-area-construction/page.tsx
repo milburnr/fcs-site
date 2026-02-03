@@ -33,7 +33,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Condo Common Area Construction Tampa | Lobby & Amenity Renovation | FCS",
+  title: "Condo Common Area Construction Tampa | Lobby",
   description:
     "Expert condo common area construction and renovation in Tampa Bay. Lobby upgrades, pool deck renovations, fitness center buildouts, parking improvements, and amenity additions for HOAs.",
   keywords:

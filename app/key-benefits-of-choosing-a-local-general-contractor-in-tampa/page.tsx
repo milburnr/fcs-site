@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Benefits of Choosing a Local General Contractor in Tampa | FCS",
+  title: "Benefits of Local General Contractor Tampa | FCS",
   description: "Discover the advantages of hiring a local Tampa general contractor for your commercial project. Learn why local expertise matters for construction success in Florida.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Should I automatically reject bids from out-of-market contractors?",
+    answer: "Not necessarily, but carefully evaluate what you might sacrifice. Out-of-market contractors may bring specialized expertise unavailable locally, particularly for unusual project types. However, weigh this against the local advantages described above. Often, a capable local contractor can deliver comparable quality while providing the responsiveness, accountability, and local knowledge benefits."
+  },
+  {
+    question: "What defines a \"local\" contractor in Tampa Bay?",
+    answer: "A truly local contractor maintains permanent offices in the Tampa Bay area, employs local staff, has deep experience with Tampa Bay projects specifically, and has established relationships with local subcontractors and suppliers. Some contractors claim local presence but operate from distant headquarters with minimal Tampa Bay staffing. Evaluate where decisions are made and where leadership resides."
+  },
+  {
+    question: "How do I verify a contractor's local experience?",
+    answer: "Request a list of completed Tampa Bay projects and contact those references specifically. Ask how long the contractor has operated in the area, where their key personnel live, and which local subcontractors they typically engage. Visit completed local projects to assess quality firsthand. Truly local contractors welcome this scrutiny and readily demonstrate their community roots."
+  },
+  {
+    question: "Are local contractors capable of handling large, complex projects?",
+    answer: "Yes, many local contractors have grown to handle substantial projects while maintaining their local focus. Florida Construction Specialists, for example, has completed major commercial projects throughout Central Florida while remaining headquartered in the Tampa Bay area. Evaluate each contractor's capabilities individually rather than assuming size correlates with location."
+  },
+  {
+    question: "What if the best bid comes from an out-of-market contractor?",
+    answer: "Consider the total cost of ownership, not just the initial bid. Factor in potential delays from learning local codes, possible change orders from unforeseen conditions, travel and housing allowances built into the bid, and reduced responsiveness during construction. A slightly higher bid from a qualified local contractor often delivers better value when these factors are considered."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

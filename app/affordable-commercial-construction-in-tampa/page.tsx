@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, DollarSign, Target, Lightbulb, Wrench, CheckCircle, TrendingDown } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Affordable Commercial Construction in Tampa | Cost-Effective Building Solutions",
+  title: "Affordable Commercial Construction Tampa | FCS",
   description: "Build affordably in Tampa Bay without sacrificing quality. Proven strategies for reducing commercial construction costs while maintaining durability and function.",
 };
 
@@ -51,11 +51,35 @@ const savingsStrategies = [
   },
 ];
 
+const faqs = [
+  {
+    question: "What's the cheapest type of commercial building to construct?",
+    answer: "Simple warehouse and flex buildings typically have the lowest cost per square foot, ranging from $85-140/SF in Tampa. Tilt-wall or pre-engineered metal buildings with minimal interior finish offer the most economical construction for industrial uses."
+  },
+  {
+    question: "How can I reduce construction costs without sacrificing quality?",
+    answer: "Focus on design efficiency, value engineering, and strategic material selection. Engage contractors early for cost input. Allow adequate schedule time. Prioritize spending on critical systems while simplifying finishes where appropriate. Design-build delivery often reduces total cost 10-15%."
+  },
+  {
+    question: "Is it cheaper to build or lease commercial space in Tampa?",
+    answer: "The build vs. lease decision depends on many factors: space requirements, expected tenure, financing costs, and current market conditions. Building makes sense for long-term occupancy with stable space needs. Leasing may be preferable for flexibility or short-term requirements. Many businesses lease while they grow, then build when their needs stabilize."
+  },
+  {
+    question: "What's the minimum budget for a small commercial building?",
+    answer: "Small commercial buildings in Tampa typically start around $500,000-750,000 for simple structures of 3,000-5,000 SF. This includes site work, shell building, and basic interiors. Costs vary significantly based on building type, site conditions, and finish level required."
+  },
+  {
+    question: "Does design-build cost less than traditional construction?",
+    answer: "Studies consistently show design-build reduces total project cost by 10-15% on average compared to traditional design-bid-build. Savings come from integrated design, early value engineering, reduced contingencies, and faster delivery. Design-build also typically reduces schedule by 15-20%."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Affordable Commercial Construction in Tampa"
         description="Build affordably in Tampa Bay with proven strategies for reducing construction costs without sacrificing quality."

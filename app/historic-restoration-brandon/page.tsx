@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Historic Restoration Brandon FL | Citrus Era & Mid-Century Homes | FCS",
+  title: "Historic Restoration Brandon | Mid-Century | FCS",
   description: "Expert historic restoration contractor in Brandon, Florida. Citrus-era buildings, 1950s-1970s homes, agricultural heritage structures. Hillsborough County preservation. Projects $150K-$5M+. Call (813) 420-7561.",
   keywords: "historic restoration brandon, brandon historic homes, citrus era buildings florida, mid-century home restoration, hillsborough county preservation, brandon florida historic buildings",
 };

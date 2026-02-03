@@ -6,10 +6,11 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "SB 4-D Compliance for Tampa Bay Condos | Surfside Law Guide | FCS",
+  title: "SB 4-D Compliance Tampa Bay Condos | FCS",
   description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Milestone inspection requirements, SIRS deadlines, and remediation services from Florida Construction Specialists.",
   keywords: "sb 4-d compliance tampa bay, surfside law florida, condo inspection law tampa, florida building safety act, milestone inspection tampa",
 };
@@ -53,6 +54,29 @@ const internalLinks = [
   { href: "/exterior-waterproofing/", label: "Building Waterproofing" },
   { href: "/commercial-construction/", label: "Commercial Construction" },
   { href: "/contact/", label: "Request Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
 ];
 
 export default function SB4DCompliancePage() {
@@ -725,6 +749,10 @@ export default function SB4DCompliancePage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

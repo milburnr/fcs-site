@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Can I use modern materials that look like historic materials?",
+    answer: "For character-defining features, the Secretary of the Interior's Standards require materials matching original composition, not just appearance. Modern aluminum windows, vinyl siding, and fiber cement products are generally not acceptable for tax credit projects, even when designed to resemble historic materials. Less prominent areas may have more flexibility, but visible elements require authentic materials."
+  },
+  {
+    question: "Where can I find salvage brick matching Tampa's historic buildings?",
+    answer: "Florida Construction Specialists maintains relationships with salvage dealers throughout Florida and the Southeast who stock historic brick. We can also monitor demolition projects for material matching specific buildings. When salvage isn't available, we identify compatible brick from broader sources or specify custom manufacturing when quantities justify the approach."
+  },
+  {
+    question: "How do I know if proposed materials will meet tax credit requirements?",
+    answer: "Material specifications should be reviewed by preservation professionals before procurement. The Part 2 tax credit application requires description of proposed materials, and NPS reviewers evaluate whether specifications meet the Secretary of the Interior's Standards. Florida Construction Specialists helps clients develop specifications that satisfy preservation requirements before submitting applications."
+  },
+  {
+    question: "What if original materials are no longer available?",
+    answer: "When exact matching materials aren't available, the Standards allow materials that match original visual characteristics. Careful selection from available sources, custom manufacturing, or compatible substitute materials may be acceptable. Documentation explaining why exact matches aren't available and how proposed materials achieve visual compatibility supports tax credit applications for these situations."
+  },
+  {
+    question: "How far in advance should I order specialty materials?",
+    answer: "Lead times vary significantly by material type. Salvage materials may be available immediately or require weeks of searching. Custom brick takes 12-20 weeks. Custom terra cotta can take 16-24 weeks or longer. Early material identification and procurement prevents construction delays. We recommend beginning material sourcing during design development, 4-6 months before construction start."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

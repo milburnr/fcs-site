@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Target, Clock, DollarSign, Shield, Lightbulb, Users, FileText, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "The Preconstruction Modern Approach Design",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
   { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
 ];
 
 const modernApproachElements = [
@@ -90,11 +114,35 @@ const costBenefits = [
   { metric: "RFI Reduction", value: "40-60%", description: "Issues resolved during design" },
 ];
 
+const faqs = [
+  {
+    question: "Does modern preconstruction cost more than traditional approaches?",
+    answer: "Preconstruction services typically represent 0.5-1.5% of total project cost, but they save 8-15% through value engineering, reduced change orders, and competitive bidding based on complete documents. The ROI is substantial—every dollar spent on preconstruction typically saves $5-10 during construction."
+  },
+  {
+    question: "How early should we engage a contractor for preconstruction?",
+    answer: "Ideally, engage your design-build team during conceptual design—even before hiring an architect. This allows construction expertise to inform the earliest decisions. At minimum, engage during schematic design to capture the majority of value engineering opportunities."
+  },
+  {
+    question: "What if we already have an architect?",
+    answer: "We frequently collaborate with owner-selected architects. Our preconstruction team works alongside the design team, providing cost feedback and constructability input while respecting the architect's design authority. This hybrid approach captures most benefits of integrated delivery."
+  },
+  {
+    question: "How does a Guaranteed Maximum Price (GMP) work?",
+    answer: "Once design reaches approximately 60-70% completion, we can provide a GMP that caps your maximum cost. This includes all construction costs plus contingencies for defined risks. If the project comes in under the GMP, savings can be shared or returned depending on contract terms. If costs would exceed the GMP, we absorb the difference."
+  },
+  {
+    question: "What Tampa Bay-specific factors affect preconstruction?",
+    answer: "Tampa preconstruction must account for: hurricane season scheduling constraints, flood zone requirements affecting foundation costs, high water tables impacting dewatering, limited subcontractor availability during peak seasons, and permit timelines that vary significantly between jurisdictions (Tampa, Hillsborough County, Pinellas, etc.)."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="The Preconstruction Modern Approach Design"
         description="Revolutionize your commercial construction with modern preconstruction methods."
@@ -440,6 +488,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-white">

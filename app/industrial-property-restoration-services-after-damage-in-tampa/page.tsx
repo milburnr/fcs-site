@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Industrial Property Restoration Tampa | Warehouse & Manufacturing Facility Repair",
+  title: "Industrial Property Restoration Tampa | Warehouse",
   description: "Industrial property restoration services in Tampa. Warehouse, manufacturing, and distribution facility damage repair after hurricanes, floods, and disasters. Minimize downtime with rapid response.",
 };
 

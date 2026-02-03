@@ -18,7 +18,7 @@ import {
   Calendar,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -214,11 +214,31 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How involved will I be during construction?",
+    answer: "As involved as you want to be. We provide weekly updates with photos and schedule progress. Bi-weekly site walks are standard, but you&apos;re welcome to visit more frequently with your project manager."
+  },
+  {
+    question: "What if I want to make changes during construction?",
+    answer: "Changes happen—we understand. We have a formal change order process that documents the scope, cost, and schedule impact of any modifications so you can make informed decisions."
+  },
+  {
+    question: "How do you handle permitting in historic districts?",
+    answer: "Our team has extensive experience with Hyde Park ARC, Tampa Historic Preservation, and SHPO requirements. We handle all submissions and attend hearings on your behalf."
+  },
+  {
+    question: "What warranty do you provide?",
+    answer: "We provide a comprehensive warranty covering workmanship and materials. Major systems (HVAC, plumbing, electrical) typically carry manufacturer warranties we help you register and manage."
+  }
+];
+
 export default function OurProcessPage() {
   return (
     <>
       <LocalBusinessSchema schemaType="HomeAndConstructionBusiness" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb
         items={[

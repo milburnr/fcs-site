@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Sparkles, Compass, PenTool, Users, ClipboardList } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How do I start if I don't know exactly what I want?",
+    answer: "That's actually ideal—starting with uncertainty means you're open to discovery. Our process helps you clarify what you want through structured exploration. We'll look at inspiration images, discuss lifestyle patterns, visit completed homes for reference, and iterate through concepts until your vision crystallizes. Many clients are surprised by what they discover they truly want when given expert guidance."
+  },
+  {
+    question: "Should I hire an architect separately or use your design-build process?",
+    answer: "Design-build integration typically delivers better results at lower cost. When architects and builders work together from the start, designs incorporate constructability and cost awareness from the beginning. Separate architect engagement can work well with experienced residential architects, but designs sometimes exceed budgets or include details that complicate construction. We're happy to work either way but generally recommend integrated design-build."
+  },
+  {
+    question: "What if my spouse and I have different visions?",
+    answer: "This is incredibly common—and resolvable. Different visions often reflect different priorities rather than incompatible tastes. One partner prioritizes kitchen function while another focuses on outdoor entertaining. One prefers traditional aesthetics while another leans contemporary. Good design synthesizes these perspectives into homes that satisfy both partners. Our process includes techniques for identifying common ground and resolving differences constructively."
+  },
+  {
+    question: "How involved will I need to be during design and construction?",
+    answer: "Design phases require meaningful involvement—your input shapes the home you'll live in. Expect several meetings during design development and numerous decisions about materials and finishes. During construction, involvement can be tailored to your preferences: some clients visit weekly, others monthly. We require participation at key milestones but can manage many details independently if you prefer."
+  },
+  {
+    question: "Can I make changes during construction?",
+    answer: "Yes, though changes become more expensive and disruptive as construction progresses. Early-stage changes cost little; later changes may require demolition and reconstruction. We build thorough decision processes into design phases specifically to minimize construction-phase changes. When changes do occur, we provide clear cost and schedule impacts before proceeding. Our goal is getting design right before construction, not managing changes afterward."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

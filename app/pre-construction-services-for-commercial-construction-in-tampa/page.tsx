@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Pre Construction Services &amp; Construction Consulting in Tampa",
+  title: "Pre-Construction Services Tampa | Consulting",
   description: "Looking for expert pre construction services, construction management, and construction consulting? Look no further than Florida Construction Specialists.",
 };
 

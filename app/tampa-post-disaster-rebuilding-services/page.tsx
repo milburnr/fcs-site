@@ -7,7 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Tampa Post-Disaster Rebuilding Services | Commercial Storm & Fire Restoration",
+  title: "Tampa Post-Disaster Rebuilding | Storm & Fire",
   description: "24/7 commercial post-disaster rebuilding services in Tampa Bay. Hurricane, fire, flood, and storm damage restoration. Insurance coordination, emergency board-up, and complete reconstruction from Florida Construction Specialists.",
 };
 

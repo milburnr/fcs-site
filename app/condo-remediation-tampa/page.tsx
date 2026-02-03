@@ -43,7 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Condo Remediation Tampa | SB4-D Compliance & Milestone Inspections | FCS",
+  title: "Condo Remediation Tampa | SB4-D Compliance | FCS",
   description:
     "Tampa condo remediation specialists. SB4-D compliance, milestone inspections, SIRS reserve studies, structural repairs for condominiums 3+ stories. Hillsborough County expertise. Licensed CBC1262722. Call (813) 420-7561.",
   keywords:

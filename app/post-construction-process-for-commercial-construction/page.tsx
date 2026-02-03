@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle, Clock, ClipboardCheck, Shield, FileText, Users, Wrench } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "The Ultimate Guide to Post Construction Process in Florida",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How long does the post-construction process typically take in Florida?",
+    answer: "For most commercial projects in Tampa Bay, the post-construction phase takes 6-12 weeks from substantial completion to final closeout. This timeline can vary based on project complexity, punch list items, and the time required for final inspections from Hillsborough County or other local jurisdictions. Florida Construction Specialists works diligently to expedite this process while maintaining quality standards."
+  },
+  {
+    question: "What happens if issues are discovered after the final walkthrough?",
+    answer: "Any legitimate construction defects discovered within the warranty period are addressed at no additional cost to the owner. Florida Construction Specialists maintains warranty reserves and has dedicated personnel for warranty service. We also conduct an 11-month warranty walk-through to proactively identify and resolve any issues before the standard one-year warranty expires."
+  },
+  {
+    question: "Are post-construction costs included in the original contract price?",
+    answer: "Most post-construction activities are included in your construction contract, including punch list completion, final cleaning, basic training, and standard documentation. Enhanced commissioning, extended training programs, or specialized documentation may be additional services. Florida Construction Specialists provides transparent pricing and clearly outlines all post-construction services in our proposals."
+  },
+  {
+    question: "How does Florida's hurricane season affect the post-construction timeline?",
+    answer: "We plan post-construction activities to minimize hurricane season impacts (June 1 - November 30). If your project reaches post-construction during this period, we prioritize completing exterior punch list items, verifying hurricane protection systems, and ensuring all storm shutters or impact systems are fully operational. Interior work continues regardless of weather conditions."
+  },
+  {
+    question: "What documentation will I receive at project closeout?",
+    answer: "You'll receive a comprehensive closeout package including as-built drawings, equipment manuals, warranty certificates, maintenance schedules, subcontractor contact information, permits and inspection records, certificates of occupancy, fire system certifications, and training materials. This documentation is essential for ongoing facility management and future renovations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}
@@ -399,6 +447,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Sparkles, Eye, Brush } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Tampa Custom Home Builders with Artistic Flair | Unique Architecture",
+  title: "Tampa Custom Home Builders | Unique Architecture",
   description: "Build an architecturally distinctive custom home in Tampa. Unique designs, artistic details, custom millwork, and statement features. Creative luxury homes from $500K-$5M+.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Tampa's Custom Family Home Builders",
+    "href": "/tampas-custom-family-home-builders/",
+    "description": "What to look for when selecting a builder for your Tampa Bay dream home."
+  },
+  {
+    "title": "Hurricane Resistant Luxury Home Design",
+    "href": "/hurricane-resistant-luxury-home-design/",
+    "description": "Building beautiful homes that withstand Florida's severe weather."
+  },
+  {
+    "title": "Smart Home Integration in Tampa Custom Homes",
+    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "description": "Incorporating technology seamlessly into luxury home construction."
+  },
+  {
+    "title": "Climate Resilient Custom Homes in Tampa",
+    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "description": "Design strategies for homes that perform in Florida's challenging environment."
+  }
+];
+
+const faqs = [
+  {
+    question: "How do you approach architecturally challenging designs?",
+    answer: "We begin with thorough constructability review during design development, identifying potential challenges before they become expensive problems. Our structural engineering partners analyze complex geometries and develop elegant solutions. We mock up critical details at full scale when necessary to verify aesthetics and buildability. This front-end investment prevents costly corrections during construction and ensures the finished home matches the architect's vision."
+  },
+  {
+    question: "Do artistic homes take longer to build?",
+    answer: "Often yes—complex designs, custom fabrication, and specialty trades require more time than production approaches. Artistic homes typically take 18-30 months versus 12-18 for conventional custom construction. Material lead times for specialty items can add months; we identify long-lead items early and order during design phases to minimize schedule impact. The result justifies the patience: homes that will bring joy for generations."
+  },
+  {
+    question: "Can you recommend architects for distinctive designs?",
+    answer: "We collaborate with exceptional architects throughout Tampa Bay and beyond, and can recommend partners suited to your aesthetic direction and project scope. Some clients prefer well-known signature architects; others work with talented emerging designers. We also work successfully with architects our clients bring to the table. What matters is shared vision and collaborative working relationships."
+  },
+  {
+    question: "How do you maintain quality on complex custom work?",
+    answer: "Our project managers have extensive experience with high-end custom work and understand the attention to detail these projects demand. We work with specialized subcontractors who have proven themselves on similar projects—not the lowest bidders. Sample approval, mock-up review, and progressive inspection catch issues before they're built permanently. Our clients' investment in quality demands our corresponding commitment to excellence."
+  },
+  {
+    question: "Will artistic homes have resale challenges?",
+    answer: "Distinctive homes appeal to buyers seeking unique properties rather than broad market appeal. While the buyer pool may be smaller, these buyers pay premiums for architectural significance—often more per square foot than conventional luxury homes. Location matters: artistic homes in established luxury neighborhoods like Beach Park, Davis Islands, or Avila find appreciative buyers. Timeless design ages better than trendy features."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -362,6 +410,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

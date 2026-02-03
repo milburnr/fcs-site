@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
 import { Phone, CheckCircle, AlertTriangle, Scale, FileText, Shield, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -8,7 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Compliance & Regulations Tampa | Florida Law Guide",
+  title: "Insurance Restoration Compliance Tampa | Laws",
   description: "Navigate insurance restoration compliance and regulations in Tampa. Florida statutes, building codes, permit requirements, and contractor licensing for commercial property restoration.",
 };
 
@@ -54,6 +54,11 @@ export default function Page() {
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
+      <ServiceSchema 
+        serviceName="Insurance Restoration Compliance Services"
+        serviceDescription="Navigate insurance restoration compliance and regulations in Tampa. Expert guidance on Florida statutes, building codes, permit requirements, and contractor licensing for commercial property restoration."
+        city="Tampa"
+      />
       
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

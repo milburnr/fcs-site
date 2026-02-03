@@ -1,13 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, Cpu, Drone, Building2, Layers, Shield, CheckCircle, Smartphone } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Technology in Tampa | Digital Innovation Guide",
+  title: "Commercial Construction Technology Tampa | FCS",
   description: "Explore cutting-edge construction technology transforming Tampa's commercial building industry. BIM, drones, prefab, smart buildings & more from Tampa's tech-forward contractor.",
 };
 
@@ -273,11 +273,31 @@ const futureInnovations = [
   }
 ];
 
+const faqs = [
+  {
+    question: "Does using construction technology increase project costs?",
+    answer: "While there are upfront investments in technology, studies consistently show net cost savings of 3-10% on projects that effectively leverage BIM, prefabrication, and modern project management tools. The key is working with a contractor experienced in these technologies who can maximize their value."
+  },
+  {
+    question: "What is the minimum project size for BIM to be worthwhile?",
+    answer: "Generally, BIM delivers strong ROI on commercial projects above 10,000 square feet or $2 million in construction cost. However, simplified BIM applications can benefit smaller projects, particularly those with complex MEP systems like medical facilities or restaurants."
+  },
+  {
+    question: "How do smart building systems affect construction schedules?",
+    answer: "Smart building systems require additional coordination during design and construction, typically adding 2-4 weeks to schedules for proper system integration and commissioning. However, this investment pays dividends through reduced operating costs and improved building performance over the building's lifetime."
+  },
+  {
+    question: "Can existing buildings in Tampa be retrofitted with smart technology?",
+    answer: "Yes, many smart building technologies can be added to existing buildings during renovation. Wireless sensors and controls make retrofits increasingly feasible without major disruption. The scope and cost depend on existing infrastructure and desired capabilities."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Commercial Construction Technology in Tampa"
         description="Explore cutting-edge construction technology transforming Tampa's commercial building industry."

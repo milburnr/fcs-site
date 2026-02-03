@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Commercial Construction Lakeland FL | $500K-$25M+ Projects | FCS",
+  title: "Commercial Construction Lakeland | $500K+ | FCS",
   description: "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction lakeland, commercial contractor lakeland, commercial builder lakeland fl, warehouse construction lakeland, industrial construction lakeland, office building construction lakeland",
 };

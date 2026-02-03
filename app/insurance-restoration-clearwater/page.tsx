@@ -43,7 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Clearwater | 43 Years Claims Experience | FCS",
+  title: "Insurance Restoration Clearwater | 43 Years | FCS",
   description:
     "Clearwater's most experienced insurance restoration contractor. 43 years claims expertise—adjuster AND contractor. Hurricane damage Clearwater Beach, flood restoration, commercial property restoration Pinellas. NFIP specialists. (813) 420-7561.",
   keywords:

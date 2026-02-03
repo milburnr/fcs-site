@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Are historic windows really worth saving rather than replacing?",
+    answer: "Yes, for multiple reasons. Historic windows made from old-growth wood last longer than modern replacements. Restored windows with weatherstripping perform comparably to replacement windows. Replacement often costs more than restoration, especially when considering tax credit implications. And windows are character-defining features whose loss diminishes historic significance."
+  },
+  {
+    question: "Can historic windows meet Florida's hurricane code requirements?",
+    answer: "While historic windows themselves may not meet current wind-borne debris impact requirements, code-compliant protection can be added through shutters, storm panels, or exterior storm windows. These additions protect windows during storms while preserving historic character during normal conditions. Building officials typically accept properly engineered protection systems for historic buildings."
+  },
+  {
+    question: "How do I deal with lead paint on historic windows?",
+    answer: "Lead paint requires proper handling but doesn't preclude restoration. EPA RRP (Renovation, Repair, and Painting) rules establish protocols for lead-safe work practices. Steam stripping and infrared paint removal minimize lead dust generation. Encapsulation with new paint may be appropriate when complete removal isn't necessary. Professional restoration includes proper lead paint management."
+  },
+  {
+    question: "Will window restoration disrupt building occupancy?",
+    answer: "Restoration typically removes sash for shop work while leaving frames in place with temporary glazing. Most spaces remain usable during restoration. Scheduling can phase work across multiple windows to minimize impact. For occupied commercial buildings, weekend or after-hours installation reduces disruption. Project planning addresses occupancy requirements."
+  },
+  {
+    question: "How long does window restoration take?",
+    answer: "Individual window restoration typically requires 2-4 weeks from removal through reinstallation, with actual shop time of 3-5 days per window. For buildings with many windows, multiple units can be in process simultaneously. A 50-window project might span 3-4 months overall but would not require continuous building access. Timeline depends on deterioration extent and crew capacity."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

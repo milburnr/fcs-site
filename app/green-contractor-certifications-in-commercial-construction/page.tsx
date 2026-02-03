@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Award, Building, Leaf, Sun, Users, TrendingUp, DollarSign, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Green Contractor Certifications in Commercial Construction",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "Do I need a LEED-certified contractor to achieve LEED certification?",
+    answer: "While not technically required, working with a LEED AP dramatically increases your chances of successful certification. LEED APs understand the credit requirements, documentation processes, and strategies for earning points cost-effectively. They can navigate the certification review process and address any issues that arise. Projects without LEED expertise often struggle with documentation or miss certification points."
+  },
+  {
+    question: "What's the difference between LEED AP and LEED Green Associate?",
+    answer: "LEED Green Associate is a foundational credential demonstrating general knowledge of green building. LEED AP represents advanced expertise with a specialty (like BD+C for Building Design & Construction). For commercial construction projects, you want team members with LEED AP BD+C credentials who understand the specific requirements for new buildings and major renovations."
+  },
+  {
+    question: "Why is Florida-specific green certification important?",
+    answer: "Florida's climate presents unique challenges—intense solar radiation, high humidity, hurricane threats, and year-round cooling demands. FGBC certification demonstrates understanding of these Florida-specific issues. A contractor with only national credentials may not fully understand humidity management, hurricane-resistant construction, or Florida energy code nuances."
+  },
+  {
+    question: "How much do green contractor certifications add to project costs?",
+    answer: "Working with certified green contractors typically doesn't add significant costs—in fact, it often reduces total project costs by avoiding mistakes, optimizing sustainability investments, and capturing all available incentives. The expertise prevents costly rework, ensures certification success, and delivers buildings that perform as designed from day one."
+  },
+  {
+    question: "What questions should I ask a green contractor?",
+    answer: "Key questions include: What green certifications do your team members hold? How many LEED-certified projects have you completed? Can you provide references from clients who achieved certification? How do you identify and capture available incentives? How do you approach cost optimization for sustainability features? What is your experience with Tampa Bay's specific climate challenges?"
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -483,6 +531,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

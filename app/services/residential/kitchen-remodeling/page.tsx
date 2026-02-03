@@ -8,7 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Luxury Kitchen Remodeling Tampa | High-End Kitchen Renovation | FCS",
+  title: "Luxury Kitchen Remodeling Tampa | High-End | FCS",
   description: "Luxury kitchen remodeling in Tampa Bay. Custom cabinetry, premium appliances, designer finishes. Complete kitchen renovations for discerning homeowners. $150K+ projects. Call (813) 420-7561.",
   keywords: ["luxury kitchen remodeling tampa", "high-end kitchen renovation", "custom kitchen construction", "kitchen contractor tampa bay", "designer kitchen remodel"],
 };

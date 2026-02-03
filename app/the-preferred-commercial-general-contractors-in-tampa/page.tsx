@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "Do preferred contractors cost more than other contractors?",
+    answer: "Not necessarily. Preferred contractors' efficiency, accurate estimating, and strong subcontractor relationships often result in competitive pricing. More importantly, they typically deliver better value through fewer delays, higher quality, and reduced change orders. Evaluating total project cost rather than just initial bid often reveals preferred contractors as the best value."
+  },
+  {
+    question: "How can a newer business identify preferred contractors without industry connections?",
+    answer: "Start with publicly available information: verify licenses through Florida DBPR, research completed projects, check for industry association membership, and review any available safety records. Then conduct thorough reference checks with multiple past clients. The diligence you invest in selection protects your project investment."
+  },
+  {
+    question: "Should I automatically choose the contractor my architect recommends?",
+    answer: "Architect recommendations provide valuable insight since architects observe contractors' performance firsthand. However, conduct your own due diligence to ensure the contractor fits your specific needs. Consider the architect's recommendation seriously while also gathering independent references and evaluating the contractor against your own criteria."
+  },
+  {
+    question: "What if a preferred contractor isn't available for my timeline?",
+    answer: "Preferred contractors often maintain busy schedules precisely because clients seek them out. If your preferred contractor can't meet your timeline, consider whether adjusting your schedule might be worthwhile. Alternatively, ask the contractor for recommendations—preferred contractors often know other quality contractors and may suggest alternatives they respect."
+  },
+  {
+    question: "Can small projects access preferred contractors, or do they only handle large work?",
+    answer: "Many preferred contractors handle a range of project sizes. While some focus exclusively on large projects, others welcome smaller work that fits their capabilities and client relationships. Florida Construction Specialists works with clients across the project size spectrum, recognizing that today's tenant improvement client may become tomorrow's ground-up development partner."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

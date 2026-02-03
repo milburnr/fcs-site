@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Importance of Proper Permits | Tampa Commercial Contractor Insights",
+  title: "Importance of Proper Permits Tampa | Commercial",
   description: "Insights from Tampa's top commercial contractor on why proper construction permits matter. Learn about legal requirements, insurance implications, and how permits protect your investment.",
 };
 

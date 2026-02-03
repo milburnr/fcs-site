@@ -3,11 +3,11 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, CloudRain, Wind, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Climate-Resilient Custom Homes in Tampa | Hurricane-Ready Luxury",
+  title: "Climate-Resilient Custom Homes Tampa | Hurricane",
   description: "Build a climate-resilient custom home in Tampa engineered for hurricanes, flooding, and extreme heat. Fortified construction, backup power, and smart systems from $425K-$2M+.",
 };
 
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How much can I save on insurance with climate-resilient construction?",
+    answer: "FORTIFIED Gold certification typically qualifies for insurance discounts of 25-45% depending on your carrier and specific location. For a home with a base premium of $8,000-12,000 annually (common in coastal Hillsborough County), that translates to $2,000-5,400 in annual savings. Over a 30-year mortgage, total insurance savings can exceed $60,000-150,000—often more than the incremental cost of enhanced construction."
+  },
+  {
+    question: "What size generator do I need for whole-home backup?",
+    answer: "Generator sizing depends on your home's total load, particularly HVAC requirements. A 3,500 sq ft Tampa home typically needs a 22-26kW generator for full-house coverage including air conditioning. Larger homes or those with pools, elevators, or multiple HVAC zones may require 30-48kW units. We perform load calculations during design and coordinate generator installation with your electrical and HVAC systems for optimal performance."
+  },
+  {
+    question: "Can existing homes achieve FORTIFIED certification?",
+    answer: "Yes, though retrofitting an existing home is often more expensive than building to FORTIFIED standards from the start. Common upgrades include adding hurricane straps (often requiring interior drywall removal), installing sealed roof deck underlayment during re-roofing, and replacing windows and doors with impact-rated products. We offer retrofit evaluations to determine the most cost-effective path to certification for existing Tampa Bay homes."
+  },
+  {
+    question: "How do climate-resilient homes perform during non-storm conditions?",
+    answer: "The same features that protect during hurricanes provide year-round benefits. Impact windows reduce noise from traffic and storms by 50% or more. Superior insulation and air sealing reduce energy costs by 30-40%. Whole-home generators provide peace of mind during Tampa's frequent summer afternoon power outages. Many clients report that daily comfort and energy savings were unexpected benefits of their resilience investment."
+  },
+  {
+    question: "What happens to my FORTIFIED designation if I re-roof or renovate?",
+    answer: "FORTIFIED certification must be maintained through documented compliant repairs and renovations. Re-roofing must use approved methods and materials to maintain designation. We provide clients with detailed specifications for future maintenance and are available to consult on renovation projects to ensure continued certification. Many insurance carriers require periodic re-inspection to maintain premium discounts."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

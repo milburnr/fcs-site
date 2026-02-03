@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, Award, Users, Building2, Shield, Clock, Star, Target, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Experienced Design-Build Firm in Florida",
@@ -22,6 +23,29 @@ const internalLinks = [
   { href: "/about/", label: "About Our Company" },
   { href: "/portfolio/", label: "View Our Portfolio" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
 ];
 
 const experienceIndicators = [
@@ -92,11 +116,35 @@ const selectionCriteria = [
   { criterion: "Reference Quality", weight: "Critical", why: "What do recent clients say about their experience?" },
 ];
 
+const faqs = [
+  {
+    question: "How do I verify a design-build firm's experience?",
+    answer: "Request a portfolio of similar projects (same building type, size range, and location). Ask for references from recent projects and actually call them. Verify licensing with the Florida DBPR. Check bonding capacity with their surety. Review safety records through OSHA. Experienced firms welcome this scrutiny."
+  },
+  {
+    question: "Does your firm carry all necessary licenses and insurance?",
+    answer: "Yes. We maintain Florida General Contractor (CGC) licensing, appropriate trade licenses, and comprehensive insurance including general liability, workers' compensation, and professional liability. We can provide bonding for projects up to $25 million. Certificates are available upon request."
+  },
+  {
+    question: "Will senior leadership be involved in my project?",
+    answer: "Absolutely. Our company principals remain actively involved in project oversight, attending key meetings and providing strategic guidance throughout construction. You won't be handed off to junior staff after the contract is signed—the people you meet during selection are the people who deliver your project."
+  },
+  {
+    question: "How do you handle projects outside your typical scope?",
+    answer: "Our broad experience means most commercial projects fall within our capabilities. For specialized requirements—data centers, clean rooms, specialized manufacturing—we partner with consultants who have specific expertise while maintaining our role as single-point-of-responsibility design-builder."
+  },
+  {
+    question: "What makes Florida Construction Specialists different from other Tampa Bay contractors?",
+    answer: "Three things: ownership involvement (principals on every project), integrated design-build capability (not just construction management), and local market depth (relationships built over decades). We're large enough to handle significant projects but structured to provide personal attention. Our reputation depends on every project's success."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Experienced Design-Build Firm in Florida"
         description="Why choosing an experienced design-build partner is essential for commercial construction success."
@@ -411,6 +459,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

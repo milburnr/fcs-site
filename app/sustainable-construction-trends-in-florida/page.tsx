@@ -3,8 +3,9 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, Building, Leaf, Sun, Zap, Droplets, Wind, Award, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Sustainable Construction Trends in Florida",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Sustainable Building Practices in Florida",
+    "href": "/sustainable-building-practices-florida-green-construction/",
+    "description": "Green construction methods suited to Florida's climate and regulations."
+  },
+  {
+    "title": "Florida Leading the Way in LEED Certification",
+    "href": "/construction-florida-leading-way-leed-certification/",
+    "description": "How Florida projects are achieving LEED certification for commercial buildings."
+  },
+  {
+    "title": "Zero Net Energy in Commercial Construction",
+    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "description": "Designing commercial buildings that produce as much energy as they consume."
+  },
+  {
+    "title": "Benefits of Sustainable Materials",
+    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "description": "How green materials improve building performance and reduce costs."
+  }
+];
+
+const faqs = [
+  {
+    question: "Which sustainable construction trends offer the best ROI for Tampa Bay projects?",
+    answer: "The best ROI depends on your building type and goals, but generally LED lighting and smart controls offer the fastest payback (1-3 years), followed by high-efficiency HVAC and building envelope improvements (3-7 years). Solar PV delivers strong returns in Tampa's sunny climate (6-10 years after incentives). Indoor environmental quality improvements, while harder to quantify, deliver significant productivity and tenant retention benefits."
+  },
+  {
+    question: "Is net-zero energy achievable for commercial buildings in Florida?",
+    answer: "Yes, increasingly so. Single-story buildings with large roof areas (retail, office, light industrial, warehouse) are excellent NZE candidates. Multi-story buildings can achieve NZE with solar parking structures, facade integration, or nearby ground-mount arrays. The key is starting with aggressive efficiency to minimize the solar capacity needed. Tampa Bay's solar resources are among the best in the nation for NZE achievement."
+  },
+  {
+    question: "How do sustainable buildings perform during hurricanes?",
+    answer: "Sustainable buildings often perform better in hurricanes because they typically feature enhanced building envelopes, impact-resistant glazing, and superior construction quality. Solar panels are designed for high wind loads (180+ mph) and are safer than often assumed. Energy storage systems provide power during extended outages. Sustainable construction's emphasis on durability and resilience aligns well with hurricane preparedness."
+  },
+  {
+    question: "What incentives are available for implementing these sustainable trends?",
+    answer: "Florida offers numerous incentives: the federal 179D tax deduction (up to $5/sq ft for efficient buildings), 30% solar Investment Tax Credit, utility rebates from TECO and Duke Energy, PACE financing for qualifying improvements, and expedited permitting for LEED-registered projects in Tampa. Our team helps identify and maximize all available incentives for your project."
+  },
+  {
+    question: "How do I prioritize which sustainable features to include in my project?",
+    answer: "We recommend a structured approach: First, maximize efficiency (envelope, lighting, HVAC) to reduce operating costs. Second, add smart building systems for ongoing optimization. Third, consider renewable energy to offset remaining consumption. Finally, layer in IEQ and resilience features based on your priorities and budget. We provide detailed analyses to help prioritize investments based on your specific situation."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -399,6 +447,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

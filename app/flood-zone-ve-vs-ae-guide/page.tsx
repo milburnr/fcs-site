@@ -24,9 +24,10 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Flood Zone VE vs AE | Tampa Bay Waterfront Construction | FCS",
+  title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
   description:
     "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements, elevation rules, and insurance implications.",
   keywords:
@@ -275,6 +276,29 @@ const internalLinks = [
   { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
   { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Understanding Tampa Insurance Restoration Claims",
+    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
+  },
+  {
+    "title": "Tampa Insurance Restoration for Hurricane Damage",
+    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "description": "Expert restoration services for properties damaged by Florida hurricanes."
+  },
+  {
+    "title": "Insurance Arbitration and Appraisal",
+    "href": "/insurance-arbitration-appraisal/",
+    "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
+  },
+  {
+    "title": "Claims Negotiation for Property Damage",
+    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "description": "Maximize your insurance settlement with professional claims support."
+  }
 ];
 
 export default function FloodZoneVEvsAEGuidePage() {
@@ -625,6 +649,10 @@ export default function FloodZoneVEvsAEGuidePage() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">

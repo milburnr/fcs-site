@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Clearwater FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction Clearwater | Condos | FCS",
   description: "Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "multi-family construction clearwater, apartment construction clearwater, condo builder clearwater fl, townhome construction clearwater, senior living construction clearwater, clearwater beach development",
 };

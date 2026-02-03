@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, Ruler, FileText, Users, Award, Clock, Shield, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -83,11 +83,35 @@ const designCosts = [
   { phase: "Total Design Services", percentage: "7-12%", description: "Complete architectural services as % of construction" },
 ];
 
+const faqs = [
+  {
+    question: "How long does commercial building design take?",
+    answer: "Design timelines vary by project complexity. A typical commercial building (20,000-50,000 SF) requires 4-6 months from concept through permit-ready documents. Larger or more complex projects may take 8-12 months. Design-build delivery can compress these timelines by overlapping design and early construction activities."
+  },
+  {
+    question: "Do you work with outside architects?",
+    answer: "Yes. While we have in-house design capabilities, we frequently collaborate with owner-selected architects. Our construction team provides preconstruction services—cost estimating, constructability review, and scheduling—while the architect maintains design leadership. This hybrid approach works well for many projects."
+  },
+  {
+    question: "What permits are required for commercial buildings in Tampa?",
+    answer: "Commercial buildings typically require: building permits, site development permits, environmental permits (EPC in Hillsborough County), utility connection permits, and potentially special permits for signage, parking variances, or conditional uses. Permit timelines range from 4-8 weeks for simple projects to 4-6 months for complex developments requiring rezoning."
+  },
+  {
+    question: "How do you handle design changes during the project?",
+    answer: "Design changes are inevitable. Our design-build approach handles them efficiently by having designers and builders working together. Changes during design are incorporated with immediate cost and schedule feedback. Changes during construction are evaluated quickly with clear options presented to the owner. Our GMP contracts include defined contingencies for managing changes."
+  },
+  {
+    question: "What's included in your feasibility studies?",
+    answer: "Our feasibility studies include: site analysis (zoning, utilities, access), preliminary building massing and program fit, order-of-magnitude cost estimates, preliminary schedule, risk assessment, and recommendation on project viability. This analysis typically costs 0.5-1% of projected construction cost and provides the information needed for informed go/no-go decisions."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Commercial Building Design Services in Tampa"
         description="Comprehensive commercial building design services for Tampa Bay projects."

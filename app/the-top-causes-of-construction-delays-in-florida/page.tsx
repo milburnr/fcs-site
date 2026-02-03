@@ -1,13 +1,14 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Top Causes of Construction Delays in Florida | Tampa Bay Guide",
+  title: "Construction Delays Florida | Tampa Bay Causes",
   description: "Understand the leading causes of commercial construction delays in Florida and how to mitigate them. Expert insights from Florida Construction Specialists in Tampa Bay.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "The Essential Duties of a Construction Manager",
+    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "description": "Understanding the construction manager's role in successful project delivery."
+  },
+  {
+    "title": "CPM Scheduling to Prevent Delays",
+    "href": "/cpm-scheduling-prevent-delays/",
+    "description": "Using critical path method scheduling to keep projects on track."
+  },
+  {
+    "title": "Avoid Commercial Construction Delays",
+    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "description": "Common causes of delays and strategies to prevent them."
+  },
+  {
+    "title": "The Stages of Construction Project Management",
+    "href": "/the-stages-of-construction-project-management/",
+    "description": "From preconstruction through closeout - managing each phase effectively."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much schedule contingency should I build into my project?",
+    answer: "This depends on project complexity, season, and risk tolerance. For Tampa Bay commercial projects, 10-15% schedule contingency is often appropriate. Projects with significant hurricane season exposure, complex permitting, or many unknowns may warrant more. Discuss appropriate contingency with your contractor based on your specific project characteristics."
+  },
+  {
+    question: "Who is responsible for weather-related delays?",
+    answer: "Contract terms define responsibility, but typically weather delays are considered \"excusable\" delays that extend the schedule without penalty. However, contractors bear responsibility for reasonable weather contingencies and recovery efforts. Extreme weather events may justify schedule extensions; routine weather patterns are typically built into base schedules."
+  },
+  {
+    question: "What can I do to minimize delay risk?",
+    answer: "Invest in thorough planning, select experienced contractors with good subcontractor relationships, make decisions promptly, and stay engaged throughout construction. Most controllable delays stem from inadequate planning, poor contractor selection, or owner-side decision delays. Addressing these factors significantly reduces delay risk."
+  },
+  {
+    question: "How should delay costs be handled?",
+    answer: "Contract terms should address delay cost allocation. Generally, delays caused by owner actions or decisions are owner's responsibility; delays caused by contractor failures are contractor's responsibility; and delays from uncontrollable causes (weather, unforeseen conditions) may be shared or handled according to contract terms. Clear contracts prevent disputes when delays occur."
+  },
+  {
+    question: "What's the best time of year to build in Tampa Bay?",
+    answer: "Winter and spring (November through May) offer the most favorable construction conditions: lower hurricane risk, less frequent rain, and more comfortable temperatures. However, this is also peak construction season with greater competition for subcontractors. Projects starting in fall may encounter hurricane season for early phases but benefit from less competition. Your contractor can help evaluate timing trade-offs for your specific project."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -416,6 +464,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

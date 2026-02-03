@@ -10,7 +10,7 @@ import type { Metadata } from "next";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
-  title: "Plant City Construction Contractor | Commercial, Residential & Disaster Recovery | FCS",
+  title: "Plant City Construction Contractor | Commercial | FCS",
   description: "Premier general contractor serving Plant City, FL. Commercial construction, agricultural facilities, disaster recovery, residential. Just 15 minutes from our Ruskin headquarters. Projects $250K-$25M+. Call (813) 420-7561.",
   keywords: "construction contractor plant city, commercial construction plant city fl, disaster recovery plant city, agricultural construction hillsborough county",
 };

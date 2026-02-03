@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Users, Heart, Home, Shield, Accessibility } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -24,11 +24,35 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const faqs = [
+  {
+    question: "How do you handle different generations contributing to construction costs?",
+    answer: "We work with families and their attorneys to structure arrangements appropriately. Common approaches include: percentage ownership based on contribution, separate financing for different portions, or rental arrangements for in-law units. The key is clear agreements before construction begins. We provide detailed cost breakdowns for different components to facilitate these discussions, though legal and financial structuring is ultimately between family members and their advisors."
+  },
+  {
+    question: "What if family circumstances change later?",
+    answer: "Good multi-generational design anticipates change. In-law suites with separate entries can be rented if family members move out. Dual master homes appeal to buyers with different multi-gen needs or those wanting separated home offices. Connecting doors between units can be permanently closed if ownership divides. We design for flexibility so your investment retains value regardless of how family situations evolve."
+  },
+  {
+    question: "Do multi-generational homes affect insurance or property taxes?",
+    answer: "Insurance treats multi-gen homes as single-family residences—you'll need appropriate coverage for the total square footage, but it's not fundamentally different from any large home. Property taxes are based on assessed value, which reflects the home's market value. If secondary units are detached and rentable, some jurisdictions may assess them separately. We recommend consulting with insurance agents and tax professionals during planning."
+  },
+  {
+    question: "How do you ensure good sound separation between units?",
+    answer: "Sound isolation requires attention throughout construction. Between-unit walls get insulation, resilient channels or sound clips, and multiple layers of drywall—achieving STC (Sound Transmission Class) ratings of 50 or higher. Separate HVAC systems prevent sound transmission through ductwork. Staggered studs, solid-core doors, and careful attention to penetrations complete the approach. The result is near-complete privacy—you won't hear normal conversation or TV from adjacent units."
+  },
+  {
+    question: "Should we include a full kitchen in the in-law suite?",
+    answer: "Full kitchens maximize independence—residents can prepare meals according to their preferences and schedules. Kitchenettes with small refrigerators, microwaves, and countertop appliances provide some independence at lower cost. Some families prefer shared main kitchens to encourage interaction. We recommend considering current needs and likely future evolution—adding a kitchen later is expensive and disruptive, while having one you don't use costs little ongoing."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">

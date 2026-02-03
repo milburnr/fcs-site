@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -30,6 +30,11 @@ export default function Page() {
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema 
+        serviceName="Fire Damage Restoration"
+        serviceDescription="Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with comprehensive insurance claim support."
+        city="Tampa"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

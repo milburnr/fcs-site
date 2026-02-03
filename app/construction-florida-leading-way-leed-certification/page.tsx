@@ -3,11 +3,12 @@ import Image from "next/image";
 import { Phone, CheckCircle, Award, Building, Leaf, Sun, Droplets, Users, TrendingUp, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
-  title: "Construction in Florida: Leading the Way with LEED Certification",
+  title: "Florida Construction | LEED Certification Leader",
   description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert guidance through all LEED certification levels with proven results.",
 };
 
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Sustainable Building Practices in Florida",
+    "href": "/sustainable-building-practices-florida-green-construction/",
+    "description": "Green construction methods suited to Florida's climate and regulations."
+  },
+  {
+    "title": "Zero Net Energy in Commercial Construction",
+    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "description": "Designing commercial buildings that produce as much energy as they consume."
+  },
+  {
+    "title": "Benefits of Sustainable Materials",
+    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "description": "How green materials improve building performance and reduce costs."
+  },
+  {
+    "title": "Green Contractor Certifications",
+    "href": "/green-contractor-certifications-in-commercial-construction/",
+    "description": "Understanding certifications that validate sustainable construction expertise."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much does LEED certification add to construction costs?",
+    answer: "The cost premium for LEED varies by certification level: LEED Certified typically adds 0-2%, Silver adds 2-4%, Gold adds 3-6%, and Platinum adds 5-10%. However, available incentives (179D deduction, utility rebates, expedited permitting) often offset much of this premium. The long-term operating cost savings and enhanced property values typically deliver strong ROI within 3-7 years."
+  },
+  {
+    question: "How long does the LEED certification process take?",
+    answer: "LEED certification runs parallel to the design and construction process, not sequentially. Design credits are submitted during design; construction credits are documented during construction. After project completion, the final certification review by GBCI typically takes 4-8 weeks for standard review, or faster with expedited review options. Overall, LEED doesn't significantly extend project timelines."
+  },
+  {
+    question: "Which LEED level should my project target?",
+    answer: "The optimal certification level depends on your budget, goals, and building type. LEED Certified and Silver are achievable with minimal cost premium and good practices. Gold represents the \"sweet spot\" for many commercial projects, delivering strong market recognition with reasonable investment. Platinum requires significant commitment but provides maximum differentiation. We analyze each project to recommend the optimal target."
+  },
+  {
+    question: "Can existing buildings achieve LEED certification?",
+    answer: "Yes, LEED offers pathways for existing buildings. LEED O+M (Operations & Maintenance) certifies existing buildings based on ongoing performance. LEED ID+C certifies interior renovations and tenant improvements. Major renovations can use LEED BD+C. Florida Construction Specialists can evaluate your existing building's certification potential."
+  },
+  {
+    question: "How do I maintain LEED certification after the building opens?",
+    answer: "Initial LEED certification doesn't require ongoing recertification, though the building should maintain the practices that earned certification. For buildings seeking ongoing recognition, LEED O+M provides a pathway for performance-based recertification. We provide transition documentation to help facility managers maintain sustainable operations."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -437,6 +485,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

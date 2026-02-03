@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Expert Tips for Parking Lot Maintenance in Tampa | Commercial Paving Guide",
+  title: "Parking Lot Maintenance Tampa | Commercial Guide",
   description: "Essential parking lot maintenance tips for Tampa's climate. Heat damage prevention, drainage solutions, sealcoating schedules, and cost-saving strategies from commercial construction experts.",
 };
 

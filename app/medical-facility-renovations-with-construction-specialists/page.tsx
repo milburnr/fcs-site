@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 import {
   Accordion,
   AccordionContent,
@@ -14,7 +15,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
-  title: "Medical Facility Renovations Tampa | Healthcare Construction Specialists",
+  title: "Medical Facility Renovations Tampa | Healthcare",
   description: "Expert medical facility renovations in Tampa Bay. AHCA-compliant healthcare renovations, infection control, phased construction, and minimal disruption to patient care operations.",
 };
 
@@ -29,6 +30,29 @@ const internalLinks = [
   { href: "/medical-office-value-engineering/", label: "Medical Office Value Engineering" },
   { href: "/key-considerations-for-building-medical-facilities-in-florida/", label: "Medical Facility Planning" },
   { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Key Considerations for Building Medical Facilities",
+    "href": "/key-considerations-for-building-medical-facilities-in-florida/",
+    "description": "Specialized requirements for healthcare construction in Florida."
+  },
+  {
+    "title": "Navigating AHCA Inspections",
+    "href": "/navigating-ahca-inspections/",
+    "description": "Preparing for and passing Florida healthcare facility inspections."
+  },
+  {
+    "title": "Clean Room Construction Standards",
+    "href": "/clean-room-construction-standards/",
+    "description": "Meeting stringent requirements for controlled environment construction."
+  },
+  {
+    "title": "Senior Living Construction Requirements",
+    "href": "/senior-living-construction-requirements/",
+    "description": "Building assisted living and senior care facilities in Florida."
+  }
 ];
 
 const renovationTypes = [
@@ -533,6 +557,10 @@ export default function Page() {
           </Accordion>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">

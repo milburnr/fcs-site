@@ -9,7 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
-  title: "Multi-Family Construction Ruskin FL | Condos, Apartments & Townhomes | FCS",
+  title: "Multi-Family Construction Ruskin | Condos | FCS",
   description: "Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. FCS home base advantage. 20+ years experience, 40+ years experience. Call (813) 420-7561.",
   keywords: "multi-family construction ruskin, apartment construction ruskin fl, condo builder south hillsborough, townhome construction apollo beach, senior living construction sun city center",
 };

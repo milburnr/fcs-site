@@ -30,6 +30,9 @@ export const BUSINESS_INFO = {
     linkedin: "",
     youtube: "",
   },
+  // Google Business Profile
+  googleBusinessProfile: "https://www.google.com/maps/place/Florida+Construction+Specialists/@27.7332411,-82.386967",
+  googleReviewLink: "https://g.page/r/CUxqhJ0kPgLtEBM/review",
   foundingDate: "1982",
   // Premium positioning data
   projectValueRange: "$500K - $25M+",

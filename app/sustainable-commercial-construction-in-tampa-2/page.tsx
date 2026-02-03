@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Phone, CheckCircle, Leaf, Heart, Sun, Droplets, Wind, Building, Users, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   title: "Sustainable Commercial Construction in Tampa",
@@ -24,11 +25,58 @@ const internalLinks = [
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
+const relatedArticles = [
+  {
+    "title": "Mastering Commercial Construction Design in Florida",
+    "href": "/mastering-commercial-construction-design-in-florida/",
+    "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
+  },
+  {
+    "title": "Benefits of Design-Build for Commercial Projects",
+    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
+  },
+  {
+    "title": "Commercial Construction Budgeting Tips",
+    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
+  },
+  {
+    "title": "Tips for Commercial Renovation in Florida",
+    "href": "/tips-for-commercial-renovation-in-florida/",
+    "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
+  }
+];
+
+const faqs = [
+  {
+    question: "How much more does sustainable construction cost?",
+    answer: "The cost premium for sustainable construction has declined dramatically and now typically ranges from 0-5% for most commercial projects. Many sustainable features like LED lighting and efficient HVAC systems are now standard practice with minimal or no premium. The operating cost savings typically pay back any additional investment within 3-7 years."
+  },
+  {
+    question: "Is LEED certification worth the investment?",
+    answer: "For most Tampa Bay commercial projects, yes. LEED-certified buildings command higher rents (10-20% premium), experience lower vacancy rates, and achieve higher sale prices. The certification process also ensures your building achieves intended sustainability goals and provides third-party verification of building performance. For smaller projects, Florida Green Building Coalition certification may offer similar benefits at lower cost."
+  },
+  {
+    question: "Can sustainable buildings withstand Florida hurricanes?",
+    answer: "Absolutely—and often better than conventional construction. Sustainable building practices emphasize durability and resilience. Features like impact-resistant windows, reinforced connections, and superior building envelopes not only meet Florida Building Code requirements but often exceed them. Many sustainable materials and systems offer enhanced storm resistance compared to conventional alternatives."
+  },
+  {
+    question: "What incentives are available for sustainable construction in Tampa?",
+    answer: "Tampa Bay businesses can access numerous incentives including the federal 179D tax deduction (up to $5/sq ft for energy-efficient buildings), solar Investment Tax Credit (30%), TECO and Duke Energy rebates for efficiency measures, and PACE financing for eligible improvements. Our team helps identify and maximize available incentives for every project."
+  },
+  {
+    question: "How long does it take to achieve LEED certification?",
+    answer: "LEED certification doesn't extend the construction timeline significantly—sustainable construction practices are integrated into our standard approach. The certification documentation occurs parallel to construction, with final certification typically achieved 3-6 months after project completion. Early planning for LEED ensures certification requirements are incorporated from design through construction."
+  }
+];
+
 export default function Page() {
   return (
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -425,6 +473,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
 
       {/* Internal Links */}
       <section className="section bg-gray-50">
