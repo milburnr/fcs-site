@@ -40,11 +40,11 @@ export const theme = {
   },
 
   // ===================
-  // FONTS
+  // FONTS (using next/font CSS variables for self-hosted fonts)
   // ===================
   fonts: {
-    body: 'Roboto, sans-serif',
-    heading: 'Roboto Slab, serif',
+    body: 'var(--font-roboto), sans-serif',
+    heading: 'var(--font-roboto-slab), serif',
   },
 
   // ===================

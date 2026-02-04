@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import { Roboto, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -8,6 +9,21 @@ import { LocalBusinessSchema, OrganizationSchema } from "@/components/Schema";
 import { PhoneTrackingProvider } from "@/components/PhoneTrackingProvider";
 import { ChatWidget } from "@/components/ChatWidget";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
+
+// Load fonts via next/font for automatic optimization (self-hosted, no render-blocking)
+const roboto = Roboto({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "700"],
+  variable: "--font-roboto",
+  display: "swap",
+});
+
+const robotoSlab = Roboto_Slab({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-roboto-slab",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
@@ -43,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${roboto.variable} ${robotoSlab.variable}`}>
       <head>
         {/* Preload LCP hero image for faster rendering */}
         <link
@@ -67,16 +83,8 @@ export default function RootLayout({
         </Script>
 
         {/* Preconnect to third-party domains for faster loading */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://widgets.leadconnectorhq.com" />
         <link rel="preconnect" href="https://link.trustbasedseo.com" />
-
-        {/* Google Fonts - loaded with display=swap for non-blocking */}
-        <link
-          href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&family=Roboto+Slab:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
 
         <LocalBusinessSchema />
         <OrganizationSchema />
