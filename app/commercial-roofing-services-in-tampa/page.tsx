@@ -111,7 +111,7 @@ export default function Page() {
 
             <div className="mb-8">
               <Image
-                src="/wp-content/uploads/2023/12/Old/maya-patel.jpg"
+                src="/images/maya-patel/maya-patel-display.webp"
                 alt="Modern commercial building with professional flat roof installation, MVP Orthodontics office"
                 width={800}
                 height={500}

@@ -387,7 +387,7 @@ export default function InsuranceRestorationStPetersburgPage() {
                 </div>
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png"
+                    src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
                     alt="Waterproofing and building envelope repair"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -400,7 +400,7 @@ export default function InsuranceRestorationStPetersburgPage() {
                 </div>
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg"
+                    src="/images/custom-home-construction-2/custom-home-construction-2-display.webp"
                     alt="Complete property restoration"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

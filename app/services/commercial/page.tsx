@@ -222,7 +222,7 @@ export default function CommercialConstructionPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Lions-World-Vision-Institute-Building-Exterior.jpg"
+                src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
                 alt="Lions World Vision Institute commercial brick building with new architectural shingle roof"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -472,7 +472,7 @@ export default function CommercialConstructionPage() {
                 <div className="flex gap-4">
                   <div className="relative w-24 h-24 flex-shrink-0 rounded-lg overflow-hidden">
                     <Image
-                      src="/wp-content/uploads/2023/12/Lions-World-Vision-Institute-Building-Exterior.jpg"
+                      src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
                       alt="Bay Pines Veterans Hospital"
                       fill
                       className="object-cover"

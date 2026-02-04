@@ -108,7 +108,7 @@ export default function Page() {
 
               <div className="mb-8">
                 <Image
-                  src="/wp-content/uploads/2024/01/i9.jpg"
+                  src="/images/i9/i9-display.webp"
                   alt="Historic brick commercial building with exterior lighting at twilight after restoration"
                   width={800}
                   height={500}
@@ -183,7 +183,7 @@ export default function Page() {
 
               <div className="mb-8">
                 <Image
-                  src="/wp-content/uploads/2024/01/1111.jpg"
+                  src="/images/1111/1111-display.webp"
                   alt="Historic church building restoration with scaffolding and clay tile roof repair in progress"
                   width={800}
                   height={500}

@@ -247,7 +247,7 @@ export default function SIRSRepairsPage() {
             {/* Image for section */}
             <div className="mb-8">
               <Image
-                src="/wp-content/uploads/2024/01/m88.jpg"
+                src="/images/m88/m88-display.webp"
                 alt="Commercial building construction site with crane and excavator working on concrete structure"
                 width={1000}
                 height={500}

@@ -239,7 +239,7 @@ export default function DisasterRecoveryPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Ian-2.jpg"
+                src="/images/Ian-2/ian-2-display.webp"
                 alt="Aerial view of catastrophic hurricane damage to roofs and homes in coastal community"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

@@ -200,7 +200,7 @@ export default function CustomHomesPage() {
           </div>
           <div className="relative">
             <Image
-              src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-display.jpg"
+              src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-display.webp"
               alt="Custom home construction in progress"
               width={600}
               height={800}
@@ -630,7 +630,7 @@ export default function CustomHomesPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/custom-home-2/custom-home-2-display.jpg"
+            src="/images/custom-home-2/custom-home-2-display.webp"
             alt="Custom home at sunset"
             fill
             className="object-cover opacity-30"

@@ -11,7 +11,7 @@ export default function PremiumHomepage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2024/01/2f.jpg"
+            src="/images/2f/2f-display.webp"
             alt="Construction manager reviewing blueprints at commercial site"
             fill
             className="object-cover"
@@ -107,7 +107,7 @@ export default function PremiumHomepage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center mb-24">
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/wp-content/uploads/2023/12/Old/office-building-1.jpg"
+                src="/images/office-building-1/office-building-1-display.webp"
                 alt="Modern commercial office building"
                 fill
                 className="object-cover"
@@ -155,7 +155,7 @@ export default function PremiumHomepage() {
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             <div className="lg:order-2 relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/wp-content/uploads/2023/12/Old/custom-home-construction-5.jpg"
+                src="/images/custom-home-construction-5/custom-home-construction-5-display.webp"
                 alt="Luxury custom home at dusk"
                 fill
                 className="object-cover"
@@ -204,7 +204,7 @@ export default function PremiumHomepage() {
       <section className="relative py-32 bg-slate-900">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png"
+            src="/images/Wellington-Polo-Club/wellington-polo-club-display.webp"
             alt="Wellington Polo Club - Luxury resort project"
             fill
             className="object-cover opacity-30"
@@ -246,7 +246,7 @@ export default function PremiumHomepage() {
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/wp-content/uploads/2023/12/Old/Wellington-Polo-Club.png"
+                src="/images/Wellington-Polo-Club/wellington-polo-club-display.webp"
                 alt="Wellington Polo Club project"
                 fill
                 className="object-cover"

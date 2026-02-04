@@ -313,7 +313,7 @@ export default function CondoRemediationTampaPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png')] bg-cover bg-center opacity-15" />
+        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-15" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/80 to-transparent" />
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
@@ -503,7 +503,7 @@ export default function CondoRemediationTampaPage() {
               <div className="grid md:grid-cols-3 gap-4 my-8">
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png"
+                    src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
                     alt="Condo exterior waterproofing Tampa"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -529,7 +529,7 @@ export default function CondoRemediationTampaPage() {
                 </div>
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg"
+                    src="/images/custom-home-construction-2/custom-home-construction-2-display.webp"
                     alt="Tampa condo remediation project"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

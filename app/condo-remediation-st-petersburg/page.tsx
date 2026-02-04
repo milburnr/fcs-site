@@ -278,7 +278,7 @@ export default function CondoRemediationStPetersburgPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/commercial-construction-hero.jpg')] bg-cover bg-center opacity-15" />
+        <div className="absolute inset-0 bg-[url('/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-display.webp')] bg-cover bg-center opacity-15" />
         <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/80 to-transparent" />
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
@@ -413,7 +413,7 @@ export default function CondoRemediationStPetersburgPage() {
                 </div>
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/FCS-Exterior-Waterproofing.png"
+                    src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
                     alt="Waterproofing application"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -426,7 +426,7 @@ export default function CondoRemediationStPetersburgPage() {
                 </div>
                 <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                   <Image
-                    src="/wp-content/uploads/2023/12/commercial-construction-hero.jpg"
+                    src="/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-display.webp"
                     alt="Commercial condo project"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"

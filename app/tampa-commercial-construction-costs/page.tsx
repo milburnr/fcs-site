@@ -131,7 +131,7 @@ export default function Page() {
             
             <div className="mb-8">
               <Image
-                src="/wp-content/uploads/2023/12/Old/office-building-1.jpg"
+                src="/images/office-building-1/office-building-1-display.webp"
                 alt="Modern commercial office building with flat roof and glass facade at dusk"
                 width={800}
                 height={500}

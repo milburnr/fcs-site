@@ -382,7 +382,7 @@ export default function TeamMembersPage() {
 
             <div className="relative">
               <Image
-                src="/images/commercial-construction-tampa-2/commercial-construction-tampa-2-display.jpg"
+                src="/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp"
                 alt="FCS team collaboration"
                 width={600}
                 height={500}

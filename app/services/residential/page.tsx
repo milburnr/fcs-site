@@ -231,7 +231,7 @@ export default function ResidentialConstructionPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Old/custom-home-construction-2.jpg"
+                src="/images/custom-home-construction-2/custom-home-construction-2-display.webp"
                 alt="Luxury home with premium architectural shingle roof at twilight with illuminated windows"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -257,7 +257,7 @@ export default function ResidentialConstructionPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/wp-content/uploads/2023/12/Old/custom-home-construction-1.jpg"
+                src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
                 alt="Wood frame residential construction showing roof trusses and framing under blue sky"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

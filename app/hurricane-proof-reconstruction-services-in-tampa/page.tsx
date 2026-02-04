@@ -124,7 +124,7 @@ export default function Page() {
 
             <div className="mb-8">
               <Image
-                src="/wp-content/uploads/2023/12/Ian-2.jpg"
+                src="/images/Ian-2/ian-2-display.webp"
                 alt="Aerial view of catastrophic hurricane damage to roofs and homes in coastal community"
                 width={800}
                 height={500}

@@ -48,7 +48,7 @@ export default function ResidentialHubPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg"
+            src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.webp"
             alt="Luxury waterfront estate at sunset"
             fill
             className="object-cover"
@@ -172,7 +172,7 @@ export default function ResidentialHubPage() {
           </div>
           <div className="relative">
             <Image
-              src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-display.jpg"
+              src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-display.webp"
               alt="Elegant custom home interior with luxury finishes"
               width={600}
               height={800}
@@ -446,7 +446,7 @@ export default function ResidentialHubPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="col-span-2 row-span-2 relative group overflow-hidden cursor-pointer">
               <Image
-                src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.jpg"
+                src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.webp"
                 alt="Harbour Island Estate"
                 width={800}
                 height={800}
@@ -464,7 +464,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-1/custom-home-1-display.jpg"
+                src="/images/custom-home-1/custom-home-1-display.webp"
                 alt="Davis Islands Modern"
                 width={400}
                 height={400}
@@ -482,7 +482,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-2/custom-home-2-display.jpg"
+                src="/images/custom-home-2/custom-home-2-display.webp"
                 alt="Beach Park Residence"
                 width={400}
                 height={400}
@@ -500,7 +500,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-construction-1/custom-home-construction-1-display.jpg"
+                src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
                 alt="Sunset Park Villa"
                 width={400}
                 height={400}
@@ -518,7 +518,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-construction-2/custom-home-construction-2-display.jpg"
+                src="/images/custom-home-construction-2/custom-home-construction-2-display.webp"
                 alt="Bayshore Boulevard"
                 width={400}
                 height={400}
@@ -612,7 +612,7 @@ export default function ResidentialHubPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/custom-home-construction-3/custom-home-construction-3-display.jpg"
+            src="/images/custom-home-construction-3/custom-home-construction-3-display.webp"
             alt="Luxury home at dusk"
             fill
             className="object-cover opacity-30"

@@ -134,7 +134,7 @@ export default function Page() {
 
               <div className="mb-8">
                 <Image
-                  src="/wp-content/uploads/2024/01/2f.jpg"
+                  src="/images/2f/2f-display.webp"
                   alt="Construction manager in safety gear reviewing blueprints at commercial building site"
                   width={800}
                   height={500}

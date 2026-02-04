@@ -224,7 +224,7 @@ export default function WaterfrontHomesPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/wp-content/uploads/2024/01/Custom-home-2-rotated-1.jpg"
+            src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.webp"
             alt="Luxury waterfront estate at sunset"
             fill
             className="object-cover"
