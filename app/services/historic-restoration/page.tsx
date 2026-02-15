@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/historic-restoration/' },
   title: "Historic Restoration & Preservation in Tampa Bay",
-  description: "Tampa Bay's expert historic restoration contractor. SHPO compliance, Secretary of Interior Standards, historic tax credits. Ybor City specialists. Call (813) 420-7561.",
+  description: "Historic restoration Tampa: SHPO compliance, tax credits, Secretary of Interior Standards. Ybor City, Hyde Park specialist. Schedule preservation consultation.",
   keywords: [
     "historic restoration tampa",
     "historic building renovation florida",

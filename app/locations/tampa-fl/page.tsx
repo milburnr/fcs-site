@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, MapPin, Building2, Shield, Award, Clock, CheckCircle, Landmark, Home, Hammer } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { GoogleMap } from "@/components/GoogleMap";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -117,6 +117,7 @@ export default function TampaPage() {
         serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={breadcrumbItems.slice(1)} />
 

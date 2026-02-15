@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Calendar, MapPin, FileText, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
@@ -90,6 +90,7 @@ export default function SB4DCompliancePage() {
         serviceDescription="Expert remediation services for Florida condominiums complying with SB 4-D (Surfside Law) requirements. Milestone inspection repairs, structural restoration, and SIRS compliance throughout Tampa Bay."
         minPrice="100000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Resources", href: "/resources/" },

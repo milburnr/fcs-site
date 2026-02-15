@@ -20,6 +20,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How soon after damage occurs should I get a professional assessment?",
+    answer: "Contact a professional damage assessment contractor within 24-48 hours of discovering damage. Florida Statute 627.70131 requires you to report property damage to your insurer promptly, and insurers must acknowledge claims within 14 days. Early professional documentation ensures nothing is missed during initial inspections, documents the full extent of hidden damage, and provides leverage if insurance adjusters underestimate repairs. Delaying assessment risks secondary damage like mold growth and may complicate insurance claims.",
   },
   {
     question: "What's included in a commercial property damage assessment?",

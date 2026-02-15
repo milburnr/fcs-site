@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
   title: "Multi-Family Construction Tampa | Apartments | FCS",
-  description: "Tampa Bay's premier multi-family construction contractor. 40+ years building condos, apartments, townhomes & mixed-use developments. Projects $1M-$50M+. Licensed, bonded, in-house engineering.",
+  description: "Multi-family construction Tampa: condos, apartments, mixed-use. $1M-$50M+ projects. In-house engineering, SB4-D compliance, 40+ years Florida experience. Request bid.",
   keywords: "multi-family construction Tampa, apartment construction Florida, condo construction Tampa Bay, multi-family general contractor, apartment building contractor Florida, condominium builder Tampa",
 };
 

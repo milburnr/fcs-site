@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileCheck, Users, Wrench, ClipboardCheck, Home, DollarSign, HardHat, FileText, Droplets, Wind, Flame, Search } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery/' },
   title: "Storm & Disaster Recovery Tampa | 43 Years | FCS",
-  description: "Tampa Bay's most experienced insurance restoration contractor. 43 years claims experience from both sides—adjuster AND contractor. Large loss commercial and residential disaster recovery. Hurricane, flood, fire, and storm damage restoration.",
+  description: "Tampa disaster recovery: 43 years insurance restoration. Commercial large-loss specialist. Hurricane, flood, fire claims—adjuster & contractor experience. Call 24/7.",
   keywords: "disaster recovery Tampa, storm damage restoration Florida, insurance restoration contractor, large loss restoration, hurricane damage repair Tampa Bay, commercial property restoration, flood damage restoration Florida, NFIP claims, insurance claim contractor",
 };
 
@@ -118,6 +118,7 @@ export default function DisasterRecoveryPage() {
         serviceDescription="Tampa Bay's most experienced insurance restoration contractor with 43 years claims experience. Large loss commercial and residential disaster recovery including hurricane, flood, fire, and storm damage restoration."
         minPrice="250000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },

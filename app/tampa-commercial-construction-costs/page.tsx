@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { Phone, DollarSign, Building2, TrendingUp, Calculator, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -78,6 +78,7 @@ export default function Page() {
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="Tampa Commercial Construction Costs: Complete 2024 Guide"
         description="Comprehensive guide to commercial construction costs in Tampa Bay with current pricing and budgeting strategies."

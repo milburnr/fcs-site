@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/' },
   title: "Commercial Construction in Tampa Bay",
-  description: "Tampa Bay's premier commercial contractor for $500K-$25M+ projects. 40+ years experience, 20+ years experience. Schedule your project consultation. Call (813) 420-7561.",
+  description: "Commercial contractor Tampa Bay: office, retail, industrial projects $500K-$25M+. Design-build expertise, 40+ years Florida construction. Schedule consultation today.",
   keywords: [
     "commercial construction tampa",
     "commercial contractor florida",

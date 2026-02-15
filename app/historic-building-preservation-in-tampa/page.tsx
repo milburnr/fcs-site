@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -59,6 +59,7 @@ export default function Page() {
     <>
       <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

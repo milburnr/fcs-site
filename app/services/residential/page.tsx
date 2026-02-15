@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/' },
   title: "Luxury Custom Home Construction in Tampa Bay",
-  description: "Tampa Bay's premier luxury home builder for $1M+ waterfront estates and custom residences. Hurricane-resistant construction, 20+ years experience. Call (813) 420-7561.",
+  description: "Luxury home builder Tampa Bay: $1M+ estates, waterfront construction, hurricane-resistant design. Custom residences on Davis Islands, South Tampa. Free consultation.",
   keywords: [
     "luxury home builder tampa",
     "custom home construction florida",

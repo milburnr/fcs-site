@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -275,6 +275,7 @@ export default function CommercialConstructionPage() {
         serviceDescription="Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget."
         minPrice="500000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },

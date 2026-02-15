@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, MapPin, ArrowRight, Building2, Shield, Award, Clock, CheckCircle, Factory, Truck, Home, Hammer } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { GoogleMap } from "@/components/GoogleMap";
 import type { Metadata } from "next";
@@ -71,6 +71,7 @@ const faqs = [
   },
   {
     question: "Do you provide disaster recovery services in Plant City?",
+    answer: "Yes, FCS provides comprehensive disaster recovery services for Plant City commercial and residential properties. Our 15-minute proximity from Ruskin allows rapid response to hurricane damage, fire damage, flood damage, and storm damage. We handle storm response, insurance coordination, structural repairs, and complete restoration. Our experience with agricultural facilities makes us particularly effective for Plant City's warehouse and processing plant sector.",
   },
   {
     question: "What areas near Plant City do you also serve?",
@@ -100,6 +101,7 @@ export default function PlantCityPage() {
         serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={breadcrumbItems.slice(1)} />
 

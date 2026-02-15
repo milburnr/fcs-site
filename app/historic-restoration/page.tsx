@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, ArticleSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, ServiceSchema, ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
@@ -64,8 +64,8 @@ export default function HistoricRestorationPage() {
         serviceDescription="Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO requirements."
         minPrice="500000"
       />
+      <FAQSchema faqs={faqs} />
 
-      
       <ArticleSchema
         headline="Historic Restoration & Preservation | Certified Specialists"
         description="Expert historic restoration and preservation services. We restore Tampa Bay"

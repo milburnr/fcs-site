@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/' },
   title: "Lifetime Custom Homes Tampa | Luxury Home Builder | FCS",
   description:
-    "Tampa Bay's premier luxury custom home builder. Waterfront estates, historic renovations, and bespoke residences crafted for generations. Begin your journey with Florida Construction Specialists.",
+    "Luxury custom homes Tampa Bay: waterfront estates, hurricane-resistant design, historic renovations. 28+ years building lifetime residences. Schedule consultation.",
   keywords:
     "luxury custom homes Tampa, waterfront home builder Tampa Bay, custom home design Florida, high-end residential construction, Davis Islands homes, South Tampa custom builder",
 };

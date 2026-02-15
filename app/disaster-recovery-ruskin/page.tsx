@@ -102,6 +102,7 @@ export default function DisasterRecoveryRuskinPage() {
       <LocalBusinessSchema city="Ruskin" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
+        serviceDescription="Emergency disaster recovery and insurance restoration services in Ruskin, FL. Hurricane, fire, flood, and storm damage repair."
         city="Ruskin"
         minPrice="250000"
       />

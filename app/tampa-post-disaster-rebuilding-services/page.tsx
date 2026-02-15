@@ -56,6 +56,7 @@ const disasterTypes = [
 const faqs = [
   {
     question: "How quickly can you respond to a commercial disaster emergency in Tampa?",
+    answer: "Florida Construction Specialists maintains 24/7 storm response capabilities throughout Tampa Bay. For commercial property emergencies, we typically deploy assessment teams within 2-4 hours of your initial contact. Our Ruskin headquarters provides rapid access to all Tampa Bay areas including Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities. Immediate services include building stabilization, board-up, tarping, water extraction, and preliminary damage documentation for insurance purposes.",
   },
   {
     question: "Do you work directly with insurance companies for commercial disaster claims?",

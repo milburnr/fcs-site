@@ -11,7 +11,7 @@ import { Phone, Flame, Shield, Building2, Wind, Sparkles, Home, AlertTriangle, C
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/fire-restoration/' },
   title: "Fire Restoration Tampa | Commercial & Residential Fire Damage Repair | FCS",
-  description: "Tampa Bay's trusted fire damage restoration contractor since 1982. Complete structural repairs, smoke remediation, content restoration, and reconstruction. Large loss specialists with 40+ years experience.",
+  description: "Fire damage restoration Tampa: structural repairs, smoke remediation, odor removal. Commercial & residential fire recovery. 40+ years experience. Emergency response available.",
   keywords: "fire restoration Tampa, fire damage repair, smoke damage restoration, commercial fire restoration Florida, fire damage contractor Tampa Bay, insurance fire restoration",
 };
 

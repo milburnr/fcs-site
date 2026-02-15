@@ -31,7 +31,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
   title: "Disaster Recovery in Tampa",
-  description: "Tampa's large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration projects, all carriers. Call (813) 420-7561.",
+  description: "Disaster recovery Tampa: large-loss hurricane, flood, fire restoration. $250K+ insurance projects, 43 years claims experience. All carriers. Call emergency hotline.",
   keywords: [
     "disaster recovery tampa",
     "hurricane damage restoration tampa",

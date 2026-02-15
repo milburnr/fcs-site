@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-homes/' },
   title: "Custom Home Builder Tampa Bay | Waterfront | FCS",
   description:
-    "Tampa Bay's trusted custom home builder for 28+ years. Waterfront estates, luxury homes, and bespoke residences designed for Florida living. Get your free consultation with Florida Construction Specialists.",
+    "Custom home builder Tampa: Davis Islands, South Tampa, waterfront estates. 28+ years Florida expertise. Free consultation on your dream home project today.",
   keywords:
     "custom home builder Tampa, luxury homes Tampa Bay, waterfront home construction, custom house builder Florida, new home construction Tampa, high-end residential builder",
 };

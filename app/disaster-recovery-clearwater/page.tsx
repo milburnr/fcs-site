@@ -33,7 +33,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
   title: "Disaster Recovery in Clearwater",
-  description: "Clearwater's large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration projects, all carriers. Call (813) 420-7561.",
+  description: "Disaster recovery Clearwater: hurricane, flood, fire restoration. Large-loss specialist $250K+ projects. 43 years insurance claims experience. Emergency response 24/7.",
   keywords: [
     "disaster recovery clearwater",
     "hurricane damage restoration clearwater",

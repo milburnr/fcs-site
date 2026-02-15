@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-modular-construction-in-tampa/' },
   title: "Commercial Modular Construction Tampa | Prefab",
-  description: "Tampa's leading commercial modular construction specialists. Faster timelines, controlled costs, quality prefab buildings for offices, healthcare, education, and more.",
+  description: "Modular construction Tampa: prefab office, healthcare, education buildings. Faster timelines, cost control, quality construction. Commercial modular specialist. Get quote.",
 };
 
 const breadcrumbItems = [

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, DollarSign, Wrench, Clock, FileText, TrendingUp } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -77,6 +77,7 @@ export default function SIRSRepairsPage() {
         serviceDescription="Expert planning and execution of major condo capital projects identified in Structural Integrity Reserve Studies. Roof replacement, concrete restoration, waterproofing, plumbing, electrical, and more throughout Tampa Bay."
         minPrice="250000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },

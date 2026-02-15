@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, FileText, Shield, Clock, Users, AlertTriangle, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -296,6 +296,7 @@ const commercialSpecializations = [
 const faqs = [
   {
     question: "How quickly can FCS respond to an emergency?",
+    answer: "Florida Construction Specialists maintains 24/7 storm response capabilities for commercial property emergencies throughout Tampa Bay. For large loss situations, we can typically have assessment teams on-site within 24-48 hours of your initial contact. Our Ruskin headquarters location provides rapid access to Tampa, St. Petersburg, Sarasota, Bradenton, and surrounding areas. Initial stabilization services begin immediately upon arrival to prevent further damage.",
   },
   {
     question: "Do you work directly with insurance adjusters?",
@@ -347,6 +348,7 @@ export default function InsuranceRestorationPage() {
         serviceDescription="Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. We work directly with adjusters on large loss claims from hurricanes, storms, and disasters."
         minPrice="500000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },

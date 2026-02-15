@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-historic-districts-restoration-rules/' },
   title: "Tampa's Historic Districts Restoration Rules",
-  description: "Navigate Tampa's historic district restoration rules for Ybor City, Hyde Park, and other preservation areas. Understanding local review requirements and design standards.",
+  description: "Tampa historic district rules: Ybor City, Hyde Park, Seminole Heights restoration standards. Design review requirements, preservation guidelines. Expert contractor.",
 };
 
 const breadcrumbItems = [

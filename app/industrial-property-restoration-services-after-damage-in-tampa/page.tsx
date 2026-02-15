@@ -20,6 +20,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How quickly can you respond to industrial facility damage in Tampa?",
+    answer: "Florida Construction Specialists maintains 24/7 storm response capabilities for industrial facility emergencies throughout Tampa Bay. We understand that industrial downtime costs can reach $10,000-$100,000+ per hour, so we prioritize rapid mobilization. For large loss industrial situations, we typically deploy assessment teams within 2-4 hours. Our crews can work around the clock when needed to minimize operational disruption and accelerate restoration timelines for warehouses, manufacturing facilities, and distribution centers.",
   },
   {
     question: "Can you restore specialized industrial flooring systems?",

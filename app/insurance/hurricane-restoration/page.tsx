@@ -12,7 +12,7 @@ import { Phone, Wind, Shield, Building2, Home, Droplets, AlertTriangle, CheckCir
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/hurricane-restoration/' },
   title: "Hurricane Restoration Tampa | Storm Damage Repair Contractor | FCS",
-  description: "Tampa Bay's trusted hurricane restoration contractor since 1982. Large loss specialists for commercial and residential storm damage. Licensed CGC with 40+ years experience. storm response available.",
+  description: "Hurricane restoration Tampa Bay: roof repairs, structural wind damage, flood recovery. CGC licensed large-loss specialist. 40+ years storm damage expertise. Call now.",
   keywords: "hurricane restoration Tampa, storm damage repair Florida, wind damage restoration, hurricane damage contractor, Tampa Bay hurricane recovery, commercial storm damage, Florida hurricane contractor",
 };
 

@@ -48,6 +48,7 @@ const disasterTypes = [
 const brandonFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Brandon?",
+    answer: "Florida Construction Specialists maintains rapid response capabilities for Brandon and eastern Hillsborough County emergencies. For large loss situations, we can typically have assessment teams on-site within 24-48 hours. Our proximity to the Brandon area through our Ruskin headquarters ensures faster response times than contractors based in distant locations. We provide immediate stabilization services including board-up, tarping, and water extraction to prevent further damage.",
   },
   {
     question: "What types of disasters most commonly affect Brandon properties?",
@@ -100,6 +101,7 @@ export default function DisasterRecoveryBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
+        serviceDescription="Emergency disaster recovery and insurance restoration services in Brandon, FL. Hurricane, fire, flood, and storm damage repair."
         city="Brandon"
         minPrice="225000"
       />

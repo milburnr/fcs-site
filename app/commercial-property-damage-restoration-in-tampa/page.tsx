@@ -20,6 +20,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How soon can commercial restoration begin after damage occurs?",
+    answer: "For commercial properties, we understand that every hour of downtime impacts your business. Our emergency response team can be on-site within hours of your call for damage assessment and emergency mitigation. Actual restoration work typically begins within 24-48 hours once insurance authorization is secured, though emergency board-up, water extraction, and temporary repairs start immediately to prevent further damage."
   },
   {
     question: "Can our business continue operating during restoration?",

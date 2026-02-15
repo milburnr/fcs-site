@@ -180,6 +180,7 @@ const ruskinFaqs = [
   {
     question: "How quickly can FCS respond to urgent condo remediation needs in Ruskin?",
     answer:
+      "Our Ruskin headquarters enables rapid response for South Hillsborough emergencies. For urgent situations—sudden concrete spalling, safety concerns identified during inspections, or approaching compliance deadlines—we can typically have an engineer on-site within 24-48 hours. Emergency stabilization work can begin within days when needed. For standard remediation projects, we coordinate schedules around association timelines while maintaining efficient project flow. Contact our local team directly for immediate consultation on urgent needs.",
   },
   {
     question: "Does FCS have experience working with retirement community condo associations?",

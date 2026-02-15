@@ -32,6 +32,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema 
         serviceName="Water Damage Mitigation"
+        serviceDescription="Professional water damage mitigation services in Tampa, FL. Emergency extraction, structural drying, and mold prevention."
         city="Tampa"
       />
       {/* Hero */}

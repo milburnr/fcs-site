@@ -48,6 +48,7 @@ const disasterTypes = [
 const sarasotaFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Sarasota and the barrier islands?",
+    answer: "Florida Construction Specialists maintains rapid response capabilities for Sarasota and barrier island emergencies. For large loss situations on Siesta Key, Longboat Key, Lido Key, Bird Key, and mainland Sarasota, we can typically have assessment teams on-site within 2-4 hours. Our proximity to Sarasota through our Ruskin headquarters and established relationships with the City of Sarasota Building Department ensure efficient project mobilization even during post-storm periods when barrier island access may be restricted.",
   },
   {
     question: "What areas of Sarasota are most vulnerable to hurricane and flood damage?",
@@ -100,6 +101,7 @@ export default function DisasterRecoverySarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
+        serviceDescription="Emergency disaster recovery and insurance restoration services in Sarasota, FL. Hurricane, fire, flood, and storm damage repair."
         city="Sarasota"
         minPrice="250000"
       />

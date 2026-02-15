@@ -14,7 +14,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
   title: "Commercial Construction in Clearwater",
-  description: "Clearwater's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
+  description: "Commercial construction Clearwater: $500K-$25M+ office, retail, medical projects. Design-build contractor serving Pinellas County. Call for project consultation.",
   keywords: [
     "commercial construction clearwater",
     "commercial contractor clearwater",

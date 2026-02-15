@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/disaster-recovery/' },
   title: "Disaster Recovery & Insurance Restoration in Tampa Bay",
-  description: "Tampa Bay's expert insurance restoration contractor. 43+ years claims experience, large loss specialists, direct carrier relationships. Call (813) 420-7561.",
+  description: "Insurance restoration Tampa: hurricane, flood, fire damage. 43 years claims expertise, large-loss specialist. Direct carrier relationships. Call for storm damage repair.",
   keywords: [
     "disaster recovery contractor tampa",
     "insurance restoration florida",

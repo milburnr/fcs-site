@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-bidding-process/' },
   title: "Tampa Commercial Construction Bidding | Guide",
-  description: "Navigate Tampa's commercial construction bidding process with confidence. Learn bid preparation, evaluation, and negotiation strategies for successful project outcomes.",
+  description: "Tampa commercial construction bidding: RFP preparation, contractor evaluation, negotiation strategies. Expert guide for successful project bids. Get competitive quote.",
 };
 
 const breadcrumbItems = [

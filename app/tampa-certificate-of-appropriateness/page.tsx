@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-certificate-of-appropriateness/' },
   title: "Certificate of Appropriateness Tampa | FCS",
   description:
-    "Navigate Tampa's Certificate of Appropriateness (COA) process for historic properties. Expert guidance on application requirements, review criteria, and approval strategies for historic renovations.",
+    "Tampa Certificate of Appropriateness guide: COA application, historic property review criteria, approval strategies. Hyde Park, Ybor City restoration expertise.",
   keywords:
     "certificate of appropriateness Tampa, COA historic review, Tampa historic preservation, ARC approval Tampa, historic renovation permit, Hyde Park historic review",
 };

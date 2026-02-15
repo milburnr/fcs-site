@@ -48,6 +48,7 @@ const disasterTypes = [
 const lakelandFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Lakeland?",
+    answer: "Florida Construction Specialists maintains rapid response capabilities for Lakeland and Polk County emergencies. For large loss situations, we can typically have assessment teams on-site within 3-5 hours. Our experience serving Lakeland's commercial sector including Publix facilities, Florida Southern College, and industrial properties along the I-4 corridor ensures we understand local requirements. We provide immediate stabilization services including board-up, tarping, and water extraction.",
   },
   {
     question: "What types of disasters are most common in Lakeland?",
@@ -100,6 +101,7 @@ export default function DisasterRecoveryLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
+        serviceDescription="Emergency disaster recovery and insurance restoration services in Lakeland, FL. Hurricane, fire, flood, and storm damage repair."
         city="Lakeland"
         minPrice="250000"
       />

@@ -9,7 +9,7 @@ export const metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-preservation/' },
   title: "Historic Restoration & Preservation Tampa FL",
   description:
-    "Distinguished leaders in historic restoration and preservation in Florida. We blend traditional craftsmanship with modern techniques to preserve Florida's architectural heritage.",
+    "Historic restoration Tampa: traditional craftsmanship + modern techniques. Preserve Florida architectural heritage. SHPO compliance, tax credits. Get consultation.",
 };
 
 const breadcrumbItems = [

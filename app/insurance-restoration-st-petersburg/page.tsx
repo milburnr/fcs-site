@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/' },
   title: "Insurance Restoration St. Petersburg | 43 Years",
   description:
-    "St. Petersburg's most experienced insurance restoration contractor. 43 years claims expertise from both sides—adjuster AND contractor. Hurricane, flood, fire damage restoration. Historic district specialists. Call (813) 420-7561.",
+    "Insurance restoration St Petersburg: hurricane, flood, fire damage repair. Historic district specialist. 43 years adjuster & contractor expertise. Emergency response available.",
   keywords:
     "insurance restoration St Petersburg, property damage restoration St Pete, hurricane contractor St Petersburg FL, flood damage St Pete Beach, storm damage repair St Petersburg, insurance claim contractor Pinellas, fire damage restoration St Pete, historic property restoration St Petersburg",
 };

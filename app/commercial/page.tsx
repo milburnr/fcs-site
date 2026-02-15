@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/' },
   title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
   description:
-    "Tampa Bay's premier commercial general contractor. Medical facilities, multi-family developments, industrial construction, and large-loss disaster recovery. 40+ years experience and in-house engineering.",
+    "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
   keywords:
     "commercial construction Tampa, general contractor Tampa Bay, medical facility construction, multi-family construction, industrial construction Florida",
 };

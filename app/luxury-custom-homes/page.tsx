@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Home, Shield, Award, Sparkles, Waves, Zap, Clock, DollarSign, HelpCircle, ChevronRight } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes/' },
   title: "Luxury Custom Home Builders Tampa | Waterfront",
-  description: "Tampa Bay's premier custom home builder for $1M+ luxury residences. Waterfront estates, hurricane-resistant construction, smart home integration, and design-build excellence. 40+ years of building architectural masterpieces.",
+  description: "Luxury custom homes Tampa: $1M+ waterfront estates, hurricane-resistant design, smart home tech. Davis Islands, South Tampa builder. 40+ years architectural excellence.",
   keywords: "custom home builders Tampa, luxury home construction Florida, waterfront home builders Tampa Bay, custom home design build, Florida custom homes, luxury estate builder, architectural custom homes",
 };
 
@@ -88,6 +88,7 @@ export default function LuxuryCustomHomesPage() {
         serviceDescription="Tampa Bay's premier custom home builder for $1M+ luxury residences. Waterfront estates, hurricane-resistant construction, smart home integration, and design-build excellence."
         minPrice="1000000"
       />
+      <FAQSchema faqs={faqs} />
       <ArticleSchema
         headline="The Complete Guide to Luxury Custom Home Construction in Tampa Bay"
         description="Everything you need to know about building a luxury custom home in Florida—from design philosophy and waterfront construction to hurricane resilience and smart home integration."

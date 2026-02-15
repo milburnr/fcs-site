@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Factory, Home, CloudRain, Wrench, FileCheck, MapPin } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema"
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
@@ -121,6 +121,7 @@ export default function ExteriorWaterproofingPage() {
         serviceDescription="Comprehensive exterior waterproofing services for commercial and residential buildings throughout Tampa Bay. Premium building waterproofing Florida solutions including foundation, plaza deck, and parking structure waterproofing from experienced commercial waterproofing contractors."
         minPrice="50000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },

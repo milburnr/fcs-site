@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, MapPin, Building2, Shield, Award, Clock, CheckCircle, Home, Hammer, ShoppingBag } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
+import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { GoogleMap } from "@/components/GoogleMap";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -116,6 +116,7 @@ export default function BrandonPage() {
         serviceDescription="Premier general contractor serving Brandon, FL with commercial construction, retail buildouts, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={breadcrumbItems.slice(1)} />
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileCheck, Users, Wrench, ClipboardCheck, Home, DollarSign, HardHat, FileText, Droplets, Wind, Flame, Search, MapPin, Heart, Anchor } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
@@ -99,6 +99,7 @@ export default function InsuranceRestorationRuskinPage() {
         serviceName="Insurance Restoration Ruskin FL"
         serviceDescription="FCS is headquartered in Ruskin, FL providing insurance restoration services throughout South Hillsborough County. 43 years insurance industry experience serving Ruskin, Sun City Center, Apollo Beach, Gibsonton, and Wimauma."
       />
+      <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
         { name: "Disaster Recovery", href: "/disaster-recovery/" },

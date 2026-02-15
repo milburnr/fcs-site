@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-clearwater/' },
   title: "Insurance Restoration Clearwater | 43 Years | FCS",
   description:
-    "Clearwater's most experienced insurance restoration contractor. 43 years claims expertise—adjuster AND contractor. Hurricane damage Clearwater Beach, flood restoration, commercial property restoration Pinellas. NFIP specialists. (813) 420-7561.",
+    "Insurance restoration Clearwater Beach: storm damage, flooding, fire repair. Adjuster & contractor expertise. NFIP specialist. 43 years Pinellas County experience.",
   keywords:
     "insurance restoration Clearwater, hurricane damage Clearwater Beach, flood damage restoration Clearwater, commercial property restoration Pinellas, storm damage Clearwater, NFIP claims Clearwater, insurance claim contractor Clearwater, large loss restoration Clearwater Beach, beachfront property restoration, Sand Key hurricane damage",
 };

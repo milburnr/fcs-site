@@ -275,6 +275,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Industrial Site Disaster Response in Tampa Bay"
+        description="Comprehensive guide to emergency disaster response services for industrial facilities in Tampa Bay. Learn about rapid storm response, industrial property restoration, and large loss insurance claims for warehouses and manufacturing facilities."
         datePublished="2024-01-15"
         dateModified="2025-01-15"
       />

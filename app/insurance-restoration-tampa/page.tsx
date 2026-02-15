@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-tampa/' },
   title: "Insurance Restoration Tampa | 43 Years Claims Experience",
   description:
-    "Tampa's most trusted insurance restoration contractor with 43 years experience on BOTH sides of the claims process. Former adjuster, certified Xactimate estimates. Hurricane, flood, fire damage. Commercial & large loss specialists. Call (813) 420-7561.",
+    "Insurance restoration Tampa: hurricane, flood, fire damage repair. Former adjuster, 43 years claims experience. Commercial large-loss specialist. Xactimate certified. Call now.",
   keywords:
     "insurance restoration Tampa, property damage restoration Tampa, hurricane damage contractor Tampa, commercial insurance restoration, large loss restoration Tampa, insurance claim contractor Tampa, certified Xactimate estimates, flood damage restoration Tampa, fire damage Tampa, storm damage contractor",
 };
