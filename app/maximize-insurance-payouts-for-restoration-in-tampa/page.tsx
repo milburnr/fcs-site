@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/maximize-insurance-payouts-for-restoration-in-tampa/' },
   title: "Maximize Insurance Payouts Tampa | Commercial",
   description: "Strategies to maximize insurance payouts for commercial restoration in Tampa. Documentation tips, coverage optimization, and claim support for full recovery.",
 };

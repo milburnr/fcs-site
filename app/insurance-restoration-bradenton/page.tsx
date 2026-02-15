@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-bradenton/' },
   title: "Insurance Restoration Bradenton | 43 Years | FCS",
   description: "Bradenton insurance restoration contractor with 43 years claims experience—7 years as Allstate adjuster. Property damage restoration Manatee County. Barrier island and mainland coverage expertise. Hurricane damage Anna Maria, flood restoration Bradenton FL.",
   keywords: "insurance restoration Bradenton, property damage restoration Manatee County, hurricane damage Anna Maria, flood restoration Bradenton FL, insurance claim contractor Bradenton, large loss restoration Manatee, barrier island insurance claims, 55+ community restoration Bradenton",
@@ -122,7 +123,7 @@ const bradentonFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in Bradenton?",
-    answer: "Hurricane restoration timelines in Bradenton vary by damage scope and complexity: Emergency stabilization including tarping and board-up typically takes 1-3 days; water extraction and structural drying runs 5-14 days depending on saturation extent; insurance documentation and scope agreement usually requires 2-6 weeks; structural repairs range from 30-90 days for moderate damage to 6-12 months for complete rebuilds; and final restoration including finishes typically adds 30-60 days. Barrier island properties often have longer timelines due to stricter permit requirements and limited contractor access during emergency periods. Commercial properties over $1 million may require 12-18 months from damage to completion. FCS provides detailed project schedules during the planning phase, coordinated with insurance payment timing.",
+    answer: "Hurricane restoration timelines in Bradenton vary by damage scope and complexity: Stabilization including tarping and board-up typically takes 1-3 days; water extraction and structural drying runs 5-14 days depending on saturation extent; insurance documentation and scope agreement usually requires 2-6 weeks; structural repairs range from 30-90 days for moderate damage to 6-12 months for complete rebuilds; and final restoration including finishes typically adds 30-60 days. Barrier island properties often have longer timelines due to stricter permit requirements and limited contractor access during emergency periods. Commercial properties over $1 million may require 12-18 months from damage to completion. FCS provides detailed project schedules during the planning phase, coordinated with insurance payment timing.",
   },
   {
     question: "Can FCS help if my Bradenton insurance claim was underpaid or disputed?",
@@ -134,7 +135,7 @@ const bradentonFaqs = [
   },
   {
     question: "What should Bradenton property owners do immediately after disaster damage?",
-    answer: "First, ensure personal safety and document everything with photos and video before any cleanup or emergency repairs—this initial documentation is crucial for claim support. Report the claim to your insurance carrier promptly; most policies require notification 'as soon as practicable.' Take reasonable steps to prevent further damage (tarping roof openings, extracting standing water) but don't begin permanent repairs until damage is properly documented by the adjuster. Keep all receipts for emergency expenses—these are typically covered as part of the loss. For large losses, contact FCS early; our initial assessment helps ensure proper documentation from the start and identifies hidden damage that might otherwise be missed. Our 43 years of claims experience helps set the right foundation for successful claim resolution.",
+    answer: "First, ensure personal safety and document everything with photos and video before any cleanup or storm repairs—this initial documentation is crucial for claim support. Report the claim to your insurance carrier promptly; most policies require notification 'as soon as practicable.' Take reasonable steps to prevent further damage (tarping roof openings, extracting standing water) but don't begin permanent repairs until damage is properly documented by the adjuster. Keep all receipts for prompt expenses—these are typically covered as part of the loss. For large losses, contact FCS early; our initial assessment helps ensure proper documentation from the start and identifies hidden damage that might otherwise be missed. Our 43 years of claims experience helps set the right foundation for successful claim resolution.",
   },
 ];
 

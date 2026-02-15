@@ -43,6 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-clearwater/' },
   title: "Insurance Restoration Clearwater | 43 Years | FCS",
   description:
     "Clearwater's most experienced insurance restoration contractor. 43 years claims expertise—adjuster AND contractor. Hurricane damage Clearwater Beach, flood restoration, commercial property restoration Pinellas. NFIP specialists. (813) 420-7561.",
@@ -127,9 +128,9 @@ const clearwaterNeighborhoods = [
 const processSteps = [
   {
     step: 1,
-    title: "Emergency Response",
+    title: "storm response",
     description:
-      "Rapid mobilization for Clearwater large loss situations. Initial site assessment, stabilization recommendations, and emergency documentation to protect your claim from day one.",
+      "Rapid mobilization for Clearwater large loss situations. Initial site assessment, stabilization recommendations, and storm documentation to protect your claim from day one.",
   },
   {
     step: 2,
@@ -187,7 +188,7 @@ const clearwaterFaqs = [
   {
     question: "How quickly can FCS respond to hurricane damage in Clearwater?",
     answer:
-      "For large loss situations, FCS mobilizes within 24-48 hours for Clearwater properties. We've responded to every major hurricane affecting Tampa Bay and have experience deploying to catastrophe zones including Hurricane Harvey in Texas and Hurricane Irma throughout Florida. Our emergency response includes immediate site assessment, stabilization recommendations, and preliminary scope development. For Clearwater beachfront properties facing wind-driven rain intrusion, rapid response helps prevent secondary damage that could complicate claims.",
+      "For large loss situations, FCS mobilizes within 24-48 hours for Clearwater properties. We've responded to every major hurricane affecting Tampa Bay and have experience deploying to catastrophe zones including Hurricane Harvey in Texas and Hurricane Irma throughout Florida. Our storm response includes immediate site assessment, stabilization recommendations, and preliminary scope development. For Clearwater beachfront properties facing wind-driven rain intrusion, rapid response helps prevent secondary damage that could complicate claims.",
   },
   {
     question: "Why do Clearwater Beach insurance claims face extra complexity?",
@@ -212,7 +213,7 @@ const clearwaterFaqs = [
   {
     question: "What should Clearwater property owners do immediately after hurricane damage?",
     answer:
-      "First, ensure safety and document everything with photos and video before any cleanup—establish the damage extent while evidence is fresh. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (emergency tarping, board-up) but don't begin permanent repairs until damage is documented by your carrier. Keep all receipts for emergency expenses. For significant losses on Clearwater Beach or Sand Key properties, contact FCS early—our initial assessment can identify damage that might otherwise be missed and ensure proper documentation from the start.",
+      "First, ensure safety and document everything with photos and video before any cleanup—establish the damage extent while evidence is fresh. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (tarping, board-up) but don't begin permanent repairs until damage is documented by your carrier. Keep all receipts for prompt expenses. For significant losses on Clearwater Beach or Sand Key properties, contact FCS early—our initial assessment can identify damage that might otherwise be missed and ensure proper documentation from the start.",
   },
 ];
 
@@ -302,7 +303,7 @@ export default function InsuranceRestorationClearwaterPage() {
                 className="btn-secondary flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Emergency: {BUSINESS_INFO.phone}
+                urgent: {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
@@ -837,7 +838,7 @@ export default function InsuranceRestorationClearwaterPage() {
                 <ul className="text-blue-700 text-sm space-y-1">
                   <li>• Document damage before emergency cleanup</li>
                   <li>• Report damage to county for disaster assessment</li>
-                  <li>• Maintain all receipts for emergency expenses</li>
+                  <li>• Maintain all receipts for prompt expenses</li>
                   <li>• Contact FCS for professional claim documentation</li>
                 </ul>
               </div>
@@ -942,7 +943,7 @@ export default function InsuranceRestorationClearwaterPage() {
               Our Insurance Restoration Process
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              FCS manages every aspect of insurance restoration from emergency response through 
+              FCS manages every aspect of insurance restoration from storm response through 
               final claim settlement, with expertise specifically relevant to Clearwater's 
               complex coastal insurance scenarios.
             </p>
@@ -1064,7 +1065,7 @@ export default function InsuranceRestorationClearwaterPage() {
               <div className="bg-brand-green-dark text-white rounded-xl p-6">
                 <h3 className="font-bold text-xl mb-3">Need Immediate Assistance?</h3>
                 <p className="text-gray-200 mb-4">
-                  For emergency response or urgent insurance claim questions about your 
+                  For storm response or urgent insurance claim questions about your 
                   Clearwater property:
                 </p>
                 <a

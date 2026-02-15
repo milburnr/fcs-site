@@ -11,6 +11,7 @@ import { InternalLinks, NearbyLocations, RelatedServices } from "@/components/In
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-st-petersburg/' },
   title: "Historic Restoration in St. Petersburg",
   description: "St. Petersburg historic restoration experts. Old Northeast Historic District, Bay Pines Veterans Hospital ($2M federal project), downtown St. Pete landmarks. SHPO compliance, Section 106. Call (813) 420-7561.",
   keywords: [

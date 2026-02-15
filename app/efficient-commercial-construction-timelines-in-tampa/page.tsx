@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/efficient-commercial-construction-timelines-in-tampa/' },
   title: "Commercial Construction Timelines Tampa | Scheduling",
   description: "Master commercial construction timelines in Tampa. Learn typical project durations, schedule optimization strategies, and how to keep your project on track.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-project-on-schedule/' },
   title: "Commercial Construction On Schedule | Tampa Tips",
   description: "Expert strategies for keeping your commercial construction project on schedule. Learn causes of delays, prevention tactics, and recovery methods from Tampa construction professionals.",
 };

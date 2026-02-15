@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
   title: "Commercial Construction Bradenton | $500K+ | FCS",
   description: "Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction bradenton, commercial contractor bradenton, commercial builder bradenton fl, office building construction bradenton, medical facility construction bradenton",
@@ -18,10 +19,6 @@ const serviceFeatures = [
   {
     title: "Office Buildings & Professional Spaces",
     description: "From professional office buildings in Downtown Bradenton to corporate facilities along the SR-64 corridor, serving Manatee County's growing business community."
-  },
-  {
-    title: "Medical & Healthcare Facilities",
-    description: "Healthcare construction near Manatee Memorial Hospital and Blake Medical Center, including clinics, urgent care centers, and specialty practices."
   },
   {
     title: "Retail Centers & Commercial Plazas",
@@ -80,8 +77,7 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial-construction/" },
-  { name: "Bradenton", href: "/commercial-construction-bradenton/" },
-];
+  { name: "Bradenton", href: "/commercial-construction-bradenton/" }];
 
 export default function CommercialConstructionBradentonPage() {
   return (
@@ -481,7 +477,6 @@ export default function CommercialConstructionBradentonPage() {
                 <li><Link href="/multi-family-construction-bradenton/" className="text-brand-green hover:underline">Multi-Family Construction Bradenton</Link></li>
                 <li><Link href="/disaster-recovery-bradenton/" className="text-brand-green hover:underline">Disaster Recovery Bradenton</Link></li>
                 <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-                <li><Link href="/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
                 <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
               </ul>
             </div>

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-balcony-construction-guidelines-for-optimal-results/' },
   title: "Balcony Construction Guidelines Tampa | High-Rise",
   description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. SB 4-D compliant structural design, waterproofing specifications, and safety requirements.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/stylish-balcony-railing-designs-for-your-outdoor-space/", label: "Balcony Railing Designs" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

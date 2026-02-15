@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
   title: "Exterior Waterproofing Lakeland | Envelope | FCS",
   description: "Lakeland exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, warehouse waterproofing. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing Lakeland, building envelope waterproofing Lakeland, foundation waterproofing Lakeland, commercial waterproofing Lakeland, warehouse waterproofing Lakeland",

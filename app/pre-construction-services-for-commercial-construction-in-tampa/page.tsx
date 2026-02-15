@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/pre-construction-services-for-commercial-construction-in-tampa/' },
   title: "Pre-Construction Services Tampa | Consulting",
   description: "Looking for expert pre construction services, construction management, and construction consulting? Look no further than Florida Construction Specialists.",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/florida-construction-specialists-committed-to-the-community-in-tampa/' },
   title: "FCS - Committed to the Tampa Community",
   description: "Florida Construction Specialists is deeply committed to the Tampa Bay community. Local partnerships, workforce development, sustainable practices, and community support.",
 };
@@ -31,7 +32,7 @@ const faqs = [
   },
   {
     question: "How do you respond when disasters affect Tampa Bay?",
-    answer: "When hurricanes or other disasters strike, we mobilize rapidly to help our community recover. We provide emergency stabilization, help property owners navigate insurance claims, and perform restoration work that returns buildings to service. Our disaster response capabilities have helped countless Tampa Bay families and businesses recover from major storms."
+    answer: "When hurricanes or other disasters strike, we mobilize rapidly to help our community recover. We provide prompt stabilization, help property owners navigate insurance claims, and perform restoration work that returns buildings to service. Our disaster response capabilities have helped countless Tampa Bay families and businesses recover from major storms."
   },
   {
     question: "Do you use local subcontractors and suppliers?",
@@ -221,10 +222,10 @@ export default function Page() {
                 <div>
                   <h3 className="font-bold text-blue-800 mb-2">Hurricane Response Commitment</h3>
                   <p className="text-blue-700 mb-4">
-                    When hurricanes threaten Tampa Bay, our community faces them together. Florida Construction Specialists maintains disaster response capabilities to help our neighbors recover. We've provided emergency assistance after every major hurricane to affect our region, helping families and businesses get back on their feet.
+                    When hurricanes threaten Tampa Bay, our community faces them together. Florida Construction Specialists maintains disaster response capabilities to help our neighbors recover. We've provided professional assistance after every major hurricane to affect our region, helping families and businesses get back on their feet.
                   </p>
                   <p className="text-blue-700">
-                    Our hurricane response includes emergency tarping and board-up services, water extraction and drying, temporary repairs to prevent further damage, comprehensive damage assessment and documentation, insurance claim support, and complete restoration construction. We prioritize helping our community when it matters most.
+                    Our hurricane response includes tarping and board-up services, water extraction and drying, temporary repairs to prevent further damage, comprehensive damage assessment and documentation, insurance claim support, and complete restoration construction. We prioritize helping our community when it matters most.
                   </p>
                 </div>
               </div>

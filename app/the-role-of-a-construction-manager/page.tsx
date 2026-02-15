@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-role-of-a-construction-manager/' },
   title: "Construction Manager Role Tampa | Commercial",
   description: "Discover how construction managers guide commercial building projects from concept to completion. Learn about CM services from Florida Construction Specialists.",
 };

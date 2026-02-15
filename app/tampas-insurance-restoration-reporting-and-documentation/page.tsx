@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-insurance-restoration-reporting-and-documentation/' },
   title: "Tampa Insurance Restoration Documentation | Claims",
   description: "Professional insurance restoration reporting and documentation services in Tampa. Comprehensive damage documentation, Xactimate estimates, and claim support for commercial properties.",
 };
@@ -24,7 +25,7 @@ const faqs = [
   },
   {
     question: "How quickly should I document property damage after an incident?",
-    answer: "Document damage immediately—within hours if possible. Florida law requires prompt notification to your insurer, and early documentation captures the damage before any deterioration, cleanup, or emergency repairs alter the scene. Take photos and videos before any mitigation work begins, then document throughout the mitigation process. Even if you've already cleaned up, document current conditions and gather any photos or videos taken during and after the incident."
+    answer: "Document damage immediately—within hours if possible. Florida law requires prompt notification to your insurer, and early documentation captures the damage before any deterioration, cleanup, or storm repairs alter the scene. Take photos and videos before any mitigation work begins, then document throughout the mitigation process. Even if you've already cleaned up, document current conditions and gather any photos or videos taken during and after the incident."
   },
   {
     question: "What is Xactimate and why do insurance companies prefer it?",
@@ -260,7 +261,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Documentation</td>
+                    <td className="px-6 py-4 font-medium">Documentation</td>
                     <td className="px-6 py-4">$500 - $1,500</td>
                     <td className="px-6 py-4 text-gray-600">Same-day photos, video, initial report</td>
                   </tr>
@@ -305,7 +306,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
                   <p className="text-gray-600">We respond immediately to document damage as-found, before any cleanup or mitigation alters the scene. This creates the strongest foundation for your claim by capturing the true extent of damage.</p>
                 </div>
               </div>

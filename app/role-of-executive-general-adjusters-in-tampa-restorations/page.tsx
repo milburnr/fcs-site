@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/role-of-executive-general-adjusters-in-tampa-restorations/' },
   title: "Executive General Adjusters Tampa | Large Loss",
   description: "Understanding the role of Executive General Adjusters (EGAs) in Tampa commercial property restorations. How EGAs manage large loss claims and coordinate complex insurance recoveries.",
 };

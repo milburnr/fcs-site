@@ -28,6 +28,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-flood-zone-construction/' },
   title: "Multi-Family Flood Zone Construction Tampa | FCS",
   description:
     "Expert multi-family construction in FEMA flood zones across Tampa Bay. Navigate flood elevation requirements, NFIP compliance, and cost-effective building strategies for apartments and condos.",

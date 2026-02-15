@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/ensuring-construction-site-safety-a-top-priority/' },
   title: "Construction Site Safety Tampa | Top Priority",
   description: "Ensuring construction site safety is Florida Construction Specialists' top priority. Learn about OSHA compliance, Florida Building Code requirements, and comprehensive safety programs in Tampa Bay.",
 };
@@ -250,7 +251,7 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Emergency response plans established</span>
+                    <span>storm response plans established</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
@@ -436,7 +437,7 @@ export default function Page() {
             </h2>
 
             <p className="text-gray-600 mb-6">
-              Construction sites require robust emergency preparedness given the inherent hazards. Our emergency response capabilities include:
+              Construction sites require robust emergency preparedness given the inherent hazards. Our storm response capabilities include:
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg mb-8">

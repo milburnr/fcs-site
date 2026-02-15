@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/hurricane-proof-reconstruction-services-in-tampa/' },
   title: "Hurricane-Proof Reconstruction Tampa | Commercial",
   description: "Expert hurricane-proof reconstruction services in Tampa. Commercial building fortification, impact-resistant systems, and Florida Building Code compliance. FEMA-approved contractors serving Tampa Bay businesses.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/how-technology-is-revolutionizing-the-construction-process/' },
   title: "Technology Revolutionizing Construction | Tampa",
   description: "Discover how technology is revolutionizing construction in Tampa Bay. BIM, drones, project management software, and more. Florida Construction Specialists embraces innovation.",
 };
@@ -347,7 +348,7 @@ export default function Page() {
               Wearable Technology and Worker Safety
             </h3>
             <p className="text-gray-600 mb-6">
-              Smart helmets, safety vests with sensors, and wearable devices monitor worker location, vital signs, and environmental conditions to prevent accidents and enable rapid emergency response. These technologies prove particularly valuable in Tampa Bay's hot, humid conditions where heat stress represents a significant safety risk for construction workers throughout the summer months.
+              Smart helmets, safety vests with sensors, and wearable devices monitor worker location, vital signs, and environmental conditions to prevent accidents and enable rapid storm response. These technologies prove particularly valuable in Tampa Bay's hot, humid conditions where heat stress represents a significant safety risk for construction workers throughout the summer months.
             </p>
             <p className="text-gray-600 mb-6">
               GPS-enabled safety devices track worker locations on large job sites, enabling rapid response to emergencies while providing detailed records of work activities for productivity analysis and safety compliance verification. Integration with project management systems enables automated safety reporting and proactive identification of safety trends that could lead to incidents.

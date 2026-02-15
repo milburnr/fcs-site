@@ -8,6 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-accessibility-features-in-tampa/' },
   title: "Custom Home Accessibility Tampa | Universal Design",
   description: "Build an accessible custom home in Tampa with universal design features. Elevator-ready, wide doorways, accessible bathrooms, and aging-in-place planning from $400K-$2M+.",
 };
@@ -418,7 +419,7 @@ export default function Page() {
               Modern accessibility extends beyond physical features to include smart home technology that enhances independence and safety. Voice-activated lighting, door locks, and climate controls allow hands-free operation for users with mobility limitations. Motion sensor lighting eliminates fumbling for switches in dark hallways. Automated blinds and curtains operate without reaching or lifting. Smart doorbell systems with video and two-way audio provide security without answering doors physically.
             </p>
             <p className="text-gray-600 mb-6">
-              Emergency response systems integrated throughout the home provide peace of mind for aging residents and their families. Medical alert pendants interface with home automation to summon help when needed. Security systems with medical emergency features ensure rapid response. Smart medication dispensers and health monitoring devices help maintain independence while providing safety oversight.
+              storm response systems integrated throughout the home provide peace of mind for aging residents and their families. Medical alert pendants interface with home automation to summon help when needed. Security systems with medical emergency features ensure rapid response. Smart medication dispensers and health monitoring devices help maintain independence while providing safety oversight.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">

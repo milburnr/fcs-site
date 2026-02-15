@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
   title: "Insurance Restoration Ruskin FL | FCS Headquarters",
   description: "FCS is headquartered right here in Ruskin, FL - 822 Bayview Dr. 43 years insurance industry experience serving South Hillsborough: Ruskin, Sun City Center, Apollo Beach, Gibsonton, Wimauma. Fastest response times because we're already here.",
   keywords: "insurance restoration Ruskin FL, property damage Sun City Center, storm damage Apollo Beach, South Hillsborough restoration, local contractor Ruskin, hurricane damage Ruskin, flood restoration Apollo Beach",
@@ -137,7 +138,7 @@ export default function InsuranceRestorationRuskinPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                Get Local Emergency Response
+                Get Local storm response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -725,7 +726,7 @@ export default function InsuranceRestorationRuskinPage() {
             Complete Insurance Restoration Services for South Hillsborough
           </h2>
           <p className="text-xl text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            From emergency response through complete restoration, FCS provides comprehensive 
+            From storm response through complete restoration, FCS provides comprehensive 
             insurance claim support for properties throughout Ruskin, Sun City Center, Apollo Beach, 
             and surrounding communities.
           </p>
@@ -737,7 +738,7 @@ export default function InsuranceRestorationRuskinPage() {
                 <li>• Roof damage assessment and repair</li>
                 <li>• Window and door replacement</li>
                 <li>• Structural damage restoration</li>
-                <li>• Emergency tarping and board-up</li>
+                <li>• tarping and board-up</li>
                 <li>• Water intrusion remediation</li>
               </ul>
             </div>

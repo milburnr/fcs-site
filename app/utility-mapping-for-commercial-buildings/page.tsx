@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/utility-mapping-for-commercial-buildings/' },
   title: "Utility Mapping Tampa | Commercial Underground",
   description: "Professional utility mapping services for commercial buildings in Tampa. Locate underground utilities before construction to prevent damage, injuries, and costly delays using SUE and GPR technology.",
 };
@@ -229,7 +230,7 @@ export default function Page() {
                     <span>Private data networks</span>
                   </li>
                 </ul>
-                <p className="text-orange-600 mt-3 text-sm font-semibold">⚠️ Fiber cuts disrupt critical business and emergency services</p>
+                <p className="text-orange-600 mt-3 text-sm font-semibold">⚠️ Fiber cuts disrupt critical business and prompt services</p>
               </div>
             </div>
 

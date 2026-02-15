@@ -8,8 +8,9 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-contractor-for-roof-repair-and-replacement/' },
   title: "Commercial Roof Repair & Replacement Tampa | FCS",
-  description: "Tampa's top commercial contractor for roof repair and replacement. Emergency repairs, complete re-roofing, hurricane damage restoration. Licensed, insured, manufacturer-certified.",
+  description: "Tampa's top commercial contractor for roof repair and replacement. storm repairs, complete re-roofing, hurricane damage restoration. Licensed, insured, manufacturer-certified.",
 };
 
 const breadcrumbItems = [
@@ -24,7 +25,7 @@ const faqs = [
   },
   {
     question: "How quickly can you respond to emergency roof repairs?",
-    answer: "For emergency situations—active leaks during rain, storm damage, or safety hazards—we prioritize rapid response, typically within hours for Tampa Bay locations. Our crews carry materials for common repairs and emergency tarping. For non-emergency repairs, we typically schedule within 1-2 weeks depending on scope and weather conditions."
+    answer: "for prompt situations—active leaks during rain, storm damage, or safety hazards—we prioritize rapid response, typically within hours for Tampa Bay locations. Our crews carry materials for common repairs and tarping. For non-prompt repairs, we typically schedule within 1-2 weeks depending on scope and weather conditions."
   },
   {
     question: "Can you match my existing roofing material for repairs?",
@@ -95,7 +96,7 @@ export default function Page() {
             Top Commercial Contractor for Roof Repair and Replacement in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            From emergency leak repairs to complete commercial re-roofing, Florida Construction Specialists delivers expert solutions that protect Tampa Bay businesses. Licensed, insured, and manufacturer-certified.
+            From prompt leak repairs to complete commercial re-roofing, Florida Construction Specialists delivers expert solutions that protect Tampa Bay businesses. Licensed, insured, and manufacturer-certified.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -125,8 +126,8 @@ export default function Page() {
               <div className="flex items-start gap-4">
                 <AlertTriangle className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-red-800 mb-2">Roof Emergency? We Respond Fast.</h3>
-                  <p className="text-red-700">Active leaks cause progressive damage to insulation, ceilings, inventory, and equipment. Don't wait—call us immediately for emergency tarping and repairs. We prioritize emergency response for Tampa Bay commercial properties experiencing active water intrusion.</p>
+                  <h3 className="font-bold text-red-800 mb-2">Roof Damage? We Respond Fast.</h3>
+                  <p className="text-red-700">Active leaks cause progressive damage to insulation, ceilings, inventory, and equipment. Don't wait—call us immediately for tarping and repairs. We prioritize storm response for Tampa Bay commercial properties experiencing active water intrusion.</p>
                 </div>
               </div>
             </div>
@@ -176,7 +177,7 @@ export default function Page() {
                 <Wrench className="w-10 h-10 text-brand-green mb-4" />
                 <h3 className="text-xl font-bold text-brand-green-dark mb-3">Storm Damage Repairs</h3>
                 <p className="text-gray-600">
-                  Hurricane and tropical storm damage requires prompt response to prevent secondary water damage. We provide emergency tarping, thorough damage assessment, and permanent repairs. Our documentation supports insurance claims for covered damage.
+                  Hurricane and tropical storm damage requires prompt response to prevent secondary water damage. We provide tarping, thorough damage assessment, and permanent repairs. Our documentation supports insurance claims for covered damage.
                 </p>
               </div>
 
@@ -285,7 +286,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Leak Repair</td>
+                    <td className="px-6 py-4 font-medium">prompt leak repair</td>
                     <td className="px-6 py-4">$300 - $1,500</td>
                     <td className="px-6 py-4 text-gray-600">Single leak source</td>
                   </tr>
@@ -352,7 +353,7 @@ export default function Page() {
                 <Clock className="w-8 h-8 text-brand-green flex-shrink-0" />
                 <div>
                   <h3 className="font-bold text-brand-green-dark mb-2">Responsive Service</h3>
-                  <p className="text-gray-600">Emergency response when you need it, reliable scheduling for planned work. We communicate clearly throughout every project and meet our commitments.</p>
+                  <p className="text-gray-600">storm response when you need it, reliable scheduling for planned work. We communicate clearly throughout every project and meet our commitments.</p>
                 </div>
               </div>
 
@@ -422,7 +423,7 @@ export default function Page() {
             Tampa Bay's Commercial Roofing Experts
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From emergency repairs to complete replacements, trust Florida Construction Specialists for commercial roofing solutions that protect your business.
+            From storm repairs to complete replacements, trust Florida Construction Specialists for commercial roofing solutions that protect your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">

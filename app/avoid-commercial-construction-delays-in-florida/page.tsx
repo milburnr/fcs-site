@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/avoid-commercial-construction-delays-in-florida/' },
   title: "Avoid Commercial Construction Delays Florida",
   description: "Learn the top causes of commercial construction delays in Florida and proven strategies to keep your project on schedule. Expert tips from Tampa Bay's leading general contractor.",
 };

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/' },
   title: "Post-Disaster Safety Inspections Tampa | Hurricane",
   description: "Professional post-disaster health and safety inspections in Tampa Bay. Expert assessment of hurricane, flood, and storm damage to ensure building safety and support insurance claims.",
 };
@@ -306,7 +307,7 @@ export default function Page() {
               <div className="bg-red-50 p-6 rounded-lg border-2 border-red-500">
                 <div className="text-4xl mb-3">🔴</div>
                 <h3 className="text-xl font-bold text-red-700 mb-3">Red - Unsafe</h3>
-                <p className="text-gray-600">Building is unsafe to enter or occupy. Significant structural damage, collapse risk, or other serious hazards. Entry prohibited except for emergency access with proper precautions.</p>
+                <p className="text-gray-600">Building is unsafe to enter or occupy. Significant structural damage, collapse risk, or other serious hazards. Entry prohibited except for prompt access with proper precautions.</p>
               </div>
             </div>
 

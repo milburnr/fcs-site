@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-modular-construction-in-tampa/' },
   title: "Commercial Modular Construction Tampa | Prefab",
   description: "Tampa's leading commercial modular construction specialists. Faster timelines, controlled costs, quality prefab buildings for offices, healthcare, education, and more.",
 };
@@ -43,7 +44,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/how-technology-is-revolutionizing-the-construction-process/", label: "Construction Technology" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Construction" },
   { href: "/contact/", label: "Discuss Modular Project" },
 ];
 

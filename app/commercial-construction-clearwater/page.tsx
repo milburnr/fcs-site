@@ -12,6 +12,7 @@ import { InternalLinks, RelatedServices, NearbyLocations } from "@/components/In
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
   title: "Commercial Construction in Clearwater",
   description: "Clearwater's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
   keywords: [
@@ -77,7 +78,6 @@ const clearwaterFaqs = [
 const pillarLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/medical-construction/", label: "Medical & Healthcare Facilities" },
   { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" },
 ];
 

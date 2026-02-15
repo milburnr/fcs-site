@@ -14,6 +14,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { getOptimizedBgUrl } from "@/components/OptimizedImage";
 import { WordGridParallax } from "@/components/WordGridParallax";
 
+
 // Hero slideshow images - easy to swap, just update this array
 // Using direct paths for Next.js Image component optimization
 const heroImages = [
@@ -121,7 +122,6 @@ export default function HomePage() {
               subtitle="Risk & ROI Focus"
               projectRange="$500K - $25M+"
               features={[
-                "Medical & Healthcare Facilities",
                 "Multi-Family Developments",
                 "Industrial & Flex Space",
                 "Insurance Restoration (Large Loss)",

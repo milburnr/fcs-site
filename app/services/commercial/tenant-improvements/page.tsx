@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/' },
   title: "Tenant Improvements Tampa | Commercial Buildouts & TI | FCS",
   description: "Tenant improvement construction in Tampa Bay. Office buildouts, retail TI, medical suites, restaurant construction. Fast timelines, landlord coordination. Call (813) 420-7561.",
   keywords: ["tenant improvements tampa", "commercial buildout florida", "office tenant improvement", "retail TI construction", "restaurant buildout tampa"],
@@ -286,7 +287,6 @@ export default function TenantImprovementsPage() {
               <ul className="space-y-2">
                 <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
                 <li><Link href="/services/commercial/retail-construction/" className="text-brand-green hover:underline">Retail Construction</Link></li>
-                <li><Link href="/services/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
               </ul>
             </div>
             <div>
@@ -336,11 +336,7 @@ export default function TenantImprovementsPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

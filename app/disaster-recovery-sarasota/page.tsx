@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-sarasota/' },
   title: "Disaster Recovery Sarasota | Hurricane | FCS",
-  description: "Sarasota disaster recovery contractor specializing in hurricane, storm, and flood damage restoration for barrier islands and waterfront properties. Prime contractor for large loss insurance claims $250K-$50M. 24/7 emergency response.",
   keywords: "disaster recovery Sarasota, hurricane damage restoration Sarasota, storm damage repair Sarasota, flood damage Sarasota, insurance restoration Sarasota, barrier island restoration, Siesta Key disaster recovery, Longboat Key storm damage",
 };
 
@@ -48,7 +48,6 @@ const disasterTypes = [
 const sarasotaFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Sarasota and the barrier islands?",
-    answer: "Florida Construction Specialists provides 24/7 emergency response throughout Sarasota, including Siesta Key, Longboat Key, Lido Key, and St. Armands. For large loss commercial and high-value residential properties, we typically have assessment teams on-site within 2-4 hours of initial contact. During hurricane season (June-November), we pre-position crews and maintain emergency access protocols for barrier island properties.",
   },
   {
     question: "What areas of Sarasota are most vulnerable to hurricane and flood damage?",
@@ -60,7 +59,7 @@ const sarasotaFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in Sarasota?",
-    answer: "Hurricane damage restoration timelines in Sarasota vary by scope and property access: Emergency stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-120 days), and full restoration (90-180 days for luxury properties). Barrier island projects may face additional logistics challenges during post-storm periods. Projects over $1 million typically require 6-12 months depending on scope and permit requirements through the City of Sarasota Building Department.",
+    answer: "Hurricane damage restoration timelines in Sarasota vary by scope and property access: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-120 days), and full restoration (90-180 days for luxury properties). Barrier island projects may face additional logistics challenges during post-storm periods. Projects over $1 million typically require 6-12 months depending on scope and permit requirements through the City of Sarasota Building Department.",
   },
   {
     question: "What types of properties do you restore in Sarasota?",
@@ -88,7 +87,6 @@ const costData = [
 ];
 
 const processSteps = [
-  { step: 1, title: "Emergency Response", description: "24/7 rapid response with barrier island access coordination and immediate stabilization" },
   { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and luxury finish inventory" },
   { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and high-value claims support" },
   { step: 4, title: "Restoration Planning", description: "Engineering assessments, permit applications, and coordination with Sarasota Building Department" },
@@ -102,7 +100,6 @@ export default function DisasterRecoverySarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Sarasota, FL. Prime contractor for hurricane damage, flood restoration, storm surge damage, and large loss insurance claims for barrier islands and luxury waterfront properties. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Sarasota"
         minPrice="250000"
       />
@@ -130,11 +127,9 @@ export default function DisasterRecoverySarasotaPage() {
               Disaster Recovery & Insurance Restoration in Sarasota
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Sarasota's trusted large loss contractor for hurricane damage, storm surge restoration, and barrier island disaster recovery. Specializing in high-value waterfront properties on Siesta Key, Longboat Key, and St. Armands. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                24/7 Emergency Response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -154,7 +149,6 @@ export default function DisasterRecoverySarasotaPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Clock className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">24/7 Emergency Response</span>
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
@@ -247,9 +241,8 @@ export default function DisasterRecoverySarasotaPage() {
             <div className="space-y-6">
               {/* Quick Contact Card */}
               <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">24/7 Emergency Line</h3>
                 <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Sarasota and the barrier islands. Our emergency crews are ready to deploy.
+                  Immediate response for disaster damage in Sarasota and the barrier islands. Our our crews are ready to deploy.
                 </p>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -378,7 +371,7 @@ export default function DisasterRecoverySarasotaPage() {
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
                 <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Emergency Response</div>
+                <div className="text-gray-300 text-sm">Storm Response</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
@@ -494,11 +487,10 @@ export default function DisasterRecoverySarasotaPage() {
             Sarasota Disaster Recovery Experts
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From emergency response to complete restoration, FCS is Sarasota's trusted partner for large loss disaster recovery on barrier islands and luxury waterfront properties. Contact us 24/7 for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get Emergency Response
+              Get storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

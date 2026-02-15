@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/a-zero-accident-workplace-in-tampas-commercial-construction/' },
   title: "Zero Accident Workplace Tampa | Safety Commitment",
   description: "Discover how top Tampa commercial contractors achieve zero-accident workplaces. Learn about construction safety programs, OSHA compliance, and injury prevention strategies.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/discover-the-benefits-of-exterior-waterproofing/' },
   title: "Benefits of Exterior Waterproofing Tampa Bay",
   description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends building life, and reduces long-term maintenance costs. SB 4-D compliance guide.",
 };
@@ -19,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
   { href: "/choosing-the-right-waterproofing-solution-your-ultimate-guide/", label: "Waterproofing Selection Guide" },
   { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -59,7 +60,7 @@ const faqItems = [
   },
   {
     question: "Does exterior waterproofing help with SB 4-D compliance?",
-    answer: "While waterproofing isn't specifically required by SB 4-D, the milestone inspection requirements mean that water-damaged structures will need remediation. Proactive waterproofing helps ensure your building passes inspections without costly emergency repairs. It also protects reserve funds by preventing the structural deterioration that triggers mandatory repairs."
+    answer: "While waterproofing isn't specifically required by SB 4-D, the milestone inspection requirements mean that water-damaged structures will need remediation. Proactive waterproofing helps ensure your building passes inspections without costly prompt repairs. It also protects reserve funds by preventing the structural deterioration that triggers mandatory repairs."
   },
   {
     question: "How long does commercial exterior waterproofing last?",
@@ -94,7 +95,7 @@ const benefits = [
     details: [
       "Structural repairs cost 5-10x more than preventive waterproofing",
       "Reduces frequency of maintenance interventions",
-      "Avoids emergency repair premiums and disruption costs",
+      "Avoids storm repair premiums and disruption costs",
       "Protects reserve funds from unexpected assessments"
     ]
   },
@@ -145,7 +146,7 @@ const benefits = [
 ];
 
 const roiData = [
-  { scenario: "No Waterproofing (Reactive)", year5: "$50,000", year10: "$180,000", year20: "$450,000", notes: "Emergency repairs, structural damage" },
+  { scenario: "No Waterproofing (Reactive)", year5: "$50,000", year10: "$180,000", year20: "$450,000", notes: "storm repairs, structural damage" },
   { scenario: "Economy Coating (Reapplied)", year5: "$45,000", year10: "$120,000", year20: "$280,000", notes: "3 coating cycles + repairs" },
   { scenario: "Premium Membrane System", year5: "$60,000", year10: "$80,000", year20: "$140,000", notes: "1 application + maintenance" },
 ];

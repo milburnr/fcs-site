@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/value-engineering-in-commercial-construction/' },
   title: "Value Engineering Commercial Tampa Bay | FCS",
   description: "Unlock value engineering potential in your commercial construction project. Learn how systematic analysis delivers 10-25% cost savings while maintaining or improving building quality.",
 };

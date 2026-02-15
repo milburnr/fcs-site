@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-custom-family-home-builders/' },
   title: "Tampa's Custom Family Home Builders | Design for Life",
   description: "Build your family's dream home in Tampa. Kid-friendly designs, flex spaces, multi-generational options, and homes that grow with your family. Custom family homes from $400K-$3M+.",
 };

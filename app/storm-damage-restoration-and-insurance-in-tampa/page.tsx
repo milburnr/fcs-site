@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/storm-damage-restoration-and-insurance-in-tampa/' },
   title: "Storm Damage Restoration and Insurance in Tampa",
   description: "Top-rated storm damage restoration and insurance claim assistance in Tampa. Trust our experts for efficient storm damage repair and navigation of insurance c...",
 };

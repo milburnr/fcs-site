@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration/' },
   title: "Insurance Restoration Tampa | Large Loss Claims",
   description: "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. We work directly with adjusters on large loss claims from hurricanes, storms, and disasters. 43+ years experience.",
 };
@@ -30,7 +31,7 @@ const claimTypes = [
       "Exterior cladding and facade damage",
       "HVAC system damage from debris or water"
     ],
-    fcsApproach: "Immediate emergency response with temporary protection, followed by detailed damage assessment and comprehensive restoration planning. Our team has restored hundreds of commercial properties following major hurricanes including Ian, Irma, and Charley."
+    fcsApproach: "Immediate storm response with temporary protection, followed by detailed damage assessment and comprehensive restoration planning. Our team has restored hundreds of commercial properties following major hurricanes including Ian, Irma, and Charley."
   },
   {
     type: "Water & Flood Damage",
@@ -88,18 +89,17 @@ const claimTypes = [
 
 const restorationProcess = [
   {
-    phase: "Emergency Response",
+    phase: "storm response",
     timeframe: "0-24 Hours",
     description: "Immediate stabilization to prevent further damage",
     activities: [
-      "24/7 emergency response availability",
-      "Emergency board-up and tarping services",
+      "Board-up and tarping services",
       "Water extraction and initial drying",
       "Temporary power and utilities coordination",
       "Site security and access control",
       "Initial damage documentation and photography"
     ],
-    deliverables: "Emergency stabilization complete, initial loss documentation, temporary protection in place"
+    deliverables: "Stabilization complete, initial loss documentation, temporary protection in place"
   },
   {
     phase: "Damage Assessment",
@@ -182,7 +182,7 @@ const documentationRequirements = [
       "Comprehensive photography of all damage",
       "Video documentation walkthrough",
       "List of damaged areas and systems",
-      "Emergency services receipts",
+      "prompt services receipts",
       "Police or fire department reports if applicable"
     ]
   },
@@ -296,7 +296,6 @@ const commercialSpecializations = [
 const faqs = [
   {
     question: "How quickly can FCS respond to an emergency?",
-    answer: "Florida Construction Specialists provides 24/7 emergency response for commercial properties. For large loss situations, we can typically have a team on-site within hours to begin stabilization, including emergency board-up, tarping, and water extraction to prevent further damage."
   },
   {
     question: "Do you work directly with insurance adjusters?",
@@ -308,7 +307,7 @@ const faqs = [
   },
   {
     question: "How long does the insurance restoration process take?",
-    answer: "Timeline varies significantly based on damage extent and claim complexity. Emergency stabilization is immediate. Claim documentation typically takes 1-2 weeks. Restoration planning requires 2-4 weeks including permits. Construction duration depends on scope—from a few weeks for limited damage to several months for major restoration."
+    answer: "Timeline varies significantly based on damage extent and claim complexity. Stabilization is immediate. Claim documentation typically takes 1-2 weeks. Restoration planning requires 2-4 weeks including permits. Construction duration depends on scope—from a few weeks for limited damage to several months for major restoration."
   },
   {
     question: "Can you help if my claim has been denied or underpaid?",
@@ -379,7 +378,7 @@ export default function InsuranceRestorationPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                Emergency Response
+                storm response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -403,7 +402,6 @@ export default function InsuranceRestorationPage() {
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">24/7 Emergency Response</span>
             </div>
             <div className="flex items-center gap-2">
               <Users className="w-6 h-6 text-brand-green" />
@@ -455,7 +453,7 @@ export default function InsuranceRestorationPage() {
                     "Large-loss commercial claim management",
                     "Direct adjuster coordination and negotiation",
                     "Comprehensive damage documentation",
-                    "Emergency stabilization services",
+                    "Stabilization services",
                     "Complete restoration to pre-loss condition",
                     "Code compliance and upgrade documentation"
                   ].map((item) => (
@@ -518,7 +516,7 @@ export default function InsuranceRestorationPage() {
             Our Insurance Restoration Process
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto mb-12">
-            From emergency response to final completion, our proven process ensures thorough documentation, efficient claim processing, and quality restoration that returns your property to pre-loss condition.
+            From storm response to final completion, our proven process ensures thorough documentation, efficient claim processing, and quality restoration that returns your property to pre-loss condition.
           </p>
           <div className="space-y-6">
             {restorationProcess.map((phase, index) => (
@@ -672,7 +670,7 @@ export default function InsuranceRestorationPage() {
             <div className="card text-center p-6">
               <Clock className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-2">24/7 Response</h3>
-              <p className="text-gray-600 text-sm">Emergency response teams available around the clock.</p>
+              <p className="text-gray-600 text-sm">storm response teams available around the clock.</p>
             </div>
           </div>
         </div>
@@ -698,11 +696,10 @@ export default function InsuranceRestorationPage() {
             Need Emergency Restoration Services?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for immediate emergency response. Our team is available 24/7 to help stabilize your property and begin the restoration process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Emergency Response
+              Request storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

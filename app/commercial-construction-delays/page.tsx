@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-delays/' },
   title: "Managing Commercial Construction Delays",
   description: "Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa. Gain expert Guides!",
 };
@@ -22,7 +23,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -231,7 +231,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane Season Preparedness</h3>
               <p className="text-gray-600 mb-6">
-                Hurricane season (June 1 through November 30) requires special preparation and scheduling considerations for Tampa construction projects. We implement hurricane preparedness protocols that include secure storage of materials, temporary weather protection for partially completed work, and rapid site securing procedures. Our emergency response plans minimize hurricane-related delays and protect construction investments.
+                Hurricane season (June 1 through November 30) requires special preparation and scheduling considerations for Tampa construction projects. We implement hurricane preparedness protocols that include secure storage of materials, temporary weather protection for partially completed work, and rapid site securing procedures. Our storm response plans minimize hurricane-related delays and protect construction investments.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Lightning Safety Protocols</h3>

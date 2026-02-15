@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historical-accuracy-in-tampa-restoration/' },
   title: "Historical Accuracy in Tampa Restoration",
   description: "Achieving historical accuracy in Tampa restoration projects through research, documentation, and traditional craftsmanship. Essential for tax credit approval and authentic preservation.",
 };

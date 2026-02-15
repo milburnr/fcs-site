@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-interior-restoration-in-tampa/' },
   title: "Post-Disaster Interior Restoration Tampa",
   description: "Expert post-disaster interior restoration in Tampa. Complete commercial interior rebuild after hurricane, flood, and storm damage. Drywall, flooring, ceilings, and finishes restored to pre-loss condition.",
 };
@@ -286,8 +287,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response & Mitigation</h3>
-                  <p className="text-gray-600">We respond immediately to stop ongoing damage. This includes water extraction, temporary weather protection, emergency board-up, and placement of drying equipment. Quick mitigation prevents secondary damage and reduces overall restoration costs.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">storm response & Mitigation</h3>
+                  <p className="text-gray-600">We respond immediately to stop ongoing damage. This includes water extraction, temporary weather protection, board-up, and placement of drying equipment. Quick mitigation prevents secondary damage and reduces overall restoration costs.</p>
                 </div>
               </div>
 
@@ -381,7 +382,7 @@ export default function Page() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">
-                  Request Emergency Service
+                  Request prompt service
                 </Link>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}

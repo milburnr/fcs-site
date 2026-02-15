@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-landscaping-restoration-in-tampa/' },
   title: "Post-Disaster Landscaping Restoration Tampa",
   description: "Post-disaster landscaping restoration in Tampa. Commercial property debris removal, tree services, irrigation repair, and landscape reconstruction after hurricanes and storms.",
 };
@@ -261,7 +262,7 @@ export default function Page() {
                     <td className="px-6 py-4 text-gray-600">Per commercial site, varies by volume</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Tree Removal</td>
+                    <td className="px-6 py-4 font-medium">Tree Removal</td>
                     <td className="px-6 py-4">$500 - $3,000/tree</td>
                     <td className="px-6 py-4 text-gray-600">Size and complexity dependent</td>
                   </tr>
@@ -300,7 +301,7 @@ export default function Page() {
             </div>
 
             <p className="text-sm text-gray-500 mb-8">
-              *Prices reflect 2024 Tampa Bay market rates. Emergency services during major storm events may face price increases due to demand. Contact us for site-specific assessment and estimate.
+              *Prices reflect 2024 Tampa Bay market rates. prompt services during major storm events may face price increases due to demand. Contact us for site-specific assessment and estimate.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">

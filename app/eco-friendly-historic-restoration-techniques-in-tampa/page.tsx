@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-historic-restoration-techniques-in-tampa/' },
   title: "Eco-Friendly Historic Restoration Tampa | Green",
   description: "Discover sustainable historic restoration in Tampa. Learn how preservation conserves embodied energy, combines with LEED certification, and qualifies for tax credits.",
 };

@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
   title: "Commercial Construction Brandon | $500K+ | FCS",
   description: "Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction brandon, commercial contractor brandon, commercial builder brandon fl, retail construction brandon, medical facility construction brandon",
@@ -18,10 +19,6 @@ const serviceFeatures = [
   {
     title: "Retail Centers & Shopping Complexes",
     description: "Ground-up retail construction, shopping center developments, and tenant improvements along Highway 60, Brandon Boulevard, and the Westfield Brandon corridor."
-  },
-  {
-    title: "Medical & Healthcare Facilities",
-    description: "Healthcare construction near Brandon Regional Hospital including clinics, urgent care centers, specialty practices, and outpatient surgery centers."
   },
   {
     title: "Office Buildings & Professional Spaces",
@@ -80,8 +77,7 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial-construction/" },
-  { name: "Brandon", href: "/commercial-construction-brandon/" },
-];
+  { name: "Brandon", href: "/commercial-construction-brandon/" }];
 
 export default function CommercialConstructionBrandonPage() {
   return (
@@ -481,7 +477,6 @@ export default function CommercialConstructionBrandonPage() {
                 <li><Link href="/multi-family-construction-brandon/" className="text-brand-green hover:underline">Multi-Family Construction Brandon</Link></li>
                 <li><Link href="/disaster-recovery-brandon/" className="text-brand-green hover:underline">Disaster Recovery Brandon</Link></li>
                 <li><Link href="/exterior-waterproofing-brandon/" className="text-brand-green hover:underline">Exterior Waterproofing Brandon</Link></li>
-                <li><Link href="/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
                 <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
               </ul>
             </div>

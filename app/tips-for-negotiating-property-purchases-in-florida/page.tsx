@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-negotiating-property-purchases-in-florida/' },
   title: "Negotiating Property Purchases FL | Due Diligence",
   description: "Expert tips for negotiating commercial property purchases in Florida. How construction assessments strengthen your position and protect your investment.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-market-analysis/' },
   title: "Tampa Commercial Construction Market 2024",
   description: "In-depth analysis of Tampa's commercial construction market. Current trends, sector performance, cost data, and forecasts for developers and investors.",
 };

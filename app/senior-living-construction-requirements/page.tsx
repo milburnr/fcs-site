@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/senior-living-construction-requirements/' },
   title: "Senior Living Construction Florida | AHCA | FCS",
   description:
     "Complete guide to senior living facility construction in Florida. AHCA licensing requirements, accessibility standards, memory care design, and assisted living construction specifications.",
@@ -240,7 +241,7 @@ const faqs = [
       "Construction in occupied senior facilities requires extensive infection control, noise management, and safety protocols. Key requirements include: ICRA (Infection Control Risk Assessment) compliance, barrier construction to separate residents from work areas, HEPA filtration for dust control, restricted work hours to minimize disruption, secured work areas to prevent resident access, and clear communication with staff and families. Phased construction that temporarily relocates residents is often necessary for major renovations.",
   },
   {
-    question: "What are the emergency generator requirements for senior living?",
+    question: "What are the urgent generator requirements for senior living?",
     answer:
       "Emergency generators are required for all licensed senior living facilities. At minimum, generators must power life safety systems (emergency lighting, fire alarms, exit signs), emergency call systems, and refrigeration for medications. Skilled nursing facilities have additional requirements for medical equipment. Generators must be tested regularly and have sufficient fuel for 96 hours of operation (or access to priority fuel delivery agreements). Transfer switches must be automatic with minimal delay.",
   },

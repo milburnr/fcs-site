@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/sirs-structural-integrity-reserve-studies/' },
   title: "SIRS Reserve Studies Florida | Condo Compliance",
   description:
     "Complete guide to SIRS (Structural Integrity Reserve Studies) for Florida condominiums. Understand SB 4-D reserve requirements and funding obligations.",

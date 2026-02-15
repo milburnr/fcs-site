@@ -31,6 +31,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-project-management/' },
   title: "Multi-Family Construction PM Tampa | Apartments",
   description:
     "Expert project management for multi-family construction in Tampa Bay. Condo, apartment, and mixed-use development scheduling, budgeting, stakeholder coordination, and risk management.",

@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-restoration-services/' },
   title: "Balcony Restoration Services Tampa | High-Rise",
   description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant structural repairs, waterproofing, and complete balcony rehabilitation.",
 };
@@ -435,7 +436,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Emergency Response */}
+      {/* storm response */}
       <section className="section bg-white">
         <div className="container-custom max-w-4xl">
           <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
@@ -443,13 +444,12 @@ export default function Page() {
           </h2>
           <div className="prose prose-lg max-w-none">
             <p className="text-gray-600 mb-6">
-              When balcony deterioration presents immediate safety hazards, Florida Construction Specialists provides emergency stabilization services to protect residents while permanent restoration plans are developed. Emergency protocols include immediate area isolation, temporary load restrictions, and expedited engineering assessment to determine safe occupancy levels.
+              When balcony deterioration presents immediate safety hazards, Florida Construction Specialists provides structural stabilization services to protect residents while permanent restoration plans are developed. Emergency protocols include immediate area isolation, temporary load restrictions, and expedited engineering assessment to determine safe occupancy levels.
             </p>
             <p className="text-gray-600 mb-6">
               Temporary stabilization measures may include shoring systems to support compromised structural elements, temporary railing installation if existing guardrails are compromised, emergency waterproofing to prevent further deterioration, and access restrictions to limit loading on damaged areas. These measures provide immediate safety while allowing time for proper restoration planning and permitting.
             </p>
             <p className="text-gray-600 mb-6">
-              Emergency response coordination includes immediate notification of building management and relevant authorities, expedited engineering evaluation by licensed professionals, coordination with insurance carriers and legal counsel, and development of permanent repair strategies that address underlying causes. Our emergency response team is available 24/7 for critical situations requiring immediate attention.
             </p>
           </div>
         </div>
@@ -503,7 +503,7 @@ export default function Page() {
               "Minimal disruption to residents",
               "Detailed project documentation",
               "Serving all Tampa Bay communities",
-              "Emergency response capabilities",
+              "storm response capabilities",
               "Quality control and testing protocols",
               "Long-term maintenance programs"
             ].map((item, index) => (

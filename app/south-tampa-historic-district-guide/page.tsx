@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/south-tampa-historic-district-guide/' },
   title: "South Tampa Historic Districts | Hyde Park | FCS",
   description:
     "Comprehensive guide to South Tampa's historic districts including Hyde Park, Palma Ceia, and Beach Park. Renovation requirements, architectural styles, and preservation guidelines.",

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-homes-with-green-building-practices/' },
   title: "Tampa Green Custom Homes | LEED Certified | FCS",
   description: "Build a certified green custom home in Tampa with sustainable materials, low-impact construction, and LEED/FGBC certification. Healthy homes from $425K-$2M+.",
 };

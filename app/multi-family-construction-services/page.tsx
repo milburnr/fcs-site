@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-services/' },
   title: "Multi-Family Construction Services Tampa | FCS",
   description: "Expert multi-family construction services in Tampa Bay. Apartments, condominiums, townhomes, and mixed-use developments. Ground-up and renovation specialists.",
 };

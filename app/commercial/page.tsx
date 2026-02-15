@@ -30,6 +30,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/' },
   title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
   description:
     "Tampa Bay's premier commercial general contractor. Medical facilities, multi-family developments, industrial construction, and large-loss disaster recovery. 40+ years experience and in-house engineering.",
@@ -39,15 +40,6 @@ export const metadata: Metadata = {
 
 // Commercial service clusters with icons and images
 const commercialClusters = [
-  {
-    name: "Medical & Healthcare",
-    href: "/commercial/medical-construction/",
-    icon: Stethoscope,
-    image: AI_IMAGES.medical,
-    imageAlt: AI_IMAGE_ALT.medical,
-    description: "AHCA-compliant medical facilities, clean rooms, and healthcare construction",
-    keywords: ["AHCA compliance", "Medical gas piping", "Clean room construction"],
-  },
   {
     name: "Multi-Family Construction",
     href: "/multi-family-construction/",
@@ -101,8 +93,7 @@ const commercialClusters = [
     imageAlt: AI_IMAGE_ALT.office,
     description: "Critical path method scheduling to prevent delays and cost overruns",
     keywords: ["CPM scheduling", "Project timelines", "Delay prevention"],
-  },
-];
+  }];
 
 // Featured commercial projects
 const featuredProjects = [
@@ -137,16 +128,10 @@ const featuredProjects = [
     description: "Historic restoration of this landmark federal facility honoring veterans. Project required strict federal compliance, coordination with VA facilities management, SHPO adherence for historic preservation, and specialized infection control during active hospital operations.",
     type: "Historic Restoration / Healthcare",
     icon: Landmark,
-  },
-];
+  }];
 
 // Industries served
 const industriesServed = [
-  {
-    name: "Medical & Healthcare",
-    icon: Stethoscope,
-    description: "AHCA-compliant construction for hospitals, clinics, surgical centers, and specialized medical facilities",
-  },
   {
     name: "Multi-Family Residential",
     icon: Building,
@@ -171,17 +156,10 @@ const industriesServed = [
     name: "Government & Municipal",
     icon: Briefcase,
     description: "Civic buildings, detention facilities, public works, and federal projects",
-  },
-];
+  }];
 
 // Featured commercial articles (placeholder - will be populated from actual content)
 const featuredArticles = [
-  {
-    title: "Navigating AHCA Inspections for Medical Facilities",
-    href: "/ahca-compliance-medical-construction/",
-    category: "Medical Construction",
-    excerpt: "Essential compliance requirements for healthcare construction in Florida",
-  },
   {
     title: "Florida SB4-D Compliance Guide for Condo Associations",
     href: "/sb4d-compliance-guide/",
@@ -193,18 +171,15 @@ const featuredArticles = [
     href: "/cpm-scheduling-commercial-construction/",
     category: "Project Management",
     excerpt: "How critical path method scheduling keeps large projects on track",
-  },
-];
+  }];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Commercial", href: "/commercial/" },
-];
+  { name: "Commercial", href: "/commercial/" }];
 
 export default function CommercialHubPage() {
   const breadcrumbItems = [
-    { name: "Commercial Services", href: "/commercial/" },
-  ];
+    { name: "Commercial Services", href: "/commercial/" }];
 
   return (
     <>
@@ -616,9 +591,13 @@ export default function CommercialHubPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
             title="Related Resources"
-            
+            links={[
+              { label: "Multi-Family Construction", href: "/multi-family-construction/" },
+              { label: "Disaster Recovery", href: "/disaster-recovery/" },
+              { label: "Historic Restoration", href: "/commercial/historic-restoration/" },
+              { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
+            ]}
           />
         </div>
       </section>

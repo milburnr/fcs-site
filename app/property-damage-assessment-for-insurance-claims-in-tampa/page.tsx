@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/' },
   title: "Property Damage Assessment Tampa | Insurance Claims",
   description: "Expert property damage assessment for insurance claims in Tampa. Comprehensive documentation, damage quantification, and claim support for commercial hurricane, flood, and storm damage.",
 };
@@ -19,7 +20,6 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How soon after damage occurs should I get a professional assessment?",
-    answer: "You should contact a professional for damage assessment within 24-48 hours of discovering the damage. Florida law requires policyholders to report claims 'promptly,' and delays can jeopardize your claim. Early professional assessment also documents the damage before any deterioration occurs, which strengthens your insurance claim. We offer 24/7 emergency assessment services for storm-damaged commercial properties."
   },
   {
     question: "What's included in a commercial property damage assessment?",
@@ -364,7 +364,7 @@ export default function Page() {
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
                   <h3 className="font-bold text-brand-green-dark mb-2">Immediate Response & Site Security</h3>
-                  <p className="text-gray-600">We respond within hours to emergency assessment requests. Our first priority is documenting the damage as-found and ensuring the property is secured to prevent additional damage or loss.</p>
+                  <p className="text-gray-600">We responds promptly to assessment requests. Our first priority is documenting the damage as-found and ensuring the property is secured to prevent additional damage or loss.</p>
                 </div>
               </div>
 

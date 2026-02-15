@@ -28,6 +28,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-balcony-inspection-requirements/' },
   title: "Condo Balcony Inspection Florida | SB 4-D | FCS",
   description:
     "Complete guide to Florida condo balcony inspection requirements under SB 4-D and milestone inspections. Understand inspection scope, repair timelines, and compliance obligations.",
@@ -205,7 +206,7 @@ const timeline = [
   },
   {
     event: "Immediate Safety Issues",
-    action: "Restrict access; temporary barriers; emergency repairs if needed",
+    action: "Restrict access; temporary barriers; storm repairs if needed",
     deadline: "Immediately upon identification",
   },
   {
@@ -272,8 +273,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

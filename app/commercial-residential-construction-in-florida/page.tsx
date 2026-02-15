@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-residential-construction-in-florida/' },
   title: "Commercial Residential Construction in Florida",
   description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Gain valuable insights and demystify the process.Discover ins and outs of co...",
 };
@@ -22,7 +23,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -410,7 +410,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Security and Access Control Systems</h3>
               <p className="text-gray-600 mb-6">
-                Resident safety and security are paramount concerns for commercial-residential developments. Our security system design includes comprehensive access control, video surveillance, intrusion detection, and emergency communication systems. Modern systems utilize smartphone access, biometric readers, and integrated platforms that provide both security and convenience. These systems are particularly important for urban developments where security concerns may be elevated.
+                Resident safety and security are paramount concerns for commercial-residential developments. Our security system design includes comprehensive access control, video surveillance, intrusion detection, and storm communication systems. Modern systems utilize smartphone access, biometric readers, and integrated platforms that provide both security and convenience. These systems are particularly important for urban developments where security concerns may be elevated.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Sustainable Technology and Energy Management</h3>

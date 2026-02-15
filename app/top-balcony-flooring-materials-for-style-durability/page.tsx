@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-balcony-flooring-materials-for-style-durability/' },
   title: "Top Balcony Flooring Materials for High-Rise Buildings Tampa",
   description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Porcelain tiles, deck coatings, pavers, and natural stone with SB 4-D compliant installation.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/discover-the-best-balcony-decking-options-for-outdoor-spaces/", label: "Balcony Decking Options" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/balcony-restoration-services/", label: "Balcony Restoration" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -174,7 +175,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Removable flooring systems offer significant advantages for SB 4-D compliance. Pedestal-mounted pavers lift out easily, providing immediate access to waterproofing membranes for inspection. After assessment, pavers reinstall without special tools or skills. This accessibility simplifies both scheduled milestone inspections and emergency repairs if leaks develop. The slight premium for pedestal systems often pays for itself in reduced inspection complexity.
+              Removable flooring systems offer significant advantages for SB 4-D compliance. Pedestal-mounted pavers lift out easily, providing immediate access to waterproofing membranes for inspection. After assessment, pavers reinstall without special tools or skills. This accessibility simplifies both scheduled milestone inspections and storm repairs if leaks develop. The slight premium for pedestal systems often pays for itself in reduced inspection complexity.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -388,7 +389,7 @@ export default function Page() {
               Some flooring materials may require fire-resistant barriers or separation when installed over combustible substrates. Pedestal systems using non-combustible materials (aluminum, steel, concrete) may allow otherwise restricted flooring materials by providing appropriate fire separation. Understanding these code requirements prevents selection of incompatible materials that would require costly changes.
             </p>
             <p className="text-gray-600 mb-6">
-              Emergency egress considerations affect flooring selection near exit doors and evacuation routes. Slip-resistant surfaces become especially critical in emergency situations where residents may evacuate quickly. Flooring must maintain traction when wet and not become slippery during the rain events that often accompany severe weather requiring evacuation.
+              Emergency egress considerations affect flooring selection near exit doors and evacuation routes. Slip-resistant surfaces become especially critical in urgent situations where residents may evacuate quickly. Flooring must maintain traction when wet and not become slippery during the rain events that often accompany severe weather requiring evacuation.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

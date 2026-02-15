@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-tax-credits-commercial-buildings/' },
   title: "Historic Tax Credits Commercial Tampa | FCS",
   description:
     "Complete guide to federal and Florida historic tax credits for commercial building rehabilitation. Eligibility, application process, and maximizing returns on Tampa Bay historic properties.",
@@ -268,7 +269,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

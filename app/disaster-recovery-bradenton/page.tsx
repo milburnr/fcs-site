@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-bradenton/' },
   title: "Disaster Recovery Bradenton | Hurricane | FCS",
-  description: "Bradenton disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. Prime contractor for large loss insurance claims $250K-$50M. Anna Maria Island gateway. 24/7 emergency response.",
   keywords: "disaster recovery Bradenton, hurricane damage restoration Bradenton, storm damage repair Bradenton, flood damage Bradenton, insurance restoration Bradenton, Manatee River flood damage, Anna Maria Island storm damage",
 };
 
@@ -48,7 +48,6 @@ const disasterTypes = [
 const bradentonFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Bradenton?",
-    answer: "Florida Construction Specialists provides 24/7 emergency response throughout Bradenton, Anna Maria Island, and Manatee County. For large loss commercial and high-value residential properties, we typically have assessment teams on-site within 2-4 hours of initial contact. Our team maintains emergency response crews ready for immediate deployment, especially during hurricane season when Bradenton's coastal location creates heightened risk.",
   },
   {
     question: "What areas of Bradenton are most vulnerable to hurricane and flood damage?",
@@ -60,7 +59,7 @@ const bradentonFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in Bradenton?",
-    answer: "Hurricane damage restoration timelines in Bradenton vary by scope: Emergency stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-180 days for large commercial projects). Projects over $1 million may require 6-12 months depending on scope and permit requirements through the City of Bradenton Building Division.",
+    answer: "Hurricane damage restoration timelines in Bradenton vary by scope: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-180 days for large commercial projects). Projects over $1 million may require 6-12 months depending on scope and permit requirements through the City of Bradenton Building Division.",
   },
   {
     question: "What types of properties do you restore in Bradenton?",
@@ -88,7 +87,6 @@ const costData = [
 ];
 
 const processSteps = [
-  { step: 1, title: "Emergency Response", description: "24/7 rapid response with damage assessment and immediate stabilization to prevent further loss" },
   { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development" },
   { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation support" },
   { step: 4, title: "Restoration Planning", description: "Engineering assessments, permit applications, and detailed project scheduling" },
@@ -102,7 +100,6 @@ export default function DisasterRecoveryBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Bradenton, FL. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. Serving Anna Maria Island gateway and Manatee County. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Bradenton"
         minPrice="250000"
       />
@@ -130,11 +127,9 @@ export default function DisasterRecoveryBradentonPage() {
               Disaster Recovery & Insurance Restoration in Bradenton
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Manatee County's trusted large loss contractor for hurricane damage, flood restoration, and commercial property disaster recovery. Gateway to Anna Maria Island with specialized coastal restoration expertise. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency response.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                24/7 Emergency Response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -154,7 +149,6 @@ export default function DisasterRecoveryBradentonPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Clock className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">24/7 Emergency Response</span>
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
@@ -247,9 +241,8 @@ export default function DisasterRecoveryBradentonPage() {
             <div className="space-y-6">
               {/* Quick Contact Card */}
               <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">24/7 Emergency Line</h3>
                 <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Bradenton and Manatee County. Our emergency crews are ready to deploy.
+                  Immediate response for disaster damage in Bradenton and Manatee County. Our our crews are ready to deploy.
                 </p>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -378,7 +371,7 @@ export default function DisasterRecoveryBradentonPage() {
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
                 <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Emergency Response</div>
+                <div className="text-gray-300 text-sm">Storm Response</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
@@ -435,11 +428,10 @@ export default function DisasterRecoveryBradentonPage() {
             Bradenton Disaster Recovery Experts
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From emergency response to complete restoration, FCS is Manatee County's trusted partner for large loss disaster recovery. Serving Bradenton, Anna Maria Island, Cortez, and surrounding areas. Contact us 24/7 for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get Emergency Response
+              Get storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-solution-for-a-dry-and-protected-home/' },
   title: "Exterior Waterproofing Commercial Tampa | FCS",
   description: "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. SB 4-D compliant building envelope protection and facade waterproofing.",
 };
@@ -24,10 +25,10 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
   { href: "/effective-exterior-waterproofing-methods-for-your-property/", label: "Waterproofing Methods" },
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -317,14 +318,14 @@ export default function Page() {
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              Emergency Response and Storm Damage Restoration
+              storm response and Storm Damage Restoration
             </h2>
             <p className="text-gray-600 mb-6">
-              Hurricane season presents annual challenges for Tampa Bay building owners. While properly designed and maintained waterproofing systems can withstand most storm conditions, extreme events may cause damage that requires immediate attention. Emergency response procedures minimize water intrusion damage while permanent repairs are planned and executed.
+              Hurricane season presents annual challenges for Tampa Bay building owners. While properly designed and maintained waterproofing systems can withstand most storm conditions, extreme events may cause damage that requires immediate attention. storm response procedures minimize water intrusion damage while permanent repairs are planned and executed.
             </p>
 
             <p className="text-gray-600 mb-6">
-              Temporary protective measures include emergency tarping, board-up services, and water extraction. However, these measures must be properly detailed to avoid creating secondary problems. Improperly installed tarps can trap moisture or create wind loads on damaged structures. Emergency repairs must consider both immediate protection and compatibility with permanent restoration work.
+              Temporary protective measures include tarping, board-up services, and water extraction. However, these measures must be properly detailed to avoid creating secondary problems. Improperly installed tarps can trap moisture or create wind loads on damaged structures. storm repairs must consider both immediate protection and compatibility with permanent restoration work.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -412,7 +413,7 @@ export default function Page() {
               "Comprehensive warranties",
               "Minimal tenant disruption",
               "Tampa Bay-wide service",
-              "Emergency response capability"
+              "storm response capability"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

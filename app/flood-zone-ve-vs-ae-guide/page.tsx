@@ -27,6 +27,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-zone-ve-vs-ae-guide/' },
   title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
   description:
     "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements, elevation rules, and insurance implications.",

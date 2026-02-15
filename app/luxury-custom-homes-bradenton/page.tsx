@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/' },
   title: "Luxury Custom Homes Bradenton | Waterfront | FCS",
   description: "Bradenton luxury custom home builder specializing in $1M-$15M+ waterfront estates and architectural homes. Anna Maria Island gateway, Palma Sola, Lakewood Ranch, Manatee River. 15-20% savings vs Sarasota. Licensed, bonded, insured.",
   keywords: "luxury custom homes Bradenton, waterfront homes Bradenton, estate homes Anna Maria, custom home builder Bradenton, high-end residential construction Manatee County",

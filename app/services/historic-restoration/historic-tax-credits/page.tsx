@@ -9,6 +9,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { FadeIn, StaggerContainer } from "@/components/AnimatedElements";
 import {
+
   CheckCircle,
   Shield,
   Award,
@@ -51,7 +52,7 @@ const faqs = [
   },
   {
     question: "Can I start work before Part 2 approval?",
-    answer: "Technically yes, but it's risky. Work completed before Part 2 approval that doesn't meet the Standards may not qualify for credits, and required corrections can be expensive. We strongly recommend waiting for Part 2 approval before beginning rehabilitation work. Emergency stabilization can usually proceed with documentation.",
+    answer: "Technically yes, but it's risky. Work completed before Part 2 approval that doesn't meet the Standards may not qualify for credits, and required corrections can be expensive. We strongly recommend waiting for Part 2 approval before beginning rehabilitation work. Stabilization can usually proceed with documentation.",
   },
   {
     question: "What if my building isn't individually listed in the National Register?",

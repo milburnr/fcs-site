@@ -29,6 +29,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/adaptive-reuse-historic-civic-buildings/' },
   title: "Historic Civic Building Reuse Tampa | FCS",
   description:
     "Expert adaptive reuse of historic civic buildings in Tampa Bay. Convert courthouses, post offices, schools, and city halls into modern commercial spaces while preserving historic character.",

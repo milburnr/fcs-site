@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/choosing-a-builder-expert-commercial-construction-in-tampa/' },
   title: "Choosing a Builder Expert Commercial Construction in Tampa",
   description: "Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -231,7 +231,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane and Weather Resistance</h3>
               <p className="text-gray-600 mb-6">
-                Florida's hurricane risk requires builders to understand wind resistance requirements, impact-resistant glazing specifications, and emergency backup systems. Our team designs and constructs buildings that exceed Florida Building Code requirements for wind resistance, providing superior protection for your business operations and building occupants.
+                Florida's hurricane risk requires builders to understand wind resistance requirements, impact-resistant glazing specifications, and storm backup systems. Our team designs and constructs buildings that exceed Florida Building Code requirements for wind resistance, providing superior protection for your business operations and building occupants.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Flood Zone and Drainage Expertise</h3>
@@ -291,7 +291,7 @@ export default function Page() {
               </p>
 
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists maintains long-term relationships with our Tampa clients, providing ongoing support for facility maintenance, future renovations, and expansion projects. Our post-construction services include regular building assessments, preventive maintenance programs, and rapid response for emergency repairs.
+                Florida Construction Specialists maintains long-term relationships with our Tampa clients, providing ongoing support for facility maintenance, future renovations, and expansion projects. Our post-construction services include regular building assessments, preventive maintenance programs, and rapid response for prompt repairs.
               </p>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-8">

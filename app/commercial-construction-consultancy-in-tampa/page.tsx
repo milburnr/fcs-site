@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-consultancy-in-tampa/' },
   title: "Commercial Construction Consultancy Tampa | FCS",
   description: "Expert commercial construction consultants in Tampa offering project advisory, owner's representation, and construction management services. Get objective guidance for your project.",
 };

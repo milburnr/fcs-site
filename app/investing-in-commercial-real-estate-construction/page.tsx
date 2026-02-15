@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/investing-in-commercial-real-estate-construction/' },
   title: "Commercial Real Estate Construction Tampa | FCS",
   description: "Smart investing in commercial real estate construction in Tampa Bay. Partner with Florida Construction Specialists for new development, value-add renovations, and build-to-suit projects.",
 };

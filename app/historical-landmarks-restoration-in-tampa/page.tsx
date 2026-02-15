@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historical-landmarks-restoration-in-tampa/' },
   title: "Historical Landmarks Restoration in Tampa",
   description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park. Certified specialists in National Register properties and tax credit projects.",
 };
@@ -462,13 +463,13 @@ export default function Page() {
               Preventive Maintenance Programs
             </h3>
             <p className="text-gray-600 mb-6">
-              Landmark buildings require specialized maintenance programs that address the unique characteristics of historic materials and construction systems while maintaining the high standards of preservation that landmark status demands. These programs include regular inspection schedules, professional maintenance protocols, and emergency response procedures that protect irreplaceable cultural resources from deterioration and damage.
+              Landmark buildings require specialized maintenance programs that address the unique characteristics of historic materials and construction systems while maintaining the high standards of preservation that landmark status demands. These programs include regular inspection schedules, professional maintenance protocols, and safety response procedures that protect irreplaceable cultural resources from deterioration and damage.
             </p>
             <p className="text-gray-600 mb-6">
               Annual maintenance planning includes assessment of building envelope condition, mechanical system performance, and decorative element stability that enables early intervention before minor problems become major preservation challenges. Professional documentation of maintenance activities creates records that support ongoing stewardship and future restoration planning while demonstrating proper care for grant funders and preservation agencies.
             </p>
             <p className="text-gray-600 mb-6">
-              Staff training for landmark properties includes education about appropriate cleaning methods, identification of preservation concerns, and protocols for emergency response that protects historic fabric while ensuring occupant safety. Regular training updates ensure that building maintenance personnel understand the special requirements that landmark properties demand and the resources available for specialized preservation needs.
+              Staff training for landmark properties includes education about appropriate cleaning methods, identification of preservation concerns, and protocols for storm response that protects historic fabric while ensuring occupant safety. Regular training updates ensure that building maintenance personnel understand the special requirements that landmark properties demand and the resources available for specialized preservation needs.
             </p>
 
             <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -481,7 +482,7 @@ export default function Page() {
               Digital archiving systems enable efficient storage and retrieval of landmark documentation while providing security copies that protect against loss of irreplaceable project records. Modern documentation methods including 3D scanning and photogrammetry create precise records that support future restoration planning and provide valuable research resources for preservation professionals and historians.
             </p>
             <p className="text-gray-600 mb-6">
-              Sharing documentation with preservation organizations, educational institutions, and professional associations contributes to the advancement of preservation practice while creating networks of expertise that support ongoing stewardship of landmark properties. These collaborative relationships provide resources for specialized consultation and emergency assistance when preservation challenges arise.
+              Sharing documentation with preservation organizations, educational institutions, and professional associations contributes to the advancement of preservation practice while creating networks of expertise that support ongoing stewardship of landmark properties. These collaborative relationships provide resources for specialized consultation and professional assistance when preservation challenges arise.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -546,13 +547,13 @@ export default function Page() {
               Hurricane and Storm Preparedness
             </h3>
             <p className="text-gray-600 mb-6">
-              Tampa Bay's exposure to hurricane activity requires specialized preparedness planning for landmark buildings that must balance preservation of historic materials with protection from severe weather events. Preparation strategies include temporary protective measures for vulnerable elements, emergency response procedures, and post-storm assessment protocols that enable rapid damage evaluation and appropriate restoration response.
+              Tampa Bay's exposure to hurricane activity requires specialized preparedness planning for landmark buildings that must balance preservation of historic materials with protection from severe weather events. Preparation strategies include temporary protective measures for vulnerable elements, safety response procedures, and post-storm assessment protocols that enable rapid damage evaluation and appropriate restoration response.
             </p>
             <p className="text-gray-600 mb-6">
               Storm protection often involves installation of removable window covers, securing of loose decorative elements, and documentation of existing conditions that enables accurate damage assessment after weather events. These preparations must be carefully planned to protect historic fabric while allowing rapid deployment and removal that minimizes handling of fragile architectural elements.
             </p>
             <p className="text-gray-600 mb-6">
-              Post-storm restoration requires immediate response to prevent additional damage from water infiltration or structural instability while ensuring that emergency repairs maintain preservation standards. Professional assessment of storm damage includes documentation for insurance claims and preservation review that enables appropriate restoration planning and funding acquisition.
+              Post-storm restoration requires immediate response to prevent additional damage from water infiltration or structural instability while ensuring that storm repairs maintain preservation standards. Professional assessment of storm damage includes documentation for insurance claims and preservation review that enables appropriate restoration planning and funding acquisition.
             </p>
 
             <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">

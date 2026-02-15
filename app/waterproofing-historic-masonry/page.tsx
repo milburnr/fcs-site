@@ -27,6 +27,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/waterproofing-historic-masonry/' },
   title: "Waterproofing Historic Masonry Tampa Bay | FCS",
   description:
     "Specialized waterproofing techniques for historic brick and masonry homes in Tampa Bay. Preserve character while protecting against Florida's moisture challenges.",
@@ -290,7 +291,7 @@ export default function WaterproofingHistoricMasonryPage() {
       <Breadcrumb
         items={[
           { name: "Residential", href: "/residential/" },
-          { name: "Historic Preservation", href: "/residential/historic-preservation/" },
+          { name: "Historic Restoration", href: "/commercial/historic-restoration/" },
           { name: "Masonry Waterproofing", href: "/waterproofing-historic-masonry/" },
         ]}
       />
@@ -312,8 +313,8 @@ export default function WaterproofingHistoricMasonryPage() {
           <div className="max-w-4xl">
             <BackToHub
               silo="residential"
-              customHubTitle="Historic Preservation"
-              customHubHref="/residential/historic-preservation/"
+              customHubTitle="Historic Restoration"
+              customHubHref="/commercial/historic-restoration/"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Waterproofing Historic Masonry
@@ -558,7 +559,7 @@ export default function WaterproofingHistoricMasonryPage() {
       <section className="py-12 bg-white">
         <div className="container-custom">
           <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Historic Preservation Resources
+            Related Historic Restoration Resources
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <Link
@@ -573,11 +574,11 @@ export default function WaterproofingHistoricMasonryPage() {
               </p>
             </Link>
             <Link
-              href="/residential/historic-preservation/"
+              href="/commercial/historic-restoration/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">
-                Historic Preservation Services
+                Historic Restoration Services
               </h3>
               <p className="text-gray-600 text-sm">
                 Comprehensive historic home restoration in Tampa Bay.

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/residential-insurance-restoration-services-in-tampa/' },
   title: "Residential Insurance Restoration Tampa | Homes",
   description: "Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support for homeowners.",
 };
@@ -112,7 +113,7 @@ export default function Page() {
             </h2>
             
             <p className="text-gray-600 mb-6">
-              We provide comprehensive residential restoration services for all types of property damage. Our experienced team handles everything from emergency response through final repairs, with full documentation to support your insurance claim.
+              We provide comprehensive residential restoration services for all types of property damage. Our experienced team handles everything from storm response through final repairs, with full documentation to support your insurance claim.
             </p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">
@@ -265,8 +266,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
-                  <p className="text-gray-600">We respond quickly to secure your home, prevent further damage, and begin mitigation. This includes board-up, tarping, water extraction, and emergency stabilization—all documented for your insurance claim.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
+                  <p className="text-gray-600">We respond quickly to secure your home, prevent further damage, and begin mitigation. This includes board-up, tarping, water extraction, and storm stabilization—all documented for your insurance claim.</p>
                 </div>
               </div>
 

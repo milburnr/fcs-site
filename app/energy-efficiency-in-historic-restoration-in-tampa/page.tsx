@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/energy-efficiency-in-historic-restoration-in-tampa/' },
   title: "Energy Efficiency in Historic Restoration in Tampa",
   description: "Revitalize Tampa Bay's heritage with energy-efficient historic restoration. Expert renovations blending historic preservation with modern energy conservation.",
 };

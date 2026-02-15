@@ -8,6 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-building-preservation-in-tampa/' },
   title: "Historic Building Preservation Tampa | FCS",
   description: "Comprehensive guide to historic building preservation in Tampa. Learn about National Register listings, local designations, tax credits, and preservation standards.",
 };

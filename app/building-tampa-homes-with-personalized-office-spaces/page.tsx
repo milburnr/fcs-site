@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-tampa-homes-with-personalized-office-spaces/' },
   title: "Tampa Homes with Personalized Office Spaces",
   description: "Design the perfect home office in your Tampa custom home. Executive suites, video conferencing studios, and productive workspaces. Custom home offices from $25K-$150K+.",
 };

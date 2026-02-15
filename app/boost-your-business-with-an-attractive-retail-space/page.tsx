@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/boost-your-business-with-an-attractive-retail-space/' },
   title: "Retail Space Construction Tampa | Store Design",
   description: "Create an attractive retail space that boosts your business. Expert guide to storefront design, interior aesthetics, customer experience, and brand expression in Tampa Bay retail construction.",
 };

@@ -10,6 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/' },
   title: "Commercial Construction in Tampa Bay",
   description: "Tampa Bay's premier commercial contractor for $500K-$25M+ projects. 40+ years experience, 20+ years experience. Schedule your project consultation. Call (813) 420-7561.",
   keywords: [
@@ -18,15 +19,13 @@ export const metadata: Metadata = {
     "design-build construction tampa bay",
     "commercial building contractor",
     "tampa commercial construction company",
-    "large scale construction florida",
-  ],
+    "large scale construction florida"],
 };
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/services/commercial/" },
-];
+  { name: "Commercial Construction", href: "/services/commercial/" }];
 
 const commercialFaqs = [
   ...FAQ_DATABASE.commercial,
@@ -41,19 +40,13 @@ const commercialFaqs = [
   {
     question: "Do you provide pre-construction services?",
     answer: "Yes, comprehensive pre-construction services are a cornerstone of our approach. We offer feasibility studies, site analysis, conceptual estimating, value engineering, constructability reviews, scheduling development, and permitting assistance. These services help ensure your project is set up for success before construction begins."
-  },
-];
+  }];
 
 const clusterServices = [
   {
     name: "Design-Build Construction",
     href: "/services/commercial/design-build/",
     description: "Single-source accountability for design and construction under one contract, streamlining communication and accelerating project delivery.",
-  },
-  {
-    name: "Medical & Healthcare Facilities",
-    href: "/services/commercial/medical-construction/",
-    description: "AHCA-compliant construction for medical offices, clinics, surgical centers, and healthcare facilities throughout Tampa Bay.",
   },
   {
     name: "Multi-Family Construction",
@@ -79,8 +72,7 @@ const clusterServices = [
     name: "Retail Construction",
     href: "/services/commercial/retail-construction/",
     description: "Retail centers, shopping complexes, restaurant buildouts, and hospitality construction.",
-  },
-];
+  }];
 
 const featuredProjects = [
   {
@@ -100,8 +92,7 @@ const featuredProjects = [
     location: "St. Petersburg, FL",
     type: "Federal Healthcare",
     description: "Historic restoration and preservation project meeting federal historic compliance standards. Sensitive rehabilitation of veteran healthcare facilities.",
-  },
-];
+  }];
 
 export default function CommercialConstructionPage() {
   return (
@@ -347,8 +338,7 @@ export default function CommercialConstructionPage() {
                 title: "Closeout & Warranty",
                 description: "Project completion includes thorough punch list resolution, training on building systems, warranty documentation, and ongoing support. We stand behind our work with comprehensive warranty coverage and responsive service.",
                 icon: Award,
-              },
-            ].map((item) => (
+              }].map((item) => (
               <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
                 <div className="absolute -top-4 left-6 bg-brand-green text-white text-sm font-bold px-3 py-1 rounded-full">
                   Step {item.step}
@@ -514,8 +504,7 @@ export default function CommercialConstructionPage() {
               { name: "Educational Institutions", icon: "🎓" },
               { name: "Municipal & Government", icon: "🏛️" },
               { name: "Agricultural Facilities", icon: "🌾" },
-              { name: "Mixed-Use Developments", icon: "🏙️" },
-            ].map((industry) => (
+              { name: "Mixed-Use Developments", icon: "🏙️" }].map((industry) => (
               <div key={industry.name} className="bg-white rounded-xl p-6 text-center shadow-sm hover:shadow-md transition-shadow">
                 <span className="text-4xl mb-3 block">{industry.icon}</span>
                 <h3 className="font-semibold text-brand-green-dark">{industry.name}</h3>
@@ -546,8 +535,7 @@ export default function CommercialConstructionPage() {
               { city: "Sarasota", href: "/commercial-construction-sarasota/" },
               { city: "Bradenton", href: "/commercial-construction-bradenton/" },
               { city: "Brandon", href: "/commercial-construction-brandon/" },
-              { city: "Ruskin", href: "/commercial-construction-ruskin/" },
-            ].map((location) => (
+              { city: "Ruskin", href: "/commercial-construction-ruskin/" }].map((location) => (
               <Link
                 key={location.city}
                 href={location.href}
@@ -672,11 +660,7 @@ export default function CommercialConstructionPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

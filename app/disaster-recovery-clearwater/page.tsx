@@ -31,6 +31,7 @@ import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
   title: "Disaster Recovery in Clearwater",
   description: "Clearwater's large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration projects, all carriers. Call (813) 420-7561.",
   keywords: [
@@ -73,7 +74,7 @@ const clearwaterFaqs = [
   },
   {
     question: "How does FCS coordinate with Pinellas County Emergency Management after disasters?",
-    answer: "Following major disasters, Pinellas County Emergency Management coordinates response and recovery efforts throughout Clearwater. FCS maintains professional relationships with county officials and understands local emergency protocols, permitting procedures, and inspection requirements. We work within the county's recovery framework while advocating for our clients' interests. This coordination ensures smooth project execution and helps expedite the restoration process for Clearwater property owners."
+    answer: "Following major disasters, Pinellas County Emergency Management coordinates response and recovery efforts throughout Clearwater. FCS maintains professional relationships with county officials and understands local safety protocols, permitting procedures, and inspection requirements. We work within the county's recovery framework while advocating for our clients' interests. This coordination ensures smooth project execution and helps expedite the restoration process for Clearwater property owners."
   },
   {
     question: "What special considerations apply to Clearwater Beach condominium disaster recovery?",
@@ -85,7 +86,7 @@ const clearwaterFaqs = [
   },
   {
     question: "What is the typical timeline for hotel or resort disaster restoration in Clearwater?",
-    answer: "Hotel and resort restoration timelines in Clearwater vary significantly based on damage extent. Emergency stabilization and water extraction typically take 3-7 days. Structural drying and demolition may require 2-4 weeks. Complete restoration of a major hospitality property can take 6-18 months depending on scope. We provide realistic schedules during initial assessment and work with ownership to prioritize revenue-generating areas when possible, potentially allowing phased reopening during restoration."
+    answer: "Hotel and resort restoration timelines in Clearwater vary significantly based on damage extent. Stabilization and water extraction typically take 3-7 days. Structural drying and demolition may require 2-4 weeks. Complete restoration of a major hospitality property can take 6-18 months depending on scope. We provide realistic schedules during initial assessment and work with ownership to prioritize revenue-generating areas when possible, potentially allowing phased reopening during restoration."
   },
   {
     question: "Does FCS handle both commercial and residential disaster recovery in Clearwater?",
@@ -317,7 +318,7 @@ export default function DisasterRecoveryClearwaterPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <p className="font-semibold">Hurricane Damage</p>
-                <p className="text-sm text-gray-200">Emergency Response</p>
+                <p className="text-sm text-gray-200">Storm Response</p>
               </div>
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/impact-of-climate-change-on-tampa-insurance-restoration/' },
   title: "Climate Change & Tampa Insurance Restoration",
   description: "How climate change affects Tampa Bay insurance restoration. Rising premiums, increased storm damage, flood risks, and strategies for commercial property protection.",
 };

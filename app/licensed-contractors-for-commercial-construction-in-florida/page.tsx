@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/licensed-contractors-for-commercial-construction-in-florida/' },
   title: "Licensed Commercial Contractors Florida | Tampa",
   description: "Understand Florida contractor licensing requirements and why licensed contractors are essential for commercial construction. Verify credentials before hiring.",
 };

@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/design-build/' },
   title: "Design-Build Construction Tampa | FCS",
   description: "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$25M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
   keywords: ["design-build construction tampa", "design-build contractor florida", "single-source construction", "integrated design-build"],
@@ -91,11 +92,11 @@ const faqs = [
   },
   {
     question: "What types of projects are best suited for design-build?",
-    answer: "Design-build works well for projects where speed, cost certainty, and single-source accountability are priorities. Common applications include: commercial office buildings, medical facilities, industrial warehouses, multi-family developments, retail centers, and tenant improvements. Projects with aggressive timelines or complex coordination particularly benefit from the integrated approach.",
+    answer: "Design-build works well for projects where speed, cost certainty, and single-source accountability are priorities. Common applications include: commercial office buildings, industrial warehouses, multi-family developments, retail centers, and tenant improvements. Projects with aggressive timelines or complex coordination particularly benefit from the integrated approach.",
   },
   {
     question: "How do you select design partners for design-build projects?",
-    answer: "We maintain relationships with architects, engineers, and specialty consultants experienced in design-build delivery. For each project, we assemble a team matched to your project type and requirements. You're involved in design partner selection and have direct access to the design team throughout the project. We've successfully partnered with firms on medical facilities, office buildings, industrial projects, and more.",
+    answer: "We maintain relationships with architects, engineers, and specialty consultants experienced in design-build delivery. For each project, we assemble a team matched to your project type and requirements. You're involved in design partner selection and have direct access to the design team throughout the project. We've successfully partnered with firms on office buildings, industrial projects, and more.",
   },
   {
     question: "What is a Guaranteed Maximum Price (GMP)?",
@@ -111,7 +112,7 @@ const faqs = [
   },
   {
     question: "Do you have design-build experience in my industry?",
-    answer: "We've completed design-build projects across diverse sectors including: medical/healthcare facilities (clinics, surgical centers), commercial office buildings, industrial warehouses and distribution centers, multi-family residential developments, retail centers, and hospitality venues. Each project benefits from our 20+ years of Tampa Bay construction experience and strong subcontractor relationships.",
+    answer: "We've completed design-build projects across diverse sectors including: commercial office buildings, industrial warehouses and distribution centers, multi-family residential developments, retail centers, and hospitality venues. Each project benefits from our 20+ years of Tampa Bay construction experience and strong subcontractor relationships.",
   },
   {
     question: "How do I get started with a design-build project?",
@@ -333,15 +334,6 @@ export default function DesignBuildPage() {
                 </Link>
               </div>
               <div className="bg-white rounded-lg p-6">
-                <h3 className="font-bold text-brand-green-dark mb-3">Medical & Healthcare Facilities</h3>
-                <p className="text-gray-600 text-sm mb-3">
-                  Medical design-build requires specialized knowledge of healthcare regulations, infection control, and patient flow—expertise we integrate from day one.
-                </p>
-                <Link href="/services/commercial/medical-construction/" className="text-brand-green text-sm hover:underline">
-                  Learn more about medical construction →
-                </Link>
-              </div>
-              <div className="bg-white rounded-lg p-6">
                 <h3 className="font-bold text-brand-green-dark mb-3">Industrial & Warehouse</h3>
                 <p className="text-gray-600 text-sm mb-3">
                   Industrial design-build focuses on operational efficiency, material flow, and future flexibility—optimizing layouts before construction begins.
@@ -425,7 +417,6 @@ export default function DesignBuildPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services</h3>
               <ul className="space-y-2">
                 <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
-                <li><Link href="/services/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
                 <li><Link href="/services/commercial/multi-family/" className="text-brand-green hover:underline">Multi-Family Construction</Link></li>
                 <li><Link href="/services/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
               </ul>
@@ -477,11 +468,7 @@ export default function DesignBuildPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

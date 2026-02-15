@@ -34,6 +34,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/condo-remediation/' },
   title: "SB4-D Compliance Tampa | Condo Milestone | FCS",
   description:
     "Florida SB4-D compliance specialists serving Tampa Bay. Milestone inspections, SIRS structural reserve studies, balcony reconstruction, and condo remediation. Deadlines approaching - act now.",
@@ -549,7 +550,7 @@ export default function CondoRemediationPage() {
                 Receiving a Phase 2 report with identified structural deficiencies can be alarming for condo boards and unit owners. However, it&apos;s important to understand that identification of problems is the first step toward solving them. The timeline from inspection to completed remediation depends on several factors: the urgency of identified issues (immediate safety concerns require emergency action), funding availability, contractor selection, and construction duration.
               </p>
               <p className="mb-6">
-                For most buildings, the process from Phase 2 report to remediation completion spans 12-24 months. This includes time for the board to understand the report, develop funding strategies, select qualified contractors, and complete the work. FCS helps associations compress this timeline where possible while ensuring all steps receive appropriate attention. For urgent safety issues, we can mobilize emergency stabilization work while longer-term solutions are developed.
+                For most buildings, the process from Phase 2 report to remediation completion spans 12-24 months. This includes time for the board to understand the report, develop funding strategies, select qualified contractors, and complete the work. FCS helps associations compress this timeline where possible while ensuring all steps receive appropriate attention. For urgent safety issues, we can mobilize structural stabilization work while longer-term solutions are developed.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">Working with Licensed Engineers</h3>

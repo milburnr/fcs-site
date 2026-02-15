@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/complete-property-overhaul-after-disasters-in-tampa/' },
   title: "Complete Property Overhaul After Disasters Tampa",
   description: "Complete property overhaul services after disasters in Tampa. Total commercial building reconstruction, comprehensive renovation, and ground-up restoration following hurricane and storm damage.",
 };

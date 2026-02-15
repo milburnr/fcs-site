@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/choose-between-general-contractor-and-construction-manager/' },
   title: "GC vs Construction Manager Tampa | Which to Choose",
   description: "Learn the key differences between general contractors and construction managers for your Tampa commercial project. Expert guidance on choosing the right approach for your building needs.",
 };

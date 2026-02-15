@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-top-causes-of-construction-delays-in-florida/' },
   title: "Construction Delays Florida | Tampa Bay Causes",
   description: "Understand the leading causes of commercial construction delays in Florida and how to mitigate them. Expert insights from Florida Construction Specialists in Tampa Bay.",
 };

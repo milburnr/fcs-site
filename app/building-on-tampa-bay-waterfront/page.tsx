@@ -31,6 +31,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-on-tampa-bay-waterfront/' },
   title: "Tampa Bay Waterfront Custom Homes | FCS",
   description:
     "Expert waterfront home construction on Tampa Bay. Navigate flood zones, seawall requirements, SWFWMD permits, and marine construction challenges for your dream waterfront property.",

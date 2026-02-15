@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-commercial-renovation-in-florida/' },
   title: "Commercial Renovation Tips Florida | Tampa",
   description: "Essential tips for successful commercial renovation in Florida's unique climate. Hurricane codes, humidity management, permit processes, and contractor selection from Tampa's construction experts.",
 };

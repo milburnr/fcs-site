@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-brandon/' },
   title: "Insurance Restoration Brandon FL | Storm Damage | FCS",
   description: "Brandon's most experienced insurance restoration contractor. 43 years claims expertise—7 as adjuster, 28 as contractor. Storm damage, fire restoration, flood recovery for Brandon, Valrico, Riverview, FishHawk. Fast response from nearby headquarters. Commercial & HOA specialists.",
   keywords: "insurance restoration Brandon FL, property damage restoration East Hillsborough, storm damage Brandon, commercial restoration Valrico, insurance claim contractor Brandon, HOA restoration Riverview, FishHawk storm damage, Bloomingdale property restoration",
@@ -80,7 +81,7 @@ const commercialPropertyTypes = [
 ];
 
 const hoaRestorationProcess = [
-  { step: 1, title: "Emergency Assessment", description: "Rapid response to document damage, coordinate emergency mitigation, and protect the community's interests from the first moments." },
+  { step: 1, title: "Emergency Assessment", description: "Rapid response to document damage, coordinate mitigation, and protect the community's interests from the first moments." },
   { step: 2, title: "Board Coordination", description: "Presentation to HOA board with detailed damage assessment, claim strategy recommendations, and preliminary cost projections." },
   { step: 3, title: "Insurance Documentation", description: "Comprehensive Xactimate estimates, photographic documentation, and claim support meeting insurance industry standards." },
   { step: 4, title: "Adjuster Coordination", description: "On-site meetings with insurance adjusters, scope negotiation, and supplemental claim preparation as hidden damage is discovered." },
@@ -95,7 +96,7 @@ const brandonFaqs = [
   },
   {
     question: "How quickly can FCS respond to property damage in Brandon?",
-    answer: "FCS headquarters is located in the Tampa Bay area, putting Brandon within approximately 20-30 minutes of our base of operations. For significant property damage requiring professional restoration, we can typically have personnel on-site within hours of initial contact for assessment. For emergency situations involving active water intrusion or fire damage, we coordinate with local emergency services and can begin documentation while mitigation occurs. Our Brandon proximity means we're familiar with local conditions, have relationships with Hillsborough County building officials, and can mobilize resources efficiently without the travel time required for contractors located further from East Hillsborough."
+    answer: "FCS headquarters is located in the Tampa Bay area, putting Brandon within approximately 20-30 minutes of our base of operations. For significant property damage requiring professional restoration, we can typically have personnel on-site within hours of initial contact for assessment. for prompt situations involving active water intrusion or fire damage, we coordinate with local prompt services and can begin documentation while mitigation occurs. Our Brandon proximity means we're familiar with local conditions, have relationships with Hillsborough County building officials, and can mobilize resources efficiently without the travel time required for contractors located further from East Hillsborough."
   },
   {
     question: "What types of insurance claims does FCS handle in Brandon?",
@@ -107,7 +108,7 @@ const brandonFaqs = [
   },
   {
     question: "How does FCS help with Hillsborough County permits for restoration work?",
-    answer: "Hillsborough County Building Services has specific permitting requirements for restoration and reconstruction work. Our extensive experience in the county means we understand the process, have relationships with plan review staff, and know how to prepare submissions that move efficiently through the system. For emergency repairs after disasters, we coordinate expedited permitting where available. Our in-house engineering capability ensures structural repairs meet code requirements and pass inspection. Brandon property owners benefit from our local expertise—we're not learning the county's processes on your project."
+    answer: "Hillsborough County Building Services has specific permitting requirements for restoration and reconstruction work. Our extensive experience in the county means we understand the process, have relationships with plan review staff, and know how to prepare submissions that move efficiently through the system. For storm repairs after disasters, we coordinate expedited permitting where available. Our in-house engineering capability ensures structural repairs meet code requirements and pass inspection. Brandon property owners benefit from our local expertise—we're not learning the county's processes on your project."
   },
   {
     question: "What happens when hidden damage is discovered during Brandon restoration projects?",
@@ -219,7 +220,7 @@ export default function InsuranceRestorationBrandonPage() {
                 className="btn-secondary flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Emergency: {BUSINESS_INFO.phone}
+                urgent: {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
@@ -651,7 +652,7 @@ export default function InsuranceRestorationBrandonPage() {
             <div className="bg-gray-50 rounded-xl p-8">
               <h3 className="text-xl font-bold text-brand-green-dark mb-6">Storm & Hurricane Damage</h3>
               <ul className="space-y-3">
-                {["Wind damage repair & roof restoration", "Water intrusion remediation", "Structural damage assessment", "Emergency tarping and board-up", "Complete property reconstruction", "Code compliance upgrades"].map((item) => (
+                {["Wind damage repair & roof restoration", "Water intrusion remediation", "Structural damage assessment", "tarping and board-up", "Complete property reconstruction", "Code compliance upgrades"].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">{item}</span>

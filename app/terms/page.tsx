@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/terms/' },
   title: `Terms of Service | ${BUSINESS_INFO.name}`,
   description: `Terms of Service for ${BUSINESS_INFO.name}. Please read these terms carefully before using our website or services.`,
   robots: "noindex, follow",

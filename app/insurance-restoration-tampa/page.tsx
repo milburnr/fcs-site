@@ -42,6 +42,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-tampa/' },
   title: "Insurance Restoration Tampa | 43 Years Claims Experience",
   description:
     "Tampa's most trusted insurance restoration contractor with 43 years experience on BOTH sides of the claims process. Former adjuster, certified Xactimate estimates. Hurricane, flood, fire damage. Commercial & large loss specialists. Call (813) 420-7561.",
@@ -74,7 +75,7 @@ const services = [
     icon: Wind,
     title: "Hurricane & Storm Damage",
     description:
-      "Complete hurricane restoration from emergency tarping through full reconstruction. Wind damage, roof systems, structural repairs, and water intrusion mitigation for Tampa's most vulnerable commercial and residential properties.",
+      "Complete hurricane restoration from tarping through full reconstruction. Wind damage, roof systems, structural repairs, and water intrusion mitigation for Tampa's most vulnerable commercial and residential properties.",
   },
   {
     icon: Droplets,
@@ -127,7 +128,7 @@ const damageTypes = [
   {
     icon: Wind,
     title: "Hurricane & Wind Damage",
-    description: "Tampa sits in one of the most hurricane-vulnerable metropolitan areas in the nation. When the next major storm impacts Hillsborough County, FCS brings 43 years of hurricane claim experience to bear—from emergency response through complete reconstruction.",
+    description: "Tampa sits in one of the most hurricane-vulnerable metropolitan areas in the nation. When the next major storm impacts Hillsborough County, FCS brings 43 years of hurricane claim experience to bear—from storm response through complete reconstruction.",
   },
   {
     icon: Droplets,
@@ -149,9 +150,9 @@ const damageTypes = [
 const processSteps = [
   {
     step: 1,
-    title: "Emergency Response",
+    title: "storm response",
     description:
-      "Rapid mobilization for large loss situations. Initial damage assessment, emergency stabilization coordination, and preliminary scope development within 24-48 hours for significant Tampa property losses.",
+      "Rapid mobilization for large loss situations. Initial damage assessment, structural stabilization coordination, and preliminary scope development within 24-48 hours for significant Tampa property losses.",
   },
   {
     step: 2,
@@ -224,7 +225,7 @@ const tampaFaqs = [
   {
     question: "What should Tampa property owners do immediately after major storm damage?",
     answer:
-      "First, ensure safety and document everything with photos and video before any cleanup—this initial documentation is crucial for your claim. Report the loss to your insurance company promptly. Take reasonable steps to prevent further damage (emergency tarping, water extraction, board-up) but document these efforts and keep all receipts. Don't begin permanent repairs until damage is properly documented by your adjuster. For large losses, contact FCS early. Our initial assessment can help ensure proper documentation from the start and identify hidden damage that might otherwise be missed. Early involvement of experienced professionals often results in more complete Tampa claim settlements.",
+      "First, ensure safety and document everything with photos and video before any cleanup—this initial documentation is crucial for your claim. Report the loss to your insurance company promptly. Take reasonable steps to prevent further damage (tarping, water extraction, board-up) but document these efforts and keep all receipts. Don't begin permanent repairs until damage is properly documented by your adjuster. For large losses, contact FCS early. Our initial assessment can help ensure proper documentation from the start and identify hidden damage that might otherwise be missed. Early involvement of experienced professionals often results in more complete Tampa claim settlements.",
   },
   {
     question: "How long does insurance restoration take for large Tampa commercial properties?",
@@ -322,7 +323,7 @@ export default function InsuranceRestorationTampaPage() {
                 className="btn-secondary flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Emergency: {BUSINESS_INFO.phone}
+                urgent: {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
@@ -697,7 +698,7 @@ export default function InsuranceRestorationTampaPage() {
               Insurance Restoration Services in Tampa
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Complete insurance restoration solutions from emergency response through final 
+              Complete insurance restoration solutions from storm response through final 
               reconstruction—guided by 43 years of claims expertise.
             </p>
           </div>
@@ -968,7 +969,7 @@ export default function InsuranceRestorationTampaPage() {
               </div>
 
               <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="font-bold text-xl mb-3">Emergency Response Available</h3>
+                <h3 className="font-bold text-xl mb-3">storm response Available</h3>
                 <p className="text-gray-200 mb-4">
                   For immediate assistance with Tampa disaster damage, contact our team directly:
                 </p>

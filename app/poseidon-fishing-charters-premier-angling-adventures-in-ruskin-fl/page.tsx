@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/poseidon-fishing-charters-premier-angling-adventures-in-ruskin-fl/' },
   title: "Poseidon Fishing Charters Ruskin FL | Adventures",
   description: "Ruskin, Florida, boasts not only scenic coastal beauty but also the opportunity for thrilling deep-sea fishing adventures, thanks to Poseidon Fishing",
 };

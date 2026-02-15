@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-costs/' },
   title: "Tampa Commercial Construction Costs | 2024 Price Guide",
   description: "Comprehensive guide to commercial construction costs in Tampa Bay. Current per-square-foot pricing, cost factors, and budgeting strategies for office, retail, medical & industrial projects.",
 };

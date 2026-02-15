@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/davis-islands-custom-home-building/' },
   title: "Davis Islands Custom Home Building Tampa | FCS",
   description:
     "Expert custom home building on Davis Islands, Tampa. Navigate flood zones, historic guidelines, and waterfront construction challenges with Florida Construction Specialists.",

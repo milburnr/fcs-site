@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/' },
   title: "Choosing Top Commercial Contractor Tampa | FCS",
   description: "Learn the critical factors that determine contractor quality in Tampa Bay. Make informed decisions when selecting your commercial construction partner.",
 };

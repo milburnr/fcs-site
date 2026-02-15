@@ -23,6 +23,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/fema-50-percent-rule-explained/' },
   title: "FEMA 50% Rule Tampa | Substantial Improvement",
   description:
     "Complete guide to the FEMA 50% Rule for Tampa Bay homeowners. Learn how substantial improvement calculations affect your flood zone renovation project.",

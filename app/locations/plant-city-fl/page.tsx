@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/plant-city-fl/' },
   title: "Plant City Construction Contractor | Commercial | FCS",
   description: "Premier general contractor serving Plant City, FL. Commercial construction, agricultural facilities, disaster recovery, residential. Just 15 minutes from our Ruskin headquarters. Projects $250K-$25M+. Call (813) 420-7561.",
   keywords: "construction contractor plant city, commercial construction plant city fl, disaster recovery plant city, agricultural construction hillsborough county",
@@ -36,7 +37,6 @@ const services = [
   },
   {
     title: "Disaster Recovery",
-    description: "Hurricane, storm, and flood damage restoration for commercial and residential properties. 24/7 emergency response throughout Plant City.",
     icon: Shield,
     href: "/services/disaster-recovery/",
   },
@@ -71,7 +71,6 @@ const faqs = [
   },
   {
     question: "Do you provide disaster recovery services in Plant City?",
-    answer: "Yes, we provide 24/7 disaster recovery services throughout Plant City. Our proximity to the area (15 minutes from our Ruskin office) allows rapid emergency response. We handle hurricane damage, storm damage, flooding, and fire restoration for both commercial and residential properties. We work directly with insurance companies on large loss claims."
   },
   {
     question: "What areas near Plant City do you also serve?",

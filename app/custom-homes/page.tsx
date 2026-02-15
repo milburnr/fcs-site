@@ -9,6 +9,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-homes/' },
   title: "Custom Home Builder Tampa Bay | Waterfront | FCS",
   description:
     "Tampa Bay's trusted custom home builder for 28+ years. Waterfront estates, luxury homes, and bespoke residences designed for Florida living. Get your free consultation with Florida Construction Specialists.",

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/challenges-in-historic-restoration-projects-in-tampa/' },
   title: "Historic Restoration Challenges Tampa | Solutions",
   description: "Navigate Tampa historic restoration challenges: regulatory compliance, hazardous materials, structural issues, code requirements. FCS provides expert solutions for complex projects.",
 };

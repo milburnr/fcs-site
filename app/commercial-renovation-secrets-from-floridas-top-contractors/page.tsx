@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-renovation-secrets-from-floridas-top-contractors/' },
   title: "Commercial Renovation Secrets from Florida's Top Contractors",
   description: "Insider tips for successful commercial renovation in Tampa Bay. Learn how experienced contractors approach tenant improvements, building upgrades, and adaptive reuse.",
 };

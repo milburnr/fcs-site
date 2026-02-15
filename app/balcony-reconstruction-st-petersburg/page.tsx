@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
   title: "Balcony Reconstruction St. Petersburg | SB 4-D | FCS",
   description: "St. Petersburg balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for peninsula properties, structural repairs, waterproofing. Expert contractors serving Pinellas County. Licensed, bonded, insured.",
   keywords: "balcony reconstruction St Petersburg, SB 4-D compliance St Pete, condo balcony repair St Petersburg, balcony waterproofing Pinellas County, milestone inspection St Pete, HOA balcony contractor St Petersburg",

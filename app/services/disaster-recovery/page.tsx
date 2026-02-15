@@ -10,6 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/disaster-recovery/' },
   title: "Disaster Recovery & Insurance Restoration in Tampa Bay",
   description: "Tampa Bay's expert insurance restoration contractor. 43+ years claims experience, large loss specialists, direct carrier relationships. Call (813) 420-7561.",
   keywords: [
@@ -36,7 +37,7 @@ const disasterFaqs = [
   },
   {
     question: "How quickly can you begin working on our property after a disaster?",
-    answer: "For large loss commercial and residential properties, we mobilize assessment teams as quickly as possible. Our focus is on proper documentation and scope development rather than emergency tarp-and-dry services—though we can coordinate those services when needed. Once engaged, we begin damage assessment, photo documentation, and preliminary scope development immediately."
+    answer: "For large loss commercial and residential properties, we mobilize assessment teams as quickly as possible. Our focus is on proper documentation and scope development rather than tarp-and-dry services—though we can coordinate those services when needed. Once engaged, we begin damage assessment, photo documentation, and preliminary scope development immediately."
   },
   {
     question: "Do you work with all insurance carriers?",

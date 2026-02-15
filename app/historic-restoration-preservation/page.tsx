@@ -6,6 +6,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-preservation/' },
   title: "Historic Restoration & Preservation Tampa FL",
   description:
     "Distinguished leaders in historic restoration and preservation in Florida. We blend traditional craftsmanship with modern techniques to preserve Florida's architectural heritage.",
@@ -298,7 +299,7 @@ export default function HistoricRestorationPage() {
               Hurricane and Storm Preparedness
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              Historic buildings in Tampa must be prepared for hurricane conditions while maintaining their architectural character. We develop storm preparedness strategies that protect historic elements through removable storm shutters, strengthened roof attachments, emergency stabilization plans, and regular maintenance programs that identify vulnerable elements before storm seasons.
+              Historic buildings in Tampa must be prepared for hurricane conditions while maintaining their architectural character. We develop storm preparedness strategies that protect historic elements through removable storm shutters, strengthened roof attachments, structural stabilization plans, and regular maintenance programs that identify vulnerable elements before storm seasons.
             </p>
           </div>
         </div>
@@ -374,7 +375,7 @@ export default function HistoricRestorationPage() {
               Historic Preservation Loan Fund
             </h3>
             <p className="text-gray-700 text-lg leading-relaxed mb-6">
-              The Tampa Historic Preservation Loan Fund offers low-interest financing for facade improvements, emergency stabilization, and accessibility improvements to contributing properties within historic districts. These revolving loan funds help property owners address immediate preservation needs while planning larger restoration projects.
+              The Tampa Historic Preservation Loan Fund offers low-interest financing for facade improvements, structural stabilization, and accessibility improvements to contributing properties within historic districts. These revolving loan funds help property owners address immediate preservation needs while planning larger restoration projects.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
@@ -410,7 +411,7 @@ export default function HistoricRestorationPage() {
                     <td className="border border-gray-300 px-4 py-3">$200 - $450</td>
                   </tr>
                   <tr className="bg-gray-50">
-                    <td className="border border-gray-300 px-4 py-3">Emergency Stabilization</td>
+                    <td className="border border-gray-300 px-4 py-3">Structural Stabilization</td>
                     <td className="border border-gray-300 px-4 py-3">Immediate threat mitigation</td>
                     <td className="border border-gray-300 px-4 py-3">$75 - $200</td>
                   </tr>

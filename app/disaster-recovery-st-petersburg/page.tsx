@@ -30,6 +30,7 @@ import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-st-petersburg/' },
   title: "Disaster Recovery in St. Petersburg",
   description: "St. Petersburg large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration, barrier island expertise. Call (813) 420-7561.",
   keywords: [
@@ -84,7 +85,7 @@ const stPeteFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in St. Petersburg?",
-    answer: "Hurricane restoration timelines vary significantly by project scope and barrier island access. Emergency stabilization typically takes 1-3 days once site access is available. Water extraction and structural drying require 5-14 days, and structural repairs range from 30-90 days. Complete restoration of large commercial or multi-family properties often requires 6-12 months, depending on damage extent, permit timelines through the City of St. Petersburg Building Department, and material availability—which can be strained following major events affecting all of Pinellas County."
+    answer: "Hurricane restoration timelines vary significantly by project scope and barrier island access. Stabilization typically takes 1-3 days once site access is available. Water extraction and structural drying require 5-14 days, and structural repairs range from 30-90 days. Complete restoration of large commercial or multi-family properties often requires 6-12 months, depending on damage extent, permit timelines through the City of St. Petersburg Building Department, and material availability—which can be strained following major events affecting all of Pinellas County."
   },
   {
     question: "How do you handle downtown St. Pete commercial property restoration?",
@@ -92,7 +93,7 @@ const stPeteFaqs = [
   },
   {
     question: "What types of disaster damage do you restore in St. Petersburg?",
-    answer: "We handle all major disaster types affecting St. Petersburg including hurricane and tropical storm damage, coastal flooding and storm surge, fire and smoke damage, tornado damage, hail damage, water intrusion from failed roofs or building envelopes, and saltwater intrusion damage common in barrier island properties. Our services encompass structural repair, roof reconstruction, interior restoration, mold remediation coordination, and complete building envelope reconstruction. As a prime contractor, we manage all aspects of restoration from emergency response through final completion."
+    answer: "We handle all major disaster types affecting St. Petersburg including hurricane and tropical storm damage, coastal flooding and storm surge, fire and smoke damage, tornado damage, hail damage, water intrusion from failed roofs or building envelopes, and saltwater intrusion damage common in barrier island properties. Our services encompass structural repair, roof reconstruction, interior restoration, mold remediation coordination, and complete building envelope reconstruction. As a prime contractor, we manage all aspects of restoration from storm response through final completion."
   },
 ];
 
@@ -316,7 +317,7 @@ export default function DisasterRecoveryStPetersburgPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <p className="font-semibold">Hurricane Damage</p>
-                <p className="text-sm text-gray-200">Emergency Response</p>
+                <p className="text-sm text-gray-200">Storm Response</p>
               </div>
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">

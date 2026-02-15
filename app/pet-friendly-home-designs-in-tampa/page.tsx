@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/pet-friendly-home-designs-in-tampa/' },
   title: "Pet-Friendly Home Designs Tampa | Custom Homes",
   description: "Build pet-friendly custom homes in Tampa with built-in features for dogs, cats, and more. Mudrooms, pet suites, fenced yards, durable flooring, and pet-washing stations. From $400K-$2M+.",
 };

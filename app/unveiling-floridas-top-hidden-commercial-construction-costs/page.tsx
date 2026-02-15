@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/unveiling-floridas-top-hidden-commercial-construction-costs/' },
   title: "Hidden Commercial Construction Costs Florida",
   description: "Uncover the hidden costs that catch Florida commercial construction projects off guard. Impact fees, hurricane requirements, soil conditions, and more—know before you budget.",
 };

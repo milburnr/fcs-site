@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/architectural-styles-in-tampas-historic-restoration/' },
   title: "Architectural Styles in Tampa Historic Restoration",
   description: "Expert guide to Tampa's historic architectural styles: Mediterranean Revival, Vernacular, Tampa Bungalow. Learn restoration techniques for Ybor City, Hyde Park & more.",
 };

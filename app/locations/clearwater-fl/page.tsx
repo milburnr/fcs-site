@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/clearwater-fl/' },
   title: "Clearwater Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Clearwater, FL. Commercial construction, multi-family residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction clearwater, clearwater general contractor, disaster recovery clearwater fl, coastal construction clearwater florida",
@@ -36,7 +37,6 @@ const services = [
   },
   {
     title: "Disaster Recovery",
-    description: "Hurricane, storm, and flood damage restoration for commercial and residential properties. 24/7 emergency response throughout Clearwater.",
     icon: Shield,
     href: "/services/disaster-recovery/",
   },

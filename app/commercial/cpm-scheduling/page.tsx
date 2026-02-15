@@ -28,6 +28,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/cpm-scheduling/' },
   title: "CPM Scheduling Tampa | Construction PM | FCS",
   description:
     "Critical Path Method scheduling for commercial construction projects. Prevent delays, optimize resources, and deliver on time. Tampa Bay's scheduling experts.",

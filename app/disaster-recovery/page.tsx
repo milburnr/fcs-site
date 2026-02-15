@@ -10,6 +10,7 @@ import { ContentImage, ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery/' },
   title: "Storm & Disaster Recovery Tampa | 43 Years | FCS",
   description: "Tampa Bay's most experienced insurance restoration contractor. 43 years claims experience from both sides—adjuster AND contractor. Large loss commercial and residential disaster recovery. Hurricane, flood, fire, and storm damage restoration.",
   keywords: "disaster recovery Tampa, storm damage restoration Florida, insurance restoration contractor, large loss restoration, hurricane damage repair Tampa Bay, commercial property restoration, flood damage restoration Florida, NFIP claims, insurance claim contractor",
@@ -24,7 +25,7 @@ const coreServices = [
   "Large loss commercial restoration",
   "Multi-family and HOA disaster recovery",
   "Complete property reconstruction",
-  "Emergency stabilization and tarping",
+  "Stabilization and tarping",
   "Supplemental claim documentation"
 ];
 
@@ -50,7 +51,7 @@ const faqs = [
   },
   {
     question: "How quickly can FCS respond to disaster situations?",
-    answer: "While FCS doesn't handle small emergency repairs, we mobilize quickly for large loss situations. Our team can begin damage assessment within 24-48 hours for significant losses. For major disasters, we have experience deploying to catastrophe zones—including Hurricane Harvey response in Texas and Hurricane Irma throughout Florida. Our emergency response includes immediate site assessment, stabilization recommendations, and preliminary scope development."
+    answer: "While FCS doesn't handle small prompt repairs, we mobilize quickly for large loss situations. Our team can begin damage assessment within 24-48 hours for significant losses. For major disasters, we have experience deploying to catastrophe zones—including Hurricane Harvey response in Texas and Hurricane Irma throughout Florida. Our storm response includes immediate site assessment, stabilization recommendations, and preliminary scope development."
   },
   {
     question: "Does FCS handle the entire insurance claim process?",
@@ -74,7 +75,7 @@ const faqs = [
   },
   {
     question: "What should I do immediately after disaster damage occurs?",
-    answer: "First, ensure safety and document everything with photos and video before any cleanup. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (tarping, board-up) but don't begin permanent repairs until the damage is documented. Keep all receipts for emergency expenses. For large losses, contact FCS early—our initial assessment can help ensure proper documentation from the start and identify damage that might otherwise be missed."
+    answer: "First, ensure safety and document everything with photos and video before any cleanup. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (tarping, board-up) but don't begin permanent repairs until the damage is documented. Keep all receipts for prompt expenses. For large losses, contact FCS early—our initial assessment can help ensure proper documentation from the start and identify damage that might otherwise be missed."
   },
   {
     question: "Does FCS work on both commercial and residential properties?",
@@ -162,7 +163,7 @@ export default function DisasterRecoveryPage() {
                 className="btn-secondary flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Emergency: {BUSINESS_INFO.phone}
+                urgent: {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
@@ -324,9 +325,9 @@ export default function DisasterRecoveryPage() {
               <h3 className="text-2xl font-bold text-brand-green-dark mt-10 mb-4">Emergency Stabilization: Tarping and Board-Up</h3>
               <p className="mb-4">
                 After hurricane damage, property owners have a duty to mitigate further damage—and insurance 
-                policies require reasonable mitigation efforts. Emergency tarping covers roof openings to 
+                policies require reasonable mitigation efforts. tarping covers roof openings to 
                 prevent additional water intrusion. Board-up services secure broken windows, doors, and 
-                openings against weather and unauthorized entry. These emergency services are typically 
+                openings against weather and unauthorized entry. These prompt services are typically 
                 covered under the insurance policy as part of the loss.
               </p>
 
@@ -334,7 +335,7 @@ export default function DisasterRecoveryPage() {
                 However, the quality and completeness of emergency work matters significantly. Improper 
                 tarping that allows continued water entry, or inadequate board-up that permits additional 
                 damage, can complicate claims and may shift some responsibility to the property owner. 
-                FCS coordinates with qualified emergency service providers and oversees stabilization efforts 
+                FCS coordinates with qualified prompt service providers and oversees stabilization efforts 
                 to ensure proper protection of the property.
               </p>
 
@@ -399,9 +400,9 @@ export default function DisasterRecoveryPage() {
       {/* Visual Break - Storm Damage */}
       <ContentParallax
         src="/images/hurricane-restoration/hurricane-restoration-large.webp"
-        alt="Storm damage restoration and emergency repairs"
+        alt="Storm damage restoration and prompt repairs"
         title="Complete Property Recovery"
-        subtitle="From emergency stabilization to full reconstruction"
+        subtitle="From structural stabilization to full reconstruction"
         overlayOpacity={0.55}
       />
 
@@ -765,7 +766,7 @@ export default function DisasterRecoveryPage() {
 
               <h3 className="text-2xl font-bold text-brand-green-dark mt-10 mb-4">The Fire Restoration Process</h3>
               <p>
-                Fire restoration follows a systematic process: emergency stabilization (securing the 
+                Fire restoration follows a systematic process: structural stabilization (securing the 
                 structure, temporary weatherproofing), water extraction and drying, debris removal, 
                 structural evaluation, smoke and soot remediation, reconstruction, and final cleaning 
                 and restoration. Throughout this process, proper documentation supports the insurance 
@@ -949,7 +950,7 @@ export default function DisasterRecoveryPage() {
               <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">Documenting Damage Properly</h3>
               <p className="mb-4">
                 Proper damage documentation begins immediately after the event, before any cleanup, 
-                debris removal, or emergency repairs. This initial documentation establishes the 
+                debris removal, or prompt repairs. This initial documentation establishes the 
                 condition that will be evaluated for coverage and serves as the foundation for the 
                 entire claim.
               </p>
@@ -963,7 +964,7 @@ export default function DisasterRecoveryPage() {
 
               <p className="mb-4">
                 Written documentation should include dates and times, damage descriptions, witness 
-                information if relevant, and immediate actions taken. Keep all receipts for emergency 
+                information if relevant, and immediate actions taken. Keep all receipts for prompt 
                 services, temporary repairs, and mitigation efforts—these costs are typically covered 
                 as part of the loss.
               </p>
@@ -1288,7 +1289,7 @@ export default function DisasterRecoveryPage() {
         </div>
       </section>
 
-      {/* Emergency Response Timeline */}
+      {/* storm response Timeline */}
       <section id="timeline" className="section bg-gray-50">
         <div className="container-custom">
           <div className="max-w-5xl mx-auto">
@@ -1297,7 +1298,7 @@ export default function DisasterRecoveryPage() {
                 <Clock className="w-8 h-8 text-white" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark font-heading">
-                Emergency Response Timeline
+                storm response Timeline
               </h2>
             </div>
             
@@ -1318,7 +1319,7 @@ export default function DisasterRecoveryPage() {
 
               <p className="mb-4">
                 For large losses, this is also when to contact FCS. Early involvement allows proper 
-                initial documentation, coordination of emergency services, and preparation for the 
+                initial documentation, coordination of prompt services, and preparation for the 
                 claims process. We can assess damage scope and begin planning even while emergency 
                 stabilization continues.
               </p>
@@ -1332,7 +1333,7 @@ export default function DisasterRecoveryPage() {
               </p>
 
               <p className="mb-4">
-                Emergency mitigation should be substantially complete—structures dried, temporary 
+                Mitigation should be substantially complete—structures dried, temporary 
                 protection in place, ongoing damage prevention established. Document all emergency 
                 work for inclusion in the claim.
               </p>
@@ -1552,7 +1553,7 @@ export default function DisasterRecoveryPage() {
               <p className="mb-4">
                 Insurance policies require property owners to mitigate further damage—you can't let a roof 
                 leak continue damaging the interior while waiting for an adjuster. However, there's a crucial 
-                difference between emergency mitigation and permanent repairs. Emergency repairs (tarping a 
+                difference between mitigation and permanent repairs. storm repairs (tarping a 
                 damaged roof, boarding broken windows, extracting standing water) are covered and expected. 
                 Permanent repairs made before the adjuster inspects can create major problems.
               </p>
@@ -1562,8 +1563,8 @@ export default function DisasterRecoveryPage() {
                 photographs, the adjuster's independent evaluation—which carriers rely on—becomes impossible.
               </p>
               <p className="mb-4">
-                <strong>Best practice:</strong> Perform only emergency mitigation until the adjuster completes 
-                their inspection. Keep all receipts for emergency work. If permanent repairs are absolutely 
+                <strong>Best practice:</strong> Perform only mitigation until the adjuster completes 
+                their inspection. Keep all receipts for prompt work. If permanent repairs are absolutely 
                 necessary before inspection (rare), document extensively and notify your carrier in writing 
                 explaining why repairs couldn't wait.
               </p>
@@ -1761,7 +1762,7 @@ export default function DisasterRecoveryPage() {
             <div className="bg-white rounded-xl p-8 shadow-sm">
               <h3 className="text-xl font-bold text-brand-green-dark mb-6">Storm & Hurricane Damage</h3>
               <ul className="space-y-3">
-                {["Wind damage repair", "Roof restoration and replacement", "Water intrusion remediation", "Structural damage repair", "Emergency tarping and board-up", "Window and door replacement"].map((item) => (
+                {["Wind damage repair", "Roof restoration and replacement", "Water intrusion remediation", "Structural damage repair", "tarping and board-up", "Window and door replacement"].map((item) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
                     <span className="text-gray-700">{item}</span>

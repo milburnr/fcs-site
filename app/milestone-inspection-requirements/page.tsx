@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/milestone-inspection-requirements/' },
   title: "Milestone Inspection Requirements FL | SB 4-D",
   description:
     "Complete guide to milestone structural inspections for Florida condominiums under SB 4-D. Phase 1, Phase 2 requirements, timelines, and what to expect.",
@@ -200,7 +201,7 @@ const faqs = [
   {
     question: "What happens if our building fails the milestone inspection?",
     answer:
-      "There is no pass/fail—the inspection identifies conditions and recommends repairs. If Phase 2 is required, the association must begin it within 180 days. If repairs are needed, they must begin within 365 days of the Phase 2 report. The association must fund repairs through SIRS reserves. If conditions are immediately dangerous, the engineer may require emergency stabilization or evacuation.",
+      "There is no pass/fail—the inspection identifies conditions and recommends repairs. If Phase 2 is required, the association must begin it within 180 days. If repairs are needed, they must begin within 365 days of the Phase 2 report. The association must fund repairs through SIRS reserves. If conditions are immediately dangerous, the engineer may require structural stabilization or evacuation.",
   },
   {
     question: "How much do milestone inspections cost?",

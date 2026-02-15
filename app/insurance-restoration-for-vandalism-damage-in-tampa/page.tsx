@@ -8,6 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-for-vandalism-damage-in-tampa/' },
   title: "Vandalism Damage Restoration Tampa | Commercial",
   description: "Insurance restoration for vandalism damage in Tampa. Commercial property repair for graffiti, break-ins, and intentional destruction. Expert claim documentation and complete restoration services.",
 };
@@ -180,7 +181,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Board-Up</td>
+                    <td className="px-6 py-4 font-medium">Board-Up</td>
                     <td className="px-6 py-4">$150 - $500/opening</td>
                     <td className="px-6 py-4 text-gray-600">Windows and doors</td>
                   </tr>

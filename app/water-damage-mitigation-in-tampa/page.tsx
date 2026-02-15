@@ -7,8 +7,8 @@ import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/componen
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/water-damage-mitigation-in-tampa/' },
   title: "Water Damage Mitigation in Tampa",
-  description: "Get fast, expert water damage mitigation in Tampa to restore your home or business. Our 24/7 emergency water damage repair services ensure your property is safe",
 };
 
 const breadcrumbItems = [
@@ -32,7 +32,6 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema 
         serviceName="Water Damage Mitigation"
-        serviceDescription="Fast, expert water damage mitigation in Tampa for homes and businesses. 24/7 emergency water damage repair services to ensure your property is safe and restored quickly."
         city="Tampa"
       />
       {/* Hero */}
@@ -53,7 +52,6 @@ export default function Page() {
             Water Damage Mitigation in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Get fast, expert water damage mitigation in Tampa to restore your home or business. Our 24/7 emergency water damage repair services ensure your proper
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -83,7 +81,7 @@ export default function Page() {
                 Understanding Water Damage Mitigation vs. Restoration
               </h2>
               <p className="text-gray-600 mb-6">
-                Water damage mitigation and restoration are two distinct but complementary phases of water damage recovery. Mitigation focuses on immediate emergency response to stop ongoing damage and prevent secondary problems. This includes source identification and control, water extraction, structural stabilization, and moisture content reduction. Restoration, which follows mitigation, involves rebuilding and repairing damaged materials and systems.
+                Water damage mitigation and restoration are two distinct but complementary phases of water damage recovery. Mitigation focuses on immediate storm response to stop ongoing damage and prevent secondary problems. This includes source identification and control, water extraction, structural stabilization, and moisture content reduction. Restoration, which follows mitigation, involves rebuilding and repairing damaged materials and systems.
               </p>
 
               <p className="text-gray-600 mb-6">
@@ -94,7 +92,6 @@ export default function Page() {
                 Emergency Water Damage Mitigation Response
               </h2>
               <p className="text-gray-600 mb-6">
-                Our emergency mitigation response begins the moment you call our 24/7 hotline. Our dispatch system immediately activates the nearest response team while gathering critical information about your water damage emergency. Within minutes, we can provide initial guidance to help you take immediate steps to minimize damage while our crews are en route.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">First Response Priority Actions</h3>
@@ -221,7 +218,7 @@ export default function Page() {
                 Tampa-Specific Water Damage Mitigation Challenges
               </h2>
               <p className="text-gray-600 mb-6">
-                Tampa's subtropical climate creates unique challenges for water damage mitigation. High humidity levels slow drying processes, frequent storms can complicate emergency response, and year-round warm temperatures can accelerate mold growth. Our local experience allows us to adapt mitigation strategies for these specific conditions.
+                Tampa's subtropical climate creates unique challenges for water damage mitigation. High humidity levels slow drying processes, frequent storms can complicate storm response, and year-round warm temperatures can accelerate mold growth. Our local experience allows us to adapt mitigation strategies for these specific conditions.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane Season Preparedness</h3>
@@ -238,7 +235,7 @@ export default function Page() {
                 Insurance Coordination During Emergency Mitigation
               </h2>
               <p className="text-gray-600 mb-6">
-                Our 43 years of insurance experience means we understand the importance of proper documentation and communication during emergency mitigation. We begin insurance coordination immediately, contacting your insurance company to report the claim and coordinating adjuster inspections while continuing mitigation efforts.
+                Our 43 years of insurance experience means we understand the importance of proper documentation and communication during mitigation. We begin insurance coordination immediately, contacting your insurance company to report the claim and coordinating adjuster inspections while continuing mitigation efforts.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Documentation Standards</h3>
@@ -281,7 +278,7 @@ export default function Page() {
                 Content Protection and Emergency Pack-Out
               </h2>
               <p className="text-gray-600 mb-6">
-                Water damage mitigation often includes protecting and preserving personal belongings and business assets. Our emergency pack-out services remove valuable contents from the water-damaged environment, preventing further damage and allowing for off-site cleaning and restoration.
+                Water damage mitigation often includes protecting and preserving personal belongings and business assets. our pack-out services remove valuable contents from the water-damaged environment, preventing further damage and allowing for off-site cleaning and restoration.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Priority Content Protection</h3>
@@ -356,7 +353,7 @@ export default function Page() {
                 Why Choose Florida Construction Specialists for Water Damage Mitigation
               </h2>
               <p className="text-gray-600 mb-6">
-                Our water damage mitigation services combine rapid emergency response, advanced technology, and extensive insurance experience to provide the most effective mitigation possible. With 43 years of experience in Tampa Bay, we understand local conditions and have the resources to handle any scale of water damage emergency.
+                Our water damage mitigation services combine rapid storm response, advanced technology, and extensive insurance experience to provide the most effective mitigation possible. With 43 years of experience in Tampa Bay, we understand local conditions and have the resources to handle any scale of water damage emergency.
               </p>
 
               <div className="bg-brand-green-light/20 p-6 rounded-lg mb-6">
@@ -364,7 +361,6 @@ export default function Page() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                    <span>24/7 emergency response throughout Tampa Bay</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
@@ -393,11 +389,10 @@ export default function Page() {
                 Emergency Water Damage Mitigation: Call Now
               </h2>
               <p className="text-gray-600 mb-6">
-                Water damage emergencies require immediate professional mitigation to minimize damage and prevent costly secondary problems. If your Tampa property is experiencing water intrusion, don't delay – call Florida Construction Specialists immediately for emergency mitigation services.
+                Water damage emergencies require immediate professional mitigation to minimize damage and prevent costly secondary problems. If your Tampa property is experiencing water intrusion, don't delay – call Florida Construction Specialists immediately for prompt mitigation services.
               </p>
 
               <p className="text-gray-600 mb-6">
-                Our 24/7 emergency response team will guide you through immediate damage control steps while dispatching our crews to your location. With proper mitigation, we can often reduce restoration costs significantly and prevent secondary damage that could make your property uninhabitable. Time is critical – call now to protect your property investment.
               </p>
           </div>
         </div>

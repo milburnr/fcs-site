@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/your-top-choice-for-commercial-construction-in-tampa/' },
   title: "Your Top Choice for Commercial Construction in Tampa",
   description: "We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay.",
 };
@@ -20,7 +21,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

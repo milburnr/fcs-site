@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-condominiums/' },
   title: "Insurance Restoration Condominiums Tampa | FCS",
   description:
     "Expert insurance restoration services for Tampa Bay condominiums. Navigate HOA claims, unit owner responsibilities, and complex multi-party insurance coordination for condo damage repairs.",
@@ -101,7 +102,7 @@ const damageScenarios = [
 
 const claimProcess = [
   {
-    phase: "Emergency Response",
+    phase: "storm response",
     duration: "0-72 hours",
     hoaActions: [
       "Document damage with photos/video",

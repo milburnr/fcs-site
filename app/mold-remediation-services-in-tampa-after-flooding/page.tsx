@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/mold-remediation-services-in-tampa-after-flooding/' },
   title: "Mold Remediation Services in Tampa After Flooding",
   description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal, water damage cleanup, and flood damage restoration for your home ...",
 };
@@ -302,7 +303,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Ongoing Monitoring and Maintenance</h3>
               <p className="text-gray-600 mb-6">
-                We provide ongoing monitoring services including regular moisture and humidity checks, visual inspections for early mold detection, HVAC maintenance that prevents contamination, and emergency response for future water intrusion events.
+                We provide ongoing monitoring services including regular moisture and humidity checks, visual inspections for early mold detection, HVAC maintenance that prevents contamination, and storm response for future water intrusion events.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -326,7 +327,7 @@ export default function Page() {
                 Emergency Mold Response After Major Flooding Events
               </h2>
               <p className="text-gray-600 mb-6">
-                Major flooding events like hurricanes can create widespread mold contamination throughout Tampa Bay. Our emergency response protocols are designed to handle multiple properties simultaneously while maintaining our high standards for thorough remediation.
+                Major flooding events like hurricanes can create widespread mold contamination throughout Tampa Bay. Our storm response protocols are designed to handle multiple properties simultaneously while maintaining our high standards for thorough remediation.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Rapid Assessment and Triage</h3>
@@ -336,7 +337,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Coordinated Response Management</h3>
               <p className="text-gray-600 mb-6">
-                We coordinate with other contractors, insurance companies, and emergency management agencies during large-scale events. Our established relationships and proven protocols allow us to maintain service quality even when demand for mold remediation services exceeds normal capacity.
+                We coordinate with other contractors, insurance companies, and storm management agencies during large-scale events. Our established relationships and proven protocols allow us to maintain service quality even when demand for mold remediation services exceeds normal capacity.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

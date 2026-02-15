@@ -9,6 +9,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { FadeIn, StaggerContainer } from "@/components/AnimatedElements";
 import {
+
   CheckCircle,
   Shield,
   Award,
@@ -47,7 +48,7 @@ const faqs = [
   },
   {
     question: "What is the fire damage restoration process?",
-    answer: "Our process includes: 1) Emergency board-up and stabilization, 2) Assessment and documentation, 3) Water removal from firefighting, 4) Smoke and soot removal from all surfaces, 5) Structural cleaning and repairs, 6) Content pack-out and professional cleaning, 7) Odor elimination, 8) Complete reconstruction and restoration.",
+    answer: "Our process includes: 1) Board-up and stabilization, 2) Assessment and documentation, 3) Water removal from firefighting, 4) Smoke and soot removal from all surfaces, 5) Structural cleaning and repairs, 6) Content pack-out and professional cleaning, 7) Odor elimination, 8) Complete reconstruction and restoration.",
   },
   {
     question: "How long does fire damage restoration take?",
@@ -119,7 +120,7 @@ export default function FireDamagePage() {
       <LocalBusinessSchema service="Fire Damage Restoration" />
       <ServiceSchema
         serviceName="Fire Damage Restoration Services"
-        serviceDescription="Professional fire damage restoration for Tampa Bay properties. Emergency response, smoke and soot removal, odor elimination, content restoration, and complete reconstruction with 43+ years experience."
+        serviceDescription="Professional fire damage restoration for Tampa Bay properties. storm response, smoke and soot removal, odor elimination, content restoration, and complete reconstruction with 43+ years experience."
         minPrice="10000"
       />
       <FAQSchema faqs={faqs} />
@@ -137,7 +138,6 @@ export default function FireDamagePage() {
             <FadeIn>
               <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/50 px-4 py-2 rounded-full mb-6">
                 <AlertTriangle className="w-5 h-5 text-orange-400" />
-                <span className="text-orange-200 font-medium">24/7 Emergency Response</span>
               </div>
             </FadeIn>
 
@@ -179,7 +179,7 @@ export default function FireDamagePage() {
                   className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Emergency: {BUSINESS_INFO.phone}
+                  urgent: {BUSINESS_INFO.phone}
                 </a>
                 <Link
                   href="/contact/"
@@ -254,7 +254,7 @@ export default function FireDamagePage() {
                   Our Fire Restoration Process
                 </h3>
                 <p className="text-gray-700 mb-6">
-                  We begin with emergency stabilization—boarding up openings, tarping damaged
+                  We begin with structural stabilization—boarding up openings, tarping damaged
                   roofs, and securing the property. This prevents additional damage from weather
                   and unauthorized entry. We then conduct a comprehensive assessment, documenting
                   all damage for insurance purposes and developing a detailed restoration plan.
@@ -322,7 +322,7 @@ export default function FireDamagePage() {
               {[
                 {
                   step: "1",
-                  title: "Emergency Response & Securing",
+                  title: "storm response & Securing",
                   description: "Board-up, tarping, and property securing to prevent additional damage from weather and intrusion.",
                 },
                 {
@@ -414,14 +414,13 @@ export default function FireDamagePage() {
               <div>
                 <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/50 px-4 py-2 rounded-full mb-6">
                   <AlertTriangle className="w-5 h-5 text-orange-400" />
-                  <span className="text-orange-200 font-medium">24/7 Emergency Response</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   Fire Damage? We're Here to Help
                 </h2>
                 <p className="text-xl text-gray-300 mb-6">
                   Don't face fire restoration alone. Contact FCS for immediate
-                  emergency response, professional restoration, and expert
+                  storm response, professional restoration, and expert
                   insurance claim support. We help you rebuild after fire.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -430,7 +429,7 @@ export default function FireDamagePage() {
                     className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    Emergency: {BUSINESS_INFO.phone}
+                    urgent: {BUSINESS_INFO.phone}
                   </a>
                 </div>
                 <p className="text-gray-400 mt-4">
@@ -441,7 +440,7 @@ export default function FireDamagePage() {
 
             <FadeIn delay={0.2}>
               <div className="bg-white rounded-2xl p-8 shadow-2xl">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Emergency Service</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Request prompt service</h3>
                 <HighLevelForm height={450} />
               </div>
             </FadeIn>

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-key-traits-of-top-commercial-contractors-in-tampa/' },
   title: "Key Traits of Top Commercial Contractors Tampa",
   description: "Discover the essential characteristics that distinguish outstanding commercial contractors in Tampa Bay. Learn what separates the best from the rest in Florida's competitive market.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/decoding-commercial-construction-costs/' },
   title: "Commercial Construction Costs Tampa Bay | FCS",
   description: "Understand commercial construction costs in Tampa Bay. Detailed cost breakdowns by building type, hidden cost factors, and expert budgeting guidance from Florida Construction Specialists.",
 };

@@ -8,6 +8,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/office-building-renovation-in-tampa/' },
   title: "Office Building Renovation Tampa | Modernization",
   description: "Transform your Tampa office building with expert renovation services. Lobby upgrades, common area modernization, systems updates, and tenant improvements from Florida Construction Specialists.",
 };

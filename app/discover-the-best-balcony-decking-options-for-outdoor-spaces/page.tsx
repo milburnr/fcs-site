@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/discover-the-best-balcony-decking-options-for-outdoor-spaces/' },
   title: "Best Balcony Decking Options for High-Rise Buildings Tampa",
   description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Tile, pavers, deck coatings, and composite systems with expert installation and SB 4-D compliance.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/top-balcony-flooring-materials-for-style-durability/", label: "Balcony Flooring Materials" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/balcony-restoration-services/", label: "Balcony Restoration" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -174,7 +175,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Pedestal-supported paver systems offer particular advantages for SB 4-D compliance. Individual pavers lift out easily, providing immediate access to the waterproofing membrane beneath. After inspection, pavers reinstall without special tools or skills. This accessibility simplifies both scheduled inspections and emergency repairs if leaks develop. The slight additional cost of pedestal systems often pays for itself in reduced future maintenance complexity.
+              Pedestal-supported paver systems offer particular advantages for SB 4-D compliance. Individual pavers lift out easily, providing immediate access to the waterproofing membrane beneath. After inspection, pavers reinstall without special tools or skills. This accessibility simplifies both scheduled inspections and storm repairs if leaks develop. The slight additional cost of pedestal systems often pays for itself in reduced future maintenance complexity.
             </p>
 
             <p className="text-gray-600 mb-6">

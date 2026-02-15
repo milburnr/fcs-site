@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
   title: "Flood Remediation Tampa | Commercial Damage | FCS",
   description: "Licensed flood remediation contractors in Tampa. Commercial flood damage restoration, water extraction, structural drying, and mold prevention. IICRC-certified technicians serving Tampa Bay businesses.",
 };
@@ -160,7 +161,6 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>24/7 emergency response</span>
                   </li>
                 </ul>
               </div>
@@ -272,7 +272,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Water Extraction</td>
+                    <td className="px-6 py-4 font-medium">Water Extraction</td>
                     <td className="px-6 py-4">$3 - $8/sq ft</td>
                     <td className="px-6 py-4 text-gray-600">Water depth, accessibility</td>
                   </tr>
@@ -306,7 +306,7 @@ export default function Page() {
             </div>
 
             <p className="text-sm text-gray-500 mb-8">
-              *Prices reflect 2024 Tampa Bay market rates for Category 3 (flood) water damage. Costs do not include reconstruction after remediation. Emergency response during major flood events may face price increases due to demand. Contact us for assessment and estimate.
+              *Prices reflect 2024 Tampa Bay market rates for Category 3 (flood) water damage. Costs do not include reconstruction after remediation. storm response during major flood events may face price increases due to demand. Contact us for assessment and estimate.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
@@ -317,7 +317,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
                   <p className="text-gray-600">24/7 response to flood emergencies. We assess safety conditions, begin pumping standing water, and establish site access protocols. Proper PPE protects workers from contaminated water hazards.</p>
                 </div>
               </div>
@@ -380,7 +380,6 @@ export default function Page() {
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Flood Emergency? Call Now.</h3>
               <p className="mb-6 text-gray-200">
-                If your Tampa Bay commercial property has flooded, contact Florida Construction Specialists immediately. Our 24/7 emergency response team will begin remediation as quickly as possible to minimize damage and protect your property.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">

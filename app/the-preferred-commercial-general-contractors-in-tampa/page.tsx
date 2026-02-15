@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-preferred-commercial-general-contractors-in-tampa/' },
   title: "Preferred Commercial General Contractors in Tampa",
   description: "Discover why Florida Construction Specialists is the preferred commercial general contractor in Tampa Bay. Learn what makes a contractor the preferred choice for commercial projects.",
 };

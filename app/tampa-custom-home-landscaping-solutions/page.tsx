@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-home-landscaping-solutions/' },
   title: "Tampa Custom Home Landscaping | Luxury Outdoor",
   description: "Create stunning landscapes for your Tampa custom home. Native Florida plants, outdoor living integration, pools, and sustainable irrigation. Complete landscaping from $50K-$500K+.",
 };

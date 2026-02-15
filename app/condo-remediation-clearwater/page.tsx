@@ -42,6 +42,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-clearwater/' },
   title: "Condo Remediation Clearwater | SB4-D Compliance & SIRS",
   description:
     "Clearwater Beach condo remediation specialists. SB4-D compliance, milestone inspections, SIRS structural reserve studies for Sand Key, Island Estates, and Clearwater condominiums. Coastal zone deadline experts. Call (813) 420-7561.",
@@ -278,7 +279,7 @@ const clearwaterFaqs = [
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "SB4-D Compliance Services (Pillar Page)" },
   { href: "/balcony-reconstruction-clearwater/", label: "Clearwater Balcony Reconstruction" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/condo-remediation-st-petersburg/", label: "St. Petersburg Condo Remediation" },
   { href: "/condo-remediation-tampa/", label: "Tampa Condo Remediation" },
   { href: "/contact/", label: "Schedule Compliance Assessment" },
@@ -562,7 +563,7 @@ export default function CondoRemediationClearwaterPage() {
                       Need a Compliance Assessment for Your Clearwater Building?
                     </h4>
                     <p className="text-gray-600">
-                      Free consultation for qualified projects—don't wait until deadlines force emergency action.
+                      Free consultation for qualified projects—don't wait until deadlines force rushed action.
                     </p>
                   </div>
                   <a

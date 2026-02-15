@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-building-structural-assessment-in-tampa/' },
   title: "Historic Building Structural Assessment in Tampa",
   description: "Expert structural assessment for Tampa's historic buildings. Comprehensive evaluation of load-bearing systems, foundation conditions, and structural integrity for preservation projects.",
 };

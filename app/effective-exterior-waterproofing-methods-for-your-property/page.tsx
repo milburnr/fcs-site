@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/effective-exterior-waterproofing-methods-for-your-property/' },
   title: "Exterior Waterproofing Methods Tampa | Commercial",
   description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection, facade waterproofing, and SB 4-D compliant solutions.",
 };
@@ -24,7 +25,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
   { href: "/waterproofing-commercial-contractors/", label: "Commercial Waterproofing" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/maximize-work-area-efficiency-for-commercial-space-solutions/' },
   title: "Maximize Work Area Efficiency Tampa | Commercial",
   description: "Expert guide to maximizing work area efficiency in commercial spaces. Space planning, layout optimization, density strategies, and construction solutions for Tampa Bay businesses.",
 };

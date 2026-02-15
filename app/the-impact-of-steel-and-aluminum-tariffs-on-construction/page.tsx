@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-impact-of-steel-and-aluminum-tariffs-on-construction/' },
   title: "The Impact of Steel and Aluminum Tariffs on Construction",
   description: "Discover how steel and aluminum tariffs are shaping the commercial construction industry in Florida and the impact it has on the steel and aluminum sectors.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-hurricane-safe-structures-florida/' },
   title: "Hurricane-Safe Structures Florida | Guide",
   description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design, impact glazing, and storm-proof construction from Tampa Bay contractors.",
 };
@@ -481,7 +482,7 @@ export default function Page() {
                 Even hurricane-resistant buildings require preparation before major storms. Loose objects must be secured or removed, emergency equipment must be tested and fueled, and critical systems must be protected. Buildings with backup generators should verify fuel availability and conduct test runs to ensure reliability.
               </p>
               <p className="text-gray-600 mb-6">
-                Pre-storm inspections help identify any maintenance issues that could compromise performance. Roof drains should be cleared, window seals should be inspected, and emergency supplies should be stocked. Many building owners maintain detailed hurricane preparation checklists to ensure nothing is overlooked.
+                Pre-storm inspections help identify any maintenance issues that could compromise performance. Roof drains should be cleared, window seals should be inspected, and storm supplies should be stocked. Many building owners maintain detailed hurricane preparation checklists to ensure nothing is overlooked.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-4">Post-Storm Assessment</h3>

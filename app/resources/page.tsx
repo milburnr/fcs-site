@@ -21,6 +21,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/resources/' },
   title: "Resources & Guides | Construction Knowledge Hub | FCS Tampa",
   description:
     "Expert guides on Tampa Bay construction regulations, FEMA compliance, historic preservation, SB4-D requirements, and more. Free resources for commercial and residential projects.",
@@ -30,24 +31,13 @@ export const metadata: Metadata = {
 
 const commercialResources = [
   {
-    category: "Medical & Healthcare",
-    icon: Stethoscope,
-    articles: [
-      { title: "Navigating AHCA Inspections", href: "/navigating-ahca-inspections/", isNew: true },
-      { title: "Medical Office Value Engineering", href: "/medical-office-value-engineering/" },
-      { title: "Clean Room Construction Standards", href: "/clean-room-construction-standards/" },
-      { title: "Medical Gas Piping Requirements", href: "/medical-gas-piping-requirements/" },
-    ],
-  },
-  {
     category: "Industrial & Large Scale",
     icon: Factory,
     articles: [
       { title: "CPM Scheduling to Prevent Delays", href: "/commercial/cpm-scheduling/" },
       { title: "Tilt-Wall vs Metal Buildings", href: "/tilt-wall-vs-metal-buildings/" },
       { title: "Industrial Flex Space Development", href: "/industrial-flex-space-development/" },
-      { title: "Warehouse Construction Tampa Bay", href: "/warehouse-construction-tampa-bay/" },
-    ],
+      { title: "Warehouse Construction Tampa Bay", href: "/warehouse-construction-tampa-bay/" }],
   },
   {
     category: "Historic Restoration (Commercial)",
@@ -56,8 +46,7 @@ const commercialResources = [
       { title: "Tampa's Historic Social Clubs Restoration", href: "/tampa-historic-social-clubs-restoration/" },
       { title: "Navigating Florida SHPO Requirements", href: "/florida-shpo-requirements/" },
       { title: "Historic Tax Credits for Commercial Buildings", href: "/historic-tax-credits-commercial-buildings/" },
-      { title: "Adaptive Reuse of Historic Civic Buildings", href: "/adaptive-reuse-historic-civic-buildings/" },
-    ],
+      { title: "Adaptive Reuse of Historic Civic Buildings", href: "/adaptive-reuse-historic-civic-buildings/" }],
   },
   {
     category: "Condo Remediation & Compliance",
@@ -66,8 +55,7 @@ const commercialResources = [
       { title: "Florida SB4-D Compliance Guide", href: "/florida-sb4d-compliance-guide/", isNew: true },
       { title: "Milestone Inspection Requirements", href: "/milestone-inspection-requirements/" },
       { title: "SIRS Structural Integrity Reserve Studies", href: "/sirs-structural-integrity-reserve-studies/" },
-      { title: "Condo Balcony Inspection Requirements", href: "/condo-balcony-inspection-requirements/" },
-    ],
+      { title: "Condo Balcony Inspection Requirements", href: "/condo-balcony-inspection-requirements/" }],
   },
   {
     category: "Multi-Family Construction",
@@ -76,8 +64,7 @@ const commercialResources = [
       { title: "Multi-Family Construction Project Management", href: "/multi-family-construction-project-management/", isNew: true },
       { title: "Condo Common Area Construction", href: "/condo-common-area-construction/", isNew: true },
       { title: "Mixed-Use Development in Tampa", href: "/mixed-use-development-tampa/" },
-      { title: "Senior Living Construction Requirements", href: "/senior-living-construction-requirements/" },
-    ],
+      { title: "Senior Living Construction Requirements", href: "/senior-living-construction-requirements/" }],
   },
   {
     category: "Insurance Restoration",
@@ -86,10 +73,8 @@ const commercialResources = [
       { title: "Large Loss Commercial Restoration", href: "/large-loss-commercial-restoration/" },
       { title: "Insurance Restoration for Condominiums", href: "/insurance-restoration-condominiums/" },
       { title: "Common Area Reconstruction After Disasters", href: "/condo-common-area-reconstruction/" },
-      { title: "Understanding Insurance Restoration Claims", href: "/understanding-tampa-insurance-restoration-claims/" },
-    ],
-  },
-];
+      { title: "Understanding Insurance Restoration Claims", href: "/understanding-tampa-insurance-restoration-claims/" }],
+  }];
 
 const residentialResources = [
   {
@@ -99,8 +84,7 @@ const residentialResources = [
       { title: "The Hyde Park Renovation Guide", href: "/hyde-park-renovation-guide/", isNew: true },
       { title: "Certificate of Appropriateness Process", href: "/tampa-certificate-of-appropriateness/", isNew: true },
       { title: "South Tampa Historic District Guide", href: "/south-tampa-historic-district-guide/", isNew: true },
-      { title: "Sourcing Historic Materials Tampa Bay", href: "/sourcing-historic-materials-tampa-bay/" },
-    ],
+      { title: "Sourcing Historic Materials Tampa Bay", href: "/sourcing-historic-materials-tampa-bay/" }],
   },
   {
     category: "Coastal Resilience & FEMA",
@@ -109,8 +93,7 @@ const residentialResources = [
       { title: "The FEMA 50% Rule Explained", href: "/fema-50-percent-rule-explained/", isNew: true },
       { title: "Flood Zone VE vs AE Guide", href: "/flood-zone-ve-vs-ae-guide/" },
       { title: "Breakaway Wall Construction Requirements", href: "/breakaway-wall-construction-requirements/" },
-      { title: "Waterproofing Historic Masonry", href: "/waterproofing-historic-masonry/" },
-    ],
+      { title: "Waterproofing Historic Masonry", href: "/waterproofing-historic-masonry/" }],
   },
   {
     category: "Luxury Custom Homes",
@@ -119,8 +102,7 @@ const residentialResources = [
       { title: "Building on Tampa Bay Waterfront Lots", href: "/building-on-tampa-bay-waterfront/", isNew: true },
       { title: "Smart Home Integration for Luxury Estates", href: "/smart-home-integration-luxury-estates/" },
       { title: "Hurricane-Resistant Luxury Home Design", href: "/hurricane-resistant-luxury-home-design/" },
-      { title: "Davis Islands Custom Home Building", href: "/davis-islands-custom-home-building/" },
-    ],
+      { title: "Davis Islands Custom Home Building", href: "/davis-islands-custom-home-building/" }],
   },
   {
     category: "Waterfront Construction",
@@ -129,8 +111,7 @@ const residentialResources = [
       { title: "Waterfront Lot Site Preparation", href: "/waterfront-lot-site-preparation/", isNew: true },
       { title: "Seawall Coordination for New Construction", href: "/seawall-coordination-new-construction/" },
       { title: "Marine-Grade Building Materials Guide", href: "/marine-grade-building-materials-guide/" },
-      { title: "Living Shoreline vs Traditional Seawall", href: "/living-shoreline-vs-seawall/" },
-    ],
+      { title: "Living Shoreline vs Traditional Seawall", href: "/living-shoreline-vs-seawall/" }],
   },
   {
     category: "Historic Preservation (Residential)",
@@ -139,15 +120,12 @@ const residentialResources = [
       { title: "Renovating Historic Homes in Tampa", href: "/renovating-historic-homes-tampa/", isNew: true },
       { title: "Balancing Modern Comfort with Historic Character", href: "/balancing-modern-comfort-historic-homes/", isNew: true },
       { title: "Historic Home Energy Efficiency Upgrades", href: "/historic-home-energy-efficiency/", isNew: true },
-      { title: "Period-Accurate Material Sourcing", href: "/sourcing-historic-materials-tampa-bay/" },
-    ],
-  },
-];
+      { title: "Period-Accurate Material Sourcing", href: "/sourcing-historic-materials-tampa-bay/" }],
+  }];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Resources", href: "/resources/" },
-];
+  { name: "Resources", href: "/resources/" }];
 
 
 const internalLinks = [
@@ -155,8 +133,7 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/services/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
-  { href: "/contact/", label: "Schedule a Consultation" },
-];
+  { href: "/contact/", label: "Schedule a Consultation" }];
 
 export default function ResourcesPage() {
   return (

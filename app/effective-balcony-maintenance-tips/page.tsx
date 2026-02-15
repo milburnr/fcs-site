@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/effective-balcony-maintenance-tips/' },
   title: "Balcony Maintenance Tips Tampa | High-Rise",
   description: "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Inspection schedules, cleaning protocols, and preventive care to extend balcony life and ensure SB 4-D compliance.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/top-balcony-flooring-materials-for-style-durability/", label: "Balcony Flooring Materials" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -61,7 +62,7 @@ const faqs = [
   },
   {
     question: "How does proper maintenance support SB 4-D compliance?",
-    answer: "SB 4-D requires milestone structural inspections for condominiums three stories or higher. Well-maintained balconies are more likely to pass inspections without requiring extensive remediation. Regular maintenance prevents the water intrusion that causes structural deterioration inspectors specifically evaluate. Documented maintenance history demonstrates proactive association management. SIRS requirements are easier to satisfy when waterproofing systems are maintained within expected service lives. Neglected maintenance leads to accelerated deterioration, failed inspections, and expensive emergency repairs."
+    answer: "SB 4-D requires milestone structural inspections for condominiums three stories or higher. Well-maintained balconies are more likely to pass inspections without requiring extensive remediation. Regular maintenance prevents the water intrusion that causes structural deterioration inspectors specifically evaluate. Documented maintenance history demonstrates proactive association management. SIRS requirements are easier to satisfy when waterproofing systems are maintained within expected service lives. Neglected maintenance leads to accelerated deterioration, failed inspections, and expensive prompt repairs."
   },
   {
     question: "What are the signs that balcony maintenance has been deferred too long?",
@@ -334,7 +335,6 @@ export default function Page() {
                       <li>• Post-storm inspections for wind and water damage</li>
                       <li>• Immediate clearing of debris from drainage systems</li>
                       <li>• Document storm-related damage for insurance claims</li>
-                      <li>• Emergency repairs to prevent further deterioration</li>
                       <li>• Assessment of structural integrity after severe weather</li>
                     </ul>
                   </div>
@@ -359,7 +359,6 @@ export default function Page() {
                       <li>• Complete repairs while weather permits</li>
                       <li>• Apply protective treatments before temperature drops</li>
                       <li>• Adjust maintenance schedules for seasonal labor availability</li>
-                      <li>• Stock emergency repair materials for immediate needs</li>
                       <li>• Plan resident communications for upcoming work</li>
                     </ul>
                   </div>
@@ -384,7 +383,6 @@ export default function Page() {
                       <li>• Develop maintenance budgets for upcoming year</li>
                       <li>• Schedule major renovation projects for spring</li>
                       <li>• Review contractor performance and agreements</li>
-                      <li>• Update emergency response procedures</li>
                       <li>• Plan SB4-D inspection schedules if required</li>
                     </ul>
                   </div>
@@ -504,7 +502,7 @@ export default function Page() {
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
                     <div>
-                      <strong>Inspection Records:</strong> Date, inspector qualifications, findings, and recommendations for all scheduled and emergency inspections
+                      <strong>Inspection Records:</strong> Date, inspector qualifications, findings, and recommendations for all scheduled and damage inspections
                     </div>
                   </li>
                   <li className="flex items-start gap-3">
@@ -573,7 +571,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Emergency Response */}
+      {/* storm response */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
@@ -591,7 +589,6 @@ export default function Page() {
                 <h3 className="text-lg font-bold text-brand-green-dark mb-4">Immediate Safety</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
                   <li>• Evacuate affected balcony and secure access</li>
-                  <li>• Assess injury risk and call emergency services if needed</li>
                   <li>• Install temporary barriers to prevent accidental entry</li>
                   <li>• Document conditions with photographs from safe locations</li>
                   <li>• Notify building management and affected residents</li>
@@ -612,12 +609,10 @@ export default function Page() {
               <div className="bg-gray-50 rounded-xl p-6">
                 <h3 className="text-lg font-bold text-brand-green-dark mb-4">Repair Coordination</h3>
                 <ul className="space-y-2 text-gray-600 text-sm">
-                  <li>• Obtain permits for emergency structural work</li>
-                  <li>• Coordinate with qualified emergency repair contractors</li>
+                  <li>• Obtain permits for prompt structural work</li>
                   <li>• Implement temporary stabilization measures</li>
                   <li>• Plan permanent repairs addressing root causes</li>
                   <li>• Monitor contractor work for quality and safety</li>
-                  <li>• Document all emergency response activities</li>
                 </ul>
               </div>
             </div>
@@ -718,7 +713,7 @@ export default function Page() {
               "Condo association experience",
               "Preventive care focus",
               "Tampa Bay-wide service",
-              "Emergency response capability"
+              "storm response capability"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

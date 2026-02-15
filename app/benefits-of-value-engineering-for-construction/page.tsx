@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/benefits-of-value-engineering-for-construction/' },
   title: "Benefits of Value Engineering for Construction | Tampa FL",
   description: "Maximize your commercial construction budget through value engineering. Learn how systematic analysis delivers cost savings without sacrificing quality or performance in Tampa Bay projects.",
 };

@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/' },
   title: "Hurricane-Resistant Home Construction Tampa | FCS",
   description: "Hurricane-resistant home construction in Tampa Bay. Impact windows, reinforced roofing, continuous load paths, flood protection. Custom homes built to exceed Florida Building Code. Call (813) 420-7561.",
   keywords: ["hurricane resistant construction tampa", "storm proof home building", "impact resistant construction florida", "fortified home builder", "hurricane protection construction"],
@@ -286,7 +287,7 @@ export default function HurricaneResistantPage() {
               <ul className="space-y-2">
                 <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/residential/waterfront-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
-                <li><Link href="/services/residential/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
+                <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
             </div>
             <div>

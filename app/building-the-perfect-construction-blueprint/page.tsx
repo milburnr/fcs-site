@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-the-perfect-construction-blueprint/' },
   title: "Building the Perfect Construction Blueprint",
   description: "Master the art of construction blueprint development. Learn architectural design principles, structural engineering requirements, and site analysis techniques for Florida commercial projects.",
 };

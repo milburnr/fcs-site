@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-historical-societies-and-restoration-efforts/' },
   title: "Tampa's Historical Societies and Restoration Efforts",
   description: "Learn about Tampa's historical societies and their role in preservation. Partner organizations supporting restoration of Ybor City, Hyde Park, and Tampa Bay landmarks.",
 };

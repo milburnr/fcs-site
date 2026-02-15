@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/key-signs-your-commercial-remodel-needs/' },
   title: "Signs Your Building Needs a Remodel | Tampa",
   description: "Discover the warning signs that indicate your Tampa commercial building needs remodeling. Expert guidance on when to renovate office buildings, retail spaces, and commercial properties from Florida Construction Specialists.",
 };

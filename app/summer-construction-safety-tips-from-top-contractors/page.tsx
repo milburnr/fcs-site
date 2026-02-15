@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/summer-construction-safety-tips-from-top-contractors/' },
   title: "Summer Construction Safety Tampa | Heat Safety",
   description: "Expert summer construction safety tips from top Tampa contractors. Learn about OSHA heat illness prevention, Florida-specific hazards, and keeping workers safe during hot weather construction.",
 };

@@ -29,6 +29,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/florida-shpo-requirements/' },
   title: "Florida SHPO Requirements | Preservation | FCS",
   description:
     "Navigate Florida State Historic Preservation Office (SHPO) requirements for construction projects. Federal tax credits, Section 106 review, and preservation compliance.",

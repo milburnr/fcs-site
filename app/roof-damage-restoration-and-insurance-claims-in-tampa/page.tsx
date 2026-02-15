@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/' },
   title: "Roof Damage Restoration Tampa | Insurance Claims",
   description: "Commercial roof damage restoration and insurance claims in Tampa. Hurricane, wind, and storm damage repair. Expert claim documentation, fast repairs, and quality workmanship for Tampa Bay businesses.",
 };
@@ -31,7 +32,7 @@ const faqs = [
   },
   {
     question: "Should I get temporary repairs before the insurance adjuster comes?",
-    answer: "Yes—you're required to mitigate further damage. Emergency tarping and temporary repairs are covered by insurance and protect your property. Document all temporary repairs with photos and save receipts. Don't make permanent repairs before the adjuster inspects unless absolutely necessary for safety, as this can complicate your claim."
+    answer: "Yes—you're required to mitigate further damage. tarping and temporary repairs are covered by insurance and protect your property. Document all temporary repairs with photos and save receipts. Don't make permanent repairs before the adjuster inspects unless absolutely necessary for safety, as this can complicate your claim."
   },
   {
     question: "What's the difference between ACV and Replacement Cost roof coverage?",
@@ -71,7 +72,7 @@ export default function Page() {
             Roof Damage Restoration and Insurance Claims in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Expert commercial roof damage restoration with full insurance claim support. From emergency tarping through complete re-roofing, we protect your Tampa Bay business and maximize your claim recovery.
+            Expert commercial roof damage restoration with full insurance claim support. From tarping through complete re-roofing, we protect your Tampa Bay business and maximize your claim recovery.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -102,7 +103,7 @@ export default function Page() {
                 <AlertTriangle className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-red-800 mb-2">Roof Damage = Interior Damage</h3>
-                  <p className="text-red-700">Even small roof breaches can cause massive interior damage during Tampa's heavy rains. A 1-inch hole can allow gallons of water per minute during storms. Emergency tarping is essential immediately after discovering roof damage—don't wait for insurance approval. Temporary repairs are covered by your policy and prevent far more expensive interior damage claims.</p>
+                  <p className="text-red-700">Even small roof breaches can cause massive interior damage during Tampa's heavy rains. A 1-inch hole can allow gallons of water per minute during storms. tarping is essential immediately after discovering roof damage—don't wait for insurance approval. Temporary repairs are covered by your policy and prevent far more expensive interior damage claims.</p>
                 </div>
               </div>
             </div>
@@ -223,7 +224,7 @@ export default function Page() {
 
             <div className="space-y-6 mb-8">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3">Emergency Tarping & Temporary Repairs</h3>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">tarping & Temporary Repairs</h3>
                 <p className="text-gray-600">Immediate response to stop water intrusion. We install commercial-grade tarps secured to withstand additional storms, seal minor penetrations, and perform temporary repairs that protect your building until permanent work is scheduled. Available 24/7.</p>
               </div>
 
@@ -288,7 +289,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Tarping</td>
+                    <td className="px-6 py-4 font-medium">tarping</td>
                     <td className="px-6 py-4">$500 - $3,000</td>
                     <td className="px-6 py-4 text-gray-600">Per affected area</td>
                   </tr>
@@ -338,7 +339,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
                   <p className="text-gray-600">Immediate deployment to stop water intrusion. Tarping and temporary repairs protect your building while permanent solutions are developed.</p>
                 </div>
               </div>

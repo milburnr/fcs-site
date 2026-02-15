@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/adaptive-reuse-of-historic-buildings-in-tampa/' },
   title: "Adaptive Reuse Historic Buildings Tampa | FCS",
   description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City, Hyde Park & Tampa Heights preservation projects with federal tax credit expertise.",
 };
@@ -474,7 +475,7 @@ export default function Page() {
                 Local and State Incentives
               </h3>
               <p className="text-gray-600 mb-6">
-                Tampa and Hillsborough County offer various property tax abatements for historic rehabilitation. The City's Historic Preservation Property Tax Exemption (Ordinance 2019-38) provides 10-year ad valorem tax exemptions for qualified rehabilitation of locally designated historic properties. The Tampa Historic Preservation Loan Fund offers low-interest financing for facade improvements and emergency stabilization projects.
+                Tampa and Hillsborough County offer various property tax abatements for historic rehabilitation. The City's Historic Preservation Property Tax Exemption (Ordinance 2019-38) provides 10-year ad valorem tax exemptions for qualified rehabilitation of locally designated historic properties. The Tampa Historic Preservation Loan Fund offers low-interest financing for facade improvements and structural stabilization projects.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

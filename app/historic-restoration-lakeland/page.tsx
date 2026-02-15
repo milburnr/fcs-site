@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-lakeland/' },
   title: "Historic Restoration Lakeland | Frank Lloyd Wright",
   description: "Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration lakeland, frank lloyd wright restoration, florida southern college preservation, downtown lakeland historic, dixieland historic district, lake morton historic homes, SHPO lakeland",

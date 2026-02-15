@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-buildings-facade-renovations/' },
   title: "Commercial Facade Renovations Tampa | Exterior",
   description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization, EIFS repair, curtain wall upgrades, and exterior restoration from Florida Construction Specialists.",
 };

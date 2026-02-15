@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/industrial-property-restoration-services-after-damage-in-tampa/' },
   title: "Industrial Property Restoration Tampa | Warehouse",
   description: "Industrial property restoration services in Tampa. Warehouse, manufacturing, and distribution facility damage repair after hurricanes, floods, and disasters. Minimize downtime with rapid response.",
 };
@@ -19,7 +20,6 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How quickly can you respond to industrial facility damage in Tampa?",
-    answer: "Florida Construction Specialists maintains 24/7 emergency response for industrial properties. We can typically have assessment teams on-site within 2-4 hours for Tampa Bay locations. For large industrial facilities, we pre-plan response logistics with key clients during hurricane season to ensure rapid mobilization when storms threaten."
   },
   {
     question: "Can you restore specialized industrial flooring systems?",
@@ -75,7 +75,7 @@ export default function Page() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
-              Emergency Response
+              storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -214,7 +214,7 @@ export default function Page() {
             </h2>
 
             <p className="text-gray-600 mb-6">
-              Industrial property restoration encompasses structural, mechanical, electrical, and operational considerations that require coordinated expertise across multiple disciplines. Our industrial restoration services address every aspect of facility damage, from immediate emergency response through final commissioning and return to operations.
+              Industrial property restoration encompasses structural, mechanical, electrical, and operational considerations that require coordinated expertise across multiple disciplines. Our industrial restoration services address every aspect of facility damage, from immediate storm response through final commissioning and return to operations.
             </p>
 
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4">Structural Restoration</h3>
@@ -224,7 +224,7 @@ export default function Page() {
 
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4">Roof System Restoration</h3>
             <p className="text-gray-600 mb-6">
-              Industrial roof systems—standing seam metal, membrane (TPO, EPDM, PVC), and built-up roofing—are particularly vulnerable to hurricane damage. Even minor roof damage can lead to major water intrusion in warehouse environments. We provide emergency tarping, assess damage extent, and perform repairs ranging from localized patching to complete roof system replacement.
+              Industrial roof systems—standing seam metal, membrane (TPO, EPDM, PVC), and built-up roofing—are particularly vulnerable to hurricane damage. Even minor roof damage can lead to major water intrusion in warehouse environments. We provide tarping, assess damage extent, and perform repairs ranging from localized patching to complete roof system replacement.
             </p>
 
             <h3 className="text-2xl font-bold text-brand-green-dark mb-4">MEP Systems</h3>
@@ -247,7 +247,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Response/Securing</td>
+                    <td className="px-6 py-4 font-medium">storm response/Securing</td>
                     <td className="px-6 py-4">$5,000 - $50,000</td>
                     <td className="px-6 py-4 text-gray-600">Facility size, damage extent</td>
                   </tr>
@@ -313,7 +313,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Stabilization</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Structural Stabilization</h3>
                   <p className="text-gray-600">Immediate response to secure the facility, prevent further damage, and protect equipment and inventory. We establish site security, install temporary weather protection, and begin water extraction if needed.</p>
                 </div>
               </div>
@@ -380,7 +380,7 @@ export default function Page() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">
-                  Request Emergency Service
+                  Request prompt service
                 </Link>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-awards-for-historic-restoration-excellence/' },
   title: "Tampa&apos;s Awards for Historic Restoration Excellence",
   description: "Experience the honor of Tampa&apos;s Awards for Historic Restoration Excellence - where the finest restoration accolades and historic renovation celebrate our her...",
 };
@@ -443,7 +444,7 @@ export default function Page() {
               </p>
               
               <p className="text-gray-600 mb-6">
-                The National Trust for Historic Preservation's Preservation Response Team has featured our disaster recovery projects as examples of best practices in post-disaster historic preservation. Our rapid response capabilities, including emergency stabilization, condition documentation, and recovery planning, help minimize long-term damage to historic buildings affected by natural disasters. Our post-disaster work demonstrates how proper emergency response can preserve historic buildings that might otherwise be considered total losses.
+                The National Trust for Historic Preservation's Preservation Response Team has featured our disaster recovery projects as examples of best practices in post-disaster historic preservation. Our rapid response capabilities, including structural stabilization, condition documentation, and recovery planning, help minimize long-term damage to historic buildings affected by natural disasters. Our post-disaster work demonstrates how proper storm response can preserve historic buildings that might otherwise be considered total losses.
               </p>
               
               <p className="text-gray-600 mb-6">

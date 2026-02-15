@@ -8,6 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-luxury-custom-home-building-services/' },
   title: "Tampa Luxury Custom Home Building Services | Premier Builder",
   description: "Premier luxury custom home building services in Tampa. Bespoke designs, premium materials, white-glove service. Award-winning craftsmanship from $600K-$10M+.",
 };

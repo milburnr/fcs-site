@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-debris-removal-and-cleanup-post-disaster/' },
   title: "Tampa Debris Removal and Cleanup Post-Disaster",
   description: "Professional Tampa Debris Removal and Cleanup Post-Disaster services. Quick response to hurricanes, floods &amp; unforeseen events. Call now for reliable assistance",
 };

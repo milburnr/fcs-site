@@ -9,6 +9,7 @@ import { ServiceAreaLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction/' },
   title: "Large-Scale Commercial Construction | $500K - $25M+ Projects",
   description: "Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget.",
 };
@@ -39,21 +40,6 @@ const projectTypes = [
     considerations: "Tampa Bay's competitive office market demands buildings with modern amenities, flexible floor plates, and efficient building systems. Our designs accommodate future workplace evolution while optimizing construction and operating costs.",
     typicalRange: "$150-400 per SF",
     timeline: "12-18 months"
-  },
-  {
-    category: "Medical & Healthcare Facilities",
-    description: "Specialized construction for demanding healthcare environments",
-    features: [
-      "Outpatient clinics and specialty medical offices",
-      "Ambulatory surgery centers with specialized infrastructure",
-      "Imaging centers requiring radiation shielding and vibration control",
-      "Clinical laboratories with contamination control systems",
-      "Medical office buildings with specialized HVAC and electrical",
-      "Compliance with complex healthcare regulations and codes"
-    ],
-    considerations: "Healthcare construction requires specialized expertise in infection control, medical gas systems, specialized HVAC, and regulatory compliance. Florida's growing population and aging demographics drive strong demand for healthcare facilities.",
-    typicalRange: "$200-500 per SF",
-    timeline: "14-24 months"
   },
   {
     category: "Retail & Shopping Centers",
@@ -277,8 +263,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Commercial Construction", href: "/commercial-construction/" },
-];
+  { name: "Commercial Construction", href: "/commercial-construction/" }];
 
 export default function CommercialConstructionPage() {
   return (
@@ -293,8 +278,7 @@ export default function CommercialConstructionPage() {
 
       <Breadcrumb items={[
         { name: "Services", href: "/services/" },
-        { name: "Commercial Construction", href: "/commercial-construction/" },
-      ]} />
+        { name: "Commercial Construction", href: "/commercial-construction/" }]} />
 
       {/* Hero */}
       <section className="relative py-20 overflow-hidden">
@@ -409,8 +393,7 @@ export default function CommercialConstructionPage() {
               { step: "1", title: "Consultation", desc: "We discuss your project goals, timeline, and budget requirements." },
               { step: "2", title: "Pre-Construction", desc: "Site analysis, detailed budgeting, and comprehensive project planning." },
               { step: "3", title: "Construction", desc: "Expert execution with strict quality control and timeline management." },
-              { step: "4", title: "Completion", desc: "Final inspections, punch list, and seamless project handover." },
-            ].map((phase) => (
+              { step: "4", title: "Completion", desc: "Final inspections, punch list, and seamless project handover." }].map((phase) => (
               <div key={phase.step} className="text-center">
                 <div className="w-16 h-16 rounded-full bg-brand-green text-white flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
                   {phase.step}

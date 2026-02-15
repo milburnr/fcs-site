@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-sarasota/' },
   title: "Commercial Construction Sarasota | $500K+ | FCS",
   description: "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction sarasota, commercial contractor sarasota, commercial builder sarasota fl, office building construction sarasota, medical facility construction sarasota, hospitality construction sarasota",
@@ -19,10 +20,6 @@ const serviceFeatures = [
   {
     title: "Office Buildings & Corporate Facilities",
     description: "From boutique professional offices to multi-story commercial buildings in Downtown Sarasota, University Parkway corridor, and throughout the county's growing business districts."
-  },
-  {
-    title: "Medical & Healthcare Facilities",
-    description: "Healthcare construction for clinics, urgent care centers, surgical centers, and specialty practices near Sarasota Memorial Hospital and throughout Sarasota County's expanding healthcare sector."
   },
   {
     title: "Hospitality & Tourism Construction",
@@ -483,7 +480,6 @@ export default function CommercialConstructionSarasotaPage() {
                 <li><Link href="/multi-family-construction-sarasota/" className="text-brand-green hover:underline">Multi-Family Construction Sarasota</Link></li>
                 <li><Link href="/disaster-recovery-sarasota/" className="text-brand-green hover:underline">Disaster Recovery Sarasota</Link></li>
                 <li><Link href="/historic-restoration-sarasota/" className="text-brand-green hover:underline">Historic Restoration Sarasota</Link></li>
-                <li><Link href="/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
                 <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
               </ul>
             </div>

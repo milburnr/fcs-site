@@ -31,11 +31,10 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "What should I do immediately after hurricane damage to my property?",
-    answer: "First, ensure safety and evacuate if structural integrity is compromised. Document all damage with photos and videos before any cleanup. Make temporary repairs to prevent further damage (tarping roofs, boarding windows). Contact your insurance company to file a claim. Keep all receipts for emergency repairs and temporary housing. Then contact FCS for professional assessment and restoration.",
+    answer: "First, ensure safety and evacuate if structural integrity is compromised. Document all damage with photos and videos before any cleanup. Make temporary repairs to prevent further damage (tarping roofs, boarding windows). Contact your insurance company to file a claim. Keep all receipts for storm repairs and temporary housing. Then contact FCS for professional assessment and restoration.",
   },
   {
     question: "How quickly can you respond after a hurricane?",
-    answer: "FCS maintains 24/7 emergency response capability during hurricane season. For clients with pre-storm agreements, we begin assessments within 24-48 hours after the storm passes and roads are accessible. For new clients, response time depends on storm severity and demand, but we prioritize based on safety concerns and damage severity.",
   },
   {
     question: "What types of hurricane damage do you repair?",
@@ -55,7 +54,7 @@ const faqs = [
   },
   {
     question: "How do you handle water damage that occurs with hurricane damage?",
-    answer: "Wind damage often leads to water intrusion. We address both simultaneously—emergency tarping to stop ongoing water entry, water extraction and drying to prevent mold, and then permanent repairs. Our water damage restoration team uses industrial dehumidifiers and monitoring equipment to ensure proper drying before reconstruction begins.",
+    answer: "Wind damage often leads to water intrusion. We address both simultaneously—tarping to stop ongoing water entry, water extraction and drying to prevent mold, and then permanent repairs. Our water damage restoration team uses industrial dehumidifiers and monitoring equipment to ensure proper drying before reconstruction begins.",
   },
   {
     question: "What if my property has structural damage from the hurricane?",
@@ -75,7 +74,7 @@ const damageTypes = [
   {
     icon: Wind,
     title: "Roof Damage",
-    description: "From missing shingles to complete roof failures, we handle all hurricane roof damage including emergency tarping and permanent restoration.",
+    description: "From missing shingles to complete roof failures, we handle all hurricane roof damage including tarping and permanent restoration.",
   },
   {
     icon: Building2,
@@ -100,7 +99,6 @@ const damageTypes = [
   {
     icon: Clock,
     title: "Emergency Board-Up",
-    description: "24/7 emergency response for temporary protection including tarping, boarding, and securing damaged properties.",
   },
 ];
 
@@ -119,7 +117,6 @@ export default function HurricaneDamagePage() {
       <LocalBusinessSchema service="Hurricane Damage Restoration" />
       <ServiceSchema
         serviceName="Hurricane Damage Restoration Services"
-        serviceDescription="24/7 hurricane damage restoration for Tampa Bay properties. Emergency response, roof repair, structural restoration, water damage remediation, and full insurance claim support with 43+ years experience."
         minPrice="10000"
       />
       <FAQSchema faqs={faqs} />
@@ -137,7 +134,6 @@ export default function HurricaneDamagePage() {
             <FadeIn>
               <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/50 px-4 py-2 rounded-full mb-6">
                 <AlertTriangle className="w-5 h-5 text-red-400" />
-                <span className="text-red-200 font-medium">24/7 Emergency Response Available</span>
               </div>
             </FadeIn>
 
@@ -149,7 +145,7 @@ export default function HurricaneDamagePage() {
 
             <FadeIn delay={0.2}>
               <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
-                When hurricanes strike Tampa Bay, FCS responds with emergency stabilization,
+                When hurricanes strike Tampa Bay, FCS responds with structural stabilization,
                 comprehensive damage restoration, and expert insurance claim support.
                 We restore homes and businesses after nature's worst.
               </p>
@@ -179,7 +175,7 @@ export default function HurricaneDamagePage() {
                   className="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Emergency: {BUSINESS_INFO.phone}
+                  urgent: {BUSINESS_INFO.phone}
                 </a>
                 <Link
                   href="/contact/"
@@ -231,7 +227,7 @@ export default function HurricaneDamagePage() {
                 </h3>
                 <p className="text-gray-700 mb-6">
                   When a hurricane threatens Tampa Bay, we begin mobilizing resources before
-                  landfall. Emergency response crews stand ready with tarps, generators, and
+                  landfall. storm response crews stand ready with tarps, generators, and
                   board-up materials. As soon as roads are passable, we begin damage assessments
                   for pre-registered clients, prioritizing properties with safety concerns or
                   ongoing water intrusion.
@@ -400,14 +396,13 @@ export default function HurricaneDamagePage() {
               <div>
                 <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/50 px-4 py-2 rounded-full mb-6">
                   <AlertTriangle className="w-5 h-5 text-red-400" />
-                  <span className="text-red-200 font-medium">24/7 Emergency Response</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   Hurricane Damage? We're Here to Help
                 </h2>
                 <p className="text-xl text-gray-300 mb-6">
                   Don't face hurricane restoration alone. Contact FCS for immediate
-                  emergency response, comprehensive damage assessment, and expert
+                  storm response, comprehensive damage assessment, and expert
                   insurance claim support. We restore what storms destroy.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -416,7 +411,7 @@ export default function HurricaneDamagePage() {
                     className="inline-flex items-center justify-center gap-2 bg-red-500 hover:bg-red-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    Emergency: {BUSINESS_INFO.phone}
+                    urgent: {BUSINESS_INFO.phone}
                   </a>
                 </div>
                 <p className="text-gray-400 mt-4">

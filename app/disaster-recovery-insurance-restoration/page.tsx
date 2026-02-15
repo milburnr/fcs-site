@@ -9,8 +9,9 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-insurance-restoration/' },
   title: "Disaster Recovery & Insurance Restoration Tampa",
-  description: "Complete guide to commercial disaster recovery and insurance restoration in Tampa Bay. Emergency response, claim support, and full reconstruction services.",
+  description: "Complete guide to commercial disaster recovery and insurance restoration in Tampa Bay. storm response, claim support, and full reconstruction services.",
 };
 
 const breadcrumbItems = [
@@ -57,7 +58,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema 
         serviceName="Commercial Disaster Recovery & Insurance Restoration"
-        serviceDescription="Complete commercial disaster recovery and insurance restoration services in Tampa Bay. Emergency response, claim documentation, and full property reconstruction for hurricane, fire, water, and storm damage."
+        serviceDescription="Complete commercial disaster recovery and insurance restoration services in Tampa Bay. storm response, claim documentation, and full property reconstruction for hurricane, fire, water, and storm damage."
       />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
@@ -77,7 +78,7 @@ export default function Page() {
             Commercial Disaster Recovery &amp; Insurance Restoration
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            From hurricane devastation to fire damage, Tampa Bay commercial properties require specialized disaster recovery services. Our integrated approach combines emergency response with comprehensive insurance claim support.
+            From hurricane devastation to fire damage, Tampa Bay commercial properties require specialized disaster recovery services. Our integrated approach combines storm response with comprehensive insurance claim support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -100,7 +101,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             
               <p className="text-gray-600 mb-6">
-                Tampa Bay&apos;s location on Florida&apos;s Gulf Coast makes commercial properties particularly vulnerable to hurricanes, tropical storms, flooding, and severe weather events during the June through November hurricane season. When disaster strikes your office building, retail center, warehouse, or industrial facility, the combination of rapid emergency response and strategic insurance claim management determines how quickly—and completely—your business recovers.
+                Tampa Bay&apos;s location on Florida&apos;s Gulf Coast makes commercial properties particularly vulnerable to hurricanes, tropical storms, flooding, and severe weather events during the June through November hurricane season. When disaster strikes your office building, retail center, warehouse, or industrial facility, the combination of rapid storm response and strategic insurance claim management determines how quickly—and completely—your business recovers.
               </p>
               <p className="text-gray-600 mb-6">
                 Florida Construction Specialists provides comprehensive disaster recovery services throughout Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland. Our integrated approach addresses both the physical restoration of your property and the documentation requirements that maximize your insurance recovery under Florida law.
@@ -111,17 +112,17 @@ export default function Page() {
               </h2>
               
               <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
-                Phase 1: Emergency Response and Mitigation (0-72 Hours)
+                Phase 1: storm response and Mitigation (0-72 Hours)
               </h3>
               <p className="text-gray-600 mb-6">
                 The first 72 hours after a disaster are critical. During this phase, the priority is preventing additional damage while documenting existing conditions for your insurance claim. Most commercial property insurance policies require &quot;reasonable steps to prevent further damage&quot;—and they typically cover these mitigation costs even before your full claim is approved.
               </p>
               <p className="text-gray-600 mb-6">
-                Emergency response services include:
+                storm response services include:
               </p>
               <ul className="list-disc pl-6 mb-6 text-gray-600">
                 <li className="mb-2"><strong>Water extraction and structural drying</strong> — Critical in Tampa&apos;s humid climate where mold can begin growing within 24-48 hours</li>
-                <li className="mb-2"><strong>Emergency board-up and tarping</strong> — Securing openings from weather intrusion and unauthorized access</li>
+                <li className="mb-2"><strong>Board-up and tarping</strong> — Securing openings from weather intrusion and unauthorized access</li>
                 <li className="mb-2"><strong>Debris removal and site safety</strong> — Clearing hazards while preserving evidence for insurance documentation</li>
                 <li className="mb-2"><strong>Temporary power and utilities</strong> — Maintaining essential systems during restoration</li>
                 <li className="mb-2"><strong>Comprehensive photo and video documentation</strong> — Creating the evidence trail your claim requires</li>
@@ -137,7 +138,7 @@ export default function Page() {
                 <li className="mb-2"><strong>Structural integrity evaluation</strong> — Foundation, framing, load-bearing walls, and roof systems</li>
                 <li className="mb-2"><strong>Building envelope analysis</strong> — Roofing, windows, doors, and exterior finishes</li>
                 <li className="mb-2"><strong>MEP systems assessment</strong> — Mechanical, electrical, and plumbing infrastructure</li>
-                <li className="mb-2"><strong>Fire and life safety systems</strong> — Sprinklers, alarms, and emergency lighting</li>
+                <li className="mb-2"><strong>Fire and life safety systems</strong> — Sprinklers, alarms, and storm lighting</li>
                 <li className="mb-2"><strong>Contents and equipment inventory</strong> — Business personal property and specialized equipment</li>
                 <li className="mb-2"><strong>Code compliance review</strong> — Identifying upgrades required by current Florida Building Code</li>
               </ul>
@@ -195,7 +196,7 @@ export default function Page() {
                   </thead>
                   <tbody>
                     <tr>
-                      <td className="border border-gray-300 px-4 py-2">Emergency Mitigation</td>
+                      <td className="border border-gray-300 px-4 py-2">Storm Mitigation</td>
                       <td className="border border-gray-300 px-4 py-2">$5,000 - $50,000+</td>
                       <td className="border border-gray-300 px-4 py-2">Usually covered before claim approval</td>
                     </tr>
@@ -261,7 +262,6 @@ export default function Page() {
                 How quickly can you respond to commercial disaster emergencies in Tampa Bay?
               </h3>
               <p className="text-gray-600 mb-6">
-                Our emergency response team is available 24/7 and can typically arrive at Tampa Bay commercial properties within 2-4 hours. We maintain local equipment and material resources to begin mitigation immediately, with expanded resources mobilized for major disasters.
               </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
@@ -296,7 +296,7 @@ export default function Page() {
                 Case Study: Hurricane Ian Commercial Recovery Success
               </h2>
               <p className="text-gray-600 mb-6">
-                When Hurricane Ian devastated Southwest Florida in September 2022, a 45,000-square-foot Tampa office complex suffered catastrophic roof damage, flooding three floors and displacing 200+ employees. Within 72 hours of the storm's passage, our emergency response team had stabilized the building and documented all damage for insurance claims.
+                When Hurricane Ian devastated Southwest Florida in September 2022, a 45,000-square-foot Tampa office complex suffered catastrophic roof damage, flooding three floors and displacing 200+ employees. Within 72 hours of the storm's passage, our storm response team had stabilized the building and documented all damage for insurance claims.
               </p>
               <p className="text-gray-600 mb-6">
                 The challenge: The building's 1987 construction predated current wind resistance requirements, necessitating complete roof replacement rather than repair. Standard adjusting would have covered only basic repairs, leaving the owner vulnerable to future storms. Our documentation expertise secured full Ordinance and Law coverage, resulting in a $2.3 million settlement instead of the initial $850,000 estimate.
@@ -545,7 +545,7 @@ export default function Page() {
                 Trust Tampa Bay&apos;s Commercial Disaster Recovery Experts
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists has guided commercial property owners through disaster recovery and insurance restoration for over four decades. From the first emergency call through final certificate of occupancy, our team provides the expertise, documentation, and quality construction your recovery requires.
+                Florida Construction Specialists has guided commercial property owners through disaster recovery and insurance restoration for over four decades. From the first initial call through final certificate of occupancy, our team provides the expertise, documentation, and quality construction your recovery requires.
               </p>
               <p className="text-gray-600 mb-6">
                 <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss your commercial disaster recovery needs. For emergencies requiring immediate response, call our 24/7 <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery hotline</Link>.

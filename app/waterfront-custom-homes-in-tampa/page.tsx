@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/waterfront-custom-homes-in-tampa/' },
   title: "Waterfront Custom Homes in Tampa | Luxury Bayfront Living",
   description: "Build your dream waterfront custom home in Tampa Bay. Hurricane-resistant construction, private docks, elevated foundations. Luxury coastal living from $750K-$5M+.",
 };

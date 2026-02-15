@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-ruskin/' },
   title: "Disaster Recovery Ruskin FL | Hurricane | FCS",
-  description: "Ruskin disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. FCS home base location with fastest emergency response. Prime contractor for large loss insurance claims $250K-$50M. 24/7 emergency response.",
   keywords: "disaster recovery Ruskin, hurricane damage restoration Ruskin, storm damage repair Ruskin, flood damage Apollo Beach, insurance restoration Ruskin, Sun City Center restoration, large loss contractor Ruskin",
 };
 
@@ -48,7 +48,7 @@ const disasterTypes = [
 const ruskinFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Ruskin?",
-    answer: "Ruskin is FCS headquarters—our home base. This means we provide the fastest emergency response times in the entire Tampa Bay region for Ruskin properties. Our crews, equipment, and project managers are stationed locally, enabling response times as fast as 30 minutes to 1 hour for emergency situations. For Apollo Beach, Sun City Center, and surrounding areas, we typically arrive within 1-2 hours. This home base advantage means Ruskin property owners receive priority dispatch during major storm events.",
+    answer: "Ruskin is FCS headquarters—our home base. This means we provide the fastest storm response times in the entire Tampa Bay region for Ruskin properties. Our crews, equipment, and project managers are stationed locally, enabling response times as fast as 30 minutes to 1 hour for prompt situations. For Apollo Beach, Sun City Center, and surrounding areas, we typically arrive within 1-2 hours. This home base advantage means Ruskin property owners receive priority dispatch during major storm events.",
   },
   {
     question: "What areas of Ruskin face the highest disaster risk?",
@@ -68,7 +68,7 @@ const ruskinFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in Ruskin?",
-    answer: "Ruskin hurricane restoration timelines: Emergency stabilization and tarping (1-3 days), water extraction and drying (5-14 days depending on extent), structural repairs (30-90 days), and complete restoration (90-180 days for major projects). Our Ruskin headquarters location allows us to mobilize faster and maintain consistent progress. Large commercial projects like those along the US-41 corridor or multi-building Sun City Center projects may require 6-12 months.",
+    answer: "Ruskin hurricane restoration timelines: Stabilization and tarping (1-3 days), water extraction and drying (5-14 days depending on extent), structural repairs (30-90 days), and complete restoration (90-180 days for major projects). Our Ruskin headquarters location allows us to mobilize faster and maintain consistent progress. Large commercial projects like those along the US-41 corridor or multi-building Sun City Center projects may require 6-12 months.",
   },
   {
     question: "Do you handle industrial property disaster recovery in Ruskin?",
@@ -88,7 +88,7 @@ const costData = [
 ];
 
 const processSteps = [
-  { step: 1, title: "Immediate Local Response", description: "As Ruskin's home base contractor, we deploy emergency crews within 30-60 minutes for damage assessment and stabilization" },
+  { step: 1, title: "Immediate Local Response", description: "As Ruskin's home base contractor, we deploy our crews within 30-60 minutes for damage assessment and stabilization" },
   { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development for insurance claims" },
   { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation—we know the local adjusters" },
   { step: 4, title: "Restoration Planning", description: "Engineering assessments, Hillsborough County permit applications, and detailed project scheduling" },
@@ -102,7 +102,6 @@ export default function DisasterRecoveryRuskinPage() {
       <LocalBusinessSchema city="Ruskin" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Ruskin, FL. FCS home base location providing fastest emergency response in Tampa Bay. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. 24/7 emergency response with projects from $250,000 to $25 million."
         city="Ruskin"
         minPrice="250000"
       />
@@ -129,11 +128,9 @@ export default function DisasterRecoveryRuskinPage() {
               Disaster Recovery & Insurance Restoration in Ruskin
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Ruskin is our home—and that means faster emergency response for Apollo Beach, Sun City Center, and all of South Hillsborough County. We work directly with insurance companies on claims from $250,000 to $25 million. 24/7 emergency dispatch from our local headquarters.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                24/7 Emergency Response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -182,7 +179,7 @@ export default function DisasterRecoveryRuskinPage() {
               </h2>
 
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is headquartered in Ruskin—this is our home. That means when disaster strikes Apollo Beach, Sun City Center, or anywhere in South Hillsborough County, our crews, equipment, and project managers are already here. While other contractors travel from Tampa or St. Petersburg, we're deploying within minutes. This home base advantage translates to faster emergency response, better local knowledge, and more consistent project oversight throughout your restoration.
+                Florida Construction Specialists is headquartered in Ruskin—this is our home. That means when disaster strikes Apollo Beach, Sun City Center, or anywhere in South Hillsborough County, our crews, equipment, and project managers are already here. While other contractors travel from Tampa or St. Petersburg, we're deploying within minutes. This home base advantage translates to faster storm response, better local knowledge, and more consistent project oversight throughout your restoration.
               </p>
 
               <p className="text-gray-600 mb-6">
@@ -246,7 +243,6 @@ export default function DisasterRecoveryRuskinPage() {
             <div className="space-y-6">
               {/* Quick Contact Card */}
               <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">24/7 Emergency Line</h3>
                 <p className="text-gray-200 mb-4">
                   Local Ruskin crews ready for immediate deployment. Fastest response times in Tampa Bay from our home base.
                 </p>
@@ -347,7 +343,7 @@ export default function DisasterRecoveryRuskinPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Fastest Response Times:</strong> 30-60 minute emergency response vs. 2-4 hours from Tampa-based contractors</span>
+                  <span><strong>Fastest Response Times:</strong> 30-60 minute storm response vs. 2-4 hours from Tampa-based contractors</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
@@ -377,7 +373,7 @@ export default function DisasterRecoveryRuskinPage() {
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
                 <div className="text-3xl font-bold text-white mb-1">30 Min</div>
-                <div className="text-gray-300 text-sm">Emergency Response</div>
+                <div className="text-gray-300 text-sm">Storm Response</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
@@ -435,11 +431,10 @@ export default function DisasterRecoveryRuskinPage() {
             Ruskin's Home Base Disaster Recovery Experts
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From emergency response to complete restoration, FCS is Ruskin's local partner for large loss disaster recovery. Contact our home base team 24/7 for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get Emergency Response
+              Get storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

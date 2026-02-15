@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/advanced-building-materials-in-tampa/' },
   title: "Advanced Building Materials in Tampa",
   description: "Discover advanced building materials transforming Tampa Bay construction. From sustainable options to high-performance systems, elevate your commercial project.",
 };

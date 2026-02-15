@@ -31,6 +31,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/smart-home-integration-luxury-estates/' },
   title: "Smart Home Integration Tampa | Luxury Estates",
   description:
     "Premium smart home technology integration for luxury custom homes in Tampa Bay. Lighting, climate, security, AV, and whole-home automation systems.",

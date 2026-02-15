@@ -6,6 +6,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/' },
   title: "Tampa Construction Services",
   description: "We deliver professional and reliable construction services for commercial and residential properties. Our team specializes in custom building, renovations, historic restoration, and disaster recovery.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/church-renovation-tips-from-top-commercial-contractor/' },
   title: "Church Renovation Tips Tampa | Commercial | FCS",
   description: "Expert church renovation guidance for Tampa Bay congregations. Sanctuary updates, fellowship hall expansion, ADA compliance, and historic preservation tips from Florida Construction Specialists.",
 };

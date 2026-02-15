@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/choosing-materials-for-commercial-construction-in-tampa/' },
   title: "Materials for Commercial Construction Tampa",
   description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant, humidity-proof, and cost-effective material options for commercial buildings.",
 };

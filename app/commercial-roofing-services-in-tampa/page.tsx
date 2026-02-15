@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-roofing-services-in-tampa/' },
   title: "Commercial Roofing Services Tampa | Expert",
   description: "Complete commercial roofing services in Tampa Bay. TPO, EPDM, metal, and built-up roofing systems. Hurricane-rated installations, repairs, and maintenance from Florida Construction Specialists.",
 };
@@ -226,7 +227,7 @@ export default function Page() {
                   <Wrench className="w-8 h-8 text-brand-green flex-shrink-0" />
                   <div>
                     <h3 className="text-xl font-bold text-brand-green-dark mb-2">Roof Repairs</h3>
-                    <p className="text-gray-600">Prompt repair of leaks, damage, and deterioration extends roof life and prevents interior damage. Our crews are trained in all commercial roofing systems and carry materials for common repairs. We respond quickly to emergency situations and provide permanent solutions rather than temporary patches.</p>
+                    <p className="text-gray-600">Prompt repair of leaks, damage, and deterioration extends roof life and prevents interior damage. Our crews are trained in all commercial roofing systems and carry materials for common repairs. We respond quickly to urgent situations and provide permanent solutions rather than temporary patches.</p>
                   </div>
                 </div>
               </div>

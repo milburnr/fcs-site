@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-lakeland/' },
   title: "Insurance Restoration Lakeland FL | Property Damage | FCS",
   description: "Lakeland's most experienced insurance restoration contractor. 43 years claims expertise—former adjuster AND contractor. Storm damage, fire restoration, commercial property recovery in Polk County. Serving Downtown, Lake Morton, Dixieland, and South Lakeland.",
   keywords: "insurance restoration Lakeland, property damage restoration Polk County, storm damage Lakeland FL, commercial restoration Lakeland, fire damage restoration Lakeland, insurance claim contractor Polk County, industrial restoration Tampa Orlando corridor",
@@ -53,7 +54,7 @@ const lakelandFaqs = [
   },
   {
     question: "What should Lakeland property owners do when hurricane damage occurs?",
-    answer: "First, ensure safety and document everything with photos and video before any cleanup—this is crucial for your claim. Contact your insurance company to report the loss. Perform only emergency mitigation (tarping, board-up) until the adjuster inspects. For significant damage, contact FCS early. Our initial assessment helps ensure proper documentation, identifies hidden damage that surface inspections miss, and positions your claim for fair settlement. Lakeland's inland location means damage often differs from coastal expectations—tree damage, wind-driven debris, and localized flooding patterns require knowledgeable documentation."
+    answer: "First, ensure safety and document everything with photos and video before any cleanup—this is crucial for your claim. Contact your insurance company to report the loss. Perform only mitigation (tarping, board-up) until the adjuster inspects. For significant damage, contact FCS early. Our initial assessment helps ensure proper documentation, identifies hidden damage that surface inspections miss, and positions your claim for fair settlement. Lakeland's inland location means damage often differs from coastal expectations—tree damage, wind-driven debris, and localized flooding patterns require knowledgeable documentation."
   },
   {
     question: "Does FCS work with all insurance carriers for Lakeland claims?",
@@ -816,7 +817,7 @@ export default function InsuranceRestorationLakelandPage() {
         </div>
       </section>
 
-      {/* Emergency Response */}
+      {/* storm response */}
       <section className="section bg-gray-50">
         <div className="container-custom">
           <div className="max-w-5xl mx-auto">
@@ -836,7 +837,7 @@ export default function InsuranceRestorationLakelandPage() {
                   <li><strong>1. Ensure safety</strong> — Don't enter unsafe structures</li>
                   <li><strong>2. Document everything</strong> — Photos and video BEFORE cleanup</li>
                   <li><strong>3. Report the claim</strong> — Contact your insurance carrier promptly</li>
-                  <li><strong>4. Mitigate further damage</strong> — Emergency tarping and board-up only</li>
+                  <li><strong>4. Mitigate further damage</strong> — tarping and board-up only</li>
                   <li><strong>5. Contact FCS</strong> — Early involvement protects your claim</li>
                 </ol>
               </div>

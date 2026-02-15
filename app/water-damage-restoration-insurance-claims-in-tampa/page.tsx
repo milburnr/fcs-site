@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/water-damage-restoration-insurance-claims-in-tampa/' },
   title: "Water Damage Restoration Insurance Claims in Tampa",
   description: "Navigating water damage restoration insurance claims in Tampa? Our expert team helps you maximize your claim for swift and seamless water damage restoration.",
 };
@@ -134,7 +135,6 @@ export default function Page() {
               </p>
 
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides 24/7 emergency response throughout the Tampa Bay area, helping property owners take immediate action to minimize damage while properly documenting conditions for insurance claims. Our rapid response team understands the urgency of water damage situations and the importance of proper initial documentation.
               </p>
 
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
@@ -149,7 +149,6 @@ export default function Page() {
                         <li>• Turn off electricity in affected areas</li>
                         <li>• Locate and stop the water source if possible</li>
                         <li>• Evacuate unsafe areas</li>
-                        <li>• Contact emergency services if needed</li>
                       </ul>
                     </div>
                   </div>
@@ -162,7 +161,7 @@ export default function Page() {
                       <ul className="text-xs text-gray-500 space-y-1">
                         <li>• Report claim within 24 hours</li>
                         <li>• Request immediate adjuster assignment</li>
-                        <li>• Ask about emergency mitigation coverage</li>
+                        <li>• Ask about mitigation coverage</li>
                         <li>• Document claim number and representative contact</li>
                       </ul>
                     </div>
@@ -186,9 +185,8 @@ export default function Page() {
                     <div className="bg-red-500 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0">4</div>
                     <div>
                       <h4 className="font-bold text-brand-green-dark mb-2">Contact Professional Restoration Team</h4>
-                      <p className="text-gray-600 text-sm mb-2">Expert assessment and emergency mitigation services</p>
+                      <p className="text-gray-600 text-sm mb-2">Expert assessment and mitigation services</p>
                       <ul className="text-xs text-gray-500 space-y-1">
-                        <li>• Call Florida Construction Specialists for emergency response</li>
                         <li>• Begin water extraction and drying</li>
                         <li>• Implement temporary protection measures</li>
                         <li>• Start professional damage assessment</li>
@@ -224,7 +222,7 @@ export default function Page() {
                     <p className="text-gray-600 text-sm mb-2">Property owners must report claims promptly to maintain coverage</p>
                     <ul className="text-xs text-gray-500 space-y-1">
                       <li>• Report within time specified in policy (typically 24-72 hours)</li>
-                      <li>• Provide immediate notice for emergency situations</li>
+                      <li>• Provide immediate notice for prompt situations</li>
                       <li>• Submit written claim documentation within required timeframe</li>
                     </ul>
                   </div>
@@ -547,7 +545,7 @@ export default function Page() {
                 Emergency Mitigation and Temporary Protection
               </h3>
               <p className="text-gray-600 mb-6">
-                Post-storm emergency mitigation work is typically covered by insurance policies and is essential for preventing additional damage. Florida Construction Specialists provides immediate emergency services including tarping, water extraction, structural stabilization, and security measures to protect properties following storm events.
+                Post-storm mitigation work is typically covered by insurance policies and is essential for preventing additional damage. Florida Construction Specialists provides immediate prompt services including tarping, water extraction, structural stabilization, and security measures to protect properties following storm events.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -687,7 +685,6 @@ export default function Page() {
                     Get Free Consultation
                   </Link>
                   <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="border-2 border-white text-white px-6 py-3 rounded font-bold hover:bg-white hover:text-brand-green transition-colors inline-block text-center">
-                    24/7 Emergency: {BUSINESS_INFO.phone}
                   </a>
                 </div>
               </div>

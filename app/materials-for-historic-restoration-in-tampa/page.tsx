@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/materials-for-historic-restoration-in-tampa/' },
   title: "Materials for Historic Restoration in Tampa",
   description: "Sourcing authentic materials for Tampa historic restoration projects. Period-appropriate brick, lime mortar, wood, hardware, and decorative elements for landmark buildings.",
 };

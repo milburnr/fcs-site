@@ -19,6 +19,7 @@ import type { Metadata } from "next";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/team/' },
   title: "Our Team | Leadership & Expertise",
   description:
     "Meet the experienced leadership team at Florida Construction Specialists. Decades of combined expertise in commercial construction, historic restoration, and luxury custom homes in Tampa Bay.",

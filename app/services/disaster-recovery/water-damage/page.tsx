@@ -9,6 +9,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { FadeIn, StaggerContainer } from "@/components/AnimatedElements";
 import {
+
   CheckCircle,
   Shield,
   Award,
@@ -39,7 +40,7 @@ const faqs = [
   },
   {
     question: "What is the water damage restoration process?",
-    answer: "Our process includes: 1) Emergency response and inspection, 2) Water extraction using truck-mounted and portable equipment, 3) Structural drying with commercial dehumidifiers and air movers, 4) Moisture monitoring throughout the drying process, 5) Cleaning and sanitization, 6) Restoration of damaged materials including drywall, flooring, and finishes.",
+    answer: "Our process includes: 1) storm response and inspection, 2) Water extraction using truck-mounted and portable equipment, 3) Structural drying with commercial dehumidifiers and air movers, 4) Moisture monitoring throughout the drying process, 5) Cleaning and sanitization, 6) Restoration of damaged materials including drywall, flooring, and finishes.",
   },
   {
     question: "Does homeowner's insurance cover water damage?",
@@ -109,7 +110,7 @@ const relatedLinks = [
   { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
   { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
   { href: "/services/disaster-recovery/insurance-claims-process/", label: "Insurance Claims Process" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
 ];
 
@@ -137,7 +138,6 @@ export default function WaterDamagePage() {
             <FadeIn>
               <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-500/50 px-4 py-2 rounded-full mb-6">
                 <AlertTriangle className="w-5 h-5 text-blue-400" />
-                <span className="text-blue-200 font-medium">24/7 Emergency Response</span>
               </div>
             </FadeIn>
 
@@ -179,7 +179,7 @@ export default function WaterDamagePage() {
                   className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Emergency: {BUSINESS_INFO.phone}
+                  urgent: {BUSINESS_INFO.phone}
                 </a>
                 <Link
                   href="/contact/"
@@ -220,7 +220,6 @@ export default function WaterDamagePage() {
                   mitigation is narrow. Mold can begin growing within 24-48 hours of water
                   intrusion. Structural materials continue absorbing moisture. What starts as
                   a manageable situation can quickly become a major restoration project.
-                  That's why we maintain 24/7 emergency response capability.
                 </p>
               </FadeIn>
 
@@ -261,7 +260,7 @@ export default function WaterDamagePage() {
                   Once dry, restoration begins—replacing damaged drywall, flooring, insulation,
                   and finishes. As a full-service general contractor, we handle everything from
                   minor repairs to complete reconstruction. You deal with one company from
-                  emergency response through final paint.
+                  storm response through final paint.
                 </p>
               </FadeIn>
             </div>
@@ -316,7 +315,7 @@ export default function WaterDamagePage() {
               {[
                 {
                   step: "1",
-                  title: "Emergency Response & Assessment",
+                  title: "storm response & Assessment",
                   description: "24/7 response to stop water source, assess damage extent and category, and begin documentation for insurance claims.",
                 },
                 {
@@ -398,14 +397,13 @@ export default function WaterDamagePage() {
               <div>
                 <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-500/50 px-4 py-2 rounded-full mb-6">
                   <AlertTriangle className="w-5 h-5 text-blue-400" />
-                  <span className="text-blue-200 font-medium">24/7 Emergency Response</span>
                 </div>
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   Water Damage Emergency? Call Now
                 </h2>
                 <p className="text-xl text-gray-300 mb-6">
                   Every hour counts with water damage. Contact FCS for immediate
-                  emergency response, professional extraction and drying, and
+                  storm response, professional extraction and drying, and
                   complete restoration services. We work directly with your insurance.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
@@ -414,7 +412,7 @@ export default function WaterDamagePage() {
                     className="inline-flex items-center justify-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-lg transition-colors"
                   >
                     <Phone className="w-5 h-5" />
-                    Emergency: {BUSINESS_INFO.phone}
+                    urgent: {BUSINESS_INFO.phone}
                   </a>
                 </div>
                 <p className="text-gray-400 mt-4">
@@ -425,7 +423,7 @@ export default function WaterDamagePage() {
 
             <FadeIn delay={0.2}>
               <div className="bg-white rounded-2xl p-8 shadow-2xl">
-                <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Emergency Service</h3>
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">Request prompt service</h3>
                 <HighLevelForm height={450} />
               </div>
             </FadeIn>

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-residential-restoration-after-hurricane-damage/' },
   title: "Tampa Residential Restoration After Hurricane",
   description: "Expert residential restoration after hurricane damage in Tampa. Complete home reconstruction, roof repair, water damage restoration, and insurance claim support for Tampa Bay homeowners.",
 };
@@ -95,7 +96,7 @@ export default function Page() {
             Tampa Residential Restoration After Hurricane Damage
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Complete home restoration services for Tampa Bay homeowners recovering from hurricane damage. From emergency repairs to full reconstruction, we restore your home and peace of mind.
+            Complete home restoration services for Tampa Bay homeowners recovering from hurricane damage. From storm repairs to full reconstruction, we restore your home and peace of mind.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -118,7 +119,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Tampa Bay's vulnerability to hurricanes means residential restoration services are an essential resource for homeowners. When a hurricane damages your home, you need a contractor you can trust to restore your property properly, work effectively with your insurance company, and get your family back to normal life as quickly as possible. Florida Construction Specialists has helped thousands of Tampa Bay homeowners recover from hurricane damage, providing comprehensive restoration services from emergency board-up through complete reconstruction.
+              Tampa Bay's vulnerability to hurricanes means residential restoration services are an essential resource for homeowners. When a hurricane damages your home, you need a contractor you can trust to restore your property properly, work effectively with your insurance company, and get your family back to normal life as quickly as possible. Florida Construction Specialists has helped thousands of Tampa Bay homeowners recover from hurricane damage, providing comprehensive restoration services from board-up through complete reconstruction.
             </p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
@@ -142,15 +143,14 @@ export default function Page() {
             <div className="grid md:grid-cols-2 gap-6 mb-8">
               <div className="bg-gray-50 p-6 rounded-lg">
                 <Shield className="w-10 h-10 text-brand-green mb-4" />
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3">Emergency Services</h3>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">prompt services</h3>
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>24/7 emergency response availability</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Emergency board-up and tarping</span>
+                    <span>Board-up and tarping</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
@@ -264,7 +264,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Board-Up/Tarp</td>
+                    <td className="px-6 py-4 font-medium">Board-Up/Tarp</td>
                     <td className="px-6 py-4">$500 - $3,000</td>
                     <td className="px-6 py-4 text-gray-600">Per opening or roof section</td>
                   </tr>
@@ -314,8 +314,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
-                  <p className="text-gray-600">We respond quickly to secure your property, prevent further damage, and begin the recovery process. Emergency services include board-up, tarping, water extraction, and debris clearing to make your property safe and protected.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
+                  <p className="text-gray-600">We respond quickly to secure your property, prevent further damage, and begin the recovery process. prompt services include board-up, tarping, water extraction, and debris clearing to make your property safe and protected.</p>
                 </div>
               </div>
 

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/color-palettes-for-historic-buildings-in-tampa/' },
   title: "Color Palettes for Historic Buildings in Tampa",
   description: "Expert guidance on selecting period-appropriate color palettes for Tampa's historic buildings. Paint analysis, historic color research, and compliance with preservation standards.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-premier-commercial-remodeling-contractors/' },
   title: "Tampa's Premier Commercial Remodeling Contractors",
   description: "Tampa Bay's leading commercial remodeling contractors since 2006. Expert office, retail, medical, and industrial renovations with proven track record across Hillsborough, Pinellas, Pasco, and Polk counties.",
 };
@@ -87,7 +88,7 @@ const faqs = [
   },
   {
     question: "What warranties do you provide on commercial remodeling work?",
-    answer: "We provide a comprehensive 1-year warranty covering all workmanship, with extended warranties on specific systems: 2 years on mechanical systems, manufacturer warranties (typically 10-25 years) on roofing, and various equipment warranties. We also coordinate warranty registration for all installed equipment. Our warranty response time averages under 48 hours for non-emergency issues and same-day for emergencies. Many clients tell us our warranty service exceeds what they experienced during construction."
+    answer: "We provide a comprehensive 1-year warranty covering all workmanship, with extended warranties on specific systems: 2 years on mechanical systems, manufacturer warranties (typically 10-25 years) on roofing, and various equipment warranties. We also coordinate warranty registration for all installed equipment. Our warranty response time averages under 48 hours for non-emergency issues and same-day for urgent issues. Many clients tell us our warranty service exceeds what they experienced during construction."
   }
 ];
 

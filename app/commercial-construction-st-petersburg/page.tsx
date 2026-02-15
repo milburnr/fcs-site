@@ -12,6 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
   title: "Commercial Construction in St. Petersburg",
   description: "St. Petersburg's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, historic restoration. Federal compliance expertise. Call (813) 420-7561.",
   keywords: [
@@ -77,7 +78,6 @@ const stPeteFaqs = [
 const pillarLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/medical-construction/", label: "Medical & Healthcare Facilities" },
   { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" },
 ];
 
@@ -338,11 +338,6 @@ export default function CommercialConstructionStPetersburgPage() {
                 title: "Design-Build Construction",
                 description: "Single-source accountability for St. Petersburg commercial projects, combining design and construction under one contract for streamlined delivery and clear communication in the fast-paced St. Pete market.",
                 href: "/services/commercial/design-build/",
-              },
-              {
-                title: "Medical & Healthcare Facilities",
-                description: "AHCA-compliant medical construction in St. Petersburg including surgical centers, clinics, medical offices, and specialty healthcare facilities with federal compliance expertise.",
-                href: "/services/commercial/medical-construction/",
               },
               {
                 title: "Multi-Family Construction",

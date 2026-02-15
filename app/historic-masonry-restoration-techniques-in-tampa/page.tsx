@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
   description: "Expert historic masonry restoration in Tampa using traditional techniques. Specialized brick, stone, and mortar restoration for Ybor City landmarks and commercial buildings.",
 };
@@ -515,7 +516,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Hurricane season considerations require project planning that accounts for potential weather delays and protection of work in progress. Partially repointed walls may be vulnerable to wind-driven rain penetration, requiring temporary protection systems. Emergency response plans ensure that work areas can be secured quickly when weather threats develop.
+              Hurricane season considerations require project planning that accounts for potential weather delays and protection of work in progress. Partially repointed walls may be vulnerable to wind-driven rain penetration, requiring temporary protection systems. storm response plans ensure that work areas can be secured quickly when weather threats develop.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

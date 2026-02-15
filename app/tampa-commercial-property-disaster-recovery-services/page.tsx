@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-property-disaster-recovery-services/' },
   title: "Tampa Commercial Property Disaster Recovery Services",
   description: "Recover quickly from unexpected damage with Tampa&apos;s top-rated Commercial Property Disaster Recovery services. Get expert restoration solutions. Call now!",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -126,12 +126,11 @@ export default function Page() {
                 Comprehensive Commercial Disaster Recovery Services
               </h2>
               <p className="text-gray-600 mb-6">
-                Our commercial disaster recovery services cover every aspect of restoration, from initial emergency response through complete reconstruction. We handle structural repairs, systems restoration, interior reconstruction, and business continuity planning to ensure your commercial property returns to full operation as quickly as possible.
+                Our commercial disaster recovery services cover every aspect of restoration, from initial storm response through complete reconstruction. We handle structural repairs, systems restoration, interior reconstruction, and business continuity planning to ensure your commercial property returns to full operation as quickly as possible.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Emergency Stabilization Services</h3>
               <p className="text-gray-600 mb-6">
-                When disaster strikes, our emergency response team is available 24/7 to secure your property and prevent further damage. We provide emergency board-up services, tarp installation, water extraction, and temporary power solutions to stabilize your commercial property immediately after a disaster event.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Structural Assessment and Repair</h3>
@@ -162,7 +161,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane Damage Response Protocol</h3>
               <p className="text-gray-600 mb-6">
-                Our hurricane response begins before the storm arrives. We pre-stage equipment, coordinate with suppliers for materials, and prepare our teams for immediate deployment once conditions are safe. This preparation allows us to respond within hours of a hurricane's passage, securing properties and beginning damage assessment while other contractors are still mobilizing.
+                Our hurricane response begins before the storm arrives. We pre-stage equipment, coordinate with suppliers for materials, and prepare our teams for immediate deployment once conditions are safe. This preparation allows us to responds promptly of a hurricane's passage, securing properties and beginning damage assessment while other contractors are still mobilizing.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Flood Damage Specialization</h3>
@@ -254,7 +253,6 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                    <span>24/7 emergency response capability throughout Tampa Bay</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
@@ -286,8 +284,7 @@ export default function Page() {
                 <div className="flex gap-4">
                   <div className="bg-brand-green text-white rounded-full w-8 h-8 flex items-center justify-center font-bold text-sm flex-shrink-0 mt-1">1</div>
                   <div>
-                    <h4 className="font-bold text-brand-green-dark mb-1">Emergency Response (0-4 hours)</h4>
-                    <p className="text-gray-600 text-sm">24/7 emergency hotline activates our response team. We dispatch crews for immediate property stabilization and damage assessment.</p>
+                    <h4 className="font-bold text-brand-green-dark mb-1">storm response (0-4 hours)</h4>
                   </div>
                 </div>
                 
@@ -336,7 +333,6 @@ export default function Page() {
               </p>
 
               <p className="text-gray-600 mb-6">
-                Call our 24/7 emergency hotline now, and let us help you get your business back to normal as quickly as possible. Time is critical in disaster recovery – the sooner we can begin stabilization and assessment, the faster and more complete your recovery will be.
               </p>
           </div>
         </div>

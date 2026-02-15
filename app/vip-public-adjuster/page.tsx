@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/vip-public-adjuster/' },
   title: "VIP Public Adjuster Tampa | Commercial Claims",
   description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Maximize insurance claim settlements with professional advocacy, documentation, and negotiation support.",
 };
@@ -19,7 +20,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "What is a public adjuster and how do they differ from insurance company adjusters?",
-    answer: "A public adjuster is a licensed professional who works exclusively for policyholders—not insurance companies—to evaluate, document, and negotiate property damage claims. Unlike company adjusters who represent the insurer's interests, public adjusters advocate for maximum claim recovery. Under Florida Statute 626.854, public adjusters must be licensed by the Department of Financial Services and operate under strict ethical guidelines. They typically charge a percentage of the claim settlement (capped at 10% for non-emergency claims and 20% for emergency claims in Florida), but often recover significantly more than policyholders would on their own."
+    answer: "A public adjuster is a licensed professional who works exclusively for policyholders—not insurance companies—to evaluate, document, and negotiate property damage claims. Unlike company adjusters who represent the insurer's interests, public adjusters advocate for maximum claim recovery. Under Florida Statute 626.854, public adjusters must be licensed by the Department of Financial Services and operate under strict ethical guidelines. They typically charge a percentage of the claim settlement (capped at 10% for non-emergency claims and 20% for prompt claims in Florida), but often recover significantly more than policyholders would on their own."
   },
   {
     question: "When should I hire a public adjuster for my commercial property claim?",
@@ -319,7 +320,7 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Emergency mitigation services</span>
+                    <span>Mitigation services</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />

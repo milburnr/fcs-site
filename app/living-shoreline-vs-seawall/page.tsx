@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/living-shoreline-vs-seawall/' },
   title: "Living Shoreline vs Seawall Tampa Bay | FCS",
   description:
     "Compare living shorelines and traditional seawalls for Tampa Bay waterfront properties. Environmental benefits, costs, permits, and which approach suits your property.",

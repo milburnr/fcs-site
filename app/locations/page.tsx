@@ -6,6 +6,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/' },
   title: "Locations",
   description: "Locations - Florida Construction Specialists Tampa Bay Florida Sevice Locations Florida Construction Specialists is based in the Tampa Bay, Florida area. We",
 };

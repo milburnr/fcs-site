@@ -11,6 +11,7 @@ import { InternalLinks, NearbyLocations, RelatedServices } from "@/components/In
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-tampa/' },
   title: "Historic Restoration in Tampa",
   description: "Tampa's expert historic restoration contractor. Ybor City National Historic Landmark, Hyde Park, Seminole Heights. SHPO compliance, Secretary of Interior Standards, historic tax credits. Call (813) 420-7561.",
   keywords: [

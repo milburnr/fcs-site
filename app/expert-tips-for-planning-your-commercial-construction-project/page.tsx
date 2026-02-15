@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-tips-for-planning-your-commercial-construction-project/' },
   title: "Planning Commercial Construction Tampa | Tips",
   description: "Comprehensive guide to planning commercial construction in Florida. Expert advice on budgeting, permits, contractor selection, and project management from Tampa Bay's leading design-build firm.",
 };

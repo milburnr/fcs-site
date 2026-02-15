@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-choosing-a-commercial-contractor-in-tampa/' },
   title: "Tips for Choosing a Commercial Contractor in Tampa",
   description: "Our trusted tips for choosing a commercial contractor you can trust will guide you towards reputable construction companies and reliable contractors in Tampa Bay.",
 };
@@ -20,7 +21,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

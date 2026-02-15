@@ -6,6 +6,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/contact/' },
   title: "Contact Us",
   description: "Contact Florida Construction Specialists for a free consultation on your commercial or residential construction project in Tampa Bay.",
 };

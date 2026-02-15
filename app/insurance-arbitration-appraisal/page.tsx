@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-arbitration-appraisal/' },
   title: "Insurance Arbitration & Appraisal Services",
   description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster. Schedule consultation: (813) 420-7561.",
   keywords: [

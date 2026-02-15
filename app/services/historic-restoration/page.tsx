@@ -10,6 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/historic-restoration/' },
   title: "Historic Restoration & Preservation in Tampa Bay",
   description: "Tampa Bay's expert historic restoration contractor. SHPO compliance, Secretary of Interior Standards, historic tax credits. Ybor City specialists. Call (813) 420-7561.",
   keywords: [
@@ -44,7 +45,7 @@ const historicFaqs = [
   },
   {
     question: "Do you handle historic building disaster recovery?",
-    answer: "Yes, we specialize in disaster recovery for historic properties. This requires particular expertise to ensure emergency repairs and restoration work don't inadvertently damage historic character or jeopardize tax credit eligibility. Our 43+ years of combined insurance and construction experience is particularly valuable for historic property claims."
+    answer: "Yes, we specialize in disaster recovery for historic properties. This requires particular expertise to ensure storm repairs and restoration work don't inadvertently damage historic character or jeopardize tax credit eligibility. Our 43+ years of combined insurance and construction experience is particularly valuable for historic property claims."
   },
   {
     question: "What's involved in getting Certificate of Appropriateness approval?",

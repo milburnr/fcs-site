@@ -28,6 +28,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-common-area-reconstruction/' },
   title: "Condo Common Area Reconstruction Tampa | FCS Construction",
   description:
     "Expert common area reconstruction for Tampa Bay condominiums. Lobby renovations, pool deck repairs, corridor updates, and amenity upgrades that comply with SB4D and enhance property value.",
@@ -268,7 +269,7 @@ const internalLinks = [
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/condo-structural-reserve-study-repairs/", label: "Structural Reserve Studies" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

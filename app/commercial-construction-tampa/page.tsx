@@ -12,6 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-tampa/' },
   title: "Commercial Construction in Tampa",
   description: "Tampa's premier commercial contractor for $500K-$25M+ projects. Design-build, medical, multi-family, industrial construction. 40+ years experience. Call (813) 420-7561.",
   keywords: [
@@ -20,16 +21,14 @@ export const metadata: Metadata = {
     "commercial building tampa",
     "tampa commercial construction company",
     "design-build tampa",
-    "commercial general contractor tampa fl",
-  ],
+    "commercial general contractor tampa fl"],
 };
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/services/commercial/" },
-  { name: "Tampa", href: "/commercial-construction-tampa/" },
-];
+  { name: "Tampa", href: "/commercial-construction-tampa/" }];
 
 const tampaFaqs = [
   {
@@ -71,22 +70,18 @@ const tampaFaqs = [
   {
     question: "What makes Florida Construction Specialists different from other Tampa commercial contractors?",
     answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability. Second, our 40+ years experience and in-house engineering enables large-scale projects. Third, our 43+ years of combined construction and insurance industry experience brings unique expertise to every project."
-  },
-];
+  }];
 
 const pillarLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/medical-construction/", label: "Medical & Healthcare Facilities" },
-  { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" },
-];
+  { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" }];
 
 const nearbyLocationLinks = [
   { href: "/locations/brandon-fl/", label: "Brandon, FL" },
   { href: "/locations/clearwater-fl/", label: "Clearwater, FL" },
   { href: "/locations/st-petersburg-fl/", label: "St. Petersburg, FL" },
-  { href: "/locations/lakeland-fl/", label: "Lakeland, FL" },
-];
+  { href: "/locations/lakeland-fl/", label: "Lakeland, FL" }];
 
 export default function CommercialConstructionTampaPage() {
   return (
@@ -281,11 +276,6 @@ export default function CommercialConstructionTampaPage() {
                 href: "/services/commercial/design-build/",
               },
               {
-                title: "Medical & Healthcare Facilities",
-                description: "AHCA-compliant medical construction in Tampa including surgical centers, clinics, medical offices, and specialty healthcare facilities.",
-                href: "/services/commercial/medical-construction/",
-              },
-              {
                 title: "Multi-Family Construction",
                 description: "Apartment complexes, condominiums, and multi-family residential developments throughout Tampa's growing neighborhoods.",
                 href: "/services/commercial/multi-family/",
@@ -304,8 +294,7 @@ export default function CommercialConstructionTampaPage() {
                 title: "Retail Construction",
                 description: "Retail centers, restaurant buildouts, and hospitality construction throughout Tampa's commercial districts.",
                 href: "/services/commercial/retail-construction/",
-              },
-            ].map((service) => (
+              }].map((service) => (
               <Link
                 key={service.href}
                 href={service.href}
@@ -476,8 +465,7 @@ export default function CommercialConstructionTampaPage() {
                 title: "Completion & Warranty",
                 description: "Thorough closeout including punch list resolution, Certificate of Occupancy, training, and comprehensive warranty documentation for your Tampa property.",
                 icon: Award,
-              },
-            ].map((item) => (
+              }].map((item) => (
               <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
                 <div className="absolute -top-4 left-6 bg-brand-green text-white text-sm font-bold px-3 py-1 rounded-full">
                   Step {item.step}

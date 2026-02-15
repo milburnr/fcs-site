@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/sustainable-construction-trends-in-florida/' },
   title: "Sustainable Construction Trends in Florida",
   description: "Explore the latest sustainable construction trends shaping Florida's commercial building industry. From smart buildings to net-zero energy, discover what's next.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-preconstruction-modern-approach-design/' },
   title: "The Preconstruction Modern Approach Design",
   description: "Revolutionize your commercial construction with modern preconstruction services. Learn how early planning, value engineering, and design-build integration deliver better outcomes in Tampa Bay.",
 };

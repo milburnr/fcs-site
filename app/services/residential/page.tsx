@@ -10,6 +10,7 @@ import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/' },
   title: "Luxury Custom Home Construction in Tampa Bay",
   description: "Tampa Bay's premier luxury home builder for $1M+ waterfront estates and custom residences. Hurricane-resistant construction, 20+ years experience. Call (813) 420-7561.",
   keywords: [
@@ -79,13 +80,13 @@ const clusterServices = [
   },
   {
     name: "Balcony Reconstruction",
-    href: "/services/residential/balcony-reconstruction/",
+    href: "/balcony-reconstruction/",
     description: "Structural balcony repair, waterproofing, and reconstruction for single-family and multi-family properties.",
     icon: Sun,
   },
   {
     name: "Exterior Waterproofing",
-    href: "/services/residential/exterior-waterproofing/",
+    href: "/exterior-waterproofing/",
     description: "Building envelope protection including foundation waterproofing, below-grade systems, and drainage solutions.",
     icon: Droplets,
   },

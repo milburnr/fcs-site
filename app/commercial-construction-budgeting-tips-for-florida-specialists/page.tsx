@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-budgeting-tips-for-florida-specialists/' },
   title: "Commercial Construction Budgeting Florida | Tips",
   description: "Master commercial construction budgeting in Florida. Expert tips for accurate cost estimation, contingency planning, and avoiding budget overruns in Tampa Bay projects.",
 };

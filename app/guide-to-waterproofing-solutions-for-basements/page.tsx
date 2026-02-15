@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/guide-to-waterproofing-solutions-for-basements/' },
   title: "Basement Waterproofing Tampa | Below-Grade Solutions | FCS",
   description: "Professional basement and below-grade waterproofing for commercial buildings and condominiums in Tampa Bay. Expert solutions for parking garages, storage areas, and mechanical rooms.",
 };
@@ -25,9 +26,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing Guide" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/waterproofing-commercial-contractors/", label: "Commercial Waterproofing" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -430,7 +431,7 @@ export default function Page() {
               "Minimal operational disruption",
               "Comprehensive warranties",
               "Tampa Bay-wide service",
-              "Emergency leak response"
+              "Prompt leak response"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

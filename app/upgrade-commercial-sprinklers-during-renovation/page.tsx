@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/upgrade-commercial-sprinklers-during-renovation/' },
   title: "Upgrade Commercial Sprinklers Tampa | Fire",
   description: "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Code requirements, cost savings, and integration strategies from Florida Construction Specialists.",
 };

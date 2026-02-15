@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historical-property-insurance-restoration-expert/' },
   title: "Historic Property Insurance Restoration Tampa | FCS",
   description: "Expert Tampa historical property insurance restoration services. FCS specializes in insurance claims for historic buildings, storm damage restoration, and preservation compliance in Ybor City, Hyde Park, and South Tampa historic districts.",
 };

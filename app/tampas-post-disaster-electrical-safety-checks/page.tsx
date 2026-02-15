@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-post-disaster-electrical-safety-checks/' },
   title: "Post-Disaster Electrical Safety Tampa | Hurricane",
   description: "Professional post-disaster electrical safety checks in Tampa Bay. Expert inspection of electrical systems after hurricanes, floods, and storms to prevent fire and electrocution hazards.",
 };
@@ -32,7 +33,7 @@ const faqs = [
   },
   {
     question: "How long does post-disaster electrical inspection take?",
-    answer: "Basic safety evaluation for typical homes takes 1-3 hours. Comprehensive inspection with testing takes 3-6 hours for residential, longer for commercial properties. If damage is found, additional investigation time is needed. Repair time varies based on damage extent. Emergency response prioritizes safety evaluation; detailed inspection and repairs follow. Large commercial buildings may require multiple days for thorough inspection."
+    answer: "Basic safety evaluation for typical homes takes 1-3 hours. Comprehensive inspection with testing takes 3-6 hours for residential, longer for commercial properties. If damage is found, additional investigation time is needed. Repair time varies based on damage extent. storm response prioritizes safety evaluation; detailed inspection and repairs follow. Large commercial buildings may require multiple days for thorough inspection."
   },
   {
     question: "What does post-disaster electrical inspection cost?",

@@ -29,6 +29,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/mixed-use-development-tampa/' },
   title: "Mixed-Use Development Construction Tampa | FCS Construction",
   description:
     "Expert mixed-use development construction in Tampa Bay. Navigate zoning, design residential-over-retail buildings, and create vibrant urban projects that maximize land value and community impact.",

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/structural-integrity-evaluation-in-tampa-post-disaster/' },
   title: "Structural Integrity Evaluation Tampa | FCS",
   description: "Professional structural integrity evaluation in Tampa post-disaster. Licensed engineers assess commercial building safety after hurricanes, floods, and storms. Detailed reports for insurance and safety decisions.",
 };
@@ -201,7 +202,7 @@ export default function Page() {
 
             <div className="space-y-6 mb-8">
               <div className="bg-gray-50 p-6 rounded-lg">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3">Emergency Safety Assessment</h3>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">Safety Assessment</h3>
                 <p className="text-gray-600 mb-3">Rapid evaluation to determine if a building is safe to enter and occupy. Engineers assess immediate hazards, structural stability, and life safety concerns. Results in a preliminary determination: Safe to Occupy, Restricted Use, or Unsafe/Do Not Enter.</p>
                 <p className="text-gray-600"><strong>Turnaround:</strong> Same day or next day for most commercial buildings.</p>
               </div>
@@ -294,7 +295,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Safety Assessment</td>
+                    <td className="px-6 py-4 font-medium">Safety Assessment</td>
                     <td className="px-6 py-4">$500 - $2,500</td>
                     <td className="px-6 py-4 text-gray-600">Occupancy determination letter</td>
                   </tr>

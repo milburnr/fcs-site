@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/surviving-a-commercial-construction-project/' },
   title: "Surviving Commercial Construction | Tampa Guide",
   description: "Expert strategies for navigating commercial construction in Tampa Bay. Learn how to manage timelines, budgets, contractor relationships, and avoid common pitfalls from Florida Construction Specialists.",
 };

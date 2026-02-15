@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-plans-for-businesses-florida-construction-specialists/' },
   title: "Building Plans for Businesses Tampa | FCS",
   description: "Our Tampa-based construction specialists provide tailored building plans, business-specific designs, and customized solutions to meet your unique needs.",
 };
@@ -22,7 +23,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -182,7 +182,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Hurricane-Resistant Design</h3>
               <p className="text-gray-600 mb-6">
-                Every building plan we develop incorporates Florida's stringent wind resistance requirements and hurricane preparedness standards. Our structural engineering team ensures that your commercial facility can withstand Category 5 hurricane conditions, providing business continuity protection and insurance benefits. This includes impact-resistant glazing, reinforced roofing systems, and emergency power planning.
+                Every building plan we develop incorporates Florida's stringent wind resistance requirements and hurricane preparedness standards. Our structural engineering team ensures that your commercial facility can withstand Category 5 hurricane conditions, providing business continuity protection and insurance benefits. This includes impact-resistant glazing, reinforced roofing systems, and storm power planning.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Flood Zone Considerations</h3>

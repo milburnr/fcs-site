@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/foundation-restoration-services-in-tampa-after-flooding/' },
   title: "Foundation Restoration Services in Tampa After Flooding",
   description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with effective foundation repair,water damage repair,and flood damage resto...",
 };
@@ -282,7 +283,7 @@ export default function Page() {
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Immediate Stabilization Requirements</h3>
               <p className="text-gray-600 mb-6">
-                Severely damaged foundations require immediate stabilization to prevent catastrophic failure and ensure safety. Emergency stabilization includes temporary shoring, structural bracing, and load redistribution that maintains stability while permanent restoration is planned. Immediate stabilization prevents additional damage and maintains safety for occupants and workers.
+                Severely damaged foundations require immediate stabilization to prevent catastrophic failure and ensure safety. Stabilization includes temporary shoring, structural bracing, and load redistribution that maintains stability while permanent restoration is planned. Immediate stabilization prevents additional damage and maintains safety for occupants and workers.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Moisture and Contamination Control</h3>

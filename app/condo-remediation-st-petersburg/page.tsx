@@ -43,6 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-st-petersburg/' },
   title: "Condo Remediation St Petersburg | SB4-D | FCS",
   description:
     "St. Petersburg condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony reconstruction for condos 3+ stories. Serving Downtown St. Pete, St. Pete Beach, Treasure Island. Licensed CBC1262722.",
@@ -255,8 +256,8 @@ const commonIssues = [
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "SB4-D & Condo Remediation Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/services/residential/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/balcony-reconstruction-clearwater/", label: "Clearwater Balcony Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

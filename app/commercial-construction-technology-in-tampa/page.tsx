@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-technology-in-tampa/' },
   title: "Commercial Construction Technology Tampa | FCS",
   description: "Explore cutting-edge construction technology transforming Tampa's commercial building industry. BIM, drones, prefab, smart buildings & more from Tampa's tech-forward contractor.",
 };
@@ -457,7 +458,7 @@ export default function Page() {
               The buildings we construct today are increasingly intelligent, incorporating networks of sensors and automated systems that optimize performance, reduce operating costs, and improve occupant experience. Smart building technology is becoming standard in Tampa's Class A commercial developments and is increasingly expected by sophisticated tenants.
             </p>
             <p className="text-gray-600 mb-6">
-              Integrated building automation systems (BAS) connect HVAC, lighting, security, and other systems into a centralized platform. Occupancy sensors adjust lighting and temperature based on actual use rather than fixed schedules, reducing energy consumption by 20-30%. Predictive maintenance algorithms analyze equipment performance data to identify issues before failures occur, reducing downtime and emergency repair costs.
+              Integrated building automation systems (BAS) connect HVAC, lighting, security, and other systems into a centralized platform. Occupancy sensors adjust lighting and temperature based on actual use rather than fixed schedules, reducing energy consumption by 20-30%. Predictive maintenance algorithms analyze equipment performance data to identify issues before failures occur, reducing downtime and storm repair costs.
             </p>
             <p className="text-gray-600 mb-8">
               For building owners, smart systems provide valuable data about building performance and utilization. Analytics can identify underutilized spaces, enabling optimization of square footage. Energy performance tracking helps identify savings opportunities and document sustainability achievements. Tenant experience improvements through mobile apps and automated services increase satisfaction and retention.

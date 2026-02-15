@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/build-a-successful-future-in-construction-management/' },
   title: "Construction Management Career Tampa Bay | FCS",
   description: "Learn how construction management excellence leads to project success. Discover the principles and practices that drive successful commercial construction in Florida.",
 };

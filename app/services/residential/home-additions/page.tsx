@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/home-additions/' },
   title: "Home Additions Tampa | Room Additions & Expansions | FCS",
   description: "Home addition construction in Tampa Bay. Room additions, second stories, master suites, in-law suites. Seamless integration with existing homes. $250K+ projects. Call (813) 420-7561.",
   keywords: ["home additions tampa", "room addition contractor florida", "second story addition", "home expansion tampa bay", "in-law suite construction"],

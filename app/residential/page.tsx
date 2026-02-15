@@ -9,6 +9,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/' },
   title: "Lifetime Custom Homes Tampa | Luxury Home Builder | FCS",
   description:
     "Tampa Bay's premier luxury custom home builder. Waterfront estates, historic renovations, and bespoke residences crafted for generations. Begin your journey with Florida Construction Specialists.",
@@ -227,7 +228,7 @@ export default function ResidentialHubPage() {
               },
               {
                 number: "04",
-                title: "Historic Preservation & Renovation",
+                title: "Historic Restoration & Renovation",
                 description: "Tampa Bay's historic neighborhoods—Hyde Park, Seminole Heights, Historic Ybor—contain architectural treasures deserving of thoughtful stewardship. Our historic preservation team brings sensitivity and expertise to renovations requiring Architectural Review Commission approval and compliance with Secretary of Interior standards. We understand the delicate balance between preserving character-defining features and integrating modern systems invisibly. Whether restoring original millwork, replicating historic windows, or concealing contemporary HVAC within period-appropriate spaces, we honor the past while preparing your historic home for another century of gracious living."
               },
               {
@@ -670,7 +671,7 @@ export default function ResidentialHubPage() {
             {[
               { name: "Custom Homes", href: "/luxury-custom-homes/" },
               { name: "Waterfront", href: "/residential/waterfront-homes/" },
-              { name: "Historic", href: "/residential/historic-preservation/" },
+              { name: "Historic", href: "/commercial/historic-restoration/" },
               { name: "FEMA Compliance", href: "/residential/fema-compliance/" },
               { name: "Contact", href: "/contact/" },
             ].map((link) => (

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/post-construction-process-for-commercial-construction/' },
   title: "The Ultimate Guide to Post Construction Process in Florida",
   description: "Get your commercial construction project in Florida completed smoothly with the essential post construction process. Discover the key steps for a successful project closeout in Tampa Bay.",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -332,7 +332,6 @@ export default function Page() {
               <li>Extended warranties on major systems (HVAC, roofing, waterproofing)</li>
               <li>Manufacturer warranty coordination for equipment and materials</li>
               <li>11-month warranty walk-through to identify any issues before warranty expiration</li>
-              <li>24/7 emergency response for critical building system failures</li>
             </ul>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

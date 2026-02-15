@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
+
 export default function PremiumHomepage() {
   return (
     <main className="min-h-screen bg-white">
@@ -126,11 +127,11 @@ export default function PremiumHomepage() {
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
                 From ground-up development to tenant improvements, we specialize in 
                 commercial projects that demand precision, timeline adherence, and 
-                budget discipline. Our portfolio includes medical facilities, retail 
-                centers, office complexes, and hospitality venues.
+                budget discipline. Our portfolio includes retail centers, office 
+                complexes, industrial facilities, and hospitality venues.
               </p>
               <ul className="space-y-3 mb-8">
-                {['Medical & Healthcare Facilities', 'Multi-Family Developments', 'Retail & Restaurant Build-Outs', 'Office & Corporate Spaces'].map((item) => (
+                {['Multi-Family Developments', 'Retail & Restaurant Build-Outs', 'Office & Corporate Spaces', 'Industrial & Warehouse'].map((item) => (
                   <li key={item} className="flex items-center text-slate-700">
                     <svg className="w-5 h-5 text-amber-500 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />

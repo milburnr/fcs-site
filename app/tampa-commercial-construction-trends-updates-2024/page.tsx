@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-trends-updates-2024/' },
   title: "Tampa Commercial Construction Trends 2024-2025",
   description: "Stay ahead with the latest commercial construction trends in Tampa. Discover market insights, technology innovations, and what's shaping Tampa Bay's construction industry.",
 };

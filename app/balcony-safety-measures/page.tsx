@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-safety-measures/' },
   title: "Balcony Safety Measures Florida | Compliance",
   description: "Essential balcony safety measures for Florida condos and apartments. Learn about SB4-D inspection requirements, structural safety, railings, waterproofing, and fall prevention.",
 };
@@ -20,7 +21,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Inspection Requirements" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
   { href: "/contact/", label: "Schedule an Inspection" },
 ];
@@ -387,7 +388,7 @@ export default function Page() {
                 Balcony inspections under SB4-D must be performed by a licensed architect or structural engineer with experience in building envelope systems and coastal construction. The inspection must assess structural elements, connections to the building, waterproofing systems, drainage components, and safety features like railings and barriers.
               </p>
               <p className="text-gray-600 mb-6">
-                When substantial structural deterioration is identified during SB4-D inspections, associations have strict timelines for remediation. Emergency repairs addressing immediate safety hazards must begin within 30 days, while comprehensive restoration must be completed within specified timeframes based on the severity of deficiencies found.
+                When substantial structural deterioration is identified during SB4-D inspections, associations have strict timelines for remediation. storm repairs addressing immediate safety hazards must begin within 30 days, while comprehensive restoration must be completed within specified timeframes based on the severity of deficiencies found.
               </p>
             </div>
 
@@ -587,7 +588,7 @@ export default function Page() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Emergency Response Procedures for Balcony Safety
+              storm response Procedures for Balcony Safety
             </h2>
             <div className="prose prose-lg max-w-none mb-8">
               <p className="text-gray-600 mb-6">
@@ -606,7 +607,7 @@ export default function Page() {
                     <strong className="text-brand-green-dark">Structural Failure Signs:</strong>
                     <ul className="mt-2 space-y-1 text-sm">
                       <li>• Immediately evacuate the balcony and restrict access</li>
-                      <li>• Contact licensed structural engineer for emergency assessment</li>
+                      <li>• Contact licensed structural engineer for prompt assessment</li>
                       <li>• Document conditions with photographs from safe location</li>
                       <li>• Notify building management and insurance carrier</li>
                       <li>• Install temporary barriers to prevent accidental access</li>
@@ -634,7 +635,6 @@ export default function Page() {
                     <ul className="mt-2 space-y-1 text-sm">
                       <li>• Establish regular inspection schedules with documentation</li>
                       <li>• Develop relationships with qualified engineers and contractors</li>
-                      <li>• Maintain adequate reserve funds for emergency repairs</li>
                       <li>• Train building staff to recognize warning signs</li>
                       <li>• Create resident education programs on safety practices</li>
                     </ul>

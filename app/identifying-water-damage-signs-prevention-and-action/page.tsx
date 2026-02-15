@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/identifying-water-damage-signs-prevention-and-action/' },
   title: "Water Damage Signs & Prevention | Tampa Commercial",
   description: "Learn to identify water damage signs in commercial properties. Prevention strategies, early detection tips, and action steps for Tampa Bay businesses. Protect your property investment.",
 };

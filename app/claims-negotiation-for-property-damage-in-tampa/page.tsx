@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/claims-negotiation-for-property-damage-in-tampa/' },
   title: "Claims Negotiation for Property Damage in Tampa",
   description: "Expert Tampa claims negotiation services for property damage. Our skilled team streamlines property damage claims, ensuring you receive fair settlements fast.",
 };
@@ -307,20 +308,20 @@ export default function Page() {
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Emergency Response and Claim Protection
+                storm response and Claim Protection
               </h2>
               <p className="text-gray-600 mb-6">
-                The first 24-48 hours after property damage occurs are crucial for both property protection and claim success. Our emergency response services are designed to protect both your property and your insurance claim from the moment damage occurs.
+                The first 24-48 hours after property damage occurs are crucial for both property protection and claim success. Our storm response services are designed to protect both your property and your insurance claim from the moment damage occurs.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Immediate Damage Assessment</h3>
               <p className="text-gray-600 mb-6">
-                Our emergency response team conducts immediate damage assessments to identify safety hazards and develop a mitigation plan. This assessment becomes part of your claim documentation and ensures that all damage is properly identified before any cleanup or temporary repairs begin.
+                Our storm response team conducts immediate damage assessments to identify safety hazards and develop a mitigation plan. This assessment becomes part of your claim documentation and ensures that all damage is properly identified before any cleanup or temporary repairs begin.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Emergency Mitigation Services</h3>
               <p className="text-gray-600 mb-6">
-                We provide comprehensive emergency mitigation including board-up services, water extraction, structural stabilization, and temporary weatherproofing. These services prevent further damage while preserving evidence needed for your insurance claim.
+                We provide comprehensive mitigation including board-up services, water extraction, structural stabilization, and temporary weatherproofing. These services prevent further damage while preserving evidence needed for your insurance claim.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Evidence Preservation</h3>
@@ -374,7 +375,7 @@ export default function Page() {
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Comprehensive Service Integration</h3>
               <p className="text-gray-600 mb-6">
-                Unlike public adjusters who only handle claims, we provide complete restoration services from emergency response through final completion. This integration ensures seamless project management and eliminates conflicts between claims advocacy and construction execution.
+                Unlike public adjusters who only handle claims, we provide complete restoration services from storm response through final completion. This integration ensures seamless project management and eliminates conflicts between claims advocacy and construction execution.
               </p>
 
               <h3 className="text-lg font-semibold text-gray-800 mb-3">Proven Results</h3>

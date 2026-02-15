@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/unlocking-the-power-of-sustainable-construction/' },
   title: "Unlocking the Power of Sustainable Construction",
   description: "Discover the transformative power of sustainable construction. Florida Construction Specialists delivers green building solutions that drive value in Tampa Bay.",
 };

@@ -8,6 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-projects-in-tampa/' },
   title: "Historic Restoration Projects Tampa | FCS Portfolio",
   description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City, Hyde Park, and downtown Tampa showcasing expert preservation of theatres, mansions, and commercial buildings using Secretary of Interior standards.",
 };

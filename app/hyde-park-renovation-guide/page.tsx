@@ -26,6 +26,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/hyde-park-renovation-guide/' },
   title: "Hyde Park Renovation Guide Tampa | ARC | FCS",
   description:
     "Complete guide to renovating in Hyde Park Tampa. ARC approval process, Certificate of Appropriateness, historic district requirements, and period-accurate restoration.",
@@ -155,7 +156,7 @@ const faqs = [
   {
     question: "Are there tax incentives for historic renovation in Hyde Park?",
     answer:
-      "Florida offers property tax exemptions for qualified historic renovations. You may be eligible for a 10-year exemption on the increased assessed value resulting from restoration. Federal tax credits are also available for income-producing properties. Contact the Tampa Historic Preservation Office for current programs.",
+      "Florida offers property tax exemptions for qualified historic renovations. You may be eligible for a 10-year exemption on the increased assessed value resulting from restoration. Federal tax credits are also available for income-producing properties. Contact the Tampa Historic Restoration Office for current programs.",
   },
 ];
 
@@ -199,7 +200,7 @@ const relatedArticles = [
 export default function HydeParkRenovationGuidePage() {
   const breadcrumbItems = [
     { name: "Residential Services", href: "/residential/" },
-    { name: "Historic Preservation", href: "/residential/historic-preservation/" },
+    { name: "Historic Restoration", href: "/commercial/historic-restoration/" },
     { name: "Hyde Park Guide", href: "/hyde-park-renovation-guide/" },
   ];
 
@@ -423,7 +424,7 @@ export default function HydeParkRenovationGuidePage() {
                 ))}
               </ul>
               <p className="text-xs text-gray-500 mt-4">
-                Note: When in doubt, contact the Tampa Historic Preservation
+                Note: When in doubt, contact the Tampa Historic Restoration
                 Office for guidance before starting work.
               </p>
             </div>
@@ -565,12 +566,12 @@ export default function HydeParkRenovationGuidePage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <Link
-              href="/residential/historic-preservation/"
+              href="/commercial/historic-restoration/"
               className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
             >
               <Landmark className="w-8 h-8 text-brand-gold mb-3" />
               <h3 className="font-bold text-brand-green-dark mb-2">
-                Historic Preservation Services
+                Historic Restoration Services
               </h3>
               <p className="text-sm text-gray-600">
                 Full-service historic home renovation

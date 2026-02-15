@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/choosing-the-right-waterproofing-solution-your-ultimate-guide/' },
   title: "Choosing Waterproofing Solutions Tampa | Guide",
   description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. Compare traffic coatings, membranes, and sealants. Expert recommendations for Florida condos.",
 };
@@ -19,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/discover-the-benefits-of-exterior-waterproofing/", label: "Benefits of Exterior Waterproofing" },
   { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
   { href: "/contact/", label: "Schedule a Consultation" },

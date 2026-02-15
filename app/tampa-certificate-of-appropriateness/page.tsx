@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-certificate-of-appropriateness/' },
   title: "Certificate of Appropriateness Tampa | FCS",
   description:
     "Navigate Tampa's Certificate of Appropriateness (COA) process for historic properties. Expert guidance on application requirements, review criteria, and approval strategies for historic renovations.",

@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-home-energy-efficiency/' },
   title: "Historic Home Energy Efficiency Tampa | FCS",
   description:
     "Improve energy efficiency in Tampa Bay historic homes without compromising character. Preservation-approved insulation, windows, HVAC, and weatherization solutions for period properties.",

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-commercial-contractors-in-tampa/' },
   title: "Hiring Commercial Contractors in Tampa: Complete Guide | FCS",
   description: "Step-by-step guide to hiring commercial contractors in Tampa Bay. Learn the process from RFP to contract signing to ensure your project succeeds.",
 };

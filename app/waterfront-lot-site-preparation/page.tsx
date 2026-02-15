@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/waterfront-lot-site-preparation/' },
   title: "Waterfront Lot Site Preparation Tampa Bay | FCS Construction",
   description:
     "Expert waterfront lot site preparation in Tampa Bay. Navigate environmental permits, seawall requirements, fill placement, and flood zone compliance before building your dream waterfront home.",

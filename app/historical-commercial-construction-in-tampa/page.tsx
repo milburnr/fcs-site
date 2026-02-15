@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historical-commercial-construction-in-tampa/' },
   title: "Historic Commercial Construction Tampa | Heritage Building",
   description: "Expert historical commercial construction in Tampa. FCS preserves heritage buildings, historic storefronts, and commercial districts in Ybor City and downtown Tampa using traditional techniques and Secretary of Interior standards for authentic restoration.",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -459,7 +459,7 @@ export default function Page() {
               Historic commercial buildings require specialized maintenance programs that address the unique characteristics of historic materials and building systems while maintaining contemporary performance standards for commercial use. Our maintenance consulting includes development of customized programs that prioritize preservation of historic fabric while ensuring reliable building operation and tenant satisfaction.
             </p>
             <p className="text-gray-600 mb-6">
-              Preventive maintenance focuses on building envelope protection, mechanical system optimization, and early detection of problems that could cause damage to historic materials or building systems. Regular maintenance programs extend building life, reduce emergency repair costs, and maintain the appearance and performance standards that make historic commercial buildings competitive in Tampa's commercial real estate market.
+              Preventive maintenance focuses on building envelope protection, mechanical system optimization, and early detection of problems that could cause damage to historic materials or building systems. Regular maintenance programs extend building life, reduce storm repair costs, and maintain the appearance and performance standards that make historic commercial buildings competitive in Tampa's commercial real estate market.
             </p>
             <p className="text-gray-600 mb-6">
               Maintenance planning includes seasonal inspection schedules, vendor management for specialized services, and budget planning for routine maintenance and periodic renovation work. These programs enable building owners to maintain their properties proactively while preserving the authentic character and performance advantages that make historic commercial buildings attractive to tenants and investors.

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-strong-communities-through-community-outreach/' },
   title: "Building Strong Communities Through Community Outreach",
   description: "Florida Construction Specialists' commitment to Tampa Bay communities through charitable initiatives, local partnerships, workforce development, and social engagement.",
 };
@@ -141,7 +142,7 @@ export default function Page() {
                   <ul className="space-y-1 text-blue-900">
                     <li>• Habitat for Humanity partnerships</li>
                     <li>• Nonprofit facility improvements</li>
-                    <li>• Emergency disaster repairs</li>
+                    <li>• Disaster repairs</li>
                     <li>• Accessibility modifications</li>
                   </ul>
                 </div>
@@ -191,7 +192,7 @@ export default function Page() {
               Disaster Response and Recovery
             </h2>
             <p className="text-gray-600 mb-6">
-              Florida's hurricane vulnerability means disaster response is an ongoing community need. When storms strike, Florida Construction Specialists mobilizes quickly to help communities recover. We've provided emergency repairs for critical facilities, removed debris from impassable roads, and coordinated materials donations for affected families. Our construction equipment, materials inventory, and skilled personnel represent community assets during emergencies.
+              Florida's hurricane vulnerability means disaster response is an ongoing community need. When storms strike, Florida Construction Specialists mobilizes quickly to help communities recover. We've provided storm repairs for critical facilities, removed debris from impassable roads, and coordinated materials donations for affected families. Our construction equipment, materials inventory, and skilled personnel represent community assets during emergencies.
             </p>
             <p className="text-gray-600 mb-6">
               Beyond immediate response, we participate in long-term recovery efforts. Post-hurricane rebuilding creates construction demand that exceeds normal workforce capacity—we work with recovery organizations to ensure fair pricing and quality standards during these vulnerable periods. We've also contributed to community resilience planning, sharing construction expertise to help communities better prepare for future storms.

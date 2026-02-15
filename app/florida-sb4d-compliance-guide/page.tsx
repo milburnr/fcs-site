@@ -25,6 +25,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/florida-sb4d-compliance-guide/' },
   title: "Florida SB4-D Compliance Guide | Milestone | FCS",
   description:
     "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections, SIRS requirements, deadlines, and remediation planning for Tampa Bay.",
@@ -141,8 +142,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

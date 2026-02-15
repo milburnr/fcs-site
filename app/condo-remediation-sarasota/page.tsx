@@ -43,6 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-sarasota/' },
   title: "Condo Remediation Sarasota | SB4-D Compliance & SIRS",
   description:
     "Sarasota condo remediation experts. SB4-D compliance, milestone inspections, SIRS for Longboat Key, Siesta Key, Lido Key luxury condos. Post-Hurricane Ian structural repairs. Licensed. Call (813) 420-7561.",
@@ -274,8 +275,8 @@ const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation Services" },
   { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/services/residential/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-disaster-related-demolition-services/' },
   title: "Tampa Disaster Demolition | Emergency Commercial",
   description: "Professional disaster-related demolition services in Tampa. Emergency structural demolition, hurricane debris removal, and commercial property clearing. Licensed, insured, OSHA-compliant contractors.",
 };
@@ -19,7 +20,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How quickly can you respond to emergency demolition needs after a disaster in Tampa?",
-    answer: "Florida Construction Specialists maintains 24/7 emergency response capability throughout Tampa Bay. For declared disasters, we can typically have assessment teams on-site within 2-4 hours and begin demolition work within 24-48 hours, depending on site accessibility and permit requirements. We pre-stage equipment during hurricane season to ensure rapid deployment."
+    answer: "Florida Construction Specialists maintains 24/7 storm response capability throughout Tampa Bay. For declared disasters, we can typically have assessment teams on-site within 2-4 hours and begin demolition work within 24-48 hours, depending on site accessibility and permit requirements. We pre-stage equipment during hurricane season to ensure rapid deployment."
   },
   {
     question: "What permits are required for disaster-related demolition in Tampa?",
@@ -59,7 +60,7 @@ export default function Page() {
         <div className="absolute inset-0 z-0">
           <Image
             src="/images/hurricane-ian/hurricane-ian-display.webp"
-            alt="Emergency disaster demolition services in Tampa"
+            alt="Storm damage disaster demolition services in Tampa"
             fill
             className="object-cover"
             priority
@@ -75,7 +76,7 @@ export default function Page() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
-              Emergency Response
+              storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -101,8 +102,7 @@ export default function Page() {
               <div className="flex items-start gap-4">
                 <AlertTriangle className="w-6 h-6 text-red-600 flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="font-bold text-red-800 mb-2">24/7 Emergency Demolition Response</h3>
-                  <p className="text-red-700">Storm-damaged structures can pose immediate dangers including collapse risk, electrical hazards, and gas leaks. If you have a commercial property with structural damage, contact us immediately. Our emergency team can assess the situation and begin stabilization or demolition within hours when public safety is at risk.</p>
+                  <p className="text-red-700">Storm-damaged structures can pose immediate dangers including collapse risk, electrical hazards, and gas leaks. If you have a commercial property with structural damage, contact us immediately. Our our team can assess the situation and begin stabilization or demolition within hours when public safety is at risk.</p>
                 </div>
               </div>
             </div>
@@ -130,7 +130,7 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Expedited permitting through emergency protocols</span>
+                    <span>Expedited permitting through safety protocols</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
@@ -240,7 +240,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Assessment</td>
+                    <td className="px-6 py-4 font-medium">Initial Assessment</td>
                     <td className="px-6 py-4">$500 - $2,500</td>
                     <td className="px-6 py-4 text-gray-600">Building size, accessibility, urgency</td>
                   </tr>
@@ -270,7 +270,7 @@ export default function Page() {
                     <td className="px-6 py-4 text-gray-600">Material type, quantity, accessibility</td>
                   </tr>
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Premium (after hours)</td>
+                    <td className="px-6 py-4 font-medium">After-hours Premium</td>
                     <td className="px-6 py-4">+25% - 50%</td>
                     <td className="px-6 py-4 text-gray-600">Time sensitivity, resource availability</td>
                   </tr>
@@ -306,7 +306,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Assessment</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Initial Assessment</h3>
                   <p className="text-gray-600">Our structural engineers assess the damage, identify immediate safety hazards, and determine whether emergency demolition is required. We coordinate with local authorities and utilities to ensure safe site access.</p>
                 </div>
               </div>
@@ -373,11 +373,10 @@ export default function Page() {
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Need Emergency Demolition Services?</h3>
               <p className="mb-6 text-gray-200">
-                If you have a storm-damaged commercial property requiring demolition, contact Florida Construction Specialists immediately. Our 24/7 emergency response team can assess your situation and begin work rapidly while ensuring full compliance with insurance and regulatory requirements.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">
-                  Request Emergency Service
+                  Request prompt service
                 </Link>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}

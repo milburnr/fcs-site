@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
   title: "Exterior Waterproofing in Clearwater",
   description: `Clearwater exterior waterproofing for commercial buildings, condominiums, and multi-family properties. Building envelope protection, moisture barriers, foundation waterproofing. $100K+ projects. Call ${BUSINESS_INFO.phone}.`,
   keywords: "exterior waterproofing Clearwater, building envelope Clearwater, foundation waterproofing Clearwater, commercial waterproofing Clearwater, condo waterproofing Clearwater, moisture barrier Clearwater",
@@ -19,7 +20,7 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Residential", href: "/services/residential/" },
-  { name: "Exterior Waterproofing", href: "/services/residential/exterior-waterproofing/" },
+  { name: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { name: "Clearwater", href: "/exterior-waterproofing-clearwater/" },
 ];
 
@@ -352,7 +353,7 @@ export default function ExteriorWaterproofingClearwaterPage() {
                 <h3 className="font-bold text-brand-green-dark mb-4">Related Services</h3>
                 <ul className="space-y-2">
                   <li>
-                    <Link href="/services/residential/exterior-waterproofing/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
+                    <Link href="/exterior-waterproofing/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
                       <ArrowRight className="w-4 h-4" />
                       Exterior Waterproofing Services
                     </Link>
@@ -370,7 +371,7 @@ export default function ExteriorWaterproofingClearwaterPage() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/residential/balcony-reconstruction/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
+                    <Link href="/balcony-reconstruction/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
                       <ArrowRight className="w-4 h-4" />
                       Balcony Reconstruction Services
                     </Link>

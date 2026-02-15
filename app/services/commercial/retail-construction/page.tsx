@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/retail-construction/' },
   title: "Retail Construction Tampa | Shopping Centers & Stores | FCS",
   description: "Retail construction in Tampa Bay. Shopping centers, standalone stores, restaurants, mixed-use retail. Ground-up and tenant improvements. Fast timelines. Call (813) 420-7561.",
   keywords: ["retail construction tampa", "shopping center construction florida", "store buildout", "restaurant construction", "retail development tampa bay"],
@@ -336,11 +337,7 @@ export default function RetailConstructionPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

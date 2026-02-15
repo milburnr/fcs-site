@@ -8,6 +8,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { HighLevelForm } from "@/components/HighLevelForm";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/team-members/' },
   title: "Our Team | Florida Construction Specialists Leadership",
   description:
     "Meet the experienced leadership team at Florida Construction Specialists. 28+ years serving Tampa Bay with licensed, bonded, and insured commercial and residential construction expertise.",

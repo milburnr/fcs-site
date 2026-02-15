@@ -38,6 +38,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Tilt-Wall | FCS",
   description:
     "Industrial and warehouse construction in Tampa Bay. Tilt-wall construction, steel buildings, flex space, and distribution centers. $500K-$25M+ projects. 40+ years experience.",
@@ -1100,12 +1101,12 @@ export default function IndustrialConstructionPage() {
                   Heavy Industrial
                 </span>
                 <span className="bg-brand-green-light/20 text-brand-green-dark px-3 py-1 rounded-full text-sm font-medium">
-                  Emergency Response
+                  storm response
                 </span>
               </div>
               <p className="text-gray-700 mb-4">
                 When the overhead railway system at Coronado Phosphate Mine collapsed—a critical piece 
-                of infrastructure for mining operations—FCS mobilized for emergency reconstruction. 
+                of infrastructure for mining operations—FCS mobilized for prompt reconstruction. 
                 This complex project involved heavy structural steel work, coordination with ongoing 
                 mining operations, and demanding safety requirements in an active industrial environment.
               </p>

@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-lakeland/' },
   title: "Commercial Construction Lakeland | $500K+ | FCS",
   description: "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
   keywords: "commercial construction lakeland, commercial contractor lakeland, commercial builder lakeland fl, warehouse construction lakeland, industrial construction lakeland, office building construction lakeland",
@@ -23,10 +24,6 @@ const serviceFeatures = [
   {
     title: "Office Buildings & Corporate Campuses",
     description: "From single-tenant buildings to multi-story office complexes in Downtown Lakeland, near Publix headquarters, and throughout Polk County's growing business districts."
-  },
-  {
-    title: "Medical & Healthcare Facilities",
-    description: "Healthcare construction for clinics, urgent care centers, surgical centers, and specialty practices near Lakeland Regional Health and throughout central Polk County."
   },
   {
     title: "Retail Centers & Shopping Complexes",
@@ -82,8 +79,7 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial-construction/" },
-  { name: "Lakeland", href: "/commercial-construction-lakeland/" },
-];
+  { name: "Lakeland", href: "/commercial-construction-lakeland/" }];
 
 export default function CommercialConstructionLakelandPage() {
   return (
@@ -484,7 +480,6 @@ export default function CommercialConstructionLakelandPage() {
                 <li><Link href="/disaster-recovery-lakeland/" className="text-brand-green hover:underline">Disaster Recovery Lakeland</Link></li>
                 <li><Link href="/historic-restoration-lakeland/" className="text-brand-green hover:underline">Historic Restoration Lakeland</Link></li>
                 <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
-                <li><Link href="/commercial/medical-construction/" className="text-brand-green hover:underline">Medical Construction</Link></li>
               </ul>
             </div>
             <div>

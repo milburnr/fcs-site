@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-permits/' },
   title: "Tampa Commercial Construction Permits | Guide",
   description: "Complete guide to Tampa commercial construction permits. Learn about the City of Tampa building permit process, requirements, fees, timelines, and how Florida Construction Specialists manages permit approvals.",
 };

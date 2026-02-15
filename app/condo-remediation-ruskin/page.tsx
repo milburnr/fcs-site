@@ -41,6 +41,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-ruskin/' },
   title: "Condo Remediation Ruskin | Sun City Center | FCS",
   description:
     "Condo remediation experts HEADQUARTERED in Ruskin. SB4-D compliance, milestone inspections, SIRS for Sun City Center, Apollo Beach, South Hillsborough condos. Local expertise, fastest response. Call (813) 420-7561.",
@@ -179,7 +180,6 @@ const ruskinFaqs = [
   {
     question: "How quickly can FCS respond to urgent condo remediation needs in Ruskin?",
     answer:
-      "Because FCS is headquartered in Ruskin, we offer the fastest response times in South Hillsborough County. For urgent structural concerns identified during milestone inspections, we can typically have personnel on-site within hours for initial assessment. For emergency situations involving immediate safety concerns, our local presence enables same-day mobilization for stabilization measures. This rapid response capability is a significant advantage for Sun City Center and Apollo Beach associations facing time-sensitive compliance deadlines or unexpected structural discoveries.",
   },
   {
     question: "Does FCS have experience working with retirement community condo associations?",

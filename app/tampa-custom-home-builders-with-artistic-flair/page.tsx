@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-home-builders-with-artistic-flair/' },
   title: "Tampa Custom Home Builders | Unique Architecture",
   description: "Build an architecturally distinctive custom home in Tampa. Unique designs, artistic details, custom millwork, and statement features. Creative luxury homes from $500K-$5M+.",
 };

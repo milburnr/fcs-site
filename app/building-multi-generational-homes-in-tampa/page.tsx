@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/building-multi-generational-homes-in-tampa/' },
   title: "Building Multi-Generational Homes in Tampa | Family Living",
   description: "Build multi-generational homes in Tampa for extended family living. In-law suites, dual master bedrooms, accessible design, and private living quarters. Multi-gen homes from $500K-$2.5M+.",
 };
@@ -160,7 +161,7 @@ export default function Page() {
               Multi-generational homes should anticipate mobility changes over time. What serves active grandparents today should accommodate walkers or wheelchairs in coming decades. We incorporate universal design principles throughout: wider doorways (36 inches minimum), zero-threshold entries, grab bar blocking in bathrooms, first-floor bedroom and full bath options, and lever-style door handles throughout. These features serve all ages—strollers navigate wide doorways as easily as wheelchairs.
             </p>
             <p className="text-gray-600 mb-6">
-              More extensive accessibility features might include: roll-in showers with bench seating, adjustable-height counters in kitchens and baths, elevator shafts (even if not initially equipped), ramps integrated into landscaping, and emergency call systems. These additions cost little during construction but would be expensive retrofits. Planning now extends the home's utility through whatever mobility challenges the future brings.
+              More extensive accessibility features might include: roll-in showers with bench seating, adjustable-height counters in kitchens and baths, elevator shafts (even if not initially equipped), ramps integrated into landscaping, and storm call systems. These additions cost little during construction but would be expensive retrofits. Planning now extends the home's utility through whatever mobility challenges the future brings.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">

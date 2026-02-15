@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/financial-planning-for-commercial-construction/' },
   title: "Financial Planning Commercial Construction Tampa",
   description: "Expert guidance on budgeting, financing, and cost management for commercial construction in Tampa Bay. Learn about construction loans, cost estimation, and ROI optimization.",
 };

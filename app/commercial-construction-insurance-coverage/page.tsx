@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-insurance-coverage/' },
   title: "Commercial Construction Insurance Florida | Guide",
   description: "Understand commercial construction insurance requirements in Florida. Learn about liability, workers' comp, builder's risk, and what coverage contractors should carry.",
 };

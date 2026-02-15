@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/why-florida-construction-specialists-recommend-building-instead-of-buying/' },
   title: "Build vs Buy Commercial Property Tampa | FCS",
   description: "Discover why Florida Construction Specialists recommends building instead of buying commercial property in Tampa. Learn about customization, code compliance, efficiency, and long-term value advantages.",
 };

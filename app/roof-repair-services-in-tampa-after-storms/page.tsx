@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-repair-services-in-tampa-after-storms/' },
   title: "Roof Repair Services in Tampa After Storms",
   description: "Get fast, reliable roof repair services in Tampa from our expert team. We specialize in storm damage roof repairs to keep your home safe and secure.",
 };
@@ -118,7 +119,7 @@ export default function Page() {
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Emergency Roof Repair Securing Property After Storm
+                Storm Damage Roof Repair Securing Property After Storm
               </h2>
               <p className="text-gray-600 mb-6">
                 Florida Construction Specialists is leading the way in sustainable commercial construction in Tampa. As the demand for eco-friendly construction continues to grow, their expertise and

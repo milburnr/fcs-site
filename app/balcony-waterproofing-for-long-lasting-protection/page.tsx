@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-waterproofing-for-long-lasting-protection/' },
   title: "Balcony Waterproofing Tampa | High-Rise | FCS",
   description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection for lasting performance.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -208,7 +209,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Overflow provisions protect against flooding when primary drains clog. Secondary scuppers positioned several inches above the primary drain level provide emergency relief during heavy rainfall. Without overflow protection, clogged drains can create standing water deep enough to flood through sliding door thresholds, damaging unit interiors.
+              Overflow provisions protect against flooding when primary drains clog. Secondary scuppers positioned several inches above the primary drain level provide prompt relief during heavy rainfall. Without overflow protection, clogged drains can create standing water deep enough to flood through sliding door thresholds, damaging unit interiors.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -606,7 +607,7 @@ export default function Page() {
               "Condo association experience",
               "Minimal resident disruption",
               "Tampa Bay-wide service",
-              "Emergency leak response"
+              "Prompt leak response"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

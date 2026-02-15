@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/fire-damage-restoration-and-insurance-in-tampa/' },
   title: "Commercial Fire Damage Restoration & Insurance in Tampa",
   description: "Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with insurance claim support.",
 };
@@ -53,7 +54,7 @@ export default function Page() {
             Commercial Fire Damage Restoration &amp; Insurance in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            When fire strikes your commercial property, rapid response and expert restoration minimize business disruption. Our team handles everything from emergency stabilization to complete reconstruction while maximizing your insurance recovery.
+            When fire strikes your commercial property, rapid response and expert restoration minimize business disruption. Our team handles everything from structural stabilization to complete reconstruction while maximizing your insurance recovery.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -106,7 +107,7 @@ export default function Page() {
               <ul className="list-disc pl-6 mb-6 text-gray-600">
                 <li className="mb-2"><strong>Fire department clearance:</strong> Once the fire marshal releases the scene, restoration can begin. Obtain a copy of the fire report for your insurance claim.</li>
                 <li className="mb-2"><strong>Comprehensive documentation:</strong> Before any cleanup, thorough photo and video documentation captures the full extent of damage—essential for insurance purposes.</li>
-                <li className="mb-2"><strong>Emergency board-up and security:</strong> Securing openings prevents weather intrusion and unauthorized access. This also protects remaining inventory and equipment.</li>
+                <li className="mb-2"><strong>Board-up and security:</strong> Securing openings prevents weather intrusion and unauthorized access. This also protects remaining inventory and equipment.</li>
                 <li className="mb-2"><strong>Water extraction:</strong> Fire suppression systems and firefighting efforts often cause significant water damage requiring immediate extraction to prevent mold growth.</li>
                 <li className="mb-2"><strong>Initial soot and debris removal:</strong> Preventing soot from permanently staining surfaces and corroding metals requires prompt attention.</li>
               </ul>
@@ -444,7 +445,7 @@ export default function Page() {
                 What should I do immediately after a commercial fire?
               </h3>
               <p className="text-gray-600 mb-6">
-                First, ensure everyone is safe and the fire department has cleared the scene. Contact your insurance company to report the claim. Call a commercial fire restoration contractor for emergency mitigation before secondary damage from water and smoke worsens. Document everything with photos and videos before cleanup begins.
+                First, ensure everyone is safe and the fire department has cleared the scene. Contact your insurance company to report the claim. Call a commercial fire restoration contractor for prompt mitigation before secondary damage from water and smoke worsens. Document everything with photos and videos before cleanup begins.
               </p>
               
               <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
@@ -472,10 +473,8 @@ export default function Page() {
                 Tampa Bay&apos;s Commercial Fire Restoration Experts
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists has restored commercial properties across Tampa Bay following fires of all sizes. Our team responds 24/7 for emergency mitigation and provides complete restoration services from initial cleanup through final reconstruction. We work closely with your insurance adjuster and provide the documentation that maximizes your recovery.
               </p>
               <p className="text-gray-600 mb-6">
-                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us immediately</Link> if your commercial property has experienced fire damage. For emergency response, call our 24/7 <Link href="/services/disaster-recovery/fire-damage/" className="text-brand-green-dark font-semibold hover:underline">fire damage restoration</Link> hotline.
               </p>
           </div>
         </div>
@@ -499,7 +498,7 @@ export default function Page() {
             Commercial Fire Damage? We&apos;re Here 24/7
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Our emergency response team is ready to begin fire damage restoration immediately. Call now or request an estimate.
+            Our storm response team is ready to begin fire damage restoration immediately. Call now or request an estimate.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">

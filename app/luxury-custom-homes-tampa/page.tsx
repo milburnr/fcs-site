@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-tampa/' },
   title: "Luxury Custom Homes Tampa | Waterfront | FCS",
   description: "Tampa luxury custom home builder specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Davis Islands, Beach Park, South Tampa, Harbour Island. Licensed, bonded, insured.",
   keywords: "luxury custom homes Tampa, waterfront homes Tampa, estate homes Davis Islands, custom home builder Tampa, high-end residential construction Tampa",

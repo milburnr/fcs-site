@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/ultimate-waterproofing-guide-foundations/' },
   title: "Foundation Waterproofing Guide | Commercial Tampa",
   description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums in Tampa Bay. SB 4-D compliant solutions for parking structures, podium decks, and below-grade construction.",
 };
@@ -24,10 +25,10 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/guide-to-waterproofing-solutions-for-basements/", label: "Basement Waterproofing" },
   { href: "/waterproofing-commercial-contractors/", label: "Commercial Waterproofing" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -174,7 +175,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              For Tampa Bay condominiums, parking structure waterproofing has taken on new urgency following SB 4-D implementation. Milestone inspections often reveal deteriorated deck coatings, corroding reinforcing steel, and delaminated concrete—all consequences of waterproofing system failure. Proactive waterproofing maintenance and timely rehabilitation can prevent the structural damage that triggers expensive emergency repairs and special assessments.
+              For Tampa Bay condominiums, parking structure waterproofing has taken on new urgency following SB 4-D implementation. Milestone inspections often reveal deteriorated deck coatings, corroding reinforcing steel, and delaminated concrete—all consequences of waterproofing system failure. Proactive waterproofing maintenance and timely rehabilitation can prevent the structural damage that triggers expensive storm repairs and special assessments.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -295,10 +296,9 @@ export default function Page() {
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              Emergency Response and Disaster Preparedness
+              storm response and Disaster Preparedness
             </h2>
             <p className="text-gray-600 mb-6">
-              Florida's hurricane season requires waterproofing systems that can withstand extreme weather events while providing ongoing protection. Emergency waterproofing repairs may be necessary following severe storms to prevent further damage while permanent repairs are planned and implemented. Our emergency response capabilities include 24/7 availability for urgent waterproofing failures.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -336,7 +336,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Performance monitoring through periodic leak detection testing and condition assessment provides data that supports maintenance decision-making and helps predict when major renovation will be necessary. This information allows building owners to budget appropriately and avoid emergency situations that result from deferred maintenance.
+              Performance monitoring through periodic leak detection testing and condition assessment provides data that supports maintenance decision-making and helps predict when major renovation will be necessary. This information allows building owners to budget appropriately and avoid urgent situations that result from deferred maintenance.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

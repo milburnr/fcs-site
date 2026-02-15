@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-essential-duties-of-a-construction-manager-in-florida/' },
   title: "Construction Manager Duties Florida | Tampa",
   description: "Discover the critical responsibilities of construction managers in Florida commercial projects. Learn how professional CM services ensure project success in Tampa Bay.",
 };
@@ -452,7 +453,7 @@ export default function Page() {
               Contingency Fund Management
             </h3>
             <p className="text-gray-600 mb-6">
-              Construction managers help owners establish appropriate contingency reserves and manage these funds throughout the project. In Florida, where subsurface conditions can be unpredictable and hurricane damage may require emergency repairs, maintaining adequate contingencies is essential for project success.
+              Construction managers help owners establish appropriate contingency reserves and manage these funds throughout the project. In Florida, where subsurface conditions can be unpredictable and hurricane damage may require prompt repairs, maintaining adequate contingencies is essential for project success.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

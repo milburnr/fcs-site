@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-hvac-system-recovery-after-flooding/' },
   title: "Tampa&apos;s HVAC System Recovery After Flooding",
   description: "Restore your comfort with Tampa&apos;s HVAC System Recovery After Flooding.We specialize in restoring flood-damaged HVAC units to get your home back to climate co...",
 };

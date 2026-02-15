@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/renovating-vs-new-construction-florida/' },
   title: "Renovating vs New Construction Florida | Tampa",
   description: "Should you renovate your existing commercial building or build new in Florida? Expert analysis of costs, timeline, permitting, and strategic factors from Tampa's leading contractor.",
 };

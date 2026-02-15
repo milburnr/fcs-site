@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-construction-trends-in-tampa/' },
   title: "Top Commercial Construction Trends in Tampa",
   description: "Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.Keep your projects on point with us",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -164,7 +164,7 @@ export default function Page() {
                 <div className="bg-red-50 p-5 rounded-lg">
                   <h4 className="text-lg font-bold text-brand-green-dark mb-3">Security Integration</h4>
                   <p className="text-gray-600 text-sm">
-                    Advanced access control, surveillance systems, and emergency response coordination through integrated smart building platforms.
+                    Advanced access control, surveillance systems, and storm response coordination through integrated smart building platforms.
                   </p>
                 </div>
               </div>

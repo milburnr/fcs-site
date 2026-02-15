@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/affordable-commercial-construction-in-tampa/' },
   title: "Affordable Commercial Construction Tampa | FCS",
   description: "Build affordably in Tampa Bay without sacrificing quality. Proven strategies for reducing commercial construction costs while maintaining durability and function.",
 };

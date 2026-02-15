@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/seawall-coordination-new-construction/' },
   title: "Seawall Coordination Tampa Bay | Waterfront | FCS",
   description:
     "Coordinating seawall work with new waterfront home construction in Tampa Bay. Timing, permits, setbacks, and contractor coordination for successful waterfront projects.",

@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/commercial-additions/' },
   title: "Commercial Additions Tampa | Building Expansions | FCS",
   description: "Commercial building additions in Tampa Bay. Expand your facility without relocating. Warehouses, offices, manufacturing, retail. Occupied building expertise. Call (813) 420-7561.",
   keywords: ["commercial additions tampa", "building expansion florida", "commercial building addition", "warehouse expansion", "office building addition"],
@@ -335,11 +336,7 @@ export default function CommercialAdditionsPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

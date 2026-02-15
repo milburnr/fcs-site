@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/preparing-for-insurance-restoration-consultations-in-tampa/' },
   title: "Insurance Restoration Consultations Tampa | Guide",
   description: "How to prepare for insurance restoration consultations in Tampa. Checklist of documents, questions to ask, and what to expect from professional restoration contractors.",
 };
@@ -102,7 +103,7 @@ export default function Page() {
                 <AlertTriangle className="w-6 h-6 text-amber-600 flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-amber-800 mb-2">Time-Sensitive: Act Promptly After Damage</h3>
-                  <p className="text-amber-700">While preparation is important, don't delay consultations unnecessarily. Florida Statute 627.70131 requires prompt notification of claims, and damage can worsen over time. If you've experienced significant damage, schedule consultations within days—not weeks. Emergency mitigation should begin immediately, with restoration planning following soon after.</p>
+                  <p className="text-amber-700">While preparation is important, don't delay consultations unnecessarily. Florida Statute 627.70131 requires prompt notification of claims, and damage can worsen over time. If you've experienced significant damage, schedule consultations within days—not weeks. Mitigation should begin immediately, with restoration planning following soon after.</p>
                 </div>
               </div>
             </div>
@@ -157,7 +158,7 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Emergency repairs already made</span>
+                    <span>storm repairs already made</span>
                   </li>
                 </ul>
               </div>

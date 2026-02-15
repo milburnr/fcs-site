@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/reinforced-construction-services-in-tampa-for-disaster-prevention/' },
   title: "Reinforced Construction Tampa | Hurricane-Proof",
   description: "Reinforced construction services in Tampa for disaster prevention. Commercial building hardening, hurricane-resistant upgrades, and structural reinforcement to protect Tampa Bay businesses.",
 };

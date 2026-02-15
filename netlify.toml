@@ -754,3 +754,39 @@
   to = "/historic-restoration/"
   status = 301
 
+
+# Redirects for removed services (Feb 2026)
+[[redirects]]
+  from = "/commercial/medical-construction/*"
+  to = "/commercial/"
+  status = 301
+
+[[redirects]]
+  from = "/services/commercial/medical-construction/*"
+  to = "/commercial/"
+  status = 301
+
+[[redirects]]
+  from = "/medical-*"
+  to = "/commercial/"
+  status = 301
+
+[[redirects]]
+  from = "/key-considerations-for-building-medical-facilities*"
+  to = "/commercial/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/historic-preservation/*"
+  to = "/commercial/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/services/residential/balcony-reconstruction/*"
+  to = "/balcony-reconstruction/"
+  status = 301
+
+[[redirects]]
+  from = "/services/residential/exterior-waterproofing/*"
+  to = "/exterior-waterproofing/"
+  status = 301

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/waterproofing-commercial-contractors/' },
   title: "Commercial Waterproofing Tampa | High-Rise | FCS",
   description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant services for parking structures, building envelopes, and balconies.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -261,11 +262,11 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Confined space entry certification applies to waterproofing work in basement areas, elevator pits, utility tunnels, and other enclosed spaces with limited access. These environments present risks from atmospheric hazards, engulfment, and entrapment. Proper training includes atmospheric monitoring, ventilation requirements, and emergency procedures for confined space work.
+              Confined space entry certification applies to waterproofing work in basement areas, elevator pits, utility tunnels, and other enclosed spaces with limited access. These environments present risks from atmospheric hazards, engulfment, and entrapment. Proper training includes atmospheric monitoring, ventilation requirements, and storm procedures for confined space work.
             </p>
 
             <p className="text-gray-600 mb-6">
-              Chemical safety training addresses the health hazards associated with waterproofing materials, including solvents, catalysts, and curing agents. Many waterproofing products contain volatile organic compounds that require proper ventilation and personal protective equipment. Training covers material safety data sheet interpretation, exposure limits, and emergency response procedures for chemical accidents.
+              Chemical safety training addresses the health hazards associated with waterproofing materials, including solvents, catalysts, and curing agents. Many waterproofing products contain volatile organic compounds that require proper ventilation and personal protective equipment. Training covers material safety data sheet interpretation, exposure limits, and safety response procedures for chemical accidents.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -383,14 +384,13 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Smart monitoring systems using IoT sensors and wireless communication provide real-time waterproofing system performance data. These systems can alert building management to developing problems before they cause visible damage, enabling prompt maintenance that extends system service life and prevents costly emergency repairs.
+              Smart monitoring systems using IoT sensors and wireless communication provide real-time waterproofing system performance data. These systems can alert building management to developing problems before they cause visible damage, enabling prompt maintenance that extends system service life and prevents costly prompt repairs.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              Emergency Response and Disaster Recovery Services
+              storm response and Disaster Recovery Services
             </h2>
             <p className="text-gray-600 mb-6">
-              Commercial waterproofing contractors in Florida must be prepared to respond quickly to hurricane damage, severe storm water intrusion, and other emergency situations that threaten building integrity. Emergency response capabilities include 24/7 availability, rapid assessment of damage extent, and immediate temporary protection measures to prevent further deterioration while permanent repairs are planned.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -436,7 +436,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Safety training certification ensures that all technicians understand hazard recognition, protective equipment use, and emergency procedures relevant to waterproofing work. Regular safety training updates address new hazards, equipment, and regulations while reinforcing fundamental safety principles.
+              Safety training certification ensures that all technicians understand hazard recognition, protective equipment use, and storm procedures relevant to waterproofing work. Regular safety training updates address new hazards, equipment, and regulations while reinforcing fundamental safety principles.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -547,7 +547,7 @@ export default function Page() {
               "Premium waterproofing systems",
               "Proper insurance coverage",
               "Tampa Bay-wide service",
-              "Emergency response capability"
+              "storm response capability"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

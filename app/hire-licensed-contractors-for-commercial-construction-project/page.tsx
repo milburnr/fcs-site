@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/hire-licensed-contractors-for-commercial-construction-project/' },
   title: "Licensed Contractors for Commercial | Florida",
   description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. Understand licensing requirements, risks of unlicensed work, and how to verify credentials.",
 };

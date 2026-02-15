@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/key-considerations-for-building-commercial-housing-complexes/' },
   title: "Commercial Housing Complexes Florida | Multi-Family",
   description: "Key considerations for building commercial housing complexes in Florida. Site selection, zoning, construction types, costs, and regulations for multi-family development in Tampa Bay.",
 };

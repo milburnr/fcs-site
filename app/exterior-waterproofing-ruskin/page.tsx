@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-ruskin/' },
   title: "Exterior Waterproofing Ruskin FL | FCS Headquarters",
   description: "Exterior waterproofing in Ruskin FL from FCS headquarters. Apollo Beach coastal waterproofing, Sun City Center building protection, Tampa Bay industrial waterproofing. 10-year warranty. Licensed, bonded, insured.",
   keywords: "exterior waterproofing Ruskin, Apollo Beach waterproofing, Sun City Center waterproofing, commercial waterproofing South Hillsborough, foundation waterproofing Ruskin",
@@ -47,7 +48,7 @@ const serviceTypes = [
 const ruskinFaqs = [
   {
     question: "Why is FCS the best choice for exterior waterproofing in Ruskin?",
-    answer: "Florida Construction Specialists is headquartered in Ruskin, giving us unmatched local expertise and response time for South Hillsborough County projects. We understand Ruskin's unique mix of coastal Tampa Bay exposure along Apollo Beach, agricultural soil conditions inland, and the specific needs of Sun City Center's retirement communities. Our proximity means faster emergency response, easier site visits, and deep relationships with Hillsborough County permitting officials.",
+    answer: "Florida Construction Specialists is headquartered in Ruskin, giving us unmatched local expertise and response time for South Hillsborough County projects. We understand Ruskin's unique mix of coastal Tampa Bay exposure along Apollo Beach, agricultural soil conditions inland, and the specific needs of Sun City Center's retirement communities. Our proximity means faster storm response, easier site visits, and deep relationships with Hillsborough County permitting officials.",
   },
   {
     question: "What waterproofing challenges are specific to Ruskin's climate?",
@@ -417,7 +418,7 @@ export default function ExteriorWaterproofingRuskinPage() {
               <ul className="space-y-4">
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Local Headquarters:</strong> Minutes away for assessments, project supervision, and emergency response—not hours like Tampa-based contractors</span>
+                  <span><strong>Local Headquarters:</strong> Minutes away for assessments, project supervision, and storm response—not hours like Tampa-based contractors</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />

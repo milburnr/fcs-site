@@ -4,6 +4,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/privacy/' },
   title: `Privacy Policy | ${BUSINESS_INFO.name}`,
   description: `Privacy Policy for ${BUSINESS_INFO.name}. Learn how we collect, use, and protect your personal information.`,
   robots: "noindex, follow",

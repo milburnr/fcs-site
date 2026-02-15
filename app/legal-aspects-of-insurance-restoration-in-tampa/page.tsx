@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/legal-aspects-of-insurance-restoration-in-tampa/' },
   title: "Legal Aspects of Insurance Restoration in Tampa",
   description: "Navigate Florida insurance restoration laws, contractor requirements, and claim deadlines. Essential legal guidance for Tampa Bay commercial property owners.",
 };
@@ -197,7 +198,7 @@ export default function Page() {
                 Tampa and Hillsborough County require building permits for most commercial restoration work. Key considerations:
               </p>
               <ul className="list-disc pl-6 mb-6 text-gray-600">
-                <li className="mb-2"><strong>Permit timing:</strong> Permits should be obtained before construction begins (emergency repairs may receive expedited processing)</li>
+                <li className="mb-2"><strong>Permit timing:</strong> Permits should be obtained before construction begins (storm repairs may receive expedited processing)</li>
                 <li className="mb-2"><strong>Code compliance:</strong> Restoration must meet current Florida Building Code (8th Edition, 2023), even for older buildings</li>
                 <li className="mb-2"><strong>Inspections:</strong> Required at various stages—foundation, framing, electrical, plumbing, mechanical, and final</li>
                 <li className="mb-2"><strong>Certificate of Occupancy:</strong> May be required for substantial renovations before reoccupying commercial space</li>

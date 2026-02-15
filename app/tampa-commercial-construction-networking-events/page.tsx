@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-networking-events/' },
   title: "Tampa Construction Networking Events 2024-2025",
   description: "Connect with industry leaders at Tampa commercial construction networking events. Find conferences, trade shows, and professional organizations in the Tampa Bay area.",
 };

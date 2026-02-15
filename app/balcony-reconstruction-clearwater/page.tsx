@@ -39,6 +39,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
   title: "Balcony Reconstruction in Clearwater",
   description:
     "Clearwater balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
@@ -49,7 +50,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Residential Services", href: "/services/residential/" },
-  { name: "Balcony Reconstruction", href: "/services/residential/balcony-reconstruction/" },
+  { name: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
   { name: "Clearwater", href: "/balcony-reconstruction-clearwater/" },
 ];
 
@@ -209,8 +210,8 @@ const clearwaterFaqs = [
 const internalLinks = [
   { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/services/residential/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/balcony-reconstruction-tampa/", label: "Balcony Reconstruction Tampa" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/key-benefits-of-choosing-a-local-general-contractor-in-tampa/' },
   title: "Benefits of Local General Contractor Tampa | FCS",
   description: "Discover the advantages of hiring a local Tampa general contractor for your commercial project. Learn why local expertise matters for construction success in Florida.",
 };

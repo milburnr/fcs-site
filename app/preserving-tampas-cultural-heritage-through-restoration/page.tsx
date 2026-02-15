@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/preserving-tampas-cultural-heritage-through-restoration/' },
   title: "Preserving Tampa's Cultural Heritage through Restoration",
   description: "Protecting Tampa's cultural heritage through expert restoration of historically significant buildings in Ybor City, Hyde Park, and Tampa Bay's diverse ethnic neighborhoods.",
 };

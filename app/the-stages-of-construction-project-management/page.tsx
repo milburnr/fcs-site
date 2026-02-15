@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-stages-of-construction-project-management/' },
   title: "Construction Project Management Stages | Tampa",
   description: "Understand the five key stages of construction project management. Learn how professional management guides Tampa Bay commercial projects from concept to completion.",
 };

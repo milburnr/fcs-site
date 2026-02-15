@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/green-contractor-certifications-in-commercial-construction/' },
   title: "Green Contractor Certifications in Commercial Construction",
   description: "Understand green contractor certifications and their value in commercial construction. Florida Construction Specialists brings LEED expertise to Tampa Bay projects.",
 };

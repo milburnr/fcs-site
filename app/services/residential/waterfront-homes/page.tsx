@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/waterfront-homes/' },
   title: "Waterfront Home Construction Tampa | Coastal",
   description: "Waterfront custom home construction in Tampa Bay. Bayfront, Gulf, river, and lakefront properties. FEMA compliance, seawall coordination, marine-grade materials. $1M+ homes. Call (813) 420-7561.",
   keywords: ["waterfront home construction tampa", "bayfront home builder", "luxury waterfront builder florida", "coastal home construction", "waterfront custom homes"],
@@ -289,7 +290,7 @@ export default function WaterfrontHomesPage() {
               <ul className="space-y-2">
                 <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/residential/hurricane-resistant-construction/" className="text-brand-green hover:underline">Hurricane-Resistant Homes</Link></li>
-                <li><Link href="/services/residential/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
+                <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
             </div>
             <div>

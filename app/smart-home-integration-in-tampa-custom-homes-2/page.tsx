@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/smart-home-integration-in-tampa-custom-homes-2/' },
   title: "Smart Home Integration Tampa | Automation | FCS",
   description: "Integrate smart home technology in your Tampa custom home. Lighting control, climate automation, security, and entertainment systems. Complete automation from $25K-$200K+.",
 };

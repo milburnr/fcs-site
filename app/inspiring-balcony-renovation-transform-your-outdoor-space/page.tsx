@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/inspiring-balcony-renovation-transform-your-outdoor-space/' },
   title: "High-Rise Balcony Renovation Tampa | Transform Your Condo",
   description: "Expert balcony renovation for Tampa Bay high-rise condominiums. Complete structural restoration, waterproofing upgrades, and aesthetic transformations with SB 4-D compliance.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/stylish-balcony-railing-designs-for-your-outdoor-space/", label: "Balcony Railing Designs" },
   { href: "/discover-the-best-balcony-decking-options-for-outdoor-spaces/", label: "Balcony Decking Options" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

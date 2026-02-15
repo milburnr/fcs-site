@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-post-construction-in-florida-commercial-sector/' },
   title: "Post-Construction Tips Florida Commercial",
   description: "Essential post-construction tips for Florida commercial projects. From final inspections to warranty management, learn how to successfully close out your Tampa Bay construction project.",
 };
@@ -241,7 +242,7 @@ export default function Page() {
               Florida's climate and regulatory environment create post-construction requirements that don't exist in other markets. Understanding these helps you ensure your building is truly ready for Florida conditions.
             </p>
             <p className="text-gray-600 mb-6">
-              <strong>Hurricane Preparedness Verification:</strong> Before accepting the building, verify all hurricane protection elements are properly installed and documented. This includes impact-rated windows and doors (with certifications), storm shutters (with storage locations identified), roof tie-down inspections, and emergency generator testing. Your insurance carrier may require this documentation, and having it organized from the start saves headaches later.
+              <strong>Hurricane Preparedness Verification:</strong> Before accepting the building, verify all hurricane protection elements are properly installed and documented. This includes impact-rated windows and doors (with certifications), storm shutters (with storage locations identified), roof tie-down inspections, and storm generator testing. Your insurance carrier may require this documentation, and having it organized from the start saves headaches later.
             </p>
             <p className="text-gray-600 mb-6">
               <strong>HVAC Commissioning for Florida Climate:</strong> Florida's humidity is as challenging as its heat. Verify that HVAC systems are properly balanced not just for temperature but for humidity control. Systems should be tested under actual Florida conditions, not just checked for airflow. Improper humidity control leads to mold, comfort complaints, and energy waste.

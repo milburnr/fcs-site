@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/sustainable-building-practices-florida-green-construction/' },
   title: "Sustainable Building Practices: Florida Green Construction",
   description: "Expert sustainable building practices for Florida commercial construction. LEED-certified contractors delivering green buildings throughout Tampa Bay.",
 };

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/experienced-design-build-firm-in-florida/' },
   title: "Experienced Design-Build Firm in Florida",
   description: "Florida Construction Specialists - Tampa Bay's trusted design-build firm with decades of commercial construction experience. Learn what makes an experienced design-build partner essential for project success.",
 };
@@ -330,7 +331,6 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-600">24/7 emergency response capability</span>
                   </li>
                 </ul>
               </div>

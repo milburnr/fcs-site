@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-construction-in-florida/' },
   title: "Top Commercial Construction Florida | Standards",
   description: "Discover Florida&apos;s top-tier Commercial Construction specialist outshining competitors in multiple states. With a keen eye on the latest trends and regulations.",
 };
@@ -22,7 +23,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -341,7 +341,6 @@ export default function Page() {
                       <li>• Zero-tolerance safety culture</li>
                       <li>• Daily safety briefings and inspections</li>
                       <li>• Advanced personal protective equipment</li>
-                      <li>• Emergency response planning</li>
                       <li>• OSHA compliance monitoring</li>
                     </ul>
                   </div>

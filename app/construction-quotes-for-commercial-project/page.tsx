@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/construction-quotes-for-commercial-project/' },
   title: "Construction Quotes for Commercial Projects | Tampa FL",
   description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Expert guidance on bid evaluation, contractor selection, and avoiding common pitfalls.",
 };

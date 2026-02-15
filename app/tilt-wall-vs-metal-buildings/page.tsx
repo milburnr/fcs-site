@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tilt-wall-vs-metal-buildings/' },
   title: "Tilt-Wall vs Metal Buildings Tampa | FCS",
   description:
     "Compare tilt-wall concrete and pre-engineered metal buildings for industrial and warehouse construction in Tampa Bay. Cost, durability, and timeline analysis.",

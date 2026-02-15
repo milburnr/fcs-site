@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/how-to-prevent-water-damage-expert-tips-for-a-dry-home/' },
   title: "Prevent Water Damage Tampa | Commercial Tips",
   description: "Expert tips to prevent water damage in Tampa commercial properties. Roof maintenance, plumbing inspection, HVAC care, and flood preparation strategies to protect your business investment.",
 };
@@ -330,7 +331,7 @@ export default function Page() {
             </h2>
 
             <p className="text-gray-600 mb-6">
-              Tampa Bay's hurricane exposure requires specific preparation to prevent storm-related water damage. Preparation before hurricane season makes emergency response much more effective.
+              Tampa Bay's hurricane exposure requires specific preparation to prevent storm-related water damage. Preparation before hurricane season makes storm response much more effective.
             </p>
 
             <div className="bg-gray-50 p-6 rounded-lg mb-8">
@@ -409,11 +410,10 @@ export default function Page() {
             </h2>
 
             <p className="text-gray-600 mb-6">
-              Florida Construction Specialists offers water damage prevention services including comprehensive building assessments, maintenance program development, water detection system installation, and emergency preparedness planning. Our experience restoring water-damaged buildings gives us unique insight into effective prevention strategies.
+              Florida Construction Specialists offers water damage prevention services including comprehensive building assessments, maintenance program development, water detection system installation, and storm preparedness planning. Our experience restoring water-damaged buildings gives us unique insight into effective prevention strategies.
             </p>
 
             <p className="text-gray-600 mb-8">
-              We also provide rapid response when prevention isn't enough—24/7 emergency services minimize damage when water intrusion occurs despite best efforts.
             </p>
 
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">

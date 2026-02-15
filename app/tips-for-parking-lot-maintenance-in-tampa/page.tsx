@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-parking-lot-maintenance-in-tampa/' },
   title: "Parking Lot Maintenance Tampa | Commercial Guide",
   description: "Essential parking lot maintenance tips for Tampa's climate. Heat damage prevention, drainage solutions, sealcoating schedules, and cost-saving strategies from commercial construction experts.",
 };
@@ -98,7 +99,7 @@ const faqs = [
   },
   {
     question: "How do I choose the right parking lot maintenance contractor in Tampa?",
-    answer: "Look for contractors with Florida-specific experience, proper licensing and insurance, local references, and knowledge of Tampa's climate challenges. Verify they use materials rated for Florida's UV exposure and heat. Ask about their hurricane season policies and emergency repair capabilities. Get multiple quotes and ensure they include inspection reports with recommendations. Cheapest isn't always best-quality materials and workmanship provide better long-term value."
+    answer: "Look for contractors with Florida-specific experience, proper licensing and insurance, local references, and knowledge of Tampa's climate challenges. Verify they use materials rated for Florida's UV exposure and heat. Ask about their hurricane season policies and storm repair capabilities. Get multiple quotes and ensure they include inspection reports with recommendations. Cheapest isn't always best-quality materials and workmanship provide better long-term value."
   }
 ];
 
@@ -394,7 +395,7 @@ export default function Page() {
               <strong>Post-Storm Assessment:</strong> After hurricane passage, conduct thorough parking lot inspections before reopening to the public. Look for new cracks created by thermal shock (rapid cooling from heavy rain), flooding damage, debris impact damage, and compromised drainage systems. Standing water in previously dry areas may indicate settlement or drainage system damage that needs immediate attention.
             </p>
             <p className="text-gray-600 mb-6">
-              <strong>Emergency Repairs:</strong> Establish relationships with contractors who can provide emergency parking lot repairs after storms. Hurricane damage often affects multiple properties simultaneously, creating high demand for repair services. Properties with existing maintenance relationships typically receive priority service during post-storm recovery periods.
+              <strong>storm repairs:</strong> Establish relationships with contractors who can provide prompt parking lot repairs after storms. Hurricane damage often affects multiple properties simultaneously, creating high demand for repair services. Properties with existing maintenance relationships typically receive priority service during post-storm recovery periods.
             </p>
             <p className="text-gray-600 mb-6">
               <strong>Insurance Considerations:</strong> Document parking lot conditions before and after storms for insurance purposes. Many commercial property insurance policies cover storm damage to parking lots, but claims require proper documentation. Maintain current photos and condition reports, and document any storm-related damage promptly for insurance processing.

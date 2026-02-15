@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-exterior-waterproofing/' },
   title: "Balcony Reconstruction & Exterior Waterproofing | Tampa",
   description: "Expert balcony reconstruction and exterior waterproofing for Tampa Bay condos and high-rise buildings. SB 4-D compliant. Licensed engineers. Free estimates.",
 };

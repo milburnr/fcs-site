@@ -13,8 +13,8 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/industrial-site-disaster-response-in-tampa/' },
   title: "Industrial Disaster Response Tampa | Emergency",
-  description: "24/7 industrial disaster response in Tampa Bay. Rapid emergency recovery for warehouses, manufacturing facilities, and distribution centers after hurricanes, fires, and floods.",
 };
 
 const breadcrumbItems = [
@@ -186,7 +186,7 @@ const preparednessChecklist = [
   {
     category: "Operational Planning",
     items: [
-      "Written emergency response plan",
+      "Written storm response plan",
       "Designated emergency coordinator",
       "Data backup and IT recovery plan",
       "Alternative location arrangements",
@@ -202,7 +202,7 @@ const preparednessChecklist = [
       "After-hours contact information exchanged",
       "Scope and pricing pre-negotiated where possible",
       "Insurance certificate requirements clarified",
-      "Chain of command for emergency decisions",
+      "Chain of command for prompt decisions",
     ],
   },
 ];
@@ -244,11 +244,11 @@ const tampaSpecificConsiderations = [
 const faqs = [
   {
     question: "How quickly can you respond to an industrial emergency in Tampa Bay?",
-    answer: "For clients with priority response agreements, we can have personnel on-site within 2-4 hours for Tampa Bay locations. For new clients during non-emergency times, we typically respond within 24 hours. During active hurricane situations, response times depend on road accessibility and prior commitments—which is why we strongly recommend establishing relationships before disaster strikes. We maintain crews, equipment, and materials specifically for emergency response and scale up rapidly during storm events.",
+    answer: "For clients with priority response agreements, we can have personnel on-site within 2-4 hours for Tampa Bay locations. For new clients during non-emergency times, we typically respond within 24 hours. During active hurricane situations, response times depend on road accessibility and prior commitments—which is why we strongly recommend establishing relationships before disaster strikes. We maintain crews, equipment, and materials specifically for storm response and scale up rapidly during storm events.",
   },
   {
     question: "What should we do immediately after discovering industrial facility damage?",
-    answer: "First, ensure all personnel are safe and evacuate if necessary. Then: 1) Document damage with photos and video before any cleanup; 2) Contact your insurance carrier to report the loss; 3) Take reasonable steps to prevent additional damage (tarping, water extraction) but don't make permanent repairs without adjuster approval; 4) Contact a qualified contractor for assessment and emergency stabilization; 5) Secure the site to prevent unauthorized access and additional damage. Keep all receipts and documentation for insurance claims.",
+    answer: "First, ensure all personnel are safe and evacuate if necessary. Then: 1) Document damage with photos and video before any cleanup; 2) Contact your insurance carrier to report the loss; 3) Take reasonable steps to prevent additional damage (tarping, water extraction) but don't make permanent repairs without adjuster approval; 4) Contact a qualified contractor for assessment and structural stabilization; 5) Secure the site to prevent unauthorized access and additional damage. Keep all receipts and documentation for insurance claims.",
   },
   {
     question: "How do we work with insurance companies during disaster recovery?",
@@ -275,7 +275,6 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Industrial Site Disaster Response in Tampa Bay"
-        description="24/7 emergency disaster response for industrial facilities in Tampa Bay. Hurricane damage, fire, flood recovery for warehouses, manufacturing, and distribution centers."
         datePublished="2024-01-15"
         dateModified="2025-01-15"
       />
@@ -298,7 +297,6 @@ export default function Page() {
             Industrial Site Disaster Response in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            24/7 emergency response for Tampa Bay industrial facilities. Rapid recovery from hurricanes, fires, floods, and structural failures to minimize downtime and losses.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <a
@@ -306,7 +304,7 @@ export default function Page() {
               className="btn-cta flex items-center justify-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Emergency Line: {BUSINESS_INFO.phone}
+              office: {BUSINESS_INFO.phone}
             </a>
             <Link href="/contact/" className="btn-secondary">
               Request Priority Agreement
@@ -585,10 +583,9 @@ export default function Page() {
       <section className="section bg-brand-green">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Need Emergency Response Now?
+            Need storm response Now?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Florida Construction Specialists provides 24/7 emergency response for industrial facilities throughout Tampa Bay. Call now for immediate assistance.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a

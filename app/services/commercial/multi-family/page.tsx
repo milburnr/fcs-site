@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
   title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
   description: "Multi-family construction in Tampa Bay. Apartment buildings, condominiums, townhomes, senior living. Ground-up and renovation. $1M-$25M+ projects. Licensed CBC1262722. Call (813) 420-7561.",
   keywords: ["multi-family construction tampa", "apartment construction florida", "condo builder tampa bay", "senior living construction", "townhome developer"],
@@ -293,8 +294,8 @@ export default function MultiFamilyPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Residential Services</h3>
               <ul className="space-y-2">
                 <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
-                <li><Link href="/services/residential/balcony-reconstruction/" className="text-brand-green hover:underline">Balcony Reconstruction</Link></li>
-                <li><Link href="/services/residential/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
+                <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Balcony Reconstruction</Link></li>
+                <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
             </div>
             <div>
@@ -336,11 +337,7 @@ export default function MultiFamilyPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

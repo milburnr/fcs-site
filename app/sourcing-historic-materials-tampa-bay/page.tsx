@@ -29,6 +29,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/sourcing-historic-materials-tampa-bay/' },
   title: "Sourcing Historic Materials Tampa Bay | FCS",
   description:
     "Find authentic historic building materials for Tampa Bay restoration projects. Salvage yards, specialty suppliers, and custom fabrication for period-accurate renovations.",

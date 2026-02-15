@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/terms-and-conditions/' },
   title: "Terms and Conditions",
   description: "Review the terms and conditions for using Florida Construction Specialists' website. Understand your rights, responsibilities, and our policies for Tampa Bay construction services.",
 };

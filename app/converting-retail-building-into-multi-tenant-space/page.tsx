@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/converting-retail-building-into-multi-tenant-space/' },
   title: "Converting Retail to Multi-Tenant | Tampa Bay",
   description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Learn about demising walls, utilities, code requirements, costs, and ROI for retail subdivisions.",
 };

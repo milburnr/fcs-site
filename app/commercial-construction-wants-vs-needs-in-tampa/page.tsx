@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-wants-vs-needs-in-tampa/' },
   title: "Commercial Construction Wants vs Needs Tampa",
   description: "Learn to prioritize wants vs needs for your Tampa commercial construction project. Make smart budget decisions that maximize value without compromising essentials.",
 };

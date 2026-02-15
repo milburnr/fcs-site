@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/the-essential-role-of-florida-construction-specialists/' },
   title: "Essential Role of FCS Tampa | Premier Contractor",
   description: "Discover the essential role Florida Construction Specialists plays in Tampa Bay's construction industry. Premier commercial contractor delivering excellence since our founding.",
 };
@@ -32,7 +33,7 @@ const faqs = [
   },
   {
     question: "Do you handle hurricane damage restoration?",
-    answer: "Yes, hurricane restoration is a core capability. We provide emergency response for immediate stabilization, comprehensive damage assessment, insurance claim documentation support, and complete restoration construction. Our experience with every major hurricane to affect Tampa Bay in recent decades gives us unmatched expertise in storm damage repair and building resilience improvements."
+    answer: "Yes, hurricane restoration is a core capability. We provide storm response for immediate stabilization, comprehensive damage assessment, insurance claim documentation support, and complete restoration construction. Our experience with every major hurricane to affect Tampa Bay in recent decades gives us unmatched expertise in storm damage repair and building resilience improvements."
   },
   {
     question: "What geographic area do you serve?",
@@ -162,10 +163,9 @@ export default function Page() {
                 <Shield className="w-10 h-10 text-brand-green mb-4" />
                 <h3 className="text-xl font-bold text-brand-green-dark mb-3">Disaster Recovery</h3>
                 <p className="text-gray-600 mb-4">
-                  When hurricanes and disasters strike Tampa Bay, our community depends on rapid, capable response. We provide emergency stabilization, comprehensive damage assessment, insurance documentation, and complete restoration. Our hurricane response capabilities have helped countless property owners recover from major storms.
+                  When hurricanes and disasters strike Tampa Bay, our community depends on rapid, capable response. We provide prompt stabilization, comprehensive damage assessment, insurance documentation, and complete restoration. Our hurricane response capabilities have helped countless property owners recover from major storms.
                 </p>
                 <ul className="space-y-1 text-gray-600 text-sm">
-                  <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-green" /> 24/7 emergency response</li>
                   <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-green" /> Insurance claim support</li>
                   <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-green" /> Complete restoration</li>
                   <li className="flex items-center gap-2"><CheckCircle className="w-4 h-4 text-brand-green" /> Resilience improvements</li>

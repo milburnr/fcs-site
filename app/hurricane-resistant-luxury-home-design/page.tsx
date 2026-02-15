@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/hurricane-resistant-luxury-home-design/' },
   title: "Hurricane-Resistant Luxury Homes Tampa Bay | FCS",
   description:
     "Design strategies for hurricane-resistant luxury homes in Tampa Bay. Impact windows, fortified construction, backup power systems, and architectural features that protect without compromising elegance.",

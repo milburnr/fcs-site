@@ -145,7 +145,7 @@ export const SERVICES = [
   {
     name: "Balcony Reconstruction",
     slug: "balcony-reconstruction",
-    silo: "residential" as const,
+    silo: "commercial" as const,
     description: "Commercial and multi-family balcony reconstruction, waterproofing, and structural repair.",
     icon: "Columns",
     minValue: "$100,000",
@@ -163,7 +163,7 @@ export const SERVICES = [
   {
     name: "Exterior Waterproofing",
     slug: "exterior-waterproofing",
-    silo: "residential" as const,
+    silo: "commercial" as const,
     description: "Building envelope and exterior waterproofing for commercial and residential properties.",
     icon: "Droplets",
     minValue: "$50,000",
@@ -218,10 +218,11 @@ export const LOCATIONS = [
 export const COMMERCIAL_SERVICES = [
   { label: "Commercial Construction", href: "/commercial-construction/" },
   { label: "Multi-Family Construction", href: "/multi-family-construction/" },
-  { label: "Medical & Healthcare", href: "/commercial/medical-construction/" },
   { label: "Industrial Flex", href: "/commercial/industrial-construction/" },
   { label: "Disaster Recovery (B2B)", href: "/disaster-recovery/" },
-  { label: "Historic Restoration (Comm)", href: "/commercial/historic-restoration/" },
+  { label: "Historic Restoration", href: "/commercial/historic-restoration/" },
+  { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
+  { label: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { label: "Condo Remediation", href: "/commercial/condo-remediation/" },
   { label: "CPM Scheduling", href: "/commercial/cpm-scheduling/" },
 ];
@@ -230,10 +231,20 @@ export const COMMERCIAL_SERVICES = [
 export const RESIDENTIAL_SERVICES = [
   { label: "Lifetime Custom Homes", href: "/residential/" },
   { label: "Waterfront Resilience", href: "/residential/waterfront-homes/" },
-  { label: "Historic Preservation (Res)", href: "/residential/historic-preservation/" },
-  { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
-  { label: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { label: "FEMA Compliance", href: "/residential/fema-compliance/" },
+];
+
+// Insurance Restoration services (Large Loss Commercial & Residential)
+export const INSURANCE_SERVICES = [
+  { label: "Building Consultant", href: "/insurance/building-consultant/" },
+  { label: "Licensed General Contractor", href: "/insurance/licensed-general-contractor/" },
+  { label: "Certified Estimating", href: "/insurance/certified-estimating/" },
+  { label: "Appraisal & Arbitration", href: "/insurance/appraisal-arbitration/" },
+  { label: "Fire Restoration", href: "/insurance/fire-restoration/" },
+  { label: "Water Restoration", href: "/insurance/water-restoration/" },
+  { label: "Hurricane Restoration", href: "/insurance/hurricane-restoration/" },
+  { label: "Mold Remediation", href: "/insurance/mold-remediation/" },
+  { label: "Expert Witness", href: "/insurance/expert-witness/" },
 ];
 
 export const NAV_ITEMS = [
@@ -247,6 +258,11 @@ export const NAV_ITEMS = [
     label: "Residential",
     href: "/residential/",
     submenu: RESIDENTIAL_SERVICES,
+  },
+  {
+    label: "Insurance",
+    href: "/insurance/",
+    submenu: INSURANCE_SERVICES,
   },
   {
     label: "Locations",

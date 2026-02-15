@@ -8,6 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/' },
   title: "Insurance Restoration PM Tampa | Commercial",
   description: "Expert insurance restoration project management in Tampa. Coordinated claim support, contractor oversight, timeline management, and quality control for commercial properties.",
 };
@@ -265,8 +266,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response & Stabilization</h3>
-                  <p className="text-gray-600">Secure the property, implement emergency mitigation, document conditions as-found, and coordinate with insurance company notification requirements. Speed is critical to prevent secondary damage and protect claim rights.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">storm response & Stabilization</h3>
+                  <p className="text-gray-600">Secure the property, implement mitigation, document conditions as-found, and coordinate with insurance company notification requirements. Speed is critical to prevent secondary damage and protect claim rights.</p>
                 </div>
               </div>
 

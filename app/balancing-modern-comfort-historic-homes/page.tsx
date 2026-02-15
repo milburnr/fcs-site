@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balancing-modern-comfort-historic-homes/' },
   title: "Modern Comfort in Historic Homes Tampa | FCS",
   description:
     "Add modern amenities to Tampa Bay historic homes without sacrificing character. Expert integration of HVAC, smart home technology, updated kitchens and baths while preserving period authenticity.",

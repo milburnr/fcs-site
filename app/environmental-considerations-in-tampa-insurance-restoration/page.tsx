@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/environmental-considerations-in-tampa-insurance-restoration/' },
   title: "Environmental Considerations in Tampa Insurance Restoration",
   description: "Navigate environmental hazards during Tampa commercial restoration projects. Expert guidance on asbestos, mold, lead paint, and sustainable restoration practices.",
 };
@@ -563,10 +564,10 @@ export default function Page() {
               </ul>
 
               <h3 className="text-xl font-bold text-gray-800 mb-3 font-heading">
-                Emergency Response and Exposure Control
+                storm response and Exposure Control
               </h3>
               <p className="text-gray-600 mb-6">
-                Environmental restoration projects must include emergency response procedures for accidental exposures, equipment failures, and unexpected contamination discoveries. Our safety protocols include immediate response procedures, decontamination systems, and medical evaluation procedures that protect workers and comply with OSHA requirements.
+                Environmental restoration projects must include safety response procedures for accidental exposures, equipment failures, and unexpected contamination discoveries. Our safety protocols include immediate response procedures, decontamination systems, and medical evaluation procedures that protect workers and comply with OSHA requirements.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

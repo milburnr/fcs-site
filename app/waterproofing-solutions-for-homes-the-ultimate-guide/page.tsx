@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/waterproofing-solutions-for-homes-the-ultimate-guide/' },
   title: "Waterproofing High-Rise Residential Tampa | FCS",
   description: "Comprehensive waterproofing solutions for high-rise condominiums and residential buildings in Tampa Bay. SB 4-D compliant systems for balconies, garages, and building envelopes.",
 };
@@ -24,10 +25,10 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -61,7 +62,7 @@ const faqs = [
   },
   {
     question: "How does SB 4-D affect waterproofing requirements for Florida condominiums?",
-    answer: "Florida's SB 4-D legislation requires milestone structural inspections for condominiums three stories or higher. While focused on structural elements, these inspections evaluate waterproofing system performance through evidence of water intrusion—efflorescence, staining, corrosion, and concrete deterioration. Associations must address waterproofing failures that cause or contribute to structural damage. SIRS requirements mandate reserve funding for waterproofing system maintenance and replacement. Proactive waterproofing maintenance helps associations avoid the emergency repairs that strain budgets and trigger special assessments."
+    answer: "Florida's SB 4-D legislation requires milestone structural inspections for condominiums three stories or higher. While focused on structural elements, these inspections evaluate waterproofing system performance through evidence of water intrusion—efflorescence, staining, corrosion, and concrete deterioration. Associations must address waterproofing failures that cause or contribute to structural damage. SIRS requirements mandate reserve funding for waterproofing system maintenance and replacement. Proactive waterproofing maintenance helps associations avoid the storm repairs that strain budgets and trigger special assessments."
   },
   {
     question: "What are the warning signs of waterproofing failure in residential buildings?",
@@ -265,7 +266,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Confined space entry certification applies to waterproofing work in basement areas, utility rooms, mechanical spaces, and other enclosed areas with limited access. These environments present risks from atmospheric hazards, limited ventilation, and restricted egress that require specialized safety procedures. Training includes atmospheric monitoring, ventilation requirements, and emergency rescue procedures for confined space work.
+              Confined space entry certification applies to waterproofing work in basement areas, utility rooms, mechanical spaces, and other enclosed areas with limited access. These environments present risks from atmospheric hazards, limited ventilation, and restricted egress that require specialized safety procedures. Training includes atmospheric monitoring, ventilation requirements, and storm rescue procedures for confined space work.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -310,7 +311,7 @@ export default function Page() {
               Maintenance Programs for Long-Term Performance
             </h2>
             <p className="text-gray-600 mb-6">
-              Proactive maintenance programs extend waterproofing system service life while minimizing unexpected failures and costly emergency repairs. Annual inspection protocols identify emerging issues like small cracks, loose sealants, or drainage problems before they compromise waterproofing integrity. Early intervention typically costs a fraction of major rehabilitation while maintaining system effectiveness.
+              Proactive maintenance programs extend waterproofing system service life while minimizing unexpected failures and costly prompt repairs. Annual inspection protocols identify emerging issues like small cracks, loose sealants, or drainage problems before they compromise waterproofing integrity. Early intervention typically costs a fraction of major rehabilitation while maintaining system effectiveness.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -318,7 +319,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Performance monitoring through periodic testing and condition assessment provides data-driven insights for maintenance decision-making. Trending analysis helps predict when major components will need replacement, enabling associations to budget appropriately and plan renovations during favorable weather conditions. This predictive approach prevents the emergency situations that result in premium pricing and limited contractor availability.
+              Performance monitoring through periodic testing and condition assessment provides data-driven insights for maintenance decision-making. Trending analysis helps predict when major components will need replacement, enabling associations to budget appropriately and plan renovations during favorable weather conditions. This predictive approach prevents the urgent situations that result in premium pricing and limited contractor availability.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -394,10 +395,9 @@ export default function Page() {
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-              Emergency Response and Storm Damage Recovery
+              storm response and Storm Damage Recovery
             </h2>
             <p className="text-gray-600 mb-6">
-              Florida's hurricane season demands waterproofing contractors who can respond quickly to storm damage and provide emergency repairs that prevent further deterioration while permanent solutions are planned and implemented. Our emergency response capabilities include 24/7 availability during storm season, rapid damage assessment, and immediate temporary protection measures using tarps, emergency sealants, and portable pumping equipment.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -496,7 +496,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Regular maintenance and proactive replacement planning help building owners avoid the emergency situations that result in premium pricing and limited contractor availability. Associations that plan waterproofing projects during favorable weather conditions and schedule work during traditional construction seasons typically achieve better pricing and quality outcomes than those forced into emergency repairs.
+              Regular maintenance and proactive replacement planning help building owners avoid the urgent situations that result in premium pricing and limited contractor availability. Associations that plan waterproofing projects during favorable weather conditions and schedule work during traditional construction seasons typically achieve better pricing and quality outcomes than those forced into prompt repairs.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -554,7 +554,7 @@ export default function Page() {
               "Minimal resident disruption",
               "Long-term warranties",
               "Tampa Bay-wide service",
-              "Emergency response capability"
+              "storm response capability"
             ].map((item, index) => (
               <div key={index} className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

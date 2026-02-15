@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-insurance-restoration-for-commercial-interiors/' },
   title: "Tampa Insurance Restoration | Commercial Interiors",
   description: "Expert commercial interior insurance restoration in Tampa. Office, retail, restaurant, and medical facility restoration with full insurance claim support.",
 };
@@ -298,8 +299,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response & Mitigation</h3>
-                  <p className="text-gray-600">Secure the space, extract water if applicable, begin structural drying, protect undamaged areas, and document all conditions. Emergency response prevents secondary damage and protects your claim rights.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">storm response & Mitigation</h3>
+                  <p className="text-gray-600">Secure the space, extract water if applicable, begin structural drying, protect undamaged areas, and document all conditions. storm response prevents secondary damage and protects your claim rights.</p>
                 </div>
               </div>
 
@@ -380,7 +381,7 @@ export default function Page() {
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Restore Your Commercial Interior</h3>
               <p className="mb-6 text-gray-200">
-                Florida Construction Specialists provides comprehensive commercial interior restoration throughout Tampa Bay. We handle everything from emergency response through final finish work, with full insurance claim support.
+                Florida Construction Specialists provides comprehensive commercial interior restoration throughout Tampa Bay. We handle everything from storm response through final finish work, with full insurance claim support.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">

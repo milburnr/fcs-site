@@ -33,6 +33,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-common-area-construction/' },
   title: "Condo Common Area Construction Tampa | Lobby",
   description:
     "Expert condo common area construction and renovation in Tampa Bay. Lobby upgrades, pool deck renovations, fitness center buildouts, parking improvements, and amenity additions for HOAs.",
@@ -251,7 +252,7 @@ const internalLinks = [
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/condo-structural-reserve-study-repairs/", label: "Structural Reserve Studies" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

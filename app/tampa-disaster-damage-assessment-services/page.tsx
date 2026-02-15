@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-disaster-damage-assessment-services/' },
   title: "Tampa Disaster Damage Assessment Services",
   description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; storms.",
 };
@@ -94,7 +95,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Initial Emergency Assessment</h3>
               <p className="text-gray-600 mb-6">
-                Our assessment process begins with immediate safety evaluation to identify hazardous conditions, rapid damage overview to understand scope and priorities, temporary stabilization needs identification, and emergency contact with your insurance company to initiate the claims process. This initial assessment guides immediate response while laying the foundation for comprehensive evaluation.
+                Our assessment process begins with immediate safety evaluation to identify hazardous conditions, rapid damage overview to understand scope and priorities, temporary stabilization needs identification, and storm contact with your insurance company to initiate the claims process. This initial assessment guides immediate response while laying the foundation for comprehensive evaluation.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Detailed Structural Assessment</h3>
@@ -278,12 +279,11 @@ export default function Page() {
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Emergency Assessment Response Times</h2>
               <p className="text-gray-600 mb-6">
-                Time is critical in disaster damage assessment. Delayed assessment can result in additional damage, evidence deterioration, and insurance coverage complications. Our emergency response protocols ensure rapid assessment deployment throughout Tampa Bay, even during major disaster events when demand is highest.
+                Time is critical in disaster damage assessment. Delayed assessment can result in additional damage, evidence deterioration, and insurance coverage complications. Our storm response protocols ensure rapid assessment deployment throughout Tampa Bay, even during major disaster events when demand is highest.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">24/7 Assessment Availability</h3>
               <p className="text-gray-600 mb-6">
-                Our assessment teams are available 24/7 for emergency response. We maintain assessment equipment staged for immediate deployment and have established protocols for rapid mobilization during major events. This immediate response capability protects our clients' interests when timing is most critical.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -351,7 +351,6 @@ export default function Page() {
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                    <span>24/7 emergency response availability</span>
                   </li>
                 </ul>
               </div>

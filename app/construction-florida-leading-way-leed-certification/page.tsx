@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/construction-florida-leading-way-leed-certification/' },
   title: "Florida Construction | LEED Certification Leader",
   description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert guidance through all LEED certification levels with proven results.",
 };

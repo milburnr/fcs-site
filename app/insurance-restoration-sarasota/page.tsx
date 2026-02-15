@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-sarasota/' },
   title: "Insurance Restoration Sarasota FL | Hurricane Recovery | FCS",
   description: "Sarasota insurance restoration contractor with 43 years claims experience from adjuster to contractor. Hurricane Ian recovery specialists. Luxury property claims, barrier island restoration on Siesta Key, Longboat Key, Lido Key. $250K-$50M projects.",
   keywords: "insurance restoration Sarasota, Hurricane Ian restoration Sarasota, flood damage Siesta Key, luxury property restoration Sarasota, Longboat Key storm damage, Lido Key hurricane repair, insurance claim contractor Sarasota, high-value home restoration",
@@ -121,7 +122,7 @@ const sarasotaFaqs = [
   },
   {
     question: "How long does insurance restoration typically take in Sarasota?",
-    answer: "Timeline varies significantly based on damage extent and insurance process efficiency. For large loss projects ($500K+), expect: emergency stabilization (1-5 days), insurance adjuster inspection (1-4 weeks post-filing), scope agreement (4-12 weeks), permitting through Sarasota County (6-12 weeks for major work), construction (4-12 months depending on scope). Complete rebuilds of luxury properties can extend to 18-24 months. Ian-related claims still being processed in 2024-2025 face additional delays from carrier backlogs and contractor availability constraints.",
+    answer: "Timeline varies significantly based on damage extent and insurance process efficiency. For large loss projects ($500K+), expect: structural stabilization (1-5 days), insurance adjuster inspection (1-4 weeks post-filing), scope agreement (4-12 weeks), permitting through Sarasota County (6-12 weeks for major work), construction (4-12 months depending on scope). Complete rebuilds of luxury properties can extend to 18-24 months. Ian-related claims still being processed in 2024-2025 face additional delays from carrier backlogs and contractor availability constraints.",
   },
   {
     question: "Does FCS work directly with insurance companies in Sarasota?",
@@ -610,7 +611,7 @@ export default function InsuranceRestorationSarasotaPage() {
                 </li>
                 <li className="flex items-start gap-3">
                   <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Sarasota County Emergency Management:</strong> Understanding of local emergency protocols, debris removal coordination, and post-storm restoration priorities</span>
+                  <span><strong>Sarasota County Emergency Management:</strong> Understanding of local safety protocols, debris removal coordination, and post-storm restoration priorities</span>
                 </li>
               </ul>
             </div>

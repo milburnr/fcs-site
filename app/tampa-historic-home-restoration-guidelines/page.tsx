@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historic-home-restoration-guidelines/' },
   title: "Tampa Historic Home Restoration Guidelines",
   description: "Comprehensive guidelines for restoring Tampa's historic homes in Hyde Park, Seminole Heights, and other preservation districts. Professional standards and best practices.",
 };

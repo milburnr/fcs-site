@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-plaster-repair-techniques-in-tampa/' },
   title: "Historic Plaster Repair Tampa | Traditional Methods | FCS",
   description: "Master authentic historic plaster repair techniques in Tampa with FCS. Expert restoration of Tampa's historic districts using Secretary of Interior standards. Traditional lime plaster, horsehair reinforcement, and period-appropriate methods for Ybor City, Hyde Park, and South Tampa historic homes.",
 };

@@ -10,6 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/tampa-fl/' },
   title: "Tampa Commercial Construction | $500K-$25M+ | FCS",
   description: "Premier general contractor serving Tampa, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
   keywords: "commercial construction tampa, tampa general contractor, disaster recovery tampa, historic restoration tampa fl, large scale construction tampa",
@@ -36,7 +37,6 @@ const services = [
   },
   {
     title: "Disaster Recovery",
-    description: "Hurricane, storm, and flood damage restoration for commercial and residential properties. 24/7 emergency response throughout Tampa.",
     icon: Shield,
     href: "/services/disaster-recovery/",
   },

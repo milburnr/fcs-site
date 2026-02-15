@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from 
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-interior-design-in-tampa/' },
   title: "Commercial Interior Design Tampa | Office",
   description: "Transform your Tampa Bay commercial space with expert interior design. Office space planning, retail design, healthcare interiors, and hospitality environments that enhance business performance.",
 };

@@ -29,6 +29,7 @@ import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
   title: "Disaster Recovery in Tampa",
   description: "Tampa's large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration projects, all carriers. Call (813) 420-7561.",
   keywords: [
@@ -81,7 +82,7 @@ const tampaFaqs = [
   },
   {
     question: "What is the typical timeline for hurricane damage restoration in Tampa?",
-    answer: "Hurricane restoration timelines vary by project scope. Emergency stabilization typically takes 1-3 days, water extraction and structural drying 5-14 days, and structural repairs 30-90 days. Complete restoration of large commercial or multi-family properties often requires 6-12 months, depending on damage extent, permit timelines through the City of Tampa Building Department, and material availability. We provide realistic schedules during our initial assessment."
+    answer: "Hurricane restoration timelines vary by project scope. Stabilization typically takes 1-3 days, water extraction and structural drying 5-14 days, and structural repairs 30-90 days. Complete restoration of large commercial or multi-family properties often requires 6-12 months, depending on damage extent, permit timelines through the City of Tampa Building Department, and material availability. We provide realistic schedules during our initial assessment."
   },
   {
     question: "Can you restore historic properties in Tampa's designated historic districts?",
@@ -89,7 +90,7 @@ const tampaFaqs = [
   },
   {
     question: "What types of disaster damage do you restore in Tampa?",
-    answer: "We handle all major disaster types including hurricane and tropical storm damage, flooding and water intrusion, fire and smoke damage, tornado damage, hail damage, and vehicle impact damage. Our services encompass structural repair, roof reconstruction, interior restoration, mold remediation coordination, and complete building envelope reconstruction. As a prime contractor, we manage all aspects of restoration from emergency response through final completion."
+    answer: "We handle all major disaster types including hurricane and tropical storm damage, flooding and water intrusion, fire and smoke damage, tornado damage, hail damage, and vehicle impact damage. Our services encompass structural repair, roof reconstruction, interior restoration, mold remediation coordination, and complete building envelope reconstruction. As a prime contractor, we manage all aspects of restoration from storm response through final completion."
   },
 ];
 
@@ -313,7 +314,7 @@ export default function DisasterRecoveryTampaPage() {
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
               <div className="absolute bottom-4 left-4 right-4 text-white">
                 <p className="font-semibold">Hurricane Damage</p>
-                <p className="text-sm text-gray-200">Emergency Response</p>
+                <p className="text-sm text-gray-200">Storm Response</p>
               </div>
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/funding-and-grants-for-historic-restoration-in-tampa/' },
   title: "Funding and Grants for Historic Restoration in Tampa",
   description: "Comprehensive guide to historic restoration funding in Tampa including federal and state tax credits, grants, and financing options for commercial preservation projects.",
 };

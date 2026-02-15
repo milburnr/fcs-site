@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/boosting-performance-in-florida-offices-windows/' },
   title: "Office Windows Florida | Energy-Efficient Glazing",
   description: "Boost office productivity and energy efficiency with the right windows for Florida's climate. Guide to commercial glazing, solar heat gain, natural light, and hurricane impact requirements.",
 };

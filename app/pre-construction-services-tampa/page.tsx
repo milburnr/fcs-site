@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from 
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/pre-construction-services-tampa/' },
   title: "Pre-Construction Services Tampa",
   description: "Comprehensive pre-construction services in Tampa Bay. Expert estimating, value engineering, scheduling, and constructability review for commercial projects throughout Florida.",
 };

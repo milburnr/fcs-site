@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/' },
   title: "Secure Custom Home Construction Tampa | Safety",
   description: "Build a secure custom home in Tampa with integrated security systems, safe rooms, reinforced construction, and smart access control. Complete security from $25K-$150K+.",
 };
@@ -140,7 +141,7 @@ export default function Page() {
               Safe rooms—also called panic rooms or hardened shelters—provide last-resort protection during home invasions or severe weather events. Built to FEMA 320/361 standards for storm protection or higher specifications for security purposes, these rooms offer impenetrable refuge until authorities arrive or danger passes. During construction, we can incorporate safe rooms seamlessly into floor plans at far less cost than retrofitting.
             </p>
             <p className="text-gray-600 mb-6">
-              Safe room construction typically involves reinforced concrete or steel walls, ceiling, and floor—capable of withstanding prolonged forced entry attempts. Doors are heavy steel with commercial-grade locks and reinforced frames. Ventilation systems provide fresh air without compromising security. Communications equipment (landlines, cell boosters, two-way radios) maintains contact with emergency services. Some clients include supplies for extended shelter duration.
+              Safe room construction typically involves reinforced concrete or steel walls, ceiling, and floor—capable of withstanding prolonged forced entry attempts. Doors are heavy steel with commercial-grade locks and reinforced frames. Ventilation systems provide fresh air without compromising security. Communications equipment (landlines, cell boosters, two-way radios) maintains contact with prompt services. Some clients include supplies for extended shelter duration.
             </p>
             <p className="text-gray-600 mb-6">
               Locations vary based on family needs and home layout. Master bedroom closets offer convenient overnight access but may be obvious to intruders. Interior rooms on first floors provide easier access from anywhere in the house. Basement installations offer maximum protection but may be less accessible. We help determine optimal placement based on your specific security concerns and family composition.

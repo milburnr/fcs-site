@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-property-damage-restoration-in-tampa/' },
   title: "Commercial Property Damage Restoration Tampa",
   description: "Expert commercial property damage restoration in Tampa. Office buildings, retail centers, and commercial facilities restored after hurricane, flood, fire, and storm damage. Insurance claim specialists.",
 };
@@ -19,7 +20,6 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "How soon can commercial restoration begin after damage occurs?",
-    answer: "Emergency mitigation can begin within hours—we provide 24/7 response for Tampa Bay commercial properties. Full restoration work typically begins within 1-2 weeks, depending on insurance approval and permitting. We start with emergency services (water extraction, board-up, tarping) immediately to prevent additional damage while the full restoration scope is developed."
   },
   {
     question: "Can our business continue operating during restoration?",
@@ -94,7 +94,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Tampa Bay's commercial property owners face significant disaster risk, with hurricane season bringing potential for catastrophic damage every year from June through November. When storms, floods, fires, or other disasters damage your commercial property, rapid and professional restoration is essential to minimize business interruption, protect your investment, and get tenants and operations back to normal. Florida Construction Specialists provides comprehensive commercial property damage restoration services throughout the Tampa Bay region, from emergency response through complete reconstruction.
+              Tampa Bay's commercial property owners face significant disaster risk, with hurricane season bringing potential for catastrophic damage every year from June through November. When storms, floods, fires, or other disasters damage your commercial property, rapid and professional restoration is essential to minimize business interruption, protect your investment, and get tenants and operations back to normal. Florida Construction Specialists provides comprehensive commercial property damage restoration services throughout the Tampa Bay region, from storm response through complete reconstruction.
             </p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
@@ -262,7 +262,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Board-Up/Tarping</td>
+                    <td className="px-6 py-4 font-medium">Board-Up/Tarping</td>
                     <td className="px-6 py-4">$500 - $5,000</td>
                     <td className="px-6 py-4 text-gray-600">Opening size, quantity</td>
                   </tr>
@@ -328,8 +328,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
-                  <p className="text-gray-600">24/7 emergency services secure your property and prevent additional damage. Water extraction, board-up, tarping, and debris removal protect your building while comprehensive assessment and restoration planning proceed.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
                 </div>
               </div>
 

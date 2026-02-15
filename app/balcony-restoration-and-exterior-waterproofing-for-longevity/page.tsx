@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-restoration-and-exterior-waterproofing-for-longevity/' },
   title: "Balcony Restoration & Waterproofing Tampa | FCS",
   description: "Maximize your Tampa Bay condo's balcony lifespan with professional restoration and waterproofing. Expert strategies for 20+ year durability in Florida's coastal climate.",
 };
@@ -19,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
   { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
   { href: "/contact/", label: "Schedule a Consultation" },

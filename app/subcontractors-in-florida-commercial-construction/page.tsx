@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/subcontractors-in-florida-commercial-construction/' },
   title: "Subcontractors in Florida Commercial | Guide",
   description: "Understand the vital role of subcontractors in Florida commercial construction. Learn how general contractors manage trade partners for successful Tampa Bay projects.",
 };

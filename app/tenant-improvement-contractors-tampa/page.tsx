@@ -8,6 +8,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tenant-improvement-contractors-tampa/' },
   title: "Tenant Improvement Contractors Tampa | TI | FCS",
   description: "Expert tenant improvement contractors in Tampa Bay. Office, retail, and medical TI build-outs with fast-track delivery and budget management from Florida Construction Specialists.",
 };
@@ -596,7 +597,6 @@ export default function Page() {
                   <li>• Dedicated project managers for every TI project</li>
                   <li>• Real-time project tracking and communication systems</li>
                   <li>• Proven methodologies for schedule and budget control</li>
-                  <li>• Emergency response capabilities for urgent issues</li>
                   <li>• Post-completion support and warranty services</li>
                 </ul>
               </div>

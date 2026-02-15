@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/benefits-of-design-build-construction-for-commercial-project/' },
   title: "Design-Build Benefits for Commercial Tampa",
   description: "Discover why design-build construction delivers commercial projects faster, at lower cost, with fewer disputes. Learn how this integrated approach benefits Florida businesses.",
 };

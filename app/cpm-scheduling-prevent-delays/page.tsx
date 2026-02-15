@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/cpm-scheduling-prevent-delays/' },
   title: "CPM Scheduling Tampa | Prevent Delays | FCS",
   description:
     "How Critical Path Method scheduling prevents costly delays on large commercial construction projects. Expert scheduling services for Tampa Bay industrial and commercial projects.",

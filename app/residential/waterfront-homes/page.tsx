@@ -13,6 +13,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/waterfront-homes/' },
   title: "Waterfront Home Construction Tampa | Seawall",
   description:
     "Luxury waterfront home construction in Tampa Bay. Seawall coordination, marine-grade materials, flood zone compliance. Davis Islands, Harbour Island specialists.",

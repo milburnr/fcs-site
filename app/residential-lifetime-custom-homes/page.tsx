@@ -7,6 +7,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/residential-lifetime-custom-homes/' },
   title: "Custom Home Builder Tampa FL",
   description:
     "We build custom homes that last a lifetime. Tampa custom builder specializing in multi-million dollar luxury homes. Work with top architects and craftsmen.",

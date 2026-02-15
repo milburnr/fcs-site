@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/integrating-modern-amenities-in-tampas-historic-homes/' },
   title: "Modern Amenities in Tampa Historic Homes | FCS",
   description: "Expert integration of modern amenities in Tampa's historic homes. FCS seamlessly blends contemporary systems, smart technology, and luxury features while preserving architectural integrity in Hyde Park, Ybor City, and South Tampa historic districts.",
 };
@@ -226,7 +227,7 @@ export default function Page() {
               Aging-in-place modifications enable long-term residents to remain in their historic homes as their needs change over time. Modifications include grab bars designed to complement period bathroom fixtures, shower systems with built-in seating that maintains historic bathroom character, and stairway improvements including better lighting and secure handrails that enhance safety while preserving architectural details that define the home's historic character.
             </p>
             <p className="text-gray-600 mb-6">
-              Advanced aging-in-place features include smart home automation that can assist with daily tasks, emergency response systems that provide security and peace of mind, and home modification planning that anticipates future needs while preserving historic character. These modifications demonstrate our commitment to helping Tampa families enjoy their historic homes throughout their lifetimes while maintaining the architectural heritage that makes these properties irreplaceable.
+              Advanced aging-in-place features include smart home automation that can assist with daily tasks, storm response systems that provide security and peace of mind, and home modification planning that anticipates future needs while preserving historic character. These modifications demonstrate our commitment to helping Tampa families enjoy their historic homes throughout their lifetimes while maintaining the architectural heritage that makes these properties irreplaceable.
             </p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
@@ -271,10 +272,10 @@ export default function Page() {
               Fire Safety and Emergency Systems
             </h3>
             <p className="text-gray-600 mb-6">
-              Fire safety systems in historic homes must provide contemporary protection while preserving architectural integrity and meeting modern safety codes. Smoke detection systems use wireless technology to minimize wiring impacts, sprinkler systems can be integrated into existing ceiling configurations, and emergency lighting provides safe egress while remaining discrete during normal use. These systems often require creative engineering solutions to provide required protection while preserving historic materials and spatial relationships.
+              Fire safety systems in historic homes must provide contemporary protection while preserving architectural integrity and meeting modern safety codes. Smoke detection systems use wireless technology to minimize wiring impacts, sprinkler systems can be integrated into existing ceiling configurations, and storm lighting provides safe egress while remaining discrete during normal use. These systems often require creative engineering solutions to provide required protection while preserving historic materials and spatial relationships.
             </p>
             <p className="text-gray-600 mb-6">
-              Emergency preparedness includes backup power systems that maintain critical functions during outages, communication systems that provide reliable contact with emergency services, and emergency planning that considers historic home configurations and potential evacuation challenges. These preparations ensure that historic homes provide safe environments while preserving the irreplaceable architectural and cultural heritage that makes them valuable community assets.
+              Emergency preparedness includes backup power systems that maintain critical functions during outages, communication systems that provide reliable contact with prompt services, and storm planning that considers historic home configurations and potential evacuation challenges. These preparations ensure that historic homes provide safe environments while preserving the irreplaceable architectural and cultural heritage that makes them valuable community assets.
             </p>
 
             <div className="bg-brand-green-light/10 border border-brand-green rounded-lg p-6 mb-8">

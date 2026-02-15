@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/' },
   title: "Top Bonded & Insured Commercial Contractor in Tampa",
   description: "Learn why bonding and insurance matter for your Tampa commercial project. Florida Construction Specialists provides fully bonded and insured construction services.",
 };
@@ -382,15 +383,15 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-6">
-              Fall protection certification proves essential for commercial construction work involving elevated surfaces, scaffolding, and ladder work. Proper harness use, anchor point selection, and rescue procedures require specialized training beyond general construction knowledge. Our technicians complete annual fall protection refresher training and participate in rescue drills that prepare them for emergency situations.
+              Fall protection certification proves essential for commercial construction work involving elevated surfaces, scaffolding, and ladder work. Proper harness use, anchor point selection, and rescue procedures require specialized training beyond general construction knowledge. Our technicians complete annual fall protection refresher training and participate in rescue drills that prepare them for prompt situations.
             </p>
 
             <p className="text-gray-600 mb-6">
-              Confined space entry certification applies to construction work in basements, utility tunnels, tanks, and other enclosed spaces with limited access. These environments present risks from atmospheric hazards, limited ventilation, and restricted egress that require specialized safety procedures. Our confined space training includes atmospheric monitoring, ventilation requirements, and emergency rescue procedures.
+              Confined space entry certification applies to construction work in basements, utility tunnels, tanks, and other enclosed spaces with limited access. These environments present risks from atmospheric hazards, limited ventilation, and restricted egress that require specialized safety procedures. Our confined space training includes atmospheric monitoring, ventilation requirements, and storm rescue procedures.
             </p>
 
             <p className="text-gray-600 mb-6">
-              Excavation safety training addresses the hazards associated with trenching and excavation work common in foundation construction and utility installation. Cave-ins represent one of the leading causes of construction fatalities, making proper excavation safety training critical for worker protection. Our training covers soil classification, protective systems, and emergency response procedures for excavation work.
+              Excavation safety training addresses the hazards associated with trenching and excavation work common in foundation construction and utility installation. Cave-ins represent one of the leading causes of construction fatalities, making proper excavation safety training critical for worker protection. Our training covers soil classification, protective systems, and safety response procedures for excavation work.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

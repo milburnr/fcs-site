@@ -43,6 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-brandon/' },
   title: "Condo Remediation Brandon | SB4-D | FCS",
   description:
     "Brandon condo remediation & SB4-D compliance experts. Milestone inspections, SIRS, structural repairs for condos 3+ stories. Serving Valrico, Riverview, FishHawk. Near FCS headquarters. Call (813) 420-7561.",
@@ -186,7 +187,7 @@ const brandonFaqs = [
   {
     question: "How does FCS's proximity to Brandon benefit local condo associations?",
     answer:
-      "Florida Construction Specialists is headquartered in nearby Ruskin, just 20-25 minutes from most Brandon locations. This proximity provides significant advantages for Brandon condo associations: faster response times for assessments and emergency situations, reduced mobilization costs without long-distance travel expenses, established relationships with Hillsborough County Building Department, familiarity with local subcontractors and material suppliers, and the ability to efficiently manage multiple Brandon projects. Our team regularly serves the Brandon, Valrico, Riverview, and FishHawk communities, understanding the specific characteristics of suburban Hillsborough County construction.",
+      "Florida Construction Specialists is headquartered in nearby Ruskin, just 20-25 minutes from most Brandon locations. This proximity provides significant advantages for Brandon condo associations: faster response times for assessments and urgent situations, reduced mobilization costs without long-distance travel expenses, established relationships with Hillsborough County Building Department, familiarity with local subcontractors and material suppliers, and the ability to efficiently manage multiple Brandon projects. Our team regularly serves the Brandon, Valrico, Riverview, and FishHawk communities, understanding the specific characteristics of suburban Hillsborough County construction.",
   },
   {
     question: "Can Brandon condo residents stay in their units during remediation work?",
@@ -224,8 +225,8 @@ const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation & SB4-D Compliance" },
   { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/services/residential/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/condo-remediation-tampa/", label: "Condo Remediation Tampa" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

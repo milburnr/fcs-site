@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historic-social-clubs-restoration/' },
   title: "Tampa Historic Social Clubs | Ybor City | FCS",
   description:
     "Restoring Tampa's historic social clubs and mutual aid societies. Expert preservation of Ybor City's Italian, Cuban, and Spanish club buildings with historic tax credit guidance.",

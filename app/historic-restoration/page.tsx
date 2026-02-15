@@ -10,6 +10,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration/' },
   title: "Historic Restoration & Preservation | Certified Specialists",
   description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO requirements.",
 };

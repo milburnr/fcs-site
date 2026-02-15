@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historic-restoration-workshops-and-training/' },
   title: "Tampa Historic Restoration Workshops and Training",
   description: "Professional development and training opportunities for historic restoration in Tampa. Workshops on preservation techniques, tax credits, and traditional craftsmanship.",
 };

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/boost-sales-with-effective-retail-store-design-ideas/' },
   title: "Retail Store Design Ideas Tampa | Boost Sales",
   description: "Effective retail store design ideas to increase sales. Expert guide to store layouts, visual merchandising, customer flow, and sales-driving construction elements in Tampa Bay.",
 };

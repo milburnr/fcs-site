@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/cost-of-historic-restoration-in-tampa/' },
   title: "Cost of Historic Restoration in Tampa",
   description: "Comprehensive guide to historic restoration costs in Tampa. Budget planning for commercial and institutional projects with tax credit ROI analysis.",
 };

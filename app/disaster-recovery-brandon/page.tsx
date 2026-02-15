@@ -10,8 +10,8 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-brandon/' },
   title: "Disaster Recovery Brandon FL | Hurricane | FCS",
-  description: "Brandon disaster recovery contractor specializing in hurricane, storm, and flood damage restoration. Prime contractor for large loss insurance claims $225K-$45M. 24/7 emergency response. Licensed, bonded, insured.",
   keywords: "disaster recovery Brandon, hurricane damage restoration Brandon, storm damage repair Brandon, flood damage Brandon, insurance restoration Brandon, large loss contractor Brandon, Alafia River flooding",
 };
 
@@ -48,7 +48,6 @@ const disasterTypes = [
 const brandonFaqs = [
   {
     question: "How quickly can FCS respond to disaster damage in Brandon?",
-    answer: "Florida Construction Specialists provides 24/7 emergency response throughout Brandon and surrounding Hillsborough County communities including Valrico, Riverview, and FishHawk. For large loss commercial and high-value residential properties, we typically have assessment teams on-site within 2-4 hours. Our proximity to Brandon via the I-75 corridor allows rapid deployment of emergency crews and equipment.",
   },
   {
     question: "What types of disasters most commonly affect Brandon properties?",
@@ -60,7 +59,7 @@ const brandonFaqs = [
   },
   {
     question: "What is the typical timeline for disaster recovery in Brandon?",
-    answer: "Disaster recovery timelines in Brandon vary by scope: Emergency stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-150 days for larger commercial projects). Projects over $1 million may require 5-10 months depending on scope and Hillsborough County permit requirements. Brandon's inland location often means less competing demand for restoration contractors compared to coastal areas.",
+    answer: "Disaster recovery timelines in Brandon vary by scope: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-150 days for larger commercial projects). Projects over $1 million may require 5-10 months depending on scope and Hillsborough County permit requirements. Brandon's inland location often means less competing demand for restoration contractors compared to coastal areas.",
   },
   {
     question: "Are Brandon disaster recovery costs lower than Tampa?",
@@ -88,7 +87,6 @@ const costData = [
 ];
 
 const processSteps = [
-  { step: 1, title: "Emergency Response", description: "24/7 rapid response with damage assessment and immediate stabilization to prevent further loss" },
   { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development" },
   { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation support" },
   { step: 4, title: "Restoration Planning", description: "Engineering assessments, Hillsborough County permit applications, and detailed project scheduling" },
@@ -102,7 +100,6 @@ export default function DisasterRecoveryBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Disaster Recovery" />
       <ServiceSchema
         serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Professional disaster recovery and insurance restoration services in Brandon, FL. Prime contractor for hurricane damage, flood restoration, fire damage, and large loss insurance claims. 24/7 emergency response with projects from $225,000 to $45 million."
         city="Brandon"
         minPrice="225000"
       />
@@ -130,11 +127,9 @@ export default function DisasterRecoveryBrandonPage() {
               Disaster Recovery & Insurance Restoration in Brandon
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Brandon's trusted large loss contractor for hurricane damage, severe storm restoration, and commercial property disaster recovery. We work directly with insurance companies on claims from $225,000 to $45 million. 24/7 emergency response for Hillsborough County properties.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
-                24/7 Emergency Response
               </Link>
               <a
                 href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -154,7 +149,6 @@ export default function DisasterRecoveryBrandonPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Clock className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">24/7 Emergency Response</span>
             </div>
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
@@ -247,9 +241,8 @@ export default function DisasterRecoveryBrandonPage() {
             <div className="space-y-6">
               {/* Quick Contact Card */}
               <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">24/7 Emergency Line</h3>
                 <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Brandon and Hillsborough County. Our emergency crews are ready to deploy.
+                  Immediate response for disaster damage in Brandon and Hillsborough County. Our our crews are ready to deploy.
                 </p>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -378,7 +371,7 @@ export default function DisasterRecoveryBrandonPage() {
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
                 <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Emergency Response</div>
+                <div className="text-gray-300 text-sm">Storm Response</div>
               </div>
               <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
                 <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
@@ -466,11 +459,10 @@ export default function DisasterRecoveryBrandonPage() {
             Brandon Disaster Recovery Experts
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From emergency response to complete restoration, FCS is Brandon's trusted partner for large loss disaster recovery. Contact us 24/7 for immediate assistance throughout Hillsborough County.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get Emergency Response
+              Get storm response
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

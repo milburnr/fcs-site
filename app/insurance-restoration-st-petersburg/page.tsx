@@ -43,6 +43,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/' },
   title: "Insurance Restoration St. Petersburg | 43 Years",
   description:
     "St. Petersburg's most experienced insurance restoration contractor. 43 years claims expertise from both sides—adjuster AND contractor. Hurricane, flood, fire damage restoration. Historic district specialists. Call (813) 420-7561.",
@@ -186,7 +187,7 @@ const stPeteFaqs = [
   {
     question: "What should St. Petersburg property owners do immediately after storm damage?",
     answer:
-      "First, ensure safety and document everything with photos and video before any cleanup. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (emergency tarping, board-up) but don't begin permanent repairs until damage is documented. Keep all receipts for emergency expenses. For significant losses in St. Petersburg, contact FCS early—our initial assessment helps ensure proper documentation from the start and identifies damage that might otherwise be missed, particularly important for St. Pete's older building stock.",
+      "First, ensure safety and document everything with photos and video before any cleanup. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (tarping, board-up) but don't begin permanent repairs until damage is documented. Keep all receipts for prompt expenses. For significant losses in St. Petersburg, contact FCS early—our initial assessment helps ensure proper documentation from the start and identifies damage that might otherwise be missed, particularly important for St. Pete's older building stock.",
   },
   {
     question: "How do NFIP flood claims work for St. Pete Beach and barrier island properties?",
@@ -303,7 +304,7 @@ export default function InsuranceRestorationStPetersburgPage() {
                 className="btn-secondary flex items-center justify-center gap-2"
               >
                 <Phone className="w-5 h-5" />
-                Emergency: {BUSINESS_INFO.phone}
+                urgent: {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
@@ -896,7 +897,7 @@ export default function InsuranceRestorationStPetersburgPage() {
                     </li>
                     <li className="flex items-start gap-2">
                       <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Emergency mitigation costs</span>
+                      <span>Mitigation costs</span>
                     </li>
                   </ul>
                 </div>
@@ -1062,7 +1063,7 @@ export default function InsuranceRestorationStPetersburgPage() {
               </div>
 
               <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="font-bold text-xl mb-3">Emergency Assistance Available</h3>
+                <h3 className="font-bold text-xl mb-3">professional assistance Available</h3>
                 <p className="text-gray-200 mb-4">
                   For immediate assistance with storm damage to your St. Petersburg property:
                 </p>

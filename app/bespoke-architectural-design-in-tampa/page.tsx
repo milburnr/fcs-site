@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from 
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/' },
   title: "Bespoke Architectural Design Tampa | Commercial",
   description: "Custom architectural design services for commercial buildings in Tampa Bay. Tailored solutions that reflect your brand, optimize operations, and create distinctive spaces.",
 };

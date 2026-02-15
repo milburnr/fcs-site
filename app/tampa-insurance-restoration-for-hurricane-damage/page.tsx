@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-insurance-restoration-for-hurricane-damage/' },
   title: "Tampa Hurricane Insurance Restoration | Commercial",
   description: "Insurance restoration services for hurricane damage in Tampa. Expert claim documentation, adjuster coordination, and complete commercial property restoration. Maximize your insurance recovery.",
 };
@@ -248,7 +249,7 @@ export default function Page() {
                 <ul className="space-y-2 text-gray-600">
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Emergency mitigation and board-up</span>
+                    <span>Mitigation and board-up</span>
                   </li>
                   <li className="flex items-start gap-2">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
@@ -296,8 +297,8 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response</h3>
-                  <p className="text-gray-600">Immediate response to secure your property, prevent additional damage, and begin documentation. Emergency services are covered by most policies and should begin as soon as safely possible after the storm.</p>
+                  <h3 className="font-bold text-brand-green-dark mb-2">Storm Response</h3>
+                  <p className="text-gray-600">Immediate response to secure your property, prevent additional damage, and begin documentation. prompt services are covered by most policies and should begin as soon as safely possible after the storm.</p>
                 </div>
               </div>
 
@@ -357,7 +358,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-8">
-              Our in-house capabilities cover every aspect of hurricane restoration—from emergency response through complete reconstruction. This allows us to control quality, maintain schedules, and provide single-source accountability throughout your project.
+              Our in-house capabilities cover every aspect of hurricane restoration—from storm response through complete reconstruction. This allows us to control quality, maintain schedules, and provide single-source accountability throughout your project.
             </p>
 
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">

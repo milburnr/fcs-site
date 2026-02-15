@@ -9,6 +9,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-sarasota/' },
   title: "Luxury Custom Homes Sarasota | Barrier Island",
   description: "Sarasota luxury custom home builder specializing in $1M-$25M+ barrier island estates and waterfront properties. Siesta Key, Longboat Key, Bird Key, Lido Key, Casey Key. Sarasota School of Architecture expertise. Licensed, bonded, insured.",
   keywords: "luxury custom homes Sarasota, waterfront homes Siesta Key, estate homes Longboat Key, custom home builder Sarasota, Bird Key luxury homes, Lido Key custom homes",

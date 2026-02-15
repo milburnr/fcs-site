@@ -44,6 +44,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-lakeland/' },
   title: "Condo Remediation Lakeland | SB4-D Polk | FCS",
   description:
     "Lakeland condo remediation experts. SB4-D compliance, milestone inspections (30-year inland deadline), SIRS structural reserve studies. Polk County licensed contractor. Call (813) 420-7561.",
@@ -242,7 +243,7 @@ const lakelandFaqs = [
   {
     question: "Can residents stay in the building during remediation work?",
     answer:
-      "In most cases, yes. FCS develops phased remediation plans specifically designed to maintain building occupancy. Our approach includes working floor-by-floor or section-by-section, creating temporary weather barriers when needed, scheduling noisy work during reasonable hours, maintaining all life safety systems, and providing advance notice to affected residents. Only in cases of severe structural deficiency requiring immediate shoring or emergency repairs would temporary evacuation of affected areas be recommended. We understand Lakeland's mix of year-round residents and seasonal occupants and plan accordingly.",
+      "In most cases, yes. FCS develops phased remediation plans specifically designed to maintain building occupancy. Our approach includes working floor-by-floor or section-by-section, creating temporary weather barriers when needed, scheduling noisy work during reasonable hours, maintaining all life safety systems, and providing advance notice to affected residents. Only in cases of severe structural deficiency requiring immediate shoring or storm repairs would temporary evacuation of affected areas be recommended. We understand Lakeland's mix of year-round residents and seasonal occupants and plan accordingly.",
   },
   {
     question: "What is the difference between Phase 1 and Phase 2 milestone inspections?",

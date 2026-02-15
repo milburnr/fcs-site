@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-insights-on-ways-t0-enhanced-office-building-security/' },
   title: "Office Building Security Tampa | Commercial",
   description: "Expert guide to office building security construction in Tampa Bay. Access control, surveillance, secure entries, and integrated security systems for commercial buildings.",
 };
@@ -201,7 +202,7 @@ const integrationPoints = [
   {
     system: "Elevator",
     integration: "Floor access control, emergency recall, lockdown",
-    benefit: "Vertical access control, emergency response",
+    benefit: "Vertical access control, storm response",
   },
   {
     system: "Visitor Management",
@@ -216,7 +217,7 @@ const integrationPoints = [
   {
     system: "Mass Notification",
     integration: "Emergency alerts, lockdown commands, two-way communication",
-    benefit: "Coordinated emergency response, accountability",
+    benefit: "Coordinated storm response, accountability",
   },
 ];
 
@@ -250,7 +251,7 @@ const faqs = [
   },
   {
     question: "What security considerations apply specifically to Tampa Bay?",
-    answer: "Tampa Bay security planning should address: Hurricane preparedness—backup power for security systems, remote monitoring capability, post-storm access management; High-profile tenant protection—Tampa's growing corporate presence attracts attention; Parking structure security—common crime location requiring adequate lighting, cameras, and emergency phones; Visitor volume—tourism and conventions mean higher transient traffic in downtown/Westshore areas. Also consider integration with Tampa PD's network for enhanced response coordination.",
+    answer: "Tampa Bay security planning should address: Hurricane preparedness—backup power for security systems, remote monitoring capability, post-storm access management; High-profile tenant protection—Tampa's growing corporate presence attracts attention; Parking structure security—common crime location requiring adequate lighting, cameras, and storm phones; Visitor volume—tourism and conventions mean higher transient traffic in downtown/Westshore areas. Also consider integration with Tampa PD's network for enhanced response coordination.",
   },
   {
     question: "How much does a comprehensive office building security system cost?",

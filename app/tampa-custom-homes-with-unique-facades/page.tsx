@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-homes-with-unique-facades/' },
   title: "Tampa Custom Homes Unique Facades | Distinctive",
   description: "Create a distinctive facade for your Tampa custom home. Unique materials, architectural details, and curb appeal that sets your home apart. Premium exteriors from $100K-$500K+.",
 };

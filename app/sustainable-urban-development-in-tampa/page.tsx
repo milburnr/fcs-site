@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/sustainable-urban-development-in-tampa/' },
   title: "Sustainable Urban Development in Tampa",
   description: "Leading sustainable urban development in Tampa Bay with green building practices, LEED certification, and eco-friendly commercial construction solutions.",
 };

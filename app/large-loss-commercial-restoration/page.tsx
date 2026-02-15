@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/large-loss-commercial-restoration/' },
   title: "Large Loss Commercial Restoration Tampa | $500K+",
   description:
     "Expert large loss commercial restoration in Tampa Bay. Specialized expertise for complex insurance claims over $500K including multi-building disasters, manufacturing facilities, and major structural damage.",
@@ -77,12 +78,12 @@ const largeLossCategories = [
 
 const claimProcessPhases = [
   {
-    phase: "Emergency Response",
+    phase: "storm response",
     duration: "0-72 hours",
     activities: [
       "Secure property and prevent further damage",
       "Document conditions with photos/video",
-      "Begin emergency mitigation (water extraction, board-up)",
+      "Begin mitigation (water extraction, board-up)",
       "Notify insurance carrier and broker",
       "Engage public adjuster if applicable",
     ],
@@ -246,7 +247,7 @@ const documentationRequirements = [
       "Immediate photos and videos",
       "Weather reports or incident reports",
       "Witness statements",
-      "Emergency response records",
+      "storm response records",
     ],
   },
   {
@@ -314,7 +315,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

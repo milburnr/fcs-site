@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/renovating-your-commercial-space-in-florida/' },
   title: "Right Time to Renovate Commercial Space FL",
   description: "Expert advice on determining the best time to renovate your Florida commercial space. Market timing, business cycles, seasonal considerations, and strategic planning from Tampa's construction specialists.",
 };

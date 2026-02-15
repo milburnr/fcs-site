@@ -35,6 +35,7 @@ import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/historic-restoration/' },
   title: "Historic Restoration Tampa | SHPO Compliance | FCS",
   description:
     "Expert historic restoration in Tampa Bay with proven National Register experience. Historic tax credits, SHPO compliance, Ybor City specialists. Italian Club, Lion's Eye Institute, Bay Pines VA Hospital restoration.",

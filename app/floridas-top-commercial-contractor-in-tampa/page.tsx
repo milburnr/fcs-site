@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/floridas-top-commercial-contractor-in-tampa/' },
   title: "Florida's Top Commercial Contractor in Tampa",
   description: "Discover why Florida Construction Specialists is recognized as Florida's top commercial contractor in Tampa. Full-service construction, proven results, local expertise.",
 };

@@ -40,6 +40,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { GoogleMap } from "@/components/GoogleMap";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-tampa/' },
   title: "Balcony Reconstruction in Tampa",
   description:
     "Tampa balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
@@ -50,7 +51,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Residential Services", href: "/services/residential/" },
-  { name: "Balcony Reconstruction", href: "/services/residential/balcony-reconstruction/" },
+  { name: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
   { name: "Tampa", href: "/balcony-reconstruction-tampa/" },
 ];
 
@@ -211,8 +212,8 @@ const internalLinks = [
   { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
   { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/condo-structural-reserve-study-repairs/", label: "Structural Reserve Studies" },
-  { href: "/services/residential/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/residential/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

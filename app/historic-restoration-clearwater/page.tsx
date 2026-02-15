@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-clearwater/' },
   title: "Historic Restoration Clearwater | Harbor Oaks",
   description: "Expert historic restoration contractor in Clearwater, Florida. Downtown Cleveland Street, Harbor Oaks neighborhood, coastal preservation. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
   keywords: "historic restoration clearwater, harbor oaks restoration, downtown clearwater historic, cleveland street restoration, coastal preservation florida, SHPO clearwater, historic tax credits pinellas",

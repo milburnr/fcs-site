@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-commercial-construction-solutions-in-tampa/' },
   title: "Custom Commercial Construction Solutions in Tampa",
   description: "Our experienced commercial building contractors specialize in custom commercial construction solutions tailored for your Tampa business needs.",
 };
@@ -21,7 +22,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -170,7 +170,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Laboratory and Research Facility Construction</h3>
               <p className="text-gray-600 mb-6">
-                Medical research and diagnostic laboratories require specialized infrastructure including fume hoods, chemical storage, specialized ventilation, and contamination control systems. Our laboratory construction experience includes biosafety level requirements, chemical-resistant finishes, and emergency safety systems that ensure both researcher safety and research integrity.
+                Medical research and diagnostic laboratories require specialized infrastructure including fume hoods, chemical storage, specialized ventilation, and contamination control systems. Our laboratory construction experience includes biosafety level requirements, chemical-resistant finishes, and storm safety systems that ensure both researcher safety and research integrity.
               </p>
 
               <div className="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-blue-400">
@@ -225,7 +225,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Safety and Environmental Compliance</h3>
               <p className="text-gray-600 mb-6">
-                Industrial facilities must comply with numerous safety and environmental regulations while maintaining operational efficiency. Our design team incorporates OSHA safety requirements, environmental protection measures, and industry-specific regulations into every project. Emergency response systems, containment measures, and worker safety features are integrated seamlessly into facility design.
+                Industrial facilities must comply with numerous safety and environmental regulations while maintaining operational efficiency. Our design team incorporates OSHA safety requirements, environmental protection measures, and industry-specific regulations into every project. storm response systems, containment measures, and worker safety features are integrated seamlessly into facility design.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -512,9 +512,9 @@ export default function Page() {
                 Custom facilities may require specialized fire protection systems beyond standard commercial sprinkler systems. Clean agent suppression systems protect sensitive electronics, pre-action systems prevent accidental discharge in critical areas, and specialized detection systems provide early warning for unique hazards. Our fire protection engineers design systems that meet all applicable codes while providing optimal protection for your specific operations.
               </p>
 
-              <h3 className="text-xl font-bold text-brand-green-dark mb-3">Emergency Response and Business Continuity Planning</h3>
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">storm response and Business Continuity Planning</h3>
               <p className="text-gray-600 mb-6">
-                Custom facilities require comprehensive emergency response planning that addresses specific operational risks and business continuity requirements. Our planning services include evacuation procedures, emergency communication systems, backup power systems, and coordination with local emergency services. These plans ensure rapid response to emergencies while minimizing business disruption and protecting personnel safety.
+                Custom facilities require comprehensive storm response planning that addresses specific operational risks and business continuity requirements. Our planning services include evacuation procedures, emergency communication systems, backup power systems, and coordination with local prompt services. These plans ensure rapid response to emergencies while minimizing business disruption and protecting personnel safety.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

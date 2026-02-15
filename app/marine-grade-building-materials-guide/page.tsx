@@ -30,6 +30,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/marine-grade-building-materials-guide/' },
   title: "Marine-Grade Building Materials Tampa Bay | FCS",
   description:
     "Complete guide to marine-grade building materials for waterfront homes in Tampa Bay. Salt-resistant hardware, coastal-rated windows, and materials that withstand Florida's marine environment.",

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
   title: "Technology in Tampa Insurance Restoration | Tools",
   description: "Discover how technology transforms insurance restoration in Tampa. Drones, thermal imaging, 3D scanning, and digital documentation tools for commercial property claims.",
 };

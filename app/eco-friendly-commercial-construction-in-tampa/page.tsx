@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-commercial-construction-in-tampa/' },
   title: "Eco-Friendly Commercial Construction Tampa",
   description: "Build sustainably in Tampa Bay with eco-friendly commercial construction. LEED certification, energy efficiency, sustainable materials & green building expertise.",
 };

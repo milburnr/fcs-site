@@ -8,6 +8,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-compliance-and-regulations-in-tampa/' },
   title: "Insurance Restoration Compliance Tampa | Laws",
   description: "Navigate insurance restoration compliance and regulations in Tampa. Florida statutes, building codes, permit requirements, and contractor licensing for commercial property restoration.",
 };
@@ -20,7 +21,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "What permits are required for insurance restoration in Tampa?",
-    answer: "Permit requirements depend on the scope of work. Generally required: building permits for structural repairs, electrical permits for electrical work, plumbing permits for plumbing modifications, mechanical permits for HVAC work, and roofing permits for roof repairs or replacement. The City of Tampa and Hillsborough County have specific requirements—check with the local building department. Emergency repairs to stop ongoing damage may be performed without permits, but follow-up permits are typically required. Insurance claims can include permit fees as recoverable costs."
+    answer: "Permit requirements depend on the scope of work. Generally required: building permits for structural repairs, electrical permits for electrical work, plumbing permits for plumbing modifications, mechanical permits for HVAC work, and roofing permits for roof repairs or replacement. The City of Tampa and Hillsborough County have specific requirements—check with the local building department. storm repairs to stop ongoing damage may be performed without permits, but follow-up permits are typically required. Insurance claims can include permit fees as recoverable costs."
   },
   {
     question: "What contractor licenses are required for insurance restoration in Florida?",
@@ -330,7 +331,7 @@ export default function Page() {
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
                   <h3 className="font-bold text-brand-green-dark mb-2">Determine Permit Requirements</h3>
-                  <p className="text-gray-600">Review scope of work against local permit requirements. Most structural, electrical, plumbing, mechanical, and roofing work requires permits. Emergency repairs to prevent further damage may proceed without permits, with follow-up permits obtained after.</p>
+                  <p className="text-gray-600">Review scope of work against local permit requirements. Most structural, electrical, plumbing, mechanical, and roofing work requires permits. storm repairs to prevent further damage may proceed without permits, with follow-up permits obtained after.</p>
                 </div>
               </div>
 

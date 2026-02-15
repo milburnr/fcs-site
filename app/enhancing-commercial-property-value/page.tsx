@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/enhancing-commercial-property-value/' },
   title: "Enhance Commercial Property Value Tampa | FCS",
   description: "Maximize your Tampa commercial property value with strategic renovations and upgrades. Expert guidance on ROI-focused improvements from Florida Construction Specialists.",
 };

@@ -14,6 +14,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/stylish-balcony-railing-designs-for-your-outdoor-space/' },
   title: "Balcony Railing Designs Tampa | High-Rise Styles",
   description: "Premium balcony railing designs for Tampa Bay high-rise condominiums. Code-compliant glass, aluminum, and cable railing systems with expert installation and SB 4-D compliance.",
 };
@@ -27,7 +28,7 @@ const internalLinks = [
   { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/expert-balcony-construction-guidelines-for-optimal-results/", label: "Balcony Construction Guidelines" },
   { href: "/top-balcony-flooring-materials-for-style-durability/", label: "Balcony Flooring Materials" },
-  { href: "/services/residential/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

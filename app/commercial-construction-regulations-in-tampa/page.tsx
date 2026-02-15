@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-regulations-in-tampa/' },
   title: "Commercial Construction Regulations Tampa | Permits",
   description: "Navigate Tampa's commercial construction regulations with confidence. Complete guide to Florida Building Code, permits, zoning, ADA compliance, and local requirements.",
 };

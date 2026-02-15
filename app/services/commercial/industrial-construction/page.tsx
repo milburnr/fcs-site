@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Warehouse | FCS",
   description: "Industrial construction in Tampa Bay. Warehouses, distribution centers, manufacturing facilities, flex space. Tilt-wall, steel, concrete. $500K-$25M+ projects. Call (813) 420-7561.",
   keywords: ["industrial construction tampa", "warehouse construction florida", "manufacturing facility builder", "distribution center construction", "flex space construction"],
@@ -375,11 +376,7 @@ export default function IndustrialConstructionPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction Services"},{"href":"/commercial-construction-tampa/","label":"Commercial Construction Tampa"},{"href":"/services/commercial/design-build/","label":"Design-Build Services"},{"href":"/services/commercial/medical-construction/","label":"Medical Facility Construction"},{"href":"/services/commercial/tenant-improvements/","label":"Tenant Improvements"}]}
-            title="Related Resources"
-            
-          />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

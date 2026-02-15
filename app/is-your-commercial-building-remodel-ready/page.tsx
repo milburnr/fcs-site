@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/is-your-commercial-building-remodel-ready/' },
   title: "Is Your Building Remodel Ready? | Tampa",
   description: "Comprehensive guide to assessing your commercial building's remodel readiness in Tampa Bay. Structural assessments, code compliance, budget planning, and timeline considerations from Florida Construction Specialists.",
 };

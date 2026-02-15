@@ -20,6 +20,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/gallery/' },
   title: "Project Gallery Tampa | Commercial Portfolio | FCS",
   description:
     "Explore Florida Construction Specialists' portfolio of commercial construction, luxury custom homes, historic restorations, and insurance restoration projects throughout Tampa Bay.",
@@ -29,27 +30,6 @@ export const metadata: Metadata = {
 
 // Commercial project categories
 const commercialProjects = [
-  {
-    category: "Medical & Healthcare",
-    icon: Stethoscope,
-    description: "AHCA-compliant medical offices, clinics, and healthcare facilities",
-    projects: [
-      {
-        title: "Medical Office Building Renovation",
-        location: "Tampa",
-        scope: "15,000 SF tenant improvement",
-        highlights: ["AHCA compliance", "Medical gas systems", "ADA upgrades"],
-        image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-      {
-        title: "Outpatient Surgery Center",
-        location: "Clearwater",
-        scope: "8,500 SF new construction",
-        highlights: ["Clean room standards", "Specialized HVAC", "Life safety systems"],
-        image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-    ],
-  },
   {
     category: "Industrial & Flex Space",
     icon: Factory,
@@ -68,8 +48,7 @@ const commercialProjects = [
         scope: "22,000 SF multi-tenant",
         highlights: ["Flexible bay sizes", "Heavy power", "High bay lighting"],
         image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Historic Restoration",
@@ -89,8 +68,7 @@ const commercialProjects = [
         scope: "Adaptive reuse conversion",
         highlights: ["Historic tax credits", "Modern systems", "ADA accessibility"],
         image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Multi-Family & Condo",
@@ -110,8 +88,7 @@ const commercialProjects = [
         scope: "120+ balconies",
         highlights: ["Structural repair", "Waterproofing", "Code compliance"],
         image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Insurance Restoration",
@@ -122,7 +99,7 @@ const commercialProjects = [
         title: "Hurricane Damage Restoration",
         location: "Tampa",
         scope: "$2.5M commercial restoration",
-        highlights: ["Emergency response", "Insurance coordination", "Full rebuild"],
+        highlights: ["storm response", "Insurance coordination", "Full rebuild"],
         image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
       },
       {
@@ -131,10 +108,8 @@ const commercialProjects = [
         scope: "Multi-tenant office building",
         highlights: ["Mitigation", "Tenant coordination", "Business continuity"],
         image: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp",
-      },
-    ],
-  },
-];
+      }],
+  }];
 
 // Residential project categories by architectural style
 const residentialProjects = [
@@ -156,8 +131,7 @@ const residentialProjects = [
         scope: "Historic renovation + addition",
         highlights: ["ARC approved", "Period restoration", "Modern systems"],
         image: "/images/custom-home-2/custom-home-2-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Coastal Contemporary",
@@ -177,8 +151,7 @@ const residentialProjects = [
         scope: "4,500 SF new construction",
         highlights: ["Dock integration", "Hurricane rated", "Smart home"],
         image: "/images/custom-home-2/custom-home-2-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Historic Preservation",
@@ -198,8 +171,7 @@ const residentialProjects = [
         scope: "Restoration + rear addition",
         highlights: ["Period-accurate materials", "Energy upgrades", "Guest suite"],
         image: "/images/custom-home-2/custom-home-2-display.webp",
-      },
-    ],
+      }],
   },
   {
     category: "Modern Luxury",
@@ -219,15 +191,12 @@ const residentialProjects = [
         scope: "5,100 SF new construction",
         highlights: ["Minimalist design", "Indoor-outdoor flow", "Home theater"],
         image: "/images/custom-home-2/custom-home-2-display.webp",
-      },
-    ],
-  },
-];
+      }],
+  }];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Gallery", href: "/gallery/" },
-];
+  { name: "Gallery", href: "/gallery/" }];
 
 export default function GalleryPage() {
   return (

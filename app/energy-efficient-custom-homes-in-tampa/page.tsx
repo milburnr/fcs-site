@@ -7,6 +7,7 @@ import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/S
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/energy-efficient-custom-homes-in-tampa/' },
   title: "Energy-Efficient Custom Homes Tampa | Save 40%+",
   description: "Build an energy-efficient custom home in Tampa with advanced insulation, high-SEER HVAC, and smart systems. Reduce utility costs by 40-60%. Luxury homes from $400K-$2M+.",
 };

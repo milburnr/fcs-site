@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-structural-drying-services-post-flooding/' },
   title: "Structural Drying Services Tampa | Flood | FCS",
   description: "Professional structural drying services in Tampa for commercial flood and water damage. Industrial dehumidification, moisture monitoring, and IICRC-certified technicians. Prevent mold with rapid response.",
 };
@@ -24,7 +25,7 @@ const faqs = [
   },
   {
     question: "What's the difference between water extraction and structural drying?",
-    answer: "Water extraction removes standing water and surface moisture using pumps, extractors, and wet vacuums—this is the immediate emergency response. Structural drying removes moisture that has absorbed into building materials (drywall, framing, insulation, concrete) using dehumidification, air movement, and controlled evaporation. Both are essential; extraction alone won't prevent mold or material degradation."
+    answer: "Water extraction removes standing water and surface moisture using pumps, extractors, and wet vacuums—this is the immediate storm response. Structural drying removes moisture that has absorbed into building materials (drywall, framing, insulation, concrete) using dehumidification, air movement, and controlled evaporation. Both are essential; extraction alone won't prevent mold or material degradation."
   },
   {
     question: "Can structural drying prevent the need for demolition?",
@@ -283,7 +284,7 @@ export default function Page() {
                 </thead>
                 <tbody className="divide-y divide-gray-200">
                   <tr className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-medium">Emergency Water Extraction</td>
+                    <td className="px-6 py-4 font-medium">Water Extraction</td>
                     <td className="px-6 py-4">$3 - $7/sq ft</td>
                     <td className="px-6 py-4 text-gray-600">Affected area</td>
                   </tr>
@@ -333,7 +334,7 @@ export default function Page() {
               <div className="flex gap-4">
                 <div className="flex-shrink-0 w-10 h-10 bg-brand-green text-white rounded-full flex items-center justify-center font-bold">1</div>
                 <div>
-                  <h3 className="font-bold text-brand-green-dark mb-2">Emergency Response & Assessment</h3>
+                  <h3 className="font-bold text-brand-green-dark mb-2">storm response & Assessment</h3>
                   <p className="text-gray-600">We respond rapidly to assess the situation, identify the water source and category, and determine the extent of water intrusion. Thermal imaging helps identify hidden moisture in walls and ceilings.</p>
                 </div>
               </div>
@@ -412,7 +413,7 @@ export default function Page() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link href="/contact/" className="btn-cta text-center">
-                  Emergency Response
+                  storm response
                 </Link>
                 <a
                   href={`tel:${BUSINESS_INFO.phoneRaw}`}
@@ -452,7 +453,7 @@ export default function Page() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get Emergency Service
+              Get prompt service
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}

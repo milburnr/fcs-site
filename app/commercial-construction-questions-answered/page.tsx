@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-questions-answered/' },
   title: "Commercial Construction Questions Answered: Expert Guides",
   description: "Get expert insights on commercial construction Questions Answered from Florida construction specialists. Our experts provide valuable tips and aproject FAQs.",
 };
@@ -22,7 +23,6 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/commercial/medical-construction/", label: "Medical Facility Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -309,7 +309,7 @@ export default function Page() {
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <h3 className="text-xl font-bold text-brand-green-dark mb-3">Q: Do you provide ongoing maintenance services?</h3>
                 <p className="text-gray-600">
-                  <strong>A:</strong> Yes, we offer preventive maintenance programs for our completed projects throughout the Tampa Bay area. Our maintenance services include regular building system inspections, HVAC maintenance, roof inspections, and emergency repair services. Many of our clients appreciate having the construction team that built their facility continue to maintain it, as we understand all building systems and their maintenance requirements.
+                  <strong>A:</strong> Yes, we offer preventive maintenance programs for our completed projects throughout the Tampa Bay area. Our maintenance services include regular building system inspections, HVAC maintenance, roof inspections, and storm repair services. Many of our clients appreciate having the construction team that built their facility continue to maintain it, as we understand all building systems and their maintenance requirements.
                 </p>
               </div>
 
