@@ -16,7 +16,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -136,7 +136,6 @@ const internalLinks = [
 export default function ResourcesPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
 
       <Breadcrumb items={[{ name: "Resources", href: "/resources/" }]} />

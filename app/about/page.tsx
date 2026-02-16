@@ -14,7 +14,7 @@ import {
   Warehouse,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, OrganizationSchema, BreadcrumbSchema } from "@/components/Schema"
+import { OrganizationSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
@@ -136,7 +136,6 @@ const breadcrumbItems = [
 export default function AboutPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <OrganizationSchema />
 

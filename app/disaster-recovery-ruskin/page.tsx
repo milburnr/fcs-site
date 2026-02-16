@@ -104,6 +104,7 @@ export default function DisasterRecoveryRuskinPage() {
         serviceDescription="Emergency disaster recovery and insurance restoration services in Ruskin, FL. Hurricane, fire, flood, and storm damage repair."
         city="Ruskin"
         minPrice="250000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, AlertTriangle, Droplets, Wrench, ClipboardCheck, Users, FileText, HardHat, ThermometerSun, Scale, Clock, MapPin } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
@@ -82,12 +82,12 @@ const breadcrumbItems = [
 export default function BalconyReconstructionPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Balcony Reconstruction Tampa"
         serviceDescription="Expert balcony reconstruction and repair services in Tampa Bay. Specialized in condo balcony restoration, waterproofing systems, and SB4-D compliance for multi-family buildings throughout Florida."
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <FAQSchema faqs={faqs} />
 

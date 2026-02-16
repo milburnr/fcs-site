@@ -269,6 +269,7 @@ export default function CondoRemediationStPetersburgPage() {
         serviceDescription="Expert condo remediation, SB4-D compliance, milestone inspections, and SIRS support for St. Petersburg condominiums. Serving Downtown St. Pete, St. Pete Beach, Treasure Island, and all Pinellas County. Structural concrete repair, balcony reconstruction, waterproofing for buildings 3+ stories."
         city="St. Petersburg"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

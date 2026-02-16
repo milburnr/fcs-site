@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Phone } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ContentParallax } from "@/components/ContentImage";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -23,8 +23,12 @@ const breadcrumbItems = [
 export default function ResidentialHubPage() {
   return (
     <>
-      <LocalBusinessSchema schemaType="HomeAndConstructionBusiness" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema
+        serviceName="Residential Construction Services"
+        serviceDescription="Custom residential construction across Tampa Bay: luxury homes, additions, remodeling, hurricane-resistant construction, and kitchen renovations."
+        serviceCategories={["Custom Home Building","Home Additions","Kitchen Remodeling","Hurricane-Resistant Construction","Whole-Home Renovation"]}
+      />
 
       {/* Luxury Background Gradient */}
       <div className="fixed inset-0 -z-10 pointer-events-none">

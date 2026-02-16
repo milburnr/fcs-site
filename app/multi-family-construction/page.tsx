@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, DollarSign, Users, Hammer, Droplets, MapPin, HelpCircle, FileCheck, Home, Building, Landmark, Waves, Sun, Wind, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
@@ -74,12 +74,12 @@ const breadcrumbItems = [
 export default function MultiFamilyConstructionPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Multi-Family Construction"
         serviceDescription="Tampa Bay's premier multi-family construction contractor. 40+ years building condominiums, apartment complexes, townhomes, senior living facilities, and mixed-use developments. Projects from $1M to $50M+."
         minPrice="1000000"
+        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
       />
 
       <Breadcrumb items={[

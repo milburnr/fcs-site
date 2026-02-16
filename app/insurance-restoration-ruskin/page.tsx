@@ -98,6 +98,7 @@ export default function InsuranceRestorationRuskinPage() {
       <ServiceSchema
         serviceName="Insurance Restoration Ruskin FL"
         serviceDescription="FCS is headquartered in Ruskin, FL providing insurance restoration services throughout South Hillsborough County. 43 years insurance industry experience serving Ruskin, Sun City Center, Apollo Beach, Gibsonton, and Wimauma."
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <FAQSchema faqs={faqs} />
 

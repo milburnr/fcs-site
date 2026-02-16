@@ -127,6 +127,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
         serviceDescription="Premier custom home builder in Clearwater, FL specializing in $1M-$15M+ beachfront estates, Gulf-front properties, and waterfront residences. Serving Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, and Belleair."
         city="Clearwater"
         minPrice="1000000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

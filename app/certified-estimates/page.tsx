@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Phone, FileText, Shield, Award, CheckCircle, ArrowRight, Briefcase, Calculator, ClipboardList, Building2, Scale, DollarSign } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -115,11 +115,11 @@ export default function CertifiedEstimatesPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Certified Construction Estimates" />
       <ServiceSchema
         serviceName="Certified Construction Estimates"
         serviceDescription="Professional certified estimates for insurance claims, litigation support, and project planning. 43+ years of construction and insurance industry experience. Accurate, defensible cost assessments."
         minPrice="1000"
+      serviceCategories={["Xactimate Estimates","Loss Quantification","Scope Documentation","Supplemental Claims"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -94,6 +94,7 @@ export default function HistoricRestorationBradentonPage() {
         serviceDescription="Expert historic restoration contractor serving Bradenton, Florida. Village of the Arts, Downtown Bradenton, Old Manatee restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Bradenton"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

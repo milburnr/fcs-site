@@ -87,6 +87,7 @@ export default function CommercialConstructionBradentonPage() {
         serviceDescription="Premier commercial construction contractor serving Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Bradenton"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
 
       <ArticleSchema

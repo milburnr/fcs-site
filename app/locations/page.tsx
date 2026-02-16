@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -28,7 +28,6 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       {/* Hero */}
       <section className="relative py-24 bg-gradient-to-br from-brand-green-dark to-brand-green-forest">

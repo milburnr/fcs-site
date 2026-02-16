@@ -106,6 +106,7 @@ export default function BalconyReconstructionRuskinPage() {
         serviceDescription="Expert balcony reconstruction and waterproofing for Ruskin, Apollo Beach, and Sun City Center condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance, structural repairs, and HOA project management. FCS headquarters location. Projects from $100,000 to $10 million."
         city="Ruskin"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

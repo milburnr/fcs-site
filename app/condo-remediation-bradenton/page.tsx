@@ -270,6 +270,7 @@ export default function CondoRemediationBradentonPage() {
         serviceDescription="Expert condo remediation and SB4-D compliance services for Bradenton, Anna Maria Island, Holmes Beach, and Manatee County condominiums. Milestone inspection support, SIRS compliance, structural repairs. Projects from $100,000 to $10 million+."
         city="Bradenton"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={bradentonFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Phone, Scale, FileText, Shield, Award, CheckCircle, ArrowRight, Briefcase } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -82,10 +82,10 @@ export default function ExpertWitnessPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Expert Witness Services" />
       <ServiceSchema
         serviceName="Construction Expert Witness Services"
         serviceDescription="Expert witness testimony for construction disputes, insurance claims litigation, and building defect cases. 43+ years of construction and insurance industry experience."
+      serviceCategories={["Expert Testimony","Construction Forensics","Damage Assessment","Litigation Support"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

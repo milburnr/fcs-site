@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -102,11 +102,11 @@ const relatedLinks = [
 export default function FireRestorationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Fire Restoration" />
       <ServiceSchema
         serviceName="Fire Damage Restoration Services"
         serviceDescription="Complete fire damage restoration for Tampa Bay commercial and residential properties. Structural repair, smoke remediation, content restoration, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="25000"
+      serviceCategories={["Fire Damage Repair","Smoke Remediation","Structural Assessment","Content Restoration"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -94,6 +94,7 @@ export default function HistoricRestorationClearwaterPage() {
         serviceDescription="Expert historic restoration contractor serving Clearwater, Florida. Downtown Cleveland Street, Harbor Oaks neighborhood, coastal historic preservation. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Clearwater"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

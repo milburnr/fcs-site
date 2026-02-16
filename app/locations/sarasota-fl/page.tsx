@@ -114,6 +114,7 @@ export default function SarasotaPage() {
         serviceName="Construction Services in Sarasota"
         serviceDescription="Premier general contractor serving Sarasota, FL with commercial construction, luxury residential, disaster recovery, and coastal construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

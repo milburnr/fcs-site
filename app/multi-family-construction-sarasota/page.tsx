@@ -93,6 +93,7 @@ export default function MultiFamilyConstructionSarasotaPage() {
         serviceDescription="Premier multi-family construction contractor serving Sarasota, Florida. Luxury condominiums, waterfront apartments, boutique townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Sarasota"
         minPrice="1000000"
+        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
       />
 
       <ArticleSchema

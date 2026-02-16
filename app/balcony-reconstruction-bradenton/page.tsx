@@ -106,6 +106,7 @@ export default function BalconyReconstructionBradentonPage() {
         serviceDescription="Expert balcony reconstruction and waterproofing for Bradenton and Anna Maria Island condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance, structural repairs, and HOA project management. Projects from $100,000 to $10 million."
         city="Bradenton"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

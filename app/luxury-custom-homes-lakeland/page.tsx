@@ -135,6 +135,7 @@ export default function LuxuryCustomHomesLakelandPage() {
         serviceDescription="Premier custom home builder in Lakeland, FL specializing in $750K-$5M+ lakefront estates, architectural homes, and estate properties. Serving South Lake Morton, Lake Hollingsworth, Grasslands, and lakefront properties throughout Polk County."
         city="Lakeland"
         minPrice="750000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ContactFormSwitcher } from "@/components/ContactFormSwitcher";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
@@ -19,7 +19,6 @@ const breadcrumbItems = [
 export default function ContactPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       {/* Hero */}
       <section className="relative py-24 bg-gradient-to-br from-brand-green-dark to-brand-green-forest">

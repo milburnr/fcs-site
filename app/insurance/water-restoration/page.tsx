@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -120,11 +120,11 @@ const heroImage = "/images/florida-hurricane-storm/florida-hurricane-storm-11-19
 export default function WaterRestorationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Water Restoration" />
       <ServiceSchema
         serviceName="Water and Flood Damage Restoration"
         serviceDescription="Complete water and flood damage restoration for Tampa Bay commercial and residential properties. Emergency extraction, structural drying, mold prevention, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="10000"
+      serviceCategories={["Water Extraction","Structural Drying","Flood Damage Repair","Moisture Monitoring"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

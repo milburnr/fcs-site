@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Factory, Truck, Warehouse, Settings } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -108,11 +108,11 @@ const faqs = [
 export default function IndustrialConstructionPage() {
   return (
     <>
-      <LocalBusinessSchema service="Industrial Construction" />
       <ServiceSchema
         serviceName="Industrial Construction"
         serviceDescription="Industrial construction in Tampa Bay including warehouses, distribution centers, manufacturing facilities, and flex space. Tilt-wall, steel, and concrete construction. Projects from $500K to $25M+."
         minPrice="500000"
+      serviceCategories={["Warehouse Construction","Manufacturing Facilities","Distribution Centers","Industrial Renovations"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

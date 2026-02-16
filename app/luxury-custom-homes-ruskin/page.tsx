@@ -134,6 +134,7 @@ export default function LuxuryCustomHomesRuskinPage() {
         serviceDescription="Premier custom home builder in Ruskin and Apollo Beach, FL specializing in waterfront estates on Tampa Bay. Serving Apollo Beach, Sun City Center, Little Harbor, and Bahia Beach with luxury homes from $750K to $5M+. FCS headquarters location ensures exceptional local service."
         city="Ruskin"
         minPrice="750000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

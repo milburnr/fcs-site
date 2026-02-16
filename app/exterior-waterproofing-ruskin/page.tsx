@@ -106,6 +106,7 @@ export default function ExteriorWaterproofingRuskinPage() {
         serviceDescription="Professional exterior waterproofing services from FCS headquarters in Ruskin. Building envelope, foundation, industrial, and senior living waterproofing for South Hillsborough County. 10-year warranty. Projects from $40,000 to $2 million."
         city="Ruskin"
         minPrice="40000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

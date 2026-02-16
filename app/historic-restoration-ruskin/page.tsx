@@ -94,6 +94,7 @@ export default function HistoricRestorationRuskinPage() {
         serviceDescription="Expert historic restoration contractor serving Ruskin, Florida. Ruskin Colony heritage buildings, fishing village structures, agricultural packing houses. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Ruskin"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

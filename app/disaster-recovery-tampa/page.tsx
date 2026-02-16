@@ -171,6 +171,7 @@ export default function DisasterRecoveryTampaPage() {
         serviceDescription="Large loss disaster recovery and insurance restoration services in Tampa, FL. Specializing in hurricane damage, water damage, fire damage, and comprehensive property restoration with 43+ years claims experience. Projects from $250,000 to $25M+."
         city="Tampa"
         minPrice="250000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -173,6 +173,7 @@ export default function DisasterRecoveryClearwaterPage() {
         serviceDescription="Large loss disaster recovery and insurance restoration services in Clearwater, FL. Specializing in hurricane damage, storm surge restoration, water damage, fire damage, and comprehensive property restoration for barrier island and coastal properties with 43+ years claims experience. Projects from $250,000 to $25M+."
         city="Clearwater"
         minPrice="250000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

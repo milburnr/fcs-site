@@ -22,7 +22,7 @@ import {
   Hammer,
 } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import {
   Accordion,
   AccordionContent,
@@ -258,12 +258,12 @@ export default function CondoRemediationPage() {
 
   return (
     <>
-      <LocalBusinessSchema schemaType="GeneralContractor" service="Condo Remediation & SB4-D Compliance" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Condo Remediation & SB4-D Compliance"
         serviceDescription="Florida SB4-D compliance services including milestone inspections, SIRS assessments, balcony reconstruction, and structural remediation for condominiums throughout Tampa Bay"
         minPrice="100000"
+      serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections"]}
       />
       <FAQSchema faqs={faqs} />
 

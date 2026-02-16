@@ -90,6 +90,7 @@ export default function CommercialConstructionStPetersburgPage() {
         serviceDescription="Large-scale commercial construction services in St. Petersburg, FL. Design-build, medical facilities, multi-family, industrial, historic restoration, and federal compliance projects from $500K to $25M+."
         city="St. Petersburg"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
       <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

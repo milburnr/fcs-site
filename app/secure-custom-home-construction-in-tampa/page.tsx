@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, Lock, Camera, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -51,7 +51,6 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
       {/* Hero */}

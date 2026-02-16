@@ -85,6 +85,7 @@ export default function CommercialConstructionTampaPage() {
         serviceName="Commercial Construction in Tampa"
         serviceDescription="Large-scale commercial construction services in Tampa, FL. Design-build, medical facilities, multi-family, industrial, and retail construction from $500K to $25M+."
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -90,6 +90,7 @@ export default function CommercialConstructionSarasotaPage() {
         serviceDescription="Premier commercial construction contractor serving Sarasota, Florida. Office buildings, medical facilities, hospitality, retail centers, luxury commercial projects. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Sarasota"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
 
       <ArticleSchema

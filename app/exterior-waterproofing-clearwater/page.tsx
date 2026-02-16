@@ -149,6 +149,7 @@ export default function ExteriorWaterproofingClearwaterPage() {
         serviceDescription="Professional exterior waterproofing services for Clearwater commercial buildings, condominiums, and multi-family properties. Building envelope protection, foundation waterproofing, below-grade systems, and moisture barriers for $100K+ projects."
         city="Clearwater"
         minPrice="100000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

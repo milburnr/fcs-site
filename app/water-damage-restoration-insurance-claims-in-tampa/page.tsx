@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -29,12 +29,12 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema 
         serviceName="Water Damage Restoration Insurance Claims"
         serviceDescription="Expert water damage restoration insurance claims support in Tampa. Maximize your claim with our professional team for swift and seamless property restoration."
         city="Tampa"
+      serviceCategories={["Water Extraction","Structural Drying","Claims Management","Property Restoration"]}
       />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

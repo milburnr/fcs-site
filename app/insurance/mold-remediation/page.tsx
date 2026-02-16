@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -66,11 +66,11 @@ const relatedLinks = [
 export default function MoldRemediationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Mold Remediation" />
       <ServiceSchema
         serviceName="Mold Remediation Services"
         serviceDescription="Professional mold remediation for Tampa Bay commercial and residential properties. Assessment, containment, removal, and prevention with insurance claim expertise."
         minPrice="5000"
+      serviceCategories={["Mold Testing","Mold Removal","Moisture Control","Air Quality Restoration"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

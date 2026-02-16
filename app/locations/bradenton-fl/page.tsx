@@ -114,6 +114,7 @@ export default function BradentonPage() {
         serviceName="Construction Services in Bradenton"
         serviceDescription="Premier general contractor serving Bradenton, FL with commercial construction, multi-family development, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

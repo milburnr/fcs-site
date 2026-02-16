@@ -1,6 +1,6 @@
 "use client";
 
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -104,8 +104,12 @@ const relatedLinks = [
 export function InsurancePageClient() {
   return (
     <>
-      <LocalBusinessSchema service="Insurance Restoration Services" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema
+        serviceName="Insurance Restoration Services"
+        serviceDescription="Comprehensive insurance restoration: hurricane, fire, water, and mold damage repair with certified estimating and claims support across Tampa Bay."
+        serviceCategories={["Hurricane Restoration", "Fire Restoration", "Water Restoration", "Mold Remediation", "Certified Estimating"]}
+      />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 text-white py-20 md:py-28">

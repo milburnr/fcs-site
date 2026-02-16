@@ -127,6 +127,7 @@ export default function LuxuryCustomHomesTampaPage() {
         serviceDescription="Premier custom home builder in Tampa, FL specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Serving Davis Islands, Beach Park, Harbour Island, South Tampa, and Tampa Bay waterfront properties."
         city="Tampa"
         minPrice="1000000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

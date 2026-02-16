@@ -93,6 +93,7 @@ export default function HistoricRestorationLakelandPage() {
         serviceDescription="Expert historic restoration contractor serving Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton historic districts. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Lakeland"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

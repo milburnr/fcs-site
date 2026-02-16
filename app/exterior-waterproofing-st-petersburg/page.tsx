@@ -106,6 +106,7 @@ export default function ExteriorWaterproofingStPetersburgPage() {
         serviceDescription="Professional exterior waterproofing services for St. Petersburg commercial and residential buildings. Building envelope, foundation, parking deck, and plaza waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
         city="St. Petersburg"
         minPrice="50000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

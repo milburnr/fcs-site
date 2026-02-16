@@ -103,6 +103,7 @@ export default function DisasterRecoveryBradentonPage() {
         serviceDescription="Emergency disaster recovery and insurance restoration services in Bradenton, FL. Hurricane, fire, flood, and storm damage repair."
         city="Bradenton"
         minPrice="250000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

@@ -127,6 +127,7 @@ export default function LuxuryCustomHomesBradentonPage() {
         serviceDescription="Premier custom home builder in Bradenton, FL specializing in $1M-$15M+ waterfront estates, architectural homes, and high-end residences. Serving Palma Sola, Country Club, Lakewood Ranch, Anna Maria Island gateway, and Manatee River waterfront properties."
         city="Bradenton"
         minPrice="1000000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

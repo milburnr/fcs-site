@@ -172,6 +172,7 @@ export default function DisasterRecoveryStPetersburgPage() {
         serviceDescription="Large loss disaster recovery and insurance restoration services in St. Petersburg, FL. Specializing in hurricane damage, barrier island restoration, water damage, fire damage, and comprehensive property restoration with 43+ years claims experience. Projects from $250,000 to $25M+."
         city="St. Petersburg"
         minPrice="250000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

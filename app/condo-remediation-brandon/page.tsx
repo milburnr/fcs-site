@@ -238,6 +238,7 @@ export default function CondoRemediationBrandonPage() {
         serviceDescription="Expert condo remediation and SB4-D compliance services for Brandon condominiums, including milestone inspections, SIRS support, structural repairs, and waterproofing. Serving Valrico, Riverview, FishHawk, and Hillsborough County. Projects from $100,000 to $5 million+."
         city="Brandon"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={brandonFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

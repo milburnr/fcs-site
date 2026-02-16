@@ -91,6 +91,7 @@ export default function LakelandPage() {
         serviceName="Construction Services in Lakeland"
         serviceDescription="Premier general contractor serving Lakeland, FL with commercial construction, multi-family residential, disaster recovery, and historic restoration. Projects from $500K to $25M+."
         minPrice="500000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
 
       <Breadcrumb items={breadcrumbItems.slice(1)} />

@@ -14,12 +14,7 @@ import {
   ClipboardCheck,
   HardHat,
 } from "lucide-react";
-import {
-  LocalBusinessSchema,
-  ServiceSchema,
-  FAQSchema,
-  BreadcrumbSchema,
-} from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -196,11 +191,11 @@ export default function BuildingConsultantsPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Building Consulting Services" />
       <ServiceSchema
         serviceName="Building Consulting Services"
         serviceDescription="Professional building and construction consulting services for property owners, attorneys, insurance carriers, and stakeholders. 43+ years experience in construction and insurance claims."
         minPrice="2500"
+      serviceCategories={["Building Assessment","Code Compliance","Damage Documentation","Repair Specifications"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={[{ name: "Home", href: "/" }, ...breadcrumbItems]} />

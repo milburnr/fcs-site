@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, ClipboardList, Users, Calendar, Target } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -52,13 +52,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
       <ServiceSchema 
         serviceName="Insurance Restoration Project Management"
         serviceDescription="Expert insurance restoration project management in Tampa. Coordinated claim support, contractor oversight, timeline management, and quality control for commercial property recovery."
         city="Tampa"
+      serviceCategories={["Project Coordination","Claims Management","Contractor Oversight","Timeline Management"]}
       />
       
       {/* Hero */}

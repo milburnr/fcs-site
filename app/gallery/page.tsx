@@ -15,7 +15,7 @@ import {
   Shield,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 
 import { InternalLinks } from "@/components/InternalLinks";
@@ -199,7 +199,6 @@ const breadcrumbItems = [
 export default function GalleryPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
 
       <Breadcrumb items={[{ name: "Project Gallery", href: "/gallery/" }]} />

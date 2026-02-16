@@ -141,6 +141,7 @@ export default function HistoricRestorationTampaPage() {
         serviceDescription="Expert historic restoration services in Tampa, Florida. Ybor City National Historic Landmark District specialists. SHPO compliance, Secretary of Interior Standards, historic tax credit navigation, Barrio Latino Commission expertise. Projects from $500K to $25M+."
         city="Tampa"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

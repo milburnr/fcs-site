@@ -18,7 +18,7 @@ import {
   Calendar,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -235,7 +235,6 @@ const faqs = [
 export default function OurProcessPage() {
   return (
     <>
-      <LocalBusinessSchema schemaType="HomeAndConstructionBusiness" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
 

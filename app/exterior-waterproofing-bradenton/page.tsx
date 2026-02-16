@@ -106,6 +106,7 @@ export default function ExteriorWaterproofingBradentonPage() {
         serviceDescription="Professional exterior waterproofing services for Bradenton commercial and residential buildings. Building envelope, foundation, parking deck, and waterfront waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
         city="Bradenton"
         minPrice="50000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

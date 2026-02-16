@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Expand, Clock, FileCheck } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function CommercialAdditionsPage() {
   return (
     <>
-      <LocalBusinessSchema service="Commercial Additions" />
       <ServiceSchema
         serviceName="Commercial Building Additions"
         serviceDescription="Commercial building additions and expansions in Tampa Bay. Warehouse, office, manufacturing, and retail additions. Occupied building expertise, structural matching, and utility integration."
         minPrice="250000"
+      serviceCategories={["Building Additions","Vertical Expansions","Lateral Extensions","Parking Structures"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

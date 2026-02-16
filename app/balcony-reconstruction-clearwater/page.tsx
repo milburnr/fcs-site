@@ -223,6 +223,7 @@ export default function BalconyReconstructionClearwaterPage() {
         serviceDescription="Expert balcony reconstruction and SB4-D compliance services for Clearwater Beach condominiums, Sand Key high-rises, and multi-family buildings. Structural repair, waterproofing, milestone inspection support. Projects from $100,000 to $10 million+."
         city="Clearwater"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

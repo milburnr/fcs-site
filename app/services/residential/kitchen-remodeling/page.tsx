@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Home, Shield, Award, ChefHat, Utensils, Layers } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function KitchenRemodelingPage() {
   return (
     <>
-      <LocalBusinessSchema service="Kitchen Remodeling" />
       <ServiceSchema
         serviceName="Luxury Kitchen Remodeling"
         serviceDescription="Luxury kitchen remodeling in Tampa Bay. Custom cabinetry, premium appliances, designer finishes. Complete kitchen renovations for discerning homeowners. Projects starting at $150K+."
         minPrice="150000"
+      serviceCategories={["Custom Cabinetry","Countertop Installation","Kitchen Layout Design","Appliance Integration"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

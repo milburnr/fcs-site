@@ -13,7 +13,7 @@ import {
   Users,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 
@@ -169,7 +169,6 @@ const breadcrumbItems = [
 export default function TeamPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
 
       <Breadcrumb

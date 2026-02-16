@@ -114,6 +114,7 @@ export default function StPetersburgPage() {
         serviceName="Construction Services in St. Petersburg"
         serviceDescription="Premier general contractor serving St. Petersburg, FL with commercial construction, historic restoration, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

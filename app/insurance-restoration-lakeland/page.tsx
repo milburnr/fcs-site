@@ -107,6 +107,7 @@ export default function InsuranceRestorationLakelandPage() {
         serviceName="Insurance Restoration Lakeland"
         serviceDescription="Lakeland's most experienced insurance restoration contractor with 43 years claims expertise. Commercial, industrial, and residential property damage restoration throughout Polk County. Storm damage, fire restoration, and complete insurance claim management."
         minPrice="50000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
 
       <Breadcrumb items={[

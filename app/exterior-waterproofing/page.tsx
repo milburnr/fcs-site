@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Factory, Home, CloudRain, Wrench, FileCheck, MapPin } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
@@ -113,12 +113,12 @@ const manufacturers = [
 export default function ExteriorWaterproofingPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Exterior Waterproofing Tampa"
         serviceDescription="Comprehensive exterior waterproofing services for commercial and residential buildings throughout Tampa Bay. Premium building waterproofing Florida solutions including foundation, plaza deck, and parking structure waterproofing from experienced commercial waterproofing contractors."
         minPrice="50000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <FAQSchema faqs={faqs} />
 

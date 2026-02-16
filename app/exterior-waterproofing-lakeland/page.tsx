@@ -106,6 +106,7 @@ export default function ExteriorWaterproofingLakelandPage() {
         serviceDescription="Professional exterior waterproofing services for Lakeland commercial and industrial buildings. Building envelope, foundation, parking deck, and warehouse waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
         city="Lakeland"
         minPrice="50000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

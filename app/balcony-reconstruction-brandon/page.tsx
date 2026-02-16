@@ -106,6 +106,7 @@ export default function BalconyReconstructionBrandonPage() {
         serviceDescription="Expert balcony reconstruction and waterproofing for Brandon condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance (30-year inland requirement), structural repairs, and HOA project management. Projects from $100,000 to $10 million."
         city="Brandon"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

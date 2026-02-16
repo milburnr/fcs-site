@@ -93,6 +93,7 @@ export default function MultiFamilyConstructionRuskinPage() {
         serviceDescription="Premier multi-family construction contractor serving Ruskin and South Hillsborough County, Florida. Workforce housing, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor. FCS home base."
         city="Ruskin"
         minPrice="1000000"
+        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
       />
 
       <ArticleSchema

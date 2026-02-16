@@ -26,7 +26,7 @@ import {
   Container,
 } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import {
   Accordion,
   AccordionContent,
@@ -170,12 +170,12 @@ const internalLinks = [
 export default function IndustrialConstructionPage() {
   return (
     <>
-      <LocalBusinessSchema schemaType="GeneralContractor" service="Industrial Construction" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Industrial & Warehouse Construction"
         serviceDescription="Tilt-wall, steel erection, and industrial flex space construction in Tampa Bay. From distribution centers to manufacturing facilities, we deliver turnkey industrial construction projects."
         minPrice="500000"
+      serviceCategories={["Warehouse Construction","Manufacturing Facilities","Distribution Centers","Industrial Renovations"]}
       />
       <FAQSchema faqs={faqs} />
 

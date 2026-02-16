@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import type { Metadata } from "next";
 import { Landmark, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, FileText, Building2, Palette, History, Scale } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -113,11 +113,11 @@ export default function HistoricRestorationPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Historic Restoration & Preservation" />
       <ServiceSchema
         serviceName="Historic Restoration & Preservation"
         serviceDescription="Expert historic restoration and preservation services throughout Tampa Bay. SHPO compliance, Secretary of Interior Standards, historic tax credit navigation, and period-accurate material sourcing."
         minPrice="500000"
+      serviceCategories={["Period-Accurate Renovation","Structural Repair","Facade Restoration","Adaptive Reuse","Historic Preservation"]}
       />
       <FAQSchema faqs={historicFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

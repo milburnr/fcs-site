@@ -237,6 +237,7 @@ export default function InsuranceRestorationStPetersburgPage() {
         serviceDescription="St. Petersburg's most experienced insurance restoration contractor with 43 years claims expertise. Hurricane, flood, fire damage restoration for commercial and residential properties. Historic district specialists. Projects from $50,000 to $25 million+."
         city="St. Petersburg"
         minPrice="50000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

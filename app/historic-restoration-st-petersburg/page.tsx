@@ -142,6 +142,7 @@ export default function HistoricRestorationStPetersburgPage() {
         serviceDescription="Expert historic restoration services in St. Petersburg, Florida. Old Northeast Historic District, Bay Pines VA Hospital specialists. Section 106 compliance, SHPO coordination, Secretary of Interior Standards, historic tax credit navigation. Projects from $500K to $25M+."
         city="St. Petersburg"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
       <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

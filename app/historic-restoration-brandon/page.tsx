@@ -93,6 +93,7 @@ export default function HistoricRestorationBrandonPage() {
         serviceDescription="Expert historic restoration contractor serving Brandon, Florida. Citrus-era buildings, 1950s-1970s homes, agricultural heritage structures. Hillsborough County preservation expertise. Projects from $150K to $5M+."
         city="Brandon"
         minPrice="150000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

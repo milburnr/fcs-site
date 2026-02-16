@@ -16,7 +16,7 @@ import {
   Clock,
   Target
 } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -163,11 +163,11 @@ export default function EngineeringCoordinationPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Engineering Coordination" />
       <ServiceSchema
         serviceName="Engineering Coordination Services"
         serviceDescription="Expert coordination with licensed structural engineers for construction projects, SB4-D milestone inspections, hurricane damage assessments, and building evaluations throughout Tampa Bay."
         minPrice="10000"
+      serviceCategories={["Structural Engineering","Building Assessment","Load Calculations","Engineering Reports"]}
       />
       <FAQSchema faqs={engineeringFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

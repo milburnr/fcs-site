@@ -106,6 +106,7 @@ export default function BalconyReconstructionStPetersburgPage() {
         serviceDescription="Expert balcony reconstruction and waterproofing for St. Petersburg condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance for peninsula properties, structural repairs, and HOA project management. Projects from $100,000 to $10 million."
         city="St. Petersburg"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

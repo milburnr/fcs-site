@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Home, Shield, Award, Sparkles, Waves, Zap, Clock, DollarSign, HelpCircle, ChevronRight } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema"
+import { ServiceSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
@@ -80,12 +80,12 @@ const breadcrumbItems = [
 export default function LuxuryCustomHomesPage() {
   return (
     <>
-      <LocalBusinessSchema schemaType="HomeAndConstructionBusiness" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Luxury Custom Home Construction"
         serviceDescription="Tampa Bay's premier custom home builder for $1M+ luxury residences. Waterfront estates, hurricane-resistant construction, smart home integration, and design-build excellence."
         minPrice="1000000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <FAQSchema faqs={faqs} />
       <ArticleSchema

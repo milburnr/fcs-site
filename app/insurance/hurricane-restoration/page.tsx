@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -100,11 +100,11 @@ const heroImage = heroImages[0]; // Use satellite hurricane image
 export default function HurricaneRestorationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Hurricane Restoration" />
       <ServiceSchema
         serviceName="Hurricane and Storm Damage Restoration"
         serviceDescription="Complete hurricane and storm damage restoration for Tampa Bay commercial and residential properties. storm response, insurance claim support, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="50000"
+      serviceCategories={["Wind Damage Repair","Roof Restoration","Water Intrusion Repair","Emergency Board-Up"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

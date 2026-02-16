@@ -224,6 +224,7 @@ export default function BalconyReconstructionTampaPage() {
         serviceDescription="Expert balcony reconstruction and SB4-D compliance services for Tampa condominiums, apartments, and multi-family buildings. Structural repair, waterproofing, milestone inspection support. Projects from $100,000 to $10 million+."
         city="Tampa"
         minPrice="100000"
+        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

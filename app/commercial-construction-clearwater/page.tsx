@@ -117,6 +117,7 @@ export default function CommercialConstructionClearwaterPage() {
         serviceDescription="Large-scale commercial construction services in Clearwater, FL. Design-build, medical facilities, multi-family, industrial, hospitality, and retail construction from $500K to $25M+."
         city="Clearwater"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
       <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

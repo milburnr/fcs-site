@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, Home as HomeIcon, Phone } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
+import { BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import classificationData from "@/seo/article-classification.json";
 
@@ -32,7 +32,6 @@ function slugToTitle(slug: string): string {
 export default function ResidentialGuidesPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <Breadcrumb items={breadcrumbItems} />
 

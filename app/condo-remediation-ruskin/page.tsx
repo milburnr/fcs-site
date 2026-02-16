@@ -235,6 +235,7 @@ export default function CondoRemediationRuskinPage() {
         serviceDescription="SB4-D compliance and condo remediation services for Ruskin, Sun City Center, Apollo Beach, and South Hillsborough County. Headquartered locally with milestone inspection support, SIRS assessments, and structural remediation. Projects from $100,000 to $10 million+."
         city="Ruskin"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={ruskinFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

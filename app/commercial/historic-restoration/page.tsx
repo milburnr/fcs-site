@@ -23,7 +23,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import {
   Accordion,
   AccordionContent,
@@ -183,12 +183,12 @@ export default function CommercialHistoricRestorationPage() {
 
   return (
     <>
-      <LocalBusinessSchema schemaType="GeneralContractor" service="Historic Restoration Tampa" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Historic Restoration Services"
         serviceDescription="Expert historic restoration in Tampa Bay with National Register experience. Historic tax credits, SHPO compliance, and period-authentic restoration using traditional materials and techniques."
         minPrice="100000"
+      serviceCategories={["Period-Accurate Renovation","Structural Repair","Facade Restoration","Adaptive Reuse"]}
       />
       <FAQSchema faqs={faqs} />
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -89,11 +89,11 @@ const relatedLinks = [
 export default function BuildingConsultantPage() {
   return (
     <>
-      <LocalBusinessSchema service="Building Consultant" />
       <ServiceSchema
         serviceName="Building Consultant Services"
         serviceDescription="Expert building consultant services for insurance claims in Tampa Bay. Professional damage assessment, scope development, and property owner representation with 40+ years experience."
         minPrice="1000"
+      serviceCategories={["Building Assessment","Damage Documentation","Repair Specifications","Code Compliance Review"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

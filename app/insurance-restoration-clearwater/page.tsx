@@ -233,6 +233,7 @@ export default function InsuranceRestorationClearwaterPage() {
         serviceDescription="Clearwater's most experienced insurance restoration contractor with 43 years claims expertise. Hurricane damage restoration, flood recovery, and commercial property restoration for Clearwater Beach, Sand Key, and Pinellas County. NFIP and private flood claim specialists. Projects from $250,000 to $25 million+."
         city="Clearwater"
         minPrice="250000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

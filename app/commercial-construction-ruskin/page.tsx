@@ -92,6 +92,7 @@ export default function CommercialConstructionRuskinPage() {
         serviceDescription="Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, senior living. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Ruskin"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
 
       <ArticleSchema

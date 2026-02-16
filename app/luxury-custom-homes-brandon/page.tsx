@@ -127,6 +127,7 @@ export default function LuxuryCustomHomesBrandonPage() {
         serviceDescription="Premier custom home builder in Brandon, FL specializing in $800K-$5M+ family estates. Serving FishHawk Ranch, Lithia, Valrico, and Alafia River properties with larger lots and master-planned community builds."
         city="Brandon"
         minPrice="800000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

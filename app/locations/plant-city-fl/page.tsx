@@ -99,6 +99,7 @@ export default function PlantCityPage() {
         serviceName="Construction Services in Plant City"
         serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

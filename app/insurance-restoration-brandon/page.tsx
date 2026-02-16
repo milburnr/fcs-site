@@ -161,6 +161,7 @@ export default function InsuranceRestorationBrandonPage() {
         serviceDescription="Brandon's most experienced insurance restoration contractor with 43 years claims expertise. Storm damage, fire restoration, flood recovery for commercial properties, multi-family buildings, and HOA communities. Certified Xactimate estimates, adjuster coordination, and complete reconstruction. Projects $100,000 to $25 million."
         city="Brandon"
         minPrice="100000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

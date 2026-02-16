@@ -127,6 +127,7 @@ export default function LuxuryCustomHomesStPetersburgPage() {
         serviceDescription="Premier custom home builder in St. Petersburg, FL specializing in $1M-$15M+ waterfront estates, historic district homes, and high-end residences. Serving Old Northeast, Snell Isle, Coffee Pot Bayou, Historic Kenwood, and Tampa Bay waterfront properties."
         city="St. Petersburg"
         minPrice="1000000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

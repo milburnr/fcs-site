@@ -89,6 +89,7 @@ export default function CommercialConstructionLakelandPage() {
         serviceDescription="Premier commercial construction contractor serving Lakeland, Florida. Distribution centers, office buildings, medical facilities, industrial construction, retail centers. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Lakeland"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
 
       <ArticleSchema

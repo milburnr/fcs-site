@@ -166,6 +166,7 @@ export default function InsuranceRestorationSarasotaPage() {
         serviceDescription="Professional insurance restoration services in Sarasota, FL with 43 years of claims experience. Hurricane Ian recovery specialists serving Siesta Key, Longboat Key, Lido Key, and Sarasota County. Luxury property claims expertise with projects from $250,000 to $25 million. Direct insurance company coordination."
         city="Sarasota"
         minPrice="250000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

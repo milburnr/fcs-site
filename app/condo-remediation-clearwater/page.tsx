@@ -292,6 +292,7 @@ export default function CondoRemediationClearwaterPage() {
         serviceDescription="SB4-D compliance and structural remediation specialists for Clearwater Beach, Sand Key, and Island Estates condominiums. Milestone inspection coordination, SIRS support, and comprehensive structural restoration for coastal zone buildings. Projects from $500,000 to $10 million+."
         city="Clearwater"
         minPrice="500000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

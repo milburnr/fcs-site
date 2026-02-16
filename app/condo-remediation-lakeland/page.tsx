@@ -293,6 +293,7 @@ export default function CondoRemediationLakelandPage() {
         serviceDescription="Expert condo remediation and SB4-D compliance services for Lakeland and Polk County condominiums. Milestone inspections, SIRS assessments, structural repair, and waterproofing for buildings 3+ stories. Projects from $50,000 to $5 million+."
         city="Lakeland"
         minPrice="50000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={lakelandFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

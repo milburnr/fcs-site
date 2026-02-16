@@ -93,6 +93,7 @@ export default function MultiFamilyConstructionBrandonPage() {
         serviceDescription="Premier multi-family construction contractor serving Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
         city="Brandon"
         minPrice="1000000"
+        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
       />
 
       <ArticleSchema

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Home, Shield, Award, Wind, Lock, Layers, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -89,11 +89,11 @@ const faqs = [
 export default function HurricaneResistantPage() {
   return (
     <>
-      <LocalBusinessSchema service="Hurricane-Resistant Construction" />
       <ServiceSchema
         serviceName="Hurricane-Resistant Home Construction"
         serviceDescription="Hurricane-resistant custom home construction in Tampa Bay. Impact windows, reinforced roofing, continuous load paths, flood protection. Homes built to exceed Florida Building Code requirements for maximum storm protection."
         minPrice="1000000"
+      serviceCategories={["Impact Windows","Reinforced Roofing","Storm-Rated Doors","Structural Upgrades"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -118,6 +118,7 @@ export default function RuskinPage() {
         serviceName="Construction Services from Ruskin Headquarters"
         serviceDescription="Florida Construction Specialists headquarters. Premier general contractor serving Tampa Bay with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

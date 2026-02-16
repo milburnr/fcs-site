@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -64,11 +64,11 @@ const relatedLinks = [
 export default function AppraisalArbitrationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Appraisal & Arbitration" />
       <ServiceSchema
         serviceName="Appraisal & Arbitration Services"
         serviceDescription="Insurance claim appraisal and arbitration services in Tampa Bay. Expert construction knowledge to resolve disputed claims and ensure fair settlements."
         minPrice="2500"
+      serviceCategories={["Insurance Appraisal","Claim Arbitration","Dispute Resolution","Expert Testimony"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

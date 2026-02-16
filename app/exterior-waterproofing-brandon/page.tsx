@@ -106,6 +106,7 @@ export default function ExteriorWaterproofingBrandonPage() {
         serviceDescription="Professional exterior waterproofing services for Brandon commercial and residential buildings. Building envelope, foundation, parking deck, and retail waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
         city="Brandon"
         minPrice="50000"
+        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

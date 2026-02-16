@@ -94,6 +94,7 @@ export default function HistoricRestorationSarasotaPage() {
         serviceDescription="Expert historic restoration contractor serving Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
         city="Sarasota"
         minPrice="500000"
+        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
       />
 
       <ArticleSchema

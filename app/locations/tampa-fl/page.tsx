@@ -115,6 +115,7 @@ export default function TampaPage() {
         serviceName="Construction Services in Tampa"
         serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

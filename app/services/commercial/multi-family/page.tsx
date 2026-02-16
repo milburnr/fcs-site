@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Home, Users, FileCheck, Layers } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function MultiFamilyPage() {
   return (
     <>
-      <LocalBusinessSchema service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
         serviceDescription="Multi-family residential construction in Tampa Bay including apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Projects from $1M to $25M+."
         minPrice="1000000"
+      serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Mixed-Use Developments"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

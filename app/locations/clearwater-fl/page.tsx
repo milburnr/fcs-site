@@ -114,6 +114,7 @@ export default function ClearwaterPage() {
         serviceName="Construction Services in Clearwater"
         serviceDescription="Premier general contractor serving Clearwater, FL with commercial construction, coastal construction, disaster recovery, and residential construction. Projects $250K-$25M+."
         minPrice="250000"
+      serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
       <FAQSchema faqs={faqs} />
 

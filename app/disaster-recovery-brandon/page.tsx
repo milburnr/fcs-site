@@ -103,6 +103,7 @@ export default function DisasterRecoveryBrandonPage() {
         serviceDescription="Emergency disaster recovery and insurance restoration services in Brandon, FL. Hurricane, fire, flood, and storm damage repair."
         city="Brandon"
         minPrice="225000"
+        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

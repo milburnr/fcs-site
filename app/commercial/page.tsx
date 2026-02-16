@@ -20,7 +20,7 @@ import {
   Warehouse
 } from "lucide-react";
 import { BUSINESS_INFO, LOCATIONS, FAQ_DATABASE } from "@/lib/constants";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { HubRelatedArticles } from "@/components/HubRelatedArticles";
 import { HighLevelForm } from "@/components/HighLevelForm";
@@ -180,8 +180,12 @@ export default function CommercialHubPage() {
 
   return (
     <>
-      <LocalBusinessSchema schemaType="GeneralContractor" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema
+        serviceName="Commercial Construction Services"
+        serviceDescription="Full-service commercial construction: design-build, tenant improvements, retail, medical, industrial, and multi-family across Tampa Bay."
+        serviceCategories={["Design-Build","Tenant Improvements","Retail Construction","Medical Facilities","Industrial Construction"]}
+      />
 
       <Breadcrumb items={breadcrumbItems} />
 

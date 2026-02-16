@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Clock, Paintbrush, Layout, Wrench } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function TenantImprovementsPage() {
   return (
     <>
-      <LocalBusinessSchema service="Tenant Improvements" />
       <ServiceSchema
         serviceName="Tenant Improvement Construction"
         serviceDescription="Tenant improvement and commercial buildout construction in Tampa Bay. Office buildouts, retail TI, restaurant construction, medical suites. Landlord coordination, fast timelines, quality finishes."
         minPrice="100000"
+      serviceCategories={["Office Buildouts","Space Reconfiguration","ADA Compliance","Common Area Upgrades"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

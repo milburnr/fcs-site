@@ -304,6 +304,7 @@ export default function CondoRemediationTampaPage() {
         serviceDescription="Expert condo remediation and SB4-D compliance services for Tampa condominiums including milestone inspection support, SIRS assistance, structural concrete repair, balcony reconstruction, and building envelope waterproofing. Serving Hyde Park, Davis Islands, Channelside, and Tampa Bay high-rises."
         city="Tampa"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

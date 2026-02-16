@@ -255,6 +255,7 @@ export default function InsuranceRestorationTampaPage() {
         serviceDescription="Tampa's most experienced insurance restoration contractor with 43 years claims expertise from both sides—former adjuster AND contractor. Specializing in large loss commercial restoration, hurricane damage, flood damage, and fire damage. Certified Xactimate estimates and complete claim management."
         city="Tampa"
         minPrice="250000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { BreadcrumbSchema } from "@/components/Schema";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/privacy/' },
@@ -21,7 +21,6 @@ export default function PrivacyPolicyPage() {
 
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <Breadcrumb items={[{ name: "Privacy Policy", href: "/privacy/" }]} />
 

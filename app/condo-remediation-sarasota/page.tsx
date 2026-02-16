@@ -287,6 +287,7 @@ export default function CondoRemediationSarasotaPage() {
         serviceDescription="Expert condo remediation and SB4-D compliance services for Sarasota luxury condominiums, including Longboat Key, Siesta Key, Lido Key, and barrier island properties. Milestone inspections, SIRS assessments, structural repair. Projects from $100,000 to $10 million+."
         city="Sarasota"
         minPrice="100000"
+        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
       />
       <FAQSchema faqs={sarasotaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

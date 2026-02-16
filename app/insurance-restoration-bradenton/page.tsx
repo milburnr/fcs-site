@@ -163,6 +163,7 @@ export default function InsuranceRestorationBradentonPage() {
         serviceDescription="Bradenton insurance restoration contractor with 43 years claims experience—7 years as Allstate adjuster. Property damage restoration throughout Manatee County including Anna Maria Island, Holmes Beach, Bradenton Beach, Palmetto, Cortez, and Lakewood Ranch. Hurricane damage, flood restoration, and large loss insurance claims from $250,000 to $25 million."
         city="Bradenton"
         minPrice="250000"
+        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

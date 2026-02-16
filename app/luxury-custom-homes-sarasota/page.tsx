@@ -137,6 +137,7 @@ export default function LuxuryCustomHomesSarasotaPage() {
         serviceDescription="Premier custom home builder in Sarasota, FL specializing in $1M-$25M+ barrier island estates, waterfront properties, and architectural homes. Serving Siesta Key, Longboat Key, Bird Key, Lido Key, Casey Key, and Sarasota's finest waterfront neighborhoods."
         city="Sarasota"
         minPrice="1500000"
+        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema

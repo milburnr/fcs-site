@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Store, ShoppingBag, Clock, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function RetailConstructionPage() {
   return (
     <>
-      <LocalBusinessSchema service="Retail Construction" />
       <ServiceSchema
         serviceName="Retail Construction"
         serviceDescription="Retail construction in Tampa Bay including shopping centers, standalone stores, restaurants, and mixed-use retail. Ground-up construction and tenant improvements. Fast timelines for retail openings."
         minPrice="100000"
+      serviceCategories={["Retail Build-Outs","Shopping Centers","Restaurant Construction","Storefront Renovation"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

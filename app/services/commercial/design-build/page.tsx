@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Building2, Shield, Award, Clock, Users, FileCheck, Layers, Target } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -122,11 +122,11 @@ const faqs = [
 export default function DesignBuildPage() {
   return (
     <>
-      <LocalBusinessSchema service="Design-Build Construction" />
       <ServiceSchema
         serviceName="Design-Build Construction"
         serviceDescription="Integrated design-build construction services in Tampa Bay. Single-source accountability for commercial projects from $500K to $25M+. Faster delivery, cost certainty, and seamless coordination."
         minPrice="500000"
+      serviceCategories={["Integrated Design-Build","Pre-Construction Planning","Value Engineering","Project Management"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

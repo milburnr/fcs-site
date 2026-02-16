@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -80,11 +80,11 @@ const relatedLinks = [
 export default function CertifiedEstimatingPage() {
   return (
     <>
-      <LocalBusinessSchema service="Certified Estimating" />
       <ServiceSchema
         serviceName="Certified Estimating Services"
         serviceDescription="Xactimate-certified construction estimates for insurance claims. Detailed, defensible documentation that ensures fair settlements throughout Tampa Bay."
         minPrice="500"
+      serviceCategories={["Xactimate Estimates","Loss Quantification","Scope Documentation","Supplemental Claims"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

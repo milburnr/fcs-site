@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Metadata } from "next";
 import { Phone, ArrowRight, CheckCircle, Home, Shield, Award, Expand, PlusCircle, Layers } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
@@ -93,11 +93,11 @@ const faqs = [
 export default function HomeAdditionsPage() {
   return (
     <>
-      <LocalBusinessSchema service="Home Additions" />
       <ServiceSchema
         serviceName="Home Addition Construction"
         serviceDescription="Home addition construction in Tampa Bay. Room additions, second stories, master suites, in-law suites. Seamless integration with existing homes. Projects starting at $250K+."
         minPrice="250000"
+      serviceCategories={["Room Additions","Second Story Additions","In-Law Suites","Garage Conversions"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

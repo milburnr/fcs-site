@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Shield, Droplets, Building2, ClipboardCheck, Wrench, HardHat } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -358,12 +358,12 @@ const internalLinks = [
 export default function SpecialtyServicesPage() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Specialty Construction Services"
         serviceDescription="Specialized construction services in Tampa Bay including balcony reconstruction, exterior waterproofing, condo assessments, and building envelope repairs."
         minPrice="50000"
+      serviceCategories={["Engineering Services","Expert Witness","Building Consulting","Pre-Construction Services"]}
       />
       <FAQSchema faqs={faqs} />
 

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -89,11 +89,11 @@ const relatedLinks = [
 export default function LicensedGeneralContractorPage() {
   return (
     <>
-      <LocalBusinessSchema service="Licensed General Contractor" />
       <ServiceSchema
         serviceName="Licensed General Contractor Services"
         serviceDescription="Florida-licensed general contractor (CBC1262722) for insurance restoration. Always prime contractor with 40+ years experience in large loss commercial and residential restoration."
         minPrice="250000"
+      serviceCategories={["Licensed Contracting","Permit Management","Code Compliance","Quality Assurance"]}
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />

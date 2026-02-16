@@ -87,6 +87,7 @@ export default function CommercialConstructionBrandonPage() {
         serviceDescription="Premier commercial construction contractor serving Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. Large-scale projects from $500K to $25M+. Always the prime contractor."
         city="Brandon"
         minPrice="500000"
+        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
       />
 
       <ArticleSchema
