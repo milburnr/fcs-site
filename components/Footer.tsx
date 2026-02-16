@@ -14,12 +14,10 @@ export default function Footer() {
               {BUSINESS_INFO.name}
             </h3>
             <div className="space-y-3 text-gray-300">
-              <div className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 mt-0.5 text-brand-green" />
+              <div className="flex items-center gap-3">
+                <MapPin className="w-5 h-5 text-brand-green" />
                 <span>
-                  {BUSINESS_INFO.address.street}<br />
-                  {BUSINESS_INFO.address.city}, {BUSINESS_INFO.address.state}{" "}
-                  {BUSINESS_INFO.address.zip}
+                  {BUSINESS_INFO.address.city}, {BUSINESS_INFO.address.state}
                 </span>
               </div>
               <div className="flex items-center gap-3">
@@ -125,6 +123,15 @@ export default function Footer() {
               </li>
             </ul>
           </div>
+        </div>
+      </div>
+
+      {/* Trust Signals */}
+      <div className="border-t border-gray-800">
+        <div className="container-custom py-4 text-center">
+          <p className="text-gray-400 text-sm">
+            Since 1982 | Licensed CBC1262722 | In-House Engineering
+          </p>
         </div>
       </div>
 
