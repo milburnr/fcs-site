@@ -1,0 +1,50 @@
+{
+  "generatedAt": "2026-02-16T03:00:06.023Z",
+  "description": "Placeholder pages analysis -- most were already deleted, remaining are real pages",
+  "summary": {
+    "totalPlaceholders": 128,
+    "alreadyDeleted": 122,
+    "skippedRealPages": 6,
+    "deletedThisRun": 0,
+    "needsRedirectDecision": 0
+  },
+  "skippedRealPages": [
+    {
+      "slug": "/building-consultants/",
+      "title": "Building Consultants - Florida Construction Specialists",
+      "wordCount": 36,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    },
+    {
+      "slug": "/certified-estimates/",
+      "title": "Certified Estimates - Florida Construction Specialists",
+      "wordCount": 36,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    },
+    {
+      "slug": "/engineering/",
+      "title": "Engineering - Florida Construction Specialists",
+      "wordCount": 34,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    },
+    {
+      "slug": "/expert-witness/",
+      "title": "Expert Witness - Florida Construction Specialists",
+      "wordCount": 36,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    },
+    {
+      "slug": "/insurance-arbitration-appraisal/",
+      "title": "Insurance Arbitration/Appraisal - Florida Construction Specialists",
+      "wordCount": 36,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    },
+    {
+      "slug": "/services/",
+      "title": "Tampa Construction Services",
+      "wordCount": 48,
+      "note": "Real service page -- not a redirect stub. May need content expansion."
+    }
+  ],
+  "flaggedNoRedirect": []
+}
