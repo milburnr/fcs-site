@@ -2780,5 +2780,310 @@
       "new_length": 158,
       "primary_keyword": "zero net energy boosting commercial construction"
     }
-  ]
+  ],
+  "short_descriptions": {
+    "count": 48,
+    "note": "Descriptions under 120 chars -- candidates for future expansion. Not blocking for Phase 1.",
+    "pages": [
+      {
+        "path": "app/adaptive-reuse-of-historic-buildings-in-tampa/page.tsx",
+        "url": "/adaptive-reuse-of-historic-buildings-in-tampa/",
+        "length": 15,
+        "description": "Transform Tampa"
+      },
+      {
+        "path": "app/architectural-styles-in-tampas-historic-restoration/page.tsx",
+        "url": "/architectural-styles-in-tampas-historic-restoration/",
+        "length": 21,
+        "description": "Expert guide to Tampa"
+      },
+      {
+        "path": "app/balcony-restoration-and-exterior-waterproofing-for-longevity/page.tsx",
+        "url": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "length": 29,
+        "description": "Maximize your Tampa Bay condo"
+      },
+      {
+        "path": "app/boosting-performance-in-florida-offices-windows/page.tsx",
+        "url": "/boosting-performance-in-florida-offices-windows/",
+        "length": 82,
+        "description": "Boost office productivity and energy efficiency with the right windows for Florida"
+      },
+      {
+        "path": "app/building-hurricane-safe-structures-florida/page.tsx",
+        "url": "/building-hurricane-safe-structures-florida/",
+        "length": 17,
+        "description": "Learn how Florida"
+      },
+      {
+        "path": "app/building-strong-communities-through-community-outreach/page.tsx",
+        "url": "/building-strong-communities-through-community-outreach/",
+        "length": 32,
+        "description": "Florida Construction Specialists"
+      },
+      {
+        "path": "app/choosing-materials-for-commercial-construction-in-tampa/page.tsx",
+        "url": "/choosing-materials-for-commercial-construction-in-tampa/",
+        "length": 61,
+        "description": "Expert guidance on selecting construction materials for Tampa"
+      },
+      {
+        "path": "app/color-palettes-for-historic-buildings-in-tampa/page.tsx",
+        "url": "/color-palettes-for-historic-buildings-in-tampa/",
+        "length": 72,
+        "description": "Expert guidance on selecting period-appropriate color palettes for Tampa"
+      },
+      {
+        "path": "app/commercial-buildings-facade-renovations/page.tsx",
+        "url": "/commercial-buildings-facade-renovations/",
+        "length": 40,
+        "description": "Transform your Tampa commercial building"
+      },
+      {
+        "path": "app/commercial-construction-consultancy-in-tampa/page.tsx",
+        "url": "/commercial-construction-consultancy-in-tampa/",
+        "length": 84,
+        "description": "Expert commercial construction consultants in Tampa offering project advisory, owner"
+      },
+      {
+        "path": "app/commercial-construction-insurance-coverage/page.tsx",
+        "url": "/commercial-construction-insurance-coverage/",
+        "length": 100,
+        "description": "Understand commercial construction insurance requirements in Florida. Learn about liability, workers"
+      },
+      {
+        "path": "app/commercial-construction-technology-in-tampa/page.tsx",
+        "url": "/commercial-construction-technology-in-tampa/",
+        "length": 63,
+        "description": "Explore cutting-edge construction technology transforming Tampa"
+      },
+      {
+        "path": "app/condo-milestone-inspection-remediation/page.tsx",
+        "url": "/condo-milestone-inspection-remediation/",
+        "length": 96,
+        "description": "Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay"
+      },
+      {
+        "path": "app/energy-efficiency-in-historic-restoration-in-tampa/page.tsx",
+        "url": "/energy-efficiency-in-historic-restoration-in-tampa/",
+        "length": 20,
+        "description": "Revitalize Tampa Bay"
+      },
+      {
+        "path": "app/ensuring-construction-site-safety-a-top-priority/page.tsx",
+        "url": "/ensuring-construction-site-safety-a-top-priority/",
+        "length": 69,
+        "description": "Ensuring construction site safety is Florida Construction Specialists"
+      },
+      {
+        "path": "app/experienced-design-build-firm-in-florida/page.tsx",
+        "url": "/experienced-design-build-firm-in-florida/",
+        "length": 44,
+        "description": "Florida Construction Specialists - Tampa Bay"
+      },
+      {
+        "path": "app/floridas-top-commercial-contractor-in-tampa/page.tsx",
+        "url": "/floridas-top-commercial-contractor-in-tampa/",
+        "length": 70,
+        "description": "Discover why Florida Construction Specialists is recognized as Florida"
+      },
+      {
+        "path": "app/gallery/page.tsx",
+        "url": "/gallery/",
+        "length": 40,
+        "description": "Explore Florida Construction Specialists"
+      },
+      {
+        "path": "app/historic-building-structural-assessment-in-tampa/page.tsx",
+        "url": "/historic-building-structural-assessment-in-tampa/",
+        "length": 38,
+        "description": "Expert structural assessment for Tampa"
+      },
+      {
+        "path": "app/historic-plaster-repair-techniques-in-tampa/page.tsx",
+        "url": "/historic-plaster-repair-techniques-in-tampa/",
+        "length": 98,
+        "description": "Master authentic historic plaster repair techniques in Tampa with FCS. Expert restoration of Tampa"
+      },
+      {
+        "path": "app/historic-restoration/page.tsx",
+        "url": "/historic-restoration/",
+        "length": 75,
+        "description": "Expert historic restoration and preservation services. We restore Tampa Bay"
+      },
+      {
+        "path": "app/historic-restoration-projects-in-tampa/page.tsx",
+        "url": "/historic-restoration-projects-in-tampa/",
+        "length": 11,
+        "description": "Explore FCS"
+      },
+      {
+        "path": "app/historical-landmarks-restoration-in-tampa/page.tsx",
+        "url": "/historical-landmarks-restoration-in-tampa/",
+        "length": 27,
+        "description": "Expert restoration of Tampa"
+      },
+      {
+        "path": "app/impact-of-climate-on-historic-restoration-in-tampa/page.tsx",
+        "url": "/impact-of-climate-on-historic-restoration-in-tampa/",
+        "length": 15,
+        "description": "Learn how Tampa"
+      },
+      {
+        "path": "app/insurance-restoration-brandon/page.tsx",
+        "url": "/insurance-restoration-brandon/",
+        "length": 7,
+        "description": "Brandon"
+      },
+      {
+        "path": "app/insurance-restoration-lakeland/page.tsx",
+        "url": "/insurance-restoration-lakeland/",
+        "length": 8,
+        "description": "Lakeland"
+      },
+      {
+        "path": "app/integrating-modern-amenities-in-tampas-historic-homes/page.tsx",
+        "url": "/integrating-modern-amenities-in-tampas-historic-homes/",
+        "length": 47,
+        "description": "Expert integration of modern amenities in Tampa"
+      },
+      {
+        "path": "app/is-your-commercial-building-remodel-ready/page.tsx",
+        "url": "/is-your-commercial-building-remodel-ready/",
+        "length": 57,
+        "description": "Comprehensive guide to assessing your commercial building"
+      },
+      {
+        "path": "app/leading-commercial-contractors-in-tampa/page.tsx",
+        "url": "/leading-commercial-contractors-in-tampa/",
+        "length": 14,
+        "description": "Discover Tampa"
+      },
+      {
+        "path": "app/premium-homepage/page.tsx",
+        "url": "/premium-homepage/",
+        "length": 107,
+        "description": "We never subcontract the critical work. Your project gets our A-team from groundbreaking to ribbon cutting."
+      },
+      {
+        "path": "app/preserving-tampas-cultural-heritage-through-restoration/page.tsx",
+        "url": "/preserving-tampas-cultural-heritage-through-restoration/",
+        "length": 16,
+        "description": "Protecting Tampa"
+      },
+      {
+        "path": "app/privacy/page.tsx",
+        "url": "/privacy/",
+        "length": 107,
+        "description": "Privacy Policy for ${BUSINESS_INFO.name}. Learn how we collect, use, and protect your personal information."
+      },
+      {
+        "path": "app/privacy-policy/page.tsx",
+        "url": "/privacy-policy/",
+        "length": 37,
+        "description": "Read Florida Construction Specialists"
+      },
+      {
+        "path": "app/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/page.tsx",
+        "url": "/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/",
+        "length": 19,
+        "description": "Insights from Tampa"
+      },
+      {
+        "path": "app/sustainable-construction-trends-in-florida/page.tsx",
+        "url": "/sustainable-construction-trends-in-florida/",
+        "length": 66,
+        "description": "Explore the latest sustainable construction trends shaping Florida"
+      },
+      {
+        "path": "app/tampa-commercial-construction-market-analysis/page.tsx",
+        "url": "/tampa-commercial-construction-market-analysis/",
+        "length": 26,
+        "description": "In-depth analysis of Tampa"
+      },
+      {
+        "path": "app/tampa-historic-home-restoration-guidelines/page.tsx",
+        "url": "/tampa-historic-home-restoration-guidelines/",
+        "length": 44,
+        "description": "Comprehensive guidelines for restoring Tampa"
+      },
+      {
+        "path": "app/tampa-post-disaster-rebuilding-services/page.tsx",
+        "url": "/tampa-post-disaster-rebuilding-services/",
+        "length": 43,
+        "description": "Secure your property against further damage"
+      },
+      {
+        "path": "app/tampas-custom-family-home-builders/page.tsx",
+        "url": "/tampas-custom-family-home-builders/",
+        "length": 17,
+        "description": "Build your family"
+      },
+      {
+        "path": "app/tampas-historical-societies-and-restoration-efforts/page.tsx",
+        "url": "/tampas-historical-societies-and-restoration-efforts/",
+        "length": 17,
+        "description": "Learn about Tampa"
+      },
+      {
+        "path": "app/tampas-latest-commercial-construction-projects/page.tsx",
+        "url": "/tampas-latest-commercial-construction-projects/",
+        "length": 13,
+        "description": "Explore Tampa"
+      },
+      {
+        "path": "app/terms/page.tsx",
+        "url": "/terms/",
+        "length": 115,
+        "description": "Terms of Service for ${BUSINESS_INFO.name}. Please read these terms carefully before using our website or services."
+      },
+      {
+        "path": "app/terms-and-conditions/page.tsx",
+        "url": "/terms-and-conditions/",
+        "length": 74,
+        "description": "Review the terms and conditions for using Florida Construction Specialists"
+      },
+      {
+        "path": "app/the-essential-role-of-florida-construction-specialists/page.tsx",
+        "url": "/the-essential-role-of-florida-construction-specialists/",
+        "length": 79,
+        "description": "Discover the essential role Florida Construction Specialists plays in Tampa Bay"
+      },
+      {
+        "path": "app/the-importance-of-quality-construction-materials-in-tampa/page.tsx",
+        "url": "/the-importance-of-quality-construction-materials-in-tampa/",
+        "length": 56,
+        "description": "Learn why quality construction materials matter in Tampa"
+      },
+      {
+        "path": "app/tips-for-commercial-renovation-in-florida/page.tsx",
+        "url": "/tips-for-commercial-renovation-in-florida/",
+        "length": 62,
+        "description": "Essential tips for successful commercial renovation in Florida"
+      },
+      {
+        "path": "app/tips-for-parking-lot-maintenance-in-tampa/page.tsx",
+        "url": "/tips-for-parking-lot-maintenance-in-tampa/",
+        "length": 48,
+        "description": "Essential parking lot maintenance tips for Tampa"
+      },
+      {
+        "path": "app/trends-and-future-of-commercial-construction-in-tampa/page.tsx",
+        "url": "/trends-and-future-of-commercial-construction-in-tampa/",
+        "length": 64,
+        "description": "Discover the latest commercial construction trends shaping Tampa"
+      }
+    ]
+  },
+  "additional_fixes": {
+    "count": 31,
+    "note": "31 additional oversized descriptions not in original Plan 05 output, fixed during Plan 07 execution (25 top-level + 6 nested).",
+    "applied_by": "Plan 07 Task 1 (Rule 2 deviation)"
+  },
+  "final_audit": {
+    "total_pages_scanned": 428,
+    "over_160": 0,
+    "under_120": 48,
+    "audit_date": "2026-02-16"
+  }
 }

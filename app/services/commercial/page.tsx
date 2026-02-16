@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/' },
   title: "Commercial Construction in Tampa Bay",
-  description: "Commercial contractor Tampa Bay: office, retail, industrial projects $500K-$25M+. Design-build expertise, 40+ years Florida construction. Schedule consultation today.",
+  description: "Commercial contractor Tampa Bay: office, retail, industrial projects. Design-build expertise, 40+ years Florida construction. Schedule today.",
 };
 
 const breadcrumbItems = [

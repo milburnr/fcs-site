@@ -12,7 +12,7 @@ import { Phone, Droplets, Shield, Building2, AlertTriangle, Waves, CloudRain, Ch
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/water-restoration/' },
   title: "Water Restoration Tampa | Flood Damage Repair Contractor | FCS",
-  description: "Water damage restoration Tampa: flood repair, extraction, structural drying, mold prevention. Commercial & residential. 24/7 emergency response. Licensed CGC contractor.",
+  description: "Water damage restoration Tampa: flood repair, extraction, structural drying, mold prevention. Commercial and residential. 24/7 emergency. Call us.",
 };
 
 const breadcrumbItems = [
