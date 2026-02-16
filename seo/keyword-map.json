@@ -2,393 +2,742 @@
   "primary_keywords": {
     "commercial-construction-tampa": {
       "primary": "commercial construction tampa",
-      "secondary": ["commercial contractor tampa", "commercial builder tampa fl", "tampa commercial construction company"],
-      "long_tail": ["large scale commercial construction tampa", "commercial building contractor tampa fl", "office building construction tampa"],
+      "secondary": [
+        "commercial contractor tampa",
+        "commercial builder tampa fl",
+        "tampa commercial construction company"
+      ],
+      "long_tail": [
+        "large scale commercial construction tampa",
+        "commercial building contractor tampa fl",
+        "office building construction tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "commercial-construction-st-petersburg": {
       "primary": "commercial construction st petersburg",
-      "secondary": ["commercial contractor st pete", "commercial builder st petersburg fl"],
-      "long_tail": ["st petersburg commercial construction company", "downtown st pete commercial contractor"],
+      "secondary": [
+        "commercial contractor st pete",
+        "commercial builder st petersburg fl"
+      ],
+      "long_tail": [
+        "st petersburg commercial construction company",
+        "downtown st pete commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "commercial-construction-clearwater": {
       "primary": "commercial construction clearwater",
-      "secondary": ["commercial contractor clearwater", "commercial builder clearwater fl"],
-      "long_tail": ["clearwater beach commercial construction", "pinellas county commercial contractor"],
+      "secondary": [
+        "commercial contractor clearwater",
+        "commercial builder clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater beach commercial construction",
+        "pinellas county commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "commercial-construction-lakeland": {
       "primary": "commercial construction lakeland",
-      "secondary": ["commercial contractor lakeland", "commercial builder lakeland fl"],
-      "long_tail": ["polk county commercial construction", "lakeland fl commercial contractor"],
+      "secondary": [
+        "commercial contractor lakeland",
+        "commercial builder lakeland fl"
+      ],
+      "long_tail": [
+        "polk county commercial construction",
+        "lakeland fl commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "commercial-construction-sarasota": {
       "primary": "commercial construction sarasota",
-      "secondary": ["commercial contractor sarasota", "commercial builder sarasota fl"],
-      "long_tail": ["sarasota county commercial construction", "downtown sarasota commercial contractor"],
+      "secondary": [
+        "commercial contractor sarasota",
+        "commercial builder sarasota fl"
+      ],
+      "long_tail": [
+        "sarasota county commercial construction",
+        "downtown sarasota commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "commercial-construction-bradenton": {
       "primary": "commercial construction bradenton",
-      "secondary": ["commercial contractor bradenton", "commercial builder bradenton fl"],
-      "long_tail": ["manatee county commercial construction", "bradenton fl commercial contractor"],
+      "secondary": [
+        "commercial contractor bradenton",
+        "commercial builder bradenton fl"
+      ],
+      "long_tail": [
+        "manatee county commercial construction",
+        "bradenton fl commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "commercial-construction-brandon": {
       "primary": "commercial construction brandon",
-      "secondary": ["commercial contractor brandon fl", "commercial builder brandon tampa"],
-      "long_tail": ["brandon fl commercial construction company", "east hillsborough commercial contractor"],
+      "secondary": [
+        "commercial contractor brandon fl",
+        "commercial builder brandon tampa"
+      ],
+      "long_tail": [
+        "brandon fl commercial construction company",
+        "east hillsborough commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "commercial-construction-ruskin": {
       "primary": "commercial construction ruskin",
-      "secondary": ["commercial contractor ruskin fl", "commercial builder south hillsborough"],
-      "long_tail": ["ruskin fl commercial construction", "south hillsborough county commercial contractor"],
+      "secondary": [
+        "commercial contractor ruskin fl",
+        "commercial builder south hillsborough"
+      ],
+      "long_tail": [
+        "ruskin fl commercial construction",
+        "south hillsborough county commercial contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     },
     "multi-family-construction-tampa": {
       "primary": "multi family construction tampa",
-      "secondary": ["apartment builder tampa", "condo construction tampa fl", "multi family contractor tampa"],
-      "long_tail": ["apartment complex construction tampa", "condominium builder tampa bay", "townhome developer tampa"],
+      "secondary": [
+        "apartment builder tampa",
+        "condo construction tampa fl",
+        "multi family contractor tampa"
+      ],
+      "long_tail": [
+        "apartment complex construction tampa",
+        "condominium builder tampa bay",
+        "townhome developer tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "multi-family-construction-st-petersburg": {
       "primary": "multi family construction st petersburg",
-      "secondary": ["apartment builder st pete", "condo construction st petersburg"],
-      "long_tail": ["downtown st pete apartment construction", "st petersburg condo builder"],
+      "secondary": [
+        "apartment builder st pete",
+        "condo construction st petersburg"
+      ],
+      "long_tail": [
+        "downtown st pete apartment construction",
+        "st petersburg condo builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "multi-family-construction-clearwater": {
       "primary": "multi family construction clearwater",
-      "secondary": ["apartment builder clearwater", "condo construction clearwater fl"],
-      "long_tail": ["clearwater beach condo construction", "pinellas apartment builder"],
+      "secondary": [
+        "apartment builder clearwater",
+        "condo construction clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater beach condo construction",
+        "pinellas apartment builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "multi-family-construction-lakeland": {
       "primary": "multi family construction lakeland",
-      "secondary": ["apartment builder lakeland", "condo construction lakeland fl"],
-      "long_tail": ["polk county apartment construction", "lakeland multi family developer"],
+      "secondary": [
+        "apartment builder lakeland",
+        "condo construction lakeland fl"
+      ],
+      "long_tail": [
+        "polk county apartment construction",
+        "lakeland multi family developer"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "multi-family-construction-sarasota": {
       "primary": "multi family construction sarasota",
-      "secondary": ["apartment builder sarasota", "condo construction sarasota fl"],
-      "long_tail": ["luxury condo construction sarasota", "sarasota waterfront condo builder"],
+      "secondary": [
+        "apartment builder sarasota",
+        "condo construction sarasota fl"
+      ],
+      "long_tail": [
+        "luxury condo construction sarasota",
+        "sarasota waterfront condo builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "multi-family-construction-bradenton": {
       "primary": "multi family construction bradenton",
-      "secondary": ["apartment builder bradenton", "condo construction bradenton fl"],
-      "long_tail": ["manatee county apartment construction", "bradenton townhome builder"],
+      "secondary": [
+        "apartment builder bradenton",
+        "condo construction bradenton fl"
+      ],
+      "long_tail": [
+        "manatee county apartment construction",
+        "bradenton townhome builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "multi-family-construction-brandon": {
       "primary": "multi family construction brandon",
-      "secondary": ["apartment builder brandon fl", "condo construction brandon"],
-      "long_tail": ["brandon fl apartment complex construction", "east tampa multi family builder"],
+      "secondary": [
+        "apartment builder brandon fl",
+        "condo construction brandon"
+      ],
+      "long_tail": [
+        "brandon fl apartment complex construction",
+        "east tampa multi family builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "multi-family-construction-ruskin": {
       "primary": "multi family construction ruskin",
-      "secondary": ["apartment builder ruskin fl", "multi family contractor south hillsborough"],
-      "long_tail": ["ruskin apartment construction", "south hillsborough condo builder"],
+      "secondary": [
+        "apartment builder ruskin fl",
+        "multi family contractor south hillsborough"
+      ],
+      "long_tail": [
+        "ruskin apartment construction",
+        "south hillsborough condo builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     },
     "disaster-recovery-tampa": {
       "primary": "disaster recovery contractor tampa",
-      "secondary": ["storm damage repair tampa", "hurricane damage restoration tampa", "insurance restoration tampa"],
-      "long_tail": ["commercial disaster recovery tampa", "large loss restoration tampa fl", "hurricane damage contractor tampa"],
+      "secondary": [
+        "storm damage repair tampa",
+        "hurricane damage restoration tampa",
+        "insurance restoration tampa"
+      ],
+      "long_tail": [
+        "commercial disaster recovery tampa",
+        "large loss restoration tampa fl",
+        "hurricane damage contractor tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "disaster-recovery-st-petersburg": {
       "primary": "disaster recovery contractor st petersburg",
-      "secondary": ["storm damage repair st pete", "hurricane restoration st petersburg"],
-      "long_tail": ["commercial storm damage st petersburg", "insurance restoration contractor st pete"],
+      "secondary": [
+        "storm damage repair st pete",
+        "hurricane restoration st petersburg"
+      ],
+      "long_tail": [
+        "commercial storm damage st petersburg",
+        "insurance restoration contractor st pete"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "disaster-recovery-clearwater": {
       "primary": "disaster recovery contractor clearwater",
-      "secondary": ["storm damage repair clearwater", "hurricane restoration clearwater fl"],
-      "long_tail": ["clearwater beach storm damage contractor", "pinellas hurricane restoration"],
+      "secondary": [
+        "storm damage repair clearwater",
+        "hurricane restoration clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater beach storm damage contractor",
+        "pinellas hurricane restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "disaster-recovery-lakeland": {
       "primary": "disaster recovery contractor lakeland",
-      "secondary": ["storm damage repair lakeland", "hurricane restoration lakeland fl"],
-      "long_tail": ["polk county disaster recovery", "lakeland insurance restoration contractor"],
+      "secondary": [
+        "storm damage repair lakeland",
+        "hurricane restoration lakeland fl"
+      ],
+      "long_tail": [
+        "polk county disaster recovery",
+        "lakeland insurance restoration contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "disaster-recovery-sarasota": {
       "primary": "disaster recovery contractor sarasota",
-      "secondary": ["storm damage repair sarasota", "hurricane restoration sarasota fl"],
-      "long_tail": ["sarasota hurricane damage contractor", "coastal storm damage sarasota"],
+      "secondary": [
+        "storm damage repair sarasota",
+        "hurricane restoration sarasota fl"
+      ],
+      "long_tail": [
+        "sarasota hurricane damage contractor",
+        "coastal storm damage sarasota"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "disaster-recovery-bradenton": {
       "primary": "disaster recovery contractor bradenton",
-      "secondary": ["storm damage repair bradenton", "hurricane restoration bradenton fl"],
-      "long_tail": ["manatee county disaster recovery", "bradenton insurance restoration"],
+      "secondary": [
+        "storm damage repair bradenton",
+        "hurricane restoration bradenton fl"
+      ],
+      "long_tail": [
+        "manatee county disaster recovery",
+        "bradenton insurance restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "disaster-recovery-brandon": {
       "primary": "disaster recovery contractor brandon",
-      "secondary": ["storm damage repair brandon fl", "hurricane restoration brandon"],
-      "long_tail": ["brandon fl storm damage contractor", "east hillsborough disaster recovery"],
+      "secondary": [
+        "storm damage repair brandon fl",
+        "hurricane restoration brandon"
+      ],
+      "long_tail": [
+        "brandon fl storm damage contractor",
+        "east hillsborough disaster recovery"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "disaster-recovery-ruskin": {
       "primary": "disaster recovery contractor ruskin",
-      "secondary": ["storm damage repair ruskin fl", "hurricane restoration south hillsborough"],
-      "long_tail": ["ruskin hurricane damage contractor", "south hillsborough storm restoration"],
+      "secondary": [
+        "storm damage repair ruskin fl",
+        "hurricane restoration south hillsborough"
+      ],
+      "long_tail": [
+        "ruskin hurricane damage contractor",
+        "south hillsborough storm restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     },
     "historic-restoration-tampa": {
       "primary": "historic restoration tampa",
-      "secondary": ["historic preservation contractor tampa", "historic building restoration tampa fl"],
-      "long_tail": ["ybor city historic restoration", "tampa heights preservation contractor", "hyde park historic renovation tampa"],
+      "secondary": [
+        "historic preservation contractor tampa",
+        "historic building restoration tampa fl"
+      ],
+      "long_tail": [
+        "ybor city historic restoration",
+        "tampa heights preservation contractor",
+        "hyde park historic renovation tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "historic-restoration-st-petersburg": {
       "primary": "historic restoration st petersburg",
-      "secondary": ["historic preservation contractor st pete", "historic building restoration st petersburg"],
-      "long_tail": ["downtown st pete historic restoration", "old northeast preservation st petersburg"],
+      "secondary": [
+        "historic preservation contractor st pete",
+        "historic building restoration st petersburg"
+      ],
+      "long_tail": [
+        "downtown st pete historic restoration",
+        "old northeast preservation st petersburg"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "historic-restoration-clearwater": {
       "primary": "historic restoration clearwater",
-      "secondary": ["historic preservation contractor clearwater", "historic building restoration clearwater fl"],
-      "long_tail": ["clearwater historic district restoration", "pinellas county historic preservation"],
+      "secondary": [
+        "historic preservation contractor clearwater",
+        "historic building restoration clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater historic district restoration",
+        "pinellas county historic preservation"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "historic-restoration-lakeland": {
       "primary": "historic restoration lakeland",
-      "secondary": ["historic preservation contractor lakeland", "historic building restoration lakeland fl"],
-      "long_tail": ["lakeland munn park historic restoration", "polk county historic preservation contractor"],
+      "secondary": [
+        "historic preservation contractor lakeland",
+        "historic building restoration lakeland fl"
+      ],
+      "long_tail": [
+        "lakeland munn park historic restoration",
+        "polk county historic preservation contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "historic-restoration-sarasota": {
       "primary": "historic restoration sarasota",
-      "secondary": ["historic preservation contractor sarasota", "historic building restoration sarasota fl"],
-      "long_tail": ["ringling mansion restoration sarasota", "sarasota historic district contractor"],
+      "secondary": [
+        "historic preservation contractor sarasota",
+        "historic building restoration sarasota fl"
+      ],
+      "long_tail": [
+        "ringling mansion restoration sarasota",
+        "sarasota historic district contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "historic-restoration-bradenton": {
       "primary": "historic restoration bradenton",
-      "secondary": ["historic preservation contractor bradenton", "historic building restoration bradenton fl"],
-      "long_tail": ["old manatee historic restoration", "bradenton village of the arts preservation"],
+      "secondary": [
+        "historic preservation contractor bradenton",
+        "historic building restoration bradenton fl"
+      ],
+      "long_tail": [
+        "old manatee historic restoration",
+        "bradenton village of the arts preservation"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "historic-restoration-brandon": {
       "primary": "historic restoration brandon",
-      "secondary": ["historic preservation contractor brandon fl", "historic building restoration brandon"],
-      "long_tail": ["brandon fl historic home restoration", "east hillsborough historic preservation"],
+      "secondary": [
+        "historic preservation contractor brandon fl",
+        "historic building restoration brandon"
+      ],
+      "long_tail": [
+        "brandon fl historic home restoration",
+        "east hillsborough historic preservation"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     },
     "historic-restoration-ruskin": {
       "primary": "historic restoration ruskin",
-      "secondary": ["historic preservation contractor ruskin fl", "historic building restoration south hillsborough"],
-      "long_tail": ["ruskin fl historic restoration", "south hillsborough historic preservation"],
+      "secondary": [
+        "historic preservation contractor ruskin fl",
+        "historic building restoration south hillsborough"
+      ],
+      "long_tail": [
+        "ruskin fl historic restoration",
+        "south hillsborough historic preservation"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     },
     "luxury-custom-homes-tampa": {
       "primary": "luxury home builder tampa",
-      "secondary": ["custom home construction tampa", "high end home builder tampa fl", "luxury custom homes tampa"],
-      "long_tail": ["waterfront luxury home builder tampa", "davis islands custom home construction", "bayshore custom home builder tampa"],
+      "secondary": [
+        "custom home construction tampa",
+        "high end home builder tampa fl",
+        "luxury custom homes tampa"
+      ],
+      "long_tail": [
+        "waterfront luxury home builder tampa",
+        "davis islands custom home construction",
+        "bayshore custom home builder tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "luxury-custom-homes-st-petersburg": {
       "primary": "luxury home builder st petersburg",
-      "secondary": ["custom home construction st pete", "high end home builder st petersburg"],
-      "long_tail": ["snell isle luxury home builder", "st pete beach custom home construction"],
+      "secondary": [
+        "custom home construction st pete",
+        "high end home builder st petersburg"
+      ],
+      "long_tail": [
+        "snell isle luxury home builder",
+        "st pete beach custom home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "luxury-custom-homes-clearwater": {
       "primary": "luxury home builder clearwater",
-      "secondary": ["custom home construction clearwater", "high end home builder clearwater fl"],
-      "long_tail": ["clearwater beach luxury home builder", "belleair custom home construction"],
+      "secondary": [
+        "custom home construction clearwater",
+        "high end home builder clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater beach luxury home builder",
+        "belleair custom home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "luxury-custom-homes-lakeland": {
       "primary": "luxury home builder lakeland",
-      "secondary": ["custom home construction lakeland", "high end home builder lakeland fl"],
-      "long_tail": ["lakeland lakefront custom home builder", "polk county luxury home construction"],
+      "secondary": [
+        "custom home construction lakeland",
+        "high end home builder lakeland fl"
+      ],
+      "long_tail": [
+        "lakeland lakefront custom home builder",
+        "polk county luxury home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "luxury-custom-homes-sarasota": {
       "primary": "luxury home builder sarasota",
-      "secondary": ["custom home construction sarasota", "high end home builder sarasota fl"],
-      "long_tail": ["siesta key luxury home builder", "bird key custom home construction sarasota", "longboat key luxury builder"],
+      "secondary": [
+        "custom home construction sarasota",
+        "high end home builder sarasota fl"
+      ],
+      "long_tail": [
+        "siesta key luxury home builder",
+        "bird key custom home construction sarasota",
+        "longboat key luxury builder"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "luxury-custom-homes-bradenton": {
       "primary": "luxury home builder bradenton",
-      "secondary": ["custom home construction bradenton", "high end home builder bradenton fl"],
-      "long_tail": ["anna maria island luxury home builder", "lakewood ranch custom home construction"],
+      "secondary": [
+        "custom home construction bradenton",
+        "high end home builder bradenton fl"
+      ],
+      "long_tail": [
+        "anna maria island luxury home builder",
+        "lakewood ranch custom home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "luxury-custom-homes-brandon": {
       "primary": "luxury home builder brandon",
-      "secondary": ["custom home construction brandon fl", "high end home builder brandon"],
-      "long_tail": ["fishhawk ranch luxury home builder", "brandon fl custom home construction"],
+      "secondary": [
+        "custom home construction brandon fl",
+        "high end home builder brandon"
+      ],
+      "long_tail": [
+        "fishhawk ranch luxury home builder",
+        "brandon fl custom home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "luxury-custom-homes-ruskin": {
       "primary": "luxury home builder ruskin",
-      "secondary": ["custom home construction ruskin fl", "waterfront home builder south hillsborough"],
-      "long_tail": ["apollo beach luxury home builder", "ruskin waterfront custom home construction"],
+      "secondary": [
+        "custom home construction ruskin fl",
+        "waterfront home builder south hillsborough"
+      ],
+      "long_tail": [
+        "apollo beach luxury home builder",
+        "ruskin waterfront custom home construction"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "balcony-reconstruction-tampa": {
       "primary": "balcony repair tampa",
-      "secondary": ["balcony reconstruction tampa", "condo balcony contractor tampa fl"],
-      "long_tail": ["balcony waterproofing tampa", "hoa balcony repair tampa", "concrete balcony restoration tampa"],
+      "secondary": [
+        "balcony reconstruction tampa",
+        "condo balcony contractor tampa fl"
+      ],
+      "long_tail": [
+        "balcony waterproofing tampa",
+        "hoa balcony repair tampa",
+        "concrete balcony restoration tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "balcony-reconstruction-st-petersburg": {
       "primary": "balcony repair st petersburg",
-      "secondary": ["balcony reconstruction st pete", "condo balcony contractor st petersburg"],
-      "long_tail": ["downtown st pete balcony restoration", "waterfront condo balcony repair st petersburg"],
+      "secondary": [
+        "balcony reconstruction st pete",
+        "condo balcony contractor st petersburg"
+      ],
+      "long_tail": [
+        "downtown st pete balcony restoration",
+        "waterfront condo balcony repair st petersburg"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "balcony-reconstruction-clearwater": {
       "primary": "balcony repair clearwater",
-      "secondary": ["balcony reconstruction clearwater", "condo balcony contractor clearwater fl"],
-      "long_tail": ["clearwater beach condo balcony repair", "sand key balcony restoration"],
+      "secondary": [
+        "balcony reconstruction clearwater",
+        "condo balcony contractor clearwater fl"
+      ],
+      "long_tail": [
+        "clearwater beach condo balcony repair",
+        "sand key balcony restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "balcony-reconstruction-lakeland": {
       "primary": "balcony repair lakeland",
-      "secondary": ["balcony reconstruction lakeland", "condo balcony contractor lakeland fl"],
-      "long_tail": ["lakeland condo balcony restoration", "polk county balcony repair contractor"],
+      "secondary": [
+        "balcony reconstruction lakeland",
+        "condo balcony contractor lakeland fl"
+      ],
+      "long_tail": [
+        "lakeland condo balcony restoration",
+        "polk county balcony repair contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "balcony-reconstruction-sarasota": {
       "primary": "balcony repair sarasota",
-      "secondary": ["balcony reconstruction sarasota", "condo balcony contractor sarasota fl"],
-      "long_tail": ["siesta key condo balcony repair", "longboat key balcony restoration"],
+      "secondary": [
+        "balcony reconstruction sarasota",
+        "condo balcony contractor sarasota fl"
+      ],
+      "long_tail": [
+        "siesta key condo balcony repair",
+        "longboat key balcony restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "balcony-reconstruction-bradenton": {
       "primary": "balcony repair bradenton",
-      "secondary": ["balcony reconstruction bradenton", "condo balcony contractor bradenton fl"],
-      "long_tail": ["anna maria island balcony repair", "manatee county condo balcony restoration"],
+      "secondary": [
+        "balcony reconstruction bradenton",
+        "condo balcony contractor bradenton fl"
+      ],
+      "long_tail": [
+        "anna maria island balcony repair",
+        "manatee county condo balcony restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "balcony-reconstruction-brandon": {
       "primary": "balcony repair brandon",
-      "secondary": ["balcony reconstruction brandon fl", "condo balcony contractor brandon"],
-      "long_tail": ["brandon fl condo balcony repair", "east hillsborough balcony restoration"],
+      "secondary": [
+        "balcony reconstruction brandon fl",
+        "condo balcony contractor brandon"
+      ],
+      "long_tail": [
+        "brandon fl condo balcony repair",
+        "east hillsborough balcony restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "balcony-reconstruction-ruskin": {
       "primary": "balcony repair ruskin",
-      "secondary": ["balcony reconstruction ruskin fl", "condo balcony contractor south hillsborough"],
-      "long_tail": ["apollo beach condo balcony repair", "ruskin waterfront balcony restoration"],
+      "secondary": [
+        "balcony reconstruction ruskin fl",
+        "condo balcony contractor south hillsborough"
+      ],
+      "long_tail": [
+        "apollo beach condo balcony repair",
+        "ruskin waterfront balcony restoration"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "exterior-waterproofing-tampa": {
       "primary": "waterproofing contractor tampa",
-      "secondary": ["building envelope tampa", "exterior waterproofing tampa fl", "commercial waterproofing tampa"],
-      "long_tail": ["parking garage waterproofing tampa", "foundation waterproofing tampa", "plaza deck waterproofing tampa"],
+      "secondary": [
+        "building envelope tampa",
+        "exterior waterproofing tampa fl",
+        "commercial waterproofing tampa"
+      ],
+      "long_tail": [
+        "parking garage waterproofing tampa",
+        "foundation waterproofing tampa",
+        "plaza deck waterproofing tampa"
+      ],
       "search_intent": "transactional",
       "page_priority": 1
     },
     "exterior-waterproofing-st-petersburg": {
       "primary": "waterproofing contractor st petersburg",
-      "secondary": ["building envelope st pete", "exterior waterproofing st petersburg fl"],
-      "long_tail": ["commercial waterproofing st petersburg", "foundation waterproofing st pete"],
+      "secondary": [
+        "building envelope st pete",
+        "exterior waterproofing st petersburg fl"
+      ],
+      "long_tail": [
+        "commercial waterproofing st petersburg",
+        "foundation waterproofing st pete"
+      ],
       "search_intent": "transactional",
       "page_priority": 2
     },
     "exterior-waterproofing-clearwater": {
       "primary": "waterproofing contractor clearwater",
-      "secondary": ["building envelope clearwater", "exterior waterproofing clearwater fl"],
-      "long_tail": ["beach condo waterproofing clearwater", "pinellas commercial waterproofing"],
+      "secondary": [
+        "building envelope clearwater",
+        "exterior waterproofing clearwater fl"
+      ],
+      "long_tail": [
+        "beach condo waterproofing clearwater",
+        "pinellas commercial waterproofing"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "exterior-waterproofing-lakeland": {
       "primary": "waterproofing contractor lakeland",
-      "secondary": ["building envelope lakeland", "exterior waterproofing lakeland fl"],
-      "long_tail": ["commercial waterproofing lakeland", "polk county foundation waterproofing"],
+      "secondary": [
+        "building envelope lakeland",
+        "exterior waterproofing lakeland fl"
+      ],
+      "long_tail": [
+        "commercial waterproofing lakeland",
+        "polk county foundation waterproofing"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "exterior-waterproofing-sarasota": {
       "primary": "waterproofing contractor sarasota",
-      "secondary": ["building envelope sarasota", "exterior waterproofing sarasota fl"],
-      "long_tail": ["coastal building waterproofing sarasota", "commercial waterproofing sarasota county"],
+      "secondary": [
+        "building envelope sarasota",
+        "exterior waterproofing sarasota fl"
+      ],
+      "long_tail": [
+        "coastal building waterproofing sarasota",
+        "commercial waterproofing sarasota county"
+      ],
       "search_intent": "transactional",
       "page_priority": 3
     },
     "exterior-waterproofing-bradenton": {
       "primary": "waterproofing contractor bradenton",
-      "secondary": ["building envelope bradenton", "exterior waterproofing bradenton fl"],
-      "long_tail": ["manatee county waterproofing contractor", "commercial waterproofing bradenton"],
+      "secondary": [
+        "building envelope bradenton",
+        "exterior waterproofing bradenton fl"
+      ],
+      "long_tail": [
+        "manatee county waterproofing contractor",
+        "commercial waterproofing bradenton"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "exterior-waterproofing-brandon": {
       "primary": "waterproofing contractor brandon",
-      "secondary": ["building envelope brandon fl", "exterior waterproofing brandon"],
-      "long_tail": ["brandon fl commercial waterproofing", "east hillsborough foundation waterproofing"],
+      "secondary": [
+        "building envelope brandon fl",
+        "exterior waterproofing brandon"
+      ],
+      "long_tail": [
+        "brandon fl commercial waterproofing",
+        "east hillsborough foundation waterproofing"
+      ],
       "search_intent": "transactional",
       "page_priority": 4
     },
     "exterior-waterproofing-ruskin": {
       "primary": "waterproofing contractor ruskin",
-      "secondary": ["building envelope ruskin fl", "exterior waterproofing south hillsborough"],
-      "long_tail": ["coastal waterproofing ruskin", "apollo beach building envelope contractor"],
+      "secondary": [
+        "building envelope ruskin fl",
+        "exterior waterproofing south hillsborough"
+      ],
+      "long_tail": [
+        "coastal waterproofing ruskin",
+        "apollo beach building envelope contractor"
+      ],
       "search_intent": "transactional",
       "page_priority": 5
     }
@@ -396,80 +745,208 @@
   "service_hubs": {
     "commercial-construction": {
       "primary": "commercial construction tampa bay",
-      "secondary": ["commercial contractor florida", "commercial builder tampa bay area"],
-      "owns_topics": ["commercial building", "office construction", "retail construction", "medical facility construction"]
+      "secondary": [
+        "commercial contractor florida",
+        "commercial builder tampa bay area"
+      ],
+      "owns_topics": [
+        "commercial building",
+        "office construction",
+        "retail construction",
+        "medical facility construction"
+      ]
     },
     "multi-family-construction": {
       "primary": "multi family construction tampa bay",
-      "secondary": ["apartment builder florida", "condo construction tampa bay"],
-      "owns_topics": ["apartment construction", "condominium building", "townhome development", "senior living construction"]
+      "secondary": [
+        "apartment builder florida",
+        "condo construction tampa bay"
+      ],
+      "owns_topics": [
+        "apartment construction",
+        "condominium building",
+        "townhome development",
+        "senior living construction"
+      ]
     },
     "disaster-recovery": {
       "primary": "disaster recovery contractor florida",
-      "secondary": ["insurance restoration tampa bay", "storm damage contractor florida"],
-      "owns_topics": ["hurricane damage restoration", "flood damage repair", "fire damage restoration", "insurance claims"]
+      "secondary": [
+        "insurance restoration tampa bay",
+        "storm damage contractor florida"
+      ],
+      "owns_topics": [
+        "hurricane damage restoration",
+        "flood damage repair",
+        "fire damage restoration",
+        "insurance claims"
+      ]
     },
     "historic-restoration": {
       "primary": "historic restoration florida",
-      "secondary": ["historic preservation contractor tampa bay", "historic building restoration florida"],
-      "owns_topics": ["historic preservation", "adaptive reuse", "period restoration", "SHPO compliance"]
+      "secondary": [
+        "historic preservation contractor tampa bay",
+        "historic building restoration florida"
+      ],
+      "owns_topics": [
+        "historic preservation",
+        "adaptive reuse",
+        "period restoration",
+        "SHPO compliance"
+      ]
     },
     "luxury-custom-homes": {
       "primary": "luxury home builder tampa bay",
-      "secondary": ["custom home construction florida", "high end home builder tampa bay"],
-      "owns_topics": ["waterfront homes", "custom residential", "estate homes", "architectural homes"]
+      "secondary": [
+        "custom home construction florida",
+        "high end home builder tampa bay"
+      ],
+      "owns_topics": [
+        "waterfront homes",
+        "custom residential",
+        "estate homes",
+        "architectural homes"
+      ]
     },
     "balcony-reconstruction": {
       "primary": "balcony reconstruction florida",
-      "secondary": ["condo balcony repair tampa bay", "balcony waterproofing florida"],
-      "owns_topics": ["balcony repair", "concrete restoration", "railing replacement", "HOA balcony work"]
+      "secondary": [
+        "condo balcony repair tampa bay",
+        "balcony waterproofing florida"
+      ],
+      "owns_topics": [
+        "balcony repair",
+        "concrete restoration",
+        "railing replacement",
+        "HOA balcony work"
+      ]
     },
     "exterior-waterproofing": {
       "primary": "building envelope florida",
-      "secondary": ["commercial waterproofing tampa bay", "exterior waterproofing florida"],
-      "owns_topics": ["foundation waterproofing", "parking structure waterproofing", "plaza decks", "building envelope"]
+      "secondary": [
+        "commercial waterproofing tampa bay",
+        "exterior waterproofing florida"
+      ],
+      "owns_topics": [
+        "foundation waterproofing",
+        "parking structure waterproofing",
+        "plaza decks",
+        "building envelope"
+      ]
     }
   },
   "location_hubs": {
     "tampa": {
       "primary": "construction contractor tampa",
-      "secondary": ["general contractor tampa", "commercial contractor tampa fl"],
-      "owns_neighborhoods": ["Downtown Tampa", "Westshore", "Hyde Park", "South Tampa", "Channelside", "Ybor City", "Tampa Heights"]
+      "secondary": [
+        "general contractor tampa",
+        "commercial contractor tampa fl"
+      ],
+      "owns_neighborhoods": [
+        "Downtown Tampa",
+        "Westshore",
+        "Hyde Park",
+        "South Tampa",
+        "Channelside",
+        "Ybor City",
+        "Tampa Heights"
+      ]
     },
     "st-petersburg": {
       "primary": "construction contractor st petersburg",
-      "secondary": ["general contractor st pete", "commercial contractor st petersburg fl"],
-      "owns_neighborhoods": ["Downtown St Pete", "Old Northeast", "Snell Isle", "Kenwood", "Grand Central District"]
+      "secondary": [
+        "general contractor st pete",
+        "commercial contractor st petersburg fl"
+      ],
+      "owns_neighborhoods": [
+        "Downtown St Pete",
+        "Old Northeast",
+        "Snell Isle",
+        "Kenwood",
+        "Grand Central District"
+      ]
     },
     "clearwater": {
       "primary": "construction contractor clearwater",
-      "secondary": ["general contractor clearwater", "commercial contractor clearwater fl"],
-      "owns_neighborhoods": ["Clearwater Beach", "Island Estates", "Sand Key", "Belleair", "Downtown Clearwater"]
+      "secondary": [
+        "general contractor clearwater",
+        "commercial contractor clearwater fl"
+      ],
+      "owns_neighborhoods": [
+        "Clearwater Beach",
+        "Island Estates",
+        "Sand Key",
+        "Belleair",
+        "Downtown Clearwater"
+      ]
     },
     "lakeland": {
       "primary": "construction contractor lakeland",
-      "secondary": ["general contractor lakeland", "commercial contractor lakeland fl"],
-      "owns_neighborhoods": ["Downtown Lakeland", "Munn Park", "Lake Hollingsworth", "South Lakeland"]
+      "secondary": [
+        "general contractor lakeland",
+        "commercial contractor lakeland fl"
+      ],
+      "owns_neighborhoods": [
+        "Downtown Lakeland",
+        "Munn Park",
+        "Lake Hollingsworth",
+        "South Lakeland"
+      ]
     },
     "sarasota": {
       "primary": "construction contractor sarasota",
-      "secondary": ["general contractor sarasota", "commercial contractor sarasota fl"],
-      "owns_neighborhoods": ["Downtown Sarasota", "St. Armands", "Lido Key", "Siesta Key", "Bird Key", "Longboat Key"]
+      "secondary": [
+        "general contractor sarasota",
+        "commercial contractor sarasota fl"
+      ],
+      "owns_neighborhoods": [
+        "Downtown Sarasota",
+        "St. Armands",
+        "Lido Key",
+        "Siesta Key",
+        "Bird Key",
+        "Longboat Key"
+      ]
     },
     "bradenton": {
       "primary": "construction contractor bradenton",
-      "secondary": ["general contractor bradenton", "commercial contractor bradenton fl"],
-      "owns_neighborhoods": ["Downtown Bradenton", "Village of the Arts", "Palmetto", "Anna Maria Island", "Lakewood Ranch"]
+      "secondary": [
+        "general contractor bradenton",
+        "commercial contractor bradenton fl"
+      ],
+      "owns_neighborhoods": [
+        "Downtown Bradenton",
+        "Village of the Arts",
+        "Palmetto",
+        "Anna Maria Island",
+        "Lakewood Ranch"
+      ]
     },
     "brandon": {
       "primary": "construction contractor brandon",
-      "secondary": ["general contractor brandon fl", "commercial contractor brandon"],
-      "owns_neighborhoods": ["Valrico", "FishHawk Ranch", "Riverview", "Bloomingdale"]
+      "secondary": [
+        "general contractor brandon fl",
+        "commercial contractor brandon"
+      ],
+      "owns_neighborhoods": [
+        "Valrico",
+        "FishHawk Ranch",
+        "Riverview",
+        "Bloomingdale"
+      ]
     },
     "ruskin": {
       "primary": "construction contractor ruskin",
-      "secondary": ["general contractor ruskin fl", "commercial contractor south hillsborough"],
-      "owns_neighborhoods": ["Apollo Beach", "Sun City Center", "Wimauma", "Gibsonton"]
+      "secondary": [
+        "general contractor ruskin fl",
+        "commercial contractor south hillsborough"
+      ],
+      "owns_neighborhoods": [
+        "Apollo Beach",
+        "Sun City Center",
+        "Wimauma",
+        "Gibsonton"
+      ]
     }
   },
   "cannibalization_rules": [
@@ -511,7 +988,3599 @@
     "total_service_location_pages": 56,
     "total_service_hubs": 7,
     "total_location_hubs": 8,
-    "services": ["commercial-construction", "multi-family-construction", "disaster-recovery", "historic-restoration", "luxury-custom-homes", "balcony-reconstruction", "exterior-waterproofing"],
-    "locations": ["tampa", "st-petersburg", "clearwater", "lakeland", "sarasota", "bradenton", "brandon", "ruskin"]
-  }
+    "services": [
+      "commercial-construction",
+      "multi-family-construction",
+      "disaster-recovery",
+      "historic-restoration",
+      "luxury-custom-homes",
+      "balcony-reconstruction",
+      "exterior-waterproofing"
+    ],
+    "locations": [
+      "tampa",
+      "st-petersburg",
+      "clearwater",
+      "lakeland",
+      "sarasota",
+      "bradenton",
+      "brandon",
+      "ruskin"
+    ],
+    "total_pages": 428,
+    "keyword_coverage": "100%",
+    "last_updated": "2026-02-16"
+  },
+  "pages": [
+    {
+      "url": "/adaptive-reuse-of-historic-buildings-in-tampa/",
+      "primary_keyword": "adaptive reuse historic buildings",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3368,
+      "title": "Adaptive Reuse Historic Buildings Tampa | FCS"
+    },
+    {
+      "url": "/advanced-building-materials-in-tampa/",
+      "primary_keyword": "advanced building materials",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1173,
+      "title": "Advanced Building Materials in Tampa"
+    },
+    {
+      "url": "/affordable-commercial-construction-in-tampa/",
+      "primary_keyword": "affordable commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2117,
+      "title": "Affordable Commercial Construction Tampa | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-bradenton/",
+      "primary_keyword": "balcony repair bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 567,
+      "title": "Balcony Reconstruction Bradenton | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-brandon/",
+      "primary_keyword": "balcony repair brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 533,
+      "title": "Balcony Reconstruction Brandon | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-clearwater/",
+      "primary_keyword": "balcony repair clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 994,
+      "title": "Balcony Reconstruction in Clearwater"
+    },
+    {
+      "url": "/balcony-reconstruction-lakeland/",
+      "primary_keyword": "balcony repair lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 539,
+      "title": "Balcony Reconstruction Lakeland | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-ruskin/",
+      "primary_keyword": "balcony repair ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 590,
+      "title": "Balcony Reconstruction Ruskin | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-sarasota/",
+      "primary_keyword": "balcony repair sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 544,
+      "title": "Balcony Reconstruction Sarasota | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-st-petersburg/",
+      "primary_keyword": "balcony repair st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 562,
+      "title": "Balcony Reconstruction St. Petersburg | SB 4-D | FCS"
+    },
+    {
+      "url": "/balcony-reconstruction-tampa/",
+      "primary_keyword": "balcony repair tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 881,
+      "title": "Balcony Reconstruction in Tampa"
+    },
+    {
+      "url": "/bespoke-architectural-design-in-tampa/",
+      "primary_keyword": "bespoke architectural design tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 715,
+      "title": "Bespoke Architectural Design Tampa | Commercial"
+    },
+    {
+      "url": "/building-multi-generational-homes-in-tampa/",
+      "primary_keyword": "building multi-generational homes family living",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1336,
+      "title": "Building Multi-Generational Homes in Tampa | Family Living"
+    },
+    {
+      "url": "/challenges-in-historic-restoration-projects-in-tampa/",
+      "primary_keyword": "historic restoration challenges tampa solutions",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1541,
+      "title": "Historic Restoration Challenges Tampa | Solutions"
+    },
+    {
+      "url": "/choosing-a-builder-expert-commercial-construction-in-tampa/",
+      "primary_keyword": "choosing a builder expert commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 4425,
+      "title": "Choosing a Builder Expert Commercial Construction in Tampa"
+    },
+    {
+      "url": "/choosing-materials-for-commercial-construction-in-tampa/",
+      "primary_keyword": "materials for commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2921,
+      "title": "Materials for Commercial Construction Tampa"
+    },
+    {
+      "url": "/claims-negotiation-for-property-damage-in-tampa/",
+      "primary_keyword": "claims negotiation for property damage",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2486,
+      "title": "Claims Negotiation for Property Damage in Tampa"
+    },
+    {
+      "url": "/climate-resilient-custom-homes-in-tampa/",
+      "primary_keyword": "climate-resilient custom homes tampa hurricane",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1427,
+      "title": "Climate-Resilient Custom Homes Tampa | Hurricane"
+    },
+    {
+      "url": "/color-palettes-for-historic-buildings-in-tampa/",
+      "primary_keyword": "color palettes for historic buildings",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2838,
+      "title": "Color Palettes for Historic Buildings in Tampa"
+    },
+    {
+      "url": "/commercial-building-design-services-in-tampa/",
+      "primary_keyword": "commercial building design services",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 738,
+      "title": "Commercial Building Design Services in Tampa | FCS"
+    },
+    {
+      "url": "/commercial-construction-bradenton/",
+      "primary_keyword": "commercial construction bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 651,
+      "title": "Commercial Construction Bradenton | $500K+ | FCS"
+    },
+    {
+      "url": "/commercial-construction-brandon/",
+      "primary_keyword": "commercial construction brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 633,
+      "title": "Commercial Construction Brandon | $500K+ | FCS"
+    },
+    {
+      "url": "/commercial-construction-clearwater/",
+      "primary_keyword": "commercial construction clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 691,
+      "title": "Commercial Construction in Clearwater"
+    },
+    {
+      "url": "/commercial-construction-consultancy-in-tampa/",
+      "primary_keyword": "commercial construction consultancy",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 429,
+      "title": "Commercial Construction Consultancy Tampa | FCS"
+    },
+    {
+      "url": "/commercial-construction-lakeland/",
+      "primary_keyword": "commercial construction lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 663,
+      "title": "Commercial Construction Lakeland | $500K+ | FCS"
+    },
+    {
+      "url": "/commercial-construction-loans-in-tampa/",
+      "primary_keyword": "commercial construction loans",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1220,
+      "title": "Commercial Construction Loans in Tampa"
+    },
+    {
+      "url": "/commercial-construction-regulations-in-tampa/",
+      "primary_keyword": "commercial construction regulations tampa permits",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2949,
+      "title": "Commercial Construction Regulations Tampa | Permits"
+    },
+    {
+      "url": "/commercial-construction-ruskin/",
+      "primary_keyword": "commercial construction ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 671,
+      "title": "Commercial Construction Ruskin FL | FCS Home Base"
+    },
+    {
+      "url": "/commercial-construction-sarasota/",
+      "primary_keyword": "commercial construction sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 668,
+      "title": "Commercial Construction Sarasota | $500K+ | FCS"
+    },
+    {
+      "url": "/commercial-construction-st-petersburg/",
+      "primary_keyword": "commercial construction st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 1053,
+      "title": "Commercial Construction in St. Petersburg"
+    },
+    {
+      "url": "/commercial-construction-tampa/",
+      "primary_keyword": "commercial construction tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 695,
+      "title": "Commercial Construction in Tampa"
+    },
+    {
+      "url": "/commercial-construction-technology-in-tampa/",
+      "primary_keyword": "commercial construction technology",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1438,
+      "title": "Commercial Construction Technology Tampa | FCS"
+    },
+    {
+      "url": "/commercial-construction-wants-vs-needs-in-tampa/",
+      "primary_keyword": "commercial construction wants vs needs",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 582,
+      "title": "Commercial Construction Wants vs Needs Tampa"
+    },
+    {
+      "url": "/commercial-interior-design-in-tampa/",
+      "primary_keyword": "commercial interior design tampa office",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 617,
+      "title": "Commercial Interior Design Tampa | Office"
+    },
+    {
+      "url": "/commercial-property-damage-restoration-in-tampa/",
+      "primary_keyword": "commercial property damage restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 839,
+      "title": "Commercial Property Damage Restoration Tampa"
+    },
+    {
+      "url": "/commercial-roofing-services-in-tampa/",
+      "primary_keyword": "commercial roofing services tampa expert",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1072,
+      "title": "Commercial Roofing Services Tampa | Expert"
+    },
+    {
+      "url": "/complete-property-overhaul-after-disasters-in-tampa/",
+      "primary_keyword": "complete property overhaul after disasters",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 852,
+      "title": "Complete Property Overhaul After Disasters Tampa"
+    },
+    {
+      "url": "/condo-milestone-inspection-remediation-tampa/",
+      "primary_keyword": "condo milestone inspection tampa sb4-d",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2681,
+      "title": "Condo Milestone Inspection Tampa | SB4-D | FCS"
+    },
+    {
+      "url": "/condo-remediation-bradenton/",
+      "primary_keyword": "condo remediation bradenton sb4-d compliance & sirs",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1721,
+      "title": "Condo Remediation Bradenton | SB4-D Compliance & SIRS"
+    },
+    {
+      "url": "/condo-remediation-brandon/",
+      "primary_keyword": "condo remediation brandon sb4-d",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1370,
+      "title": "Condo Remediation Brandon | SB4-D | FCS"
+    },
+    {
+      "url": "/condo-remediation-clearwater/",
+      "primary_keyword": "condo remediation clearwater sb4-d compliance & sirs",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1672,
+      "title": "Condo Remediation Clearwater | SB4-D Compliance & SIRS"
+    },
+    {
+      "url": "/condo-remediation-lakeland/",
+      "primary_keyword": "condo remediation lakeland sb4-d polk",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2083,
+      "title": "Condo Remediation Lakeland | SB4-D Polk | FCS"
+    },
+    {
+      "url": "/condo-remediation-ruskin/",
+      "primary_keyword": "condo remediation ruskin sun city center",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1428,
+      "title": "Condo Remediation Ruskin | Sun City Center | FCS"
+    },
+    {
+      "url": "/condo-remediation-sarasota/",
+      "primary_keyword": "condo remediation sarasota sb4-d compliance & sirs",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1193,
+      "title": "Condo Remediation Sarasota | SB4-D Compliance & SIRS"
+    },
+    {
+      "url": "/condo-remediation-st-petersburg/",
+      "primary_keyword": "condo remediation st petersburg sb4-d",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1277,
+      "title": "Condo Remediation St Petersburg | SB4-D | FCS"
+    },
+    {
+      "url": "/condo-remediation-tampa/",
+      "primary_keyword": "condo remediation tampa sb4-d compliance",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1778,
+      "title": "Condo Remediation Tampa | SB4-D Compliance | FCS"
+    },
+    {
+      "url": "/cost-of-historic-restoration-in-tampa/",
+      "primary_keyword": "cost of historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2721,
+      "title": "Cost of Historic Restoration in Tampa"
+    },
+    {
+      "url": "/crafting-custom-home-libraries-in-tampa/",
+      "primary_keyword": "custom home libraries luxury book rooms & studies",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1364,
+      "title": "Custom Home Libraries in Tampa | Luxury Book Rooms & Studies"
+    },
+    {
+      "url": "/custom-commercial-construction-solutions-in-tampa/",
+      "primary_keyword": "custom commercial construction solutions",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 4074,
+      "title": "Custom Commercial Construction Solutions in Tampa"
+    },
+    {
+      "url": "/custom-home-accessibility-features-in-tampa/",
+      "primary_keyword": "custom home accessibility tampa universal design",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2252,
+      "title": "Custom Home Accessibility Tampa | Universal Design"
+    },
+    {
+      "url": "/custom-home-interior-design-services-in-tampa/",
+      "primary_keyword": "custom home interior design tampa luxury",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2721,
+      "title": "Custom Home Interior Design Tampa | Luxury"
+    },
+    {
+      "url": "/custom-home-theaters-and-entertainment-spaces-in-tampa/",
+      "primary_keyword": "custom home theaters and entertainment spaces",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1214,
+      "title": "Custom Home Theaters and Entertainment Spaces in Tampa"
+    },
+    {
+      "url": "/custom-home-wine-cellars-in-tampa/",
+      "primary_keyword": "custom home wine cellars tampa climate control",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1222,
+      "title": "Custom Home Wine Cellars Tampa | Climate Control"
+    },
+    {
+      "url": "/designing-your-dream-home-in-tampa/",
+      "primary_keyword": "designing your dream home custom home design",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1327,
+      "title": "Designing Your Dream Home in Tampa | Custom Home Design"
+    },
+    {
+      "url": "/disaster-recovery-bradenton/",
+      "primary_keyword": "disaster recovery contractor bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 575,
+      "title": "Disaster Recovery Bradenton | Hurricane | FCS"
+    },
+    {
+      "url": "/disaster-recovery-brandon/",
+      "primary_keyword": "disaster recovery contractor brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 656,
+      "title": "Disaster Recovery Brandon FL | Hurricane | FCS"
+    },
+    {
+      "url": "/disaster-recovery-clearwater/",
+      "primary_keyword": "disaster recovery contractor clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 1068,
+      "title": "Disaster Recovery in Clearwater"
+    },
+    {
+      "url": "/disaster-recovery-lakeland/",
+      "primary_keyword": "disaster recovery contractor lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 717,
+      "title": "Disaster Recovery Lakeland FL | Storm | FCS"
+    },
+    {
+      "url": "/disaster-recovery-ruskin/",
+      "primary_keyword": "disaster recovery contractor ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 548,
+      "title": "Disaster Recovery Ruskin FL | Hurricane | FCS"
+    },
+    {
+      "url": "/disaster-recovery-sarasota/",
+      "primary_keyword": "disaster recovery contractor sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 681,
+      "title": "Disaster Recovery Sarasota | Hurricane | FCS"
+    },
+    {
+      "url": "/disaster-recovery-st-petersburg/",
+      "primary_keyword": "disaster recovery contractor st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 1084,
+      "title": "Disaster Recovery in St. Petersburg"
+    },
+    {
+      "url": "/disaster-recovery-tampa/",
+      "primary_keyword": "disaster recovery contractor tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 993,
+      "title": "Disaster Recovery in Tampa"
+    },
+    {
+      "url": "/eco-friendly-commercial-construction-in-tampa/",
+      "primary_keyword": "eco-friendly commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1281,
+      "title": "Eco-Friendly Commercial Construction Tampa"
+    },
+    {
+      "url": "/eco-friendly-custom-homes-in-tampa/",
+      "primary_keyword": "eco-friendly custom homes tampa sustainable",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3147,
+      "title": "Eco-Friendly Custom Homes Tampa | Sustainable"
+    },
+    {
+      "url": "/eco-friendly-historic-restoration-techniques-in-tampa/",
+      "primary_keyword": "eco-friendly historic restoration tampa green",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1537,
+      "title": "Eco-Friendly Historic Restoration Tampa | Green"
+    },
+    {
+      "url": "/efficient-commercial-construction-timelines-in-tampa/",
+      "primary_keyword": "commercial construction timelines tampa scheduling",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 376,
+      "title": "Commercial Construction Timelines Tampa | Scheduling"
+    },
+    {
+      "url": "/energy-efficiency-in-historic-restoration-in-tampa/",
+      "primary_keyword": "energy efficiency in historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1105,
+      "title": "Energy Efficiency in Historic Restoration in Tampa"
+    },
+    {
+      "url": "/energy-efficient-custom-homes-in-tampa/",
+      "primary_keyword": "energy-efficient custom homes tampa save 40%+",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1408,
+      "title": "Energy-Efficient Custom Homes Tampa | Save 40%+"
+    },
+    {
+      "url": "/exterior-waterproofing-bradenton/",
+      "primary_keyword": "waterproofing contractor bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 501,
+      "title": "Exterior Waterproofing Bradenton | Envelope | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing-brandon/",
+      "primary_keyword": "waterproofing contractor brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 476,
+      "title": "Exterior Waterproofing Brandon | Envelope | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing-clearwater/",
+      "primary_keyword": "waterproofing contractor clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 725,
+      "title": "Exterior Waterproofing in Clearwater"
+    },
+    {
+      "url": "/exterior-waterproofing-lakeland/",
+      "primary_keyword": "waterproofing contractor lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 487,
+      "title": "Exterior Waterproofing Lakeland | Envelope | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing-ruskin/",
+      "primary_keyword": "waterproofing contractor ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 614,
+      "title": "Exterior Waterproofing Ruskin FL | FCS Headquarters"
+    },
+    {
+      "url": "/exterior-waterproofing-sarasota/",
+      "primary_keyword": "waterproofing contractor sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 507,
+      "title": "Exterior Waterproofing Sarasota | Envelope | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing-st-petersburg/",
+      "primary_keyword": "waterproofing contractor st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 505,
+      "title": "Exterior Waterproofing St. Petersburg | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing-tampa/",
+      "primary_keyword": "waterproofing contractor tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 447,
+      "title": "Exterior Waterproofing Tampa FL | Envelope | FCS"
+    },
+    {
+      "url": "/fire-damage-restoration-and-insurance-in-tampa/",
+      "primary_keyword": "commercial fire damage restoration & insurance",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2782,
+      "title": "Commercial Fire Damage Restoration & Insurance in Tampa"
+    },
+    {
+      "url": "/flood-remediation-contractors-in-tampa/",
+      "primary_keyword": "flood remediation tampa commercial damage",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 722,
+      "title": "Flood Remediation Tampa | Commercial Damage | FCS"
+    },
+    {
+      "url": "/florida-construction-specialists-committed-to-the-community-in-tampa/",
+      "primary_keyword": "- committed to the tampa community",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 691,
+      "title": "FCS - Committed to the Tampa Community"
+    },
+    {
+      "url": "/floridas-top-commercial-contractor-in-tampa/",
+      "primary_keyword": "floridas top commercial contractor tampa",
+      "source": "derived-url",
+      "page_type": "service-location",
+      "wordCount": 410,
+      "title": "Florida"
+    },
+    {
+      "url": "/funding-and-grants-for-historic-restoration-in-tampa/",
+      "primary_keyword": "funding and grants for historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1462,
+      "title": "Funding and Grants for Historic Restoration in Tampa"
+    },
+    {
+      "url": "/gourmet-kitchen-design-in-tampa/",
+      "primary_keyword": "gourmet kitchen design luxury custom kitchens",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1471,
+      "title": "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens"
+    },
+    {
+      "url": "/high-end-home-construction-in-tampa/",
+      "primary_keyword": "high-end home construction luxury custom builders",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1237,
+      "title": "High-End Home Construction in Tampa | Luxury Custom Builders"
+    },
+    {
+      "url": "/hiring-a-commercial-contractor-in-tampa/",
+      "primary_keyword": "hiring a commercial contractor tampa guide",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 770,
+      "title": "Hiring a Commercial Contractor Tampa | Guide"
+    },
+    {
+      "url": "/hiring-commercial-contractors-in-tampa/",
+      "primary_keyword": "hiring commercial contractors: complete guide",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1206,
+      "title": "Hiring Commercial Contractors in Tampa: Complete Guide | FCS"
+    },
+    {
+      "url": "/historic-building-preservation-in-tampa/",
+      "primary_keyword": "historic building preservation",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1276,
+      "title": "Historic Building Preservation Tampa | FCS"
+    },
+    {
+      "url": "/historic-building-structural-assessment-in-tampa/",
+      "primary_keyword": "historic building structural assessment",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3852,
+      "title": "Historic Building Structural Assessment in Tampa"
+    },
+    {
+      "url": "/historic-masonry-restoration-techniques-in-tampa/",
+      "primary_keyword": "historic masonry restoration techniques",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3917,
+      "title": "Historic Masonry Restoration Techniques in Tampa"
+    },
+    {
+      "url": "/historic-plaster-repair-techniques-in-tampa/",
+      "primary_keyword": "historic plaster repair tampa traditional methods",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 4123,
+      "title": "Historic Plaster Repair Tampa | Traditional Methods | FCS"
+    },
+    {
+      "url": "/historic-restoration-bradenton/",
+      "primary_keyword": "historic restoration bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 872,
+      "title": "Historic Restoration Bradenton FL | Village | FCS"
+    },
+    {
+      "url": "/historic-restoration-brandon/",
+      "primary_keyword": "historic restoration brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 927,
+      "title": "Historic Restoration Brandon | Mid-Century | FCS"
+    },
+    {
+      "url": "/historic-restoration-clearwater/",
+      "primary_keyword": "historic restoration clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 1098,
+      "title": "Historic Restoration Clearwater | Harbor Oaks"
+    },
+    {
+      "url": "/historic-restoration-lakeland/",
+      "primary_keyword": "historic restoration lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 1064,
+      "title": "Historic Restoration Lakeland | Frank Lloyd Wright"
+    },
+    {
+      "url": "/historic-restoration-projects-in-tampa/",
+      "primary_keyword": "historic restoration projects tampa portfolio",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1621,
+      "title": "Historic Restoration Projects Tampa | FCS Portfolio"
+    },
+    {
+      "url": "/historic-restoration-ruskin/",
+      "primary_keyword": "historic restoration ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 875,
+      "title": "Historic Restoration Ruskin FL | Colony Heritage"
+    },
+    {
+      "url": "/historic-restoration-sarasota/",
+      "primary_keyword": "historic restoration sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 1055,
+      "title": "Historic Restoration Sarasota FL | Architecture | FCS"
+    },
+    {
+      "url": "/historic-restoration-st-petersburg/",
+      "primary_keyword": "historic restoration st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 1200,
+      "title": "Historic Restoration in St. Petersburg"
+    },
+    {
+      "url": "/historic-restoration-tampa/",
+      "primary_keyword": "historic restoration tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 778,
+      "title": "Historic Restoration in Tampa"
+    },
+    {
+      "url": "/historical-commercial-construction-in-tampa/",
+      "primary_keyword": "historic commercial construction tampa heritage building",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 4667,
+      "title": "Historic Commercial Construction Tampa | Heritage Building"
+    },
+    {
+      "url": "/historical-landmarks-restoration-in-tampa/",
+      "primary_keyword": "historical landmarks restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 4761,
+      "title": "Historical Landmarks Restoration in Tampa"
+    },
+    {
+      "url": "/hurricane-damage-repair-services-in-tampa/",
+      "primary_keyword": "hurricane damage repair services",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2689,
+      "title": "Hurricane Damage Repair Services in Tampa"
+    },
+    {
+      "url": "/hurricane-proof-reconstruction-services-in-tampa/",
+      "primary_keyword": "hurricane-proof reconstruction tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 954,
+      "title": "Hurricane-Proof Reconstruction Tampa | Commercial"
+    },
+    {
+      "url": "/impact-of-climate-on-historic-restoration-in-tampa/",
+      "primary_keyword": "impact of climate on historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1400,
+      "title": "Impact of Climate on Historic Restoration in Tampa"
+    },
+    {
+      "url": "/impacts-of-technology-on-historic-restoration-in-tampa/",
+      "primary_keyword": "impacts of technology on historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1422,
+      "title": "Impacts of Technology on Historic Restoration in Tampa"
+    },
+    {
+      "url": "/industrial-property-restoration-services-after-damage-in-tampa/",
+      "primary_keyword": "industrial property restoration tampa warehouse",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 892,
+      "title": "Industrial Property Restoration Tampa | Warehouse"
+    },
+    {
+      "url": "/industrial-site-disaster-response-in-tampa/",
+      "primary_keyword": "industrial disaster response tampa emergency",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 313,
+      "title": "Industrial Disaster Response Tampa | Emergency"
+    },
+    {
+      "url": "/insurance-restoration-bradenton/",
+      "primary_keyword": "insurance restoration bradenton 43 years",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1854,
+      "title": "Insurance Restoration Bradenton | 43 Years | FCS"
+    },
+    {
+      "url": "/insurance-restoration-brandon/",
+      "primary_keyword": "insurance restoration brandon fl storm damage",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1430,
+      "title": "Insurance Restoration Brandon FL | Storm Damage | FCS"
+    },
+    {
+      "url": "/insurance-restoration-clearwater/",
+      "primary_keyword": "insurance restoration clearwater 43 years",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1651,
+      "title": "Insurance Restoration Clearwater | 43 Years | FCS"
+    },
+    {
+      "url": "/insurance-restoration-compliance-and-regulations-in-tampa/",
+      "primary_keyword": "insurance restoration compliance tampa laws",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 566,
+      "title": "Insurance Restoration Compliance Tampa | Laws"
+    },
+    {
+      "url": "/insurance-restoration-lakeland/",
+      "primary_keyword": "insurance restoration lakeland fl property damage",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2739,
+      "title": "Insurance Restoration Lakeland FL | Property Damage | FCS"
+    },
+    {
+      "url": "/insurance-restoration-project-management-in-tampa/",
+      "primary_keyword": "insurance restoration pm tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 547,
+      "title": "Insurance Restoration PM Tampa | Commercial"
+    },
+    {
+      "url": "/insurance-restoration-ruskin/",
+      "primary_keyword": "insurance restoration ruskin fl headquarters",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2222,
+      "title": "Insurance Restoration Ruskin FL | FCS Headquarters"
+    },
+    {
+      "url": "/insurance-restoration-sarasota/",
+      "primary_keyword": "insurance restoration sarasota fl hurricane recovery",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1055,
+      "title": "Insurance Restoration Sarasota FL | Hurricane Recovery | FCS"
+    },
+    {
+      "url": "/insurance-restoration-st-petersburg/",
+      "primary_keyword": "insurance restoration st. petersburg 43 years",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1467,
+      "title": "Insurance Restoration St. Petersburg | 43 Years"
+    },
+    {
+      "url": "/insurance-restoration-tampa/",
+      "primary_keyword": "insurance restoration tampa 43 years claims experience",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1347,
+      "title": "Insurance Restoration Tampa | 43 Years Claims Experience"
+    },
+    {
+      "url": "/key-benefits-of-choosing-a-local-general-contractor-in-tampa/",
+      "primary_keyword": "benefits of local general contractor",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1581,
+      "title": "Benefits of Local General Contractor Tampa | FCS"
+    },
+    {
+      "url": "/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/",
+      "primary_keyword": "choosing top commercial contractor",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1485,
+      "title": "Choosing Top Commercial Contractor Tampa | FCS"
+    },
+    {
+      "url": "/leading-commercial-contractors-in-tampa/",
+      "primary_keyword": "leading commercial contractors",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 425,
+      "title": "Leading Commercial Contractors in Tampa"
+    },
+    {
+      "url": "/leading-engineering-services-for-commercial-buildings-in-tampa/",
+      "primary_keyword": "engineering services tampa structural & mep",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 605,
+      "title": "Engineering Services Tampa | Structural & MEP | FCS"
+    },
+    {
+      "url": "/legal-aspects-of-insurance-restoration-in-tampa/",
+      "primary_keyword": "legal aspects of insurance restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1412,
+      "title": "Legal Aspects of Insurance Restoration in Tampa"
+    },
+    {
+      "url": "/luxury-commercial-construction-in-tampa/",
+      "primary_keyword": "luxury commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1486,
+      "title": "Luxury Commercial Construction in Tampa"
+    },
+    {
+      "url": "/luxury-custom-homes-bradenton/",
+      "primary_keyword": "luxury home builder bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 593,
+      "title": "Luxury Custom Homes Bradenton | Waterfront | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-brandon/",
+      "primary_keyword": "luxury home builder brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 560,
+      "title": "Luxury Custom Homes Brandon | FishHawk | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-clearwater/",
+      "primary_keyword": "luxury home builder clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 542,
+      "title": "Luxury Custom Homes Clearwater | Beach | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-lakeland/",
+      "primary_keyword": "luxury home builder lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 622,
+      "title": "Luxury Custom Homes Lakeland FL | Lakefront Estates | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-ruskin/",
+      "primary_keyword": "luxury home builder ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 606,
+      "title": "Luxury Custom Homes Ruskin FL | Apollo Beach | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-sarasota/",
+      "primary_keyword": "luxury home builder sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 659,
+      "title": "Luxury Custom Homes Sarasota | Barrier Island"
+    },
+    {
+      "url": "/luxury-custom-homes-st-petersburg/",
+      "primary_keyword": "luxury home builder st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 613,
+      "title": "Luxury Custom Homes St. Petersburg | $1M+ | FCS"
+    },
+    {
+      "url": "/luxury-custom-homes-tampa/",
+      "primary_keyword": "luxury home builder tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 530,
+      "title": "Luxury Custom Homes Tampa | Waterfront | FCS"
+    },
+    {
+      "url": "/materials-for-historic-restoration-in-tampa/",
+      "primary_keyword": "materials for historic restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1384,
+      "title": "Materials for Historic Restoration in Tampa"
+    },
+    {
+      "url": "/maximize-insurance-payouts-for-restoration-in-tampa/",
+      "primary_keyword": "maximize insurance payouts tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 563,
+      "title": "Maximize Insurance Payouts Tampa | Commercial"
+    },
+    {
+      "url": "/mold-remediation-and-insurance-coverage-in-tampa/",
+      "primary_keyword": "mold remediation & insurance tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 575,
+      "title": "Mold Remediation & Insurance Tampa | Commercial"
+    },
+    {
+      "url": "/multi-family-construction-bradenton/",
+      "primary_keyword": "multi family construction bradenton",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 977,
+      "title": "Multi-Family Construction Bradenton | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-brandon/",
+      "primary_keyword": "multi family construction brandon",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 879,
+      "title": "Multi-Family Construction Brandon | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-clearwater/",
+      "primary_keyword": "multi family construction clearwater",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 787,
+      "title": "Multi-Family Construction Clearwater | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-lakeland/",
+      "primary_keyword": "multi family construction lakeland",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 4,
+      "wordCount": 806,
+      "title": "Multi-Family Construction Lakeland | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-ruskin/",
+      "primary_keyword": "multi family construction ruskin",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 5,
+      "wordCount": 766,
+      "title": "Multi-Family Construction Ruskin | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-sarasota/",
+      "primary_keyword": "multi family construction sarasota",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 3,
+      "wordCount": 814,
+      "title": "Multi-Family Construction Sarasota | Condos | FCS"
+    },
+    {
+      "url": "/multi-family-construction-st-petersburg/",
+      "primary_keyword": "multi family construction st petersburg",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 825,
+      "title": "Multi-Family Construction St. Petersburg | FCS"
+    },
+    {
+      "url": "/multi-family-construction-tampa/",
+      "primary_keyword": "multi family construction tampa",
+      "source": "existing",
+      "page_type": "service-location",
+      "search_intent": "transactional",
+      "page_priority": 1,
+      "wordCount": 714,
+      "title": "Multi-Family Construction Tampa FL | Condos | FCS"
+    },
+    {
+      "url": "/office-building-renovation-in-tampa/",
+      "primary_keyword": "office building renovation tampa modernization",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 760,
+      "title": "Office Building Renovation Tampa | Modernization"
+    },
+    {
+      "url": "/pet-friendly-home-designs-in-tampa/",
+      "primary_keyword": "pet-friendly home designs tampa custom homes",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1442,
+      "title": "Pet-Friendly Home Designs Tampa | Custom Homes"
+    },
+    {
+      "url": "/post-disaster-health-and-safety-inspections-in-tampa/",
+      "primary_keyword": "post-disaster safety inspections tampa hurricane",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 824,
+      "title": "Post-Disaster Safety Inspections Tampa | Hurricane"
+    },
+    {
+      "url": "/post-disaster-interior-restoration-in-tampa/",
+      "primary_keyword": "post-disaster interior restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 928,
+      "title": "Post-Disaster Interior Restoration Tampa"
+    },
+    {
+      "url": "/post-disaster-landscaping-restoration-in-tampa/",
+      "primary_keyword": "post-disaster landscaping restoration",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 792,
+      "title": "Post-Disaster Landscaping Restoration Tampa"
+    },
+    {
+      "url": "/pre-construction-services-tampa/",
+      "primary_keyword": "pre-construction services",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 523,
+      "title": "Pre-Construction Services Tampa"
+    },
+    {
+      "url": "/preparing-for-insurance-restoration-consultations-in-tampa/",
+      "primary_keyword": "insurance restoration consultations tampa guide",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 606,
+      "title": "Insurance Restoration Consultations Tampa | Guide"
+    },
+    {
+      "url": "/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/",
+      "primary_keyword": "importance of proper permits tampa commercial",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 745,
+      "title": "Importance of Proper Permits Tampa | Commercial"
+    },
+    {
+      "url": "/property-damage-assessment-for-insurance-claims-in-tampa/",
+      "primary_keyword": "property damage assessment tampa insurance claims",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 993,
+      "title": "Property Damage Assessment Tampa | Insurance Claims"
+    },
+    {
+      "url": "/residential-insurance-restoration-services-in-tampa/",
+      "primary_keyword": "residential insurance restoration tampa homes",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 526,
+      "title": "Residential Insurance Restoration Tampa | Homes"
+    },
+    {
+      "url": "/roof-damage-restoration-and-insurance-claims-in-tampa/",
+      "primary_keyword": "roof damage restoration tampa insurance claims",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 739,
+      "title": "Roof Damage Restoration Tampa | Insurance Claims"
+    },
+    {
+      "url": "/secure-custom-home-construction-in-tampa/",
+      "primary_keyword": "secure custom home construction tampa safety",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1372,
+      "title": "Secure Custom Home Construction Tampa | Safety"
+    },
+    {
+      "url": "/smooth-commercial-renovations-solution-in-tampa/",
+      "primary_keyword": "smooth commercial renovations tampa stay open",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 902,
+      "title": "Smooth Commercial Renovations Tampa | Stay Open"
+    },
+    {
+      "url": "/spacious-family-homes-construction-in-tampa/",
+      "primary_keyword": "spacious family homes tampa large custom homes",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1396,
+      "title": "Spacious Family Homes Tampa | Large Custom Homes"
+    },
+    {
+      "url": "/sustainable-commercial-construction-in-tampa/",
+      "primary_keyword": "leading sustainable commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 974,
+      "title": "Leading Sustainable Commercial Construction in Tampa"
+    },
+    {
+      "url": "/sustainable-urban-development-in-tampa/",
+      "primary_keyword": "sustainable urban development",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1096,
+      "title": "Sustainable Urban Development in Tampa"
+    },
+    {
+      "url": "/technology-role-in-insurance-restoration-processes-in-tampa/",
+      "primary_keyword": "technology insurance restoration tools",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 578,
+      "title": "Technology in Tampa Insurance Restoration | Tools"
+    },
+    {
+      "url": "/tenant-improvement-contractors-tampa/",
+      "primary_keyword": "tenant improvement contractors tampa ti",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2374,
+      "title": "Tenant Improvement Contractors Tampa | TI | FCS"
+    },
+    {
+      "url": "/the-importance-of-quality-construction-materials-in-tampa/",
+      "primary_keyword": "quality construction materials tampa code",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 694,
+      "title": "Quality Construction Materials Tampa | Code"
+    },
+    {
+      "url": "/the-key-traits-of-top-commercial-contractors-in-tampa/",
+      "primary_keyword": "key traits of top commercial contractors",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3128,
+      "title": "Key Traits of Top Commercial Contractors Tampa"
+    },
+    {
+      "url": "/the-preferred-commercial-general-contractors-in-tampa/",
+      "primary_keyword": "preferred commercial general contractors",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2638,
+      "title": "Preferred Commercial General Contractors in Tampa"
+    },
+    {
+      "url": "/tips-for-choosing-a-commercial-contractor-in-tampa/",
+      "primary_keyword": "tips for choosing a commercial contractor",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1281,
+      "title": "Tips for Choosing a Commercial Contractor in Tampa"
+    },
+    {
+      "url": "/tips-for-parking-lot-maintenance-in-tampa/",
+      "primary_keyword": "parking lot maintenance tampa commercial guide",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1879,
+      "title": "Parking Lot Maintenance Tampa | Commercial Guide"
+    },
+    {
+      "url": "/top-bonded-insured-commercial-contractor-in-tampa/",
+      "primary_keyword": "bonded & insured commercial contractor",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 3165,
+      "title": "Top Bonded & Insured Commercial Contractor in Tampa"
+    },
+    {
+      "url": "/top-commercial-construction-trends-in-tampa/",
+      "primary_keyword": "commercial construction trends",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1227,
+      "title": "Top Commercial Construction Trends in Tampa"
+    },
+    {
+      "url": "/top-commercial-contractors-in-tampa/",
+      "primary_keyword": "commercial contractors tampa 2024 guide",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 431,
+      "title": "Top Commercial Contractors Tampa 2024 | Guide"
+    },
+    {
+      "url": "/top-commercial-modular-construction-in-tampa/",
+      "primary_keyword": "commercial modular construction tampa prefab",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2169,
+      "title": "Commercial Modular Construction Tampa | Prefab"
+    },
+    {
+      "url": "/trends-and-future-of-commercial-construction-in-tampa/",
+      "primary_keyword": "future of commercial construction tampa 2024",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2739,
+      "title": "Future of Commercial Construction Tampa | 2024"
+    },
+    {
+      "url": "/water-damage-mitigation-in-tampa/",
+      "primary_keyword": "water damage mitigation",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1861,
+      "title": "Water Damage Mitigation in Tampa"
+    },
+    {
+      "url": "/water-damage-restoration-insurance-claims-in-tampa/",
+      "primary_keyword": "water damage restoration insurance claims",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 2208,
+      "title": "Water Damage Restoration Insurance Claims in Tampa"
+    },
+    {
+      "url": "/waterfront-custom-homes-in-tampa/",
+      "primary_keyword": "waterfront custom homes luxury bayfront living",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1397,
+      "title": "Waterfront Custom Homes in Tampa | Luxury Bayfront Living"
+    },
+    {
+      "url": "/your-top-choice-for-commercial-construction-in-tampa/",
+      "primary_keyword": "your top choice for commercial construction",
+      "source": "derived-title",
+      "page_type": "service-location",
+      "wordCount": 1164,
+      "title": "Your Top Choice for Commercial Construction in Tampa"
+    },
+    {
+      "url": "/",
+      "primary_keyword": "tampa commercial construction",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 6,
+      "title": "Tampa Commercial Construction | Florida Construction Specialists"
+    },
+    {
+      "url": "/about/",
+      "primary_keyword": "about us",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 350,
+      "title": "About Us | Tampa Bay"
+    },
+    {
+      "url": "/balcony-reconstruction/",
+      "primary_keyword": "balcony reconstruction florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 5151,
+      "title": "Balcony Reconstruction Tampa | Condo Repair | FCS"
+    },
+    {
+      "url": "/commercial-construction/",
+      "primary_keyword": "commercial construction tampa bay",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 428,
+      "title": "Large-Scale Commercial Construction | $500K - $25M+ Projects"
+    },
+    {
+      "url": "/commercial/",
+      "primary_keyword": "commercial construction tampa $500k-$25m+",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 877,
+      "title": "Commercial Construction Tampa | $500K-$25M+ | FCS"
+    },
+    {
+      "url": "/commercial/condo-remediation/",
+      "primary_keyword": "sb4-d compliance tampa condo milestone",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 4060,
+      "title": "SB4-D Compliance Tampa | Condo Milestone | FCS"
+    },
+    {
+      "url": "/commercial/historic-restoration/",
+      "primary_keyword": "historic restoration tampa shpo compliance",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 5741,
+      "title": "Historic Restoration Tampa | SHPO Compliance | FCS"
+    },
+    {
+      "url": "/commercial/industrial-construction/",
+      "primary_keyword": "industrial construction tampa tilt-wall",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 4392,
+      "title": "Industrial Construction Tampa | Tilt-Wall | FCS"
+    },
+    {
+      "url": "/contact/",
+      "primary_keyword": "contact us",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 47,
+      "title": "Contact Us"
+    },
+    {
+      "url": "/disaster-recovery/",
+      "primary_keyword": "disaster recovery contractor florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 7657,
+      "title": "Storm & Disaster Recovery Tampa | 43 Years | FCS"
+    },
+    {
+      "url": "/exterior-waterproofing/",
+      "primary_keyword": "building envelope florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 3886,
+      "title": "Exterior Waterproofing Tampa | Florida | FCS"
+    },
+    {
+      "url": "/gallery/",
+      "primary_keyword": "project gallery tampa commercial portfolio",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 128,
+      "title": "Project Gallery Tampa | Commercial Portfolio | FCS"
+    },
+    {
+      "url": "/historic-restoration/",
+      "primary_keyword": "historic restoration florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 178,
+      "title": "Historic Restoration & Preservation | Certified Specialists"
+    },
+    {
+      "url": "/insurance/",
+      "primary_keyword": "insurance restoration services",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 6,
+      "title": "Insurance Restoration Services Tampa | FCS"
+    },
+    {
+      "url": "/insurance/appraisal-arbitration/",
+      "primary_keyword": "appraisal & arbitration insurance claim disputes",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 848,
+      "title": "Appraisal & Arbitration | Insurance Claim Disputes | FCS Tampa"
+    },
+    {
+      "url": "/insurance/building-consultant/",
+      "primary_keyword": "building consultant insurance claims expert",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 951,
+      "title": "Building Consultant | Insurance Claims Expert | FCS Tampa"
+    },
+    {
+      "url": "/insurance/certified-estimating/",
+      "primary_keyword": "certified estimating xactimate insurance estimates",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 858,
+      "title": "Certified Estimating | Xactimate Insurance Estimates | FCS Tampa"
+    },
+    {
+      "url": "/insurance/fire-restoration/",
+      "primary_keyword": "fire restoration tampa commercial & residential fire damage repair",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 626,
+      "title": "Fire Restoration Tampa | Commercial & Residential Fire Damage Repair | FCS"
+    },
+    {
+      "url": "/insurance/hurricane-restoration/",
+      "primary_keyword": "hurricane restoration tampa storm damage repair contractor",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 630,
+      "title": "Hurricane Restoration Tampa | Storm Damage Repair Contractor | FCS"
+    },
+    {
+      "url": "/insurance/licensed-general-contractor/",
+      "primary_keyword": "licensed general contractor insurance restoration",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 253,
+      "title": "Licensed General Contractor | Insurance Restoration | FCS Tampa"
+    },
+    {
+      "url": "/insurance/mold-remediation/",
+      "primary_keyword": "mold remediation professional mold removal",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 1035,
+      "title": "Mold Remediation | Professional Mold Removal | FCS Tampa"
+    },
+    {
+      "url": "/insurance/water-restoration/",
+      "primary_keyword": "water restoration tampa flood damage repair contractor",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 504,
+      "title": "Water Restoration Tampa | Flood Damage Repair Contractor | FCS"
+    },
+    {
+      "url": "/locations/",
+      "primary_keyword": "locations",
+      "source": "derived-url",
+      "page_type": "hub",
+      "wordCount": 72,
+      "title": "Locations"
+    },
+    {
+      "url": "/luxury-custom-homes/",
+      "primary_keyword": "luxury home builder tampa bay",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 4977,
+      "title": "Luxury Custom Home Builders Tampa | Waterfront"
+    },
+    {
+      "url": "/multi-family-construction/",
+      "primary_keyword": "multi family construction tampa bay",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 4685,
+      "title": "Multi-Family Construction Tampa | Apartments | FCS"
+    },
+    {
+      "url": "/residential/",
+      "primary_keyword": "lifetime custom homes tampa luxury home builder",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 438,
+      "title": "Lifetime Custom Homes Tampa | Luxury Home Builder | FCS"
+    },
+    {
+      "url": "/resources/",
+      "primary_keyword": "resources & guides construction knowledge hub",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 135,
+      "title": "Resources & Guides | Construction Knowledge Hub | FCS Tampa"
+    },
+    {
+      "url": "/services/",
+      "primary_keyword": "tampa construction services",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 56,
+      "title": "Tampa Construction Services"
+    },
+    {
+      "url": "/services/commercial/",
+      "primary_keyword": "commercial construction",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 704,
+      "title": "Commercial Construction in Tampa Bay"
+    },
+    {
+      "url": "/services/commercial/commercial-additions/",
+      "primary_keyword": "commercial additions tampa building expansions",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 257,
+      "title": "Commercial Additions Tampa | Building Expansions | FCS"
+    },
+    {
+      "url": "/services/commercial/design-build/",
+      "primary_keyword": "design-build construction",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 392,
+      "title": "Design-Build Construction Tampa | FCS"
+    },
+    {
+      "url": "/services/commercial/industrial-construction/",
+      "primary_keyword": "industrial construction tampa warehouse",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 252,
+      "title": "Industrial Construction Tampa | Warehouse | FCS"
+    },
+    {
+      "url": "/services/commercial/multi-family/",
+      "primary_keyword": "multi-family construction tampa apartments & condos",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 247,
+      "title": "Multi-Family Construction Tampa | Apartments & Condos | FCS"
+    },
+    {
+      "url": "/services/commercial/retail-construction/",
+      "primary_keyword": "retail construction tampa shopping centers & stores",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 246,
+      "title": "Retail Construction Tampa | Shopping Centers & Stores | FCS"
+    },
+    {
+      "url": "/services/commercial/tenant-improvements/",
+      "primary_keyword": "tenant improvements tampa commercial buildouts & ti",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 258,
+      "title": "Tenant Improvements Tampa | Commercial Buildouts & TI | FCS"
+    },
+    {
+      "url": "/services/disaster-recovery/",
+      "primary_keyword": "disaster recovery contractor florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 654,
+      "title": "Disaster Recovery & Insurance Restoration in Tampa Bay"
+    },
+    {
+      "url": "/services/historic-restoration/",
+      "primary_keyword": "historic restoration florida",
+      "source": "existing",
+      "page_type": "hub",
+      "search_intent": "informational",
+      "page_priority": 1,
+      "wordCount": 660,
+      "title": "Historic Restoration & Preservation in Tampa Bay"
+    },
+    {
+      "url": "/services/residential/",
+      "primary_keyword": "luxury custom home construction",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 661,
+      "title": "Luxury Custom Home Construction in Tampa Bay"
+    },
+    {
+      "url": "/services/residential/home-additions/",
+      "primary_keyword": "home additions tampa room additions & expansions",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 262,
+      "title": "Home Additions Tampa | Room Additions & Expansions | FCS"
+    },
+    {
+      "url": "/services/residential/hurricane-resistant-construction/",
+      "primary_keyword": "hurricane-resistant home construction",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 278,
+      "title": "Hurricane-Resistant Home Construction Tampa | FCS"
+    },
+    {
+      "url": "/services/residential/kitchen-remodeling/",
+      "primary_keyword": "luxury kitchen remodeling tampa high-end",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 267,
+      "title": "Luxury Kitchen Remodeling Tampa | High-End | FCS"
+    },
+    {
+      "url": "/team/",
+      "primary_keyword": "our team leadership & expertise",
+      "source": "derived-title",
+      "page_type": "hub",
+      "wordCount": 109,
+      "title": "Our Team | Leadership & Expertise"
+    },
+    {
+      "url": "/locations/bradenton-fl/",
+      "primary_keyword": "construction contractor bradenton",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 261,
+      "title": "Bradenton Commercial Construction | $500K+ | FCS"
+    },
+    {
+      "url": "/locations/brandon-fl/",
+      "primary_keyword": "construction contractor brandon",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 279,
+      "title": "Brandon Commercial Construction | $500K+ | FCS"
+    },
+    {
+      "url": "/locations/clearwater-fl/",
+      "primary_keyword": "construction contractor clearwater",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 259,
+      "title": "Clearwater Commercial Construction | $500K+ | FCS"
+    },
+    {
+      "url": "/locations/lakeland-fl/",
+      "primary_keyword": "construction contractor lakeland",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 318,
+      "title": "Lakeland Commercial Restoration | $500K-$25M+ | FCS"
+    },
+    {
+      "url": "/locations/plant-city-fl/",
+      "primary_keyword": "plant city construction contractor commercial",
+      "source": "derived-title",
+      "page_type": "location",
+      "wordCount": 367,
+      "title": "Plant City Construction Contractor | Commercial | FCS"
+    },
+    {
+      "url": "/locations/ruskin-fl/",
+      "primary_keyword": "construction contractor ruskin",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 291,
+      "title": "Ruskin General Contractor | FCS HQ | $500K+"
+    },
+    {
+      "url": "/locations/sarasota-fl/",
+      "primary_keyword": "construction contractor sarasota",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 272,
+      "title": "Sarasota Commercial Construction | $500K+ | FCS"
+    },
+    {
+      "url": "/locations/st-petersburg-fl/",
+      "primary_keyword": "construction contractor st petersburg",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 290,
+      "title": "St. Petersburg Commercial Construction | $500K+ | FCS"
+    },
+    {
+      "url": "/locations/tampa-fl/",
+      "primary_keyword": "construction contractor tampa",
+      "source": "existing",
+      "page_type": "location",
+      "search_intent": "transactional",
+      "page_priority": 2,
+      "wordCount": 304,
+      "title": "Tampa Commercial Construction | $500K-$25M+ | FCS"
+    },
+    {
+      "url": "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+      "primary_keyword": "zero accident workplace tampa safety commitment",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 527,
+      "title": "Zero Accident Workplace Tampa | Safety Commitment"
+    },
+    {
+      "url": "/architectural-styles-in-tampas-historic-restoration/",
+      "primary_keyword": "architectural styles historic restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3090,
+      "title": "Architectural Styles in Tampa Historic Restoration"
+    },
+    {
+      "url": "/avoid-commercial-construction-delays-in-florida/",
+      "primary_keyword": "avoid commercial construction delays florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2633,
+      "title": "Avoid Commercial Construction Delays Florida"
+    },
+    {
+      "url": "/balcony-reconstruction-exterior-waterproofing/",
+      "primary_keyword": "balcony reconstruction & exterior waterproofing",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 828,
+      "title": "Balcony Reconstruction & Exterior Waterproofing | Tampa"
+    },
+    {
+      "url": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+      "primary_keyword": "balcony restoration & waterproofing",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 597,
+      "title": "Balcony Restoration & Waterproofing Tampa | FCS"
+    },
+    {
+      "url": "/balcony-restoration-services/",
+      "primary_keyword": "balcony restoration services tampa high-rise",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2469,
+      "title": "Balcony Restoration Services Tampa | High-Rise"
+    },
+    {
+      "url": "/balcony-safety-measures/",
+      "primary_keyword": "balcony safety measures florida compliance",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 978,
+      "title": "Balcony Safety Measures Florida | Compliance"
+    },
+    {
+      "url": "/balcony-waterproofing-for-long-lasting-protection/",
+      "primary_keyword": "balcony waterproofing tampa high-rise",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1627,
+      "title": "Balcony Waterproofing Tampa | High-Rise | FCS"
+    },
+    {
+      "url": "/benefits-of-design-build-construction-for-commercial-project/",
+      "primary_keyword": "design-build benefits for commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2076,
+      "title": "Design-Build Benefits for Commercial Tampa"
+    },
+    {
+      "url": "/benefits-of-sustainable-materials-in-commercial-construction/",
+      "primary_keyword": "benefits of sustainable materials in commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1354,
+      "title": "Benefits of Sustainable Materials in Commercial Construction"
+    },
+    {
+      "url": "/benefits-of-value-engineering-for-construction/",
+      "primary_keyword": "benefits of value engineering for construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 593,
+      "title": "Benefits of Value Engineering for Construction | Tampa FL"
+    },
+    {
+      "url": "/boosting-performance-in-florida-offices-windows/",
+      "primary_keyword": "office windows florida energy-efficient glazing",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 391,
+      "title": "Office Windows Florida | Energy-Efficient Glazing"
+    },
+    {
+      "url": "/breakaway-wall-construction-requirements/",
+      "primary_keyword": "breakaway wall construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 265,
+      "title": "Breakaway Wall Construction Tampa Bay | FCS"
+    },
+    {
+      "url": "/build-a-successful-future-in-construction-management/",
+      "primary_keyword": "construction management career",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3894,
+      "title": "Construction Management Career Tampa Bay | FCS"
+    },
+    {
+      "url": "/building-consultants/",
+      "primary_keyword": "building consultants construction consulting",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 582,
+      "title": "Building Consultants | Construction Consulting"
+    },
+    {
+      "url": "/building-hurricane-safe-structures-florida/",
+      "primary_keyword": "hurricane-safe structures florida guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2619,
+      "title": "Hurricane-Safe Structures Florida | Guide"
+    },
+    {
+      "url": "/building-plans-for-businesses-florida-construction-specialists/",
+      "primary_keyword": "building plans for businesses",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 4369,
+      "title": "Building Plans for Businesses Tampa | FCS"
+    },
+    {
+      "url": "/building-strong-communities-through-community-outreach/",
+      "primary_keyword": "building strong communities through community outreach",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1234,
+      "title": "Building Strong Communities Through Community Outreach"
+    },
+    {
+      "url": "/building-tampa-homes-with-personalized-office-spaces/",
+      "primary_keyword": "tampa homes with personalized office spaces",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1259,
+      "title": "Tampa Homes with Personalized Office Spaces"
+    },
+    {
+      "url": "/building-the-perfect-construction-blueprint/",
+      "primary_keyword": "building the perfect construction blueprint",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 834,
+      "title": "Building the Perfect Construction Blueprint"
+    },
+    {
+      "url": "/certified-estimates/",
+      "primary_keyword": "certified construction estimates",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 616,
+      "title": "Certified Construction Estimates"
+    },
+    {
+      "url": "/choose-between-general-contractor-and-construction-manager/",
+      "primary_keyword": "gc vs construction manager tampa which to choose",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3142,
+      "title": "GC vs Construction Manager Tampa | Which to Choose"
+    },
+    {
+      "url": "/choosing-the-perfect-location-for-commercial-construction/",
+      "primary_keyword": "choosing the perfect location for commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1164,
+      "title": "Choosing the Perfect Location for Commercial Construction"
+    },
+    {
+      "url": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+      "primary_keyword": "choosing waterproofing solutions tampa guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 533,
+      "title": "Choosing Waterproofing Solutions Tampa | Guide"
+    },
+    {
+      "url": "/church-renovation-tips-from-top-commercial-contractor/",
+      "primary_keyword": "church renovation tips tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3314,
+      "title": "Church Renovation Tips Tampa | Commercial | FCS"
+    },
+    {
+      "url": "/commercial-buildings-facade-renovations/",
+      "primary_keyword": "commercial facade renovations tampa exterior",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3431,
+      "title": "Commercial Facade Renovations Tampa | Exterior"
+    },
+    {
+      "url": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+      "primary_keyword": "commercial construction budgeting florida tips",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2700,
+      "title": "Commercial Construction Budgeting Florida | Tips"
+    },
+    {
+      "url": "/commercial-construction-delays/",
+      "primary_keyword": "managing commercial construction delays",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3126,
+      "title": "Managing Commercial Construction Delays"
+    },
+    {
+      "url": "/commercial-construction-ideas-for-mall-revamp/",
+      "primary_keyword": "mall revamp & conversion ideas",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 375,
+      "title": "Mall Revamp & Conversion Ideas Tampa | FCS"
+    },
+    {
+      "url": "/commercial-construction-insurance-coverage/",
+      "primary_keyword": "commercial construction insurance florida guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 559,
+      "title": "Commercial Construction Insurance Florida | Guide"
+    },
+    {
+      "url": "/commercial-construction-questions-answered/",
+      "primary_keyword": "commercial construction questions answered: expert guides",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1519,
+      "title": "Commercial Construction Questions Answered: Expert Guides"
+    },
+    {
+      "url": "/commercial-construction-stages-in-florida/",
+      "primary_keyword": "commercial construction stages florida 2024",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 975,
+      "title": "Commercial Construction Stages Florida | 2024"
+    },
+    {
+      "url": "/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+      "primary_keyword": "commercial construction vs remodeling florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1303,
+      "title": "Commercial Construction vs Remodeling Florida"
+    },
+    {
+      "url": "/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "primary_keyword": "commercial renovation secrets from florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1146,
+      "title": "Commercial Renovation Secrets from Florida"
+    },
+    {
+      "url": "/commercial-residential-construction-in-florida/",
+      "primary_keyword": "commercial residential construction in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 4448,
+      "title": "Commercial Residential Construction in Florida"
+    },
+    {
+      "url": "/common-construction-mistakes-to-avoid-for-commercial-project/",
+      "primary_keyword": "construction mistakes to avoid commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1356,
+      "title": "Construction Mistakes to Avoid | Commercial Tampa"
+    },
+    {
+      "url": "/condo-balcony-inspection-requirements/",
+      "primary_keyword": "condo balcony inspection florida sb 4-d",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 240,
+      "title": "Condo Balcony Inspection Florida | SB 4-D | FCS"
+    },
+    {
+      "url": "/condo-milestone-inspection-remediation/",
+      "primary_keyword": "condo milestone inspection remediation fl",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 892,
+      "title": "Condo Milestone Inspection Remediation FL | FCS"
+    },
+    {
+      "url": "/condo-structural-reserve-study-repairs/",
+      "primary_keyword": "condo reserve study repairs sirs",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 975,
+      "title": "Condo Reserve Study Repairs | SIRS | FCS Tampa"
+    },
+    {
+      "url": "/construction-florida-leading-way-leed-certification/",
+      "primary_keyword": "florida construction leed certification leader",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1040,
+      "title": "Florida Construction | LEED Certification Leader"
+    },
+    {
+      "url": "/construction-project-management-and-scheduling/",
+      "primary_keyword": "construction project management tampa tips",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 575,
+      "title": "Construction Project Management Tampa | Tips"
+    },
+    {
+      "url": "/construction-quotes-for-commercial-project/",
+      "primary_keyword": "construction quotes for commercial projects",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 585,
+      "title": "Construction Quotes for Commercial Projects | Tampa FL"
+    },
+    {
+      "url": "/contractors-role-in-tampa-insurance-restoration/",
+      "primary_keyword": "contractors role tampa insurance restoration",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 2788,
+      "title": "Contractor"
+    },
+    {
+      "url": "/converting-retail-building-into-multi-tenant-space/",
+      "primary_keyword": "converting retail to multi-tenant",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 308,
+      "title": "Converting Retail to Multi-Tenant | Tampa Bay"
+    },
+    {
+      "url": "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+      "primary_keyword": "commercial blueprint tampa construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 840,
+      "title": "Commercial Blueprint Tampa | FCS Construction"
+    },
+    {
+      "url": "/creating-unique-bedrooms-in-tampa-custom-homes/",
+      "primary_keyword": "unique bedrooms custom homes luxury",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1461,
+      "title": "Unique Bedrooms in Tampa Custom Homes | Luxury"
+    },
+    {
+      "url": "/custom-homes/",
+      "primary_keyword": "custom home builder tampa bay waterfront",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 541,
+      "title": "Custom Home Builder Tampa Bay | Waterfront | FCS"
+    },
+    {
+      "url": "/customized-outdoor-sports-facilities-in-tampa-homes/",
+      "primary_keyword": "outdoor sports facilities tampa homes courts",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1351,
+      "title": "Outdoor Sports Facilities Tampa Homes | Courts"
+    },
+    {
+      "url": "/decoding-commercial-construction-costs/",
+      "primary_keyword": "commercial construction costs",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 554,
+      "title": "Commercial Construction Costs Tampa Bay | FCS"
+    },
+    {
+      "url": "/decoding-value-engineering-florida-construction-expertise/",
+      "primary_keyword": "value engineering florida construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 544,
+      "title": "Value Engineering Florida | Construction Tampa"
+    },
+    {
+      "url": "/demystifying-commercial-construction-insurance-in-florida/",
+      "primary_keyword": "demystifying commercial construction insurance in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1161,
+      "title": "Demystifying Commercial Construction Insurance in Florida"
+    },
+    {
+      "url": "/disaster-recovery-insurance-restoration/",
+      "primary_keyword": "disaster recovery & insurance restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2969,
+      "title": "Disaster Recovery & Insurance Restoration Tampa"
+    },
+    {
+      "url": "/discover-the-benefits-of-exterior-waterproofing/",
+      "primary_keyword": "benefits of exterior waterproofing",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 707,
+      "title": "Benefits of Exterior Waterproofing Tampa Bay"
+    },
+    {
+      "url": "/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+      "primary_keyword": "balcony decking options for high-rise buildings",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2439,
+      "title": "Best Balcony Decking Options for High-Rise Buildings Tampa"
+    },
+    {
+      "url": "/effective-balcony-maintenance-tips/",
+      "primary_keyword": "balcony maintenance tips tampa high-rise",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1954,
+      "title": "Balcony Maintenance Tips Tampa | High-Rise"
+    },
+    {
+      "url": "/effective-exterior-waterproofing-methods-for-your-property/",
+      "primary_keyword": "exterior waterproofing methods tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2579,
+      "title": "Exterior Waterproofing Methods Tampa | Commercial"
+    },
+    {
+      "url": "/efficient-site-planning-for-commercial-construction-in-florida/",
+      "primary_keyword": "site planning for commercial construction fl",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3151,
+      "title": "Site Planning for Commercial Construction FL"
+    },
+    {
+      "url": "/employee-communication-with-office-layout/",
+      "primary_keyword": "office layout for communication tampa design",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 369,
+      "title": "Office Layout for Communication Tampa | Design"
+    },
+    {
+      "url": "/engineering/",
+      "primary_keyword": "engineering coordination services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 695,
+      "title": "Engineering Coordination Services"
+    },
+    {
+      "url": "/enhancing-commercial-property-value/",
+      "primary_keyword": "enhance commercial property value",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2251,
+      "title": "Enhance Commercial Property Value Tampa | FCS"
+    },
+    {
+      "url": "/ensuring-construction-site-safety-a-top-priority/",
+      "primary_keyword": "construction site safety tampa top priority",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 892,
+      "title": "Construction Site Safety Tampa | Top Priority"
+    },
+    {
+      "url": "/environmental-considerations-in-tampa-insurance-restoration/",
+      "primary_keyword": "environmental considerations insurance restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3360,
+      "title": "Environmental Considerations in Tampa Insurance Restoration"
+    },
+    {
+      "url": "/experienced-design-build-firm-in-florida/",
+      "primary_keyword": "experienced design-build firm in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 579,
+      "title": "Experienced Design-Build Firm in Florida"
+    },
+    {
+      "url": "/expert-balcony-construction-guidelines-for-optimal-results/",
+      "primary_keyword": "balcony construction guidelines tampa high-rise",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2532,
+      "title": "Balcony Construction Guidelines Tampa | High-Rise"
+    },
+    {
+      "url": "/expert-insights-on-ways-t0-enhanced-office-building-security/",
+      "primary_keyword": "office building security tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 349,
+      "title": "Office Building Security Tampa | Commercial"
+    },
+    {
+      "url": "/expert-tips-for-planning-your-commercial-construction-project/",
+      "primary_keyword": "planning commercial construction tampa tips",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 627,
+      "title": "Planning Commercial Construction Tampa | Tips"
+    },
+    {
+      "url": "/expert-witness/",
+      "primary_keyword": "construction expert witness services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2140,
+      "title": "Construction Expert Witness Services"
+    },
+    {
+      "url": "/exterior-waterproofing-solution-for-a-dry-and-protected-home/",
+      "primary_keyword": "exterior waterproofing commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2250,
+      "title": "Exterior Waterproofing Commercial Tampa | FCS"
+    },
+    {
+      "url": "/factors-influencing-commercial-construction-project-timeline/",
+      "primary_keyword": "factors influencing commercial construction project timeline",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1330,
+      "title": "Factors Influencing Commercial Construction Project timeline"
+    },
+    {
+      "url": "/fema-50-percent-rule-explained/",
+      "primary_keyword": "fema 50% rule tampa substantial improvement",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 359,
+      "title": "FEMA 50% Rule Tampa | Substantial Improvement"
+    },
+    {
+      "url": "/financial-planning-for-commercial-construction/",
+      "primary_keyword": "financial planning commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 641,
+      "title": "Financial Planning Commercial Construction Tampa"
+    },
+    {
+      "url": "/flood-zone-ve-vs-ae-guide/",
+      "primary_keyword": "flood zone ve vs ae tampa bay waterfront",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 254,
+      "title": "Flood Zone VE vs AE Tampa Bay | Waterfront"
+    },
+    {
+      "url": "/florida-construction-specialists-mastering-your-post-construction-checklist/",
+      "primary_keyword": "master your post-construction checklist",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 608,
+      "title": "Master Your Post-Construction Checklist"
+    },
+    {
+      "url": "/florida-sb4d-compliance-guide/",
+      "primary_keyword": "florida sb4-d compliance guide milestone",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 326,
+      "title": "Florida SB4-D Compliance Guide | Milestone | FCS"
+    },
+    {
+      "url": "/foundation-restoration-services-in-tampa-after-flooding/",
+      "primary_keyword": "foundation restoration services after flooding",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2397,
+      "title": "Foundation Restoration Services in Tampa After Flooding"
+    },
+    {
+      "url": "/green-contractor-certifications-in-commercial-construction/",
+      "primary_keyword": "green contractor certifications in commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1010,
+      "title": "Green Contractor Certifications in Commercial Construction"
+    },
+    {
+      "url": "/guide-to-waterproofing-solutions-for-basements/",
+      "primary_keyword": "basement waterproofing tampa below-grade solutions",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2730,
+      "title": "Basement Waterproofing Tampa | Below-Grade Solutions | FCS"
+    },
+    {
+      "url": "/hire-licensed-contractors-for-commercial-construction-project/",
+      "primary_keyword": "licensed contractors for commercial florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 345,
+      "title": "Licensed Contractors for Commercial | Florida"
+    },
+    {
+      "url": "/historic-restoration-preservation/",
+      "primary_keyword": "historic restoration & preservation",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2214,
+      "title": "Historic Restoration & Preservation Tampa FL"
+    },
+    {
+      "url": "/historical-accuracy-in-tampa-restoration/",
+      "primary_keyword": "historical accuracy restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1556,
+      "title": "Historical Accuracy in Tampa Restoration"
+    },
+    {
+      "url": "/how-technology-is-revolutionizing-the-construction-process/",
+      "primary_keyword": "technology revolutionizing construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3155,
+      "title": "Technology Revolutionizing Construction | Tampa"
+    },
+    {
+      "url": "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "primary_keyword": "prevent water damage tampa commercial tips",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 687,
+      "title": "Prevent Water Damage Tampa | Commercial Tips"
+    },
+    {
+      "url": "/hyde-park-renovation-guide/",
+      "primary_keyword": "hyde park renovation guide tampa arc",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 338,
+      "title": "Hyde Park Renovation Guide Tampa | ARC | FCS"
+    },
+    {
+      "url": "/identifying-water-damage-signs-prevention-and-action/",
+      "primary_keyword": "water damage signs & prevention tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 798,
+      "title": "Water Damage Signs & Prevention | Tampa Commercial"
+    },
+    {
+      "url": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "primary_keyword": "climate change & tampa insurance restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 595,
+      "title": "Climate Change & Tampa Insurance Restoration"
+    },
+    {
+      "url": "/inspiring-balcony-renovation-transform-your-outdoor-space/",
+      "primary_keyword": "high-rise balcony renovation tampa transform your condo",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 970,
+      "title": "High-Rise Balcony Renovation Tampa | Transform Your Condo"
+    },
+    {
+      "url": "/insurance-arbitration-appraisal/",
+      "primary_keyword": "insurance arbitration & appraisal services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 788,
+      "title": "Insurance Arbitration & Appraisal Services"
+    },
+    {
+      "url": "/insurance-restoration/",
+      "primary_keyword": "insurance restoration tampa large loss claims",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 400,
+      "title": "Insurance Restoration Tampa | Large Loss Claims"
+    },
+    {
+      "url": "/integrating-modern-amenities-in-tampas-historic-homes/",
+      "primary_keyword": "modern amenities historic homes",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1949,
+      "title": "Modern Amenities in Tampa Historic Homes | FCS"
+    },
+    {
+      "url": "/investing-in-commercial-real-estate-construction/",
+      "primary_keyword": "commercial real estate construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 746,
+      "title": "Commercial Real Estate Construction Tampa | FCS"
+    },
+    {
+      "url": "/is-your-commercial-building-remodel-ready/",
+      "primary_keyword": "is your building remodel ready",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1141,
+      "title": "Is Your Building Remodel Ready? | Tampa"
+    },
+    {
+      "url": "/key-questions-for-floridas-top-commercial-contractor/",
+      "primary_keyword": "questions for florida commercial contractors",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1552,
+      "title": "Questions for Florida Commercial Contractors | Tampa"
+    },
+    {
+      "url": "/key-signs-your-commercial-remodel-needs/",
+      "primary_keyword": "signs your building needs a remodel",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1001,
+      "title": "Signs Your Building Needs a Remodel | Tampa"
+    },
+    {
+      "url": "/leading-commercial-contractors-in-tampas/",
+      "primary_keyword": "leading commercial contractors",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1505,
+      "title": "Leading Commercial Contractors in Tampa"
+    },
+    {
+      "url": "/licensed-contractors-for-commercial-construction-in-florida/",
+      "primary_keyword": "licensed commercial contractors florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1394,
+      "title": "Licensed Commercial Contractors Florida | Tampa"
+    },
+    {
+      "url": "/mastering-commercial-construction-design-in-florida/",
+      "primary_keyword": "mastering commercial construction design in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1121,
+      "title": "Mastering Commercial Construction Design in Florida"
+    },
+    {
+      "url": "/maximize-savings-on-commercial-renovation/",
+      "primary_keyword": "maximize commercial renovation savings",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1084,
+      "title": "Maximize Commercial Renovation Savings Tampa"
+    },
+    {
+      "url": "/maximize-work-area-efficiency-for-commercial-space-solutions/",
+      "primary_keyword": "maximize work area efficiency tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 302,
+      "title": "Maximize Work Area Efficiency Tampa | Commercial"
+    },
+    {
+      "url": "/milestone-inspection-requirements/",
+      "primary_keyword": "milestone inspection requirements fl sb 4-d",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 205,
+      "title": "Milestone Inspection Requirements FL | SB 4-D"
+    },
+    {
+      "url": "/mold-remediation-services-in-tampa-after-flooding/",
+      "primary_keyword": "mold remediation services after flooding",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1953,
+      "title": "Mold Remediation Services in Tampa After Flooding"
+    },
+    {
+      "url": "/our-process/",
+      "primary_keyword": "our process custom home building journey",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 251,
+      "title": "Our Process | Custom Home Building Journey"
+    },
+    {
+      "url": "/post-construction-process-for-commercial-construction/",
+      "primary_keyword": "post construction process in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1168,
+      "title": "The Ultimate Guide to Post Construction Process in Florida"
+    },
+    {
+      "url": "/preserving-tampas-cultural-heritage-through-restoration/",
+      "primary_keyword": "preserving tampas cultural heritage through restoration",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 1261,
+      "title": "Preserving Tampa"
+    },
+    {
+      "url": "/preventing-home-improvement-fraud/",
+      "primary_keyword": "preventing home improvement fraud",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 680,
+      "title": "Preventing Home Improvement Fraud Tampa"
+    },
+    {
+      "url": "/privacy/",
+      "primary_keyword": "privacy policy ${business_info.name}",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 562,
+      "title": "Privacy Policy | ${BUSINESS_INFO.name}"
+    },
+    {
+      "url": "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "primary_keyword": "reinforced construction tampa hurricane-proof",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 772,
+      "title": "Reinforced Construction Tampa | Hurricane-Proof"
+    },
+    {
+      "url": "/renovating-vs-new-construction-florida/",
+      "primary_keyword": "renovating vs new construction florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 957,
+      "title": "Renovating vs New Construction Florida | Tampa"
+    },
+    {
+      "url": "/renovating-your-commercial-space-in-florida/",
+      "primary_keyword": "right time to renovate commercial space fl",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 865,
+      "title": "Right Time to Renovate Commercial Space FL"
+    },
+    {
+      "url": "/revitalize-your-older-building-renovation-and-reconstruction/",
+      "primary_keyword": "revitalize your building tampa renovation",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 952,
+      "title": "Revitalize Your Building Tampa | Renovation"
+    },
+    {
+      "url": "/revolutionizing-commercial-construction-florida/",
+      "primary_keyword": "commercial construction innovation florida tech",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 659,
+      "title": "Commercial Construction Innovation Florida | Tech"
+    },
+    {
+      "url": "/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "primary_keyword": "executive general adjusters tampa large loss",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 589,
+      "title": "Executive General Adjusters Tampa | Large Loss"
+    },
+    {
+      "url": "/safety-first-in-florida-commercial-construction-projects/",
+      "primary_keyword": "safety first florida commercial osha",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 862,
+      "title": "Safety First Florida Commercial | OSHA Tampa"
+    },
+    {
+      "url": "/sb-4-d-compliance-tampa-bay-condos/",
+      "primary_keyword": "sb 4-d compliance tampa bay condos",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 860,
+      "title": "SB 4-D Compliance Tampa Bay Condos | FCS"
+    },
+    {
+      "url": "/sirs-structural-integrity-reserve-studies/",
+      "primary_keyword": "sirs reserve studies florida condo compliance",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 216,
+      "title": "SIRS Reserve Studies Florida | Condo Compliance"
+    },
+    {
+      "url": "/skilled-project-managers-for-florida-commercial-construction/",
+      "primary_keyword": "skilled project managers in commercial construction florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1111,
+      "title": "Skilled Project Managers in Commercial Construction Florida"
+    },
+    {
+      "url": "/smart-home-integration-in-tampa-custom-homes-2/",
+      "primary_keyword": "smart home integration tampa automation",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1384,
+      "title": "Smart Home Integration Tampa | Automation | FCS"
+    },
+    {
+      "url": "/streamlining-your-design-build-project-timeline/",
+      "primary_keyword": "streamlining your design-build project timeline",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 702,
+      "title": "Streamlining Your Design-Build Project Timeline | Tampa FL"
+    },
+    {
+      "url": "/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "primary_keyword": "structural integrity evaluation",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 731,
+      "title": "Structural Integrity Evaluation Tampa | FCS"
+    },
+    {
+      "url": "/stylish-balcony-railing-designs-for-your-outdoor-space/",
+      "primary_keyword": "balcony railing designs tampa high-rise styles",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1051,
+      "title": "Balcony Railing Designs Tampa | High-Rise Styles"
+    },
+    {
+      "url": "/subcontractors-in-florida-commercial-construction/",
+      "primary_keyword": "subcontractors in florida commercial guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1216,
+      "title": "Subcontractors in Florida Commercial | Guide"
+    },
+    {
+      "url": "/successful-restaurant-design-with-florida-construction-specialists/",
+      "primary_keyword": "restaurant design & construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 483,
+      "title": "Restaurant Design & Construction Tampa | FCS"
+    },
+    {
+      "url": "/summer-construction-safety-tips-from-top-contractors/",
+      "primary_keyword": "summer construction safety tampa heat safety",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 845,
+      "title": "Summer Construction Safety Tampa | Heat Safety"
+    },
+    {
+      "url": "/surviving-a-commercial-construction-project/",
+      "primary_keyword": "surviving commercial construction tampa guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 783,
+      "title": "Surviving Commercial Construction | Tampa Guide"
+    },
+    {
+      "url": "/sustainable-building-materials-in-commercial-construction/",
+      "primary_keyword": "sustainable building materials in commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1295,
+      "title": "Sustainable Building Materials in Commercial Construction"
+    },
+    {
+      "url": "/sustainable-building-practices-florida-green-construction/",
+      "primary_keyword": "sustainable building practices: florida green construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 740,
+      "title": "Sustainable Building Practices: Florida Green Construction"
+    },
+    {
+      "url": "/sustainable-commercial-construction-in-tampa-2/",
+      "primary_keyword": "sustainable commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1236,
+      "title": "Sustainable Commercial Construction in Tampa"
+    },
+    {
+      "url": "/sustainable-construction-trends-in-florida/",
+      "primary_keyword": "sustainable construction trends in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1332,
+      "title": "Sustainable Construction Trends in Florida"
+    },
+    {
+      "url": "/tampa-commercial-construction-bidding-process/",
+      "primary_keyword": "tampa commercial construction bidding guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1275,
+      "title": "Tampa Commercial Construction Bidding | Guide"
+    },
+    {
+      "url": "/tampa-commercial-construction-companies/",
+      "primary_keyword": "tampa commercial construction companies guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1325,
+      "title": "Tampa Commercial Construction Companies | Guide"
+    },
+    {
+      "url": "/tampa-commercial-construction-costs/",
+      "primary_keyword": "tampa commercial construction costs 2024 price guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 973,
+      "title": "Tampa Commercial Construction Costs | 2024 Price Guide"
+    },
+    {
+      "url": "/tampa-commercial-construction-job-opportunities/",
+      "primary_keyword": "tampa commercial construction job opportunities",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1429,
+      "title": "Tampa Commercial Construction Job Opportunities"
+    },
+    {
+      "url": "/tampa-commercial-construction-market-analysis/",
+      "primary_keyword": "tampa commercial construction market 2024",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1083,
+      "title": "Tampa Commercial Construction Market 2024"
+    },
+    {
+      "url": "/tampa-commercial-construction-networking-events/",
+      "primary_keyword": "tampa construction networking events 2024-2025",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 538,
+      "title": "Tampa Construction Networking Events 2024-2025"
+    },
+    {
+      "url": "/tampa-commercial-construction-permits/",
+      "primary_keyword": "tampa commercial construction permits guide",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 756,
+      "title": "Tampa Commercial Construction Permits | Guide"
+    },
+    {
+      "url": "/tampa-commercial-construction-planning-services/",
+      "primary_keyword": "tampa commercial construction planning",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 366,
+      "title": "Tampa Commercial Construction Planning | FCS"
+    },
+    {
+      "url": "/tampa-commercial-construction-safety-standards/",
+      "primary_keyword": "tampa commercial construction safety standards",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1082,
+      "title": "Tampa Commercial Construction Safety Standards"
+    },
+    {
+      "url": "/tampa-commercial-construction-trends-updates-2024/",
+      "primary_keyword": "tampa commercial construction trends 2024-2025",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 522,
+      "title": "Tampa Commercial Construction Trends 2024-2025"
+    },
+    {
+      "url": "/tampa-commercial-property-disaster-recovery-services/",
+      "primary_keyword": "tampa commercial property disaster recovery services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1471,
+      "title": "Tampa Commercial Property Disaster Recovery Services"
+    },
+    {
+      "url": "/tampa-commercial-real-estate-development/",
+      "primary_keyword": "tampa commercial real estate development",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 902,
+      "title": "Tampa Commercial Real Estate Development | FCS"
+    },
+    {
+      "url": "/tampa-custom-home-builders-with-artistic-flair/",
+      "primary_keyword": "tampa custom home builders unique architecture",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1184,
+      "title": "Tampa Custom Home Builders | Unique Architecture"
+    },
+    {
+      "url": "/tampa-custom-home-landscaping-solutions/",
+      "primary_keyword": "tampa custom home landscaping luxury outdoor",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1336,
+      "title": "Tampa Custom Home Landscaping | Luxury Outdoor"
+    },
+    {
+      "url": "/tampa-custom-homes-with-green-building-practices/",
+      "primary_keyword": "tampa green custom homes leed certified",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1351,
+      "title": "Tampa Green Custom Homes | LEED Certified | FCS"
+    },
+    {
+      "url": "/tampa-custom-homes-with-luxury-bathrooms/",
+      "primary_keyword": "tampa custom homes luxury bathrooms spa",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1234,
+      "title": "Tampa Custom Homes Luxury Bathrooms | Spa"
+    },
+    {
+      "url": "/tampa-custom-homes-with-unique-facades/",
+      "primary_keyword": "tampa custom homes unique facades distinctive",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1247,
+      "title": "Tampa Custom Homes Unique Facades | Distinctive"
+    },
+    {
+      "url": "/tampa-custom-outdoor-living-spaces/",
+      "primary_keyword": "tampa outdoor living spaces patios & pools",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1416,
+      "title": "Tampa Outdoor Living Spaces | Patios & Pools"
+    },
+    {
+      "url": "/tampa-disaster-damage-assessment-services/",
+      "primary_keyword": "tampa disaster damage assessment services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1803,
+      "title": "Tampa Disaster Damage Assessment Services"
+    },
+    {
+      "url": "/tampa-historic-home-restoration-guidelines/",
+      "primary_keyword": "tampa historic home restoration guidelines",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1172,
+      "title": "Tampa Historic Home Restoration Guidelines"
+    },
+    {
+      "url": "/tampa-historic-restoration-permits-and-regulations/",
+      "primary_keyword": "tampa historic restoration permits and regulations",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1269,
+      "title": "Tampa Historic Restoration Permits and Regulations"
+    },
+    {
+      "url": "/tampa-historic-restoration-workshops-and-training/",
+      "primary_keyword": "tampa historic restoration workshops and training",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1212,
+      "title": "Tampa Historic Restoration Workshops and Training"
+    },
+    {
+      "url": "/tampa-historic-window-restoration-services/",
+      "primary_keyword": "tampa historic window restoration services",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1347,
+      "title": "Tampa Historic Window Restoration Services"
+    },
+    {
+      "url": "/tampa-homes-with-custom-art-studios/",
+      "primary_keyword": "tampa homes with custom art studios creative spaces",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1408,
+      "title": "Tampa Homes with Custom Art Studios | Creative Spaces"
+    },
+    {
+      "url": "/tampa-insurance-restoration-for-hurricane-damage/",
+      "primary_keyword": "tampa hurricane insurance restoration commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 723,
+      "title": "Tampa Hurricane Insurance Restoration | Commercial"
+    },
+    {
+      "url": "/tampa-luxury-custom-home-building-services/",
+      "primary_keyword": "tampa luxury custom home building services premier builder",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1172,
+      "title": "Tampa Luxury Custom Home Building Services | Premier Builder"
+    },
+    {
+      "url": "/tampa-post-disaster-rebuilding-services/",
+      "primary_keyword": "tampa post-disaster rebuilding storm & fire",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 702,
+      "title": "Tampa Post-Disaster Rebuilding | Storm & Fire"
+    },
+    {
+      "url": "/tampa-residential-restoration-after-hurricane-damage/",
+      "primary_keyword": "tampa residential restoration after hurricane",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 980,
+      "title": "Tampa Residential Restoration After Hurricane"
+    },
+    {
+      "url": "/tampa-water-damage-restoration-services-post-flooding/",
+      "primary_keyword": "tampa water damage restoration services post-flooding",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1754,
+      "title": "Tampa water damage restoration Services Post-Flooding"
+    },
+    {
+      "url": "/tampas-awards-for-historic-restoration-excellence/",
+      "primary_keyword": "tampa&apos;s awards for historic restoration excellence",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 6667,
+      "title": "Tampa&apos;s Awards for Historic Restoration Excellence"
+    },
+    {
+      "url": "/tampas-building-codes-for-insurance-restoration/",
+      "primary_keyword": "tampa building codes for insurance restoration",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 525,
+      "title": "Tampa Building Codes for Insurance Restoration"
+    },
+    {
+      "url": "/tampas-commercial-construction-laws/",
+      "primary_keyword": "tampa&apos;s commercial construction laws",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1311,
+      "title": "Tampa&apos;s Commercial Construction Laws"
+    },
+    {
+      "url": "/tampas-custom-family-home-builders/",
+      "primary_keyword": "tampas custom family home builders",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 2709,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-disaster-related-demolition-services/",
+      "primary_keyword": "tampa disaster demolition emergency commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 897,
+      "title": "Tampa Disaster Demolition | Emergency Commercial"
+    },
+    {
+      "url": "/tampas-guidelines-for-historic-landscape-restoration/",
+      "primary_keyword": "tampas guidelines historic landscape restoration",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 5612,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-guidelines-for-historic-roofs-restoration/",
+      "primary_keyword": "tampas guidelines historic roofs restoration",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 1280,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-historic-districts-restoration-rules/",
+      "primary_keyword": "tampas historic districts restoration rules",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 1302,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-historic-restoration-zoning-laws/",
+      "primary_keyword": "tampas historic restoration zoning laws",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 1282,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-historical-societies-and-restoration-efforts/",
+      "primary_keyword": "tampas historical societies restoration efforts",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 1525,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-insurance-restoration-for-commercial-interiors/",
+      "primary_keyword": "tampa insurance restoration commercial interiors",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 533,
+      "title": "Tampa Insurance Restoration | Commercial Interiors"
+    },
+    {
+      "url": "/tampas-insurance-restoration-reporting-and-documentation/",
+      "primary_keyword": "tampa insurance restoration documentation claims",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 634,
+      "title": "Tampa Insurance Restoration Documentation | Claims"
+    },
+    {
+      "url": "/tampas-latest-commercial-construction-projects/",
+      "primary_keyword": "tampa commercial construction projects 2024-2025",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 313,
+      "title": "Tampa Commercial Construction Projects 2024-2025"
+    },
+    {
+      "url": "/tampas-post-disaster-electrical-safety-checks/",
+      "primary_keyword": "post-disaster electrical safety tampa hurricane",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 745,
+      "title": "Post-Disaster Electrical Safety Tampa | Hurricane"
+    },
+    {
+      "url": "/tampas-premier-commercial-remodeling-contractors/",
+      "primary_keyword": "tampas premier commercial remodeling contractors",
+      "source": "derived-url",
+      "page_type": "article",
+      "wordCount": 885,
+      "title": "Tampa"
+    },
+    {
+      "url": "/tampas-structural-drying-services-post-flooding/",
+      "primary_keyword": "structural drying services tampa flood",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 856,
+      "title": "Structural Drying Services Tampa | Flood | FCS"
+    },
+    {
+      "url": "/team-members/",
+      "primary_keyword": "our team leadership",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 378,
+      "title": "Our Team | Florida Construction Specialists Leadership"
+    },
+    {
+      "url": "/terms-and-conditions/",
+      "primary_keyword": "terms and conditions",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 423,
+      "title": "Terms and Conditions"
+    },
+    {
+      "url": "/terms/",
+      "primary_keyword": "terms of service ${business_info.name}",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 737,
+      "title": "Terms of Service | ${BUSINESS_INFO.name}"
+    },
+    {
+      "url": "/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+      "primary_keyword": "customer satisfaction in florida commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1115,
+      "title": "Customer Satisfaction in Florida Commercial Construction"
+    },
+    {
+      "url": "/the-essential-duties-of-a-construction-manager-in-florida/",
+      "primary_keyword": "construction manager duties florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2825,
+      "title": "Construction Manager Duties Florida | Tampa"
+    },
+    {
+      "url": "/the-essential-role-of-florida-construction-specialists/",
+      "primary_keyword": "essential role of tampa premier contractor",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2120,
+      "title": "Essential Role of FCS Tampa | Premier Contractor"
+    },
+    {
+      "url": "/the-impact-of-steel-and-aluminum-tariffs-on-construction/",
+      "primary_keyword": "the impact of steel and aluminum tariffs on construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2472,
+      "title": "The Impact of Steel and Aluminum Tariffs on Construction"
+    },
+    {
+      "url": "/the-preconstruction-modern-approach-design/",
+      "primary_keyword": "the preconstruction modern approach design",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 674,
+      "title": "The Preconstruction Modern Approach Design"
+    },
+    {
+      "url": "/the-role-of-a-construction-manager/",
+      "primary_keyword": "construction manager role tampa commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2973,
+      "title": "Construction Manager Role Tampa | Commercial"
+    },
+    {
+      "url": "/the-stages-of-construction-project-management/",
+      "primary_keyword": "construction project management stages",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1487,
+      "title": "Construction Project Management Stages | Tampa"
+    },
+    {
+      "url": "/the-top-causes-of-construction-delays-in-florida/",
+      "primary_keyword": "construction delays florida tampa bay causes",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1356,
+      "title": "Construction Delays Florida | Tampa Bay Causes"
+    },
+    {
+      "url": "/tips-for-commercial-renovation-in-florida/",
+      "primary_keyword": "commercial renovation tips florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 2623,
+      "title": "Commercial Renovation Tips Florida | Tampa"
+    },
+    {
+      "url": "/tips-for-negotiating-property-purchases-in-florida/",
+      "primary_keyword": "negotiating property purchases fl due diligence",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1763,
+      "title": "Negotiating Property Purchases FL | Due Diligence"
+    },
+    {
+      "url": "/tips-for-post-construction-in-florida-commercial-sector/",
+      "primary_keyword": "post-construction tips florida commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 798,
+      "title": "Post-Construction Tips Florida Commercial"
+    },
+    {
+      "url": "/top-balcony-flooring-materials-for-style-durability/",
+      "primary_keyword": "balcony flooring materials for high-rise buildings",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3458,
+      "title": "Top Balcony Flooring Materials for High-Rise Buildings Tampa"
+    },
+    {
+      "url": "/top-commercial-construction-in-florida/",
+      "primary_keyword": "commercial construction florida standards",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1177,
+      "title": "Top Commercial Construction Florida | Standards"
+    },
+    {
+      "url": "/top-commercial-construction-trends/",
+      "primary_keyword": "unveiling the top commercial construction trends in florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1426,
+      "title": "Unveiling the Top Commercial Construction Trends in Florida"
+    },
+    {
+      "url": "/top-commercial-contractor-for-roof-repair-and-replacement/",
+      "primary_keyword": "commercial roof repair & replacement",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 871,
+      "title": "Commercial Roof Repair & Replacement Tampa | FCS"
+    },
+    {
+      "url": "/top-commercial-contractor-with-quality-control/",
+      "primary_keyword": "commercial contractor with quality control",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1300,
+      "title": "Top Commercial Contractor with Quality Control"
+    },
+    {
+      "url": "/ultimate-waterproofing-guide-foundations/",
+      "primary_keyword": "foundation waterproofing guide commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3475,
+      "title": "Foundation Waterproofing Guide | Commercial Tampa"
+    },
+    {
+      "url": "/understanding-tampa-insurance-restoration-claims/",
+      "primary_keyword": "tampa insurance restoration claims",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 629,
+      "title": "Understanding Tampa Insurance Restoration Claims"
+    },
+    {
+      "url": "/unlocking-commercial-construction-permits/",
+      "primary_keyword": "unlocking commercial construction permits",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1604,
+      "title": "Unlocking Commercial Construction Permits"
+    },
+    {
+      "url": "/unlocking-the-power-of-sustainable-construction/",
+      "primary_keyword": "unlocking the power of sustainable construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1038,
+      "title": "Unlocking the Power of Sustainable Construction"
+    },
+    {
+      "url": "/unveiling-floridas-top-hidden-commercial-construction-costs/",
+      "primary_keyword": "hidden commercial construction costs florida",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 400,
+      "title": "Hidden Commercial Construction Costs Florida"
+    },
+    {
+      "url": "/upgrade-commercial-sprinklers-during-renovation/",
+      "primary_keyword": "upgrade commercial sprinklers tampa fire",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 969,
+      "title": "Upgrade Commercial Sprinklers Tampa | Fire"
+    },
+    {
+      "url": "/utility-mapping-for-commercial-buildings/",
+      "primary_keyword": "utility mapping tampa commercial underground",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 691,
+      "title": "Utility Mapping Tampa | Commercial Underground"
+    },
+    {
+      "url": "/value-engineering-in-commercial-construction/",
+      "primary_keyword": "value engineering commercial",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 435,
+      "title": "Value Engineering Commercial Tampa Bay | FCS"
+    },
+    {
+      "url": "/vip-public-adjuster/",
+      "primary_keyword": "vip public adjuster tampa commercial claims",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 780,
+      "title": "VIP Public Adjuster Tampa | Commercial Claims"
+    },
+    {
+      "url": "/waterproofing-commercial-contractors/",
+      "primary_keyword": "commercial waterproofing tampa high-rise",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3324,
+      "title": "Commercial Waterproofing Tampa | High-Rise | FCS"
+    },
+    {
+      "url": "/waterproofing-solutions-for-homes-the-ultimate-guide/",
+      "primary_keyword": "waterproofing high-rise residential",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 3784,
+      "title": "Waterproofing High-Rise Residential Tampa | FCS"
+    },
+    {
+      "url": "/why-florida-construction-specialists-recommend-building-instead-of-buying/",
+      "primary_keyword": "build vs buy commercial property",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 579,
+      "title": "Build vs Buy Commercial Property Tampa | FCS"
+    },
+    {
+      "url": "/zero-net-energy-boosting-commercial-construction/",
+      "primary_keyword": "zero net energy boosting commercial construction",
+      "source": "derived-title",
+      "page_type": "article",
+      "wordCount": 1146,
+      "title": "Zero Net Energy Boosting Commercial Construction in Tampa"
+    }
+  ]
 }
