@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 2 of 9 (Silo Architecture & Internal Linking)
-Plan: 2 of 6 in current phase
+Plan: 3 of 6 in current phase
 Status: In Progress
-Last activity: 2026-02-16 -- Completed 02-02 (Article Classification)
+Last activity: 2026-02-16 -- Completed 02-03 (Article Moves & Guides Pages)
 
-Progress: [██░░░░░░░░] 22%
+Progress: [███░░░░░░░] 27%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
+- Total plans completed: 10
 - Average duration: ~5min
-- Total execution time: ~35 min
+- Total execution time: ~43 min
 
 **By Phase:**
 
@@ -43,6 +43,7 @@ Progress: [██░░░░░░░░] 22%
 | Phase 01 P06 | 3min | 2 tasks | 2 files |
 | Phase 02 P01 | 5min | 2 tasks | 300 files |
 | Phase 02 P02 | 3min | 1 tasks | 2 files |
+| Phase 02 P03 | 8min | 2 tasks | 194 files |
 
 ## Accumulated Context
 
@@ -80,6 +81,9 @@ Recent decisions affecting current work:
 - [Phase 02-02]: 190 articles classified (not 277 estimated; 14 structural/service pages excluded from 204 keyword-map articles)
 - [Phase 02-02]: Articles target /{silo}/guides/{slug}/ path structure
 - [Phase 02-02]: Classification priority: service-silo > keyword-pattern > audience-fallback (zero default fallbacks)
+- [Phase 02-03]: 34 Phase 1 redirects updated from hub targets to new silo paths
+- [Phase 02-03]: 156 new redirects added for articles without prior redirects
+- [Phase 02-03]: Guides index pages use static JSON import for Next.js static export compatibility
 
 ### Pending Todos
 
@@ -94,5 +98,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 02-02-PLAN.md (Article Classification)
+Stopped at: Completed 02-03-PLAN.md (Article Moves & Guides Pages)
 Resume file: None
