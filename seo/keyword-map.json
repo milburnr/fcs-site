@@ -2614,8 +2614,8 @@
     },
     {
       "url": "/historic-restoration/",
-      "primary_keyword": "historic restoration florida",
-      "source": "existing",
+      "primary_keyword": "historic restoration florida services",
+      "source": "existing-reassigned",
       "page_type": "hub",
       "search_intent": "informational",
       "page_priority": 1,
@@ -2804,8 +2804,8 @@
     },
     {
       "url": "/services/disaster-recovery/",
-      "primary_keyword": "disaster recovery contractor florida",
-      "source": "existing",
+      "primary_keyword": "disaster recovery contractor florida services",
+      "source": "existing-reassigned",
       "page_type": "hub",
       "search_intent": "informational",
       "page_priority": 1,
@@ -3696,8 +3696,8 @@
     },
     {
       "url": "/leading-commercial-contractors-in-tampas/",
-      "primary_keyword": "leading commercial contractors",
-      "source": "derived-title",
+      "primary_keyword": "leading commercial contractors tampas",
+      "source": "derived-reassigned",
       "page_type": "article",
       "wordCount": 1505,
       "title": "Leading Commercial Contractors in Tampa"

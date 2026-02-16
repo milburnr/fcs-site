@@ -1,0 +1,90 @@
+{
+  "generated": "2026-02-16",
+  "summary": {
+    "total_conflicts": 3,
+    "total_pages_affected": 6,
+    "resolved_keep": 3,
+    "resolved_reassign": 3,
+    "resolved_merge": 0
+  },
+  "conflicts": [
+    {
+      "keyword": "leading commercial contractors",
+      "pages": [
+        {
+          "url": "/leading-commercial-contractors-in-tampa/",
+          "type": "service-location",
+          "wordCount": 425,
+          "original_keyword": "leading commercial contractors"
+        },
+        {
+          "url": "/leading-commercial-contractors-in-tampas/",
+          "type": "article",
+          "wordCount": 1505,
+          "original_keyword": "leading commercial contractors"
+        }
+      ],
+      "winner": "/leading-commercial-contractors-in-tampa/",
+      "resolutions": [
+        {
+          "url": "/leading-commercial-contractors-in-tampas/",
+          "action": "reassign",
+          "new_keyword": "leading commercial contractors tampas",
+          "reason": "service-location page /leading-commercial-contractors-in-tampa/ has higher priority for \"leading commercial contractors\""
+        }
+      ]
+    },
+    {
+      "keyword": "disaster recovery contractor florida",
+      "pages": [
+        {
+          "url": "/disaster-recovery/",
+          "type": "hub",
+          "wordCount": 7657,
+          "original_keyword": "disaster recovery contractor florida"
+        },
+        {
+          "url": "/services/disaster-recovery/",
+          "type": "hub",
+          "wordCount": 654,
+          "original_keyword": "disaster recovery contractor florida"
+        }
+      ],
+      "winner": "/disaster-recovery/",
+      "resolutions": [
+        {
+          "url": "/services/disaster-recovery/",
+          "action": "reassign",
+          "new_keyword": "disaster recovery contractor florida services",
+          "reason": "hub page /disaster-recovery/ has higher priority for \"disaster recovery contractor florida\""
+        }
+      ]
+    },
+    {
+      "keyword": "historic restoration florida",
+      "pages": [
+        {
+          "url": "/historic-restoration/",
+          "type": "hub",
+          "wordCount": 178,
+          "original_keyword": "historic restoration florida"
+        },
+        {
+          "url": "/services/historic-restoration/",
+          "type": "hub",
+          "wordCount": 660,
+          "original_keyword": "historic restoration florida"
+        }
+      ],
+      "winner": "/services/historic-restoration/",
+      "resolutions": [
+        {
+          "url": "/historic-restoration/",
+          "action": "reassign",
+          "new_keyword": "historic restoration florida services",
+          "reason": "hub page /services/historic-restoration/ has higher priority for \"historic restoration florida\""
+        }
+      ]
+    }
+  ]
+}
