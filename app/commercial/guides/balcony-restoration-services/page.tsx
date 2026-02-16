@@ -26,8 +26,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
-  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/commercial/guides/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
   { href: "/contact/", label: "Schedule a Consultation" },

@@ -7,6 +7,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from 
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
@@ -867,6 +868,16 @@ export default function InsuranceRestorationRuskinPage() {
                   Learn More <ArrowRight className="w-4 h-4" />
                 </span>
               </Link>
+      {/* Related Services & Nearby Locations */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Ruskin" currentService="insurance-restoration" />
+            <NearbyLocations currentCity="Ruskin" service="insurance-restoration" serviceName="Insurance Restoration" />
+          </div>
+        </div>
+      </section>
+
               <Link href="/services/" className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow group">
                 <h3 className="text-lg font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">
                   All Services

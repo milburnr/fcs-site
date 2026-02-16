@@ -7,6 +7,7 @@ import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/componen
 import { Breadcrumb } from "@/components/Breadcrumb";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-lakeland/' },
@@ -939,8 +940,18 @@ export default function InsuranceRestorationLakelandPage() {
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-heading">
               Lakeland's Insurance Restoration Expert
             </h2>
+      {/* Related Services & Nearby Locations */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4 max-w-6xl">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="insurance-restoration" />
+            <NearbyLocations currentCity="Lakeland" service="insurance-restoration" serviceName="Insurance Restoration" />
+          </div>
+        </div>
+      </section>
+
             <p className="text-xl text-white/90 mb-4">
-              When property damage strikes in Polk County, you need more than a contractor—you need 
+              When property damage strikes in Polk County, you need more than a contractor—you need
               43 years of insurance expertise working for you.
             </p>
             <p className="text-lg text-white/80 mb-8">

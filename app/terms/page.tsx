@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
@@ -241,6 +242,25 @@ export default function TermsOfServicePage() {
           </div>
         </div>
       </article>
+
+      {/* Related Links */}
+      <section className="py-8 bg-gray-50 border-t border-gray-200">
+        <div className="container mx-auto px-4 max-w-4xl">
+          <div className="flex flex-wrap justify-center gap-6">
+            {[
+              { name: "Commercial Services", href: "/commercial/" },
+              { name: "Residential Services", href: "/residential/" },
+              { name: "Insurance Restoration", href: "/insurance/" },
+              { name: "Contact Us", href: "/contact/" },
+              { name: "Privacy Policy", href: "/privacy/" },
+            ].map((link) => (
+              <Link key={link.name} href={link.href} className="text-sm text-gray-600 hover:text-brand-green-dark transition-colors">
+                {link.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
