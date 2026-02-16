@@ -5,7 +5,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, OrganizationSchema } from "@/components/Schema";
+import { OrganizationSchema } from "@/components/Schema";
 import { PhoneTrackingProvider } from "@/components/PhoneTrackingProvider";
 import { ChatWidget } from "@/components/ChatWidget";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
@@ -78,7 +78,6 @@ export default function RootLayout({
         <link rel="preconnect" href="https://widgets.leadconnectorhq.com" />
         <link rel="preconnect" href="https://link.trustbasedseo.com" />
 
-        <LocalBusinessSchema />
         <OrganizationSchema />
       </head>
       <body className="min-h-screen flex flex-col">
