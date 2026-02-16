@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/decoding-value-engineering-florida-construction-expertise/", label: "Value Engineering Deep Dive" },
   { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

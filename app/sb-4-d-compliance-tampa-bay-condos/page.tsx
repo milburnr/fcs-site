@@ -52,7 +52,7 @@ const internalLinks = [
   { href: "/condo-structural-reserve-study-repairs/", label: "SIRS Repair Planning" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Building Waterproofing" },
-  { href: "/commercial-construction/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Request Consultation" },
 ];
 

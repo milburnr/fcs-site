@@ -25,7 +25,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
   { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
   { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },

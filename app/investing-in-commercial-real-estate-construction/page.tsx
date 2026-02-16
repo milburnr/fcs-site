@@ -43,7 +43,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/tampa-commercial-real-estate-development/", label: "Real Estate Development" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/enhancing-commercial-property-value/", label: "Property Value Enhancement" },
   { href: "/contact/", label: "Discuss Investment Project" },

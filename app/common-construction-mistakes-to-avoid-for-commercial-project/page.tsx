@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/the-top-causes-of-construction-delays-in-florida/", label: "Causes of Construction Delays" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/key-questions-for-floridas-top-commercial-contractor/", label: "Questions to Ask Contractors" },

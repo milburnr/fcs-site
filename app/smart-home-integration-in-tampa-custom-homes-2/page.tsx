@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Homes" },
   { href: "/secure-custom-home-construction-in-tampa/", label: "Home Security Features" },
   { href: "/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Home Theater Spaces" },

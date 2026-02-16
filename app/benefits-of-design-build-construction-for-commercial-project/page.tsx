@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Our Design-Build Services" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages Guide" },
   { href: "/avoid-commercial-construction-delays-in-florida/", label: "Avoiding Project Delays" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

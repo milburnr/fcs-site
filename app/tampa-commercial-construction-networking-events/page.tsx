@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
   { href: "/tampa-commercial-construction-trends-updates-2024/", label: "2024 Construction Trends" },
   { href: "/commercial-construction-consultancy-in-tampa/", label: "Construction Consultancy" },

@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/the-role-of-a-construction-manager/", label: "Role of a Construction Manager" },
   { href: "/the-stages-of-construction-project-management/", label: "Project Management Stages" },
   { href: "/the-essential-duties-of-a-construction-manager-in-florida/", label: "CM Duties in Florida" },

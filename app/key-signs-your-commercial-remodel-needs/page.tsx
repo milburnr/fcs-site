@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/is-your-commercial-building-remodel-ready/", label: "Remodel Readiness Assessment" },
   { href: "/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling Contractors" },
   { href: "/maximize-savings-on-commercial-renovation/", label: "Maximize Renovation Savings" },

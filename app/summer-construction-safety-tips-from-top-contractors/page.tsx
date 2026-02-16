@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/ensuring-construction-site-safety-a-top-priority/", label: "Construction Site Safety" },
   { href: "/safety-first-in-florida-commercial-construction-projects/", label: "Safety First in Commercial Projects" },
   { href: "/post-disaster-health-and-safety-inspections-in-tampa/", label: "Post-Disaster Safety Inspections" },

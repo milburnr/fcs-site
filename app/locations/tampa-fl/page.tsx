@@ -26,7 +26,7 @@ const services = [
     title: "Commercial Construction",
     description: "Office buildings, retail centers, medical facilities, and mixed-use developments throughout Tampa and Hillsborough County.",
     icon: Building2,
-    href: "/services/commercial/",
+    href: "/commercial/",
   },
   {
     title: "Historic Restoration",
@@ -37,13 +37,13 @@ const services = [
   {
     title: "Disaster Recovery",
     icon: Shield,
-    href: "/services/disaster-recovery/",
+    href: "/insurance/",
   },
   {
     title: "Residential Construction",
     description: "Luxury custom homes, waterfront estates, home additions, and major renovations for Tampa's upscale neighborhoods.",
     icon: Home,
-    href: "/services/residential/",
+    href: "/residential/",
   },
 ];
 
@@ -91,9 +91,9 @@ const faqs = [
 ];
 
 const pillarLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/residential/", label: "Residential Construction Services" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
 ];
 

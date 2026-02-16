@@ -67,12 +67,12 @@ const relatedServices = [
   { href: "/expert-witness/", label: "Expert Witness Services" },
   { href: "/certified-estimates/", label: "Certified Estimates" },
   { href: "/building-consultants/", label: "Building Consultants" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery" },
+  { href: "/insurance/", label: "Disaster Recovery" },
 ];
 
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },

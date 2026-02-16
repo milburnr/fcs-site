@@ -20,7 +20,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial-construction-budgeting-tips-for-florida-specialists/", label: "Budgeting Tips" },
   { href: "/choosing-materials-for-commercial-construction-in-tampa/", label: "Material Selection" },
   { href: "/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },

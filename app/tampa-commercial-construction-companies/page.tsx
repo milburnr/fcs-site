@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Our Commercial Services" },
+  { href: "/commercial/", label: "Our Commercial Services" },
   { href: "/tampa-commercial-construction-bidding-process/", label: "Bidding Process" },
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/subcontractors-in-florida-commercial-construction/", label: "Working with Subcontractors" },

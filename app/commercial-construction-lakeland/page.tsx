@@ -77,7 +77,7 @@ const lakelandFaqs = [
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/commercial-construction/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Lakeland", href: "/commercial-construction-lakeland/" }];
 
 export default function CommercialConstructionLakelandPage() {
@@ -494,7 +494,7 @@ export default function CommercialConstructionLakelandPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
               <ul className="space-y-2">
-                <li><Link href="/commercial-construction/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
                 <li><Link href="/locations/lakeland-fl/" className="text-brand-green hover:underline">All Lakeland Services</Link></li>
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
                 <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>

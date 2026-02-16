@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/investing-in-commercial-real-estate-construction/", label: "Real Estate Investment" },
   { href: "/enhancing-commercial-property-value/", label: "Enhancing Property Value" },

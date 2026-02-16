@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential Construction", href: "/services/residential/" },
+  { name: "Residential Construction", href: "/residential/" },
   { name: "Hurricane-Resistant Construction", href: "/services/residential/hurricane-resistant-construction/" },
 ];
 
@@ -176,7 +176,7 @@ export default function HurricaneResistantPage() {
             </p>
 
             <Link
-              href="/services/residential/"
+              href="/residential/"
               className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
             >
               <ArrowRight className="w-4 h-4 mr-2" />
@@ -284,7 +284,7 @@ export default function HurricaneResistantPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Residential Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
+                <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
                 <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
@@ -292,7 +292,7 @@ export default function HurricaneResistantPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Storm Recovery</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/disaster-recovery/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
+                <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
                 <li><Link href="/disaster-recovery/" className="text-brand-green hover:underline">Hurricane Damage Repair</Link></li>
               </ul>
             </div>
@@ -336,7 +336,7 @@ export default function HurricaneResistantPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />

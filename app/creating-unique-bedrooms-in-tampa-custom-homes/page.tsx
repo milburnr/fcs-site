@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/tampa-custom-homes-with-luxury-bathrooms/", label: "Luxury Bathroom Design" },
   { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

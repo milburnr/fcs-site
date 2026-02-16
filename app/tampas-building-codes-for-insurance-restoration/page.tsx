@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance-restoration-compliance-and-regulations-in-tampa/", label: "Compliance and Regulations" },
   { href: "/understanding-tampa-insurance-restoration-claims/", label: "Understanding Insurance Claims" },
   { href: "/impact-of-climate-change-on-tampa-insurance-restoration/", label: "Climate Change Impacts" },

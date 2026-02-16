@@ -171,7 +171,7 @@ const internalLinks = [
   { href: "/commercial/waterproofing/", label: "Commercial Waterproofing" },
   { href: "/commercial/masonry/", label: "Commercial Masonry Services" },
   { href: "/commercial/concrete-restoration/", label: "Concrete Restoration" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

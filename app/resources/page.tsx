@@ -32,10 +32,10 @@ const commercialResources = [
     category: "Industrial & Large Scale",
     icon: Factory,
     articles: [
-      { title: "CPM Scheduling to Prevent Delays", href: "/commercial-construction/" },
-      { title: "Tilt-Wall vs Metal Buildings", href: "/commercial-construction/" },
-      { title: "Industrial Flex Space Development", href: "/commercial-construction/" },
-      { title: "Warehouse Construction Tampa Bay", href: "/commercial-construction/" }],
+      { title: "CPM Scheduling to Prevent Delays", href: "/commercial/" },
+      { title: "Tilt-Wall vs Metal Buildings", href: "/commercial/" },
+      { title: "Industrial Flex Space Development", href: "/commercial/" },
+      { title: "Warehouse Construction Tampa Bay", href: "/commercial/" }],
   },
   {
     category: "Historic Restoration (Commercial)",
@@ -128,8 +128,8 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/", label: "Our Construction Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" }];
 
@@ -339,7 +339,7 @@ export default function ResourcesPage() {
               </p>
             </Link>
             <Link
-              href="/commercial-construction/"
+              href="/commercial/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-green-light transition-colors"
             >
               <HardHat className="w-8 h-8 text-brand-green mb-3" />

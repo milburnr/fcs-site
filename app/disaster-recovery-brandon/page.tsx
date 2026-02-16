@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance-restoration/" },
+  { name: "Disaster Recovery", href: "/insurance/" },
   { name: "Brandon", href: "/disaster-recovery-brandon/" },
 ];
 

@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/trends-and-future-of-commercial-construction-in-tampa/", label: "Industry Trends" },
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/tampa-commercial-construction-companies/", label: "Top Contractors" },

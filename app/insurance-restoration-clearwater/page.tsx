@@ -220,7 +220,7 @@ const internalLinks = [
   { href: "/commercial-restoration-tampa/", label: "Commercial Restoration Tampa" },
   { href: "/insurance-claim-contractor-tampa/", label: "Insurance Claim Contractor Tampa" },
   { href: "/hurricane-damage-restoration-tampa-bay/", label: "Hurricane Damage Restoration" },
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -551,7 +551,7 @@ export default function InsuranceRestorationClearwaterPage() {
                     <ArrowRight className="w-4 h-4" />
                     <span>Disaster Recovery Services</span>
                   </Link>
-                  <Link href="/services/commercial/" className="flex items-center gap-2 text-brand-green hover:text-brand-green-dark transition-colors">
+                  <Link href="/commercial/" className="flex items-center gap-2 text-brand-green hover:text-brand-green-dark transition-colors">
                     <ArrowRight className="w-4 h-4" />
                     <span>Commercial Construction</span>
                   </Link>

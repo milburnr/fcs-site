@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling" },
   { href: "/trends-and-future-of-commercial-construction-in-tampa/", label: "Tampa Construction Trends" },

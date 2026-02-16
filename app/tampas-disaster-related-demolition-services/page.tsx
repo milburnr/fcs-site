@@ -41,7 +41,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/complete-property-overhaul-after-disasters-in-tampa/", label: "Complete Property Overhaul" },
   { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },

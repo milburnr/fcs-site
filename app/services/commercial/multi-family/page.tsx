@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/services/commercial/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Multi-Family", href: "/services/commercial/multi-family/" },
 ];
 
@@ -180,7 +180,7 @@ export default function MultiFamilyPage() {
             </p>
 
             <Link
-              href="/services/commercial/"
+              href="/commercial/"
               className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
             >
               <ArrowRight className="w-4 h-4 mr-2" />
@@ -284,7 +284,7 @@ export default function MultiFamilyPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
                 <li><Link href="/services/commercial/design-build/" className="text-brand-green hover:underline">Design-Build Construction</Link></li>
                 <li><Link href="/services/commercial/retail-construction/" className="text-brand-green hover:underline">Retail Construction</Link></li>
               </ul>
@@ -292,7 +292,7 @@ export default function MultiFamilyPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Residential Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
+                <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Balcony Reconstruction</Link></li>
                 <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
@@ -336,7 +336,7 @@ export default function MultiFamilyPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

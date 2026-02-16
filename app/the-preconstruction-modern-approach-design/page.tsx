@@ -34,7 +34,7 @@ const relatedArticles = [
   },
   {
     "title": "CPM Scheduling to Prevent Delays",
-    "href": "/commercial-construction/",
+    "href": "/commercial/",
     "description": "Using critical path method scheduling to keep projects on track."
   },
   {

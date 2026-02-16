@@ -28,7 +28,7 @@ const internalLinks = [
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/boosting-performance-in-florida-offices-windows/", label: "Office Windows" },
   { href: "/maximize-work-area-efficiency-for-commercial-space-solutions/", label: "Space Efficiency" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

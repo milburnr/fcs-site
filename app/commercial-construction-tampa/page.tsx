@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/services/commercial/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Tampa", href: "/commercial-construction-tampa/" }];
 
 const tampaFaqs = [
@@ -66,7 +66,7 @@ const tampaFaqs = [
   }];
 
 const pillarLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" }];
 

@@ -94,7 +94,7 @@ const relatedServices = [
   { href: "/expert-witness/", label: "Expert Witness Services" },
   { href: "/certified-estimates/", label: "Certified Estimates" },
   { href: "/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
 ];
 
 const clientTypes = [
@@ -186,8 +186,8 @@ const consultingServices = [
 
 const internalLinks = [
   { href: "/services/", label: "Our Construction Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/construction-quotes-for-commercial-project/", label: "Construction Quotes Guide" },
   { href: "/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

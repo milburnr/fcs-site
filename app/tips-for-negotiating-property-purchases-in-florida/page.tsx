@@ -45,7 +45,7 @@ const internalLinks = [
   { href: "/tampa-commercial-real-estate-development/", label: "Real Estate Development" },
   { href: "/investing-in-commercial-real-estate-construction/", label: "Investment Construction" },
   { href: "/enhancing-commercial-property-value/", label: "Property Value Enhancement" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Request Property Assessment" },
 ];
 

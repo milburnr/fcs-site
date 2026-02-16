@@ -21,7 +21,7 @@ const internalLinks = [
   { href: "/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
   { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/custom-home-wine-cellars-in-tampa/", label: "Wine Cellar Design" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

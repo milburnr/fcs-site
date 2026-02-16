@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/safety-first-in-florida-commercial-construction-projects/", label: "Safety First in Commercial Projects" },
   { href: "/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },

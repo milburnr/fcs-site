@@ -21,7 +21,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
@@ -537,7 +537,7 @@ export default function Page() {
                 Our comprehensive approach combines technical expertise with insurance industry knowledge, ensuring that every aspect of your commercial restoration project supports maximum claim recovery. We maintain current certifications, employ advanced documentation technology, and understand the complexities of Florida's commercial construction requirements.
               </p>
               <p className="text-gray-600 mb-6">
-                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> for a comprehensive damage assessment and learn how our insurance restoration expertise can benefit your commercial property. For emergencies, our <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery team</Link> is available 24/7.
+                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> for a comprehensive damage assessment and learn how our insurance restoration expertise can benefit your commercial property. For emergencies, our <Link href="/insurance/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery team</Link> is available 24/7.
               </p>
           </div>
         </div>

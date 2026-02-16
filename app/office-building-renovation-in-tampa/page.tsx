@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling Contractors" },
   { href: "/smooth-commercial-renovations-solution-in-tampa/", label: "Smooth Occupied Renovations" },

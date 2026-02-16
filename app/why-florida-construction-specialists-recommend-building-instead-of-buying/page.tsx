@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/tampa-commercial-construction-permits/", label: "Construction Permits" },
   { href: "/the-importance-of-quality-construction-materials-in-tampa/", label: "Quality Materials" },

@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/revitalize-your-older-building-renovation-and-reconstruction/", label: "Building Revitalization" },
   { href: "/key-signs-your-commercial-remodel-needs/", label: "Signs You Need Renovation" },

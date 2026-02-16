@@ -418,7 +418,7 @@ export default function TeamPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction"},{"href":"/services/residential/","label":"Residential Construction"},{"href":"/services/disaster-recovery/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/locations/tampa/","label":"Tampa Construction Services"}]}
+            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/locations/tampa/","label":"Tampa Construction Services"}]}
             title="Related Resources"
             
           />

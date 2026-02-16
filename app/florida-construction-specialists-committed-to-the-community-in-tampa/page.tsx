@@ -43,7 +43,7 @@ const faqs = [
 const internalLinks = [
   { href: "/about/", label: "About Us" },
   { href: "/services/", label: "Our Services" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery" },
+  { href: "/insurance/", label: "Disaster Recovery" },
   { href: "/the-essential-role-of-florida-construction-specialists/", label: "Our Essential Role" },
   { href: "/contact/", label: "Contact Us" },
 ];

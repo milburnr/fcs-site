@@ -65,9 +65,9 @@ const faqs = [
 ];
 
 const serviceLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
+  { href: "/insurance/", label: "Disaster Recovery" },
   { href: "/services/historic-restoration/", label: "Historic Restoration" },
   { href: "/commercial-construction-tampa/", label: "Commercial Construction Tampa" },
   { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
@@ -169,8 +169,8 @@ export default function LakelandPage() {
             <div className="prose prose-lg max-w-none text-gray-600">
               <p className="mb-4">
                 Florida Construction Specialists is a premier general contractor serving Lakeland with
-                large-scale <Link href="/services/commercial/" className="text-blue-600 hover:underline">commercial construction</Link>,
-                multi-family residential, <Link href="/services/disaster-recovery/" className="text-blue-600 hover:underline">disaster recovery</Link>,
+                large-scale <Link href="/commercial/" className="text-blue-600 hover:underline">commercial construction</Link>,
+                multi-family residential, <Link href="/insurance/" className="text-blue-600 hover:underline">disaster recovery</Link>,
                 <Link href="/services/historic-restoration/" className="text-blue-600 hover:underline">historic restoration</Link>,
                 and luxury custom home building. As a prime contractor, we maintain full project control
                 and direct accountability on every Lakeland project.
@@ -184,7 +184,7 @@ export default function LakelandPage() {
               <p>
                 Our principal, Frank Bragano, brings 43+ years of construction and insurance industry experience
                 to every Lakeland project. Whether you're planning a new commercial development, restoring
-                property after storm damage, or building a luxury <Link href="/services/residential/" className="text-blue-600 hover:underline">custom home</Link>,
+                property after storm damage, or building a luxury <Link href="/residential/" className="text-blue-600 hover:underline">custom home</Link>,
                 we deliver the expertise and bonding capacity your project demands.
               </p>
             </div>
@@ -200,7 +200,7 @@ export default function LakelandPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
-              href="/services/commercial/"
+              href="/commercial/"
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="w-14 h-14 bg-blue-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-blue-200 transition-colors">
@@ -214,7 +214,7 @@ export default function LakelandPage() {
             </Link>
 
             <Link
-              href="/services/residential/"
+              href="/residential/"
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="w-14 h-14 bg-green-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-green-200 transition-colors">
@@ -228,7 +228,7 @@ export default function LakelandPage() {
             </Link>
 
             <Link
-              href="/services/disaster-recovery/"
+              href="/insurance/"
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow group"
             >
               <div className="w-14 h-14 bg-red-100 rounded-xl flex items-center justify-center mb-4 group-hover:bg-red-200 transition-colors">

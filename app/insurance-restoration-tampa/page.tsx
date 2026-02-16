@@ -239,7 +239,7 @@ const tampaFaqs = [
 
 const internalLinks = [
   { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/hurricane-damage-tampa/", label: "Hurricane Damage Tampa" },
   { href: "/flood-damage-restoration-tampa/", label: "Flood Damage Tampa" },
   { href: "/fire-damage-restoration-tampa/", label: "Fire Damage Tampa" },

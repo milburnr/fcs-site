@@ -37,7 +37,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/services/disaster-recovery/" },
+  { name: "Disaster Recovery", href: "/insurance/" },
   { name: "Tampa", href: "/disaster-recovery-tampa/" },
 ];
 
@@ -151,7 +151,7 @@ const processSteps = [
 ];
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services (Main)" },
+  { href: "/insurance/", label: "Disaster Recovery Services (Main)" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Services" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
@@ -744,7 +744,7 @@ export default function DisasterRecoveryTampaPage() {
                 Learn more about our comprehensive disaster recovery services, insurance restoration expertise, and claims experience throughout Tampa Bay.
               </p>
               <Link
-                href="/services/disaster-recovery/"
+                href="/insurance/"
                 className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
               >
                 View All Disaster Recovery Services <ArrowRight className="w-4 h-4 ml-2" />

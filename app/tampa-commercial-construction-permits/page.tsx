@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/", label: "Permit Insights" },
   { href: "/tampa-historic-restoration-permits-and-regulations/", label: "Historic Restoration Permits" },

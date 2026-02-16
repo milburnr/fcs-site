@@ -27,8 +27,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/employee-communication-with-office-layout/", label: "Office Layout Design" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/commercial-construction/", label: "Flex Space Development" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Flex Space Development" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/tampas-insurance-restoration-reporting-and-documentation/", label: "Reporting and Documentation" },
   { href: "/technology-role-in-insurance-restoration-processes-in-tampa/", label: "Technology in Restoration" },
   { href: "/tampas-insurance-restoration-for-commercial-interiors/", label: "Commercial Interior Restoration" },

@@ -18,7 +18,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Custom Homes" },
   { href: "/tampa-custom-homes-with-green-building-practices/", label: "Green Building Practices" },
   { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Homes" },

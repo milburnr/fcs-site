@@ -18,7 +18,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/key-benefits-of-choosing-a-local-general-contractor-in-tampa/", label: "Benefits of Local GCs" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },

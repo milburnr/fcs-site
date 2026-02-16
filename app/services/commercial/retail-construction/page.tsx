@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/services/commercial/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Retail Construction", href: "/services/commercial/retail-construction/" },
 ];
 
@@ -180,7 +180,7 @@ export default function RetailConstructionPage() {
             </p>
 
             <Link
-              href="/services/commercial/"
+              href="/commercial/"
               className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
             >
               <ArrowRight className="w-4 h-4 mr-2" />
@@ -284,7 +284,7 @@ export default function RetailConstructionPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
                 <li><Link href="/services/commercial/tenant-improvements/" className="text-brand-green hover:underline">Tenant Improvements</Link></li>
                 <li><Link href="/services/commercial/design-build/" className="text-brand-green hover:underline">Design-Build</Link></li>
               </ul>
@@ -300,7 +300,7 @@ export default function RetailConstructionPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Other Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/disaster-recovery/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
+                <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
                 <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
               </ul>
@@ -336,7 +336,7 @@ export default function RetailConstructionPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

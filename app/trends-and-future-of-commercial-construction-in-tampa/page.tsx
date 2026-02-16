@@ -18,7 +18,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/commercial-construction-technology-in-tampa/", label: "Construction Technology" },
   { href: "/eco-friendly-commercial-construction-in-tampa/", label: "Eco-Friendly Construction" },

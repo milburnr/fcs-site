@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/bespoke-architectural-design-in-tampa/", label: "Bespoke Architectural Design" },
   { href: "/building-the-perfect-construction-blueprint/", label: "Construction Blueprint Guide" },

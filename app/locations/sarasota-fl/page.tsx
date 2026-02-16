@@ -26,18 +26,18 @@ const services = [
     title: "Commercial Construction",
     description: "Office buildings, retail centers, medical facilities, and mixed-use developments throughout Sarasota's upscale commercial corridors.",
     icon: Building2,
-    href: "/services/commercial/",
+    href: "/commercial/",
   },
   {
     title: "Luxury Residential",
     description: "High-end custom homes, waterfront estates, and major renovations for Sarasota's affluent neighborhoods including Longboat Key and Bird Key.",
     icon: Gem,
-    href: "/services/residential/",
+    href: "/residential/",
   },
   {
     title: "Disaster Recovery",
     icon: Shield,
-    href: "/services/disaster-recovery/",
+    href: "/insurance/",
   },
   {
     title: "Coastal Construction",
@@ -91,9 +91,9 @@ const faqs = [
 ];
 
 const pillarLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/residential/", label: "Residential Construction Services" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
 ];
 

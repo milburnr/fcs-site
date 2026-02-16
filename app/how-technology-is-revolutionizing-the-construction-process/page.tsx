@@ -43,7 +43,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/top-commercial-modular-construction-in-tampa/", label: "Modular Construction" },
   { href: "/the-essential-role-of-florida-construction-specialists/", label: "About Our Approach" },
   { href: "/contact/", label: "Discuss Your Project" },

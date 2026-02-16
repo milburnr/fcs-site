@@ -246,7 +246,7 @@ const internalLinks = [
   { href: "/services/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

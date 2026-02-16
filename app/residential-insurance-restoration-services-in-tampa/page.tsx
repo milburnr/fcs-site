@@ -41,7 +41,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },

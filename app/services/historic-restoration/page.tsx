@@ -623,7 +623,7 @@ export default function HistoricRestorationPage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Link href="/services/commercial/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/commercial/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
                 Commercial Construction
               </h3>
@@ -633,7 +633,7 @@ export default function HistoricRestorationPage() {
               </span>
             </Link>
 
-            <Link href="/services/disaster-recovery/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/insurance/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
                 Disaster Recovery
               </h3>
@@ -643,7 +643,7 @@ export default function HistoricRestorationPage() {
               </span>
             </Link>
 
-            <Link href="/services/residential/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/residential/" className="group bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
                 Residential Construction
               </h3>

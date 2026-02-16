@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/tampas-latest-commercial-construction-projects/", label: "Latest Tampa Projects" },
   { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
   { href: "/efficient-commercial-construction-timelines-in-tampa/", label: "Construction Timelines" },

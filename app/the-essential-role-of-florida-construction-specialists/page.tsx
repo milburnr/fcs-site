@@ -42,10 +42,10 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/services/historic-restoration/", label: "Historic Restoration" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery" },
+  { href: "/insurance/", label: "Disaster Recovery" },
   { href: "/contact/", label: "Contact Us" },
 ];
 

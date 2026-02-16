@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/crafting-custom-home-libraries-in-tampa/", label: "Custom Libraries" },
   { href: "/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
   { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/services/commercial/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Design-Build", href: "/services/commercial/design-build/" },
 ];
 
@@ -257,7 +257,7 @@ export default function DesignBuildPage() {
             </div>
 
             <Link
-              href="/services/commercial/"
+              href="/commercial/"
               className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
             >
               <ArrowRight className="w-4 h-4 mr-2" />
@@ -328,7 +328,7 @@ export default function DesignBuildPage() {
                 <p className="text-gray-600 text-sm mb-3">
                   From single-tenant professional buildings to multi-story office complexes, design-build delivers efficient, functional workspaces on accelerated timelines.
                 </p>
-                <Link href="/services/commercial/" className="text-brand-green text-sm hover:underline">
+                <Link href="/commercial/" className="text-brand-green text-sm hover:underline">
                   Learn more about commercial construction →
                 </Link>
               </div>
@@ -415,7 +415,7 @@ export default function DesignBuildPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
                 <li><Link href="/services/commercial/multi-family/" className="text-brand-green hover:underline">Multi-Family Construction</Link></li>
                 <li><Link href="/services/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
               </ul>
@@ -431,8 +431,8 @@ export default function DesignBuildPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Other Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
-                <li><Link href="/services/disaster-recovery/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
+                <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
+                <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
                 <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
               </ul>
             </div>
@@ -467,7 +467,7 @@ export default function DesignBuildPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial-construction/" }, { label: "Contact Us", href: "/contact/" }]} />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial/" }, { label: "Contact Us", href: "/contact/" }]} />
         </div>
       </section>
 

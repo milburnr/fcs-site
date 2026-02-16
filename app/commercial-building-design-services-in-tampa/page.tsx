@@ -21,7 +21,7 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/bespoke-architectural-design-in-tampa/", label: "Custom Architectural Design" },
   { href: "/commercial-interior-design-in-tampa/", label: "Commercial Interior Design" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -20,7 +20,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
   { href: "/construction-florida-leading-way-leed-certification/", label: "LEED Certification Services" },

@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/common-construction-mistakes-to-avoid-for-commercial-project/", label: "Construction Mistakes to Avoid" },
   { href: "/the-stages-of-construction-project-management/", label: "Project Management Stages" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
@@ -34,7 +34,7 @@ const relatedArticles = [
   },
   {
     "title": "CPM Scheduling to Prevent Delays",
-    "href": "/commercial-construction/",
+    "href": "/commercial/",
     "description": "Using critical path method scheduling to keep projects on track."
   },
   {

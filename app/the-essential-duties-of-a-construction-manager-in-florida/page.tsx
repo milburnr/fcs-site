@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/the-role-of-a-construction-manager/", label: "Role of a Construction Manager" },
   { href: "/choose-between-general-contractor-and-construction-manager/", label: "GC vs Construction Manager" },
   { href: "/the-stages-of-construction-project-management/", label: "Project Management Stages" },
@@ -29,7 +29,7 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "CPM Scheduling to Prevent Delays",
-    "href": "/commercial-construction/",
+    "href": "/commercial/",
     "description": "Using critical path method scheduling to keep projects on track."
   },
   {

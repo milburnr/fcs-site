@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
   { href: "/expert-tips-for-planning-your-commercial-construction-project/", label: "Planning Tips" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Get Your Quote" },
 ];
 

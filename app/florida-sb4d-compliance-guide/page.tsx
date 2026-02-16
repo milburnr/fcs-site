@@ -138,7 +138,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
@@ -565,7 +565,7 @@ export default function SB4DCompliancePage() {
               </p>
             </Link>
             <Link
-              href="/commercial-construction/"
+              href="/commercial/"
               className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
             >
               <Calendar className="w-8 h-8 text-brand-green mb-3" />

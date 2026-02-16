@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential Construction", href: "/services/residential/" },
+  { name: "Residential Construction", href: "/residential/" },
   { name: "Home Additions", href: "/services/residential/home-additions/" },
 ];
 
@@ -180,7 +180,7 @@ export default function HomeAdditionsPage() {
             </p>
 
             <Link
-              href="/services/residential/"
+              href="/residential/"
               className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
             >
               <ArrowRight className="w-4 h-4 mr-2" />
@@ -284,7 +284,7 @@ export default function HomeAdditionsPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Residential Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
+                <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/residential/kitchen-remodeling/" className="text-brand-green hover:underline">Kitchen Remodeling</Link></li>
                 <li><Link href="/services/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
               </ul>
@@ -293,7 +293,7 @@ export default function HomeAdditionsPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Commercial</h3>
               <ul className="space-y-2">
                 <li><Link href="/services/commercial/commercial-additions/" className="text-brand-green hover:underline">Commercial Additions</Link></li>
-                <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
               </ul>
             </div>
             <div>
@@ -336,7 +336,7 @@ export default function HomeAdditionsPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />

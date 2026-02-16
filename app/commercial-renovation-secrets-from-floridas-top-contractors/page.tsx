@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvement Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages" },
   { href: "/contact/", label: "Schedule a Consultation" },

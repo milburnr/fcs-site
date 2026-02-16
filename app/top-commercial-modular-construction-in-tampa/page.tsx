@@ -41,7 +41,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/how-technology-is-revolutionizing-the-construction-process/", label: "Construction Technology" },
   { href: "/contact/", label: "Discuss Modular Project" },

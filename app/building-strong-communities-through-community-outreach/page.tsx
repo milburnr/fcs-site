@@ -21,8 +21,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/services/", label: "Our Construction Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Contact Us" },
 ];
 

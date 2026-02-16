@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/leading-engineering-services-for-commercial-buildings-in-tampa/", label: "Engineering Services" },
   { href: "/ensuring-construction-site-safety-a-top-priority/", label: "Construction Safety" },

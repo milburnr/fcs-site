@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages Guide" },
   { href: "/construction-project-management-and-scheduling/", label: "Project Management" },

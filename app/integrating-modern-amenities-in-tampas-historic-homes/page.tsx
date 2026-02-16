@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/services/luxury-custom-homes/", label: "Waterfront Home Construction" },
   { href: "/services/residential/home-additions/", label: "Home Additions" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },

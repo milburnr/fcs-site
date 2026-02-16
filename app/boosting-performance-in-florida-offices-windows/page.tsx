@@ -28,7 +28,7 @@ const internalLinks = [
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/employee-communication-with-office-layout/", label: "Office Layout Design" },
   { href: "/expert-insights-on-ways-t0-enhanced-office-building-security/", label: "Office Building Security" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

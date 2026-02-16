@@ -41,7 +41,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/tampa-commercial-construction-permits/", label: "Tampa Permit Guide" },
   { href: "/tampa-historic-restoration-permits-and-regulations/", label: "Historic Restoration Permits" },
   { href: "/ensuring-construction-site-safety-a-top-priority/", label: "Construction Site Safety" },

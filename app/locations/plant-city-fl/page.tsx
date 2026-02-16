@@ -26,7 +26,7 @@ const services = [
     title: "Commercial Construction",
     description: "Office buildings, retail centers, medical facilities, and mixed-use developments throughout Plant City and eastern Hillsborough County.",
     icon: Building2,
-    href: "/services/commercial/",
+    href: "/commercial/",
   },
   {
     title: "Agricultural & Industrial",
@@ -37,13 +37,13 @@ const services = [
   {
     title: "Disaster Recovery",
     icon: Shield,
-    href: "/services/disaster-recovery/",
+    href: "/insurance/",
   },
   {
     title: "Residential Construction",
     description: "Luxury custom homes, home additions, and major renovations for Plant City's growing residential communities.",
     icon: Home,
-    href: "/services/residential/",
+    href: "/residential/",
   },
 ];
 
@@ -404,9 +404,9 @@ export default function PlantCityPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Construction Services</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
-                <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
-                <li><Link href="/services/disaster-recovery/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
+                <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
+                <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
                 <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
               </ul>
             </div>
@@ -460,7 +460,7 @@ export default function PlantCityPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/commercial/","label":"Commercial Construction"},{"href":"/services/residential/","label":"Residential Construction"},{"href":"/services/disaster-recovery/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/locations/tampa/","label":"Tampa Construction Services"}]}
+            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/locations/tampa/","label":"Tampa Construction Services"}]}
             title="Related Resources"
             
           />

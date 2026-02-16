@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential", href: "/services/residential/" },
+  { name: "Residential", href: "/residential/" },
   { name: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { name: "Clearwater", href: "/exterior-waterproofing-clearwater/" },
 ];
@@ -358,7 +358,7 @@ export default function ExteriorWaterproofingClearwaterPage() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/residential/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
+                    <Link href="/residential/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
                       <ArrowRight className="w-4 h-4" />
                       Residential Construction
                     </Link>

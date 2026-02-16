@@ -42,8 +42,8 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/", label: "Permit Insights" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },

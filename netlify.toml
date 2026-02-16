@@ -38,15 +38,15 @@
 # 301 Redirects for Duplicate Page Consolidation
 # ===========================================
 
-# Commercial Construction Consolidations → /commercial-construction/
+# Commercial Construction Consolidations → /commercial/
 [[redirects]]
   from = "/a-comprehensive-look-at-commercial-construction-stages-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/a-zero-accident-workplace-in-tampas-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -56,12 +56,12 @@
 
 [[redirects]]
   from = "/answering-financial-questions-florida-construction-specialists-perspective-on-commercial-construction-in-tampa/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/avoid-commercial-construction-delays-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -76,12 +76,12 @@
 
 [[redirects]]
   from = "/commercial-buildings-facade-renovations/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-budgeting-tips-for-florida-specialists/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -91,17 +91,17 @@
 
 [[redirects]]
   from = "/commercial-construction-delays/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-ideas-for-mall-revamp/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-insurance-coverage/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -111,17 +111,17 @@
 
 [[redirects]]
   from = "/commercial-construction-project-dont-hire-unlicensed-contractors/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-project-on-schedule/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-questions-answered/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -131,7 +131,7 @@
 
 [[redirects]]
   from = "/commercial-construction-stages-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -141,7 +141,7 @@
 
 [[redirects]]
   from = "/commercial-construction-vs-remodeling-and-renovation-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -166,12 +166,12 @@
 
 [[redirects]]
   from = "/commercial-renovation-secrets-from-floridas-top-contractors/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial-residential-construction-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -197,12 +197,12 @@
 
 [[redirects]]
   from = "/choosing-perfect-location-for-your-florida-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/choosing-the-perfect-location-for-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -541,25 +541,25 @@
   to = "/about/"
   status = 301
 
-# Design-Build Duplicates → /commercial-construction/
+# Design-Build Duplicates → /commercial/
 [[redirects]]
   from = "/benefits-of-design-build-construction-for-commercial-project/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/benifits-of-design-build-construction-for-commercial-projects/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/experienced-design-build-firm-in-florida/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/streamlining-your-design-build-project-timeline/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 # Insurance-Related Duplicates → /disaster-recovery/
@@ -596,7 +596,7 @@
 
 [[redirects]]
   from = "/florida-construction-specialists-essential-tips-for-keeping-your-commercial-construction-project-on-schedule/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -606,7 +606,7 @@
 
 [[redirects]]
   from = "/florida-construction-specialists-going-green-in-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -626,23 +626,17 @@
 
 [[redirects]]
   from = "/florida-construction-specialists-leading-the-way-in-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/florida-construction-specialists-mastering-your-post-construction-checklist/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/florida-construction-specialists-navigating-commercial-construction-insurance/"
-  to = "/commercial-construction/"
-  status = 301
-
-# Old service page URLs → new URLs
-[[redirects]]
-  from = "/commercial/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 # Off-topic page removal (AUDIT-03)
@@ -703,45 +697,45 @@
   to = "/commercial-construction-tampa/"
   status = 301
 
-# Thin pages -> /commercial-construction/
+# Thin pages -> /commercial/
 [[redirects]]
   from = "/boost-sales-with-effective-retail-store-design-ideas/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/boost-your-business-with-an-attractive-retail-space/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/commercial/cpm-scheduling/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/cpm-scheduling-prevent-delays/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/facility-expansion-success-a-guide-for-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/industrial-flex-space-development/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/tilt-wall-vs-metal-buildings/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/warehouse-construction-tampa-bay/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 # Thin pages -> /disaster-recovery-tampa/
@@ -967,6 +961,48 @@
   to = "/multi-family-construction/"
   status = 301
 
+# ===========================================
+# Hub Consolidation Redirects (Phase 02-01)
+# ===========================================
+
+# Commercial hub duplicates → /commercial/
+[[redirects]]
+  from = "/commercial-construction/"
+  to = "/commercial/"
+  status = 301
+
+[[redirects]]
+  from = "/services/commercial/"
+  to = "/commercial/"
+  status = 301
+
+# Residential hub duplicates → /residential/
+[[redirects]]
+  from = "/custom-homes/"
+  to = "/residential/"
+  status = 301
+
+[[redirects]]
+  from = "/services/residential/"
+  to = "/residential/"
+  status = 301
+
+# Insurance hub duplicates → /insurance/
+[[redirects]]
+  from = "/insurance-restoration/"
+  to = "/insurance/"
+  status = 301
+
+[[redirects]]
+  from = "/disaster-recovery-insurance-restoration/"
+  to = "/insurance/"
+  status = 301
+
+[[redirects]]
+  from = "/services/disaster-recovery/"
+  to = "/insurance/"
+  status = 301
+
 # 404 page
 [[redirects]]
   from = "/*"
@@ -1027,7 +1063,7 @@
 # Technical/Compliance
 [[redirects]]
   from = "/ahca-compliance-medical-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
@@ -1037,12 +1073,12 @@
 
 [[redirects]]
   from = "/cpm-scheduling-commercial-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]
   from = "/flood-zone-ve-vs-ae-construction/"
-  to = "/commercial-construction/"
+  to = "/commercial/"
   status = 301
 
 [[redirects]]

@@ -19,7 +19,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/tampa-custom-outdoor-living-spaces/", label: "Outdoor Living Spaces" },
   { href: "/tampas-custom-family-home-builders/", label: "Custom Family Homes" },
   { href: "/spacious-family-homes-construction-in-tampa/", label: "Spacious Family Homes" },

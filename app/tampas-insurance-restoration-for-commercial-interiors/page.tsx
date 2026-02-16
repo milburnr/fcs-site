@@ -42,9 +42,9 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance-restoration-project-management-in-tampa/", label: "Project Management" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

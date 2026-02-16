@@ -75,7 +75,7 @@ const bradentonFaqs = [
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Commercial Construction", href: "/commercial-construction/" },
+  { name: "Commercial Construction", href: "/commercial/" },
   { name: "Bradenton", href: "/commercial-construction-bradenton/" }];
 
 export default function CommercialConstructionBradentonPage() {
@@ -492,7 +492,7 @@ export default function CommercialConstructionBradentonPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
               <ul className="space-y-2">
-                <li><Link href="/commercial-construction/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
+                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
                 <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Gallery</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>

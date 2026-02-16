@@ -153,8 +153,8 @@ const processSteps = [
 
 const internalLinks = [
   { href: "/services/", label: "Our Construction Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -530,7 +530,7 @@ export default function EngineeringCoordinationPage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link href="/services/commercial/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/commercial/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-lg font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
                 Commercial Construction
               </h3>
@@ -540,7 +540,7 @@ export default function EngineeringCoordinationPage() {
               </span>
             </Link>
 
-            <Link href="/services/disaster-recovery/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/insurance/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-lg font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
                 Disaster Recovery
               </h3>

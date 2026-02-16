@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/residential/", label: "Residential Construction" },
+  { href: "/residential/", label: "Residential Construction" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/contact/", label: "Schedule a Consultation" },

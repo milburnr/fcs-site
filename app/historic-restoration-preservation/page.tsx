@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
@@ -528,7 +528,7 @@ export default function HistoricRestorationPage() {
               </span>
             </Link>
             <Link
-              href="/commercial-construction/"
+              href="/commercial/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-green hover:text-white transition-all"
             >
               <h3 className="text-lg font-bold text-brand-green-dark group-hover:text-white mb-2">

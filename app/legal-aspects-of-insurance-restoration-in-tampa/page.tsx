@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
@@ -360,7 +360,7 @@ export default function Page() {
                 Florida Construction Specialists provides the detailed documentation and claim-conscious restoration services that protect your interests. While we don&apos;t provide legal advice, we work alongside your insurance professionals and legal counsel to support the strongest possible claim.
               </p>
               <p className="text-gray-600 mb-6">
-                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss your commercial property restoration needs throughout Tampa Bay. Our team serves Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland with comprehensive <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery</Link> and <Link href="/insurance-restoration/" className="text-brand-green-dark font-semibold hover:underline">insurance restoration services</Link>.
+                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss your commercial property restoration needs throughout Tampa Bay. Our team serves Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland with comprehensive <Link href="/insurance/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery</Link> and <Link href="/insurance/" className="text-brand-green-dark font-semibold hover:underline">insurance restoration services</Link>.
               </p>
           </div>
         </div>

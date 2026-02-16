@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
+  { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
@@ -658,7 +658,7 @@ export default function Page() {
                 Our comprehensive approach addresses environmental challenges proactively, preventing delays and cost overruns that often affect restoration projects where environmental issues are discovered after work begins. With over four decades of experience in Tampa Bay commercial restoration, we understand the local environmental challenges and regulatory landscape that affect restoration projects in this region.
               </p>
               <p className="text-gray-600 mb-6">
-                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss environmental concerns in your restoration project. Our team serves commercial properties throughout Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area with comprehensive <Link href="/services/disaster-recovery/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery services</Link> that address every aspect of environmental compliance and remediation.
+                <Link href="/contact/" className="text-brand-green-dark font-semibold hover:underline">Contact us today</Link> to discuss environmental concerns in your restoration project. Our team serves commercial properties throughout Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area with comprehensive <Link href="/insurance/" className="text-brand-green-dark font-semibold hover:underline">disaster recovery services</Link> that address every aspect of environmental compliance and remediation.
               </p>
           </div>
         </div>

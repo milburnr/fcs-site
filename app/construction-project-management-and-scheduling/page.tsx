@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/streamlining-your-design-build-project-timeline/", label: "Timeline Optimization" },
   { href: "/avoid-commercial-construction-delays-in-florida/", label: "Avoiding Delays" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/services/commercial/", label: "Commercial Construction" },
+  { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -34,7 +34,7 @@ const relatedArticles = [
   },
   {
     "title": "CPM Scheduling to Prevent Delays",
-    "href": "/commercial-construction/",
+    "href": "/commercial/",
     "description": "Using critical path method scheduling to keep projects on track."
   },
   {

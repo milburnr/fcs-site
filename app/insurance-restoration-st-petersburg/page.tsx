@@ -223,8 +223,8 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
   { href: "/insurance-restoration-tampa/", label: "Insurance Restoration Tampa" },
   { href: "/insurance-restoration-clearwater/", label: "Insurance Restoration Clearwater" },
-  { href: "/services/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/residential/", label: "Residential Construction Services" },
+  { href: "/commercial/", label: "Commercial Construction Services" },
+  { href: "/residential/", label: "Residential Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
