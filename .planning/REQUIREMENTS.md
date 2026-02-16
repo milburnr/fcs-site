@@ -143,13 +143,73 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| *(populated by roadmapper)* | | |
+| AUDIT-01 | Phase 1 | Pending |
+| AUDIT-02 | Phase 1 | Pending |
+| AUDIT-03 | Phase 1 | Pending |
+| AUDIT-04 | Phase 1 | Pending |
+| AUDIT-05 | Phase 1 | Pending |
+| AUDIT-06 | Phase 1 | Pending |
+| AUDIT-07 | Phase 1 | Pending |
+| AUDIT-08 | Phase 1 | Pending |
+| AUDIT-09 | Phase 1 | Pending |
+| TECH-01 | Phase 2 | Pending |
+| TECH-02 | Phase 2 | Pending |
+| TECH-03 | Phase 2 | Pending |
+| TECH-04 | Phase 2 | Pending |
+| TECH-05 | Phase 2 | Pending |
+| TECH-06 | Phase 2 | Pending |
+| TECH-07 | Phase 2 | Pending |
+| TECH-08 | Phase 2 | Pending |
+| TECH-09 | Phase 2 | Pending |
+| TECH-10 | Phase 2 | Pending |
+| SCHEMA-01 | Phase 3 | Pending |
+| SCHEMA-02 | Phase 3 | Pending |
+| SCHEMA-03 | Phase 3 | Pending |
+| SCHEMA-04 | Phase 3 | Pending |
+| SCHEMA-05 | Phase 3 | Pending |
+| SCHEMA-06 | Phase 3 | Pending |
+| NAP-01 | Phase 3 | Pending |
+| NAP-02 | Phase 3 | Pending |
+| NAP-03 | Phase 3 | Pending |
+| NAP-04 | Phase 3 | Pending |
+| HUB-01 | Phase 4 | Pending |
+| HUB-02 | Phase 4 | Pending |
+| HUB-03 | Phase 4 | Pending |
+| HUB-04 | Phase 4 | Pending |
+| HUB-05 | Phase 4 | Pending |
+| LOC-01 | Phase 5 | Pending |
+| LOC-02 | Phase 5 | Pending |
+| LOC-03 | Phase 5 | Pending |
+| LOC-04 | Phase 5 | Pending |
+| LOC-05 | Phase 5 | Pending |
+| LOC-06 | Phase 5 | Pending |
+| LOC-07 | Phase 5 | Pending |
+| EEAT-01 | Phase 6 | Pending |
+| EEAT-02 | Phase 6 | Pending |
+| EEAT-03 | Phase 6 | Pending |
+| EEAT-04 | Phase 6 | Pending |
+| EEAT-05 | Phase 6 | Pending |
+| SB4D-01 | Phase 7 | Pending |
+| SB4D-02 | Phase 7 | Pending |
+| SB4D-03 | Phase 7 | Pending |
+| SB4D-04 | Phase 7 | Pending |
+| SB4D-05 | Phase 7 | Pending |
+| SB4D-06 | Phase 7 | Pending |
+| INS-01 | Phase 8 | Pending |
+| INS-02 | Phase 8 | Pending |
+| INS-03 | Phase 8 | Pending |
+| INS-04 | Phase 8 | Pending |
+| INS-05 | Phase 8 | Pending |
+| CTA-01 | Phase 9 | Pending |
+| CTA-02 | Phase 9 | Pending |
+| CTA-03 | Phase 9 | Pending |
+| CTA-04 | Phase 9 | Pending |
 
 **Coverage:**
 - v1 requirements: 54 total
-- Mapped to phases: 0 (pending roadmap)
-- Unmapped: 54
+- Mapped to phases: 54
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-15*
-*Last updated: 2026-02-15 after research synthesis*
+*Last updated: 2026-02-15 after roadmap creation*
