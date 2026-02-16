@@ -55,11 +55,15 @@ Plans:
   3. Every blog post links to at least 2 relevant service/money pages, and the 67 pages missing InternalLinks have contextual links added
   4. No orphan pages exist (every page has 3+ internal links pointing to it) and the top 20-30 pages are reachable within 2 clicks from homepage
   5. A pre-deploy validation script checks meta titles, canonical URLs, broken internal links, and sitemap-to-output consistency
-**Plans**: TBD
+**Plans:** 6 plans
 
 Plans:
-- [ ] 02-01: TBD
-- [ ] 02-02: TBD
+- [ ] 02-01-PLAN.md -- Hub page consolidation (TECH-03): resolve duplicate hubs for commercial, residential, insurance
+- [ ] 02-02-PLAN.md -- Article classification (TECH-01 partial): classify ~277 articles into silos
+- [ ] 02-03-PLAN.md -- Article moves and guides pages (TECH-01, TECH-02, TECH-04): move files, update canonicals/breadcrumbs, add redirects, create guides index pages
+- [ ] 02-04-PLAN.md -- Internal link updates (TECH-05, TECH-06, TECH-07): update all references, enforce silo discipline, fix missing-links pages
+- [ ] 02-05-PLAN.md -- Orphan and crawl depth audit (TECH-08, TECH-09): build link graph, fix orphans, verify crawl depth
+- [ ] 02-06-PLAN.md -- Validation script and sitemap (TECH-10): pre-deploy validation, regenerate sitemap
 
 ### Phase 3: Schema & Trust Signals
 **Goal**: Schema markup is correct, targeted, and passes Google validation; NAP is consistent across every page; trust signals are visible sitewide
@@ -172,7 +176,7 @@ Phases execute in numeric order. Note: Phases 4 and 6 both depend on Phase 2 (no
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Content Audit & Cleanup | 0/7 | Not started | - |
-| 2. Silo Architecture & Internal Linking | 0/? | Not started | - |
+| 2. Silo Architecture & Internal Linking | 0/6 | Not started | - |
 | 3. Schema & Trust Signals | 0/? | Not started | - |
 | 4. Hub Page Expansion | 0/? | Not started | - |
 | 5. Location Page Strengthening | 0/? | Not started | - |
