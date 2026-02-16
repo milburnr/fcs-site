@@ -92,7 +92,7 @@ export function StickyMobileCTA({
 
           {/* Trust line */}
           <p className="text-center text-xs text-gray-500 mt-2">
-            Licensed CBC1262722 · $10M+ Bonding · 43+ Years Experience
+            Licensed CBC1262722 · Since 1982 · 40+ Years Experience
           </p>
         </div>
       </div>
