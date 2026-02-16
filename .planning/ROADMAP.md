@@ -91,11 +91,12 @@ Plans:
   2. Locations hub is 2,000+ words covering all service areas with links to every location page
   3. Insurance hub is 3,000+ words positioning FCS as the Tampa Bay insurance restoration authority with links to all insurance-related pages
   4. Contact page has trust signals, service area coverage description, and clear CTAs (not just a bare form)
-**Plans**: TBD
+**Plans:** 3 plans
 
 Plans:
-- [ ] 04-01: TBD
-- [ ] 04-02: TBD
+- [ ] 04-01-PLAN.md -- Services hub rewrite + Contact page expansion (HUB-01, HUB-04, HUB-05)
+- [ ] 04-02-PLAN.md -- Locations hub rewrite with 81+ organized links (HUB-02, HUB-04)
+- [ ] 04-03-PLAN.md -- Insurance hub expansion to 3,000+ word authority page (HUB-03, HUB-04)
 
 ### Phase 5: Location Page Strengthening
 **Goal**: All 72 service+location pages are genuinely unique money pages with city-specific content that passes the doorway page test and ranks for "[service] [city]" queries
