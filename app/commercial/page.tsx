@@ -159,13 +159,13 @@ const industriesServed = [
 const featuredArticles = [
   {
     title: "Florida SB4-D Compliance Guide for Condo Associations",
-    href: "/sb4d-compliance-guide/",
+    href: "/commercial/guides/sb4d-compliance-guide/",
     category: "Condo Remediation",
     excerpt: "Understanding the new milestone inspection and SIRS requirements",
   },
   {
     title: "CPM Scheduling to Prevent Commercial Project Delays",
-    href: "/cpm-scheduling-commercial-construction/",
+    href: "/commercial/guides/cpm-scheduling-commercial-construction/",
     category: "Project Management",
     excerpt: "How critical path method scheduling keeps large projects on track",
   }];
@@ -520,7 +520,8 @@ export default function CommercialHubPage() {
             silo="commercial"
             title="Commercial Construction Insights"
             articles={featuredArticles}
-            showAll={false}
+            showAll={true}
+            allArticlesHref="/commercial/guides/"
           />
         </div>
       </section>
@@ -590,6 +591,7 @@ export default function CommercialHubPage() {
           <InternalLinks
             title="Related Resources"
             links={[
+              { label: "Commercial Guides & Articles", href: "/commercial/guides/" },
               { label: "Multi-Family Construction", href: "/multi-family-construction/" },
               { label: "Disaster Recovery", href: "/disaster-recovery/" },
               { label: "Historic Restoration", href: "/commercial/historic-restoration/" },

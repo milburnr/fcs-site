@@ -969,17 +969,21 @@ export default function CondoRemediationPage() {
             FCS provides SB4-D compliance and condo remediation services throughout the Tampa Bay region. Our focus allows us to deliver hands-on project management and consistent quality.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
-            {LOCATIONS.map((location) => (
-              <div
-                key={location.slug}
-                className="bg-gray-50 rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow"
-              >
-                <MapPin className="w-5 h-5 text-brand-green mx-auto mb-2" />
-                <span className="font-semibold text-brand-green-dark">
-                  {location.name}, FL
-                </span>
-              </div>
-            ))}
+            {LOCATIONS.map((location) => {
+              const urlSlug = location.slug.replace('-fl', '');
+              return (
+                <Link
+                  key={location.slug}
+                  href={`/condo-remediation-${urlSlug}/`}
+                  className="bg-gray-50 rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-shadow hover:bg-brand-green hover:text-white group"
+                >
+                  <MapPin className="w-5 h-5 text-brand-green group-hover:text-white mx-auto mb-2" />
+                  <span className="font-semibold text-brand-green-dark group-hover:text-white">
+                    {location.name}, FL
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

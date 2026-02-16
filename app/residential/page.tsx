@@ -669,6 +669,7 @@ export default function ResidentialHubPage() {
             {[
               { name: "Custom Homes", href: "/luxury-custom-homes/" },
               { name: "Waterfront", href: "/luxury-custom-homes/" },
+              { name: "Guides", href: "/residential/guides/" },
               { name: "Historic", href: "/commercial/historic-restoration/" },
               { name: "FEMA Compliance", href: "/disaster-recovery/" },
               { name: "Contact", href: "/contact/" },

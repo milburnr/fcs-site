@@ -1,0 +1,963 @@
+{
+  "generated": "2026-02-16T20:53:58.187Z",
+  "totalPages": 427,
+  "totalInternalLinks": 11143,
+  "orphanCount": 219,
+  "orphans": [
+    {
+      "url": "/adaptive-reuse-of-historic-buildings-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/adaptive-reuse-of-historic-buildings-in-tampa/"
+      ]
+    },
+    {
+      "url": "/advanced-building-materials-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/advanced-building-materials-in-tampa/"
+      ]
+    },
+    {
+      "url": "/challenges-in-historic-restoration-projects-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/challenges-in-historic-restoration-projects-in-tampa/"
+      ]
+    },
+    {
+      "url": "/choosing-a-builder-expert-commercial-construction-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/choosing-a-builder-expert-commercial-construction-in-tampa/"
+      ]
+    },
+    {
+      "url": "/claims-negotiation-for-property-damage-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/claims-negotiation-for-property-damage-in-tampa/"
+      ]
+    },
+    {
+      "url": "/color-palettes-for-historic-buildings-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/color-palettes-for-historic-buildings-in-tampa/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/balcony-safety-measures/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/balcony-safety-measures/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/building-plans-for-businesses-florida-construction-specialists/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/building-plans-for-businesses-florida-construction-specialists/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/building-strong-communities-through-community-outreach/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/building-strong-communities-through-community-outreach/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/choosing-the-perfect-location-for-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/choosing-the-perfect-location-for-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/church-renovation-tips-from-top-commercial-contractor/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/church-renovation-tips-from-top-commercial-contractor/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-construction-delays/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-construction-delays/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-construction-ideas-for-mall-revamp/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-construction-ideas-for-mall-revamp/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-construction-insurance-coverage/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-construction-insurance-coverage/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-construction-questions-answered/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-construction-questions-answered/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/converting-retail-building-into-multi-tenant-space/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/converting-retail-building-into-multi-tenant-space/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/demystifying-commercial-construction-insurance-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/demystifying-commercial-construction-insurance-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/experienced-design-build-firm-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/experienced-design-build-firm-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/factors-influencing-commercial-construction-project-timeline/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/factors-influencing-commercial-construction-project-timeline/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/green-contractor-certifications-in-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/green-contractor-certifications-in-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/historic-restoration-preservation/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/historic-restoration-preservation/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/historical-accuracy-in-tampa-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/historical-accuracy-in-tampa-restoration/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/leading-commercial-contractors-in-tampas/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/leading-commercial-contractors-in-tampas/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/mastering-commercial-construction-design-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/mastering-commercial-construction-design-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/post-construction-process-for-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/post-construction-process-for-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/renovating-your-commercial-space-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/renovating-your-commercial-space-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/revolutionizing-commercial-construction-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/revolutionizing-commercial-construction-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/skilled-project-managers-for-florida-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/skilled-project-managers-for-florida-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/surviving-a-commercial-construction-project/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/surviving-a-commercial-construction-project/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/sustainable-building-practices-florida-green-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/sustainable-building-practices-florida-green-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/sustainable-commercial-construction-in-tampa-2/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/sustainable-commercial-construction-in-tampa-2/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/sustainable-construction-trends-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/sustainable-construction-trends-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-commercial-construction-job-opportunities/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-commercial-construction-job-opportunities/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-commercial-construction-market-analysis/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-commercial-construction-market-analysis/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-commercial-construction-safety-standards/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-commercial-construction-safety-standards/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-commercial-property-disaster-recovery-services/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-commercial-property-disaster-recovery-services/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-historic-home-restoration-guidelines/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-historic-home-restoration-guidelines/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-historic-restoration-workshops-and-training/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-historic-restoration-workshops-and-training/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampa-historic-window-restoration-services/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampa-historic-window-restoration-services/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-awards-for-historic-restoration-excellence/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-awards-for-historic-restoration-excellence/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-commercial-construction-laws/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-commercial-construction-laws/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-historic-districts-restoration-rules/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-historic-districts-restoration-rules/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-historic-restoration-zoning-laws/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-historic-restoration-zoning-laws/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tampas-historical-societies-and-restoration-efforts/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tampas-historical-societies-and-restoration-efforts/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tips-for-commercial-renovation-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/tips-for-negotiating-property-purchases-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/tips-for-negotiating-property-purchases-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/top-commercial-construction-in-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/top-commercial-construction-in-florida/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/top-commercial-construction-trends/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/top-commercial-construction-trends/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/top-commercial-contractor-with-quality-control/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/top-commercial-contractor-with-quality-control/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/unlocking-commercial-construction-permits/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/unlocking-commercial-construction-permits/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/unlocking-the-power-of-sustainable-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/unlocking-the-power-of-sustainable-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/upgrade-commercial-sprinklers-during-renovation/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/upgrade-commercial-sprinklers-during-renovation/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/value-engineering-in-commercial-construction/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/value-engineering-in-commercial-construction/"
+      ]
+    },
+    {
+      "url": "/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/"
+      ]
+    },
+    {
+      "url": "/commercial-construction-loans-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial-construction-loans-in-tampa/"
+      ]
+    },
+    {
+      "url": "/commercial-construction-wants-vs-needs-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/commercial-construction-wants-vs-needs-in-tampa/"
+      ]
+    },
+    {
+      "url": "/condo-milestone-inspection-remediation-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-milestone-inspection-remediation-tampa/"
+      ]
+    },
+    {
+      "url": "/condo-remediation-bradenton/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-remediation-bradenton/"
+      ]
+    },
+    {
+      "url": "/condo-remediation-brandon/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-remediation-brandon/"
+      ]
+    },
+    {
+      "url": "/condo-remediation-clearwater/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-remediation-clearwater/"
+      ]
+    },
+    {
+      "url": "/condo-remediation-lakeland/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-remediation-lakeland/"
+      ]
+    },
+    {
+      "url": "/condo-remediation-ruskin/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/condo-remediation-ruskin/"
+      ]
+    },
+    {
+      "url": "/cost-of-historic-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/cost-of-historic-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/custom-commercial-construction-solutions-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/custom-commercial-construction-solutions-in-tampa/"
+      ]
+    },
+    {
+      "url": "/eco-friendly-historic-restoration-techniques-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/eco-friendly-historic-restoration-techniques-in-tampa/"
+      ]
+    },
+    {
+      "url": "/energy-efficiency-in-historic-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/energy-efficiency-in-historic-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/engineering/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/engineering/"
+      ]
+    },
+    {
+      "url": "/fire-damage-restoration-and-insurance-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/fire-damage-restoration-and-insurance-in-tampa/"
+      ]
+    },
+    {
+      "url": "/florida-construction-specialists-committed-to-the-community-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/florida-construction-specialists-committed-to-the-community-in-tampa/"
+      ]
+    },
+    {
+      "url": "/funding-and-grants-for-historic-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/funding-and-grants-for-historic-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/gourmet-kitchen-design-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/gourmet-kitchen-design-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historic-building-preservation-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historic-building-preservation-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historic-building-structural-assessment-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historic-building-structural-assessment-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historic-masonry-restoration-techniques-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historic-masonry-restoration-techniques-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historic-plaster-repair-techniques-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historic-plaster-repair-techniques-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historic-restoration-projects-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historic-restoration-projects-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historical-commercial-construction-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historical-commercial-construction-in-tampa/"
+      ]
+    },
+    {
+      "url": "/historical-landmarks-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/historical-landmarks-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/hurricane-damage-repair-services-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/hurricane-damage-repair-services-in-tampa/"
+      ]
+    },
+    {
+      "url": "/impact-of-climate-on-historic-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/impact-of-climate-on-historic-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/impacts-of-technology-on-historic-restoration-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/impacts-of-technology-on-historic-restoration-in-tampa/"
+      ]
+    },
+    {
+      "url": "/industrial-property-restoration-services-after-damage-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/industrial-property-restoration-services-after-damage-in-tampa/"
+      ]
+    },
+    {
+      "url": "/industrial-site-disaster-response-in-tampa/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/industrial-site-disaster-response-in-tampa/"
+      ]
+    },
+    {
+      "url": "/insurance/guides/building-hurricane-safe-structures-florida/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/insurance/guides/building-hurricane-safe-structures-florida/"
+      ]
+    },
+    {
+      "url": "/insurance/guides/contractors-role-in-tampa-insurance-restoration/",
+      "inboundLinks": 1,
+      "linkedFrom": [
+        "/insurance/guides/contractors-role-in-tampa-insurance-restoration/"
+      ]
+    }
+  ],
+  "unreachableCount": 380,
+  "unreachable": [
+    "/adaptive-reuse-of-historic-buildings-in-tampa/",
+    "/advanced-building-materials-in-tampa/",
+    "/affordable-commercial-construction-in-tampa/",
+    "/balcony-reconstruction-bradenton/",
+    "/balcony-reconstruction-brandon/",
+    "/balcony-reconstruction-clearwater/",
+    "/balcony-reconstruction-lakeland/",
+    "/balcony-reconstruction-ruskin/",
+    "/balcony-reconstruction-sarasota/",
+    "/balcony-reconstruction-st-petersburg/",
+    "/balcony-reconstruction-tampa/",
+    "/bespoke-architectural-design-in-tampa/",
+    "/building-multi-generational-homes-in-tampa/",
+    "/challenges-in-historic-restoration-projects-in-tampa/",
+    "/choosing-a-builder-expert-commercial-construction-in-tampa/",
+    "/choosing-materials-for-commercial-construction-in-tampa/",
+    "/claims-negotiation-for-property-damage-in-tampa/",
+    "/climate-resilient-custom-homes-in-tampa/",
+    "/color-palettes-for-historic-buildings-in-tampa/",
+    "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
+    "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
+    "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
+    "/commercial/guides/balcony-reconstruction-exterior-waterproofing/",
+    "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "/commercial/guides/balcony-restoration-services/",
+    "/commercial/guides/balcony-safety-measures/",
+    "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/",
+    "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
+    "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
+    "/commercial/guides/benefits-of-value-engineering-for-construction/",
+    "/commercial/guides/boosting-performance-in-florida-offices-windows/",
+    "/commercial/guides/build-a-successful-future-in-construction-management/",
+    "/commercial/guides/building-plans-for-businesses-florida-construction-specialists/",
+    "/commercial/guides/building-strong-communities-through-community-outreach/",
+    "/commercial/guides/building-the-perfect-construction-blueprint/",
+    "/commercial/guides/choose-between-general-contractor-and-construction-manager/",
+    "/commercial/guides/choosing-the-perfect-location-for-commercial-construction/",
+    "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+    "/commercial/guides/church-renovation-tips-from-top-commercial-contractor/",
+    "/commercial/guides/commercial-buildings-facade-renovations/",
+    "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "/commercial/guides/commercial-construction-delays/",
+    "/commercial/guides/commercial-construction-ideas-for-mall-revamp/",
+    "/commercial/guides/commercial-construction-insurance-coverage/",
+    "/commercial/guides/commercial-construction-questions-answered/",
+    "/commercial/guides/commercial-construction-stages-in-florida/",
+    "/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+    "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/",
+    "/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/",
+    "/commercial/guides/condo-balcony-inspection-requirements/"
+  ],
+  "crawlDepth": {
+    "depth0": [
+      "/"
+    ],
+    "depth1": [
+      "/about/",
+      "/balcony-reconstruction/",
+      "/commercial/",
+      "/commercial/condo-remediation/",
+      "/commercial/historic-restoration/",
+      "/commercial/industrial-construction/",
+      "/contact/",
+      "/disaster-recovery/",
+      "/exterior-waterproofing/",
+      "/insurance/",
+      "/insurance/appraisal-arbitration/",
+      "/insurance/building-consultant/",
+      "/insurance/certified-estimating/",
+      "/insurance/fire-restoration/",
+      "/insurance/hurricane-restoration/",
+      "/insurance/licensed-general-contractor/",
+      "/insurance/mold-remediation/",
+      "/insurance/water-restoration/",
+      "/locations/",
+      "/multi-family-construction/",
+      "/residential/",
+      "/services/"
+    ],
+    "depth2Count": 8,
+    "depth3plusCount": 16,
+    "depth3plus": [
+      "/building-consultants/",
+      "/certified-estimates/",
+      "/commercial-property-damage-restoration-in-tampa/",
+      "/complete-property-overhaul-after-disasters-in-tampa/",
+      "/flood-remediation-contractors-in-tampa/",
+      "/hurricane-proof-reconstruction-services-in-tampa/",
+      "/insurance-arbitration-appraisal/",
+      "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "/insurance/guides/identifying-water-damage-signs-prevention-and-action/",
+      "/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "/insurance/guides/tampas-disaster-related-demolition-services/",
+      "/insurance/guides/tampas-structural-drying-services-post-flooding/",
+      "/post-disaster-interior-restoration-in-tampa/",
+      "/property-damage-assessment-for-insurance-claims-in-tampa/",
+      "/roof-damage-restoration-and-insurance-claims-in-tampa/"
+    ]
+  },
+  "topPagesDepth": [
+    {
+      "url": "/",
+      "depth": 0,
+      "inboundLinks": 0
+    },
+    {
+      "url": "/commercial/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/residential/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/insurance/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/services/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/locations/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/contact/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/about/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/commercial-construction-tampa/",
+      "depth": -1,
+      "inboundLinks": 18
+    },
+    {
+      "url": "/insurance-restoration-tampa/",
+      "depth": -1,
+      "inboundLinks": 3
+    },
+    {
+      "url": "/disaster-recovery-tampa/",
+      "depth": -1,
+      "inboundLinks": 6
+    },
+    {
+      "url": "/luxury-custom-homes-tampa/",
+      "depth": -1,
+      "inboundLinks": 3
+    },
+    {
+      "url": "/balcony-reconstruction-tampa/",
+      "depth": -1,
+      "inboundLinks": 4
+    },
+    {
+      "url": "/exterior-waterproofing-tampa/",
+      "depth": -1,
+      "inboundLinks": 2
+    },
+    {
+      "url": "/historic-restoration/",
+      "depth": -1,
+      "inboundLinks": 38
+    },
+    {
+      "url": "/multi-family-construction/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/commercial/guides/",
+      "depth": 2,
+      "inboundLinks": 146
+    },
+    {
+      "url": "/residential/guides/",
+      "depth": 2,
+      "inboundLinks": 17
+    },
+    {
+      "url": "/insurance/guides/",
+      "depth": 2,
+      "inboundLinks": 33
+    },
+    {
+      "url": "/insurance-restoration-clearwater/",
+      "depth": -1,
+      "inboundLinks": 2
+    },
+    {
+      "url": "/insurance-restoration-st-petersburg/",
+      "depth": -1,
+      "inboundLinks": 1
+    },
+    {
+      "url": "/commercial-construction-clearwater/",
+      "depth": -1,
+      "inboundLinks": 9
+    },
+    {
+      "url": "/commercial-construction-st-petersburg/",
+      "depth": -1,
+      "inboundLinks": 12
+    },
+    {
+      "url": "/luxury-custom-homes/",
+      "depth": 2,
+      "inboundLinks": 6
+    },
+    {
+      "url": "/disaster-recovery/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/balcony-reconstruction/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/exterior-waterproofing/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/commercial/condo-remediation/",
+      "depth": 1,
+      "inboundLinks": 427
+    },
+    {
+      "url": "/gallery/",
+      "depth": 2,
+      "inboundLinks": 11
+    }
+  ],
+  "stats": {
+    "avgInboundLinks": 26.1,
+    "medianInboundLinks": 2,
+    "maxDepth": 8,
+    "pagesAtDepth3Plus": 16
+  }
+}

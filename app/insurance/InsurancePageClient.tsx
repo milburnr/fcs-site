@@ -4,7 +4,7 @@ import { LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
-import { BUSINESS_INFO } from "@/lib/constants";
+import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import Link from "next/link";
 import { FadeIn, StaggerContainer } from "@/components/AnimatedElements";
 import {
@@ -94,6 +94,7 @@ const stats = [
 ];
 
 const relatedLinks = [
+  { href: "/insurance/guides/", label: "Insurance Guides & Articles" },
   { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/about/", label: "About FCS" },
@@ -314,6 +315,34 @@ export function InsurancePageClient() {
             <FadeIn>
               <HighLevelForm variant="commercial" />
             </FadeIn>
+          </div>
+        </div>
+      </section>
+
+      {/* Insurance Restoration Service Areas */}
+      <section className="py-16 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-gray-900 mb-4 text-center">
+            Insurance Restoration Service Areas
+          </h2>
+          <p className="text-gray-600 text-center mb-8 max-w-2xl mx-auto">
+            FCS provides large loss insurance restoration throughout Tampa Bay.
+          </p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+            {LOCATIONS.map((location) => {
+              const urlSlug = location.slug.replace('-fl', '');
+              return (
+                <Link
+                  key={location.slug}
+                  href={`/insurance-restoration-${urlSlug}/`}
+                  className="bg-white rounded-lg p-4 text-center shadow-sm hover:shadow-md transition-all hover:bg-brand-green-dark hover:text-white group"
+                >
+                  <span className="font-semibold text-brand-green-dark group-hover:text-white transition-colors">
+                    {location.name}, FL
+                  </span>
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>
