@@ -1,0 +1,496 @@
+import Link from "next/link";
+import Image from "next/image";
+import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { Phone, CheckCircle, HelpCircle } from "lucide-react";
+import { BUSINESS_INFO } from "@/lib/constants";
+import type { Metadata } from "next";
+import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedArticles } from "@/components/RelatedArticles";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+
+export const metadata: Metadata = {
+  alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/' },
+  title: "Exterior Waterproofing Commercial Tampa | FCS",
+  description: "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial. Expert analysis from Florida Construction Specialists. Read more.",
+};
+
+const breadcrumbItems = [
+  { name: "Home", href: "/" },
+  { name: "Commercial", href: "/commercial/" },
+  { name: "Guides", href: "/commercial/guides/" },
+  { name: "Exterior Waterproofing Solutions", href: "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/" },
+];
+
+const internalLinks = [
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
+  { href: "/effective-exterior-waterproofing-methods-for-your-property/", label: "Waterproofing Methods" },
+  { href: "/ultimate-waterproofing-guide-foundations/", label: "Foundation Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
+  { href: "/contact/", label: "Schedule a Consultation" },
+];
+
+const relatedArticles = [
+  {
+    "title": "Balcony Restoration & Waterproofing for Longevity",
+    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "description": "Protect your investment with restoration systems engineered for 20+ years of service."
+  },
+  {
+    "title": "Florida SB4-D Compliance Guide",
+    "href": "/florida-sb4d-compliance-guide/",
+    "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
+  },
+  {
+    "title": "Effective Balcony Maintenance Tips",
+    "href": "/effective-balcony-maintenance-tips/",
+    "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
+  },
+  {
+    "title": "Condo Balcony Inspection Requirements",
+    "href": "/condo-balcony-inspection-requirements/",
+    "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
+  }
+];
+
+const faqs = [
+  {
+    question: "What exterior waterproofing solutions protect commercial buildings?",
+    answer: "Commercial exterior waterproofing employs multiple coordinated systems. Elastomeric wall coatings provide breathable, crack-bridging protection for stucco and concrete surfaces. Joint sealants protect expansion joints and material transitions. Window and door perimeter sealing stops infiltration at these vulnerable openings. Below-grade waterproofing protects foundations from groundwater. Through-wall flashing intercepts water that penetrates outer surfaces. Each system must integrate with adjacent systems to create comprehensive building envelope protection."
+  },
+  {
+    question: "How does SB 4-D affect exterior waterproofing requirements in Florida?",
+    answer: "Florida's SB 4-D legislation requires milestone structural inspections for condominiums three stories or higher. While focused on structural elements, these inspections evaluate evidence of water intrusion through exterior envelopes—staining, efflorescence, corrosion, and concrete deterioration. Buildings with documented envelope failures must address waterproofing as part of remediation plans. SIRS requirements mandate reserve funding for exterior coating maintenance and replacement. Proactive envelope maintenance helps associations avoid the structural damage that triggers compliance issues."
+  },
+  {
+    question: "What are the signs of exterior waterproofing failure in commercial buildings?",
+    answer: "Warning signs include interior water intrusion (ceiling stains, wall discoloration, peeling paint), exterior facade problems (cracking, staining, efflorescence), failed caulk joints (hardened, cracked, or missing sealant), window leaks, and concrete deterioration (spalling, rust staining, delamination). Musty odors, increased humidity, and mold growth indicate moisture intrusion. Annual exterior inspections identify problems early when repairs are least expensive. Post-storm inspections catch damage before secondary water intrusion occurs."
+  },
+  {
+    question: "How often should commercial exterior waterproofing be maintained?",
+    answer: "Maintenance schedules depend on system type and exposure. Elastomeric wall coatings need inspection every 2-3 years with recoating every 10-15 years. Joint sealants require annual inspection with replacement every 7-15 years depending on exposure. Window perimeter seals need annual inspection with replacement as needed. Below-grade waterproofing typically requires no maintenance unless leaks develop. A comprehensive building envelope maintenance program budgets for these intervals and catches problems early."
+  },
+  {
+    question: "What is the cost of exterior waterproofing for commercial buildings in Tampa?",
+    answer: "Commercial exterior waterproofing costs vary by scope and building size. Elastomeric wall coating systems cost $3-8 per square foot of wall area. Joint sealant replacement runs $8-15 per linear foot. Window perimeter sealing costs $150-400 per opening. Below-grade waterproofing (when excavation required) ranges $15-30 per square foot. Complete building envelope restoration for high-rise buildings can cost $15-40 per square foot of exterior wall area. Scaffolding and access equipment add $3-8 per square foot depending on building height."
+  },
+  {
+    question: "Can exterior waterproofing be applied to occupied commercial buildings?",
+    answer: "Yes, most exterior waterproofing work proceeds with buildings fully occupied. Interior spaces are unaffected during exterior coating and sealant work. Some interior access may be needed for window perimeter sealing. Scaffolding and swing stages create visual impact and may restrict window opening. Weather protection of furniture and vehicles during coating operations prevents overspray damage. Noise from surface preparation affects adjacent spaces during work hours. Experienced contractors schedule to minimize disruption while maintaining project progress."
+  }
+];
+
+const costData = [
+  { service: "Elastomeric Wall Coating System", costRange: "$3 - $8", perUnit: "Per sq ft" },
+  { service: "Joint Sealant Replacement", costRange: "$8 - $15", perUnit: "Per linear ft" },
+  { service: "Window Perimeter Sealing", costRange: "$150 - $400", perUnit: "Per opening" },
+  { service: "Expansion Joint Treatment", costRange: "$20 - $50", perUnit: "Per linear ft" },
+  { service: "Below-Grade Waterproofing (with excavation)", costRange: "$15 - $30", perUnit: "Per sq ft" },
+  { service: "Stucco/Facade Repair", costRange: "$15 - $40", perUnit: "Per sq ft" },
+  { service: "Scaffolding/Swing Stage Access", costRange: "$3 - $8", perUnit: "Per sq ft (adder)" },
+  { service: "Complete Envelope Restoration", costRange: "$15 - $40", perUnit: "Per sq ft" },
+];
+
+export default function Page() {
+  return (
+    <>
+      <LocalBusinessSchema />
+      <BreadcrumbSchema items={breadcrumbItems} />
+      <ServiceSchema
+        serviceName="Exterior Waterproofing Solutions"
+        serviceDescription="Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection and facade waterproofing."
+        city="Tampa"
+        minPrice="5000"
+      />
+      <FAQSchema faqs={faqs} />
+
+      {/* Hero */}
+      <section className="relative py-24 overflow-hidden">
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp"
+            alt="Exterior waterproofing solutions for commercial buildings"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
+        </div>
+        <div className="container-custom text-center text-white relative z-10">
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
+            Exterior Waterproofing Solutions for Protected Buildings
+          </h1>
+          <p className="text-xl max-w-3xl mx-auto text-gray-200">
+            Comprehensive building envelope waterproofing for high-rise condominiums and commercial properties throughout Tampa Bay.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
+            <Link href="/contact/" className="btn-cta">
+              Get Free Estimate
+            </Link>
+            <a
+              href={`tel:${BUSINESS_INFO.phoneRaw}`}
+              className="btn-secondary flex items-center justify-center gap-2"
+            >
+              <Phone className="w-5 h-5" />
+              {BUSINESS_INFO.phone}
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Content */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto prose prose-lg">
+            <p className="text-gray-600 mb-6">
+              The exterior envelope of a commercial building represents far more than an aesthetic surface—it's a complex system of coordinated components that protect the building structure, interior spaces, and occupants from water intrusion. When any element of this system fails, water finds pathways to interior spaces where it damages finishes, promotes mold growth, and ultimately deteriorates structural elements. Florida Construction Specialists provides comprehensive exterior waterproofing solutions that protect commercial buildings and high-rise condominiums throughout Tampa Bay.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              High-rise buildings face particular challenges because of their exposure to weather conditions that low-rise structures rarely experience. Wind speeds increase with height, driving rain horizontally into facade systems that would easily shed vertical rainfall. Building sway under wind loads stresses sealant joints and can open gaps at material transitions. The combination of height, exposure, and Tampa Bay's aggressive climate demands exterior waterproofing systems specifically designed for these conditions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Building Envelope System Integration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective exterior waterproofing requires understanding the building envelope as an integrated system rather than a collection of independent components. Wall coatings, sealant joints, window systems, flashings, and drainage elements must all work together—water that penetrates one element must be intercepted and expelled by backup systems before reaching interior spaces or structural elements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              This systems approach recognizes that perfect waterproofing at every point is unrealistic given the stresses buildings experience. Instead, multiple lines of defense create redundancy that maintains protection even when individual elements experience partial failure. Through-wall flashings intercept water that penetrates outer surfaces and direct it back to the exterior. Weep systems in window frames drain water that bypasses perimeter seals. Drainage cavities behind cladding materials provide escape paths for moisture that enters wall assemblies.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Maintenance of building envelope systems requires attention to all elements, not just visible coating surfaces. Deteriorated sealants, clogged weeps, damaged flashings, and failed window seals all create water entry points that coating systems alone cannot prevent. Comprehensive exterior waterproofing addresses the complete envelope system.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              SB 4-D Compliance and Building Protection
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Florida's SB 4-D legislation has elevated the importance of exterior waterproofing for condominium associations. Milestone structural inspections required for buildings three stories or higher specifically evaluate evidence of water intrusion damage. Inspectors look for staining, efflorescence, spalling, and corrosion that indicate water has penetrated the building envelope and reached structural elements.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              When inspections reveal water intrusion damage, associations must address both the structural deterioration and the underlying envelope failures. Simply repairing interior damage without correcting exterior waterproofing deficiencies guarantees recurring problems. The inspection reports become part of the building's permanent record, and subsequent inspections will evaluate whether identified issues have been properly addressed.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              The Structural Integrity Reserve Study (SIRS) mandated by SB 4-D must include exterior waterproofing systems among components requiring reserve funding. Associations can no longer treat envelope maintenance as discretionary—the law requires realistic budgeting for coating renewal, sealant replacement, and other envelope maintenance. Our waterproofing services support both immediate compliance needs and long-term reserve planning.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Elastomeric Wall Coating Systems
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Elastomeric coatings provide the primary waterproofing defense for most commercial building exterior walls in Florida. These high-build acrylic or urethane-based products form flexible, seamless membranes that bridge hairline cracks while allowing water vapor to escape from within wall assemblies. The "breathable" characteristic is essential—coatings that trap moisture within walls cause as many problems as coatings that allow water penetration.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Quality elastomeric coatings maintain their flexibility and adhesion through years of thermal cycling and UV exposure. Lesser products harden over time, losing the ability to stretch with concrete movement and eventually cracking or delaminating. Florida's intense UV radiation accelerates coating degradation, making UV-stable formulations essential for high-rise applications where coating replacement is expensive and disruptive.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Surface preparation determines coating success as much as product selection. Existing loose coatings, chalking, and surface contamination must be removed before application. Cracks require repair to restore substrate integrity. Stucco surfaces may need pressure washing, patching, and texturing before coating. This preparation work often represents the majority of project cost and directly affects coating longevity.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Joint Sealant Systems
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sealant joints represent some of the most critical—and most failure-prone—elements of exterior waterproofing systems. Expansion joints accommodate building movement from thermal changes, wind loads, and settlement. Control joints manage cracking in stucco and concrete. Perimeter seals around windows, doors, and penetrations stop water entry at vulnerable openings.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Sealant materials have varying properties suited to different applications. Silicone sealants offer excellent durability and weathering resistance but limited paintability. Polyurethane sealants provide good adhesion and paintability but may harden over time. Hybrid polymer sealants combine favorable properties at higher cost. Material selection considers joint movement, substrate compatibility, and expected service life.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Joint preparation proves as important as sealant selection. Failed sealant must be completely removed. Joint surfaces must be clean and dry. Backer rod establishes proper joint depth. Fresh sealant must be tooled to ensure substrate contact. Shortcuts in preparation result in premature failure regardless of sealant quality.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Window and Door Waterproofing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Windows and doors represent the most common water entry points in building envelopes. The interfaces between frame assemblies and surrounding wall construction must accommodate differential movement while maintaining water-tight seals. Original installations often rely on sealant alone at these interfaces—sealant that eventually fails from UV exposure, movement, and aging.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Comprehensive window waterproofing goes beyond simple re-caulking. Self-adhering membrane flashings applied at rough openings provide backup protection when perimeter seals fail. Sill pan flashings beneath windows collect infiltrating water and direct it to exterior weeps. Head flashings above windows shed water away from vulnerable joints. These secondary defenses prevent the interior damage that occurs when primary seals fail.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Weep systems require regular maintenance to function properly. Clogged weeps trap water within frame assemblies, causing corrosion, staining, and eventual frame deterioration. Annual cleaning ensures water drains as designed. Inspection during maintenance visits identifies damaged weeps requiring repair.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Below-Grade Waterproofing Solutions
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Below-grade waterproofing protects foundation walls and basement spaces from groundwater intrusion. In Tampa Bay's flat topography with high water tables, hydrostatic pressure against foundation walls can force water through any opening or crack. Waterproofing systems must address both liquid water intrusion and water vapor transmission through concrete and masonry.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Crystalline admixtures in concrete create integral waterproofing by reacting with cement hydration products to form insoluble crystals within the concrete matrix. These products provide permanent protection that actually improves over time as more crystals form. However, they don't address existing cracks or construction joints that require sealant or membrane treatments.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Membrane waterproofing systems applied to foundation exteriors provide positive-side protection that keeps water away from structural elements. However, membrane application requires excavation that's costly and disruptive for existing buildings. Interior waterproofing systems manage water after it enters the foundation wall, relying on drainage and dehumidification rather than exclusion.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Tampa Bay Climate Challenges for Exterior Waterproofing
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Tampa Bay's subtropical climate creates unique challenges for exterior waterproofing systems. High humidity affects material curing and performance. Intense UV radiation accelerates degradation of organic compounds in sealants and coatings. Daily thermal cycling from air-conditioned interiors to hot exteriors stresses material joints. Hurricane season brings wind-driven rain and pressure differentials that test envelope systems beyond normal limits.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Humidity levels regularly exceed 80% during summer months, affecting the curing of many waterproofing products. Silicone sealants cure by reacting with atmospheric moisture, but excessive humidity can cause surface skinning before deep cure occurs. Urethane coatings may exhibit slower curing that extends application windows but delays return to service. Contractors must adjust techniques and scheduling to accommodate these conditions.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              UV radiation in Florida reaches intensities that can degrade coating binders within 3-5 years without proper UV stabilization. Titanium dioxide pigments in light colors provide some protection, but organic binders still require UV-stable chemistry. The combination of UV exposure and thermal cycling creates an accelerated aging environment that demands premium waterproofing products for high-rise applications.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Comprehensive Building Assessment and Diagnostics
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Effective waterproofing solutions begin with comprehensive assessment of existing building conditions and water intrusion pathways. Visual inspection identifies obvious problems like failed sealants, deteriorated coatings, and damaged flashings. However, water often travels considerable distances within building assemblies before appearing as interior damage, making root cause identification challenging without diagnostic tools.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Infrared thermography reveals temperature differences caused by moisture within wall assemblies. Wet materials appear cooler due to evaporative cooling effects. Early morning or late evening scanning provides best results before solar heating equalizes temperatures. Thermal imaging should be combined with moisture meter readings for verification of suspected problems.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Water testing with calibrated spray equipment verifies envelope performance and identifies specific failure locations. ASTM E1105 testing simulates wind-driven rain on window assemblies. Flood testing evaluates horizontal surface performance. Electronic leak detection can pinpoint membrane failures without destructive investigation. These diagnostic methods ensure waterproofing solutions address actual problems rather than assumptions.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Advanced Coating Technologies and Material Selection
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern coating technologies offer improved performance for Florida's demanding environment. Ceramic-filled coatings provide enhanced thermal reflection that reduces substrate temperatures and extends coating life. Nano-technology additives improve dirt resistance and maintain appearance between maintenance cycles. Self-cleaning coatings break down organic deposits through photocatalytic action when exposed to UV radiation.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Hybrid coating systems combine the durability of urethane chemistry with the weathering resistance of fluoropolymer topcoats. These systems provide 15-20 year performance expectations compared to 10-12 years for conventional acrylics. While initial costs are higher, life-cycle economics often favor premium systems for high-rise applications where access costs dominate project budgets.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Intumescent coatings provide fire protection combined with weather resistance for structural steel exposed in building facades. These specialized products expand when exposed to heat, forming insulating char layers that protect steel from fire damage. However, they require careful specification to ensure compatibility with other envelope components.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Air Barrier Integration and Pressure Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Modern building envelope design recognizes that air leakage control is as important as water resistance for overall performance. Air barriers limit uncontrolled air movement that can transport moisture vapor into wall assemblies where it may condense on cold surfaces. In Florida's cooling-dominated climate, warm humid exterior air must be prevented from reaching cool interior surfaces.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Pressure equalization systems balance air pressure across envelope assemblies to reduce driving forces for both air leakage and water penetration. Rainscreen construction creates ventilated cavities behind cladding materials that equalize pressure and provide drainage paths. However, pressure equalization requires careful detailing at penetrations and transitions to maintain effectiveness.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Continuous air barriers must be maintained through all envelope penetrations including windows, doors, mechanical systems, and structural connections. Compatible sealants and gaskets provide air-tight seals that maintain barrier continuity. Testing during construction verifies air barrier performance before concealment by interior finishes.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Maintenance Programs and Lifecycle Management
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Preventive maintenance preserves waterproofing performance and extends system life between major renovations. Annual inspections identify minor problems before they escalate to major failures. Five-year comprehensive evaluations include performance testing and condition assessment. Ten-year evaluations determine remaining service life and replacement timing.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Maintenance activities include surface cleaning, minor repairs, and protective treatments. Pressure washing removes biological growth and surface contamination that can retain moisture against building surfaces. Touch-up coating applications address small areas of wear before widespread failure occurs. Sealant joint maintenance includes cleaning, inspection, and selective replacement of deteriorated materials.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Documentation systems track maintenance history, warranty status, and performance trends over time. Digital asset management stores photos, reports, and inspection data for easy retrieval. This information supports warranty claims, insurance documentation, and future project planning. For condominium associations, maintenance records demonstrate compliance with reserve study requirements under SB 4-D.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              storm response and Storm Damage Restoration
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Hurricane season presents annual challenges for Tampa Bay building owners. While properly designed and maintained waterproofing systems can withstand most storm conditions, extreme events may cause damage that requires immediate attention. storm response procedures minimize water intrusion damage while permanent repairs are planned and executed.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Temporary protective measures include tarping, board-up services, and water extraction. However, these measures must be properly detailed to avoid creating secondary problems. Improperly installed tarps can trap moisture or create wind loads on damaged structures. storm repairs must consider both immediate protection and compatibility with permanent restoration work.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Post-storm building evaluation identifies both obvious damage and hidden problems that may not become apparent until the next rain event. Insurance documentation requirements include detailed damage assessment with photos and repair estimates. Coordination with adjusters and restoration contractors ensures appropriate scope and pricing for required repairs.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Sustainable Design and Environmental Considerations
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Sustainable waterproofing solutions consider environmental impact throughout material lifecycle—from manufacturing through installation to eventual disposal. Low-VOC coatings reduce environmental emissions during application and curing. Water-based formulations eliminate solvent emissions while providing comparable performance to traditional systems. Recycled content in membrane products reduces resource consumption.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Cool roof and wall technologies reduce building energy consumption while extending waterproofing system life. Reflective coatings reduce surface temperatures by 30-50°F compared to dark colors, decreasing thermal stress on waterproofing materials. Energy savings from reduced cooling loads partially offset waterproofing system costs over their service lives.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Green roof systems provide waterproofing challenges that require specialized solutions. Root barriers protect membrane integrity. Drainage systems must handle both normal rainfall and irrigation requirements. Structural loads from saturated growing media exceed conventional roof loading. However, properly designed systems provide excellent waterproofing performance combined with energy savings and environmental benefits.
+            </p>
+
+            <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
+              Quality Assurance and Performance Verification
+            </h2>
+            <p className="text-gray-600 mb-6">
+              Quality assurance programs ensure waterproofing installations meet design requirements and manufacturer specifications. Material verification confirms that delivered products match specifications and haven't exceeded shelf life. Environmental monitoring ensures installation occurs within temperature, humidity, and wind speed limits. Application monitoring verifies proper coverage rates and film thickness.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Third-party inspection services provide independent verification of installation quality. Certified inspectors evaluate surface preparation, application techniques, and final appearance. Performance testing during construction identifies problems while correction is still economical. Documentation from quality assurance programs supports warranty claims and future maintenance decisions.
+            </p>
+
+            <p className="text-gray-600 mb-6">
+              Commissioning procedures verify that completed waterproofing systems perform as intended. Water testing simulates service conditions and confirms water tightness. Air leakage testing evaluates envelope continuity. Thermal imaging identifies installation defects that may not be visible to naked eye inspection. These verification procedures provide confidence in system performance before building occupancy.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Cost Table */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Exterior Waterproofing Costs in Tampa Bay
+          </h2>
+          <div className="max-w-4xl mx-auto overflow-x-auto">
+            <table className="w-full bg-white rounded-xl shadow-md">
+              <thead className="bg-brand-green text-white">
+                <tr>
+                  <th className="px-6 py-4 text-left">Service</th>
+                  <th className="px-6 py-4 text-left">Cost Range</th>
+                  <th className="px-6 py-4 text-left">Unit</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                {costData.map((item, index) => (
+                  <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+                    <td className="px-6 py-4 text-gray-700">{item.service}</td>
+                    <td className="px-6 py-4 text-brand-green-dark font-semibold">{item.costRange}</td>
+                    <td className="px-6 py-4 text-gray-600">{item.perUnit}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-center text-gray-500 mt-4 text-sm">
+            *Costs vary based on building height, access requirements, and scope. Contact us for a detailed estimate.
+          </p>
+        </div>
+      </section>
+
+      {/* Why Choose FCS */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Why Choose Florida Construction Specialists
+          </h2>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-5xl mx-auto">
+            {[
+              "Commercial building expertise",
+              "SB 4-D compliance specialists",
+              "Integrated envelope approach",
+              "Premium coating systems",
+              "Experienced high-rise crews",
+              "Comprehensive warranties",
+              "Minimal tenant disruption",
+              "Tampa Bay-wide service",
+              "storm response capability"
+            ].map((item, index) => (
+              <div key={index} className="flex items-start gap-3">
+                <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />
+                <span className="text-gray-700">{item}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQs */}
+      <section className="section bg-gray-50">
+        <div className="container-custom max-w-4xl">
+          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
+            Frequently Asked Questions
+          </h2>
+          <Accordion type="single" collapsible className="space-y-4">
+            {faqs.map((faq, index) => (
+              <AccordionItem
+                key={index}
+                value={`faq-${index}`}
+                className="bg-white rounded-lg px-6"
+              >
+                <AccordionTrigger className="text-left font-semibold text-brand-green-dark hover:no-underline py-4">
+                  <span className="flex items-start gap-3">
+                    <HelpCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
+                    {faq.question}
+                  </span>
+                </AccordionTrigger>
+                <AccordionContent className="text-gray-600 pb-4 pl-8">
+                  {faq.answer}
+                </AccordionContent>
+              </AccordionItem>
+            ))}
+          </Accordion>
+        </div>
+      </section>
+      {/* Related Articles */}
+      <RelatedArticles articles={relatedArticles} />
+
+      
+
+      {/* Internal Links */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Waterproofing Services"
+            links={internalLinks}
+          />
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section bg-brand-green">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
+            Protect Your Building with Expert Waterproofing
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for comprehensive exterior waterproofing solutions that protect your commercial property.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Get Free Estimate
+            </Link>
+            <a
+              href={`tel:${BUSINESS_INFO.phoneRaw}`}
+              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}

@@ -46,7 +46,7 @@
 
 [[redirects]]
   from = "/a-zero-accident-workplace-in-tampas-commercial-construction/"
-  to = "/commercial/"
+  to = "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/"
   status = 301
 
 [[redirects]]
@@ -61,7 +61,7 @@
 
 [[redirects]]
   from = "/avoid-commercial-construction-delays-in-florida/"
-  to = "/commercial/"
+  to = "/commercial/guides/avoid-commercial-construction-delays-in-florida/"
   status = 301
 
 [[redirects]]
@@ -76,12 +76,12 @@
 
 [[redirects]]
   from = "/commercial-buildings-facade-renovations/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-buildings-facade-renovations/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-budgeting-tips-for-florida-specialists/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/"
   status = 301
 
 [[redirects]]
@@ -91,17 +91,17 @@
 
 [[redirects]]
   from = "/commercial-construction-delays/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-delays/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-ideas-for-mall-revamp/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-ideas-for-mall-revamp/"
   status = 301
 
 [[redirects]]
   from = "/commercial-construction-insurance-coverage/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-insurance-coverage/"
   status = 301
 
 [[redirects]]
@@ -121,7 +121,7 @@
 
 [[redirects]]
   from = "/commercial-construction-questions-answered/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-questions-answered/"
   status = 301
 
 [[redirects]]
@@ -131,7 +131,7 @@
 
 [[redirects]]
   from = "/commercial-construction-stages-in-florida/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-stages-in-florida/"
   status = 301
 
 [[redirects]]
@@ -141,7 +141,7 @@
 
 [[redirects]]
   from = "/commercial-construction-vs-remodeling-and-renovation-in-florida/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/"
   status = 301
 
 [[redirects]]
@@ -166,12 +166,12 @@
 
 [[redirects]]
   from = "/commercial-renovation-secrets-from-floridas-top-contractors/"
-  to = "/commercial/"
+  to = "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/"
   status = 301
 
 [[redirects]]
   from = "/commercial-residential-construction-in-florida/"
-  to = "/commercial/"
+  to = "/residential/guides/commercial-residential-construction-in-florida/"
   status = 301
 
 [[redirects]]
@@ -202,7 +202,7 @@
 
 [[redirects]]
   from = "/choosing-the-perfect-location-for-commercial-construction/"
-  to = "/commercial/"
+  to = "/commercial/guides/choosing-the-perfect-location-for-commercial-construction/"
   status = 301
 
 [[redirects]]
@@ -233,7 +233,7 @@
 # Hurricane/Disaster Duplicates → /disaster-recovery/
 [[redirects]]
   from = "/building-hurricane-safe-structures-florida/"
-  to = "/disaster-recovery/"
+  to = "/insurance/guides/building-hurricane-safe-structures-florida/"
   status = 301
 
 [[redirects]]
@@ -273,12 +273,12 @@
 
 [[redirects]]
   from = "/tampa-insurance-restoration-for-hurricane-damage/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/"
   status = 301
 
 [[redirects]]
   from = "/tampa-residential-restoration-after-hurricane-damage/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/tampa-residential-restoration-after-hurricane-damage/"
   status = 301
 
 [[redirects]]
@@ -304,7 +304,7 @@
 
 [[redirects]]
   from = "/architectural-styles-in-tampas-historic-restoration/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/guides/architectural-styles-in-tampas-historic-restoration/"
   status = 301
 
 [[redirects]]
@@ -349,7 +349,7 @@
 
 [[redirects]]
   from = "/historic-restoration-preservation/"
-  to = "/historic-restoration/"
+  to = "/commercial/guides/historic-restoration-preservation/"
   status = 301
 
 [[redirects]]
@@ -440,27 +440,27 @@
 
 [[redirects]]
   from = "/balcony-reconstruction-exterior-waterproofing/"
-  to = "/balcony-reconstruction/"
+  to = "/commercial/guides/balcony-reconstruction-exterior-waterproofing/"
   status = 301
 
 [[redirects]]
   from = "/balcony-restoration-and-exterior-waterproofing-for-longevity/"
-  to = "/balcony-reconstruction/"
+  to = "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/"
   status = 301
 
 [[redirects]]
   from = "/balcony-restoration-services/"
-  to = "/balcony-reconstruction/"
+  to = "/commercial/guides/balcony-restoration-services/"
   status = 301
 
 [[redirects]]
   from = "/balcony-safety-measures/"
-  to = "/balcony-reconstruction/"
+  to = "/commercial/guides/balcony-safety-measures/"
   status = 301
 
 [[redirects]]
   from = "/balcony-waterproofing-for-long-lasting-protection/"
-  to = "/balcony-reconstruction/"
+  to = "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/"
   status = 301
 
 [[redirects]]
@@ -471,7 +471,7 @@
 # Waterproofing Duplicates → /exterior-waterproofing/
 [[redirects]]
   from = "/choosing-the-right-waterproofing-solution-your-ultimate-guide/"
-  to = "/exterior-waterproofing/"
+  to = "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/"
   status = 301
 
 # Custom Homes Duplicates → /luxury-custom-homes/
@@ -487,7 +487,7 @@
 
 [[redirects]]
   from = "/building-tampa-homes-with-personalized-office-spaces/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/building-tampa-homes-with-personalized-office-spaces/"
   status = 301
 
 [[redirects]]
@@ -502,7 +502,7 @@
 
 [[redirects]]
   from = "/creating-unique-bedrooms-in-tampa-custom-homes/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/"
   status = 301
 
 [[redirects]]
@@ -523,7 +523,7 @@
 # Blueprint/Planning Duplicates → /about/
 [[redirects]]
   from = "/building-the-perfect-construction-blueprint/"
-  to = "/about/"
+  to = "/commercial/guides/building-the-perfect-construction-blueprint/"
   status = 301
 
 [[redirects]]
@@ -533,18 +533,18 @@
 
 [[redirects]]
   from = "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/"
-  to = "/about/"
+  to = "/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/"
   status = 301
 
 [[redirects]]
   from = "/building-plans-for-businesses-florida-construction-specialists/"
-  to = "/about/"
+  to = "/commercial/guides/building-plans-for-businesses-florida-construction-specialists/"
   status = 301
 
 # Design-Build Duplicates → /commercial/
 [[redirects]]
   from = "/benefits-of-design-build-construction-for-commercial-project/"
-  to = "/commercial/"
+  to = "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/"
   status = 301
 
 [[redirects]]
@@ -554,12 +554,12 @@
 
 [[redirects]]
   from = "/experienced-design-build-firm-in-florida/"
-  to = "/commercial/"
+  to = "/commercial/guides/experienced-design-build-firm-in-florida/"
   status = 301
 
 [[redirects]]
   from = "/streamlining-your-design-build-project-timeline/"
-  to = "/commercial/"
+  to = "/commercial/guides/streamlining-your-design-build-project-timeline/"
   status = 301
 
 # Insurance-Related Duplicates → /disaster-recovery/
@@ -575,7 +575,7 @@
 
 [[redirects]]
   from = "/contractors-role-in-tampa-insurance-restoration/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/contractors-role-in-tampa-insurance-restoration/"
   status = 301
 
 [[redirects]]
@@ -631,7 +631,7 @@
 
 [[redirects]]
   from = "/florida-construction-specialists-mastering-your-post-construction-checklist/"
-  to = "/commercial/"
+  to = "/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/"
   status = 301
 
 [[redirects]]
@@ -1147,4 +1147,788 @@
 [[redirects]]
   from = "/services/residential/exterior-waterproofing/*"
   to = "/exterior-waterproofing/"
+  status = 301
+
+# ===========================================
+# 301 Redirects for Article Silo Moves (Phase 2)
+# ===========================================
+
+[[redirects]]
+  from = "/benefits-of-sustainable-materials-in-commercial-construction/"
+  to = "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/benefits-of-value-engineering-for-construction/"
+  to = "/commercial/guides/benefits-of-value-engineering-for-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/boosting-performance-in-florida-offices-windows/"
+  to = "/commercial/guides/boosting-performance-in-florida-offices-windows/"
+  status = 301
+
+[[redirects]]
+  from = "/build-a-successful-future-in-construction-management/"
+  to = "/commercial/guides/build-a-successful-future-in-construction-management/"
+  status = 301
+
+[[redirects]]
+  from = "/building-strong-communities-through-community-outreach/"
+  to = "/commercial/guides/building-strong-communities-through-community-outreach/"
+  status = 301
+
+[[redirects]]
+  from = "/choose-between-general-contractor-and-construction-manager/"
+  to = "/commercial/guides/choose-between-general-contractor-and-construction-manager/"
+  status = 301
+
+[[redirects]]
+  from = "/church-renovation-tips-from-top-commercial-contractor/"
+  to = "/commercial/guides/church-renovation-tips-from-top-commercial-contractor/"
+  status = 301
+
+[[redirects]]
+  from = "/common-construction-mistakes-to-avoid-for-commercial-project/"
+  to = "/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-balcony-inspection-requirements/"
+  to = "/commercial/guides/condo-balcony-inspection-requirements/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-structural-reserve-study-repairs/"
+  to = "/commercial/guides/condo-structural-reserve-study-repairs/"
+  status = 301
+
+[[redirects]]
+  from = "/construction-florida-leading-way-leed-certification/"
+  to = "/commercial/guides/construction-florida-leading-way-leed-certification/"
+  status = 301
+
+[[redirects]]
+  from = "/construction-project-management-and-scheduling/"
+  to = "/commercial/guides/construction-project-management-and-scheduling/"
+  status = 301
+
+[[redirects]]
+  from = "/construction-quotes-for-commercial-project/"
+  to = "/commercial/guides/construction-quotes-for-commercial-project/"
+  status = 301
+
+[[redirects]]
+  from = "/converting-retail-building-into-multi-tenant-space/"
+  to = "/commercial/guides/converting-retail-building-into-multi-tenant-space/"
+  status = 301
+
+[[redirects]]
+  from = "/customized-outdoor-sports-facilities-in-tampa-homes/"
+  to = "/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/decoding-commercial-construction-costs/"
+  to = "/commercial/guides/decoding-commercial-construction-costs/"
+  status = 301
+
+[[redirects]]
+  from = "/decoding-value-engineering-florida-construction-expertise/"
+  to = "/commercial/guides/decoding-value-engineering-florida-construction-expertise/"
+  status = 301
+
+[[redirects]]
+  from = "/demystifying-commercial-construction-insurance-in-florida/"
+  to = "/commercial/guides/demystifying-commercial-construction-insurance-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/discover-the-benefits-of-exterior-waterproofing/"
+  to = "/commercial/guides/discover-the-benefits-of-exterior-waterproofing/"
+  status = 301
+
+[[redirects]]
+  from = "/discover-the-best-balcony-decking-options-for-outdoor-spaces/"
+  to = "/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/"
+  status = 301
+
+[[redirects]]
+  from = "/effective-balcony-maintenance-tips/"
+  to = "/commercial/guides/effective-balcony-maintenance-tips/"
+  status = 301
+
+[[redirects]]
+  from = "/effective-exterior-waterproofing-methods-for-your-property/"
+  to = "/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/"
+  status = 301
+
+[[redirects]]
+  from = "/efficient-site-planning-for-commercial-construction-in-florida/"
+  to = "/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/employee-communication-with-office-layout/"
+  to = "/commercial/guides/employee-communication-with-office-layout/"
+  status = 301
+
+[[redirects]]
+  from = "/enhancing-commercial-property-value/"
+  to = "/commercial/guides/enhancing-commercial-property-value/"
+  status = 301
+
+[[redirects]]
+  from = "/ensuring-construction-site-safety-a-top-priority/"
+  to = "/commercial/guides/ensuring-construction-site-safety-a-top-priority/"
+  status = 301
+
+[[redirects]]
+  from = "/expert-balcony-construction-guidelines-for-optimal-results/"
+  to = "/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/"
+  status = 301
+
+[[redirects]]
+  from = "/expert-insights-on-ways-t0-enhanced-office-building-security/"
+  to = "/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/"
+  status = 301
+
+[[redirects]]
+  from = "/expert-tips-for-planning-your-commercial-construction-project/"
+  to = "/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/"
+  status = 301
+
+[[redirects]]
+  from = "/exterior-waterproofing-solution-for-a-dry-and-protected-home/"
+  to = "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/"
+  status = 301
+
+[[redirects]]
+  from = "/factors-influencing-commercial-construction-project-timeline/"
+  to = "/commercial/guides/factors-influencing-commercial-construction-project-timeline/"
+  status = 301
+
+[[redirects]]
+  from = "/financial-planning-for-commercial-construction/"
+  to = "/commercial/guides/financial-planning-for-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/green-contractor-certifications-in-commercial-construction/"
+  to = "/commercial/guides/green-contractor-certifications-in-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/guide-to-waterproofing-solutions-for-basements/"
+  to = "/commercial/guides/guide-to-waterproofing-solutions-for-basements/"
+  status = 301
+
+[[redirects]]
+  from = "/hire-licensed-contractors-for-commercial-construction-project/"
+  to = "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/"
+  status = 301
+
+[[redirects]]
+  from = "/historical-accuracy-in-tampa-restoration/"
+  to = "/commercial/guides/historical-accuracy-in-tampa-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/how-technology-is-revolutionizing-the-construction-process/"
+  to = "/commercial/guides/how-technology-is-revolutionizing-the-construction-process/"
+  status = 301
+
+[[redirects]]
+  from = "/hyde-park-renovation-guide/"
+  to = "/commercial/guides/hyde-park-renovation-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/inspiring-balcony-renovation-transform-your-outdoor-space/"
+  to = "/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/"
+  status = 301
+
+[[redirects]]
+  from = "/integrating-modern-amenities-in-tampas-historic-homes/"
+  to = "/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/investing-in-commercial-real-estate-construction/"
+  to = "/commercial/guides/investing-in-commercial-real-estate-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/is-your-commercial-building-remodel-ready/"
+  to = "/commercial/guides/is-your-commercial-building-remodel-ready/"
+  status = 301
+
+[[redirects]]
+  from = "/key-questions-for-floridas-top-commercial-contractor/"
+  to = "/commercial/guides/key-questions-for-floridas-top-commercial-contractor/"
+  status = 301
+
+[[redirects]]
+  from = "/key-signs-your-commercial-remodel-needs/"
+  to = "/commercial/guides/key-signs-your-commercial-remodel-needs/"
+  status = 301
+
+[[redirects]]
+  from = "/leading-commercial-contractors-in-tampas/"
+  to = "/commercial/guides/leading-commercial-contractors-in-tampas/"
+  status = 301
+
+[[redirects]]
+  from = "/licensed-contractors-for-commercial-construction-in-florida/"
+  to = "/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/mastering-commercial-construction-design-in-florida/"
+  to = "/commercial/guides/mastering-commercial-construction-design-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/maximize-savings-on-commercial-renovation/"
+  to = "/commercial/guides/maximize-savings-on-commercial-renovation/"
+  status = 301
+
+[[redirects]]
+  from = "/maximize-work-area-efficiency-for-commercial-space-solutions/"
+  to = "/commercial/guides/maximize-work-area-efficiency-for-commercial-space-solutions/"
+  status = 301
+
+[[redirects]]
+  from = "/post-construction-process-for-commercial-construction/"
+  to = "/commercial/guides/post-construction-process-for-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/preserving-tampas-cultural-heritage-through-restoration/"
+  to = "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/renovating-vs-new-construction-florida/"
+  to = "/commercial/guides/renovating-vs-new-construction-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/renovating-your-commercial-space-in-florida/"
+  to = "/commercial/guides/renovating-your-commercial-space-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/revitalize-your-older-building-renovation-and-reconstruction/"
+  to = "/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/"
+  status = 301
+
+[[redirects]]
+  from = "/revolutionizing-commercial-construction-florida/"
+  to = "/commercial/guides/revolutionizing-commercial-construction-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/safety-first-in-florida-commercial-construction-projects/"
+  to = "/commercial/guides/safety-first-in-florida-commercial-construction-projects/"
+  status = 301
+
+[[redirects]]
+  from = "/skilled-project-managers-for-florida-commercial-construction/"
+  to = "/commercial/guides/skilled-project-managers-for-florida-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/stylish-balcony-railing-designs-for-your-outdoor-space/"
+  to = "/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/"
+  status = 301
+
+[[redirects]]
+  from = "/subcontractors-in-florida-commercial-construction/"
+  to = "/commercial/guides/subcontractors-in-florida-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/successful-restaurant-design-with-florida-construction-specialists/"
+  to = "/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/"
+  status = 301
+
+[[redirects]]
+  from = "/summer-construction-safety-tips-from-top-contractors/"
+  to = "/commercial/guides/summer-construction-safety-tips-from-top-contractors/"
+  status = 301
+
+[[redirects]]
+  from = "/surviving-a-commercial-construction-project/"
+  to = "/commercial/guides/surviving-a-commercial-construction-project/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-building-materials-in-commercial-construction/"
+  to = "/commercial/guides/sustainable-building-materials-in-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-building-practices-florida-green-construction/"
+  to = "/commercial/guides/sustainable-building-practices-florida-green-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-commercial-construction-in-tampa-2/"
+  to = "/commercial/guides/sustainable-commercial-construction-in-tampa-2/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-construction-trends-in-florida/"
+  to = "/commercial/guides/sustainable-construction-trends-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-bidding-process/"
+  to = "/commercial/guides/tampa-commercial-construction-bidding-process/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-companies/"
+  to = "/commercial/guides/tampa-commercial-construction-companies/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-costs/"
+  to = "/commercial/guides/tampa-commercial-construction-costs/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-job-opportunities/"
+  to = "/commercial/guides/tampa-commercial-construction-job-opportunities/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-market-analysis/"
+  to = "/commercial/guides/tampa-commercial-construction-market-analysis/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-networking-events/"
+  to = "/commercial/guides/tampa-commercial-construction-networking-events/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-permits/"
+  to = "/commercial/guides/tampa-commercial-construction-permits/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-planning-services/"
+  to = "/commercial/guides/tampa-commercial-construction-planning-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-safety-standards/"
+  to = "/commercial/guides/tampa-commercial-construction-safety-standards/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-construction-trends-updates-2024/"
+  to = "/commercial/guides/tampa-commercial-construction-trends-updates-2024/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-property-disaster-recovery-services/"
+  to = "/commercial/guides/tampa-commercial-property-disaster-recovery-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-commercial-real-estate-development/"
+  to = "/commercial/guides/tampa-commercial-real-estate-development/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historic-home-restoration-guidelines/"
+  to = "/commercial/guides/tampa-historic-home-restoration-guidelines/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historic-restoration-permits-and-regulations/"
+  to = "/commercial/guides/tampa-historic-restoration-permits-and-regulations/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historic-restoration-workshops-and-training/"
+  to = "/commercial/guides/tampa-historic-restoration-workshops-and-training/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historic-window-restoration-services/"
+  to = "/commercial/guides/tampa-historic-window-restoration-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-awards-for-historic-restoration-excellence/"
+  to = "/commercial/guides/tampas-awards-for-historic-restoration-excellence/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-commercial-construction-laws/"
+  to = "/commercial/guides/tampas-commercial-construction-laws/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-guidelines-for-historic-landscape-restoration/"
+  to = "/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-guidelines-for-historic-roofs-restoration/"
+  to = "/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-historic-districts-restoration-rules/"
+  to = "/commercial/guides/tampas-historic-districts-restoration-rules/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-historic-restoration-zoning-laws/"
+  to = "/commercial/guides/tampas-historic-restoration-zoning-laws/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-historical-societies-and-restoration-efforts/"
+  to = "/commercial/guides/tampas-historical-societies-and-restoration-efforts/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-latest-commercial-construction-projects/"
+  to = "/commercial/guides/tampas-latest-commercial-construction-projects/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-premier-commercial-remodeling-contractors/"
+  to = "/commercial/guides/tampas-premier-commercial-remodeling-contractors/"
+  status = 301
+
+[[redirects]]
+  from = "/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/"
+  to = "/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/the-essential-duties-of-a-construction-manager-in-florida/"
+  to = "/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/the-essential-role-of-florida-construction-specialists/"
+  to = "/commercial/guides/the-essential-role-of-florida-construction-specialists/"
+  status = 301
+
+[[redirects]]
+  from = "/the-impact-of-steel-and-aluminum-tariffs-on-construction/"
+  to = "/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/the-preconstruction-modern-approach-design/"
+  to = "/commercial/guides/the-preconstruction-modern-approach-design/"
+  status = 301
+
+[[redirects]]
+  from = "/the-role-of-a-construction-manager/"
+  to = "/commercial/guides/the-role-of-a-construction-manager/"
+  status = 301
+
+[[redirects]]
+  from = "/the-stages-of-construction-project-management/"
+  to = "/commercial/guides/the-stages-of-construction-project-management/"
+  status = 301
+
+[[redirects]]
+  from = "/the-top-causes-of-construction-delays-in-florida/"
+  to = "/commercial/guides/the-top-causes-of-construction-delays-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/tips-for-commercial-renovation-in-florida/"
+  to = "/commercial/guides/tips-for-commercial-renovation-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/tips-for-negotiating-property-purchases-in-florida/"
+  to = "/commercial/guides/tips-for-negotiating-property-purchases-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/tips-for-post-construction-in-florida-commercial-sector/"
+  to = "/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/"
+  status = 301
+
+[[redirects]]
+  from = "/top-balcony-flooring-materials-for-style-durability/"
+  to = "/commercial/guides/top-balcony-flooring-materials-for-style-durability/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-construction-in-florida/"
+  to = "/commercial/guides/top-commercial-construction-in-florida/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-construction-trends/"
+  to = "/commercial/guides/top-commercial-construction-trends/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-contractor-for-roof-repair-and-replacement/"
+  to = "/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-contractor-with-quality-control/"
+  to = "/commercial/guides/top-commercial-contractor-with-quality-control/"
+  status = 301
+
+[[redirects]]
+  from = "/ultimate-waterproofing-guide-foundations/"
+  to = "/commercial/guides/ultimate-waterproofing-guide-foundations/"
+  status = 301
+
+[[redirects]]
+  from = "/unlocking-commercial-construction-permits/"
+  to = "/commercial/guides/unlocking-commercial-construction-permits/"
+  status = 301
+
+[[redirects]]
+  from = "/unlocking-the-power-of-sustainable-construction/"
+  to = "/commercial/guides/unlocking-the-power-of-sustainable-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/unveiling-floridas-top-hidden-commercial-construction-costs/"
+  to = "/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/"
+  status = 301
+
+[[redirects]]
+  from = "/upgrade-commercial-sprinklers-during-renovation/"
+  to = "/commercial/guides/upgrade-commercial-sprinklers-during-renovation/"
+  status = 301
+
+[[redirects]]
+  from = "/utility-mapping-for-commercial-buildings/"
+  to = "/commercial/guides/utility-mapping-for-commercial-buildings/"
+  status = 301
+
+[[redirects]]
+  from = "/value-engineering-in-commercial-construction/"
+  to = "/commercial/guides/value-engineering-in-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/waterproofing-commercial-contractors/"
+  to = "/commercial/guides/waterproofing-commercial-contractors/"
+  status = 301
+
+[[redirects]]
+  from = "/waterproofing-solutions-for-homes-the-ultimate-guide/"
+  to = "/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/zero-net-energy-boosting-commercial-construction/"
+  to = "/commercial/guides/zero-net-energy-boosting-commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/breakaway-wall-construction-requirements/"
+  to = "/insurance/guides/breakaway-wall-construction-requirements/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-milestone-inspection-remediation/"
+  to = "/insurance/guides/condo-milestone-inspection-remediation/"
+  status = 301
+
+[[redirects]]
+  from = "/environmental-considerations-in-tampa-insurance-restoration/"
+  to = "/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/fema-50-percent-rule-explained/"
+  to = "/insurance/guides/fema-50-percent-rule-explained/"
+  status = 301
+
+[[redirects]]
+  from = "/flood-zone-ve-vs-ae-guide/"
+  to = "/insurance/guides/flood-zone-ve-vs-ae-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/florida-sb4d-compliance-guide/"
+  to = "/insurance/guides/florida-sb4d-compliance-guide/"
+  status = 301
+
+[[redirects]]
+  from = "/foundation-restoration-services-in-tampa-after-flooding/"
+  to = "/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/"
+  status = 301
+
+[[redirects]]
+  from = "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/"
+  to = "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/"
+  status = 301
+
+[[redirects]]
+  from = "/identifying-water-damage-signs-prevention-and-action/"
+  to = "/insurance/guides/identifying-water-damage-signs-prevention-and-action/"
+  status = 301
+
+[[redirects]]
+  from = "/impact-of-climate-change-on-tampa-insurance-restoration/"
+  to = "/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/milestone-inspection-requirements/"
+  to = "/insurance/guides/milestone-inspection-requirements/"
+  status = 301
+
+[[redirects]]
+  from = "/mold-remediation-services-in-tampa-after-flooding/"
+  to = "/insurance/guides/mold-remediation-services-in-tampa-after-flooding/"
+  status = 301
+
+[[redirects]]
+  from = "/reinforced-construction-services-in-tampa-for-disaster-prevention/"
+  to = "/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/"
+  status = 301
+
+[[redirects]]
+  from = "/role-of-executive-general-adjusters-in-tampa-restorations/"
+  to = "/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/"
+  status = 301
+
+[[redirects]]
+  from = "/sb-4-d-compliance-tampa-bay-condos/"
+  to = "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/"
+  status = 301
+
+[[redirects]]
+  from = "/sirs-structural-integrity-reserve-studies/"
+  to = "/insurance/guides/sirs-structural-integrity-reserve-studies/"
+  status = 301
+
+[[redirects]]
+  from = "/structural-integrity-evaluation-in-tampa-post-disaster/"
+  to = "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-disaster-damage-assessment-services/"
+  to = "/insurance/guides/tampa-disaster-damage-assessment-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-post-disaster-rebuilding-services/"
+  to = "/insurance/guides/tampa-post-disaster-rebuilding-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-water-damage-restoration-services-post-flooding/"
+  to = "/insurance/guides/tampa-water-damage-restoration-services-post-flooding/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-building-codes-for-insurance-restoration/"
+  to = "/insurance/guides/tampas-building-codes-for-insurance-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-disaster-related-demolition-services/"
+  to = "/insurance/guides/tampas-disaster-related-demolition-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-insurance-restoration-for-commercial-interiors/"
+  to = "/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-insurance-restoration-reporting-and-documentation/"
+  to = "/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-post-disaster-electrical-safety-checks/"
+  to = "/insurance/guides/tampas-post-disaster-electrical-safety-checks/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-structural-drying-services-post-flooding/"
+  to = "/insurance/guides/tampas-structural-drying-services-post-flooding/"
+  status = 301
+
+[[redirects]]
+  from = "/understanding-tampa-insurance-restoration-claims/"
+  to = "/insurance/guides/understanding-tampa-insurance-restoration-claims/"
+  status = 301
+
+[[redirects]]
+  from = "/preventing-home-improvement-fraud/"
+  to = "/residential/guides/preventing-home-improvement-fraud/"
+  status = 301
+
+[[redirects]]
+  from = "/smart-home-integration-in-tampa-custom-homes-2/"
+  to = "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-home-builders-with-artistic-flair/"
+  to = "/residential/guides/tampa-custom-home-builders-with-artistic-flair/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-home-landscaping-solutions/"
+  to = "/residential/guides/tampa-custom-home-landscaping-solutions/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-homes-with-green-building-practices/"
+  to = "/residential/guides/tampa-custom-homes-with-green-building-practices/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-homes-with-luxury-bathrooms/"
+  to = "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-homes-with-unique-facades/"
+  to = "/residential/guides/tampa-custom-homes-with-unique-facades/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-custom-outdoor-living-spaces/"
+  to = "/residential/guides/tampa-custom-outdoor-living-spaces/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-homes-with-custom-art-studios/"
+  to = "/residential/guides/tampa-homes-with-custom-art-studios/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-luxury-custom-home-building-services/"
+  to = "/residential/guides/tampa-luxury-custom-home-building-services/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-custom-family-home-builders/"
+  to = "/residential/guides/tampas-custom-family-home-builders/"
+  status = 301
+
+[[redirects]]
+  from = "/why-florida-construction-specialists-recommend-building-instead-of-buying/"
+  to = "/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/"
   status = 301
