@@ -1,16 +1,14 @@
 {
-  "generated": "2026-02-16T07:04:27.415Z",
+  "generated": "2026-02-16T21:08:33.383Z",
   "counts": {
-    "commercial": 144,
-    "residential": 15,
-    "insurance": 31,
-    "total": 190
+    "commercial": 190,
+    "residential": 24,
+    "insurance": 45,
+    "total": 259
   },
   "classificationMethods": {
-    "service-silo": 72,
-    "keyword-pattern": 118,
-    "audience-fallback": 0,
-    "default-fallback": 0
+    "service-silo": 81,
+    "keyword-pattern": 139
   },
   "articles": [
     {
@@ -20,6 +18,30 @@
       "targetPath": "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "adaptive-reuse-of-historic-buildings-in-tampa",
+      "currentPath": "/adaptive-reuse-of-historic-buildings-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "advanced-building-materials-in-tampa",
+      "currentPath": "/advanced-building-materials-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/advanced-building-materials-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "affordable-commercial-construction-in-tampa",
+      "currentPath": "/affordable-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/affordable-commercial-construction-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
     },
     {
       "slug": "architectural-styles-in-tampas-historic-restoration",
@@ -110,12 +132,36 @@
       "matchedPattern": "office"
     },
     {
+      "slug": "breakaway-wall-construction-requirements",
+      "currentPath": "/breakaway-wall-construction-requirements/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/breakaway-wall-construction-requirements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "breakaway-wall"
+    },
+    {
       "slug": "build-a-successful-future-in-construction-management",
       "currentPath": "/build-a-successful-future-in-construction-management/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/build-a-successful-future-in-construction-management/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "construction-management"
+    },
+    {
+      "slug": "building-hurricane-safe-structures-florida",
+      "currentPath": "/building-hurricane-safe-structures-florida/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/building-hurricane-safe-structures-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane"
+    },
+    {
+      "slug": "building-multi-generational-homes-in-tampa",
+      "currentPath": "/building-multi-generational-homes-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/building-multi-generational-homes-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "home"
     },
     {
       "slug": "building-plans-for-businesses-florida-construction-specialists",
@@ -134,6 +180,14 @@
       "matchedPattern": "community-outreach"
     },
     {
+      "slug": "building-tampa-homes-with-personalized-office-spaces",
+      "currentPath": "/building-tampa-homes-with-personalized-office-spaces/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/building-tampa-homes-with-personalized-office-spaces/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "personalized-office"
+    },
+    {
       "slug": "building-the-perfect-construction-blueprint",
       "currentPath": "/building-the-perfect-construction-blueprint/",
       "targetSilo": "commercial",
@@ -142,12 +196,36 @@
       "matchedPattern": "blueprint"
     },
     {
+      "slug": "challenges-in-historic-restoration-projects-in-tampa",
+      "currentPath": "/challenges-in-historic-restoration-projects-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/challenges-in-historic-restoration-projects-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
       "slug": "choose-between-general-contractor-and-construction-manager",
       "currentPath": "/choose-between-general-contractor-and-construction-manager/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/choose-between-general-contractor-and-construction-manager/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "contractor"
+    },
+    {
+      "slug": "choosing-a-builder-expert-commercial-construction-in-tampa",
+      "currentPath": "/choosing-a-builder-expert-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "choosing-materials-for-commercial-construction-in-tampa",
+      "currentPath": "/choosing-materials-for-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
     },
     {
       "slug": "choosing-the-perfect-location-for-commercial-construction",
@@ -174,6 +252,38 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "claims-negotiation-for-property-damage-in-tampa",
+      "currentPath": "/claims-negotiation-for-property-damage-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "claim"
+    },
+    {
+      "slug": "climate-resilient-custom-homes-in-tampa",
+      "currentPath": "/climate-resilient-custom-homes-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "color-palettes-for-historic-buildings-in-tampa",
+      "currentPath": "/color-palettes-for-historic-buildings-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/color-palettes-for-historic-buildings-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "commercial-building-design-services-in-tampa",
+      "currentPath": "/commercial-building-design-services-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-building-design-services-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
       "slug": "commercial-buildings-facade-renovations",
       "currentPath": "/commercial-buildings-facade-renovations/",
       "targetSilo": "commercial",
@@ -186,6 +296,14 @@
       "currentPath": "/commercial-construction-budgeting-tips-for-florida-specialists/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-consultancy-in-tampa",
+      "currentPath": "/commercial-construction-consultancy-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-consultancy-in-tampa/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
     },
@@ -214,10 +332,26 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "commercial-construction-loans-in-tampa",
+      "currentPath": "/commercial-construction-loans-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-loans-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
       "slug": "commercial-construction-questions-answered",
       "currentPath": "/commercial-construction-questions-answered/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/commercial-construction-questions-answered/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-regulations-in-tampa",
+      "currentPath": "/commercial-construction-regulations-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-regulations-in-tampa/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
     },
@@ -230,6 +364,14 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "commercial-construction-technology-in-tampa",
+      "currentPath": "/commercial-construction-technology-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-technology-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
       "slug": "commercial-construction-vs-remodeling-and-renovation-in-florida",
       "currentPath": "/commercial-construction-vs-remodeling-and-renovation-in-florida/",
       "targetSilo": "commercial",
@@ -238,10 +380,50 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "commercial-construction-wants-vs-needs-in-tampa",
+      "currentPath": "/commercial-construction-wants-vs-needs-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-interior-design-in-tampa",
+      "currentPath": "/commercial-interior-design-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-interior-design-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "commercial-property-damage-restoration-in-tampa",
+      "currentPath": "/commercial-property-damage-restoration-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/commercial-property-damage-restoration-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "damage-restoration"
+    },
+    {
       "slug": "commercial-renovation-secrets-from-floridas-top-contractors",
       "currentPath": "/commercial-renovation-secrets-from-floridas-top-contractors/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "commercial-residential-construction-in-florida",
+      "currentPath": "/commercial-residential-construction-in-florida/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/commercial-residential-construction-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "residential"
+    },
+    {
+      "slug": "commercial-roofing-services-in-tampa",
+      "currentPath": "/commercial-roofing-services-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-roofing-services-in-tampa/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "commercial"
     },
@@ -254,12 +436,36 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "complete-property-overhaul-after-disasters-in-tampa",
+      "currentPath": "/complete-property-overhaul-after-disasters-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
       "slug": "condo-balcony-inspection-requirements",
       "currentPath": "/condo-balcony-inspection-requirements/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/condo-balcony-inspection-requirements/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "balcony"
+    },
+    {
+      "slug": "condo-milestone-inspection-remediation",
+      "currentPath": "/condo-milestone-inspection-remediation/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/condo-milestone-inspection-remediation/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "milestone-inspection"
+    },
+    {
+      "slug": "condo-milestone-inspection-remediation-tampa",
+      "currentPath": "/condo-milestone-inspection-remediation-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/condo-milestone-inspection-remediation-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "condo-structural-reserve-study-repairs",
@@ -294,6 +500,14 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "contractors-role-in-tampa-insurance-restoration",
+      "currentPath": "/contractors-role-in-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/contractors-role-in-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
       "slug": "converting-retail-building-into-multi-tenant-space",
       "currentPath": "/converting-retail-building-into-multi-tenant-space/",
       "targetSilo": "commercial",
@@ -302,12 +516,68 @@
       "matchedPattern": "retail"
     },
     {
+      "slug": "cost-of-historic-restoration-in-tampa",
+      "currentPath": "/cost-of-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/cost-of-historic-restoration-in-tampa/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "crafting-custom-home-libraries-in-tampa",
+      "currentPath": "/crafting-custom-home-libraries-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/crafting-custom-home-libraries-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
       "slug": "crafting-the-ideal-commercial-blueprint-in-tampa-florida",
       "currentPath": "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "commercial"
+    },
+    {
+      "slug": "creating-unique-bedrooms-in-tampa-custom-homes",
+      "currentPath": "/creating-unique-bedrooms-in-tampa-custom-homes/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "custom-commercial-construction-solutions-in-tampa",
+      "currentPath": "/custom-commercial-construction-solutions-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/custom-commercial-construction-solutions-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "custom-home-accessibility-features-in-tampa",
+      "currentPath": "/custom-home-accessibility-features-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/custom-home-accessibility-features-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "custom-home-interior-design-services-in-tampa",
+      "currentPath": "/custom-home-interior-design-services-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/custom-home-interior-design-services-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "custom-home-theaters-and-entertainment-spaces-in-tampa",
+      "currentPath": "/custom-home-theaters-and-entertainment-spaces-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
     },
     {
       "slug": "customized-outdoor-sports-facilities-in-tampa-homes",
@@ -358,6 +628,14 @@
       "matchedPattern": "balcony"
     },
     {
+      "slug": "eco-friendly-historic-restoration-techniques-in-tampa",
+      "currentPath": "/eco-friendly-historic-restoration-techniques-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "effective-balcony-maintenance-tips",
       "currentPath": "/effective-balcony-maintenance-tips/",
       "targetSilo": "commercial",
@@ -390,6 +668,14 @@
       "matchedPattern": "office"
     },
     {
+      "slug": "energy-efficiency-in-historic-restoration-in-tampa",
+      "currentPath": "/energy-efficiency-in-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "enhancing-commercial-property-value",
       "currentPath": "/enhancing-commercial-property-value/",
       "targetSilo": "commercial",
@@ -404,6 +690,14 @@
       "targetPath": "/commercial/guides/ensuring-construction-site-safety-a-top-priority/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "construction-site"
+    },
+    {
+      "slug": "environmental-considerations-in-tampa-insurance-restoration",
+      "currentPath": "/environmental-considerations-in-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
     },
     {
       "slug": "experienced-design-build-firm-in-florida",
@@ -454,6 +748,14 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "fema-50-percent-rule-explained",
+      "currentPath": "/fema-50-percent-rule-explained/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/fema-50-percent-rule-explained/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "fema-50-percent"
+    },
+    {
       "slug": "financial-planning-for-commercial-construction",
       "currentPath": "/financial-planning-for-commercial-construction/",
       "targetSilo": "commercial",
@@ -462,12 +764,68 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "fire-damage-restoration-and-insurance-in-tampa",
+      "currentPath": "/fire-damage-restoration-and-insurance-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "flood-zone-ve-vs-ae-guide",
+      "currentPath": "/flood-zone-ve-vs-ae-guide/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/flood-zone-ve-vs-ae-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "florida-construction-specialists-committed-to-the-community-in-tampa",
+      "currentPath": "/florida-construction-specialists-committed-to-the-community-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "community-outreach"
+    },
+    {
       "slug": "florida-construction-specialists-mastering-your-post-construction-checklist",
       "currentPath": "/florida-construction-specialists-mastering-your-post-construction-checklist/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "post-construction"
+    },
+    {
+      "slug": "florida-sb4d-compliance-guide",
+      "currentPath": "/florida-sb4d-compliance-guide/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/florida-sb4d-compliance-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sb4d"
+    },
+    {
+      "slug": "foundation-restoration-services-in-tampa-after-flooding",
+      "currentPath": "/foundation-restoration-services-in-tampa-after-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "funding-and-grants-for-historic-restoration-in-tampa",
+      "currentPath": "/funding-and-grants-for-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "gourmet-kitchen-design-in-tampa",
+      "currentPath": "/gourmet-kitchen-design-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/gourmet-kitchen-design-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "green-contractor-certifications-in-commercial-construction",
@@ -486,12 +844,52 @@
       "matchedPattern": "waterproofing"
     },
     {
+      "slug": "high-end-home-construction-in-tampa",
+      "currentPath": "/high-end-home-construction-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/high-end-home-construction-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "hire-licensed-contractors-for-commercial-construction-project",
       "currentPath": "/hire-licensed-contractors-for-commercial-construction-project/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "historic-building-preservation-in-tampa",
+      "currentPath": "/historic-building-preservation-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-building-preservation-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "historic-building-structural-assessment-in-tampa",
+      "currentPath": "/historic-building-structural-assessment-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-building-structural-assessment-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "historic-masonry-restoration-techniques-in-tampa",
+      "currentPath": "/historic-masonry-restoration-techniques-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-masonry-restoration-techniques-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "historic-plaster-repair-techniques-in-tampa",
+      "currentPath": "/historic-plaster-repair-techniques-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-plaster-repair-techniques-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "historic-restoration-preservation",
@@ -502,12 +900,36 @@
       "matchedPattern": "historic-restoration"
     },
     {
+      "slug": "historic-restoration-projects-in-tampa",
+      "currentPath": "/historic-restoration-projects-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-restoration-projects-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "historical-accuracy-in-tampa-restoration",
       "currentPath": "/historical-accuracy-in-tampa-restoration/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/historical-accuracy-in-tampa-restoration/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "historic"
+    },
+    {
+      "slug": "historical-commercial-construction-in-tampa",
+      "currentPath": "/historical-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historical-commercial-construction-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "historical-landmarks-restoration-in-tampa",
+      "currentPath": "/historical-landmarks-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historical-landmarks-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "how-technology-is-revolutionizing-the-construction-process",
@@ -518,6 +940,30 @@
       "matchedPattern": "construction-process"
     },
     {
+      "slug": "how-to-prevent-water-damage-expert-tips-for-a-dry-home",
+      "currentPath": "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "water-damage"
+    },
+    {
+      "slug": "hurricane-damage-repair-services-in-tampa",
+      "currentPath": "/hurricane-damage-repair-services-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/hurricane-damage-repair-services-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane-damage"
+    },
+    {
+      "slug": "hurricane-proof-reconstruction-services-in-tampa",
+      "currentPath": "/hurricane-proof-reconstruction-services-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane"
+    },
+    {
       "slug": "hyde-park-renovation-guide",
       "currentPath": "/hyde-park-renovation-guide/",
       "targetSilo": "commercial",
@@ -526,12 +972,68 @@
       "matchedPattern": "renovation"
     },
     {
+      "slug": "identifying-water-damage-signs-prevention-and-action",
+      "currentPath": "/identifying-water-damage-signs-prevention-and-action/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/identifying-water-damage-signs-prevention-and-action/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "water-damage"
+    },
+    {
+      "slug": "impact-of-climate-change-on-tampa-insurance-restoration",
+      "currentPath": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "impact-of-climate-on-historic-restoration-in-tampa",
+      "currentPath": "/impact-of-climate-on-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "impacts-of-technology-on-historic-restoration-in-tampa",
+      "currentPath": "/impacts-of-technology-on-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "industrial-property-restoration-services-after-damage-in-tampa",
+      "currentPath": "/industrial-property-restoration-services-after-damage-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "industrial-site-disaster-response-in-tampa",
+      "currentPath": "/industrial-site-disaster-response-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/industrial-site-disaster-response-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "inspiring-balcony-renovation-transform-your-outdoor-space",
       "currentPath": "/inspiring-balcony-renovation-transform-your-outdoor-space/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "balcony"
+    },
+    {
+      "slug": "insurance-arbitration-appraisal",
+      "currentPath": "/insurance-arbitration-appraisal/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/insurance-arbitration-appraisal/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "insurance"
     },
     {
       "slug": "integrating-modern-amenities-in-tampas-historic-homes",
@@ -554,6 +1056,22 @@
       "currentPath": "/is-your-commercial-building-remodel-ready/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/is-your-commercial-building-remodel-ready/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "key-benefits-of-choosing-a-local-general-contractor-in-tampa",
+      "currentPath": "/key-benefits-of-choosing-a-local-general-contractor-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "key-factors-for-choosing-the-top-commercial-contractor-in-tampa",
+      "currentPath": "/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "commercial"
     },
@@ -582,6 +1100,14 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "legal-aspects-of-insurance-restoration-in-tampa",
+      "currentPath": "/legal-aspects-of-insurance-restoration-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "licensed-contractors-for-commercial-construction-in-florida",
       "currentPath": "/licensed-contractors-for-commercial-construction-in-florida/",
       "targetSilo": "commercial",
@@ -590,12 +1116,28 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "luxury-commercial-construction-in-tampa",
+      "currentPath": "/luxury-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/luxury-commercial-construction-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "mastering-commercial-construction-design-in-florida",
       "currentPath": "/mastering-commercial-construction-design-in-florida/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/mastering-commercial-construction-design-in-florida/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "materials-for-historic-restoration-in-tampa",
+      "currentPath": "/materials-for-historic-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/materials-for-historic-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "maximize-savings-on-commercial-renovation",
@@ -614,6 +1156,46 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "milestone-inspection-requirements",
+      "currentPath": "/milestone-inspection-requirements/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/milestone-inspection-requirements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "milestone-inspection"
+    },
+    {
+      "slug": "mold-remediation-and-insurance-coverage-in-tampa",
+      "currentPath": "/mold-remediation-and-insurance-coverage-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "mold-remediation-services-in-tampa-after-flooding",
+      "currentPath": "/mold-remediation-services-in-tampa-after-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/mold-remediation-services-in-tampa-after-flooding/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "mold-remediation"
+    },
+    {
+      "slug": "office-building-renovation-in-tampa",
+      "currentPath": "/office-building-renovation-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/office-building-renovation-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "pet-friendly-home-designs-in-tampa",
+      "currentPath": "/pet-friendly-home-designs-in-tampa/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/pet-friendly-home-designs-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "post-construction-process-for-commercial-construction",
       "currentPath": "/post-construction-process-for-commercial-construction/",
       "targetSilo": "commercial",
@@ -622,12 +1204,44 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "post-disaster-landscaping-restoration-in-tampa",
+      "currentPath": "/post-disaster-landscaping-restoration-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/post-disaster-landscaping-restoration-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "preparing-for-insurance-restoration-consultations-in-tampa",
+      "currentPath": "/preparing-for-insurance-restoration-consultations-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "preserving-tampas-cultural-heritage-through-restoration",
       "currentPath": "/preserving-tampas-cultural-heritage-through-restoration/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "cultural-heritage"
+    },
+    {
+      "slug": "preventing-home-improvement-fraud",
+      "currentPath": "/preventing-home-improvement-fraud/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/preventing-home-improvement-fraud/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "home-improvement"
+    },
+    {
+      "slug": "reinforced-construction-services-in-tampa-for-disaster-prevention",
+      "currentPath": "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
     },
     {
       "slug": "renovating-vs-new-construction-florida",
@@ -646,6 +1260,14 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "residential-insurance-restoration-services-in-tampa",
+      "currentPath": "/residential-insurance-restoration-services-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/residential-insurance-restoration-services-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "revitalize-your-older-building-renovation-and-reconstruction",
       "currentPath": "/revitalize-your-older-building-renovation-and-reconstruction/",
       "targetSilo": "commercial",
@@ -662,12 +1284,36 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "role-of-executive-general-adjusters-in-tampa-restorations",
+      "currentPath": "/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "adjuster"
+    },
+    {
       "slug": "safety-first-in-florida-commercial-construction-projects",
       "currentPath": "/safety-first-in-florida-commercial-construction-projects/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/safety-first-in-florida-commercial-construction-projects/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "sb-4-d-compliance-tampa-bay-condos",
+      "currentPath": "/sb-4-d-compliance-tampa-bay-condos/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sb-4-d"
+    },
+    {
+      "slug": "sirs-structural-integrity-reserve-studies",
+      "currentPath": "/sirs-structural-integrity-reserve-studies/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/sirs-structural-integrity-reserve-studies/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sirs"
     },
     {
       "slug": "skilled-project-managers-for-florida-commercial-construction",
@@ -678,12 +1324,36 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "smart-home-integration-in-tampa-custom-homes-2",
+      "currentPath": "/smart-home-integration-in-tampa-custom-homes-2/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "smooth-commercial-renovations-solution-in-tampa",
+      "currentPath": "/smooth-commercial-renovations-solution-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/smooth-commercial-renovations-solution-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "streamlining-your-design-build-project-timeline",
       "currentPath": "/streamlining-your-design-build-project-timeline/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/streamlining-your-design-build-project-timeline/",
       "classifiedBy": "service-silo",
       "matchedPattern": "design-build"
+    },
+    {
+      "slug": "structural-integrity-evaluation-in-tampa-post-disaster",
+      "currentPath": "/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
     },
     {
       "slug": "stylish-balcony-railing-designs-for-your-outdoor-space",
@@ -742,6 +1412,14 @@
       "matchedPattern": "sustainable-building"
     },
     {
+      "slug": "sustainable-commercial-construction-in-tampa",
+      "currentPath": "/sustainable-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-commercial-construction-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "sustainable-commercial-construction-in-tampa-2",
       "currentPath": "/sustainable-commercial-construction-in-tampa-2/",
       "targetSilo": "commercial",
@@ -756,6 +1434,14 @@
       "targetPath": "/commercial/guides/sustainable-construction-trends-in-florida/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "construction-trends"
+    },
+    {
+      "slug": "sustainable-urban-development-in-tampa",
+      "currentPath": "/sustainable-urban-development-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-urban-development-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "tampa-commercial-construction-bidding-process",
@@ -854,6 +1540,62 @@
       "matchedPattern": "commercial"
     },
     {
+      "slug": "tampa-custom-home-builders-with-artistic-flair",
+      "currentPath": "/tampa-custom-home-builders-with-artistic-flair/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-home-builders-with-artistic-flair/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-home-landscaping-solutions",
+      "currentPath": "/tampa-custom-home-landscaping-solutions/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-home-landscaping-solutions/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-green-building-practices",
+      "currentPath": "/tampa-custom-homes-with-green-building-practices/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-green-building-practices/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-luxury-bathrooms",
+      "currentPath": "/tampa-custom-homes-with-luxury-bathrooms/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-unique-facades",
+      "currentPath": "/tampa-custom-homes-with-unique-facades/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-unique-facades/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-outdoor-living-spaces",
+      "currentPath": "/tampa-custom-outdoor-living-spaces/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-outdoor-living-spaces/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "outdoor-living"
+    },
+    {
+      "slug": "tampa-disaster-damage-assessment-services",
+      "currentPath": "/tampa-disaster-damage-assessment-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-disaster-damage-assessment-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
       "slug": "tampa-historic-home-restoration-guidelines",
       "currentPath": "/tampa-historic-home-restoration-guidelines/",
       "targetSilo": "commercial",
@@ -886,6 +1628,54 @@
       "matchedPattern": "historic"
     },
     {
+      "slug": "tampa-homes-with-custom-art-studios",
+      "currentPath": "/tampa-homes-with-custom-art-studios/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-homes-with-custom-art-studios/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "art-studio"
+    },
+    {
+      "slug": "tampa-insurance-restoration-for-hurricane-damage",
+      "currentPath": "/tampa-insurance-restoration-for-hurricane-damage/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampa-luxury-custom-home-building-services",
+      "currentPath": "/tampa-luxury-custom-home-building-services/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-luxury-custom-home-building-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-post-disaster-rebuilding-services",
+      "currentPath": "/tampa-post-disaster-rebuilding-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-post-disaster-rebuilding-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampa-residential-restoration-after-hurricane-damage",
+      "currentPath": "/tampa-residential-restoration-after-hurricane-damage/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-residential-restoration-after-hurricane-damage/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane"
+    },
+    {
+      "slug": "tampa-water-damage-restoration-services-post-flooding",
+      "currentPath": "/tampa-water-damage-restoration-services-post-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-water-damage-restoration-services-post-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
       "slug": "tampas-awards-for-historic-restoration-excellence",
       "currentPath": "/tampas-awards-for-historic-restoration-excellence/",
       "targetSilo": "commercial",
@@ -894,12 +1684,36 @@
       "matchedPattern": "historic-restoration"
     },
     {
+      "slug": "tampas-building-codes-for-insurance-restoration",
+      "currentPath": "/tampas-building-codes-for-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-building-codes-for-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
       "slug": "tampas-commercial-construction-laws",
       "currentPath": "/tampas-commercial-construction-laws/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/tampas-commercial-construction-laws/",
       "classifiedBy": "service-silo",
       "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampas-custom-family-home-builders",
+      "currentPath": "/tampas-custom-family-home-builders/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampas-custom-family-home-builders/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "family-home"
+    },
+    {
+      "slug": "tampas-disaster-related-demolition-services",
+      "currentPath": "/tampas-disaster-related-demolition-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-disaster-related-demolition-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
     },
     {
       "slug": "tampas-guidelines-for-historic-landscape-restoration",
@@ -942,6 +1756,22 @@
       "matchedPattern": "historic"
     },
     {
+      "slug": "tampas-insurance-restoration-for-commercial-interiors",
+      "currentPath": "/tampas-insurance-restoration-for-commercial-interiors/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampas-insurance-restoration-reporting-and-documentation",
+      "currentPath": "/tampas-insurance-restoration-reporting-and-documentation/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
       "slug": "tampas-latest-commercial-construction-projects",
       "currentPath": "/tampas-latest-commercial-construction-projects/",
       "targetSilo": "commercial",
@@ -950,12 +1780,36 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "tampas-post-disaster-electrical-safety-checks",
+      "currentPath": "/tampas-post-disaster-electrical-safety-checks/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-post-disaster-electrical-safety-checks/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
       "slug": "tampas-premier-commercial-remodeling-contractors",
       "currentPath": "/tampas-premier-commercial-remodeling-contractors/",
       "targetSilo": "commercial",
       "targetPath": "/commercial/guides/tampas-premier-commercial-remodeling-contractors/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "commercial"
+    },
+    {
+      "slug": "tampas-structural-drying-services-post-flooding",
+      "currentPath": "/tampas-structural-drying-services-post-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-structural-drying-services-post-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "tenant-improvement-contractors-tampa",
+      "currentPath": "/tenant-improvement-contractors-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tenant-improvement-contractors-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction",
@@ -998,6 +1852,14 @@
       "matchedPattern": "preconstruction"
     },
     {
+      "slug": "the-preferred-commercial-general-contractors-in-tampa",
+      "currentPath": "/the-preferred-commercial-general-contractors-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "the-role-of-a-construction-manager",
       "currentPath": "/the-role-of-a-construction-manager/",
       "targetSilo": "commercial",
@@ -1022,6 +1884,14 @@
       "matchedPattern": "construction-delay"
     },
     {
+      "slug": "tips-for-choosing-a-commercial-contractor-in-tampa",
+      "currentPath": "/tips-for-choosing-a-commercial-contractor-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
       "slug": "tips-for-commercial-renovation-in-florida",
       "currentPath": "/tips-for-commercial-renovation-in-florida/",
       "targetSilo": "commercial",
@@ -1036,6 +1906,14 @@
       "targetPath": "/commercial/guides/tips-for-negotiating-property-purchases-in-florida/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "negotiating-property"
+    },
+    {
+      "slug": "tips-for-parking-lot-maintenance-in-tampa",
+      "currentPath": "/tips-for-parking-lot-maintenance-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
     },
     {
       "slug": "tips-for-post-construction-in-florida-commercial-sector",
@@ -1070,6 +1948,14 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "top-commercial-construction-trends-in-tampa",
+      "currentPath": "/top-commercial-construction-trends-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-commercial-construction-trends-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "top-commercial-contractor-for-roof-repair-and-replacement",
       "currentPath": "/top-commercial-contractor-for-roof-repair-and-replacement/",
       "targetSilo": "commercial",
@@ -1092,6 +1978,14 @@
       "targetPath": "/commercial/guides/ultimate-waterproofing-guide-foundations/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "waterproofing"
+    },
+    {
+      "slug": "understanding-tampa-insurance-restoration-claims",
+      "currentPath": "/understanding-tampa-insurance-restoration-claims/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
     },
     {
       "slug": "unlocking-commercial-construction-permits",
@@ -1142,6 +2036,14 @@
       "matchedPattern": "commercial-construction"
     },
     {
+      "slug": "water-damage-mitigation-in-tampa",
+      "currentPath": "/water-damage-mitigation-in-tampa/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/water-damage-mitigation-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
       "slug": "waterproofing-commercial-contractors",
       "currentPath": "/waterproofing-commercial-contractors/",
       "targetSilo": "commercial",
@@ -1158,380 +2060,28 @@
       "matchedPattern": "waterproofing"
     },
     {
-      "slug": "zero-net-energy-boosting-commercial-construction",
-      "currentPath": "/zero-net-energy-boosting-commercial-construction/",
-      "targetSilo": "commercial",
-      "targetPath": "/commercial/guides/zero-net-energy-boosting-commercial-construction/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "commercial-construction"
-    },
-    {
-      "slug": "breakaway-wall-construction-requirements",
-      "currentPath": "/breakaway-wall-construction-requirements/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/breakaway-wall-construction-requirements/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "breakaway-wall"
-    },
-    {
-      "slug": "building-hurricane-safe-structures-florida",
-      "currentPath": "/building-hurricane-safe-structures-florida/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/building-hurricane-safe-structures-florida/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "hurricane"
-    },
-    {
-      "slug": "condo-milestone-inspection-remediation",
-      "currentPath": "/condo-milestone-inspection-remediation/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/condo-milestone-inspection-remediation/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "milestone-inspection"
-    },
-    {
-      "slug": "contractors-role-in-tampa-insurance-restoration",
-      "currentPath": "/contractors-role-in-tampa-insurance-restoration/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/contractors-role-in-tampa-insurance-restoration/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "environmental-considerations-in-tampa-insurance-restoration",
-      "currentPath": "/environmental-considerations-in-tampa-insurance-restoration/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "fema-50-percent-rule-explained",
-      "currentPath": "/fema-50-percent-rule-explained/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/fema-50-percent-rule-explained/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "fema-50-percent"
-    },
-    {
-      "slug": "flood-zone-ve-vs-ae-guide",
-      "currentPath": "/flood-zone-ve-vs-ae-guide/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/flood-zone-ve-vs-ae-guide/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "flood"
-    },
-    {
-      "slug": "florida-sb4d-compliance-guide",
-      "currentPath": "/florida-sb4d-compliance-guide/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/florida-sb4d-compliance-guide/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "sb4d"
-    },
-    {
-      "slug": "foundation-restoration-services-in-tampa-after-flooding",
-      "currentPath": "/foundation-restoration-services-in-tampa-after-flooding/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "flood"
-    },
-    {
-      "slug": "how-to-prevent-water-damage-expert-tips-for-a-dry-home",
-      "currentPath": "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "water-damage"
-    },
-    {
-      "slug": "identifying-water-damage-signs-prevention-and-action",
-      "currentPath": "/identifying-water-damage-signs-prevention-and-action/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/identifying-water-damage-signs-prevention-and-action/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "water-damage"
-    },
-    {
-      "slug": "impact-of-climate-change-on-tampa-insurance-restoration",
-      "currentPath": "/impact-of-climate-change-on-tampa-insurance-restoration/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "milestone-inspection-requirements",
-      "currentPath": "/milestone-inspection-requirements/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/milestone-inspection-requirements/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "milestone-inspection"
-    },
-    {
-      "slug": "mold-remediation-services-in-tampa-after-flooding",
-      "currentPath": "/mold-remediation-services-in-tampa-after-flooding/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/mold-remediation-services-in-tampa-after-flooding/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "mold-remediation"
-    },
-    {
-      "slug": "reinforced-construction-services-in-tampa-for-disaster-prevention",
-      "currentPath": "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "role-of-executive-general-adjusters-in-tampa-restorations",
-      "currentPath": "/role-of-executive-general-adjusters-in-tampa-restorations/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "adjuster"
-    },
-    {
-      "slug": "sb-4-d-compliance-tampa-bay-condos",
-      "currentPath": "/sb-4-d-compliance-tampa-bay-condos/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "sb-4-d"
-    },
-    {
-      "slug": "sirs-structural-integrity-reserve-studies",
-      "currentPath": "/sirs-structural-integrity-reserve-studies/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/sirs-structural-integrity-reserve-studies/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "sirs"
-    },
-    {
-      "slug": "structural-integrity-evaluation-in-tampa-post-disaster",
-      "currentPath": "/structural-integrity-evaluation-in-tampa-post-disaster/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "tampa-disaster-damage-assessment-services",
-      "currentPath": "/tampa-disaster-damage-assessment-services/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampa-disaster-damage-assessment-services/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "tampa-insurance-restoration-for-hurricane-damage",
-      "currentPath": "/tampa-insurance-restoration-for-hurricane-damage/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "tampa-post-disaster-rebuilding-services",
-      "currentPath": "/tampa-post-disaster-rebuilding-services/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampa-post-disaster-rebuilding-services/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "tampa-residential-restoration-after-hurricane-damage",
-      "currentPath": "/tampa-residential-restoration-after-hurricane-damage/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampa-residential-restoration-after-hurricane-damage/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "hurricane"
-    },
-    {
-      "slug": "tampa-water-damage-restoration-services-post-flooding",
-      "currentPath": "/tampa-water-damage-restoration-services-post-flooding/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampa-water-damage-restoration-services-post-flooding/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "flood"
-    },
-    {
-      "slug": "tampas-building-codes-for-insurance-restoration",
-      "currentPath": "/tampas-building-codes-for-insurance-restoration/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-building-codes-for-insurance-restoration/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "tampas-disaster-related-demolition-services",
-      "currentPath": "/tampas-disaster-related-demolition-services/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-disaster-related-demolition-services/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "tampas-insurance-restoration-for-commercial-interiors",
-      "currentPath": "/tampas-insurance-restoration-for-commercial-interiors/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "tampas-insurance-restoration-reporting-and-documentation",
-      "currentPath": "/tampas-insurance-restoration-reporting-and-documentation/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "tampas-post-disaster-electrical-safety-checks",
-      "currentPath": "/tampas-post-disaster-electrical-safety-checks/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-post-disaster-electrical-safety-checks/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "disaster"
-    },
-    {
-      "slug": "tampas-structural-drying-services-post-flooding",
-      "currentPath": "/tampas-structural-drying-services-post-flooding/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/tampas-structural-drying-services-post-flooding/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "flood"
-    },
-    {
-      "slug": "understanding-tampa-insurance-restoration-claims",
-      "currentPath": "/understanding-tampa-insurance-restoration-claims/",
-      "targetSilo": "insurance",
-      "targetPath": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
-      "classifiedBy": "service-silo",
-      "matchedPattern": "insurance-restoration"
-    },
-    {
-      "slug": "building-tampa-homes-with-personalized-office-spaces",
-      "currentPath": "/building-tampa-homes-with-personalized-office-spaces/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/building-tampa-homes-with-personalized-office-spaces/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "personalized-office"
-    },
-    {
-      "slug": "commercial-residential-construction-in-florida",
-      "currentPath": "/commercial-residential-construction-in-florida/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/commercial-residential-construction-in-florida/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "residential"
-    },
-    {
-      "slug": "creating-unique-bedrooms-in-tampa-custom-homes",
-      "currentPath": "/creating-unique-bedrooms-in-tampa-custom-homes/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "preventing-home-improvement-fraud",
-      "currentPath": "/preventing-home-improvement-fraud/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/preventing-home-improvement-fraud/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "home-improvement"
-    },
-    {
-      "slug": "smart-home-integration-in-tampa-custom-homes-2",
-      "currentPath": "/smart-home-integration-in-tampa-custom-homes-2/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-home-builders-with-artistic-flair",
-      "currentPath": "/tampa-custom-home-builders-with-artistic-flair/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-home-builders-with-artistic-flair/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-home-landscaping-solutions",
-      "currentPath": "/tampa-custom-home-landscaping-solutions/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-home-landscaping-solutions/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-homes-with-green-building-practices",
-      "currentPath": "/tampa-custom-homes-with-green-building-practices/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-homes-with-green-building-practices/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-homes-with-luxury-bathrooms",
-      "currentPath": "/tampa-custom-homes-with-luxury-bathrooms/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-homes-with-unique-facades",
-      "currentPath": "/tampa-custom-homes-with-unique-facades/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-homes-with-unique-facades/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampa-custom-outdoor-living-spaces",
-      "currentPath": "/tampa-custom-outdoor-living-spaces/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-custom-outdoor-living-spaces/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "outdoor-living"
-    },
-    {
-      "slug": "tampa-homes-with-custom-art-studios",
-      "currentPath": "/tampa-homes-with-custom-art-studios/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-homes-with-custom-art-studios/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "art-studio"
-    },
-    {
-      "slug": "tampa-luxury-custom-home-building-services",
-      "currentPath": "/tampa-luxury-custom-home-building-services/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampa-luxury-custom-home-building-services/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "custom-home"
-    },
-    {
-      "slug": "tampas-custom-family-home-builders",
-      "currentPath": "/tampas-custom-family-home-builders/",
-      "targetSilo": "residential",
-      "targetPath": "/residential/guides/tampas-custom-family-home-builders/",
-      "classifiedBy": "keyword-pattern",
-      "matchedPattern": "family-home"
-    },
-    {
       "slug": "why-florida-construction-specialists-recommend-building-instead-of-buying",
       "currentPath": "/why-florida-construction-specialists-recommend-building-instead-of-buying/",
       "targetSilo": "residential",
       "targetPath": "/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/",
       "classifiedBy": "keyword-pattern",
       "matchedPattern": "building-instead-of-buying"
+    },
+    {
+      "slug": "your-top-choice-for-commercial-construction-in-tampa",
+      "currentPath": "/your-top-choice-for-commercial-construction-in-tampa/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/",
+      "classifiedBy": "manual",
+      "matchedPattern": "batch-02-16"
+    },
+    {
+      "slug": "zero-net-energy-boosting-commercial-construction",
+      "currentPath": "/zero-net-energy-boosting-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/zero-net-energy-boosting-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
     }
   ]
 }

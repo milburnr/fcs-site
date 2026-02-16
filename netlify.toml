@@ -51,7 +51,7 @@
 
 [[redirects]]
   from = "/affordable-commercial-construction-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/affordable-commercial-construction-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -71,7 +71,7 @@
 
 [[redirects]]
   from = "/commercial-building-design-services-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-building-design-services-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -86,7 +86,7 @@
 
 [[redirects]]
   from = "/commercial-construction-consultancy-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-construction-consultancy-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -106,7 +106,7 @@
 
 [[redirects]]
   from = "/commercial-construction-loans-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-construction-loans-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -126,7 +126,7 @@
 
 [[redirects]]
   from = "/commercial-construction-regulations-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-construction-regulations-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -136,7 +136,7 @@
 
 [[redirects]]
   from = "/commercial-construction-technology-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-construction-technology-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -146,17 +146,17 @@
 
 [[redirects]]
   from = "/commercial-construction-wants-vs-needs-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/commercial-interior-design-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-interior-design-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/commercial-property-damage-restoration-in-tampa/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/commercial-property-damage-restoration-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -176,13 +176,13 @@
 
 [[redirects]]
   from = "/commercial-roofing-services-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/commercial-roofing-services-in-tampa/"
   status = 301
 
 # Choosing Contractor Duplicates → /about/
 [[redirects]]
   from = "/choosing-a-builder-expert-commercial-construction-in-tampa/"
-  to = "/about/"
+  to = "/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -192,7 +192,7 @@
 
 [[redirects]]
   from = "/choosing-materials-for-commercial-construction-in-tampa/"
-  to = "/commercial-construction-tampa/"
+  to = "/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -217,7 +217,7 @@
 
 [[redirects]]
   from = "/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/"
-  to = "/about/"
+  to = "/commercial/guides/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -227,7 +227,7 @@
 
 [[redirects]]
   from = "/tips-for-choosing-a-commercial-contractor-in-tampa/"
-  to = "/about/"
+  to = "/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/"
   status = 301
 
 # Hurricane/Disaster Duplicates → /disaster-recovery/
@@ -243,12 +243,12 @@
 
 [[redirects]]
   from = "/hurricane-damage-repair-services-in-tampa/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/hurricane-damage-repair-services-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/hurricane-proof-reconstruction-services-in-tampa/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -288,7 +288,7 @@
 
 [[redirects]]
   from = "/complete-property-overhaul-after-disasters-in-tampa/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -299,7 +299,7 @@
 # Historic Restoration Duplicates → /historic-restoration/
 [[redirects]]
   from = "/adaptive-reuse-of-historic-buildings-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -309,17 +309,17 @@
 
 [[redirects]]
   from = "/challenges-in-historic-restoration-projects-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/guides/challenges-in-historic-restoration-projects-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/color-palettes-for-historic-buildings-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/guides/color-palettes-for-historic-buildings-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/cost-of-historic-restoration-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/guides/cost-of-historic-restoration-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -482,7 +482,7 @@
 
 [[redirects]]
   from = "/building-multi-generational-homes-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/building-multi-generational-homes-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -492,12 +492,12 @@
 
 [[redirects]]
   from = "/climate-resilient-custom-homes-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/climate-resilient-custom-homes-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/crafting-custom-home-libraries-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/crafting-custom-home-libraries-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -507,17 +507,17 @@
 
 [[redirects]]
   from = "/custom-home-accessibility-features-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/custom-home-accessibility-features-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/custom-home-interior-design-services-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/custom-home-interior-design-services-in-tampa/"
   status = 301
 
 [[redirects]]
   from = "/custom-home-theaters-and-entertainment-spaces-in-tampa/"
-  to = "/luxury-custom-homes-tampa/"
+  to = "/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/"
   status = 301
 
 # Blueprint/Planning Duplicates → /about/
@@ -570,7 +570,7 @@
 
 [[redirects]]
   from = "/claims-negotiation-for-property-damage-in-tampa/"
-  to = "/disaster-recovery-tampa/"
+  to = "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -580,7 +580,7 @@
 
 [[redirects]]
   from = "/insurance-arbitration-appraisal/"
-  to = "/disaster-recovery/"
+  to = "/insurance/guides/insurance-arbitration-appraisal/"
   status = 301
 
 # Florida Construction Specialists branded duplicates → appropriate pages
@@ -591,7 +591,7 @@
 
 [[redirects]]
   from = "/florida-construction-specialists-committed-to-the-community-in-tampa/"
-  to = "/about/"
+  to = "/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/"
   status = 301
 
 [[redirects]]
@@ -1043,16 +1043,6 @@
 [[redirects]]
   from = "/insurance-claims-management/"
   to = "/disaster-recovery/"
-  status = 301
-
-[[redirects]]
-  from = "/insurance-restoration-brandon/"
-  to = "/disaster-recovery-tampa/"
-  status = 301
-
-[[redirects]]
-  from = "/insurance-restoration-sarasota/"
-  to = "/disaster-recovery-tampa/"
   status = 301
 
 [[redirects]]
@@ -1931,4 +1921,199 @@
 [[redirects]]
   from = "/why-florida-construction-specialists-recommend-building-instead-of-buying/"
   to = "/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/"
+  status = 301
+
+[[redirects]]
+  from = "/advanced-building-materials-in-tampa/"
+  to = "/commercial/guides/advanced-building-materials-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-milestone-inspection-remediation-tampa/"
+  to = "/commercial/guides/condo-milestone-inspection-remediation-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/custom-commercial-construction-solutions-in-tampa/"
+  to = "/commercial/guides/custom-commercial-construction-solutions-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/eco-friendly-historic-restoration-techniques-in-tampa/"
+  to = "/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/energy-efficiency-in-historic-restoration-in-tampa/"
+  to = "/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/funding-and-grants-for-historic-restoration-in-tampa/"
+  to = "/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-building-preservation-in-tampa/"
+  to = "/commercial/guides/historic-building-preservation-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-building-structural-assessment-in-tampa/"
+  to = "/commercial/guides/historic-building-structural-assessment-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-masonry-restoration-techniques-in-tampa/"
+  to = "/commercial/guides/historic-masonry-restoration-techniques-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-plaster-repair-techniques-in-tampa/"
+  to = "/commercial/guides/historic-plaster-repair-techniques-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-restoration-projects-in-tampa/"
+  to = "/commercial/guides/historic-restoration-projects-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historical-commercial-construction-in-tampa/"
+  to = "/commercial/guides/historical-commercial-construction-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/historical-landmarks-restoration-in-tampa/"
+  to = "/commercial/guides/historical-landmarks-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/impact-of-climate-on-historic-restoration-in-tampa/"
+  to = "/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/impacts-of-technology-on-historic-restoration-in-tampa/"
+  to = "/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/key-benefits-of-choosing-a-local-general-contractor-in-tampa/"
+  to = "/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/luxury-commercial-construction-in-tampa/"
+  to = "/commercial/guides/luxury-commercial-construction-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/materials-for-historic-restoration-in-tampa/"
+  to = "/commercial/guides/materials-for-historic-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/office-building-renovation-in-tampa/"
+  to = "/commercial/guides/office-building-renovation-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/smooth-commercial-renovations-solution-in-tampa/"
+  to = "/commercial/guides/smooth-commercial-renovations-solution-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-commercial-construction-in-tampa/"
+  to = "/commercial/guides/sustainable-commercial-construction-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/sustainable-urban-development-in-tampa/"
+  to = "/commercial/guides/sustainable-urban-development-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tenant-improvement-contractors-tampa/"
+  to = "/commercial/guides/tenant-improvement-contractors-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/the-preferred-commercial-general-contractors-in-tampa/"
+  to = "/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tips-for-parking-lot-maintenance-in-tampa/"
+  to = "/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-construction-trends-in-tampa/"
+  to = "/commercial/guides/top-commercial-construction-trends-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/your-top-choice-for-commercial-construction-in-tampa/"
+  to = "/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/post-disaster-landscaping-restoration-in-tampa/"
+  to = "/commercial/guides/post-disaster-landscaping-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/gourmet-kitchen-design-in-tampa/"
+  to = "/residential/guides/gourmet-kitchen-design-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/high-end-home-construction-in-tampa/"
+  to = "/residential/guides/high-end-home-construction-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/pet-friendly-home-designs-in-tampa/"
+  to = "/residential/guides/pet-friendly-home-designs-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/fire-damage-restoration-and-insurance-in-tampa/"
+  to = "/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/industrial-property-restoration-services-after-damage-in-tampa/"
+  to = "/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/industrial-site-disaster-response-in-tampa/"
+  to = "/insurance/guides/industrial-site-disaster-response-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/legal-aspects-of-insurance-restoration-in-tampa/"
+  to = "/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/mold-remediation-and-insurance-coverage-in-tampa/"
+  to = "/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/preparing-for-insurance-restoration-consultations-in-tampa/"
+  to = "/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/residential-insurance-restoration-services-in-tampa/"
+  to = "/insurance/guides/residential-insurance-restoration-services-in-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/water-damage-mitigation-in-tampa/"
+  to = "/insurance/guides/water-damage-mitigation-in-tampa/"
   status = 301
