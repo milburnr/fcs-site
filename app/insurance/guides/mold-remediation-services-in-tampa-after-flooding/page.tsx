@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
+import { BreadcrumbSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -55,8 +55,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Mold Remediation Services in Tampa After Flooding"
+        description="Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal, water damage cleanup, and flood damage restoration for your home ..."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/mold-remediation-services-in-tampa-after-flooding/"
+      />
       <ServiceSchema 
         serviceName="Mold Remediation Services"
         serviceDescription="Expert mold remediation services in Tampa after flooding. Comprehensive mold removal, water damage cleanup, and flood damage restoration for residential and commercial properties."

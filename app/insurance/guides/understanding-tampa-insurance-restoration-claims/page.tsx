@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Clock, FileText, Shield, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Understanding Tampa Insurance Restoration Claims"
+        description="Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CBC. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/understanding-tampa-insurance-restoration-claims/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

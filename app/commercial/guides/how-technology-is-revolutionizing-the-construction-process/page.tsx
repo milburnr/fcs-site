@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Cpu, Camera, Smartphone, Cloud, BarChart3, Shield, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Technology Revolutionizing Construction | Tampa"
+        description="Discover technology revolutionizing construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/how-technology-is-revolutionizing-the-construction-process/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

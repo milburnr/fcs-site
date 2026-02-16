@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle, Shield, AlertTriangle, Clock, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Hurricane-Proof Reconstruction Tampa | Commercial"
+        description="Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

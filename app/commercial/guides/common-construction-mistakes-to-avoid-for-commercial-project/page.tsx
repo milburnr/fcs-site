@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Construction Mistakes to Avoid | Commercial Tampa"
+        description="Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

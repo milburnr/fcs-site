@@ -14,7 +14,7 @@ import {
   Ruler,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import {
@@ -305,7 +305,6 @@ const relatedArticles = [
 export default function FloodZoneVEvsAEGuidePage() {
   return (
     <>
-      <LocalBusinessSchema city="Tampa" service="Flood Zone Construction" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Waterfront Home Construction"

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { FAQWithSchema } from "@/components/FAQ";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -79,8 +79,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Contractor"
+        description="Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CBC with 40+ years experience. Contact us today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/contractors-role-in-tampa-insurance-restoration/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

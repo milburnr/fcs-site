@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Calendar, FileText, Building2, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -90,7 +90,6 @@ const commonIssues = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
       <ArticleSchema

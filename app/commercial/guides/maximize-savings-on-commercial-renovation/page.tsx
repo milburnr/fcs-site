@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, DollarSign, TrendingDown, Calendar, Building2, HelpCircle, PiggyBank, Calculator, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -135,8 +135,13 @@ const savingsStrategies = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Maximize Commercial Renovation Savings Tampa"
+        description="Discover maximize commercial renovation savings with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/maximize-savings-on-commercial-renovation/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Search, FileText, Building2, DollarSign, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Negotiating Property Purchases FL | Due Diligence"
+        description="Expert tips for negotiating commercial property purchases in Florida. How construction assessments strengthen your position and protect your investment."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tips-for-negotiating-property-purchases-in-florida/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

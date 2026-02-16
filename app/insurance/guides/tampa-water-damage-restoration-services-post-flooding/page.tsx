@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -55,8 +55,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa water damage restoration Services Post-Flooding"
+        description="Get expert Water Extraction Services offer immediate flood damage cleanup and emergency water damage restoration inTampa to bring your property back to normal."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampa-water-damage-restoration-services-post-flooding/"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

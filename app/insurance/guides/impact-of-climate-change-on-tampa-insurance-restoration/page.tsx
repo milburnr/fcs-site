@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, CloudRain, Thermometer, Wind, Waves } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Climate Change & Tampa Insurance Restoration"
+        description="How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, Building, Leaf, Sun, Zap, Droplets, Wind, Award, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Sustainable Construction Trends in Florida"
+        description="Explore the latest sustainable construction trends shaping Florida"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/sustainable-construction-trends-in-florida/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

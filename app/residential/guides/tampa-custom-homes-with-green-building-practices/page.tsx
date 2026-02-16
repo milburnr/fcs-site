@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Recycle, TreePine, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Green Custom Homes | LEED Certified | FCS"
+        description="Build a certified green custom home in Tampa with sustainable materials, low-impact construction, and LEED/FGBC certification. Healthy homes from $425K-$2M+."
+        datePublished="2024-01-01"
+        slug="/residential/guides/tampa-custom-homes-with-green-building-practices/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

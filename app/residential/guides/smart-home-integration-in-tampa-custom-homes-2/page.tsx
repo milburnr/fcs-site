@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Smartphone, Wifi, Shield, Volume2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Smart Home Integration Tampa | Automation | FCS"
+        description="Integrate smart home technology in your custom home. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/residential/guides/smart-home-integration-in-tampa-custom-homes-2/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

@@ -13,7 +13,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import {
@@ -220,10 +220,6 @@ export default function HydeParkRenovationGuidePage() {
 
   return (
     <>
-      <LocalBusinessSchema
-        schemaType="HomeAndConstructionBusiness"
-        service="Hyde Park Historic Renovation"
-      />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Hyde Park Historic Home Renovation"

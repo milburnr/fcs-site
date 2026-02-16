@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Award, Users, Clock, Shield, HelpCircle, Star, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -97,8 +97,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa"
+        description="Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CBC contractor. Request an estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampas-premier-commercial-remodeling-contractors/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

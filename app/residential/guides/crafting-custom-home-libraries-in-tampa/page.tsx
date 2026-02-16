@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, BookOpen, Lamp, Armchair, PanelTop } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Custom Home Libraries in Tampa | Luxury Book Rooms & Studies"
+        description="Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years. Contact us today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/crafting-custom-home-libraries-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

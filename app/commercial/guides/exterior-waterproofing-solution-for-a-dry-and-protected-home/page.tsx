@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Exterior Waterproofing Commercial Tampa | FCS"
+        description="Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial. Expert analysis from Florida Construction Specialists. Read more."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/"
+      />
       <ServiceSchema
         serviceName="Exterior Waterproofing Solutions"
         serviceDescription="Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection and facade waterproofing."

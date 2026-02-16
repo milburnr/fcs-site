@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -55,8 +55,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Environmental Considerations in Tampa Insurance Restoration"
+        description="Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

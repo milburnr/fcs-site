@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, MapPin, Zap, Droplets, Flame, Radio } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Utility Mapping Tampa | Commercial Underground"
+        description="Professional utility mapping services for commercial buildings in Tampa. Expert insights from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/utility-mapping-for-commercial-buildings/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

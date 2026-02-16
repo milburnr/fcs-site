@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Sun, Zap, Leaf, Building, TrendingDown, Award, DollarSign, Wind } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Zero Net Energy Boosting Commercial Construction in Tampa"
+        description="Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/zero-net-energy-boosting-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

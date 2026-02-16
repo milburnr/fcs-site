@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, Clock, Users, ShieldCheck, HelpCircle, Briefcase, Calendar, MessageSquare } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -91,8 +91,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Smooth Commercial Renovations Tampa | Stay Open"
+        description="Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/smooth-commercial-renovations-solution-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

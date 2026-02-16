@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Shield, Wrench, Building2, FileCheck } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Reinforced Construction Tampa | Hurricane-Proof"
+        description="Reinforced construction services in for disaster prevention. Expert analysis from Florida Construction Specialists. Call for a free consultation today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

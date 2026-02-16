@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Balcony Railing Designs Tampa | High-Rise Styles"
+        description="Premium balcony railing designs for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/"
+      />
       <ServiceSchema
         serviceName="Balcony Railing Design and Installation"
         serviceDescription="Premium balcony railing designs for Tampa Bay high-rise condominiums. Code-compliant glass, aluminum, and cable railing systems with expert installation."

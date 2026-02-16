@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Monitor, Wifi, Lock, Lightbulb } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Homes with Personalized Office Spaces"
+        description="Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CBC with 40+ years experience. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/residential/guides/building-tampa-homes-with-personalized-office-spaces/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

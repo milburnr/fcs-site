@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, History, TrendingUp, Wrench, HelpCircle, Leaf, Shield, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -115,8 +115,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Revitalize Your Building Tampa | Renovation"
+        description="Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CBC in ${region}. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

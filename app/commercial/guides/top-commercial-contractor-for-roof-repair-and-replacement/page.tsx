@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Clock, Shield, Wrench, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Roof Repair & Replacement Tampa | FCS"
+        description="Commercial roof repair Tampa: emergency storm repairs, re-roofing, hurricane damage. Manufacturer-certified, licensed CBC. Get a free quote."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

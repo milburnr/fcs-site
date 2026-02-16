@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -54,8 +54,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Unlocking Commercial Construction Permits"
+        description="Gain expert insights into understanding commercial construction permits from Florida&apos;s seasoned Tampa specialists. Navigate the permit process with ease."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/unlocking-commercial-construction-permits/"
+      />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         {/* Background Image */}

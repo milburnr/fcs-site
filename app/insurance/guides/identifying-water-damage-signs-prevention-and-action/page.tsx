@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Search, Shield, Droplets, Eye } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Water Damage Signs & Prevention | Tampa Commercial"
+        description="Discover water damage signs & prevention commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/identifying-water-damage-signs-prevention-and-action/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

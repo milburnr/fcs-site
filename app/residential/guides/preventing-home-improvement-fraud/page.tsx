@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Shield, FileText, Search, Ban, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Preventing Home Improvement Fraud Tampa"
+        description="Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/residential/guides/preventing-home-improvement-fraud/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

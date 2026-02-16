@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Shield, HardHat, Eye, Zap, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Safety First Florida Commercial | OSHA Tampa"
+        description="Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CBC. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/safety-first-in-florida-commercial-construction-projects/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

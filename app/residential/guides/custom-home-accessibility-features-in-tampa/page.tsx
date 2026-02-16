@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Accessibility, Home, Heart, ArrowUpDown } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -54,8 +54,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Custom Home Accessibility Tampa | Universal Design"
+        description="Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/residential/guides/custom-home-accessibility-features-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

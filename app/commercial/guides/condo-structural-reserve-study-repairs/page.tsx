@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, DollarSign, Wrench, Clock, FileText, TrendingUp } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { ServiceSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -71,8 +71,13 @@ const internalLinks = [
 export default function SIRSRepairsPage() {
   return (
     <>
-      <LocalBusinessSchema service="Condo Capital Project Construction" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Condo Reserve Study Repairs | SIRS | FCS Tampa"
+        description="Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CBC. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/condo-structural-reserve-study-repairs/"
+      />
       <ServiceSchema
         serviceName="Structural Reserve Study Repairs"
         serviceDescription="Expert planning and execution of major condo capital projects identified in Structural Integrity Reserve Studies. Roof replacement, concrete restoration, waterproofing, plumbing, electrical, and more throughout Tampa Bay."

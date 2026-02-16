@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Shield, HardHat, ClipboardCheck, Users, FileText } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Construction Site Safety Tampa | Top Priority"
+        description="Ensuring construction site safety is Florida Construction Specialists"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/ensuring-construction-site-safety-a-top-priority/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

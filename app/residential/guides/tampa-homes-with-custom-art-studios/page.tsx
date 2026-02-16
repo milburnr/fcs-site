@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Sun, Ruler, Lightbulb, Paintbrush } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Homes with Custom Art Studios | Creative Spaces"
+        description="Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/tampa-homes-with-custom-art-studios/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

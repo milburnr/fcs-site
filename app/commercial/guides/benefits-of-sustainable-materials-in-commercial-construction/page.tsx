@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, DollarSign, Heart, TrendingUp, Award, Building, Sun, Recycle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Benefits of Sustainable Materials in Commercial Construction"
+        description="Discover the numerous advantages of using sustainable materials in commercial construction. Gain insights from Florida Construction Specialists in Tampa Bay."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

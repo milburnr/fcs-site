@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, FileText, Camera, ClipboardCheck, MessageSquare } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Insurance Restoration Consultations Tampa | Guide"
+        description="Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1983. Read more."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

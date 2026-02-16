@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Target, Scale, DollarSign, Clock, AlertTriangle, Lightbulb, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -203,8 +203,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Construction Wants vs Needs Tampa"
+        description="Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

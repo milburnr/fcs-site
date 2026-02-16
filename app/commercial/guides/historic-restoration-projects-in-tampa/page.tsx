@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -32,8 +32,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Historic Restoration Projects Tampa | FCS Portfolio"
+        description="Explore FCS"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/historic-restoration-projects-in-tampa/"
+      />
       <ServiceSchema 
         serviceName="Historic Restoration Projects"
         serviceDescription="Award-winning historic restoration projects in Tampa. Expert preservation of theatres, mansions, and commercial buildings in Ybor City, Hyde Park, and downtown Tampa using Secretary of Interior standards."

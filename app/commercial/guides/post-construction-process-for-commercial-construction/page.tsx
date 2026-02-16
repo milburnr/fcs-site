@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle, Clock, ClipboardCheck, Shield, FileText, Users, Wrench } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="The Ultimate Guide to Post Construction Process in Florida"
+        description="Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC. Contact us today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/post-construction-process-for-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

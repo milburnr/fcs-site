@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Factory, Wrench, Shield, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Industrial Property Restoration Tampa | Warehouse"
+        description="Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Get a free quote."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

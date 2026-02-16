@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Users, Heart, Home, Shield, Accessibility } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Building Multi-Generational Homes in Tampa | Family Living"
+        description="Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Contact us today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/building-multi-generational-homes-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

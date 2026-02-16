@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle, FileText, HardHat, Ruler, Building2, ClipboardCheck, Key } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -348,7 +348,6 @@ const stages = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Commercial Construction Stages in Florida: A Complete Guide"

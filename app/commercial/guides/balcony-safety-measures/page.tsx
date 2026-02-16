@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, AlertTriangle, Eye, Wrench, FileCheck, Baby } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema"
+import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -147,7 +147,6 @@ const warningSignsData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Balcony Safety Measures: Florida Compliance & Best Practices"

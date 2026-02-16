@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Clock, Shield, FileText, HelpCircle, Zap, Building2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -89,8 +89,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Post-Disaster Rebuilding | Storm & Fire"
+        description="Secure your property against further damage"
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampa-post-disaster-rebuilding-services/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

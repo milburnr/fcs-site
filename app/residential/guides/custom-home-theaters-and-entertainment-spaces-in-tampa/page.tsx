@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Tv, Speaker, Film, Gamepad2 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Custom Home Theaters and Entertainment Spaces in Tampa"
+        description="Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

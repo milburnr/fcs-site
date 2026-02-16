@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, CloudRain, Wind, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Climate-Resilient Custom Homes Tampa | Hurricane"
+        description="Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/residential/guides/climate-resilient-custom-homes-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

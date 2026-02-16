@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Droplets, Shield, Wrench, Home } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Prevent Water Damage Tampa | Commercial Tips"
+        description="Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

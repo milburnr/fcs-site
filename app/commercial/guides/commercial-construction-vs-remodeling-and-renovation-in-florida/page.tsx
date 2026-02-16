@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, Building, Hammer, RefreshCw, Clock, DollarSign, FileText, AlertTriangle, Scale } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Construction vs Remodeling Florida"
+        description="Discover commercial construction vs remodeling florida with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

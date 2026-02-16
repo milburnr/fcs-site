@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, Shield, AlertTriangle, FileText, CheckCircle, DollarSign, Building2, HardHat, Umbrella } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -205,8 +205,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Construction Insurance Florida | Guide"
+        description="Understand commercial construction insurance requirements in Florida. Learn about liability, workers"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-construction-insurance-coverage/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

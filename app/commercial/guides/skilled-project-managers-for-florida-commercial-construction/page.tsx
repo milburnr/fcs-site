@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Users, ClipboardList, Target, Clock, Shield, Award, BarChart, MessageSquare } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Skilled Project Managers in Commercial Construction Florida"
+        description="Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/skilled-project-managers-for-florida-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Building2, DollarSign, Ruler, Shield, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Build vs Buy Commercial Property Tampa | FCS"
+        description="Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC. Contact us today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

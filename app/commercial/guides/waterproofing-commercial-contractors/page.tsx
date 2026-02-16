@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Waterproofing Tampa | High-Rise | FCS"
+        description="Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/waterproofing-commercial-contractors/"
+      />
       <ServiceSchema
         serviceName="Commercial Waterproofing Services"
         serviceDescription="Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and commercial buildings. Parking structures, building envelopes, and balcony systems."

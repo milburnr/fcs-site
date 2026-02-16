@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Star, Users, MessageSquare, ThumbsUp, Award, Building, Clock, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -76,8 +76,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Customer Satisfaction in Florida Commercial Construction"
+        description="Discover the power of customer satisfaction in Florida commercial construction projects,. Expert analysis from Florida Construction Specialists. Read more."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

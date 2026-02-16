@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Dog, Home, Shield, Heart, Droplets } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Pet-Friendly Home Designs Tampa | Custom Homes"
+        description="Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/pet-friendly-home-designs-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

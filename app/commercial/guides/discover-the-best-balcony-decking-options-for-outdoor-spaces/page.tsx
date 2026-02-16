@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Best Balcony Decking Options for High-Rise Buildings Tampa"
+        description="Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CBC. Call for a free consultation today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/"
+      />
       <ServiceSchema
         serviceName="Balcony Decking Installation"
         serviceDescription="Premium balcony decking options for Tampa Bay high-rise condominiums. Tile, pavers, deck coatings, and composite systems with expert installation."

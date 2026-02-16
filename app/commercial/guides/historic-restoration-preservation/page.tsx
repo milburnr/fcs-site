@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
 import { Phone, Building2, History, Shield, Award, ArrowRight } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -116,8 +116,13 @@ export default function HistoricRestorationPage() {
 
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Historic Restoration & Preservation Tampa FL"
+        description="Historic restoration Tampa: traditional craftsmanship and modern techniques. Preserve Florida heritage. SHPO compliance. Get a consultation."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/historic-restoration-preservation/"
+      />
       <FAQSchema faqs={faqs} />
       <ServiceSchema 
         serviceName="Historic Restoration & Preservation"

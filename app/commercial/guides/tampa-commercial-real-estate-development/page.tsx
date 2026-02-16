@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, Building2, MapPin, DollarSign, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Commercial Real Estate Development | FCS"
+        description="Expert construction partner for commercial real estate development in Tampa. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampa-commercial-real-estate-development/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

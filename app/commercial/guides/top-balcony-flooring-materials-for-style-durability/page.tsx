@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Top Balcony Flooring Materials for High-Rise Buildings Tampa"
+        description="Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CBC. Contact us today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/top-balcony-flooring-materials-for-style-durability/"
+      />
       <ServiceSchema
         serviceName="Balcony Flooring Installation"
         serviceDescription="Premium balcony flooring materials for Tampa Bay high-rise condominiums. Porcelain tiles, deck coatings, pavers, and natural stone options."

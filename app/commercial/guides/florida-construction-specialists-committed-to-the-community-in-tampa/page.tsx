@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Heart, Users, GraduationCap, Building2, Shield, TreePine } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="FCS - Committed to the Tampa Community"
+        description="- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

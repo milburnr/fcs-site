@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, FileText, Clock, Building2, ClipboardCheck, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Commercial Construction Permits | Guide"
+        description="Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampa-commercial-construction-permits/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

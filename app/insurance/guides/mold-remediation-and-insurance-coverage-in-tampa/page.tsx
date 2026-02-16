@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Bug, Shield, FileText, Droplets } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Mold Remediation & Insurance Tampa | Commercial"
+        description="Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       <ServiceSchema 
         serviceName="Mold Remediation & Insurance Claims"

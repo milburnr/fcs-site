@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Users, FileText, Scale, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Executive General Adjusters Tampa | Large Loss"
+        description="Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1983. Contact us today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

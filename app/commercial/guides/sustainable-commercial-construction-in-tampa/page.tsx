@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Leaf, Building, Sun, Droplets, Wind, Award, TrendingUp, DollarSign, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Leading Sustainable Commercial Construction in Tampa"
+        description="Sustainable commercial construction Tampa: LEED projects, green building, eco-friendly materials. Energy-efficient buildings. Get a quote."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/sustainable-commercial-construction-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

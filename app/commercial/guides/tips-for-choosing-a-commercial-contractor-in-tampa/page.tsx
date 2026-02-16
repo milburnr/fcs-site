@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, Shield, Award, Users, FileCheck, AlertTriangle, Star, Building, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -52,8 +52,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tips for Choosing a Commercial Contractor in Tampa"
+        description="Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

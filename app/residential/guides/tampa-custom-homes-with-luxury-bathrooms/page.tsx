@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Bath, Droplets, Sparkles, Thermometer } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Custom Homes Luxury Bathrooms | Spa"
+        description="Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/tampa-custom-homes-with-luxury-bathrooms/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

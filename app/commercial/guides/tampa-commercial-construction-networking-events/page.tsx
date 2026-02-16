@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, Calendar, MapPin, Users, Building2, Award, Briefcase, ExternalLink } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -172,8 +172,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Construction Networking Events 2024-2025"
+        description="Connect with industry leaders at commercial construction networking events. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampa-commercial-construction-networking-events/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

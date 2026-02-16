@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Crown, Diamond, Award, Sparkles, Star } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="High-End Home Construction in Tampa | Luxury Custom Builders"
+        description="High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Read more."
+        datePublished="2024-01-01"
+        slug="/residential/guides/high-end-home-construction-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

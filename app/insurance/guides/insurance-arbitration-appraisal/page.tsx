@@ -1,7 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { Phone, Scale, FileText, Shield, Award, CheckCircle, ArrowRight, Briefcase, Users, Gavel, Clock, Target } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { ServiceSchema, FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -107,7 +107,6 @@ export default function InsuranceArbitrationAppraisalPage() {
   return (
     <>
       {/* Schema Markup */}
-      <LocalBusinessSchema service="Insurance Arbitration and Appraisal Services" />
       <ServiceSchema
         serviceName="Insurance Arbitration and Appraisal Services"
         serviceDescription="Professional appraiser and umpire services for insurance claim disputes under the appraisal clause. 43+ years of construction and insurance industry experience, including former Allstate Commercial adjuster and Executive General Adjuster credentials."
@@ -115,6 +114,12 @@ export default function InsuranceArbitrationAppraisalPage() {
       />
       <FAQSchema faqs={faqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Insurance Arbitration & Appraisal Services"
+        description="Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster. Schedule consultation: (813) 420-7561."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/insurance-arbitration-appraisal/"
+      />
 
       {/* Hero Section */}
       <section className="relative py-20 md:py-28 bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden">

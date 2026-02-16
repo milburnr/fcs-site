@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Home, Shield, Hammer, Heart } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Residential Insurance Restoration Tampa | Homes"
+        description="Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support for homeowners."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/residential-insurance-restoration-services-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

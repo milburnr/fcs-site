@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Palette, Sofa, Lightbulb, PaintBucket } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 
@@ -54,8 +54,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Custom Home Interior Design Tampa | Luxury"
+        description="Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/residential/guides/custom-home-interior-design-services-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

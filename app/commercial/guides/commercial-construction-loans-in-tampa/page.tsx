@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, DollarSign, Building, FileText, Clock, TrendingUp, Shield, Calculator, Landmark } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -52,8 +52,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Construction Loans in Tampa"
+        description="Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-construction-loans-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

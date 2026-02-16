@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Users, Target, FileText, DollarSign, Clock, Building2, Lightbulb, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -164,8 +164,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Construction Consultancy Tampa | FCS"
+        description="Expert commercial construction consultants in Tampa offering project advisory, owner"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-construction-consultancy-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

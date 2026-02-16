@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, ClipboardCheck, AlertTriangle, DollarSign, Calendar, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -104,8 +104,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Is Your Building Remodel Ready? | Tampa"
+        description="Comprehensive guide to assessing your commercial building"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/is-your-commercial-building-remodel-ready/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

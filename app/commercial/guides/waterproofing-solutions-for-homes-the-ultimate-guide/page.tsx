@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Waterproofing High-Rise Residential Tampa | FCS"
+        description="Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/"
+      />
       <ServiceSchema
         serviceName="Residential Building Waterproofing"
         serviceDescription="Comprehensive waterproofing solutions for high-rise condominiums and residential buildings in Tampa Bay. SB 4-D compliant systems for balconies, parking garages, and building envelopes."

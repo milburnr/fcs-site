@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, RefreshCw, Building2, Hammer, FileCheck } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Complete Property Overhaul After Disasters Tampa"
+        description="Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, 40+ years. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

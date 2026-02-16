@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, Building2, TrendingUp, MapPin, Calendar, ArrowRight, CheckCircle, DollarSign, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -162,8 +162,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Commercial Construction Projects 2024-2025"
+        description="Explore Tampa"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampas-latest-commercial-construction-projects/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

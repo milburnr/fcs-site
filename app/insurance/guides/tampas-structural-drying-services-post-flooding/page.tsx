@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Droplets, Thermometer, Wind, Gauge } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Structural Drying Services Tampa | Flood | FCS"
+        description="Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC. Call (813) 420-7561 for a quote."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampas-structural-drying-services-post-flooding/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

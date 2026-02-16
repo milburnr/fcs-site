@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, FileText, Shield, Clock, DollarSign } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Hurricane Insurance Restoration | Commercial"
+        description="Discover hurricane insurance restoration commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

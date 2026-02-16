@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, Calendar, DollarSign, FileText, HelpCircle, Clock, Users, Target } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -115,8 +115,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Right Time to Renovate Commercial Space FL"
+        description="Expert advice on determining the best time to renovate your Florida commercial space. Professional guidance from FCS, licensed CBC. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/renovating-your-commercial-space-in-florida/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

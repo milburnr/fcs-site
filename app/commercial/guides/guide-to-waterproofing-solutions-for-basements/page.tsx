@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Basement Waterproofing Tampa | Below-Grade Solutions | FCS"
+        description="Discover basement waterproofing below-grade solutions with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/guide-to-waterproofing-solutions-for-basements/"
+      />
       <ServiceSchema
         serviceName="Basement Waterproofing Solutions"
         serviceDescription="Professional basement and below-grade waterproofing for commercial buildings and condominiums in Tampa Bay. Expert solutions for parking garages, storage areas, and mechanical rooms."

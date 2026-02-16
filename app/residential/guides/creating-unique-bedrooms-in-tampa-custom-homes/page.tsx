@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Bed, Moon, Sparkles, PaintBucket } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Unique Bedrooms in Tampa Custom Homes | Luxury"
+        description="Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites, custom closets, sitting areas, and resort-style amenities from $75K-$300K+."
+        datePublished="2024-01-01"
+        slug="/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

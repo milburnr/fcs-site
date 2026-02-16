@@ -15,7 +15,7 @@ import {
   Shield,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import {
@@ -255,7 +255,6 @@ const relatedArticles = [
 export default function MilestoneInspectionRequirementsPage() {
   return (
     <>
-      <LocalBusinessSchema city="Tampa" service="Milestone Inspection Repairs" />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Condo Milestone Inspection Repairs"

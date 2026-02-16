@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Award, Shield, Users, Clock, Building2, Wrench, Heart } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Essential Role of FCS Tampa | Premier Contractor"
+        description="Discover the essential role Florida Construction Specialists plays in Tampa Bay"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/the-essential-role-of-florida-construction-specialists/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

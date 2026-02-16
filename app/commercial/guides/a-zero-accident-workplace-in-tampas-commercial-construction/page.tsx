@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, Shield, AlertTriangle, CheckCircle, Award, Users, HardHat, FileText, Target, Heart } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -176,8 +176,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Zero Accident Workplace Tampa | Safety Commitment"
+        description="Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CBC. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

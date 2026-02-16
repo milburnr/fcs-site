@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, FileText, Camera, ClipboardCheck, Database } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Insurance Restoration Documentation | Claims"
+        description="Professional insurance restoration reporting and documentation services in. Expert insights from Florida Construction Specialists. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

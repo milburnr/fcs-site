@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Droplets, Shield, AlertTriangle, Building2, HelpCircle, FileText, DollarSign, Clock } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -103,8 +103,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Upgrade Commercial Sprinklers Tampa | Fire"
+        description="Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CBC. Read more."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/upgrade-commercial-sprinklers-during-renovation/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

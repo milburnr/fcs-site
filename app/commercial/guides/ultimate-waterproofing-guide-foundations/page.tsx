@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Foundation Waterproofing Guide | Commercial Tampa"
+        description="Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CBC. Contact us today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/ultimate-waterproofing-guide-foundations/"
+      />
       <ServiceSchema
         serviceName="Foundation Waterproofing Services"
         serviceDescription="Complete foundation waterproofing solutions for commercial buildings and high-rise condominiums in Tampa Bay. Expert installation of below-grade membranes, parking structure systems, and podium deck waterproofing."

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, DollarSign, Building2, BarChart3, Clock, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Real Estate Construction Tampa | FCS"
+        description="Discover commercial real estate construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/investing-in-commercial-real-estate-construction/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

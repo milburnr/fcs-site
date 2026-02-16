@@ -10,7 +10,7 @@ import {
   HelpCircle,
 } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
-import { LocalBusinessSchema, ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema"
+import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import {
@@ -173,10 +173,6 @@ export default function FEMA50PercentRulePage() {
 
   return (
     <>
-      <LocalBusinessSchema
-        schemaType="HomeAndConstructionBusiness"
-        service="FEMA 50% Rule Compliance"
-      />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="FEMA Substantial Improvement Compliance"

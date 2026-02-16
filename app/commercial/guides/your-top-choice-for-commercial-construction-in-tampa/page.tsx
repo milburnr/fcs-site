@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, Award, Building, Clock, Shield, Users, Star, MapPin, Briefcase } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -52,8 +52,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Your Top Choice for Commercial Construction in Tampa"
+        description="We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

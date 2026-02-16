@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Shield, Clock, Award, Wrench } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Roofing Services Tampa | Expert"
+        description="Commercial Roofing Services Expert in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-roofing-services-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

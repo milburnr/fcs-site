@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building2, Sparkles, Shield, TrendingUp, HelpCircle, Palette, Sun } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -101,8 +101,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Facade Renovations Tampa | Exterior"
+        description="Transform your Tampa commercial building"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/commercial-buildings-facade-renovations/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, TrendingUp, Building2, Leaf, Cpu, DollarSign, Users, ArrowUp, ArrowDown, Minus } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -193,8 +193,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Commercial Construction Trends 2024-2025"
+        description="Stay ahead with the latest commercial construction trends in Tampa. Discover market insights, technology innovations, and what"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampa-commercial-construction-trends-updates-2024/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

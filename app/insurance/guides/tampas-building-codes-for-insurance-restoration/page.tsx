@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Building2, Shield, FileText, Wind } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Building Codes for Insurance Restoration"
+        description="Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampas-building-codes-for-insurance-restoration/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

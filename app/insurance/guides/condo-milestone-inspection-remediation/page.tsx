@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileText } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { ServiceSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
@@ -71,8 +71,13 @@ const internalLinks = [
 export default function CondoMilestoneInspectionRemediationPage() {
   return (
     <>
-      <LocalBusinessSchema service="Condo Milestone Inspection Remediation" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Condo Milestone Inspection Remediation FL | FCS"
+        description="Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay"
+        datePublished="2024-01-01"
+        slug="/insurance/guides/condo-milestone-inspection-remediation/"
+      />
       <ServiceSchema
         serviceName="Condo Milestone Inspection Remediation"
         serviceDescription="Expert remediation services for Florida condominiums following Phase 2 milestone inspections. Concrete restoration, balcony repairs, structural rehabilitation, and full SB 4-D compliance throughout Tampa Bay."

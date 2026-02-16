@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, AlertTriangle, Building2, TrendingDown, Wrench, Zap, HelpCircle, ThermometerSun, Users } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -132,8 +132,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Signs Your Building Needs a Remodel | Tampa"
+        description="Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in ${region}. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/key-signs-your-commercial-remodel-needs/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

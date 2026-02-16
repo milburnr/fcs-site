@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Search, Building2, FileText, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Structural Integrity Evaluation Tampa | FCS"
+        description="Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1983. Get a free project assessment."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

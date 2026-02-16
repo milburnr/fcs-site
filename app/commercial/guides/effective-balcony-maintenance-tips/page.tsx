@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Balcony Maintenance Tips Tampa | High-Rise"
+        description="Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Contact our team today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/effective-balcony-maintenance-tips/"
+      />
       <ServiceSchema
         serviceName="Balcony Maintenance Services"
         serviceDescription="Expert balcony maintenance guidance and services for Tampa Bay high-rise condominiums. Inspection, cleaning, and preventive care programs."

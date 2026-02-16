@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="High-Rise Balcony Renovation Tampa | Transform Your Condo"
+        description="Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/"
+      />
       <ServiceSchema
         serviceName="Balcony Renovation Services"
         serviceDescription="Expert balcony renovation for Tampa Bay high-rise condominiums. Complete structural restoration, waterproofing upgrades, and aesthetic transformations."

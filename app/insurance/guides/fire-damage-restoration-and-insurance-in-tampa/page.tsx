@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArticleSchema, LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
+import { ArticleSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -31,8 +31,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Commercial Fire Damage Restoration & Insurance in Tampa"
+        description="Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with insurance claim support."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/"
+      />
       <ServiceSchema 
         serviceName="Fire Damage Restoration"
         serviceDescription="Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with comprehensive insurance claim support."

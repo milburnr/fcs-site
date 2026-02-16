@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Balcony Waterproofing Tampa | High-Rise | FCS"
+        description="Expert balcony waterproofing for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/balcony-waterproofing-for-long-lasting-protection/"
+      />
       <ServiceSchema
         serviceName="Balcony Waterproofing Services"
         serviceDescription="Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection."

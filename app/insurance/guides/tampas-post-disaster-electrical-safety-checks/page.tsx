@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, Zap, Shield, Droplets, Flame, FileCheck } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Post-Disaster Electrical Safety Tampa | Hurricane"
+        description="Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/tampas-post-disaster-electrical-safety-checks/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

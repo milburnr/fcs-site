@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building, Leaf, Sun, Wind, Droplets, Shield, Zap, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Advanced Building Materials in Tampa"
+        description="Discover advanced building materials transforming Tampa Bay construction. From sustainable options to high-performance systems, elevate your commercial project."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/advanced-building-materials-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

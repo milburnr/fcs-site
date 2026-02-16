@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Building2, Users, Wifi, Leaf, HelpCircle, Briefcase
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -108,8 +108,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Office Building Renovation Tampa | Modernization"
+        description="Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/office-building-renovation-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

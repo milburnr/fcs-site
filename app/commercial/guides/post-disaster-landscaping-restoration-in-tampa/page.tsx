@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, AlertTriangle, TreePine, Shovel, Droplets, Sun } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -53,8 +53,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Post-Disaster Landscaping Restoration Tampa"
+        description="Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Schedule your consultation now."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/post-disaster-landscaping-restoration-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, Shield, Droplets, DollarSign, Clock, Building, Award } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -166,7 +166,6 @@ const applicationPriority = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Discover the Benefits of Exterior Waterproofing for Tampa Bay High-Rises"

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, TrendingUp, DollarSign, Building2, Zap, Shield, PaintBucket } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
@@ -77,8 +77,13 @@ const relatedArticles = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Enhance Commercial Property Value Tampa | FCS"
+        description="Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1983. Read more."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/enhancing-commercial-property-value/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

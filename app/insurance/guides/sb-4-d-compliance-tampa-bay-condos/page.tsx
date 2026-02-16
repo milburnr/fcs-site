@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, ArrowRight, Building2, Shield, Award, Calendar, MapPin, FileText, AlertTriangle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { ServiceSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
@@ -84,8 +84,13 @@ const relatedArticles = [
 export default function SB4DCompliancePage() {
   return (
     <>
-      <LocalBusinessSchema service="SB 4-D Compliance Services" />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="SB 4-D Compliance Tampa Bay Condos | FCS"
+        description="Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more."
+        datePublished="2024-01-01"
+        slug="/insurance/guides/sb-4-d-compliance-tampa-bay-condos/"
+      />
       <ServiceSchema
         serviceName="SB 4-D Condo Remediation Services"
         serviceDescription="Expert remediation services for Florida condominiums complying with SB 4-D (Surfside Law) requirements. Milestone inspection repairs, structural restoration, and SIRS compliance throughout Tampa Bay."

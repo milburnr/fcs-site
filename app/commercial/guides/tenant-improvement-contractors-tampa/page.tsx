@@ -4,7 +4,7 @@ import { Phone, CheckCircle, Building2, Clock, DollarSign, Users, HelpCircle, Br
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -102,8 +102,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tenant Improvement Contractors Tampa | TI | FCS"
+        description="Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tenant-improvement-contractors-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

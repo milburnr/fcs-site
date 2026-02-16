@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, Building, Leaf, Sun, Wind, Award, History, Shield, Zap } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -53,8 +53,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Energy Efficiency in Historic Restoration in Tampa"
+        description="Revitalize Tampa Bay"
+        datePublished="2024-01-01"
+        slug="/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/"
+      />
       <FAQSchema faqs={faqs} />
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">

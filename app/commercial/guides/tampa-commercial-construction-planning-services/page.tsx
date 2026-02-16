@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, CheckCircle, FileText, Calculator, Calendar, Users, Target, Clipboard, Building2, ArrowRight } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -181,8 +181,13 @@ const faqs = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Tampa Commercial Construction Planning | FCS"
+        description="Professional construction planning services for commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/tampa-commercial-construction-planning-services/"
+      />
       <FAQSchema faqs={faqs} />
       
       {/* Hero */}

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
-import { LocalBusinessSchema, BreadcrumbSchema, ServiceSchema } from "@/components/Schema"
+import { BreadcrumbSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
@@ -30,8 +30,13 @@ const internalLinks = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Water Damage Mitigation in Tampa"
+        description="Water Damage Mitigation in Tampa"
+        datePublished="2024-01-01"
+        slug="/insurance/guides/water-damage-mitigation-in-tampa/"
+      />
       <ServiceSchema 
         serviceName="Water Damage Mitigation"
         serviceDescription="Professional water damage mitigation services in Tampa, FL. Emergency extraction, structural drying, and mold prevention."

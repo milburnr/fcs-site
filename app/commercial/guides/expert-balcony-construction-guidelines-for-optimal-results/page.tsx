@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
+import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { Phone, CheckCircle, HelpCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
@@ -98,8 +98,13 @@ const costData = [
 export default function Page() {
   return (
     <>
-      <LocalBusinessSchema />
       <BreadcrumbSchema items={breadcrumbItems} />
+      <ArticleSchema
+        headline="Balcony Construction Guidelines Tampa | High-Rise"
+        description="Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CBC. Contact us today."
+        datePublished="2024-01-01"
+        slug="/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/"
+      />
       <ServiceSchema
         serviceName="Balcony Construction Services"
         serviceDescription="Expert balcony construction guidelines for high-rise condominiums and commercial buildings in Tampa Bay. SB 4-D compliant structural design, waterproofing specifications, and comprehensive construction services."
