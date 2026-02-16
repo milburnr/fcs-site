@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-15)
 
 **Core value:** The site ranks page 1 for priority keywords in Tampa Bay and generates organic leads for insurance restoration and condo remediation services.
-**Current focus:** Phase 1: Content Audit & Cleanup
+**Current focus:** Phase 2: Silo Architecture & Internal Linking
 
 ## Current Position
 
-Phase: 1 of 9 (Content Audit & Cleanup)
-Plan: 7 of 7 in current phase (ALL COMPLETE)
-Status: Phase 1 Complete
-Last activity: 2026-02-16 -- Completed 01-06 (Sitemap Regeneration)
+Phase: 2 of 9 (Silo Architecture & Internal Linking)
+Plan: 1 of 6 in current phase
+Status: In Progress
+Last activity: 2026-02-16 -- Completed 02-01 (Hub Consolidation)
 
-Progress: [██████████] 100%
+Progress: [█░░░░░░░░░] 17%
 
 ## Performance Metrics
 
@@ -41,6 +41,7 @@ Progress: [██████████] 100%
 | Phase 01 P05 | 10min | 1 tasks | 1 files |
 | Phase 01 P07 | 6min | 2 tasks | 310 files |
 | Phase 01 P06 | 3min | 2 tasks | 2 files |
+| Phase 02 P01 | 5min | 2 tasks | 300 files |
 
 ## Accumulated Context
 
@@ -71,6 +72,10 @@ Recent decisions affecting current work:
 - [Phase 01-07]: Pre-existing TypeScript error in app/commercial/page.tsx fixed (optional chaining)
 - [Phase 01-06]: 361 indexable URLs in sitemap (431 pages - 67 redirected - 3 noindexed)
 - [Phase 01-06]: Priority tiers: homepage 1.0, hubs 0.9, service-location 0.8, locations 0.7, articles 0.6, utility 0.5
+- [Phase 02-01]: All 3 winner hubs already had correct self-referencing canonicals
+- [Phase 02-01]: No unique content in loser pages warranted merging into winners
+- [Phase 02-01]: 38 Phase 1 redirects updated to prevent chains through /commercial-construction/
+- [Phase 02-01]: Child pages under /services/commercial/ (6) and /services/residential/ (3) preserved
 
 ### Pending Todos
 
@@ -85,5 +90,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 01-06-PLAN.md (Sitemap Regeneration) -- Phase 1 Complete
+Stopped at: Completed 02-01-PLAN.md (Hub Consolidation)
 Resume file: None
