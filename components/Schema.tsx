@@ -28,8 +28,6 @@ export function LocalBusinessSchema({ city, service, schemaType = "GeneralContra
       "latitude": BUSINESS_INFO.coordinates.lat,
       "longitude": BUSINESS_INFO.coordinates.lng,
     },
-    "priceRange": "$500,000 - $50,000,000+",
-    "openingHours": "Mo-Fr 08:00-16:00",
     "openingHoursSpecification": {
       "@type": "OpeningHoursSpecification",
       "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
@@ -40,7 +38,7 @@ export function LocalBusinessSchema({ city, service, schemaType = "GeneralContra
       {
         "@type": "EducationalOccupationalCredential",
         "credentialCategory": "license",
-        "name": "Florida General Contractor License",
+        "name": "Florida Certified Building Contractor License",
         "identifier": BUSINESS_INFO.licenseNumber,
         "recognizedBy": {
           "@type": "Organization",
@@ -52,25 +50,24 @@ export function LocalBusinessSchema({ city, service, schemaType = "GeneralContra
     "slogan": "Prime Contractor for Large-Scale Commercial & Residential Construction",
   };
 
+  const containedInPlace = { "@type": "State", "name": "Florida" };
+
   if (city) {
     schema["areaServed"] = {
       "@type": "City",
       "name": city,
-      "containedInPlace": {
-        "@type": "State",
-        "name": "Florida",
-      },
+      "containedInPlace": containedInPlace,
     };
   } else {
     schema["areaServed"] = [
-      { "@type": "City", "name": "Tampa" },
-      { "@type": "City", "name": "St. Petersburg" },
-      { "@type": "City", "name": "Clearwater" },
-      { "@type": "City", "name": "Lakeland" },
-      { "@type": "City", "name": "Sarasota" },
-      { "@type": "City", "name": "Bradenton" },
-      { "@type": "City", "name": "Brandon" },
-      { "@type": "City", "name": "Ruskin" },
+      { "@type": "City", "name": "Tampa", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "St. Petersburg", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Clearwater", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Lakeland", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Sarasota", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Bradenton", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Brandon", "containedInPlace": containedInPlace },
+      { "@type": "City", "name": "Ruskin", "containedInPlace": containedInPlace },
     ];
   }
 
@@ -90,11 +87,15 @@ interface ServiceSchemaProps {
   serviceName: string;
   serviceDescription: string;
   city?: string;
+  serviceCategories?: string[];
+  /** @deprecated No longer rendered in schema output per no-pricing decision. Kept for backward compatibility. */
   minPrice?: string;
 }
 
-export function ServiceSchema({ serviceName, serviceDescription, city, minPrice = "500000" }: ServiceSchemaProps) {
-  const schema = {
+export function ServiceSchema({ serviceName, serviceDescription, city, serviceCategories }: ServiceSchemaProps) {
+  const containedInPlace = { "@type": "State", "name": "Florida" };
+
+  const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": serviceName,
@@ -105,28 +106,30 @@ export function ServiceSchema({ serviceName, serviceDescription, city, minPrice 
       "url": "https://floridaconstructionspecialists.com",
     },
     "areaServed": city
-      ? { "@type": "City", "name": city }
+      ? { "@type": "City", "name": city, "containedInPlace": containedInPlace }
       : [
-          { "@type": "City", "name": "Tampa" },
-          { "@type": "City", "name": "St. Petersburg" },
-          { "@type": "City", "name": "Clearwater" },
-          { "@type": "City", "name": "Lakeland" },
-          { "@type": "City", "name": "Sarasota" },
-          { "@type": "City", "name": "Bradenton" },
-          { "@type": "City", "name": "Brandon" },
-          { "@type": "City", "name": "Ruskin" },
+          { "@type": "City", "name": "Tampa", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "St. Petersburg", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Clearwater", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Lakeland", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Sarasota", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Bradenton", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Brandon", "containedInPlace": containedInPlace },
+          { "@type": "City", "name": "Ruskin", "containedInPlace": containedInPlace },
         ],
     "description": serviceDescription,
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "USD",
-      "priceSpecification": {
-        "@type": "PriceSpecification",
-        "priceCurrency": "USD",
-        "minPrice": minPrice,
-      },
-    },
   };
+
+  if (serviceCategories && serviceCategories.length > 0) {
+    schema["hasOfferCatalog"] = {
+      "@type": "OfferCatalog",
+      "name": `${serviceName} Services`,
+      "itemListElement": serviceCategories.map(cat => ({
+        "@type": "OfferCatalog",
+        "name": cat,
+      })),
+    };
+  }
 
   return (
     <script
