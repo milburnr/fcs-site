@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-disaster-related-demolition-services/' },
   title: "Tampa Disaster Demolition | Emergency Commercial",
-  description: "Professional disaster-related demolition services in Tampa. Emergency structural demolition, hurricane debris removal, and commercial property clearing. Licensed, insured, OSHA-compliant contractors.",
+  description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

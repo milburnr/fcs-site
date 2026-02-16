@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-ruskin/' },
   title: "Luxury Custom Homes Ruskin FL | Apollo Beach | FCS",
-  description: "Ruskin & Apollo Beach luxury custom home builder. Waterfront estates from $750K-$5M+ on Tampa Bay. FCS headquarters location means exceptional local service. Sun City Center, Little Harbor, Bahia Beach specialists.",
+  description: "Luxury Home Builder in Ruskin: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

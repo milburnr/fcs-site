@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-lakeland/' },
   title: "Balcony Reconstruction Lakeland | SB 4-D | FCS",
-  description: "Lakeland balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance (30-year inland requirement), structural repairs, waterproofing. Expert contractors serving Polk County. Licensed, bonded, insured.",
+  description: "Professional balcony repair in Lakeland. New Construction, Renovations, and Insurance Restoration. Licensed CGC, 40+ years. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

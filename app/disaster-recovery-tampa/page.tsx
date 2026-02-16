@@ -31,7 +31,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
   title: "Disaster Recovery in Tampa",
-  description: "Disaster recovery Tampa: large-loss hurricane, flood, fire restoration. $250K+ insurance projects, 43 years claims experience. All carriers. Call emergency hotline.",
+  description: "Disaster recovery Tampa: large-loss hurricane, flood, fire restoration. 43 years claims experience, all carriers. Call our emergency hotline.",
 };
 
 const breadcrumbItems = [

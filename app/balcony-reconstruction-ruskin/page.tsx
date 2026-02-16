@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-ruskin/' },
   title: "Balcony Reconstruction Ruskin | SB 4-D | FCS",
-  description: "Ruskin balcony reconstruction specialists for Apollo Beach condos, Sun City Center properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. FCS headquarters location serving South Hillsborough County. Licensed, bonded, insured.",
+  description: "Looking for balcony repair in Ruskin? Commercial and Residential Construction and Restoration. Licensed CGC, proven results. Get your free estimate now.",
 };
 
 const breadcrumbItems = [

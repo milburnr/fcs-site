@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/team/' },
   title: "Our Team | Leadership & Expertise",
   description:
-    "Meet the experienced leadership team at Florida Construction Specialists. Decades of combined expertise in commercial construction, historic restoration, and luxury custom homes in Tampa Bay.",
+    "Our Team Leadership & Expertise across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const leadershipTeam = [

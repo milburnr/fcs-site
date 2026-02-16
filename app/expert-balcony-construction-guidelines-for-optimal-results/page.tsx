@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-balcony-construction-guidelines-for-optimal-results/' },
   title: "Balcony Construction Guidelines Tampa | High-Rise",
-  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. SB 4-D compliant structural design, waterproofing specifications, and safety requirements.",
+  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

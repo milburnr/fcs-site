@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/' },
   title: "Tenant Improvements Tampa | Commercial Buildouts & TI | FCS",
-  description: "Tenant improvement construction in Tampa Bay. Office buildouts, retail TI, medical suites, restaurant construction. Fast timelines, landlord coordination. Call (813) 420-7561.",
+  description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/financial-planning-for-commercial-construction/' },
   title: "Financial Planning Commercial Construction Tampa",
-  description: "Expert guidance on budgeting, financing, and cost management for commercial construction in Tampa Bay. Learn about construction loans, cost estimation, and ROI optimization.",
+  description: "Discover financial planning commercial construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

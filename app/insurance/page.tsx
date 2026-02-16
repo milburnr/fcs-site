@@ -3,7 +3,7 @@ import { InsurancePageClient } from "./InsurancePageClient";
 
 export const metadata: Metadata = {
   title: "Insurance Restoration Services Tampa | FCS",
-  description: "Large loss insurance restoration in Tampa Bay. Prime contractor for commercial and residential claims $250K+. Certified estimates and direct carrier negotiation.",
+  description: "Large loss insurance restoration in Tampa Bay. Prime contractor for commercial and residential claims. Direct carrier negotiation. Call today.",
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/insurance/",
   },

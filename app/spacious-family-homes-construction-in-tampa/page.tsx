@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/spacious-family-homes-construction-in-tampa/' },
   title: "Spacious Family Homes Tampa | Large Custom Homes",
-  description: "Build spacious family homes in Tampa with generous floor plans, high ceilings, and room to grow. Custom construction for families who need space. From $450K-$2.5M+.",
+  description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Contact our team today.",
 };
 
 const breadcrumbItems = [

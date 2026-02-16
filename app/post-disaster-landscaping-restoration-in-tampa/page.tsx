@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-landscaping-restoration-in-tampa/' },
   title: "Post-Disaster Landscaping Restoration Tampa",
-  description: "Post-disaster landscaping restoration in Tampa. Commercial property debris removal, tree services, irrigation repair, and landscape reconstruction after hurricanes and storms.",
+  description: "Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Schedule your consultation now.",
 };
 
 const breadcrumbItems = [

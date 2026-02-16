@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-brandon/' },
   title: "Balcony Reconstruction Brandon | SB 4-D | FCS",
-  description: "Brandon balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for Hillsborough County properties, structural repairs, waterproofing. Expert contractors serving Brandon and Greater Tampa. Licensed, bonded, insured.",
+  description: "Professional balcony repair in Brandon. Insurance Restoration, Design-build, and Renovations. CGC #1529395, 40+ years. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

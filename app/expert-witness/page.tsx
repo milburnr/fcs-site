@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-witness/' },
   title: "Construction Expert Witness Services",
-  description: "Expert witness testimony for construction disputes in Florida. 43+ years experience, former insurance adjuster. Litigation support for attorneys. Call (813) 420-7561.",
+  description: "Discover construction expert witness services with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

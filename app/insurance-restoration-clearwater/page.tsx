@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-clearwater/' },
   title: "Insurance Restoration Clearwater | 43 Years | FCS",
   description:
-    "Insurance restoration Clearwater Beach: storm damage, flooding, fire repair. Adjuster & contractor expertise. NFIP specialist. 43 years Pinellas County experience.",
+    "Insurance restoration Clearwater: storm damage, flooding, fire repair. Adjuster and contractor expertise. 43 years experience. Call today.",
 };
 
 const breadcrumbItems = [

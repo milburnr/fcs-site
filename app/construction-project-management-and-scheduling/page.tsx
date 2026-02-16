@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/construction-project-management-and-scheduling/' },
   title: "Construction Project Management Tampa | Tips",
-  description: "Essential tips for effective commercial construction project management and scheduling in Florida. Learn proven strategies for keeping projects on track and on budget.",
+  description: "Discover construction project management tips with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

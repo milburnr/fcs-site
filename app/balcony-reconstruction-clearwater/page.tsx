@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
   title: "Balcony Reconstruction in Clearwater",
   description:
-    "Clearwater balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
+    "Looking for balcony repair in Clearwater? Turnkey Construction Solutions for Commercial Properties. Licensed CGC, 40+ years. Get your free estimate now.",
 };
 
 const breadcrumbItems = [

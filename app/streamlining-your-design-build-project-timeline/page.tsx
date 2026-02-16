@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/streamlining-your-design-build-project-timeline/' },
   title: "Streamlining Your Design-Build Project Timeline | Tampa FL",
-  description: "Expert strategies for managing commercial construction timelines in Tampa Bay. Learn how design-build delivery compresses schedules, navigates permits, and delivers projects faster.",
+  description: "Expert strategies for managing commercial construction timelines in Tampa Bay. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

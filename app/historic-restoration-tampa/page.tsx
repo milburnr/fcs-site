@@ -13,7 +13,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-tampa/' },
   title: "Historic Restoration in Tampa",
-  description: "Historic restoration Tampa: Ybor City, Hyde Park, Seminole Heights preservation. SHPO compliance, tax credits, Secretary of Interior Standards. Expert contractor.",
+  description: "Historic restoration Tampa: Ybor City, Hyde Park, Seminole Heights. SHPO compliance, tax credits, Interior Standards. Call us today.",
 };
 
 const breadcrumbItems = [

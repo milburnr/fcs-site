@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-permits/' },
   title: "Tampa Commercial Construction Permits | Guide",
-  description: "Complete guide to Tampa commercial construction permits. Learn about the City of Tampa building permit process, requirements, fees, timelines, and how Florida Construction Specialists manages permit approvals.",
+  description: "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

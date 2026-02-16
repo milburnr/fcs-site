@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/gourmet-kitchen-design-in-tampa/' },
   title: "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens",
-  description: "Create stunning gourmet kitchens in Tampa custom homes. Professional-grade appliances, custom cabinetry, premium countertops, and chef-inspired design. Kitchen investments from $75K-$300K+.",
+  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

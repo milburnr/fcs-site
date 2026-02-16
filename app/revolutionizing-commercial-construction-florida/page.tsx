@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/revolutionizing-commercial-construction-florida/' },
   title: "Commercial Construction Innovation Florida | Tech",
-  description: "Discover how innovative technologies and methods are transforming commercial construction in Florida. Design-build, prefabrication, sustainable practices, and smart building solutions from Tampa Bay's leading contractor.",
+  description: "Discover how innovative technologies and methods are transforming commercial construction in Florida. Professional guidance from FCS, licensed CGC. Read more.'s leading contractor.",
 };
 
 const breadcrumbItems = [

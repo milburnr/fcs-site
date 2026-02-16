@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-the-perfect-construction-blueprint/' },
   title: "Building the Perfect Construction Blueprint",
-  description: "Master the art of construction blueprint development. Learn architectural design principles, structural engineering requirements, and site analysis techniques for Florida commercial projects.",
+  description: "Discover building the perfect construction blueprint with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/design-build/' },
   title: "Design-Build Construction Tampa | FCS",
-  description: "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$25M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
+  description: "Design-build Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

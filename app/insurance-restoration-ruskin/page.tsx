@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
   title: "Insurance Restoration Ruskin FL | FCS Headquarters",
-  description: "FCS is headquartered right here in Ruskin, FL - 822 Bayview Dr. 43 years insurance industry experience serving South Hillsborough: Ruskin, Sun City Center, Apollo Beach, Gibsonton, Wimauma. Fastest response times because we're already here.",
+  description: "Insurance Restoration Fl Headquarters in Ruskin: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Get a free project assessment.'re already here.",
 };
 
 const southHillsboroughAreas = [

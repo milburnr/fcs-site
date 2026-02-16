@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/ultimate-waterproofing-guide-foundations/' },
   title: "Foundation Waterproofing Guide | Commercial Tampa",
-  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums in Tampa Bay. SB 4-D compliant solutions for parking structures, podium decks, and below-grade construction.",
+  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

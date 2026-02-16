@@ -341,7 +341,7 @@ export default function CommercialHubPage() {
                     </h3>
                     <p className="text-sm text-gray-600 mb-3">{cluster.description}</p>
                     <div className="flex flex-wrap gap-2">
-                      {cluster.keywords.map((keyword) => (
+                      {cluster.keywords?.map((keyword) => (
                         <span
                           key={keyword}
                           className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded"

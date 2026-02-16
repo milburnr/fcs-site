@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/waterproofing-commercial-contractors/' },
   title: "Commercial Waterproofing Tampa | High-Rise | FCS",
-  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant services for parking structures, building envelopes, and balconies.",
+  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

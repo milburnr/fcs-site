@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-ruskin/' },
   title: "Condo Remediation Ruskin | Sun City Center | FCS",
   description:
-    "Condo remediation experts HEADQUARTERED in Ruskin. SB4-D compliance, milestone inspections, SIRS for Sun City Center, Apollo Beach, South Hillsborough condos. Local expertise, fastest response. Call (813) 420-7561.",
+    "Condo Remediation Sun City Center in Ruskin: expert project management, design-build, and renovations. Licensed and insured CGC. Schedule your consultation now.",
 };
 
 const breadcrumbItems = [

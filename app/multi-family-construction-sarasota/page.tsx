@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
   title: "Multi-Family Construction Sarasota | Condos | FCS",
-  description: "Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Architectural excellence for discerning buyers. Call (813) 420-7561.",
+  description: "Multi Family Construction in Sarasota: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
 };
 
 const projectTypes = [

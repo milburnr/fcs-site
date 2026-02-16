@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/vip-public-adjuster/' },
   title: "VIP Public Adjuster Tampa | Commercial Claims",
-  description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Maximize insurance claim settlements with professional advocacy, documentation, and negotiation support.",
+  description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Expert tips from Florida Construction Specialists, licensed CGC. Get a free quote.",
 };
 
 const breadcrumbItems = [

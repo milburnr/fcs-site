@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-solution-for-a-dry-and-protected-home/' },
   title: "Exterior Waterproofing Commercial Tampa | FCS",
-  description: "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. SB 4-D compliant building envelope protection and facade waterproofing.",
+  description: "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial. Expert analysis from Florida Construction Specialists. Read more.",
 };
 
 const breadcrumbItems = [

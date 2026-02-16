@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-structural-drying-services-post-flooding/' },
   title: "Structural Drying Services Tampa | Flood | FCS",
-  description: "Professional structural drying services in Tampa for commercial flood and water damage. Industrial dehumidification, moisture monitoring, and IICRC-certified technicians. Prevent mold with rapid response.",
+  description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

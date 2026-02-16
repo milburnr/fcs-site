@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-sarasota/' },
   title: "Historic Restoration Sarasota FL | Architecture | FCS",
-  description: "Expert historic restoration contractor in Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival estates. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+  description: "Looking for historic restoration in Sarasota? New Builds, Renovations, and Disaster Recovery Services. Licensed CGC since 1983. Request a free estimate.",
 };
 
 const serviceTypes = [

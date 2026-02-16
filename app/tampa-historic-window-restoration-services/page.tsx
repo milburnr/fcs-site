@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historic-window-restoration-services/' },
   title: "Tampa Historic Window Restoration Services",
-  description: "Expert historic window restoration in Tampa. Preserve original wood windows with repair, weatherstripping, and storm panels that meet Secretary of Interior Standards.",
+  description: "Discover historic window restoration services with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

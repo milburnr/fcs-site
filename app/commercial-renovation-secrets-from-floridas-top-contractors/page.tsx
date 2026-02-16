@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-renovation-secrets-from-floridas-top-contractors/' },
   title: "Commercial Renovation Secrets from Florida's Top Contractors",
-  description: "Insider tips for successful commercial renovation in Tampa Bay. Learn how experienced contractors approach tenant improvements, building upgrades, and adaptive reuse.",
+  description: "Insider tips for successful commercial renovation in Tampa Bay. Expert analysis from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

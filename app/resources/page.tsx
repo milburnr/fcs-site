@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/resources/' },
   title: "Resources & Guides | Construction Knowledge Hub | FCS Tampa",
   description:
-    "Expert guides on Tampa Bay construction regulations, FEMA compliance, historic preservation, SB4-D requirements, and more. Free resources for commercial and residential projects.",
+    "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const commercialResources = [

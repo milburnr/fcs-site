@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-clearwater/' },
   title: "Condo Remediation Clearwater | SB4-D Compliance & SIRS",
   description:
-    "Clearwater Beach condo remediation specialists. SB4-D compliance, milestone inspections, SIRS structural reserve studies for Sand Key, Island Estates, and Clearwater condominiums. Coastal zone deadline experts. Call (813) 420-7561.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Clearwater: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Contact us today.",
 };
 
 const breadcrumbItems = [

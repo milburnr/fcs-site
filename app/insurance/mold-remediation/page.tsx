@@ -11,7 +11,7 @@ import { Phone, AlertTriangle, Shield, Building2, Wind, Droplets, CheckCircle } 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/mold-remediation/' },
   title: "Mold Remediation | Professional Mold Removal | FCS Tampa",
-  description: "Professional mold remediation for commercial and residential properties in Tampa Bay. Assessment, containment, removal, and prevention. Insurance claim expertise.",
+  description: "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

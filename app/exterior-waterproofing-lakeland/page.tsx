@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
   title: "Exterior Waterproofing Lakeland | Envelope | FCS",
-  description: "Lakeland exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, warehouse waterproofing. 10-year warranty. Licensed, bonded, insured.",
+  description: "Waterproofing Contractor in Lakeland: insurance restoration, design-build, and renovations. CGC-licensed, trusted since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

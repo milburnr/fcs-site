@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
-  description: "Expert historic masonry restoration in Tampa using traditional techniques. Specialized brick, stone, and mortar restoration for Ybor City landmarks and commercial buildings.",
+  description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Contact our team today.",
 };
 
 const breadcrumbItems = [

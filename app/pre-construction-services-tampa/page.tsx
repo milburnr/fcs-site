@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/pre-construction-services-tampa/' },
   title: "Pre-Construction Services Tampa",
-  description: "Comprehensive pre-construction services in Tampa Bay. Expert estimating, value engineering, scheduling, and constructability review for commercial projects throughout Florida.",
+  description: "Pre-construction Services in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-building-codes-for-insurance-restoration/' },
   title: "Tampa Building Codes for Insurance Restoration",
-  description: "Understanding Tampa building codes for insurance restoration. Florida Building Code requirements, wind mitigation, flood regulations, and code upgrade coverage for commercial properties.",
+  description: "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

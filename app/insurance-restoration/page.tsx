@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration/' },
   title: "Insurance Restoration Tampa | Large Loss Claims",
-  description: "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. We work directly with adjusters on large loss claims from hurricanes, storms, and disasters. 43+ years experience.",
+  description: "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. Insights from FCS, a trusted licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

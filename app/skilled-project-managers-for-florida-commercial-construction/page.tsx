@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/skilled-project-managers-for-florida-commercial-construction/' },
   title: "Skilled Project Managers in Commercial Construction Florida",
-  description: "Looking for experienced project managers for your commercial construction projects in Florida? Our team of skilled project managers in Tampa has years of expertise delivering successful projects.",
+  description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CGC in ${region}. Contact our team today.",
 };
 
 const breadcrumbItems = [

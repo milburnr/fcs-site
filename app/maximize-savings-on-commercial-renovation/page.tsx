@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/maximize-savings-on-commercial-renovation/' },
   title: "Maximize Commercial Renovation Savings Tampa",
-  description: "Expert strategies to maximize savings on your Tampa commercial renovation without sacrificing quality. Value engineering, timing strategies, and smart budgeting from Florida Construction Specialists.",
+  description: "Discover maximize commercial renovation savings with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

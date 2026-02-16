@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/discover-the-benefits-of-exterior-waterproofing/' },
   title: "Benefits of Exterior Waterproofing Tampa Bay",
-  description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends building life, and reduces long-term maintenance costs. SB 4-D compliance guide.",
+  description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends. Insights from FCS, a trusted licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

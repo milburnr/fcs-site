@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-ruskin/' },
   title: "Historic Restoration Ruskin FL | Colony Heritage",
-  description: "Expert historic restoration contractor in Ruskin, Florida. Ruskin Colony heritage buildings, fishing village structures, agricultural packing houses. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+  description: "Historic Restoration in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
 };
 
 const serviceTypes = [

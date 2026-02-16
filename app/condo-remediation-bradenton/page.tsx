@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-bradenton/' },
   title: "Condo Remediation Bradenton | SB4-D Compliance & SIRS",
   description:
-    "Bradenton condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony repair for Anna Maria Island, Holmes Beach, Palmetto condos. Licensed, bonded. Call (813) 420-7561.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Bradenton: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Read more.",
 };
 
 const breadcrumbItems = [

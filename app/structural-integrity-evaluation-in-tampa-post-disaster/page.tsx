@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/structural-integrity-evaluation-in-tampa-post-disaster/' },
   title: "Structural Integrity Evaluation Tampa | FCS",
-  description: "Professional structural integrity evaluation in Tampa post-disaster. Licensed engineers assess commercial building safety after hurricanes, floods, and storms. Detailed reports for insurance and safety decisions.",
+  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1983. Get a free project assessment.",
 };
 
 const breadcrumbItems = [

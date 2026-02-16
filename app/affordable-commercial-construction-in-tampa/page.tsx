@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/affordable-commercial-construction-in-tampa/' },
   title: "Affordable Commercial Construction Tampa | FCS",
-  description: "Build affordably in Tampa Bay without sacrificing quality. Proven strategies for reducing commercial construction costs while maintaining durability and function.",
+  description: "Affordable Commercial Construction in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

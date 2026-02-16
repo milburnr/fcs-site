@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-waterproofing-for-long-lasting-protection/' },
   title: "Balcony Waterproofing Tampa | High-Rise | FCS",
-  description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection for lasting performance.",
+  description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

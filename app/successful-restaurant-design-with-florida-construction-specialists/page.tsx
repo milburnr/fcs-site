@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/successful-restaurant-design-with-florida-construction-specialists/' },
   title: "Restaurant Design & Construction Tampa | FCS",
-  description: "Expert guide to restaurant construction in Tampa Bay. Learn about kitchen design, health department requirements, permits, ventilation, and costs for building your restaurant.",
+  description: "Discover restaurant design & construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Schedule your consultation now.",
 };
 
 const breadcrumbItems = [

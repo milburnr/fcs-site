@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
   title: "Technology in Tampa Insurance Restoration | Tools",
-  description: "Discover how technology transforms insurance restoration in Tampa. Drones, thermal imaging, 3D scanning, and digital documentation tools for commercial property claims.",
+  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

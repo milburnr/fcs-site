@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-clearwater/' },
   title: "Luxury Custom Homes Clearwater | Beach | FCS",
-  description: "Clearwater luxury custom home builder specializing in $1M-$15M+ beachfront estates, Gulf-front properties, and waterfront residences. Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, Belleair. Licensed, bonded, insured.",
+  description: "Luxury Home Builder in Clearwater: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

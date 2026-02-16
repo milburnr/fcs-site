@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/impacts-of-technology-on-historic-restoration-in-tampa/' },
   title: "Impacts of Technology on Historic Restoration in Tampa",
-  description: "Discover how cutting-edge technology is transforming historic restoration in Tampa. From 3D scanning to drone surveys, learn about innovative preservation techniques for landmark buildings.",
+  description: "Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
   title: "Balcony Reconstruction St. Petersburg | SB 4-D | FCS",
-  description: "St. Petersburg balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for peninsula properties, structural repairs, waterproofing. Expert contractors serving Pinellas County. Licensed, bonded, insured.",
+  description: "Balcony Repair in St. Petersburg: full-service general contractor for commercial and residential. CGC-licensed, trusted since 1983. Request a free estimate.",
 };
 
 const breadcrumbItems = [

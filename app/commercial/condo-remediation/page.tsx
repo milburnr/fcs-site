@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/condo-remediation/' },
   title: "SB4-D Compliance Tampa | Condo Milestone | FCS",
   description:
-    "Florida SB4-D compliance specialists serving Tampa Bay. Milestone inspections, SIRS structural reserve studies, balcony reconstruction, and condo remediation. Deadlines approaching - act now.",
+    "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact our team today.",
 };
 
 const features = [

@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/stylish-balcony-railing-designs-for-your-outdoor-space/' },
   title: "Balcony Railing Designs Tampa | High-Rise Styles",
-  description: "Premium balcony railing designs for Tampa Bay high-rise condominiums. Code-compliant glass, aluminum, and cable railing systems with expert installation and SB 4-D compliance.",
+  description: "Premium balcony railing designs for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/preparing-for-insurance-restoration-consultations-in-tampa/' },
   title: "Insurance Restoration Consultations Tampa | Guide",
-  description: "How to prepare for insurance restoration consultations in Tampa. Checklist of documents, questions to ask, and what to expect from professional restoration contractors.",
+  description: "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CGC-licensed, trusted since 1983. Read more.",
 };
 
 const breadcrumbItems = [

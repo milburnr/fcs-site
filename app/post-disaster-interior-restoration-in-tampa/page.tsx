@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-interior-restoration-in-tampa/' },
   title: "Post-Disaster Interior Restoration Tampa",
-  description: "Expert post-disaster interior restoration in Tampa. Complete commercial interior rebuild after hurricane, flood, and storm damage. Drywall, flooring, ceilings, and finishes restored to pre-loss condition.",
+  description: "Post-disaster Interior Restoration in Tampa: design-build, pre-construction, and project management. Licensed and insured CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

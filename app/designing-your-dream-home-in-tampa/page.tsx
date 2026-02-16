@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/designing-your-dream-home-in-tampa/' },
   title: "Designing Your Dream Home in Tampa | Custom Home Design",
-  description: "Turn your dream home vision into reality in Tampa Bay. Custom architectural design, personalized planning, and expert guidance from concept to completion. Dream homes from $400K-$5M+.",
+  description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Contact our team today.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/mold-remediation-and-insurance-coverage-in-tampa/' },
   title: "Mold Remediation & Insurance Tampa | Commercial",
-  description: "Expert mold remediation services in Tampa with insurance claim guidance. Understanding Florida mold coverage, remediation requirements, and claim documentation for commercial properties.",
+  description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CGC, proven results. Request a free estimate.",
 };
 
 const breadcrumbItems = [

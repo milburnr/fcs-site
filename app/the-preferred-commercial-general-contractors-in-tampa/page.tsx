@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-preferred-commercial-general-contractors-in-tampa/' },
   title: "Preferred Commercial General Contractors in Tampa",
-  description: "Discover why Florida Construction Specialists is the preferred commercial general contractor in Tampa Bay. Learn what makes a contractor the preferred choice for commercial projects.",
+  description: "Preferred Commercial General Contractors in Tampa: expert project management, design-build, and renovations. CGC #1529395, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-homes-with-custom-art-studios/' },
   title: "Tampa Homes with Custom Art Studios | Creative Spaces",
-  description: "Build custom homes with dedicated art studios in Tampa. North-light windows, specialized ventilation, proper lighting, and purpose-built creative spaces. Artist homes from $500K-$2M+.",
+  description: "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/zero-net-energy-boosting-commercial-construction/' },
   title: "Zero Net Energy Boosting Commercial Construction in Tampa",
-  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists, experts in zero net energy. Experience the power of zero net energy buildings.",
+  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CGC in ${region}. Request a free estimate.",
 };
 
 const breadcrumbItems = [

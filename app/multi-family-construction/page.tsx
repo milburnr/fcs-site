@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
   title: "Multi-Family Construction Tampa | Apartments | FCS",
-  description: "Multi-family construction Tampa: condos, apartments, mixed-use. $1M-$50M+ projects. In-house engineering, SB4-D compliance, 40+ years Florida experience. Request bid.",
+  description: "Multi-family construction Tampa: condos, apartments, mixed-use. In-house engineering, SB4-D compliance, 40+ years experience. Request a bid.",
 };
 
 const comprehensiveFaqs = [

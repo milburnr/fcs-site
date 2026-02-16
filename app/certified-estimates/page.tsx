@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
   title: "Certified Construction Estimates",
-  description: "Professional certified estimates for insurance claims, litigation & project planning. 43+ years experience, former adjuster. Schedule consultation: (813) 420-7561.",
+  description: "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CGC with 40+ years experience. Read more.",
 };
 
 const breadcrumbItems = [

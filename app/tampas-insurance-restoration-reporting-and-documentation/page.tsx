@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-insurance-restoration-reporting-and-documentation/' },
   title: "Tampa Insurance Restoration Documentation | Claims",
-  description: "Professional insurance restoration reporting and documentation services in Tampa. Comprehensive damage documentation, Xactimate estimates, and claim support for commercial properties.",
+  description: "Professional insurance restoration reporting and documentation services in. Expert insights from Florida Construction Specialists. Request a free estimate.",
 };
 
 const breadcrumbItems = [

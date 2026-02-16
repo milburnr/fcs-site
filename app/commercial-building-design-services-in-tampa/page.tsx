@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-building-design-services-in-tampa/' },
   title: "Commercial Building Design Services in Tampa | FCS",
-  description: "Comprehensive commercial building design services in Tampa Bay. From architectural design to construction planning, we deliver innovative solutions for office, retail, medical, and industrial projects.",
+  description: "Commercial Building Design Services in Tampa: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Contact us today.",
 };
 
 const breadcrumbItems = [

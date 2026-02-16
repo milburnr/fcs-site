@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-contractor-for-roof-repair-and-replacement/' },
   title: "Commercial Roof Repair & Replacement Tampa | FCS",
-  description: "Commercial roof repair Tampa: emergency storm repairs, complete re-roofing, hurricane damage. Manufacturer-certified contractor. Licensed CGC. Get free inspection.",
+  description: "Commercial roof repair Tampa: emergency storm repairs, re-roofing, hurricane damage. Manufacturer-certified, licensed CGC. Get a free quote.",
 };
 
 const breadcrumbItems = [

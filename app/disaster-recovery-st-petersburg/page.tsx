@@ -32,7 +32,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-st-petersburg/' },
   title: "Disaster Recovery in St. Petersburg",
-  description: "St. Petersburg large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration, barrier island expertise. Call (813) 420-7561.",
+  description: "Disaster Recovery Contractor in St. Petersburg: new builds, renovations, and disaster recovery services. 40+ years, licensed CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

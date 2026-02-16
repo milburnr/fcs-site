@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/effective-exterior-waterproofing-methods-for-your-property/' },
   title: "Exterior Waterproofing Methods Tampa | Commercial",
-  description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection, facade waterproofing, and SB 4-D compliant solutions.",
+  description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in. Professional guidance from FCS, licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

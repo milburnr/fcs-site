@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/utility-mapping-for-commercial-buildings/' },
   title: "Utility Mapping Tampa | Commercial Underground",
-  description: "Professional utility mapping services for commercial buildings in Tampa. Locate underground utilities before construction to prevent damage, injuries, and costly delays using SUE and GPR technology.",
+  description: "Professional utility mapping services for commercial buildings in Tampa. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

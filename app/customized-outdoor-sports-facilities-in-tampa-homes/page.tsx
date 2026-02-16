@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/customized-outdoor-sports-facilities-in-tampa-homes/' },
   title: "Outdoor Sports Facilities Tampa Homes | Courts",
-  description: "Build custom sports facilities at your Tampa home. Tennis courts, basketball courts, putting greens, batting cages, pickleball, and athletic amenities. Sports homes from $100K-$500K+ additions.",
+  description: "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction/' },
   title: "Balcony Reconstruction Tampa | Condo Repair | FCS",
-  description: "Expert balcony reconstruction Tampa and balcony repair Florida services. Specialized condo balcony restoration, waterproofing Tampa Bay, SB4-D compliance. Licensed contractor with $25M+ completed.",
+  description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const features = [

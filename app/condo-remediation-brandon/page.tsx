@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-brandon/' },
   title: "Condo Remediation Brandon | SB4-D | FCS",
   description:
-    "Brandon condo remediation & SB4-D compliance experts. Milestone inspections, SIRS, structural repairs for condos 3+ stories. Serving Valrico, Riverview, FishHawk. Near FCS headquarters. Call (813) 420-7561.",
+    "Condo Remediation Sb4-d in Brandon: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

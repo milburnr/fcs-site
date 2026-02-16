@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/brandon-fl/' },
   title: "Brandon Commercial Construction | $500K+ | FCS",
-  description: "Premier general contractor serving Brandon, FL. Commercial construction, multi-family residential, disaster recovery. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
+  description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

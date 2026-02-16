@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/employee-communication-with-office-layout/' },
   title: "Office Layout for Communication Tampa | Design",
-  description: "Design office layouts that enhance employee communication and collaboration. Expert guide to open offices, huddle rooms, activity-based working, and hybrid workspace design in Tampa Bay.",
+  description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1983. Contact our team today.",
 };
 
 const breadcrumbItems = [

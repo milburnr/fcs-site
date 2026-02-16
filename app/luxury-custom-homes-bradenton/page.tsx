@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/' },
   title: "Luxury Custom Homes Bradenton | Waterfront | FCS",
-  description: "Bradenton luxury custom home builder specializing in $1M-$15M+ waterfront estates and architectural homes. Anna Maria Island gateway, Palma Sola, Lakewood Ranch, Manatee River. 15-20% savings vs Sarasota. Licensed, bonded, insured.",
+  description: "Luxury Home Builder in Bradenton: $500K-$25M projects, design-build and pre-construction. Licensed CGC, 40+ years. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/breakaway-wall-construction-requirements/' },
   title: "Breakaway Wall Construction Tampa Bay | FCS",
   description:
-    "Complete guide to breakaway wall construction requirements for coastal homes in flood zones. FEMA regulations, design criteria, and construction standards for Tampa Bay waterfront properties.",
+    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CGC. Request a free estimate.",
 };
 
 const breakawayRequirements = [

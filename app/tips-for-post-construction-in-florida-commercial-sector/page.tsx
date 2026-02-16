@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-post-construction-in-florida-commercial-sector/' },
   title: "Post-Construction Tips Florida Commercial",
-  description: "Essential post-construction tips for Florida commercial projects. From final inspections to warranty management, learn how to successfully close out your Tampa Bay construction project.",
+  description: "Essential post-construction tips for Florida commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

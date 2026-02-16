@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/mastering-commercial-construction-design-in-florida/' },
   title: "Mastering Commercial Construction Design in Florida",
-  description: "Learn the ins and outs of architectural design, commercial building design, and commercial construction design with our comprehensive guide for Florida projects.",
+  description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists. Read more.",
 };
 
 const breadcrumbItems = [

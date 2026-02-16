@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/choosing-the-perfect-location-for-commercial-construction/' },
   title: "Choosing the Perfect Location for Commercial Construction",
-  description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving success in your business ventures. Contact Florida Construction Specialists today!",
+  description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving. Professional guidance from FCS, licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

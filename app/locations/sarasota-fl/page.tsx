@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/sarasota-fl/' },
   title: "Sarasota Commercial Construction | $500K+ | FCS",
-  description: "Premier general contractor serving Sarasota, FL. Commercial construction, luxury residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
+  description: "Licensed construction contractor serving Sarasota, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

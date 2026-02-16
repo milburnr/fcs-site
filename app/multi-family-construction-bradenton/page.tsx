@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-bradenton/' },
   title: "Multi-Family Construction Bradenton | Condos | FCS",
-  description: "Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota. Call (813) 420-7561.",
+  description: "Multi Family Construction in Bradenton: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Request a free estimate today.",
 };
 
 const projectTypes = [

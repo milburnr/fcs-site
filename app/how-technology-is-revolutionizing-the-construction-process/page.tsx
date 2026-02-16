@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/how-technology-is-revolutionizing-the-construction-process/' },
   title: "Technology Revolutionizing Construction | Tampa",
-  description: "Discover how technology is revolutionizing construction in Tampa Bay. BIM, drones, project management software, and more. Florida Construction Specialists embraces innovation.",
+  description: "Discover technology revolutionizing construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

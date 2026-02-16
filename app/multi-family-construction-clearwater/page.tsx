@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-clearwater/' },
   title: "Multi-Family Construction Clearwater | Condos | FCS",
-  description: "Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Multi Family Construction in Clearwater: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Request a free estimate today.",
 };
 
 const projectTypes = [

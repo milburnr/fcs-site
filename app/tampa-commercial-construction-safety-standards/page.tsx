@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-safety-standards/' },
   title: "Tampa Commercial Construction Safety Standards",
-  description: "Ensure a secure commercial construction process in Tampa with our top-notch safety standards. Discover how our safety measures adhere to the highest industry standards.",
+  description: "Ensure a secure commercial construction process in with our top-notch safety standards. Expert insights from Florida Construction Specialists. Contact us today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-interior-design-services-in-tampa/' },
   title: "Custom Home Interior Design Tampa | Luxury",
-  description: "Complete interior design services for Tampa custom homes. Material selection, space planning, custom furniture, and turnkey design packages. Design services from $50K-$500K+.",
+  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Contact our team today.",
 };
 
 const breadcrumbItems = [

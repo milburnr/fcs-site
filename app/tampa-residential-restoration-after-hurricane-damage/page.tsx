@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-residential-restoration-after-hurricane-damage/' },
   title: "Tampa Residential Restoration After Hurricane",
-  description: "Expert residential restoration after hurricane damage in Tampa. Complete home reconstruction, roof repair, water damage restoration, and insurance claim support for Tampa Bay homeowners.",
+  description: "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

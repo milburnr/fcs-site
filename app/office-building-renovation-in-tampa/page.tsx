@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/office-building-renovation-in-tampa/' },
   title: "Office Building Renovation Tampa | Modernization",
-  description: "Transform your Tampa office building with expert renovation services. Lobby upgrades, common area modernization, systems updates, and tenant improvements from Florida Construction Specialists.",
+  description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

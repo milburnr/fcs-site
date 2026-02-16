@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-essential-duties-of-a-construction-manager-in-florida/' },
   title: "Construction Manager Duties Florida | Tampa",
-  description: "Discover the critical responsibilities of construction managers in Florida commercial projects. Learn how professional CM services ensure project success in Tampa Bay.",
+  description: "Discover construction manager duties florida with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
   title: "Exterior Waterproofing in Clearwater",
-  description: `Clearwater exterior waterproofing for commercial buildings, condominiums, and multi-family properties. Building envelope protection, moisture barriers, foundation waterproofing. $100K+ projects. Call ${BUSINESS_INFO.phone}.`,
+  description: `Waterproofing Contractor in Clearwater: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Schedule your consultation now.`,
 };
 
 const breadcrumbItems = [

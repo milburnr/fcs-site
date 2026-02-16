@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/how-to-prevent-water-damage-expert-tips-for-a-dry-home/' },
   title: "Prevent Water Damage Tampa | Commercial Tips",
-  description: "Expert tips to prevent water damage in Tampa commercial properties. Roof maintenance, plumbing inspection, HVAC care, and flood preparation strategies to protect your business investment.",
+  description: "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

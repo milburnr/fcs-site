@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-milestone-inspection-remediation-tampa/' },
   title: "Condo Milestone Inspection Tampa | SB4-D | FCS",
-  description: "Florida Construction Specialists provides SB4-D milestone inspection remediation for Tampa Bay condominiums. Expert structural repairs, SIRS compliance, and HOA board guidance for buildings 3+ stories.",
+  description: "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sustainable-commercial-construction-in-tampa/' },
   title: "Leading Sustainable Commercial Construction in Tampa",
-  description: "Sustainable commercial construction Tampa: LEED-certified projects, green building practices, eco-friendly materials. Energy-efficient Florida buildings. Get quote.",
+  description: "Sustainable commercial construction Tampa: LEED projects, green building, eco-friendly materials. Energy-efficient buildings. Get a quote.",
 };
 
 const breadcrumbItems = [

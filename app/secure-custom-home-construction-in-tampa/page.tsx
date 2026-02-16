@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/' },
   title: "Secure Custom Home Construction Tampa | Safety",
-  description: "Build a secure custom home in Tampa with integrated security systems, safe rooms, reinforced construction, and smart access control. Complete security from $25K-$150K+.",
+  description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

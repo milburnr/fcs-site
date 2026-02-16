@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/about/' },
   title: "About Us | Tampa Bay's Premier Builder",
   description:
-    "Learn about Florida Construction Specialists (FCS) - formed from the merger of Florida Restoration Team and Shamblin Construction, operating in Florida since 1982. 40+ years experience, 300+ projects, in-house engineering.",
+    "About Us across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Serving Tampa Bay. Schedule your consultation now.",
 };
 
 const values = [

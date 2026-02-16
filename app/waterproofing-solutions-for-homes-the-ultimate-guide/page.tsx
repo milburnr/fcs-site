@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/waterproofing-solutions-for-homes-the-ultimate-guide/' },
   title: "Waterproofing High-Rise Residential Tampa | FCS",
-  description: "Comprehensive waterproofing solutions for high-rise condominiums and residential buildings in Tampa Bay. SB 4-D compliant systems for balconies, garages, and building envelopes.",
+  description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CGC in ${region}. Contact our team today.",
 };
 
 const breadcrumbItems = [

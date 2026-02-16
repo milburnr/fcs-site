@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-companies/' },
   title: "Tampa Commercial Construction Companies | Guide",
-  description: "Find the right Tampa commercial construction company for your project. Expert guide to evaluating contractors, asking the right questions, and ensuring project success.",
+  description: "Find the right commercial construction company for your project. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

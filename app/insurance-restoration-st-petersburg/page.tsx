@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/' },
   title: "Insurance Restoration St. Petersburg | 43 Years",
   description:
-    "Insurance restoration St Petersburg: hurricane, flood, fire damage repair. Historic district specialist. 43 years adjuster & contractor expertise. Emergency response available.",
+    "Insurance restoration St. Petersburg: hurricane, flood, fire repair. Historic district specialist. 43 years experience. Request a free quote.",
 };
 
 const breadcrumbItems = [

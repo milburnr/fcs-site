@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-ruskin/' },
   title: "Multi-Family Construction Ruskin | Condos | FCS",
-  description: "Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. FCS home base advantage. 20+ years experience, 40+ years experience. Call (813) 420-7561.",
+  description: "Multi Family Construction in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Request a free estimate today.",
 };
 
 const projectTypes = [

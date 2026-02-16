@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/' },
   title: "Customer Satisfaction in Florida Commercial Construction",
-  description: "Discover the power of customer satisfaction in Florida commercial construction projects, understanding why it plays a vital role in the success of your business.",
+  description: "Discover the power of customer satisfaction in Florida commercial construction projects,. Expert analysis from Florida Construction Specialists. Read more.",
 };
 
 const breadcrumbItems = [

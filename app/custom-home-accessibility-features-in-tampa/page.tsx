@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-accessibility-features-in-tampa/' },
   title: "Custom Home Accessibility Tampa | Universal Design",
-  description: "Build an accessible custom home in Tampa with universal design features. Elevator-ready, wide doorways, accessible bathrooms, and aging-in-place planning from $400K-$2M+.",
+  description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-budgeting-tips-for-florida-specialists/' },
   title: "Commercial Construction Budgeting Florida | Tips",
-  description: "Master commercial construction budgeting in Florida. Expert tips for accurate cost estimation, contingency planning, and avoiding budget overruns in Tampa Bay projects.",
+  description: "Master commercial construction budgeting in Florida. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

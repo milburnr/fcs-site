@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-lakeland/' },
   title: "Multi-Family Construction Lakeland | Condos | FCS",
-  description: "Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal. Call (813) 420-7561.",
+  description: "Multi Family Construction in Lakeland: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
 };
 
 const projectTypes = [

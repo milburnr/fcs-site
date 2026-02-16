@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-construction-process-for-commercial-construction/' },
   title: "The Ultimate Guide to Post Construction Process in Florida",
-  description: "Get your commercial construction project in Florida completed smoothly with the essential post construction process. Discover the key steps for a successful project closeout in Tampa Bay.",
+  description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

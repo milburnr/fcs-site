@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/demystifying-commercial-construction-insurance-in-florida/' },
   title: "Demystifying Commercial Construction Insurance in Florida",
-  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Discover essential tips for understanding policies and safeguarding your investment.",
+  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1983. Read more.",
 };
 
 const breadcrumbItems = [

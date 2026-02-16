@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing/' },
   title: "Exterior Waterproofing Tampa | Florida | FCS",
-  description: "Expert exterior waterproofing Tampa services for commercial and residential buildings. Premium building waterproofing Florida solutions. Foundation, plaza deck, parking structure waterproofing. Call today!",
+  description: "Building Envelope Florida across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Call (813) 906-1302 for a quote.",
 };
 
 const features = [

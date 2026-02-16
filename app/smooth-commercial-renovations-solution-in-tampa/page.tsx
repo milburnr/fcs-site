@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/smooth-commercial-renovations-solution-in-tampa/' },
   title: "Smooth Commercial Renovations Tampa | Stay Open",
-  description: "Keep your Tampa business running during commercial renovation. Phased construction, after-hours work, and business continuity strategies from Florida Construction Specialists.",
+  description: "Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

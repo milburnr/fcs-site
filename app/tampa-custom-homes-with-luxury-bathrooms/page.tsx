@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-homes-with-luxury-bathrooms/' },
   title: "Tampa Custom Homes Luxury Bathrooms | Spa",
-  description: "Create spa-inspired luxury bathrooms in your Tampa custom home. Soaking tubs, rain showers, heated floors, and premium fixtures. Master bath renovations from $75K-$200K+.",
+  description: "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

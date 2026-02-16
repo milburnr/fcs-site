@@ -15,7 +15,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-restoration-services/' },
   title: "Balcony Restoration Services Tampa | High-Rise",
-  description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant structural repairs, waterproofing, and complete balcony rehabilitation.",
+  description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CGC in ${region}. Contact our team today.",
 };
 
 const breadcrumbItems = [

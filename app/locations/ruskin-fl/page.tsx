@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/ruskin-fl/' },
   title: "Ruskin General Contractor | FCS HQ | $500K+",
-  description: "Florida Construction Specialists headquarters in Ruskin, FL. Premier general contractor for commercial construction, disaster recovery, historic restoration. License CBC1262722. Call (813) 420-7561.",
+  description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

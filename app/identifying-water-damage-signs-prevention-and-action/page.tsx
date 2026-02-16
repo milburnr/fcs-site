@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/identifying-water-damage-signs-prevention-and-action/' },
   title: "Water Damage Signs & Prevention | Tampa Commercial",
-  description: "Learn to identify water damage signs in commercial properties. Prevention strategies, early detection tips, and action steps for Tampa Bay businesses. Protect your property investment.",
+  description: "Discover water damage signs & prevention commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

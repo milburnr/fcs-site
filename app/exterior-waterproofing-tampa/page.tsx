@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/' },
   title: "Exterior Waterproofing Tampa FL | Envelope | FCS",
-  description: "Tampa exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, plaza decks. 10-year warranty. Licensed, bonded, insured.",
+  description: "Waterproofing Contractor in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

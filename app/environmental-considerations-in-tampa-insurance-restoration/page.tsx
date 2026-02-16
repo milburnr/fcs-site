@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/environmental-considerations-in-tampa-insurance-restoration/' },
   title: "Environmental Considerations in Tampa Insurance Restoration",
-  description: "Navigate environmental hazards during Tampa commercial restoration projects. Expert guidance on asbestos, mold, lead paint, and sustainable restoration practices.",
+  description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

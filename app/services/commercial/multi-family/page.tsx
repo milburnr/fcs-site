@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
   title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
-  description: "Multi-family construction in Tampa Bay. Apartment buildings, condominiums, townhomes, senior living. Ground-up and renovation. $1M-$25M+ projects. Licensed CBC1262722. Call (813) 420-7561.",
+  description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

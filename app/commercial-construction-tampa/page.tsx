@@ -14,7 +14,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-tampa/' },
   title: "Commercial Construction in Tampa",
-  description: "Commercial construction Tampa: $500K-$25M+ office, medical, industrial, multi-family. Design-build contractor, 40+ years Hillsborough County. Request project bid.",
+  description: "Commercial construction Tampa: office, medical, industrial, multi-family. Design-build contractor, 40+ years experience. Request a project bid.",
 };
 
 const breadcrumbItems = [

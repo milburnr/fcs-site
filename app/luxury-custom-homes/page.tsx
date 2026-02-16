@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes/' },
   title: "Luxury Custom Home Builders Tampa | Waterfront",
-  description: "Luxury custom homes Tampa: $1M+ waterfront estates, hurricane-resistant design, smart home tech. Davis Islands, South Tampa builder. 40+ years architectural excellence.",
+  description: "Luxury custom homes Tampa: waterfront estates, hurricane-resistant design, smart home tech. 40+ years building excellence. Schedule a visit.",
 };
 
 const tocItems = [

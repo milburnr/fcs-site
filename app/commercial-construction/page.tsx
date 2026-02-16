@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction/' },
   title: "Large-Scale Commercial Construction | $500K - $25M+ Projects",
-  description: "Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget.",
+  description: "Commercial Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
 };
 
 const features = [

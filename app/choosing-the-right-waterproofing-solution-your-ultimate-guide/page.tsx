@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/choosing-the-right-waterproofing-solution-your-ultimate-guide/' },
   title: "Choosing Waterproofing Solutions Tampa | Guide",
-  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. Compare traffic coatings, membranes, and sealants. Expert recommendations for Florida condos.",
+  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CGC in ${region}. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

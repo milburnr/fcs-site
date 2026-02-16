@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-historic-restoration-zoning-laws/' },
   title: "Tampa's Historic Restoration Zoning Laws",
-  description: "Tampa historic zoning laws: preservation district overlay zones, variances, adaptive reuse regulations. Expert navigation for historic building projects. Schedule consultation.",
+  description: "Tampa historic zoning laws: preservation overlay zones, variances, adaptive reuse regulations. Expert navigation. Schedule a consultation.",
 };
 
 const breadcrumbItems = [

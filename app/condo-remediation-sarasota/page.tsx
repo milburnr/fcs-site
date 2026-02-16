@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-sarasota/' },
   title: "Condo Remediation Sarasota | SB4-D Compliance & SIRS",
   description:
-    "Sarasota condo remediation experts. SB4-D compliance, milestone inspections, SIRS for Longboat Key, Siesta Key, Lido Key luxury condos. Post-Hurricane Ian structural repairs. Licensed. Call (813) 420-7561.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Sarasota: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

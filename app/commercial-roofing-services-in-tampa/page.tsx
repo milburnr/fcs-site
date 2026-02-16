@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-roofing-services-in-tampa/' },
   title: "Commercial Roofing Services Tampa | Expert",
-  description: "Complete commercial roofing services in Tampa Bay. TPO, EPDM, metal, and built-up roofing systems. Hurricane-rated installations, repairs, and maintenance from Florida Construction Specialists.",
+  description: "Commercial Roofing Services Expert in Tampa: design-build, pre-construction, and project management. Licensed CGC, proven results. Request a free estimate.",
 };
 
 const breadcrumbItems = [

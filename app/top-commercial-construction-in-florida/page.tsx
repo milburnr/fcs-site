@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-construction-in-florida/' },
   title: "Top Commercial Construction Florida | Standards",
-  description: "Discover Florida&apos;s top-tier Commercial Construction specialist outshining competitors in multiple states. With a keen eye on the latest trends and regulations.",
+  description: "Discover commercial construction florida standards with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/' },
   title: "Luxury Custom Homes Lakeland FL | Lakefront Estates | FCS",
-  description: "Lakeland luxury custom home builder specializing in $750K-$5M+ lakefront estates. South Lake Morton, Lake Hollingsworth, Grasslands. Larger lots, better value than coastal areas. Licensed, bonded, insured.",
+  description: "Luxury Home Builder in Lakeland: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

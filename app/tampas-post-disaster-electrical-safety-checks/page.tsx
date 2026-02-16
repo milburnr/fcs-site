@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-post-disaster-electrical-safety-checks/' },
   title: "Post-Disaster Electrical Safety Tampa | Hurricane",
-  description: "Professional post-disaster electrical safety checks in Tampa Bay. Expert inspection of electrical systems after hurricanes, floods, and storms to prevent fire and electrocution hazards.",
+  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

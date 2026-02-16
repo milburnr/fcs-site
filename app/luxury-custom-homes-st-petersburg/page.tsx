@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-st-petersburg/' },
   title: "Luxury Custom Homes St. Petersburg | $1M+ | FCS",
-  description: "St. Petersburg luxury custom home builder specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Old Northeast, Snell Isle, Coffee Pot Bayou, Historic Kenwood. Licensed, bonded, insured.",
+  description: "Luxury Home Builder in St. Petersburg: design-build, pre-construction, and project management. Licensed and insured CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

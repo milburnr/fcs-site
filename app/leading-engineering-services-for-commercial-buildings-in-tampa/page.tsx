@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/leading-engineering-services-for-commercial-buildings-in-tampa/' },
   title: "Engineering Services Tampa | Structural & MEP | FCS",
-  description: "Leading engineering services for commercial buildings in Tampa. Structural engineering, MEP design, civil engineering, and specialty engineering coordinated by Florida Construction Specialists.",
+  description: "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CGC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

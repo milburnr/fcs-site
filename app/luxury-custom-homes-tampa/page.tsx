@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-tampa/' },
   title: "Luxury Custom Homes Tampa | Waterfront | FCS",
-  description: "Tampa luxury custom home builder specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Davis Islands, Beach Park, South Tampa, Harbour Island. Licensed, bonded, insured.",
+  description: "Looking for luxury home builder in Tampa? $500k-$25m Projects, Design-build and Pre-construction. CGC #1529395, 40+ years. Get your free estimate now.",
 };
 
 const breadcrumbItems = [

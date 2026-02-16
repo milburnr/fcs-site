@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tips-for-choosing-a-commercial-contractor-in-tampa/' },
   title: "Tips for Choosing a Commercial Contractor in Tampa",
-  description: "Our trusted tips for choosing a commercial contractor you can trust will guide you towards reputable construction companies and reliable contractors in Tampa Bay.",
+  description: "Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CGC #1529395, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

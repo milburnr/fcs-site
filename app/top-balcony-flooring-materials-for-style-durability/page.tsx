@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-balcony-flooring-materials-for-style-durability/' },
   title: "Top Balcony Flooring Materials for High-Rise Buildings Tampa",
-  description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Porcelain tiles, deck coatings, pavers, and natural stone with SB 4-D compliant installation.",
+  description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CGC. Contact us today.",
 };
 
 const breadcrumbItems = [

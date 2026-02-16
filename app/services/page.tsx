@@ -8,7 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/' },
   title: "Tampa Construction Services",
-  description: "We deliver professional and reliable construction services for commercial and residential properties. Our team specializes in custom building, renovations, historic restoration, and disaster recovery.",
+  description: "Construction Services across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
 };
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {

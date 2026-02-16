@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/' },
   title: "Property Damage Assessment Tampa | Insurance Claims",
-  description: "Expert property damage assessment for insurance claims in Tampa. Comprehensive documentation, damage quantification, and claim support for commercial hurricane, flood, and storm damage.",
+  description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact our team today.",
 };
 
 const breadcrumbItems = [

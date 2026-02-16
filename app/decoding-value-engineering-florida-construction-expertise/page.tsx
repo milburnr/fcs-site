@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/decoding-value-engineering-florida-construction-expertise/' },
   title: "Value Engineering Florida | Construction Tampa",
-  description: "Deep dive into value engineering methodology for commercial construction. Learn how Florida Construction Specialists applies systematic analysis to optimize building value while reducing costs.",
+  description: "Deep dive into value engineering methodology for commercial construction. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

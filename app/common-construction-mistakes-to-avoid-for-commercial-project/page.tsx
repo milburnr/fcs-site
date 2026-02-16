@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/common-construction-mistakes-to-avoid-for-commercial-project/' },
   title: "Construction Mistakes to Avoid | Commercial Tampa",
-  description: "Learn the most common commercial construction mistakes and how to avoid them. Protect your Tampa Bay project investment with insights from Florida Construction Specialists.",
+  description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CGC in ${region}. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

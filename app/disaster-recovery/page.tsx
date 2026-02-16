@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery/' },
   title: "Storm & Disaster Recovery Tampa | 43 Years | FCS",
-  description: "Tampa disaster recovery: 43 years insurance restoration. Commercial large-loss specialist. Hurricane, flood, fire claims—adjuster & contractor experience. Call 24/7.",
+  description: "Tampa disaster recovery: 43 years insurance restoration. Commercial large-loss specialist. Hurricane, flood, fire claims expertise. Call 24/7.",
 };
 
 const coreServices = [

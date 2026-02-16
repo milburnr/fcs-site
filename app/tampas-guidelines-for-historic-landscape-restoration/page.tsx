@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-guidelines-for-historic-landscape-restoration/' },
   title: "Tampa's Guidelines for Historic Landscape Restoration",
-  description: "Tampa historic landscape restoration: site work guidelines for Ybor City, Hyde Park preservation districts. Expert compliance for landmark properties. Contact contractor.",
+  description: "Tampa historic landscape restoration: guidelines for Ybor City, Hyde Park preservation districts. Expert landmark compliance. Contact us.",
 };
 
 const breadcrumbItems = [

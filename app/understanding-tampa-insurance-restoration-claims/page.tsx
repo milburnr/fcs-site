@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/understanding-tampa-insurance-restoration-claims/' },
   title: "Understanding Tampa Insurance Restoration Claims",
-  description: "Complete guide to understanding insurance restoration claims in Tampa. Learn Florida insurance laws, claim timelines, coverage types, and strategies for commercial property owners.",
+  description: "Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

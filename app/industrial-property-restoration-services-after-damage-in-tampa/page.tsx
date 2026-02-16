@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/industrial-property-restoration-services-after-damage-in-tampa/' },
   title: "Industrial Property Restoration Tampa | Warehouse",
-  description: "Industrial property restoration services in Tampa. Warehouse, manufacturing, and distribution facility damage repair after hurricanes, floods, and disasters. Minimize downtime with rapid response.",
+  description: "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Get a free quote.",
 };
 
 const breadcrumbItems = [

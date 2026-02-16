@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-guidelines-for-historic-roofs-restoration/' },
   title: "Tampa's Guidelines for Historic Roofs Restoration",
-  description: "Expert guidance on historic roof restoration in Tampa. Preserving clay tile, slate, and metal roofing while meeting hurricane requirements and tax credit standards.",
+  description: "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

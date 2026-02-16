@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-ideas-for-mall-revamp/' },
   title: "Mall Revamp & Conversion Ideas Tampa | FCS",
-  description: "Transform underperforming malls into thriving mixed-use destinations. Medical facilities, residential, entertainment, and adaptive reuse strategies for Tampa Bay shopping centers.",
+  description: "Discover mall revamp & conversion ideas with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

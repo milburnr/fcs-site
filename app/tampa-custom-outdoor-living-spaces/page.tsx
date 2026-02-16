@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-custom-outdoor-living-spaces/' },
   title: "Tampa Outdoor Living Spaces | Patios & Pools",
-  description: "Create stunning outdoor living spaces in Tampa. Custom pools, outdoor kitchens, covered patios, fire features, and resort-style amenities. Year-round Florida living from $50K-$500K+.",
+  description: "Discover outdoor living spaces patios & pools with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

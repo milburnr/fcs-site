@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-lakeland/' },
   title: "Historic Restoration Lakeland | Frank Lloyd Wright",
-  description: "Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+  description: "Historic Restoration in Lakeland: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Call for a free consultation today.",
 };
 
 const serviceTypes = [

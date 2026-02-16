@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/key-questions-for-floridas-top-commercial-contractor/' },
   title: "Questions for Florida Commercial Contractors | Tampa",
-  description: "Essential questions to ask before hiring a commercial contractor in Tampa Bay. Learn what to evaluate and how to identify the best contractor for your Florida project.",
+  description: "Essential questions to ask before hiring a commercial contractor in Tampa Bay. Expert analysis from Florida Construction Specialists. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampas-premier-commercial-remodeling-contractors/' },
   title: "Tampa's Premier Commercial Remodeling Contractors",
-  description: "Commercial remodeling Tampa: office, retail, medical renovations. Hillsborough, Pinellas, Pasco, Polk counties. Licensed CGC contractor. Request remodel estimate today.",
+  description: "Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CGC contractor. Request an estimate today.",
 };
 
 const breadcrumbItems = [

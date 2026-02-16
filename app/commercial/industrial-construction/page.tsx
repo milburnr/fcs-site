@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Tilt-Wall | FCS",
   description:
-    "Industrial and warehouse construction in Tampa Bay. Tilt-wall construction, steel buildings, flex space, and distribution centers. $500K-$25M+ projects. 40+ years experience.",
+    "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const features = [

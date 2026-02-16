@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-historic-restoration-permits-and-regulations/' },
   title: "Tampa Historic Restoration Permits and Regulations",
-  description: "Tampa historic restoration permits: COA, SHPO review, building permits coordination. Expert regulatory navigation for preservation projects. Contact for permit help.",
+  description: "Tampa historic restoration permits: COA, SHPO review, building permits coordination. Expert regulatory navigation. Contact us for help.",
 };
 
 const breadcrumbItems = [

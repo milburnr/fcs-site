@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/climate-resilient-custom-homes-in-tampa/' },
   title: "Climate-Resilient Custom Homes Tampa | Hurricane",
-  description: "Build a climate-resilient custom home in Tampa engineered for hurricanes, flooding, and extreme heat. Fortified construction, backup power, and smart systems from $425K-$2M+.",
+  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CGC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

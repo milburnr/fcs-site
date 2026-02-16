@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-ruskin/' },
   title: "Exterior Waterproofing Ruskin FL | FCS Headquarters",
-  description: "Exterior waterproofing in Ruskin FL from FCS headquarters. Apollo Beach coastal waterproofing, Sun City Center building protection, Tampa Bay industrial waterproofing. 10-year warranty. Licensed, bonded, insured.",
+  description: "Waterproofing Contractor in Ruskin: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
 };
 
 const breadcrumbItems = [

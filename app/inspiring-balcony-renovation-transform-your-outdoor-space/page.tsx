@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/inspiring-balcony-renovation-transform-your-outdoor-space/' },
   title: "High-Rise Balcony Renovation Tampa | Transform Your Condo",
-  description: "Expert balcony renovation for Tampa Bay high-rise condominiums. Complete structural restoration, waterproofing upgrades, and aesthetic transformations with SB 4-D compliance.",
+  description: "Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
 };
 
 const breadcrumbItems = [

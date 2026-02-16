@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/' },
   title: "Hurricane-Resistant Home Construction Tampa | FCS",
-  description: "Hurricane-resistant home construction in Tampa Bay. Impact windows, reinforced roofing, continuous load paths, flood protection. Custom homes built to exceed Florida Building Code. Call (813) 420-7561.",
+  description: "Hurricane-resistant Home Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact us today.",
 };
 
 const breadcrumbItems = [

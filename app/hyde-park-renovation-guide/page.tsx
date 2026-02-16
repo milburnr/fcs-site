@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hyde-park-renovation-guide/' },
   title: "Hyde Park Renovation Guide Tampa | ARC | FCS",
   description:
-    "Complete guide to renovating in Hyde Park Tampa. ARC approval process, Certificate of Appropriateness, historic district requirements, and period-accurate restoration.",
+    "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
 };
 
 const arcProcess = [

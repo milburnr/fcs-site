@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-tampa/' },
   title: "Insurance Restoration Tampa | 43 Years Claims Experience",
   description:
-    "Insurance restoration Tampa: hurricane, flood, fire damage repair. Former adjuster, 43 years claims experience. Commercial large-loss specialist. Xactimate certified. Call now.",
+    "Insurance restoration Tampa: hurricane, flood, fire repair. Former adjuster, 43 years claims experience. Large-loss specialist. Call now.",
 };
 
 const breadcrumbItems = [

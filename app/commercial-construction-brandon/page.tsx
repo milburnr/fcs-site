@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
   title: "Commercial Construction Brandon | $500K+ | FCS",
-  description: "Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Commercial Construction in Brandon: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call for a free consultation today.",
 };
 
 const serviceFeatures = [

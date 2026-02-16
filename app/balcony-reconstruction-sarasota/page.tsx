@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/' },
   title: "Balcony Reconstruction Sarasota | SB 4-D | FCS",
-  description: "Sarasota balcony reconstruction specialists for Gulf-front condos, Siesta Key properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. Expert contractors serving Sarasota County. Licensed, bonded, insured.",
+  description: "Looking for balcony repair in Sarasota? Expert Project Management, Design-build, and Renovations. Licensed and insured CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

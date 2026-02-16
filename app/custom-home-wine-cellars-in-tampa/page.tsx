@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-wine-cellars-in-tampa/' },
   title: "Custom Home Wine Cellars Tampa | Climate Control",
-  description: "Build a custom wine cellar in your Tampa home. Climate control, proper storage, tasting rooms, and stunning design. Wine cellars from $25K-$200K+ for 500-5,000+ bottles.",
+  description: "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CGC, proven results. Contact us today.",
 };
 
 const breadcrumbItems = [

@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-brandon/' },
   title: "Historic Restoration Brandon | Mid-Century | FCS",
-  description: "Expert historic restoration contractor in Brandon, Florida. Citrus-era buildings, 1950s-1970s homes, agricultural heritage structures. Hillsborough County preservation. Projects $150K-$5M+. Call (813) 420-7561.",
+  description: "Historic Restoration in Brandon: complete construction services from pre-construction to closeout. FL-licensed CGC contractor. Request a free estimate today.",
 };
 
 const serviceTypes = [

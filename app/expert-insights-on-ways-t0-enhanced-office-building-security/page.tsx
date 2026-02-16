@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-insights-on-ways-t0-enhanced-office-building-security/' },
   title: "Office Building Security Tampa | Commercial",
-  description: "Expert guide to office building security construction in Tampa Bay. Access control, surveillance, secure entries, and integrated security systems for commercial buildings.",
+  description: "Expert guide to office building security construction in Tampa Bay. Expert insights from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

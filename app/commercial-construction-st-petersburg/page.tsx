@@ -14,7 +14,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
   title: "Commercial Construction in St. Petersburg",
-  description: "Commercial construction St Petersburg: $500K-$25M+ design-build, medical, multi-family projects. Historic restoration, federal compliance. Schedule St Pete consultation.",
+  description: "Commercial construction St. Petersburg: design-build, medical, multi-family. Historic restoration, federal compliance. Schedule a consultation.",
 };
 
 const breadcrumbItems = [

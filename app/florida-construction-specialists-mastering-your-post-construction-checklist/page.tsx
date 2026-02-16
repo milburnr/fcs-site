@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/florida-construction-specialists-mastering-your-post-construction-checklist/' },
   title: "Master Your Post-Construction Checklist",
-  description: "Complete post-construction checklist for Florida commercial projects. Expert guidance on inspections, documentation, warranty management, and occupancy preparation from Tampa Bay's leading contractor.",
+  description: "Complete post-construction checklist for Florida commercial projects. Expert analysis from Florida Construction Specialists. Call (813) 906-1302 for a quote.'s leading contractor.",
 };
 
 const breadcrumbItems = [

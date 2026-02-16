@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sustainable-building-materials-in-commercial-construction/' },
   title: "Sustainable Building Materials in Commercial Construction",
-  description: "Florida Construction Specialists is revolutionizing commercial construction in Tampa with innovative and sustainable building materials. Discover eco-friendly solutions for your project.",
+  description: "Florida Construction Specialists is revolutionizing commercial construction in Tampa with. Expert insights from Florida Construction Specialists. Read more.",
 };
 
 const breadcrumbItems = [

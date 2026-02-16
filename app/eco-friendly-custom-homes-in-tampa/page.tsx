@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-custom-homes-in-tampa/' },
   title: "Eco-Friendly Custom Homes Tampa | Sustainable",
-  description: "Build your dream eco-friendly custom home in Tampa. Solar-ready designs, sustainable materials, LEED-certified construction. Green luxury living from $450K-$2M+.",
+  description: "Eco-friendly Custom Homes Sustainable in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed and insured CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

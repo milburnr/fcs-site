@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historical-commercial-construction-in-tampa/' },
   title: "Historic Commercial Construction Tampa | Heritage Building",
-  description: "Expert historical commercial construction in Tampa. FCS preserves heritage buildings, historic storefronts, and commercial districts in Ybor City and downtown Tampa using traditional techniques and Secretary of Interior standards for authentic restoration.",
+  description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Read more.",
 };
 
 const breadcrumbItems = [

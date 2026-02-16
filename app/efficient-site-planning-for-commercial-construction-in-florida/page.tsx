@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/efficient-site-planning-for-commercial-construction-in-florida/' },
   title: "Site Planning for Commercial Construction FL",
-  description: "Master site planning for Florida commercial construction. Expert guidance on drainage, utilities, parking, permitting, and environmental considerations for Tampa Bay projects.",
+  description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
 };
 
 const breadcrumbItems = [

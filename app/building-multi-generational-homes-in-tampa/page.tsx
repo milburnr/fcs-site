@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-multi-generational-homes-in-tampa/' },
   title: "Building Multi-Generational Homes in Tampa | Family Living",
-  description: "Build multi-generational homes in Tampa for extended family living. In-law suites, dual master bedrooms, accessible design, and private living quarters. Multi-gen homes from $500K-$2.5M+.",
+  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Contact us today.",
 };
 
 const breadcrumbItems = [

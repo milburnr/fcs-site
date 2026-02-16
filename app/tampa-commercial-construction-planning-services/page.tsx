@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tampa-commercial-construction-planning-services/' },
   title: "Tampa Commercial Construction Planning | FCS",
-  description: "Professional construction planning services for Tampa commercial projects. Expert preconstruction, budgeting, scheduling, and project management from concept to completion.",
+  description: "Professional construction planning services for commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-sarasota/' },
   title: "Commercial Construction Sarasota | $500K+ | FCS",
-  description: "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+  description: "Commercial Construction in Sarasota: complete construction services from pre-construction to closeout. 40+ years, licensed CGC. Request a free estimate today.",
 };
 
 const serviceFeatures = [

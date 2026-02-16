@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/tenant-improvement-contractors-tampa/' },
   title: "Tenant Improvement Contractors Tampa | TI | FCS",
-  description: "Expert tenant improvement contractors in Tampa Bay. Office, retail, and medical TI build-outs with fast-track delivery and budget management from Florida Construction Specialists.",
+  description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

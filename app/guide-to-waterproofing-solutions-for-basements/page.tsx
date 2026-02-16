@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/guide-to-waterproofing-solutions-for-basements/' },
   title: "Basement Waterproofing Tampa | Below-Grade Solutions | FCS",
-  description: "Professional basement and below-grade waterproofing for commercial buildings and condominiums in Tampa Bay. Expert solutions for parking garages, storage areas, and mechanical rooms.",
+  description: "Discover basement waterproofing below-grade solutions with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
 };
 
 const breadcrumbItems = [

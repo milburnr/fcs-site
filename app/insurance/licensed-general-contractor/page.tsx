@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/' },
   title: "Licensed General Contractor | Insurance Restoration | FCS Tampa",
-  description: "Florida-licensed general contractor (CGC1262722) for insurance restoration. 40+ years experience, always prime contractor. Large loss commercial and residential restoration.",
+  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CGC serving Tampa Bay since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

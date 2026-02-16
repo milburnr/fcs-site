@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/lakeland-fl/' },
   title: "Lakeland Commercial Restoration | $500K-$25M+ | FCS",
-  description: "Premier general contractor serving Lakeland, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. Always the prime contractor. Call (813) 420-7561.",
+  description: "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/our-process/' },
   title: "Our Process | Custom Home Building Journey",
   description:
-    "Discover our proven 6-phase custom home building process. From initial consultation to final walkthrough, see how FCS delivers luxury homes in Tampa Bay with transparency and excellence.",
+    "Discover our process custom home building journey with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
 };
 
 const processSteps = [

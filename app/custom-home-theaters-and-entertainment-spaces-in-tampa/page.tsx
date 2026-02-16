@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-theaters-and-entertainment-spaces-in-tampa/' },
   title: "Custom Home Theaters and Entertainment Spaces in Tampa",
-  description: "Build the ultimate home theater in your Tampa custom home. 4K/8K projection, Dolby Atmos sound, acoustic design, and luxury seating. Theater rooms from $75K-$500K+.",
+  description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout. Request a free estimate.",
 };
 
 const breadcrumbItems = [

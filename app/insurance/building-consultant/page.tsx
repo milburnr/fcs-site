@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/building-consultant/' },
   title: "Building Consultant | Insurance Claims Expert | FCS Tampa",
-  description: "Expert building consultant services for insurance claims in Tampa Bay. Damage assessment, repair scope determination, and property owner representation. 40+ years experience.",
+  description: "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

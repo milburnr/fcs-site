@@ -14,7 +14,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
   title: "Commercial Construction in Clearwater",
-  description: "Commercial construction Clearwater: $500K-$25M+ office, retail, medical projects. Design-build contractor serving Pinellas County. Call for project consultation.",
+  description: "Commercial construction Clearwater: office, retail, medical projects. Design-build contractor serving Pinellas County. Call for a consultation.",
 };
 
 const breadcrumbItems = [

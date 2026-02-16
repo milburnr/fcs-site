@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-property-damage-restoration-in-tampa/' },
   title: "Commercial Property Damage Restoration Tampa",
-  description: "Expert commercial property damage restoration in Tampa. Office buildings, retail centers, and commercial facilities restored after hurricane, flood, fire, and storm damage. Insurance claim specialists.",
+  description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CGC-licensed, trusted since 1983. Read more.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/kitchen-remodeling/' },
   title: "Luxury Kitchen Remodeling Tampa | High-End | FCS",
-  description: "Luxury kitchen remodeling in Tampa Bay. Custom cabinetry, premium appliances, designer finishes. Complete kitchen renovations for discerning homeowners. $150K+ projects. Call (813) 420-7561.",
+  description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const breadcrumbItems = [
