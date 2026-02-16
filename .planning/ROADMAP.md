@@ -34,11 +34,15 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. Off-topic content (fishing charters, etc.) is removed or noindexed with 301 redirects in place
   4. All meta descriptions are 150-160 characters with CTAs, the `keywords` meta tag is gone from all pages, and the XML sitemap contains only pages intended for indexing
   5. robots.txt allows Googlebot, points to sitemap, and blocks nothing important
-**Plans**: TBD
+**Plans:** 6 plans
 
 Plans:
-- [ ] 01-01: TBD
-- [ ] 01-02: TBD
+- [ ] 01-01-PLAN.md -- Robots.txt, keywords removal, word count audit (AUDIT-09, AUDIT-06, AUDIT-01)
+- [ ] 01-02-PLAN.md -- Off-topic page removal and placeholder cleanup (AUDIT-03, AUDIT-02 partial)
+- [ ] 01-03-PLAN.md -- Thin content decisions and execution (AUDIT-02 remainder)
+- [ ] 01-04-PLAN.md -- Keyword map and cannibalization resolution (AUDIT-04, AUDIT-05)
+- [ ] 01-05-PLAN.md -- Meta description rewrites (AUDIT-07)
+- [ ] 01-06-PLAN.md -- Sitemap regeneration and validation (AUDIT-08)
 
 ### Phase 2: Silo Architecture & Internal Linking
 **Goal**: Blog articles are organized into three content silos (commercial, residential, insurance) with proper internal linking discipline, so Google understands topical clusters and link equity flows correctly
