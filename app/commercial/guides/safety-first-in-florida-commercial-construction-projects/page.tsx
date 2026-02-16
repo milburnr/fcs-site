@@ -44,9 +44,9 @@ const faqs = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/ensuring-construction-site-safety-a-top-priority/", label: "Construction Site Safety" },
-  { href: "/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },
-  { href: "/tampa-commercial-construction-permits/", label: "Construction Permits" },
+  { href: "/commercial/guides/ensuring-construction-site-safety-a-top-priority/", label: "Construction Site Safety" },
+  { href: "/commercial/guides/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },
+  { href: "/commercial/guides/tampa-commercial-construction-permits/", label: "Construction Permits" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

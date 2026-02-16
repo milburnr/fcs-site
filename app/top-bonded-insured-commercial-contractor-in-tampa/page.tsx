@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/licensed-contractors-for-commercial-construction-in-florida/", label: "Licensed Contractors in Florida" },
+  { href: "/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/", label: "Licensed Contractors in Florida" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },

@@ -645,7 +645,7 @@ export default function CondoBalconyInspectionRequirementsPage() {
               </p>
             </Link>
             <Link
-              href="/milestone-inspection-requirements/"
+              href="/insurance/guides/milestone-inspection-requirements/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">
@@ -656,7 +656,7 @@ export default function CondoBalconyInspectionRequirementsPage() {
               </p>
             </Link>
             <Link
-              href="/sirs-structural-integrity-reserve-studies/"
+              href="/insurance/guides/sirs-structural-integrity-reserve-studies/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">

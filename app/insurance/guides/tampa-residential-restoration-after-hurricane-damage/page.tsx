@@ -47,24 +47,24 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Hurricane Damage Services" },
   { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Reconstruction" },
   { href: "/roof-damage-restoration-and-insurance-claims-in-tampa/", label: "Roof Damage Restoration" },
-  { href: "/tampa-insurance-restoration-for-hurricane-damage/", label: "Insurance Restoration" },
+  { href: "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/", label: "Insurance Restoration" },
   { href: "/contact/", label: "Schedule Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Tampa Historic Restoration Permits and Regulations",
-    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "href": "/commercial/guides/tampa-historic-restoration-permits-and-regulations/",
     "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
   },
   {
     "title": "Preserving Tampa's Cultural Heritage",
-    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "href": "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
     "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
   },
   {
     "title": "Architectural Styles in Tampa's Historic Restoration",
-    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "href": "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
     "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
   },
   {

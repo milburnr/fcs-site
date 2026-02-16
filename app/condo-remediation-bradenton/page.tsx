@@ -254,7 +254,7 @@ const bradentonFaqs = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation Services" },
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
   { href: "/services/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/condo-remediation-sarasota/", label: "Condo Remediation Sarasota" },
@@ -545,7 +545,7 @@ export default function CondoRemediationBradentonPage() {
                   </li>
                 </ul>
                 <Link
-                  href="/sb-4-d-compliance-tampa-bay-condos/"
+                  href="/insurance/guides/sb-4-d-compliance-tampa-bay-condos/"
                   className="text-amber-800 font-semibold text-sm mt-4 inline-flex items-center gap-1 hover:underline"
                 >
                   Read Full SB4-D Guide <ArrowRight className="w-4 h-4" />

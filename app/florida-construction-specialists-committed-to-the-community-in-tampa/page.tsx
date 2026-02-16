@@ -44,7 +44,7 @@ const internalLinks = [
   { href: "/about/", label: "About Us" },
   { href: "/services/", label: "Our Services" },
   { href: "/insurance/", label: "Disaster Recovery" },
-  { href: "/the-essential-role-of-florida-construction-specialists/", label: "Our Essential Role" },
+  { href: "/commercial/guides/the-essential-role-of-florida-construction-specialists/", label: "Our Essential Role" },
   { href: "/contact/", label: "Contact Us" },
 ];
 

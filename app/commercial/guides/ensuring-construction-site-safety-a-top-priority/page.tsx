@@ -46,25 +46,25 @@ const faqs = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/safety-first-in-florida-commercial-construction-projects/", label: "Safety First in Commercial Projects" },
-  { href: "/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },
+  { href: "/commercial/guides/safety-first-in-florida-commercial-construction-projects/", label: "Safety First in Commercial Projects" },
+  { href: "/commercial/guides/summer-construction-safety-tips-from-top-contractors/", label: "Summer Safety Tips" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Zero Accident Workplace in Tampa's Commercial Construction",
-    "href": "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+    "href": "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
     "description": "Creating a culture of safety on commercial construction sites."
   },
   {
     "title": "Summer Construction Safety Tips",
-    "href": "/summer-construction-safety-tips-from-top-contractors/",
+    "href": "/commercial/guides/summer-construction-safety-tips-from-top-contractors/",
     "description": "Protecting workers from heat and other summer hazards in Florida."
   },
   {
     "title": "Tampa Commercial Construction Safety Standards",
-    "href": "/tampa-commercial-construction-safety-standards/",
+    "href": "/commercial/guides/tampa-commercial-construction-safety-standards/",
     "description": "Understanding safety requirements for Tampa area construction."
   },
   {

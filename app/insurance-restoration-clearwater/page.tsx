@@ -555,7 +555,7 @@ export default function InsuranceRestorationClearwaterPage() {
                     <ArrowRight className="w-4 h-4" />
                     <span>Commercial Construction</span>
                   </Link>
-                  <Link href="/condo-milestone-inspection-remediation/" className="flex items-center gap-2 text-brand-green hover:text-brand-green-dark transition-colors">
+                  <Link href="/insurance/guides/condo-milestone-inspection-remediation/" className="flex items-center gap-2 text-brand-green hover:text-brand-green-dark transition-colors">
                     <ArrowRight className="w-4 h-4" />
                     <span>Condo Milestone Inspections</span>
                   </Link>

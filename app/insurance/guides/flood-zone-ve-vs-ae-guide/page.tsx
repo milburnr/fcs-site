@@ -282,12 +282,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Understanding Tampa Insurance Restoration Claims",
-    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "href": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
     "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
   },
   {
     "title": "Tampa Insurance Restoration for Hurricane Damage",
-    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "href": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
     "description": "Expert restoration services for properties damaged by Florida hurricanes."
   },
   {
@@ -589,7 +589,7 @@ export default function FloodZoneVEvsAEGuidePage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <Link
-              href="/fema-50-percent-rule-explained/"
+              href="/insurance/guides/fema-50-percent-rule-explained/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">

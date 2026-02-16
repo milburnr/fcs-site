@@ -30,22 +30,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Benefits of Design-Build for Commercial Projects",
-    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "href": "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
     "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
   },
   {
     "title": "Commercial Construction Budgeting Tips",
-    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "href": "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
     "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
   },
   {
     "title": "Tips for Commercial Renovation in Florida",
-    "href": "/tips-for-commercial-renovation-in-florida/",
+    "href": "/commercial/guides/tips-for-commercial-renovation-in-florida/",
     "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
   },
   {
     "title": "Key Questions for Florida's Top Commercial Contractor",
-    "href": "/key-questions-for-floridas-top-commercial-contractor/",
+    "href": "/commercial/guides/key-questions-for-floridas-top-commercial-contractor/",
     "description": "Essential questions to ask before hiring a commercial contractor for your Florida project."
   }
 ];

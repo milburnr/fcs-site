@@ -18,10 +18,10 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/the-preconstruction-modern-approach-design/", label: "Modern Preconstruction Approach" },
+  { href: "/commercial/guides/the-preconstruction-modern-approach-design/", label: "Modern Preconstruction Approach" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
-  { href: "/benefits-of-value-engineering-for-construction/", label: "Value Engineering" },
+  { href: "/commercial/guides/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
+  { href: "/commercial/guides/benefits-of-value-engineering-for-construction/", label: "Value Engineering" },
   { href: "/contact/", label: "Start Pre-Construction" },
 ];
 

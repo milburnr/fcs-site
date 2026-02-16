@@ -150,22 +150,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Effective Balcony Maintenance Tips",
-    "href": "/effective-balcony-maintenance-tips/",
+    "href": "/commercial/guides/effective-balcony-maintenance-tips/",
     "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   },
   {
     "title": "Choosing the Right Waterproofing Solution",
-    "href": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+    "href": "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
     "description": "Compare waterproofing systems for optimal performance in Florida's climate."
   }
 ];

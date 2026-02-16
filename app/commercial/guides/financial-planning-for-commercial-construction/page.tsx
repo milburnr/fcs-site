@@ -21,8 +21,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/construction-quotes-for-commercial-project/", label: "Construction Quotes Guide" },
-  { href: "/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
+  { href: "/commercial/guides/construction-quotes-for-commercial-project/", label: "Construction Quotes Guide" },
+  { href: "/commercial/guides/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -31,22 +31,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Mastering Commercial Construction Design in Florida",
-    "href": "/mastering-commercial-construction-design-in-florida/",
+    "href": "/commercial/guides/mastering-commercial-construction-design-in-florida/",
     "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
   },
   {
     "title": "Benefits of Design-Build for Commercial Projects",
-    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "href": "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
     "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
   },
   {
     "title": "Commercial Construction Budgeting Tips",
-    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "href": "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
     "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
   },
   {
     "title": "Tips for Commercial Renovation in Florida",
-    "href": "/tips-for-commercial-renovation-in-florida/",
+    "href": "/commercial/guides/tips-for-commercial-renovation-in-florida/",
     "description": "Key considerations for successful commercial renovation projects in the Sunshine State."
   }
 ];

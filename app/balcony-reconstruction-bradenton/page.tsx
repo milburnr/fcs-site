@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Balcony Reconstruction", href: "/balcony-reconstruction-exterior-waterproofing/" },
+  { name: "Balcony Reconstruction", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
   { name: "Bradenton", href: "/balcony-reconstruction-bradenton/" },
 ];
 
@@ -279,7 +279,7 @@ export default function BalconyReconstructionBradentonPage() {
                   <li>• Reinspection every 10 years after</li>
                   <li>• Affects unit resale and financing</li>
                 </ul>
-                <Link href="/florida-sb4d-compliance-guide/" className="text-amber-800 font-semibold text-sm mt-3 inline-block hover:underline">
+                <Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-amber-800 font-semibold text-sm mt-3 inline-block hover:underline">
                   Read Full SB 4-D Guide →
                 </Link>
               </div>

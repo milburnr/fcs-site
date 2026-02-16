@@ -20,9 +20,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
-  { href: "/tampas-custom-family-home-builders/", label: "Family Home Builders" },
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
-  { href: "/tampa-custom-homes-with-luxury-bathrooms/", label: "Luxury Bathrooms" },
+  { href: "/residential/guides/tampas-custom-family-home-builders/", label: "Family Home Builders" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/", label: "Luxury Bathrooms" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

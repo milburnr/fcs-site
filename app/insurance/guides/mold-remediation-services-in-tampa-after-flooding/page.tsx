@@ -32,12 +32,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Understanding Tampa Insurance Restoration Claims",
-    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "href": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
     "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
   },
   {
     "title": "Tampa Insurance Restoration for Hurricane Damage",
-    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "href": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
     "description": "Expert restoration services for properties damaged by Florida hurricanes."
   },
   {

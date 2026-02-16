@@ -273,7 +273,7 @@ const relatedArticles = [
   },
   {
     "title": "Flood Zone VE vs AE Guide",
-    "href": "/flood-zone-ve-vs-ae-guide/",
+    "href": "/insurance/guides/flood-zone-ve-vs-ae-guide/",
     "description": "Understanding flood zone designations and construction requirements."
   },
   {
@@ -617,7 +617,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6">
             <Link
-              href="/flood-zone-ve-vs-ae-guide/"
+              href="/insurance/guides/flood-zone-ve-vs-ae-guide/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-gold">
@@ -628,7 +628,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
               </p>
             </Link>
             <Link
-              href="/fema-50-percent-rule-explained/"
+              href="/insurance/guides/fema-50-percent-rule-explained/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-gold">

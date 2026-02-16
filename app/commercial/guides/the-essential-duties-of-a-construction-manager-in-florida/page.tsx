@@ -22,9 +22,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/the-role-of-a-construction-manager/", label: "Role of a Construction Manager" },
-  { href: "/choose-between-general-contractor-and-construction-manager/", label: "GC vs Construction Manager" },
-  { href: "/the-stages-of-construction-project-management/", label: "Project Management Stages" },
+  { href: "/commercial/guides/the-role-of-a-construction-manager/", label: "Role of a Construction Manager" },
+  { href: "/commercial/guides/choose-between-general-contractor-and-construction-manager/", label: "GC vs Construction Manager" },
+  { href: "/commercial/guides/the-stages-of-construction-project-management/", label: "Project Management Stages" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -36,17 +36,17 @@ const relatedArticles = [
   },
   {
     "title": "Avoid Commercial Construction Delays",
-    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "href": "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
     "description": "Common causes of delays and strategies to prevent them."
   },
   {
     "title": "The Stages of Construction Project Management",
-    "href": "/the-stages-of-construction-project-management/",
+    "href": "/commercial/guides/the-stages-of-construction-project-management/",
     "description": "From preconstruction through closeout - managing each phase effectively."
   },
   {
     "title": "Building the Perfect Construction Blueprint",
-    "href": "/building-the-perfect-construction-blueprint/",
+    "href": "/commercial/guides/building-the-perfect-construction-blueprint/",
     "description": "How detailed planning documents set projects up for success."
   }
 ];

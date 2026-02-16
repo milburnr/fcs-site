@@ -24,30 +24,30 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
-  { href: "/construction-florida-leading-way-leed-certification/", label: "LEED Certification Services" },
+  { href: "/commercial/guides/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
+  { href: "/commercial/guides/construction-florida-leading-way-leed-certification/", label: "LEED Certification Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Florida Leading the Way in LEED Certification",
-    "href": "/construction-florida-leading-way-leed-certification/",
+    "href": "/commercial/guides/construction-florida-leading-way-leed-certification/",
     "description": "How Florida projects are achieving LEED certification for commercial buildings."
   },
   {
     "title": "Zero Net Energy in Commercial Construction",
-    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "href": "/commercial/guides/zero-net-energy-boosting-commercial-construction/",
     "description": "Designing commercial buildings that produce as much energy as they consume."
   },
   {
     "title": "Benefits of Sustainable Materials",
-    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "href": "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
     "description": "How green materials improve building performance and reduce costs."
   },
   {
     "title": "Green Contractor Certifications",
-    "href": "/green-contractor-certifications-in-commercial-construction/",
+    "href": "/commercial/guides/green-contractor-certifications-in-commercial-construction/",
     "description": "Understanding certifications that validate sustainable construction expertise."
   }
 ];

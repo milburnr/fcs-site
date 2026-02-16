@@ -287,11 +287,11 @@ const tampaFaqs = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation Services Overview" },
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "Complete SB4-D Compliance Guide" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "Complete SB4-D Compliance Guide" },
   { href: "/balcony-reconstruction-tampa/", label: "Balcony Reconstruction Tampa" },
   { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
   { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -653,7 +653,7 @@ export default function CondoRemediationTampaPage() {
                   ))}
                 </ul>
                 <Link
-                  href="/sb-4-d-compliance-tampa-bay-condos/"
+                  href="/insurance/guides/sb-4-d-compliance-tampa-bay-condos/"
                   className="text-red-800 font-semibold text-sm mt-4 inline-flex items-center gap-1 hover:underline"
                 >
                   Read Full SB4-D Guide <ArrowRight className="w-4 h-4" />

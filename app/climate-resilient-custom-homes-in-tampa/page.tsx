@@ -21,7 +21,7 @@ const internalLinks = [
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Construction" },
   { href: "/waterfront-custom-homes-in-tampa/", label: "Waterfront Custom Homes" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Homes" },
-  { href: "/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
+  { href: "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

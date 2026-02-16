@@ -50,8 +50,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
-  { href: "/condo-structural-reserve-study-repairs/", label: "SIRS Repair Planning" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
+  { href: "/commercial/guides/condo-structural-reserve-study-repairs/", label: "SIRS Repair Planning" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Building Waterproofing" },
   { href: "/commercial/", label: "Commercial Construction" },
@@ -61,22 +61,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Florida SB4-D Compliance Guide",
-    "href": "/florida-sb4d-compliance-guide/",
+    "href": "/insurance/guides/florida-sb4d-compliance-guide/",
     "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
   },
   {
     "title": "Effective Balcony Maintenance Tips",
-    "href": "/effective-balcony-maintenance-tips/",
+    "href": "/commercial/guides/effective-balcony-maintenance-tips/",
     "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   }
 ];
@@ -574,7 +574,7 @@ export default function SB4DCompliancePage() {
                   <li>• 365-day clock starts upon report receipt</li>
                   <li>• Must share report with all unit owners</li>
                   <li>• Engage remediation contractor</li>
-                  <li>• <Link href="/condo-milestone-inspection-remediation/" className="text-brand-green hover:underline font-medium">FCS can help →</Link></li>
+                  <li>• <Link href="/insurance/guides/condo-milestone-inspection-remediation/" className="text-brand-green hover:underline font-medium">FCS can help →</Link></li>
                 </ul>
               </div>
             </div>

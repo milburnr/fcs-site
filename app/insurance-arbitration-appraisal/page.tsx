@@ -82,12 +82,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Understanding Tampa Insurance Restoration Claims",
-    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "href": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
     "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
   },
   {
     "title": "Tampa Insurance Restoration for Hurricane Damage",
-    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "href": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
     "description": "Expert restoration services for properties damaged by Florida hurricanes."
   },
   {
@@ -97,7 +97,7 @@ const relatedArticles = [
   },
   {
     "title": "Impact of Climate Change on Tampa Insurance Restoration",
-    "href": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+    "href": "/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/",
     "description": "How changing weather patterns affect property damage and restoration needs."
   }
 ];

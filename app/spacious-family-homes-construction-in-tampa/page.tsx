@@ -19,9 +19,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
-  { href: "/tampas-custom-family-home-builders/", label: "Custom Family Home Builders" },
+  { href: "/residential/guides/tampas-custom-family-home-builders/", label: "Custom Family Home Builders" },
   { href: "/building-multi-generational-homes-in-tampa/", label: "Multi-Generational Homes" },
-  { href: "/tampa-custom-outdoor-living-spaces/", label: "Outdoor Living Spaces" },
+  { href: "/residential/guides/tampa-custom-outdoor-living-spaces/", label: "Outdoor Living Spaces" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

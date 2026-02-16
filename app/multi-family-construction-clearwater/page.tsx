@@ -502,7 +502,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
                 <li><Link href="/balcony-reconstruction-clearwater/" className="text-brand-green hover:underline">Balcony Reconstruction Clearwater</Link></li>
                 <li><Link href="/historic-restoration-clearwater/" className="text-brand-green hover:underline">Historic Restoration Clearwater</Link></li>
                 <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
-                <li><Link href="/florida-sb4d-compliance-guide/" className="text-brand-green hover:underline">Florida SB 4-D Compliance Guide</Link></li>
+                <li><Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-brand-green hover:underline">Florida SB 4-D Compliance Guide</Link></li>
               </ul>
             </div>
             <div>
@@ -520,7 +520,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
               <ul className="space-y-2">
                 <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
                 <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/sirs-structural-integrity-reserve-studies/" className="text-brand-green hover:underline">SIRS Reserve Studies</Link></li>
+                <li><Link href="/insurance/guides/sirs-structural-integrity-reserve-studies/" className="text-brand-green hover:underline">SIRS Reserve Studies</Link></li>
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
               </ul>

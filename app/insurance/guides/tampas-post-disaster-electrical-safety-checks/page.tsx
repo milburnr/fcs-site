@@ -46,7 +46,7 @@ const faqs = [
 const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/post-disaster-health-and-safety-inspections-in-tampa/", label: "Post-Disaster Safety Inspections" },
-  { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
+  { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
   { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
@@ -54,12 +54,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Understanding Tampa Insurance Restoration Claims",
-    "href": "/understanding-tampa-insurance-restoration-claims/",
+    "href": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
     "description": "Navigate the insurance claim process for property damage restoration in Tampa Bay."
   },
   {
     "title": "Tampa Insurance Restoration for Hurricane Damage",
-    "href": "/tampa-insurance-restoration-for-hurricane-damage/",
+    "href": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
     "description": "Expert restoration services for properties damaged by Florida hurricanes."
   },
   {

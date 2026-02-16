@@ -43,8 +43,8 @@ const faqs = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
-  { href: "/utility-mapping-for-commercial-buildings/", label: "Utility Mapping" },
+  { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
+  { href: "/commercial/guides/utility-mapping-for-commercial-buildings/", label: "Utility Mapping" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

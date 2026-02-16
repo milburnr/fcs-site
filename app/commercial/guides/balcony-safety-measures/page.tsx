@@ -22,31 +22,31 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Inspection Requirements" },
+  { href: "/commercial/guides/condo-balcony-inspection-requirements/", label: "SB4-D Inspection Requirements" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
-  { href: "/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
+  { href: "/commercial/guides/effective-balcony-maintenance-tips/", label: "Balcony Maintenance Tips" },
   { href: "/contact/", label: "Schedule an Inspection" },
 ];
 
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Florida SB4-D Compliance Guide",
-    "href": "/florida-sb4d-compliance-guide/",
+    "href": "/insurance/guides/florida-sb4d-compliance-guide/",
     "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
   },
   {
     "title": "Effective Balcony Maintenance Tips",
-    "href": "/effective-balcony-maintenance-tips/",
+    "href": "/commercial/guides/effective-balcony-maintenance-tips/",
     "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   }
 ];
@@ -269,7 +269,7 @@ export default function Page() {
               </div>
             </div>
             <div className="mt-8 text-center">
-              <Link href="/condo-balcony-inspection-requirements/" className="btn-cta">
+              <Link href="/commercial/guides/condo-balcony-inspection-requirements/" className="btn-cta">
                 Learn More About SB4-D Compliance
               </Link>
             </div>

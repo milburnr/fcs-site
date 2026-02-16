@@ -24,8 +24,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/custom-home-accessibility-features-in-tampa/", label: "Accessibility Features" },
-  { href: "/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -37,7 +37,7 @@ const relatedArticles = [
   },
   {
     "title": "Smart Home Integration in Tampa Custom Homes",
-    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "href": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
     "description": "Incorporating technology seamlessly into luxury home construction."
   },
   {
@@ -47,7 +47,7 @@ const relatedArticles = [
   },
   {
     "title": "Tampa Custom Homes with Green Building Practices",
-    "href": "/tampa-custom-homes-with-green-building-practices/",
+    "href": "/residential/guides/tampa-custom-homes-with-green-building-practices/",
     "description": "Sustainable construction for energy-efficient custom homes."
   }
 ];

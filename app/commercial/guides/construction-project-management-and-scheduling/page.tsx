@@ -21,8 +21,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/streamlining-your-design-build-project-timeline/", label: "Timeline Optimization" },
-  { href: "/avoid-commercial-construction-delays-in-florida/", label: "Avoiding Delays" },
+  { href: "/commercial/guides/streamlining-your-design-build-project-timeline/", label: "Timeline Optimization" },
+  { href: "/commercial/guides/avoid-commercial-construction-delays-in-florida/", label: "Avoiding Delays" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -31,7 +31,7 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "The Essential Duties of a Construction Manager",
-    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "href": "/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/",
     "description": "Understanding the construction manager's role in successful project delivery."
   },
   {
@@ -41,12 +41,12 @@ const relatedArticles = [
   },
   {
     "title": "Avoid Commercial Construction Delays",
-    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "href": "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
     "description": "Common causes of delays and strategies to prevent them."
   },
   {
     "title": "The Stages of Construction Project Management",
-    "href": "/the-stages-of-construction-project-management/",
+    "href": "/commercial/guides/the-stages-of-construction-project-management/",
     "description": "From preconstruction through closeout - managing each phase effectively."
   }
 ];

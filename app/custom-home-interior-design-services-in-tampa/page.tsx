@@ -19,9 +19,9 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
-  { href: "/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
-  { href: "/tampa-custom-homes-with-luxury-bathrooms/", label: "Luxury Bathrooms" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
+  { href: "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/", label: "Luxury Bathrooms" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

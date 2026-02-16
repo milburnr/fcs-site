@@ -60,11 +60,11 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
-  { href: "/condo-structural-reserve-study-repairs/", label: "SIRS Repair Planning" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
+  { href: "/commercial/guides/condo-structural-reserve-study-repairs/", label: "SIRS Repair Planning" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Building Waterproofing" },
-  { href: "/condo-balcony-inspection-requirements/", label: "Balcony Inspection Requirements" },
+  { href: "/commercial/guides/condo-balcony-inspection-requirements/", label: "Balcony Inspection Requirements" },
   { href: "/contact/", label: "Request Consultation" },
 ];
 

@@ -50,10 +50,10 @@ const commercialResources = [
     category: "Condo Remediation & Compliance",
     icon: Shield,
     articles: [
-      { title: "Florida SB4-D Compliance Guide", href: "/florida-sb4d-compliance-guide/", isNew: true },
-      { title: "Milestone Inspection Requirements", href: "/milestone-inspection-requirements/" },
-      { title: "SIRS Structural Integrity Reserve Studies", href: "/sirs-structural-integrity-reserve-studies/" },
-      { title: "Condo Balcony Inspection Requirements", href: "/condo-balcony-inspection-requirements/" }],
+      { title: "Florida SB4-D Compliance Guide", href: "/insurance/guides/florida-sb4d-compliance-guide/", isNew: true },
+      { title: "Milestone Inspection Requirements", href: "/insurance/guides/milestone-inspection-requirements/" },
+      { title: "SIRS Structural Integrity Reserve Studies", href: "/insurance/guides/sirs-structural-integrity-reserve-studies/" },
+      { title: "Condo Balcony Inspection Requirements", href: "/commercial/guides/condo-balcony-inspection-requirements/" }],
   },
   {
     category: "Multi-Family Construction",
@@ -71,7 +71,7 @@ const commercialResources = [
       { title: "Large Loss Commercial Restoration", href: "/disaster-recovery/" },
       { title: "Insurance Restoration for Condominiums", href: "/disaster-recovery/" },
       { title: "Common Area Reconstruction After Disasters", href: "/balcony-reconstruction/" },
-      { title: "Understanding Insurance Restoration Claims", href: "/understanding-tampa-insurance-restoration-claims/" }],
+      { title: "Understanding Insurance Restoration Claims", href: "/insurance/guides/understanding-tampa-insurance-restoration-claims/" }],
   }];
 
 const residentialResources = [
@@ -79,7 +79,7 @@ const residentialResources = [
     category: "South Tampa Regulatory",
     icon: FileText,
     articles: [
-      { title: "The Hyde Park Renovation Guide", href: "/hyde-park-renovation-guide/", isNew: true },
+      { title: "The Hyde Park Renovation Guide", href: "/commercial/guides/hyde-park-renovation-guide/", isNew: true },
       { title: "Certificate of Appropriateness Process", href: "/historic-restoration-tampa/", isNew: true },
       { title: "South Tampa Historic District Guide", href: "/historic-restoration-tampa/", isNew: true },
       { title: "Sourcing Historic Materials Tampa Bay", href: "/historic-restoration/" }],
@@ -88,9 +88,9 @@ const residentialResources = [
     category: "Coastal Resilience & FEMA",
     icon: Waves,
     articles: [
-      { title: "The FEMA 50% Rule Explained", href: "/fema-50-percent-rule-explained/", isNew: true },
-      { title: "Flood Zone VE vs AE Guide", href: "/flood-zone-ve-vs-ae-guide/" },
-      { title: "Breakaway Wall Construction Requirements", href: "/breakaway-wall-construction-requirements/" },
+      { title: "The FEMA 50% Rule Explained", href: "/insurance/guides/fema-50-percent-rule-explained/", isNew: true },
+      { title: "Flood Zone VE vs AE Guide", href: "/insurance/guides/flood-zone-ve-vs-ae-guide/" },
+      { title: "Breakaway Wall Construction Requirements", href: "/insurance/guides/breakaway-wall-construction-requirements/" },
       { title: "Waterproofing Historic Masonry", href: "/historic-restoration/" }],
   },
   {
@@ -303,7 +303,7 @@ export default function ResourcesPage() {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link
-              href="/fema-50-percent-rule-explained/"
+              href="/insurance/guides/fema-50-percent-rule-explained/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-gold-bg transition-colors"
             >
               <Shield className="w-8 h-8 text-brand-gold mb-3" />
@@ -315,7 +315,7 @@ export default function ResourcesPage() {
               </p>
             </Link>
             <Link
-              href="/florida-sb4d-compliance-guide/"
+              href="/insurance/guides/florida-sb4d-compliance-guide/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-green-light transition-colors"
             >
               <Building2 className="w-8 h-8 text-brand-green mb-3" />
@@ -327,7 +327,7 @@ export default function ResourcesPage() {
               </p>
             </Link>
             <Link
-              href="/hyde-park-renovation-guide/"
+              href="/commercial/guides/hyde-park-renovation-guide/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-gold-bg transition-colors"
             >
               <Landmark className="w-8 h-8 text-brand-gold mb-3" />

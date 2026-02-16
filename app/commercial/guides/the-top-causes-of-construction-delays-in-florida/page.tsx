@@ -22,8 +22,8 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/common-construction-mistakes-to-avoid-for-commercial-project/", label: "Construction Mistakes to Avoid" },
-  { href: "/the-stages-of-construction-project-management/", label: "Project Management Stages" },
+  { href: "/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/", label: "Construction Mistakes to Avoid" },
+  { href: "/commercial/guides/the-stages-of-construction-project-management/", label: "Project Management Stages" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -31,7 +31,7 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "The Essential Duties of a Construction Manager",
-    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "href": "/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/",
     "description": "Understanding the construction manager's role in successful project delivery."
   },
   {
@@ -41,12 +41,12 @@ const relatedArticles = [
   },
   {
     "title": "Avoid Commercial Construction Delays",
-    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "href": "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
     "description": "Common causes of delays and strategies to prevent them."
   },
   {
     "title": "The Stages of Construction Project Management",
-    "href": "/the-stages-of-construction-project-management/",
+    "href": "/commercial/guides/the-stages-of-construction-project-management/",
     "description": "From preconstruction through closeout - managing each phase effectively."
   }
 ];

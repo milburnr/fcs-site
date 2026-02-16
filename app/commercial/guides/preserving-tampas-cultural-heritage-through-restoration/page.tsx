@@ -31,12 +31,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Tampa Historic Restoration Permits and Regulations",
-    "href": "/tampa-historic-restoration-permits-and-regulations/",
+    "href": "/commercial/guides/tampa-historic-restoration-permits-and-regulations/",
     "description": "Navigate Tampa's historic restoration permit process including COA requirements and SHPO review."
   },
   {
     "title": "Architectural Styles in Tampa's Historic Restoration",
-    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "href": "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
     "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
   },
   {
@@ -46,7 +46,7 @@ const relatedArticles = [
   },
   {
     "title": "Tampa's Historic Districts Restoration Rules",
-    "href": "/tampas-historic-districts-restoration-rules/",
+    "href": "/commercial/guides/tampas-historic-districts-restoration-rules/",
     "description": "Guidelines for restoration projects in Tampa's designated historic areas."
   }
 ];

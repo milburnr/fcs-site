@@ -23,15 +23,15 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/pre-construction-services-tampa/", label: "Pre-Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
-  { href: "/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
+  { href: "/commercial/guides/benefits-of-value-engineering-for-construction/", label: "Value Engineering Benefits" },
+  { href: "/commercial/guides/financial-planning-for-commercial-construction/", label: "Financial Planning Guide" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "The Essential Duties of a Construction Manager",
-    "href": "/the-essential-duties-of-a-construction-manager-in-florida/",
+    "href": "/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/",
     "description": "Understanding the construction manager's role in successful project delivery."
   },
   {
@@ -41,12 +41,12 @@ const relatedArticles = [
   },
   {
     "title": "Avoid Commercial Construction Delays",
-    "href": "/avoid-commercial-construction-delays-in-florida/",
+    "href": "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
     "description": "Common causes of delays and strategies to prevent them."
   },
   {
     "title": "The Stages of Construction Project Management",
-    "href": "/the-stages-of-construction-project-management/",
+    "href": "/commercial/guides/the-stages-of-construction-project-management/",
     "description": "From preconstruction through closeout - managing each phase effectively."
   }
 ];

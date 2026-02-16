@@ -23,30 +23,30 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
-  { href: "/discover-the-benefits-of-exterior-waterproofing/", label: "Benefits of Exterior Waterproofing" },
-  { href: "/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
+  { href: "/commercial/guides/discover-the-benefits-of-exterior-waterproofing/", label: "Benefits of Exterior Waterproofing" },
+  { href: "/commercial/guides/condo-balcony-inspection-requirements/", label: "SB4-D Compliance Requirements" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Florida SB4-D Compliance Guide",
-    "href": "/florida-sb4d-compliance-guide/",
+    "href": "/insurance/guides/florida-sb4d-compliance-guide/",
     "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
   },
   {
     "title": "Effective Balcony Maintenance Tips",
-    "href": "/effective-balcony-maintenance-tips/",
+    "href": "/commercial/guides/effective-balcony-maintenance-tips/",
     "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   }
 ];

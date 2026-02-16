@@ -271,8 +271,8 @@ const sarasotaFaqs = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation Services" },
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },

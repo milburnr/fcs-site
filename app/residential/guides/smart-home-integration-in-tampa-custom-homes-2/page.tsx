@@ -31,7 +31,7 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Tampa's Custom Family Home Builders",
-    "href": "/tampas-custom-family-home-builders/",
+    "href": "/residential/guides/tampas-custom-family-home-builders/",
     "description": "What to look for when selecting a builder for your Tampa Bay dream home."
   },
   {
@@ -46,7 +46,7 @@ const relatedArticles = [
   },
   {
     "title": "Tampa Custom Homes with Green Building Practices",
-    "href": "/tampa-custom-homes-with-green-building-practices/",
+    "href": "/residential/guides/tampa-custom-homes-with-green-building-practices/",
     "description": "Sustainable construction for energy-efficient custom homes."
   }
 ];

@@ -20,7 +20,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Guide" },
-  { href: "/hire-licensed-contractors-for-commercial-construction-project/", label: "Licensing Requirements" },
+  { href: "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/", label: "Licensing Requirements" },
   { href: "/leading-commercial-contractors-in-tampa/", label: "Leading Tampa Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

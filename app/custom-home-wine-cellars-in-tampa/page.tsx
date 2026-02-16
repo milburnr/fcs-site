@@ -18,7 +18,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Entertainment Spaces" },
   { href: "/crafting-custom-home-libraries-in-tampa/", label: "Custom Libraries" },
   { href: "/residential/", label: "Residential Construction" },

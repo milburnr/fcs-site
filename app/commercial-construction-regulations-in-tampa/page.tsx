@@ -19,9 +19,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/commercial-construction-stages-in-florida/", label: "Construction Stages" },
-  { href: "/tampa-commercial-construction-bidding-process/", label: "Bidding Process" },
-  { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
+  { href: "/commercial/guides/commercial-construction-stages-in-florida/", label: "Construction Stages" },
+  { href: "/commercial/guides/tampa-commercial-construction-bidding-process/", label: "Bidding Process" },
+  { href: "/commercial/guides/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

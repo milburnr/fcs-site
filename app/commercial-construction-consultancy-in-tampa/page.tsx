@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/tampa-commercial-construction-planning-services/", label: "Planning Services" },
+  { href: "/commercial/guides/tampa-commercial-construction-planning-services/", label: "Planning Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Guide" },
   { href: "/contact/", label: "Schedule a Consultation" },

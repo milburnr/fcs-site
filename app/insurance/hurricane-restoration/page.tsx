@@ -86,7 +86,7 @@ const relatedLinks = [
   { href: "/insurance/fire-restoration/", label: "Fire Damage Restoration" },
   { href: "/insurance/certified-estimating/", label: "Certified Estimating" },
   { href: "/insurance/appraisal-arbitration/", label: "Appraisal & Arbitration" },
-  { href: "/tampa-insurance-restoration-for-hurricane-damage/", label: "Hurricane Insurance Claims Guide" },
+  { href: "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/", label: "Hurricane Insurance Claims Guide" },
 ];
 
 // Rotate through hurricane hero images

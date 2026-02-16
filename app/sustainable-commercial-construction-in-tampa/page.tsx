@@ -20,8 +20,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
-  { href: "/zero-net-energy-boosting-commercial-construction/", label: "Zero Net Energy Construction" },
+  { href: "/commercial/guides/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
+  { href: "/commercial/guides/zero-net-energy-boosting-commercial-construction/", label: "Zero Net Energy Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

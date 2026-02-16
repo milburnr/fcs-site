@@ -23,30 +23,30 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling Contractors" },
-  { href: "/maximize-savings-on-commercial-renovation/", label: "Maximize Renovation Savings" },
+  { href: "/commercial/guides/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling Contractors" },
+  { href: "/commercial/guides/maximize-savings-on-commercial-renovation/", label: "Maximize Renovation Savings" },
   { href: "/contact/", label: "Get Free Estimate" },
 ];
 
 const relatedArticles = [
   {
     "title": "Mastering Commercial Construction Design in Florida",
-    "href": "/mastering-commercial-construction-design-in-florida/",
+    "href": "/commercial/guides/mastering-commercial-construction-design-in-florida/",
     "description": "Learn the ins and outs of architectural design and commercial building design with our comprehensive guide for Florida projects."
   },
   {
     "title": "Benefits of Design-Build for Commercial Projects",
-    "href": "/benefits-of-design-build-construction-for-commercial-project/",
+    "href": "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
     "description": "Discover how design-build delivery streamlines commercial construction with single-source accountability."
   },
   {
     "title": "Commercial Construction Budgeting Tips",
-    "href": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+    "href": "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
     "description": "Expert strategies for developing and managing budgets for commercial construction in Florida."
   },
   {
     "title": "Key Questions for Florida's Top Commercial Contractor",
-    "href": "/key-questions-for-floridas-top-commercial-contractor/",
+    "href": "/commercial/guides/key-questions-for-floridas-top-commercial-contractor/",
     "description": "Essential questions to ask before hiring a commercial contractor for your Florida project."
   }
 ];

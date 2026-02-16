@@ -21,9 +21,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/tampa-commercial-construction-trends-updates-2024/", label: "2024 Construction Trends" },
+  { href: "/commercial/guides/tampa-commercial-construction-trends-updates-2024/", label: "2024 Construction Trends" },
   { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
-  { href: "/tampa-commercial-construction-networking-events/", label: "Networking Events" },
+  { href: "/commercial/guides/tampa-commercial-construction-networking-events/", label: "Networking Events" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

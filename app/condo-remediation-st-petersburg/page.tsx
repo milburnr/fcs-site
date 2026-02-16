@@ -253,7 +253,7 @@ const commonIssues = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "SB4-D & Condo Remediation Guide" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/balcony-reconstruction-clearwater/", label: "Clearwater Balcony Services" },

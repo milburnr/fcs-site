@@ -27,9 +27,9 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/commercial/guides/balcony-restoration-services/", label: "Balcony Restoration Services" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -37,22 +37,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Florida SB4-D Compliance Guide",
-    "href": "/florida-sb4d-compliance-guide/",
+    "href": "/insurance/guides/florida-sb4d-compliance-guide/",
     "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
   },
   {
     "title": "Effective Balcony Maintenance Tips",
-    "href": "/effective-balcony-maintenance-tips/",
+    "href": "/commercial/guides/effective-balcony-maintenance-tips/",
     "description": "Proactive maintenance strategies to extend balcony lifespan and prevent costly repairs."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   }
 ];

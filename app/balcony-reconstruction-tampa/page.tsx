@@ -207,9 +207,9 @@ const tampaFaqs = [
 ];
 
 const internalLinks = [
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
-  { href: "/condo-structural-reserve-study-repairs/", label: "Structural Reserve Studies" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/commercial/guides/condo-structural-reserve-study-repairs/", label: "Structural Reserve Studies" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -487,7 +487,7 @@ export default function BalconyReconstructionTampaPage() {
                   </li>
                 </ul>
                 <Link
-                  href="/florida-sb4d-compliance-guide/"
+                  href="/insurance/guides/florida-sb4d-compliance-guide/"
                   className="text-amber-800 font-semibold text-sm mt-4 inline-flex items-center gap-1 hover:underline"
                 >
                   Read Full SB4-D Guide <ArrowRight className="w-4 h-4" />

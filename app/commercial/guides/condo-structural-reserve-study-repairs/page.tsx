@@ -60,8 +60,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB 4-D Compliance Guide" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/commercial/", label: "Commercial Construction" },

@@ -23,30 +23,30 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
-  { href: "/zero-net-energy-boosting-commercial-construction/", label: "Zero Net Energy Construction" },
+  { href: "/commercial/guides/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
+  { href: "/commercial/guides/zero-net-energy-boosting-commercial-construction/", label: "Zero Net Energy Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Sustainable Building Practices in Florida",
-    "href": "/sustainable-building-practices-florida-green-construction/",
+    "href": "/commercial/guides/sustainable-building-practices-florida-green-construction/",
     "description": "Green construction methods suited to Florida's climate and regulations."
   },
   {
     "title": "Florida Leading the Way in LEED Certification",
-    "href": "/construction-florida-leading-way-leed-certification/",
+    "href": "/commercial/guides/construction-florida-leading-way-leed-certification/",
     "description": "How Florida projects are achieving LEED certification for commercial buildings."
   },
   {
     "title": "Zero Net Energy in Commercial Construction",
-    "href": "/zero-net-energy-boosting-commercial-construction/",
+    "href": "/commercial/guides/zero-net-energy-boosting-commercial-construction/",
     "description": "Designing commercial buildings that produce as much energy as they consume."
   },
   {
     "title": "Benefits of Sustainable Materials",
-    "href": "/benefits-of-sustainable-materials-in-commercial-construction/",
+    "href": "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
     "description": "How green materials improve building performance and reduce costs."
   }
 ];

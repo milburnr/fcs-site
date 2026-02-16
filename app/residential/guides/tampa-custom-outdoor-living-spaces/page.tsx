@@ -23,15 +23,15 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/services/luxury-custom-homes/", label: "Waterfront Home Construction" },
-  { href: "/customized-outdoor-sports-facilities-in-tampa-homes/", label: "Outdoor Sports Facilities" },
-  { href: "/tampas-custom-family-home-builders/", label: "Custom Family Homes" },
+  { href: "/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/", label: "Outdoor Sports Facilities" },
+  { href: "/residential/guides/tampas-custom-family-home-builders/", label: "Custom Family Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Tampa's Custom Family Home Builders",
-    "href": "/tampas-custom-family-home-builders/",
+    "href": "/residential/guides/tampas-custom-family-home-builders/",
     "description": "What to look for when selecting a builder for your Tampa Bay dream home."
   },
   {
@@ -41,7 +41,7 @@ const relatedArticles = [
   },
   {
     "title": "Smart Home Integration in Tampa Custom Homes",
-    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "href": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
     "description": "Incorporating technology seamlessly into luxury home construction."
   },
   {

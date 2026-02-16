@@ -31,12 +31,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Preserving Tampa's Cultural Heritage",
-    "href": "/preserving-tampas-cultural-heritage-through-restoration/",
+    "href": "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
     "description": "How thoughtful restoration projects maintain Tampa Bay's architectural legacy."
   },
   {
     "title": "Architectural Styles in Tampa's Historic Restoration",
-    "href": "/architectural-styles-in-tampas-historic-restoration/",
+    "href": "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
     "description": "Understanding the diverse architectural heritage of Tampa's historic districts."
   },
   {
@@ -46,7 +46,7 @@ const relatedArticles = [
   },
   {
     "title": "Tampa's Historic Districts Restoration Rules",
-    "href": "/tampas-historic-districts-restoration-rules/",
+    "href": "/commercial/guides/tampas-historic-districts-restoration-rules/",
     "description": "Guidelines for restoration projects in Tampa's designated historic areas."
   }
 ];

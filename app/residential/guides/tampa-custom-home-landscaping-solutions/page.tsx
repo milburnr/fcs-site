@@ -24,14 +24,14 @@ const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/waterfront-custom-homes-in-tampa/", label: "Waterfront Custom Homes" },
   { href: "/eco-friendly-custom-homes-in-tampa/", label: "Eco-Friendly Homes" },
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 const relatedArticles = [
   {
     "title": "Tampa's Custom Family Home Builders",
-    "href": "/tampas-custom-family-home-builders/",
+    "href": "/residential/guides/tampas-custom-family-home-builders/",
     "description": "What to look for when selecting a builder for your Tampa Bay dream home."
   },
   {
@@ -41,7 +41,7 @@ const relatedArticles = [
   },
   {
     "title": "Smart Home Integration in Tampa Custom Homes",
-    "href": "/smart-home-integration-in-tampa-custom-homes-2/",
+    "href": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
     "description": "Incorporating technology seamlessly into luxury home construction."
   },
   {

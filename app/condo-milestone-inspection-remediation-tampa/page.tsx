@@ -51,10 +51,10 @@ const faqs = [
 
 const internalLinks = [
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/condo-balcony-inspection-requirements/", label: "Condo Balcony Inspection Requirements" },
+  { href: "/commercial/guides/condo-balcony-inspection-requirements/", label: "Condo Balcony Inspection Requirements" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
-  { href: "/balcony-restoration-and-exterior-waterproofing-for-longevity/", label: "Balcony Restoration & Waterproofing" },
-  { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
+  { href: "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/", label: "Balcony Restoration & Waterproofing" },
+  { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
   { href: "/contact/", label: "Request Remediation Estimate" },
 ];
 

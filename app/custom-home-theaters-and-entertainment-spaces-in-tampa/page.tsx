@@ -18,8 +18,8 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
-  { href: "/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
+  { href: "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
+  { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/custom-home-wine-cellars-in-tampa/", label: "Wine Cellar Design" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },

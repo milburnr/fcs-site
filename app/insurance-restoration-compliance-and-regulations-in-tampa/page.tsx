@@ -43,8 +43,8 @@ const faqs = [
 
 const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/tampas-building-codes-for-insurance-restoration/", label: "Tampa Building Codes" },
-  { href: "/understanding-tampa-insurance-restoration-claims/", label: "Understanding Insurance Claims" },
+  { href: "/insurance/guides/tampas-building-codes-for-insurance-restoration/", label: "Tampa Building Codes" },
+  { href: "/insurance/guides/understanding-tampa-insurance-restoration-claims/", label: "Understanding Insurance Claims" },
   { href: "/property-damage-assessment-for-insurance-claims-in-tampa/", label: "Property Damage Assessment" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

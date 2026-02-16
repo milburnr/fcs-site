@@ -1,0 +1,2651 @@
+{
+  "generated": "2026-02-16T20:30:27.971Z",
+  "totalFilesScanned": 427,
+  "totalFilesUpdated": 274,
+  "totalReplacementsCount": 999,
+  "updates": [
+    {
+      "file": "app/advanced-building-materials-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/affordable-commercial-construction-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-commercial-construction-costs/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-bradenton/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-brandon/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-clearwater/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-lakeland/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-ruskin/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-sarasota/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-st-petersburg/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/balcony-reconstruction-tampa/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/",
+        "/condo-structural-reserve-study-repairs/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/building-multi-generational-homes-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/"
+      ]
+    },
+    {
+      "file": "app/choosing-materials-for-commercial-construction-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-commercial-construction-costs/"
+      ]
+    },
+    {
+      "file": "app/climate-resilient-custom-homes-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/hire-licensed-contractors-for-commercial-construction-project/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/architectural-styles-in-tampas-historic-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/tampas-historic-districts-restoration-rules/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/avoid-commercial-construction-delays-in-florida/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/commercial-construction-stages-in-florida/",
+        "/construction-project-management-and-scheduling/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/balcony-reconstruction-exterior-waterproofing/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/",
+        "/condo-structural-reserve-study-repairs/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/balcony-restoration-services/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/effective-balcony-maintenance-tips/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/balcony-safety-measures/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/condo-balcony-inspection-requirements/",
+        "/effective-balcony-maintenance-tips/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/balcony-waterproofing-for-long-lasting-protection/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/",
+        "/balcony-restoration-services/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/benefits-of-design-build-construction-for-commercial-project/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/commercial-construction-stages-in-florida/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/",
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/benefits-of-value-engineering-for-construction/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/decoding-value-engineering-florida-construction-expertise/",
+        "/financial-planning-for-commercial-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/boosting-performance-in-florida-offices-windows/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/employee-communication-with-office-layout/",
+        "/expert-insights-on-ways-t0-enhanced-office-building-security/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/build-a-successful-future-in-construction-management/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/the-role-of-a-construction-manager/",
+        "/the-stages-of-construction-project-management/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/building-plans-for-businesses-florida-construction-specialists/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/building-strong-communities-through-community-outreach/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/building-the-perfect-construction-blueprint/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/the-stages-of-construction-project-management/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/choose-between-general-contractor-and-construction-manager/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/the-role-of-a-construction-manager/",
+        "/the-stages-of-construction-project-management/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/choosing-the-perfect-location-for-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/discover-the-benefits-of-exterior-waterproofing/",
+        "/condo-balcony-inspection-requirements/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/church-renovation-tips-from-top-commercial-contractor/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/maximize-savings-on-commercial-renovation/",
+        "/revitalize-your-older-building-renovation-and-reconstruction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-buildings-facade-renovations/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/revitalize-your-older-building-renovation-and-reconstruction/",
+        "/key-signs-your-commercial-remodel-needs/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-commercial-construction-costs/",
+        "/tampa-commercial-construction-bidding-process/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/tips-for-commercial-renovation-in-florida/",
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-delays/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-ideas-for-mall-revamp/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/revitalize-your-older-building-renovation-and-reconstruction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-insurance-coverage/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/hire-licensed-contractors-for-commercial-construction-project/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-questions-answered/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-stages-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-commercial-construction-costs/",
+        "/commercial-construction-stages-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/the-top-causes-of-construction-delays-in-florida/",
+        "/key-questions-for-floridas-top-commercial-contractor/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/condo-balcony-inspection-requirements/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/milestone-inspection-requirements/",
+        "/sirs-structural-integrity-reserve-studies/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/condo-structural-reserve-study-repairs/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/condo-milestone-inspection-remediation/",
+        "/sb-4-d-compliance-tampa-bay-condos/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/construction-florida-leading-way-leed-certification/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/",
+        "/sustainable-building-practices-florida-green-construction/",
+        "/benefits-of-sustainable-materials-in-commercial-construction/",
+        "/green-contractor-certifications-in-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/construction-project-management-and-scheduling/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/streamlining-your-design-build-project-timeline/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/the-stages-of-construction-project-management/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/construction-quotes-for-commercial-project/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/financial-planning-for-commercial-construction/",
+        "/expert-tips-for-planning-your-commercial-construction-project/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/converting-retail-building-into-multi-tenant-space/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/building-the-perfect-construction-blueprint/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-custom-outdoor-living-spaces/",
+        "/tampas-custom-family-home-builders/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/decoding-commercial-construction-costs/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/financial-planning-for-commercial-construction/",
+        "/construction-quotes-for-commercial-project/",
+        "/unveiling-floridas-top-hidden-commercial-construction-costs/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/decoding-value-engineering-florida-construction-expertise/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/benefits-of-value-engineering-for-construction/",
+        "/financial-planning-for-commercial-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/demystifying-commercial-construction-insurance-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/discover-the-benefits-of-exterior-waterproofing/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+        "/condo-balcony-inspection-requirements/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/top-balcony-flooring-materials-for-style-durability/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/balcony-restoration-services/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/effective-balcony-maintenance-tips/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/balcony-restoration-services/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/top-balcony-flooring-materials-for-style-durability/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/condo-balcony-inspection-requirements/",
+        "/choosing-the-right-waterproofing-solution-your-ultimate-guide/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/ultimate-waterproofing-guide-foundations/",
+        "/waterproofing-commercial-contractors/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/commercial-construction-stages-in-florida/",
+        "/tampa-commercial-construction-costs/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/employee-communication-with-office-layout/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/boosting-performance-in-florida-offices-windows/",
+        "/maximize-work-area-efficiency-for-commercial-space-solutions/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/enhancing-commercial-property-value/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-commercial-real-estate-development/",
+        "/investing-in-commercial-real-estate-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/ensuring-construction-site-safety-a-top-priority/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/safety-first-in-florida-commercial-construction-projects/",
+        "/summer-construction-safety-tips-from-top-contractors/",
+        "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+        "/tampa-commercial-construction-safety-standards/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/experienced-design-build-firm-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/balcony-restoration-services/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/stylish-balcony-railing-designs-for-your-outdoor-space/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/employee-communication-with-office-layout/",
+        "/boosting-performance-in-florida-offices-windows/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/financial-planning-for-commercial-construction/",
+        "/construction-project-management-and-scheduling/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/effective-exterior-waterproofing-methods-for-your-property/",
+        "/ultimate-waterproofing-guide-foundations/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/factors-influencing-commercial-construction-project-timeline/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/financial-planning-for-commercial-construction/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/construction-quotes-for-commercial-project/",
+        "/benefits-of-value-engineering-for-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tips-for-post-construction-in-florida-commercial-sector/",
+        "/construction-project-management-and-scheduling/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/green-contractor-certifications-in-commercial-construction/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/construction-florida-leading-way-leed-certification/",
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/guide-to-waterproofing-solutions-for-basements/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/ultimate-waterproofing-guide-foundations/",
+        "/waterproofing-commercial-contractors/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/key-questions-for-floridas-top-commercial-contractor/",
+        "/commercial-construction-stages-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/historic-restoration-preservation/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/historical-accuracy-in-tampa-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/how-technology-is-revolutionizing-the-construction-process/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/the-essential-role-of-florida-construction-specialists/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/hyde-park-renovation-guide/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/balcony-restoration-services/",
+        "/stylish-balcony-railing-designs-for-your-outdoor-space/",
+        "/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/investing-in-commercial-real-estate-construction/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-commercial-real-estate-development/",
+        "/enhancing-commercial-property-value/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/is-your-commercial-building-remodel-ready/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/key-questions-for-floridas-top-commercial-contractor/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/key-signs-your-commercial-remodel-needs/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/is-your-commercial-building-remodel-ready/",
+        "/tampas-premier-commercial-remodeling-contractors/",
+        "/maximize-savings-on-commercial-renovation/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/leading-commercial-contractors-in-tampas/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/mastering-commercial-construction-design-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/",
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/maximize-savings-on-commercial-renovation/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/",
+        "/is-your-commercial-building-remodel-ready/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/maximize-work-area-efficiency-for-commercial-space-solutions/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/employee-communication-with-office-layout/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/post-construction-process-for-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/architectural-styles-in-tampas-historic-restoration/",
+        "/tampas-historic-districts-restoration-rules/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/renovating-vs-new-construction-florida/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/revitalize-your-older-building-renovation-and-reconstruction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/renovating-your-commercial-space-in-florida/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/key-signs-your-commercial-remodel-needs/",
+        "/maximize-savings-on-commercial-renovation/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/commercial-buildings-facade-renovations/",
+        "/renovating-vs-new-construction-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/revolutionizing-commercial-construction-florida/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/the-preconstruction-modern-approach-design/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/safety-first-in-florida-commercial-construction-projects/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/ensuring-construction-site-safety-a-top-priority/",
+        "/summer-construction-safety-tips-from-top-contractors/",
+        "/tampa-commercial-construction-permits/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/skilled-project-managers-for-florida-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/streamlining-your-design-build-project-timeline/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/construction-project-management-and-scheduling/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/the-preconstruction-modern-approach-design/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/the-stages-of-construction-project-management/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/balcony-restoration-services/",
+        "/expert-balcony-construction-guidelines-for-optimal-results/",
+        "/top-balcony-flooring-materials-for-style-durability/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/subcontractors-in-florida-commercial-construction/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/tampa-commercial-construction-companies/",
+        "/tampa-commercial-construction-bidding-process/",
+        "/commercial-construction-stages-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/summer-construction-safety-tips-from-top-contractors/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/ensuring-construction-site-safety-a-top-priority/",
+        "/safety-first-in-florida-commercial-construction-projects/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/surviving-a-commercial-construction-project/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/expert-tips-for-planning-your-commercial-construction-project/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/construction-project-management-and-scheduling/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/sustainable-building-materials-in-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/sustainable-building-practices-florida-green-construction/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/construction-florida-leading-way-leed-certification/",
+        "/zero-net-energy-boosting-commercial-construction/",
+        "/benefits-of-sustainable-materials-in-commercial-construction/",
+        "/green-contractor-certifications-in-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/sustainable-commercial-construction-in-tampa-2/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/sustainable-construction-trends-in-florida/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/",
+        "/sustainable-building-practices-florida-green-construction/",
+        "/construction-florida-leading-way-leed-certification/",
+        "/benefits-of-sustainable-materials-in-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-bidding-process/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/tampa-commercial-construction-companies/",
+        "/tampa-commercial-construction-costs/",
+        "/commercial-construction-stages-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-companies/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/tampa-commercial-construction-bidding-process/",
+        "/tampa-commercial-construction-costs/",
+        "/subcontractors-in-florida-commercial-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-costs/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-job-opportunities/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-market-analysis/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampa-commercial-construction-costs/",
+        "/tampa-commercial-construction-companies/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-networking-events/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/tampa-commercial-construction-trends-updates-2024/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-permits/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-safety-standards/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-construction-trends-updates-2024/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/tampas-latest-commercial-construction-projects/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-commercial-real-estate-development/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/investing-in-commercial-real-estate-construction/",
+        "/enhancing-commercial-property-value/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-historic-home-restoration-guidelines/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-historic-restoration-permits-and-regulations/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/",
+        "/tampas-historic-districts-restoration-rules/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampa-historic-restoration-workshops-and-training/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-awards-for-historic-restoration-excellence/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-commercial-construction-laws/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-historic-districts-restoration-rules/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-historic-restoration-zoning-laws/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-historical-societies-and-restoration-efforts/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-latest-commercial-construction-projects/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-commercial-construction-trends-updates-2024/",
+        "/tampa-commercial-construction-networking-events/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tampas-premier-commercial-remodeling-contractors/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/key-signs-your-commercial-remodel-needs/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/the-role-of-a-construction-manager/",
+        "/choose-between-general-contractor-and-construction-manager/",
+        "/the-stages-of-construction-project-management/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/building-the-perfect-construction-blueprint/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-essential-role-of-florida-construction-specialists/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-preconstruction-modern-approach-design/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/benefits-of-value-engineering-for-construction/",
+        "/financial-planning-for-commercial-construction/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/the-stages-of-construction-project-management/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-role-of-a-construction-manager/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/choose-between-general-contractor-and-construction-manager/",
+        "/the-stages-of-construction-project-management/",
+        "/avoid-commercial-construction-delays-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-stages-of-construction-project-management/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/the-role-of-a-construction-manager/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/build-a-successful-future-in-construction-management/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/the-top-causes-of-construction-delays-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/common-construction-mistakes-to-avoid-for-commercial-project/",
+        "/the-stages-of-construction-project-management/",
+        "/the-essential-duties-of-a-construction-manager-in-florida/",
+        "/avoid-commercial-construction-delays-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tips-for-commercial-renovation-in-florida/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/",
+        "/maximize-savings-on-commercial-renovation/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tips-for-negotiating-property-purchases-in-florida/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/tampa-commercial-real-estate-development/",
+        "/investing-in-commercial-real-estate-construction/",
+        "/enhancing-commercial-property-value/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/florida-construction-specialists-mastering-your-post-construction-checklist/",
+        "/avoid-commercial-construction-delays-in-florida/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/top-balcony-flooring-materials-for-style-durability/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/balcony-restoration-services/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/top-commercial-construction-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/top-commercial-construction-trends/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/top-commercial-contractor-with-quality-control/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/ultimate-waterproofing-guide-foundations/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/guide-to-waterproofing-solutions-for-basements/",
+        "/waterproofing-commercial-contractors/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/unlocking-commercial-construction-permits/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/unlocking-the-power-of-sustainable-construction/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/",
+        "/sustainable-building-practices-florida-green-construction/",
+        "/construction-florida-leading-way-leed-certification/",
+        "/benefits-of-sustainable-materials-in-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/decoding-commercial-construction-costs/",
+        "/financial-planning-for-commercial-construction/",
+        "/construction-quotes-for-commercial-project/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/upgrade-commercial-sprinklers-during-renovation/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/maximize-savings-on-commercial-renovation/",
+        "/key-signs-your-commercial-remodel-needs/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/utility-mapping-for-commercial-buildings/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/ensuring-construction-site-safety-a-top-priority/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/value-engineering-in-commercial-construction/page.tsx",
+      "replacements": 7,
+      "oldUrls": [
+        "/benefits-of-value-engineering-for-construction/",
+        "/decoding-value-engineering-florida-construction-expertise/",
+        "/financial-planning-for-commercial-construction/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/waterproofing-commercial-contractors/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/ultimate-waterproofing-guide-foundations/",
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/balcony-waterproofing-for-long-lasting-protection/",
+        "/ultimate-waterproofing-guide-foundations/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/commercial/guides/zero-net-energy-boosting-commercial-construction/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/commercial-construction-consultancy-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-commercial-construction-planning-services/"
+      ]
+    },
+    {
+      "file": "app/commercial-construction-regulations-in-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/commercial-construction-stages-in-florida/",
+        "/tampa-commercial-construction-bidding-process/",
+        "/tampa-commercial-construction-costs/"
+      ]
+    },
+    {
+      "file": "app/commercial-construction-wants-vs-needs-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-commercial-construction-planning-services/"
+      ]
+    },
+    {
+      "file": "app/commercial-property-damage-restoration-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/commercial-roofing-services-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/top-commercial-contractor-for-roof-repair-and-replacement/"
+      ]
+    },
+    {
+      "file": "app/complete-property-overhaul-after-disasters-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-disaster-related-demolition-services/"
+      ]
+    },
+    {
+      "file": "app/condo-milestone-inspection-remediation-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/condo-balcony-inspection-requirements/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/structural-integrity-evaluation-in-tampa-post-disaster/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-bradenton/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-brandon/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-ruskin/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-sarasota/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-st-petersburg/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/condo-remediation-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/crafting-custom-home-libraries-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/building-tampa-homes-with-personalized-office-spaces/",
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/custom-home-accessibility-features-in-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/",
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampa-custom-homes-with-luxury-bathrooms/"
+      ]
+    },
+    {
+      "file": "app/custom-home-interior-design-services-in-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/creating-unique-bedrooms-in-tampa-custom-homes/",
+        "/tampa-custom-homes-with-luxury-bathrooms/"
+      ]
+    },
+    {
+      "file": "app/custom-home-theaters-and-entertainment-spaces-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/smart-home-integration-in-tampa-custom-homes-2/",
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/custom-home-wine-cellars-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/designing-your-dream-home-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampas-custom-family-home-builders/"
+      ]
+    },
+    {
+      "file": "app/eco-friendly-custom-homes-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-custom-homes-with-green-building-practices/",
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/efficient-commercial-construction-timelines-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-commercial-construction-planning-services/"
+      ]
+    },
+    {
+      "file": "app/energy-efficiency-in-historic-restoration-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/energy-efficient-custom-homes-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-bradenton/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-brandon/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-lakeland/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-ruskin/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-sarasota/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-st-petersburg/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/exterior-waterproofing-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/balcony-reconstruction-exterior-waterproofing/"
+      ]
+    },
+    {
+      "file": "app/flood-remediation-contractors-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-structural-drying-services-post-flooding/",
+        "/identifying-water-damage-signs-prevention-and-action/"
+      ]
+    },
+    {
+      "file": "app/florida-construction-specialists-committed-to-the-community-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/the-essential-role-of-florida-construction-specialists/"
+      ]
+    },
+    {
+      "file": "app/gourmet-kitchen-design-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/high-end-home-construction-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampa-custom-home-builders-with-artistic-flair/"
+      ]
+    },
+    {
+      "file": "app/hiring-a-commercial-contractor-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/hire-licensed-contractors-for-commercial-construction-project/"
+      ]
+    },
+    {
+      "file": "app/hiring-commercial-contractors-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/hurricane-proof-reconstruction-services-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+        "/structural-integrity-evaluation-in-tampa-post-disaster/"
+      ]
+    },
+    {
+      "file": "app/industrial-property-restoration-services-after-damage-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-structural-drying-services-post-flooding/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/breakaway-wall-construction-requirements/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/flood-zone-ve-vs-ae-guide/",
+        "/fema-50-percent-rule-explained/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/building-hurricane-safe-structures-florida/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/condo-milestone-inspection-remediation/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/sb-4-d-compliance-tampa-bay-condos/",
+        "/condo-structural-reserve-study-repairs/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/contractors-role-in-tampa-insurance-restoration/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/fema-50-percent-rule-explained/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/flood-zone-ve-vs-ae-guide/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/",
+        "/fema-50-percent-rule-explained/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/florida-sb4d-compliance-guide/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/",
+        "/choosing-the-right-waterproofing-solution-your-ultimate-guide/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/identifying-water-damage-signs-prevention-and-action/",
+        "/tampas-structural-drying-services-post-flooding/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/identifying-water-damage-signs-prevention-and-action/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampas-structural-drying-services-post-flooding/",
+        "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampas-building-codes-for-insurance-restoration/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/milestone-inspection-requirements/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/",
+        "/sirs-structural-integrity-reserve-studies/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/mold-remediation-services-in-tampa-after-flooding/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/structural-integrity-evaluation-in-tampa-post-disaster/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/sb-4-d-compliance-tampa-bay-condos/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/condo-milestone-inspection-remediation/",
+        "/condo-structural-reserve-study-repairs/",
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/sirs-structural-integrity-reserve-studies/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+        "/florida-sb4d-compliance-guide/",
+        "/effective-balcony-maintenance-tips/",
+        "/condo-balcony-inspection-requirements/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampa-residential-restoration-after-hurricane-damage/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampa-insurance-restoration-for-hurricane-damage/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampa-water-damage-restoration-services-post-flooding/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-building-codes-for-insurance-restoration/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/impact-of-climate-change-on-tampa-insurance-restoration/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-disaster-related-demolition-services/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/structural-integrity-evaluation-in-tampa-post-disaster/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-post-disaster-electrical-safety-checks/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/structural-integrity-evaluation-in-tampa-post-disaster/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/tampas-structural-drying-services-post-flooding/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance/guides/understanding-tampa-insurance-restoration-claims/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/preserving-tampas-cultural-heritage-through-restoration/",
+        "/architectural-styles-in-tampas-historic-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance/hurricane-restoration/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/insurance-arbitration-appraisal/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/tampa-insurance-restoration-for-hurricane-damage/",
+        "/impact-of-climate-change-on-tampa-insurance-restoration/"
+      ]
+    },
+    {
+      "file": "app/insurance-restoration-clearwater/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/insurance-restoration-compliance-and-regulations-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-building-codes-for-insurance-restoration/",
+        "/understanding-tampa-insurance-restoration-claims/"
+      ]
+    },
+    {
+      "file": "app/insurance-restoration-project-management-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/",
+        "/tampas-insurance-restoration-for-commercial-interiors/"
+      ]
+    },
+    {
+      "file": "app/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/key-questions-for-floridas-top-commercial-contractor/"
+      ]
+    },
+    {
+      "file": "app/leading-engineering-services-for-commercial-buildings-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/structural-integrity-evaluation-in-tampa-post-disaster/",
+        "/utility-mapping-for-commercial-buildings/"
+      ]
+    },
+    {
+      "file": "app/maximize-insurance-payouts-for-restoration-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/"
+      ]
+    },
+    {
+      "file": "app/mold-remediation-and-insurance-coverage-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/"
+      ]
+    },
+    {
+      "file": "app/multi-family-construction-bradenton/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/sirs-structural-integrity-reserve-studies/"
+      ]
+    },
+    {
+      "file": "app/multi-family-construction-clearwater/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/florida-sb4d-compliance-guide/",
+        "/sirs-structural-integrity-reserve-studies/"
+      ]
+    },
+    {
+      "file": "app/multi-family-construction-ruskin/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/florida-sb4d-compliance-guide/"
+      ]
+    },
+    {
+      "file": "app/multi-family-construction-sarasota/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/sirs-structural-integrity-reserve-studies/"
+      ]
+    },
+    {
+      "file": "app/office-building-renovation-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/"
+      ]
+    },
+    {
+      "file": "app/other-services/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/condo-milestone-inspection-remediation/"
+      ]
+    },
+    {
+      "file": "app/pet-friendly-home-designs-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/",
+        "/tampa-custom-outdoor-living-spaces/"
+      ]
+    },
+    {
+      "file": "app/post-disaster-health-and-safety-inspections-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/structural-integrity-evaluation-in-tampa-post-disaster/",
+        "/tampas-post-disaster-electrical-safety-checks/"
+      ]
+    },
+    {
+      "file": "app/post-disaster-interior-restoration-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-structural-drying-services-post-flooding/"
+      ]
+    },
+    {
+      "file": "app/pre-construction-services-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/the-preconstruction-modern-approach-design/",
+        "/financial-planning-for-commercial-construction/",
+        "/benefits-of-value-engineering-for-construction/"
+      ]
+    },
+    {
+      "file": "app/preparing-for-insurance-restoration-consultations-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/",
+        "/understanding-tampa-insurance-restoration-claims/"
+      ]
+    },
+    {
+      "file": "app/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-commercial-construction-permits/",
+        "/tampa-historic-restoration-permits-and-regulations/",
+        "/ensuring-construction-site-safety-a-top-priority/"
+      ]
+    },
+    {
+      "file": "app/property-damage-assessment-for-insurance-claims-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampa-insurance-restoration-for-hurricane-damage/",
+        "/structural-integrity-evaluation-in-tampa-post-disaster/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/building-tampa-homes-with-personalized-office-spaces/page.tsx",
+      "replacements": 6,
+      "oldUrls": [
+        "/smart-home-integration-in-tampa-custom-homes-2/",
+        "/tampa-luxury-custom-home-building-services/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/commercial-residential-construction-in-florida/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampa-custom-homes-with-luxury-bathrooms/",
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/preventing-home-improvement-fraud/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/smart-home-integration-in-tampa-custom-homes-2/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/",
+        "/tampa-custom-homes-with-green-building-practices/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-home-builders-with-artistic-flair/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampa-custom-homes-with-unique-facades/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-home-landscaping-solutions/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-homes-with-green-building-practices/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-homes-with-luxury-bathrooms/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/creating-unique-bedrooms-in-tampa-custom-homes/",
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-homes-with-unique-facades/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/",
+        "/tampa-custom-home-builders-with-artistic-flair/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-custom-outdoor-living-spaces/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/customized-outdoor-sports-facilities-in-tampa-homes/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-homes-with-custom-art-studios/page.tsx",
+      "replacements": 3,
+      "oldUrls": [
+        "/tampa-custom-home-builders-with-artistic-flair/",
+        "/tampas-custom-family-home-builders/",
+        "/smart-home-integration-in-tampa-custom-homes-2/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampa-luxury-custom-home-building-services/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-custom-home-builders-with-artistic-flair/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/tampas-custom-family-home-builders/page.tsx",
+      "replacements": 4,
+      "oldUrls": [
+        "/creating-unique-bedrooms-in-tampa-custom-homes/",
+        "/tampa-luxury-custom-home-building-services/",
+        "/smart-home-integration-in-tampa-custom-homes-2/",
+        "/tampa-custom-homes-with-green-building-practices/"
+      ]
+    },
+    {
+      "file": "app/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/page.tsx",
+      "replacements": 5,
+      "oldUrls": [
+        "/tampa-commercial-construction-permits/",
+        "/mastering-commercial-construction-design-in-florida/",
+        "/benefits-of-design-build-construction-for-commercial-project/",
+        "/commercial-construction-budgeting-tips-for-florida-specialists/",
+        "/tips-for-commercial-renovation-in-florida/"
+      ]
+    },
+    {
+      "file": "app/resources/page.tsx",
+      "replacements": 9,
+      "oldUrls": [
+        "/florida-sb4d-compliance-guide/",
+        "/milestone-inspection-requirements/",
+        "/sirs-structural-integrity-reserve-studies/",
+        "/condo-balcony-inspection-requirements/",
+        "/understanding-tampa-insurance-restoration-claims/",
+        "/hyde-park-renovation-guide/",
+        "/fema-50-percent-rule-explained/",
+        "/flood-zone-ve-vs-ae-guide/",
+        "/breakaway-wall-construction-requirements/"
+      ]
+    },
+    {
+      "file": "app/roof-damage-restoration-and-insurance-claims-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-insurance-restoration-for-hurricane-damage/"
+      ]
+    },
+    {
+      "file": "app/secure-custom-home-construction-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/smart-home-integration-in-tampa-custom-homes-2/",
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    },
+    {
+      "file": "app/smooth-commercial-renovations-solution-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/",
+        "/maximize-savings-on-commercial-renovation/"
+      ]
+    },
+    {
+      "file": "app/spacious-family-homes-construction-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/tampas-custom-family-home-builders/",
+        "/tampa-custom-outdoor-living-spaces/"
+      ]
+    },
+    {
+      "file": "app/sustainable-commercial-construction-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/sustainable-urban-development-in-tampa/page.tsx",
+      "replacements": 2,
+      "oldUrls": [
+        "/sustainable-building-materials-in-commercial-construction/",
+        "/zero-net-energy-boosting-commercial-construction/"
+      ]
+    },
+    {
+      "file": "app/technology-role-in-insurance-restoration-processes-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-insurance-restoration-reporting-and-documentation/"
+      ]
+    },
+    {
+      "file": "app/the-importance-of-quality-construction-materials-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/ensuring-construction-site-safety-a-top-priority/"
+      ]
+    },
+    {
+      "file": "app/the-key-traits-of-top-commercial-contractors-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/licensed-contractors-for-commercial-construction-in-florida/"
+      ]
+    },
+    {
+      "file": "app/tips-for-parking-lot-maintenance-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampas-premier-commercial-remodeling-contractors/"
+      ]
+    },
+    {
+      "file": "app/top-bonded-insured-commercial-contractor-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/licensed-contractors-for-commercial-construction-in-florida/"
+      ]
+    },
+    {
+      "file": "app/top-commercial-contractors-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/hire-licensed-contractors-for-commercial-construction-project/"
+      ]
+    },
+    {
+      "file": "app/top-commercial-modular-construction-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/how-technology-is-revolutionizing-the-construction-process/"
+      ]
+    },
+    {
+      "file": "app/vip-public-adjuster/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/understanding-tampa-insurance-restoration-claims/"
+      ]
+    },
+    {
+      "file": "app/waterfront-custom-homes-in-tampa/page.tsx",
+      "replacements": 1,
+      "oldUrls": [
+        "/tampa-luxury-custom-home-building-services/"
+      ]
+    }
+  ]
+}

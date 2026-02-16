@@ -221,8 +221,8 @@ const brandonFaqs = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "Condo Remediation & SB4-D Compliance" },
-  { href: "/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
-  { href: "/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
+  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
+  { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Services" },
   { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
   { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/condo-remediation-tampa/", label: "Condo Remediation Tampa" },

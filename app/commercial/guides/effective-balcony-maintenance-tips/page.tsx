@@ -27,9 +27,9 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/balcony-restoration-services/", label: "Balcony Restoration Services" },
-  { href: "/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
-  { href: "/top-balcony-flooring-materials-for-style-durability/", label: "Balcony Flooring Materials" },
+  { href: "/commercial/guides/balcony-restoration-services/", label: "Balcony Restoration Services" },
+  { href: "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/", label: "Balcony Waterproofing" },
+  { href: "/commercial/guides/top-balcony-flooring-materials-for-style-durability/", label: "Balcony Flooring Materials" },
   { href: "/balcony-reconstruction/", label: "SB4-D Compliance" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -37,22 +37,22 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Balcony Restoration & Waterproofing for Longevity",
-    "href": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    "href": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
     "description": "Protect your investment with restoration systems engineered for 20+ years of service."
   },
   {
     "title": "Florida SB4-D Compliance Guide",
-    "href": "/florida-sb4d-compliance-guide/",
+    "href": "/insurance/guides/florida-sb4d-compliance-guide/",
     "description": "Essential requirements for condo milestone inspections and structural integrity reserves."
   },
   {
     "title": "Condo Balcony Inspection Requirements",
-    "href": "/condo-balcony-inspection-requirements/",
+    "href": "/commercial/guides/condo-balcony-inspection-requirements/",
     "description": "Understanding inspection requirements under Florida's updated condo safety legislation."
   },
   {
     "title": "Choosing the Right Waterproofing Solution",
-    "href": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+    "href": "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
     "description": "Compare waterproofing systems for optimal performance in Florida's climate."
   }
 ];

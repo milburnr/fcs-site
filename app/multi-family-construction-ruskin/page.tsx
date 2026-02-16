@@ -526,7 +526,7 @@ export default function MultiFamilyConstructionRuskinPage() {
               <ul className="space-y-2">
                 <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
                 <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/florida-sb4d-compliance-guide/" className="text-brand-green hover:underline">Florida SB 4-D Compliance Guide</Link></li>
+                <li><Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-brand-green hover:underline">Florida SB 4-D Compliance Guide</Link></li>
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
               </ul>

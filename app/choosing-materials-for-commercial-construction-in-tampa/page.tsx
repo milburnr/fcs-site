@@ -20,7 +20,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/eco-friendly-commercial-construction-in-tampa/", label: "Sustainable Building" },
-  { href: "/tampa-commercial-construction-costs/", label: "Construction Costs" },
+  { href: "/commercial/guides/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
