@@ -645,6 +645,12 @@
   to = "/commercial-construction/"
   status = 301
 
+# Off-topic page removal (AUDIT-03)
+[[redirects]]
+  from = "/poseidon-fishing-charters-premier-angling-adventures-in-ruskin-fl/"
+  to = "/locations/ruskin-fl/"
+  status = 301
+
 # 404 page
 [[redirects]]
   from = "/*"
