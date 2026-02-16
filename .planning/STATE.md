@@ -47,7 +47,7 @@ Progress: [█████░░░░░] 42%
 | Phase 02 P04 | 10min | 2 tasks | 280 files |
 | Phase 02 P05 | 5min | 2 tasks | 7 files |
 | Phase 02 P06 | 15min | 4 tasks | 96 files |
-| Phase 03 P01 | 5min | 2 tasks | 42 files |
+| Phase 03 P01 | 5min | 2 tasks | 280 files |
 | Phase 03 P02 | 3min | 2 tasks | 2 files |
 
 ## Accumulated Context
@@ -98,7 +98,9 @@ Recent decisions affecting current work:
 - [Phase 02-06]: All 69 remaining unclassified articles moved to silos (total now 259)
 - [Phase 02-06]: Pre-deploy validation passes all 6 checks, 0 failures
 - [Phase 02-06]: BFS: 418/428 reachable (97.7%), up from 368/428 (86%) after 02-05
-- [Phase 03-01]: 42 wrong phone numbers and license numbers replaced across site
+- [Phase 03-01]: 302 wrong phone numbers, license numbers, and CGC prefix references replaced across 280 pages
+- [Phase 03-01]: FCS holds CBC (Certified Building Contractor) license, not CGC -- all FCS self-references corrected
+- [Phase 03-01]: 26 educational CGC references preserved in advisory content about Florida licensing types
 - [Phase 03-02]: Kept minPrice as deprecated no-op in ServiceSchema (145 pages pass it)
 - [Phase 03-02]: License credential renamed from General Contractor to Certified Building Contractor (CBC)
 
