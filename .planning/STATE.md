@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 2 of 9 (Silo Architecture & Internal Linking)
-Plan: 3 of 6 in current phase
+Plan: 4 of 6 in current phase
 Status: In Progress
-Last activity: 2026-02-16 -- Completed 02-03 (Article Moves & Guides Pages)
+Last activity: 2026-02-16 -- Completed 02-04 (Internal Link Updates)
 
-Progress: [███░░░░░░░] 27%
+Progress: [████░░░░░░] 33%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
+- Total plans completed: 11
 - Average duration: ~5min
-- Total execution time: ~43 min
+- Total execution time: ~53 min
 
 **By Phase:**
 
@@ -44,6 +44,7 @@ Progress: [███░░░░░░░] 27%
 | Phase 02 P01 | 5min | 2 tasks | 300 files |
 | Phase 02 P02 | 3min | 1 tasks | 2 files |
 | Phase 02 P03 | 8min | 2 tasks | 194 files |
+| Phase 02 P04 | 10min | 2 tasks | 280 files |
 
 ## Accumulated Context
 
@@ -84,6 +85,9 @@ Recent decisions affecting current work:
 - [Phase 02-03]: 34 Phase 1 redirects updated from hub targets to new silo paths
 - [Phase 02-03]: 156 new redirects added for articles without prior redirects
 - [Phase 02-03]: Guides index pages use static JSON import for Next.js static export compatibility
+- [Phase 02-04]: 999 internal link URL replacements across 274 files
+- [Phase 02-04]: 18 articles had only 1 money link; all now have 2+ (balcony→/balcony-reconstruction/, waterproofing→/exterior-waterproofing/)
+- [Phase 02-04]: verify-silos.js classification disagreements are NOT actual silo bleed; script update deferred to Plan 06
 
 ### Pending Todos
 
@@ -98,5 +102,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 02-03-PLAN.md (Article Moves & Guides Pages)
+Stopped at: Completed 02-04-PLAN.md (Internal Link Updates)
 Resume file: None
