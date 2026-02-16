@@ -217,9 +217,9 @@ const clearwaterFaqs = [
 
 const internalLinks = [
   { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/commercial-restoration-tampa/", label: "Commercial Restoration Tampa" },
-  { href: "/insurance-claim-contractor-tampa/", label: "Insurance Claim Contractor Tampa" },
-  { href: "/hurricane-damage-restoration-tampa-bay/", label: "Hurricane Damage Restoration" },
+  { href: "/commercial-construction-tampa/", label: "Commercial Restoration Tampa" },
+  { href: "/insurance/", label: "Insurance Claim Contractor Tampa" },
+  { href: "/insurance/hurricane-restoration/", label: "Hurricane Damage Restoration" },
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -570,7 +570,7 @@ export default function InsuranceRestorationClearwaterPage() {
                     <MapPin className="w-4 h-4" />
                     <span>Insurance Restoration Tampa</span>
                   </Link>
-                  <Link href="/commercial-restoration-st-petersburg/" className="flex items-center gap-2 text-gray-600 hover:text-brand-green transition-colors">
+                  <Link href="/commercial-construction-st-petersburg/" className="flex items-center gap-2 text-gray-600 hover:text-brand-green transition-colors">
                     <MapPin className="w-4 h-4" />
                     <span>Commercial Restoration St. Petersburg</span>
                   </Link>

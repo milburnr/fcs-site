@@ -915,7 +915,7 @@ export default function InsuranceRestorationLakelandPage() {
             </Link>
             
             <Link 
-              href="/preconstruction/" 
+              href="/our-process/" 
               className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow group"
             >
               <ClipboardCheck className="w-8 h-8 text-brand-green mb-4" />

@@ -240,9 +240,9 @@ const tampaFaqs = [
 const internalLinks = [
   { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
   { href: "/commercial/", label: "Commercial Construction" },
-  { href: "/hurricane-damage-tampa/", label: "Hurricane Damage Tampa" },
-  { href: "/flood-damage-restoration-tampa/", label: "Flood Damage Tampa" },
-  { href: "/fire-damage-restoration-tampa/", label: "Fire Damage Tampa" },
+  { href: "/insurance/hurricane-restoration/", label: "Hurricane Damage Tampa" },
+  { href: "/insurance/water-restoration/", label: "Flood Damage Tampa" },
+  { href: "/insurance/fire-restoration/", label: "Fire Damage Tampa" },
   { href: "/contact/", label: "Schedule Assessment" },
 ];
 

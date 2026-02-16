@@ -286,7 +286,7 @@ export default function KitchenRemodelingPage() {
               <ul className="space-y-2">
                 <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/residential/home-additions/" className="text-brand-green hover:underline">Home Additions</Link></li>
-                <li><Link href="/services/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
+                <li><Link href="/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
               </ul>
             </div>
             <div>

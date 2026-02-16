@@ -285,7 +285,7 @@ export default function HurricaneResistantPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Residential Services</h3>
               <ul className="space-y-2">
                 <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
-                <li><Link href="/services/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
+                <li><Link href="/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
                 <li><Link href="/exterior-waterproofing/" className="text-brand-green hover:underline">Exterior Waterproofing</Link></li>
               </ul>
             </div>

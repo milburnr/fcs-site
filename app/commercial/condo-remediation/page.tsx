@@ -243,8 +243,8 @@ const caseStudies = [
 ];
 
 const internalLinks = [
-  { href: "/services/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
-  { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/contact/", label: "Schedule a Consultation" },

@@ -159,13 +159,13 @@ const industriesServed = [
 const featuredArticles = [
   {
     title: "Florida SB4-D Compliance Guide for Condo Associations",
-    href: "/commercial/guides/sb4d-compliance-guide/",
+    href: "/commercial/condo-remediation/",
     category: "Condo Remediation",
     excerpt: "Understanding the new milestone inspection and SIRS requirements",
   },
   {
     title: "CPM Scheduling to Prevent Commercial Project Delays",
-    href: "/commercial/guides/cpm-scheduling-commercial-construction/",
+    href: "/commercial/",
     category: "Project Management",
     excerpt: "How critical path method scheduling keeps large projects on track",
   }];

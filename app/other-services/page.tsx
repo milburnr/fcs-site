@@ -348,7 +348,7 @@ const faqs = [
 const internalLinks = [
   { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Condo Milestone Inspections" },
   { href: "/commercial/", label: "Commercial Construction" },
-  { href: "/services/commercial/tenant-improvement/", label: "Tenant Improvements" },
+  { href: "/commercial/", label: "Tenant Improvements" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance/", label: "Insurance Restoration" },
   { href: "/about/", label: "About Florida Construction Specialists" },

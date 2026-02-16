@@ -290,7 +290,7 @@ const internalLinks = [
   { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "Complete SB4-D Compliance Guide" },
   { href: "/balcony-reconstruction-tampa/", label: "Balcony Reconstruction Tampa" },
   { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
-  { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing Services" },
   { href: "/insurance/guides/condo-milestone-inspection-remediation/", label: "Milestone Inspection Remediation" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

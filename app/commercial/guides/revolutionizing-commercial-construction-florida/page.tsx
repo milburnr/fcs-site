@@ -22,9 +22,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/commercial/design-build/", label: "Design-Build Services" },
+  { href: "/commercial/", label: "Commercial Services" },
   { href: "/commercial/guides/the-preconstruction-modern-approach-design/", label: "Modern Preconstruction" },
-  { href: "/sustainable-commercial-construction-in-florida/", label: "Sustainable Construction" },
+  { href: "/commercial/guides/sustainable-commercial-construction-in-tampa-2/", label: "Sustainable Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

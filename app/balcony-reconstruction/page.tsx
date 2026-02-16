@@ -841,7 +841,7 @@ export default function BalconyReconstructionPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/projects/" className="btn-primary">
+            <Link href="/portfolio/" className="btn-primary">
               View All Projects <ArrowRight className="w-4 h-4 ml-2 inline" />
             </Link>
           </div>

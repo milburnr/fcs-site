@@ -24,7 +24,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/", label: "Building Revitalization" },
-  { href: "/services/commercial/preconstruction/", label: "Preconstruction Services" },
+  { href: "/our-process/", label: "Preconstruction Services" },
   { href: "/contact/", label: "Get Expert Analysis" },
 ];
 

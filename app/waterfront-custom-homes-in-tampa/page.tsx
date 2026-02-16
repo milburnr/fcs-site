@@ -18,7 +18,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/luxury-custom-homes/", label: "Waterfront Home Construction" },
+  { href: "/luxury-custom-homes/", label: "Waterfront Home Construction" },
   { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Construction" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Building" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Home Services" },

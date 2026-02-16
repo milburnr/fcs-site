@@ -277,9 +277,9 @@ const lakelandFaqs = [
 
 const internalLinks = [
   { href: "/commercial/condo-remediation/", label: "SB4-D Compliance Services" },
-  { href: "/services/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/services/exterior-waterproofing/", label: "Exterior Waterproofing" },
-  { href: "/commercial/parking-structures/", label: "Parking Structure Repair" },
+  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
+  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
+  { href: "/commercial/condo-remediation/", label: "Parking Structure Repair" },
   { href: "/condo-remediation-tampa/", label: "Condo Remediation Tampa" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

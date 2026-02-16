@@ -168,9 +168,9 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/commercial/waterproofing/", label: "Commercial Waterproofing" },
-  { href: "/commercial/masonry/", label: "Commercial Masonry Services" },
-  { href: "/commercial/concrete-restoration/", label: "Concrete Restoration" },
+  { href: "/exterior-waterproofing/", label: "Commercial Waterproofing" },
+  { href: "/commercial/", label: "Commercial Masonry Services" },
+  { href: "/balcony-reconstruction/", label: "Concrete Restoration" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
