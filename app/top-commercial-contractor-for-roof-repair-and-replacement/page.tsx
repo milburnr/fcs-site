@@ -44,7 +44,7 @@ const faqs = [
 const internalLinks = [
   { href: "/commercial-roofing-services-in-tampa/", label: "Commercial Roofing Services" },
   { href: "/roof-damage-restoration-and-insurance-claims-in-tampa/", label: "Storm Damage & Insurance" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Services" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Services" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule Roof Assessment" },
 ];

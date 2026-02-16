@@ -32,19 +32,19 @@ const commercialResources = [
     category: "Industrial & Large Scale",
     icon: Factory,
     articles: [
-      { title: "CPM Scheduling to Prevent Delays", href: "/commercial/cpm-scheduling/" },
-      { title: "Tilt-Wall vs Metal Buildings", href: "/tilt-wall-vs-metal-buildings/" },
-      { title: "Industrial Flex Space Development", href: "/industrial-flex-space-development/" },
-      { title: "Warehouse Construction Tampa Bay", href: "/warehouse-construction-tampa-bay/" }],
+      { title: "CPM Scheduling to Prevent Delays", href: "/commercial-construction/" },
+      { title: "Tilt-Wall vs Metal Buildings", href: "/commercial-construction/" },
+      { title: "Industrial Flex Space Development", href: "/commercial-construction/" },
+      { title: "Warehouse Construction Tampa Bay", href: "/commercial-construction/" }],
   },
   {
     category: "Historic Restoration (Commercial)",
     icon: Landmark,
     articles: [
-      { title: "Tampa's Historic Social Clubs Restoration", href: "/tampa-historic-social-clubs-restoration/" },
-      { title: "Navigating Florida SHPO Requirements", href: "/florida-shpo-requirements/" },
-      { title: "Historic Tax Credits for Commercial Buildings", href: "/historic-tax-credits-commercial-buildings/" },
-      { title: "Adaptive Reuse of Historic Civic Buildings", href: "/adaptive-reuse-historic-civic-buildings/" }],
+      { title: "Tampa's Historic Social Clubs Restoration", href: "/historic-restoration-tampa/" },
+      { title: "Navigating Florida SHPO Requirements", href: "/historic-restoration/" },
+      { title: "Historic Tax Credits for Commercial Buildings", href: "/historic-restoration/" },
+      { title: "Adaptive Reuse of Historic Civic Buildings", href: "/historic-restoration/" }],
   },
   {
     category: "Condo Remediation & Compliance",
@@ -59,18 +59,18 @@ const commercialResources = [
     category: "Multi-Family Construction",
     icon: Building2,
     articles: [
-      { title: "Multi-Family Construction Project Management", href: "/multi-family-construction-project-management/", isNew: true },
-      { title: "Condo Common Area Construction", href: "/condo-common-area-construction/", isNew: true },
-      { title: "Mixed-Use Development in Tampa", href: "/mixed-use-development-tampa/" },
-      { title: "Senior Living Construction Requirements", href: "/senior-living-construction-requirements/" }],
+      { title: "Multi-Family Construction Project Management", href: "/multi-family-construction/", isNew: true },
+      { title: "Condo Common Area Construction", href: "/balcony-reconstruction/", isNew: true },
+      { title: "Mixed-Use Development in Tampa", href: "/commercial-construction-tampa/" },
+      { title: "Senior Living Construction Requirements", href: "/multi-family-construction/" }],
   },
   {
     category: "Insurance Restoration",
     icon: Scale,
     articles: [
-      { title: "Large Loss Commercial Restoration", href: "/large-loss-commercial-restoration/" },
-      { title: "Insurance Restoration for Condominiums", href: "/insurance-restoration-condominiums/" },
-      { title: "Common Area Reconstruction After Disasters", href: "/condo-common-area-reconstruction/" },
+      { title: "Large Loss Commercial Restoration", href: "/disaster-recovery/" },
+      { title: "Insurance Restoration for Condominiums", href: "/disaster-recovery/" },
+      { title: "Common Area Reconstruction After Disasters", href: "/balcony-reconstruction/" },
       { title: "Understanding Insurance Restoration Claims", href: "/understanding-tampa-insurance-restoration-claims/" }],
   }];
 
@@ -80,9 +80,9 @@ const residentialResources = [
     icon: FileText,
     articles: [
       { title: "The Hyde Park Renovation Guide", href: "/hyde-park-renovation-guide/", isNew: true },
-      { title: "Certificate of Appropriateness Process", href: "/tampa-certificate-of-appropriateness/", isNew: true },
-      { title: "South Tampa Historic District Guide", href: "/south-tampa-historic-district-guide/", isNew: true },
-      { title: "Sourcing Historic Materials Tampa Bay", href: "/sourcing-historic-materials-tampa-bay/" }],
+      { title: "Certificate of Appropriateness Process", href: "/historic-restoration-tampa/", isNew: true },
+      { title: "South Tampa Historic District Guide", href: "/historic-restoration-tampa/", isNew: true },
+      { title: "Sourcing Historic Materials Tampa Bay", href: "/historic-restoration/" }],
   },
   {
     category: "Coastal Resilience & FEMA",
@@ -91,34 +91,34 @@ const residentialResources = [
       { title: "The FEMA 50% Rule Explained", href: "/fema-50-percent-rule-explained/", isNew: true },
       { title: "Flood Zone VE vs AE Guide", href: "/flood-zone-ve-vs-ae-guide/" },
       { title: "Breakaway Wall Construction Requirements", href: "/breakaway-wall-construction-requirements/" },
-      { title: "Waterproofing Historic Masonry", href: "/waterproofing-historic-masonry/" }],
+      { title: "Waterproofing Historic Masonry", href: "/historic-restoration/" }],
   },
   {
     category: "Luxury Custom Homes",
     icon: Home,
     articles: [
-      { title: "Building on Tampa Bay Waterfront Lots", href: "/building-on-tampa-bay-waterfront/", isNew: true },
-      { title: "Smart Home Integration for Luxury Estates", href: "/smart-home-integration-luxury-estates/" },
-      { title: "Hurricane-Resistant Luxury Home Design", href: "/hurricane-resistant-luxury-home-design/" },
-      { title: "Davis Islands Custom Home Building", href: "/davis-islands-custom-home-building/" }],
+      { title: "Building on Tampa Bay Waterfront Lots", href: "/luxury-custom-homes-tampa/", isNew: true },
+      { title: "Smart Home Integration for Luxury Estates", href: "/luxury-custom-homes/" },
+      { title: "Hurricane-Resistant Luxury Home Design", href: "/luxury-custom-homes/" },
+      { title: "Davis Islands Custom Home Building", href: "/luxury-custom-homes-tampa/" }],
   },
   {
     category: "Waterfront Construction",
     icon: Waves,
     articles: [
-      { title: "Waterfront Lot Site Preparation", href: "/waterfront-lot-site-preparation/", isNew: true },
-      { title: "Seawall Coordination for New Construction", href: "/seawall-coordination-new-construction/" },
-      { title: "Marine-Grade Building Materials Guide", href: "/marine-grade-building-materials-guide/" },
-      { title: "Living Shoreline vs Traditional Seawall", href: "/living-shoreline-vs-seawall/" }],
+      { title: "Waterfront Lot Site Preparation", href: "/luxury-custom-homes-tampa/", isNew: true },
+      { title: "Seawall Coordination for New Construction", href: "/luxury-custom-homes/" },
+      { title: "Marine-Grade Building Materials Guide", href: "/luxury-custom-homes/" },
+      { title: "Living Shoreline vs Traditional Seawall", href: "/luxury-custom-homes/" }],
   },
   {
     category: "Historic Preservation (Residential)",
     icon: Landmark,
     articles: [
-      { title: "Renovating Historic Homes in Tampa", href: "/renovating-historic-homes-tampa/", isNew: true },
-      { title: "Balancing Modern Comfort with Historic Character", href: "/balancing-modern-comfort-historic-homes/", isNew: true },
-      { title: "Historic Home Energy Efficiency Upgrades", href: "/historic-home-energy-efficiency/", isNew: true },
-      { title: "Period-Accurate Material Sourcing", href: "/sourcing-historic-materials-tampa-bay/" }],
+      { title: "Renovating Historic Homes in Tampa", href: "/historic-restoration-tampa/", isNew: true },
+      { title: "Balancing Modern Comfort with Historic Character", href: "/historic-restoration/", isNew: true },
+      { title: "Historic Home Energy Efficiency Upgrades", href: "/historic-restoration/", isNew: true },
+      { title: "Period-Accurate Material Sourcing", href: "/historic-restoration/" }],
   }];
 
 const breadcrumbItems = [
@@ -339,7 +339,7 @@ export default function ResourcesPage() {
               </p>
             </Link>
             <Link
-              href="/commercial/cpm-scheduling/"
+              href="/commercial-construction/"
               className="group bg-gray-50 rounded-xl p-6 hover:bg-brand-green-light transition-colors"
             >
               <HardHat className="w-8 h-8 text-brand-green mb-3" />

@@ -42,7 +42,7 @@ const faqs = [
 ];
 
 const internalLinks = [
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/identifying-water-damage-signs-prevention-and-action/", label: "Identifying Water Damage" },
   { href: "/tampas-structural-drying-services-post-flooding/", label: "Structural Drying Services" },
   { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },

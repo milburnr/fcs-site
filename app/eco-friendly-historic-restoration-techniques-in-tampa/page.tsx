@@ -20,9 +20,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
-  { href: "/services/historic-restoration/material-sourcing/", label: "Historic Material Sourcing" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
+  { href: "/historic-restoration/", label: "Historic Material Sourcing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -303,7 +303,7 @@ export default function Page() {
               </div>
 
               <p className="text-gray-600 mb-6">
-                Many sustainable improvements qualify as part of the <Link href="/services/historic-restoration/historic-tax-credits/" className="text-brand-green-dark hover:underline">federal historic tax credit</Link> rehabilitation expenditure base, effectively reducing their net cost by 20% for qualifying projects.
+                Many sustainable improvements qualify as part of the <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">federal historic tax credit</Link> rehabilitation expenditure base, effectively reducing their net cost by 20% for qualifying projects.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -345,7 +345,7 @@ export default function Page() {
               </div>
 
               <p className="text-gray-600 mb-6">
-                Our <Link href="/services/historic-restoration/material-sourcing/" className="text-brand-green-dark hover:underline">historic material sourcing services</Link> prioritize salvaged and sustainable materials while ensuring compatibility with historic fabric.
+                Our <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">historic material sourcing services</Link> prioritize salvaged and sustainable materials while ensuring compatibility with historic fabric.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

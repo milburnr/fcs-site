@@ -29,7 +29,7 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "CPM Scheduling to Prevent Delays",
-    "href": "/cpm-scheduling-prevent-delays/",
+    "href": "/commercial-construction/",
     "description": "Using critical path method scheduling to keep projects on track."
   },
   {

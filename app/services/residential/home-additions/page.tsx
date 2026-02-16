@@ -286,7 +286,7 @@ export default function HomeAdditionsPage() {
               <ul className="space-y-2">
                 <li><Link href="/services/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/services/residential/kitchen-remodeling/" className="text-brand-green hover:underline">Kitchen Remodeling</Link></li>
-                <li><Link href="/services/residential/waterfront-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
+                <li><Link href="/services/luxury-custom-homes/" className="text-brand-green hover:underline">Waterfront Homes</Link></li>
               </ul>
             </div>
             <div>
@@ -336,7 +336,7 @@ export default function HomeAdditionsPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/residential/waterfront-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />

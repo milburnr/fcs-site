@@ -21,8 +21,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/services/residential/", label: "Residential Construction" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -44,7 +44,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   }
 ];

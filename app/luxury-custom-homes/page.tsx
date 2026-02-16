@@ -1436,7 +1436,7 @@ export default function LuxuryCustomHomesPage() {
               </p>
             </Link>
             <Link
-              href="/residential/waterfront-homes/"
+              href="/luxury-custom-homes/"
               className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg p-6 transition-all group"
             >
               <Waves className="w-8 h-8 text-brand-gold mb-4" />
@@ -1448,7 +1448,7 @@ export default function LuxuryCustomHomesPage() {
               </p>
             </Link>
             <Link
-              href="/residential/fema-compliance/"
+              href="/disaster-recovery/"
               className="bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg p-6 transition-all group"
             >
               <Shield className="w-8 h-8 text-brand-gold mb-4" />

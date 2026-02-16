@@ -151,7 +151,7 @@ const relatedArticles = [
 export default function FEMA50PercentRulePage() {
   const breadcrumbItems = [
     { name: "Residential Services", href: "/residential/" },
-    { name: "FEMA Compliance", href: "/residential/fema-compliance/" },
+    { name: "FEMA Compliance", href: "/disaster-recovery/" },
     { name: "50% Rule Explained", href: "/fema-50-percent-rule-explained/" },
   ];
 
@@ -506,7 +506,7 @@ export default function FEMA50PercentRulePage() {
           </h2>
           <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
             <Link
-              href="/residential/fema-compliance/"
+              href="/disaster-recovery/"
               className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
             >
               <FileText className="w-8 h-8 text-brand-gold mb-3" />
@@ -518,7 +518,7 @@ export default function FEMA50PercentRulePage() {
               </p>
             </Link>
             <Link
-              href="/residential/waterfront-homes/"
+              href="/luxury-custom-homes/"
               className="bg-white rounded-xl p-6 shadow-sm hover:shadow-md transition-shadow"
             >
               <FileText className="w-8 h-8 text-brand-gold mb-3" />

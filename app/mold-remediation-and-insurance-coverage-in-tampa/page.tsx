@@ -42,7 +42,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/property-damage-assessment-for-insurance-claims-in-tampa/", label: "Property Damage Assessment" },
   { href: "/tampas-insurance-restoration-reporting-and-documentation/", label: "Documentation Services" },
   { href: "/contact/", label: "Schedule a Consultation" },

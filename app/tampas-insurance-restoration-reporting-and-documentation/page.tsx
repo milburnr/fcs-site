@@ -67,7 +67,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   }
 ];

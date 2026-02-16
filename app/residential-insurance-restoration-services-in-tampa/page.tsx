@@ -42,9 +42,9 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
-  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -74,7 +74,7 @@ const relatedLinks = [
   { href: "/insurance/", label: "Insurance Services Overview" },
   { href: "/insurance/building-consultant/", label: "Building Consultant" },
   { href: "/insurance/appraisal-arbitration/", label: "Appraisal & Arbitration" },
-  { href: "/insurance/expert-witness/", label: "Expert Witness" },
+  { href: "/expert-witness/", label: "Expert Witness" },
 ];
 
 export default function CertifiedEstimatingPage() {

@@ -43,7 +43,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/tampas-building-codes-for-insurance-restoration/", label: "Building Codes and Restoration" },
   { href: "/insurance-restoration-compliance-and-regulations-in-tampa/", label: "Compliance and Regulations" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -67,7 +67,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   }
 ];

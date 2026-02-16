@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/boost-your-business-with-an-attractive-retail-space/", label: "Retail Space Design" },
+  { href: "/commercial-construction/", label: "Retail Space Design" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

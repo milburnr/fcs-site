@@ -22,7 +22,7 @@ const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
   { href: "/hire-licensed-contractors-for-commercial-construction-project/", label: "Licensed Contractor Requirements" },
   { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Guide" },
-  { href: "/commercial-construction-project-on-schedule/", label: "Project Scheduling" },
+  { href: "/commercial-construction/", label: "Project Scheduling" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

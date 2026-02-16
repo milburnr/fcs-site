@@ -271,9 +271,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -325,7 +325,7 @@ export default function FloodZoneVEvsAEGuidePage() {
       <Breadcrumb
         items={[
           { name: "Residential", href: "/residential/" },
-          { name: "Waterfront Homes", href: "/residential/waterfront-homes/" },
+          { name: "Waterfront Homes", href: "/luxury-custom-homes/" },
           { name: "Flood Zone VE vs AE", href: "/flood-zone-ve-vs-ae-guide/" },
         ]}
       />
@@ -348,7 +348,7 @@ export default function FloodZoneVEvsAEGuidePage() {
             <BackToHub
               silo="residential"
               customHubTitle="Waterfront Homes"
-              customHubHref="/residential/waterfront-homes/"
+              customHubHref="/luxury-custom-homes/"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Flood Zone VE vs AE: What Tampa Bay Homeowners Need to Know
@@ -598,7 +598,7 @@ export default function FloodZoneVEvsAEGuidePage() {
               </p>
             </Link>
             <Link
-              href="/residential/waterfront-homes/"
+              href="/luxury-custom-homes/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-green">

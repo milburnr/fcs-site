@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/reinforced-construction-services-in-tampa-for-disaster-prevention/", label: "Reinforced Construction" },
   { href: "/services/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },

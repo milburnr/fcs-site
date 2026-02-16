@@ -20,7 +20,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/residential/", label: "Residential Construction Services" },
-  { href: "/services/residential/waterfront-homes/", label: "Waterfront Home Construction" },
+  { href: "/services/luxury-custom-homes/", label: "Waterfront Home Construction" },
   { href: "/customized-outdoor-sports-facilities-in-tampa-homes/", label: "Outdoor Sports Facilities" },
   { href: "/tampas-custom-family-home-builders/", label: "Custom Family Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -34,7 +34,7 @@ const relatedArticles = [
   },
   {
     "title": "Hurricane Resistant Luxury Home Design",
-    "href": "/hurricane-resistant-luxury-home-design/",
+    "href": "/luxury-custom-homes/",
     "description": "Building beautiful homes that withstand Florida's severe weather."
   },
   {

@@ -44,25 +44,25 @@ const disasterFaqs = [
 const clusterServices = [
   {
     name: "Hurricane & Storm Damage",
-    href: "/services/disaster-recovery/hurricane-damage/",
+    href: "/disaster-recovery/",
     description: "Comprehensive restoration from hurricane, tropical storm, and tornado damage including structural repair, roofing, and building envelope reconstruction.",
     icon: CloudRain,
   },
   {
     name: "Water Damage Restoration",
-    href: "/services/disaster-recovery/water-damage/",
+    href: "/disaster-recovery/",
     description: "Large loss water damage restoration including flood recovery, pipe failures, and comprehensive moisture remediation.",
     icon: Droplets,
   },
   {
     name: "Fire Damage Restoration",
-    href: "/services/disaster-recovery/fire-damage/",
+    href: "/disaster-recovery/",
     description: "Complete fire and smoke damage restoration from structural repair to content restoration and odor elimination.",
     icon: Flame,
   },
   {
     name: "Insurance Claims Process",
-    href: "/services/disaster-recovery/insurance-claims-process/",
+    href: "/disaster-recovery/",
     description: "Expert guidance through the insurance claim process, from initial documentation through final settlement and restoration completion.",
     icon: FileText,
   },

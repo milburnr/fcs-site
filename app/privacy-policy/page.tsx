@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/privacy-policy/' },
   title: "Privacy Policy",
   description: "Read Florida Construction Specialists' privacy policy. Learn how we collect, protect, and use your personal information when you visit our Tampa Bay construction company website.",
+  robots: { index: false, follow: true },
 };
 
 const breadcrumbItems = [

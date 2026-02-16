@@ -34,7 +34,7 @@ const relatedArticles = [
   },
   {
     "title": "Hurricane Resistant Luxury Home Design",
-    "href": "/hurricane-resistant-luxury-home-design/",
+    "href": "/luxury-custom-homes/",
     "description": "Building beautiful homes that withstand Florida's severe weather."
   },
   {

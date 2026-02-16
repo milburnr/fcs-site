@@ -67,7 +67,7 @@ const relatedArticles = [
   },
   {
     "title": "Zero Accidents Commercial Construction",
-    "href": "/zero-accidents-commercial-construction-safety-specialists/",
+    "href": "/about/",
     "description": "Achieving perfect safety records on commercial projects."
   }
 ];

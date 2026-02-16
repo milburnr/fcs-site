@@ -547,7 +547,7 @@ export default function MultiFamilyConstructionBrandonPage() {
               <ul className="space-y-2">
                 <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
                 <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/condo-common-area-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
+                <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
               </ul>

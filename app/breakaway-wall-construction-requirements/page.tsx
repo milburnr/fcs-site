@@ -261,12 +261,12 @@ const internalLinks = [
 const relatedArticles = [
   {
     "title": "Building on Tampa Bay Waterfront",
-    "href": "/building-on-tampa-bay-waterfront/",
+    "href": "/luxury-custom-homes-tampa/",
     "description": "Special considerations for waterfront property construction in Tampa Bay."
   },
   {
     "title": "Living Shoreline vs Seawall",
-    "href": "/living-shoreline-vs-seawall/",
+    "href": "/luxury-custom-homes/",
     "description": "Comparing natural and hardened shoreline protection approaches."
   },
   {
@@ -276,7 +276,7 @@ const relatedArticles = [
   },
   {
     "title": "Marine Grade Building Materials Guide",
-    "href": "/marine-grade-building-materials-guide/",
+    "href": "/luxury-custom-homes/",
     "description": "Selecting materials that withstand coastal conditions."
   }
 ];
@@ -637,7 +637,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
               </p>
             </Link>
             <Link
-              href="/hurricane-resistant-luxury-home-design/"
+              href="/luxury-custom-homes/"
               className="card p-6 hover:shadow-lg transition-shadow group"
             >
               <h3 className="font-bold text-brand-green-dark mb-2 group-hover:text-brand-gold">

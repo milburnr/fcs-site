@@ -48,7 +48,7 @@ const residentialFaqs = [
 const clusterServices = [
   {
     name: "Waterfront Custom Homes",
-    href: "/services/residential/waterfront-homes/",
+    href: "/services/luxury-custom-homes/",
     description: "Luxury waterfront estate construction with seawall coordination, marine-grade materials, and stunning water views.",
     icon: Waves,
   },
@@ -636,7 +636,7 @@ export default function ResidentialConstructionPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/residential/waterfront-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/services/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />

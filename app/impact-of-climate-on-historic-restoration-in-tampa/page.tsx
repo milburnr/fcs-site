@@ -19,9 +19,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

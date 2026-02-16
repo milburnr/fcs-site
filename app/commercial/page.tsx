@@ -84,7 +84,7 @@ const commercialClusters = [
   },
   {
     name: "CPM Scheduling",
-    href: "/commercial/cpm-scheduling/",
+    href: "/commercial-construction/",
     icon: Calendar,
     image: AI_IMAGES.office,
     imageAlt: AI_IMAGE_ALT.office,

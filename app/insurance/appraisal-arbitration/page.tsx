@@ -57,7 +57,7 @@ const services = [
 const relatedLinks = [
   { href: "/insurance/", label: "Insurance Services Overview" },
   { href: "/insurance/certified-estimating/", label: "Certified Estimating" },
-  { href: "/insurance/expert-witness/", label: "Expert Witness" },
+  { href: "/expert-witness/", label: "Expert Witness" },
   { href: "/insurance/building-consultant/", label: "Building Consultant" },
 ];
 

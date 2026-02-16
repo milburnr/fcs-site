@@ -651,6 +651,322 @@
   to = "/locations/ruskin-fl/"
   status = 301
 
+# ===========================================
+# Thin Content Redirects (AUDIT-02, Phase 01-03)
+# ===========================================
+
+# Thin pages -> /about/
+[[redirects]]
+  from = "/hire-top-commercial-contractor-in-tampa/"
+  to = "/about/"
+  status = 301
+
+[[redirects]]
+  from = "/zero-accidents-commercial-construction-safety-specialists/"
+  to = "/about/"
+  status = 301
+
+# Thin pages -> /balcony-reconstruction/
+[[redirects]]
+  from = "/condo-common-area-construction/"
+  to = "/balcony-reconstruction/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-common-area-reconstruction/"
+  to = "/balcony-reconstruction/"
+  status = 301
+
+# Thin pages -> /commercial-construction-tampa/
+[[redirects]]
+  from = "/invoices-for-commercial-construction-in-tampa/"
+  to = "/commercial-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/mixed-use-development-tampa/"
+  to = "/commercial-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/pre-construction-services-for-commercial-construction-in-tampa/"
+  to = "/commercial-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/top-commercial-contractors-in-tampa-for-commercial-construction/"
+  to = "/commercial-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/top-tools-for-commercial-construction-in-tampa/"
+  to = "/commercial-construction-tampa/"
+  status = 301
+
+# Thin pages -> /commercial-construction/
+[[redirects]]
+  from = "/boost-sales-with-effective-retail-store-design-ideas/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/boost-your-business-with-an-attractive-retail-space/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/commercial/cpm-scheduling/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/cpm-scheduling-prevent-delays/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/facility-expansion-success-a-guide-for-commercial-construction/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/industrial-flex-space-development/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/tilt-wall-vs-metal-buildings/"
+  to = "/commercial-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/warehouse-construction-tampa-bay/"
+  to = "/commercial-construction/"
+  status = 301
+
+# Thin pages -> /disaster-recovery-tampa/
+[[redirects]]
+  from = "/insurance-restoration-for-vandalism-damage-in-tampa/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/navigating-insurance-restoration-for-flood-damage-in-tampa/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-debris-removal-and-cleanup-post-disaster/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-flood-impact-restoration-services/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampas-hvac-system-recovery-after-flooding/"
+  to = "/disaster-recovery-tampa/"
+  status = 301
+
+# Thin pages -> /disaster-recovery/
+[[redirects]]
+  from = "/insurance-restoration-condominiums/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/large-loss-commercial-restoration/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/fema-compliance/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/services/disaster-recovery/fire-damage/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/services/disaster-recovery/hurricane-damage/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/services/disaster-recovery/insurance-claims-process/"
+  to = "/disaster-recovery/"
+  status = 301
+
+[[redirects]]
+  from = "/services/disaster-recovery/water-damage/"
+  to = "/disaster-recovery/"
+  status = 301
+
+# Thin pages -> /expert-witness/
+[[redirects]]
+  from = "/insurance/expert-witness/"
+  to = "/expert-witness/"
+  status = 301
+
+# Thin pages -> /historic-restoration-tampa/
+[[redirects]]
+  from = "/renovating-historic-homes-tampa/"
+  to = "/historic-restoration-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/south-tampa-historic-district-guide/"
+  to = "/historic-restoration-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-certificate-of-appropriateness/"
+  to = "/historic-restoration-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historic-social-clubs-restoration/"
+  to = "/historic-restoration-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/tampa-historical-property-insurance-restoration-expert/"
+  to = "/historic-restoration-tampa/"
+  status = 301
+
+# Thin pages -> /historic-restoration/
+[[redirects]]
+  from = "/adaptive-reuse-historic-civic-buildings/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/balancing-modern-comfort-historic-homes/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/florida-shpo-requirements/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-home-energy-efficiency/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/historic-tax-credits-commercial-buildings/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/services/historic-restoration/historic-tax-credits/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/services/historic-restoration/material-sourcing/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/services/historic-restoration/shpo-compliance/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/sourcing-historic-materials-tampa-bay/"
+  to = "/historic-restoration/"
+  status = 301
+
+[[redirects]]
+  from = "/waterproofing-historic-masonry/"
+  to = "/historic-restoration/"
+  status = 301
+
+# Thin pages -> /luxury-custom-homes-tampa/
+[[redirects]]
+  from = "/building-on-tampa-bay-waterfront/"
+  to = "/luxury-custom-homes-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/davis-islands-custom-home-building/"
+  to = "/luxury-custom-homes-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/waterfront-lot-site-preparation/"
+  to = "/luxury-custom-homes-tampa/"
+  status = 301
+
+# Thin pages -> /luxury-custom-homes/
+[[redirects]]
+  from = "/hurricane-resistant-luxury-home-design/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/living-shoreline-vs-seawall/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/marine-grade-building-materials-guide/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/residential/waterfront-homes/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/seawall-coordination-new-construction/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/services/residential/waterfront-homes/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/smart-home-integration-luxury-estates/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+# Thin pages -> /multi-family-construction/
+[[redirects]]
+  from = "/key-considerations-for-building-commercial-housing-complexes/"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/multi-family-construction-project-management/"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/multi-family-construction-services/"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/multi-family-flood-zone-construction/"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/senior-living-construction-requirements/"
+  to = "/multi-family-construction/"
+  status = 301
+
 # 404 page
 [[redirects]]
   from = "/*"

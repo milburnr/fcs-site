@@ -330,9 +330,9 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
-  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
   { href: "/condo-milestone-inspection-remediation/", label: "Condo Milestone Inspections" },
   { href: "/commercial-construction/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule Emergency Consultation" },

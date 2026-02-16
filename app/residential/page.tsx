@@ -668,9 +668,9 @@ export default function ResidentialHubPage() {
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
             {[
               { name: "Custom Homes", href: "/luxury-custom-homes/" },
-              { name: "Waterfront", href: "/residential/waterfront-homes/" },
+              { name: "Waterfront", href: "/luxury-custom-homes/" },
               { name: "Historic", href: "/commercial/historic-restoration/" },
-              { name: "FEMA Compliance", href: "/residential/fema-compliance/" },
+              { name: "FEMA Compliance", href: "/disaster-recovery/" },
               { name: "Contact", href: "/contact/" },
             ].map((link) => (
               <Link

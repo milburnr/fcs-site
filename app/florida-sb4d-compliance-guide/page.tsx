@@ -565,7 +565,7 @@ export default function SB4DCompliancePage() {
               </p>
             </Link>
             <Link
-              href="/commercial/cpm-scheduling/"
+              href="/commercial-construction/"
               className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
             >
               <Calendar className="w-8 h-8 text-brand-green mb-3" />

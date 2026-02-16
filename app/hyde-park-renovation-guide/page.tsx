@@ -190,7 +190,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   }
 ];
@@ -576,7 +576,7 @@ export default function HydeParkRenovationGuidePage() {
               </p>
             </Link>
             <Link
-              href="/residential/fema-compliance/"
+              href="/disaster-recovery/"
               className="bg-gray-50 rounded-xl p-6 hover:shadow-md transition-shadow"
             >
               <FileText className="w-8 h-8 text-brand-gold mb-3" />

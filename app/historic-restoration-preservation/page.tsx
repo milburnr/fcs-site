@@ -20,9 +20,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -44,7 +44,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   }
 ];

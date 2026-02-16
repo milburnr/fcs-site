@@ -71,19 +71,19 @@ const stPeteFaqs = [
 const clusterServices = [
   {
     name: "SHPO Compliance",
-    href: "/services/historic-restoration/shpo-compliance/",
+    href: "/historic-restoration/",
     description: "Full compliance with Florida State Historic Preservation Office requirements, Section 106 consultation, and Secretary of the Interior's Standards.",
     icon: Shield,
   },
   {
     name: "Period-Accurate Material Sourcing",
-    href: "/services/historic-restoration/material-sourcing/",
+    href: "/historic-restoration/",
     description: "Expert sourcing of period-appropriate materials including historic masonry, Mediterranean tile, ironwork, and architectural elements.",
     icon: Palette,
   },
   {
     name: "Historic Tax Credits",
-    href: "/services/historic-restoration/historic-tax-credits/",
+    href: "/historic-restoration/",
     description: "Navigation of federal and Florida state historic tax credit programs, ensuring work meets qualification requirements.",
     icon: Scale,
   },
@@ -125,9 +125,9 @@ const featuredProjects = [
 // Internal links for the page
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/material-sourcing/", label: "Period Material Sourcing" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Period Material Sourcing" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration-tampa/", label: "Historic Restoration Tampa" },
   { href: "/historic-restoration-lakeland/", label: "Historic Restoration Lakeland" },
 ];

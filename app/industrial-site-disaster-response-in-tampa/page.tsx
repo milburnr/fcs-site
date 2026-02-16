@@ -24,8 +24,8 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
-  { href: "/warehouse-construction-tampa-bay/", label: "Warehouse Construction" },
-  { href: "/industrial-flex-space-development/", label: "Industrial Flex Space" },
+  { href: "/commercial-construction/", label: "Warehouse Construction" },
+  { href: "/commercial-construction/", label: "Industrial Flex Space" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

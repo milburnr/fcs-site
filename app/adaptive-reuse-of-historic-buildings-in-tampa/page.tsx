@@ -20,9 +20,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
-  { href: "/services/historic-restoration/material-sourcing/", label: "Historic Material Sourcing" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
+  { href: "/historic-restoration/", label: "Historic Material Sourcing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -246,7 +246,7 @@ export default function Page() {
               </div>
 
               <p className="text-gray-600 mb-6">
-                While adaptive reuse projects typically cost 15-25% more than new construction on a per-square-foot basis, the <Link href="/services/historic-restoration/historic-tax-credits/" className="text-brand-green-dark hover:underline">20% Federal Historic Tax Credit</Link> can significantly offset these costs for qualified rehabilitation expenditures. Combined with potential state and local incentives, adaptive reuse often delivers superior return on investment compared to new construction.
+                While adaptive reuse projects typically cost 15-25% more than new construction on a per-square-foot basis, the <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">20% Federal Historic Tax Credit</Link> can significantly offset these costs for qualified rehabilitation expenditures. Combined with potential state and local incentives, adaptive reuse often delivers superior return on investment compared to new construction.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -264,7 +264,7 @@ export default function Page() {
               </ul>
               
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists has successfully guided dozens of Tampa-area projects through the three-part federal tax credit application process, working directly with the Florida Division of Historical Resources (SHPO) and the National Park Service to ensure certification approval. Our <Link href="/services/historic-restoration/shpo-compliance/" className="text-brand-green-dark hover:underline">SHPO compliance services</Link> streamline this complex process.
+                Florida Construction Specialists has successfully guided dozens of Tampa-area projects through the three-part federal tax credit application process, working directly with the Florida Division of Historical Resources (SHPO) and the National Park Service to ensure certification approval. Our <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">SHPO compliance services</Link> streamline this complex process.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

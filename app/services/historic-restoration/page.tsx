@@ -48,19 +48,19 @@ const historicFaqs = [
 const clusterServices = [
   {
     name: "SHPO Compliance",
-    href: "/services/historic-restoration/shpo-compliance/",
+    href: "/historic-restoration/",
     description: "Full compliance with Florida State Historic Preservation Office requirements and Secretary of the Interior's Standards for Historic Preservation.",
     icon: Shield,
   },
   {
     name: "Period-Accurate Material Sourcing",
-    href: "/services/historic-restoration/material-sourcing/",
+    href: "/historic-restoration/",
     description: "Expert sourcing of period-appropriate materials including historic masonry, millwork, hardware, and architectural elements.",
     icon: Palette,
   },
   {
     name: "Historic Tax Credits",
-    href: "/services/historic-restoration/historic-tax-credits/",
+    href: "/historic-restoration/",
     description: "Navigation of federal and state historic tax credit programs, ensuring work meets qualification requirements.",
     icon: Scale,
   },
@@ -705,7 +705,7 @@ export default function HistoricRestorationPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/services/historic-restoration/","label":"Historic Restoration Services"},{"href":"/tampa-historic-social-clubs-restoration/","label":"Historic Social Clubs Restoration"},{"href":"/florida-shpo-requirements/","label":"SHPO Requirements Guide"},{"href":"/historic-tax-credits-commercial-buildings/","label":"Historic Tax Credits"},{"href":"/sourcing-historic-materials-tampa-bay/","label":"Sourcing Historic Materials"}]}
+            links={[{"href":"/services/historic-restoration/","label":"Historic Restoration Services"},{"href":"/historic-restoration-tampa/","label":"Historic Social Clubs Restoration"},{"href":"/historic-restoration/","label":"SHPO Requirements Guide"},{"href":"/historic-restoration/","label":"Historic Tax Credits"},{"href":"/historic-restoration/","label":"Sourcing Historic Materials"}]}
             title="Related Resources"
             
           />

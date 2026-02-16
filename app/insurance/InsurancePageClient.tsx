@@ -81,7 +81,7 @@ const services = [
   {
     icon: Gavel,
     title: "Expert Witness",
-    href: "/insurance/expert-witness/",
+    href: "/expert-witness/",
     description: "Construction expert witness testimony for litigation, arbitration, and dispute resolution. 40+ years of credible expertise.",
   },
 ];

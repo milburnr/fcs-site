@@ -501,7 +501,7 @@ export default function MultiFamilyConstructionClearwaterPage() {
                 <li><Link href="/commercial-construction-clearwater/" className="text-brand-green hover:underline">Commercial Construction Clearwater</Link></li>
                 <li><Link href="/balcony-reconstruction-clearwater/" className="text-brand-green hover:underline">Balcony Reconstruction Clearwater</Link></li>
                 <li><Link href="/historic-restoration-clearwater/" className="text-brand-green hover:underline">Historic Restoration Clearwater</Link></li>
-                <li><Link href="/condo-common-area-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
+                <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
                 <li><Link href="/florida-sb4d-compliance-guide/" className="text-brand-green hover:underline">Florida SB 4-D Compliance Guide</Link></li>
               </ul>
             </div>

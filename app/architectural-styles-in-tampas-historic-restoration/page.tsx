@@ -21,9 +21,9 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/services/historic-restoration/shpo-compliance/", label: "SHPO Compliance" },
-  { href: "/services/historic-restoration/historic-tax-credits/", label: "Historic Tax Credits" },
-  { href: "/services/historic-restoration/material-sourcing/", label: "Historic Material Sourcing" },
+  { href: "/historic-restoration/", label: "SHPO Compliance" },
+  { href: "/historic-restoration/", label: "Historic Tax Credits" },
+  { href: "/historic-restoration/", label: "Historic Material Sourcing" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -40,7 +40,7 @@ const relatedArticles = [
   },
   {
     "title": "Historic Tax Credits for Commercial Buildings",
-    "href": "/historic-tax-credits-commercial-buildings/",
+    "href": "/historic-restoration/",
     "description": "Maximize ROI with federal and state historic preservation tax incentives."
   },
   {
@@ -166,7 +166,7 @@ export default function Page() {
                 Restoration Considerations
               </h3>
               <p className="text-gray-600 mb-6">
-                Restoring Mediterranean Revival buildings requires specialized expertise in historic stucco systems, clay tile roofing, and decorative plasterwork. Common challenges include deteriorated stucco due to moisture infiltration, broken or missing barrel tiles, corroded wrought iron elements, and damaged decorative features. Our <Link href="/services/historic-restoration/material-sourcing/" className="text-brand-green-dark hover:underline">historic material sourcing services</Link> help locate period-appropriate replacement materials when original elements cannot be salvaged.
+                Restoring Mediterranean Revival buildings requires specialized expertise in historic stucco systems, clay tile roofing, and decorative plasterwork. Common challenges include deteriorated stucco due to moisture infiltration, broken or missing barrel tiles, corroded wrought iron elements, and damaged decorative features. Our <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">historic material sourcing services</Link> help locate period-appropriate replacement materials when original elements cannot be salvaged.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -319,7 +319,7 @@ export default function Page() {
               </div>
 
               <p className="text-gray-600 mb-6">
-                These costs reflect exterior restoration and significant interior preservation work. Projects seeking <Link href="/services/historic-restoration/historic-tax-credits/" className="text-brand-green-dark hover:underline">federal historic tax credits</Link> may have additional documentation and compliance costs but can offset 20% of qualified rehabilitation expenditures.
+                These costs reflect exterior restoration and significant interior preservation work. Projects seeking <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">federal historic tax credits</Link> may have additional documentation and compliance costs but can offset 20% of qualified rehabilitation expenditures.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -337,7 +337,7 @@ export default function Page() {
               </ul>
 
               <p className="text-gray-600 mb-6">
-                Our <Link href="/services/historic-restoration/shpo-compliance/" className="text-brand-green-dark hover:underline">SHPO compliance services</Link> ensure your project meets these standards, protecting your eligibility for federal tax credits and maintaining your property&apos;s historic integrity.
+                Our <Link href="/historic-restoration/" className="text-brand-green-dark hover:underline">SHPO compliance services</Link> ensure your project meets these standards, protecting your eligibility for federal tax credits and maintaining your property&apos;s historic integrity.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">

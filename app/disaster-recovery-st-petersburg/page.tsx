@@ -88,25 +88,25 @@ const stPeteFaqs = [
 const clusterServices = [
   {
     name: "Hurricane & Storm Damage",
-    href: "/services/disaster-recovery/hurricane-damage/",
+    href: "/disaster-recovery/",
     description: "Comprehensive restoration from hurricane, tropical storm, and tornado damage including structural repair, roofing, and building envelope reconstruction.",
     icon: CloudRain,
   },
   {
     name: "Water Damage Restoration",
-    href: "/services/disaster-recovery/water-damage/",
+    href: "/disaster-recovery/",
     description: "Large loss water damage restoration including flood recovery, storm surge damage, saltwater intrusion, and comprehensive moisture remediation.",
     icon: Droplets,
   },
   {
     name: "Fire Damage Restoration",
-    href: "/services/disaster-recovery/fire-damage/",
+    href: "/disaster-recovery/",
     description: "Complete fire and smoke damage restoration from structural repair to content restoration and odor elimination.",
     icon: Flame,
   },
   {
     name: "Insurance Claims Process",
-    href: "/services/disaster-recovery/insurance-claims-process/",
+    href: "/disaster-recovery/",
     description: "Expert guidance through the insurance claim process, from initial documentation through final settlement and restoration completion.",
     icon: FileText,
   },
@@ -153,10 +153,10 @@ const processSteps = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services (Main)" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
-  { href: "/services/disaster-recovery/water-damage/", label: "Water Damage Services" },
-  { href: "/services/disaster-recovery/fire-damage/", label: "Fire Damage Restoration" },
-  { href: "/services/disaster-recovery/insurance-claims-process/", label: "Insurance Claims Process" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Water Damage Services" },
+  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Insurance Claims Process" },
   { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
   { href: "/disaster-recovery-clearwater/", label: "Disaster Recovery Clearwater" },
   { href: "/disaster-recovery-lakeland/", label: "Disaster Recovery Lakeland" },

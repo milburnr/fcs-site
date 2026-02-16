@@ -686,7 +686,7 @@ export default function CustomHomesPage() {
           <div className="flex flex-wrap justify-center gap-8 md:gap-16">
             {[
               { name: "Residential Services", href: "/residential/" },
-              { name: "Waterfront Homes", href: "/residential/waterfront-homes/" },
+              { name: "Waterfront Homes", href: "/luxury-custom-homes/" },
               { name: "Hurricane Construction", href: "/residential/hurricane-resistant-construction/" },
               { name: "Home Additions", href: "/services/residential/home-additions/" },
               { name: "Contact Us", href: "/contact/" },

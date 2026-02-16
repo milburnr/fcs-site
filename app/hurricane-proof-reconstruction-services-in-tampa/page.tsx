@@ -42,7 +42,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/services/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/services/disaster-recovery/hurricane-damage/", label: "Hurricane Damage Restoration" },
+  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
   { href: "/reinforced-construction-services-in-tampa-for-disaster-prevention/", label: "Reinforced Construction Services" },
   { href: "/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
   { href: "/contact/", label: "Schedule a Consultation" },

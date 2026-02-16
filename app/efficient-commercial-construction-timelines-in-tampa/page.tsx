@@ -19,7 +19,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/commercial/", label: "Commercial Construction Services" },
-  { href: "/commercial-construction-project-on-schedule/", label: "Keeping Projects On Schedule" },
+  { href: "/commercial-construction/", label: "Keeping Projects On Schedule" },
   { href: "/tampa-commercial-construction-planning-services/", label: "Planning Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
