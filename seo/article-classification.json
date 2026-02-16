@@ -1,0 +1,1537 @@
+{
+  "generated": "2026-02-16T07:04:27.415Z",
+  "counts": {
+    "commercial": 144,
+    "residential": 15,
+    "insurance": 31,
+    "total": 190
+  },
+  "classificationMethods": {
+    "service-silo": 72,
+    "keyword-pattern": 118,
+    "audience-fallback": 0,
+    "default-fallback": 0
+  },
+  "articles": [
+    {
+      "slug": "a-zero-accident-workplace-in-tampas-commercial-construction",
+      "currentPath": "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "architectural-styles-in-tampas-historic-restoration",
+      "currentPath": "/architectural-styles-in-tampas-historic-restoration/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "avoid-commercial-construction-delays-in-florida",
+      "currentPath": "/avoid-commercial-construction-delays-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/avoid-commercial-construction-delays-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "balcony-reconstruction-exterior-waterproofing",
+      "currentPath": "/balcony-reconstruction-exterior-waterproofing/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/balcony-reconstruction-exterior-waterproofing/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "balcony-reconstruction"
+    },
+    {
+      "slug": "balcony-restoration-and-exterior-waterproofing-for-longevity",
+      "currentPath": "/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "exterior-waterproofing"
+    },
+    {
+      "slug": "balcony-restoration-services",
+      "currentPath": "/balcony-restoration-services/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/balcony-restoration-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "balcony-safety-measures",
+      "currentPath": "/balcony-safety-measures/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/balcony-safety-measures/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "balcony-waterproofing-for-long-lasting-protection",
+      "currentPath": "/balcony-waterproofing-for-long-lasting-protection/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "benefits-of-design-build-construction-for-commercial-project",
+      "currentPath": "/benefits-of-design-build-construction-for-commercial-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "design-build"
+    },
+    {
+      "slug": "benefits-of-sustainable-materials-in-commercial-construction",
+      "currentPath": "/benefits-of-sustainable-materials-in-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "benefits-of-value-engineering-for-construction",
+      "currentPath": "/benefits-of-value-engineering-for-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/benefits-of-value-engineering-for-construction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "value-engineering"
+    },
+    {
+      "slug": "boosting-performance-in-florida-offices-windows",
+      "currentPath": "/boosting-performance-in-florida-offices-windows/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/boosting-performance-in-florida-offices-windows/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "office"
+    },
+    {
+      "slug": "build-a-successful-future-in-construction-management",
+      "currentPath": "/build-a-successful-future-in-construction-management/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/build-a-successful-future-in-construction-management/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-management"
+    },
+    {
+      "slug": "building-plans-for-businesses-florida-construction-specialists",
+      "currentPath": "/building-plans-for-businesses-florida-construction-specialists/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/building-plans-for-businesses-florida-construction-specialists/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "building-plans"
+    },
+    {
+      "slug": "building-strong-communities-through-community-outreach",
+      "currentPath": "/building-strong-communities-through-community-outreach/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/building-strong-communities-through-community-outreach/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "community-outreach"
+    },
+    {
+      "slug": "building-the-perfect-construction-blueprint",
+      "currentPath": "/building-the-perfect-construction-blueprint/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/building-the-perfect-construction-blueprint/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "blueprint"
+    },
+    {
+      "slug": "choose-between-general-contractor-and-construction-manager",
+      "currentPath": "/choose-between-general-contractor-and-construction-manager/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/choose-between-general-contractor-and-construction-manager/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "contractor"
+    },
+    {
+      "slug": "choosing-the-perfect-location-for-commercial-construction",
+      "currentPath": "/choosing-the-perfect-location-for-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/choosing-the-perfect-location-for-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "choosing-the-right-waterproofing-solution-your-ultimate-guide",
+      "currentPath": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "waterproofing"
+    },
+    {
+      "slug": "church-renovation-tips-from-top-commercial-contractor",
+      "currentPath": "/church-renovation-tips-from-top-commercial-contractor/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/church-renovation-tips-from-top-commercial-contractor/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "commercial-buildings-facade-renovations",
+      "currentPath": "/commercial-buildings-facade-renovations/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-buildings-facade-renovations/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "commercial-construction-budgeting-tips-for-florida-specialists",
+      "currentPath": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-delays",
+      "currentPath": "/commercial-construction-delays/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-delays/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-ideas-for-mall-revamp",
+      "currentPath": "/commercial-construction-ideas-for-mall-revamp/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-ideas-for-mall-revamp/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-insurance-coverage",
+      "currentPath": "/commercial-construction-insurance-coverage/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-insurance-coverage/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-questions-answered",
+      "currentPath": "/commercial-construction-questions-answered/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-questions-answered/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-stages-in-florida",
+      "currentPath": "/commercial-construction-stages-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-stages-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-construction-vs-remodeling-and-renovation-in-florida",
+      "currentPath": "/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "commercial-renovation-secrets-from-floridas-top-contractors",
+      "currentPath": "/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "common-construction-mistakes-to-avoid-for-commercial-project",
+      "currentPath": "/common-construction-mistakes-to-avoid-for-commercial-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "condo-balcony-inspection-requirements",
+      "currentPath": "/condo-balcony-inspection-requirements/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/condo-balcony-inspection-requirements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "condo-structural-reserve-study-repairs",
+      "currentPath": "/condo-structural-reserve-study-repairs/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/condo-structural-reserve-study-repairs/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "condo"
+    },
+    {
+      "slug": "construction-florida-leading-way-leed-certification",
+      "currentPath": "/construction-florida-leading-way-leed-certification/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/construction-florida-leading-way-leed-certification/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "leed"
+    },
+    {
+      "slug": "construction-project-management-and-scheduling",
+      "currentPath": "/construction-project-management-and-scheduling/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/construction-project-management-and-scheduling/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "project-management"
+    },
+    {
+      "slug": "construction-quotes-for-commercial-project",
+      "currentPath": "/construction-quotes-for-commercial-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/construction-quotes-for-commercial-project/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "converting-retail-building-into-multi-tenant-space",
+      "currentPath": "/converting-retail-building-into-multi-tenant-space/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/converting-retail-building-into-multi-tenant-space/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "retail"
+    },
+    {
+      "slug": "crafting-the-ideal-commercial-blueprint-in-tampa-florida",
+      "currentPath": "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "customized-outdoor-sports-facilities-in-tampa-homes",
+      "currentPath": "/customized-outdoor-sports-facilities-in-tampa-homes/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "outdoor-sports"
+    },
+    {
+      "slug": "decoding-commercial-construction-costs",
+      "currentPath": "/decoding-commercial-construction-costs/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/decoding-commercial-construction-costs/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "decoding-value-engineering-florida-construction-expertise",
+      "currentPath": "/decoding-value-engineering-florida-construction-expertise/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/decoding-value-engineering-florida-construction-expertise/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "value-engineering"
+    },
+    {
+      "slug": "demystifying-commercial-construction-insurance-in-florida",
+      "currentPath": "/demystifying-commercial-construction-insurance-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/demystifying-commercial-construction-insurance-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "discover-the-benefits-of-exterior-waterproofing",
+      "currentPath": "/discover-the-benefits-of-exterior-waterproofing/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/discover-the-benefits-of-exterior-waterproofing/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "exterior-waterproofing"
+    },
+    {
+      "slug": "discover-the-best-balcony-decking-options-for-outdoor-spaces",
+      "currentPath": "/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "effective-balcony-maintenance-tips",
+      "currentPath": "/effective-balcony-maintenance-tips/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/effective-balcony-maintenance-tips/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "effective-exterior-waterproofing-methods-for-your-property",
+      "currentPath": "/effective-exterior-waterproofing-methods-for-your-property/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "exterior-waterproofing"
+    },
+    {
+      "slug": "efficient-site-planning-for-commercial-construction-in-florida",
+      "currentPath": "/efficient-site-planning-for-commercial-construction-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "employee-communication-with-office-layout",
+      "currentPath": "/employee-communication-with-office-layout/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/employee-communication-with-office-layout/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "office"
+    },
+    {
+      "slug": "enhancing-commercial-property-value",
+      "currentPath": "/enhancing-commercial-property-value/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/enhancing-commercial-property-value/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "ensuring-construction-site-safety-a-top-priority",
+      "currentPath": "/ensuring-construction-site-safety-a-top-priority/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/ensuring-construction-site-safety-a-top-priority/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-site"
+    },
+    {
+      "slug": "experienced-design-build-firm-in-florida",
+      "currentPath": "/experienced-design-build-firm-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/experienced-design-build-firm-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "design-build"
+    },
+    {
+      "slug": "expert-balcony-construction-guidelines-for-optimal-results",
+      "currentPath": "/expert-balcony-construction-guidelines-for-optimal-results/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "expert-insights-on-ways-t0-enhanced-office-building-security",
+      "currentPath": "/expert-insights-on-ways-t0-enhanced-office-building-security/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "office"
+    },
+    {
+      "slug": "expert-tips-for-planning-your-commercial-construction-project",
+      "currentPath": "/expert-tips-for-planning-your-commercial-construction-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "exterior-waterproofing-solution-for-a-dry-and-protected-home",
+      "currentPath": "/exterior-waterproofing-solution-for-a-dry-and-protected-home/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "exterior-waterproofing"
+    },
+    {
+      "slug": "factors-influencing-commercial-construction-project-timeline",
+      "currentPath": "/factors-influencing-commercial-construction-project-timeline/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/factors-influencing-commercial-construction-project-timeline/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "financial-planning-for-commercial-construction",
+      "currentPath": "/financial-planning-for-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/financial-planning-for-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "florida-construction-specialists-mastering-your-post-construction-checklist",
+      "currentPath": "/florida-construction-specialists-mastering-your-post-construction-checklist/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "post-construction"
+    },
+    {
+      "slug": "green-contractor-certifications-in-commercial-construction",
+      "currentPath": "/green-contractor-certifications-in-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/green-contractor-certifications-in-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "guide-to-waterproofing-solutions-for-basements",
+      "currentPath": "/guide-to-waterproofing-solutions-for-basements/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/guide-to-waterproofing-solutions-for-basements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "waterproofing"
+    },
+    {
+      "slug": "hire-licensed-contractors-for-commercial-construction-project",
+      "currentPath": "/hire-licensed-contractors-for-commercial-construction-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "historic-restoration-preservation",
+      "currentPath": "/historic-restoration-preservation/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historic-restoration-preservation/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "historical-accuracy-in-tampa-restoration",
+      "currentPath": "/historical-accuracy-in-tampa-restoration/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/historical-accuracy-in-tampa-restoration/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "how-technology-is-revolutionizing-the-construction-process",
+      "currentPath": "/how-technology-is-revolutionizing-the-construction-process/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/how-technology-is-revolutionizing-the-construction-process/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-process"
+    },
+    {
+      "slug": "hyde-park-renovation-guide",
+      "currentPath": "/hyde-park-renovation-guide/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/hyde-park-renovation-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "renovation"
+    },
+    {
+      "slug": "inspiring-balcony-renovation-transform-your-outdoor-space",
+      "currentPath": "/inspiring-balcony-renovation-transform-your-outdoor-space/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "integrating-modern-amenities-in-tampas-historic-homes",
+      "currentPath": "/integrating-modern-amenities-in-tampas-historic-homes/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "investing-in-commercial-real-estate-construction",
+      "currentPath": "/investing-in-commercial-real-estate-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/investing-in-commercial-real-estate-construction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "is-your-commercial-building-remodel-ready",
+      "currentPath": "/is-your-commercial-building-remodel-ready/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/is-your-commercial-building-remodel-ready/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "key-questions-for-floridas-top-commercial-contractor",
+      "currentPath": "/key-questions-for-floridas-top-commercial-contractor/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/key-questions-for-floridas-top-commercial-contractor/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "key-signs-your-commercial-remodel-needs",
+      "currentPath": "/key-signs-your-commercial-remodel-needs/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/key-signs-your-commercial-remodel-needs/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "leading-commercial-contractors-in-tampas",
+      "currentPath": "/leading-commercial-contractors-in-tampas/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/leading-commercial-contractors-in-tampas/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "licensed-contractors-for-commercial-construction-in-florida",
+      "currentPath": "/licensed-contractors-for-commercial-construction-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "mastering-commercial-construction-design-in-florida",
+      "currentPath": "/mastering-commercial-construction-design-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/mastering-commercial-construction-design-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "maximize-savings-on-commercial-renovation",
+      "currentPath": "/maximize-savings-on-commercial-renovation/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/maximize-savings-on-commercial-renovation/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "maximize-work-area-efficiency-for-commercial-space-solutions",
+      "currentPath": "/maximize-work-area-efficiency-for-commercial-space-solutions/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/maximize-work-area-efficiency-for-commercial-space-solutions/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "post-construction-process-for-commercial-construction",
+      "currentPath": "/post-construction-process-for-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/post-construction-process-for-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "preserving-tampas-cultural-heritage-through-restoration",
+      "currentPath": "/preserving-tampas-cultural-heritage-through-restoration/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "cultural-heritage"
+    },
+    {
+      "slug": "renovating-vs-new-construction-florida",
+      "currentPath": "/renovating-vs-new-construction-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/renovating-vs-new-construction-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "renovating-vs"
+    },
+    {
+      "slug": "renovating-your-commercial-space-in-florida",
+      "currentPath": "/renovating-your-commercial-space-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/renovating-your-commercial-space-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "revitalize-your-older-building-renovation-and-reconstruction",
+      "currentPath": "/revitalize-your-older-building-renovation-and-reconstruction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "renovation"
+    },
+    {
+      "slug": "revolutionizing-commercial-construction-florida",
+      "currentPath": "/revolutionizing-commercial-construction-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/revolutionizing-commercial-construction-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "safety-first-in-florida-commercial-construction-projects",
+      "currentPath": "/safety-first-in-florida-commercial-construction-projects/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/safety-first-in-florida-commercial-construction-projects/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "skilled-project-managers-for-florida-commercial-construction",
+      "currentPath": "/skilled-project-managers-for-florida-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/skilled-project-managers-for-florida-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "streamlining-your-design-build-project-timeline",
+      "currentPath": "/streamlining-your-design-build-project-timeline/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/streamlining-your-design-build-project-timeline/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "design-build"
+    },
+    {
+      "slug": "stylish-balcony-railing-designs-for-your-outdoor-space",
+      "currentPath": "/stylish-balcony-railing-designs-for-your-outdoor-space/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "subcontractors-in-florida-commercial-construction",
+      "currentPath": "/subcontractors-in-florida-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/subcontractors-in-florida-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "successful-restaurant-design-with-florida-construction-specialists",
+      "currentPath": "/successful-restaurant-design-with-florida-construction-specialists/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "restaurant"
+    },
+    {
+      "slug": "summer-construction-safety-tips-from-top-contractors",
+      "currentPath": "/summer-construction-safety-tips-from-top-contractors/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/summer-construction-safety-tips-from-top-contractors/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "contractor"
+    },
+    {
+      "slug": "surviving-a-commercial-construction-project",
+      "currentPath": "/surviving-a-commercial-construction-project/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/surviving-a-commercial-construction-project/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "sustainable-building-materials-in-commercial-construction",
+      "currentPath": "/sustainable-building-materials-in-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-building-materials-in-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "sustainable-building-practices-florida-green-construction",
+      "currentPath": "/sustainable-building-practices-florida-green-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-building-practices-florida-green-construction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sustainable-building"
+    },
+    {
+      "slug": "sustainable-commercial-construction-in-tampa-2",
+      "currentPath": "/sustainable-commercial-construction-in-tampa-2/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-commercial-construction-in-tampa-2/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "sustainable-construction-trends-in-florida",
+      "currentPath": "/sustainable-construction-trends-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/sustainable-construction-trends-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-trends"
+    },
+    {
+      "slug": "tampa-commercial-construction-bidding-process",
+      "currentPath": "/tampa-commercial-construction-bidding-process/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-bidding-process/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-companies",
+      "currentPath": "/tampa-commercial-construction-companies/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-companies/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-costs",
+      "currentPath": "/tampa-commercial-construction-costs/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-costs/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-job-opportunities",
+      "currentPath": "/tampa-commercial-construction-job-opportunities/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-job-opportunities/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-market-analysis",
+      "currentPath": "/tampa-commercial-construction-market-analysis/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-market-analysis/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-networking-events",
+      "currentPath": "/tampa-commercial-construction-networking-events/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-networking-events/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-permits",
+      "currentPath": "/tampa-commercial-construction-permits/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-permits/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-planning-services",
+      "currentPath": "/tampa-commercial-construction-planning-services/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-planning-services/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-safety-standards",
+      "currentPath": "/tampa-commercial-construction-safety-standards/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-safety-standards/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-construction-trends-updates-2024",
+      "currentPath": "/tampa-commercial-construction-trends-updates-2024/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-construction-trends-updates-2024/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampa-commercial-property-disaster-recovery-services",
+      "currentPath": "/tampa-commercial-property-disaster-recovery-services/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-property-disaster-recovery-services/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "disaster-recovery"
+    },
+    {
+      "slug": "tampa-commercial-real-estate-development",
+      "currentPath": "/tampa-commercial-real-estate-development/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-commercial-real-estate-development/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "tampa-historic-home-restoration-guidelines",
+      "currentPath": "/tampa-historic-home-restoration-guidelines/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-historic-home-restoration-guidelines/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampa-historic-restoration-permits-and-regulations",
+      "currentPath": "/tampa-historic-restoration-permits-and-regulations/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-historic-restoration-permits-and-regulations/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "tampa-historic-restoration-workshops-and-training",
+      "currentPath": "/tampa-historic-restoration-workshops-and-training/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-historic-restoration-workshops-and-training/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "tampa-historic-window-restoration-services",
+      "currentPath": "/tampa-historic-window-restoration-services/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampa-historic-window-restoration-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampas-awards-for-historic-restoration-excellence",
+      "currentPath": "/tampas-awards-for-historic-restoration-excellence/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-awards-for-historic-restoration-excellence/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "tampas-commercial-construction-laws",
+      "currentPath": "/tampas-commercial-construction-laws/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-commercial-construction-laws/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampas-guidelines-for-historic-landscape-restoration",
+      "currentPath": "/tampas-guidelines-for-historic-landscape-restoration/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampas-guidelines-for-historic-roofs-restoration",
+      "currentPath": "/tampas-guidelines-for-historic-roofs-restoration/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampas-historic-districts-restoration-rules",
+      "currentPath": "/tampas-historic-districts-restoration-rules/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-historic-districts-restoration-rules/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampas-historic-restoration-zoning-laws",
+      "currentPath": "/tampas-historic-restoration-zoning-laws/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-historic-restoration-zoning-laws/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "historic-restoration"
+    },
+    {
+      "slug": "tampas-historical-societies-and-restoration-efforts",
+      "currentPath": "/tampas-historical-societies-and-restoration-efforts/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-historical-societies-and-restoration-efforts/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "historic"
+    },
+    {
+      "slug": "tampas-latest-commercial-construction-projects",
+      "currentPath": "/tampas-latest-commercial-construction-projects/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-latest-commercial-construction-projects/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "tampas-premier-commercial-remodeling-contractors",
+      "currentPath": "/tampas-premier-commercial-remodeling-contractors/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tampas-premier-commercial-remodeling-contractors/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction",
+      "currentPath": "/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "the-essential-duties-of-a-construction-manager-in-florida",
+      "currentPath": "/the-essential-duties-of-a-construction-manager-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-essential-duties-of-a-construction-manager-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-manager"
+    },
+    {
+      "slug": "the-essential-role-of-florida-construction-specialists",
+      "currentPath": "/the-essential-role-of-florida-construction-specialists/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-essential-role-of-florida-construction-specialists/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "florida-construction-specialist"
+    },
+    {
+      "slug": "the-impact-of-steel-and-aluminum-tariffs-on-construction",
+      "currentPath": "/the-impact-of-steel-and-aluminum-tariffs-on-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "steel"
+    },
+    {
+      "slug": "the-preconstruction-modern-approach-design",
+      "currentPath": "/the-preconstruction-modern-approach-design/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-preconstruction-modern-approach-design/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "preconstruction"
+    },
+    {
+      "slug": "the-role-of-a-construction-manager",
+      "currentPath": "/the-role-of-a-construction-manager/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-role-of-a-construction-manager/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-manager"
+    },
+    {
+      "slug": "the-stages-of-construction-project-management",
+      "currentPath": "/the-stages-of-construction-project-management/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-stages-of-construction-project-management/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "project-management"
+    },
+    {
+      "slug": "the-top-causes-of-construction-delays-in-florida",
+      "currentPath": "/the-top-causes-of-construction-delays-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/the-top-causes-of-construction-delays-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "construction-delay"
+    },
+    {
+      "slug": "tips-for-commercial-renovation-in-florida",
+      "currentPath": "/tips-for-commercial-renovation-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tips-for-commercial-renovation-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "tips-for-negotiating-property-purchases-in-florida",
+      "currentPath": "/tips-for-negotiating-property-purchases-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tips-for-negotiating-property-purchases-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "negotiating-property"
+    },
+    {
+      "slug": "tips-for-post-construction-in-florida-commercial-sector",
+      "currentPath": "/tips-for-post-construction-in-florida-commercial-sector/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "top-balcony-flooring-materials-for-style-durability",
+      "currentPath": "/top-balcony-flooring-materials-for-style-durability/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-balcony-flooring-materials-for-style-durability/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "balcony"
+    },
+    {
+      "slug": "top-commercial-construction-in-florida",
+      "currentPath": "/top-commercial-construction-in-florida/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-commercial-construction-in-florida/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "top-commercial-construction-trends",
+      "currentPath": "/top-commercial-construction-trends/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-commercial-construction-trends/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "top-commercial-contractor-for-roof-repair-and-replacement",
+      "currentPath": "/top-commercial-contractor-for-roof-repair-and-replacement/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "top-commercial-contractor-with-quality-control",
+      "currentPath": "/top-commercial-contractor-with-quality-control/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/top-commercial-contractor-with-quality-control/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "ultimate-waterproofing-guide-foundations",
+      "currentPath": "/ultimate-waterproofing-guide-foundations/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/ultimate-waterproofing-guide-foundations/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "waterproofing"
+    },
+    {
+      "slug": "unlocking-commercial-construction-permits",
+      "currentPath": "/unlocking-commercial-construction-permits/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/unlocking-commercial-construction-permits/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "unlocking-the-power-of-sustainable-construction",
+      "currentPath": "/unlocking-the-power-of-sustainable-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/unlocking-the-power-of-sustainable-construction/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sustainable-construction"
+    },
+    {
+      "slug": "unveiling-floridas-top-hidden-commercial-construction-costs",
+      "currentPath": "/unveiling-floridas-top-hidden-commercial-construction-costs/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "upgrade-commercial-sprinklers-during-renovation",
+      "currentPath": "/upgrade-commercial-sprinklers-during-renovation/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/upgrade-commercial-sprinklers-during-renovation/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "utility-mapping-for-commercial-buildings",
+      "currentPath": "/utility-mapping-for-commercial-buildings/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/utility-mapping-for-commercial-buildings/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "value-engineering-in-commercial-construction",
+      "currentPath": "/value-engineering-in-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/value-engineering-in-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "waterproofing-commercial-contractors",
+      "currentPath": "/waterproofing-commercial-contractors/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/waterproofing-commercial-contractors/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "commercial"
+    },
+    {
+      "slug": "waterproofing-solutions-for-homes-the-ultimate-guide",
+      "currentPath": "/waterproofing-solutions-for-homes-the-ultimate-guide/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "waterproofing"
+    },
+    {
+      "slug": "zero-net-energy-boosting-commercial-construction",
+      "currentPath": "/zero-net-energy-boosting-commercial-construction/",
+      "targetSilo": "commercial",
+      "targetPath": "/commercial/guides/zero-net-energy-boosting-commercial-construction/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "commercial-construction"
+    },
+    {
+      "slug": "breakaway-wall-construction-requirements",
+      "currentPath": "/breakaway-wall-construction-requirements/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/breakaway-wall-construction-requirements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "breakaway-wall"
+    },
+    {
+      "slug": "building-hurricane-safe-structures-florida",
+      "currentPath": "/building-hurricane-safe-structures-florida/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/building-hurricane-safe-structures-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane"
+    },
+    {
+      "slug": "condo-milestone-inspection-remediation",
+      "currentPath": "/condo-milestone-inspection-remediation/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/condo-milestone-inspection-remediation/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "milestone-inspection"
+    },
+    {
+      "slug": "contractors-role-in-tampa-insurance-restoration",
+      "currentPath": "/contractors-role-in-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/contractors-role-in-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "environmental-considerations-in-tampa-insurance-restoration",
+      "currentPath": "/environmental-considerations-in-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "fema-50-percent-rule-explained",
+      "currentPath": "/fema-50-percent-rule-explained/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/fema-50-percent-rule-explained/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "fema-50-percent"
+    },
+    {
+      "slug": "flood-zone-ve-vs-ae-guide",
+      "currentPath": "/flood-zone-ve-vs-ae-guide/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/flood-zone-ve-vs-ae-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "florida-sb4d-compliance-guide",
+      "currentPath": "/florida-sb4d-compliance-guide/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/florida-sb4d-compliance-guide/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sb4d"
+    },
+    {
+      "slug": "foundation-restoration-services-in-tampa-after-flooding",
+      "currentPath": "/foundation-restoration-services-in-tampa-after-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "how-to-prevent-water-damage-expert-tips-for-a-dry-home",
+      "currentPath": "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "water-damage"
+    },
+    {
+      "slug": "identifying-water-damage-signs-prevention-and-action",
+      "currentPath": "/identifying-water-damage-signs-prevention-and-action/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/identifying-water-damage-signs-prevention-and-action/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "water-damage"
+    },
+    {
+      "slug": "impact-of-climate-change-on-tampa-insurance-restoration",
+      "currentPath": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "milestone-inspection-requirements",
+      "currentPath": "/milestone-inspection-requirements/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/milestone-inspection-requirements/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "milestone-inspection"
+    },
+    {
+      "slug": "mold-remediation-services-in-tampa-after-flooding",
+      "currentPath": "/mold-remediation-services-in-tampa-after-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/mold-remediation-services-in-tampa-after-flooding/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "mold-remediation"
+    },
+    {
+      "slug": "reinforced-construction-services-in-tampa-for-disaster-prevention",
+      "currentPath": "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "role-of-executive-general-adjusters-in-tampa-restorations",
+      "currentPath": "/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "adjuster"
+    },
+    {
+      "slug": "sb-4-d-compliance-tampa-bay-condos",
+      "currentPath": "/sb-4-d-compliance-tampa-bay-condos/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sb-4-d"
+    },
+    {
+      "slug": "sirs-structural-integrity-reserve-studies",
+      "currentPath": "/sirs-structural-integrity-reserve-studies/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/sirs-structural-integrity-reserve-studies/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "sirs"
+    },
+    {
+      "slug": "structural-integrity-evaluation-in-tampa-post-disaster",
+      "currentPath": "/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampa-disaster-damage-assessment-services",
+      "currentPath": "/tampa-disaster-damage-assessment-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-disaster-damage-assessment-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampa-insurance-restoration-for-hurricane-damage",
+      "currentPath": "/tampa-insurance-restoration-for-hurricane-damage/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampa-post-disaster-rebuilding-services",
+      "currentPath": "/tampa-post-disaster-rebuilding-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-post-disaster-rebuilding-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampa-residential-restoration-after-hurricane-damage",
+      "currentPath": "/tampa-residential-restoration-after-hurricane-damage/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-residential-restoration-after-hurricane-damage/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "hurricane"
+    },
+    {
+      "slug": "tampa-water-damage-restoration-services-post-flooding",
+      "currentPath": "/tampa-water-damage-restoration-services-post-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampa-water-damage-restoration-services-post-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "tampas-building-codes-for-insurance-restoration",
+      "currentPath": "/tampas-building-codes-for-insurance-restoration/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-building-codes-for-insurance-restoration/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampas-disaster-related-demolition-services",
+      "currentPath": "/tampas-disaster-related-demolition-services/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-disaster-related-demolition-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampas-insurance-restoration-for-commercial-interiors",
+      "currentPath": "/tampas-insurance-restoration-for-commercial-interiors/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampas-insurance-restoration-reporting-and-documentation",
+      "currentPath": "/tampas-insurance-restoration-reporting-and-documentation/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "tampas-post-disaster-electrical-safety-checks",
+      "currentPath": "/tampas-post-disaster-electrical-safety-checks/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-post-disaster-electrical-safety-checks/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "disaster"
+    },
+    {
+      "slug": "tampas-structural-drying-services-post-flooding",
+      "currentPath": "/tampas-structural-drying-services-post-flooding/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/tampas-structural-drying-services-post-flooding/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "flood"
+    },
+    {
+      "slug": "understanding-tampa-insurance-restoration-claims",
+      "currentPath": "/understanding-tampa-insurance-restoration-claims/",
+      "targetSilo": "insurance",
+      "targetPath": "/insurance/guides/understanding-tampa-insurance-restoration-claims/",
+      "classifiedBy": "service-silo",
+      "matchedPattern": "insurance-restoration"
+    },
+    {
+      "slug": "building-tampa-homes-with-personalized-office-spaces",
+      "currentPath": "/building-tampa-homes-with-personalized-office-spaces/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/building-tampa-homes-with-personalized-office-spaces/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "personalized-office"
+    },
+    {
+      "slug": "commercial-residential-construction-in-florida",
+      "currentPath": "/commercial-residential-construction-in-florida/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/commercial-residential-construction-in-florida/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "residential"
+    },
+    {
+      "slug": "creating-unique-bedrooms-in-tampa-custom-homes",
+      "currentPath": "/creating-unique-bedrooms-in-tampa-custom-homes/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "preventing-home-improvement-fraud",
+      "currentPath": "/preventing-home-improvement-fraud/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/preventing-home-improvement-fraud/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "home-improvement"
+    },
+    {
+      "slug": "smart-home-integration-in-tampa-custom-homes-2",
+      "currentPath": "/smart-home-integration-in-tampa-custom-homes-2/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-home-builders-with-artistic-flair",
+      "currentPath": "/tampa-custom-home-builders-with-artistic-flair/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-home-builders-with-artistic-flair/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-home-landscaping-solutions",
+      "currentPath": "/tampa-custom-home-landscaping-solutions/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-home-landscaping-solutions/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-green-building-practices",
+      "currentPath": "/tampa-custom-homes-with-green-building-practices/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-green-building-practices/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-luxury-bathrooms",
+      "currentPath": "/tampa-custom-homes-with-luxury-bathrooms/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-luxury-bathrooms/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-homes-with-unique-facades",
+      "currentPath": "/tampa-custom-homes-with-unique-facades/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-homes-with-unique-facades/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampa-custom-outdoor-living-spaces",
+      "currentPath": "/tampa-custom-outdoor-living-spaces/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-custom-outdoor-living-spaces/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "outdoor-living"
+    },
+    {
+      "slug": "tampa-homes-with-custom-art-studios",
+      "currentPath": "/tampa-homes-with-custom-art-studios/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-homes-with-custom-art-studios/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "art-studio"
+    },
+    {
+      "slug": "tampa-luxury-custom-home-building-services",
+      "currentPath": "/tampa-luxury-custom-home-building-services/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampa-luxury-custom-home-building-services/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "custom-home"
+    },
+    {
+      "slug": "tampas-custom-family-home-builders",
+      "currentPath": "/tampas-custom-family-home-builders/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/tampas-custom-family-home-builders/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "family-home"
+    },
+    {
+      "slug": "why-florida-construction-specialists-recommend-building-instead-of-buying",
+      "currentPath": "/why-florida-construction-specialists-recommend-building-instead-of-buying/",
+      "targetSilo": "residential",
+      "targetPath": "/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/",
+      "classifiedBy": "keyword-pattern",
+      "matchedPattern": "building-instead-of-buying"
+    }
+  ]
+}
