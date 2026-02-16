@@ -57,7 +57,7 @@ const breadcrumbItems = [
 const trustBadges = [
   { icon: Briefcase, label: "43 Years Insurance Industry" },
   { icon: ClipboardCheck, label: "Certified Xactimate" },
-  { icon: Shield, label: "Licensed CGC#1522434" },
+  { icon: Shield, label: "Licensed CBC1262722" },
   { icon: Award, label: "$75M+ Claims Handled" },
 ];
 

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/' },
   title: "Secure Custom Home Construction Tampa | Safety",
-  description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Contact us today.",
+  description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

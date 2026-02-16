@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
-  description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Contact our team today.",
+  description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
 };
 
 const breadcrumbItems = [

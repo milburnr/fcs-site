@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/green-contractor-certifications-in-commercial-construction/' },
   title: "Green Contractor Certifications in Commercial Construction",
-  description: "Discover green contractor certifications in commercial construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Read more.",
+  description: "Discover green contractor certifications in commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Read more.",
 };
 
 const breadcrumbItems = [

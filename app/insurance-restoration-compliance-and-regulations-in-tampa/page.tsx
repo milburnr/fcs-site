@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-compliance-and-regulations-in-tampa/' },
   title: "Insurance Restoration Compliance Tampa | Laws",
-  description: "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CGC-licensed, trusted since 1983. Contact us today.",
+  description: "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [

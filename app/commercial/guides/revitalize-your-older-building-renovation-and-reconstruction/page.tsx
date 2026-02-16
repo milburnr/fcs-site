@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/' },
   title: "Revitalize Your Building Tampa | Renovation",
-  description: "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+  description: "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CBC in ${region}. Request a free estimate.",
 };
 
 const breadcrumbItems = [

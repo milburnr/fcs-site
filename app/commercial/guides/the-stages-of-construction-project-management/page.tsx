@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-stages-of-construction-project-management/' },
   title: "Construction Project Management Stages | Tampa",
-  description: "Discover construction project management stages with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover construction project management stages with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

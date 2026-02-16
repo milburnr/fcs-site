@@ -98,7 +98,7 @@ const faqs = [
   },
   {
     question: "Is FCS licensed, bonded, and insured for large projects?",
-    answer: "Yes. FCS holds Florida State Certified General Contractor license CGC#1522434, with bonding capacity for projects up to $25 million. We maintain comprehensive general liability insurance, workers' compensation coverage, and builder's risk insurance options. Our licensing, bonding, and insurance meet the requirements of all major insurance carriers and large commercial property owners."
+    answer: "Yes. FCS holds Florida State Certified Building Contractor license CBC1262722, with bonding capacity for projects up to $25 million. We maintain comprehensive general liability insurance, workers' compensation coverage, and builder's risk insurance options. Our licensing, bonding, and insurance meet the requirements of all major insurance carriers and large commercial property owners."
   }
 ];
 
@@ -1903,7 +1903,7 @@ export default function DisasterRecoveryPage() {
               </a>
             </div>
             <p className="text-white/70 mt-6 text-sm">
-              Licensed Florida State Certified General Contractor CGC#1522434 | Projects $250,000 to $25M+
+              Licensed Florida State Certified Building Contractor CBC1262722 | Projects $250,000 to $25M+
             </p>
           </div>
         </div>

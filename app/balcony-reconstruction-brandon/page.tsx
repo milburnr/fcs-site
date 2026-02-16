@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-brandon/' },
   title: "Balcony Reconstruction Brandon | SB 4-D | FCS",
-  description: "Professional balcony repair in Brandon. Insurance Restoration, Design-build, and Renovations. CGC #1529395, 40+ years. Call (813) 420-7561 for a quote.",
+  description: "Professional balcony repair in Brandon. Insurance Restoration, Design-build, and Renovations. CBC1262722, 40+ years. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

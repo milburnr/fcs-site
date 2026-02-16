@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/commercial-residential-construction-in-florida/' },
   title: "Commercial Residential Construction in Florida",
-  description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CGC. Request a free estimate today.",
+  description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

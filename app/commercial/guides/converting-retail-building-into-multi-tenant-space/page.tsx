@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/' },
   title: "Converting Retail to Multi-Tenant | Tampa Bay",
-  description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+  description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

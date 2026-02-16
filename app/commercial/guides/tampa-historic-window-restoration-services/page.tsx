@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-window-restoration-services/' },
   title: "Tampa Historic Window Restoration Services",
-  description: "Discover historic window restoration services with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover historic window restoration services with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

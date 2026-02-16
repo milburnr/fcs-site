@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-lakeland/' },
   title: "Historic Restoration Lakeland | Frank Lloyd Wright",
-  description: "Historic Restoration in Lakeland: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Call for a free consultation today.",
+  description: "Historic Restoration in Lakeland: new construction, renovations, and insurance restoration. 40+ years, licensed CBC. Call for a free consultation today.",
 };
 
 const serviceTypes = [

@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/historic-restoration/' },
   title: "Historic Restoration Tampa | SHPO Compliance | FCS",
   description:
-    "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact us today.'s Eye Institute, Bay Pines VA Hospital restoration.",
+    "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Contact us today.'s Eye Institute, Bay Pines VA Hospital restoration.",
 };
 
 const features = [

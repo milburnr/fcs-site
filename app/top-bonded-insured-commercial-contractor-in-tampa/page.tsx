@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/' },
   title: "Top Bonded & Insured Commercial Contractor in Tampa",
-  description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Request a free estimate.",
+  description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Request a free estimate.",
 };
 
 const breadcrumbItems = [

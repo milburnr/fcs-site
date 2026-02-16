@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-premier-commercial-remodeling-contractors/' },
   title: "Tampa's Premier Commercial Remodeling Contractors",
-  description: "Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CGC contractor. Request an estimate today.",
+  description: "Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CBC contractor. Request an estimate today.",
 };
 
 const breadcrumbItems = [
@@ -52,7 +52,7 @@ const relatedArticles = [
 ];
 
 const credentials = [
-  { title: "Licensed & Insured", description: "Florida CGC License, $2M+ liability coverage", icon: Shield },
+  { title: "Licensed & Insured", description: "Florida CBC License, $2M+ liability coverage", icon: Shield },
   { title: "20+ Years Experience", description: "Serving Tampa Bay since 2006", icon: Clock },
   { title: "500+ Projects Completed", description: "Commercial projects across all sectors", icon: Building2 },
   { title: "Award-Winning Quality", description: "ABC Excellence in Construction awards", icon: Award },

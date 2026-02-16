@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/' },
   title: "Planning Commercial Construction Tampa | Tips",
-  description: "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CGC. Request a free estimate.'s leading design-build firm.",
+  description: "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CBC. Request a free estimate.'s leading design-build firm.",
 };
 
 const breadcrumbItems = [

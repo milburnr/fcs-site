@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-awards-for-historic-restoration-excellence/' },
   title: "Tampa&apos;s Awards for Historic Restoration Excellence",
-  description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Contact our team today.",
+  description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Contact our team today.",
 };
 
 const breadcrumbItems = [

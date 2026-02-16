@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-landscaping-solutions/' },
   title: "Tampa Custom Home Landscaping | Luxury Outdoor",
-  description: "Custom Home Landscaping Luxury Outdoor: create stunning landscapes for your custom home. Professional guidance from FCS, licensed CGC. Request a free estimate.",
+  description: "Custom Home Landscaping Luxury Outdoor: create stunning landscapes for your custom home. Professional guidance from FCS, licensed CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

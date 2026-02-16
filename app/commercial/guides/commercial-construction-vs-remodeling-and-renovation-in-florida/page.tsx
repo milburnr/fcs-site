@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-vs-remodeling-and-renovation-in-florida/' },
   title: "Commercial Construction vs Remodeling Florida",
-  description: "Discover commercial construction vs remodeling florida with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+  description: "Discover commercial construction vs remodeling florida with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
 };
 
 const breadcrumbItems = [

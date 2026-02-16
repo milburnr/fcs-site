@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/' },
   title: "Insurance Restoration Consultations Tampa | Guide",
-  description: "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CGC-licensed, trusted since 1983. Read more.",
+  description: "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1983. Read more.",
 };
 
 const breadcrumbItems = [

@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-tampa/' },
   title: "Condo Remediation Tampa | SB4-D Compliance | FCS",
   description:
-    "Condo Remediation Sb4-d Compliance in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate.",
+    "Condo Remediation Sb4-d Compliance in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate.",
   openGraph: {
     title: "Condo Remediation Tampa | SB4-D Compliance Specialists",
     description:

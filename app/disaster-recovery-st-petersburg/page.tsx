@@ -32,7 +32,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-st-petersburg/' },
   title: "Disaster Recovery in St. Petersburg",
-  description: "Disaster Recovery Contractor in St. Petersburg: new builds, renovations, and disaster recovery services. 40+ years, licensed CGC. Request a free estimate today.",
+  description: "Disaster Recovery Contractor in St. Petersburg: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/' },
   title: "Roof Damage Restoration Tampa | Insurance Claims",
-  description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CGC, 40+ years. Request a free estimate.",
+  description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

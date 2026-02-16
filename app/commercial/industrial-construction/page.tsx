@@ -41,7 +41,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Tilt-Wall | FCS",
   description:
-    "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+    "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const features = [

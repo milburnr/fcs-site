@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/' },
   title: "Zero Accident Workplace Tampa | Safety Commitment",
-  description: "Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+  description: "Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

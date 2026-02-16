@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-ruskin/' },
   title: "Commercial Construction Ruskin FL | FCS Home Base",
-  description: "Looking for commercial construction in Ruskin? New Builds, Renovations, and Disaster Recovery Services. 40+ years, licensed CGC. Request a free estimate.",
+  description: "Looking for commercial construction in Ruskin? New Builds, Renovations, and Disaster Recovery Services. 40+ years, licensed CBC. Request a free estimate.",
 };
 
 const serviceFeatures = [

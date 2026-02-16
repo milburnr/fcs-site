@@ -12,7 +12,7 @@ import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
   title: "Insurance Restoration Ruskin FL | FCS Headquarters",
-  description: "Insurance Restoration Fl Headquarters in Ruskin: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Get a free project assessment.'re already here.",
+  description: "Insurance Restoration Fl Headquarters in Ruskin: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Get a free project assessment.'re already here.",
 };
 
 const southHillsboroughAreas = [
@@ -842,7 +842,7 @@ export default function InsuranceRestorationRuskinPage() {
               </a>
             </div>
             <p className="text-white/70 mt-6 text-sm">
-              Florida State Certified General Contractor CGC#1522434<br />
+              Florida State Certified Building Contractor CBC1262722<br />
               Serving Ruskin, Sun City Center, Apollo Beach, Gibsonton, Wimauma & South Hillsborough
             </p>
           </div>

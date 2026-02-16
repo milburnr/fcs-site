@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/' },
   title: "SB 4-D Compliance Tampa Bay Condos | FCS",
-  description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CGC with 40+ years experience. Read more.",
+  description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
 };
 
 const faqs = [
@@ -725,7 +725,7 @@ export default function SB4DCompliancePage() {
               {
                 icon: Shield,
                 title: "Fully Licensed & Bonded",
-                desc: "Florida CGC license, 40+ years experience and in-house engineering, comprehensive insurance. Your association is protected.",
+                desc: "Florida CBC license, 40+ years experience and in-house engineering, comprehensive insurance. Your association is protected.",
               },
               {
                 icon: FileText,

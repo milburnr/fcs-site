@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/' },
   title: "Tampa Hurricane Insurance Restoration | Commercial",
-  description: "Discover hurricane insurance restoration commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover hurricane insurance restoration commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-bradenton/' },
   title: "Balcony Reconstruction Bradenton | SB 4-D | FCS",
-  description: "Looking for balcony repair in Bradenton? New Construction, Renovations, and Insurance Restoration. FL-licensed CGC contractor. Request a free estimate today.",
+  description: "Looking for balcony repair in Bradenton? New Construction, Renovations, and Insurance Restoration. FL-licensed CBC contractor. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/challenges-in-historic-restoration-projects-in-tampa/' },
   title: "Historic Restoration Challenges Tampa | Solutions",
-  description: "Historic Restoration Challenges Solutions in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate.",
+  description: "Historic Restoration Challenges Solutions in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

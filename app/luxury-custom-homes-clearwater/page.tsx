@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-clearwater/' },
   title: "Luxury Custom Homes Clearwater | Beach | FCS",
-  description: "Luxury Home Builder in Clearwater: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call for a free consultation today.",
+  description: "Luxury Home Builder in Clearwater: insurance restoration, design-build, and renovations. FL-licensed CBC contractor. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

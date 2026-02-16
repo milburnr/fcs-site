@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-commercial-contractors/' },
   title: "Commercial Waterproofing Tampa | High-Rise | FCS",
-  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

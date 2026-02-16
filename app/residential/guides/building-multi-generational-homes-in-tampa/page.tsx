@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/' },
   title: "Building Multi-Generational Homes in Tampa | Family Living",
-  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Contact us today.",
+  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Contact us today.",
 };
 
 const breadcrumbItems = [

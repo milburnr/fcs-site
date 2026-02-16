@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/resources/' },
   title: "Resources & Guides | Construction Knowledge Hub | FCS Tampa",
   description:
-    "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+    "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const commercialResources = [

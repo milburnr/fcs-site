@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/spacious-family-homes-construction-in-tampa/' },
   title: "Spacious Family Homes Tampa | Large Custom Homes",
-  description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Contact our team today.",
+  description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC. Contact our team today.",
 };
 
 const breadcrumbItems = [

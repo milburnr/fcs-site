@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/maximize-work-area-efficiency-for-commercial-space-solutions/' },
   title: "Maximize Work Area Efficiency Tampa | Commercial",
-  description: "Discover maximize work area efficiency commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover maximize work area efficiency commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

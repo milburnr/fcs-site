@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     question: "Does your firm carry all necessary licenses and insurance?",
-    answer: "Yes. We maintain Florida General Contractor (CGC) licensing, appropriate trade licenses, and comprehensive insurance including general liability, workers' compensation, and professional liability. We can provide bonding for projects up to $25 million. Certificates are available upon request."
+    answer: "Yes. We maintain Florida Building Contractor (CBC) licensing, appropriate trade licenses, and comprehensive insurance including general liability, workers' compensation, and professional liability. We can provide bonding for projects up to $25 million. Certificates are available upon request."
   },
   {
     question: "Will senior leadership be involved in my project?",
@@ -427,7 +427,7 @@ export default function Page() {
                   Does your firm carry all necessary licenses and insurance?
                 </h3>
                 <p className="text-gray-600">
-                  Yes. We maintain Florida General Contractor (CGC) licensing, appropriate trade licenses, and comprehensive insurance including general liability, workers' compensation, and professional liability. We can provide bonding for projects up to $25 million. Certificates are available upon request.
+                  Yes. We maintain Florida Building Contractor (CBC) licensing, appropriate trade licenses, and comprehensive insurance including general liability, workers' compensation, and professional liability. We can provide bonding for projects up to $25 million. Certificates are available upon request.
                 </p>
               </div>
               

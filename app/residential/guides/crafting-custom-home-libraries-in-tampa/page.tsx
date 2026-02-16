@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/' },
   title: "Custom Home Libraries in Tampa | Luxury Book Rooms & Studies",
-  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, 40+ years. Contact us today.",
+  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years. Contact us today.",
 };
 
 const breadcrumbItems = [

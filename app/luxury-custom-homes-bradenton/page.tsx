@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/' },
   title: "Luxury Custom Homes Bradenton | Waterfront | FCS",
-  description: "Luxury Home Builder in Bradenton: $500K-$25M projects, design-build and pre-construction. Licensed CGC, 40+ years. Call for a free consultation today.",
+  description: "Luxury Home Builder in Bradenton: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

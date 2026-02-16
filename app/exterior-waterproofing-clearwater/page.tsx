@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
   title: "Exterior Waterproofing in Clearwater",
-  description: `Waterproofing Contractor in Clearwater: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Schedule your consultation now.`,
+  description: `Waterproofing Contractor in Clearwater: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Schedule your consultation now.`,
 };
 
 const breadcrumbItems = [

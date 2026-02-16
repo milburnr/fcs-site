@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-st-petersburg/' },
   title: "Luxury Custom Homes St. Petersburg | $1M+ | FCS",
-  description: "Luxury Home Builder in St. Petersburg: design-build, pre-construction, and project management. Licensed and insured CGC. Call (813) 420-7561 for a quote.",
+  description: "Luxury Home Builder in St. Petersburg: design-build, pre-construction, and project management. Licensed and insured CBC. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

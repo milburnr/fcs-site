@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-interior-design-in-tampa/' },
   title: "Commercial Interior Design Tampa | Office",
-  description: "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CGC. Request a free estimate today.",
+  description: "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/' },
   title: "Foundation Restoration Services in Tampa After Flooding",
-  description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+  description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

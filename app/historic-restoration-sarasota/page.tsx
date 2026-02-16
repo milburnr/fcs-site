@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-sarasota/' },
   title: "Historic Restoration Sarasota FL | Architecture | FCS",
-  description: "Looking for historic restoration in Sarasota? New Builds, Renovations, and Disaster Recovery Services. Licensed CGC since 1983. Request a free estimate.",
+  description: "Looking for historic restoration in Sarasota? New Builds, Renovations, and Disaster Recovery Services. Licensed CBC since 1983. Request a free estimate.",
 };
 
 const serviceTypes = [

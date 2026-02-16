@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-building-preservation-in-tampa/' },
   title: "Historic Building Preservation Tampa | FCS",
-  description: "Historic Building Preservation in Tampa: complete construction services from pre-construction to closeout. FL-licensed CGC contractor. Request a free estimate.",
+  description: "Historic Building Preservation in Tampa: complete construction services from pre-construction to closeout. FL-licensed CBC contractor. Request a free estimate.",
 };
 
 const breadcrumbItems = [

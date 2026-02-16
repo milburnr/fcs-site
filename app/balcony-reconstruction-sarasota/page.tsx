@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/' },
   title: "Balcony Reconstruction Sarasota | SB 4-D | FCS",
-  description: "Looking for balcony repair in Sarasota? Expert Project Management, Design-build, and Renovations. Licensed and insured CGC. Request a free estimate today.",
+  description: "Looking for balcony repair in Sarasota? Expert Project Management, Design-build, and Renovations. Licensed and insured CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

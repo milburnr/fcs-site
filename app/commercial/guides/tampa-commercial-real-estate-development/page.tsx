@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-real-estate-development/' },
   title: "Tampa Commercial Real Estate Development | FCS",
-  description: "Expert construction partner for commercial real estate development in Tampa. Learn from FCS, a licensed CGC with 40+ years experience. Request a free estimate.'s growth.",
+  description: "Expert construction partner for commercial real estate development in Tampa. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate.'s growth.",
 };
 
 const breadcrumbItems = [

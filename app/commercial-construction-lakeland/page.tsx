@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-lakeland/' },
   title: "Commercial Construction Lakeland | $500K+ | FCS",
-  description: "Commercial Construction in Lakeland: full-service general contractor for commercial and residential. CGC-licensed, trusted since 1983. Request a free estimate.",
+  description: "Commercial Construction in Lakeland: full-service general contractor for commercial and residential. CBC-licensed, trusted since 1983. Request a free estimate.",
 };
 
 const serviceFeatures = [

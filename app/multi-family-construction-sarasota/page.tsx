@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
   title: "Multi-Family Construction Sarasota | Condos | FCS",
-  description: "Multi Family Construction in Sarasota: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Call (813) 420-7561 for a quote.",
+  description: "Multi Family Construction in Sarasota: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Call (813) 420-7561 for a quote.",
 };
 
 const projectTypes = [

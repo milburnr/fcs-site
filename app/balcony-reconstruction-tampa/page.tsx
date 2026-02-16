@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-tampa/' },
   title: "Balcony Reconstruction in Tampa",
   description:
-    "Professional balcony repair in Tampa. Design-build, Pre-construction, and Project Management. 40+ years, licensed CGC. Call (813) 420-7561 for a quote.",
+    "Professional balcony repair in Tampa. Design-build, Pre-construction, and Project Management. 40+ years, licensed CBC. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

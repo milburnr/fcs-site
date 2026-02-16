@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-interior-design-services-in-tampa/' },
   title: "Custom Home Interior Design Tampa | Luxury",
-  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Contact our team today.",
+  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results. Contact our team today.",
 };
 
 const breadcrumbItems = [

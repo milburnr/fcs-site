@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/' },
   title: "Commercial Construction Wants vs Needs Tampa",
-  description: "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CGC. Contact our team today.",
+  description: "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC. Contact our team today.",
 };
 
 const breadcrumbItems = [

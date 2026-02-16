@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-accuracy-in-tampa-restoration/' },
   title: "Historical Accuracy in Tampa Restoration",
-  description: "Achieving historical accuracy in restoration projects through research, documentation,. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+  description: "Achieving historical accuracy in restoration projects through research, documentation,. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-clearwater/' },
   title: "Multi-Family Construction Clearwater | Condos | FCS",
-  description: "Multi Family Construction in Clearwater: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Request a free estimate today.",
+  description: "Multi Family Construction in Clearwater: full-service general contractor for commercial and residential. 40+ years, licensed CBC. Request a free estimate today.",
 };
 
 const projectTypes = [

@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/' },
   title: "Insurance Restoration PM Tampa | Commercial",
-  description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CGC. Request a free estimate today.",
+  description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

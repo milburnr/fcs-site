@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-sarasota/' },
   title: "Commercial Construction Sarasota | $500K+ | FCS",
-  description: "Commercial Construction in Sarasota: complete construction services from pre-construction to closeout. 40+ years, licensed CGC. Request a free estimate today.",
+  description: "Commercial Construction in Sarasota: complete construction services from pre-construction to closeout. 40+ years, licensed CBC. Request a free estimate today.",
 };
 
 const serviceFeatures = [

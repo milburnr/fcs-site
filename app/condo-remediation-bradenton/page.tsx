@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-bradenton/' },
   title: "Condo Remediation Bradenton | SB4-D Compliance & SIRS",
   description:
-    "Condo Remediation Sb4-d Compliance & Sirs in Bradenton: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Read more.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Bradenton: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Read more.",
 };
 
 const breadcrumbItems = [

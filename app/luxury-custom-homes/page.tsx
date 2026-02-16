@@ -255,7 +255,7 @@ export default function LuxuryCustomHomesPage() {
               <div className="text-center">
                 <Award className="w-10 h-10 text-brand-gold mx-auto mb-3" />
                 <p className="text-white font-semibold">Licensed & Insured</p>
-                <p className="text-gray-500 text-sm">CGC License</p>
+                <p className="text-gray-500 text-sm">CBC License</p>
               </div>
               <div className="text-center">
                 <Home className="w-10 h-10 text-brand-gold mx-auto mb-3" />

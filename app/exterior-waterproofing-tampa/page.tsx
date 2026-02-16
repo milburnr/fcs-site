@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/' },
   title: "Exterior Waterproofing Tampa FL | Envelope | FCS",
-  description: "Waterproofing Contractor in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Call for a free consultation today.",
+  description: "Waterproofing Contractor in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

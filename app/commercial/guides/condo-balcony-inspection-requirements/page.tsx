@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-balcony-inspection-requirements/' },
   title: "Condo Balcony Inspection Florida | SB 4-D | FCS",
   description:
-    "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+    "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const inspectionTriggers = [

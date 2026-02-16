@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
   title: "Exterior Waterproofing Lakeland | Envelope | FCS",
-  description: "Waterproofing Contractor in Lakeland: insurance restoration, design-build, and renovations. CGC-licensed, trusted since 1983. Request a free estimate today.",
+  description: "Waterproofing Contractor in Lakeland: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

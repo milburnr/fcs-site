@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-brandon/' },
   title: "Historic Restoration Brandon | Mid-Century | FCS",
-  description: "Historic Restoration in Brandon: complete construction services from pre-construction to closeout. FL-licensed CGC contractor. Request a free estimate today.",
+  description: "Historic Restoration in Brandon: complete construction services from pre-construction to closeout. FL-licensed CBC contractor. Request a free estimate today.",
 };
 
 const serviceTypes = [

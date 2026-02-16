@@ -13,7 +13,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-st-petersburg/' },
   title: "Historic Restoration in St. Petersburg",
-  description: "Historic Restoration in St. Petersburg: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate today.",
+  description: "Historic Restoration in St. Petersburg: design-build, pre-construction, and project management. CBC1262722, 40+ years. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

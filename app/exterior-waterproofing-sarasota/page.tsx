@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-sarasota/' },
   title: "Exterior Waterproofing Sarasota | Envelope | FCS",
-  description: "Waterproofing Contractor in Sarasota: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Request a free estimate today.",
+  description: "Waterproofing Contractor in Sarasota: new construction, renovations, and insurance restoration. FL-licensed CBC contractor. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

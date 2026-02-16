@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/upgrade-commercial-sprinklers-during-renovation/' },
   title: "Upgrade Commercial Sprinklers Tampa | Fire",
-  description: "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CGC. Read more.",
+  description: "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CBC. Read more.",
 };
 
 const breadcrumbItems = [

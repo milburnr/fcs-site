@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/about/' },
   title: "About Us | Tampa Bay's Premier Builder",
   description:
-    "About Us across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Serving Tampa Bay. Schedule your consultation now.",
+    "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay. Schedule your consultation now.",
 };
 
 const values = [

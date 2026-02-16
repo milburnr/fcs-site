@@ -972,7 +972,7 @@ export default function InsuranceRestorationLakelandPage() {
               </a>
             </div>
             <p className="text-white/70 mt-6 text-sm">
-              Licensed Florida State Certified General Contractor CGC#1522434 | Serving Lakeland & Polk County
+              Licensed Florida State Certified Building Contractor CBC1262722 | Serving Lakeland & Polk County
             </p>
           </div>
         </div>

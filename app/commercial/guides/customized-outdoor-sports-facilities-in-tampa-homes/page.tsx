@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/' },
   title: "Outdoor Sports Facilities Tampa Homes | Courts",
-  description: "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

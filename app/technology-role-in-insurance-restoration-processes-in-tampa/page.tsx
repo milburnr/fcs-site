@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
   title: "Technology in Tampa Insurance Restoration | Tools",
-  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call (813) 420-7561 for a quote.",
+  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/subcontractors-in-florida-commercial-construction/' },
   title: "Subcontractors in Florida Commercial | Guide",
-  description: "Understand the vital role of subcontractors in Florida commercial construction. Insights from FCS, a trusted licensed CGC. Call (813) 420-7561 for a quote.",
+  description: "Understand the vital role of subcontractors in Florida commercial construction. Insights from FCS, a trusted licensed CBC. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

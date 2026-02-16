@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
   title: "Exterior Waterproofing St. Petersburg | FCS",
-  description: "Waterproofing Contractor in St. Petersburg: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Request a free estimate today.",
+  description: "Waterproofing Contractor in St. Petersburg: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

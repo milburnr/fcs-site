@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/breakaway-wall-construction-requirements/' },
   title: "Breakaway Wall Construction Tampa Bay | FCS",
   description:
-    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CGC. Request a free estimate.",
+    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC. Request a free estimate.",
 };
 
 const breakawayRequirements = [

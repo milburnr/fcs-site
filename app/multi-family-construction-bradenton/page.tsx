@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-bradenton/' },
   title: "Multi-Family Construction Bradenton | Condos | FCS",
-  description: "Multi Family Construction in Bradenton: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Request a free estimate today.",
+  description: "Multi Family Construction in Bradenton: turnkey construction solutions for commercial properties. Licensed CBC, proven results. Request a free estimate today.",
 };
 
 const projectTypes = [

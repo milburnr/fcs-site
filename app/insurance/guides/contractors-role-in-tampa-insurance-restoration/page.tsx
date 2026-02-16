@@ -11,7 +11,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/contractors-role-in-tampa-insurance-restoration/' },
   title: "Contractor's Role in Tampa Insurance Restoration",
-  description: "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CGC with 40+ years experience. Contact us today.",
+  description: "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CBC with 40+ years experience. Contact us today.",
 };
 
 const breadcrumbItems = [

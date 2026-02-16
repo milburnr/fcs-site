@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-consultants/' },
   title: "Building Consultants | Construction Consulting",
   description:
-    "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CGC with 40+ years experience. Request a free estimate.",
+    "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate.",
 };
 
 const breadcrumbItems = [

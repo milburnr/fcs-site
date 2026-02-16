@@ -11,7 +11,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-structural-reserve-study-repairs/' },
   title: "Condo Reserve Study Repairs | SIRS | FCS Tampa",
-  description: "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CGC. Contact our team today.",
+  description: "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CBC. Contact our team today.",
 };
 
 const capitalProjectTypes = [

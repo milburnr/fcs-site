@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/' },
   title: "Waterproofing High-Rise Residential Tampa | FCS",
-  description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CGC in ${region}. Contact our team today.",
+  description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
 };
 
 const breadcrumbItems = [

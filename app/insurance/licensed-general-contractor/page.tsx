@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/' },
   title: "Licensed General Contractor | Insurance Restoration | FCS Tampa",
-  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CGC serving Tampa Bay since 1983. Contact us today.",
+  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1983. Contact us today.",
 };
 
 const breadcrumbItems = [
@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     question: "What is your Florida contractor license number?",
-    answer: "FCS holds Florida Certified General Contractor license CGC1262722. This state-level license authorizes us to perform any type of construction project throughout Florida, including commercial, residential, and restoration work of any value.",
+    answer: "FCS holds Florida Certified Building Contractor license CBC1262722. This state-level license authorizes us to perform any type of construction project throughout Florida, including commercial, residential, and restoration work of any value.",
   },
   {
     question: "How long have you been doing insurance restoration?",
@@ -59,7 +59,7 @@ const faqs = [
 const qualifications = [
   {
     icon: Award,
-    title: "CGC1262722",
+    title: "CBC1262722",
     description: "Florida Certified General Contractor license authorizing statewide construction.",
   },
   {
@@ -92,7 +92,7 @@ export default function LicensedGeneralContractorPage() {
       <LocalBusinessSchema service="Licensed General Contractor" />
       <ServiceSchema
         serviceName="Licensed General Contractor Services"
-        serviceDescription="Florida-licensed general contractor (CGC1262722) for insurance restoration. Always prime contractor with 40+ years experience in large loss commercial and residential restoration."
+        serviceDescription="Florida-licensed general contractor (CBC1262722) for insurance restoration. Always prime contractor with 40+ years experience in large loss commercial and residential restoration."
         minPrice="250000"
       />
       <FAQSchema faqs={faqs} />
@@ -109,7 +109,7 @@ export default function LicensedGeneralContractorPage() {
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-500/50 px-4 py-2 rounded-full mb-6">
               <Award className="w-5 h-5 text-blue-400" />
-              <span className="text-blue-200 font-medium">CGC1262722 | Always Prime Contractor</span>
+              <span className="text-blue-200 font-medium">CBC1262722 | Always Prime Contractor</span>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
@@ -195,7 +195,7 @@ export default function LicensedGeneralContractorPage() {
 
             <h2>Our License and Insurance</h2>
             <p>
-              FCS holds Florida Certified General Contractor license <strong>CGC1262722</strong>, issued by the 
+              FCS holds Florida Certified General Contractor license <strong>CBC1262722</strong>, issued by the 
               Florida Department of Business and Professional Regulation. This state-level certification authorizes 
               us to perform any type of construction project throughout Florida.
             </p>

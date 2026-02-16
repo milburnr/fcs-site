@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-st-petersburg/' },
   title: "Multi-Family Construction St. Petersburg | FCS",
-  description: "Multi Family Construction in St. Petersburg: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate today.",
+  description: "Multi Family Construction in St. Petersburg: design-build, pre-construction, and project management. CBC1262722, 40+ years. Request a free estimate today.",
 };
 
 const projectTypes = [

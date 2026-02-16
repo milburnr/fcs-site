@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-residential-restoration-after-hurricane-damage/' },
   title: "Tampa Residential Restoration After Hurricane",
-  description: "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  description: "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [
@@ -397,7 +397,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-8">
-              We're fully licensed (Florida CGC License), insured, and local. We don't chase storms; we serve our community year-round. Our crews live in Tampa Bay, and many have experienced hurricane damage to their own homes. That shared experience drives our commitment to quality restoration and honest, transparent service.
+              We're fully licensed (Florida CBC License), insured, and local. We don't chase storms; we serve our community year-round. Our crews live in Tampa Bay, and many have experienced hurricane damage to their own homes. That shared experience drives our commitment to quality restoration and honest, transparent service.
             </p>
 
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">

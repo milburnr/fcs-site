@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-sarasota/' },
   title: "Luxury Custom Homes Sarasota | Barrier Island",
-  description: "Luxury Home Builder in Sarasota: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate today.",
+  description: "Luxury Home Builder in Sarasota: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

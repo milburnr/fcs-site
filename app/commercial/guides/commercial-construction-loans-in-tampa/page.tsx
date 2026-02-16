@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/' },
   title: "Commercial Construction Loans in Tampa",
-  description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Request a free estimate today.",
+  description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

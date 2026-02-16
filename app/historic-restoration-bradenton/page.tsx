@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-bradenton/' },
   title: "Historic Restoration Bradenton FL | Village | FCS",
-  description: "Historic Restoration in Bradenton: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Call for a free consultation today.",
+  description: "Historic Restoration in Bradenton: design-build, pre-construction, and project management. CBC1262722, 40+ years. Call for a free consultation today.",
 };
 
 const serviceTypes = [

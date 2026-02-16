@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
   title: "Commercial Construction Brandon | $500K+ | FCS",
-  description: "Commercial Construction in Brandon: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call for a free consultation today.",
+  description: "Commercial Construction in Brandon: insurance restoration, design-build, and renovations. 40+ years, licensed CBC. Call for a free consultation today.",
 };
 
 const serviceFeatures = [

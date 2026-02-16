@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/safety-first-in-florida-commercial-construction-projects/' },
   title: "Safety First Florida Commercial | OSHA Tampa",
-  description: "Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CGC. Contact our team today.",
+  description: "Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CBC. Contact our team today.",
 };
 
 const breadcrumbItems = [

@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: "What credentials do you have for fire restoration?",
-    answer: "FCS holds Florida Certified General Contractor license CGC1262722 with full commercial and residential authority. Frank Bragano is a licensed Executive General Adjuster with insurance industry experience (Allstate 1982-1989). We maintain IICRC-certified protocols for smoke and soot removal. Our estimators are Xactimate-certified. We carry appropriate liability insurance and maintain $5M+ bonding capacity for large projects.",
+    answer: "FCS holds Florida Certified Building Contractor license CBC1262722 with full commercial and residential authority. Frank Bragano is a licensed Executive General Adjuster with insurance industry experience (Allstate 1982-1989). We maintain IICRC-certified protocols for smoke and soot removal. Our estimators are Xactimate-certified. We carry appropriate liability insurance and maintain $5M+ bonding capacity for large projects.",
   },
   {
     question: "Should I use my insurance company's preferred contractor?",
@@ -105,7 +105,7 @@ export default function FireRestorationPage() {
       <LocalBusinessSchema service="Fire Restoration" />
       <ServiceSchema
         serviceName="Fire Damage Restoration Services"
-        serviceDescription="Complete fire damage restoration for Tampa Bay commercial and residential properties. Structural repair, smoke remediation, content restoration, and full reconstruction. Licensed CGC with 40+ years experience."
+        serviceDescription="Complete fire damage restoration for Tampa Bay commercial and residential properties. Structural repair, smoke remediation, content restoration, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="25000"
       />
       <FAQSchema faqs={faqs} />
@@ -168,7 +168,7 @@ export default function FireRestorationPage() {
               <div className="text-gray-600 text-sm">Prime Contractor</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-brand-green-dark">CGC</div>
+              <div className="text-3xl font-bold text-brand-green-dark">CBC</div>
               <div className="text-gray-600 text-sm">Licensed & Insured</div>
             </div>
           </div>

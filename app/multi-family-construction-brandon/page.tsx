@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-brandon/' },
   title: "Multi-Family Construction Brandon | Condos | FCS",
-  description: "Multi Family Construction in Brandon: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 420-7561 for a quote.",
+  description: "Multi Family Construction in Brandon: new construction, renovations, and insurance restoration. FL-licensed CBC contractor. Call (813) 420-7561 for a quote.",
 };
 
 const projectTypes = [

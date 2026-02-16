@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/design-build/' },
   title: "Design-Build Construction Tampa | FCS",
-  description: "Design-build Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
+  description: "Design-build Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

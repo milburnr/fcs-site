@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
   title: "Commercial Construction Bradenton | $500K+ | FCS",
-  description: "Commercial Construction in Bradenton: commercial and residential construction and restoration. Licensed and insured CGC. Call (813) 420-7561 for a quote.",
+  description: "Commercial Construction in Bradenton: commercial and residential construction and restoration. Licensed and insured CBC. Call (813) 420-7561 for a quote.",
 };
 
 const serviceFeatures = [

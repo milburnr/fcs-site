@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/' },
   title: "Bespoke Architectural Design Tampa | Commercial",
-  description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CGC, proven results. Contact us today.",
+  description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CBC, proven results. Contact us today.",
 };
 
 const breadcrumbItems = [

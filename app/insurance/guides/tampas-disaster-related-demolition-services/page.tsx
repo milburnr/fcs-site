@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/' },
   title: "Tampa Disaster Demolition | Emergency Commercial",
-  description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 420-7561 for a quote.",
+  description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

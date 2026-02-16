@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/build-a-successful-future-in-construction-management/' },
   title: "Construction Management Career Tampa Bay | FCS",
-  description: "Learn how construction management excellence leads to project success. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+  description: "Learn how construction management excellence leads to project success. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

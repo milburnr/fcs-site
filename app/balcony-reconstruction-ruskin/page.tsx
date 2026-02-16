@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-ruskin/' },
   title: "Balcony Reconstruction Ruskin | SB 4-D | FCS",
-  description: "Looking for balcony repair in Ruskin? Commercial and Residential Construction and Restoration. Licensed CGC, proven results. Get your free estimate now.",
+  description: "Looking for balcony repair in Ruskin? Commercial and Residential Construction and Restoration. Licensed CBC, proven results. Get your free estimate now.",
 };
 
 const breadcrumbItems = [

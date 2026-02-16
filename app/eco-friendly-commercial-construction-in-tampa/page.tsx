@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-commercial-construction-in-tampa/' },
   title: "Eco-Friendly Commercial Construction Tampa",
-  description: "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CGC, proven results. Request a free estimate.",
+  description: "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/' },
   title: "Balcony Construction Guidelines Tampa | High-Rise",
-  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CGC. Contact us today.",
+  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CBC. Contact us today.",
 };
 
 const breadcrumbItems = [

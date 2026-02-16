@@ -40,7 +40,7 @@ const services = [
     icon: Award,
     title: "Licensed General Contractor",
     href: "/insurance/licensed-general-contractor/",
-    description: "Florida-licensed CGC with 40+ years experience. Prime contractor for large loss restoration—never a subcontractor.",
+    description: "Florida-licensed CBC with 40+ years experience. Prime contractor for large loss restoration—never a subcontractor.",
   },
   {
     icon: ClipboardCheck,
@@ -239,7 +239,7 @@ export function InsurancePageClient() {
                     "Xactimate-certified estimators",
                     "40+ years of large loss experience",
                     "Direct communication with adjusters and carriers",
-                    "Licensed Florida General Contractor (CGC1262722)",
+                    "Licensed Florida Certified Building Contractor (CBC1262722)",
                   ].map((item, index) => (
                     <li key={index} className="flex items-start gap-3">
                       <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-0.5" />

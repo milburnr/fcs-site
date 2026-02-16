@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/high-end-home-construction-in-tampa/' },
   title: "High-End Home Construction in Tampa | Luxury Custom Builders",
-  description: "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Read more.",
+  description: "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Read more.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/' },
   title: "Post-Disaster Safety Inspections Tampa | Hurricane",
-  description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
+  description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

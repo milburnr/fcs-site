@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/' },
   title: "Preventing Home Improvement Fraud Tampa",
-  description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+  description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}. Request a free estimate.",
 };
 
 const breadcrumbItems = [

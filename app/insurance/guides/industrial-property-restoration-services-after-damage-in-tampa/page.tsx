@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/' },
   title: "Industrial Property Restoration Tampa | Warehouse",
-  description: "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Get a free quote.",
+  description: "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Get a free quote.",
 };
 
 const breadcrumbItems = [

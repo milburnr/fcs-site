@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/' },
   title: "Commercial Blueprint Tampa | FCS Construction",
-  description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+  description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

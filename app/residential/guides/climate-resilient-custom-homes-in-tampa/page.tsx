@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/' },
   title: "Climate-Resilient Custom Homes Tampa | Hurricane",
-  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CGC. Request a free estimate.",
+  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

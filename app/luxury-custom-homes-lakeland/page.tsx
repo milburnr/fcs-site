@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/' },
   title: "Luxury Custom Homes Lakeland FL | Lakefront Estates | FCS",
-  description: "Luxury Home Builder in Lakeland: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Request a free estimate today.",
+  description: "Luxury Home Builder in Lakeland: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

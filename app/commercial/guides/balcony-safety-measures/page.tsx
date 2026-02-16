@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-safety-measures/' },
   title: "Balcony Safety Measures Florida | Compliance",
-  description: "Essential balcony safety measures for Florida condos and apartments. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+  description: "Essential balcony safety measures for Florida condos and apartments. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

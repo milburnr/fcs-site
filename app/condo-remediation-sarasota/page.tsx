@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-sarasota/' },
   title: "Condo Remediation Sarasota | SB4-D Compliance & SIRS",
   description:
-    "Condo Remediation Sb4-d Compliance & Sirs in Sarasota: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Sarasota: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

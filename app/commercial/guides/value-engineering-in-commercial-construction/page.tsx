@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/value-engineering-in-commercial-construction/' },
   title: "Value Engineering Commercial Tampa Bay | FCS",
-  description: "Unlock value engineering potential in your commercial construction project. Expert tips from Florida Construction Specialists, licensed CGC. Contact us today.",
+  description: "Unlock value engineering potential in your commercial construction project. Expert tips from Florida Construction Specialists, licensed CBC. Contact us today.",
 };
 
 const breadcrumbItems = [

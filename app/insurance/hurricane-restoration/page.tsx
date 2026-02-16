@@ -52,7 +52,7 @@ const faqs = [
   },
   {
     question: "What credentials and licenses do you have?",
-    answer: "FCS holds Florida Certified General Contractor license CGC1262722 with full commercial and residential authority. We maintain $5M+ in bonding capacity for large projects. Frank Bragano is a licensed Executive General Adjuster with experience at Allstate (1982-1989) and as a catastrophe adjuster for major carriers. We're Xactimate-certified for insurance estimates. All work is performed by licensed, insured professionals.",
+    answer: "FCS holds Florida Certified Building Contractor license CBC1262722 with full commercial and residential authority. We maintain $5M+ in bonding capacity for large projects. Frank Bragano is a licensed Executive General Adjuster with experience at Allstate (1982-1989) and as a catastrophe adjuster for major carriers. We're Xactimate-certified for insurance estimates. All work is performed by licensed, insured professionals.",
   },
   {
     question: "Should I contact you before or after filing an insurance claim?",
@@ -103,7 +103,7 @@ export default function HurricaneRestorationPage() {
       <LocalBusinessSchema service="Hurricane Restoration" />
       <ServiceSchema
         serviceName="Hurricane and Storm Damage Restoration"
-        serviceDescription="Complete hurricane and storm damage restoration for Tampa Bay commercial and residential properties. storm response, insurance claim support, and full reconstruction. Licensed CGC with 40+ years experience."
+        serviceDescription="Complete hurricane and storm damage restoration for Tampa Bay commercial and residential properties. storm response, insurance claim support, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="50000"
       />
       <FAQSchema faqs={faqs} />
@@ -171,7 +171,7 @@ export default function HurricaneRestorationPage() {
               <div className="text-gray-600 text-sm">Prime Contractor</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-brand-green-dark">CGC</div>
+              <div className="text-3xl font-bold text-brand-green-dark">CBC</div>
               <div className="text-gray-600 text-sm">Licensed & Bonded</div>
             </div>
           </div>

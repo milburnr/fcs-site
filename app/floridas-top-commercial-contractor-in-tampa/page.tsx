@@ -337,7 +337,7 @@ export default function Page() {
                 <ul className="space-y-3">
                   <li className="flex items-start gap-2 text-gray-600">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Florida Certified General Contractor (CGC)</span>
+                    <span>Florida Certified Building Contractor (CBC)</span>
                   </li>
                   <li className="flex items-start gap-2 text-gray-600">
                     <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/' },
   title: "Funding and Grants for Historic Restoration in Tampa",
-  description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CGC #1529395, 40+ years. Contact our team today.",
+  description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years. Contact our team today.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/' },
   title: "Preferred Commercial General Contractors in Tampa",
-  description: "Preferred Commercial General Contractors in Tampa: expert project management, design-build, and renovations. CGC #1529395, 40+ years. Request a free estimate.",
+  description: "Preferred Commercial General Contractors in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

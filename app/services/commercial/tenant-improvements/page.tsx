@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/' },
   title: "Tenant Improvements Tampa | Commercial Buildouts & TI | FCS",
-  description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+  description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

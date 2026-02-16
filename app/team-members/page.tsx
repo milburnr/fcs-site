@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/team-members/' },
   title: "Our Team | Florida Construction Specialists Leadership",
   description:
-    "Meet the experienced leadership team at Florida Construction Specialists. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+    "Meet the experienced leadership team at Florida Construction Specialists. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -20,7 +20,7 @@ const breadcrumbItems = [
 ];
 
 const certifications = [
-  { name: "Florida Certified General Contractor (CGC)", icon: BadgeCheck },
+  { name: "Florida Certified Building Contractor (CBC)", icon: BadgeCheck },
   { name: "OSHA 30-Hour Safety Certified", icon: Shield },
   { name: "EPA Lead-Safe Certified", icon: CheckCircle },
   { name: "LEED Accredited Professionals", icon: Award },

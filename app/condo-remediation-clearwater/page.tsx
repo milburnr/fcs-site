@@ -45,7 +45,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-clearwater/' },
   title: "Condo Remediation Clearwater | SB4-D Compliance & SIRS",
   description:
-    "Condo Remediation Sb4-d Compliance & Sirs in Clearwater: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Contact us today.",
+    "Condo Remediation Sb4-d Compliance & Sirs in Clearwater: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Contact us today.",
 };
 
 const breadcrumbItems = [

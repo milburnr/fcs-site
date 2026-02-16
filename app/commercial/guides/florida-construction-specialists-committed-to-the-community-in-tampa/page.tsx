@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/' },
   title: "FCS - Committed to the Tampa Community",
-  description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate today.",
+  description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

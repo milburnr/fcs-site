@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-ruskin/' },
   title: "Luxury Custom Homes Ruskin FL | Apollo Beach | FCS",
-  description: "Luxury Home Builder in Ruskin: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Call (813) 420-7561 for a quote.",
+  description: "Luxury Home Builder in Ruskin: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

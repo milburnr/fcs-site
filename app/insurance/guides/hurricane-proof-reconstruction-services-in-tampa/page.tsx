@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/' },
   title: "Hurricane-Proof Reconstruction Tampa | Commercial",
-  description: "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Request a free estimate.",
+  description: "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

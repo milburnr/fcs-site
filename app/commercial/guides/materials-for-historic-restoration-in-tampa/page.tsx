@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/materials-for-historic-restoration-in-tampa/' },
   title: "Materials for Historic Restoration in Tampa",
-  description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+  description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

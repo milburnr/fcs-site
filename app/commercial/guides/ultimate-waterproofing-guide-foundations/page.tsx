@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ultimate-waterproofing-guide-foundations/' },
   title: "Foundation Waterproofing Guide | Commercial Tampa",
-  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CGC. Contact us today.",
+  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CBC. Contact us today.",
 };
 
 const breadcrumbItems = [

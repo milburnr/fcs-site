@@ -29,7 +29,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hyde-park-renovation-guide/' },
   title: "Hyde Park Renovation Guide Tampa | ARC | FCS",
   description:
-    "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
+    "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call for a free consultation today.",
 };
 
 const arcProcess = [

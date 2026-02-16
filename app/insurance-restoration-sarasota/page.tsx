@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-sarasota/' },
   title: "Insurance Restoration Sarasota FL | Hurricane Recovery | FCS",
-  description: "Insurance Restoration Fl Hurricane Recovery in Sarasota: design-build, pre-construction, and project management. Licensed and insured CGC. Contact us today.",
+  description: "Insurance Restoration Fl Hurricane Recovery in Sarasota: design-build, pre-construction, and project management. Licensed and insured CBC. Contact us today.",
 };
 
 const breadcrumbItems = [

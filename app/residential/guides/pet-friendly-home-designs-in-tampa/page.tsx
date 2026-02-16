@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/pet-friendly-home-designs-in-tampa/' },
   title: "Pet-Friendly Home Designs Tampa | Custom Homes",
-  description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+  description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

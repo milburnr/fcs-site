@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-a-commercial-contractor-in-tampa/' },
   title: "Hiring a Commercial Contractor Tampa | Guide",
-  description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CGC. Contact our team today.",
+  description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Contact our team today.",
 };
 
 const breadcrumbItems = [

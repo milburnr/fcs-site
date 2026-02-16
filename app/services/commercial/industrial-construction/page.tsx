@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Warehouse | FCS",
-  description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+  description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -47,7 +47,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-lakeland/' },
   title: "Condo Remediation Lakeland | SB4-D Polk | FCS",
   description:
-    "Condo Remediation Sb4-d Polk in Lakeland: commercial and residential construction and restoration. Licensed CGC, proven results. Request a free estimate today.",
+    "Condo Remediation Sb4-d Polk in Lakeland: commercial and residential construction and restoration. Licensed CBC, proven results. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/' },
   title: "Site Planning for Commercial Construction FL",
-  description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+  description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
 };
 
 const breadcrumbItems = [

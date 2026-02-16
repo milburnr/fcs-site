@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
   title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
-  description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+  description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
 };
 
 const breadcrumbItems = [

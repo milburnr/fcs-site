@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-bradenton/' },
   title: "Insurance Restoration Bradenton | 43 Years | FCS",
-  description: "Insurance Restoration 43 Years in Bradenton: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Request a free estimate.",
+  description: "Insurance Restoration 43 Years in Bradenton: full-service general contractor for commercial and residential. 40+ years, licensed CBC. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/condo-remediation/' },
   title: "SB4-D Compliance Tampa | Condo Milestone | FCS",
   description:
-    "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact our team today.",
+    "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Contact our team today.",
 };
 
 const features = [

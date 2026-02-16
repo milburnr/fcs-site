@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/' },
   title: "Licensed Contractors for Commercial | Florida",
-  description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+  description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CBC in ${region}. Request a free estimate.",
 };
 
 const breadcrumbItems = [
@@ -415,7 +415,7 @@ export default function Page() {
             Work With a Licensed, Bonded, Insured Contractor
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Florida Construction Specialists holds a Certified General Contractor license (CGC#XXXXXX), $X million in liability coverage, and full bonding. Your project is protected.
+            Florida Construction Specialists holds a Certified Building Contractor license (CBC1262722), comprehensive liability coverage, and full bonding. Your project is protected.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">

@@ -123,7 +123,7 @@ export default function WaterRestorationPage() {
       <LocalBusinessSchema service="Water Restoration" />
       <ServiceSchema
         serviceName="Water and Flood Damage Restoration"
-        serviceDescription="Complete water and flood damage restoration for Tampa Bay commercial and residential properties. Emergency extraction, structural drying, mold prevention, and full reconstruction. Licensed CGC with 40+ years experience."
+        serviceDescription="Complete water and flood damage restoration for Tampa Bay commercial and residential properties. Emergency extraction, structural drying, mold prevention, and full reconstruction. Licensed CBC with 40+ years experience."
         minPrice="10000"
       />
       <FAQSchema faqs={faqs} />
@@ -191,7 +191,7 @@ export default function WaterRestorationPage() {
               <div className="text-gray-600 text-sm">Certified Protocols</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-brand-green-dark">CGC</div>
+              <div className="text-3xl font-bold text-brand-green-dark">CBC</div>
               <div className="text-gray-600 text-sm">Licensed Contractor</div>
             </div>
           </div>

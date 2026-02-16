@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-lakeland/' },
   title: "Balcony Reconstruction Lakeland | SB 4-D | FCS",
-  description: "Professional balcony repair in Lakeland. New Construction, Renovations, and Insurance Restoration. Licensed CGC, 40+ years. Request a free estimate today.",
+  description: "Professional balcony repair in Lakeland. New Construction, Renovations, and Insurance Restoration. Licensed CBC, 40+ years. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

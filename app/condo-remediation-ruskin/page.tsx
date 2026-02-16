@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-ruskin/' },
   title: "Condo Remediation Ruskin | Sun City Center | FCS",
   description:
-    "Condo Remediation Sun City Center in Ruskin: expert project management, design-build, and renovations. Licensed and insured CGC. Schedule your consultation now.",
+    "Condo Remediation Sun City Center in Ruskin: expert project management, design-build, and renovations. Licensed and insured CBC. Schedule your consultation now.",
 };
 
 const breadcrumbItems = [

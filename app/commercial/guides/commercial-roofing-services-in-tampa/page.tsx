@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-roofing-services-in-tampa/' },
   title: "Commercial Roofing Services Tampa | Expert",
-  description: "Commercial Roofing Services Expert in Tampa: design-build, pre-construction, and project management. Licensed CGC, proven results. Request a free estimate.",
+  description: "Commercial Roofing Services Expert in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results. Request a free estimate.",
 };
 
 const breadcrumbItems = [

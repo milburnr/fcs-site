@@ -16,7 +16,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/' },
   title: "Best Balcony Decking Options for High-Rise Buildings Tampa",
-  description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+  description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [

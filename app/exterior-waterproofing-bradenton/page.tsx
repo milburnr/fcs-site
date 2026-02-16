@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-bradenton/' },
   title: "Exterior Waterproofing Bradenton | Envelope | FCS",
-  description: "Waterproofing Contractor in Bradenton: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
+  description: "Waterproofing Contractor in Bradenton: turnkey construction solutions for commercial properties. Licensed and insured CBC. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

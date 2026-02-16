@@ -12,7 +12,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
   title: "Balcony Reconstruction St. Petersburg | SB 4-D | FCS",
-  description: "Balcony Repair in St. Petersburg: full-service general contractor for commercial and residential. CGC-licensed, trusted since 1983. Request a free estimate.",
+  description: "Balcony Repair in St. Petersburg: full-service general contractor for commercial and residential. CBC-licensed, trusted since 1983. Request a free estimate.",
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/' },
   title: "Complete Property Overhaul After Disasters Tampa",
-  description: "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CGC, 40+ years. Request a free estimate.",
+  description: "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, 40+ years. Request a free estimate.",
 };
 
 const breadcrumbItems = [

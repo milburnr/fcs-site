@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-ruskin/' },
   title: "Multi-Family Construction Ruskin | Condos | FCS",
-  description: "Multi Family Construction in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Request a free estimate today.",
+  description: "Multi Family Construction in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CBC contractor. Request a free estimate today.",
 };
 
 const projectTypes = [

@@ -46,7 +46,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-st-petersburg/' },
   title: "Condo Remediation St Petersburg | SB4-D | FCS",
   description:
-    "Condo Remediation Sb4-d in St. Petersburg: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+    "Condo Remediation Sb4-d in St. Petersburg: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
 };
 
 const breadcrumbItems = [

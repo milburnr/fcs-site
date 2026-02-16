@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
   title: "Balcony Reconstruction in Clearwater",
   description:
-    "Looking for balcony repair in Clearwater? Turnkey Construction Solutions for Commercial Properties. Licensed CGC, 40+ years. Get your free estimate now.",
+    "Looking for balcony repair in Clearwater? Turnkey Construction Solutions for Commercial Properties. Licensed CBC, 40+ years. Get your free estimate now.",
 };
 
 const breadcrumbItems = [
