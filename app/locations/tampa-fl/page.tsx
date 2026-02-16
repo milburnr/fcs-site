@@ -12,7 +12,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/tampa-fl/' },
   title: "Tampa Commercial Construction | $500K-$25M+ | FCS",
-  description: "Florida Construction Specialists serves Tampa, FL with commercial and residential construction, renovation, and restoration. Call (813) 906-1302 for a quote.",
+  description: "Florida Construction Specialists serves Tampa, FL with commercial and residential construction, renovation, and restoration. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

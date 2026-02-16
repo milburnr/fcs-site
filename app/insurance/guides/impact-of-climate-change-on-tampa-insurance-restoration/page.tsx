@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/' },
   title: "Climate Change & Tampa Insurance Restoration",
-  description: "How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+  description: "How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

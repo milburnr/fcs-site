@@ -58,7 +58,7 @@ const breadcrumbItems = [
 const trustBadges = [
   { icon: Briefcase, label: "43 Years Insurance Experience" },
   { icon: FileCheck, label: "Former Allstate Adjuster" },
-  { icon: Shield, label: "Licensed CGC1522434" },
+  { icon: Shield, label: "Licensed CBC1262722" },
   { icon: Award, label: "$75M+ Claims Handled" },
 ];
 

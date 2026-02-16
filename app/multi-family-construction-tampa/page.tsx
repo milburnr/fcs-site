@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-tampa/' },
   title: "Multi-Family Construction Tampa FL | Condos | FCS",
-  description: "Multi Family Construction in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Call (813) 906-1302 for a quote.",
+  description: "Multi Family Construction in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Call (813) 420-7561 for a quote.",
 };
 
 const projectTypes = [

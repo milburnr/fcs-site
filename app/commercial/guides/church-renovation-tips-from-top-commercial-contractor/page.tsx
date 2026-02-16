@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/church-renovation-tips-from-top-commercial-contractor/' },
   title: "Church Renovation Tips Tampa | Commercial | FCS",
-  description: "Expert church renovation guidance for Tampa Bay congregations. Expert insights from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+  description: "Expert church renovation guidance for Tampa Bay congregations. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

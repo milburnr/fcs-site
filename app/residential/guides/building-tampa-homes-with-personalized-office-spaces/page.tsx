@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-tampa-homes-with-personalized-office-spaces/' },
   title: "Tampa Homes with Personalized Office Spaces",
-  description: "Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CGC with 40+ years experience. Call (813) 906-1302 for a quote.",
+  description: "Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CGC with 40+ years experience. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

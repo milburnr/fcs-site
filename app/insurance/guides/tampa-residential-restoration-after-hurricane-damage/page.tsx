@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-residential-restoration-after-hurricane-damage/' },
   title: "Tampa Residential Restoration After Hurricane",
-  description: "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+  description: "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

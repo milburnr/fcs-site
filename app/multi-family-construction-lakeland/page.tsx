@@ -11,7 +11,7 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-lakeland/' },
   title: "Multi-Family Construction Lakeland | Condos | FCS",
-  description: "Multi Family Construction in Lakeland: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+  description: "Multi Family Construction in Lakeland: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 420-7561 for a quote.",
 };
 
 const projectTypes = [

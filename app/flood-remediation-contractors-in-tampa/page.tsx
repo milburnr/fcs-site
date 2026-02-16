@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
   title: "Flood Remediation Tampa | Commercial Damage | FCS",
-  description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+  description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

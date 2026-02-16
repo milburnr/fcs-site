@@ -334,7 +334,7 @@ export default function TeamMembersPage() {
               for commercial and residential construction throughout Florida.
             </p>
             <p className="text-brand-green-light font-semibold">
-              State License #CGC1532648
+              State License #CBC1262722
             </p>
           </div>
         </div>

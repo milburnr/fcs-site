@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-milestone-inspection-remediation-tampa/' },
   title: "Condo Milestone Inspection Tampa | SB4-D | FCS",
-  description: "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
+  description: "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CGC since 1983. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

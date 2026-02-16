@@ -10,7 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-top-causes-of-construction-delays-in-florida/' },
   title: "Construction Delays Florida | Tampa Bay Causes",
-  description: "Discover construction delays florida causes with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+  description: "Discover construction delays florida causes with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

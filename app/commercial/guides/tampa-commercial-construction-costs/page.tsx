@@ -11,7 +11,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-costs/' },
   title: "Tampa Commercial Construction Costs | 2024 Price Guide",
-  description: "Comprehensive guide to commercial construction costs in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 906-1302 for a quote.",
+  description: "Comprehensive guide to commercial construction costs in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [

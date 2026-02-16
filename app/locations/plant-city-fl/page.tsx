@@ -12,7 +12,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/plant-city-fl/' },
   title: "Plant City Construction Contractor | Commercial | FCS",
-  description: "Licensed construction contractor serving Plant City, FL. Commercial, residential, and insurance restoration services. Call (813) 906-1302 for a quote.",
+  description: "Licensed construction contractor serving Plant City, FL. Commercial, residential, and insurance restoration services. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [
