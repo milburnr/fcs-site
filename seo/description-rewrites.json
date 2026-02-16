@@ -1,0 +1,2784 @@
+{
+  "generated": "2026-02-15",
+  "summary": {
+    "total_rewrites": 277,
+    "by_type": {
+      "service-location": 115,
+      "article": 131,
+      "hub": 22,
+      "location": 9
+    }
+  },
+  "rewrites": [
+    {
+      "path": "app/a-zero-accident-workplace-in-tampas-commercial-construction/page.tsx",
+      "url": "/a-zero-accident-workplace-in-tampas-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Discover how top Tampa commercial contractors achieve zero-accident workplaces. Learn about construction safety programs, OSHA compliance, and injury prevention strategies.",
+      "old_length": 172,
+      "new_description": "Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "zero accident workplace safety commitment"
+    },
+    {
+      "path": "app/about/page.tsx",
+      "url": "/about/",
+      "page_type": "hub",
+      "old_description": "Learn about Florida Construction Specialists (FCS) - formed from the merger of Florida Restoration Team and Shamblin Construction, operating in Florida since 1982. 40+ years experience, 300+ projects, in-house engineering.",
+      "old_length": 222,
+      "new_description": "About Us across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Serving Tampa Bay. Schedule your consultation now.",
+      "new_length": 160,
+      "primary_keyword": "about us"
+    },
+    {
+      "path": "app/affordable-commercial-construction-in-tampa/page.tsx",
+      "url": "/affordable-commercial-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build affordably in Tampa Bay without sacrificing quality. Proven strategies for reducing commercial construction costs while maintaining durability and function.",
+      "old_length": 162,
+      "new_description": "Affordable Commercial Construction in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "affordable commercial construction"
+    },
+    {
+      "path": "app/balcony-reconstruction/page.tsx",
+      "url": "/balcony-reconstruction/",
+      "page_type": "hub",
+      "old_description": "Expert balcony reconstruction Tampa and balcony repair Florida services. Specialized condo balcony restoration, waterproofing Tampa Bay, SB4-D compliance. Licensed contractor with $25M+ completed.",
+      "old_length": 196,
+      "new_description": "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+      "new_length": 156,
+      "primary_keyword": "balcony reconstruction florida"
+    },
+    {
+      "path": "app/balcony-reconstruction-bradenton/page.tsx",
+      "url": "/balcony-reconstruction-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Bradenton balcony reconstruction specialists for Anna Maria Island condos, riverfront properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. Expert contractors serving Manatee County. Licensed, bonded, insured.",
+      "old_length": 252,
+      "new_description": "Looking for balcony repair in Bradenton? New Construction, Renovations, and Insurance Restoration. FL-licensed CGC contractor. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-brandon/page.tsx",
+      "url": "/balcony-reconstruction-brandon/",
+      "page_type": "service-location",
+      "old_description": "Brandon balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for Hillsborough County properties, structural repairs, waterproofing. Expert contractors serving Brandon and Greater Tampa. Licensed, bonded, insured.",
+      "old_length": 267,
+      "new_description": "Professional balcony repair in Brandon. Insurance Restoration, Design-build, and Renovations. CGC #1529395, 40+ years. Call (813) 906-1302 for a quote.",
+      "new_length": 151,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-clearwater/page.tsx",
+      "url": "/balcony-reconstruction-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Clearwater balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
+      "old_length": 190,
+      "new_description": "Looking for balcony repair in Clearwater? Turnkey Construction Solutions for Commercial Properties. Licensed CGC, 40+ years. Get your free estimate now.",
+      "new_length": 152,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-lakeland/page.tsx",
+      "url": "/balcony-reconstruction-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Lakeland balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance (30-year inland requirement), structural repairs, waterproofing. Expert contractors serving Polk County. Licensed, bonded, insured.",
+      "old_length": 248,
+      "new_description": "Professional balcony repair in Lakeland. New Construction, Renovations, and Insurance Restoration. Licensed CGC, 40+ years. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-ruskin/page.tsx",
+      "url": "/balcony-reconstruction-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Ruskin balcony reconstruction specialists for Apollo Beach condos, Sun City Center properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. FCS headquarters location serving South Hillsborough County. Licensed, bonded, insured.",
+      "old_length": 267,
+      "new_description": "Looking for balcony repair in Ruskin? Commercial and Residential Construction and Restoration. Licensed CGC, proven results. Get your free estimate now.",
+      "new_length": 152,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-sarasota/page.tsx",
+      "url": "/balcony-reconstruction-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Sarasota balcony reconstruction specialists for Gulf-front condos, Siesta Key properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. Expert contractors serving Sarasota County. Licensed, bonded, insured.",
+      "old_length": 245,
+      "new_description": "Looking for balcony repair in Sarasota? Expert Project Management, Design-build, and Renovations. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-st-petersburg/page.tsx",
+      "url": "/balcony-reconstruction-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg balcony reconstruction specialists for condos, apartments, and HOAs. SB 4-D milestone inspection compliance for peninsula properties, structural repairs, waterproofing. Expert contractors serving Pinellas County. Licensed, bonded, insured.",
+      "old_length": 254,
+      "new_description": "Balcony Repair in St. Petersburg: full-service general contractor for commercial and residential. CGC-licensed, trusted since 1983. Request a free estimate.",
+      "new_length": 156,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-reconstruction-tampa/page.tsx",
+      "url": "/balcony-reconstruction-tampa/",
+      "page_type": "service-location",
+      "old_description": "Tampa balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
+      "old_length": 185,
+      "new_description": "Professional balcony repair in Tampa. Design-build, Pre-construction, and Project Management. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 151,
+      "primary_keyword": "balcony repair"
+    },
+    {
+      "path": "app/balcony-restoration-services/page.tsx",
+      "url": "/balcony-restoration-services/",
+      "page_type": "article",
+      "old_description": "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant structural repairs, waterproofing, and complete balcony rehabilitation.",
+      "old_length": 193,
+      "new_description": "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CGC in ${region}. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "balcony restoration services high-rise"
+    },
+    {
+      "path": "app/balcony-safety-measures/page.tsx",
+      "url": "/balcony-safety-measures/",
+      "page_type": "article",
+      "old_description": "Essential balcony safety measures for Florida condos and apartments. Learn about SB4-D inspection requirements, structural safety, railings, waterproofing, and fall prevention.",
+      "old_length": 176,
+      "new_description": "Essential balcony safety measures for Florida condos and apartments. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+      "new_length": 150,
+      "primary_keyword": "balcony safety measures florida compliance"
+    },
+    {
+      "path": "app/balcony-waterproofing-for-long-lasting-protection/page.tsx",
+      "url": "/balcony-waterproofing-for-long-lasting-protection/",
+      "page_type": "article",
+      "old_description": "Expert balcony waterproofing for Tampa Bay high-rise condominiums. SB 4-D compliant membrane systems, traffic coatings, and comprehensive deck protection for lasting performance.",
+      "old_length": 178,
+      "new_description": "Expert balcony waterproofing for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "balcony waterproofing high-rise"
+    },
+    {
+      "path": "app/benefits-of-design-build-construction-for-commercial-project/page.tsx",
+      "url": "/benefits-of-design-build-construction-for-commercial-project/",
+      "page_type": "article",
+      "old_description": "Discover why design-build construction delivers commercial projects faster, at lower cost, with fewer disputes. Learn how this integrated approach benefits Florida businesses.",
+      "old_length": 175,
+      "new_description": "Discover design-build benefits for commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 155,
+      "primary_keyword": "design-build benefits for commercial"
+    },
+    {
+      "path": "app/benefits-of-value-engineering-for-construction/page.tsx",
+      "url": "/benefits-of-value-engineering-for-construction/",
+      "page_type": "article",
+      "old_description": "Maximize your commercial construction budget through value engineering. Learn how systematic analysis delivers cost savings without sacrificing quality or performance in Tampa Bay projects.",
+      "old_length": 189,
+      "new_description": "Maximize your commercial construction budget through value engineering. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "benefits of value engineering for construction"
+    },
+    {
+      "path": "app/bespoke-architectural-design-in-tampa/page.tsx",
+      "url": "/bespoke-architectural-design-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Custom architectural design services for commercial buildings in Tampa Bay. Tailored solutions that reflect your brand, optimize operations, and create distinctive spaces.",
+      "old_length": 171,
+      "new_description": "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CGC, proven results. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "bespoke architectural design commercial"
+    },
+    {
+      "path": "app/breakaway-wall-construction-requirements/page.tsx",
+      "url": "/breakaway-wall-construction-requirements/",
+      "page_type": "article",
+      "old_description": "Complete guide to breakaway wall construction requirements for coastal homes in flood zones. FEMA regulations, design criteria, and construction standards for Tampa Bay waterfront properties.",
+      "old_length": 191,
+      "new_description": "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CGC. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "breakaway wall construction"
+    },
+    {
+      "path": "app/build-a-successful-future-in-construction-management/page.tsx",
+      "url": "/build-a-successful-future-in-construction-management/",
+      "page_type": "article",
+      "old_description": "Learn how construction management excellence leads to project success. Discover the principles and practices that drive successful commercial construction in Florida.",
+      "old_length": 166,
+      "new_description": "Learn how construction management excellence leads to project success. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "construction management career"
+    },
+    {
+      "path": "app/building-consultants/page.tsx",
+      "url": "/building-consultants/",
+      "page_type": "article",
+      "old_description": "Professional building consulting for property owners, attorneys & insurers. 43+ years experience, 40+ years experience. Schedule your consultation. Call (813) 420-7561.",
+      "old_length": 168,
+      "new_description": "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CGC with 40+ years experience. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "building consultants construction consulting"
+    },
+    {
+      "path": "app/building-multi-generational-homes-in-tampa/page.tsx",
+      "url": "/building-multi-generational-homes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build multi-generational homes in Tampa for extended family living. In-law suites, dual master bedrooms, accessible design, and private living quarters. Multi-gen homes from $500K-$2.5M+.",
+      "old_length": 187,
+      "new_description": "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "building multi-generational homes family living"
+    },
+    {
+      "path": "app/building-tampa-homes-with-personalized-office-spaces/page.tsx",
+      "url": "/building-tampa-homes-with-personalized-office-spaces/",
+      "page_type": "article",
+      "old_description": "Design the perfect home office in your Tampa custom home. Executive suites, video conferencing studios, and productive workspaces. Custom home offices from $25K-$150K+.",
+      "old_length": 168,
+      "new_description": "Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CGC with 40+ years experience. Call (813) 906-1302 for a quote.",
+      "new_length": 151,
+      "primary_keyword": "homes with personalized office spaces"
+    },
+    {
+      "path": "app/building-the-perfect-construction-blueprint/page.tsx",
+      "url": "/building-the-perfect-construction-blueprint/",
+      "page_type": "article",
+      "old_description": "Master the art of construction blueprint development. Learn architectural design principles, structural engineering requirements, and site analysis techniques for Florida commercial projects.",
+      "old_length": 191,
+      "new_description": "Discover building the perfect construction blueprint with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "building the perfect construction blueprint"
+    },
+    {
+      "path": "app/certified-estimates/page.tsx",
+      "url": "/certified-estimates/",
+      "page_type": "article",
+      "old_description": "Professional certified estimates for insurance claims, litigation & project planning. 43+ years experience, former adjuster. Schedule consultation: (813) 420-7561.",
+      "old_length": 163,
+      "new_description": "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CGC with 40+ years experience. Read more.",
+      "new_length": 154,
+      "primary_keyword": "certified construction estimates"
+    },
+    {
+      "path": "app/challenges-in-historic-restoration-projects-in-tampa/page.tsx",
+      "url": "/challenges-in-historic-restoration-projects-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Navigate Tampa historic restoration challenges: regulatory compliance, hazardous materials, structural issues, code requirements. FCS provides expert solutions for complex projects.",
+      "old_length": 181,
+      "new_description": "Historic Restoration Challenges Solutions in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "historic restoration challenges solutions"
+    },
+    {
+      "path": "app/choose-between-general-contractor-and-construction-manager/page.tsx",
+      "url": "/choose-between-general-contractor-and-construction-manager/",
+      "page_type": "article",
+      "old_description": "Learn the key differences between general contractors and construction managers for your Tampa commercial project. Expert guidance on choosing the right approach for your building needs.",
+      "old_length": 186,
+      "new_description": "Discover gc vs construction manager which to choose with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "gc vs construction manager which to choose"
+    },
+    {
+      "path": "app/choosing-the-perfect-location-for-commercial-construction/page.tsx",
+      "url": "/choosing-the-perfect-location-for-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Choosing the perfect location for commercial construction in Florida is crucial for achieving success in your business ventures. Contact Florida Construction Specialists today!",
+      "old_length": 176,
+      "new_description": "Choosing the perfect location for commercial construction in Florida is crucial for achieving. Professional guidance from FCS, licensed CGC. Contact us today.",
+      "new_length": 158,
+      "primary_keyword": "choosing the perfect location for commercial construction"
+    },
+    {
+      "path": "app/choosing-the-right-waterproofing-solution-your-ultimate-guide/page.tsx",
+      "url": "/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+      "page_type": "article",
+      "old_description": "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. Compare traffic coatings, membranes, and sealants. Expert recommendations for Florida condos.",
+      "old_length": 180,
+      "new_description": "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CGC in ${region}. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "choosing waterproofing solutions guide"
+    },
+    {
+      "path": "app/church-renovation-tips-from-top-commercial-contractor/page.tsx",
+      "url": "/church-renovation-tips-from-top-commercial-contractor/",
+      "page_type": "article",
+      "old_description": "Expert church renovation guidance for Tampa Bay congregations. Sanctuary updates, fellowship hall expansion, ADA compliance, and historic preservation tips from Florida Construction Specialists.",
+      "old_length": 194,
+      "new_description": "Expert church renovation guidance for Tampa Bay congregations. Expert insights from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "church renovation tips commercial"
+    },
+    {
+      "path": "app/climate-resilient-custom-homes-in-tampa/page.tsx",
+      "url": "/climate-resilient-custom-homes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build a climate-resilient custom home in Tampa engineered for hurricanes, flooding, and extreme heat. Fortified construction, backup power, and smart systems from $425K-$2M+.",
+      "old_length": 174,
+      "new_description": "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CGC. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "climate-resilient custom homes hurricane"
+    },
+    {
+      "path": "app/commercial/condo-remediation/page.tsx",
+      "url": "/commercial/condo-remediation/",
+      "page_type": "hub",
+      "old_description": "Florida SB4-D compliance specialists serving Tampa Bay. Milestone inspections, SIRS structural reserve studies, balcony reconstruction, and condo remediation. Deadlines approaching - act now.",
+      "old_length": 191,
+      "new_description": "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact our team today.",
+      "new_length": 157,
+      "primary_keyword": "sb4-d compliance condo milestone"
+    },
+    {
+      "path": "app/commercial/historic-restoration/page.tsx",
+      "url": "/commercial/historic-restoration/",
+      "page_type": "hub",
+      "old_description": "Expert historic restoration in Tampa Bay with proven National Register experience. Historic tax credits, SHPO compliance, Ybor City specialists. Italian Club, Lion",
+      "old_length": 163,
+      "new_description": "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "historic restoration shpo compliance"
+    },
+    {
+      "path": "app/commercial/industrial-construction/page.tsx",
+      "url": "/commercial/industrial-construction/",
+      "page_type": "hub",
+      "old_description": "Industrial and warehouse construction in Tampa Bay. Tilt-wall construction, steel buildings, flex space, and distribution centers. $500K-$25M+ projects. 40+ years experience.",
+      "old_length": 174,
+      "new_description": "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "industrial construction tilt-wall"
+    },
+    {
+      "path": "app/commercial-building-design-services-in-tampa/page.tsx",
+      "url": "/commercial-building-design-services-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Comprehensive commercial building design services in Tampa Bay. From architectural design to construction planning, we deliver innovative solutions for office, retail, medical, and industrial projects.",
+      "old_length": 201,
+      "new_description": "Commercial Building Design Services in Tampa: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "commercial building design services"
+    },
+    {
+      "path": "app/commercial-construction/page.tsx",
+      "url": "/commercial-construction/",
+      "page_type": "hub",
+      "old_description": "Premier commercial construction contractor serving Tampa Bay. From ground-up builds to tenant improvements, we deliver large-scale commercial projects on time and on budget.",
+      "old_length": 173,
+      "new_description": "Commercial Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-bradenton/page.tsx",
+      "url": "/commercial-construction-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 243,
+      "new_description": "Commercial Construction in Bradenton: commercial and residential construction and restoration. Licensed and insured CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 153,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-brandon/page.tsx",
+      "url": "/commercial-construction-brandon/",
+      "page_type": "service-location",
+      "old_description": "Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 238,
+      "new_description": "Commercial Construction in Brandon: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call for a free consultation today.",
+      "new_length": 150,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-budgeting-tips-for-florida-specialists/page.tsx",
+      "url": "/commercial-construction-budgeting-tips-for-florida-specialists/",
+      "page_type": "article",
+      "old_description": "Master commercial construction budgeting in Florida. Expert tips for accurate cost estimation, contingency planning, and avoiding budget overruns in Tampa Bay projects.",
+      "old_length": 168,
+      "new_description": "Master commercial construction budgeting in Florida. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "commercial construction budgeting florida tips"
+    },
+    {
+      "path": "app/commercial-construction-ideas-for-mall-revamp/page.tsx",
+      "url": "/commercial-construction-ideas-for-mall-revamp/",
+      "page_type": "article",
+      "old_description": "Transform underperforming malls into thriving mixed-use destinations. Medical facilities, residential, entertainment, and adaptive reuse strategies for Tampa Bay shopping centers.",
+      "old_length": 179,
+      "new_description": "Discover mall revamp & conversion ideas with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "mall revamp & conversion ideas"
+    },
+    {
+      "path": "app/commercial-construction-lakeland/page.tsx",
+      "url": "/commercial-construction-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 249,
+      "new_description": "Commercial Construction in Lakeland: full-service general contractor for commercial and residential. CGC-licensed, trusted since 1983. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-loans-in-tampa/page.tsx",
+      "url": "/commercial-construction-loans-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Are you in need of construction financing for your commercial project in Tampa? Discover financing options and how Florida Construction Specialists supports your funding needs.",
+      "old_length": 176,
+      "new_description": "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Request a free estimate today.",
+      "new_length": 151,
+      "primary_keyword": "commercial construction loans"
+    },
+    {
+      "path": "app/commercial-construction-ruskin/page.tsx",
+      "url": "/commercial-construction-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
+      "old_length": 228,
+      "new_description": "Looking for commercial construction in Ruskin? New Builds, Renovations, and Disaster Recovery Services. 40+ years, licensed CGC. Request a free estimate.",
+      "new_length": 153,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-sarasota/page.tsx",
+      "url": "/commercial-construction-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 262,
+      "new_description": "Commercial Construction in Sarasota: complete construction services from pre-construction to closeout. 40+ years, licensed CGC. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "commercial construction"
+    },
+    {
+      "path": "app/commercial-construction-vs-remodeling-and-renovation-in-florida/page.tsx",
+      "url": "/commercial-construction-vs-remodeling-and-renovation-in-florida/",
+      "page_type": "article",
+      "old_description": "Discover the key differences between commercial construction, remodeling, and renovation in Florida. Make informed decisions for your Tampa Bay construction project.",
+      "old_length": 165,
+      "new_description": "Discover commercial construction vs remodeling florida with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+      "new_length": 156,
+      "primary_keyword": "commercial construction vs remodeling florida"
+    },
+    {
+      "path": "app/commercial-construction-wants-vs-needs-in-tampa/page.tsx",
+      "url": "/commercial-construction-wants-vs-needs-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Learn to prioritize wants vs needs for your Tampa commercial construction project. Make smart budget decisions that maximize value without compromising essentials.",
+      "old_length": 163,
+      "new_description": "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CGC. Contact our team today.",
+      "new_length": 156,
+      "primary_keyword": "commercial construction wants vs needs"
+    },
+    {
+      "path": "app/commercial-interior-design-in-tampa/page.tsx",
+      "url": "/commercial-interior-design-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Transform your Tampa Bay commercial space with expert interior design. Office space planning, retail design, healthcare interiors, and hospitality environments that enhance business performance.",
+      "old_length": 194,
+      "new_description": "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "commercial interior design office"
+    },
+    {
+      "path": "app/commercial-property-damage-restoration-in-tampa/page.tsx",
+      "url": "/commercial-property-damage-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert commercial property damage restoration in Tampa. Office buildings, retail centers, and commercial facilities restored after hurricane, flood, fire, and storm damage. Insurance claim specialists.",
+      "old_length": 201,
+      "new_description": "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CGC-licensed, trusted since 1983. Read more.",
+      "new_length": 159,
+      "primary_keyword": "commercial property damage restoration"
+    },
+    {
+      "path": "app/commercial-renovation-secrets-from-floridas-top-contractors/page.tsx",
+      "url": "/commercial-renovation-secrets-from-floridas-top-contractors/",
+      "page_type": "article",
+      "old_description": "Insider tips for successful commercial renovation in Tampa Bay. Learn how experienced contractors approach tenant improvements, building upgrades, and adaptive reuse.",
+      "old_length": 166,
+      "new_description": "Insider tips for successful commercial renovation in Tampa Bay. Expert analysis from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+      "new_length": 151,
+      "primary_keyword": "commercial renovation secrets from florida"
+    },
+    {
+      "path": "app/commercial-residential-construction-in-florida/page.tsx",
+      "url": "/commercial-residential-construction-in-florida/",
+      "page_type": "article",
+      "old_description": "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Gain valuable insights and demystify the process.Discover ins and outs of co...",
+      "old_length": 165,
+      "new_description": "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CGC. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "commercial residential construction in florida"
+    },
+    {
+      "path": "app/commercial-roofing-services-in-tampa/page.tsx",
+      "url": "/commercial-roofing-services-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Complete commercial roofing services in Tampa Bay. TPO, EPDM, metal, and built-up roofing systems. Hurricane-rated installations, repairs, and maintenance from Florida Construction Specialists.",
+      "old_length": 193,
+      "new_description": "Commercial Roofing Services Expert in Tampa: design-build, pre-construction, and project management. Licensed CGC, proven results. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "commercial roofing services expert"
+    },
+    {
+      "path": "app/common-construction-mistakes-to-avoid-for-commercial-project/page.tsx",
+      "url": "/common-construction-mistakes-to-avoid-for-commercial-project/",
+      "page_type": "article",
+      "old_description": "Learn the most common commercial construction mistakes and how to avoid them. Protect your Tampa Bay project investment with insights from Florida Construction Specialists.",
+      "old_length": 172,
+      "new_description": "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CGC in ${region}. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "construction mistakes to avoid commercial"
+    },
+    {
+      "path": "app/complete-property-overhaul-after-disasters-in-tampa/page.tsx",
+      "url": "/complete-property-overhaul-after-disasters-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Complete property overhaul services after disasters in Tampa. Total commercial building reconstruction, comprehensive renovation, and ground-up restoration following hurricane and storm damage.",
+      "old_length": 193,
+      "new_description": "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CGC, 40+ years. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "complete property overhaul after disasters"
+    },
+    {
+      "path": "app/condo-balcony-inspection-requirements/page.tsx",
+      "url": "/condo-balcony-inspection-requirements/",
+      "page_type": "article",
+      "old_description": "Complete guide to Florida condo balcony inspection requirements under SB 4-D and milestone inspections. Understand inspection scope, repair timelines, and compliance obligations.",
+      "old_length": 178,
+      "new_description": "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "condo balcony inspection florida sb 4-d"
+    },
+    {
+      "path": "app/condo-milestone-inspection-remediation-tampa/page.tsx",
+      "url": "/condo-milestone-inspection-remediation-tampa/",
+      "page_type": "service-location",
+      "old_description": "Florida Construction Specialists provides SB4-D milestone inspection remediation for Tampa Bay condominiums. Expert structural repairs, SIRS compliance, and HOA board guidance for buildings 3+ stories.",
+      "old_length": 201,
+      "new_description": "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "condo milestone inspection sb4-d"
+    },
+    {
+      "path": "app/condo-remediation-bradenton/page.tsx",
+      "url": "/condo-remediation-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Bradenton condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony repair for Anna Maria Island, Holmes Beach, Palmetto condos. Licensed, bonded. Call (813) 420-7561.",
+      "old_length": 221,
+      "new_description": "Condo Remediation Sb4-d Compliance & Sirs in Bradenton: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Read more.",
+      "new_length": 158,
+      "primary_keyword": "condo remediation sb4-d compliance & sirs"
+    },
+    {
+      "path": "app/condo-remediation-brandon/page.tsx",
+      "url": "/condo-remediation-brandon/",
+      "page_type": "service-location",
+      "old_description": "Brandon condo remediation & SB4-D compliance experts. Milestone inspections, SIRS, structural repairs for condos 3+ stories. Serving Valrico, Riverview, FishHawk. Near FCS headquarters. Call (813) 420-7561.",
+      "old_length": 206,
+      "new_description": "Condo Remediation Sb4-d in Brandon: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "condo remediation sb4-d"
+    },
+    {
+      "path": "app/condo-remediation-clearwater/page.tsx",
+      "url": "/condo-remediation-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Clearwater Beach condo remediation specialists. SB4-D compliance, milestone inspections, SIRS structural reserve studies for Sand Key, Island Estates, and Clearwater condominiums. Coastal zone deadline experts. Call (813) 420-7561.",
+      "old_length": 231,
+      "new_description": "Condo Remediation Sb4-d Compliance & Sirs in Clearwater: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "condo remediation sb4-d compliance & sirs"
+    },
+    {
+      "path": "app/condo-remediation-lakeland/page.tsx",
+      "url": "/condo-remediation-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Lakeland condo remediation experts. SB4-D compliance, milestone inspections (30-year inland deadline), SIRS structural reserve studies. Polk County licensed contractor. Call (813) 420-7561.",
+      "old_length": 189,
+      "new_description": "Condo Remediation Sb4-d Polk in Lakeland: commercial and residential construction and restoration. Licensed CGC, proven results. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "condo remediation sb4-d polk"
+    },
+    {
+      "path": "app/condo-remediation-ruskin/page.tsx",
+      "url": "/condo-remediation-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Condo remediation experts HEADQUARTERED in Ruskin. SB4-D compliance, milestone inspections, SIRS for Sun City Center, Apollo Beach, South Hillsborough condos. Local expertise, fastest response. Call (813) 420-7561.",
+      "old_length": 214,
+      "new_description": "Condo Remediation Sun City Center in Ruskin: expert project management, design-build, and renovations. Licensed and insured CGC. Schedule your consultation now.",
+      "new_length": 160,
+      "primary_keyword": "condo remediation sun city center"
+    },
+    {
+      "path": "app/condo-remediation-sarasota/page.tsx",
+      "url": "/condo-remediation-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Sarasota condo remediation experts. SB4-D compliance, milestone inspections, SIRS for Longboat Key, Siesta Key, Lido Key luxury condos. Post-Hurricane Ian structural repairs. Licensed. Call (813) 420-7561.",
+      "old_length": 205,
+      "new_description": "Condo Remediation Sb4-d Compliance & Sirs in Sarasota: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "condo remediation sb4-d compliance & sirs"
+    },
+    {
+      "path": "app/condo-remediation-st-petersburg/page.tsx",
+      "url": "/condo-remediation-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony reconstruction for condos 3+ stories. Serving Downtown St. Pete, St. Pete Beach, Treasure Island. Licensed CBC1262722.",
+      "old_length": 245,
+      "new_description": "Condo Remediation Sb4-d in St. Petersburg: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "condo remediation sb4-d"
+    },
+    {
+      "path": "app/condo-remediation-tampa/page.tsx",
+      "url": "/condo-remediation-tampa/",
+      "page_type": "service-location",
+      "old_description": "Tampa condo remediation specialists. SB4-D compliance, milestone inspections, SIRS reserve studies, structural repairs for condominiums 3+ stories. Hillsborough County expertise. Licensed CBC1262722. Call (813) 420-7561.",
+      "old_length": 220,
+      "new_description": "Condo Remediation Sb4-d Compliance in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "condo remediation sb4-d compliance"
+    },
+    {
+      "path": "app/condo-structural-reserve-study-repairs/page.tsx",
+      "url": "/condo-structural-reserve-study-repairs/",
+      "page_type": "article",
+      "old_description": "Expert planning and execution of major condo capital projects identified in Structural Integrity Reserve Studies. Roof replacement, concrete restoration, waterproofing, and more throughout Tampa Bay.",
+      "old_length": 199,
+      "new_description": "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CGC. Contact our team today.",
+      "new_length": 157,
+      "primary_keyword": "condo reserve study repairs sirs"
+    },
+    {
+      "path": "app/construction-florida-leading-way-leed-certification/page.tsx",
+      "url": "/construction-florida-leading-way-leed-certification/",
+      "page_type": "article",
+      "old_description": "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert guidance through all LEED certification levels with proven results.",
+      "old_length": 166,
+      "new_description": "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists. Read more.",
+      "new_length": 157,
+      "primary_keyword": "florida construction leed certification leader"
+    },
+    {
+      "path": "app/construction-project-management-and-scheduling/page.tsx",
+      "url": "/construction-project-management-and-scheduling/",
+      "page_type": "article",
+      "old_description": "Essential tips for effective commercial construction project management and scheduling in Florida. Learn proven strategies for keeping projects on track and on budget.",
+      "old_length": 167,
+      "new_description": "Discover construction project management tips with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "construction project management tips"
+    },
+    {
+      "path": "app/construction-quotes-for-commercial-project/page.tsx",
+      "url": "/construction-quotes-for-commercial-project/",
+      "page_type": "article",
+      "old_description": "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Expert guidance on bid evaluation, contractor selection, and avoiding common pitfalls.",
+      "old_length": 178,
+      "new_description": "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1983. Read more.",
+      "new_length": 160,
+      "primary_keyword": "construction quotes for commercial projects"
+    },
+    {
+      "path": "app/contractors-role-in-tampa-insurance-restoration/page.tsx",
+      "url": "/contractors-role-in-tampa-insurance-restoration/",
+      "page_type": "article",
+      "old_description": "Expert guide to how commercial contractors support Tampa Bay insurance restoration claims. Learn about documentation, scope development, and working with adjusters.",
+      "old_length": 164,
+      "new_description": "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CGC with 40+ years experience. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "contractors role insurance restoration"
+    },
+    {
+      "path": "app/converting-retail-building-into-multi-tenant-space/page.tsx",
+      "url": "/converting-retail-building-into-multi-tenant-space/",
+      "page_type": "article",
+      "old_description": "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Learn about demising walls, utilities, code requirements, costs, and ROI for retail subdivisions.",
+      "old_length": 180,
+      "new_description": "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "converting retail to multi-tenant"
+    },
+    {
+      "path": "app/crafting-custom-home-libraries-in-tampa/page.tsx",
+      "url": "/crafting-custom-home-libraries-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Design your dream custom home library in Tampa. Floor-to-ceiling bookshelves, reading nooks, climate control, and luxury finishes. Library additions from $50K-$250K+.",
+      "old_length": 166,
+      "new_description": "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, 40+ years. Contact us today.",
+      "new_length": 158,
+      "primary_keyword": "custom home libraries luxury book rooms & studies"
+    },
+    {
+      "path": "app/crafting-the-ideal-commercial-blueprint-in-tampa-florida/page.tsx",
+      "url": "/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+      "page_type": "article",
+      "old_description": "Expert guide to creating the perfect commercial construction blueprint in Tampa. Learn about architectural drafting, construction planning, zoning requirements, and cost considerations for Tampa Bay projects.",
+      "old_length": 208,
+      "new_description": "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 151,
+      "primary_keyword": "commercial blueprint construction"
+    },
+    {
+      "path": "app/custom-home-accessibility-features-in-tampa/page.tsx",
+      "url": "/custom-home-accessibility-features-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build an accessible custom home in Tampa with universal design features. Elevator-ready, wide doorways, accessible bathrooms, and aging-in-place planning from $400K-$2M+.",
+      "old_length": 170,
+      "new_description": "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "custom home accessibility universal design"
+    },
+    {
+      "path": "app/custom-home-interior-design-services-in-tampa/page.tsx",
+      "url": "/custom-home-interior-design-services-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Complete interior design services for Tampa custom homes. Material selection, space planning, custom furniture, and turnkey design packages. Design services from $50K-$500K+.",
+      "old_length": 174,
+      "new_description": "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Contact our team today.",
+      "new_length": 156,
+      "primary_keyword": "custom home interior design luxury"
+    },
+    {
+      "path": "app/custom-home-theaters-and-entertainment-spaces-in-tampa/page.tsx",
+      "url": "/custom-home-theaters-and-entertainment-spaces-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build the ultimate home theater in your Tampa custom home. 4K/8K projection, Dolby Atmos sound, acoustic design, and luxury seating. Theater rooms from $75K-$500K+.",
+      "old_length": 164,
+      "new_description": "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "custom home theaters and entertainment spaces"
+    },
+    {
+      "path": "app/custom-home-wine-cellars-in-tampa/page.tsx",
+      "url": "/custom-home-wine-cellars-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build a custom wine cellar in your Tampa home. Climate control, proper storage, tasting rooms, and stunning design. Wine cellars from $25K-$200K+ for 500-5,000+ bottles.",
+      "old_length": 169,
+      "new_description": "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CGC, proven results. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "custom home wine cellars climate control"
+    },
+    {
+      "path": "app/customized-outdoor-sports-facilities-in-tampa-homes/page.tsx",
+      "url": "/customized-outdoor-sports-facilities-in-tampa-homes/",
+      "page_type": "article",
+      "old_description": "Build custom sports facilities at your Tampa home. Tennis courts, basketball courts, putting greens, batting cages, pickleball, and athletic amenities. Sports homes from $100K-$500K+ additions.",
+      "old_length": 193,
+      "new_description": "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "outdoor sports facilities homes courts"
+    },
+    {
+      "path": "app/decoding-commercial-construction-costs/page.tsx",
+      "url": "/decoding-commercial-construction-costs/",
+      "page_type": "article",
+      "old_description": "Understand commercial construction costs in Tampa Bay. Detailed cost breakdowns by building type, hidden cost factors, and expert budgeting guidance from Florida Construction Specialists.",
+      "old_length": 187,
+      "new_description": "Discover commercial construction costs with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "commercial construction costs"
+    },
+    {
+      "path": "app/decoding-value-engineering-florida-construction-expertise/page.tsx",
+      "url": "/decoding-value-engineering-florida-construction-expertise/",
+      "page_type": "article",
+      "old_description": "Deep dive into value engineering methodology for commercial construction. Learn how Florida Construction Specialists applies systematic analysis to optimize building value while reducing costs.",
+      "old_length": 193,
+      "new_description": "Deep dive into value engineering methodology for commercial construction. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "value engineering florida construction"
+    },
+    {
+      "path": "app/demystifying-commercial-construction-insurance-in-florida/page.tsx",
+      "url": "/demystifying-commercial-construction-insurance-in-florida/",
+      "page_type": "article",
+      "old_description": "Navigate the complexities of commercial construction insurance in Florida with confidence. Discover essential tips for understanding policies and safeguarding your investment.",
+      "old_length": 175,
+      "new_description": "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1983. Read more.",
+      "new_length": 159,
+      "primary_keyword": "demystifying commercial construction insurance in florida"
+    },
+    {
+      "path": "app/designing-your-dream-home-in-tampa/page.tsx",
+      "url": "/designing-your-dream-home-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Turn your dream home vision into reality in Tampa Bay. Custom architectural design, personalized planning, and expert guidance from concept to completion. Dream homes from $400K-$5M+.",
+      "old_length": 183,
+      "new_description": "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "designing your dream home custom home design"
+    },
+    {
+      "path": "app/disaster-recovery-st-petersburg/page.tsx",
+      "url": "/disaster-recovery-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration, barrier island expertise. Call (813) 420-7561.",
+      "old_length": 161,
+      "new_description": "Disaster Recovery Contractor in St. Petersburg: new builds, renovations, and disaster recovery services. 40+ years, licensed CGC. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "disaster recovery contractor"
+    },
+    {
+      "path": "app/discover-the-benefits-of-exterior-waterproofing/page.tsx",
+      "url": "/discover-the-benefits-of-exterior-waterproofing/",
+      "page_type": "article",
+      "old_description": "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends building life, and reduces long-term maintenance costs. SB 4-D compliance guide.",
+      "old_length": 175,
+      "new_description": "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "benefits of exterior waterproofing"
+    },
+    {
+      "path": "app/discover-the-best-balcony-decking-options-for-outdoor-spaces/page.tsx",
+      "url": "/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+      "page_type": "article",
+      "old_description": "Premium balcony decking options for Tampa Bay high-rise condominiums. Tile, pavers, deck coatings, and composite systems with expert installation and SB 4-D compliance.",
+      "old_length": 168,
+      "new_description": "Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CGC. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "balcony decking options for high-rise buildings"
+    },
+    {
+      "path": "app/eco-friendly-commercial-construction-in-tampa/page.tsx",
+      "url": "/eco-friendly-commercial-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build sustainably in Tampa Bay with eco-friendly commercial construction. LEED certification, energy efficiency, sustainable materials & green building expertise.",
+      "old_length": 162,
+      "new_description": "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CGC, proven results. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "eco-friendly commercial construction"
+    },
+    {
+      "path": "app/eco-friendly-custom-homes-in-tampa/page.tsx",
+      "url": "/eco-friendly-custom-homes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build your dream eco-friendly custom home in Tampa. Solar-ready designs, sustainable materials, LEED-certified construction. Green luxury living from $450K-$2M+.",
+      "old_length": 161,
+      "new_description": "Eco-friendly Custom Homes Sustainable in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "eco-friendly custom homes sustainable"
+    },
+    {
+      "path": "app/eco-friendly-historic-restoration-techniques-in-tampa/page.tsx",
+      "url": "/eco-friendly-historic-restoration-techniques-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Discover sustainable historic restoration in Tampa. Learn how preservation conserves embodied energy, combines with LEED certification, and qualifies for tax credits.",
+      "old_length": 166,
+      "new_description": "Eco-friendly Historic Restoration Green in Tampa: turnkey construction solutions for commercial properties. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "eco-friendly historic restoration green"
+    },
+    {
+      "path": "app/effective-balcony-maintenance-tips/page.tsx",
+      "url": "/effective-balcony-maintenance-tips/",
+      "page_type": "article",
+      "old_description": "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Inspection schedules, cleaning protocols, and preventive care to extend balcony life and ensure SB 4-D compliance.",
+      "old_length": 188,
+      "new_description": "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Learn from FCS, a licensed CGC with 40+ years experience. Contact our team today.",
+      "new_length": 155,
+      "primary_keyword": "balcony maintenance tips high-rise"
+    },
+    {
+      "path": "app/effective-exterior-waterproofing-methods-for-your-property/page.tsx",
+      "url": "/effective-exterior-waterproofing-methods-for-your-property/",
+      "page_type": "article",
+      "old_description": "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in Tampa Bay. Building envelope protection, facade waterproofing, and SB 4-D compliant solutions.",
+      "old_length": 187,
+      "new_description": "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in. Professional guidance from FCS, licensed CGC. Contact us today.",
+      "new_length": 157,
+      "primary_keyword": "exterior waterproofing methods commercial"
+    },
+    {
+      "path": "app/efficient-site-planning-for-commercial-construction-in-florida/page.tsx",
+      "url": "/efficient-site-planning-for-commercial-construction-in-florida/",
+      "page_type": "article",
+      "old_description": "Master site planning for Florida commercial construction. Expert guidance on drainage, utilities, parking, permitting, and environmental considerations for Tampa Bay projects.",
+      "old_length": 175,
+      "new_description": "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "site planning for commercial construction fl"
+    },
+    {
+      "path": "app/employee-communication-with-office-layout/page.tsx",
+      "url": "/employee-communication-with-office-layout/",
+      "page_type": "article",
+      "old_description": "Design office layouts that enhance employee communication and collaboration. Expert guide to open offices, huddle rooms, activity-based working, and hybrid workspace design in Tampa Bay.",
+      "old_length": 186,
+      "new_description": "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1983. Contact our team today.",
+      "new_length": 158,
+      "primary_keyword": "office layout for communication design"
+    },
+    {
+      "path": "app/energy-efficient-custom-homes-in-tampa/page.tsx",
+      "url": "/energy-efficient-custom-homes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build an energy-efficient custom home in Tampa with advanced insulation, high-SEER HVAC, and smart systems. Reduce utility costs by 40-60%. Luxury homes from $400K-$2M+.",
+      "old_length": 169,
+      "new_description": "Energy-efficient Custom Homes Save 40%+ in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "energy-efficient custom homes save 40%+"
+    },
+    {
+      "path": "app/enhancing-commercial-property-value/page.tsx",
+      "url": "/enhancing-commercial-property-value/",
+      "page_type": "article",
+      "old_description": "Maximize your Tampa commercial property value with strategic renovations and upgrades. Expert guidance on ROI-focused improvements from Florida Construction Specialists.",
+      "old_length": 169,
+      "new_description": "Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1983. Read more.",
+      "new_length": 155,
+      "primary_keyword": "enhance commercial property value"
+    },
+    {
+      "path": "app/environmental-considerations-in-tampa-insurance-restoration/page.tsx",
+      "url": "/environmental-considerations-in-tampa-insurance-restoration/",
+      "page_type": "article",
+      "old_description": "Navigate environmental hazards during Tampa commercial restoration projects. Expert guidance on asbestos, mold, lead paint, and sustainable restoration practices.",
+      "old_length": 162,
+      "new_description": "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "environmental considerations insurance restoration"
+    },
+    {
+      "path": "app/expert-balcony-construction-guidelines-for-optimal-results/page.tsx",
+      "url": "/expert-balcony-construction-guidelines-for-optimal-results/",
+      "page_type": "article",
+      "old_description": "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. SB 4-D compliant structural design, waterproofing specifications, and safety requirements.",
+      "old_length": 189,
+      "new_description": "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 159,
+      "primary_keyword": "balcony construction guidelines high-rise"
+    },
+    {
+      "path": "app/expert-insights-on-ways-t0-enhanced-office-building-security/page.tsx",
+      "url": "/expert-insights-on-ways-t0-enhanced-office-building-security/",
+      "page_type": "article",
+      "old_description": "Expert guide to office building security construction in Tampa Bay. Access control, surveillance, secure entries, and integrated security systems for commercial buildings.",
+      "old_length": 171,
+      "new_description": "Expert guide to office building security construction in Tampa Bay. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "office building security commercial"
+    },
+    {
+      "path": "app/expert-tips-for-planning-your-commercial-construction-project/page.tsx",
+      "url": "/expert-tips-for-planning-your-commercial-construction-project/",
+      "page_type": "article",
+      "old_description": "Comprehensive guide to planning commercial construction in Florida. Expert advice on budgeting, permits, contractor selection, and project management from Tampa Bay",
+      "old_length": 164,
+      "new_description": "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CGC. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "planning commercial construction tips"
+    },
+    {
+      "path": "app/expert-witness/page.tsx",
+      "url": "/expert-witness/",
+      "page_type": "article",
+      "old_description": "Expert witness testimony for construction disputes in Florida. 43+ years experience, former insurance adjuster. Litigation support for attorneys. Call (813) 420-7561.",
+      "old_length": 166,
+      "new_description": "Discover construction expert witness services with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "construction expert witness services"
+    },
+    {
+      "path": "app/exterior-waterproofing/page.tsx",
+      "url": "/exterior-waterproofing/",
+      "page_type": "hub",
+      "old_description": "Expert exterior waterproofing Tampa services for commercial and residential buildings. Premium building waterproofing Florida solutions. Foundation, plaza deck, parking structure waterproofing. Call today!",
+      "old_length": 205,
+      "new_description": "Building Envelope Florida across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Call (813) 906-1302 for a quote.",
+      "new_length": 159,
+      "primary_keyword": "building envelope florida"
+    },
+    {
+      "path": "app/exterior-waterproofing-bradenton/page.tsx",
+      "url": "/exterior-waterproofing-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Bradenton exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, waterfront property waterproofing. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 225,
+      "new_description": "Waterproofing Contractor in Bradenton: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-brandon/page.tsx",
+      "url": "/exterior-waterproofing-brandon/",
+      "page_type": "service-location",
+      "old_description": "Brandon exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, retail waterproofing. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 210,
+      "new_description": "Waterproofing Contractor in Brandon: complete construction services from pre-construction to closeout. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 160,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-clearwater/page.tsx",
+      "url": "/exterior-waterproofing-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Clearwater exterior waterproofing for commercial buildings, condominiums, and multi-family properties. Building envelope protection, moisture barriers, foundation waterproofing. $100K+ projects. Call ${BUSINESS_INFO.phone}.",
+      "old_length": 223,
+      "new_description": "Waterproofing Contractor in Clearwater: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Schedule your consultation now.",
+      "new_length": 150,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-lakeland/page.tsx",
+      "url": "/exterior-waterproofing-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Lakeland exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, warehouse waterproofing. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 214,
+      "new_description": "Waterproofing Contractor in Lakeland: insurance restoration, design-build, and renovations. CGC-licensed, trusted since 1983. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-ruskin/page.tsx",
+      "url": "/exterior-waterproofing-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Exterior waterproofing in Ruskin FL from FCS headquarters. Apollo Beach coastal waterproofing, Sun City Center building protection, Tampa Bay industrial waterproofing. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 212,
+      "new_description": "Waterproofing Contractor in Ruskin: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-sarasota/page.tsx",
+      "url": "/exterior-waterproofing-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Sarasota exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, luxury condo waterproofing. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 217,
+      "new_description": "Waterproofing Contractor in Sarasota: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-solution-for-a-dry-and-protected-home/page.tsx",
+      "url": "/exterior-waterproofing-solution-for-a-dry-and-protected-home/",
+      "page_type": "article",
+      "old_description": "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial buildings in Tampa Bay. SB 4-D compliant building envelope protection and facade waterproofing.",
+      "old_length": 184,
+      "new_description": "Comprehensive exterior waterproofing solutions for high-rise condominiums and commercial. Expert analysis from Florida Construction Specialists. Read more.",
+      "new_length": 155,
+      "primary_keyword": "exterior waterproofing commercial"
+    },
+    {
+      "path": "app/exterior-waterproofing-st-petersburg/page.tsx",
+      "url": "/exterior-waterproofing-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, plaza decks. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 208,
+      "new_description": "Waterproofing Contractor in St. Petersburg: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/exterior-waterproofing-tampa/page.tsx",
+      "url": "/exterior-waterproofing-tampa/",
+      "page_type": "service-location",
+      "old_description": "Tampa exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, plaza decks. 10-year warranty. Licensed, bonded, insured.",
+      "old_length": 199,
+      "new_description": "Waterproofing Contractor in Tampa: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "waterproofing contractor"
+    },
+    {
+      "path": "app/financial-planning-for-commercial-construction/page.tsx",
+      "url": "/financial-planning-for-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Expert guidance on budgeting, financing, and cost management for commercial construction in Tampa Bay. Learn about construction loans, cost estimation, and ROI optimization.",
+      "old_length": 173,
+      "new_description": "Discover financial planning commercial construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "financial planning commercial construction"
+    },
+    {
+      "path": "app/flood-remediation-contractors-in-tampa/page.tsx",
+      "url": "/flood-remediation-contractors-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Licensed flood remediation contractors in Tampa. Commercial flood damage restoration, water extraction, structural drying, and mold prevention. IICRC-certified technicians serving Tampa Bay businesses.",
+      "old_length": 201,
+      "new_description": "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+      "new_length": 160,
+      "primary_keyword": "flood remediation commercial damage"
+    },
+    {
+      "path": "app/florida-construction-specialists-committed-to-the-community-in-tampa/page.tsx",
+      "url": "/florida-construction-specialists-committed-to-the-community-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Florida Construction Specialists is deeply committed to the Tampa Bay community. Local partnerships, workforce development, sustainable practices, and community support.",
+      "old_length": 169,
+      "new_description": "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "- committed to the community"
+    },
+    {
+      "path": "app/florida-construction-specialists-mastering-your-post-construction-checklist/page.tsx",
+      "url": "/florida-construction-specialists-mastering-your-post-construction-checklist/",
+      "page_type": "article",
+      "old_description": "Complete post-construction checklist for Florida commercial projects. Expert guidance on inspections, documentation, warranty management, and occupancy preparation from Tampa Bay",
+      "old_length": 178,
+      "new_description": "Complete post-construction checklist for Florida commercial projects. Expert analysis from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "master your post-construction checklist"
+    },
+    {
+      "path": "app/foundation-restoration-services-in-tampa-after-flooding/page.tsx",
+      "url": "/foundation-restoration-services-in-tampa-after-flooding/",
+      "page_type": "article",
+      "old_description": "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with effective foundation repair,water damage repair,and flood damage resto...",
+      "old_length": 165,
+      "new_description": "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "foundation restoration services after flooding"
+    },
+    {
+      "path": "app/funding-and-grants-for-historic-restoration-in-tampa/page.tsx",
+      "url": "/funding-and-grants-for-historic-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Comprehensive guide to historic restoration funding in Tampa including federal and state tax credits, grants, and financing options for commercial preservation projects.",
+      "old_length": 169,
+      "new_description": "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CGC #1529395, 40+ years. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "funding and grants for historic restoration"
+    },
+    {
+      "path": "app/gourmet-kitchen-design-in-tampa/page.tsx",
+      "url": "/gourmet-kitchen-design-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Create stunning gourmet kitchens in Tampa custom homes. Professional-grade appliances, custom cabinetry, premium countertops, and chef-inspired design. Kitchen investments from $75K-$300K+.",
+      "old_length": 189,
+      "new_description": "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "gourmet kitchen design luxury custom kitchens"
+    },
+    {
+      "path": "app/green-contractor-certifications-in-commercial-construction/page.tsx",
+      "url": "/green-contractor-certifications-in-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Understand green contractor certifications and their value in commercial construction. Florida Construction Specialists brings LEED expertise to Tampa Bay projects.",
+      "old_length": 164,
+      "new_description": "Discover green contractor certifications in commercial construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Read more.",
+      "new_length": 155,
+      "primary_keyword": "green contractor certifications in commercial construction"
+    },
+    {
+      "path": "app/guide-to-waterproofing-solutions-for-basements/page.tsx",
+      "url": "/guide-to-waterproofing-solutions-for-basements/",
+      "page_type": "article",
+      "old_description": "Professional basement and below-grade waterproofing for commercial buildings and condominiums in Tampa Bay. Expert solutions for parking garages, storage areas, and mechanical rooms.",
+      "old_length": 182,
+      "new_description": "Discover basement waterproofing below-grade solutions with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "basement waterproofing below-grade solutions"
+    },
+    {
+      "path": "app/high-end-home-construction-in-tampa/page.tsx",
+      "url": "/high-end-home-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Premier high-end home construction in Tampa Bay. Luxury materials, master craftsmanship, bespoke details, and uncompromising quality. Estate homes from $1M-$10M+.",
+      "old_length": 162,
+      "new_description": "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Read more.",
+      "new_length": 156,
+      "primary_keyword": "high-end home construction luxury custom builders"
+    },
+    {
+      "path": "app/hire-licensed-contractors-for-commercial-construction-project/page.tsx",
+      "url": "/hire-licensed-contractors-for-commercial-construction-project/",
+      "page_type": "article",
+      "old_description": "Learn why hiring a licensed contractor is essential for commercial construction in Florida. Understand licensing requirements, risks of unlicensed work, and how to verify credentials.",
+      "old_length": 183,
+      "new_description": "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "licensed contractors for commercial florida"
+    },
+    {
+      "path": "app/hiring-a-commercial-contractor-in-tampa/page.tsx",
+      "url": "/hiring-a-commercial-contractor-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Looking for a dependable commercial contractor in Tampa? Discover the top considerations for hiring one, from expertise and qualifications to reputation and pricing.",
+      "old_length": 165,
+      "new_description": "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CGC. Contact our team today.",
+      "new_length": 154,
+      "primary_keyword": "hiring a commercial contractor guide"
+    },
+    {
+      "path": "app/historic-building-preservation-in-tampa/page.tsx",
+      "url": "/historic-building-preservation-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Comprehensive guide to historic building preservation in Tampa. Learn about National Register listings, local designations, tax credits, and preservation standards.",
+      "old_length": 164,
+      "new_description": "Historic Building Preservation in Tampa: complete construction services from pre-construction to closeout. FL-licensed CGC contractor. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "historic building preservation"
+    },
+    {
+      "path": "app/historic-masonry-restoration-techniques-in-tampa/page.tsx",
+      "url": "/historic-masonry-restoration-techniques-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert historic masonry restoration in Tampa using traditional techniques. Specialized brick, stone, and mortar restoration for Ybor City landmarks and commercial buildings.",
+      "old_length": 173,
+      "new_description": "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Contact our team today.",
+      "new_length": 154,
+      "primary_keyword": "historic masonry restoration techniques"
+    },
+    {
+      "path": "app/historic-restoration-bradenton/page.tsx",
+      "url": "/historic-restoration-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Bradenton, Florida. Village of the Arts, Downtown Historic District, Old Manatee heritage. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+      "old_length": 239,
+      "new_description": "Historic Restoration in Bradenton: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-brandon/page.tsx",
+      "url": "/historic-restoration-brandon/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Brandon, Florida. Citrus-era buildings, 1950s-1970s homes, agricultural heritage structures. Hillsborough County preservation. Projects $150K-$5M+. Call (813) 420-7561.",
+      "old_length": 210,
+      "new_description": "Historic Restoration in Brandon: complete construction services from pre-construction to closeout. FL-licensed CGC contractor. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-clearwater/page.tsx",
+      "url": "/historic-restoration-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Clearwater, Florida. Downtown Cleveland Street, Harbor Oaks neighborhood, coastal preservation. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+      "old_length": 244,
+      "new_description": "Historic Restoration in Clearwater: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+      "new_length": 153,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-lakeland/page.tsx",
+      "url": "/historic-restoration-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+      "old_length": 271,
+      "new_description": "Historic Restoration in Lakeland: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-ruskin/page.tsx",
+      "url": "/historic-restoration-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Ruskin, Florida. Ruskin Colony heritage buildings, fishing village structures, agricultural packing houses. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+      "old_length": 256,
+      "new_description": "Historic Restoration in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-sarasota/page.tsx",
+      "url": "/historic-restoration-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Expert historic restoration contractor in Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival estates. Secretary of Interior Standards, SHPO coordination, tax credit projects. $500K-$25M+. Call (813) 420-7561.",
+      "old_length": 257,
+      "new_description": "Looking for historic restoration in Sarasota? New Builds, Renovations, and Disaster Recovery Services. Licensed CGC since 1983. Request a free estimate.",
+      "new_length": 152,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historic-restoration-st-petersburg/page.tsx",
+      "url": "/historic-restoration-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg historic restoration experts. Old Northeast Historic District, Bay Pines Veterans Hospital ($2M federal project), downtown St. Pete landmarks. SHPO compliance, Section 106. Call (813) 420-7561.",
+      "old_length": 208,
+      "new_description": "Historic Restoration in St. Petersburg: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate today.",
+      "new_length": 151,
+      "primary_keyword": "historic restoration"
+    },
+    {
+      "path": "app/historical-accuracy-in-tampa-restoration/page.tsx",
+      "url": "/historical-accuracy-in-tampa-restoration/",
+      "page_type": "article",
+      "old_description": "Achieving historical accuracy in Tampa restoration projects through research, documentation, and traditional craftsmanship. Essential for tax credit approval and authentic preservation.",
+      "old_length": 185,
+      "new_description": "Achieving historical accuracy in restoration projects through research, documentation,. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "historical accuracy restoration"
+    },
+    {
+      "path": "app/historical-commercial-construction-in-tampa/page.tsx",
+      "url": "/historical-commercial-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert historical commercial construction in Tampa. FCS preserves heritage buildings, historic storefronts, and commercial districts in Ybor City and downtown Tampa using traditional techniques and Secretary of Interior standards for authentic restoration.",
+      "old_length": 256,
+      "new_description": "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CGC contractor. Read more.",
+      "new_length": 156,
+      "primary_keyword": "historic commercial construction heritage building"
+    },
+    {
+      "path": "app/how-technology-is-revolutionizing-the-construction-process/page.tsx",
+      "url": "/how-technology-is-revolutionizing-the-construction-process/",
+      "page_type": "article",
+      "old_description": "Discover how technology is revolutionizing construction in Tampa Bay. BIM, drones, project management software, and more. Florida Construction Specialists embraces innovation.",
+      "old_length": 175,
+      "new_description": "Discover technology revolutionizing construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "technology revolutionizing construction"
+    },
+    {
+      "path": "app/how-to-prevent-water-damage-expert-tips-for-a-dry-home/page.tsx",
+      "url": "/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+      "page_type": "article",
+      "old_description": "Expert tips to prevent water damage in Tampa commercial properties. Roof maintenance, plumbing inspection, HVAC care, and flood preparation strategies to protect your business investment.",
+      "old_length": 187,
+      "new_description": "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 155,
+      "primary_keyword": "prevent water damage commercial tips"
+    },
+    {
+      "path": "app/hurricane-proof-reconstruction-services-in-tampa/page.tsx",
+      "url": "/hurricane-proof-reconstruction-services-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert hurricane-proof reconstruction services in Tampa. Commercial building fortification, impact-resistant systems, and Florida Building Code compliance. FEMA-approved contractors serving Tampa Bay businesses.",
+      "old_length": 211,
+      "new_description": "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "hurricane-proof reconstruction commercial"
+    },
+    {
+      "path": "app/hyde-park-renovation-guide/page.tsx",
+      "url": "/hyde-park-renovation-guide/",
+      "page_type": "article",
+      "old_description": "Complete guide to renovating in Hyde Park Tampa. ARC approval process, Certificate of Appropriateness, historic district requirements, and period-accurate restoration.",
+      "old_length": 167,
+      "new_description": "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "hyde park renovation guide arc"
+    },
+    {
+      "path": "app/identifying-water-damage-signs-prevention-and-action/page.tsx",
+      "url": "/identifying-water-damage-signs-prevention-and-action/",
+      "page_type": "article",
+      "old_description": "Learn to identify water damage signs in commercial properties. Prevention strategies, early detection tips, and action steps for Tampa Bay businesses. Protect your property investment.",
+      "old_length": 184,
+      "new_description": "Discover water damage signs & prevention commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "water damage signs & prevention commercial"
+    },
+    {
+      "path": "app/impact-of-climate-change-on-tampa-insurance-restoration/page.tsx",
+      "url": "/impact-of-climate-change-on-tampa-insurance-restoration/",
+      "page_type": "article",
+      "old_description": "How climate change affects Tampa Bay insurance restoration. Rising premiums, increased storm damage, flood risks, and strategies for commercial property protection.",
+      "old_length": 164,
+      "new_description": "How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "climate change & insurance restoration"
+    },
+    {
+      "path": "app/impacts-of-technology-on-historic-restoration-in-tampa/page.tsx",
+      "url": "/impacts-of-technology-on-historic-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Discover how cutting-edge technology is transforming historic restoration in Tampa. From 3D scanning to drone surveys, learn about innovative preservation techniques for landmark buildings.",
+      "old_length": 189,
+      "new_description": "Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "impacts of technology on historic restoration"
+    },
+    {
+      "path": "app/industrial-property-restoration-services-after-damage-in-tampa/page.tsx",
+      "url": "/industrial-property-restoration-services-after-damage-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Industrial property restoration services in Tampa. Warehouse, manufacturing, and distribution facility damage repair after hurricanes, floods, and disasters. Minimize downtime with rapid response.",
+      "old_length": 196,
+      "new_description": "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Get a free quote.",
+      "new_length": 155,
+      "primary_keyword": "industrial property restoration warehouse"
+    },
+    {
+      "path": "app/inspiring-balcony-renovation-transform-your-outdoor-space/page.tsx",
+      "url": "/inspiring-balcony-renovation-transform-your-outdoor-space/",
+      "page_type": "article",
+      "old_description": "Expert balcony renovation for Tampa Bay high-rise condominiums. Complete structural restoration, waterproofing upgrades, and aesthetic transformations with SB 4-D compliance.",
+      "old_length": 174,
+      "new_description": "Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "high-rise balcony renovation transform your condo"
+    },
+    {
+      "path": "app/insurance/building-consultant/page.tsx",
+      "url": "/insurance/building-consultant/",
+      "page_type": "hub",
+      "old_description": "Expert building consultant services for insurance claims in Tampa Bay. Damage assessment, repair scope determination, and property owner representation. 40+ years experience.",
+      "old_length": 174,
+      "new_description": "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 155,
+      "primary_keyword": "building consultant insurance claims expert"
+    },
+    {
+      "path": "app/insurance/licensed-general-contractor/page.tsx",
+      "url": "/insurance/licensed-general-contractor/",
+      "page_type": "hub",
+      "old_description": "Florida-licensed general contractor (CGC1262722) for insurance restoration. 40+ years experience, always prime contractor. Large loss commercial and residential restoration.",
+      "old_length": 173,
+      "new_description": "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CGC serving Tampa Bay since 1983. Contact us today.",
+      "new_length": 157,
+      "primary_keyword": "licensed general contractor insurance restoration"
+    },
+    {
+      "path": "app/insurance/mold-remediation/page.tsx",
+      "url": "/insurance/mold-remediation/",
+      "page_type": "hub",
+      "old_description": "Professional mold remediation for commercial and residential properties in Tampa Bay. Assessment, containment, removal, and prevention. Insurance claim expertise.",
+      "old_length": 162,
+      "new_description": "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 154,
+      "primary_keyword": "mold remediation professional mold removal"
+    },
+    {
+      "path": "app/insurance-restoration/page.tsx",
+      "url": "/insurance-restoration/",
+      "page_type": "article",
+      "old_description": "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. We work directly with adjusters on large loss claims from hurricanes, storms, and disasters. 43+ years experience.",
+      "old_length": 209,
+      "new_description": "Expert insurance restoration contractor for commercial and industrial properties in Tampa Bay. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "insurance restoration large loss claims"
+    },
+    {
+      "path": "app/insurance-restoration-bradenton/page.tsx",
+      "url": "/insurance-restoration-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Bradenton insurance restoration contractor with 43 years claims experience—7 years as Allstate adjuster. Property damage restoration Manatee County. Barrier island and mainland coverage expertise. Hurricane damage Anna Maria, flood restoration Bradenton FL.",
+      "old_length": 257,
+      "new_description": "Insurance Restoration 43 Years in Bradenton: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "insurance restoration 43 years"
+    },
+    {
+      "path": "app/insurance-restoration-compliance-and-regulations-in-tampa/page.tsx",
+      "url": "/insurance-restoration-compliance-and-regulations-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Navigate insurance restoration compliance and regulations in Tampa. Florida statutes, building codes, permit requirements, and contractor licensing for commercial property restoration.",
+      "old_length": 184,
+      "new_description": "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CGC-licensed, trusted since 1983. Contact us today.",
+      "new_length": 157,
+      "primary_keyword": "insurance restoration compliance laws"
+    },
+    {
+      "path": "app/insurance-restoration-project-management-in-tampa/page.tsx",
+      "url": "/insurance-restoration-project-management-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert insurance restoration project management in Tampa. Coordinated claim support, contractor oversight, timeline management, and quality control for commercial properties.",
+      "old_length": 174,
+      "new_description": "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CGC. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "insurance restoration pm commercial"
+    },
+    {
+      "path": "app/insurance-restoration-ruskin/page.tsx",
+      "url": "/insurance-restoration-ruskin/",
+      "page_type": "service-location",
+      "old_description": "FCS is headquartered right here in Ruskin, FL - 822 Bayview Dr. 43 years insurance industry experience serving South Hillsborough: Ruskin, Sun City Center, Apollo Beach, Gibsonton, Wimauma. Fastest response times because we",
+      "old_length": 223,
+      "new_description": "Insurance Restoration Fl Headquarters in Ruskin: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Get a free project assessment.",
+      "new_length": 160,
+      "primary_keyword": "insurance restoration fl headquarters"
+    },
+    {
+      "path": "app/insurance-restoration-sarasota/page.tsx",
+      "url": "/insurance-restoration-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Sarasota insurance restoration contractor with 43 years claims experience from adjuster to contractor. Hurricane Ian recovery specialists. Luxury property claims, barrier island restoration on Siesta Key, Longboat Key, Lido Key. $250K-$50M projects.",
+      "old_length": 249,
+      "new_description": "Insurance Restoration Fl Hurricane Recovery in Sarasota: design-build, pre-construction, and project management. Licensed and insured CGC. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "insurance restoration fl hurricane recovery"
+    },
+    {
+      "path": "app/investing-in-commercial-real-estate-construction/page.tsx",
+      "url": "/investing-in-commercial-real-estate-construction/",
+      "page_type": "article",
+      "old_description": "Smart investing in commercial real estate construction in Tampa Bay. Partner with Florida Construction Specialists for new development, value-add renovations, and build-to-suit projects.",
+      "old_length": 186,
+      "new_description": "Discover commercial real estate construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "commercial real estate construction"
+    },
+    {
+      "path": "app/key-benefits-of-choosing-a-local-general-contractor-in-tampa/page.tsx",
+      "url": "/key-benefits-of-choosing-a-local-general-contractor-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Discover the advantages of hiring a local Tampa general contractor for your commercial project. Learn why local expertise matters for construction success in Florida.",
+      "old_length": 166,
+      "new_description": "Benefits of Local General Contractor in Tampa: commercial and residential construction and restoration. Licensed and insured CGC. Get a free project assessment.",
+      "new_length": 160,
+      "primary_keyword": "benefits of local general contractor"
+    },
+    {
+      "path": "app/key-questions-for-floridas-top-commercial-contractor/page.tsx",
+      "url": "/key-questions-for-floridas-top-commercial-contractor/",
+      "page_type": "article",
+      "old_description": "Essential questions to ask before hiring a commercial contractor in Tampa Bay. Learn what to evaluate and how to identify the best contractor for your Florida project.",
+      "old_length": 167,
+      "new_description": "Essential questions to ask before hiring a commercial contractor in Tampa Bay. Expert analysis from Florida Construction Specialists. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "questions for florida commercial contractors"
+    },
+    {
+      "path": "app/key-signs-your-commercial-remodel-needs/page.tsx",
+      "url": "/key-signs-your-commercial-remodel-needs/",
+      "page_type": "article",
+      "old_description": "Discover the warning signs that indicate your Tampa commercial building needs remodeling. Expert guidance on when to renovate office buildings, retail spaces, and commercial properties from Florida Construction Specialists.",
+      "old_length": 223,
+      "new_description": "Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CGC in ${region}. Contact our team today.",
+      "new_length": 155,
+      "primary_keyword": "signs your building needs a remodel"
+    },
+    {
+      "path": "app/leading-engineering-services-for-commercial-buildings-in-tampa/page.tsx",
+      "url": "/leading-engineering-services-for-commercial-buildings-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Leading engineering services for commercial buildings in Tampa. Structural engineering, MEP design, civil engineering, and specialty engineering coordinated by Florida Construction Specialists.",
+      "old_length": 193,
+      "new_description": "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CGC. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "engineering services structural & mep"
+    },
+    {
+      "path": "app/locations/bradenton-fl/page.tsx",
+      "url": "/locations/bradenton-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Bradenton, FL. Commercial construction, multi-family residential, disaster recovery. Growing market expertise. 40+ years experience. Call (813) 420-7561.",
+      "old_length": 188,
+      "new_description": "Licensed construction contractor serving Bradenton, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/brandon-fl/page.tsx",
+      "url": "/locations/brandon-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Brandon, FL. Commercial construction, multi-family residential, disaster recovery. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
+      "old_length": 182,
+      "new_description": "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/clearwater-fl/page.tsx",
+      "url": "/locations/clearwater-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Clearwater, FL. Commercial construction, multi-family residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
+      "old_length": 182,
+      "new_description": "Licensed construction contractor serving Clearwater, FL. Commercial, residential, and insurance restoration services. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/lakeland-fl/page.tsx",
+      "url": "/locations/lakeland-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Lakeland, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. Always the prime contractor. Call (813) 420-7561.",
+      "old_length": 190,
+      "new_description": "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/plant-city-fl/page.tsx",
+      "url": "/locations/plant-city-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Plant City, FL. Commercial construction, agricultural facilities, disaster recovery, residential. Just 15 minutes from our Ruskin headquarters. Projects $250K-$25M+. Call (813) 420-7561.",
+      "old_length": 221,
+      "new_description": "Licensed construction contractor serving Plant City, FL. Commercial, residential, and insurance restoration services. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "construction contractor commercial"
+    },
+    {
+      "path": "app/locations/ruskin-fl/page.tsx",
+      "url": "/locations/ruskin-fl/",
+      "page_type": "location",
+      "old_description": "Florida Construction Specialists headquarters in Ruskin, FL. Premier general contractor for commercial construction, disaster recovery, historic restoration. License CBC1262722. Call (813) 420-7561.",
+      "old_length": 198,
+      "new_description": "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/sarasota-fl/page.tsx",
+      "url": "/locations/sarasota-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Sarasota, FL. Commercial construction, luxury residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
+      "old_length": 174,
+      "new_description": "Licensed construction contractor serving Sarasota, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/st-petersburg-fl/page.tsx",
+      "url": "/locations/st-petersburg-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving St. Petersburg, FL. Commercial construction, historic restoration, disaster recovery. Bay Pines VA experience. 40+ years experience. Call (813) 420-7561.",
+      "old_length": 188,
+      "new_description": "Licensed construction contractor serving St. Petersburg, FL. Commercial, residential, and insurance restoration services. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/locations/tampa-fl/page.tsx",
+      "url": "/locations/tampa-fl/",
+      "page_type": "location",
+      "old_description": "Premier general contractor serving Tampa, FL. Commercial construction, multi-family residential, disaster recovery, historic restoration. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
+      "old_length": 202,
+      "new_description": "Florida Construction Specialists serves Tampa, FL with commercial and residential construction, renovation, and restoration. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "construction contractor"
+    },
+    {
+      "path": "app/luxury-custom-homes-bradenton/page.tsx",
+      "url": "/luxury-custom-homes-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Bradenton luxury custom home builder specializing in $1M-$15M+ waterfront estates and architectural homes. Anna Maria Island gateway, Palma Sola, Lakewood Ranch, Manatee River. 15-20% savings vs Sarasota. Licensed, bonded, insured.",
+      "old_length": 231,
+      "new_description": "Luxury Home Builder in Bradenton: $500K-$25M projects, design-build and pre-construction. Licensed CGC, 40+ years. Call for a free consultation today.",
+      "new_length": 150,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-brandon/page.tsx",
+      "url": "/luxury-custom-homes-brandon/",
+      "page_type": "service-location",
+      "old_description": "Brandon luxury custom home builder specializing in $800K-$5M+ family estates. FishHawk Ranch, Lithia, Valrico, Alafia River properties. Larger lots, master-planned communities. Licensed, bonded, insured.",
+      "old_length": 203,
+      "new_description": "Looking for luxury home builder in Brandon? New Construction, Renovations, and Insurance Restoration. Licensed CGC since 1983. Request a free estimate.",
+      "new_length": 151,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-clearwater/page.tsx",
+      "url": "/luxury-custom-homes-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Clearwater luxury custom home builder specializing in $1M-$15M+ beachfront estates, Gulf-front properties, and waterfront residences. Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, Belleair. Licensed, bonded, insured.",
+      "old_length": 227,
+      "new_description": "Luxury Home Builder in Clearwater: insurance restoration, design-build, and renovations. FL-licensed CGC contractor. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-lakeland/page.tsx",
+      "url": "/luxury-custom-homes-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Lakeland luxury custom home builder specializing in $750K-$5M+ lakefront estates. South Lake Morton, Lake Hollingsworth, Grasslands. Larger lots, better value than coastal areas. Licensed, bonded, insured.",
+      "old_length": 205,
+      "new_description": "Luxury Home Builder in Lakeland: full-service general contractor for commercial and residential. FL-licensed CGC contractor. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-ruskin/page.tsx",
+      "url": "/luxury-custom-homes-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Ruskin & Apollo Beach luxury custom home builder. Waterfront estates from $750K-$5M+ on Tampa Bay. FCS headquarters location means exceptional local service. Sun City Center, Little Harbor, Bahia Beach specialists.",
+      "old_length": 214,
+      "new_description": "Luxury Home Builder in Ruskin: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
+      "new_length": 154,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-sarasota/page.tsx",
+      "url": "/luxury-custom-homes-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Sarasota luxury custom home builder specializing in $1M-$25M+ barrier island estates and waterfront properties. Siesta Key, Longboat Key, Bird Key, Lido Key, Casey Key. Sarasota School of Architecture expertise. Licensed, bonded, insured.",
+      "old_length": 238,
+      "new_description": "Luxury Home Builder in Sarasota: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-st-petersburg/page.tsx",
+      "url": "/luxury-custom-homes-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "St. Petersburg luxury custom home builder specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Old Northeast, Snell Isle, Coffee Pot Bayou, Historic Kenwood. Licensed, bonded, insured.",
+      "old_length": 223,
+      "new_description": "Luxury Home Builder in St. Petersburg: design-build, pre-construction, and project management. Licensed and insured CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 153,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/luxury-custom-homes-tampa/page.tsx",
+      "url": "/luxury-custom-homes-tampa/",
+      "page_type": "service-location",
+      "old_description": "Tampa luxury custom home builder specializing in $1M-$20M+ waterfront estates, architectural homes, and high-end residences. Davis Islands, Beach Park, South Tampa, Harbour Island. Licensed, bonded, insured.",
+      "old_length": 207,
+      "new_description": "Looking for luxury home builder in Tampa? $500k-$25m Projects, Design-build and Pre-construction. CGC #1529395, 40+ years. Get your free estimate now.",
+      "new_length": 150,
+      "primary_keyword": "luxury home builder"
+    },
+    {
+      "path": "app/mastering-commercial-construction-design-in-florida/page.tsx",
+      "url": "/mastering-commercial-construction-design-in-florida/",
+      "page_type": "article",
+      "old_description": "Learn the ins and outs of architectural design, commercial building design, and commercial construction design with our comprehensive guide for Florida projects.",
+      "old_length": 161,
+      "new_description": "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists. Read more.",
+      "new_length": 157,
+      "primary_keyword": "mastering commercial construction design in florida"
+    },
+    {
+      "path": "app/materials-for-historic-restoration-in-tampa/page.tsx",
+      "url": "/materials-for-historic-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Sourcing authentic materials for Tampa historic restoration projects. Period-appropriate brick, lime mortar, wood, hardware, and decorative elements for landmark buildings.",
+      "old_length": 172,
+      "new_description": "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "materials for historic restoration"
+    },
+    {
+      "path": "app/maximize-savings-on-commercial-renovation/page.tsx",
+      "url": "/maximize-savings-on-commercial-renovation/",
+      "page_type": "article",
+      "old_description": "Expert strategies to maximize savings on your Tampa commercial renovation without sacrificing quality. Value engineering, timing strategies, and smart budgeting from Florida Construction Specialists.",
+      "old_length": 199,
+      "new_description": "Discover maximize commercial renovation savings with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "maximize commercial renovation savings"
+    },
+    {
+      "path": "app/maximize-work-area-efficiency-for-commercial-space-solutions/page.tsx",
+      "url": "/maximize-work-area-efficiency-for-commercial-space-solutions/",
+      "page_type": "article",
+      "old_description": "Expert guide to maximizing work area efficiency in commercial spaces. Space planning, layout optimization, density strategies, and construction solutions for Tampa Bay businesses.",
+      "old_length": 179,
+      "new_description": "Discover maximize work area efficiency commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "maximize work area efficiency commercial"
+    },
+    {
+      "path": "app/mold-remediation-and-insurance-coverage-in-tampa/page.tsx",
+      "url": "/mold-remediation-and-insurance-coverage-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert mold remediation services in Tampa with insurance claim guidance. Understanding Florida mold coverage, remediation requirements, and claim documentation for commercial properties.",
+      "old_length": 186,
+      "new_description": "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CGC, proven results. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "mold remediation & insurance commercial"
+    },
+    {
+      "path": "app/multi-family-construction-bradenton/page.tsx",
+      "url": "/multi-family-construction-bradenton/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota. Call (813) 420-7561.",
+      "old_length": 242,
+      "new_description": "Multi Family Construction in Bradenton: turnkey construction solutions for commercial properties. Licensed CGC, proven results. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-brandon/page.tsx",
+      "url": "/multi-family-construction-brandon/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 273,
+      "new_description": "Multi Family Construction in Brandon: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+      "new_length": 156,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-clearwater/page.tsx",
+      "url": "/multi-family-construction-clearwater/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Clearwater, Florida. Beach and mainland condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 258,
+      "new_description": "Multi Family Construction in Clearwater: full-service general contractor for commercial and residential. 40+ years, licensed CGC. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-lakeland/page.tsx",
+      "url": "/multi-family-construction-lakeland/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Lakeland, Polk County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. I-4 corridor expertise. 15-25% lower costs than coastal. Call (813) 420-7561.",
+      "old_length": 220,
+      "new_description": "Multi Family Construction in Lakeland: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-ruskin/page.tsx",
+      "url": "/multi-family-construction-ruskin/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Ruskin and South Hillsborough County. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. FCS home base advantage. 20+ years experience, 40+ years experience. Call (813) 420-7561.",
+      "old_length": 247,
+      "new_description": "Multi Family Construction in Ruskin: new construction, renovations, and insurance restoration. FL-licensed CGC contractor. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-sarasota/page.tsx",
+      "url": "/multi-family-construction-sarasota/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Architectural excellence for discerning buyers. Call (813) 420-7561.",
+      "old_length": 269,
+      "new_description": "Multi Family Construction in Sarasota: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-st-petersburg/page.tsx",
+      "url": "/multi-family-construction-st-petersburg/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in St. Petersburg, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Peninsula-ready construction. Call (813) 420-7561.",
+      "old_length": 239,
+      "new_description": "Multi Family Construction in St. Petersburg: design-build, pre-construction, and project management. CGC #1529395, 40+ years. Request a free estimate today.",
+      "new_length": 156,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/multi-family-construction-tampa/page.tsx",
+      "url": "/multi-family-construction-tampa/",
+      "page_type": "service-location",
+      "old_description": "Premier multi-family construction contractor in Tampa, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
+      "old_length": 234,
+      "new_description": "Multi Family Construction in Tampa: commercial and residential construction and restoration. Licensed CGC, 40+ years. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "multi family construction"
+    },
+    {
+      "path": "app/office-building-renovation-in-tampa/page.tsx",
+      "url": "/office-building-renovation-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Transform your Tampa office building with expert renovation services. Lobby upgrades, common area modernization, systems updates, and tenant improvements from Florida Construction Specialists.",
+      "old_length": 192,
+      "new_description": "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "office building renovation modernization"
+    },
+    {
+      "path": "app/our-process/page.tsx",
+      "url": "/our-process/",
+      "page_type": "article",
+      "old_description": "Discover our proven 6-phase custom home building process. From initial consultation to final walkthrough, see how FCS delivers luxury homes in Tampa Bay with transparency and excellence.",
+      "old_length": 186,
+      "new_description": "Discover our process custom home building journey with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 159,
+      "primary_keyword": "our process custom home building journey"
+    },
+    {
+      "path": "app/pet-friendly-home-designs-in-tampa/page.tsx",
+      "url": "/pet-friendly-home-designs-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build pet-friendly custom homes in Tampa with built-in features for dogs, cats, and more. Mudrooms, pet suites, fenced yards, durable flooring, and pet-washing stations. From $400K-$2M+.",
+      "old_length": 186,
+      "new_description": "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CGC since 1983. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "pet-friendly home designs custom homes"
+    },
+    {
+      "path": "app/post-construction-process-for-commercial-construction/page.tsx",
+      "url": "/post-construction-process-for-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Get your commercial construction project in Florida completed smoothly with the essential post construction process. Discover the key steps for a successful project closeout in Tampa Bay.",
+      "old_length": 187,
+      "new_description": "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "post construction process in florida"
+    },
+    {
+      "path": "app/post-disaster-health-and-safety-inspections-in-tampa/page.tsx",
+      "url": "/post-disaster-health-and-safety-inspections-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Professional post-disaster health and safety inspections in Tampa Bay. Expert assessment of hurricane, flood, and storm damage to ensure building safety and support insurance claims.",
+      "old_length": 182,
+      "new_description": "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "post-disaster safety inspections hurricane"
+    },
+    {
+      "path": "app/post-disaster-interior-restoration-in-tampa/page.tsx",
+      "url": "/post-disaster-interior-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert post-disaster interior restoration in Tampa. Complete commercial interior rebuild after hurricane, flood, and storm damage. Drywall, flooring, ceilings, and finishes restored to pre-loss condition.",
+      "old_length": 204,
+      "new_description": "Post-disaster Interior Restoration in Tampa: design-build, pre-construction, and project management. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "post-disaster interior restoration"
+    },
+    {
+      "path": "app/post-disaster-landscaping-restoration-in-tampa/page.tsx",
+      "url": "/post-disaster-landscaping-restoration-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Post-disaster landscaping restoration in Tampa. Commercial property debris removal, tree services, irrigation repair, and landscape reconstruction after hurricanes and storms.",
+      "old_length": 175,
+      "new_description": "Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CGC, 40+ years. Schedule your consultation now.",
+      "new_length": 160,
+      "primary_keyword": "post-disaster landscaping restoration"
+    },
+    {
+      "path": "app/pre-construction-services-tampa/page.tsx",
+      "url": "/pre-construction-services-tampa/",
+      "page_type": "service-location",
+      "old_description": "Comprehensive pre-construction services in Tampa Bay. Expert estimating, value engineering, scheduling, and constructability review for commercial projects throughout Florida.",
+      "old_length": 175,
+      "new_description": "Pre-construction Services in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "pre-construction services"
+    },
+    {
+      "path": "app/preparing-for-insurance-restoration-consultations-in-tampa/page.tsx",
+      "url": "/preparing-for-insurance-restoration-consultations-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "How to prepare for insurance restoration consultations in Tampa. Checklist of documents, questions to ask, and what to expect from professional restoration contractors.",
+      "old_length": 168,
+      "new_description": "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CGC-licensed, trusted since 1983. Read more.",
+      "new_length": 154,
+      "primary_keyword": "insurance restoration consultations guide"
+    },
+    {
+      "path": "app/preventing-home-improvement-fraud/page.tsx",
+      "url": "/preventing-home-improvement-fraud/",
+      "page_type": "article",
+      "old_description": "Protect yourself from home improvement fraud in Tampa. Learn warning signs, verify contractor licenses, understand Florida contractor laws, and choose reputable construction companies.",
+      "old_length": 184,
+      "new_description": "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+      "new_length": 156,
+      "primary_keyword": "preventing home improvement fraud"
+    },
+    {
+      "path": "app/property-damage-assessment-for-insurance-claims-in-tampa/page.tsx",
+      "url": "/property-damage-assessment-for-insurance-claims-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert property damage assessment for insurance claims in Tampa. Comprehensive documentation, damage quantification, and claim support for commercial hurricane, flood, and storm damage.",
+      "old_length": 185,
+      "new_description": "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CGC since 1983. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "property damage assessment insurance claims"
+    },
+    {
+      "path": "app/reinforced-construction-services-in-tampa-for-disaster-prevention/page.tsx",
+      "url": "/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+      "page_type": "article",
+      "old_description": "Reinforced construction services in Tampa for disaster prevention. Commercial building hardening, hurricane-resistant upgrades, and structural reinforcement to protect Tampa Bay businesses.",
+      "old_length": 189,
+      "new_description": "Reinforced construction services in for disaster prevention. Expert analysis from Florida Construction Specialists. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "reinforced construction hurricane-proof"
+    },
+    {
+      "path": "app/renovating-your-commercial-space-in-florida/page.tsx",
+      "url": "/renovating-your-commercial-space-in-florida/",
+      "page_type": "article",
+      "old_description": "Expert advice on determining the best time to renovate your Florida commercial space. Market timing, business cycles, seasonal considerations, and strategic planning from Tampa",
+      "old_length": 176,
+      "new_description": "Expert advice on determining the best time to renovate your Florida commercial space. Professional guidance from FCS, licensed CGC. Request a free estimate.",
+      "new_length": 156,
+      "primary_keyword": "right time to renovate commercial space fl"
+    },
+    {
+      "path": "app/resources/page.tsx",
+      "url": "/resources/",
+      "page_type": "hub",
+      "old_description": "Expert guides on Tampa Bay construction regulations, FEMA compliance, historic preservation, SB4-D requirements, and more. Free resources for commercial and residential projects.",
+      "old_length": 178,
+      "new_description": "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 157,
+      "primary_keyword": "resources & guides construction knowledge hub"
+    },
+    {
+      "path": "app/revitalize-your-older-building-renovation-and-reconstruction/page.tsx",
+      "url": "/revitalize-your-older-building-renovation-and-reconstruction/",
+      "page_type": "article",
+      "old_description": "Transform aging commercial properties in Tampa Bay with expert renovation and reconstruction services. Adaptive reuse, building modernization, and historic preservation from Florida Construction Specialists.",
+      "old_length": 207,
+      "new_description": "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "revitalize your building renovation"
+    },
+    {
+      "path": "app/revolutionizing-commercial-construction-florida/page.tsx",
+      "url": "/revolutionizing-commercial-construction-florida/",
+      "page_type": "article",
+      "old_description": "Discover how innovative technologies and methods are transforming commercial construction in Florida. Design-build, prefabrication, sustainable practices, and smart building solutions from Tampa Bay",
+      "old_length": 198,
+      "new_description": "Discover how innovative technologies and methods are transforming commercial construction in Florida. Professional guidance from FCS, licensed CGC. Read more.",
+      "new_length": 158,
+      "primary_keyword": "commercial construction innovation florida tech"
+    },
+    {
+      "path": "app/role-of-executive-general-adjusters-in-tampa-restorations/page.tsx",
+      "url": "/role-of-executive-general-adjusters-in-tampa-restorations/",
+      "page_type": "article",
+      "old_description": "Understanding the role of Executive General Adjusters (EGAs) in Tampa commercial property restorations. How EGAs manage large loss claims and coordinate complex insurance recoveries.",
+      "old_length": 182,
+      "new_description": "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1983. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "executive general adjusters large loss"
+    },
+    {
+      "path": "app/roof-damage-restoration-and-insurance-claims-in-tampa/page.tsx",
+      "url": "/roof-damage-restoration-and-insurance-claims-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Commercial roof damage restoration and insurance claims in Tampa. Hurricane, wind, and storm damage repair. Expert claim documentation, fast repairs, and quality workmanship for Tampa Bay businesses.",
+      "old_length": 199,
+      "new_description": "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CGC, 40+ years. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "roof damage restoration insurance claims"
+    },
+    {
+      "path": "app/safety-first-in-florida-commercial-construction-projects/page.tsx",
+      "url": "/safety-first-in-florida-commercial-construction-projects/",
+      "page_type": "article",
+      "old_description": "Learn how Florida Construction Specialists puts safety first in commercial construction projects across Tampa Bay with OSHA compliance, comprehensive safety programs, and Florida Building Code adherence.",
+      "old_length": 203,
+      "new_description": "Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CGC. Contact our team today.",
+      "new_length": 155,
+      "primary_keyword": "safety first florida commercial osha"
+    },
+    {
+      "path": "app/sb-4-d-compliance-tampa-bay-condos/page.tsx",
+      "url": "/sb-4-d-compliance-tampa-bay-condos/",
+      "page_type": "article",
+      "old_description": "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Milestone inspection requirements, SIRS deadlines, and remediation services from Florida Construction Specialists.",
+      "old_length": 201,
+      "new_description": "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CGC with 40+ years experience. Read more.",
+      "new_length": 155,
+      "primary_keyword": "sb 4-d compliance condos"
+    },
+    {
+      "path": "app/secure-custom-home-construction-in-tampa/page.tsx",
+      "url": "/secure-custom-home-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build a secure custom home in Tampa with integrated security systems, safe rooms, reinforced construction, and smart access control. Complete security from $25K-$150K+.",
+      "old_length": 168,
+      "new_description": "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CGC since 1983. Contact us today.",
+      "new_length": 157,
+      "primary_keyword": "secure custom home construction safety"
+    },
+    {
+      "path": "app/services/commercial/commercial-additions/page.tsx",
+      "url": "/services/commercial/commercial-additions/",
+      "page_type": "hub",
+      "old_description": "Commercial building additions in Tampa Bay. Expand your facility without relocating. Warehouses, offices, manufacturing, retail. Occupied building expertise. Call (813) 420-7561.",
+      "old_length": 178,
+      "new_description": "Commercial Additions Building Expansions across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Get a free quote.",
+      "new_length": 159,
+      "primary_keyword": "commercial additions building expansions"
+    },
+    {
+      "path": "app/services/commercial/design-build/page.tsx",
+      "url": "/services/commercial/design-build/",
+      "page_type": "hub",
+      "old_description": "Design-build construction services in Tampa Bay. Single-source accountability, faster timelines, cost savings. $500K-$25M+ commercial projects. Licensed CBC1262722. Call (813) 420-7561.",
+      "old_length": 185,
+      "new_description": "Design-build Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "design-build construction"
+    },
+    {
+      "path": "app/services/commercial/industrial-construction/page.tsx",
+      "url": "/services/commercial/industrial-construction/",
+      "page_type": "hub",
+      "old_description": "Industrial construction in Tampa Bay. Warehouses, distribution centers, manufacturing facilities, flex space. Tilt-wall, steel, concrete. $500K-$25M+ projects. Call (813) 420-7561.",
+      "old_length": 180,
+      "new_description": "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "industrial construction warehouse"
+    },
+    {
+      "path": "app/services/commercial/multi-family/page.tsx",
+      "url": "/services/commercial/multi-family/",
+      "page_type": "hub",
+      "old_description": "Multi-family construction in Tampa Bay. Apartment buildings, condominiums, townhomes, senior living. Ground-up and renovation. $1M-$25M+ projects. Licensed CBC1262722. Call (813) 420-7561.",
+      "old_length": 188,
+      "new_description": "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 157,
+      "primary_keyword": "multi-family construction apartments & condos"
+    },
+    {
+      "path": "app/services/commercial/retail-construction/page.tsx",
+      "url": "/services/commercial/retail-construction/",
+      "page_type": "hub",
+      "old_description": "Retail construction in Tampa Bay. Shopping centers, standalone stores, restaurants, mixed-use retail. Ground-up and tenant improvements. Fast timelines. Call (813) 420-7561.",
+      "old_length": 173,
+      "new_description": "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CGC serving Tampa Bay since 1983. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "retail construction shopping centers & stores"
+    },
+    {
+      "path": "app/services/commercial/tenant-improvements/page.tsx",
+      "url": "/services/commercial/tenant-improvements/",
+      "page_type": "hub",
+      "old_description": "Tenant improvement construction in Tampa Bay. Office buildouts, retail TI, medical suites, restaurant construction. Fast timelines, landlord coordination. Call (813) 420-7561.",
+      "old_length": 175,
+      "new_description": "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 157,
+      "primary_keyword": "tenant improvements commercial buildouts & ti"
+    },
+    {
+      "path": "app/services/page.tsx",
+      "url": "/services/",
+      "page_type": "hub",
+      "old_description": "We deliver professional and reliable construction services for commercial and residential properties. Our team specializes in custom building, renovations, historic restoration, and disaster recovery.",
+      "old_length": 200,
+      "new_description": "Construction Services across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "construction services"
+    },
+    {
+      "path": "app/services/residential/home-additions/page.tsx",
+      "url": "/services/residential/home-additions/",
+      "page_type": "hub",
+      "old_description": "Home addition construction in Tampa Bay. Room additions, second stories, master suites, in-law suites. Seamless integration with existing homes. $250K+ projects. Call (813) 420-7561.",
+      "old_length": 182,
+      "new_description": "Home Additions Room Additions & Expansions across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Read more.",
+      "new_length": 154,
+      "primary_keyword": "home additions room additions & expansions"
+    },
+    {
+      "path": "app/services/residential/hurricane-resistant-construction/page.tsx",
+      "url": "/services/residential/hurricane-resistant-construction/",
+      "page_type": "hub",
+      "old_description": "Hurricane-resistant home construction in Tampa Bay. Impact windows, reinforced roofing, continuous load paths, flood protection. Custom homes built to exceed Florida Building Code. Call (813) 420-7561.",
+      "old_length": 201,
+      "new_description": "Hurricane-resistant Home Construction across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "hurricane-resistant home construction"
+    },
+    {
+      "path": "app/services/residential/kitchen-remodeling/page.tsx",
+      "url": "/services/residential/kitchen-remodeling/",
+      "page_type": "hub",
+      "old_description": "Luxury kitchen remodeling in Tampa Bay. Custom cabinetry, premium appliances, designer finishes. Complete kitchen renovations for discerning homeowners. $150K+ projects. Call (813) 420-7561.",
+      "old_length": 190,
+      "new_description": "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+      "new_length": 160,
+      "primary_keyword": "luxury kitchen remodeling high-end"
+    },
+    {
+      "path": "app/skilled-project-managers-for-florida-commercial-construction/page.tsx",
+      "url": "/skilled-project-managers-for-florida-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Looking for experienced project managers for your commercial construction projects in Florida? Our team of skilled project managers in Tampa has years of expertise delivering successful projects.",
+      "old_length": 195,
+      "new_description": "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CGC in ${region}. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "skilled project managers in commercial construction florida"
+    },
+    {
+      "path": "app/smart-home-integration-in-tampa-custom-homes-2/page.tsx",
+      "url": "/smart-home-integration-in-tampa-custom-homes-2/",
+      "page_type": "article",
+      "old_description": "Integrate smart home technology in your Tampa custom home. Lighting control, climate automation, security, and entertainment systems. Complete automation from $25K-$200K+.",
+      "old_length": 171,
+      "new_description": "Integrate smart home technology in your custom home. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "smart home integration automation"
+    },
+    {
+      "path": "app/smooth-commercial-renovations-solution-in-tampa/page.tsx",
+      "url": "/smooth-commercial-renovations-solution-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Keep your Tampa business running during commercial renovation. Phased construction, after-hours work, and business continuity strategies from Florida Construction Specialists.",
+      "old_length": 175,
+      "new_description": "Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "smooth commercial renovations stay open"
+    },
+    {
+      "path": "app/spacious-family-homes-construction-in-tampa/page.tsx",
+      "url": "/spacious-family-homes-construction-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build spacious family homes in Tampa with generous floor plans, high ceilings, and room to grow. Custom construction for families who need space. From $450K-$2.5M+.",
+      "old_length": 164,
+      "new_description": "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CGC. Contact our team today.",
+      "new_length": 157,
+      "primary_keyword": "spacious family homes large custom homes"
+    },
+    {
+      "path": "app/streamlining-your-design-build-project-timeline/page.tsx",
+      "url": "/streamlining-your-design-build-project-timeline/",
+      "page_type": "article",
+      "old_description": "Expert strategies for managing commercial construction timelines in Tampa Bay. Learn how design-build delivery compresses schedules, navigates permits, and delivers projects faster.",
+      "old_length": 181,
+      "new_description": "Expert strategies for managing commercial construction timelines in Tampa Bay. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "streamlining your design-build project timeline"
+    },
+    {
+      "path": "app/structural-integrity-evaluation-in-tampa-post-disaster/page.tsx",
+      "url": "/structural-integrity-evaluation-in-tampa-post-disaster/",
+      "page_type": "article",
+      "old_description": "Professional structural integrity evaluation in Tampa post-disaster. Licensed engineers assess commercial building safety after hurricanes, floods, and storms. Detailed reports for insurance and safety decisions.",
+      "old_length": 212,
+      "new_description": "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1983. Get a free project assessment.",
+      "new_length": 160,
+      "primary_keyword": "structural integrity evaluation"
+    },
+    {
+      "path": "app/stylish-balcony-railing-designs-for-your-outdoor-space/page.tsx",
+      "url": "/stylish-balcony-railing-designs-for-your-outdoor-space/",
+      "page_type": "article",
+      "old_description": "Premium balcony railing designs for Tampa Bay high-rise condominiums. Code-compliant glass, aluminum, and cable railing systems with expert installation and SB 4-D compliance.",
+      "old_length": 175,
+      "new_description": "Premium balcony railing designs for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "balcony railing designs high-rise styles"
+    },
+    {
+      "path": "app/subcontractors-in-florida-commercial-construction/page.tsx",
+      "url": "/subcontractors-in-florida-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Understand the vital role of subcontractors in Florida commercial construction. Learn how general contractors manage trade partners for successful Tampa Bay projects.",
+      "old_length": 166,
+      "new_description": "Understand the vital role of subcontractors in Florida commercial construction. Insights from FCS, a trusted licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 155,
+      "primary_keyword": "subcontractors in florida commercial guide"
+    },
+    {
+      "path": "app/successful-restaurant-design-with-florida-construction-specialists/page.tsx",
+      "url": "/successful-restaurant-design-with-florida-construction-specialists/",
+      "page_type": "article",
+      "old_description": "Expert guide to restaurant construction in Tampa Bay. Learn about kitchen design, health department requirements, permits, ventilation, and costs for building your restaurant.",
+      "old_length": 175,
+      "new_description": "Discover restaurant design & construction with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Schedule your consultation now.",
+      "new_length": 150,
+      "primary_keyword": "restaurant design & construction"
+    },
+    {
+      "path": "app/summer-construction-safety-tips-from-top-contractors/page.tsx",
+      "url": "/summer-construction-safety-tips-from-top-contractors/",
+      "page_type": "article",
+      "old_description": "Expert summer construction safety tips from top Tampa contractors. Learn about OSHA heat illness prevention, Florida-specific hazards, and keeping workers safe during hot weather construction.",
+      "old_length": 192,
+      "new_description": "Expert summer construction safety tips from top Tampa contractors. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "summer construction safety heat safety"
+    },
+    {
+      "path": "app/surviving-a-commercial-construction-project/page.tsx",
+      "url": "/surviving-a-commercial-construction-project/",
+      "page_type": "article",
+      "old_description": "Expert strategies for navigating commercial construction in Tampa Bay. Learn how to manage timelines, budgets, contractor relationships, and avoid common pitfalls from Florida Construction Specialists.",
+      "old_length": 201,
+      "new_description": "Expert strategies for navigating commercial construction in Tampa Bay. Expert insights from Florida Construction Specialists. Call (813) 906-1302 for a quote.",
+      "new_length": 158,
+      "primary_keyword": "surviving commercial construction guide"
+    },
+    {
+      "path": "app/sustainable-building-materials-in-commercial-construction/page.tsx",
+      "url": "/sustainable-building-materials-in-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Florida Construction Specialists is revolutionizing commercial construction in Tampa with innovative and sustainable building materials. Discover eco-friendly solutions for your project.",
+      "old_length": 186,
+      "new_description": "Florida Construction Specialists is revolutionizing commercial construction in Tampa with. Expert insights from Florida Construction Specialists. Read more.",
+      "new_length": 156,
+      "primary_keyword": "sustainable building materials in commercial construction"
+    },
+    {
+      "path": "app/tampa-commercial-construction-companies/page.tsx",
+      "url": "/tampa-commercial-construction-companies/",
+      "page_type": "article",
+      "old_description": "Find the right Tampa commercial construction company for your project. Expert guide to evaluating contractors, asking the right questions, and ensuring project success.",
+      "old_length": 168,
+      "new_description": "Find the right commercial construction company for your project. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "commercial construction companies guide"
+    },
+    {
+      "path": "app/tampa-commercial-construction-costs/page.tsx",
+      "url": "/tampa-commercial-construction-costs/",
+      "page_type": "article",
+      "old_description": "Comprehensive guide to commercial construction costs in Tampa Bay. Current per-square-foot pricing, cost factors, and budgeting strategies for office, retail, medical & industrial projects.",
+      "old_length": 189,
+      "new_description": "Comprehensive guide to commercial construction costs in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 906-1302 for a quote.",
+      "new_length": 160,
+      "primary_keyword": "commercial construction costs 2024 price guide"
+    },
+    {
+      "path": "app/tampa-commercial-construction-networking-events/page.tsx",
+      "url": "/tampa-commercial-construction-networking-events/",
+      "page_type": "article",
+      "old_description": "Connect with industry leaders at Tampa commercial construction networking events. Find conferences, trade shows, and professional organizations in the Tampa Bay area.",
+      "old_length": 166,
+      "new_description": "Connect with industry leaders at commercial construction networking events. Learn from FCS, a licensed CGC with 40+ years experience. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "construction networking events 2024-2025"
+    },
+    {
+      "path": "app/tampa-commercial-construction-permits/page.tsx",
+      "url": "/tampa-commercial-construction-permits/",
+      "page_type": "article",
+      "old_description": "Complete guide to Tampa commercial construction permits. Learn about the City of Tampa building permit process, requirements, fees, timelines, and how Florida Construction Specialists manages permit approvals.",
+      "old_length": 209,
+      "new_description": "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 906-1302 for a quote.",
+      "new_length": 150,
+      "primary_keyword": "commercial construction permits guide"
+    },
+    {
+      "path": "app/tampa-commercial-construction-planning-services/page.tsx",
+      "url": "/tampa-commercial-construction-planning-services/",
+      "page_type": "article",
+      "old_description": "Professional construction planning services for Tampa commercial projects. Expert preconstruction, budgeting, scheduling, and project management from concept to completion.",
+      "old_length": 172,
+      "new_description": "Professional construction planning services for commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 154,
+      "primary_keyword": "commercial construction planning"
+    },
+    {
+      "path": "app/tampa-commercial-construction-safety-standards/page.tsx",
+      "url": "/tampa-commercial-construction-safety-standards/",
+      "page_type": "article",
+      "old_description": "Ensure a secure commercial construction process in Tampa with our top-notch safety standards. Discover how our safety measures adhere to the highest industry standards.",
+      "old_length": 168,
+      "new_description": "Ensure a secure commercial construction process in with our top-notch safety standards. Expert insights from Florida Construction Specialists. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "commercial construction safety standards"
+    },
+    {
+      "path": "app/tampa-commercial-real-estate-development/page.tsx",
+      "url": "/tampa-commercial-real-estate-development/",
+      "page_type": "article",
+      "old_description": "Expert construction partner for Tampa commercial real estate development. From site analysis through project delivery, Florida Construction Specialists builds the projects that drive Tampa Bay",
+      "old_length": 192,
+      "new_description": "Expert construction partner for commercial real estate development in Tampa. Learn from FCS, a licensed CGC with 40+ years experience. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "commercial real estate development"
+    },
+    {
+      "path": "app/tampa-custom-home-builders-with-artistic-flair/page.tsx",
+      "url": "/tampa-custom-home-builders-with-artistic-flair/",
+      "page_type": "article",
+      "old_description": "Build an architecturally distinctive custom home in Tampa. Unique designs, artistic details, custom millwork, and statement features. Creative luxury homes from $500K-$5M+.",
+      "old_length": 172,
+      "new_description": "Discover custom home builders unique architecture with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "custom home builders unique architecture"
+    },
+    {
+      "path": "app/tampa-custom-home-landscaping-solutions/page.tsx",
+      "url": "/tampa-custom-home-landscaping-solutions/",
+      "page_type": "article",
+      "old_description": "Create stunning landscapes for your Tampa custom home. Native Florida plants, outdoor living integration, pools, and sustainable irrigation. Complete landscaping from $50K-$500K+.",
+      "old_length": 179,
+      "new_description": "Custom Home Landscaping Luxury Outdoor: create stunning landscapes for your custom home. Professional guidance from FCS, licensed CGC. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "custom home landscaping luxury outdoor"
+    },
+    {
+      "path": "app/tampa-custom-homes-with-luxury-bathrooms/page.tsx",
+      "url": "/tampa-custom-homes-with-luxury-bathrooms/",
+      "page_type": "article",
+      "old_description": "Create spa-inspired luxury bathrooms in your Tampa custom home. Soaking tubs, rain showers, heated floors, and premium fixtures. Master bath renovations from $75K-$200K+.",
+      "old_length": 170,
+      "new_description": "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "custom homes luxury bathrooms spa"
+    },
+    {
+      "path": "app/tampa-custom-homes-with-unique-facades/page.tsx",
+      "url": "/tampa-custom-homes-with-unique-facades/",
+      "page_type": "article",
+      "old_description": "Create a distinctive facade for your Tampa custom home. Unique materials, architectural details, and curb appeal that sets your home apart. Premium exteriors from $100K-$500K+.",
+      "old_length": 176,
+      "new_description": "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "custom homes unique facades distinctive"
+    },
+    {
+      "path": "app/tampa-custom-outdoor-living-spaces/page.tsx",
+      "url": "/tampa-custom-outdoor-living-spaces/",
+      "page_type": "article",
+      "old_description": "Create stunning outdoor living spaces in Tampa. Custom pools, outdoor kitchens, covered patios, fire features, and resort-style amenities. Year-round Florida living from $50K-$500K+.",
+      "old_length": 182,
+      "new_description": "Discover outdoor living spaces patios & pools with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "outdoor living spaces patios & pools"
+    },
+    {
+      "path": "app/tampa-historic-restoration-workshops-and-training/page.tsx",
+      "url": "/tampa-historic-restoration-workshops-and-training/",
+      "page_type": "article",
+      "old_description": "Professional development and training opportunities for historic restoration in Tampa. Workshops on preservation techniques, tax credits, and traditional craftsmanship.",
+      "old_length": 168,
+      "new_description": "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1983. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "historic restoration workshops and training"
+    },
+    {
+      "path": "app/tampa-historic-window-restoration-services/page.tsx",
+      "url": "/tampa-historic-window-restoration-services/",
+      "page_type": "article",
+      "old_description": "Expert historic window restoration in Tampa. Preserve original wood windows with repair, weatherstripping, and storm panels that meet Secretary of Interior Standards.",
+      "old_length": 166,
+      "new_description": "Discover historic window restoration services with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 153,
+      "primary_keyword": "historic window restoration services"
+    },
+    {
+      "path": "app/tampa-homes-with-custom-art-studios/page.tsx",
+      "url": "/tampa-homes-with-custom-art-studios/",
+      "page_type": "article",
+      "old_description": "Build custom homes with dedicated art studios in Tampa. North-light windows, specialized ventilation, proper lighting, and purpose-built creative spaces. Artist homes from $500K-$2M+.",
+      "old_length": 183,
+      "new_description": "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
+      "new_length": 152,
+      "primary_keyword": "homes with custom art studios creative spaces"
+    },
+    {
+      "path": "app/tampa-insurance-restoration-for-hurricane-damage/page.tsx",
+      "url": "/tampa-insurance-restoration-for-hurricane-damage/",
+      "page_type": "article",
+      "old_description": "Insurance restoration services for hurricane damage in Tampa. Expert claim documentation, adjuster coordination, and complete commercial property restoration. Maximize your insurance recovery.",
+      "old_length": 192,
+      "new_description": "Discover hurricane insurance restoration commercial with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 159,
+      "primary_keyword": "hurricane insurance restoration commercial"
+    },
+    {
+      "path": "app/tampa-residential-restoration-after-hurricane-damage/page.tsx",
+      "url": "/tampa-residential-restoration-after-hurricane-damage/",
+      "page_type": "article",
+      "old_description": "Expert residential restoration after hurricane damage in Tampa. Complete home reconstruction, roof repair, water damage restoration, and insurance claim support for Tampa Bay homeowners.",
+      "old_length": 186,
+      "new_description": "Discover residential restoration after hurricane with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 158,
+      "primary_keyword": "residential restoration after hurricane"
+    },
+    {
+      "path": "app/tampas-awards-for-historic-restoration-excellence/page.tsx",
+      "url": "/tampas-awards-for-historic-restoration-excellence/",
+      "page_type": "article",
+      "old_description": "Experience the honor of Tampa&apos;s Awards for Historic Restoration Excellence - where the finest restoration accolades and historic renovation celebrate our her...",
+      "old_length": 165,
+      "new_description": "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Contact our team today.",
+      "new_length": 160,
+      "primary_keyword": "&apos;s awards for historic restoration excellence"
+    },
+    {
+      "path": "app/tampas-building-codes-for-insurance-restoration/page.tsx",
+      "url": "/tampas-building-codes-for-insurance-restoration/",
+      "page_type": "article",
+      "old_description": "Understanding Tampa building codes for insurance restoration. Florida Building Code requirements, wind mitigation, flood regulations, and code upgrade coverage for commercial properties.",
+      "old_length": 186,
+      "new_description": "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "building codes for insurance restoration"
+    },
+    {
+      "path": "app/tampas-disaster-related-demolition-services/page.tsx",
+      "url": "/tampas-disaster-related-demolition-services/",
+      "page_type": "article",
+      "old_description": "Professional disaster-related demolition services in Tampa. Emergency structural demolition, hurricane debris removal, and commercial property clearing. Licensed, insured, OSHA-compliant contractors.",
+      "old_length": 199,
+      "new_description": "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 151,
+      "primary_keyword": "disaster demolition emergency commercial"
+    },
+    {
+      "path": "app/tampas-guidelines-for-historic-roofs-restoration/page.tsx",
+      "url": "/tampas-guidelines-for-historic-roofs-restoration/",
+      "page_type": "article",
+      "old_description": "Expert guidance on historic roof restoration in Tampa. Preserving clay tile, slate, and metal roofing while meeting hurricane requirements and tax credit standards.",
+      "old_length": 164,
+      "new_description": "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
+      "new_length": 151,
+      "primary_keyword": "tampas guidelines historic roofs restoration"
+    },
+    {
+      "path": "app/tampas-insurance-restoration-reporting-and-documentation/page.tsx",
+      "url": "/tampas-insurance-restoration-reporting-and-documentation/",
+      "page_type": "article",
+      "old_description": "Professional insurance restoration reporting and documentation services in Tampa. Comprehensive damage documentation, Xactimate estimates, and claim support for commercial properties.",
+      "old_length": 183,
+      "new_description": "Professional insurance restoration reporting and documentation services in. Expert insights from Florida Construction Specialists. Request a free estimate.",
+      "new_length": 155,
+      "primary_keyword": "insurance restoration documentation claims"
+    },
+    {
+      "path": "app/tampas-post-disaster-electrical-safety-checks/page.tsx",
+      "url": "/tampas-post-disaster-electrical-safety-checks/",
+      "page_type": "article",
+      "old_description": "Professional post-disaster electrical safety checks in Tampa Bay. Expert inspection of electrical systems after hurricanes, floods, and storms to prevent fire and electrocution hazards.",
+      "old_length": 185,
+      "new_description": "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
+      "new_length": 157,
+      "primary_keyword": "post-disaster electrical safety hurricane"
+    },
+    {
+      "path": "app/tampas-structural-drying-services-post-flooding/page.tsx",
+      "url": "/tampas-structural-drying-services-post-flooding/",
+      "page_type": "article",
+      "old_description": "Professional structural drying services in Tampa for commercial flood and water damage. Industrial dehumidification, moisture monitoring, and IICRC-certified technicians. Prevent mold with rapid response.",
+      "old_length": 204,
+      "new_description": "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 157,
+      "primary_keyword": "structural drying services flood"
+    },
+    {
+      "path": "app/team/page.tsx",
+      "url": "/team/",
+      "page_type": "hub",
+      "old_description": "Meet the experienced leadership team at Florida Construction Specialists. Decades of combined expertise in commercial construction, historic restoration, and luxury custom homes in Tampa Bay.",
+      "old_length": 191,
+      "new_description": "Our Team Leadership & Expertise across Tampa Bay. Full-service licensed CGC with 40+ years of commercial and residential experience. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "our team leadership & expertise"
+    },
+    {
+      "path": "app/team-members/page.tsx",
+      "url": "/team-members/",
+      "page_type": "article",
+      "old_description": "Meet the experienced leadership team at Florida Construction Specialists. 28+ years serving Tampa Bay with licensed, bonded, and insured commercial and residential construction expertise.",
+      "old_length": 187,
+      "new_description": "Meet the experienced leadership team at Florida Construction Specialists. Professional guidance from FCS, licensed CGC. Request a free estimate today.",
+      "new_length": 150,
+      "primary_keyword": "our team leadership"
+    },
+    {
+      "path": "app/technology-role-in-insurance-restoration-processes-in-tampa/page.tsx",
+      "url": "/technology-role-in-insurance-restoration-processes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Discover how technology transforms insurance restoration in Tampa. Drones, thermal imaging, 3D scanning, and digital documentation tools for commercial property claims.",
+      "old_length": 168,
+      "new_description": "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CGC. Call (813) 906-1302 for a quote.",
+      "new_length": 160,
+      "primary_keyword": "technology insurance restoration tools"
+    },
+    {
+      "path": "app/tenant-improvement-contractors-tampa/page.tsx",
+      "url": "/tenant-improvement-contractors-tampa/",
+      "page_type": "service-location",
+      "old_description": "Expert tenant improvement contractors in Tampa Bay. Office, retail, and medical TI build-outs with fast-track delivery and budget management from Florida Construction Specialists.",
+      "old_length": 179,
+      "new_description": "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CGC. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "tenant improvement contractors ti"
+    },
+    {
+      "path": "app/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/page.tsx",
+      "url": "/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Discover the power of customer satisfaction in Florida commercial construction projects, understanding why it plays a vital role in the success of your business.",
+      "old_length": 161,
+      "new_description": "Discover the power of customer satisfaction in Florida commercial construction projects,. Expert analysis from Florida Construction Specialists. Read more.",
+      "new_length": 155,
+      "primary_keyword": "customer satisfaction in florida commercial construction"
+    },
+    {
+      "path": "app/the-essential-duties-of-a-construction-manager-in-florida/page.tsx",
+      "url": "/the-essential-duties-of-a-construction-manager-in-florida/",
+      "page_type": "article",
+      "old_description": "Discover the critical responsibilities of construction managers in Florida commercial projects. Learn how professional CM services ensure project success in Tampa Bay.",
+      "old_length": 167,
+      "new_description": "Discover construction manager duties florida with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 152,
+      "primary_keyword": "construction manager duties florida"
+    },
+    {
+      "path": "app/the-preconstruction-modern-approach-design/page.tsx",
+      "url": "/the-preconstruction-modern-approach-design/",
+      "page_type": "article",
+      "old_description": "Revolutionize your commercial construction with modern preconstruction services. Learn how early planning, value engineering, and design-build integration deliver better outcomes in Tampa Bay.",
+      "old_length": 192,
+      "new_description": "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CGC in ${region}. Call (813) 906-1302 for a quote.",
+      "new_length": 155,
+      "primary_keyword": "the preconstruction modern approach design"
+    },
+    {
+      "path": "app/the-preferred-commercial-general-contractors-in-tampa/page.tsx",
+      "url": "/the-preferred-commercial-general-contractors-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Discover why Florida Construction Specialists is the preferred commercial general contractor in Tampa Bay. Learn what makes a contractor the preferred choice for commercial projects.",
+      "old_length": 182,
+      "new_description": "Preferred Commercial General Contractors in Tampa: expert project management, design-build, and renovations. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "preferred commercial general contractors"
+    },
+    {
+      "path": "app/the-stages-of-construction-project-management/page.tsx",
+      "url": "/the-stages-of-construction-project-management/",
+      "page_type": "article",
+      "old_description": "Understand the five key stages of construction project management. Learn how professional management guides Tampa Bay commercial projects from concept to completion.",
+      "old_length": 165,
+      "new_description": "Discover construction project management stages with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 155,
+      "primary_keyword": "construction project management stages"
+    },
+    {
+      "path": "app/the-top-causes-of-construction-delays-in-florida/page.tsx",
+      "url": "/the-top-causes-of-construction-delays-in-florida/",
+      "page_type": "article",
+      "old_description": "Understand the leading causes of commercial construction delays in Florida and how to mitigate them. Expert insights from Florida Construction Specialists in Tampa Bay.",
+      "old_length": 168,
+      "new_description": "Discover construction delays florida causes with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Call (813) 906-1302 for a quote.",
+      "new_length": 153,
+      "primary_keyword": "construction delays florida causes"
+    },
+    {
+      "path": "app/tips-for-choosing-a-commercial-contractor-in-tampa/page.tsx",
+      "url": "/tips-for-choosing-a-commercial-contractor-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Our trusted tips for choosing a commercial contractor you can trust will guide you towards reputable construction companies and reliable contractors in Tampa Bay.",
+      "old_length": 162,
+      "new_description": "Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CGC #1529395, 40+ years. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "tips for choosing a commercial contractor"
+    },
+    {
+      "path": "app/tips-for-post-construction-in-florida-commercial-sector/page.tsx",
+      "url": "/tips-for-post-construction-in-florida-commercial-sector/",
+      "page_type": "article",
+      "old_description": "Essential post-construction tips for Florida commercial projects. From final inspections to warranty management, learn how to successfully close out your Tampa Bay construction project.",
+      "old_length": 185,
+      "new_description": "Essential post-construction tips for Florida commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 151,
+      "primary_keyword": "post-construction tips florida commercial"
+    },
+    {
+      "path": "app/top-balcony-flooring-materials-for-style-durability/page.tsx",
+      "url": "/top-balcony-flooring-materials-for-style-durability/",
+      "page_type": "article",
+      "old_description": "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Porcelain tiles, deck coatings, pavers, and natural stone with SB 4-D compliant installation.",
+      "old_length": 166,
+      "new_description": "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CGC. Contact us today.",
+      "new_length": 155,
+      "primary_keyword": "balcony flooring materials for high-rise buildings"
+    },
+    {
+      "path": "app/top-bonded-insured-commercial-contractor-in-tampa/page.tsx",
+      "url": "/top-bonded-insured-commercial-contractor-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Learn why bonding and insurance matter for your Tampa commercial project. Florida Construction Specialists provides fully bonded and insured construction services.",
+      "old_length": 163,
+      "new_description": "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CGC, proven results. Request a free estimate.",
+      "new_length": 159,
+      "primary_keyword": "bonded & insured commercial contractor"
+    },
+    {
+      "path": "app/top-commercial-construction-in-florida/page.tsx",
+      "url": "/top-commercial-construction-in-florida/",
+      "page_type": "article",
+      "old_description": "Discover Florida&apos;s top-tier Commercial Construction specialist outshining competitors in multiple states. With a keen eye on the latest trends and regulations.",
+      "old_length": 164,
+      "new_description": "Discover commercial construction florida standards with Florida Construction Specialists. Licensed CGC, 40+ years of expertise. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "commercial construction florida standards"
+    },
+    {
+      "path": "app/ultimate-waterproofing-guide-foundations/page.tsx",
+      "url": "/ultimate-waterproofing-guide-foundations/",
+      "page_type": "article",
+      "old_description": "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums in Tampa Bay. SB 4-D compliant solutions for parking structures, podium decks, and below-grade construction.",
+      "old_length": 203,
+      "new_description": "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "foundation waterproofing guide commercial"
+    },
+    {
+      "path": "app/understanding-tampa-insurance-restoration-claims/page.tsx",
+      "url": "/understanding-tampa-insurance-restoration-claims/",
+      "page_type": "article",
+      "old_description": "Complete guide to understanding insurance restoration claims in Tampa. Learn Florida insurance laws, claim timelines, coverage types, and strategies for commercial property owners.",
+      "old_length": 180,
+      "new_description": "Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CGC. Request a free estimate today.",
+      "new_length": 160,
+      "primary_keyword": "insurance restoration claims"
+    },
+    {
+      "path": "app/unveiling-floridas-top-hidden-commercial-construction-costs/page.tsx",
+      "url": "/unveiling-floridas-top-hidden-commercial-construction-costs/",
+      "page_type": "article",
+      "old_description": "Uncover the hidden costs that catch Florida commercial construction projects off guard. Impact fees, hurricane requirements, soil conditions, and more—know before you budget.",
+      "old_length": 174,
+      "new_description": "Uncover the hidden costs that catch Florida commercial construction projects off guard. Expert analysis from Florida Construction Specialists. Contact us today.",
+      "new_length": 160,
+      "primary_keyword": "hidden commercial construction costs florida"
+    },
+    {
+      "path": "app/upgrade-commercial-sprinklers-during-renovation/page.tsx",
+      "url": "/upgrade-commercial-sprinklers-during-renovation/",
+      "page_type": "article",
+      "old_description": "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Code requirements, cost savings, and integration strategies from Florida Construction Specialists.",
+      "old_length": 197,
+      "new_description": "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CGC. Read more.",
+      "new_length": 155,
+      "primary_keyword": "upgrade commercial sprinklers fire"
+    },
+    {
+      "path": "app/utility-mapping-for-commercial-buildings/page.tsx",
+      "url": "/utility-mapping-for-commercial-buildings/",
+      "page_type": "article",
+      "old_description": "Professional utility mapping services for commercial buildings in Tampa. Locate underground utilities before construction to prevent damage, injuries, and costly delays using SUE and GPR technology.",
+      "old_length": 198,
+      "new_description": "Professional utility mapping services for commercial buildings in Tampa. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+      "new_length": 158,
+      "primary_keyword": "utility mapping commercial underground"
+    },
+    {
+      "path": "app/value-engineering-in-commercial-construction/page.tsx",
+      "url": "/value-engineering-in-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Unlock value engineering potential in your commercial construction project. Learn how systematic analysis delivers 10-25% cost savings while maintaining or improving building quality.",
+      "old_length": 183,
+      "new_description": "Unlock value engineering potential in your commercial construction project. Expert tips from Florida Construction Specialists, licensed CGC. Contact us today.",
+      "new_length": 158,
+      "primary_keyword": "value engineering commercial"
+    },
+    {
+      "path": "app/vip-public-adjuster/page.tsx",
+      "url": "/vip-public-adjuster/",
+      "page_type": "article",
+      "old_description": "Expert VIP public adjuster services for Tampa Bay commercial properties. Maximize insurance claim settlements with professional advocacy, documentation, and negotiation support.",
+      "old_length": 177,
+      "new_description": "Expert VIP public adjuster services for Tampa Bay commercial properties. Expert tips from Florida Construction Specialists, licensed CGC. Get a free quote.",
+      "new_length": 155,
+      "primary_keyword": "vip public adjuster commercial claims"
+    },
+    {
+      "path": "app/waterfront-custom-homes-in-tampa/page.tsx",
+      "url": "/waterfront-custom-homes-in-tampa/",
+      "page_type": "service-location",
+      "old_description": "Build your dream waterfront custom home in Tampa Bay. Hurricane-resistant construction, private docks, elevated foundations. Luxury coastal living from $750K-$5M+.",
+      "old_length": 163,
+      "new_description": "Waterfront Custom Homes Luxury Bayfront Living in Tampa: insurance restoration, design-build, and renovations. CGC-licensed, trusted since 1983. Read more.",
+      "new_length": 155,
+      "primary_keyword": "waterfront custom homes luxury bayfront living"
+    },
+    {
+      "path": "app/waterproofing-commercial-contractors/page.tsx",
+      "url": "/waterproofing-commercial-contractors/",
+      "page_type": "article",
+      "old_description": "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and commercial buildings. SB 4-D compliant services for parking structures, building envelopes, and balconies.",
+      "old_length": 195,
+      "new_description": "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CGC. Request a free estimate.",
+      "new_length": 157,
+      "primary_keyword": "commercial waterproofing high-rise"
+    },
+    {
+      "path": "app/waterproofing-solutions-for-homes-the-ultimate-guide/page.tsx",
+      "url": "/waterproofing-solutions-for-homes-the-ultimate-guide/",
+      "page_type": "article",
+      "old_description": "Comprehensive waterproofing solutions for high-rise condominiums and residential buildings in Tampa Bay. SB 4-D compliant systems for balconies, garages, and building envelopes.",
+      "old_length": 177,
+      "new_description": "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CGC in ${region}. Contact our team today.",
+      "new_length": 155,
+      "primary_keyword": "waterproofing high-rise residential"
+    },
+    {
+      "path": "app/why-florida-construction-specialists-recommend-building-instead-of-buying/page.tsx",
+      "url": "/why-florida-construction-specialists-recommend-building-instead-of-buying/",
+      "page_type": "article",
+      "old_description": "Discover why Florida Construction Specialists recommends building instead of buying commercial property in Tampa. Learn about customization, code compliance, efficiency, and long-term value advantages.",
+      "old_length": 201,
+      "new_description": "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CGC. Contact us today.",
+      "new_length": 156,
+      "primary_keyword": "build vs buy commercial property"
+    },
+    {
+      "path": "app/zero-net-energy-boosting-commercial-construction/page.tsx",
+      "url": "/zero-net-energy-boosting-commercial-construction/",
+      "page_type": "article",
+      "old_description": "Boost your commercial construction project in Tampa with Florida Construction Specialists, experts in zero net energy. Experience the power of zero net energy buildings.",
+      "old_length": 169,
+      "new_description": "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CGC in ${region}. Request a free estimate.",
+      "new_length": 158,
+      "primary_keyword": "zero net energy boosting commercial construction"
+    }
+  ]
+}
