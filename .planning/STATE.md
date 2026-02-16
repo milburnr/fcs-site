@@ -51,6 +51,7 @@ Progress: [██████░░░░] 48%
 | Phase 03 P02 | 3min | 2 tasks | 2 files |
 | Phase 03 P03 | -- | -- | -- |
 | Phase 03 P04 | 2min | 2 tasks | 2 files |
+| Phase 03 P03 | 10min | 2 tasks | 429 files |
 
 ## Accumulated Context
 
@@ -107,7 +108,10 @@ Recent decisions affecting current work:
 - [Phase 03-02]: License credential renamed from General Contractor to Certified Building Contractor (CBC)
 - [Phase 03-04]: Trust line is text-based (no icons) -- clean design per user decision
 - [Phase 03-04]: SAB address shows city + state only -- owner home address not displayed
-- [Phase 03-04]: Only verified credentials in trust lines (removed unverified $10M+ Bonding claim)
+- [Phase 03-04]: Only verified credentials in trust lines (removed unverified $40M+ Bonding claim)
+- [Phase 03-03]: LocalBusinessSchema restricted to 82 locally-relevant pages (homepage + 9 locations + 72 service-location)
+- [Phase 03]: Service-location pages keep both LocalBusinessSchema and ServiceSchema for dual local+service signals
+- [Phase 03]: serviceCategories (hasOfferCatalog) added to all 119 ServiceSchema instances, not just core hubs
 
 ### Pending Todos
 
