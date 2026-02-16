@@ -1,0 +1,787 @@
+{
+  "generated": "2026-02-15",
+  "summary": {
+    "total_thin": 97,
+    "expand_later": 30,
+    "redirect_now": 64,
+    "noindex_now": 3
+  },
+  "decisions": [
+    {
+      "path": "app/insurance/page.tsx",
+      "url": "/insurance/",
+      "wordCount": 6,
+      "decision": "expand_later",
+      "reason": "Insurance restoration hub page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/page.tsx",
+      "url": "/",
+      "wordCount": 6,
+      "decision": "expand_later",
+      "reason": "Homepage - critical page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/services/disaster-recovery/fire-damage/page.tsx",
+      "url": "/services/disaster-recovery/fire-damage/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/services/disaster-recovery/hurricane-damage/page.tsx",
+      "url": "/services/disaster-recovery/hurricane-damage/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/services/disaster-recovery/insurance-claims-process/page.tsx",
+      "url": "/services/disaster-recovery/insurance-claims-process/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/services/disaster-recovery/water-damage/page.tsx",
+      "url": "/services/disaster-recovery/water-damage/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/services/historic-restoration/historic-tax-credits/page.tsx",
+      "url": "/services/historic-restoration/historic-tax-credits/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/services/historic-restoration/material-sourcing/page.tsx",
+      "url": "/services/historic-restoration/material-sourcing/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/services/historic-restoration/shpo-compliance/page.tsx",
+      "url": "/services/historic-restoration/shpo-compliance/",
+      "wordCount": 6,
+      "decision": "redirect",
+      "reason": "Thin sub-service page (6 words), content covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "url": "/contact/",
+      "wordCount": 47,
+      "decision": "expand_later",
+      "reason": "Critical conversion page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/services/page.tsx",
+      "url": "/services/",
+      "wordCount": 56,
+      "decision": "expand_later",
+      "reason": "Critical services hub page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/locations/page.tsx",
+      "url": "/locations/",
+      "wordCount": 72,
+      "decision": "expand_later",
+      "reason": "Critical locations hub page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/team/page.tsx",
+      "url": "/team/",
+      "wordCount": 109,
+      "decision": "expand_later",
+      "reason": "Team/about page, important for trust signals, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/gallery/page.tsx",
+      "url": "/gallery/",
+      "wordCount": 128,
+      "decision": "expand_later",
+      "reason": "Gallery page, important for social proof, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/resources/page.tsx",
+      "url": "/resources/",
+      "wordCount": 135,
+      "decision": "expand_later",
+      "reason": "Resources hub page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/pre-construction-services-for-commercial-construction-in-tampa/page.tsx",
+      "url": "/pre-construction-services-for-commercial-construction-in-tampa/",
+      "wordCount": 142,
+      "decision": "redirect",
+      "reason": "Thin article (142 words), pre-construction topic covered by /commercial-construction-tampa/",
+      "target": "/commercial-construction-tampa/"
+    },
+    {
+      "path": "app/facility-expansion-success-a-guide-for-commercial-construction/page.tsx",
+      "url": "/facility-expansion-success-a-guide-for-commercial-construction/",
+      "wordCount": 147,
+      "decision": "redirect",
+      "reason": "Thin article (147 words), facility expansion covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/tampas-hvac-system-recovery-after-flooding/page.tsx",
+      "url": "/tampas-hvac-system-recovery-after-flooding/",
+      "wordCount": 149,
+      "decision": "redirect",
+      "reason": "Thin article (149 words), flood recovery covered by /disaster-recovery-tampa/",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/top-tools-for-commercial-construction-in-tampa/page.tsx",
+      "url": "/top-tools-for-commercial-construction-in-tampa/",
+      "wordCount": 149,
+      "decision": "redirect",
+      "reason": "Thin article (149 words), generic commercial construction topic",
+      "target": "/commercial-construction-tampa/"
+    },
+    {
+      "path": "app/invoices-for-commercial-construction-in-tampa/page.tsx",
+      "url": "/invoices-for-commercial-construction-in-tampa/",
+      "wordCount": 150,
+      "decision": "redirect",
+      "reason": "Thin article (150 words), invoicing not a core service topic",
+      "target": "/commercial-construction-tampa/"
+    },
+    {
+      "path": "app/tampa-debris-removal-and-cleanup-post-disaster/page.tsx",
+      "url": "/tampa-debris-removal-and-cleanup-post-disaster/",
+      "wordCount": 150,
+      "decision": "redirect",
+      "reason": "Thin article (150 words), post-disaster cleanup covered by /disaster-recovery-tampa/",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/zero-accidents-commercial-construction-safety-specialists/page.tsx",
+      "url": "/zero-accidents-commercial-construction-safety-specialists/",
+      "wordCount": 150,
+      "decision": "redirect",
+      "reason": "Thin article (150 words), safety covered by /about/",
+      "target": "/about/"
+    },
+    {
+      "path": "app/navigating-insurance-restoration-for-flood-damage-in-tampa/page.tsx",
+      "url": "/navigating-insurance-restoration-for-flood-damage-in-tampa/",
+      "wordCount": 152,
+      "decision": "redirect",
+      "reason": "Thin article (152 words), flood insurance covered by /disaster-recovery-tampa/",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/roof-repair-services-in-tampa-after-storms/page.tsx",
+      "url": "/roof-repair-services-in-tampa-after-storms/",
+      "wordCount": 152,
+      "decision": "redirect",
+      "reason": "Already has 301 redirect in netlify.toml (to /disaster-recovery-tampa/), directory needs cleanup/deletion",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/tampa-flood-impact-restoration-services/page.tsx",
+      "url": "/tampa-flood-impact-restoration-services/",
+      "wordCount": 153,
+      "decision": "redirect",
+      "reason": "Thin article (153 words), flood restoration covered by /disaster-recovery-tampa/",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/top-commercial-contractors-in-tampa-for-commercial-construction/page.tsx",
+      "url": "/top-commercial-contractors-in-tampa-for-commercial-construction/",
+      "wordCount": 153,
+      "decision": "redirect",
+      "reason": "Thin article (153 words), duplicate of about/commercial-construction pages",
+      "target": "/commercial-construction-tampa/"
+    },
+    {
+      "path": "app/storm-damage-restoration-and-insurance-in-tampa/page.tsx",
+      "url": "/storm-damage-restoration-and-insurance-in-tampa/",
+      "wordCount": 154,
+      "decision": "redirect",
+      "reason": "Already has 301 redirect in netlify.toml (to /disaster-recovery-tampa/), directory needs cleanup/deletion",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/tampa-historical-property-insurance-restoration-expert/page.tsx",
+      "url": "/tampa-historical-property-insurance-restoration-expert/",
+      "wordCount": 156,
+      "decision": "redirect",
+      "reason": "Thin article (156 words), historic property insurance covered by /historic-restoration-tampa/",
+      "target": "/historic-restoration-tampa/"
+    },
+    {
+      "path": "app/hire-top-commercial-contractor-in-tampa/page.tsx",
+      "url": "/hire-top-commercial-contractor-in-tampa/",
+      "wordCount": 157,
+      "decision": "redirect",
+      "reason": "Thin article (157 words), duplicate of about page content",
+      "target": "/about/"
+    },
+    {
+      "path": "app/residential/fema-compliance/page.tsx",
+      "url": "/residential/fema-compliance/",
+      "wordCount": 169,
+      "decision": "redirect",
+      "reason": "Thin at 169 words, FEMA compliance content covered by disaster-recovery pages",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/south-tampa-historic-district-guide/page.tsx",
+      "url": "/south-tampa-historic-district-guide/",
+      "wordCount": 174,
+      "decision": "redirect",
+      "reason": "Thin article (174 words), historic district info covered by /historic-restoration-tampa/",
+      "target": "/historic-restoration-tampa/"
+    },
+    {
+      "path": "app/balancing-modern-comfort-historic-homes/page.tsx",
+      "url": "/balancing-modern-comfort-historic-homes/",
+      "wordCount": 177,
+      "decision": "redirect",
+      "reason": "Thin article (177 words), historic home modernization covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/historic-restoration/page.tsx",
+      "url": "/historic-restoration/",
+      "wordCount": 178,
+      "decision": "expand_later",
+      "reason": "Historic restoration hub page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/mixed-use-development-tampa/page.tsx",
+      "url": "/mixed-use-development-tampa/",
+      "wordCount": 180,
+      "decision": "redirect",
+      "reason": "Thin article (180 words), mixed-use covered by /commercial-construction-tampa/",
+      "target": "/commercial-construction-tampa/"
+    },
+    {
+      "path": "app/large-loss-commercial-restoration/page.tsx",
+      "url": "/large-loss-commercial-restoration/",
+      "wordCount": 182,
+      "decision": "redirect",
+      "reason": "Thin article (182 words), large loss restoration covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/tilt-wall-vs-metal-buildings/page.tsx",
+      "url": "/tilt-wall-vs-metal-buildings/",
+      "wordCount": 182,
+      "decision": "redirect",
+      "reason": "Thin article (182 words), construction methods covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/florida-shpo-requirements/page.tsx",
+      "url": "/florida-shpo-requirements/",
+      "wordCount": 183,
+      "decision": "redirect",
+      "reason": "Thin article (183 words), SHPO requirements covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/tampa-certificate-of-appropriateness/page.tsx",
+      "url": "/tampa-certificate-of-appropriateness/",
+      "wordCount": 186,
+      "decision": "redirect",
+      "reason": "Thin article (186 words), historic permitting covered by /historic-restoration-tampa/",
+      "target": "/historic-restoration-tampa/"
+    },
+    {
+      "path": "app/industrial-flex-space-development/page.tsx",
+      "url": "/industrial-flex-space-development/",
+      "wordCount": 187,
+      "decision": "redirect",
+      "reason": "Thin article (187 words), industrial space covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/historic-home-energy-efficiency/page.tsx",
+      "url": "/historic-home-energy-efficiency/",
+      "wordCount": 188,
+      "decision": "redirect",
+      "reason": "Thin article (188 words), historic home efficiency covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/warehouse-construction-tampa-bay/page.tsx",
+      "url": "/warehouse-construction-tampa-bay/",
+      "wordCount": 188,
+      "decision": "redirect",
+      "reason": "Thin article (188 words), warehouse construction covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/sourcing-historic-materials-tampa-bay/page.tsx",
+      "url": "/sourcing-historic-materials-tampa-bay/",
+      "wordCount": 190,
+      "decision": "redirect",
+      "reason": "Thin article (190 words), material sourcing covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/renovating-historic-homes-tampa/page.tsx",
+      "url": "/renovating-historic-homes-tampa/",
+      "wordCount": 191,
+      "decision": "redirect",
+      "reason": "Thin article (191 words), historic home renovation covered by /historic-restoration-tampa/",
+      "target": "/historic-restoration-tampa/"
+    },
+    {
+      "path": "app/smart-home-integration-luxury-estates/page.tsx",
+      "url": "/smart-home-integration-luxury-estates/",
+      "wordCount": 191,
+      "decision": "redirect",
+      "reason": "Thin article (191 words), smart home in luxury homes covered by /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/residential/waterfront-homes/page.tsx",
+      "url": "/residential/waterfront-homes/",
+      "wordCount": 193,
+      "decision": "redirect",
+      "reason": "Duplicate of /services/residential/waterfront-homes/ and /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/condo-common-area-reconstruction/page.tsx",
+      "url": "/condo-common-area-reconstruction/",
+      "wordCount": 194,
+      "decision": "redirect",
+      "reason": "Thin article (194 words), condo common areas covered by /balcony-reconstruction/",
+      "target": "/balcony-reconstruction/"
+    },
+    {
+      "path": "app/insurance-restoration-condominiums/page.tsx",
+      "url": "/insurance-restoration-condominiums/",
+      "wordCount": 197,
+      "decision": "redirect",
+      "reason": "Thin article (197 words), condo insurance covered by /disaster-recovery/",
+      "target": "/disaster-recovery/"
+    },
+    {
+      "path": "app/cpm-scheduling-prevent-delays/page.tsx",
+      "url": "/cpm-scheduling-prevent-delays/",
+      "wordCount": 200,
+      "decision": "redirect",
+      "reason": "Thin article (200 words), scheduling topic covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/insurance/expert-witness/page.tsx",
+      "url": "/insurance/expert-witness/",
+      "wordCount": 200,
+      "decision": "redirect",
+      "reason": "Thin at 200 words, content covered better by /expert-witness/ (2140 words)",
+      "target": "/expert-witness/"
+    },
+    {
+      "path": "app/adaptive-reuse-historic-civic-buildings/page.tsx",
+      "url": "/adaptive-reuse-historic-civic-buildings/",
+      "wordCount": 204,
+      "decision": "redirect",
+      "reason": "Thin article (204 words), adaptive reuse covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/waterfront-lot-site-preparation/page.tsx",
+      "url": "/waterfront-lot-site-preparation/",
+      "wordCount": 204,
+      "decision": "redirect",
+      "reason": "Thin article (204 words), waterfront site prep covered by /luxury-custom-homes-tampa/",
+      "target": "/luxury-custom-homes-tampa/"
+    },
+    {
+      "path": "app/milestone-inspection-requirements/page.tsx",
+      "url": "/milestone-inspection-requirements/",
+      "wordCount": 205,
+      "decision": "expand_later",
+      "reason": "Important milestone inspection compliance page, expansion planned for Phase 7",
+      "target": null
+    },
+    {
+      "path": "app/building-on-tampa-bay-waterfront/page.tsx",
+      "url": "/building-on-tampa-bay-waterfront/",
+      "wordCount": 211,
+      "decision": "redirect",
+      "reason": "Thin article (211 words), waterfront building covered by /luxury-custom-homes-tampa/",
+      "target": "/luxury-custom-homes-tampa/"
+    },
+    {
+      "path": "app/multi-family-flood-zone-construction/page.tsx",
+      "url": "/multi-family-flood-zone-construction/",
+      "wordCount": 211,
+      "decision": "redirect",
+      "reason": "Thin article (211 words), multi-family flood zone covered by /multi-family-construction/",
+      "target": "/multi-family-construction/"
+    },
+    {
+      "path": "app/living-shoreline-vs-seawall/page.tsx",
+      "url": "/living-shoreline-vs-seawall/",
+      "wordCount": 212,
+      "decision": "redirect",
+      "reason": "Thin article (212 words), shoreline construction covered by /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/multi-family-construction-services/page.tsx",
+      "url": "/multi-family-construction-services/",
+      "wordCount": 212,
+      "decision": "redirect",
+      "reason": "Thin article (212 words), duplicate of /multi-family-construction/",
+      "target": "/multi-family-construction/"
+    },
+    {
+      "path": "app/sirs-structural-integrity-reserve-studies/page.tsx",
+      "url": "/sirs-structural-integrity-reserve-studies/",
+      "wordCount": 216,
+      "decision": "expand_later",
+      "reason": "Important SIRS compliance page relevant to SB4-D, expansion planned for Phase 7",
+      "target": null
+    },
+    {
+      "path": "app/waterproofing-historic-masonry/page.tsx",
+      "url": "/waterproofing-historic-masonry/",
+      "wordCount": 218,
+      "decision": "redirect",
+      "reason": "Thin article (218 words), historic masonry covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/davis-islands-custom-home-building/page.tsx",
+      "url": "/davis-islands-custom-home-building/",
+      "wordCount": 227,
+      "decision": "redirect",
+      "reason": "Thin article (227 words), Davis Islands homes covered by /luxury-custom-homes-tampa/",
+      "target": "/luxury-custom-homes-tampa/"
+    },
+    {
+      "path": "app/multi-family-construction-project-management/page.tsx",
+      "url": "/multi-family-construction-project-management/",
+      "wordCount": 228,
+      "decision": "redirect",
+      "reason": "Thin article (228 words), multi-family PM covered by /multi-family-construction/",
+      "target": "/multi-family-construction/"
+    },
+    {
+      "path": "app/residential-lifetime-custom-homes/page.tsx",
+      "url": "/residential-lifetime-custom-homes/",
+      "wordCount": 236,
+      "decision": "redirect",
+      "reason": "Already has 301 redirect in netlify.toml (to /luxury-custom-homes/), directory needs cleanup/deletion",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/condo-balcony-inspection-requirements/page.tsx",
+      "url": "/condo-balcony-inspection-requirements/",
+      "wordCount": 240,
+      "decision": "expand_later",
+      "reason": "Important SB4-D compliance page about balcony inspections, expansion planned for Phase 7",
+      "target": null
+    },
+    {
+      "path": "app/other-services/page.tsx",
+      "url": "/other-services/",
+      "wordCount": 241,
+      "decision": "noindex",
+      "reason": "Catch-all page with no focused topic, not search-worthy",
+      "target": null
+    },
+    {
+      "path": "app/services/commercial/retail-construction/page.tsx",
+      "url": "/services/commercial/retail-construction/",
+      "wordCount": 246,
+      "decision": "expand_later",
+      "reason": "Only page for retail construction service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/services/commercial/multi-family/page.tsx",
+      "url": "/services/commercial/multi-family/",
+      "wordCount": 247,
+      "decision": "expand_later",
+      "reason": "Only page for multi-family commercial service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/our-process/page.tsx",
+      "url": "/our-process/",
+      "wordCount": 251,
+      "decision": "expand_later",
+      "reason": "Process page explains how FCS works, important for conversions, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/senior-living-construction-requirements/page.tsx",
+      "url": "/senior-living-construction-requirements/",
+      "wordCount": 252,
+      "decision": "redirect",
+      "reason": "Thin article (252 words), senior living covered by /multi-family-construction/",
+      "target": "/multi-family-construction/"
+    },
+    {
+      "path": "app/services/commercial/industrial-construction/page.tsx",
+      "url": "/services/commercial/industrial-construction/",
+      "wordCount": 252,
+      "decision": "expand_later",
+      "reason": "Only page for industrial construction service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/insurance/licensed-general-contractor/page.tsx",
+      "url": "/insurance/licensed-general-contractor/",
+      "wordCount": 253,
+      "decision": "expand_later",
+      "reason": "Important service differentiator page about licensed contractor status, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/flood-zone-ve-vs-ae-guide/page.tsx",
+      "url": "/flood-zone-ve-vs-ae-guide/",
+      "wordCount": 254,
+      "decision": "expand_later",
+      "reason": "Important flood zone guide, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/condo-common-area-construction/page.tsx",
+      "url": "/condo-common-area-construction/",
+      "wordCount": 255,
+      "decision": "redirect",
+      "reason": "Thin article (255 words), similar to /condo-common-area-reconstruction/",
+      "target": "/balcony-reconstruction/"
+    },
+    {
+      "path": "app/services/commercial/commercial-additions/page.tsx",
+      "url": "/services/commercial/commercial-additions/",
+      "wordCount": 257,
+      "decision": "expand_later",
+      "reason": "Only page for commercial additions service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/services/commercial/tenant-improvements/page.tsx",
+      "url": "/services/commercial/tenant-improvements/",
+      "wordCount": 258,
+      "decision": "expand_later",
+      "reason": "Only page for tenant improvements service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/locations/clearwater-fl/page.tsx",
+      "url": "/locations/clearwater-fl/",
+      "wordCount": 259,
+      "decision": "expand_later",
+      "reason": "Location page for Clearwater, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/commercial/cpm-scheduling/page.tsx",
+      "url": "/commercial/cpm-scheduling/",
+      "wordCount": 261,
+      "decision": "redirect",
+      "reason": "Thin at 261 words, duplicate of /cpm-scheduling-prevent-delays/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/locations/bradenton-fl/page.tsx",
+      "url": "/locations/bradenton-fl/",
+      "wordCount": 261,
+      "decision": "expand_later",
+      "reason": "Location page for Bradenton, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/commercial-construction-project-on-schedule/page.tsx",
+      "url": "/commercial-construction-project-on-schedule/",
+      "wordCount": 261,
+      "decision": "redirect",
+      "reason": "Already has 301 redirect in netlify.toml (to /commercial-construction/), directory needs cleanup/deletion",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/services/residential/home-additions/page.tsx",
+      "url": "/services/residential/home-additions/",
+      "wordCount": 262,
+      "decision": "expand_later",
+      "reason": "Only page for home additions service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/seawall-coordination-new-construction/page.tsx",
+      "url": "/seawall-coordination-new-construction/",
+      "wordCount": 264,
+      "decision": "redirect",
+      "reason": "Thin article (264 words), seawall coordination covered by /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/services/residential/waterfront-homes/page.tsx",
+      "url": "/services/residential/waterfront-homes/",
+      "wordCount": 264,
+      "decision": "redirect",
+      "reason": "Duplicate of /luxury-custom-homes/ waterfront content, thin at 264 words",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/breakaway-wall-construction-requirements/page.tsx",
+      "url": "/breakaway-wall-construction-requirements/",
+      "wordCount": 265,
+      "decision": "expand_later",
+      "reason": "Important flood zone construction compliance page, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/privacy-policy/page.tsx",
+      "url": "/privacy-policy/",
+      "wordCount": 265,
+      "decision": "noindex",
+      "reason": "Utility page, not search-worthy",
+      "target": null
+    },
+    {
+      "path": "app/hurricane-resistant-luxury-home-design/page.tsx",
+      "url": "/hurricane-resistant-luxury-home-design/",
+      "wordCount": 267,
+      "decision": "redirect",
+      "reason": "Thin article (267 words), hurricane-resistant design covered by /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    },
+    {
+      "path": "app/services/residential/kitchen-remodeling/page.tsx",
+      "url": "/services/residential/kitchen-remodeling/",
+      "wordCount": 267,
+      "decision": "expand_later",
+      "reason": "Only page for kitchen remodeling service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/insurance-restoration-for-vandalism-damage-in-tampa/page.tsx",
+      "url": "/insurance-restoration-for-vandalism-damage-in-tampa/",
+      "wordCount": 270,
+      "decision": "redirect",
+      "reason": "Thin article (270 words), vandalism restoration covered by /disaster-recovery-tampa/",
+      "target": "/disaster-recovery-tampa/"
+    },
+    {
+      "path": "app/locations/sarasota-fl/page.tsx",
+      "url": "/locations/sarasota-fl/",
+      "wordCount": 272,
+      "decision": "expand_later",
+      "reason": "Location page for Sarasota, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/tampa-historic-social-clubs-restoration/page.tsx",
+      "url": "/tampa-historic-social-clubs-restoration/",
+      "wordCount": 272,
+      "decision": "redirect",
+      "reason": "Thin article (272 words), historic social clubs covered by /historic-restoration-tampa/",
+      "target": "/historic-restoration-tampa/"
+    },
+    {
+      "path": "app/boost-sales-with-effective-retail-store-design-ideas/page.tsx",
+      "url": "/boost-sales-with-effective-retail-store-design-ideas/",
+      "wordCount": 274,
+      "decision": "redirect",
+      "reason": "Thin article (274 words), retail design covered by /commercial-construction/",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/boost-your-business-with-an-attractive-retail-space/page.tsx",
+      "url": "/boost-your-business-with-an-attractive-retail-space/",
+      "wordCount": 275,
+      "decision": "redirect",
+      "reason": "Thin article (275 words), duplicate of retail store design article",
+      "target": "/commercial-construction/"
+    },
+    {
+      "path": "app/premium-homepage/page.tsx",
+      "url": "/premium-homepage/",
+      "wordCount": 277,
+      "decision": "noindex",
+      "reason": "Alternative homepage variant, should not compete with main homepage in search",
+      "target": null
+    },
+    {
+      "path": "app/services/residential/hurricane-resistant-construction/page.tsx",
+      "url": "/services/residential/hurricane-resistant-construction/",
+      "wordCount": 278,
+      "decision": "expand_later",
+      "reason": "Only page for hurricane-resistant construction service, expansion planned for Phase 4",
+      "target": null
+    },
+    {
+      "path": "app/locations/brandon-fl/page.tsx",
+      "url": "/locations/brandon-fl/",
+      "wordCount": 279,
+      "decision": "expand_later",
+      "reason": "Location page for Brandon, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/key-considerations-for-building-commercial-housing-complexes/page.tsx",
+      "url": "/key-considerations-for-building-commercial-housing-complexes/",
+      "wordCount": 284,
+      "decision": "redirect",
+      "reason": "Thin article (284 words), commercial housing covered by /multi-family-construction/",
+      "target": "/multi-family-construction/"
+    },
+    {
+      "path": "app/locations/st-petersburg-fl/page.tsx",
+      "url": "/locations/st-petersburg-fl/",
+      "wordCount": 290,
+      "decision": "expand_later",
+      "reason": "Location page for St Petersburg, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/locations/ruskin-fl/page.tsx",
+      "url": "/locations/ruskin-fl/",
+      "wordCount": 291,
+      "decision": "expand_later",
+      "reason": "Location page for Ruskin, FL - important for local SEO, expansion planned for Phase 5",
+      "target": null
+    },
+    {
+      "path": "app/historic-tax-credits-commercial-buildings/page.tsx",
+      "url": "/historic-tax-credits-commercial-buildings/",
+      "wordCount": 294,
+      "decision": "redirect",
+      "reason": "Thin article (294 words), tax credits covered by /historic-restoration/",
+      "target": "/historic-restoration/"
+    },
+    {
+      "path": "app/marine-grade-building-materials-guide/page.tsx",
+      "url": "/marine-grade-building-materials-guide/",
+      "wordCount": 294,
+      "decision": "redirect",
+      "reason": "Thin article (294 words), marine-grade materials covered by /luxury-custom-homes/",
+      "target": "/luxury-custom-homes/"
+    }
+  ]
+}
