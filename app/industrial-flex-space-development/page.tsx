@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Industrial Flex Space Tampa Bay | FCS",
   description:
     "Expert industrial flex space development in Tampa Bay. Versatile buildings combining warehouse, office, and showroom space for maximum tenant flexibility and investment returns.",
-  keywords:
-    "industrial flex space Tampa, flex building development Florida, warehouse office combo Tampa Bay, light industrial construction, flex space investment, multi-tenant industrial",
 };
 
 const flexSpaceTypes = [

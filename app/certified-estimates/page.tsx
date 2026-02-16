@@ -11,16 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
   title: "Certified Construction Estimates",
   description: "Professional certified estimates for insurance claims, litigation & project planning. 43+ years experience, former adjuster. Schedule consultation: (813) 420-7561.",
-  keywords: [
-    "certified construction estimates Tampa",
-    "insurance claim estimate Florida",
-    "construction cost estimate",
-    "damage assessment estimate",
-    "certified estimator Tampa Bay",
-    "litigation support estimates",
-    "insurance appraisal estimates",
-    "construction damage estimate",
-  ],
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-sarasota/' },
   title: "Exterior Waterproofing Sarasota | Envelope | FCS",
   description: "Sarasota exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, luxury condo waterproofing. 10-year warranty. Licensed, bonded, insured.",
-  keywords: "exterior waterproofing Sarasota, building envelope waterproofing Sarasota, foundation waterproofing Sarasota, commercial waterproofing Sarasota, luxury condo waterproofing Sarasota",
 };
 
 const breadcrumbItems = [

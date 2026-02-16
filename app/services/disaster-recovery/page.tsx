@@ -13,14 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/disaster-recovery/' },
   title: "Disaster Recovery & Insurance Restoration in Tampa Bay",
   description: "Insurance restoration Tampa: hurricane, flood, fire damage. 43 years claims expertise, large-loss specialist. Direct carrier relationships. Call for storm damage repair.",
-  keywords: [
-    "disaster recovery contractor tampa",
-    "insurance restoration florida",
-    "hurricane damage repair tampa",
-    "large loss restoration",
-    "storm damage contractor",
-    "insurance claim construction",
-  ],
 };
 
 const breadcrumbItems = [

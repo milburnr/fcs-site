@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Condo Common Area Reconstruction Tampa | FCS Construction",
   description:
     "Expert common area reconstruction for Tampa Bay condominiums. Lobby renovations, pool deck repairs, corridor updates, and amenity upgrades that comply with SB4D and enhance property value.",
-  keywords:
-    "condo common area renovation Tampa, condominium lobby remodel, pool deck reconstruction Tampa, HOA amenity upgrade, condo corridor renovation, common element repairs Florida",
 };
 
 const commonAreaTypes = [

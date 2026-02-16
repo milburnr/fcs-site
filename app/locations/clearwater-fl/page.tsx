@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/clearwater-fl/' },
   title: "Clearwater Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Clearwater, FL. Commercial construction, multi-family residential, disaster recovery. Coastal expertise. 40+ years experience. Call (813) 420-7561.",
-  keywords: "commercial construction clearwater, clearwater general contractor, disaster recovery clearwater fl, coastal construction clearwater florida",
 };
 
 const breadcrumbItems = [

@@ -30,8 +30,6 @@ export const metadata: Metadata = {
   title: "Hyde Park Renovation Guide Tampa | ARC | FCS",
   description:
     "Complete guide to renovating in Hyde Park Tampa. ARC approval process, Certificate of Appropriateness, historic district requirements, and period-accurate restoration.",
-  keywords:
-    "Hyde Park renovation Tampa, ARC guidelines Tampa, Certificate of Appropriateness, historic district renovation, South Tampa historic homes",
 };
 
 const arcProcess = [

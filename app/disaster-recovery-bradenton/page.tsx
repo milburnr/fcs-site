@@ -12,7 +12,6 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-bradenton/' },
   title: "Disaster Recovery Bradenton | Hurricane | FCS",
-  keywords: "disaster recovery Bradenton, hurricane damage restoration Bradenton, storm damage repair Bradenton, flood damage Bradenton, insurance restoration Bradenton, Manatee River flood damage, Anna Maria Island storm damage",
 };
 
 const breadcrumbItems = [

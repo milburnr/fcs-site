@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/' },
   title: "Luxury Custom Homes Lakeland FL | Lakefront Estates | FCS",
   description: "Lakeland luxury custom home builder specializing in $750K-$5M+ lakefront estates. South Lake Morton, Lake Hollingsworth, Grasslands. Larger lots, better value than coastal areas. Licensed, bonded, insured.",
-  keywords: "luxury custom homes Lakeland, lakefront homes Lakeland FL, custom home builder Lakeland, Frank Lloyd Wright architecture Lakeland, estate homes Polk County",
 };
 
 const breadcrumbItems = [

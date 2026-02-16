@@ -27,16 +27,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/engineering/' },
   title: "Engineering Coordination Services",
   description: "Expert engineering coordination for construction projects. 43+ years experience, licensed contractor CBC1262722. Schedule consultation. Call (813) 420-7561.",
-  keywords: [
-    "engineering coordination tampa",
-    "structural engineering coordination",
-    "construction engineering services",
-    "building assessment coordination",
-    "SB4-D milestone inspection",
-    "structural assessment coordination",
-    "construction consulting engineering",
-    "load calculation coordination",
-  ],
 };
 
 const breadcrumbItems = [

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/commercial-additions/' },
   title: "Commercial Additions Tampa | Building Expansions | FCS",
   description: "Commercial building additions in Tampa Bay. Expand your facility without relocating. Warehouses, offices, manufacturing, retail. Occupied building expertise. Call (813) 420-7561.",
-  keywords: ["commercial additions tampa", "building expansion florida", "commercial building addition", "warehouse expansion", "office building addition"],
 };
 
 const breadcrumbItems = [

@@ -48,8 +48,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Lakeland | SB4-D Polk | FCS",
   description:
     "Lakeland condo remediation experts. SB4-D compliance, milestone inspections (30-year inland deadline), SIRS structural reserve studies. Polk County licensed contractor. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Lakeland, SB4-D compliance Polk County, milestone inspection Lakeland FL, SIRS Lakeland condos, condo structural repair Lakeland, HOA contractor Polk County, condominium restoration Lakeland, structural integrity reserve study Lakeland",
 };
 
 const breadcrumbItems = [

@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-bradenton/' },
   title: "Insurance Restoration Bradenton | 43 Years | FCS",
   description: "Bradenton insurance restoration contractor with 43 years claims experience—7 years as Allstate adjuster. Property damage restoration Manatee County. Barrier island and mainland coverage expertise. Hurricane damage Anna Maria, flood restoration Bradenton FL.",
-  keywords: "insurance restoration Bradenton, property damage restoration Manatee County, hurricane damage Anna Maria, flood restoration Bradenton FL, insurance claim contractor Bradenton, large loss restoration Manatee, barrier island insurance claims, 55+ community restoration Bradenton",
 };
 
 const breadcrumbItems = [

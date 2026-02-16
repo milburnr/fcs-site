@@ -14,18 +14,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-st-petersburg/' },
   title: "Historic Restoration in St. Petersburg",
   description: "St. Petersburg historic restoration experts. Old Northeast Historic District, Bay Pines Veterans Hospital ($2M federal project), downtown St. Pete landmarks. SHPO compliance, Section 106. Call (813) 420-7561.",
-  keywords: [
-    "historic restoration st petersburg",
-    "old northeast historic district restoration",
-    "bay pines veterans hospital restoration",
-    "st pete historic preservation",
-    "SHPO compliance st petersburg",
-    "section 106 compliance florida",
-    "mediterranean revival restoration",
-    "pinellas county historic preservation",
-    "federal historic compliance",
-    "waterfront historic properties st pete",
-  ],
 };
 
 const breadcrumbItems = [

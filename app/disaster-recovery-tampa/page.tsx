@@ -32,16 +32,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
   title: "Disaster Recovery in Tampa",
   description: "Disaster recovery Tampa: large-loss hurricane, flood, fire restoration. $250K+ insurance projects, 43 years claims experience. All carriers. Call emergency hotline.",
-  keywords: [
-    "disaster recovery tampa",
-    "hurricane damage restoration tampa",
-    "insurance restoration tampa",
-    "storm damage repair tampa",
-    "large loss contractor tampa",
-    "flood damage restoration tampa",
-    "fire damage contractor tampa",
-    "insurance claim contractor tampa",
-  ],
 };
 
 const breadcrumbItems = [

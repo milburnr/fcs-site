@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-ruskin/' },
   title: "Commercial Construction Ruskin FL | FCS Home Base",
   description: "Premier commercial construction contractor headquartered in Ruskin, Florida. Distribution centers, industrial facilities, waterfront construction, Sun City Center. 40+ years experience, 20+ years experience. Call (813) 420-7561.",
-  keywords: "commercial construction ruskin, commercial contractor ruskin, commercial builder ruskin fl, distribution center construction ruskin, apollo beach commercial construction",
 };
 
 const serviceFeatures = [

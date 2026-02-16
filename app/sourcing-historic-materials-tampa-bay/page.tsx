@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Sourcing Historic Materials Tampa Bay | FCS",
   description:
     "Find authentic historic building materials for Tampa Bay restoration projects. Salvage yards, specialty suppliers, and custom fabrication for period-accurate renovations.",
-  keywords:
-    "historic building materials Tampa, architectural salvage Florida, period hardware Tampa Bay, reclaimed wood Florida, historic window restoration, antique building supplies",
 };
 
 const materialCategories = [

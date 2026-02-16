@@ -43,8 +43,6 @@ export const metadata: Metadata = {
   title: "Balcony Reconstruction in Clearwater",
   description:
     "Clearwater balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
-  keywords:
-    "balcony reconstruction Clearwater, SB4-D compliance Clearwater, condo balcony repair Clearwater, milestone inspection Clearwater, SIRS Clearwater, balcony waterproofing Clearwater, structural balcony repair Clearwater, HOA balcony contractor Clearwater, Sand Key condo repair, Clearwater Beach balcony restoration",
 };
 
 const breadcrumbItems = [

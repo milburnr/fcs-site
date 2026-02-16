@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Marine-Grade Building Materials Tampa Bay | FCS",
   description:
     "Complete guide to marine-grade building materials for waterfront homes in Tampa Bay. Salt-resistant hardware, coastal-rated windows, and materials that withstand Florida's marine environment.",
-  keywords:
-    "marine grade building materials Tampa, waterfront construction materials Florida, salt resistant home materials, coastal home building Tampa Bay, marine grade hardware",
 };
 
 const materialCategories = [

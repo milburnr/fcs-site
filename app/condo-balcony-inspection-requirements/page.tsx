@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Condo Balcony Inspection Florida | SB 4-D | FCS",
   description:
     "Complete guide to Florida condo balcony inspection requirements under SB 4-D and milestone inspections. Understand inspection scope, repair timelines, and compliance obligations.",
-  keywords:
-    "condo balcony inspection Florida, SB 4-D balcony requirements, milestone inspection balcony, Florida condo balcony repair, balcony structural inspection Tampa",
 };
 
 const inspectionTriggers = [

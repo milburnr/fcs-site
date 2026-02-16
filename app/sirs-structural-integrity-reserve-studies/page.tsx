@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "SIRS Reserve Studies Florida | Condo Compliance",
   description:
     "Complete guide to SIRS (Structural Integrity Reserve Studies) for Florida condominiums. Understand SB 4-D reserve requirements and funding obligations.",
-  keywords:
-    "SIRS Florida, structural integrity reserve study, SB 4-D reserves, condo reserve requirements Florida, milestone inspection reserves Tampa",
 };
 
 const sirsComponents = [

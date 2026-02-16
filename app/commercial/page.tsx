@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
   description:
     "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
-  keywords:
-    "commercial construction Tampa, general contractor Tampa Bay, medical facility construction, multi-family construction, industrial construction Florida",
 };
 
 // Commercial service clusters with icons and images
@@ -47,7 +45,6 @@ const commercialClusters = [
     image: AI_IMAGES.multifamily,
     imageAlt: AI_IMAGE_ALT.multifamily,
     description: "Condominiums, apartment complexes, and mixed-use residential developments",
-    keywords: ["Condo construction", "Apartment buildings", "Mixed-use development"],
   },
   {
     name: "Industrial & Flex Space",

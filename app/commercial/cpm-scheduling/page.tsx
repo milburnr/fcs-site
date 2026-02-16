@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "CPM Scheduling Tampa | Construction PM | FCS",
   description:
     "Critical Path Method scheduling for commercial construction projects. Prevent delays, optimize resources, and deliver on time. Tampa Bay's scheduling experts.",
-  keywords:
-    "CPM scheduling Tampa, critical path method construction, construction project management, commercial construction scheduling, delay prevention",
 };
 
 const features = [

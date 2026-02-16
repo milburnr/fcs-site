@@ -45,8 +45,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Ruskin | Sun City Center | FCS",
   description:
     "Condo remediation experts HEADQUARTERED in Ruskin. SB4-D compliance, milestone inspections, SIRS for Sun City Center, Apollo Beach, South Hillsborough condos. Local expertise, fastest response. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Ruskin FL, SB4-D compliance Sun City Center, milestone inspection Apollo Beach, SIRS South Hillsborough condos, condo structural repair Ruskin, condo balcony repair Sun City Center, HOA remediation contractor Ruskin, Florida condo safety compliance South Tampa, Gibsonton condo repair, Wimauma milestone inspection",
 };
 
 const breadcrumbItems = [

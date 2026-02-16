@@ -34,18 +34,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
   title: "Disaster Recovery in Clearwater",
   description: "Disaster recovery Clearwater: hurricane, flood, fire restoration. Large-loss specialist $250K+ projects. 43 years insurance claims experience. Emergency response 24/7.",
-  keywords: [
-    "disaster recovery clearwater",
-    "hurricane damage restoration clearwater",
-    "insurance restoration clearwater",
-    "storm damage repair clearwater",
-    "large loss contractor clearwater",
-    "flood damage restoration clearwater",
-    "fire damage contractor clearwater",
-    "insurance claim contractor clearwater",
-    "clearwater beach storm damage",
-    "pinellas county disaster recovery",
-  ],
 };
 
 const breadcrumbItems = [

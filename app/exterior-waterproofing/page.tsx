@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing/' },
   title: "Exterior Waterproofing Tampa | Florida | FCS",
   description: "Expert exterior waterproofing Tampa services for commercial and residential buildings. Premium building waterproofing Florida solutions. Foundation, plaza deck, parking structure waterproofing. Call today!",
-  keywords: "exterior waterproofing Tampa, building waterproofing Florida, commercial waterproofing contractor, foundation waterproofing Tampa Bay, below-grade waterproofing, plaza deck waterproofing",
 };
 
 const features = [

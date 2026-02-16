@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Insurance Restoration Condominiums Tampa | FCS",
   description:
     "Expert insurance restoration services for Tampa Bay condominiums. Navigate HOA claims, unit owner responsibilities, and complex multi-party insurance coordination for condo damage repairs.",
-  keywords:
-    "condo insurance restoration Tampa, condominium damage repair Florida, HOA insurance claims, condo association restoration, multi-family insurance repair, Tampa condo storm damage",
 };
 
 const condoInsuranceTypes = [

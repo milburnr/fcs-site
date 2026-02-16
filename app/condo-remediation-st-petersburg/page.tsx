@@ -47,8 +47,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation St Petersburg | SB4-D | FCS",
   description:
     "St. Petersburg condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony reconstruction for condos 3+ stories. Serving Downtown St. Pete, St. Pete Beach, Treasure Island. Licensed CBC1262722.",
-  keywords:
-    "condo remediation St Petersburg, SB4-D compliance St Pete, milestone inspection St Petersburg FL, SIRS St Pete condos, condo structural repair Pinellas, St Petersburg condo restoration, St Pete Beach condo repair, Treasure Island condo remediation, condo milestone inspection St Pete, structural reserve study St Petersburg",
 };
 
 const breadcrumbItems = [

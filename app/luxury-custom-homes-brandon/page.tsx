@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-brandon/' },
   title: "Luxury Custom Homes Brandon | FishHawk | FCS",
   description: "Brandon luxury custom home builder specializing in $800K-$5M+ family estates. FishHawk Ranch, Lithia, Valrico, Alafia River properties. Larger lots, master-planned communities. Licensed, bonded, insured.",
-  keywords: "luxury custom homes Brandon, FishHawk Ranch custom homes, Lithia estate homes, Valrico luxury builder, custom home builder Brandon FL",
 };
 
 const breadcrumbItems = [

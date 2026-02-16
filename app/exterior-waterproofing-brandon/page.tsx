@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-brandon/' },
   title: "Exterior Waterproofing Brandon | Envelope | FCS",
   description: "Brandon exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, retail waterproofing. 10-year warranty. Licensed, bonded, insured.",
-  keywords: "exterior waterproofing Brandon, building envelope waterproofing Brandon, foundation waterproofing Brandon, commercial waterproofing Brandon, retail waterproofing Brandon",
 };
 
 const breadcrumbItems = [

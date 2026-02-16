@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Davis Islands Custom Home Building Tampa | FCS",
   description:
     "Expert custom home building on Davis Islands, Tampa. Navigate flood zones, historic guidelines, and waterfront construction challenges with Florida Construction Specialists.",
-  keywords:
-    "Davis Islands custom homes, Davis Islands home builder, Tampa island luxury homes, waterfront construction Davis Islands, Tampa Bay custom home building, Davis Islands architect",
 };
 
 const davisIslandsFactors = [

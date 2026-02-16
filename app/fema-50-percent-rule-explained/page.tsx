@@ -27,8 +27,6 @@ export const metadata: Metadata = {
   title: "FEMA 50% Rule Tampa | Substantial Improvement",
   description:
     "Complete guide to the FEMA 50% Rule for Tampa Bay homeowners. Learn how substantial improvement calculations affect your flood zone renovation project.",
-  keywords:
-    "FEMA 50% rule Tampa, substantial improvement calculation, flood zone renovation, Tampa flood compliance, FEMA regulations Florida",
 };
 
 const calculationExamples = [

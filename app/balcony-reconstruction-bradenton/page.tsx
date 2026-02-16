@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-bradenton/' },
   title: "Balcony Reconstruction Bradenton | SB 4-D | FCS",
   description: "Bradenton balcony reconstruction specialists for Anna Maria Island condos, riverfront properties, and HOAs. SB 4-D milestone inspection compliance, structural repairs, waterproofing. Expert contractors serving Manatee County. Licensed, bonded, insured.",
-  keywords: "balcony reconstruction Bradenton, SB 4-D compliance Bradenton, condo balcony repair Anna Maria Island, balcony waterproofing Manatee County, milestone inspection Bradenton, HOA balcony contractor Bradenton FL",
 };
 
 const breadcrumbItems = [

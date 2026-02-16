@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/expert-witness/' },
   title: "Expert Witness | Construction Litigation Support | FCS Tampa",
   description: "Construction expert witness services in Tampa Bay. 40+ years experience providing credible testimony for litigation, arbitration, and dispute resolution.",
-  keywords: "construction expert witness Tampa, expert testimony Florida, construction litigation, building expert witness",
 };
 
 const breadcrumbItems = [

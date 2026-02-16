@@ -47,8 +47,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Tampa | SB4-D Compliance | FCS",
   description:
     "Tampa condo remediation specialists. SB4-D compliance, milestone inspections, SIRS reserve studies, structural repairs for condominiums 3+ stories. Hillsborough County expertise. Licensed CBC1262722. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Tampa, SB4-D compliance Tampa, milestone inspection Tampa, SIRS Tampa condominiums, condo structural repair Tampa, Tampa condo milestone inspection, Hillsborough County condo compliance, Tampa high-rise repair, condo balcony repair Tampa, Tampa Bay condo restoration",
   openGraph: {
     title: "Condo Remediation Tampa | SB4-D Compliance Specialists",
     description:

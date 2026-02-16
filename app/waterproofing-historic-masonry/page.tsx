@@ -31,8 +31,6 @@ export const metadata: Metadata = {
   title: "Waterproofing Historic Masonry Tampa Bay | FCS",
   description:
     "Historic masonry waterproofing Tampa: brick & stone preservation. Protect Hyde Park, Ybor historic homes from Florida moisture. Expert restoration contractor.",
-  keywords:
-    "historic masonry waterproofing Tampa, brick home waterproofing Florida, historic preservation moisture control, Hyde Park historic homes, waterproofing old brick",
 };
 
 const masonryTypes = [

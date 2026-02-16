@@ -29,8 +29,6 @@ export const metadata: Metadata = {
   title: "Florida SB4-D Compliance Guide | Milestone | FCS",
   description:
     "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections, SIRS requirements, deadlines, and remediation planning for Tampa Bay.",
-  keywords:
-    "SB4-D compliance Florida, condo milestone inspection, SIRS structural assessment, Florida condo safety law, condominium structural inspection Tampa",
 };
 
 const complianceDeadlines = [

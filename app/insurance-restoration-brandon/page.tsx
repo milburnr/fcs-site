@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-brandon/' },
   title: "Insurance Restoration Brandon FL | Storm Damage | FCS",
   description: "Brandon's most experienced insurance restoration contractor. 43 years claims expertise—7 as adjuster, 28 as contractor. Storm damage, fire restoration, flood recovery for Brandon, Valrico, Riverview, FishHawk. Fast response from nearby headquarters. Commercial & HOA specialists.",
-  keywords: "insurance restoration Brandon FL, property damage restoration East Hillsborough, storm damage Brandon, commercial restoration Valrico, insurance claim contractor Brandon, HOA restoration Riverview, FishHawk storm damage, Bloomingdale property restoration",
 };
 
 const breadcrumbItems = [

@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-sarasota/' },
   title: "Insurance Restoration Sarasota FL | Hurricane Recovery | FCS",
   description: "Sarasota insurance restoration contractor with 43 years claims experience from adjuster to contractor. Hurricane Ian recovery specialists. Luxury property claims, barrier island restoration on Siesta Key, Longboat Key, Lido Key. $250K-$50M projects.",
-  keywords: "insurance restoration Sarasota, Hurricane Ian restoration Sarasota, flood damage Siesta Key, luxury property restoration Sarasota, Longboat Key storm damage, Lido Key hurricane repair, insurance claim contractor Sarasota, high-value home restoration",
 };
 
 const breadcrumbItems = [

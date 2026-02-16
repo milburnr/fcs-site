@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/bradenton-fl/' },
   title: "Bradenton Commercial Construction | $500K+ | FCS",
   description: "Premier general contractor serving Bradenton, FL. Commercial construction, multi-family residential, disaster recovery. Growing market expertise. 40+ years experience. Call (813) 420-7561.",
-  keywords: "commercial construction bradenton, bradenton general contractor, disaster recovery bradenton fl, construction company bradenton florida",
 };
 
 const breadcrumbItems = [

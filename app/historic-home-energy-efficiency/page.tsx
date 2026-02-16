@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Historic Home Energy Efficiency Tampa | FCS",
   description:
     "Improve energy efficiency in Tampa Bay historic homes without compromising character. Preservation-approved insulation, windows, HVAC, and weatherization solutions for period properties.",
-  keywords:
-    "historic home energy efficiency Tampa, old house insulation Florida, vintage home HVAC, period house weatherization, Tampa historic district energy upgrades, preservation energy improvements",
 };
 
 const energyChallenges = [

@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/retail-construction/' },
   title: "Retail Construction Tampa | Shopping Centers & Stores | FCS",
   description: "Retail construction in Tampa Bay. Shopping centers, standalone stores, restaurants, mixed-use retail. Ground-up and tenant improvements. Fast timelines. Call (813) 420-7561.",
-  keywords: ["retail construction tampa", "shopping center construction florida", "store buildout", "restaurant construction", "retail development tampa bay"],
 };
 
 const breadcrumbItems = [

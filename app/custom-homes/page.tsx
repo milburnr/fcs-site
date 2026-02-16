@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   title: "Custom Home Builder Tampa Bay | Waterfront | FCS",
   description:
     "Custom home builder Tampa: Davis Islands, South Tampa, waterfront estates. 28+ years Florida expertise. Free consultation on your dream home project today.",
-  keywords:
-    "custom home builder Tampa, luxury homes Tampa Bay, waterfront home construction, custom house builder Florida, new home construction Tampa, high-end residential builder",
 };
 
 const breadcrumbItems = [

@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Breakaway Wall Construction Tampa Bay | FCS",
   description:
     "Complete guide to breakaway wall construction requirements for coastal homes in flood zones. FEMA regulations, design criteria, and construction standards for Tampa Bay waterfront properties.",
-  keywords:
-    "breakaway wall construction Florida, FEMA breakaway walls, VE zone construction, coastal flood resistant construction Tampa, flood zone building requirements",
 };
 
 const breakawayRequirements = [

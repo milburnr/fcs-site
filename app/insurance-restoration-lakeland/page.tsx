@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-lakeland/' },
   title: "Insurance Restoration Lakeland FL | Property Damage | FCS",
   description: "Lakeland's most experienced insurance restoration contractor. 43 years claims expertise—former adjuster AND contractor. Storm damage, fire restoration, commercial property recovery in Polk County. Serving Downtown, Lake Morton, Dixieland, and South Lakeland.",
-  keywords: "insurance restoration Lakeland, property damage restoration Polk County, storm damage Lakeland FL, commercial restoration Lakeland, fire damage restoration Lakeland, insurance claim contractor Polk County, industrial restoration Tampa Orlando corridor",
 };
 
 const insuranceExperience = [

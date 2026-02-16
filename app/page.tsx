@@ -7,15 +7,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/",
   },
-  keywords: [
-    "Tampa commercial construction",
-    "Tampa Bay construction",
-    "commercial contractor Tampa",
-    "large scale construction Florida",
-    "multi-family construction Tampa",
-    "commercial general contractor",
-    "Tampa construction company",
-  ],
 };
 
 export default function HomePage() {

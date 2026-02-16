@@ -23,8 +23,6 @@ export const metadata: Metadata = {
   title: "Our Team | Leadership & Expertise",
   description:
     "Meet the experienced leadership team at Florida Construction Specialists. Decades of combined expertise in commercial construction, historic restoration, and luxury custom homes in Tampa Bay.",
-  keywords:
-    "FCS team, Tampa construction leadership, commercial construction experts, historic restoration specialists",
 };
 
 const leadershipTeam = [

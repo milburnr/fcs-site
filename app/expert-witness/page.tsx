@@ -11,13 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-witness/' },
   title: "Construction Expert Witness Services",
   description: "Expert witness testimony for construction disputes in Florida. 43+ years experience, former insurance adjuster. Litigation support for attorneys. Call (813) 420-7561.",
-  keywords: [
-    "construction expert witness Tampa",
-    "expert witness construction litigation",
-    "construction defect expert witness Florida",
-    "insurance claim expert witness",
-    "building expert witness testimony",
-  ],
 };
 
 const breadcrumbItems = [

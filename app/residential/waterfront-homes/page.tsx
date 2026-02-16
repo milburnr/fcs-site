@@ -17,8 +17,6 @@ export const metadata: Metadata = {
   title: "Waterfront Home Construction Tampa | Seawall",
   description:
     "Luxury waterfront home construction in Tampa Bay. Seawall coordination, marine-grade materials, flood zone compliance. Davis Islands, Harbour Island specialists.",
-  keywords:
-    "waterfront home construction Tampa, seawall construction, coastal home builder, Davis Islands builder, flood zone construction, marine-grade materials",
 };
 
 const features = [

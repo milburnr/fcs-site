@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Seawall Coordination Tampa Bay | Waterfront | FCS",
   description:
     "Coordinating seawall work with new waterfront home construction in Tampa Bay. Timing, permits, setbacks, and contractor coordination for successful waterfront projects.",
-  keywords:
-    "seawall coordination Tampa, waterfront construction seawall, new home seawall timing, Tampa Bay seawall permits, waterfront lot development",
 };
 
 const coordinationTimeline = [

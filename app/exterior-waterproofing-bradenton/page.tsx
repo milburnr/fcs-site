@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-bradenton/' },
   title: "Exterior Waterproofing Bradenton | Envelope | FCS",
   description: "Bradenton exterior waterproofing contractor for commercial and residential buildings. Building envelope, foundation waterproofing, parking decks, waterfront property waterproofing. 10-year warranty. Licensed, bonded, insured.",
-  keywords: "exterior waterproofing Bradenton, building envelope waterproofing Bradenton, foundation waterproofing Bradenton, commercial waterproofing Bradenton, waterfront waterproofing Bradenton",
 };
 
 const breadcrumbItems = [

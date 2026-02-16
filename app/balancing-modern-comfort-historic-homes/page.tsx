@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Modern Comfort in Historic Homes Tampa | FCS",
   description:
     "Add modern amenities to Tampa Bay historic homes without sacrificing character. Expert integration of HVAC, smart home technology, updated kitchens and baths while preserving period authenticity.",
-  keywords:
-    "modern amenities historic home Tampa, smart home historic house, HVAC historic home Florida, updated kitchen historic house, modern bathroom vintage home, Tampa historic home modernization",
 };
 
 const modernizationAreas = [

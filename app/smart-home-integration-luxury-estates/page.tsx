@@ -35,8 +35,6 @@ export const metadata: Metadata = {
   title: "Smart Home Integration Tampa | Luxury Estates",
   description:
     "Premium smart home technology integration for luxury custom homes in Tampa Bay. Lighting, climate, security, AV, and whole-home automation systems.",
-  keywords:
-    "smart home luxury estates Tampa, home automation Tampa Bay, Crestron Savant Control4 Tampa, luxury home technology, whole house automation Florida",
 };
 
 const smartHomeSystems = [

@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Senior Living Construction Florida | AHCA | FCS",
   description:
     "Complete guide to senior living facility construction in Florida. AHCA licensing requirements, accessibility standards, memory care design, and assisted living construction specifications.",
-  keywords:
-    "senior living construction Florida, AHCA licensed facility construction, assisted living building requirements, memory care facility design Tampa, independent living construction, skilled nursing facility construction",
 };
 
 const facilityTypes = [

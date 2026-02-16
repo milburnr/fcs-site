@@ -47,8 +47,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Sarasota | SB4-D Compliance & SIRS",
   description:
     "Sarasota condo remediation experts. SB4-D compliance, milestone inspections, SIRS for Longboat Key, Siesta Key, Lido Key luxury condos. Post-Hurricane Ian structural repairs. Licensed. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Sarasota, SB4-D compliance Longboat Key, milestone inspection Siesta Key, SIRS Sarasota condominiums, luxury condo structural repair Sarasota, condo balcony repair Lido Key, St Armands condo restoration, Bird Key structural inspection, Sarasota County building compliance, hurricane damage condo repair Sarasota",
 };
 
 const breadcrumbItems = [

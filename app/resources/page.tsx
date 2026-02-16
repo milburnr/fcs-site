@@ -25,8 +25,6 @@ export const metadata: Metadata = {
   title: "Resources & Guides | Construction Knowledge Hub | FCS Tampa",
   description:
     "Expert guides on Tampa Bay construction regulations, FEMA compliance, historic preservation, SB4-D requirements, and more. Free resources for commercial and residential projects.",
-  keywords:
-    "Tampa construction guides, FEMA 50% rule guide, SB4-D compliance, historic preservation Tampa, construction resources",
 };
 
 const commercialResources = [

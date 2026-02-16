@@ -7,14 +7,6 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/insurance/",
   },
-  keywords: [
-    "insurance restoration Tampa",
-    "large loss insurance claims",
-    "Tampa insurance contractor",
-    "commercial insurance restoration",
-    "Xactimate estimating",
-    "insurance claim contractor",
-  ],
 };
 
 export default function InsurancePage() {

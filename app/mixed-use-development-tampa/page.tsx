@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Mixed-Use Development Construction Tampa | FCS Construction",
   description:
     "Expert mixed-use development construction in Tampa Bay. Navigate zoning, design residential-over-retail buildings, and create vibrant urban projects that maximize land value and community impact.",
-  keywords:
-    "mixed-use development Tampa, residential over retail Tampa Bay, urban infill construction Florida, live work buildings Tampa, mixed-use zoning Tampa, walkable development Florida",
 };
 
 const mixedUseTypes = [

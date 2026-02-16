@@ -12,7 +12,6 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-brandon/' },
   title: "Disaster Recovery Brandon FL | Hurricane | FCS",
-  keywords: "disaster recovery Brandon, hurricane damage restoration Brandon, storm damage repair Brandon, flood damage Brandon, insurance restoration Brandon, large loss contractor Brandon, Alafia River flooding",
 };
 
 const breadcrumbItems = [

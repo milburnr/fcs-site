@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Tampa Historic Social Clubs | Ybor City | FCS",
   description:
     "Restoring Tampa's historic social clubs and mutual aid societies. Expert preservation of Ybor City's Italian, Cuban, and Spanish club buildings with historic tax credit guidance.",
-  keywords:
-    "Tampa historic social clubs, Ybor City restoration, mutual aid society buildings, Italian club Tampa, Cuban club restoration, historic preservation Tampa",
 };
 
 const historicClubs = [

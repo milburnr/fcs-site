@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Historic Civic Building Reuse Tampa | FCS",
   description:
     "Expert adaptive reuse of historic civic buildings in Tampa Bay. Convert courthouses, post offices, schools, and city halls into modern commercial spaces while preserving historic character.",
-  keywords:
-    "adaptive reuse Tampa, historic civic building conversion, courthouse adaptive reuse, historic post office renovation, school building conversion Florida, historic preservation commercial",
 };
 
 const civicBuildingTypes = [

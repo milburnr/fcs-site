@@ -35,8 +35,6 @@ export const metadata: Metadata = {
   title: "Multi-Family Construction PM Tampa | Apartments",
   description:
     "Expert project management for multi-family construction in Tampa Bay. Condo, apartment, and mixed-use development scheduling, budgeting, stakeholder coordination, and risk management.",
-  keywords:
-    "multi-family construction project management, apartment building project manager Tampa, condo construction scheduling, multi-unit development coordination, residential complex construction management",
 };
 
 const projectPhases = [

@@ -46,8 +46,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Clearwater | SB4-D Compliance & SIRS",
   description:
     "Clearwater Beach condo remediation specialists. SB4-D compliance, milestone inspections, SIRS structural reserve studies for Sand Key, Island Estates, and Clearwater condominiums. Coastal zone deadline experts. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Clearwater, SB4-D compliance Clearwater Beach, milestone inspection Sand Key, SIRS Clearwater condominiums, beachfront condo structural repair, condo milestone inspection Clearwater, structural integrity reserve study Clearwater, Island Estates condo repair, Clearwater Beach condo restoration, Belleair condo remediation",
 };
 
 const breadcrumbItems = [

@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Historic Tax Credits Commercial Tampa | FCS",
   description:
     "Complete guide to federal and Florida historic tax credits for commercial building rehabilitation. Eligibility, application process, and maximizing returns on Tampa Bay historic properties.",
-  keywords:
-    "historic tax credit Florida, federal rehabilitation tax credit, commercial historic preservation Tampa, NPS tax credit application, historic building investment",
 };
 
 const taxCreditOverview = [

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
   title: "Insurance Restoration Ruskin FL | FCS Headquarters",
   description: "FCS is headquartered right here in Ruskin, FL - 822 Bayview Dr. 43 years insurance industry experience serving South Hillsborough: Ruskin, Sun City Center, Apollo Beach, Gibsonton, Wimauma. Fastest response times because we're already here.",
-  keywords: "insurance restoration Ruskin FL, property damage Sun City Center, storm damage Apollo Beach, South Hillsborough restoration, local contractor Ruskin, hurricane damage Ruskin, flood restoration Apollo Beach",
 };
 
 const southHillsboroughAreas = [

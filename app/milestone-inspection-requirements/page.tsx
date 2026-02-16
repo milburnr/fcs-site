@@ -32,8 +32,6 @@ export const metadata: Metadata = {
   title: "Milestone Inspection Requirements FL | SB 4-D",
   description:
     "Complete guide to milestone structural inspections for Florida condominiums under SB 4-D. Phase 1, Phase 2 requirements, timelines, and what to expect.",
-  keywords:
-    "milestone inspection Florida, SB 4-D inspection requirements, condo structural inspection Tampa, Phase 1 Phase 2 inspection, Florida condo safety",
 };
 
 const inspectionPhases = [

@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Renovating Historic Homes Tampa Bay | FCS",
   description:
     "Expert historic home renovation in Tampa Bay. Navigate preservation requirements, restore period features, and modernize sensitively while maintaining character in Hyde Park, Seminole Heights, and beyond.",
-  keywords:
-    "historic home renovation Tampa, old house restoration Florida, period home remodel Tampa Bay, vintage house renovation, historic preservation contractor, Tampa historic district renovation",
 };
 
 const renovationApproaches = [

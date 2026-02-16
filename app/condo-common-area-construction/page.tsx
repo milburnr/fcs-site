@@ -37,8 +37,6 @@ export const metadata: Metadata = {
   title: "Condo Common Area Construction Tampa | Lobby",
   description:
     "Expert condo common area construction and renovation in Tampa Bay. Lobby upgrades, pool deck renovations, fitness center buildouts, parking improvements, and amenity additions for HOAs.",
-  keywords:
-    "condo common area construction Tampa, HOA lobby renovation, condo amenity construction, pool deck renovation Florida, fitness center buildout condo, parking garage improvements",
 };
 
 const commonAreaTypes = [

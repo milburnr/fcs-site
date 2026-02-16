@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
   title: "Commercial Construction Bradenton | $500K+ | FCS",
   description: "Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
-  keywords: "commercial construction bradenton, commercial contractor bradenton, commercial builder bradenton fl, office building construction bradenton, medical facility construction bradenton",
 };
 
 const serviceFeatures = [

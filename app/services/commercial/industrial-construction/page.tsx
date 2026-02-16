@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Warehouse | FCS",
   description: "Industrial construction in Tampa Bay. Warehouses, distribution centers, manufacturing facilities, flex space. Tilt-wall, steel, concrete. $500K-$25M+ projects. Call (813) 420-7561.",
-  keywords: ["industrial construction tampa", "warehouse construction florida", "manufacturing facility builder", "distribution center construction", "flex space construction"],
 };
 
 const breadcrumbItems = [

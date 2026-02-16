@@ -13,13 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/' },
   title: "Commercial Construction in Tampa Bay",
   description: "Commercial contractor Tampa Bay: office, retail, industrial projects $500K-$25M+. Design-build expertise, 40+ years Florida construction. Schedule consultation today.",
-  keywords: [
-    "commercial construction tampa",
-    "commercial contractor florida",
-    "design-build construction tampa bay",
-    "commercial building contractor",
-    "tampa commercial construction company",
-    "large scale construction florida"],
 };
 
 const breadcrumbItems = [

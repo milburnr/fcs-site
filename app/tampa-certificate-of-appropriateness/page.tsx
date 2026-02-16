@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Certificate of Appropriateness Tampa | FCS",
   description:
     "Tampa Certificate of Appropriateness guide: COA application, historic property review criteria, approval strategies. Hyde Park, Ybor City restoration expertise.",
-  keywords:
-    "certificate of appropriateness Tampa, COA historic review, Tampa historic preservation, ARC approval Tampa, historic renovation permit, Hyde Park historic review",
 };
 
 const coaTypes = [

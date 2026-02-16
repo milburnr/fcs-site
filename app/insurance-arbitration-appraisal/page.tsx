@@ -12,15 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-arbitration-appraisal/' },
   title: "Insurance Arbitration & Appraisal Services",
   description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster. Schedule consultation: (813) 420-7561.",
-  keywords: [
-    "insurance arbitration Florida",
-    "insurance appraisal services Tampa",
-    "appraisal clause insurance dispute",
-    "property damage appraiser",
-    "insurance umpire services",
-    "insurance claim arbitration",
-    "appraisal panel appraiser",
-  ],
 };
 
 const breadcrumbItems = [

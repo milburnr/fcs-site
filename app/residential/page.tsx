@@ -13,8 +13,6 @@ export const metadata: Metadata = {
   title: "Lifetime Custom Homes Tampa | Luxury Home Builder | FCS",
   description:
     "Luxury custom homes Tampa Bay: waterfront estates, hurricane-resistant design, historic renovations. 28+ years building lifetime residences. Schedule consultation.",
-  keywords:
-    "luxury custom homes Tampa, waterfront home builder Tampa Bay, custom home design Florida, high-end residential construction, Davis Islands homes, South Tampa custom builder",
 };
 
 const breadcrumbItems = [

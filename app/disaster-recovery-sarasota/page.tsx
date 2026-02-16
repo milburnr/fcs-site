@@ -12,7 +12,6 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-sarasota/' },
   title: "Disaster Recovery Sarasota | Hurricane | FCS",
-  keywords: "disaster recovery Sarasota, hurricane damage restoration Sarasota, storm damage repair Sarasota, flood damage Sarasota, insurance restoration Sarasota, barrier island restoration, Siesta Key disaster recovery, Longboat Key storm damage",
 };
 
 const breadcrumbItems = [

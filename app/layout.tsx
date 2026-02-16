@@ -32,14 +32,6 @@ export const metadata: Metadata = {
   },
   description:
     "With decades of experience in construction and insurance restoration, both residential and commercial, you can count on Florida Construction Specialists.",
-  keywords: [
-    "Tampa commercial construction",
-    "Florida construction",
-    "balcony reconstruction",
-    "historic restoration",
-    "exterior waterproofing",
-    "Tampa contractor",
-  ],
   authors: [{ name: BUSINESS_INFO.name }],
   creator: BUSINESS_INFO.name,
   icons: {

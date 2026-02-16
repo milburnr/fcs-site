@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
   title: "Multi-Family Construction Tampa | Apartments | FCS",
   description: "Multi-family construction Tampa: condos, apartments, mixed-use. $1M-$50M+ projects. In-house engineering, SB4-D compliance, 40+ years Florida experience. Request bid.",
-  keywords: "multi-family construction Tampa, apartment construction Florida, condo construction Tampa Bay, multi-family general contractor, apartment building contractor Florida, condominium builder Tampa",
 };
 
 const comprehensiveFaqs = [

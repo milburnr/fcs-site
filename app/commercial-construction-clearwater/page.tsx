@@ -15,14 +15,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
   title: "Commercial Construction in Clearwater",
   description: "Commercial construction Clearwater: $500K-$25M+ office, retail, medical projects. Design-build contractor serving Pinellas County. Call for project consultation.",
-  keywords: [
-    "commercial construction clearwater",
-    "commercial contractor clearwater",
-    "commercial building clearwater",
-    "clearwater commercial construction company",
-    "design-build clearwater",
-    "commercial general contractor clearwater fl",
-  ],
 };
 
 const breadcrumbItems = [

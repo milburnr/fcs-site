@@ -12,7 +12,6 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-ruskin/' },
   title: "Disaster Recovery Ruskin FL | Hurricane | FCS",
-  keywords: "disaster recovery Ruskin, hurricane damage restoration Ruskin, storm damage repair Ruskin, flood damage Apollo Beach, insurance restoration Ruskin, Sun City Center restoration, large loss contractor Ruskin",
 };
 
 const breadcrumbItems = [

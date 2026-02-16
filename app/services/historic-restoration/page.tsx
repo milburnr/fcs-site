@@ -13,14 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/historic-restoration/' },
   title: "Historic Restoration & Preservation in Tampa Bay",
   description: "Historic restoration Tampa: SHPO compliance, tax credits, Secretary of Interior Standards. Ybor City, Hyde Park specialist. Schedule preservation consultation.",
-  keywords: [
-    "historic restoration tampa",
-    "historic building renovation florida",
-    "shpo compliance contractor",
-    "historic preservation tampa bay",
-    "ybor city restoration",
-    "historic tax credit construction",
-  ],
 };
 
 const breadcrumbItems = [

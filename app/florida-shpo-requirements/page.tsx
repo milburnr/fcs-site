@@ -33,8 +33,6 @@ export const metadata: Metadata = {
   title: "Florida SHPO Requirements | Preservation | FCS",
   description:
     "Navigate Florida State Historic Preservation Office (SHPO) requirements for construction projects. Federal tax credits, Section 106 review, and preservation compliance.",
-  keywords:
-    "Florida SHPO requirements, State Historic Preservation Office Florida, Section 106 review Tampa, historic tax credit application, NHPA compliance Florida, historic building permits",
 };
 
 const reviewTypes = [

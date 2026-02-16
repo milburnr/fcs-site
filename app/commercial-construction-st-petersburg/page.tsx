@@ -15,14 +15,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
   title: "Commercial Construction in St. Petersburg",
   description: "Commercial construction St Petersburg: $500K-$25M+ design-build, medical, multi-family projects. Historic restoration, federal compliance. Schedule St Pete consultation.",
-  keywords: [
-    "commercial construction st petersburg",
-    "commercial contractor st petersburg",
-    "commercial building st petersburg",
-    "st petersburg commercial construction company",
-    "design-build st petersburg",
-    "commercial general contractor st petersburg fl",
-  ],
 };
 
 const breadcrumbItems = [

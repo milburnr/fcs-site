@@ -35,8 +35,6 @@ export const metadata: Metadata = {
   title: "Tampa Bay Waterfront Custom Homes | FCS",
   description:
     "Expert waterfront home construction on Tampa Bay. Navigate flood zones, seawall requirements, SWFWMD permits, and marine construction challenges for your dream waterfront property.",
-  keywords:
-    "waterfront home construction Tampa Bay, building on water Tampa, seawall construction Tampa, SWFWMD permits, flood zone construction waterfront, Tampa Bay custom homes",
 };
 
 const waterfrontChallenges = [

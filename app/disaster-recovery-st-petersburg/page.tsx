@@ -33,18 +33,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-st-petersburg/' },
   title: "Disaster Recovery in St. Petersburg",
   description: "St. Petersburg large loss disaster recovery contractor. 43+ years claims experience, $250K+ insurance restoration, barrier island expertise. Call (813) 420-7561.",
-  keywords: [
-    "disaster recovery st petersburg",
-    "hurricane damage restoration st petersburg",
-    "insurance restoration st petersburg",
-    "storm damage repair st petersburg",
-    "large loss contractor st petersburg",
-    "flood damage restoration st petersburg",
-    "fire damage contractor st petersburg",
-    "insurance claim contractor st petersburg",
-    "pinellas county disaster recovery",
-    "barrier island storm damage",
-  ],
 };
 
 const breadcrumbItems = [

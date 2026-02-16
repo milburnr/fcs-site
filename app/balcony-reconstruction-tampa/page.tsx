@@ -44,8 +44,6 @@ export const metadata: Metadata = {
   title: "Balcony Reconstruction in Tampa",
   description:
     "Tampa balcony reconstruction experts. SB4-D compliance, milestone inspections, condo balcony repair. Structural restoration for condos 3+ stories. Licensed, bonded. Call (813) 420-7561.",
-  keywords:
-    "balcony reconstruction Tampa, SB4-D compliance Tampa, condo balcony repair Tampa, milestone inspection Tampa, SIRS Tampa, balcony waterproofing Tampa, structural balcony repair Tampa, HOA balcony contractor Tampa",
 };
 
 const breadcrumbItems = [

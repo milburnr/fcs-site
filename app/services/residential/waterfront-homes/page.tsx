@@ -11,7 +11,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/waterfront-homes/' },
   title: "Waterfront Home Construction Tampa | Coastal",
   description: "Waterfront custom home construction in Tampa Bay. Bayfront, Gulf, river, and lakefront properties. FEMA compliance, seawall coordination, marine-grade materials. $1M+ homes. Call (813) 420-7561.",
-  keywords: ["waterfront home construction tampa", "bayfront home builder", "luxury waterfront builder florida", "coastal home construction", "waterfront custom homes"],
 };
 
 const breadcrumbItems = [

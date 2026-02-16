@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-lakeland/' },
   title: "Commercial Construction Lakeland | $500K+ | FCS",
   description: "Premier commercial construction contractor in Lakeland, Florida. I-4 corridor logistics, Publix headquarters area, medical facilities, retail centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
-  keywords: "commercial construction lakeland, commercial contractor lakeland, commercial builder lakeland fl, warehouse construction lakeland, industrial construction lakeland, office building construction lakeland",
 };
 
 const serviceFeatures = [

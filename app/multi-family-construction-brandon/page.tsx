@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-brandon/' },
   title: "Multi-Family Construction Brandon | Condos | FCS",
   description: "Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Prime contractor on all projects. Call (813) 420-7561.",
-  keywords: "multi-family construction brandon, apartment construction brandon fl, condo builder brandon florida, townhome construction brandon, senior living construction brandon, fishhawk ranch construction",
 };
 
 const projectTypes = [

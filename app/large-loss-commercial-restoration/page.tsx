@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Large Loss Commercial Restoration Tampa | $500K+",
   description:
     "Expert large loss commercial restoration in Tampa Bay. Specialized expertise for complex insurance claims over $500K including multi-building disasters, manufacturing facilities, and major structural damage.",
-  keywords:
-    "large loss restoration Tampa, commercial disaster recovery Florida, major insurance claims construction, catastrophic damage repair, multi-million dollar restoration, Tampa large loss contractor",
 };
 
 const largeLossCategories = [

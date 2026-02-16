@@ -12,8 +12,6 @@ export const metadata: Metadata = {
   title: "Our Team | Florida Construction Specialists Leadership",
   description:
     "Meet the experienced leadership team at Florida Construction Specialists. 28+ years serving Tampa Bay with licensed, bonded, and insured commercial and residential construction expertise.",
-  keywords:
-    "FCS team, construction company leadership Tampa, licensed general contractor Florida, commercial builder team, construction management Tampa Bay",
 };
 
 const breadcrumbItems = [

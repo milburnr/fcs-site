@@ -39,8 +39,6 @@ export const metadata: Metadata = {
   title: "Historic Restoration Tampa | SHPO Compliance | FCS",
   description:
     "Expert historic restoration in Tampa Bay with proven National Register experience. Historic tax credits, SHPO compliance, Ybor City specialists. Italian Club, Lion's Eye Institute, Bay Pines VA Hospital restoration.",
-  keywords:
-    "historic restoration Tampa, historic preservation Florida, SHPO compliance, historic tax credits Florida, National Register restoration, Ybor City restoration, historic building restoration, Secretary of Interior Standards",
 };
 
 const features = [

@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
   title: "Multi-Family Construction Sarasota | Condos | FCS",
   description: "Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. Architectural excellence for discerning buyers. Call (813) 420-7561.",
-  keywords: "multi-family construction sarasota, luxury condo builder sarasota fl, apartment construction sarasota, townhome construction sarasota, senior living construction sarasota, longboat key construction",
 };
 
 const projectTypes = [

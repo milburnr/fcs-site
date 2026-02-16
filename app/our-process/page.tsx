@@ -27,8 +27,6 @@ export const metadata: Metadata = {
   title: "Our Process | Custom Home Building Journey",
   description:
     "Discover our proven 6-phase custom home building process. From initial consultation to final walkthrough, see how FCS delivers luxury homes in Tampa Bay with transparency and excellence.",
-  keywords:
-    "custom home building process, luxury home construction timeline, design-build process Tampa, custom home phases, home building journey",
 };
 
 const processSteps = [

@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Hurricane-Resistant Luxury Homes Tampa Bay | FCS",
   description:
     "Design strategies for hurricane-resistant luxury homes in Tampa Bay. Impact windows, fortified construction, backup power systems, and architectural features that protect without compromising elegance.",
-  keywords:
-    "hurricane resistant home design Tampa, luxury storm proof homes Florida, impact resistant construction Tampa Bay, fortified home builder Tampa, hurricane proof custom home",
 };
 
 const designPrinciples = [

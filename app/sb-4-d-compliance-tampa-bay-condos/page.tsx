@@ -13,7 +13,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb-4-d-compliance-tampa-bay-condos/' },
   title: "SB 4-D Compliance Tampa Bay Condos | FCS",
   description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Milestone inspection requirements, SIRS deadlines, and remediation services from Florida Construction Specialists.",
-  keywords: "sb 4-d compliance tampa bay, surfside law florida, condo inspection law tampa, florida building safety act, milestone inspection tampa",
 };
 
 const faqs = [

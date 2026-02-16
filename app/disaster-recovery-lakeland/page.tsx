@@ -12,7 +12,6 @@ import { ContentParallax } from "@/components/ContentImage";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-lakeland/' },
   title: "Disaster Recovery Lakeland FL | Storm | FCS",
-  keywords: "disaster recovery Lakeland, tornado damage restoration Lakeland, storm damage repair Lakeland, flood damage Lakeland, insurance restoration Lakeland, large loss contractor Lakeland, Frank Lloyd Wright restoration",
 };
 
 const breadcrumbItems = [

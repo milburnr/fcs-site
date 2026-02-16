@@ -31,8 +31,6 @@ export const metadata: Metadata = {
   title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
   description:
     "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements, elevation rules, and insurance implications.",
-  keywords:
-    "flood zone VE AE Tampa, coastal construction requirements Florida, V zone construction, AE flood zone building, Tampa Bay waterfront homes",
 };
 
 const zoneComparison = [

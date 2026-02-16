@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Waterfront Lot Site Preparation Tampa Bay | FCS Construction",
   description:
     "Expert waterfront lot site preparation in Tampa Bay. Navigate environmental permits, seawall requirements, fill placement, and flood zone compliance before building your dream waterfront home.",
-  keywords:
-    "waterfront site prep Tampa, waterfront lot preparation Florida, seawall construction Tampa Bay, SWFWMD permits, waterfront grading, flood zone site work",
 };
 
 const sitePrepPhases = [

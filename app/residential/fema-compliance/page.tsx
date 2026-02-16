@@ -11,8 +11,6 @@ export const metadata: Metadata = {
   title: "FEMA Compliance Tampa | 50% Rule | Flood Zone",
   description:
     "FEMA 50% rule specialists in Tampa Bay. Substantial improvement calculations, flood zone VE vs AE, elevation certificates, breakaway wall construction.",
-  keywords:
-    "FEMA 50% rule Tampa, substantial improvement, flood zone construction, elevation certificate, breakaway walls, VE flood zone, AE flood zone",
 };
 
 const features = [

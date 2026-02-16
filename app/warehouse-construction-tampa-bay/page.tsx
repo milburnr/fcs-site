@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Warehouse Construction Tampa Bay | Distribution",
   description:
     "Expert warehouse and distribution center construction in Tampa Bay. From e-commerce fulfillment to cold storage, we build facilities that optimize your operations.",
-  keywords:
-    "warehouse construction Tampa, distribution center construction Florida, logistics facility Tampa Bay, cold storage construction, e-commerce fulfillment center, industrial warehouse builder",
 };
 
 const warehouseTypes = [

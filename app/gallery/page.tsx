@@ -24,8 +24,6 @@ export const metadata: Metadata = {
   title: "Project Gallery Tampa | Commercial Portfolio | FCS",
   description:
     "Explore Florida Construction Specialists' portfolio of commercial construction, luxury custom homes, historic restorations, and insurance restoration projects throughout Tampa Bay.",
-  keywords:
-    "Tampa construction portfolio, commercial construction gallery, custom home photos, historic restoration projects, FCS portfolio",
 };
 
 // Commercial project categories

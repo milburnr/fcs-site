@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/certified-estimating/' },
   title: "Certified Estimating | Xactimate Insurance Estimates | FCS Tampa",
   description: "Xactimate-certified construction estimates for insurance claims. Detailed, defensible documentation that ensures fair settlements. Tampa Bay's trusted estimating experts.",
-  keywords: "Xactimate certified estimator Tampa, insurance claim estimate, construction estimating Florida, certified estimates",
 };
 
 const breadcrumbItems = [

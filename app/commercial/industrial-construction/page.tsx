@@ -42,8 +42,6 @@ export const metadata: Metadata = {
   title: "Industrial Construction Tampa | Tilt-Wall | FCS",
   description:
     "Industrial and warehouse construction in Tampa Bay. Tilt-wall construction, steel buildings, flex space, and distribution centers. $500K-$25M+ projects. 40+ years experience.",
-  keywords:
-    "industrial construction Tampa, warehouse construction Florida, tilt-wall construction Tampa Bay, flex space construction, distribution center construction, manufacturing facility construction",
 };
 
 const features = [

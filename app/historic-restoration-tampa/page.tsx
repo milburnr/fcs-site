@@ -14,18 +14,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-tampa/' },
   title: "Historic Restoration in Tampa",
   description: "Historic restoration Tampa: Ybor City, Hyde Park, Seminole Heights preservation. SHPO compliance, tax credits, Secretary of Interior Standards. Expert contractor.",
-  keywords: [
-    "historic restoration tampa",
-    "ybor city restoration",
-    "hyde park historic renovation",
-    "tampa historic preservation",
-    "SHPO compliance tampa",
-    "historic tax credits florida",
-    "barrio latino commission",
-    "seminole heights restoration",
-    "certificate of appropriateness tampa",
-    "historic building renovation tampa",
-  ],
 };
 
 const breadcrumbItems = [

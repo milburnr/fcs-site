@@ -47,8 +47,6 @@ export const metadata: Metadata = {
   title: "Condo Remediation Bradenton | SB4-D Compliance & SIRS",
   description:
     "Bradenton condo remediation and SB4-D compliance experts. Milestone inspections, SIRS structural reserve studies, balcony repair for Anna Maria Island, Holmes Beach, Palmetto condos. Licensed, bonded. Call (813) 420-7561.",
-  keywords:
-    "condo remediation Bradenton, SB4-D compliance Anna Maria, milestone inspection Manatee County, SIRS Bradenton condos, condo structural repair Bradenton, HOA compliance contractor Bradenton, Anna Maria Island condo repair, Holmes Beach milestone inspection, Bradenton Beach structural assessment, Lakewood Ranch condo remediation",
 };
 
 const breadcrumbItems = [

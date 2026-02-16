@@ -12,7 +12,6 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/appraisal-arbitration/' },
   title: "Appraisal & Arbitration | Insurance Claim Disputes | FCS Tampa",
   description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements. Expert representation for property owners.",
-  keywords: "insurance appraisal Tampa, claim arbitration Florida, disputed insurance claim, appraisal clause",
 };
 
 const breadcrumbItems = [

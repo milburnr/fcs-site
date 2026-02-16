@@ -34,8 +34,6 @@ export const metadata: Metadata = {
   title: "Living Shoreline vs Seawall Tampa Bay | FCS",
   description:
     "Compare living shorelines and traditional seawalls for Tampa Bay waterfront properties. Environmental benefits, costs, permits, and which approach suits your property.",
-  keywords:
-    "living shoreline Tampa Bay, seawall vs living shoreline, natural shoreline stabilization, oyster reef restoration, mangrove planting Tampa, waterfront erosion control Florida",
 };
 
 const comparisonTable = [
