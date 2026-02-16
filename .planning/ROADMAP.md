@@ -74,11 +74,13 @@ Plans:
   2. ServiceSchema with hasOfferCatalog is on all core service landing pages, FAQ schema only appears where FAQ content is visible, and all schema passes Google Rich Results Test
   3. NAP (Name, Address, Phone) is identical on every page and matches Google Business Profile exactly
   4. Trust badges ("Since 1982 | Licensed CGC CBC1262722 | In-House Engineering") are visible sitewide, phone is prominent on mobile with sticky CTA, and forms have trust signals nearby
-**Plans**: TBD
+**Plans:** 4 plans
 
 Plans:
-- [ ] 03-01: TBD
-- [ ] 03-02: TBD
+- [ ] 03-01-PLAN.md -- NAP consistency: fix 40 wrong phone numbers + 6+ wrong license numbers across all pages
+- [ ] 03-02-PLAN.md -- Schema component fixes: remove pricing, add hasOfferCatalog, fix areaServed, remove LocalBusinessSchema from layout.tsx
+- [ ] 03-03-PLAN.md -- Schema placement: add ArticleSchema to ~110 guide pages, restrict LocalBusinessSchema to relevant pages, add ServiceSchema to hubs
+- [ ] 03-04-PLAN.md -- Trust signals: footer trust line, fix StickyMobileCTA text, SAB address display, verify GA4 phone tracking
 
 ### Phase 4: Hub Page Expansion
 **Goal**: The 5 thin hub pages (services, locations, insurance, contact, and any additional) become comprehensive pillar content that anchors the entire silo structure
@@ -177,7 +179,7 @@ Phases execute in numeric order. Note: Phases 4 and 6 both depend on Phase 2 (no
 |-------|----------------|--------|-----------|
 | 1. Content Audit & Cleanup | 0/7 | Not started | - |
 | 2. Silo Architecture & Internal Linking | 0/6 | Not started | - |
-| 3. Schema & Trust Signals | 0/? | Not started | - |
+| 3. Schema & Trust Signals | 0/4 | Not started | - |
 | 4. Hub Page Expansion | 0/? | Not started | - |
 | 5. Location Page Strengthening | 0/? | Not started | - |
 | 6. E-E-A-T Signals | 0/? | Not started | - |
