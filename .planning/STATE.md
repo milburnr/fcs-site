@@ -110,5 +110,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Phase 2 COMPLETE. Ready for Phase 3 (Schema Markup & NAP).
-Resume file: None
+Stopped at: Phase 3 context gathered
+Resume file: .planning/phases/03-schema-trust-signals/03-CONTEXT.md
