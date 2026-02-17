@@ -202,6 +202,9 @@ export default function DesignBuildPage() {
               Design-build is a project delivery method that combines architectural design and construction services under a single contract. Unlike traditional design-bid-build—where owners hire an architect, wait for complete drawings, then bid the project to contractors—design-build integrates the design and construction teams from the project's inception.
             </p>
             <p className="text-gray-600 mb-6">
+              Florida Construction Specialists has delivered design-build projects across Tampa Bay since 1982, leveraging our in-house engineering capabilities and strong relationships with local architects. With over 300 completed projects and CBC license CBC1262722, we bring the construction expertise that makes integrated project delivery work—real-time cost feedback, constructability reviews, and value engineering grounded in decades of field experience.
+            </p>
+            <p className="text-gray-600 mb-6">
               This integrated approach means the builder provides constructability input during design, the designer understands budget constraints in real-time, and the owner works with one accountable team rather than managing separate contracts with potentially conflicting interests.
             </p>
             <p className="text-gray-600 mb-8">

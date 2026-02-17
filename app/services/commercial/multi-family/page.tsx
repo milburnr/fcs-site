@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
   title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
@@ -173,8 +174,18 @@ export default function MultiFamilyPage() {
               Multi-family construction requires a unique combination of residential quality and commercial efficiency. Developers need projects delivered on budget and schedule to meet pro forma targets. Residents expect quality finishes and functional living spaces. Property managers need durable construction that minimizes maintenance.
             </p>
             <p className="text-gray-600 mb-6">
+              Florida Construction Specialists has delivered multi-family projects across Tampa Bay since 1982, from garden-style apartment communities to mid-rise condominium buildings. With over 300 completed projects and in-house engineering under CBC license CBC1262722, we bring the structural expertise and construction systems that complex multi-family developments demand.
+            </p>
+            <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we understand these sometimes-competing demands. Our experience spans garden-style apartments, mid-rise buildings, townhome communities, and senior living facilities throughout Tampa Bay. We bring the systems and processes that deliver repetitive unit construction efficiently while maintaining the quality that supports successful lease-up and long-term property performance.
             </p>
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Mandatory Structural Inspections — Milestone Inspections"
+              description="Requires condominium and cooperative buildings 3 or more stories tall to undergo milestone structural inspections at 30 years (25 years within 3 miles of coast) and every 10 years thereafter. FCS coordinates these inspections and manages resulting repair work."
+              link="https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
             <p className="text-gray-600 mb-8">
               Whether you're developing a small townhome community or a large-scale apartment development, we provide the multi-family expertise your project requires.
             </p>

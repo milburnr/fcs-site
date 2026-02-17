@@ -173,6 +173,9 @@ export default function RetailConstructionPage() {
               Retail construction operates on demanding timelines. Lease commencement dates don't wait. Seasonal openings drive schedules. Every day of delay impacts revenue. At Florida Construction Specialists, we understand retail's urgency and deliver projects that meet opening dates without compromising quality.
             </p>
             <p className="text-gray-600 mb-6">
+              Since 1982, our team has built retail environments throughout Tampa Bay—from national brand rollouts to local restaurant buildouts. With CBC license CBC1262722 and in-house engineering, we navigate fast-track permitting and complex tenant coordination that retail timelines demand.
+            </p>
+            <p className="text-gray-600 mb-6">
               We build the full spectrum of retail environments: shopping centers that attract tenants, standalone stores that serve customers, restaurants that deliver experiences, and tenant improvements that transform spaces. Our experience includes national brand rollouts with strict prototype standards and local retailers with unique visions.
             </p>
             <p className="text-gray-600 mb-8">

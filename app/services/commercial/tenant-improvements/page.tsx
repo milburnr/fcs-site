@@ -173,6 +173,9 @@ export default function TenantImprovementsPage() {
               Whether you're leasing new space or renovating your current location, tenant improvements transform commercial real estate into environments that support your business operations. At Florida Construction Specialists, we understand that TI projects often have aggressive timelines—leases start, rent begins, and businesses need to open.
             </p>
             <p className="text-gray-600 mb-6">
+              With 40+ years of commercial construction experience and CBC license CBC1262722, our team has completed tenant improvement projects across every building type in Tampa Bay—from Class A office towers to neighborhood retail centers. We bring the landlord relationships, permitting knowledge, and trade partner network that efficient TI delivery requires.
+            </p>
+            <p className="text-gray-600 mb-6">
               We bring systems and processes that deliver TI projects efficiently: proactive landlord coordination, permit management, experienced trade partners, and attention to the details that create professional, functional spaces. From basic office buildouts to complex restaurant construction, we manage every aspect of tenant improvement construction.
             </p>
             <p className="text-gray-600 mb-8">

@@ -173,6 +173,9 @@ export default function KitchenRemodelingPage() {
               The kitchen is the heart of your home—where meals are prepared, families gather, and memories are made. A luxury kitchen renovation transforms not just the space but how you experience your home. Whether you're an avid cook who demands professional-grade performance or an entertainer who wants guests gathered around an expansive island, we create kitchens designed for your life.
             </p>
             <p className="text-gray-600 mb-6">
+              Florida Construction Specialists has remodeled kitchens in some of Tampa Bay's finest homes since 1982—from waterfront estates on Davis Islands to historic residences in Old Northeast St. Petersburg. Our in-house engineering supports structural modifications like wall removals and ceiling changes that luxury kitchen transformations often require.
+            </p>
+            <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we approach luxury kitchen remodeling with the same attention we bring to our largest projects. Every cabinet joint, every stone seam, every fixture placement matters. We work with talented designers, skilled craftspeople, and premium suppliers to deliver kitchens that satisfy both aesthetically and functionally.
             </p>
             <p className="text-gray-600 mb-8">

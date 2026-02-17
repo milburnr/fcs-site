@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/commercial-additions/' },
   title: "Commercial Additions Tampa | Building Expansions | FCS",
@@ -173,8 +174,18 @@ export default function CommercialAdditionsPage() {
               When your business outgrows its current space, you face a choice: relocate or expand. For many Tampa Bay businesses, expansion makes more sense—preserving your established location, avoiding operational disruption, and building exactly the space you need connected to your existing facility.
             </p>
             <p className="text-gray-600 mb-6">
+              Our in-house engineering team has assessed and expanded commercial structures across Tampa Bay for over four decades. Under CBC license CBC1262722, Florida Construction Specialists brings the structural analysis and code compliance expertise that commercial additions require—particularly when connecting new construction to existing buildings.
+            </p>
+            <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we build commercial additions that integrate seamlessly with existing buildings. We match structural systems, extend utilities, and coordinate construction around your ongoing operations. Whether you're adding warehouse capacity, office space, manufacturing area, or retail square footage, we deliver additions that function as natural extensions of your facility.
             </p>
+            <CodeReference
+              code="Florida Building Code, 8th Edition (2023)"
+              section="Chapter 34 — Existing Buildings: Additions and Alterations"
+              description="Additions to existing commercial buildings must comply with current Florida Building Code for the new work, and may trigger upgrades to the existing structure. FCS manages code compliance for both new additions and required existing building upgrades."
+              link="https://www.floridabuilding.org/"
+              linkText="Florida Building Commission"
+            />
             <p className="text-gray-600 mb-8">
               Our experience spans warehouse and industrial expansions, office building additions, retail growth projects, and specialized additions for manufacturing and healthcare facilities. We understand the complexities of occupied building construction and the importance of minimizing disruption to your business.
             </p>

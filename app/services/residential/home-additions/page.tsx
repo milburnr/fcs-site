@@ -173,6 +173,9 @@ export default function HomeAdditionsPage() {
               When your home no longer fits your life—whether due to a growing family, aging parents, work-from-home needs, or simply wanting more space—you face a choice: move or improve. For families who love their neighborhood, their schools, and their community, a well-designed addition often makes more sense than relocating.
             </p>
             <p className="text-gray-600 mb-6">
+              Our in-house engineering team evaluates existing structures before every addition project, ensuring foundations, framing, and systems can support the expansion. Since 1982, Florida Construction Specialists has expanded homes across Tampa Bay—from second-story additions in historic Hyde Park to master suite expansions on waterfront properties.
+            </p>
+            <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we build home additions that feel like they've always been part of your house. We match rooflines, materials, and architectural details so the addition integrates seamlessly. Inside, we ensure smooth transitions between existing and new spaces—matching flooring, trim, and finish levels.
             </p>
             <p className="text-gray-600 mb-8">

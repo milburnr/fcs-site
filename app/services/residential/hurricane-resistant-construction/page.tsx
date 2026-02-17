@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/' },
   title: "Hurricane-Resistant Home Construction Tampa | FCS",
@@ -169,8 +170,18 @@ export default function HurricaneResistantPage() {
               Tampa Bay has been fortunate to avoid a direct major hurricane hit in recent decades, but that luck will eventually change. When it does, the difference between homes that survive and those that don't comes down to construction quality—specifically, how well the building resists wind, water, and debris.
             </p>
             <p className="text-gray-600 mb-6">
+              Since 1982, Florida Construction Specialists has built and restored structures through every major Florida hurricane season. Our in-house engineering team designs continuous load paths and reinforced connections that exceed Florida Building Code minimums, and our CBC license (CBC1262722) reflects four decades of commitment to storm-resilient construction across Tampa Bay.
+            </p>
+            <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we build homes that are prepared for that day. Our hurricane-resistant construction integrates multiple protection systems: impact-rated openings that stop wind-borne debris, reinforced roof connections that resist uplift, continuous load paths that hold the structure together, and flood-resilient features for properties in vulnerable areas.
             </p>
+            <CodeReference
+              code="Florida Building Code, 8th Edition (2023)"
+              section="Section 1609 — Wind Loads"
+              description="Establishes minimum design wind speed requirements for structures in Florida. Tampa Bay coastal areas require 150-170 mph design wind speed; inland areas 130-150 mph. FCS builds to or above these requirements for maximum hurricane protection."
+              link="https://www.floridabuilding.org/"
+              linkText="Florida Building Commission"
+            />
             <p className="text-gray-600 mb-8">
               This isn't about building bunkers—it's about building beautiful homes that happen to be exceptionally strong. Modern hurricane-resistant construction is virtually invisible; your home looks the same but performs dramatically better when storms threaten.
             </p>

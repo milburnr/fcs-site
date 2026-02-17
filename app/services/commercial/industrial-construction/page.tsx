@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
   title: "Industrial Construction Tampa | Warehouse | FCS",
@@ -188,8 +189,18 @@ export default function IndustrialConstructionPage() {
               Tampa Bay's strategic location—with Port Tampa Bay, interstate access, and central Florida proximity—makes it a prime market for industrial development. Whether you're building a distribution center to serve the Southeast, a manufacturing facility for production operations, or flex space for a growing business, Florida Construction Specialists delivers industrial facilities that support your success.
             </p>
             <p className="text-gray-600 mb-6">
+              With over 40 years of Florida construction experience and in-house engineering capabilities, our team has built industrial facilities from cold storage warehouses to heavy manufacturing plants along the I-4 corridor. Under CBC license CBC1262722, we manage fire safety compliance, occupancy classifications, and structural requirements that industrial projects demand.
+            </p>
+            <p className="text-gray-600 mb-6">
               We build industrial facilities using the construction methods best suited to your requirements: tilt-wall concrete for cost-effective large footprints, pre-engineered metal buildings for fast timelines, conventional steel for maximum flexibility, and concrete construction for demanding applications. Our pre-construction process identifies the right approach for your project.
             </p>
+            <CodeReference
+              code="Florida Building Code, 8th Edition (2023)"
+              section="Chapter 3 — Use and Occupancy Classification; Chapter 9 — Fire Protection and Life Safety Systems"
+              description="Industrial facilities must meet specific fire safety requirements based on occupancy group (Factory F-1/F-2, Storage S-1/S-2, High-Hazard H). FCS ensures proper fire suppression, exiting, and occupancy separation for all industrial construction."
+              link="https://www.floridabuilding.org/"
+              linkText="Florida Building Commission"
+            />
             <p className="text-gray-600 mb-8">
               From site development through building completion, we manage every aspect of industrial construction—foundations, structural systems, building envelope, dock equipment, and specialized systems for manufacturing operations.
             </p>
