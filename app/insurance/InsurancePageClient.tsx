@@ -32,6 +32,14 @@ import {
   FileCheck,
   Wrench,
 } from "lucide-react";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+
+const insuranceGalleryPhotos: GalleryPhoto[] = [
+  { src: "/images/e3/e3", caption: "Storm damage assessment for insurance claim" },
+  { src: "/images/hurricane-ian/hurricane-ian", caption: "Large-loss hurricane damage restoration" },
+  { src: "/images/g2/g2", caption: "Hurricane damage recovery and reconstruction" },
+  { src: "/images/g3/g3", caption: "Emergency roof restoration after severe storm" },
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -473,6 +481,13 @@ export function InsurancePageClient() {
           </div>
         </div>
       </ParallaxSection>
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Insurance Restoration Projects"
+        subtitle="Large-loss insurance claims and disaster recovery projects across Tampa Bay"
+        photos={insuranceGalleryPhotos}
+      />
 
       {/* FAQ Section with Schema */}
       <FAQWithSchema

@@ -29,6 +29,15 @@ import { PARALLAX_IMAGES, AI_IMAGES, AI_IMAGE_ALT } from "@/lib/imageMapping";
 import { FAQWithSchema } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+
+const commercialGalleryPhotos: GalleryPhoto[] = [
+  { src: "/images/1-8/1-8", caption: "Commercial construction with formwork and tower crane" },
+  { src: "/images/100/100", caption: "High-rise commercial construction project" },
+  { src: "/images/2-1/2-1", caption: "New commercial building with flat roof installation" },
+  { src: "/images/1133/1133", caption: "Multi-family residential building construction" },
+];
+
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/' },
   title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
@@ -530,8 +539,15 @@ export default function CommercialHubPage() {
         </div>
       </section>
 
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Commercial Construction Portfolio"
+        subtitle="A selection of our commercial and multi-family construction projects across Tampa Bay"
+        photos={commercialGalleryPhotos}
+      />
+
       {/* FAQ Section */}
-      <FAQWithSchema 
+      <FAQWithSchema
         items={FAQ_DATABASE.commercial}
         title="Commercial Construction FAQs"
         description="Answers to common questions about our commercial construction services, capabilities, and process"

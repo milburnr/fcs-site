@@ -11,6 +11,15 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { ParallaxSection, ParallaxCardsContainer } from "@/components/ParallaxSection";
 import { FadeIn } from "@/components/AnimatedElements";
 import { AI_IMAGES, AI_IMAGE_ALT, PARALLAX_IMAGES } from "@/lib/imageMapping";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+
+const servicesGalleryPhotos: GalleryPhoto[] = [
+  { src: "/images/100/100", caption: "Commercial high-rise construction project" },
+  { src: "/images/1-8/1-8", caption: "Multi-story commercial formwork installation" },
+  { src: "/images/21/21", caption: "Concrete structure construction in Tampa Bay" },
+  { src: "/images/custom-home-construction-1/custom-home-construction-1", caption: "New residential construction framing" },
+  { src: "/images/2-1-1/2-1-1", caption: "New commercial building construction" },
+];
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/' },
@@ -548,6 +557,13 @@ export default function ServicesPage() {
           </div>
         </div>
       </ParallaxCardsContainer>
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Our Project Portfolio"
+        subtitle="Commercial, residential, and restoration projects completed across Tampa Bay"
+        photos={servicesGalleryPhotos}
+      />
 
       {/* FAQ Section */}
       <FAQWithSchema

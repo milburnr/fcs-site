@@ -7,6 +7,7 @@ import { BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ContentParallax } from "@/components/ContentImage";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/' },
@@ -14,6 +15,13 @@ export const metadata: Metadata = {
   description:
     "Luxury custom homes Tampa Bay: waterfront estates, hurricane-resistant design, historic renovations. 28+ years experience. Schedule today.",
 };
+
+const residentialGalleryPhotos: GalleryPhoto[] = [
+  { src: "/images/custom-home-construction-5/custom-home-construction-5", caption: "Luxury custom home with curved metal roof" },
+  { src: "/images/f2/f2", caption: "Waterfront estate with premium architectural finishes" },
+  { src: "/images/i7-1/i7-1", caption: "Modern two-story home with professional roofing" },
+  { src: "/images/f6/f6", caption: "Contemporary luxury residence at twilight" },
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -609,6 +617,13 @@ export default function ResidentialHubPage() {
           </div>
         </div>
       </section>
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Residential Portfolio"
+        subtitle="Luxury custom homes and waterfront estates across Tampa Bay"
+        photos={residentialGalleryPhotos}
+      />
 
       {/* Final CTA Section with Form */}
       <section className="py-32 px-8 relative overflow-hidden">
