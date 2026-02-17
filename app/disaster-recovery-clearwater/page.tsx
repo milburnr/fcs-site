@@ -1,558 +1,275 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import {
-  Phone,
-  MapPin,
-  CheckCircle,
-  ArrowRight,
-  Building2,
-  Shield,
-  Award,
-  Clock,
-  AlertTriangle,
-  FileText,
-  CloudRain,
-  Droplets,
-  Flame,
-  ShieldCheck,
-  Users,
-  Briefcase,
-  Anchor,
-  Waves
-} from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { FAQ } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
-  title: "Disaster Recovery in Clearwater",
-  description: "Disaster recovery Clearwater: hurricane, flood, fire restoration. Large-loss specialist, 43 years claims experience. Call for emergency response.",
+  title: "Disaster Recovery Clearwater FL | Hurricane, Flood, Emergency | FCS",
+  description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response, storm surge recovery, emergency building stabilization. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What makes Clearwater's barrier island uniquely vulnerable to disaster events?",
+    answer: "Clearwater Beach occupies a narrow barrier island with the Gulf of Mexico on the west and Clearwater Harbor on the east. During hurricanes, the island faces direct Gulf wind impact without any landmass buffering, storm surge that can overtop the island from both Gulf and harbor sides simultaneously, and wave action that erodes foundations and undermines structures. The island's limited evacuation routes across the Memorial Causeway and Sand Key Bridge create logistical constraints for both pre-storm evacuation and post-storm recovery access. These factors combine to make Clearwater Beach one of the most disaster-vulnerable locations in the Tampa Bay region."
+  },
+  {
+    question: "How does FCS coordinate disaster recovery on Clearwater Beach when access is restricted?",
+    answer: "After major storm events, Clearwater Beach barrier island access is restricted by the City of Clearwater Emergency Management until bridges are inspected and cleared. We coordinate with city officials to obtain contractor re-entry credentials as soon as possible, typically through Pinellas County's emergency management system. Our pre-storm preparation includes staging materials and equipment at mainland locations near the Memorial Causeway so we can deploy immediately upon bridge reopening. For the initial response phase, we focus on building stabilization and tarping that prevents secondary water damage while we plan the full recovery scope."
+  },
+  {
+    question: "What flood zone considerations affect disaster recovery construction in Clearwater?",
+    answer: "Most of Clearwater Beach falls within FEMA VE flood zones, which impose the most stringent construction requirements in the National Flood Insurance Program. When disaster recovery involves substantial improvement or substantial damage to a structure, defined as repair costs exceeding 50 percent of the building's pre-damage market value, the entire structure must be brought into compliance with current flood zone requirements. This can require elevating the building above the current base flood elevation, converting ground-floor enclosed space to breakaway walls, and upgrading all materials below BFE to flood-resistant specifications. Mainland Clearwater areas in AE zones face similar substantial damage triggers but with less restrictive construction requirements."
+  },
+  {
+    question: "Does FCS handle disaster recovery for Clearwater condominium associations?",
+    answer: "Yes, condominium disaster recovery is a major component of our Clearwater work. Beach-area condominium buildings often sustain the most significant storm damage due to their size, exposure, and the number of individual units affected. We coordinate with association boards, property managers, and individual unit owners to manage building-wide recovery projects. Common elements including roof systems, building envelope, parking structures, elevators, and common areas are restored under the association's master policy, while unit-interior damage may involve coordination with individual owners' HO-6 policies. Our experience managing these multi-party recovery projects ensures efficient construction while maintaining clear communication with all stakeholders."
+  },
+  {
+    question: "How does Clearwater's rainy season affect disaster recovery timelines?",
+    answer: "Clearwater's hurricane season overlaps directly with the June through November rainy season, meaning most disaster events occur during the wettest part of the year. Post-storm recovery work on damaged buildings with compromised envelopes must contend with daily afternoon thunderstorms that can drive additional water into exposed structures. We implement aggressive temporary weatherproofing immediately after storm events, use interior dehumidification systems to control moisture during the recovery period, and schedule exterior restoration work to progress from top down, re-establishing the roof and upper building envelope first to protect interior work below. This weather-aware sequencing prevents the secondary damage that extends recovery timelines and increases costs."
+  },
+  {
+    question: "What role does the City of Clearwater play in disaster recovery permitting?",
+    answer: "The City of Clearwater Development Services Department manages disaster recovery permitting, sometimes under expedited emergency procedures that accelerate review timelines after declared disasters. However, the underlying code requirements are not waived during emergencies. Substantial damage determinations trigger full code compliance upgrades including current wind speed requirements, flood zone construction standards, and energy code compliance. The city conducts substantial damage assessments on affected buildings after major storms, and buildings determined to be substantially damaged have limited time to begin repairs before facing additional regulatory consequences. We manage the permitting process for disaster recovery projects and ensure all reconstruction meets current Clearwater building code requirements."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Clearwater", href: "/disaster-recovery-clearwater/" },
-];
-
-const clearwaterFaqs = [
-  {
-    question: "Why is Clearwater Beach and the barrier islands especially vulnerable to hurricane damage?",
-    answer: "Clearwater Beach sits on a barrier island separated from the mainland by the Intracoastal Waterway, making it extremely susceptible to storm surge and coastal flooding. During major hurricanes, storm surge can reach 10-15 feet on Clearwater Beach, completely inundating ground-level structures. The barrier island's low elevation, narrow width, and exposure to the Gulf of Mexico mean properties face wave action, wind damage, and saltwater intrusion simultaneously. Our disaster recovery team understands these unique challenges and provides specialized restoration for barrier island properties."
-  },
-  {
-    question: "What experience does Florida Construction Specialists have with large loss insurance claims in Clearwater?",
-    answer: "Our principal, Frank Bragano, brings 43+ years of property claims experience, including 7 years as an Allstate Commercial Property Adjuster (1982-1989) and subsequent work as an Executive General Adjuster with CJW-Vericlaim and Sedgwick. We've worked extensively with Clearwater properties including hotels, condominiums, and commercial buildings along the beach. This insurance industry background means we understand claims from both sides—adjuster and contractor—and know exactly what documentation Pinellas County property owners need for successful claims."
-  },
-  {
-    question: "How does Clearwater's tourism and hospitality industry affect disaster recovery priorities?",
-    answer: "Clearwater's economy depends heavily on its tourism and hospitality sector, making rapid disaster recovery essential for hotels, resorts, restaurants, and retail businesses. Every day a beachfront property remains closed represents significant lost revenue. FCS understands this urgency and prioritizes restoration timelines for hospitality properties while maintaining quality standards. We coordinate with property managers to phase work in ways that may allow partial operations during restoration when possible, minimizing financial impact."
-  },
-  {
-    question: "What are Clearwater's evacuation zones and how do they impact property vulnerability?",
-    answer: "Pinellas County has established evacuation zones A through E based on storm surge and flooding risk. Clearwater Beach and coastal areas fall primarily within Zone A, requiring evacuation for all tropical storms and hurricanes. Properties in Zone A face the highest risk of catastrophic damage from storm surge, flooding, and wind. Our disaster recovery planning accounts for these zone designations, and we help property owners understand their risk profile and develop appropriate preparation and recovery strategies."
-  },
-  {
-    question: "How does FCS coordinate with Pinellas County Emergency Management after disasters?",
-    answer: "Following major disasters, Pinellas County Emergency Management coordinates response and recovery efforts throughout Clearwater. FCS maintains professional relationships with county officials and understands local safety protocols, permitting procedures, and inspection requirements. We work within the county's recovery framework while advocating for our clients' interests. This coordination ensures smooth project execution and helps expedite the restoration process for Clearwater property owners."
-  },
-  {
-    question: "What special considerations apply to Clearwater Beach condominium disaster recovery?",
-    answer: "Clearwater Beach has extensive high-rise and mid-rise condominium development, creating unique disaster recovery challenges. Condominiums require coordination with HOA boards, reserve fund management, and communication with multiple unit owners. Storm damage often affects both common areas and individual units, requiring careful damage allocation and insurance claim coordination. FCS has extensive experience with multi-family disaster recovery and understands the complex governance and financial considerations involved in condominium restoration."
-  },
-  {
-    question: "How does saltwater intrusion from storm surge affect Clearwater property restoration?",
-    answer: "Saltwater intrusion is particularly damaging in Clearwater coastal properties. Unlike freshwater, salt water corrodes metal components, damages electrical systems, and can compromise structural steel reinforcement. Saltwater-affected materials often cannot be dried and saved—they must be removed and replaced. Our restoration protocols include thorough assessment for saltwater damage, proper demolition of affected materials, and installation of marine-grade or salt-resistant replacements when appropriate for coastal properties."
-  },
-  {
-    question: "What is the typical timeline for hotel or resort disaster restoration in Clearwater?",
-    answer: "Hotel and resort restoration timelines in Clearwater vary significantly based on damage extent. Stabilization and water extraction typically take 3-7 days. Structural drying and demolition may require 2-4 weeks. Complete restoration of a major hospitality property can take 6-18 months depending on scope. We provide realistic schedules during initial assessment and work with ownership to prioritize revenue-generating areas when possible, potentially allowing phased reopening during restoration."
-  },
-  {
-    question: "Does FCS handle both commercial and residential disaster recovery in Clearwater?",
-    answer: "Yes, Florida Construction Specialists handles large loss disaster recovery for both commercial and residential properties throughout Clearwater. Our commercial portfolio includes hotels, restaurants, retail centers, office buildings, and multi-family residential complexes. For residential, we focus on high-value waterfront homes and properties with claims typically exceeding $250,000. This dual expertise allows us to serve Clearwater's diverse property types with the same professional standards."
-  },
-  {
-    question: "What flood insurance considerations are unique to Clearwater properties?",
-    answer: "Clearwater properties, especially those on Clearwater Beach and near the Intracoastal Waterway, typically require flood insurance through the National Flood Insurance Program (NFIP) or private flood carriers. NFIP claims have specific documentation requirements and coverage limits that differ from standard property insurance. FCS understands these distinctions and provides documentation appropriate for both flood and wind claims—often required simultaneously after hurricanes. We also help property owners navigate the sometimes complex coordination between multiple insurance policies."
-  },
-];
-
-const clusterServices = [
-  {
-    name: "Hurricane & Storm Damage",
-    href: "/disaster-recovery/",
-    description: "Comprehensive restoration from hurricane, tropical storm, and tornado damage including structural repair, roofing, and building envelope reconstruction.",
-    icon: CloudRain,
-  },
-  {
-    name: "Water Damage Restoration",
-    href: "/disaster-recovery/",
-    description: "Large loss water damage restoration including flood recovery, storm surge damage, and comprehensive moisture remediation for coastal properties.",
-    icon: Droplets,
-  },
-  {
-    name: "Fire Damage Restoration",
-    href: "/disaster-recovery/",
-    description: "Complete fire and smoke damage restoration from structural repair to content restoration and odor elimination.",
-    icon: Flame,
-  },
-  {
-    name: "Insurance Claims Process",
-    href: "/disaster-recovery/",
-    description: "Expert guidance through the insurance claim process, from initial documentation through final settlement and restoration completion.",
-    icon: FileText,
-  },
-];
-
-const processSteps = [
-  {
-    step: "01",
-    title: "Initial Assessment & Documentation",
-    description: "We conduct thorough damage assessment with comprehensive photo and video documentation, moisture readings, and detailed notes. For Clearwater coastal properties, we specifically evaluate saltwater intrusion and storm surge damage patterns.",
-    icon: FileText,
-  },
-  {
-    step: "02",
-    title: "Scope Development & Certified Estimate",
-    description: "Using industry-standard estimating software, we develop detailed scopes of work that capture all damage and required repairs. Our certified estimates meet carrier documentation standards and ensure nothing is overlooked in your claim.",
-    icon: Briefcase,
-  },
-  {
-    step: "03",
-    title: "Insurance Carrier Communication",
-    description: "We work directly with adjusters and claims professionals to review scope, discuss methodology, and reach agreement on repair protocols. Our 43+ years of insurance industry background facilitates productive, professional communication.",
-    icon: ShieldCheck,
-  },
-  {
-    step: "04",
-    title: "Approval & Project Mobilization",
-    description: "Once scope is approved, we mobilize resources for restoration. Our established relationships with Clearwater-area subcontractors and suppliers enable rapid response without sacrificing quality or code compliance.",
-    icon: Clock,
-  },
-  {
-    step: "05",
-    title: "Restoration Execution",
-    description: "Experienced project managers oversee every aspect of restoration, from demolition through final finishes. For hospitality properties, we coordinate with management to minimize operational disruption throughout the project.",
-    icon: Building2,
-  },
-  {
-    step: "06",
-    title: "Final Walkthrough & Project Closeout",
-    description: "Comprehensive punch list resolution, City of Clearwater and Pinellas County final inspections, insurance sign-off, warranty documentation, and certificate of completion ensure your property is returned to pre-loss condition—or better.",
-    icon: Award,
-  },
-];
-
-const internalLinks = [
-  { href: "/insurance/", label: "Disaster Recovery Services (Main)" },
-  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
-  { href: "/disaster-recovery/", label: "Water Damage Services" },
-  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
-  { href: "/disaster-recovery/", label: "Insurance Claims Process" },
-  { href: "/disaster-recovery-tampa/", label: "Disaster Recovery Tampa" },
-  { href: "/disaster-recovery-st-petersburg/", label: "Disaster Recovery St. Petersburg" },
-  { href: "/disaster-recovery-lakeland/", label: "Disaster Recovery Lakeland" },
 ];
 
 export default function DisasterRecoveryClearwaterPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="Clearwater" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Large loss disaster recovery and insurance restoration services in Clearwater, FL. Specializing in hurricane damage, storm surge restoration, water damage, fire damage, and comprehensive property restoration for barrier island and coastal properties with 43+ years claims experience. Projects from $250,000 to $25M+."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction in Clearwater, FL. Hurricane response, storm surge recovery, emergency stabilization, barrier island rebuilding. Licensed CBC1262722, 40+ years experience."
         city="Clearwater"
-        minPrice="250000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        minPrice="100000"
+        serviceCategories={["Hurricane Recovery", "Storm Surge Restoration", "Emergency Stabilization", "Flood Damage Repair", "Commercial Rebuilding"]}
       />
-      <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Emergency Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-red-900 via-red-800 to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")' }} />
-        </div>
-
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/home-hero-after-great-disasters-sandy-crop/home-hero-after-great-disasters-sandy-crop-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
-
-          {/* Emergency Contact Bar */}
-          <div className="bg-white/95 rounded-xl p-4 mb-8 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <AlertTriangle className="w-8 h-8 text-red-600" />
-              <div>
-                <p className="font-bold text-brand-green-dark">Clearwater Property Damaged?</p>
-                <p className="text-sm text-gray-600">Large loss restoration specialists available for assessment</p>
-              </div>
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Clearwater, Florida</span>
             </div>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-6 py-3 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
-          </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Clearwater, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Clearwater's barrier island sits directly in the Gulf of Mexico's path, making it one of the most disaster-exposed communities in Tampa Bay. When hurricanes, storm surge, or severe flooding strikes, Florida Construction Specialists provides the emergency stabilization, structural assessment, and full-scope recovery construction that gets Clearwater properties rebuilt safely and in compliance with current building codes.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              {/* Location Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-brand-gold font-semibold">Serving Clearwater, FL & Clearwater Beach</span>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Disaster Recovery in Clearwater
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                When disaster strikes Clearwater's barrier islands and coastal properties, you need a contractor who understands both construction and insurance. With 43+ years of property claims experience—including work as a former Allstate Commercial Adjuster—Florida Construction Specialists brings unmatched expertise to large loss restoration throughout Pinellas County.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <ShieldCheck className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">43+ Years</p>
-                  <p className="text-xs text-gray-300">Claims Experience</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">$250K+</p>
-                  <p className="text-xs text-gray-300">Projects</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <FileText className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">All Carriers</p>
-                  <p className="text-xs text-gray-300">Insurance</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Request Insurance Assessment
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request a Clearwater Assessment
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your Clearwater property damage and we'll schedule an assessment with our insurance restoration team.
-              </p>
-              <HighLevelForm height={450} />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Emergency Response Request
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Introduction Section */}
+      {/* Clearwater Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-              Clearwater Beach: Florida's Most Beautiful—And Most Vulnerable—Coastline
+              Clearwater's Barrier Island Geography Demands Specialized Disaster Response
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="lead text-xl mb-6">
-                Clearwater Beach is consistently ranked among America's most beautiful beaches, but that stunning barrier island location comes with significant disaster risk. Properties along Gulf Boulevard, Mandalay Avenue, and throughout Clearwater Beach face extreme exposure to hurricanes, storm surge, and coastal flooding that can cause catastrophic damage in hours.
+              <p className="text-xl mb-6">
+                Understanding why Clearwater faces elevated disaster risk starts with geography. Clearwater Beach sits on a barrier island separated from the mainland by Clearwater Harbor and the Intracoastal Waterway. The island is narrow, low-lying, and fully exposed to the Gulf of Mexico on its western shore. This configuration means hurricanes approaching from the Gulf deliver unobstructed wind impact, generate storm surge that can overtop the island from both the Gulf and harbor sides, and create wave action that undermines building foundations and scours beach-front sites.
               </p>
               <p className="mb-6">
-                When disaster strikes Clearwater, Florida Construction Specialists brings a combination of expertise found nowhere else: genuine insurance industry experience paired with prime contractor construction capabilities. Our principal, Frank Bragano, spent 7 years as an Allstate Commercial Property Adjuster before transitioning to Executive General Adjuster roles with CJW-Vericlaim and Sedgwick. This 43+ year foundation in property claims means we understand the restoration process from every perspective.
+                Pinellas County's hurricane evacuation zones place Clearwater Beach in Zone A, the first-to-evacuate category. This designation reflects the island's vulnerability to storm surge that can begin affecting low-lying areas before hurricane-force winds even arrive. For building owners, this vulnerability translates into potential damage scenarios that range from wind-driven rain infiltration and roof failures at the moderate end to complete ground-floor inundation and structural compromise from wave action at the severe end. Disaster recovery for these properties must address not just what the storm damaged but how to rebuild with enhanced resilience against future events.
               </p>
               <p className="mb-6">
-                Clearwater's hospitality-driven economy requires contractors who understand that every day of closure means lost revenue. Whether your property is a beachfront hotel, a Sand Key condominium, or a commercial building in downtown Clearwater, FCS provides the rapid response and quality restoration that gets properties back in operation. Our Hurricane Irma response in Miami exceeded $20 million in completed restoration, demonstrating our capacity for major coastal disaster mobilization.
+                Mainland Clearwater faces different but significant disaster risks. The city's flat terrain and high water table create flooding challenges during heavy rainfall events, even without direct hurricane impact. Properties along US 19, the Gulf-to-Bay corridor, and in lower-lying neighborhoods can experience stormwater flooding that damages interiors, electrical systems, and building foundations. Mainland commercial properties also sustain wind damage during hurricanes, including roof failures, facade damage, and signage destruction along the high-traffic US 19 corridor.
               </p>
               <p>
-                As your prime contractor for Clearwater disaster recovery, FCS provides turnkey restoration—from initial damage assessment and certified estimates through complete reconstruction. We work with all insurance carriers, maintain the documentation standards carriers expect, and deliver quality restoration that returns your property to pre-loss condition.
+                Florida Construction Specialists has responded to disaster events across the Tampa Bay region throughout our four decades of operation. Our principal's experience as an Executive General Adjuster brings the insurance perspective to disaster recovery, ensuring damage is properly documented, claims are professionally managed, and reconstruction meets both code requirements and carrier expectations. For Clearwater properties, where coastal exposure amplifies both damage severity and recovery complexity, this combined construction and insurance expertise is essential.
               </p>
             </div>
-          
-          {/* Project Gallery */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/Ian-2/ian-2-display.webp"
-                alt="Hurricane damage assessment"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Hurricane Damage</p>
-                <p className="text-sm text-gray-200">Storm Response</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp"
-                alt="Storm damage restoration"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Storm Restoration</p>
-                <p className="text-sm text-gray-200">Roof Repair</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-                alt="Restored commercial building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Completed Restoration</p>
-                <p className="text-sm text-gray-200">Hurricane Recovery</p>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-restoration/hurricane-restoration-large.webp"
-        alt="Disaster recovery and storm damage restoration"
-        title="When Disaster Strikes, We Respond"
-        subtitle="43 years of insurance restoration experience"
-        overlayOpacity={0.6}
+        src="/images/hurricane-ian/hurricane-ian-display.webp"
+        alt="Hurricane damage and disaster recovery in coastal Florida"
+        title="Clearwater Disaster Recovery"
+        subtitle="Emergency response, structural stabilization, and full rebuilding for barrier island and mainland properties"
+        overlayOpacity={0.55}
       />
 
-      {/* Clearwater-Specific Risk Section */}
-      <section className="section bg-red-50">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Understanding Clearwater's Unique Disaster Risk Profile
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Clearwater's barrier island geography and Gulf Coast exposure create challenges that require restoration contractors with specialized coastal expertise.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <Waves className="w-6 h-6" />
-                Barrier Island & Storm Surge Risk
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Clearwater Beach barrier island can experience 10-15 foot storm surge in major hurricanes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Properties surrounded by Gulf of Mexico and Intracoastal Waterway face multi-directional flooding</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Low elevation and narrow island width means rapid inundation during storm events</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Saltwater intrusion causes additional damage beyond freshwater flooding</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <AlertTriangle className="w-6 h-6" />
-                Evacuation Zone Considerations
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Clearwater Beach falls within Pinellas County Evacuation Zone A (highest risk)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Zone A evacuates for ALL tropical storms and hurricanes—even Category 1</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Downtown Clearwater and areas near Clearwater Harbor also face significant exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Post-storm bridge closures can delay restoration mobilization to barrier islands</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <Anchor className="w-6 h-6" />
-                Tourism & Hospitality Impact
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Clearwater Beach generates over $2 billion annually in tourism revenue</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Hotels, resorts, and restaurants require rapid restoration to minimize lost revenue</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Peak season timing of restoration can significantly impact business recovery</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Phased restoration may allow partial operations during recovery</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <Building2 className="w-6 h-6" />
-                Condominium & Multi-Family Challenges
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Clearwater Beach and Sand Key have extensive high-rise condominium development</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">HOA coordination and reserve fund management required for common area restoration</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Wind-driven rain and envelope failures can affect multiple floors and units</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">SB4-D milestone inspections now required for coastal condominium buildings</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Disaster Recovery Services Grid */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Clearwater Disaster Recovery Services
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive restoration services for Clearwater properties affected by hurricanes, storm surge, fire, and other catastrophic events.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Capabilities for Clearwater's Unique Risk Profile
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From immediate emergency response through complete building reconstruction, we provide full-scope disaster recovery for Clearwater's barrier island and mainland properties.
+          </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {clusterServices.map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 group-hover:bg-red-600 transition-colors">
-                    <service.icon className="w-7 h-7 text-red-600 group-hover:text-white transition-colors" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
-                      {service.name}
-                    </h3>
-                    <p className="text-gray-600 mb-4">{service.description}</p>
-                    <span className="inline-flex items-center text-brand-green font-semibold">
-                      Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                  </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Emergency Stabilization",
+                description: "Immediate building securing, emergency tarping, water extraction, and structural shoring for storm-damaged Clearwater properties. We coordinate with Clearwater Emergency Management for barrier island re-entry and deploy stabilization teams as soon as access is restored to prevent secondary damage."
+              },
+              {
+                icon: Building2,
+                title: "Storm Surge Recovery",
+                description: "Specialized recovery for properties inundated by Gulf storm surge. Saltwater damage remediation for structural systems, complete electrical and mechanical system replacement, interior demolition and reconstruction, and mold prevention protocols. Beach-area surge recovery requires different materials and methods than freshwater flood restoration."
+              },
+              {
+                icon: Shield,
+                title: "Structural Assessment and Repair",
+                description: "Post-disaster structural evaluation of damaged buildings, including foundation assessment for surge-affected barrier island structures, structural framing evaluation, and load-bearing element testing. Repairs designed to restore structural integrity while meeting current Florida Building Code requirements."
+              },
+              {
+                icon: HardHat,
+                title: "Complete Building Reconstruction",
+                description: "Full-scope reconstruction for substantially damaged Clearwater properties. When disaster damage exceeds 50 percent of building value, reconstruction must meet current code including updated wind speed requirements, flood zone compliance, and energy code standards. We manage the full reconstruction process from design through Certificate of Occupancy."
+              },
+              {
+                icon: FileCheck,
+                title: "Code Compliance Upgrades",
+                description: "Disaster recovery often triggers code compliance requirements beyond the original damage. Substantially damaged buildings in Clearwater must meet current wind speed, flood zone, accessibility, and energy code standards. We integrate these upgrades into the recovery scope, managing both the damage repair and the code-required improvements."
+              },
+              {
+                icon: Briefcase,
+                title: "Insurance Claims Management",
+                description: "Professional damage documentation, repair cost estimation, and carrier coordination for disaster claims. Our Executive General Adjuster background ensures damage is documented in ways that support full claim recovery, and we negotiate with carriers on behalf of Clearwater property owners when scope or pricing disputes arise."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-              </Link>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section 1 */}
-      <section className="section bg-red-700">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Clearwater Property Damaged? We Can Help.
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact our team to schedule an insurance damage assessment. With 43+ years claims experience and expertise in barrier island restoration, we'll help you navigate the recovery process and maximize your claim settlement.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-red-700 font-bold rounded-full hover:bg-gray-100 transition-all">
-              Request Clearwater Assessment
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Clearwater Disaster Recovery Requires Local Knowledge and Coastal Construction Expertise
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery in Clearwater is not the same as disaster recovery in an inland Florida city. The barrier island's coastal exposure means recovery materials, methods, and timelines must account for the salt environment, wind loads, flood zones, and access constraints that define construction on Clearwater Beach. A recovery contractor without coastal construction experience will underspecify materials, underestimate costs, and deliver rebuilding that deteriorates prematurely in the Gulf environment.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> conducts substantial damage assessments after major disaster events. Buildings determined to be substantially damaged, where repair costs exceed 50 percent of the pre-damage market value, must be brought into full compliance with current building codes and flood zone requirements. This can trigger significant additional construction scope beyond the direct damage repair, including raising structures above current base flood elevations, installing impact-rated windows and doors, upgrading roof systems to current wind load standards, and converting enclosed ground-floor space to breakaway walls in VE flood zones.
+              </p>
+              <p className="mb-6">
+                Clearwater Beach's recovery logistics are constrained by the barrier island's geography. The Memorial Causeway and Sand Key Bridge are the only vehicular access points to the barrier island. Heavy construction equipment, building materials, debris removal trucks, and construction crews all compete for capacity across these two bridges. During large-scale disaster recovery events affecting multiple properties, this creates scheduling constraints that require careful coordination between contractors, the city, and bridge management authorities.
+              </p>
+              <p>
+                We approach Clearwater disaster recovery with knowledge of the city's specific neighborhoods and their distinct recovery challenges. Gulf Boulevard resort properties need rapid revenue restoration. Sand Key condominium towers require multi-story scaffolding and high-rise construction management. Mainland US 19 corridor commercial properties need facade and signage restoration that maintains business visibility. Downtown Clearwater buildings require coordination with adjacent properties and the Community Redevelopment Area's design standards. Each recovery project benefits from our established relationships with Clearwater's building officials, subcontractors, and material suppliers.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Insurance Restoration Process */}
-      <section className="section bg-white">
+      {/* Process Section */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Clearwater Insurance Restoration Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our structured 6-step approach ensures proper documentation, fair settlements, and quality restoration for Clearwater property owners.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Clearwater Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured recovery process designed for Clearwater's barrier island vulnerability and coastal construction requirements.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
-                <div className="absolute -top-4 left-6 bg-red-600 text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Response and Access Coordination",
+                description: "Immediate deployment upon safe access. For barrier island properties, we coordinate with Clearwater Emergency Management for bridge re-entry credentials. Teams perform emergency tarping, board-up, water extraction, and structural shoring to stabilize damaged buildings and prevent secondary damage from weather exposure.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Damage Assessment and Scope Development",
+                description: "Comprehensive evaluation of structural, mechanical, electrical, plumbing, and building envelope damage. For Clearwater properties, we assess saltwater exposure levels, structural integrity of flood-affected foundations, and the extent of wind damage to building envelope systems. Findings are documented for insurance claims and permitting.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Permitting and Code Compliance Planning",
+                description: "We manage permitting through the City of Clearwater, including responses to substantial damage determinations that trigger code compliance upgrades. Recovery plans address both direct damage repair and code-required improvements, providing property owners with clear cost projections for the full scope of required work.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Recovery Construction",
+                description: "Systematic rebuilding using coastal-rated materials and methods. Work sequences from envelope restoration inward, re-establishing weathertightness before interior reconstruction. Barrier island logistics are managed to optimize material delivery across the Memorial Causeway and minimize traffic impact on the recovering community.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Resilience Verification",
+                description: "Final inspections, Certificate of Occupancy from the City of Clearwater, and comprehensive warranty documentation. Recovered buildings are verified to meet current wind speed, flood zone, and energy code requirements. Documentation packages support insurance claim settlement and demonstrate code compliance for future building inspections.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-red-600 mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -561,256 +278,47 @@ export default function DisasterRecoveryClearwaterPage() {
         </div>
       </section>
 
-      {/* Why Choose FCS for Clearwater Disaster Recovery */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Why Clearwater Property Owners Choose FCS
-              </h2>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <ShieldCheck className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">43+ Years Claims Experience</h3>
-                    <p className="text-gray-600">Frank Bragano brings four decades of property claims experience, including 7 years as an Allstate Commercial Property Adjuster (1982-1989) and Executive General Adjuster credentials with CJW-Vericlaim and Sedgwick. We understand insurance from every angle.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <Waves className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">Barrier Island Restoration Expertise</h3>
-                    <p className="text-gray-600">Clearwater Beach properties face unique challenges including saltwater intrusion, storm surge damage, and accelerated corrosion. FCS understands coastal construction and provides appropriate marine-grade materials and restoration techniques for barrier island properties.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <Users className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">Hospitality Industry Understanding</h3>
-                    <p className="text-gray-600">Clearwater's hotels, resorts, and restaurants require contractors who understand that time is money. We prioritize restoration timelines, coordinate with property managers, and can phase work to minimize operational disruption and lost revenue.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <FileText className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">All Insurance Carriers Welcome</h3>
-                    <p className="text-gray-600">We work with all major insurance carriers on Clearwater commercial and residential claims, including coordination of flood and wind policies. Our professional relationships with carriers and adjusters throughout Florida help facilitate efficient claim processing.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6 font-heading">Types of Clearwater Losses We Handle</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  "Hurricane/Wind",
-                  "Storm Surge",
-                  "Tropical Storms",
-                  "Coastal Flooding",
-                  "Tornado Damage",
-                  "Saltwater Intrusion",
-                  "Fire/Smoke",
-                  "Hail Damage",
-                  "Burst Pipes",
-                  "Mold Remediation",
-                  "Lightning Strike",
-                  "Vehicle Impact",
-                ].map((loss) => (
-                  <div key={loss} className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
-                    <span className="text-gray-700">{loss}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-8 pt-6 border-t border-gray-200">
-                <h4 className="font-bold text-brand-green-dark mb-3">Clearwater Property Types We Restore</h4>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>- Beachfront hotels and resorts (Clearwater Beach, Sand Key)</li>
-                  <li>- High-rise and mid-rise condominiums</li>
-                  <li>- Restaurants and entertainment venues</li>
-                  <li>- Retail centers and shopping districts</li>
-                  <li>- Office buildings (downtown Clearwater)</li>
-                  <li>- Waterfront single-family residences</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Pinellas County Coordination Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading">
-                Pinellas County Emergency Management Coordination
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Successful Clearwater disaster recovery requires contractors who understand local emergency management protocols, permitting requirements, and code enforcement. FCS maintains established relationships with Pinellas County officials and understands the specific requirements for restoration work following declared disasters.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Emergency Permitting:</strong> Understanding of expedited permitting procedures activated following disaster declarations</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Barrier Island Access:</strong> Coordination with authorities for contractor access when bridges reopen following storms</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Flood Zone Compliance:</strong> Full knowledge of FEMA requirements, substantial improvement rules, and flood elevation standards</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>NFIP Coordination:</strong> Experience with National Flood Insurance Program claims and documentation requirements</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <GoogleMap city="Clearwater" height={400} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section 2 */}
-      <section className="section bg-red-700">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Schedule Your Clearwater Property Assessment
-              </h2>
-              <p className="text-xl text-white/90 mb-6">
-                Whether you've experienced hurricane damage, storm surge, fire, or other disaster, our team will assess your Clearwater property and explain your restoration options. We work with all insurance carriers and provide comprehensive documentation to support your claim.
-              </p>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="font-bold text-lg mb-3">What to Expect from Your Assessment:</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Thorough damage inspection including saltwater intrusion assessment
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Preliminary scope and timeline discussion
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Insurance claim guidance (wind, flood, or both)
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Flood zone and substantial improvement considerations
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request Your Assessment
-              </h3>
-              <HighLevelForm height={400} />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
+      <FAQWithSchema
+        items={faqs}
+        title="Clearwater Disaster Recovery FAQ"
+        description="Common questions about disaster recovery construction in Clearwater, Florida."
+      />
+
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-                Clearwater Disaster Recovery FAQ
-              </h2>
-              <p className="text-xl text-gray-600">
-                Common questions about disaster recovery and insurance restoration in Clearwater, Florida.
-              </p>
-            </div>
-
-            <FAQ items={clearwaterFaqs} />
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Clearwater" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Clearwater" service="disaster-recovery" serviceName="Disaster Recovery" />
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <InternalLinks
-            title="Related Disaster Recovery Resources"
-            links={internalLinks}
-          />
-
-          <div className="mt-12 grid md:grid-cols-2 gap-8">
-            <NearbyLocations
-              currentCity="Clearwater"
-              service="disaster-recovery"
-              serviceName="Disaster Recovery"
-            />
-
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Clearwater Disaster Recovery Pillar</h3>
-              <p className="text-gray-600 mb-4">
-                Learn more about our comprehensive disaster recovery services, insurance restoration expertise, and claims experience throughout the Tampa Bay area including Clearwater Beach and Pinellas County.
-              </p>
-              <Link
-                href="/insurance/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                View All Disaster Recovery Services <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
+      {/* CTA Section */}
       <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-              Clearwater's Large Loss Disaster Recovery Experts
-            </h2>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              When disaster strikes your Clearwater Beach or Pinellas County property, choose the contractor with 43+ years of claims experience, barrier island expertise, and a proven track record of major hurricane response. Florida Construction Specialists—your partner for insurance restoration done right.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all"
-              >
-                <Phone className="w-5 h-5 mr-2" />
-                Call {BUSINESS_INFO.phone}
-              </a>
-              <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
-                Request Assessment
-              </Link>
-            </div>
-
-            <div className="pt-8 border-t border-white/20">
-              <p className="text-sm text-gray-300 mb-4">Trusted for Clearwater large loss restoration:</p>
-              <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-200">
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> 43+ Years Claims Experience</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> License {BUSINESS_INFO.licenseNumber}</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> All Insurance Carriers</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> $250K+ Projects</span>
-              </div>
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Clearwater Disaster Recovery When You Need It Most
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for emergency response, damage assessment, and full disaster recovery construction. We bring decades of coastal construction and insurance expertise to every Clearwater recovery project.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Emergency Response Request
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Emergency Response Ready</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
             </div>
           </div>
         </div>

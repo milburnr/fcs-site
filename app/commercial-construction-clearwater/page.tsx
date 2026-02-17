@@ -1,21 +1,45 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { Building2, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, MapPin, Briefcase, HardHat, FileCheck, Users, Thermometer, Wind, Droplets } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { InternalLinks, RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
-  title: "Commercial Construction in Clearwater",
-  description: "Commercial construction Clearwater: office, retail, medical projects. Design-build contractor serving Pinellas County. Call for a consultation.",
+  title: "Commercial Construction Clearwater FL | Beach Hotels, Medical, Retail | FCS",
+  description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant. Licensed CBC, 40+ years experience. Schedule a project bid.",
 };
+
+const faqs = [
+  {
+    question: "How does building on Clearwater Beach differ from mainland commercial construction?",
+    answer: "Clearwater Beach sits on a barrier island with significantly higher wind speed requirements, often 150 mph or greater, compared to mainland Clearwater locations. Barrier island construction also falls within FEMA VE flood zones requiring elevated structures, breakaway walls at lower levels, and flood-resistant materials below the base flood elevation. Salt spray corrosion accelerates material degradation, so we specify marine-grade fasteners, stainless steel connectors, and protective coatings on all exposed structural elements. The combination of these factors typically adds 15 to 25 percent to construction costs compared to equivalent projects on the mainland side of the Memorial Causeway."
+  },
+  {
+    question: "What commercial construction activity is happening along the US 19 corridor in Clearwater?",
+    answer: "US 19 remains one of Tampa Bay's most active commercial corridors through Clearwater, stretching from Countryside in the north through the Gulf-to-Bay intersection and south toward Largo. Ongoing development includes retail center renovations, medical office construction near the Countryside medical cluster, restaurant buildouts, automotive dealership expansions, and new multi-tenant commercial buildings. The corridor's high traffic volume and strong visibility make it attractive for retail and service-oriented commercial projects. We handle ground-up construction, tenant improvements, and full commercial renovations along the entire US 19 stretch through Clearwater."
+  },
+  {
+    question: "Does FCS handle hotel and resort construction projects on Clearwater Beach?",
+    answer: "Yes, hospitality construction is a core focus of our Clearwater work. Clearwater Beach is consistently ranked among America's top beaches, and the barrier island's hotel inventory includes mid-rise resort properties, boutique hotels, and full-service beachfront resorts. We deliver new hospitality construction, major hotel renovations, restaurant buildouts within resort properties, and amenity upgrades including pool decks, fitness centers, and conference facilities. Beach-area hospitality construction requires enhanced structural systems for wind loads, corrosion-resistant materials, and careful logistics planning given the island's limited access via the Memorial Causeway and Sand Key Bridge."
+  },
+  {
+    question: "How long does commercial permitting take through the City of Clearwater?",
+    answer: "Commercial construction permits in Clearwater go through the City of Clearwater Development Services Department. Standard commercial plan review typically takes 4 to 6 weeks for straightforward projects, though larger developments or those requiring special approvals can take 8 to 12 weeks. Projects within the downtown Clearwater Community Redevelopment Area may require additional review through the Community Development Board. Beach-area projects often need concurrent review by multiple agencies including FEMA for flood zone compliance and SWFWMD for stormwater management. Our team manages the full permitting process and has established relationships with Clearwater's plan review staff."
+  },
+  {
+    question: "What types of medical facility construction does FCS handle near Morton Plant Hospital?",
+    answer: "Morton Plant Hospital anchors a significant healthcare corridor in central Clearwater, and the surrounding blocks support medical office buildings, outpatient surgical centers, specialty clinics, diagnostic imaging facilities, and physical therapy centers. We deliver AHCA-compliant medical construction including new medical office buildings, interior buildouts for specialist practices, surgical suite construction with specialized HVAC and infection control systems, and medical facility renovations that maintain operations during construction. Our experience with healthcare construction regulations, including emergency power, medical gas systems, and barrier protection during phased renovations, applies directly to the Morton Plant corridor."
+  },
+  {
+    question: "How does Clearwater's rainy season affect commercial construction scheduling?",
+    answer: "Clearwater receives approximately 50 inches of rainfall annually, with roughly 60 percent concentrated in afternoon thunderstorms from June through September. Unlike steady rain, these intense but short-duration storms create specific scheduling challenges for concrete placement, roofing installation, and exterior envelope work. We schedule weather-sensitive activities during morning hours when storms are least likely, maintain flexible crew deployment to capitalize on clear weather windows, and use detailed CPM scheduling to front-load exterior work during the dry season when project timelines allow. For beach-area projects, we also account for tidal influences on foundation work and dewatering operations."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -24,284 +48,150 @@ const breadcrumbItems = [
   { name: "Clearwater", href: "/commercial-construction-clearwater/" },
 ];
 
-const clearwaterFaqs = [
-  {
-    question: "What types of commercial construction projects do you handle in Clearwater?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Clearwater including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and hospitality projects serving Clearwater Beach's thriving tourism industry. Our projects typically range from $500,000 to $25 million or more."
-  },
-  {
-    question: "Do you have experience with Clearwater's permitting process through Pinellas County?",
-    answer: "Yes, we have extensive experience navigating Clearwater's permitting requirements through Pinellas County Building Services and the City of Clearwater. We understand local zoning codes, coastal construction regulations, flood zone requirements, and the specific permitting processes for commercial construction in areas like Downtown Clearwater, the US 19 commercial corridor, and the Clearwater Beach tourism district."
-  },
-  {
-    question: "What is your bonding capacity for Clearwater commercial projects?",
-    answer: "Florida Construction Specialists maintains bonding capacity exceeding $10 million, which allows us to take on large-scale commercial projects that many contractors cannot. This financial strength, combined with our License CBC1262722, gives Clearwater property owners confidence in our ability to complete substantial projects including major hospitality and healthcare developments."
-  },
-  {
-    question: "Do you build hospitality and tourism-related projects in Clearwater Beach?",
-    answer: "Absolutely. Clearwater Beach is consistently ranked among America's best beaches, driving significant hospitality construction demand. We handle hotel renovations, restaurant buildouts, resort amenity construction, retail spaces, and mixed-use tourism developments. We understand the unique challenges of construction in high-traffic tourism areas, including working around seasonal peaks and coordinating with beach access requirements."
-  },
-  {
-    question: "Can you handle medical facility construction near Morton Plant Hospital?",
-    answer: "Yes, medical and healthcare construction is one of our core specialties. We have extensive experience with AHCA-compliant medical construction including medical office buildings, surgical centers, specialty clinics, and healthcare facilities. We understand the Clearwater healthcare corridor around Morton Plant Mease and the specialized requirements for medical construction including infection control, specialized MEP systems, and regulatory compliance."
-  },
-  {
-    question: "Do you provide design-build services in Clearwater?",
-    answer: "Yes, design-build is one of our core service offerings for Clearwater commercial clients. This single-source approach streamlines communication, accelerates project delivery, and provides clear accountability. We coordinate architects, engineers, and construction teams under one contract, which is particularly valuable for projects in Clearwater's competitive commercial market where speed to occupancy matters."
-  },
-  {
-    question: "What areas of Clearwater do you serve for commercial construction?",
-    answer: "We serve all of Clearwater including Downtown Clearwater, Clearwater Beach, the US 19 commercial corridor, the Countryside area, East Clearwater, and the Clearwater Mall district. Our Ruskin headquarters positions us centrally to serve Pinellas County efficiently, and we maintain strong relationships with local subcontractors throughout Clearwater."
-  },
-  {
-    question: "How do you handle commercial construction in Clearwater's coastal flood zones?",
-    answer: "Clearwater's coastal location requires specialized knowledge of FEMA flood zone construction requirements, including elevated construction, flood-resistant materials, and proper venting for areas below base flood elevation. We're experienced with both VE and AE flood zones common in Clearwater and ensure all commercial projects meet or exceed flood plain management requirements."
-  },
-  {
-    question: "Do you work on retail and commercial projects along US 19 in Clearwater?",
-    answer: "Yes, the US 19 corridor is one of Clearwater's most active commercial construction areas. We handle retail centers, shopping plaza renovations, restaurant construction, automotive facilities, and commercial office buildings along this major thoroughfare. We understand the corridor's specific requirements including FDOT access considerations and the competitive retail environment."
-  },
-  {
-    question: "What makes Florida Construction Specialists different from other Clearwater commercial contractors?",
-    answer: "Three key differentiators set us apart in the Clearwater market: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every project. Second, our 40+ years experience and in-house engineering enables large-scale projects that many local contractors cannot handle. Third, our principal brings 43+ years of construction and insurance industry experience, including work as an Executive General Adjuster, providing unique expertise for risk management and coastal construction challenges."
-  },
-];
-
-const pillarLinks = [
-  { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" },
-];
-
-const nearbyLocationLinks = [
-  { href: "/commercial-construction-tampa/", label: "Tampa, FL" },
-  { href: "/commercial-construction-st-petersburg/", label: "St. Petersburg, FL" },
-  { href: "/locations/sarasota-fl/", label: "Sarasota, FL" },
-  { href: "/locations/lakeland-fl/", label: "Lakeland, FL" },
-];
-
-const serviceFeatures = [
-  {
-    title: "Design-Build Construction",
-    description: "Single-source accountability from concept to completion. We coordinate architects, engineers, and construction teams under one contract for streamlined delivery."
-  },
-  {
-    title: "Hospitality & Tourism",
-    description: "Hotels, resorts, restaurants, and entertainment venues for Clearwater Beach's vibrant tourism industry. We understand beach-area construction requirements."
-  },
-  {
-    title: "Healthcare Facilities",
-    description: "Medical office buildings, surgical centers, and specialty clinics meeting AHCA compliance requirements and healthcare construction standards."
-  },
-  {
-    title: "Retail & Commercial",
-    description: "Shopping centers, standalone retail, office buildings, and mixed-use developments throughout the US-19 corridor and greater Clearwater."
-  },
-  {
-    title: "Multi-Family Development",
-    description: "Condominiums, apartments, and townhome communities with expertise in coastal construction and flood zone requirements."
-  },
-  {
-    title: "Industrial & Warehouse",
-    description: "Distribution centers, flex space, and light manufacturing facilities for Clearwater's growing industrial sector."
-  },
-];
-
 export default function CommercialConstructionClearwaterPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="Clearwater" service="Commercial Construction" />
       <ServiceSchema
-        serviceName="Commercial Construction in Clearwater"
-        serviceDescription="Large-scale commercial construction services in Clearwater, FL. Design-build, medical facilities, multi-family, industrial, hospitality, and retail construction from $500K to $25M+."
+        serviceName="Commercial Construction"
+        serviceDescription="Full-service commercial construction in Clearwater, FL. Resort hotels, medical facilities, retail centers, office buildings, tenant improvements. Licensed CBC1262722, 40+ years experience."
         city="Clearwater"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Hotel & Resort Construction", "Medical Facility Construction", "Retail Construction", "Tenant Improvements"]}
       />
-      <FAQSchema faqs={clearwaterFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-            alt="Commercial construction project in Tampa Bay"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
-        </div>
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Clearwater, Florida</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in Clearwater, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the beachfront resort hotels lining Clearwater Beach to the retail centers stretching along US 19 and the medical campuses surrounding Morton Plant Hospital, Florida Construction Specialists delivers commercial construction across every sector of Clearwater's economy. As a prime general contractor with over four decades of experience and in-house engineering, we bring the coastal construction expertise and bonding capacity that Clearwater's unique building environment demands.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
-            <div className="text-white">
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-sm font-medium">Serving Clearwater, FL</span>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Commercial Construction in Clearwater, Florida
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is Clearwater's trusted commercial contractor for projects ranging from $500K to $25M+. From Clearwater Beach's world-renowned hospitality district to the thriving US 19 commercial corridor, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and decades of Pinellas County expertise.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Shield className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Bonding</p>
-                  <p className="text-xs text-gray-300">$10M+ Capacity</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Clock className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Experience</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.yearsInBusiness}+ Years</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Projects</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.projectsCompleted}+ Delivered</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Schedule Project Consultation
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request a Clearwater Project Consultation
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your commercial project in Clearwater and receive a consultation from our team.
-              </p>
-              <HighLevelForm variant="commercial" />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Project Consultation
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content Section */}
+      {/* Clearwater Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Services in Clearwater
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Clearwater is home to over 115,000 residents and one of Florida's most famous tourism destinations—Clearwater Beach, consistently ranked among America's top beaches. The city's economy benefits from a diverse mix of tourism, healthcare, retail, and professional services, creating strong demand for quality commercial construction across multiple sectors.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Clearwater's Beach Economy Drives a Distinct Commercial Construction Market
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Clearwater occupies a unique position in the Tampa Bay commercial landscape. Unlike Tampa's corporate office towers or St. Petersburg's arts-district urbanism, Clearwater's commercial identity is defined by its barrier island tourism economy, its position as Pinellas County's second-largest city, and a mainland commercial infrastructure that serves both residents and the millions of visitors who pass through annually. This duality creates commercial construction demand that spans resort hospitality, healthcare, retail, and professional office space in ways that few other Florida cities replicate.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Clearwater's diverse commercial construction needs with the expertise, bonding capacity, and local knowledge required for large-scale projects. Whether you're building a new hotel on Clearwater Beach, a medical facility near Morton Plant Hospital, or a retail center along the busy US-19 corridor, we deliver on time and on budget.
+              <p className="mb-6">
+                Clearwater Beach, situated on a narrow barrier island connected to the mainland by the Memorial Causeway, generates enormous hospitality construction activity. The beach has been ranked America's number one beach multiple times, and the hotel and resort properties lining Gulf Boulevard and Mandalay Avenue require continuous renovation, expansion, and new development to remain competitive. This hospitality construction is specialized work. Every beachfront project must address barrier island flood zones, elevated wind speed requirements, salt spray corrosion, and the logistical constraints of delivering materials and equipment across the causeway to an island with limited staging area.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Clearwater project. Our relationships with local building departments, subcontractors, and suppliers ensure smooth execution from groundbreaking to certificate of occupancy.
+              <p className="mb-6">
+                On the mainland, US Highway 19 bisects Clearwater as one of Tampa Bay's highest-traffic commercial corridors. From the Countryside retail cluster in northern Clearwater through the Gulf-to-Bay Boulevard intersection and south toward Largo, US 19 supports a dense mix of retail centers, medical offices, automotive dealerships, restaurants, and professional service buildings. The Gulf-to-Bay corridor running east-west connects the beach to the mainland and serves as a secondary commercial spine with office parks, healthcare facilities, and mixed-use development.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Commercial Construction Capabilities in Clearwater
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceFeatures.map((feature) => (
-                  <div key={feature.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{feature.title}</h4>
-                    <p className="text-gray-600 text-sm">{feature.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Clearwater Commercial Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Clearwater" currentService="commercial-construction" />
-              <NearbyLocations currentCity="Clearwater" service="commercial-construction" serviceName="Commercial Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Clearwater Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Commercial construction in Clearwater starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Morton Plant Hospital, a BayCare Health System facility in central Clearwater, anchors a substantial healthcare construction market. The hospital campus and surrounding medical offices generate steady demand for medical facility construction, specialty clinic buildouts, and healthcare-related tenant improvements. Florida Construction Specialists has the AHCA compliance expertise, coastal construction knowledge, and prime contractor accountability that Clearwater's commercial projects require.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Clearwater Market Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/commercial-construction-design/commercial-construction-design-display.webp"
+        alt="Commercial construction project in Clearwater's business corridor"
+        title="Building Clearwater's Commercial Future"
+        subtitle="From beachfront resorts to mainland medical centers and US 19 retail"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Clearwater's Commercial Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Expertise for Clearwater's Diverse Sectors
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Clearwater's commercial market spans beach hospitality, mainland healthcare, and corridor retail. We deliver specialized expertise across every sector.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Hotel and Resort Construction",
+                description: "New resort development and major hotel renovations on Clearwater Beach and Sand Key. We navigate barrier island construction requirements including VE flood zones, enhanced wind loads, and salt-exposure material specifications while managing logistics across the Memorial Causeway."
+              },
+              {
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "AHCA-compliant healthcare construction serving the Morton Plant Hospital corridor and medical offices throughout Clearwater. Surgical centers, specialty clinics, diagnostic imaging facilities, and medical office buildouts with infection control protocols and specialized MEP systems."
+              },
+              {
+                icon: HardHat,
+                title: "Retail and Restaurant Construction",
+                description: "Retail center construction, restaurant buildouts, and commercial renovations along the US 19 corridor, Gulf-to-Bay Boulevard, and throughout Clearwater's mainland commercial districts. From multi-tenant retail centers to standalone restaurant buildings."
+              },
+              {
+                icon: Briefcase,
+                title: "Office and Tenant Improvements",
+                description: "Commercial office construction and tenant improvement projects for Clearwater's professional service sector. From downtown Clearwater office buildings to the Countryside office parks in northern Clearwater, we deliver buildouts that minimize disruption to neighboring tenants."
+              },
+              {
+                icon: FileCheck,
+                title: "Design-Build Construction",
+                description: "Single-source delivery for Clearwater commercial projects. We coordinate architecture, engineering, and construction under one contract, which is particularly valuable for beach-area hospitality projects where design decisions must account for coastal structural requirements from day one."
+              },
+              {
+                icon: Award,
+                title: "Commercial Renovations",
+                description: "Major renovations and adaptive reuse throughout Clearwater. Aging retail centers along US 19, hotel property upgrades on Clearwater Beach, office building modernization in downtown Clearwater, and commercial building conversions that meet current Florida Building Code and flood zone requirements."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Clearwater Beach & Hospitality</h3>
-              <p className="text-gray-600 text-sm">
-                Clearwater Beach welcomes millions of visitors annually, driving continuous demand for hotel construction, restaurant buildouts, and entertainment venues. We specialize in hospitality construction that meets the area's demanding coastal building requirements.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">US-19 Commercial Corridor</h3>
-              <p className="text-gray-600 text-sm">
-                US Highway 19 through Clearwater is one of Tampa Bay's busiest commercial corridors, featuring major retail centers, office parks, and service businesses. We've completed numerous projects along this high-traffic commercial strip.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <FileCheck className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Healthcare Hub</h3>
-              <p className="text-gray-600 text-sm">
-                Morton Plant Hospital anchors Clearwater's healthcare sector, with numerous medical offices, urgent care facilities, and specialty clinics throughout the area. We deliver healthcare construction that meets stringent regulatory requirements.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -310,145 +200,79 @@ export default function CommercialConstructionClearwaterPage() {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Clearwater's Unique Conditions
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Clearwater Construction Knowledge Built Over Decades
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Thermometer className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Coastal Climate Challenges</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Clearwater's Gulf Coast location demands construction methods designed for salt air corrosion, intense UV exposure, and high humidity (75-85% year-round). We specify marine-grade materials and protective systems that withstand these harsh coastal conditions.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Enhanced Wind Resistance</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Clearwater Beach and barrier island construction requires up to 150 mph design wind speed. All our commercial construction meets or exceeds Florida Building Code requirements for impact-resistant glazing, enhanced roof systems, and wind-resistant structural connections.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Construction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Most Clearwater Beach commercial properties fall within FEMA flood zones VE and AE. We navigate flood zone construction requirements, elevation certificates, breakaway wall requirements, and SWFWMD stormwater permits to ensure compliance.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Local Permitting Knowledge</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  We maintain strong relationships with the City of Clearwater Development Services Department and Pinellas County Building Department. Our familiarity with local processes, coastal zone requirements, and inspection protocols helps minimize permit delays.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Commercial construction in Clearwater presents a split challenge. Beach-side projects operate under barrier island conditions with severe coastal exposure, while mainland projects face more conventional but still demanding construction environments shaped by Pinellas County's density, sandy soils, and high water table. A contractor who understands only one side of Clearwater's building landscape will struggle with the other.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> manages permitting for commercial projects within city limits. Clearwater's plan review process covers building, fire, mechanical, electrical, plumbing, and environmental disciplines. Projects in the downtown Community Redevelopment Area may require additional review through the Community Development Board. Beach-area projects often involve concurrent approvals from FEMA for flood compliance, the Southwest Florida Water Management District for stormwater, and the Florida Department of Environmental Protection for coastal construction setback compliance.
+              </p>
+              <p className="mb-6">
+                Clearwater's weather directly shapes construction planning. The city receives roughly 50 inches of annual rainfall, concentrated in intense afternoon thunderstorms from June through September. Clearwater Beach's full Gulf exposure places barrier island structures in some of the highest wind speed zones in the Tampa Bay area, with design wind speeds of 150 mph or greater for beach-side commercial buildings. Beyond wind, the salt spray environment on the barrier island accelerates corrosion of steel, aluminum, and standard fasteners, requiring marine-grade specifications throughout the building envelope and structural connections.
+              </p>
+              <p className="mb-6">
+                Our knowledge of Clearwater's neighborhoods informs every project. Commercial construction along US 19 near Countryside requires coordination with the high-traffic corridor's access management standards and FDOT requirements. The Gulf-to-Bay corridor connecting Clearwater Beach to mainland Clearwater supports office and medical construction with proximity to both the beach tourism economy and the residential population in Clearwater neighborhoods like Harbor Oaks, Skycrest, and Woodlawn. Downtown Clearwater is undergoing redevelopment with new mixed-use commercial projects that must navigate the city's urban design standards.
+              </p>
+              <p>
+                Island Estates, a residential enclave on the north end of the barrier island system, generates commercial renovation work for the neighborhood's small commercial properties and marina facilities. Sand Key, south of Clearwater Beach proper, supports condominium-adjacent commercial construction. The Belleair area adjacent to southern Clearwater includes commercial properties serving the affluent residential community. Each of these submarkets has distinct site conditions, access constraints, and permitting considerations that we navigate through established local experience.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="section bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Ready to Build in Clearwater?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We'll discuss your Clearwater commercial construction needs and provide preliminary budgeting.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              {BUSINESS_INFO.phone}
-            </a>
-          </div>
-        </div>
-      </section>
-
       {/* Process Section */}
-      <section className="section bg-white">
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our Clearwater Construction Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A proven approach tailored for Clearwater's commercial construction environment and Pinellas County requirements.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Clearwater Commercial Construction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in Clearwater follows a structured process designed for Pinellas County's coastal construction environment.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-4xl mx-auto space-y-6">
             {[
               {
                 step: "01",
-                title: "Discovery & Pre-Construction",
-                description: "We assess your Clearwater project requirements, conduct site analysis including flood zone evaluation, and develop preliminary budgets and schedules specific to Pinellas County's market conditions.",
+                title: "Site Assessment and Coastal Evaluation",
+                description: "We evaluate your Clearwater site for flood zone classification, soil conditions, utility capacity, and zoning compatibility. Beach-area sites require VE or AE flood zone determination, base flood elevation verification, and coastal construction setback analysis. Mainland sites along US 19 need traffic impact assessment and FDOT access coordination.",
                 icon: FileCheck,
               },
               {
                 step: "02",
-                title: "Design Coordination",
-                description: "Whether design-build or design-bid-build, we coordinate all design elements ensuring constructability and compliance with Clearwater's building codes, coastal requirements, and zoning regulations.",
+                title: "Design Coordination and Value Engineering",
+                description: "Whether providing design-build or working with your design team, we ensure constructability, code compliance, and material specifications appropriate to Clearwater's coastal environment. Beach-area projects require corrosion-resistant material selection from the design phase, while mainland medical or retail projects need functionality-driven value engineering.",
                 icon: Building2,
               },
               {
                 step: "03",
-                title: "Clearwater Permitting",
-                description: "We navigate the City of Clearwater and Pinellas County Building Services, securing all required permits, approvals, and inspections to keep your project on schedule.",
+                title: "Permitting Through City of Clearwater",
+                description: "We prepare complete permit packages for the City of Clearwater Development Services Department, coordinating review across all disciplines. For beach-area projects, we manage concurrent submissions to FEMA, SWFWMD, and FDEP as needed. Downtown projects requiring Community Development Board review receive specialized application preparation.",
                 icon: Briefcase,
               },
               {
                 step: "04",
-                title: "Construction Execution",
-                description: "Experienced superintendents manage daily construction with Clearwater-area subcontractors who understand local conditions, coastal construction requirements, and quality expectations.",
+                title: "Construction with Local Expertise",
+                description: "Experienced superintendents manage daily construction using our network of Pinellas County subcontractors who understand local conditions and inspection expectations. Beach-area projects require careful logistics planning for material delivery across the Memorial Causeway, while mainland corridor projects coordinate with adjacent businesses to minimize disruption.",
                 icon: HardHat,
               },
               {
                 step: "05",
-                title: "Quality Control",
-                description: "Rigorous quality control ensures your Clearwater project meets specifications, flood zone requirements, hurricane codes, and our high standards—documented at every phase.",
-                icon: CheckCircle,
-              },
-              {
-                step: "06",
-                title: "Completion & Warranty",
-                description: "Thorough closeout including punch list resolution, Certificate of Occupancy, training, and comprehensive warranty documentation for your Clearwater property.",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Thorough punch list resolution, final inspections, Certificate of Occupancy from the City of Clearwater, and complete warranty documentation. For hospitality projects, we coordinate turnover timing with seasonal operations. Medical facilities receive specialized commissioning and equipment startup support.",
                 icon: Award,
               },
             ].map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
-                <div className="absolute -top-4 left-6 bg-brand-green text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-brand-green mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -457,186 +281,47 @@ export default function CommercialConstructionClearwaterPage() {
         </div>
       </section>
 
-      {/* Cost/Timeline Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Clearwater Commercial Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full bg-white rounded-lg shadow-sm">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="px-6 py-4 text-left font-semibold">Project Type</th>
-                    <th className="px-6 py-4 text-left font-semibold">Typical Cost Range</th>
-                    <th className="px-6 py-4 text-left font-semibold">Timeline</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Tenant Improvement</td>
-                    <td className="px-6 py-4 text-gray-600">$50-150/SF</td>
-                    <td className="px-6 py-4 text-gray-600">2-4 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Office Building (Ground-Up)</td>
-                    <td className="px-6 py-4 text-gray-600">$200-400/SF</td>
-                    <td className="px-6 py-4 text-gray-600">10-16 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Hotel/Hospitality (Beach Area)</td>
-                    <td className="px-6 py-4 text-gray-600">$350-600/SF</td>
-                    <td className="px-6 py-4 text-gray-600">14-24 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Medical/Healthcare Facility</td>
-                    <td className="px-6 py-4 text-gray-600">$350-550/SF</td>
-                    <td className="px-6 py-4 text-gray-600">12-18 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Retail Center (US-19 Corridor)</td>
-                    <td className="px-6 py-4 text-gray-600">$150-300/SF</td>
-                    <td className="px-6 py-4 text-gray-600">8-14 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Restaurant Buildout</td>
-                    <td className="px-6 py-4 text-gray-600">$200-450/SF</td>
-                    <td className="px-6 py-4 text-gray-600">3-6 months</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs and timelines are estimates and vary based on project specifics, site conditions, and coastal requirements. Beach-area projects typically command premium pricing. Contact us for a detailed estimate.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Clearwater Businesses Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor in Clearwater. You get direct accountability, single-point contact, and our full commitment to your project's success from start to finish.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Coastal Construction Experts</h3>
-              <p className="text-gray-600">
-                With extensive experience in Clearwater Beach and coastal Pinellas County, we understand the unique challenges of building in flood zones with enhanced wind requirements.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Relationships</h3>
-              <p className="text-gray-600">
-                Strong relationships with Clearwater building departments, inspectors, subcontractors, and suppliers help ensure smooth permitting and efficient construction execution.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Map Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Serving Commercial Construction Throughout Clearwater
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              From our Ruskin headquarters, we serve all of Clearwater and Pinellas County for commercial construction projects.
-            </p>
-          </div>
-          <GoogleMap city="Clearwater" height={400} />
-        </div>
-      </section>
-
       {/* FAQ Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-                Clearwater Commercial Construction FAQ
-              </h2>
-              <p className="text-xl text-gray-600">
-                Common questions about commercial construction in Clearwater, Florida.
-              </p>
-            </div>
+      <FAQWithSchema
+        items={faqs}
+        title="Clearwater Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in Clearwater, Florida."
+      />
 
-            <FAQWithSchema items={clearwaterFaqs} />
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Clearwater" currentService="commercial-construction" />
+            <NearbyLocations currentCity="Clearwater" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <InternalLinks
-            title="Explore Our Commercial Services"
-            links={pillarLinks}
-          />
-
-          <div className="mt-12">
-            <InternalLinks
-              title="Nearby Service Areas"
-              links={nearbyLocationLinks}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
+      {/* CTA Section */}
       <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Start Your Clearwater Commercial Project Today
-              </h2>
-              <p className="text-xl text-gray-200 mb-6">
-                Contact Florida Construction Specialists for a consultation on your Clearwater commercial construction project. Our team will discuss your vision, provide preliminary budgeting, and outline the path to successful project delivery.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call {BUSINESS_INFO.phone}
-                </a>
-                <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
-                  Contact Us Online
-                </Link>
-              </div>
-
-              {/* Trust indicators */}
-              <div className="mt-8 pt-8 border-t border-white/20">
-                <p className="text-sm text-gray-300 mb-4">Clearwater's trusted commercial contractor:</p>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-200">
-                  <span>License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>In-House Engineering</span>
-                  <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
-                  <span>{BUSINESS_INFO.projectsCompleted}+ Projects</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Schedule Your Consultation
-              </h3>
-              <HighLevelForm variant="commercial" />
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your Clearwater Commercial Construction Project
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for a consultation on your commercial project in Clearwater. Whether you are planning a beachfront resort renovation or a mainland medical facility, we will discuss your vision and outline a clear path to delivery.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Request a Project Consultation
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
             </div>
           </div>
         </div>
