@@ -1,533 +1,268 @@
-import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import {
-  Phone,
-  MapPin,
-  CheckCircle,
-  ArrowRight,
-  Building2,
-  Shield,
-  Award,
-  Clock,
-  AlertTriangle,
-  FileText,
-  CloudRain,
-  Droplets,
-  Flame,
-  ShieldCheck,
-  Users,
-  Briefcase
-} from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, AlertTriangle, FileCheck, Wrench, Wind, Droplets } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { FAQ } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { NearbyLocations, InternalLinks } from "@/components/InternalLinks";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
-  title: "Disaster Recovery in Tampa",
-  description: "Disaster recovery Tampa: large-loss hurricane, flood, fire restoration. 43 years claims experience, all carriers. Call our emergency hotline.",
+  title: "Disaster Recovery Tampa FL | Hurricane & Storm Recovery | FCS",
+  description: "Disaster recovery construction in Tampa. Hurricane preparedness, emergency response, structural stabilization, commercial and residential recovery. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What makes Tampa particularly vulnerable to hurricane-related disasters?",
+    answer: "Tampa faces a confluence of disaster risk factors that distinguish it from most other Florida cities. The geography of Tampa Bay creates a natural funnel effect for storm surge, with modeling showing potential surge heights of 10 to 20 feet in a worst-case Category 4 or 5 hurricane approach from the southwest. Much of Tampa's developed land sits at low elevation, including the entire Bayshore corridor, Harbour Island, Davis Islands, and significant portions of downtown and South Tampa. The city also has a large inventory of older buildings constructed before modern hurricane codes took effect in 2002. The combination of surge vulnerability, low elevation, aging building stock, and high property values makes Tampa one of the most disaster-exposed cities in the United States."
+  },
+  {
+    question: "How does FCS prepare for disaster recovery before hurricane season?",
+    answer: "Preparation is as important as response. Before each hurricane season, we review and update our emergency response protocols, verify subcontractor and supplier availability commitments, inspect and service our emergency equipment inventory, and confirm material supply chain agreements for tarps, plywood, generators, and pumps. We maintain a prioritized contact list of existing clients and commercial property managers throughout Tampa so we can mobilize response teams efficiently. We also pre-identify staging areas in elevated locations in Hillsborough County and maintain relationships with fuel suppliers to ensure equipment operation when normal supply chains are disrupted."
+  },
+  {
+    question: "What is the difference between emergency stabilization and disaster recovery construction?",
+    answer: "Emergency stabilization happens in the first 24 to 72 hours after a disaster event and focuses on preventing additional damage: tarping roof penetrations, extracting standing water, shoring compromised structures, securing building openings, and removing immediate hazards like fallen trees on structures. The goal is to stop the damage from getting worse. Disaster recovery construction is the full restoration phase that follows, which can take weeks to months depending on the damage scope. This phase involves structural repairs, building envelope restoration, MEP system replacement, interior finishes, and code compliance upgrades. For Tampa properties, disaster recovery construction must be permitted through the City of Tampa Building Services Department and pass all required inspections."
+  },
+  {
+    question: "Can FCS handle disaster recovery for multiple Tampa properties simultaneously?",
+    answer: "Yes, and this capability is essential in Tampa's disaster scenario. When a major hurricane or severe storm event hits Tampa, the damage is not limited to one property. Commercial property managers in the Westshore Business District may have multiple buildings affected. Condo associations along the Bayshore corridor all sustain similar damage patterns. Our team structure allows us to deploy multiple project managers and superintendent-led crews to different Tampa properties simultaneously, applying consistent quality standards and documentation practices across all sites. We triage properties based on structural severity and life safety, then execute recovery in a coordinated sequence that makes efficient use of subcontractor availability, which is a critical constraint when all of Tampa needs restoration at the same time."
+  },
+  {
+    question: "How does flood damage from storm surge affect disaster recovery in Tampa?",
+    answer: "Storm surge flood damage creates recovery challenges that are distinct from wind damage. When surge water enters Tampa buildings, it deposits salt, sediment, and contaminants that affect everything below the water line. Drywall, insulation, electrical wiring, mechanical equipment, and structural wood members below the surge level typically require complete removal and replacement. Salt water is particularly destructive to electrical systems and metal components. For Tampa properties in FEMA flood zones, the recovery process must also address flood insurance policy requirements, which are separate from windstorm coverage. We document surge damage with the specific evidence that flood insurance adjusters require, including high-water marks, salt deposits, and material contamination testing."
+  },
+  {
+    question: "Does the City of Tampa expedite building permits after a declared disaster?",
+    answer: "Following a federal or state disaster declaration, the City of Tampa Building Services Department typically activates emergency permitting procedures that streamline the review process for disaster recovery work. Emergency permits can often be obtained within 24 to 48 hours for critical structural stabilization. Full recovery permits still require plan review, but the review timeline is typically compressed compared to normal conditions. We maintain the relationships with Tampa building officials that help us navigate these emergency processes effectively. It is important to note that even under expedited procedures, the work itself must still meet full Florida Building Code requirements, and inspections are still required at each construction milestone."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Tampa", href: "/disaster-recovery-tampa/" },
-];
-
-const tampaFaqs = [
-  {
-    question: "Why is Tampa Bay considered one of the most hurricane-vulnerable metro areas in the U.S.?",
-    answer: "Tampa Bay's unique geography creates extreme storm surge vulnerability. The bay's shallow bathymetry can amplify storm surge to 15-20 feet in major hurricanes. Properties along Bayshore Boulevard, Davis Islands, Harbour Island, and the Channelside District face the highest risk. Additionally, Tampa hasn't experienced a direct major hurricane hit since 1921, meaning much of the building stock predates modern wind codes. Our disaster recovery team understands these vulnerabilities and provides comprehensive restoration when storms strike."
-  },
-  {
-    question: "What experience does Florida Construction Specialists have with large loss insurance claims?",
-    answer: "Our principal, Frank Bragano, brings 43+ years of property claims experience, including 7 years as an Allstate Commercial Property Adjuster (1982-1989) and subsequent work as an Executive General Adjuster with CJW-Vericlaim and Sedgwick. This insurance industry background means we understand claims from both sides—adjuster and contractor. We know what documentation carriers need, how to properly scope damages, and how to communicate effectively to facilitate fair settlements."
-  },
-  {
-    question: "What size disaster recovery projects does FCS handle in Tampa?",
-    answer: "We specialize in large loss disaster recovery, typically projects exceeding $250,000. Our Tampa portfolio includes commercial properties, multi-family residential complexes, condominiums, HOA common areas, and high-value single-family homes. Our Hurricane Harvey response in Texas exceeded $40M total, and our Hurricane Irma work in Miami exceeded $20M—demonstrating our capacity for major disaster mobilization."
-  },
-  {
-    question: "Do you work with all insurance carriers on Tampa disaster claims?",
-    answer: "Yes, Florida Construction Specialists works with all major insurance carriers on commercial and residential large loss claims. Our professional relationships with carriers, adjusters, and claims professionals throughout Florida help facilitate efficient claim processing. We maintain the documentation standards and professional communication that carriers expect from experienced restoration contractors."
-  },
-  {
-    question: "What Tampa neighborhoods are most vulnerable to flood and hurricane damage?",
-    answer: "Tampa's highest-risk areas include VE (velocity) flood zones along Hillsborough Bay, Davis Islands, Harbour Island, Bayshore Boulevard, and the Channelside District. South Tampa, Westshore, and low-lying areas near the Hillsborough River also face significant flood exposure. Downtown Tampa's older commercial buildings and the historic districts of Ybor City, Hyde Park, and Tampa Heights require specialized restoration approaches that comply with both building codes and historic preservation requirements."
-  },
-  {
-    question: "What is Tampa's 50% Rule and how does it affect disaster restoration?",
-    answer: "Under Florida Building Code, if repair costs exceed 50% of a building's pre-damage market value, the entire structure must be brought up to current code—not just the damaged portions. In Tampa, this often triggers requirements for impact-resistant windows, upgraded roof tie-downs, flood elevation compliance, and HVHZ (High-Velocity Hurricane Zone) wind resistance standards. Our experience with substantial improvement calculations helps Tampa property owners understand their obligations and plan accordingly."
-  },
-  {
-    question: "How does FCS handle documentation for Tampa insurance restoration projects?",
-    answer: "We provide comprehensive documentation including initial damage assessments with photos and video, moisture mapping reports, detailed scope of work documents, certified estimates using industry-standard software, material specifications, progress reports, and final completion documentation. This thorough documentation supports fair claim settlements and provides clear records for supplemental claims when hidden damage is discovered during restoration."
-  },
-  {
-    question: "What is the typical timeline for hurricane damage restoration in Tampa?",
-    answer: "Hurricane restoration timelines vary by project scope. Stabilization typically takes 1-3 days, water extraction and structural drying 5-14 days, and structural repairs 30-90 days. Complete restoration of large commercial or multi-family properties often requires 6-12 months, depending on damage extent, permit timelines through the City of Tampa Building Department, and material availability. We provide realistic schedules during our initial assessment."
-  },
-  {
-    question: "Can you restore historic properties in Tampa's designated historic districts?",
-    answer: "Yes, FCS has extensive experience restoring historic properties throughout Tampa Bay, including work in Ybor City, Hyde Park, Tampa Heights, and Seminole Heights. We coordinate with the Tampa Historic Preservation Commission and follow Secretary of the Interior Standards to maintain historic character while incorporating disaster-resistant improvements where permitted. Our portfolio includes projects like the Italian American Club in Ybor City and Bay Pines Veterans Hospital."
-  },
-  {
-    question: "What types of disaster damage do you restore in Tampa?",
-    answer: "We handle all major disaster types including hurricane and tropical storm damage, flooding and water intrusion, fire and smoke damage, tornado damage, hail damage, and vehicle impact damage. Our services encompass structural repair, roof reconstruction, interior restoration, mold remediation coordination, and complete building envelope reconstruction. As a prime contractor, we manage all aspects of restoration from storm response through final completion."
-  },
-];
-
-const clusterServices = [
-  {
-    name: "Hurricane & Storm Damage",
-    href: "/disaster-recovery/",
-    description: "Comprehensive restoration from hurricane, tropical storm, and tornado damage including structural repair, roofing, and building envelope reconstruction.",
-    icon: CloudRain,
-  },
-  {
-    name: "Water Damage Restoration",
-    href: "/disaster-recovery/",
-    description: "Large loss water damage restoration including flood recovery, pipe failures, and comprehensive moisture remediation.",
-    icon: Droplets,
-  },
-  {
-    name: "Fire Damage Restoration",
-    href: "/disaster-recovery/",
-    description: "Complete fire and smoke damage restoration from structural repair to content restoration and odor elimination.",
-    icon: Flame,
-  },
-  {
-    name: "Insurance Claims Process",
-    href: "/disaster-recovery/",
-    description: "Expert guidance through the insurance claim process, from initial documentation through final settlement and restoration completion.",
-    icon: FileText,
-  },
-];
-
-const processSteps = [
-  {
-    step: "01",
-    title: "Initial Assessment & Documentation",
-    description: "We conduct thorough damage assessment with comprehensive photo and video documentation, moisture readings, and detailed notes. Our certified damage assessments form the foundation for accurate scope development and support your insurance claim.",
-    icon: FileText,
-  },
-  {
-    step: "02",
-    title: "Scope Development & Certified Estimate",
-    description: "Using industry-standard estimating software, we develop detailed scopes of work that capture all damage and required repairs. Our certified estimates meet carrier documentation standards and ensure nothing is overlooked in your claim.",
-    icon: Briefcase,
-  },
-  {
-    step: "03",
-    title: "Insurance Carrier Communication",
-    description: "We work directly with adjusters and claims professionals to review scope, discuss methodology, and reach agreement on repair protocols. Our 43+ years of insurance industry background facilitates productive, professional communication.",
-    icon: ShieldCheck,
-  },
-  {
-    step: "04",
-    title: "Approval & Project Mobilization",
-    description: "Once scope is approved, we mobilize resources for restoration. Our established relationships with Tampa-area subcontractors and suppliers enable rapid response without sacrificing quality or code compliance.",
-    icon: Clock,
-  },
-  {
-    step: "05",
-    title: "Restoration Execution",
-    description: "Experienced project managers oversee every aspect of restoration, from demolition through final finishes. Regular progress reports and documentation maintain transparency and keep your insurance carrier informed throughout the project.",
-    icon: Building2,
-  },
-  {
-    step: "06",
-    title: "Final Walkthrough & Project Closeout",
-    description: "Comprehensive punch list resolution, City of Tampa final inspections, insurance sign-off, warranty documentation, and certificate of completion ensure your Tampa property is returned to pre-loss condition—or better.",
-    icon: Award,
-  },
-];
-
-const internalLinks = [
-  { href: "/insurance/", label: "Disaster Recovery Services (Main)" },
-  { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
-  { href: "/disaster-recovery/", label: "Water Damage Services" },
-  { href: "/disaster-recovery/", label: "Fire Damage Restoration" },
-  { href: "/disaster-recovery/", label: "Insurance Claims Process" },
-  { href: "/disaster-recovery-st-petersburg/", label: "Disaster Recovery St. Petersburg" },
-  { href: "/disaster-recovery-clearwater/", label: "Disaster Recovery Clearwater" },
-  { href: "/disaster-recovery-lakeland/", label: "Disaster Recovery Lakeland" },
 ];
 
 export default function DisasterRecoveryTampaPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="Tampa" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Large loss disaster recovery and insurance restoration services in Tampa, FL. Specializing in hurricane damage, water damage, fire damage, and comprehensive property restoration with 43+ years claims experience. Projects from $250,000 to $25M+."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction services in Tampa, FL. Hurricane response, emergency stabilization, structural recovery, commercial and residential restoration. Licensed CBC1262722."
         city="Tampa"
-        minPrice="250000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        serviceCategories={["Hurricane Recovery", "Emergency Stabilization", "Structural Recovery", "Flood Damage Restoration", "Commercial Disaster Recovery"]}
       />
-      <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Emergency Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-red-900 via-red-800 to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")' }} />
-        </div>
-
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/home-hero-after-great-disasters-sandy-crop/home-hero-after-great-disasters-sandy-crop-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
-
-          {/* Emergency Contact Bar */}
-          <div className="bg-white/95 rounded-xl p-4 mb-8 mt-4 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <AlertTriangle className="w-8 h-8 text-red-600" />
-              <div>
-                <p className="font-bold text-brand-green-dark">Tampa Property Damaged?</p>
-                <p className="text-sm text-gray-600">Large loss restoration specialists available for assessment</p>
-              </div>
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Tampa, Florida</span>
             </div>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-6 py-3 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
-          </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Tampa, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Tampa sits in one of the highest hurricane risk zones in the United States, with storm surge, wind, and flooding threats that can devastate commercial and residential properties in hours. Florida Construction Specialists provides comprehensive disaster recovery services, from emergency stabilization through complete structural restoration, for property owners across Tampa and Hillsborough County.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              {/* Location Badge */}
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-brand-gold font-semibold">Serving Tampa, FL</span>
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Disaster Recovery in Tampa
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                When disaster strikes Tampa Bay, you need a contractor who understands both construction and insurance. With 43+ years of property claims experience—including work as a former Allstate Commercial Adjuster—Florida Construction Specialists brings unmatched expertise to large loss restoration throughout Tampa.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <ShieldCheck className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">43+ Years</p>
-                  <p className="text-xs text-gray-300">Claims Experience</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">$250K+</p>
-                  <p className="text-xs text-gray-300">Projects</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <FileText className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">All Carriers</p>
-                  <p className="text-xs text-gray-300">Insurance</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Request Insurance Assessment
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <AlertTriangle className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">24-48 Hour Emergency Response</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request a Tampa Assessment
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your Tampa property damage and we'll schedule an assessment with our insurance restoration team.
-              </p>
-              <HighLevelForm height={450} />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Emergency Disaster Response
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Introduction Section */}
+      {/* Tampa Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-              Tampa Bay's Most Vulnerable Metro Area—And the Expertise to Restore It
+              The Disaster Scenario Tampa Has Been Warned About for Decades
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="lead text-xl mb-6">
-                Tampa Bay is consistently ranked as one of the most hurricane-vulnerable metropolitan areas in the United States. The bay's unique geography—shallow waters that amplify storm surge, extensive waterfront development, and building stock largely predating modern wind codes—creates exceptional risk for property owners throughout Hillsborough County.
+              <p className="text-xl mb-6">
+                Emergency management professionals have called Tampa Bay the most vulnerable major metropolitan area in the United States for hurricane storm surge. The bay's shallow depth and funnel-shaped geography amplify surge heights well beyond the open coastline, and the city's development pattern places billions of dollars of commercial and residential property at or near sea level. When Hurricane Ian tracked just south of Tampa Bay in 2022, the region experienced a preview of what a direct hit could bring, with significant surge and wind damage despite the storm making landfall over 100 miles to the south.
               </p>
               <p className="mb-6">
-                When disaster strikes Tampa, Florida Construction Specialists brings a combination of expertise found nowhere else: genuine insurance industry experience paired with prime contractor construction capabilities. Our principal, Frank Bragano, spent 7 years as an Allstate Commercial Property Adjuster before transitioning to Executive General Adjuster roles with CJW-Vericlaim and Sedgwick. This 43+ year foundation in property claims means we understand the restoration process from every perspective.
+                Tampa's disaster risk extends beyond the dramatic hurricane scenario. The city experiences severe thunderstorm activity from May through September that produces wind gusts exceeding 70 mph, torrential rainfall that overwhelms drainage systems, and lightning strikes that start building fires. The Hillsborough River and its tributaries flood during extended heavy rainfall events, affecting properties in Tampa Heights, Seminole Heights, and low-lying areas along the river corridor. Even without a named storm, Tampa's annual thunderstorm season generates wind, water, and fire damage that requires professional disaster recovery services.
               </p>
               <p className="mb-6">
-                Our disaster recovery track record demonstrates our capacity for major mobilization. Following Hurricane Harvey in Texas, we managed over $40 million in restoration projects. Hurricane Irma brought us to Miami where we completed more than $20 million in work including Embassy Towers, Oceania I Luxury Condominiums, and numerous commercial properties. This experience informs our approach to Tampa disaster recovery, where similar challenges await.
+                The built environment in Tampa reflects decades of growth under evolving building codes. Commercial buildings constructed before the Florida Building Code's major 2002 revision lack the hurricane-resistant design features that current code requires. Many of the office buildings in the Westshore Business District, the condo towers along Bayshore Boulevard, the retail structures in established neighborhoods like Hyde Park and SoHo, and the industrial facilities near the Port of Tampa were built to standards that would not withstand a direct major hurricane hit. This older building stock is more vulnerable to damage and more complex to restore, requiring code upgrades during the recovery process.
               </p>
               <p>
-                As your prime contractor for Tampa disaster recovery, FCS provides turnkey restoration—from initial damage assessment and certified estimates through complete reconstruction. We work with all insurance carriers, maintain the documentation standards carriers expect, and deliver quality restoration that returns your property to pre-loss condition.
+                Florida Construction Specialists maintains disaster recovery capabilities specifically calibrated for Tampa's risk profile. Our emergency response protocols, pre-positioned materials and equipment, established subcontractor network, and relationships with the City of Tampa Building Services Department allow us to move from emergency stabilization to full recovery construction efficiently. Our principal's 43 years of combined construction and insurance experience means we manage not just the physical recovery but also the documentation and claims process that property owners depend on for financial recovery.
               </p>
             </div>
-          
-          {/* Project Gallery */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/Ian-2/ian-2-display.webp"
-                alt="Hurricane damage assessment"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Hurricane Damage</p>
-                <p className="text-sm text-gray-200">Storm Response</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp"
-                alt="Storm damage restoration"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Storm Restoration</p>
-                <p className="text-sm text-gray-200">Roof Repair</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-                alt="Restored commercial building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Completed Restoration</p>
-                <p className="text-sm text-gray-200">Hurricane Recovery</p>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-restoration/hurricane-restoration-large.webp"
-        alt="Disaster recovery and storm damage restoration"
-        title="When Disaster Strikes, We Respond"
-        subtitle="43 years of insurance restoration experience"
-        overlayOpacity={0.6}
+        src="/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-small.webp"
+        alt="Disaster recovery and hurricane damage restoration in Tampa"
+        title="Ready When Tampa Needs Us"
+        subtitle="Emergency response, structural stabilization, and complete disaster recovery construction"
+        overlayOpacity={0.55}
       />
 
-      {/* Tampa-Specific Risk Section */}
-      <section className="section bg-red-50">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Understanding Tampa's Disaster Risk Profile
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Tampa Bay's geography creates unique challenges for property owners and requires restoration contractors with local expertise.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8 mb-12">
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <AlertTriangle className="w-6 h-6" />
-                Hurricane & Storm Surge Risk
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Tampa Bay's shallow bathymetry can amplify storm surge to 15-20 feet in major hurricanes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Last direct major hurricane hit was 1921—most buildings predate modern wind codes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Bayshore Boulevard, Davis Islands, Harbour Island, and Channelside face extreme exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Hurricane season runs June through November with peak activity August-October</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md p-6">
-              <h3 className="text-xl font-bold text-red-700 mb-4 flex items-center gap-2">
-                <Droplets className="w-6 h-6" />
-                Flood Zone Considerations
-              </h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Extensive VE (velocity) and AE (still water) flood zones throughout South Tampa</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Westshore business district and downtown face significant flood exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Low-lying areas near Hillsborough River vulnerable to flash flooding</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-red-600 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Tampa averages 46 inches of annual rainfall creating persistent water damage risk</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-md p-8">
-            <h3 className="text-2xl font-bold text-brand-green-dark mb-4">Tampa's 50% Rule & Building Code Requirements</h3>
-            <p className="text-gray-700 mb-4">
-              Under Florida Building Code, if restoration costs exceed 50% of a building's pre-damage market value, the entire structure must be brought up to current code standards—not just the damaged portions. For Tampa properties, this frequently triggers requirements for:
-            </p>
-            <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-              <div className="bg-red-50 rounded-lg p-4 text-center">
-                <Shield className="w-8 h-8 text-red-700 mx-auto mb-2" />
-                <p className="font-semibold text-gray-800">Impact-Resistant Glazing</p>
-                <p className="text-sm text-gray-600">Windows & doors</p>
-              </div>
-              <div className="bg-red-50 rounded-lg p-4 text-center">
-                <Building2 className="w-8 h-8 text-red-700 mx-auto mb-2" />
-                <p className="font-semibold text-gray-800">Enhanced Roof Tie-Downs</p>
-                <p className="text-sm text-gray-600">HVHZ compliance</p>
-              </div>
-              <div className="bg-red-50 rounded-lg p-4 text-center">
-                <Droplets className="w-8 h-8 text-red-700 mx-auto mb-2" />
-                <p className="font-semibold text-gray-800">Flood Elevation</p>
-                <p className="text-sm text-gray-600">SFHA compliance</p>
-              </div>
-              <div className="bg-red-50 rounded-lg p-4 text-center">
-                <CloudRain className="w-8 h-8 text-red-700 mx-auto mb-2" />
-                <p className="font-semibold text-gray-800">Wind Resistance</p>
-                <p className="text-sm text-gray-600">Current standards</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Disaster Recovery Services Grid */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Tampa Disaster Recovery Services
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive restoration services for Tampa properties affected by hurricanes, fire, water damage, and other catastrophic events.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Capabilities for Tampa Properties
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From the first hours after a disaster through months of recovery construction, we provide the full spectrum of services Tampa property owners need.
+          </p>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            {clusterServices.map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
-              >
-                <div className="flex items-start gap-4">
-                  <div className="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0 group-hover:bg-red-600 transition-colors">
-                    <service.icon className="w-7 h-7 text-red-600 group-hover:text-white transition-colors" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
-                      {service.name}
-                    </h3>
-                    <p className="text-gray-600 mb-4">{service.description}</p>
-                    <span className="inline-flex items-center text-brand-green font-semibold">
-                      Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                    </span>
-                  </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Emergency Stabilization",
+                description: "Rapid deployment within 24 to 48 hours of a disaster event in Tampa. Roof tarping, water extraction, structural shoring, building security, debris removal, and temporary weatherproofing to stop the damage from getting worse while recovery planning begins."
+              },
+              {
+                icon: Wind,
+                title: "Hurricane Wind Damage Recovery",
+                description: "Structural repair and restoration of wind-damaged commercial and residential properties throughout Tampa. Roof system replacement, building envelope repair, structural framing restoration, and window and door replacement to bring damaged buildings back to code compliance."
+              },
+              {
+                icon: Droplets,
+                title: "Flood and Surge Damage Recovery",
+                description: "Complete restoration of flood-damaged properties, including saltwater surge damage that affects Tampa Bay waterfront buildings. Contamination remediation, structural drying, material replacement below the water line, and mechanical and electrical system restoration."
+              },
+              {
+                icon: Building2,
+                title: "Commercial Property Recovery",
+                description: "Disaster recovery for Tampa's commercial building inventory, from Westshore office buildings and downtown towers to industrial facilities near the Port and medical offices throughout the city. We manage recovery to minimize business interruption and get Tampa businesses operational again."
+              },
+              {
+                icon: Shield,
+                title: "Structural Assessment and Engineering",
+                description: "Post-disaster structural assessment using our in-house engineering capabilities. We evaluate structural integrity, identify compromised elements, and develop engineered repair plans that restore the building to code-compliant condition. Essential for Tampa buildings that may have sustained hidden structural damage."
+              },
+              {
+                icon: FileCheck,
+                title: "Insurance Documentation and Claims Support",
+                description: "Thorough disaster damage documentation in the format that insurance carriers require. Our insurance industry background ensures nothing is missed in the initial assessment, and we prepare supplement documentation for concealed damage discovered during recovery construction."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-              </Link>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* CTA Section 1 */}
-      <section className="section bg-red-700">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Tampa Property Damaged? We Can Help.
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact our team to schedule an insurance damage assessment. With 43+ years claims experience, we'll help you navigate the restoration process and maximize your recovery.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-red-700 font-bold rounded-full hover:bg-gray-100 transition-all">
-              Request Tampa Assessment
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
+      {/* Local Expertise */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa-Specific Disaster Recovery Knowledge
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery in Tampa requires understanding how the city's geography, building codes, and jurisdictional structure affect the recovery process. The <a href="https://www.tampa.gov/building-services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Tampa Building Services Department</a> administers permitting for recovery construction within city limits, with Hillsborough County handling unincorporated areas. Following a disaster declaration, both jurisdictions typically implement expedited permitting procedures, and we know how to navigate these emergency processes to begin recovery construction as quickly as possible.
+              </p>
+              <p className="mb-6">
+                Tampa's flood zone map is a critical factor in disaster recovery planning. Significant portions of the city lie within FEMA Special Flood Hazard Areas, including properties along the Bayshore corridor, on Davis Islands and Harbour Island, in the Channelside waterfront area, along the Hillsborough River corridor through Tampa Heights and Seminole Heights, and in low-lying pockets throughout South Tampa and the Gandy area. Properties in these zones that sustain substantial flood damage may be subject to the NFIP substantial improvement rule, which can require elevating or floodproofing the entire structure during recovery, not just repairing the damage. We identify these requirements early to prevent expensive mid-project surprises.
+              </p>
+              <p className="mb-6">
+                The seasonal pattern of Tampa's disaster risk affects recovery planning and execution. Hurricane season runs June through November, with peak activity in August and September. Severe thunderstorm season overlaps from May through September. Recovery construction for a major disaster event typically extends through multiple weather windows, requiring careful scheduling of exterior work between storm events. We build weather contingencies into every Tampa disaster recovery schedule, protecting newly exposed structural elements and partially completed work from secondary damage during the ongoing storm season.
+              </p>
+              <p>
+                Tampa's two designated historic districts, Ybor City and Hyde Park, present additional recovery challenges. Disaster-damaged buildings in these districts must be restored in a manner that preserves their historic character while meeting current building code requirements. The Barrio Latino Commission in Ybor City and the Architectural Review Commission for Hyde Park both have review authority over exterior restoration work. We have experience working within these constraints, understanding what materials, methods, and design approaches will satisfy both the preservation boards and the Florida Building Code simultaneously.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* Insurance Restoration Process */}
-      <section className="section bg-white">
+      {/* Process Section */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Tampa Insurance Restoration Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Our structured 6-step approach ensures proper documentation, fair settlements, and quality restoration for Tampa property owners.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Tampa Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured approach from emergency response through complete property restoration.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
-                <div className="absolute -top-4 left-6 bg-red-600 text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Response and Assessment",
+                description: "Rapid deployment to your Tampa property within 24 to 48 hours of a disaster event. We stabilize the structure, prevent additional damage, and conduct an initial assessment to determine the scope of recovery needed. All conditions are thoroughly documented for insurance purposes from the moment we arrive on site."
+              },
+              {
+                step: "02",
+                title: "Damage Scope and Recovery Planning",
+                description: "Comprehensive assessment of all structural, mechanical, electrical, and finish damage. We develop a recovery plan with realistic timelines, cost estimates, and phasing strategy. For Tampa properties in flood zones or historic districts, we identify special regulatory requirements that affect the recovery approach."
+              },
+              {
+                step: "03",
+                title: "Permitting and Insurance Coordination",
+                description: "Emergency and standard permit applications through the City of Tampa Building Services Department. Simultaneous insurance claim preparation with the documentation that carriers need to approve recovery funding. We coordinate with adjusters, public adjusters, and insurance attorneys as needed to move the financial recovery alongside the construction recovery."
+              },
+              {
+                step: "04",
+                title: "Recovery Construction",
+                description: "Full recovery construction with experienced superintendents managing Tampa-based subcontractor crews. Concealed damage discovered during demolition is documented in real time for supplement claims. We schedule exterior work strategically given Tampa's weather patterns and maintain strict quality control on all recovery work."
+              },
+              {
+                step: "05",
+                title: "Completion and Re-Occupancy",
+                description: "Final inspections, Certificate of Occupancy from the City of Tampa, and comprehensive turnover documentation. For commercial properties, we coordinate re-occupancy logistics with property managers and tenants. Complete project files are compiled for the property owner's records, including all insurance documentation, permits, inspection records, and warranties."
+              }
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-red-600 mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -536,256 +271,46 @@ export default function DisasterRecoveryTampaPage() {
         </div>
       </section>
 
-      {/* Why Choose FCS for Tampa Disaster Recovery */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Why Tampa Property Owners Choose FCS
-              </h2>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <ShieldCheck className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">43+ Years Claims Experience</h3>
-                    <p className="text-gray-600">Frank Bragano brings four decades of property claims experience, including 7 years as an Allstate Commercial Property Adjuster (1982-1989) and Executive General Adjuster credentials with CJW-Vericlaim and Sedgwick. We understand insurance from every angle.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <Building2 className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">Large Loss Specialists ($250K+ Projects)</h3>
-                    <p className="text-gray-600">We focus on substantial Tampa restoration projects—typically $250,000 and above. This allows us to dedicate senior project managers, experienced superintendents, and the resources these complex projects demand.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <Users className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">Proven Hurricane Response Capacity</h3>
-                    <p className="text-gray-600">Our Hurricane Harvey Texas response exceeded $40M in restoration. Hurricane Irma Miami work exceeded $20M including Embassy Towers and Oceania I Condominiums. We have the experience and capacity Tampa needs.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-red-100 flex items-center justify-center">
-                    <FileText className="w-6 h-6 text-red-600" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold text-brand-green-dark mb-2">All Insurance Carriers Welcome</h3>
-                    <p className="text-gray-600">We work with all major insurance carriers on Tampa commercial and residential claims. Our professional relationships with carriers and adjusters throughout Florida help facilitate efficient claim processing and fair settlements.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-lg p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6 font-heading">Types of Tampa Losses We Handle</h3>
-              <div className="grid grid-cols-2 gap-4">
-                {[
-                  "Hurricane/Wind",
-                  "Tropical Storms",
-                  "Tornado Damage",
-                  "Flood/Water Loss",
-                  "Fire/Smoke",
-                  "Hail Damage",
-                  "Vehicle Impact",
-                  "Structural Collapse",
-                  "Burst Pipes",
-                  "Mold Remediation",
-                  "Lightning Strike",
-                  "Storm Surge",
-                ].map((loss) => (
-                  <div key={loss} className="flex items-center gap-2">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
-                    <span className="text-gray-700">{loss}</span>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-8 pt-6 border-t border-gray-200">
-                <h4 className="font-bold text-brand-green-dark mb-3">Tampa Property Types We Restore</h4>
-                <ul className="text-gray-600 space-y-2 text-sm">
-                  <li>- Commercial buildings (Downtown, Westshore, Channelside)</li>
-                  <li>- Multi-family residential (condos, apartments)</li>
-                  <li>- Historic properties (Ybor City, Hyde Park, Tampa Heights)</li>
-                  <li>- High-value waterfront residences</li>
-                  <li>- Medical and healthcare facilities</li>
-                  <li>- Retail centers and hospitality venues</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Tampa-Specific Building Department Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading">
-                City of Tampa Building Department Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Successful Tampa disaster recovery requires contractors who understand local permitting, inspection requirements, and code enforcement. FCS maintains established relationships with the City of Tampa Building Department and understands the specific requirements for restoration work in Hillsborough County.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Permit Expediting:</strong> Established relationships with Tampa permitting staff accelerate approval timelines</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Code Compliance:</strong> Full knowledge of Florida Building Code, HVHZ requirements, and 50% Rule implications</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Historic Districts:</strong> Experience with Tampa Historic Preservation Commission requirements for Ybor City, Hyde Park, and Tampa Heights</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Inspection Coordination:</strong> Professional relationships ensure smooth inspections and timely project completion</span>
-                </li>
-              </ul>
-            </div>
-
-            <div>
-              <GoogleMap city="Tampa" height={400} />
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section 2 */}
-      <section className="section bg-red-700">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Schedule Your Tampa Property Assessment
-              </h2>
-              <p className="text-xl text-white/90 mb-6">
-                Whether you've experienced hurricane damage, flooding, fire, or other disaster, our team will assess your Tampa property and explain your restoration options. We work with all insurance carriers and provide comprehensive documentation to support your claim.
-              </p>
-              <div className="bg-white/10 backdrop-blur-sm rounded-lg p-6">
-                <h3 className="font-bold text-lg mb-3">What to Expect from Your Assessment:</h3>
-                <ul className="space-y-2 text-white/90">
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Thorough damage inspection and documentation
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Preliminary scope and timeline discussion
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Insurance claim guidance and requirements
-                  </li>
-                  <li className="flex items-center gap-2">
-                    <CheckCircle className="w-4 h-4 text-brand-gold" />
-                    Code compliance considerations (50% Rule, HVHZ, etc.)
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request Your Assessment
-              </h3>
-              <HighLevelForm height={400} />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
+      <FAQWithSchema
+        items={faqs}
+        title="Tampa Disaster Recovery FAQ"
+        description="Common questions about disaster recovery and emergency construction services in Tampa, Florida."
+      />
+
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-                Tampa Disaster Recovery FAQ
-              </h2>
-              <p className="text-xl text-gray-600">
-                Common questions about disaster recovery and insurance restoration in Tampa, Florida.
-              </p>
-            </div>
-
-            <FAQ items={tampaFaqs} />
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Tampa" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Tampa" service="disaster-recovery" serviceName="Disaster Recovery" />
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <InternalLinks
-            title="Related Disaster Recovery Resources"
-            links={internalLinks}
-          />
-
-          <div className="mt-12 grid md:grid-cols-2 gap-8">
-            <NearbyLocations
-              currentCity="Tampa"
-              service="disaster-recovery"
-              serviceName="Disaster Recovery"
-            />
-
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Tampa Disaster Recovery Pillar</h3>
-              <p className="text-gray-600 mb-4">
-                Learn more about our comprehensive disaster recovery services, insurance restoration expertise, and claims experience throughout Tampa Bay.
-              </p>
-              <Link
-                href="/insurance/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                View All Disaster Recovery Services <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
+      {/* CTA Section */}
       <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="text-center text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-              Tampa's Large Loss Disaster Recovery Experts
-            </h2>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
-              When disaster strikes your Tampa property, choose the contractor with 43+ years of claims experience and a proven track record of major hurricane response. Florida Construction Specialists—your partner for insurance restoration done right.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="inline-flex items-center justify-center px-8 py-4 bg-red-600 text-white font-bold rounded-full hover:bg-red-700 transition-all"
-              >
-                <Phone className="w-5 h-5 mr-2" />
-                Call {BUSINESS_INFO.phone}
-              </a>
-              <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
-                Request Assessment
-              </Link>
-            </div>
-
-            <div className="pt-8 border-t border-white/20">
-              <p className="text-sm text-gray-300 mb-4">Trusted for Tampa large loss restoration:</p>
-              <div className="flex flex-wrap justify-center gap-6 text-sm text-gray-200">
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> 43+ Years Claims Experience</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> License {BUSINESS_INFO.licenseNumber}</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> All Insurance Carriers</span>
-                <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4 text-brand-gold" /> $250K+ Projects</span>
-              </div>
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Tampa Disaster Recovery Starts With One Call
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Whether you need emergency stabilization right now or are planning disaster recovery for a property already damaged, Florida Construction Specialists has the experience, resources, and local knowledge to restore your Tampa property.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Contact Us for Emergency Response
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>24-48 Hour Emergency Response</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
             </div>
           </div>
         </div>

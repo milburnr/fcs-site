@@ -1,472 +1,278 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { Building2, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, MapPin, Briefcase, HardHat, FileCheck } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { FAQ } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { InternalLinks } from "@/components/InternalLinks";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-tampa/' },
-  title: "Commercial Construction in Tampa",
-  description: "Commercial construction Tampa: office, medical, industrial, multi-family. Design-build contractor, 40+ years experience. Request a project bid.",
+  title: "Commercial Construction Tampa FL | Office, Medical, Industrial | FCS",
+  description: "Commercial construction in Tampa by Florida Construction Specialists. Design-build, medical facilities, office buildings, industrial projects. Licensed CBC, 40+ years experience. Request a project bid.",
 };
+
+const faqs = [
+  {
+    question: "What is the typical timeline for commercial construction permitting through the City of Tampa?",
+    answer: "Commercial construction permits in Tampa go through the City of Tampa Building Services Department. Plan review for standard commercial projects typically takes 4 to 8 weeks, though larger or more complex projects involving multiple departments can take 10 to 14 weeks. We submit complete packages with all required documentation to minimize review cycles. Projects in the Ybor City Historic District or Hyde Park Historic District require additional review through the respective historic preservation boards, which can add 3 to 6 weeks. Our team manages the entire permitting process so you can focus on your business."
+  },
+  {
+    question: "How does Tampa's hurricane exposure affect commercial building design and construction costs?",
+    answer: "Tampa sits directly on Tampa Bay with significant Gulf of Mexico exposure, placing it in Wind Zone 3 with 120 mph design wind speed requirements under the Florida Building Code. This affects structural framing, roof attachments, window and door impact ratings, and building envelope design. Hurricane-resistant construction typically adds 8 to 15 percent to structural costs compared to non-coastal areas, but it is a code requirement and also reduces long-term insurance costs. We design every commercial project to meet or exceed these wind load requirements, using enhanced roof tie-downs, impact-resistant glazing, and reinforced structural connections."
+  },
+  {
+    question: "Which areas of Tampa have the strongest commercial construction activity right now?",
+    answer: "The Water Street Tampa development continues to drive major commercial activity downtown, with office, retail, and mixed-use projects transforming the waterfront. The Westshore Business District remains the largest concentration of office space outside of Miami, with ongoing tenant improvement and renovation work. The Tampa International Airport corridor sees steady industrial and logistics construction. Emerging areas include the West Tampa neighborhood where redevelopment is accelerating, and the USF Research Park area near the University of South Florida campus where medical and technology office construction is growing."
+  },
+  {
+    question: "Does FCS handle commercial renovation and tenant improvement projects in Tampa, or only new construction?",
+    answer: "We handle both ground-up commercial construction and renovation projects throughout Tampa. Tenant improvements and commercial renovations actually represent a significant portion of our Tampa work, particularly in the Westshore Business District where existing office buildings undergo regular upgrades to attract and retain tenants. We also perform commercial renovations in downtown Tampa office towers, South Tampa retail spaces, and medical facility upgrades across Hillsborough County. Our renovation work includes interior buildouts, structural modifications, MEP system upgrades, ADA compliance updates, and complete commercial remodels."
+  },
+  {
+    question: "What types of commercial construction does FCS specialize in within the Tampa market?",
+    answer: "In the Tampa market, we deliver design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and commercial additions. Our Tampa commercial projects typically range from five hundred thousand to twenty-five million dollars. We have particular depth in medical facility construction, having completed projects throughout the Tampa General Hospital corridor and near BayCare Health System facilities. We also have extensive experience with industrial and logistics facilities near the Port of Tampa and along the I-4 corridor."
+  },
+  {
+    question: "How does FCS manage construction scheduling around Tampa's rainy season?",
+    answer: "Tampa receives over 50 inches of rainfall annually, with roughly 60 percent falling during the May through September rainy season in the form of intense afternoon thunderstorms. We build detailed CPM schedules that front-load weather-sensitive exterior work during the dry season when possible. For projects that span the rainy season, we schedule concrete pours, roofing work, and exterior envelope installation for morning hours before the typical afternoon storms. We maintain close coordination with our concrete and roofing subcontractors to take advantage of weather windows. This proactive scheduling approach prevents the delays that less experienced Tampa contractors encounter."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial/" },
-  { name: "Tampa", href: "/commercial-construction-tampa/" }];
-
-const tampaFaqs = [
-  {
-    question: "What types of commercial construction projects do you handle in Tampa?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in Tampa including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, and commercial additions. Our projects typically range from $500,000 to $25 million or more."
-  },
-  {
-    question: "Do you have experience with Tampa's permitting process?",
-    answer: "Yes, we have extensive experience navigating Tampa's permitting requirements through the City of Tampa Building Services Department. We understand local zoning codes, impact fees, and the specific requirements for commercial construction in Tampa's various districts including Downtown Tampa, Westshore Business District, and emerging areas like Water Street Tampa."
-  },
-  {
-    question: "What is your bonding capacity for Tampa commercial projects?",
-    answer: "Florida Construction Specialists maintains bonding capacity exceeding $10 million, which allows us to take on large-scale commercial projects that many contractors cannot. This financial strength, combined with our License CBC1262722, gives Tampa property owners confidence in our ability to complete substantial projects."
-  },
-  {
-    question: "How long have you been doing commercial construction in Tampa?",
-    answer: "We've been serving the Tampa Bay commercial construction market for over 20 years, completing more than 150 projects throughout the region. Our deep roots in Tampa mean we've built relationships with local officials, subcontractors, and suppliers that benefit every project we undertake."
-  },
-  {
-    question: "Do you provide design-build services in Tampa?",
-    answer: "Yes, design-build is one of our core service offerings for Tampa commercial clients. This single-source approach streamlines communication, accelerates project delivery, and provides clear accountability. We coordinate architects, engineers, and construction teams under one contract for seamless project execution."
-  },
-  {
-    question: "Can you handle medical facility construction in Tampa?",
-    answer: "Absolutely. We have extensive experience with AHCA-compliant medical construction in Tampa including medical offices, surgical centers, clinics, and specialty healthcare facilities. We understand the unique requirements of medical construction including infection control, specialized systems, and regulatory compliance."
-  },
-  {
-    question: "What areas of Tampa do you serve?",
-    answer: "We serve all of Tampa including Downtown Tampa, South Tampa, West Tampa, East Tampa, Westshore, Carrollwood, New Tampa, Temple Terrace, and surrounding areas. Our Ruskin headquarters is centrally located to serve the entire Tampa Bay region efficiently."
-  },
-  {
-    question: "How do you ensure commercial projects stay on schedule in Tampa?",
-    answer: "We use Critical Path Method (CPM) scheduling for all commercial projects, with experienced project managers who understand Tampa's construction environment. Regular progress meetings, proactive issue resolution, and relationships with local subcontractors and suppliers help us maintain schedules even when challenges arise."
-  },
-  {
-    question: "Do you handle commercial construction in Tampa's historic districts?",
-    answer: "Yes, we have experience with commercial construction in Tampa's historic areas including Ybor City's National Historic Landmark District and Hyde Park. We understand Certificate of Appropriateness requirements and work with preservation boards to ensure projects meet all historic district standards."
-  },
-  {
-    question: "What makes Florida Construction Specialists different from other Tampa commercial contractors?",
-    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability. Second, our 40+ years experience and in-house engineering enables large-scale projects. Third, our 43+ years of combined construction and insurance industry experience brings unique expertise to every project."
-  }];
-
-const pillarLinks = [
-  { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" }];
-
-const nearbyLocationLinks = [
-  { href: "/locations/brandon-fl/", label: "Brandon, FL" },
-  { href: "/locations/clearwater-fl/", label: "Clearwater, FL" },
-  { href: "/locations/st-petersburg-fl/", label: "St. Petersburg, FL" },
-  { href: "/locations/lakeland-fl/", label: "Lakeland, FL" }];
+  { name: "Tampa", href: "/commercial-construction-tampa/" },
+];
 
 export default function CommercialConstructionTampaPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="Tampa" service="Commercial Construction" />
       <ServiceSchema
-        serviceName="Commercial Construction in Tampa"
-        serviceDescription="Large-scale commercial construction services in Tampa, FL. Design-build, medical facilities, multi-family, industrial, and retail construction from $500K to $25M+."
+        serviceName="Commercial Construction"
+        serviceDescription="Full-service commercial construction in Tampa, FL. Design-build, medical facilities, office buildings, industrial projects, tenant improvements. Licensed CBC1262722, 40+ years experience."
+        city="Tampa"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Medical Facility Construction", "Office Building Construction", "Industrial Construction", "Tenant Improvements"]}
       />
-      <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-            alt="Commercial construction project in Tampa Bay"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
-        </div>
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Tampa, Florida</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in Tampa, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the office towers lining the Westshore Business District to the medical campuses expanding near Tampa General Hospital, Florida Construction Specialists delivers commercial construction across every sector of Tampa's economy. As a prime general contractor with over four decades of experience, we bring in-house engineering, deep local knowledge, and the bonding capacity to handle projects from half a million to twenty-five million dollars and beyond.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
-            <div className="text-white">
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-sm font-medium">Serving Tampa, FL</span>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Commercial Construction in Tampa, Florida
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is Tampa's trusted commercial contractor for projects ranging from $500K to $25M+. From Downtown Tampa's evolving skyline to Westshore's business corridor, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and 20+ years of local expertise.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Shield className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Bonding</p>
-                  <p className="text-xs text-gray-300">$10M+ Capacity</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Clock className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Experience</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.yearsInBusiness}+ Years</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Projects</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.projectsCompleted}+ Delivered</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Schedule Project Consultation
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request a Tampa Project Consultation
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your commercial project in Tampa and receive a consultation from our team.
-              </p>
-              <HighLevelForm variant="commercial" />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Project Consultation
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Introduction Section */}
+      {/* Tampa Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-              Your Trusted Tampa Commercial Construction Partner
+              Why Tampa's Commercial Construction Market Demands Experienced Contractors
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="lead text-xl mb-6">
-                Tampa is one of Florida's fastest-growing metropolitan areas, with commercial construction activity spanning from the transformative Water Street Tampa development to the revitalization of historic Ybor City and the continued growth of the Westshore Business District. Florida Construction Specialists has been privileged to contribute to this growth, delivering commercial projects that help businesses thrive in the Tampa Bay economy.
+              <p className="text-xl mb-6">
+                Tampa's commercial real estate market has undergone a fundamental transformation over the past decade. The Water Street Tampa development, a multi-billion dollar mixed-use project on the downtown waterfront, has reshaped expectations for commercial construction quality in the region. What was once a city dominated by low-rise office parks now supports a diverse commercial building stock that includes Class A high-rises downtown, advanced medical facilities in the Tampa General Hospital corridor, expanding logistics infrastructure near the Port of Tampa, and a revitalized Westshore Business District that remains the largest office market on Florida's west coast outside of Miami.
               </p>
               <p className="mb-6">
-                As a prime general contractor, we never subcontract our general contracting services. When you hire Florida Construction Specialists for your Tampa commercial project, you get direct accountability, clear communication, and the full resources of our experienced team. Our principal brings 43+ years of construction and insurance industry experience, including work as an Executive General Adjuster, providing unique insight into risk management and project delivery.
+                This evolution creates specific challenges for commercial construction. Downtown Tampa projects must navigate dense urban conditions, underground utility complexity, and coordination with ongoing development activity. The Westshore corridor requires renovation and modernization of existing commercial buildings to compete with newer downtown inventory. Medical facility construction near Tampa General Hospital and in the BayCare Health System network demands AHCA compliance, infection control protocols, and specialized MEP systems. Industrial construction near the Port of Tampa and along the I-4 corridor requires heavy structural capacity, clear-span design, and logistics-optimized site layouts.
               </p>
               <p className="mb-6">
-                Tampa's commercial construction environment presents specific challenges and opportunities. From the hurricane-resistant construction requirements of Florida Building Code to the unique soil conditions in areas near the bay, successful commercial construction requires local expertise. We've built relationships with Tampa's building department, understand local zoning requirements, and work with subcontractors who know Tampa's construction landscape intimately.
+                Hillsborough County's population growth continues to fuel commercial construction demand beyond the urban core. New Tampa and the USF Research Park area attract medical office and technology construction. The West Tampa neighborhood is experiencing a redevelopment wave that blends commercial renovation with adaptive reuse. The Tampa Heights area, once largely residential, now supports mixed-use commercial projects that complement the growing Riverwalk district.
               </p>
               <p>
-                Whether you're developing a medical facility in the prestigious Tampa General Hospital corridor, building a multi-family community in one of Tampa's growing neighborhoods, constructing an industrial facility near the Port of Tampa, or renovating retail space in South Tampa, Florida Construction Specialists has the expertise, bonding capacity, and local knowledge to deliver your project successfully.
+                Florida Construction Specialists has worked across all of these Tampa submarkets. As a prime general contractor, we never subcontract our general contracting services, which means every Tampa project gets direct accountability, a single point of contact, and the full weight of our in-house engineering and construction teams. Our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, brings a risk management perspective that benefits every commercial project we deliver.
               </p>
-          {/* Project Gallery */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-                alt="Commercial construction project"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Commercial Building</p>
-                <p className="text-sm text-gray-200">New Construction</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
-                alt="Commercial brick building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Commercial Renovation</p>
-                <p className="text-sm text-gray-200">Building Restoration</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp"
-                alt="Multi-story commercial building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Institutional Facility</p>
-                <p className="text-sm text-gray-200">Large-Scale Project</p>
-              </div>
-            </div>
-          </div>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-commercial-construction/tampa-commercial-construction-small.webp"
-        alt="Commercial construction in Tampa Bay"
-        title="40+ Years Building Tampa Bay"
-        subtitle="From ground-up construction to major renovations"
+        src="/images/tampa-commercial-construction-hero/tampa-commercial-construction-hero-small.webp"
+        alt="Commercial construction project in Tampa's business district"
+        title="Building Tampa's Commercial Future"
+        subtitle="Design-build, medical, industrial, and office construction across Hillsborough County"
         overlayOpacity={0.55}
       />
 
-      {/* Services in Tampa */}
-      <section className="section-light">
+      {/* Service Capabilities */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Commercial Construction Services in Tampa
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive commercial construction capabilities tailored for Tampa's diverse business environment.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Capabilities for Tampa's Diverse Market
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial sector in Tampa presents distinct construction requirements. We deliver specialized expertise across all of them.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                icon: Building2,
                 title: "Design-Build Construction",
-                description: "Single-source accountability for Tampa commercial projects, combining design and construction under one contract for streamlined delivery and clear communication.",
-                href: "/services/commercial/design-build/",
+                description: "Single-source delivery for Tampa commercial projects. We combine architectural coordination, engineering, and construction management under one contract, streamlining decision-making for projects in the Westshore corridor, downtown Tampa, and throughout Hillsborough County."
               },
               {
-                title: "Multi-Family Construction",
-                description: "Apartment complexes, condominiums, and multi-family residential developments throughout Tampa's growing neighborhoods.",
-                href: "/services/commercial/multi-family/",
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "AHCA-compliant medical construction for the Tampa market, including surgical centers, specialty clinics, medical office buildings, and healthcare facility expansions. We understand the infection control, specialized systems, and regulatory requirements unique to healthcare construction."
               },
               {
-                title: "Industrial & Warehouse",
-                description: "Industrial flex space, distribution centers, and warehouse facilities serving Tampa's logistics and manufacturing sectors.",
-                href: "/services/commercial/industrial-construction/",
+                icon: HardHat,
+                title: "Industrial and Warehouse",
+                description: "Distribution centers, manufacturing facilities, and industrial flex space serving Tampa's logistics sector. Near the Port of Tampa and along the I-4 industrial corridor, we build facilities designed for heavy loading, clear-span requirements, and efficient logistics operations."
               },
               {
-                title: "Tenant Improvements",
-                description: "Commercial interior buildouts, office renovations, and retail space customization for Tampa businesses.",
-                href: "/services/commercial/tenant-improvements/",
+                icon: Briefcase,
+                title: "Office and Tenant Improvements",
+                description: "Commercial office buildouts and renovations throughout Tampa's office markets, from Class A towers downtown to suburban office parks in Carrollwood and New Tampa. We deliver tenant improvements that minimize disruption to building operations and neighboring tenants."
               },
               {
-                title: "Retail Construction",
-                description: "Retail centers, restaurant buildouts, and hospitality construction throughout Tampa's commercial districts.",
-                href: "/services/commercial/retail-construction/",
-              }].map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
-              >
-                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4 group-hover:bg-brand-green transition-colors">
-                  <Building2 className="w-7 h-7 text-brand-green-dark group-hover:text-white transition-colors" />
+                icon: FileCheck,
+                title: "Retail and Hospitality",
+                description: "Retail center construction, restaurant buildouts, and hospitality projects across Tampa's commercial districts. From South Tampa's SoHo retail corridor to the International Plaza area, we build commercial spaces designed for customer engagement and operational efficiency."
+              },
+              {
+                icon: Award,
+                title: "Commercial Renovations",
+                description: "Major commercial renovations and adaptive reuse projects throughout Tampa. We transform aging commercial buildings into modern, code-compliant spaces, including historic commercial properties in Ybor City and Hyde Park that require preservation board coordination."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <span className="inline-flex items-center text-brand-green font-semibold">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </Link>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Tampa-Specific Content */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Across Tampa
-              </h2>
-              <div className="prose prose-lg max-w-none text-gray-700">
-                <p className="mb-6">
-                  Tampa's commercial construction landscape is as diverse as the city itself. From the high-rise developments reshaping Downtown Tampa and Water Street to the medical corridor expanding around Tampa General Hospital, commercial construction in Tampa requires contractors who understand the city's unique requirements and opportunities.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Downtown Tampa & Water Street</h3>
-                <p className="mb-6">
-                  The transformation of Downtown Tampa, particularly the Water Street Tampa development, has created unprecedented opportunities for commercial construction. Whether building new office space, mixed-use developments, or supporting infrastructure, we understand the high standards and coordination required for downtown construction.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Westshore Business District</h3>
-                <p className="mb-6">
-                  Tampa's Westshore area remains one of Florida's largest business districts outside Miami. We've completed tenant improvements, office renovations, and commercial buildouts throughout Westshore, understanding the fast-paced requirements of this corporate environment.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">South Tampa & Hyde Park</h3>
-                <p className="mb-6">
-                  South Tampa's established neighborhoods require commercial construction that respects the area's character while meeting modern business needs. From retail to medical offices, we build projects that enhance South Tampa's commercial vitality.
-                </p>
-              </div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Deep Roots in Tampa's Commercial Construction Landscape
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Successful commercial construction in Tampa requires more than technical capability. It requires understanding how the city works. Tampa's commercial construction environment spans multiple jurisdictions, overlay districts, and building code considerations that less experienced contractors often underestimate.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.tampa.gov/building-services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Tampa Building Services Department</a> handles permitting for commercial projects within city limits, while unincorporated areas of Hillsborough County go through county construction services. We have established working relationships with both agencies and understand the nuances that affect plan review timelines, inspection scheduling, and Certificate of Occupancy processes.
+              </p>
+              <p className="mb-6">
+                Tampa's weather patterns significantly influence commercial construction planning. The city receives over 50 inches of rainfall annually, concentrated in intense afternoon thunderstorms from May through September. This seasonal pattern affects concrete pours, roofing installation, exterior envelope work, and site grading schedules. Beyond rainfall, Tampa's direct exposure to Tampa Bay and the Gulf of Mexico places it in a high hurricane risk zone. Every commercial structure we build meets the Florida Building Code's Wind Zone 3 requirements, with enhanced structural connections, impact-rated glazing, and roof systems designed for 120 mph sustained winds.
+              </p>
+              <p className="mb-6">
+                Our knowledge of Tampa neighborhoods shapes how we approach each project. Commercial construction in the Westshore Business District involves coordinating with property management companies and existing tenants. Downtown Tampa projects near Water Street require awareness of ongoing infrastructure changes and dense pedestrian traffic. Medical facility projects near Tampa General Hospital on Davis Islands or in the BayCare network across the city demand compliance with healthcare-specific codes. Industrial projects near Port Tampa and in the East Tampa industrial corridor require understanding of heavy vehicle access, environmental regulations, and utility capacity for manufacturing operations.
+              </p>
+              <p>
+                Projects in Tampa's two designated historic districts, Ybor City and Hyde Park, require additional coordination with local preservation boards. The Barrio Latino Commission oversees commercial construction within Ybor City's National Historic Landmark District, while the Hyde Park Historic District has its own review process through the city's Architectural Review Commission. We have experience navigating both of these processes, understanding what modifications require Certificates of Appropriateness and how to balance modern commercial requirements with historic preservation standards.
+              </p>
             </div>
-
-            <div>
-              <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Ybor City Historic District</h3>
-              <p className="text-gray-700 mb-6">
-                Commercial construction in Ybor City's National Historic Landmark District requires special expertise. We understand the Certificate of Appropriateness process, work with the Barrio Latino Commission, and know how to balance historic preservation with modern commercial needs.
-              </p>
-
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">New Tampa & USF Area</h3>
-              <p className="text-gray-700 mb-6">
-                The growth around the University of South Florida has created demand for medical facilities, retail centers, and multi-family housing. We serve the New Tampa corridor with commercial construction expertise tailored to this dynamic area.
-              </p>
-
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Port Tampa & Industrial Areas</h3>
-              <p className="text-gray-700 mb-6">
-                Tampa's industrial sector, particularly areas near the Port of Tampa, requires specialized construction for warehouses, distribution centers, and industrial facilities. Our industrial construction experience includes working with the unique requirements of logistics and manufacturing operations.
-              </p>
-
-              <div className="bg-brand-green-bg rounded-xl p-6 mt-8">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Tampa Building Requirements</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">City of Tampa Building Services permits and inspections</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Florida Building Code 7th Edition compliance</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Hurricane-resistant construction requirements</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Hillsborough County Environmental Protection Commission</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">ADA accessibility compliance</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="section bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Ready to Build in Tampa?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We'll discuss your Tampa commercial construction needs and provide preliminary budgeting.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              {BUSINESS_INFO.phone}
-            </a>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our Tampa Construction Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A proven approach tailored for Tampa's commercial construction environment.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Tampa Commercial Construction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in Tampa follows a structured process designed for the local construction environment.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-4xl mx-auto space-y-6">
             {[
               {
                 step: "01",
-                title: "Discovery & Pre-Construction",
-                description: "We assess your Tampa project requirements, conduct site analysis, and develop preliminary budgets and schedules specific to Tampa's market conditions and permitting timeline.",
+                title: "Site Assessment and Pre-Construction",
+                description: "We evaluate your Tampa site for soil conditions, flood zone classification, utility availability, and zoning compatibility. Hillsborough County's sandy soil with high water table requires careful foundation engineering, particularly for sites near Tampa Bay, the Hillsborough River, or low-lying areas in South Tampa and Harbour Island.",
                 icon: FileCheck,
               },
               {
                 step: "02",
-                title: "Design Coordination",
-                description: "Whether design-build or design-bid-build, we coordinate all design elements ensuring constructability and compliance with Tampa's building codes and zoning requirements.",
+                title: "Design Coordination and Value Engineering",
+                description: "Whether working with your architect or providing design-build services, we coordinate all design disciplines to ensure constructability, code compliance, and cost efficiency. For Tampa commercial projects, this includes hurricane-resistant structural design, energy code compliance, and stormwater management planning per Hillsborough County requirements.",
                 icon: Building2,
               },
               {
                 step: "03",
-                title: "Tampa Permitting",
-                description: "We navigate the City of Tampa Building Services Department, securing all required permits, approvals, and inspections to keep your project on schedule.",
+                title: "Permitting Through City of Tampa",
+                description: "We prepare and submit complete permit packages to the City of Tampa Building Services Department, coordinating plan review across building, fire, mechanical, electrical, and plumbing disciplines. For projects requiring zoning variances or overlay district approvals, we manage coordination with the appropriate city boards and commissions.",
                 icon: Briefcase,
               },
               {
                 step: "04",
-                title: "Construction Execution",
-                description: "Experienced superintendents manage daily construction with Tampa-based subcontractors who understand local conditions, codes, and quality expectations.",
+                title: "Construction with Local Subcontractor Network",
+                description: "Experienced superintendents manage daily construction using our established network of Tampa-based subcontractors who know local conditions and code expectations. We schedule strategically around the rainy season, coordinate with adjacent property operations in dense areas like Westshore and downtown, and maintain strict quality control on every phase.",
                 icon: HardHat,
               },
               {
                 step: "05",
-                title: "Quality Control",
-                description: "Rigorous quality control ensures your Tampa project meets specifications, code requirements, and our high standards—documented at every phase.",
-                icon: CheckCircle,
-              },
-              {
-                step: "06",
-                title: "Completion & Warranty",
-                description: "Thorough closeout including punch list resolution, Certificate of Occupancy, training, and comprehensive warranty documentation for your Tampa property.",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Thorough punch list resolution, final inspections, Certificate of Occupancy from the City of Tampa, and comprehensive warranty documentation. We provide complete as-built drawings, equipment manuals, and maintenance guides. For tenant improvement projects, we coordinate turnover with property management to minimize downtime.",
                 icon: Award,
-              }].map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
-                <div className="absolute -top-4 left-6 bg-brand-green text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-brand-green mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -475,97 +281,47 @@ export default function CommercialConstructionTampaPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Serving Commercial Construction Throughout Tampa
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              From our Ruskin headquarters, we serve all of Tampa and Hillsborough County for commercial construction projects.
-            </p>
-          </div>
-          <GoogleMap city="Tampa" height={400} />
-        </div>
-      </section>
-
       {/* FAQ Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-                Tampa Commercial Construction FAQ
-              </h2>
-              <p className="text-xl text-gray-600">
-                Common questions about commercial construction in Tampa, Florida.
-              </p>
-            </div>
+      <FAQWithSchema
+        items={faqs}
+        title="Tampa Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in Tampa, Florida."
+      />
 
-            <FAQ items={tampaFaqs} />
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Tampa" currentService="commercial-construction" />
+            <NearbyLocations currentCity="Tampa" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <InternalLinks
-            title="Explore Our Commercial Services"
-            links={pillarLinks}
-          />
-
-          <div className="mt-12">
-            <InternalLinks
-              title="Nearby Service Areas"
-              links={nearbyLocationLinks}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
+      {/* CTA Section */}
       <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Start Your Tampa Commercial Project Today
-              </h2>
-              <p className="text-xl text-gray-200 mb-6">
-                Contact Florida Construction Specialists for a consultation on your Tampa commercial construction project. Our team will discuss your vision, provide preliminary budgeting, and outline the path to successful project delivery.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call {BUSINESS_INFO.phone}
-                </a>
-                <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
-                  Contact Us Online
-                </Link>
-              </div>
-
-              {/* Trust indicators */}
-              <div className="mt-8 pt-8 border-t border-white/20">
-                <p className="text-sm text-gray-300 mb-4">Tampa's trusted commercial contractor:</p>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-200">
-                  <span>✓ License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>✓ In-House Engineering</span>
-                  <span>✓ {BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
-                  <span>✓ {BUSINESS_INFO.projectsCompleted}+ Projects</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Schedule Your Consultation
-              </h3>
-              <HighLevelForm variant="commercial" />
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your Tampa Commercial Construction Project
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for a consultation on your commercial project in Tampa. We will discuss your vision, provide preliminary budgeting, and outline a clear path to successful project delivery.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Request a Project Consultation
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
             </div>
           </div>
         </div>
