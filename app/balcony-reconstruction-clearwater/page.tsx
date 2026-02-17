@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
@@ -128,6 +129,14 @@ export default function BalconyReconstructionClearwaterPage() {
                 Florida Construction Specialists has reconstructed balconies on numerous Clearwater Beach and Sand Key condominium towers, developing phased construction approaches that maintain building occupancy, minimize disruption to unit owners, and deliver structural repairs using marine-grade materials engineered for the Gulf's most demanding exposure conditions. Our experience with Clearwater's HOA governance structures and the <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> permitting process ensures projects move from assessment through completion without unnecessary delays.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Milestone Inspections — Balcony Structural Elements"
+              description="SB 4-D milestone inspections evaluate balcony structural connections, reinforcing steel condition, and waterproofing integrity. Clearwater's barrier island condos face aggressive Gulf salt spray that accelerates balcony deterioration, with the 25-year coastal inspection timeline applying to Sand Key, Island Estates, and Clearwater Beach towers."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
@@ -128,6 +129,14 @@ export default function ExteriorWaterproofingClearwaterPage() {
                 Florida Construction Specialists has protected Clearwater buildings from moisture intrusion for over two decades. We approach every project with comprehensive diagnostic assessment, specify materials and systems rated for the barrier island's specific exposure conditions, and execute installations with the quality control protocols necessary for long-term performance. Our work with the <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> ensures all waterproofing projects meet local code requirements and permitting standards.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Waterproofing as a Milestone Inspection Element"
+              description="SB 4-D milestone inspections evaluate waterproofing membrane integrity as part of the structural assessment for condominium buildings. On Clearwater's barrier islands, direct Gulf salt spray and wind-driven rain accelerate waterproofing degradation, making membrane failure a common trigger for remediation requirements."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

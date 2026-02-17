@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-clearwater/' },
@@ -128,6 +129,14 @@ export default function CondoRemediationClearwaterPage() {
                 Florida Construction Specialists works with Clearwater condominium associations across both the barrier island and mainland to assess building conditions, develop remediation plans, execute structural repairs, and achieve SB4-D compliance. Our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, provides a perspective on building condition assessment and restoration cost management that benefits every association we serve.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Milestone Inspections for Condominium and Cooperative Buildings"
+              description="Requires structural inspections of condominium buildings 3 stories or higher. Clearwater's barrier island condos on Sand Key, Island Estates, and Clearwater Beach fall within the 3-mile coastal zone, triggering the accelerated 25-year inspection timeline. Gulf salt spray and hurricane exposure accelerate structural deterioration."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>
