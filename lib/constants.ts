@@ -464,35 +464,3 @@ export const FAQ_DATABASE = {
     },
   ],
 };
-
-// Location-specific FAQ template generator
-export function generateLocationFAQs(cityName: string, serviceName?: string): Array<{question: string; answer: string}> {
-  const baseFAQs = [
-    {
-      question: `Do you serve ${cityName}, FL?`,
-      answer: `Yes, Florida Construction Specialists proudly serves ${cityName} and the surrounding areas. We have completed numerous projects in ${cityName} and maintain strong relationships with local building departments and subcontractors.`
-    },
-    {
-      question: `How many projects have you completed in ${cityName}?`,
-      answer: `We have completed dozens of projects in the ${cityName} area ranging from commercial construction and multi-family residential to historic restoration and disaster recovery. Our portfolio includes notable projects throughout the greater Tampa Bay region.`
-    },
-    {
-      question: `What types of construction projects do you handle in ${cityName}?`,
-      answer: `In ${cityName}, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Project values typically range from $250,000 to $50 million or more.`
-    },
-  ];
-
-  if (serviceName) {
-    baseFAQs.push({
-      question: `What is the typical ${serviceName.toLowerCase()} project cost in ${cityName}?`,
-      answer: `${serviceName} project costs in ${cityName} vary based on scope and complexity. Contact us for a project consultation and we'll provide detailed budgeting based on your specific requirements.`
-    });
-  }
-
-  baseFAQs.push({
-    question: `How far from ${cityName} do you provide services?`,
-    answer: `While based in Ruskin, we serve all of Tampa Bay including ${cityName} and surrounding communities. We also take on select projects throughout Florida. Distance is rarely a limiting factor for the right project.`
-  });
-
-  return baseFAQs;
-}
