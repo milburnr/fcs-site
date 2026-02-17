@@ -1,86 +1,50 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, Users, Thermometer, Wind, Droplets, FileCheck, HardHat, Car, Home, TrendingUp } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Users, Home } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-brandon/' },
-  title: "Multi-Family Construction Brandon | Condos | FCS",
-  description: "Multi Family Construction in Brandon: new construction, renovations, and insurance restoration. FL-licensed CBC contractor. Call (813) 420-7561 for a quote.",
+  title: "Multi-Family Construction Brandon FL | Apartments, Townhomes | FCS",
+  description: "Multi-family construction in Brandon FL by Florida Construction Specialists. Apartments, townhomes, and mixed-use housing in eastern Hillsborough County. Licensed CBC, 40+ years experience. Request a consultation.",
 };
 
-const projectTypes = [
+const faqs = [
   {
-    title: "Condominium Construction",
-    description: "Ground-up condo development serving Brandon's growing suburban market, from mid-rise communities along Highway 60 to luxury developments in FishHawk Ranch."
+    question: "Why is there so much demand for multi-family housing construction in the Brandon area?",
+    answer: "Brandon's multi-family demand is driven by several converging factors. The community's location along the I-75 and Selmon Expressway corridors provides commuter access to downtown Tampa and MacDill Air Force Base, making it attractive to renters who want suburban living with urban job access. Brandon's population exceeds 115,000 and continues growing, with eastern Hillsborough County ranking among the fastest-growing areas in the Tampa Bay metro. Housing affordability pressure from rising Tampa home prices pushes renters and first-time buyers to suburban communities where multi-family construction can offer competitive rents while still delivering modern amenities."
   },
   {
-    title: "Apartment Complexes",
-    description: "Garden-style and mid-rise apartment communities throughout Brandon, meeting demand from families and professionals seeking suburban living with Tampa access."
+    question: "What Hillsborough County zoning requirements apply to multi-family construction in Brandon?",
+    answer: "Since Brandon is unincorporated, all zoning approvals go through Hillsborough County's land development process. Multi-family projects typically require RM or PD zoning classifications, and many sites need rezoning or planned development approval through the county's Development Review Committee and Board of County Commissioners. Hillsborough County has specific requirements for density limits, parking ratios, open space percentages, setbacks, building height, and buffering from adjacent single-family residential. We have deep experience navigating these requirements and presenting projects that satisfy county planning staff and commissioners."
   },
   {
-    title: "Townhome Developments",
-    description: "Suburban townhome communities in Brandon's expanding neighborhoods, offering attainable ownership housing for families priced out of closer-in Tampa markets."
+    question: "What types of multi-family projects does FCS build in the Brandon market?",
+    answer: "In the Brandon market we build garden-style apartment communities, three and four story walk-up apartment buildings, townhome developments, attached villa communities, and mixed-use projects with ground-floor retail and upper-floor residential. Project sizes typically range from forty to three hundred units. We also handle substantial renovation and repositioning of existing apartment communities in the Brandon area, upgrading aging properties to compete with newer developments for tenants."
   },
   {
-    title: "Senior Living Facilities",
-    description: "Independent living, assisted living, and memory care facilities serving Brandon's established population and Tampa Bay's growing senior demographic."
+    question: "How do FishHawk Ranch and the master-planned communities near Brandon affect multi-family construction demand?",
+    answer: "FishHawk Ranch and similar master-planned communities in eastern Hillsborough County have absorbed much of the single-family housing demand, but they also create demand for multi-family construction. Young professionals and service workers who cannot afford single-family homes in FishHawk and Panther Trace need apartment housing in the Brandon core area. Additionally, some master-planned communities include multi-family components within their plans, and the commercial growth that follows residential development creates demand for workforce housing nearby."
   },
   {
-    title: "Workforce Housing",
-    description: "Affordable and workforce housing developments meeting the needs of Brandon's retail, healthcare, and distribution center employees."
+    question: "What impact fees and development costs should multi-family developers expect in Hillsborough County?",
+    answer: "Hillsborough County levies impact fees for transportation, parks, fire rescue, and schools on multi-family development. These fees vary by unit type and bedroom count but typically total between four thousand and eight thousand dollars per unit for apartment construction in the Brandon area. Transportation concurrency requirements can also add costs if road improvements are needed. We help developers understand and budget for these fees during pre-construction, and our value engineering process identifies construction cost savings that can offset impact fee burdens."
   },
   {
-    title: "Mixed-Use Residential",
-    description: "Residential components of mixed-use developments along Brandon's commercial corridors, combining housing with retail convenience."
-  }
-];
-
-// Brandon-specific multi-family FAQs
-const brandonFaqs = [
-  {
-    question: "What types of multi-family projects does FCS build in Brandon?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Brandon: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Brandon multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects throughout the Brandon area including near Westfield Brandon, along Highway 60, and in master-planned communities like FishHawk Ranch."
-  },
-  {
-    question: "Why is Brandon attractive for multi-family development?",
-    answer: "Brandon offers compelling advantages for multi-family development: lower land costs than Tampa proper (typically 20-30% less), strong rental demand from families and young professionals, excellent highway access via I-75 and Highway 60, proximity to major employers including Brandon Regional Hospital and Westfield Brandon retail, and rapid population growth in surrounding areas like FishHawk Ranch and Riverview. The suburban family demographic creates consistent demand for quality rental and for-sale housing."
-  },
-  {
-    question: "What are Brandon's permitting requirements for multi-family construction?",
-    answer: "Brandon is unincorporated Hillsborough County, so all permitting goes through Hillsborough County Building Services rather than a city building department. This includes plan review, building permits, and inspections. Key requirements include traffic concurrency (demonstrating adequate road capacity), stormwater management plans, and environmental review for wetlands. Projects in planned developments like FishHawk may have additional architectural review requirements. We navigate these processes on every Brandon multi-family project."
-  },
-  {
-    question: "How do construction costs in Brandon compare to Tampa?",
-    answer: "Brandon multi-family construction costs typically run 10-15% lower than Tampa proper, primarily due to lower land costs and less complex site conditions. Hard construction costs are similar to Tampa—garden-style apartments run $135-195 per square foot; mid-rise apartments $160-250/SF; townhomes $135-195/SF. The savings come from land acquisition, reduced traffic impact fees compared to urban Tampa, and generally easier site access for construction equipment."
-  },
-  {
-    question: "What amenities do Brandon multi-family projects typically include?",
-    answer: "Brandon multi-family projects typically emphasize family-friendly amenities: swimming pools with kids' areas, playgrounds, fitness centers, clubhouses with event space, covered parking, dog parks, and ample green space. Projects targeting younger demographics may add coworking spaces and package lockers. Senior living projects include specialized amenities like walking trails, activity rooms, and healthcare coordination spaces. We advise on amenity packages that match Brandon's suburban family market."
-  },
-  {
-    question: "How long does multi-family construction take in Brandon?",
-    answer: "Brandon multi-family construction timelines are comparable to greater Tampa Bay: townhome communities typically take 12-18 months; garden-style apartments 14-20 months; mid-rise buildings 16-22 months. These timelines include site work, vertical construction, and amenity completion. Hillsborough County permitting typically takes 4-6 weeks. We account for Tampa Bay's rainy season scheduling to minimize weather delays. Detailed schedules are provided during pre-construction."
-  },
-  {
-    question: "Does Brandon have any historic preservation requirements for multi-family projects?",
-    answer: "Unlike Tampa's Ybor City or Hyde Park, Brandon has no historic districts or preservation overlay requirements. This simplifies the approval process for multi-family development—no Historic Preservation Commission review or architectural restrictions based on historic character. Development review focuses on Hillsborough County land use codes, traffic concurrency, and environmental requirements. This regulatory environment makes Brandon attractive for straightforward development timelines."
-  },
-  {
-    question: "What makes FCS different from other Brandon multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Brandon multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We bring 20+ years of experience, 40+ years experience and in-house engineering, and deep knowledge of Hillsborough County's permitting process. We understand Brandon's specific advantages: suburban land availability, family-focused market demand, and strategic location between Tampa and Lakeland. Our project managers know the local subcontractor market and building department relationships."
+    question: "How does Brandon's flat terrain affect multi-family construction site work?",
+    answer: "Brandon's flat suburban terrain means most multi-family sites require significant stormwater management infrastructure. Unlike hillier locations where water drains naturally, flat sites need retention ponds, underground stormwater systems, or dry detention areas designed to handle the fifty-plus inches of annual rainfall. For larger apartment communities, stormwater engineering and pond construction can represent ten to fifteen percent of total site work costs. We coordinate stormwater design with civil engineers early in pre-construction to ensure SWFWMD permits are obtained before breaking ground."
   }
 ];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Multi-Family Construction", href: "/multi-family-construction/" },
+  { name: "Multi-Family Construction", href: "/multi-family/" },
   { name: "Brandon", href: "/multi-family-construction-brandon/" },
 ];
 
@@ -90,50 +54,50 @@ export default function MultiFamilyConstructionBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
+        serviceDescription="Multi-family housing construction in Brandon, FL. Apartment communities, townhome developments, mixed-use projects in eastern Hillsborough County. Licensed CBC1262722, 40+ years experience."
         city="Brandon"
-        minPrice="1000000"
-        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
+        minPrice="2000000"
+        serviceCategories={["Apartment Construction", "Townhome Development", "Mixed-Use Construction", "Multi-Family Renovation", "Workforce Housing"]}
       />
-
-      <ArticleSchema
-        headline="Multi-Family Construction Brandon FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Brandon, Florida (unincorporated Hillsborough County). Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/multi-family-construction-brandon/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Serving Brandon, Florida (Unincorporated Hillsborough County)</span>
+              <span className="text-brand-gold font-semibold">Serving Brandon & Eastern Hillsborough County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Multi-Family Construction in Brandon, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Multi-Family Construction in Brandon, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Brandon and eastern Hillsborough County. From apartment communities near Westfield Brandon to townhome developments in FishHawk Ranch, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Eastern Hillsborough County's suburban housing boom has made Brandon one of Tampa Bay's most active markets for apartment and townhome construction. Florida Construction Specialists delivers multi-family projects from garden-style communities to mixed-use developments, with the in-house engineering and Hillsborough County permitting experience that complex housing projects demand.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Brandon's premier prime contractor for multi-family residential, we handle condominiums, apartments, townhomes, and senior living—never as a subcontractor, always with full project accountability through Hillsborough County Building Services.
-            </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Multi-Family Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -142,441 +106,222 @@ export default function MultiFamilyConstructionBrandonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Multi-Family Construction Services in Brandon
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Brandon is one of Tampa Bay's largest unincorporated communities, with a population exceeding 115,000 and strategic location at the intersection of I-75 and Highway 60. This suburban hub offers multi-family developers compelling advantages: lower land costs than Tampa proper, strong rental demand from families and young professionals, and proximity to major employment centers including Brandon Regional Hospital, Westfield Brandon, and Tampa's job markets.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Brandon's Suburban Housing Boom and the Multi-Family Opportunity
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Brandon sits at the intersection of Tampa Bay's suburban expansion and a growing demand for attainable housing. As Tampa's largest unincorporated suburb, this community of over 115,000 residents has historically been single-family dominant, with master-planned communities like FishHawk Ranch, Panther Trace, and Summerfield absorbing much of the homebuyer demand in eastern Hillsborough County. But the economics of housing have shifted. Rising single-family home prices, limited lot supply in established Brandon neighborhoods, and strong renter demand from Tampa commuters have created a robust market for apartment communities, townhome developments, and mixed-use projects.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Brandon's diverse multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. Whether you're developing an apartment community along the Highway 60 retail corridor, townhomes in FishHawk Ranch, or senior living facilities serving the established Brandon population, we deliver on time and on budget.
+              <p className="mb-6">
+                The numbers support the trend. Eastern Hillsborough County's population growth rate exceeds the county average, driven by families and young professionals attracted to Brandon's combination of suburban character, retail convenience, and freeway access. The I-75 corridor provides direct routes to downtown Tampa, the Westshore Business District, and MacDill Air Force Base, making Brandon a natural bedroom community for Tampa's employment centers. The Selmon Expressway further shortens commute times, and these transportation advantages make Brandon apartments competitive with comparable units in Tampa proper at lower rental rates.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Brandon multi-family project. Our relationships with Hillsborough County Building Services, local subcontractors, and suppliers ensure smooth execution from groundbreaking to first occupancy.
+              <p className="mb-6">
+                Hillsborough County's land use framework for the Brandon area supports multi-family development at key nodes, particularly along transit corridors and near commercial centers. The areas surrounding Westfield Brandon Mall, along Causeway Boulevard, and near the I-75 interchanges have seen zoning applications for multi-family projects as developers recognize the unmet housing demand. The Bloomingdale corridor and the Valrico border area also present opportunities for townhome and attached villa development where density transitions between commercial corridors and established single-family neighborhoods.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Multi-Family Project Types We Build in Brandon
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {projectTypes.map((project) => (
-                  <div key={project.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{project.title}</h4>
-                    <p className="text-gray-600 text-sm">{project.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Brandon Multi-Family Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Brandon" currentService="multi-family-construction" />
-              <NearbyLocations currentCity="Brandon" service="multi-family-construction" serviceName="Multi-Family Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Brandon Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Multi-family construction in Brandon starting at $1,000,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists brings the multi-family construction expertise that this market requires. We understand Hillsborough County's development review process, its density requirements for unincorporated areas, and the engineering challenges of building multi-story residential structures on Brandon's flat, sandy terrain. Our proximity from Ruskin means we are on-site quickly and responsive to the daily decisions that keep multi-family projects on schedule.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp"
-        alt="Multi-family construction"
-        title="Building Communities"
-        subtitle="Condos, apartments, and townhomes throughout Tampa Bay"
+        src="/images/frame-building-sunset/frame-building-sunset-display.webp"
+        alt="Multi-family construction framing at sunset in Brandon area"
+        title="Housing Eastern Hillsborough County"
+        subtitle="Apartment communities, townhomes, and mixed-use development for Brandon's growing population"
         overlayOpacity={0.55}
       />
 
-      {/* Brandon Multi-Family Market Section */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Brandon's Multi-Family Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Multi-Family Construction Capabilities for Brandon Developers
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From garden-style apartments to mixed-use projects, we build the housing that Brandon's growing community needs.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Car className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Garden-Style Apartment Communities",
+                description: "Two and three story walk-up apartment buildings configured in community layouts with shared amenities, parking, and landscaped common areas. Brandon's suburban land availability allows for garden-style density that balances unit counts with the open, spacious feel that suburban renters prefer over urban high-rise living."
+              },
+              {
+                icon: Home,
+                title: "Townhome and Villa Developments",
+                description: "Attached townhome and villa communities for the for-sale and build-to-rent markets. Eastern Hillsborough's demand for attainable homeownership makes townhome construction particularly viable in Brandon, Valrico, and the Bloomingdale corridor where density transitions are appropriate."
+              },
+              {
+                icon: Users,
+                title: "Mixed-Use Residential",
+                description: "Ground-floor retail or commercial space with upper-floor residential units, positioned along the SR 60 corridor and near commercial nodes. Mixed-use construction in Brandon supports both the live-work-play lifestyle that younger renters seek and the neighborhood retail that residents need."
+              },
+              {
+                icon: HardHat,
+                title: "Workforce and Affordable Housing",
+                description: "Multi-family projects serving the workforce housing segment, including LIHTC and other affordable housing programs. Brandon's retail, healthcare, and logistics employment base creates demand for workforce housing that allows essential workers to live near their jobs rather than commuting from more distant communities."
+              },
+              {
+                icon: Briefcase,
+                title: "Senior Living Communities",
+                description: "Independent living, assisted living, and memory care facilities for Brandon's aging population. Eastern Hillsborough County's established residential neighborhoods generate demand for age-restricted housing near the medical facilities and retail amenities that seniors need."
+              },
+              {
+                icon: Award,
+                title: "Multi-Family Renovation",
+                description: "Major renovation and repositioning of existing Brandon apartment communities. Aging apartment complexes along the SR 60 corridor and in established Brandon neighborhoods benefit from unit upgrades, amenity additions, building envelope improvements, and modernization that allows them to compete with newer communities for tenants."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Highway 60 Retail Corridor</h3>
-              <p className="text-gray-600 text-sm">
-                Brandon's Highway 60 corridor anchored by Westfield Brandon creates strong multi-family demand. Retail and service employees need nearby housing, while residents benefit from walkable access to shopping, dining, and entertainment. Mixed-use and apartment projects along this corridor see consistent occupancy.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Home className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">FishHawk Ranch Growth</h3>
-              <p className="text-gray-600 text-sm">
-                FishHawk Ranch and surrounding master-planned communities represent Brandon's premium residential market. These areas attract families seeking quality schools and suburban amenities, driving demand for townhomes and condominiums with community amenities, walking trails, and family-friendly design.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <TrendingUp className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Riverview Expansion</h3>
-              <p className="text-gray-600 text-sm">
-                Riverview's explosive growth south of Brandon creates spillover demand and development opportunities. Families priced out of closer-in locations seek quality rental options with I-75 commuter access. Multi-family projects in the Brandon-Riverview corridor benefit from this population surge.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Suburban Family Housing Demand</h3>
-              <p className="text-gray-600 text-sm">
-                Brandon's demographic skews toward families with children, creating demand for larger units (2-3 bedrooms), family-friendly amenities, and proximity to top-rated Hillsborough County schools. This market segment supports both rental apartments and for-sale townhomes.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Healthcare Sector Growth</h3>
-              <p className="text-gray-600 text-sm">
-                Brandon Regional Hospital (HCA) anchors a growing healthcare employment cluster. Medical professionals and support staff create steady rental demand, while the aging population drives senior living development. Healthcare-adjacent multi-family projects see strong absorption.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <FileCheck className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Distribution & Logistics</h3>
-              <p className="text-gray-600 text-sm">
-                Amazon and other distribution centers in the Brandon-Ruskin area employ thousands of workers needing affordable housing. Workforce housing developments targeting this demographic benefit from Brandon's I-75 access and relatively lower development costs compared to Tampa.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Comparison Table */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Brandon Multi-Family Construction: Costs & Timelines
-          </h2>
-          <p className="text-center text-gray-600 mb-8 max-w-2xl mx-auto">
-            Brandon construction costs typically run 10-15% lower than Tampa proper due to lower land costs and less complex site conditions.
-          </p>
           <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range (per SF)</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Permit Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Garden-Style Apartments</td>
-                    <td className="p-4">$135 - $195</td>
-                    <td className="p-4">14-20 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Mid-Rise Apartments</td>
-                    <td className="p-4">$160 - $250</td>
-                    <td className="p-4">16-22 months</td>
-                    <td className="p-4">5-8 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Townhome Communities</td>
-                    <td className="p-4">$135 - $195</td>
-                    <td className="p-4">12-18 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Senior Living Facilities</td>
-                    <td className="p-4">$195 - $285</td>
-                    <td className="p-4">16-24 months</td>
-                    <td className="p-4">5-8 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Workforce Housing</td>
-                    <td className="p-4">$125 - $175</td>
-                    <td className="p-4">12-18 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 font-medium">Mixed-Use Residential</td>
-                    <td className="p-4">$150 - $220</td>
-                    <td className="p-4">14-22 months</td>
-                    <td className="p-4">5-8 weeks</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs reflect hard construction only. Land, soft costs, financing, and developer fees are additional.
-              Estimates based on 2024-2025 Brandon/Hillsborough County market conditions.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Brandon-Specific Construction Considerations */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Brandon-Specific Construction Considerations
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Navigating Hillsborough County's Multi-Family Development Process
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Hillsborough County Jurisdiction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Brandon is unincorporated Hillsborough County, meaning all permitting goes through Hillsborough County Building Services rather than a city department. This creates a single point of contact for permits, inspections, and approvals. County processes are well-established with predictable timelines averaging 4-6 weeks for commercial permits.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Car className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Traffic Concurrency Requirements</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Hillsborough County requires traffic concurrency analysis for multi-family developments—demonstrating that roads can handle additional traffic from your project. This may require traffic impact fees or road improvements. We factor these requirements into project budgets and timelines during pre-construction planning.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Home className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Suburban Land Availability</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Unlike urban Tampa, Brandon still offers developable parcels suitable for multi-family construction. Land costs run 20-30% lower than Tampa proper, with larger parcels available for garden-style developments. This creates opportunities for projects that wouldn't pencil in closer-in markets.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Stormwater & Environmental</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Brandon's Alafia River corridor has flood zone considerations, though most of the area is Zone X (minimal flood risk). Environmental resource permits may be required for wetland areas. FishHawk and newer developments have comprehensive stormwater systems. We navigate SWFWMD and county environmental requirements on every project.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Multi-family construction in Brandon presents a unique regulatory environment because the community is unincorporated. Instead of working with a municipal planning department, every aspect of development approval goes through Hillsborough County government. This includes zoning verification or rezoning applications, planned development approvals, development review committee hearings, and ultimately Board of County Commissioners approval for projects that require land use changes.
+              </p>
+              <p className="mb-6">
+                <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a> processes building permits for multi-family projects in Brandon, with plan review timelines of six to twelve weeks for typical apartment construction. Larger projects requiring multiple agency reviews or site plan modifications can take longer. We prepare comprehensive permit packages that address all county requirements upfront to minimize review cycles.
+              </p>
+              <p className="mb-6">
+                Brandon's flat terrain and sandy soils create engineering challenges specific to multi-family construction. Three and four story apartment buildings require geotechnical analysis to determine foundation requirements, and most Brandon sites need driven or augered pile foundations rather than simple spread footings. Stormwater management for multi-family communities is particularly demanding because the large impervious areas created by buildings, parking lots, and driveways must be managed through retention ponds, underground stormwater vaults, or infiltration systems that satisfy SWFWMD permit requirements.
+              </p>
+              <p className="mb-6">
+                Transportation concurrency is another critical consideration for multi-family projects in unincorporated Hillsborough County. The county evaluates whether existing road infrastructure can handle the traffic generated by new apartment communities, and developers may be required to fund or construct road improvements as a condition of development approval. Major corridors including SR 60, Causeway Boulevard, and Bloomingdale Avenue already carry heavy traffic loads, and multi-family projects along these routes require detailed traffic impact studies.
+              </p>
+              <p>
+                Our experience with Hillsborough County's multi-family development process means we can guide developers through the entitlement, permitting, and construction phases with realistic timelines and cost projections. We know which county staff to coordinate with, which engineering consultants deliver thorough submittals, and how to structure projects that satisfy county requirements without unnecessary delays or redesigns.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Brandon Multi-Family Construction Process
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with thorough site evaluation, constructability review, and detailed budgeting. For Brandon multi-family projects, this includes soil analysis (mix of sandy and clay soils), flood zone verification, traffic concurrency assessment, and permit pathway planning through Hillsborough County Building Services."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination",
-                  description: "Whether working with your design team or providing design-build services, we ensure plans meet Hillsborough County codes, wind requirements (Zone 2-3 depending on location), fire codes, and accessibility standards while optimizing constructability and controlling costs for Brandon's competitive market."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all building permit applications through Hillsborough County Building Services, coordinate plan reviews with multiple departments (building, fire, utilities, transportation), and handle environmental permits through SWFWMD when required. Our relationships with county staff help expedite the process."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Experienced project managers oversee daily construction with strict quality control, safety protocols, and schedule management. We adjust for Tampa Bay's rainy season (May-September) with strategic scheduling of weather-sensitive work. Brandon's suburban access typically allows efficient material delivery and equipment staging."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all Hillsborough County inspections, obtain certificate of occupancy, and provide comprehensive turnover documentation including warranties, as-builts, and operations manuals. For multi-family, we coordinate with property management for smooth transition to occupancy and leasing."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-gray-50 rounded-lg p-6">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Brandon Developers Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Brandon Multi-Family Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Brandon multi-family projects. You get direct accountability, single-point contact, and our full commitment to your project's success from groundbreaking to occupancy.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Hillsborough County Expertise</h3>
-              <p className="text-gray-600">
-                With deep experience in Hillsborough County permitting and construction, we understand the specific requirements for Brandon projects—traffic concurrency, environmental review, and county building codes.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Market Knowledge</h3>
-              <p className="text-gray-600">
-                We understand Brandon's suburban family market, from amenity expectations to unit mix optimization. Our local relationships with subcontractors and suppliers help ensure competitive pricing and reliable execution.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every multi-family project in Brandon follows a structured process designed for Hillsborough County's development review requirements.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Feasibility and Due Diligence",
+                description: "We evaluate your Brandon site for multi-family feasibility including Hillsborough County zoning compatibility, density allowances, utility capacity, environmental constraints, and transportation concurrency. This analysis identifies potential issues before you commit significant capital to design and entitlement.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design and Entitlement Support",
+                description: "We coordinate with architects, civil engineers, and landscape architects to develop designs that satisfy Hillsborough County's development standards. For projects requiring rezoning or planned development approval, we support the entitlement process with constructability analysis and realistic cost estimates.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting Through Hillsborough County",
+                description: "We prepare and submit comprehensive building permit packages to Hillsborough County Building Services, coordinating plan review across structural, mechanical, electrical, plumbing, and fire protection disciplines. We manage the iterative review process and coordinate responses to examiner comments efficiently.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction and Quality Management",
+                description: "Full-time superintendents manage daily construction with strict quality protocols, safety programs, and schedule management. Brandon's rainy season requires strategic scheduling of foundation work, framing, and exterior envelope installation. We coordinate with county inspectors throughout construction to maintain steady progress.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Lease-Up Support and Closeout",
+                description: "We phase unit completions to support early lease-up when possible, coordinate final inspections and Certificates of Occupancy with Hillsborough County, and provide comprehensive documentation for property management teams including warranties, maintenance guides, and as-built drawings.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={brandonFaqs} title="Multi-Family Construction in Brandon - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Brandon Multi-Family Construction FAQ"
+        description="Common questions about multi-family housing construction in Brandon, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Brandon</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-brandon/" className="text-brand-green hover:underline">Commercial Construction Brandon</Link></li>
-                <li><Link href="/balcony-reconstruction-brandon/" className="text-brand-green hover:underline">Balcony Reconstruction Brandon</Link></li>
-                <li><Link href="/historic-restoration-brandon/" className="text-brand-green hover:underline">Historic Restoration Brandon</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Multi-Family Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-tampa/" className="text-brand-green hover:underline">Multi-Family Construction Tampa</Link></li>
-                <li><Link href="/multi-family-construction-lakeland/" className="text-brand-green hover:underline">Multi-Family Construction Lakeland</Link></li>
-                <li><Link href="/multi-family-construction-ruskin/" className="text-brand-green hover:underline">Multi-Family Construction Ruskin</Link></li>
-                <li><Link href="/multi-family-construction-st-petersburg/" className="text-brand-green hover:underline">Multi-Family Construction St. Petersburg</Link></li>
-                <li><Link href="/multi-family-construction-clearwater/" className="text-brand-green hover:underline">Multi-Family Construction Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
-                <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/balcony-reconstruction/" className="text-brand-green hover:underline">Condo Common Area Reconstruction</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Brandon" currentService="multi-family-construction" />
+            <NearbyLocations currentCity="Brandon" service="multi-family-construction" serviceName="Multi-Family Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Brandon Multi-Family Construction Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your Brandon Multi-Family Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver multi-family construction excellence in Brandon with projects starting at $1,000,000.
+            Contact Florida Construction Specialists to discuss your multi-family development in Brandon. We will evaluate your site, provide preliminary budgeting, and outline a realistic path through Hillsborough County's development review process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Development Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

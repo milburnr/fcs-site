@@ -1,97 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileText, Wrench, Users, DollarSign } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle, Clock } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-brandon/' },
-  title: "Disaster Recovery Brandon FL | Hurricane | FCS",
+  title: "Disaster Recovery Brandon FL | Storm, Flood, Fire Restoration | FCS",
+  description: "Disaster recovery construction in Brandon FL. Hurricane damage, flooding, lightning strikes, fire damage. Emergency response and full restoration. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What kinds of disasters most commonly affect properties in the Brandon area?",
+    answer: "Brandon's inland Hillsborough County location creates a specific disaster risk profile. The most frequent events are severe thunderstorms with damaging winds and lightning, tropical storms and hurricanes bringing sustained high winds and heavy rainfall, localized flooding from summer storm events and inadequate drainage, and lightning-caused structural fires. While Brandon avoids the storm surge risk that threatens coastal communities, the community's flat suburban terrain makes it susceptible to flooding when drainage systems are overwhelmed by heavy rain events, particularly near the Alafia River and in low-lying areas of the Bloomingdale and Boyette corridors."
+  },
+  {
+    question: "How quickly can FCS respond to a disaster in Brandon?",
+    answer: "Our Ruskin headquarters is approximately twenty minutes from Brandon, allowing rapid deployment of emergency response crews. For major weather events, we pre-position resources and monitor storm tracks to enable immediate response once conditions are safe for deployment. Our emergency services include roof tarping, structural shoring, window boarding, water extraction, and site security. For commercial properties, rapid response is critical to minimize business interruption and prevent secondary damage from water intrusion and mold growth in Florida's humid climate."
+  },
+  {
+    question: "Does FCS handle both emergency stabilization and full reconstruction for Brandon disasters?",
+    answer: "Yes, we provide the complete disaster recovery lifecycle from initial emergency response through full reconstruction. Many contractors specialize in either mitigation or construction but not both. We handle emergency board-up and stabilization, damage assessment and documentation, insurance claim support, permitting through Hillsborough County, demolition of damaged components, and complete reconstruction to pre-loss condition or better. This single-source approach eliminates the coordination problems and finger-pointing that occur when emergency response and reconstruction are handled by separate contractors."
+  },
+  {
+    question: "How does Brandon's unincorporated status affect disaster recovery permitting?",
+    answer: "Since Brandon is unincorporated, all disaster recovery permits go through Hillsborough County Building Services rather than a municipal building department. After major storms, the county may implement expedited permitting procedures for emergency repairs, but standard reconstruction still requires full plan review and permits. We have established relationships with Hillsborough County building officials that help us navigate both emergency and standard permitting efficiently. The county's development review process applies to reconstruction that changes building footprint or use, which can occur when property owners decide to rebuild differently after a disaster."
+  },
+  {
+    question: "What role does the Florida Building Code play in disaster reconstruction for Brandon properties?",
+    answer: "When a building sustains damage exceeding fifty percent of its value, the Florida Building Code requires that reconstruction bring the entire building up to current code standards, not just the damaged portion. This substantially damaged determination can significantly increase reconstruction costs and timelines but also results in a stronger, more resilient building. Even for damage below fifty percent, replaced components must meet current code. For Brandon properties built in the 1980s and 1990s, code upgrades often include enhanced wind resistance, updated electrical systems, improved energy efficiency, and current accessibility requirements."
+  },
+  {
+    question: "Does FCS coordinate with FEMA and other disaster assistance programs for Brandon properties?",
+    answer: "We can support property owners navigating FEMA assistance and other disaster recovery programs when federal disaster declarations cover Hillsborough County. This includes documenting damage in formats that support FEMA applications, coordinating reconstruction timelines with grant funding availability, and ensuring repairs meet the requirements for disaster assistance programs. For commercial properties, we also help coordinate with SBA disaster loan programs and business interruption insurance claims. Our experience with multiple disaster recovery funding sources helps property owners maximize available assistance."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Brandon", href: "/disaster-recovery-brandon/" },
-];
-
-const disasterTypes = [
-  {
-    type: "Hurricane & Wind Damage",
-    description: "Roof damage, structural impacts, water intrusion, and wind damage from tropical storms and hurricanes affecting inland Brandon properties",
-    icon: AlertTriangle,
-  },
-  {
-    type: "Flash Flood Restoration",
-    description: "Water extraction, structural drying, mold remediation, and flood damage repair for Alafia River corridor and low-lying areas",
-    icon: Wrench,
-  },
-  {
-    type: "Fire & Smoke Damage",
-    description: "Structural repairs, smoke damage remediation, odor removal, and complete fire restoration for commercial and residential properties",
-    icon: Building2,
-  },
-  {
-    type: "Severe Storm Damage",
-    description: "Severe thunderstorm damage repair including hail, lightning strikes, tornado damage, and heavy rain impacts common to inland areas",
-    icon: Shield,
-  },
-];
-
-const brandonFaqs = [
-  {
-    question: "How quickly can FCS respond to disaster damage in Brandon?",
-    answer: "Florida Construction Specialists maintains rapid response capabilities for Brandon and eastern Hillsborough County emergencies. For large loss situations, we can typically have assessment teams on-site within 24-48 hours. Our proximity to the Brandon area through our Ruskin headquarters ensures faster response times than contractors based in distant locations. We provide immediate stabilization services including board-up, tarping, and water extraction to prevent further damage.",
-  },
-  {
-    question: "What types of disasters most commonly affect Brandon properties?",
-    answer: "Brandon's inland suburban location experiences different disaster patterns than coastal Tampa Bay areas. The most common disasters include severe thunderstorms with damaging winds and hail (May-September), flash flooding near the Alafia River corridor and low-lying areas, occasional tornado activity (Florida averages 60+ tornadoes annually), and hurricane wind damage. While Brandon lacks storm surge risk, hurricane winds still cause significant damage to roofing and structures.",
-  },
-  {
-    question: "Who handles building permits for disaster restoration in Brandon?",
-    answer: "Brandon is an unincorporated area of Hillsborough County, so all building permits go through Hillsborough County Building Services—not the City of Tampa. FCS has established relationships with County permitting staff, which helps expedite disaster restoration projects. Commercial permit review typically takes 4-6 weeks, though emergency permits for stabilization can be obtained within 24-48 hours.",
-  },
-  {
-    question: "What is the typical timeline for disaster recovery in Brandon?",
-    answer: "Disaster recovery timelines in Brandon vary by scope: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-150 days for larger commercial projects). Projects over $1 million may require 5-10 months depending on scope and Hillsborough County permit requirements. Brandon's inland location often means less competing demand for restoration contractors compared to coastal areas.",
-  },
-  {
-    question: "Are Brandon disaster recovery costs lower than Tampa?",
-    answer: "Yes, disaster recovery costs in Brandon typically run 10-15% lower than comparable projects in Tampa or coastal areas. This reflects Brandon's reduced flood zone requirements (most properties are Zone X), lower insurance premiums, and less stringent coastal construction regulations. However, projects still must meet Florida Building Code standards including wind resistance requirements for Hillsborough County.",
-  },
-  {
-    question: "What areas of Brandon are most vulnerable to flooding?",
-    answer: "Brandon's highest flood risk areas include properties along the Alafia River corridor, low-lying areas near retention ponds in master-planned communities like FishHawk, and older neighborhoods with inadequate stormwater infrastructure. While most of Brandon is Zone X (minimal flood risk), flash flooding from intense summer thunderstorms can affect any low-lying area, especially along Bloomingdale Avenue and the Highway 60 corridor.",
-  },
-  {
-    question: "Do you work with insurance companies on Brandon disaster claims?",
-    answer: "Yes, FCS specializes in large loss insurance restoration and works directly with all major insurance carriers serving Brandon. We provide detailed documentation, scope assessments, and claims support for property owners. Our experience with Xactimate estimating and insurance adjuster protocols helps expedite claims. Brandon properties often have different coverage needs than coastal properties, and we help owners understand their policies.",
-  },
-  {
-    question: "What commercial properties do you restore in Brandon?",
-    answer: "FCS specializes in large loss disaster recovery for Brandon's commercial sector including retail centers (Westfield Brandon, Winthrop Town Centre), medical facilities (Brandon Regional Hospital area), multi-family apartment complexes, industrial and warehouse properties near I-75, and commercial office buildings along Highway 60. Our Brandon projects typically range from $225,000 to $45 million.",
-  },
-];
-
-const costData = [
-  { category: "Water Damage Restoration", range: "$13,000 - $65,000", timeline: "1-4 weeks", notes: "Depends on affected area and mold presence" },
-  { category: "Hurricane Roof Repair", range: "$45,000 - $425,000", timeline: "4-10 weeks", notes: "Commercial roofing with wind uplift compliance" },
-  { category: "Fire Damage Restoration", range: "$90,000 - $1.8M+", timeline: "3-8 months", notes: "Structural repairs and smoke remediation" },
-  { category: "Full Building Restoration", range: "$450,000 - $45M+", timeline: "5-15 months", notes: "Complete disaster recovery with code upgrades" },
-];
-
-const processSteps = [
-  { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development" },
-  { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation support" },
-  { step: 4, title: "Restoration Planning", description: "Engineering assessments, Hillsborough County permit applications, and detailed project scheduling" },
-  { step: 5, title: "Construction Phase", description: "Professional restoration with quality control, progress reporting, and Florida Building Code compliance" },
-  { step: 6, title: "Final Inspection", description: "County inspections, insurance sign-off, warranty documentation, and project closeout" },
 ];
 
 export default function DisasterRecoveryBrandonPage() {
@@ -99,44 +53,51 @@ export default function DisasterRecoveryBrandonPage() {
     <>
       <LocalBusinessSchema city="Brandon" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Emergency disaster recovery and insurance restoration services in Brandon, FL. Hurricane, fire, flood, and storm damage repair."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction in Brandon, FL. Hurricane damage, flooding, lightning strikes, fire restoration. Emergency response and complete reconstruction. Licensed CBC1262722, 40+ years experience."
         city="Brandon"
-        minPrice="225000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        minPrice="25000"
+        serviceCategories={["Hurricane Damage Restoration", "Flood Damage Recovery", "Fire Damage Reconstruction", "Emergency Stabilization", "Commercial Disaster Recovery"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Disaster Recovery Services in Brandon, FL"
-        description="Comprehensive guide to disaster recovery and insurance restoration services in Brandon. Learn about hurricane damage restoration, flood remediation, and large loss insurance claim processes for Hillsborough County properties."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="disaster-recovery-brandon"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/construction-crane-silhouette-tampa/construction-crane-silhouette-tampa-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Brandon, Florida (Hillsborough County)</span>
+              <span className="text-brand-gold font-semibold">Serving Brandon & Eastern Hillsborough County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Disaster Recovery & Insurance Restoration in Brandon
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Brandon, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              When hurricanes, flooding, lightning, or fire damage Brandon properties, Florida Construction Specialists provides the emergency response and full-scale reconstruction that gets businesses and communities back to normal. From immediate stabilization through complete rebuilding, we manage every phase of disaster recovery with the construction expertise and insurance industry knowledge that complex losses demand.
             </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Clock className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Rapid Emergency Response</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
+                Request Emergency Response
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -145,183 +106,170 @@ export default function DisasterRecoveryBrandonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Clock className="w-6 h-6 text-brand-green" />
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Direct Insurance Billing</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Brandon's Premier Disaster Recovery Contractor
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Brandon's trusted prime contractor for large loss disaster recovery and insurance restoration. As an inland suburban community in unincorporated Hillsborough County, Brandon faces different disaster challenges than coastal areas—primarily severe thunderstorms, hurricane wind damage, flash flooding near the Alafia River corridor, and occasional tornado activity. Property owners need experienced restoration partners who understand both the technical requirements and insurance complexities of major disaster recovery.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Brandon's Disaster Risk Profile
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Brandon occupies a unique position in the Tampa Bay area's disaster risk landscape. As an unincorporated community roughly fifteen miles inland from Tampa Bay, Brandon avoids the storm surge flooding that represents the most catastrophic risk for coastal properties. But inland location does not mean low risk. Brandon sits in one of the most lightning-dense regions in the United States, receives over fifty inches of annual rainfall that frequently overwhelms suburban drainage systems, and remains fully exposed to hurricane-force winds that lose only modest intensity as they move inland from the Gulf of Mexico.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Brandon's location offers significant advantages for property owners. The community sits inland from Tampa Bay, eliminating storm surge risk while still experiencing hurricane-force winds during major storms. The area receives approximately 48 inches of annual rainfall, with intense summer thunderstorms causing flash flooding in low-lying areas. Our team has restored properties throughout Brandon, Valrico, FishHawk, and Bloomingdale following hurricanes, severe storms, flooding events, and fires—always working as the prime contractor with direct accountability for project success.
+              <p className="mb-6">
+                The community's flat suburban terrain compounds flood risk during major rain events. Brandon's extensive development has replaced natural drainage with impervious surfaces, streets, parking lots, rooftops, and driveways that channel water into stormwater systems designed for typical storms, not extreme events. When tropical systems stall over eastern Hillsborough County or back-to-back thunderstorms dump rain faster than systems can handle, localized flooding affects properties throughout the community. Low-lying areas near the Alafia River, Buckhorn Creek, and Pemberton Creek are particularly vulnerable, but flooding can occur anywhere when storm intensity exceeds drainage capacity.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Brandon Disaster Recovery Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {disasterTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Brandon's Disaster Risk Profile
-              </h3>
-
-              <p className="text-gray-600 mb-4">
-                Brandon's inland Hillsborough County location creates a unique disaster risk profile different from coastal Tampa Bay communities. Key risk factors for Brandon properties include:
+              <p className="mb-6">
+                Lightning strikes cause a surprisingly significant amount of property damage in Brandon. Central Florida's status as the lightning capital of the Western Hemisphere is not just trivia. Lightning strikes ignite structural fires, destroy electrical systems, damage HVAC equipment, and create surge-related damage throughout commercial and residential buildings. For commercial properties along the SR 60 corridor and in Brandon's retail areas, a single lightning strike can cause hundreds of thousands of dollars in damage and weeks of business interruption.
               </p>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Hurricane Wind Exposure:</strong> While protected from storm surge, Brandon still experiences damaging winds from hurricanes—Category 3+ storms can produce 100+ mph winds this far inland</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Alafia River Flooding:</strong> Properties near the Alafia River corridor face flood risk during heavy rainfall events, with flash flooding possible after intense summer storms</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Severe Thunderstorm Activity:</strong> Florida leads the nation in lightning strikes, and Brandon's afternoon thunderstorms bring damaging winds, hail, and occasional tornado activity</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Tornado Risk:</strong> Central Florida's tornado alley extends through Hillsborough County, with waterspout-generated tornadoes and supercell storms creating localized but severe damage</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Brandon Property's Disaster Recovery Needs <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Brandon and Hillsborough County. Our our crews are ready to deploy.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Brandon" currentService="disaster-recovery" />
-              <NearbyLocations currentCity="Brandon" service="disaster-recovery" serviceName="Disaster Recovery" />
+              <p>
+                Florida Construction Specialists maintains disaster recovery capabilities specifically calibrated for the types of events that affect inland Hillsborough County communities like Brandon. Our emergency response teams are based in nearby Ruskin, enabling rapid deployment when weather events strike. Our construction teams have experience with every type of disaster damage that Brandon properties sustain, from comprehensive hurricane reconstruction to targeted lightning damage repair and flood remediation.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp"
+        alt="Disaster recovery construction and restoration work"
+        title="Rapid Recovery for Brandon Properties"
+        subtitle="Emergency response, damage mitigation, and complete reconstruction for all disaster types"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Brandon Disaster Recovery Costs & Timelines
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Capabilities for Brandon Properties
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Brandon restoration costs typically run 10-15% lower than coastal Tampa Bay areas due to reduced flood zone requirements and less stringent coastal regulations. These ranges reflect typical Brandon projects—actual costs depend on specific conditions and insurance coverage.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Restoration Category</th>
-                  <th className="px-6 py-4 text-left">Typical Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Notes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.category}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.notes}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Brandon projects typically 10-15% lower than coastal Tampa. Actual project costs depend on damage assessment, insurance coverage, and Hillsborough County code requirements.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Brandon Disaster Recovery Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Our proven 6-step process ensures thorough restoration, proper documentation, and maximum insurance recovery for Brandon property owners. All permits processed through Hillsborough County Building Services.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From emergency stabilization through complete reconstruction, we handle every phase of disaster recovery for Brandon's commercial and residential properties.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Hurricane and Wind Damage Recovery",
+                description: "Complete reconstruction following hurricane and severe storm damage including roof system replacement, structural framing repair, exterior envelope restoration, window and door replacement, and interior reconstruction. We manage the full scope from emergency tarping through final inspection and Certificate of Occupancy from Hillsborough County."
+              },
+              {
+                icon: Shield,
+                title: "Flood Damage Remediation",
+                description: "Water extraction, structural drying, contamination remediation, and reconstruction following flooding events. Brandon's flat terrain and suburban drainage challenges create flood risk beyond designated flood zones. We address both the immediate water damage and the structural and environmental consequences of flooding."
+              },
+              {
+                icon: Building2,
+                title: "Lightning and Fire Damage",
+                description: "Structural assessment and reconstruction following lightning strikes and fire damage. Lightning causes both direct structural damage and secondary electrical and fire damage that can affect entire buildings. We coordinate with fire investigators, insurance adjusters, and structural engineers to document and restore lightning-damaged properties."
+              },
+              {
+                icon: Clock,
+                title: "Emergency Stabilization",
+                description: "Immediate response services including structural shoring, roof tarping, board-up, water extraction, and site security. Rapid stabilization prevents secondary damage that compounds the original loss and demonstrates to insurance carriers that the property owner took reasonable steps to mitigate further damage."
+              },
+              {
+                icon: FileCheck,
+                title: "Damage Documentation",
+                description: "Comprehensive damage assessment and documentation using drone photography, moisture mapping, structural evaluation, and detailed field measurements. Our documentation supports insurance claims, FEMA applications, and SBA disaster loan requests with the professional detail these programs require."
+              },
+              {
+                icon: HardHat,
+                title: "Commercial Business Recovery",
+                description: "Disaster recovery for commercial properties with focus on minimizing business interruption. We develop phased reconstruction plans that restore critical business functions first, coordinate with tenants and property managers, and manage the construction timeline to get businesses operational as quickly as possible."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Brandon-Specific Disaster Recovery Knowledge
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery in Brandon requires navigating Hillsborough County's emergency and standard permitting processes. Since Brandon is unincorporated, <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a> manages all reconstruction permits. After declared disasters, the county may activate emergency permit procedures that allow immediate stabilization and temporary repairs without standard plan review. However, permanent reconstruction still requires full permits and inspections. We understand the boundary between emergency repairs and permitted reconstruction and help property owners stay compliant while moving recovery forward as quickly as possible.
+              </p>
+              <p className="mb-6">
+                Brandon's suburban building stock creates specific reconstruction challenges. Retail centers along the SR 60 corridor often have multiple tenants who are all affected when a building sustains major damage, requiring coordination of individual tenant requirements during reconstruction. Multi-family apartment communities need phased reconstruction approaches that allow some residents to remain while damaged buildings are restored. Distribution and warehouse facilities near I-75 have specialized building systems, crane-rated structures, temperature-controlled environments, and heavy-duty loading systems, that require experienced industrial construction knowledge to restore properly.
+              </p>
+              <p className="mb-6">
+                The substantially damaged determination under the Florida Building Code has particular impact in Brandon. Many commercial and residential buildings in the community were constructed in the 1980s and 1990s under older code editions. When damage exceeds fifty percent of building value, full code compliance upgrades are required. For Brandon properties, this can mean upgrading to current wind resistance standards, installing impact-rated openings where not previously required, upgrading electrical panels to arc-fault standards, and bringing buildings into compliance with current energy and accessibility codes. These upgrades add cost but result in a significantly more resilient rebuilt structure.
+              </p>
+              <p>
+                Our knowledge of eastern Hillsborough County's infrastructure, utility providers, transportation routes, and material suppliers enables efficient disaster reconstruction logistics. We know which staging areas are accessible, which utility companies serve different parts of Brandon, and how to coordinate heavy equipment delivery on Brandon's suburban street network. These logistics details may seem minor, but they significantly affect reconstruction speed and cost when multiple properties need simultaneous disaster recovery.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Brandon Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A proven recovery process that moves from emergency response to completed reconstruction efficiently and transparently.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Response and Stabilization",
+                description: "Immediate deployment for structural shoring, roof tarping, board-up, water extraction, and site security. We document all emergency work for insurance and FEMA purposes while preventing secondary damage. Our Ruskin proximity enables deployment to Brandon within minutes of conditions becoming safe.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Damage Assessment and Documentation",
+                description: "Comprehensive damage evaluation using drone photography, moisture mapping, structural analysis, and detailed field measurements. We prepare documentation packages that support insurance claims, FEMA applications, and SBA disaster loans simultaneously, maximizing available recovery funding.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Recovery Planning and Funding Coordination",
+                description: "We develop detailed reconstruction plans with accurate cost estimates and realistic timelines. We coordinate with insurance carriers, public adjusters, FEMA representatives, and SBA loan officers as applicable. For commercial properties, we develop phased plans that prioritize critical business function restoration.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Permitting and Reconstruction",
+                description: "We manage all permitting through Hillsborough County Building Services and execute reconstruction with experienced project managers and qualified subcontractors. Construction proceeds on schedule with strict quality control, regular progress reporting, and coordination with all funding sources.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Completion and Compliance Closeout",
+                description: "Final inspections, Certificate of Occupancy from Hillsborough County, warranty documentation, and closeout packages for insurance carriers and disaster assistance programs. We ensure all reconstruction meets current Florida Building Code standards and all program documentation requirements are satisfied.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -329,150 +277,48 @@ export default function DisasterRecoveryBrandonPage() {
         </div>
       </section>
 
-      {/* Brandon-Specific Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Local Brandon & Hillsborough County Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Disaster recovery in Brandon requires contractors who understand Hillsborough County's permitting process, Florida Building Code requirements, and the unique disaster risks facing inland suburban communities. FCS brings decades of Tampa Bay experience to every Brandon restoration project.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Hillsborough County Permits:</strong> Established relationships with County Building Services expedite permit approvals for Brandon properties</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Florida Building Code Compliance:</strong> Full knowledge of wind resistance requirements and code upgrade triggers for Hillsborough County</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Alafia River Corridor:</strong> Specialized experience with flood-prone properties along the river corridor and low-lying Brandon areas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Insurance Carrier Relationships:</strong> Direct experience with carriers common in Brandon and Hillsborough County markets</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$40M+</div>
-                <div className="text-gray-300 text-sm">Brandon Area Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Properties Restored</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Storm Response</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Brandon Chooses FCS for Disaster Recovery
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor on Brandon disaster recovery projects—never a subcontractor. You get direct accountability and single-point responsibility for your restoration.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Insurance Expertise</h3>
-              <p className="text-gray-600">
-                Our team includes insurance restoration specialists who understand claim documentation, Xactimate estimating, and carrier negotiation to maximize your recovery.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Proven Track Record</h3>
-              <p className="text-gray-600">
-                With $40M+ in completed Brandon area disaster recovery projects, we have the experience, bonding capacity, and Hillsborough County expertise to handle any restoration challenge.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Commercial Properties Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Brandon Commercial Property Restoration
-          </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            FCS specializes in large loss disaster recovery for Brandon's diverse commercial sector, from retail centers to industrial facilities.
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="border rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-brand-green-dark mb-2">Retail Centers</h4>
-              <p className="text-gray-600 text-sm">Westfield Brandon Mall, Winthrop Town Centre, Brandon Town Center corridor</p>
-            </div>
-            <div className="border rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-brand-green-dark mb-2">Medical Facilities</h4>
-              <p className="text-gray-600 text-sm">Brandon Regional Hospital, medical office buildings, urgent care facilities</p>
-            </div>
-            <div className="border rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-brand-green-dark mb-2">Industrial & Warehouse</h4>
-              <p className="text-gray-600 text-sm">Distribution centers, manufacturing facilities, flex space near I-75</p>
-            </div>
-            <div className="border rounded-lg p-6 text-center hover:shadow-md transition-shadow">
-              <h4 className="font-bold text-brand-green-dark mb-2">Multi-Family Housing</h4>
-              <p className="text-gray-600 text-sm">Apartment complexes, condominium communities, townhome developments</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={brandonFaqs}
-        title="Brandon Disaster Recovery FAQs"
+        items={faqs}
+        title="Brandon Disaster Recovery FAQ"
+        description="Common questions about disaster recovery construction in Brandon, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Brandon" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Brandon" service="disaster-recovery" serviceName="Disaster Recovery" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Brandon Disaster Recovery Experts
+            Brandon Disaster Recovery When You Need It Most
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for emergency disaster response or to discuss reconstruction planning for your Brandon property. We are available for rapid deployment and can begin damage assessment immediately.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get storm response
+              Request Emergency Response
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Emergency Response Capable</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

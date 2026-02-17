@@ -1,74 +1,43 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, FileCheck, Users, Thermometer, Wind, Droplets, HardHat, ShoppingCart, Factory, Stethoscope } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
-  title: "Commercial Construction Brandon | $500K+ | FCS",
-  description: "Commercial Construction in Brandon: insurance restoration, design-build, and renovations. 40+ years, licensed CBC. Call for a free consultation today.",
+  title: "Commercial Construction Brandon FL | Retail, Office, Industrial | FCS",
+  description: "Commercial construction in Brandon FL by Florida Construction Specialists. SR 60 corridor retail, office buildings, distribution centers near I-75. Licensed CBC, 40+ years experience. Request a project bid.",
 };
 
-const serviceFeatures = [
+const faqs = [
   {
-    title: "Retail Centers & Shopping Complexes",
-    description: "Ground-up retail construction, shopping center developments, and tenant improvements along Highway 60, Brandon Boulevard, and the Westfield Brandon corridor."
+    question: "How does Brandon's status as an unincorporated CDP affect commercial construction permitting?",
+    answer: "Brandon is not an incorporated city, so commercial construction permits go through Hillsborough County Building Services rather than a municipal building department. This means your project follows Hillsborough County's development review process, including county-level site plan review, traffic concurrency analysis, and environmental permitting through the county's development services department. We have extensive experience navigating Hillsborough County's permitting requirements for Brandon commercial projects and maintain strong working relationships with county plan reviewers and inspectors."
   },
   {
-    title: "Office Buildings & Professional Spaces",
-    description: "Professional office construction for the growing Brandon business community, from single-tenant buildings to multi-story office complexes."
+    question: "What types of commercial construction projects are most common along Brandon's SR 60 corridor?",
+    answer: "The State Road 60 corridor through Brandon, also known as Brandon Boulevard, supports a wide range of commercial construction including retail strip centers, outparcel restaurant pads, medical office buildings, auto dealership facilities, and multi-tenant commercial buildings. The corridor sees steady redevelopment as older retail sites are demolished or renovated to accommodate modern tenant requirements. We handle both ground-up commercial construction and major renovations along SR 60, typically ranging from five hundred thousand to fifteen million dollars depending on project scope and complexity."
   },
   {
-    title: "Distribution & Logistics Centers",
-    description: "Warehouse and distribution facilities supporting the I-75/I-4 logistics corridor, including Amazon and major retailer distribution operations."
+    question: "Does FCS build distribution centers and warehouses near Brandon's I-75 corridor?",
+    answer: "Yes, warehouse and distribution center construction is a significant portion of our commercial work in the Brandon and eastern Hillsborough County area. The I-75 corridor from the Selmon Expressway interchange south through Riverview has attracted major logistics investment due to its central Florida location and interstate access. We build tilt-wall and metal building distribution facilities, cold storage warehouses, and flex industrial space. These projects typically require extensive site work, specialized loading dock configurations, and coordination with Hillsborough County for traffic impact analysis given the heavy vehicle loads."
   },
   {
-    title: "Hospitality & Restaurant Buildouts",
-    description: "Hotels, restaurants, and entertainment venues serving Brandon's large residential population and visitor traffic."
+    question: "How does Brandon's suburban development pattern affect commercial construction costs compared to Tampa?",
+    answer: "Brandon's suburban setting generally offers several cost advantages for commercial construction. Land costs are typically lower than urban Tampa, sites tend to be less constrained with easier equipment access, and there is less existing infrastructure to work around. However, some costs are comparable or higher because Hillsborough County's stormwater management requirements apply strictly to suburban development where impervious surface increases affect drainage patterns. Overall, commercial construction costs in Brandon run roughly five to fifteen percent below comparable Tampa projects depending on site conditions and project type."
   },
   {
-    title: "Educational & Institutional Buildings",
-    description: "Schools, training facilities, and institutional buildings for Hillsborough County Schools and private educational institutions."
-  }
-];
-
-const brandonFaqs = [
-  {
-    question: "What size commercial construction projects does FCS handle in Brandon?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Brandon ranging from $500,000 to over $25 million. We specialize in retail centers along the Highway 60 corridor, medical facilities near Brandon Regional Hospital, office buildings, and distribution centers along I-75. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project in the Brandon area."
+    question: "What is the timeline for getting a commercial construction permit in Hillsborough County for a Brandon project?",
+    answer: "Hillsborough County Building Services typically completes commercial plan review in four to eight weeks for standard projects, though larger developments requiring multiple agency reviews can take ten to sixteen weeks. The timeline depends on project complexity, whether rezoning or special exceptions are needed, and the completeness of your initial submission package. We prepare thorough permit packages with all required documentation to minimize review cycles and resubmittal delays. For projects requiring site plan approval through the county's Development Review Committee, add an additional six to ten weeks for that process."
   },
   {
-    question: "Do you have experience with Hillsborough County's building permit process in Brandon?",
-    answer: "Yes, Brandon falls under Hillsborough County Building Services jurisdiction, and we have extensive experience with their permitting process. Hillsborough County follows the Florida Building Code with specific requirements for traffic concurrency, stormwater management, and environmental permits. We maintain strong relationships with County building officials, which helps streamline permit approval and inspections."
-  },
-  {
-    question: "How does Brandon's inland location affect commercial construction?",
-    answer: "Brandon's inland location offers some advantages over coastal Tampa Bay areas: no storm surge risk, fewer flood zone complications (most of Brandon is Zone X), and generally more straightforward permitting. However, projects still require wind-resistant construction meeting Zone 2/3 requirements, and sites near the Alafia River may have flood zone considerations. Afternoon thunderstorms during summer require careful construction scheduling."
-  },
-  {
-    question: "What commercial areas in Brandon do you serve?",
-    answer: "We serve all of Brandon's commercial districts including the Highway 60 retail corridor, Westfield Brandon Mall area, Brandon Town Center, Bloomingdale corridor, Valrico and FishHawk commercial areas, and the I-75 logistics zone. We also handle projects throughout eastern Hillsborough County including Riverview and Plant City."
-  },
-  {
-    question: "Why should I choose FCS over other Brandon commercial contractors?",
-    answer: "FCS is always the prime contractor on every Brandon project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and a track record of $25M+ in completed projects throughout Tampa Bay. Our proximity to Brandon from our Ruskin headquarters means efficient project oversight."
-  },
-  {
-    question: "How long does commercial construction typically take in Brandon?",
-    answer: "Commercial construction timelines in Brandon vary based on project scope and complexity. A typical tenant improvement might take 2-4 months, while ground-up retail or office construction ranges from 8-18 months. Distribution centers can be built more quickly (6-12 months) due to simpler interior requirements. We provide detailed schedules during pre-construction accounting for Hillsborough County permit timelines."
-  },
-  {
-    question: "Do you build distribution centers and warehouses in Brandon?",
-    answer: "Yes, warehouse and distribution center construction is a specialty for FCS in the Brandon/I-75 corridor. We've built logistics facilities for major retailers and distribution companies. These projects typically range from $5 million to $30 million and involve tilt-wall or metal building construction, specialized loading dock systems, and extensive site work."
-  },
-  {
-    question: "What insurance and bonding do you carry for Brandon commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Brandon market."
+    question: "Can FCS handle commercial renovation and tenant improvement projects in Brandon?",
+    answer: "Commercial renovations and tenant improvements represent a large share of our Brandon work. The Westfield Brandon Mall area, SR 60 retail corridor, and Causeway Boulevard commercial district all have established commercial buildings that undergo regular tenant turnover and renovation. We handle interior buildouts for new tenants, structural modifications to repurpose commercial spaces, MEP system upgrades for changing use requirements, and ADA compliance updates. For occupied commercial buildings, we coordinate work schedules to minimize disruption to existing tenants and business operations."
   }
 ];
 
@@ -76,7 +45,8 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial/" },
-  { name: "Brandon", href: "/commercial-construction-brandon/" }];
+  { name: "Brandon", href: "/commercial-construction-brandon/" },
+];
 
 export default function CommercialConstructionBrandonPage() {
   return (
@@ -84,50 +54,51 @@ export default function CommercialConstructionBrandonPage() {
       <LocalBusinessSchema city="Brandon" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. Large-scale projects from $500K to $25M+. Always the prime contractor."
+        serviceDescription="Full-service commercial construction in Brandon, FL. Retail centers, office buildings, distribution facilities, tenant improvements along SR 60 and I-75 corridors. Licensed CBC1262722, 40+ years experience."
         city="Brandon"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Retail Center Construction", "Office Building Construction", "Industrial and Warehouse Construction", "Tenant Improvements"]}
       />
-
-      <ArticleSchema
-        headline="Commercial Construction Brandon FL | $500K-$25M+ Projects | FCS"
-        description="Premier commercial construction contractor in Brandon, Florida. Retail centers, medical facilities, office buildings, distribution centers. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/commercial-construction-brandon/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Serving Brandon & Eastern Hillsborough</span>
+              <span className="text-brand-gold font-semibold">Serving Brandon & Eastern Hillsborough County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Commercial Construction in Brandon, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in Brandon, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Brandon and eastern Hillsborough County. From retail centers along Highway 60 to distribution facilities near I-75, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the retail centers lining State Road 60 to the distribution facilities rising along the I-75 corridor, Florida Construction Specialists delivers commercial construction across every sector of Brandon's suburban economy. As a prime general contractor with over four decades of experience, we bring in-house engineering, deep knowledge of Hillsborough County's permitting process, and the bonding capacity to handle projects from half a million to twenty-five million dollars.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Brandon's trusted prime contractor, we handle retail centers, medical facilities, office buildings, distribution centers, and hospitality venues—never as a subcontractor, always with full project accountability.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Schedule Project Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -136,127 +107,91 @@ export default function CommercialConstructionBrandonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Brandon Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Services in Brandon
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Brandon is one of Hillsborough County's largest unincorporated communities, with a population exceeding 115,000 residents. As a major suburban hub east of Tampa, Brandon offers a compelling commercial environment with strong retail traffic, healthcare demand, and proximity to I-75's logistics corridor.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Brandon's Commercial Market Demands Experienced General Contractors
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Brandon is the largest suburb in the Tampa Bay metropolitan area, an unincorporated census-designated place in Hillsborough County with a population exceeding 115,000 residents. Unlike incorporated cities such as Tampa or St. Petersburg, Brandon does not have its own municipal government or building department. All commercial construction permitting goes through Hillsborough County Building Services, a distinction that affects everything from plan review timelines to inspection scheduling and Certificate of Occupancy procedures.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Brandon's diverse commercial construction needs with the expertise, bonding capacity, and local knowledge required for large-scale projects. Whether you're building a retail center near Westfield Brandon, a medical facility near Brandon Regional Hospital, or a distribution center along I-75, we deliver on time and on budget.
+              <p className="mb-6">
+                The State Road 60 corridor, known locally as Brandon Boulevard, serves as the commercial spine of the community. This east-west artery runs from the Selmon Expressway interchange through the heart of Brandon and continues east toward Valrico and Plant City, lined with retail centers, restaurants, auto dealerships, medical offices, and professional services buildings. The Westfield Brandon Mall and surrounding retail development at the intersection of SR 60 and SR 56 anchor the largest concentration of commercial activity, drawing shoppers from across eastern Hillsborough County and generating steady demand for retail construction, tenant improvements, and commercial renovation.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Brandon project. Our proximity from our Ruskin headquarters allows efficient project oversight and rapid response to any issues.
+              <p className="mb-6">
+                South of the SR 60 corridor, Brandon's commercial landscape transitions to the I-75 logistics zone. The interstate interchange at SR 60 and the nearby Selmon Expressway connection have attracted major distribution and warehouse development. This corridor competes with Lakeland and Ocala for logistics tenants seeking central Florida distribution access, and new industrial construction continues to expand along the I-75 frontage through Riverview and into southern Hillsborough County.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Commercial Construction Capabilities in Brandon
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceFeatures.map((feature) => (
-                  <div key={feature.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{feature.title}</h4>
-                    <p className="text-gray-600 text-sm">{feature.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Brandon Commercial Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Brandon" currentService="commercial-construction" />
-              <NearbyLocations currentCity="Brandon" service="commercial-construction" serviceName="Commercial Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Brandon Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Commercial construction in Brandon starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists has worked across all of these Brandon submarkets. As a prime general contractor headquartered in nearby Ruskin, we never subcontract our general contracting services. Every Brandon project gets direct accountability, a single point of contact, and the full weight of our in-house engineering and construction management teams. Our principal's combined construction and insurance industry experience brings a risk management perspective that benefits commercial projects of every type and scale.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Brandon Market Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/commercial-construction-design/commercial-construction-design-display.webp"
+        alt="Commercial construction project design in Brandon, Florida"
+        title="Building Brandon's Commercial Future"
+        subtitle="Retail, office, industrial, and logistics construction across eastern Hillsborough County"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Brandon's Commercial Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Capabilities for Brandon's Growing Market
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Brandon's suburban commercial market spans retail, healthcare, logistics, and professional office sectors. We deliver specialized expertise across each one.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <ShoppingCart className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Retail and Shopping Center Construction",
+                description: "Ground-up retail centers, outparcel restaurant buildings, and shopping complex expansions along the SR 60 corridor and Westfield Brandon area. We build commercial retail spaces designed for high traffic visibility and efficient tenant configuration, from strip centers to major anchored developments."
+              },
+              {
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "Healthcare construction serving Brandon Regional Hospital and the growing medical corridor along Lithia Pinecrest Road. We build urgent care centers, specialty clinics, medical office buildings, and ambulatory surgical centers with AHCA compliance, infection control protocols, and specialized MEP systems."
+              },
+              {
+                icon: HardHat,
+                title: "Distribution and Warehouse Facilities",
+                description: "Tilt-wall and metal building distribution centers, cold storage warehouses, and flex industrial space along the I-75 logistics corridor. We handle the extensive site work, specialized loading dock systems, and heavy structural requirements that logistics facilities demand."
+              },
+              {
+                icon: Briefcase,
+                title: "Office and Professional Buildings",
+                description: "Commercial office construction and tenant improvements throughout Brandon's professional districts. From single-tenant medical offices near the hospital campus to multi-story professional buildings along the Causeway Boulevard corridor, we deliver workspaces that attract and retain quality tenants."
+              },
+              {
+                icon: FileCheck,
+                title: "Restaurant and Hospitality",
+                description: "Restaurant buildouts, hotel construction, and entertainment venue projects serving Brandon's large residential population base. The SR 60 corridor's high traffic counts and eastern Hillsborough's household density support continued investment in food service and hospitality construction."
+              },
+              {
+                icon: Award,
+                title: "Commercial Renovations and Repositioning",
+                description: "Major commercial renovations, adaptive reuse, and building repositioning for aging retail and office properties throughout Brandon. As the community's commercial stock matures, renovation and repurposing projects allow property owners to compete with newer developments while maximizing existing building value."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Retail & Shopping Hub</h3>
-              <p className="text-gray-600 text-sm">
-                Brandon is a major retail destination anchored by Westfield Brandon Mall and miles of retail along Highway 60. The area's high household density and traffic counts drive continued retail investment in shopping centers and restaurant pads.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Stethoscope className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Healthcare Expansion</h3>
-              <p className="text-gray-600 text-sm">
-                Brandon Regional Hospital (HCA) anchors the healthcare sector, with numerous medical office buildings, urgent care centers, and specialty clinics throughout the area. The growing population drives continued medical construction demand.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Factory className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Logistics & Distribution</h3>
-              <p className="text-gray-600 text-sm">
-                The I-75 corridor near Brandon has seen massive logistics investment, with Amazon and other major retailers building distribution centers. FCS has experience with large-scale warehouse and distribution facility construction in this corridor.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -265,264 +200,129 @@ export default function CommercialConstructionBrandonPage() {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Brandon's Market
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Local Knowledge That Makes Brandon Projects Run Smoothly
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Thermometer className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Inland Climate Benefits</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Brandon's inland location means no storm surge risk and generally reduced hurricane impacts compared to coastal areas. However, Florida's typical construction challenges remain—intense summer heat, high humidity, and afternoon thunderstorms requiring strategic scheduling.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Wind-Resistant Construction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Brandon requires wind-resistant construction meeting Zone 2/3 requirements (110-120 mph design wind speed). All our commercial buildings meet or exceed Florida Building Code requirements for structural integrity, roof systems, and impact protection.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Stormwater Management</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Most of Brandon is outside flood zones (Zone X), but stormwater management is critical for large commercial sites. We design and build proper drainage systems that meet SWFWMD requirements and prevent on-site and off-site flooding.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">County Permitting Expertise</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Brandon falls under Hillsborough County Building Services. We maintain strong relationships with County officials and understand their specific requirements for traffic concurrency, environmental permits, and development review.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Commercial construction in Brandon requires understanding how an unincorporated community operates within the Hillsborough County framework. There is no City of Brandon building department, no municipal planning commission, and no city council to approve development projects. Every commercial permit, site plan review, variance request, and Certificate of Occupancy goes through Hillsborough County government agencies.
+              </p>
+              <p className="mb-6">
+                <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a> handles commercial construction permitting for all unincorporated areas including Brandon, Riverview, Valrico, and FishHawk. We have established working relationships with county plan reviewers, inspectors, and development review staff that help us navigate the process efficiently and avoid the delays that less experienced contractors encounter.
+              </p>
+              <p className="mb-6">
+                Brandon's weather patterns present the same fundamental challenges as the broader Tampa Bay area, with some important differences. The community receives over 50 inches of rainfall annually, concentrated in intense afternoon thunderstorms from May through September. Unlike coastal Tampa and St. Petersburg, Brandon sits inland and does not face storm surge risk, but its flat suburban terrain creates its own drainage challenges. Large commercial sites increase impervious surface area and require careful stormwater management design to satisfy Southwest Florida Water Management District requirements and prevent localized flooding in adjacent residential neighborhoods.
+              </p>
+              <p className="mb-6">
+                Wind resistance requirements still apply in Brandon despite the inland location. Hillsborough County falls within Wind Zone 3 under the Florida Building Code, requiring design wind speeds of 120 mph for commercial structures. Every commercial building we construct in Brandon meets these structural requirements with enhanced roof attachments, impact-rated glazing where required, and reinforced structural connections designed to withstand hurricane-force winds.
+              </p>
+              <p>
+                Our knowledge of Brandon's distinct neighborhoods and commercial districts shapes project planning. The Westfield Brandon retail area around SR 60 and Oakfield Drive demands coordination with high-traffic commercial neighbors. The Causeway Boulevard corridor between Brandon and Riverview sees mixed commercial and light industrial development. The Bloomingdale and Providence areas east of I-75 continue to add neighborhood-serving commercial construction as residential growth pushes eastward toward Lithia and FishHawk Ranch. Each submarket has its own zoning considerations, traffic patterns, and construction access challenges that we account for in every project.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost/Timeline Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Brandon Commercial Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full bg-white rounded-lg shadow-sm">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="px-6 py-4 text-left font-semibold">Project Type</th>
-                    <th className="px-6 py-4 text-left font-semibold">Typical Cost Range</th>
-                    <th className="px-6 py-4 text-left font-semibold">Timeline</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Tenant Improvement</td>
-                    <td className="px-6 py-4 text-gray-600">$50-140/SF</td>
-                    <td className="px-6 py-4 text-gray-600">2-4 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Retail Center (Ground-Up)</td>
-                    <td className="px-6 py-4 text-gray-600">$150-280/SF</td>
-                    <td className="px-6 py-4 text-gray-600">8-14 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Office Building</td>
-                    <td className="px-6 py-4 text-gray-600">$180-350/SF</td>
-                    <td className="px-6 py-4 text-gray-600">10-16 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Medical/Healthcare Facility</td>
-                    <td className="px-6 py-4 text-gray-600">$300-500/SF</td>
-                    <td className="px-6 py-4 text-gray-600">12-18 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Distribution/Warehouse</td>
-                    <td className="px-6 py-4 text-gray-600">$75-150/SF</td>
-                    <td className="px-6 py-4 text-gray-600">6-12 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Restaurant/Hospitality</td>
-                    <td className="px-6 py-4 text-gray-600">$250-450/SF</td>
-                    <td className="px-6 py-4 text-gray-600">6-12 months</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs and timelines are estimates and vary based on project specifics. Brandon generally offers competitive construction costs within the Tampa Bay market. Contact us for a detailed estimate.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Brandon Commercial Construction Process
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with thorough site evaluation, feasibility analysis, and budget development. For Brandon projects, this includes zoning verification with Hillsborough County, traffic impact analysis, and environmental review for wetland areas."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination",
-                  description: "Whether working with your architect or providing design-build services, we ensure plans meet Hillsborough County codes, SWFWMD requirements, and any special district standards while optimizing constructability and budget."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all permit applications with Hillsborough County Building Services, coordinate site plan reviews, environmental permits, and utility connections. Our familiarity with County processes helps minimize delays."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Our experienced project managers oversee daily construction with strict quality control, safety protocols, and schedule management. Our proximity from Ruskin means rapid response to any project needs."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all inspections, obtain certificate of occupancy, and provide comprehensive documentation including warranties, as-builts, and operations manuals for your Brandon commercial building."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-gray-50 rounded-lg p-6 shadow-sm">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Brandon Businesses Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Brandon Commercial Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor in Brandon. You get direct accountability, single-point contact, and our full commitment to your project's success from start to finish.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Factory className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Distribution Center Experts</h3>
-              <p className="text-gray-600">
-                We have extensive experience with warehouse and distribution center construction in the I-75 corridor, including projects for major retailers and logistics companies.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Presence</h3>
-              <p className="text-gray-600">
-                Our Ruskin headquarters puts us close to Brandon for efficient project oversight. Strong relationships with Hillsborough County officials ensure smooth permitting and inspections.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in Brandon follows a structured process designed for Hillsborough County's development review environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Assessment and Pre-Construction",
+                description: "We evaluate your Brandon site for soil conditions, flood zone classification, utility availability, and Hillsborough County zoning compatibility. Brandon's sandy soils with variable water table depths require careful geotechnical analysis, particularly for sites near the Alafia River corridor or in low-lying areas of the Bloomingdale and Riverview border areas.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design Coordination and Value Engineering",
+                description: "Whether working with your architect or providing design-build services, we coordinate all design disciplines for constructability, code compliance, and cost efficiency. Brandon commercial projects require hurricane-resistant structural design, energy code compliance, and stormwater management planning that satisfies both Hillsborough County and SWFWMD requirements for suburban development.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting Through Hillsborough County",
+                description: "We prepare and submit complete permit packages to Hillsborough County Building Services, coordinating plan review across building, fire, mechanical, electrical, and plumbing disciplines. For projects requiring Development Review Committee approval, site plan amendments, or special exceptions, we manage coordination with the appropriate county departments and advisory boards.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction with Local Subcontractor Network",
+                description: "Experienced superintendents manage daily construction using our established network of Tampa Bay subcontractors who know Hillsborough County code expectations and inspection standards. We schedule strategically around the rainy season, coordinate with adjacent property operations along the busy SR 60 corridor, and maintain strict quality control throughout every construction phase.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Thorough punch list resolution, final inspections, Certificate of Occupancy from Hillsborough County, and comprehensive warranty documentation. We provide complete as-built drawings, equipment manuals, and maintenance guides. Our proximity from Ruskin means efficient warranty service and rapid response to any post-construction needs.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={brandonFaqs} title="Commercial Construction in Brandon - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Brandon Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in Brandon, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services in Brandon</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-brandon/" className="text-brand-green hover:underline">Multi-Family Construction Brandon</Link></li>
-                <li><Link href="/disaster-recovery-brandon/" className="text-brand-green hover:underline">Disaster Recovery Brandon</Link></li>
-                <li><Link href="/exterior-waterproofing-brandon/" className="text-brand-green hover:underline">Exterior Waterproofing Brandon</Link></li>
-                <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-tampa/" className="text-brand-green hover:underline">Commercial Construction Tampa</Link></li>
-                <li><Link href="/commercial-construction-ruskin/" className="text-brand-green hover:underline">Commercial Construction Ruskin</Link></li>
-                <li><Link href="/commercial-construction-lakeland/" className="text-brand-green hover:underline">Commercial Construction Lakeland</Link></li>
-                <li><Link href="/commercial-construction-st-petersburg/" className="text-brand-green hover:underline">Commercial Construction St. Petersburg</Link></li>
-                <li><Link href="/commercial-construction-bradenton/" className="text-brand-green hover:underline">Commercial Construction Bradenton</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Gallery</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Brandon" currentService="commercial-construction" />
+            <NearbyLocations currentCity="Brandon" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
             Start Your Brandon Commercial Construction Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver commercial construction excellence in Brandon with projects starting at $500,000.
+            Contact Florida Construction Specialists for a consultation on your commercial project in Brandon. We will discuss your vision, provide preliminary budgeting, and outline a clear path to successful project delivery through Hillsborough County's development process.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Project Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
