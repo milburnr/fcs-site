@@ -1,97 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileText, Wrench, Users, DollarSign, CloudLightning, Droplets } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle, CloudLightning } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-lakeland/' },
-  title: "Disaster Recovery Lakeland FL | Storm | FCS",
+  title: "Disaster Recovery Lakeland FL | Tornado, Lightning, Storm Reconstruction | FCS",
+  description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage, severe storm reconstruction, lightning fire restoration, flood recovery. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What types of natural disasters affect commercial properties in Lakeland most frequently?",
+    answer: "Lakeland's disaster risk profile is dominated by severe convective weather rather than the coastal hurricanes that most people associate with Florida. The most frequent disaster events affecting Lakeland commercial properties are severe thunderstorms with damaging winds exceeding 60 mph, tornado touchdowns from supercell storms and tropical systems, lightning strikes causing structural fires and equipment destruction, and inland flooding from intense rainfall events that overwhelm drainage systems near the city's many lakes. Polk County consistently ranks among Florida's highest counties for tornado frequency, and Lakeland's position in Lightning Alley makes lightning-related fires a year-round risk. While hurricanes can affect Lakeland, the inland location provides more protection from wind and eliminates storm surge risk, making the convective weather threats the primary disaster concern."
+  },
+  {
+    question: "How does FCS respond to tornado damage at Lakeland commercial properties?",
+    answer: "Tornado response requires immediate stabilization to prevent secondary damage and protect building occupants and contents. We mobilize emergency crews for structural shoring, debris removal from critical areas, tarping of exposed roof sections, and board-up of broken openings. For partially collapsed structures, we coordinate with structural engineers to assess which portions of the building are safe for entry and which require restricted access. After stabilization, we develop a comprehensive reconstruction plan that addresses all structural, envelope, mechanical, and finish damage. Polk County tornado damage often affects multiple properties simultaneously, and we maintain the crew capacity and subcontractor relationships to handle multiple concurrent disaster recovery projects when severe weather impacts the Lakeland area."
+  },
+  {
+    question: "Does Lakeland face hurricane risk even though it is an inland city?",
+    answer: "Yes, but the risk is fundamentally different from coastal cities. Lakeland is approximately 30 miles inland from Tampa Bay, which eliminates storm surge risk entirely and reduces sustained wind speeds compared to the coast. However, hurricanes that cross the Florida peninsula can still deliver damaging winds to Lakeland, particularly in the right-front quadrant of the storm. Hurricane Irma in 2017 brought sustained winds of 60 to 70 mph to Polk County and spawned tornadoes that caused localized damage. The inland location means Lakeland typically experiences the weakened wind field of a hurricane rather than the strongest winds near the coast, but tornado generation, flooding from heavy rainfall, and power outage duration can actually be worse inland where drainage capacity is lower and power restoration priority is lower than coastal urban areas."
+  },
+  {
+    question: "What is the difference between disaster recovery and standard insurance restoration?",
+    answer: "Disaster recovery involves larger-scale damage that may affect the structural integrity of a building, require major reconstruction rather than repair, involve municipal emergency declarations that modify normal permitting procedures, and potentially trigger FEMA assistance programs for commercial properties. Standard insurance restoration typically addresses localized damage that can be repaired within the existing building structure. Disaster recovery often requires demolition of severely damaged sections, structural redesign, and reconstruction to current code standards rather than repair to pre-loss condition. We have the engineering capability, bonding capacity, and project management experience to handle disaster recovery projects that exceed what typical restoration contractors can deliver."
+  },
+  {
+    question: "How does FCS handle disaster recovery when multiple Lakeland properties are affected simultaneously?",
+    answer: "Widespread disaster events require a different operational approach than single-property losses. We maintain a disaster response protocol that includes pre-identified subcontractor capacity for emergency mobilization, equipment rental relationships for rapid scaling, and project management staff who can be deployed to multiple concurrent projects. After a major weather event in Lakeland, we triage damage across affected properties, prioritize based on safety concerns and business continuity needs, and deploy teams to stabilize all properties before transitioning to full reconstruction on the most severely damaged buildings. Our bonding capacity and financial strength allow us to fund multiple concurrent disaster recovery projects without the cash flow constraints that limit smaller contractors during widespread events."
+  },
+  {
+    question: "Does FCS coordinate with FEMA and local emergency management for Lakeland disaster recovery?",
+    answer: "When disasters trigger federal or state emergency declarations affecting Polk County, we coordinate with the applicable assistance programs. This includes FEMA Public Assistance for eligible public facilities, SBA disaster loans for commercial properties, and state emergency management programs. We understand the documentation requirements for federal disaster assistance, including damage documentation standards, cost tracking requirements, and the Environmental and Historic Preservation review process. For commercial properties that do not qualify for federal assistance, we coordinate with insurance carriers using the same comprehensive documentation approach. The Polk County Emergency Management Division and City of Lakeland emergency management maintain specific protocols for post-disaster building assessment and re-occupancy, and we work within these frameworks to expedite recovery for commercial property owners."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Lakeland", href: "/disaster-recovery-lakeland/" },
-];
-
-const disasterTypes = [
-  {
-    type: "Tornado & Wind Damage",
-    description: "Structural repairs, roof restoration, and debris removal from tornadic activity and severe thunderstorm winds common to Polk County",
-    icon: CloudLightning,
-  },
-  {
-    type: "Severe Storm Restoration",
-    description: "Comprehensive damage repair from hail, lightning strikes, heavy rain, and the intense afternoon thunderstorms Central Florida experiences",
-    icon: AlertTriangle,
-  },
-  {
-    type: "Flash Flood Recovery",
-    description: "Water extraction, structural drying, and restoration for lake-adjacent properties and low-lying areas around Lakeland's numerous lakes",
-    icon: Droplets,
-  },
-  {
-    type: "Fire & Lightning Damage",
-    description: "Complete fire and smoke damage restoration including structural repairs, odor removal, and electrical system replacement after lightning strikes",
-    icon: Wrench,
-  },
-];
-
-const lakelandFaqs = [
-  {
-    question: "How quickly can FCS respond to disaster damage in Lakeland?",
-    answer: "Florida Construction Specialists maintains rapid response capabilities for Lakeland and Polk County emergencies. For large loss situations, we can typically have assessment teams on-site within 3-5 hours. Our experience serving Lakeland's commercial sector including Publix facilities, Florida Southern College, and industrial properties along the I-4 corridor ensures we understand local requirements. We provide immediate stabilization services including board-up, tarping, and water extraction.",
-  },
-  {
-    question: "What types of disasters are most common in Lakeland?",
-    answer: "Lakeland's inland location creates a different risk profile than coastal Tampa Bay. The most common disasters include severe thunderstorms with damaging winds (60-80+ mph), tornado activity along the I-4 corridor, flash flooding around the city's numerous lakes, lightning strikes (Central Florida has among the highest lightning density in the US), and tropical storm winds that remain strong even 50+ miles inland. Hurricane storm surge is not a concern, but sustained winds and rainfall still cause significant damage.",
-  },
-  {
-    question: "Do you work directly with insurance companies on Lakeland disaster claims?",
-    answer: "Yes, FCS specializes in large loss insurance restoration and works directly with all major insurance carriers. We provide detailed documentation, scope assessments, and claims support for Lakeland property owners. Our experience with Xactimate estimating and insurance adjuster protocols helps expedite claims. Lakeland properties typically see 10-15% lower restoration costs than coastal areas, which we document accurately for fair insurance settlements.",
-  },
-  {
-    question: "What is the typical timeline for storm damage restoration in Lakeland?",
-    answer: "Storm damage restoration timelines in Lakeland vary by scope: Stabilization (1-2 days), water extraction and drying (4-10 days), structural repairs (21-75 days), and full restoration (60-150 days for large commercial projects). Lakeland's faster permit processing through the City of Lakeland Building Inspection Division (typically 3-5 weeks) often results in quicker project completion compared to coastal jurisdictions.",
-  },
-  {
-    question: "Can you restore historic properties in Lakeland after disaster damage?",
-    answer: "Absolutely. FCS has extensive experience with Lakeland's historic districts, including the Downtown Lakeland Historic District, Dixieland Historic District, Lake Morton Historic District, and the nationally significant Frank Lloyd Wright architecture at Florida Southern College. We understand the unique requirements of historic restoration, work with local preservation boards, and source period-appropriate materials while incorporating modern disaster-resistant improvements where permitted.",
-  },
-  {
-    question: "How does Lakeland's inland location affect disaster recovery costs?",
-    answer: "Lakeland's position roughly 35 miles from Tampa Bay provides natural protection from storm surge and reduces saltwater corrosion concerns. This typically results in 10-15% lower restoration costs compared to coastal properties. The city's Zone 2 wind requirements (versus Zone 3 coastal) also reduce code upgrade costs during substantial repairs. However, tornado and severe thunderstorm damage can still be extensive and requires specialized restoration expertise.",
-  },
-  {
-    question: "What about flood damage around Lakeland's lakes?",
-    answer: "While Lakeland has less flood risk than coastal areas (most of the city is FEMA Zone X), properties adjacent to the city's numerous lakes - including Lake Mirror, Lake Morton, Lake Hollingsworth, and Lake Parker - may be in AE flood zones. Flash flooding during heavy rain events can impact low-lying areas. We specialize in water damage restoration including extraction, structural drying, mold prevention, and repairs that meet any applicable flood zone requirements.",
-  },
-  {
-    question: "Do you handle Publix and other major commercial property restoration in Lakeland?",
-    answer: "Yes, FCS serves as a prime contractor for commercial disaster recovery throughout Lakeland, including properties owned by major employers like Publix Super Markets (headquartered in Lakeland), Lakeland Regional Health, GEICO, Amazon distribution facilities, and Florida Southern College. We understand the unique requirements of retail, healthcare, logistics, and institutional facilities, including minimizing business interruption during restoration.",
-  },
-];
-
-const costData = [
-  { category: "Water Damage Restoration", range: "$12,000 - $65,000", timeline: "1-3 weeks", notes: "Lake-area flooding and storm water intrusion" },
-  { category: "Storm/Tornado Roof Repair", range: "$40,000 - $425,000", timeline: "3-10 weeks", notes: "Commercial roofing with Zone 2 wind compliance" },
-  { category: "Fire & Lightning Damage", range: "$85,000 - $1.75M+", timeline: "2-8 months", notes: "Structural repairs and electrical restoration" },
-  { category: "Full Building Restoration", range: "$425,000 - $45M+", timeline: "5-15 months", notes: "Complete disaster recovery with code upgrades" },
-];
-
-const processSteps = [
-  { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development for insurance purposes" },
-  { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation support for maximum recovery" },
-  { step: 4, title: "Restoration Planning", description: "Engineering assessments, City of Lakeland permit applications, and detailed project scheduling" },
-  { step: 5, title: "Construction Phase", description: "Professional restoration with quality control, daily progress reporting, and Florida Building Code compliance" },
-  { step: 6, title: "Final Inspection", description: "City of Lakeland inspections, insurance sign-off, warranty documentation, and project closeout" },
 ];
 
 export default function DisasterRecoveryLakelandPage() {
@@ -99,43 +53,52 @@ export default function DisasterRecoveryLakelandPage() {
     <>
       <LocalBusinessSchema city="Lakeland" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Emergency disaster recovery and insurance restoration services in Lakeland, FL. Hurricane, fire, flood, and storm damage repair."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction for commercial properties in Lakeland, FL. Tornado damage reconstruction, severe storm recovery, lightning fire restoration, flood recovery. Licensed CBC1262722, 40+ years experience."
         city="Lakeland"
-        minPrice="250000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        minPrice="100000"
+        serviceCategories={["Tornado Damage Reconstruction", "Severe Storm Recovery", "Lightning Fire Restoration", "Flood Damage Recovery", "Emergency Stabilization"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Disaster Recovery Services in Lakeland, FL"
-        description="Comprehensive guide to disaster recovery and insurance restoration services in Lakeland. Learn about tornado damage restoration, severe storm recovery, and large loss insurance claim processes for inland Central Florida properties."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/hurricane-ian/hurricane-ian-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Lakeland, Polk County, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Lakeland, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Disaster Recovery & Insurance Restoration in Lakeland
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Lakeland, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              When severe thunderstorms, tornadoes, or lightning strike devastate a commercial property in Lakeland, the recovery process demands a contractor who can stabilize the structure, navigate the insurance and FEMA processes, and execute full reconstruction. Florida Construction Specialists delivers disaster recovery capability across all of Polk County, combining emergency response speed with the engineering depth and bonding capacity needed for large-scale reconstruction.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Emergency Response Ready</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
+                Report Emergency Damage
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -144,183 +107,170 @@ export default function DisasterRecoveryLakelandPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Clock className="w-6 h-6 text-brand-green" />
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Direct Insurance Billing</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Lakeland Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Lakeland's Premier Disaster Recovery Contractor
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Lakeland and Polk County's trusted prime contractor for large loss disaster recovery and insurance restoration. While Lakeland's inland location 35 miles from Tampa Bay provides protection from hurricane storm surge, the area faces significant risks from severe thunderstorms, tornado activity along the I-4 corridor, and localized flooding around its numerous lakes. Property owners need experienced restoration partners who understand both the unique challenges of inland Central Florida and the complexities of major insurance claims.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Lakeland's Disaster Risk: Tornadoes, Lightning, and Severe Inland Weather
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                When most people think of Florida disaster risk, they picture hurricane storm surge sweeping over coastal properties. Lakeland's reality is different. As an inland Polk County city approximately 30 miles from Tampa Bay, Lakeland faces a disaster profile dominated by severe convective weather: tornadoes, intense lightning storms, damaging straight-line winds, and inland flooding from extreme rainfall. These events may not generate the same national headlines as hurricanes, but they cause devastating damage to individual commercial properties and occasionally to entire business districts.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Lakeland sits at the heart of Polk County with a population exceeding 115,000 and serves as headquarters for major employers including Publix Super Markets. The city's 50 inches of annual rainfall, frequent afternoon thunderstorms from May through September, and position in Florida's "tornado alley" create distinct disaster recovery needs. Our team has restored properties throughout Lakeland following severe storms, tornado touchdowns, flash flooding events, and lightning-caused fires - always working as the prime contractor with direct accountability for project success.
+              <p className="mb-6">
+                Tornado risk is particularly significant in Lakeland and Polk County. The Central Florida interior experiences more tornado touchdowns per year than most people realize, with activity driven by both severe thunderstorm supercells and tropical systems that spawn tornadoes as they move inland. The I-4 corridor has seen multiple tornado events that damaged commercial and industrial properties, including warehouse buildings where large roof spans are particularly vulnerable to tornado wind forces. A single tornado touchdown can destroy a commercial building in seconds, creating a disaster recovery need that goes far beyond what standard restoration contractors can handle.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Lakeland Disaster Recovery Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {disasterTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Lakeland's Unique Disaster Risk Profile
-              </h3>
-
-              <p className="text-gray-600 mb-4">
-                Unlike coastal Tampa Bay communities, Lakeland faces a different set of disaster challenges. Understanding these risks is essential for effective restoration planning:
+              <p className="mb-6">
+                Lightning presents a different but equally significant disaster risk. Lakeland's position in Lightning Alley means that commercial buildings face hundreds of potential lightning strikes each storm season. While most strikes do not cause catastrophic damage, direct strikes on commercial buildings can start structural fires, destroy entire electrical and HVAC systems, and cause hidden damage to structural steel connections. When lightning starts a fire in a commercial building, the resulting damage from fire, smoke, and firefighting water can make the building uninhabitable and require complete reconstruction of affected areas.
               </p>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>I-4 Corridor Tornado Risk:</strong> Lakeland sits along Central Florida's "tornado alley" with higher tornado frequency than coastal areas; EF0-EF2 tornadoes can cause significant structural damage</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Severe Thunderstorm Frequency:</strong> Daily afternoon storms May-September bring damaging winds, large hail, and lightning - Florida leads the nation in lightning strikes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Lake-Area Flash Flooding:</strong> Properties near Lake Mirror, Lake Morton, Lake Hollingsworth, and Lake Parker face localized flood risk during heavy rain events</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Historic Property Preservation:</strong> Multiple historic districts including Frank Lloyd Wright architecture at Florida Southern College require specialized restoration expertise</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Lakeland Property's Disaster Recovery Needs <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Lakeland and Polk County. Our our crews are ready to deploy throughout Central Florida.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Lakeland" currentService="disaster-recovery" />
-              <NearbyLocations currentCity="Lakeland" service="disaster-recovery" serviceName="Disaster Recovery" />
+              <p>
+                Florida Construction Specialists approaches disaster recovery in Lakeland with the understanding that these events require a fundamentally different construction response than planned renovation or even standard insurance restoration. Disaster recovery involves structures that may be partially collapsed, contaminated by fire products, or compromised by water to the point where demolition and reconstruction are more practical than repair. Our in-house engineering capability, our principal's Executive General Adjuster background, and our bonding capacity to handle multi-million dollar reconstruction projects make us the disaster recovery contractor that Lakeland commercial property owners can rely on when the worst happens.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/hurricane-ian/hurricane-ian-display.webp"
+        alt="Disaster recovery construction in Central Florida"
+        title="Rebuilding After the Storm"
+        subtitle="Emergency response, structural reconstruction, and full disaster recovery for Lakeland commercial properties"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland Disaster Recovery Costs & Timelines
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Services for Lakeland Commercial Properties
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Lakeland's inland location typically results in 10-15% lower restoration costs than coastal properties due to reduced storm surge risk and Zone 2 wind requirements. These ranges reflect typical Lakeland projects - actual costs depend on specific conditions and insurance coverage.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Restoration Category</th>
-                  <th className="px-6 py-4 text-left">Typical Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Notes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.category}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.notes}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Actual project costs depend on damage assessment, insurance coverage, and code requirements. Lakeland costs are typically 10-15% lower than coastal Tampa Bay areas.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland Disaster Recovery Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Our proven 6-step process ensures thorough restoration, proper documentation, and maximum insurance recovery for Lakeland property owners. Lakeland's efficient permitting process often results in faster project completion than coastal areas.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From emergency stabilization through complete reconstruction, we deliver full-scope disaster recovery for every type of event that threatens Lakeland.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Tornado Damage Reconstruction",
+                description: "Full reconstruction of commercial buildings damaged or destroyed by tornado events in Polk County. We handle structural demolition of unsafe sections, engineering redesign to current code standards, and complete rebuild of structural, envelope, mechanical, electrical, and finish systems. Our bonding capacity supports multi-million dollar tornado reconstruction projects."
+              },
+              {
+                icon: CloudLightning,
+                title: "Lightning Fire Restoration",
+                description: "Comprehensive restoration after lightning-induced fires in Lakeland commercial properties. Fire damage assessment, smoke and soot remediation, structural repair of fire-damaged framing and connections, complete electrical and HVAC system replacement, and interior finish reconstruction. We coordinate with fire marshals and insurance carriers throughout the process."
+              },
+              {
+                icon: Building2,
+                title: "Severe Wind Damage Recovery",
+                description: "Reconstruction after straight-line wind events and severe thunderstorm damage to commercial buildings. Roof system reconstruction, structural repair of wind-damaged wall and framing systems, window and curtain wall replacement, and exterior cladding restoration. I-4 corridor industrial buildings with large roof spans are particularly susceptible to wind damage."
+              },
+              {
+                icon: Shield,
+                title: "Flood and Water Damage Recovery",
+                description: "Recovery from inland flooding events that affect commercial properties near Lakeland's lakes and low-lying areas. Emergency water extraction, structural drying, mold remediation, foundation assessment after flood events, and full interior reconstruction. Proper documentation of flood damage pathways supports both insurance and potential FEMA assistance claims."
+              },
+              {
+                icon: HardHat,
+                title: "Emergency Stabilization",
+                description: "Immediate response to secure damaged structures and prevent secondary damage. Emergency shoring of compromised structural elements, debris clearing for safe access, tarping and board-up of exposed openings, utility disconnection coordination, and perimeter security. We mobilize within hours and maintain stabilization until reconstruction begins."
+              },
+              {
+                icon: FileCheck,
+                title: "FEMA and Insurance Coordination",
+                description: "Navigation of disaster assistance programs when federal or state declarations cover Polk County. FEMA Public Assistance documentation for eligible facilities, SBA disaster loan coordination, and standard insurance claim management. Our documentation meets the requirements of all applicable programs and supports maximum recovery of reconstruction costs."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Disaster Recovery in Lakeland Requires Specialized Capability
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery construction is fundamentally different from standard commercial construction or even routine insurance restoration. When a tornado destroys the roof and portions of the wall system on a Lakeland warehouse, or a lightning-induced fire guts a section of an office building near Publix headquarters, the recovery process involves demolished and contaminated conditions that standard construction crews are not equipped to handle. Disaster recovery requires the ability to safely demolish damaged structural elements, remediate hazardous conditions, redesign building systems to current code, and reconstruct to completion, all while managing insurance claims and potentially FEMA documentation simultaneously.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.lakelandgov.net/departments/community-development/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Lakeland Community Development Department</a> and Polk County Building Division handle permitting for disaster recovery construction projects. After declared disasters, emergency permitting procedures may be activated that allow stabilization and demolition work to proceed before standard plan review is completed. We understand these emergency procedures and work within the established frameworks to begin recovery work as quickly as possible while maintaining code compliance and documentation requirements.
+              </p>
+              <p className="mb-6">
+                Lakeland's diverse commercial building stock creates different disaster recovery challenges depending on building type and location. Distribution centers along the I-4 corridor have large clear-span roof structures that are vulnerable to tornado and straight-line wind forces, and reconstruction requires specialized steel and pre-engineered metal building expertise. Downtown Lakeland commercial buildings near Lake Mirror and Munn Park may have historic significance that adds preservation considerations to the reconstruction process. Medical facilities near Lakeland Regional Health require disaster recovery approaches that maintain operational continuity for critical healthcare services. Multi-family buildings around the city's lakes must be reconstructed while addressing displaced resident needs.
+              </p>
+              <p>
+                Our capacity for disaster recovery goes beyond technical construction capability. Our principal's background as an Executive General Adjuster means we understand how large commercial losses are evaluated and settled by insurance carriers. We prepare damage documentation and cost estimates that speak directly to carrier requirements, reducing the friction that delays funding for reconstruction. When FEMA programs are applicable, we document damage and costs in the format required for federal reimbursement. This dual expertise in construction execution and loss management is what makes Florida Construction Specialists the right disaster recovery partner for Lakeland commercial property owners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Lakeland Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A systematic approach from emergency response through complete building reconstruction.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Response and Assessment",
+                description: "Rapid deployment to the disaster site for initial stabilization and damage assessment. We secure the building perimeter, shore compromised structural elements, remove immediate safety hazards, and begin documenting damage conditions. For tornado damage, we coordinate with structural engineers to evaluate building stability before any recovery work begins.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Damage Documentation and Recovery Planning",
+                description: "Comprehensive forensic documentation of all damage for insurance and potential FEMA claims. We develop a detailed recovery plan including demolition scope, hazardous material remediation if needed, structural redesign requirements, and reconstruction timeline. For Lakeland projects, we identify whether City or County jurisdiction applies and initiate the appropriate permitting process.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Demolition and Site Preparation",
+                description: "Safe demolition of damaged building sections that cannot be salvaged. This includes structural steel cutting, concrete demolition, hazardous material abatement if fire or flood damage created contamination, and site clearing for reconstruction. We maintain strict safety protocols and environmental compliance throughout demolition operations.",
+                icon: HardHat,
+              },
+              {
+                step: "04",
+                title: "Reconstruction to Current Code",
+                description: "Complete reconstruction of damaged building systems to current Florida Building Code standards. This often means the reconstructed sections exceed the original construction quality because current code requirements for wind resistance, fire protection, and energy efficiency have advanced. We manage reconstruction with the same quality standards and project management discipline as our new construction work.",
+                icon: Building2,
+              },
+              {
+                step: "05",
+                title: "Completion and Re-Occupancy",
+                description: "Final inspections, Certificate of Occupancy from the City of Lakeland or Polk County, and coordination with the building owner on re-occupancy planning. We provide complete documentation of all reconstruction work, updated as-built drawings, and equipment warranties. Insurance claim finalization and any FEMA closeout documentation is completed.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -328,170 +278,48 @@ export default function DisasterRecoveryLakelandPage() {
         </div>
       </section>
 
-      {/* Frank Lloyd Wright / Historic Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Historic & Frank Lloyd Wright Restoration Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Lakeland is home to the largest single-site collection of Frank Lloyd Wright architecture in the world at Florida Southern College. This architectural treasure, along with the city's multiple historic districts, requires specialized restoration expertise that balances preservation requirements with modern disaster-resistant construction.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Florida Southern College:</strong> Experience restoring Frank Lloyd Wright's "Child of the Sun" buildings using authentic materials and preservation techniques</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Downtown Lakeland Historic District:</strong> Restoration expertise for early 20th century commercial architecture along Main Street and Kentucky Avenue</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Dixieland & Lake Morton Districts:</strong> Craftsman, Colonial Revival, and Mediterranean Revival residential restoration following Secretary of Interior Standards</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Period Material Sourcing:</strong> Access to salvage yards and specialty suppliers for matching original cypress, heart pine, and decorative elements</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$40M+</div>
-                <div className="text-gray-300 text-sm">Lakeland Area Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Properties Restored</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">3-5 Hr</div>
-                <div className="text-gray-300 text-sm">Storm Response</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Lakeland-Specific Expertise */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Local Lakeland Expertise Matters
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Disaster recovery in Lakeland requires contractors who understand local conditions, building codes, and the unique characteristics of Polk County's construction environment.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            <div className="border rounded-lg p-6">
-              <h3 className="font-bold text-brand-green-dark text-xl mb-4">Local Permit & Code Knowledge</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Established relationships with City of Lakeland Building Inspection Division for faster permit processing (typically 3-5 weeks)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Zone 2 wind requirements (versus Zone 3 coastal) understanding for cost-effective code compliance</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Lake setback requirements expertise for waterfront property restoration</span>
-                </li>
-              </ul>
-            </div>
-
-            <div className="border rounded-lg p-6">
-              <h3 className="font-bold text-brand-green-dark text-xl mb-4">Major Employer Experience</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Experience with Publix Super Markets corporate and retail facilities throughout Polk County</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">Healthcare facility restoration including Lakeland Regional Health medical campus properties</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">I-4 corridor logistics facility expertise including Amazon and distribution center restoration</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Lakeland Chooses FCS for Disaster Recovery
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor on Lakeland disaster recovery projects - never a subcontractor. You get direct accountability and single-point responsibility for your restoration.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Insurance Expertise</h3>
-              <p className="text-gray-600">
-                Our team includes insurance restoration specialists who understand claim documentation, Xactimate estimating, and carrier negotiation to maximize your recovery on Lakeland claims.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Proven Track Record</h3>
-              <p className="text-gray-600">
-                With $40M+ in completed Lakeland-area disaster recovery projects, we have the experience, bonding capacity, and local expertise to handle any restoration challenge.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={lakelandFaqs}
-        title="Lakeland Disaster Recovery FAQs"
-        description="Common questions about disaster recovery and insurance restoration services in Lakeland, Florida and Polk County."
+        items={faqs}
+        title="Lakeland Disaster Recovery FAQ"
+        description="Common questions about disaster recovery construction for commercial properties in Lakeland, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Lakeland" service="disaster-recovery" serviceName="Disaster Recovery" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Lakeland Disaster Recovery Experts
+            Need Disaster Recovery in Lakeland?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists immediately for emergency response and disaster recovery. We stabilize damaged buildings, manage insurance and FEMA processes, and deliver complete reconstruction for Lakeland commercial properties.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get storm response
+              Report Emergency Damage
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Emergency Response Ready</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
