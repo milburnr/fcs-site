@@ -52,6 +52,7 @@ Progress: [███████░░░] 57%
 | Phase 03 P03 | -- | -- | -- |
 | Phase 03 P04 | 2min | 2 tasks | 2 files |
 | Phase 03 P03 | 10min | 2 tasks | 429 files |
+| Phase 04 P01 | 7min | 2 tasks | 2 files |
 | Phase 04 P02 | 6min | 1 tasks | 1 files |
 | Phase 04 P03 | 5min | 1 tasks | 2 files |
 
@@ -118,6 +119,9 @@ Recent decisions affecting current work:
 - [Phase 04-03]: Replaced basic "Why FCS" bullet list with 5-card differentiator grid + license card
 - [Phase 04-03]: 8 FAQs written targeting insurance restoration contractor queries
 - [Phase 04-03]: CTA vocabulary: "Request a Claims Consultation" (primary), "Discuss Your Loss" (secondary)
+- [Phase 04-01]: Services hub uses 5-column grid (3+2) for contact two-column 60/40 split
+- [Phase 04-01]: Insurance service cards use text-only layout to differentiate from image-heavy commercial cards
+- [Phase 04-01]: Contact page city badges are links to location pages for internal linking
 - [Phase 04-02]: Plant City gets hub-only link (no service-location pages exist)
 - [Phase 04-02]: 72 service-location links dynamically generated via CITY_DATA + SERVICE_LOCATION_PAGES arrays
 - [Phase 04-02]: CITY_DATA defined inline (custom context prose per city doesn't belong in shared constants)
@@ -136,5 +140,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 04-03-PLAN.md (Phase 4 complete)
+Stopped at: Completed 04-01-PLAN.md (all Phase 4 plans now complete)
 Resume file: .planning/phases/05-location-pages/05-01-PLAN.md
