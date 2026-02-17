@@ -61,6 +61,7 @@ Progress: [████████░░] 78%
 | Phase 05 P04 | 30min | 2 tasks | 9 files |
 | Phase 05 P07 | 29min | 2 tasks | 9 files |
 | Phase 05 P02 | 35min | 2 tasks | 9 files |
+| Phase 05 P06 | 28min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -149,6 +150,11 @@ Recent decisions affecting current work:
 - [Phase 05-07]: Brandon is unincorporated CDP -- all pages reference Hillsborough County Building Services, never "City of Brandon"
 - [Phase 05-07]: Each Brandon page uses unique hero + parallax images distinct from all other cities
 - [Phase 05-07]: Suburban communities differentiated: FishHawk Ranch (luxury), Valrico (historic homes), Lithia (acreage estates)
+- [Phase 05-04]: Lakeland is INLAND Polk County: no saltwater, no coastal surge, no salt spray -- content reflects inland identity
+- [Phase 05-04]: Lower wind speed design (115 mph vs 120-130 mph coastal) mentioned where structurally relevant
+- [Phase 05-04]: Sandy soils of Florida Central Ridge (corrected from old pages' inaccurate "clay-rich soils" claim)
+- [Phase 05-04]: Frank Lloyd Wright Child of the Sun collection (13 structures at Florida Southern College) as historic anchor
+- [Phase 05-04]: Lightning Alley, I-4 corridor logistics, 38 named lakes, dual jurisdiction (City vs Polk County) woven throughout
 
 ### Pending Todos
 
