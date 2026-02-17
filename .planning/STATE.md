@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 6 of 9 (E-E-A-T Signals)
-Plan: 5 of 8 in current phase (5 complete)
+Plan: 6 of 8 in current phase (6 complete)
 Status: Executing Phase 6
-Last activity: 2026-02-17 -- Completed 06-05 (Guide Article Experience Language)
+Last activity: 2026-02-17 -- Completed 06-03 (Service Hub E-E-A-T Enhancement)
 
 Progress: [█████████░] 87%
 
@@ -66,6 +66,7 @@ Progress: [█████████░] 87%
 | Phase 05 P09 | 4min | 2 tasks | 9 files |
 | Phase 06 P01 | 2min | 1 tasks | 3 files |
 | Phase 06 P05 | 5min | 1 tasks | 261 files |
+| Phase 06 P03 | 10min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -173,6 +174,9 @@ Recent decisions affecting current work:
 - [Phase 06-05]: Experience language appended to first content paragraph (after hero), not inline replacement
 - [Phase 06-05]: 3 templates per silo rotated to prevent consecutive duplicates
 - [Phase 06-05]: 23 "since 1983" references standardized to "since 1982" across guide articles
+- [Phase 06-03]: CodeReference skipped on historic-restoration (codes vary by district) and luxury-custom-homes (residential permits local)
+- [Phase 06-03]: Gallery photos use generic captions since verified project-to-photo mapping doesn't exist yet
+- [Phase 06-03]: Insurance page gallery added to InsurancePageClient.tsx (client component) not page.tsx (server wrapper)
 
 ### Pending Todos
 
@@ -187,5 +191,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 06-05-PLAN.md (Guide Article Experience Language)
-Resume file: .planning/phases/06-e-e-a-t-signals/06-06-PLAN.md
+Stopped at: Completed 06-03-PLAN.md (Service Hub E-E-A-T Enhancement)
+Resume file: .planning/phases/06-e-e-a-t-signals/06-04-PLAN.md
