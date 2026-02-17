@@ -1,18 +1,45 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Wrench, Clock, Home, Factory, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase, Droplets } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
-  title: "Exterior Waterproofing St. Petersburg | FCS",
-  description: "Waterproofing Contractor in St. Petersburg: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
+  title: "Exterior Waterproofing St. Petersburg FL | Coastal Building Envelope | FCS",
+  description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope, foundation, parking deck, and plaza waterproofing for peninsula properties. Marine-grade systems, 10-year warranty. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "Why does St. Petersburg's peninsula geography create more severe waterproofing challenges than other Florida coastal cities?",
+    answer: "Most Florida coastal cities have a defined oceanfront side and a relatively protected inland side. St. Petersburg is fundamentally different because the peninsula is bordered by Tampa Bay to the east, Boca Ciega Bay to the west, and the Gulf of Mexico to the southwest. Moisture-laden air reaches buildings from every direction, and prevailing wind patterns shift seasonally, so no building orientation provides consistent protection. The city's average relative humidity of 75 percent means exterior surfaces rarely dry completely, and the high water table, often just two to four feet below grade, creates constant hydrostatic pressure on foundation systems. These conditions combine to create waterproofing demands that exceed what standard coastal specifications address."
+  },
+  {
+    question: "What types of buildings in St. Petersburg most commonly need exterior waterproofing?",
+    answer: "Condominium towers in Downtown St. Petersburg and the waterfront communities of Isla del Sol, Shore Acres, and Coquina Key represent the largest share of our waterproofing work due to their exposure to salt-laden air and the regulatory requirements of SB 4-D milestone inspections. Commercial buildings along the Gateway and Carillon corridor frequently need parking structure and building envelope waterproofing. Historic properties in Old Northeast, Historic Kenwood, and Crescent Heights require specialized breathable waterproofing systems that protect without trapping moisture within older masonry and stucco walls. New construction projects throughout the city require proper waterproofing installation to meet the Florida Building Code's current requirements for the High Velocity Hurricane Zone."
+  },
+  {
+    question: "How does St. Petersburg's high water table affect foundation waterproofing requirements?",
+    answer: "The water table across much of St. Petersburg sits between two and four feet below grade, rising even higher during the wet season from June through September. This creates persistent hydrostatic pressure against foundation walls and slabs that standard damp-proofing cannot address. Properties in low-lying areas near Tampa Bay, Shore Acres, Coquina Key, and the barrier island communities experience the most severe conditions. FCS installs positive-side waterproofing membranes rated for continuous hydrostatic pressure, supplemented by drainage board systems that channel water to collection points and sump discharge systems. For existing buildings experiencing water intrusion, we can install negative-side crystalline waterproofing systems that penetrate and seal concrete from the interior when exterior excavation is not feasible."
+  },
+  {
+    question: "What waterproofing systems perform best in St. Petersburg's salt air environment?",
+    answer: "Standard waterproofing products formulated for general use often fail prematurely in St. Petersburg's salt air because chloride ions degrade adhesives and accelerate membrane breakdown. FCS specifies marine-grade systems from manufacturers including Tremco, Carlisle, Sika, and BASF that are tested for salt fog exposure. For building envelope applications, we use fluid-applied polyurethane and elastomeric membranes with enhanced chloride resistance. Foundation systems incorporate crystalline waterproofing that becomes more effective as it reacts with moisture and mineral deposits. Traffic-bearing deck membranes receive UV-stable topcoats that resist the intense solar exposure that the Sunshine City receives. Every system is selected based on the specific exposure conditions of the building's location on the peninsula."
+  },
+  {
+    question: "Can exterior waterproofing be applied to occupied buildings without relocating tenants?",
+    answer: "Yes, exterior waterproofing work is performed from outside the building envelope and generally does not require tenant relocation. Building envelope waterproofing uses swing stages or scaffolding on the exterior, foundation waterproofing involves excavation around the building perimeter, and deck waterproofing is applied to exposed surfaces. The primary impacts to occupants are noise from surface preparation and application equipment during work hours, temporary restrictions on exterior door and window use in active work zones, and staging areas that may temporarily affect parking or landscape areas. FCS develops detailed work phasing plans that minimize disruption and coordinates schedules with property management to avoid conflicts with building operations."
+  },
+  {
+    question: "How often should waterproofing be inspected and maintained on St. Petersburg buildings?",
+    answer: "The peninsula's aggressive environment means waterproofing systems require more frequent inspection than inland installations. FCS recommends annual visual inspections of exposed waterproofing surfaces including traffic coatings, sealant joints, and flashing terminations. Detailed inspections with adhesion testing and moisture surveys should be performed every three to five years to catch early degradation before water intrusion occurs. Sealant joints at windows, doors, and expansion joints typically require replacement every seven to ten years in the salt air environment, earlier for joints with southern exposure. Proactive maintenance extends waterproofing system life significantly and is far less expensive than remedial repairs after water damage occurs."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -21,127 +48,57 @@ const breadcrumbItems = [
   { name: "St. Petersburg", href: "/exterior-waterproofing-st-petersburg/" },
 ];
 
-const serviceTypes = [
-  {
-    type: "Building Envelope",
-    description: "Complete building envelope waterproofing including wall systems, window flashings, expansion joints, and penetration sealing for St. Petersburg's coastal buildings",
-    icon: Building2,
-  },
-  {
-    type: "Foundation & Below-Grade",
-    description: "Positive-side and negative-side foundation waterproofing, drainage boards, and water management systems designed for St. Petersburg's high water table",
-    icon: Layers,
-  },
-  {
-    type: "Parking & Plaza Decks",
-    description: "Traffic-bearing waterproofing membranes for parking structures, plazas, pedestrian areas, and vehicular surfaces along St. Petersburg's waterfront",
-    icon: Factory,
-  },
-  {
-    type: "Roof & Deck Systems",
-    description: "Roof deck waterproofing, green roof systems, occupied roof terrace waterproofing, and associated drainage for downtown St. Petersburg high-rises",
-    icon: Home,
-  },
-];
-
-const stPetersburgFaqs = [
-  {
-    question: "Why is exterior waterproofing critical for St. Petersburg properties?",
-    answer: "St. Petersburg's peninsula location creates extreme waterproofing challenges: surrounded by Tampa Bay and the Gulf of Mexico, the city experiences constant salt air exposure, 50+ inches of annual rainfall, and high humidity averaging 75%. The high water table (often just 2-4 feet below grade) creates hydrostatic pressure on foundations. Properties in Downtown St. Pete, the Waterfront District, and beach communities face accelerated deterioration without proper waterproofing protection.",
-  },
-  {
-    question: "What St. Petersburg areas do you serve for waterproofing?",
-    answer: "FCS provides exterior waterproofing throughout St. Petersburg including Downtown, the Waterfront District, Old Northeast, Snell Isle, Shore Acres, Kenwood, Historic Uptown, Euclid-St. Paul's, Crescent Lake, and the Grand Central District. We also serve St. Pete Beach, Treasure Island, Gulfport, and surrounding Pinellas County communities with both commercial and residential waterproofing services.",
-  },
-  {
-    question: "How much does exterior waterproofing cost in St. Petersburg?",
-    answer: "St. Petersburg waterproofing costs vary by application: building envelope/wall waterproofing typically runs $5-$15/SF, foundation waterproofing ranges from $8-$25/SF depending on water table conditions, parking deck waterproofing costs $15-$35/SF for traffic-bearing systems. Waterfront properties often require premium systems adding 15-20% to costs. Complete building projects range from $50,000 to several million dollars. FCS provides detailed assessments for accurate proposals.",
-  },
-  {
-    question: "What waterproofing systems work best in St. Petersburg's coastal climate?",
-    answer: "For St. Petersburg's coastal environment, FCS specifies marine-grade waterproofing systems: polyurethane and elastomeric fluid-applied membranes with enhanced salt resistance, crystalline waterproofing for concrete exposed to brackish water, traffic-bearing coatings with UV stabilizers for intense sun exposure, and specialized below-grade systems designed for high water tables. We use premium manufacturers including Tremco, Carlisle, Sika, and BASF.",
-  },
-  {
-    question: "Do you waterproof historic buildings in St. Petersburg?",
-    answer: "Yes, FCS has extensive experience waterproofing St. Petersburg's historic buildings in the Old Northeast, Kenwood, and Historic Uptown districts. We use sympathetic waterproofing approaches that protect historic masonry while maintaining architectural integrity. This includes breathable waterproofing systems, period-appropriate drainage solutions, and careful attention to Secretary of Interior standards when required for tax credit projects.",
-  },
-  {
-    question: "How does St. Petersburg's water table affect foundation waterproofing?",
-    answer: "St. Petersburg's high water table, typically 2-4 feet below grade and rising during wet season, creates significant hydrostatic pressure on foundations. FCS addresses this with comprehensive below-grade systems including positive-side membranes, drainage boards, interior drainage systems, and sump pump installations. Properties near Tampa Bay or in low-lying areas may require specialized dewatering approaches during construction.",
-  },
-  {
-    question: "Can you waterproof condominium buildings in St. Petersburg?",
-    answer: "Yes, condominium waterproofing is a specialty for FCS. St. Petersburg's many waterfront condos require regular waterproofing maintenance and restoration. We work with HOAs and property managers on building envelope repairs, balcony waterproofing, parking garage restoration, and common area waterproofing. Our team understands Florida's SB4D milestone inspection requirements and can address waterproofing findings.",
-  },
-  {
-    question: "What warranty do you provide for St. Petersburg waterproofing?",
-    answer: "FCS provides a 10-year workmanship warranty on exterior waterproofing installations in St. Petersburg, backed by manufacturer material warranties of 10-20 years. Our warranty covers both materials and labor for leaks resulting from waterproofing failure. We maintain detailed documentation including photos, material certifications, and test results. For coastal properties, we recommend annual inspections to maintain warranty coverage.",
-  },
-];
-
-const costData = [
-  { application: "Building Envelope/Walls", range: "$5 - $15/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Foundation Waterproofing", range: "$8 - $25/SF", timeline: "1-4 weeks", warranty: "10 years" },
-  { application: "Parking Deck (Traffic-Bearing)", range: "$15 - $35/SF", timeline: "4-12 weeks", warranty: "10 years" },
-  { application: "Plaza/Pedestrian Deck", range: "$12 - $25/SF", timeline: "3-8 weeks", warranty: "10 years" },
-  { application: "Below-Grade/Basement", range: "$10 - $30/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Remedial/Repair Work", range: "$50,000+", timeline: "Varies", warranty: "5-10 years" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Diagnostics", description: "Building survey, water testing, infrared scanning, and identification of problem areas considering St. Petersburg's coastal conditions" },
-  { step: 2, title: "System Design", description: "Waterproofing system specification with marine-grade materials, detail drawings, and budget development for coastal exposure" },
-  { step: 3, title: "Surface Preparation", description: "Substrate cleaning, salt removal, crack repair, concrete restoration, and surface profiling for optimal membrane adhesion" },
-  { step: 4, title: "Waterproofing Installation", description: "Application of primers, membranes, flashings, and drainage systems per manufacturer specifications with coastal-rated materials" },
-  { step: 5, title: "Quality Assurance", description: "Flood testing, adhesion testing, inspection documentation, and correction of any deficiencies before final acceptance" },
-  { step: 6, title: "Protection & Warranty", description: "Installation of protection courses, drainage boards, or wear surfaces; warranty documentation and coastal maintenance guidance" },
-];
-
 export default function ExteriorWaterproofingStPetersburgPage() {
   return (
     <>
       <LocalBusinessSchema city="St. Petersburg" service="Exterior Waterproofing" />
       <ServiceSchema
         serviceName="Exterior Waterproofing"
-        serviceDescription="Professional exterior waterproofing services for St. Petersburg commercial and residential buildings. Building envelope, foundation, parking deck, and plaza waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
+        serviceDescription="Exterior waterproofing in St. Petersburg, FL. Building envelope, foundation, parking deck, and plaza waterproofing for peninsula properties. Marine-grade systems with 10-year warranty. Licensed CBC1262722, 40+ years experience."
         city="St. Petersburg"
         minPrice="50000"
-        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
+        serviceCategories={["Building Envelope Waterproofing", "Foundation Waterproofing", "Parking Deck Waterproofing", "Plaza Deck Systems", "Sealant and Caulking"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Exterior Waterproofing Services in St. Petersburg, FL"
-        description="Comprehensive guide to exterior waterproofing for St. Petersburg buildings. Learn about building envelope waterproofing, foundation protection, parking deck systems, and costs for commercial and residential properties in Pinellas County."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/exterior-waterproofing-st-petersburg/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">St. Petersburg, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving St. Petersburg, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Exterior Waterproofing in St. Petersburg
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Exterior Waterproofing in St. Petersburg, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Protect your St. Petersburg property from coastal humidity, salt air, and Florida's intense rainfall. Professional building envelope, foundation, and deck waterproofing for commercial and residential buildings. 10-year warranty on all installations.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              St. Petersburg's peninsula is surrounded by water on three sides, creating the most demanding waterproofing environment in the Tampa Bay region. Florida Construction Specialists installs marine-grade building envelope, foundation, and deck waterproofing systems engineered for the salt air, high water table, and intense UV exposure that define this coastal market.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Droplets className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">10-Year Warranty</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Request Waterproofing Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -150,191 +107,173 @@ export default function ExteriorWaterproofingStPetersburgPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Droplets className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">10-Year Warranty</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Coastal Specialists</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* St. Petersburg Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                St. Petersburg's Exterior Waterproofing Experts
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides comprehensive exterior waterproofing services for St. Petersburg's commercial and residential buildings. As a peninsula surrounded by Tampa Bay and the Gulf of Mexico, St. Petersburg faces exceptional waterproofing challenges including constant salt air exposure, high humidity, and a water table that often sits just feet below grade.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Three Bodies of Water, One Peninsula: The Waterproofing Reality of Building in St. Petersburg
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                The fundamental challenge of waterproofing in St. Petersburg is that the city exists on a narrow peninsula bordered by Tampa Bay, Boca Ciega Bay, and the Gulf of Mexico. This geography creates a moisture environment with no parallel among Florida's major markets. Humidity averages 75 percent year-round. Salt-laden air arrives from multiple directions depending on season and wind pattern. The water table sits two to four feet below grade across much of the city, rising higher during the June-through-September wet season. And St. Petersburg earns its Sunshine City reputation with intense UV exposure that degrades waterproofing materials faster than shaded or inland applications.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                From high-rise condominiums along Beach Drive and the Downtown Waterfront to historic buildings in Old Northeast and commercial properties in Gateway, FCS has protected St. Petersburg properties with premium waterproofing systems designed specifically for coastal conditions. Our team combines decades of experience with manufacturer-certified installation techniques for lasting protection.
+              <p className="mb-6">
+                These conditions mean that waterproofing systems specified for general Florida use frequently underperform in St. Petersburg. Standard sealants lose adhesion in the salt atmosphere within three to five years rather than the seven to ten year lifespan expected in inland applications. Below-grade waterproofing that performs adequately with seasonal water table fluctuations may fail under the persistent hydrostatic pressure that low-lying peninsula sites experience. Building envelope coatings formulated for normal coastal exposure can degrade under the bidirectional salt deposition that distinguishes St. Petersburg from single-coastline cities. Specifying waterproofing for St. Petersburg requires understanding these intensified conditions and selecting products and systems that are rated for them.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Exterior Waterproofing Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                St. Petersburg's Coastal Climate Demands Quality Waterproofing
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Salt Air Exposure:</strong> St. Petersburg's peninsula location means constant salt-laden air that corrodes building materials and degrades standard waterproofing systems</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>High Water Table:</strong> Water tables 2-4 feet below grade create hydrostatic pressure requiring specialized foundation waterproofing and drainage systems</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Intense UV Exposure:</strong> The "Sunshine City" receives intense solar radiation that degrades exposed waterproofing—we use UV-stable systems rated for maximum exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Hurricane Conditions:</strong> Waterfront location means wind-driven rain during tropical storms requires systems that perform under extreme pressure differentials</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your St. Petersburg Waterproofing Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Request Assessment</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a complimentary waterproofing assessment for your St. Petersburg property.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="St. Petersburg" currentService="exterior-waterproofing" />
-              <NearbyLocations currentCity="St. Petersburg" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+              <p className="mb-6">
+                The building inventory that requires waterproofing protection spans every era and type of construction. Downtown St. Petersburg's high-rise condominium towers need building envelope and deck waterproofing that addresses the wind-driven rain exposure at upper floors. The established mid-rise communities of Shore Acres, Coquina Key, and Isla del Sol have parking structures and common-area decks that require traffic-bearing waterproofing restoration after decades of salt exposure and UV degradation. Historic properties in Old Northeast and Historic Kenwood need breathable waterproofing approaches that protect masonry and stucco without trapping moisture within the wall assembly. Commercial properties along the Gateway corridor and Central Avenue require parking garage waterproofing, plaza deck systems, and building envelope protection that maintain performance under heavy use.
+              </p>
+              <p>
+                Florida Construction Specialists has protected St. Petersburg buildings from water intrusion for over two decades, functioning as the prime contractor on every project. We specify and install marine-grade waterproofing systems from manufacturers whose products are tested and warranted for severe coastal exposure. Our 10-year workmanship warranty reflects confidence in both the products we select and the installation quality our crews deliver. We work with building owners, property managers, condominium associations, and architects to develop waterproofing solutions that address the specific conditions each building faces on the peninsula.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
-        alt="Exterior waterproofing application"
-        title="Complete Waterproofing Protection"
-        subtitle="Premium membrane systems for lasting defense against moisture"
+        src="/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-display.webp"
+        alt="Commercial exterior waterproofing application in St. Petersburg"
+        title="Marine-Grade Waterproofing for Peninsula Properties"
+        subtitle="Building envelope, foundation, and deck systems engineered for bidirectional coastal exposure"
         overlayOpacity={0.55}
       />
 
-      {/* Cost & Timeline Table */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            St. Petersburg Exterior Waterproofing Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Exterior Waterproofing Services for St. Petersburg Properties
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Waterproofing costs vary by application, substrate condition, and coastal exposure. Waterfront properties may require premium marine-grade systems. All FCS waterproofing includes our 10-year workmanship warranty.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Application</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Warranty</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.application}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.warranty}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Waterfront properties may require premium marine-grade systems at 15-20% additional cost. Contact FCS for detailed proposal.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Waterproofing Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Successful waterproofing in St. Petersburg's coastal environment requires systematic attention to preparation, material selection, and quality assurance. Our proven process ensures long-term performance.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Comprehensive waterproofing solutions for every building system exposed to the peninsula's aggressive moisture environment.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Building2,
+                title: "Building Envelope Waterproofing",
+                description: "Complete exterior wall waterproofing including fluid-applied membranes, sheet membrane systems, air and water barrier installation, and joint sealant programs. We address the window-to-wall interfaces, expansion joints, and penetration details that are the most common failure points in St. Petersburg's wind-driven rain environment. Systems are selected for salt fog resistance and the UV exposure levels specific to each building face."
+              },
+              {
+                icon: Droplets,
+                title: "Foundation and Below-Grade Systems",
+                description: "Positive-side and negative-side foundation waterproofing designed for St. Petersburg's high water table conditions. We install bentonite sheet membranes, fluid-applied systems, and crystalline waterproofing depending on the substrate and exposure conditions. Drainage board systems and interior drainage channels manage hydrostatic pressure in buildings where the water table contacts foundation elements seasonally or continuously."
+              },
+              {
+                icon: HardHat,
+                title: "Parking Structure Waterproofing",
+                description: "Traffic-bearing waterproofing membranes for parking decks, ramp surfaces, and vehicular areas that endure tire abrasion, fluid spills, and the salt deposits that vehicles carry from coastal roadways. We install polyurethane and epoxy systems with anti-skid finishes rated for the heavy vehicle traffic that St. Petersburg's commercial and condominium parking structures experience. Deck drain and joint systems complete the water management approach."
+              },
+              {
+                icon: Shield,
+                title: "Plaza and Pedestrian Deck Systems",
+                description: "Waterproofing beneath pavers, tile, and concrete topping on occupied plazas, pool decks, and elevated terrace areas. These systems must perform as both waterproofing membranes and structural protection layers while accommodating the thermal movement that St. Petersburg's temperature cycles create. We detail transitions at walls, drains, and planters to prevent the water intrusion that degrades both the membrane and the structural deck below."
+              },
+              {
+                icon: FileCheck,
+                title: "Sealant and Caulking Programs",
+                description: "Comprehensive joint sealant replacement for windows, curtain wall systems, expansion joints, and penetrations throughout the building envelope. Salt air in St. Petersburg degrades sealant adhesion faster than inland environments, and failed sealants are the most common source of water intrusion in high-rise and mid-rise buildings. We develop building-wide sealant programs that systematically address all joints on a replacement cycle appropriate for the exposure conditions."
+              },
+              {
+                icon: Award,
+                title: "Historic Building Waterproofing",
+                description: "Breathable waterproofing systems for St. Petersburg's historic masonry, stucco, and wood frame buildings in Old Northeast, Historic Kenwood, Crescent Heights, and other preservation areas. We use silane and siloxane penetrating sealers, lime-based stucco repairs, and moisture management strategies that protect against water intrusion without creating vapor barriers that trap moisture within historic wall assemblies, which causes more damage than the water intrusion it prevents."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Waterproofing Conditions Across St. Petersburg's Building Zones
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Waterproofing specifications that perform well in one part of St. Petersburg may be insufficient in another because exposure conditions vary significantly across the peninsula. The waterfront high-rises of downtown face different challenges than the garden-style condominiums of Gateway, and the historic masonry buildings of Old Northeast require fundamentally different approaches than the concrete towers of Isla del Sol.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> reviews building permit applications for waterproofing projects that involve structural modifications or changes to the building envelope. We manage the permitting process and coordinate inspections to ensure completed work meets the Florida Building Code requirements applicable to the city's coastal zone designation.
+              </p>
+              <p className="mb-6">
+                Downtown and waterfront properties face the most extreme exposure conditions. Buildings along Beach Drive, the Pier District, and the bayfront receive direct salt spray during periods of onshore wind, and upper floors of high-rise towers experience wind-driven rain pressures that exceed ground-level conditions by substantial margins. The parking structures serving downtown buildings endure concentrated salt exposure from vehicles that travel the Pinellas Bayway and Gulf boulevard roadways. Waterproofing specifications for these properties must account for salt fog exposure, elevated wind pressures, and the thermal cycling that occurs on south- and west-facing surfaces exposed to the full force of afternoon sun.
+              </p>
+              <p className="mb-6">
+                The established residential communities of Shore Acres, Coquina Key, Snell Isle, and the neighborhoods surrounding Coffee Pot Bayou present waterproofing challenges driven primarily by proximity to open water and the high water table. Foundation waterproofing is critical in these low-lying areas where the water table can reach within two feet of grade during wet season. Buildings that were constructed without modern foundation waterproofing frequently experience efflorescence, mold growth, and structural degradation at grade-level walls and slabs. Retrofitting waterproofing on existing foundations requires different techniques than new construction, often involving negative-side crystalline systems or interior drainage approaches when exterior access is limited.
+              </p>
+              <p>
+                The Gateway and Carillon business corridor contains commercial office buildings, retail centers, and newer residential developments that require proactive waterproofing maintenance to prevent the premature deterioration that the salt air environment causes. While newer buildings benefit from improved construction standards, the waterproofing systems installed during original construction still require regular inspection and maintenance in St. Petersburg's aggressive climate. Sealant joints, through-wall flashings, and rooftop equipment penetrations are common failure points that FCS addresses through systematic inspection and preventive maintenance programs that extend waterproofing system life and avoid the costly remedial repairs that result from deferred maintenance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            St. Petersburg Exterior Waterproofing Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A systematic approach from diagnostics through warranty, calibrated for the peninsula's demanding moisture environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Building Assessment and Diagnostics",
+                description: "We survey the building's waterproofing conditions using visual inspection, infrared thermography for moisture detection, adhesion testing of existing coatings, and water testing at suspect locations. For below-grade work, we evaluate water table conditions and hydrostatic pressure. The assessment identifies failure points, deterioration patterns, and the exposure conditions that the new waterproofing system must address.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "System Design and Specification",
+                description: "Based on assessment findings, we develop waterproofing specifications that address the specific conditions of the building's location on the peninsula. Product selections account for salt exposure intensity, UV levels, hydrostatic pressure, substrate type, and expected traffic loads. We prepare detail drawings for transitions, terminations, and penetrations that are the most common failure points in coastal waterproofing installations.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Surface Preparation",
+                description: "Proper surface preparation determines waterproofing adhesion and longevity. We remove failed existing coatings, repair concrete defects, treat exposed reinforcing steel, remove salt deposits from substrates, and profile surfaces to manufacturer specifications. In St. Petersburg's salt environment, substrate preparation is particularly critical because chloride contamination on the surface can prevent proper membrane adhesion.",
+                icon: HardHat,
+              },
+              {
+                step: "04",
+                title: "Waterproofing Installation",
+                description: "Certified applicators install waterproofing systems following manufacturer specifications for primers, membranes, flashings, and protection courses. We monitor weather conditions during application because temperature, humidity, and dew point affect membrane performance, particularly important in St. Petersburg's variable afternoon weather patterns. Quality control includes wet film thickness checks and adhesion testing at specified intervals.",
+                icon: Briefcase,
+              },
+              {
+                step: "05",
+                title: "Testing, Documentation, and Warranty",
+                description: "Flood testing on horizontal surfaces, adhesion pull testing, and visual inspection verify installation quality before protection courses or finishes are applied. We compile comprehensive documentation including material certifications, test results, application conditions, and photographs that support warranty claims and provide a maintenance baseline. Our 10-year workmanship warranty and manufacturer material warranties provide long-term protection.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -342,121 +281,48 @@ export default function ExteriorWaterproofingStPetersburgPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                St. Petersburg Waterproofing Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has protected St. Petersburg buildings from water intrusion for over two decades. Our waterproofing team combines manufacturer certifications with deep knowledge of Pinellas County's coastal climate challenges.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Manufacturer Certified:</strong> Certified applicators for Tremco, Carlisle, Sika, BASF, and other premium coastal-rated manufacturers</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Comprehensive Testing:</strong> Flood testing, adhesion testing, and infrared scanning to verify waterproofing integrity</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Detailed Documentation:</strong> Complete project records including photos, material certifications, and test results for condominium associations</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Long-Term Support:</strong> Maintenance programs and warranty service designed for coastal property protection</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Droplets className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Warranty Standard</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
-                <div className="text-gray-300 text-sm">Waterproofing Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">200+</div>
-                <div className="text-gray-300 text-sm">Buildings Protected</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why St. Petersburg Chooses FCS for Waterproofing
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. You get direct accountability for your waterproofing project from assessment through warranty.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Layers className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Coastal-Grade Systems</h3>
-              <p className="text-gray-600">
-                We specify and install marine-grade waterproofing systems selected specifically for St. Petersburg's salt air, high water table, and UV exposure.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">10-Year Warranty</h3>
-              <p className="text-gray-600">
-                Every FCS waterproofing installation includes our 10-year workmanship warranty, backed by manufacturer material warranties for complete protection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={stPetersburgFaqs}
-        title="St. Petersburg Exterior Waterproofing FAQs"
+        items={faqs}
+        title="St. Petersburg Exterior Waterproofing FAQ"
         description="Common questions about exterior waterproofing for commercial and residential buildings in St. Petersburg, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="St. Petersburg" currentService="exterior-waterproofing" />
+            <NearbyLocations currentCity="St. Petersburg" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Protect Your St. Petersburg Property
+            Protect Your St. Petersburg Property from Water Intrusion
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From building envelope to foundation, FCS provides comprehensive waterproofing solutions designed for St. Petersburg's coastal climate. Schedule a complimentary assessment.
+            Contact Florida Construction Specialists to assess your building's waterproofing conditions and develop a protection strategy engineered for the peninsula's demanding coastal environment. Complimentary assessments for commercial and condominium properties.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request Waterproofing Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>10-Year Warranty</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

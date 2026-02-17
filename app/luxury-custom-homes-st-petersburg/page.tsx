@@ -1,121 +1,51 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Home, Compass, Waves, Star, Sun, Gem, Users, DollarSign, Palette } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase, Home } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-st-petersburg/' },
-  title: "Luxury Custom Homes St. Petersburg | $1M+ | FCS",
-  description: "Luxury Home Builder in St. Petersburg: design-build, pre-construction, and project management. Licensed and insured CBC. Call (813) 420-7561 for a quote.",
+  title: "Luxury Custom Homes St. Petersburg FL | Waterfront, Snell Isle, Coastal | FCS",
+  description: "Luxury custom home construction in St. Petersburg by Florida Construction Specialists. Snell Isle waterfront estates, Shore Acres, Isla del Sol, Tierra Verde coastal homes. Licensed CBC, 40+ years experience. Schedule a consultation.",
 };
+
+const faqs = [
+  {
+    question: "What makes waterfront custom home construction on St. Petersburg's peninsula different?",
+    answer: "St. Petersburg's peninsula geography means waterfront homes face exposure from Tampa Bay, Boca Ciega Bay, or the Gulf of Mexico -- and in some locations, multiple water bodies simultaneously. This creates engineering requirements that exceed standard coastal construction. Foundation systems must account for both the sandy soil profile and the high water table typical across the peninsula. Structural framing must resist sustained wind from shifting directions rather than a single prevailing weather side. Building envelope design must prevent moisture and salt intrusion from every orientation. Homes on Snell Isle, Shore Acres waterfront, Isla del Sol, and Tierra Verde each face distinct exposure profiles that affect material selection, structural design, and site planning in ways specific to their position on the peninsula."
+  },
+  {
+    question: "Which St. Petersburg neighborhoods are most popular for luxury custom home construction?",
+    answer: "Snell Isle remains St. Petersburg's most prestigious custom home address, with waterfront lots on Tampa Bay commanding premium values and supporting new construction or comprehensive rebuilds of existing estates. Shore Acres offers bayfront and canal-front lots where custom homes benefit from water access and views. Isla del Sol, located on the southern end of the peninsula, combines waterfront living with proximity to the Gulf beaches and offers both bayfront and intercoastal settings. Tierra Verde, the barrier island community at the very tip of the peninsula, provides direct Gulf access and the most dramatic waterfront settings. Within the city proper, the Old Northeast attracts custom home buyers who want walkable urban living in a historically significant neighborhood."
+  },
+  {
+    question: "How do flood zone requirements affect custom home design in St. Petersburg?",
+    answer: "Significant portions of St. Petersburg's waterfront neighborhoods fall within FEMA flood zones, which directly affect custom home design. New construction in flood zones must have the lowest habitable floor elevated above the base flood elevation, which in St. Petersburg can range from 8 to 14 feet NAVD depending on the specific zone and location. This requirement shapes the architectural design, often resulting in homes elevated on pilings or raised foundations with garage and utility areas below the flood elevation. We integrate these elevation requirements into the architectural design from the earliest concept phase so that the elevated first floor becomes an intentional design feature rather than an awkward afterthought."
+  },
+  {
+    question: "What coastal wind resistance requirements apply to custom homes in St. Petersburg?",
+    answer: "Custom homes in St. Petersburg must meet Florida Building Code requirements for coastal wind zones, with design wind speeds ranging from 130 to 150 mph depending on the specific location and exposure category. Waterfront homes with direct water exposure typically face the highest wind speed requirements. Compliance requires impact-rated windows and doors or approved hurricane shutter systems, enhanced roof-to-wall connections, specific roof sheathing attachment patterns, and structural framing engineered for the design wind loads. We exceed minimum code requirements on many custom projects because high-performance hurricane resistance also reduces insurance costs and provides genuine peace of mind for homeowners investing in premium waterfront properties."
+  },
+  {
+    question: "Does FCS provide design-build services for custom homes in St. Petersburg?",
+    answer: "Yes, we offer design-build custom home services where we coordinate architectural design, structural engineering, and construction under a single contract. This approach is particularly valuable in St. Petersburg because the peninsula's coastal requirements affect design decisions at every stage. Having the builder involved from the earliest design concepts ensures that structural, code, and constructability considerations inform the architecture rather than constraining it after design is complete. We also work effectively with independent architects if you have already selected a design team, providing pre-construction input on buildability, coastal code compliance, and cost management during the design development phase."
+  },
+  {
+    question: "What is the typical timeline and budget for a luxury custom home in St. Petersburg?",
+    answer: "Custom home construction timelines in St. Petersburg typically run 12 to 18 months from permit issuance to completion for homes in the three thousand to five thousand square foot range, with larger or more complex homes requiring 18 to 24 months. Permitting through the City of St. Petersburg adds 4 to 8 weeks for standard residential projects, with additional review time for properties in flood zones, near historic districts, or requiring variances. Construction costs for luxury custom homes in premium St. Petersburg locations like Snell Isle, Shore Acres waterfront, and Isla del Sol typically range from four hundred to six hundred dollars per square foot or higher depending on finishes, site conditions, and coastal construction requirements."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential", href: "/residential/" },
-  { name: "Luxury Custom Homes St. Petersburg", href: "/luxury-custom-homes-st-petersburg/" },
-];
-
-const homeTypes = [
-  {
-    type: "Waterfront Estates",
-    description: "Tampa Bay, Coffee Pot Bayou, and Snell Isle waterfront properties with private docks, seawalls, and stunning water views of the bay and downtown skyline",
-    icon: Waves,
-  },
-  {
-    type: "Historic District Homes",
-    description: "Custom builds and renovations in Old Northeast, Historic Kenwood, and Roser Park preserving architectural character while adding modern amenities",
-    icon: Compass,
-  },
-  {
-    type: "Smart Home Estates",
-    description: "Fully integrated smart home technology including Crestron, Savant, and Control4 systems for lighting, climate, security, and entertainment",
-    icon: Home,
-  },
-  {
-    type: "Arts District Living",
-    description: "Contemporary homes near the downtown arts district, Beach Drive, and Central Avenue with walkable access to galleries, museums, and waterfront dining",
-    icon: Palette,
-  },
-];
-
-const stPetersburgNeighborhoods = [
-  {
-    name: "Old Northeast",
-    description: "St. Petersburg's most prestigious historic neighborhood with tree-lined brick streets, 1920s Mediterranean and Craftsman homes, and waterfront estates from $1.5M-$10M+",
-    features: ["Historic character", "Brick streets", "Walkable to downtown", "Coffee Pot Bayou access"],
-  },
-  {
-    name: "Snell Isle",
-    description: "Exclusive gated island community with some of Tampa Bay's finest waterfront estates, deep-water docks, and panoramic bay views $2M-$15M+",
-    features: ["Gated community", "Deep-water access", "Bay views", "Marina proximity"],
-  },
-  {
-    name: "Coffee Pot Bayou",
-    description: "Scenic waterfront area within Old Northeast offering protected bayou living with kayak launches, sunset views, and proximity to downtown $1.5M-$8M+",
-    features: ["Protected waters", "Kayak/paddleboard", "Sunset views", "Old Northeast adjacent"],
-  },
-  {
-    name: "Downtown Waterfront",
-    description: "Urban luxury living along Beach Drive and the Pier District with walkable access to The Dali, Vinoy Park, fine dining, and the arts scene $1M-$6M+",
-    features: ["Walkable lifestyle", "Arts & culture", "Restaurants", "Vinoy Park views"],
-  },
-];
-
-const stPetersburgFaqs = [
-  {
-    question: "What neighborhoods does FCS build luxury custom homes in St. Petersburg?",
-    answer: "Florida Construction Specialists builds luxury custom homes throughout St. Petersburg's most prestigious neighborhoods including Old Northeast, Snell Isle, Coffee Pot Bayou, Historic Kenwood, Downtown Waterfront along Beach Drive, Coquina Key, Shore Acres, and Venetian Isles. We also build on waterfront lots throughout Tampa Bay's Pinellas County side. Our projects range from $1 million to over $15 million.",
-  },
-  {
-    question: "How long does it take to build a luxury custom home in St. Petersburg?",
-    answer: "Luxury custom homes in St. Petersburg typically require 14-24 months for construction, depending on size and complexity. A 5,000 SF home may take 14-18 months, while 10,000+ SF estates often require 20-24 months or more. St. Petersburg's historic district overlay reviews can add 4-6 weeks to the permitting process for homes in Old Northeast, Historic Kenwood, or other designated areas.",
-  },
-  {
-    question: "What is the cost to build a luxury custom home in St. Petersburg?",
-    answer: "Luxury custom home construction in St. Petersburg typically ranges from $350-$750+ per square foot depending on finishes, features, and complexity. Waterfront properties with seawalls and docks add significant costs. Entry-level luxury ($1-2M) averages $350-450/SF, mid-range luxury ($2-5M) averages $450-550/SF, and ultra-luxury ($5M+) can exceed $650-750/SF. Historic district homes may have additional costs for architectural compliance.",
-  },
-  {
-    question: "Do you build hurricane-resistant luxury homes in St. Petersburg?",
-    answer: "Absolutely. Given St. Petersburg's peninsula location and significant storm surge risk, hurricane resistance is paramount. All FCS luxury homes exceed Florida Building Code wind resistance requirements with impact-resistant windows and doors, reinforced concrete block or ICF construction, upgraded roof tie-downs, whole-house generators, and elevated construction in flood zones. We design for both wind and surge protection.",
-  },
-  {
-    question: "Can you build on waterfront lots in St. Petersburg?",
-    answer: "Yes, waterfront construction is a specialty for FCS. We build on Tampa Bay, Coffee Pot Bayou, Snell Isle, and other waterfront areas throughout St. Petersburg. Waterfront projects require additional expertise including seawall construction or repair, dock permitting through Army Corps of Engineers and FDEP, Coastal High Hazard Area compliance, and flood zone requirements. Our team navigates Pinellas County's coastal regulations expertly.",
-  },
-  {
-    question: "What are the requirements for building in St. Petersburg's historic districts?",
-    answer: "St. Petersburg has several historic districts including Old Northeast, Historic Kenwood, Roser Park, and Historic Uptown. Construction in these areas requires Certificate of Appropriateness approval from the City's Historic Preservation Office. This includes review of architectural style, materials, setbacks, and design elements. FCS has extensive experience navigating these requirements while creating homes that honor historic character with modern amenities.",
-  },
-  {
-    question: "How does building near the arts district affect my custom home project?",
-    answer: "St. Petersburg's vibrant arts scene, including The Dali Museum, Morean Arts Center, and Beach Drive galleries, makes downtown and nearby neighborhoods highly desirable. Homes near the arts district often incorporate gallery walls, artist studios, and modern architectural elements. The City has design standards in the downtown core that may affect height, setbacks, and exterior design. FCS works with these requirements to create homes that complement St. Petersburg's creative character.",
-  },
-  {
-    question: "What makes FCS different from other St. Petersburg luxury home builders?",
-    answer: "FCS is always the prime contractor—we never subcontract our management responsibility. Our 40+ years experience and in-house engineering allows us to handle the largest custom home projects. We have specific expertise with St. Petersburg's historic overlay requirements, Pinellas County's coastal regulations, and the unique construction challenges of peninsula building. Our commercial construction background brings superior project management and quality control to every residential project.",
-  },
-];
-
-const costData = [
-  { tier: "Entry Luxury", range: "$1M - $2M", sqft: "3,500 - 5,000 SF", costPerSqft: "$350 - $450/SF", timeline: "14-18 months" },
-  { tier: "Mid-Range Luxury", range: "$2M - $5M", sqft: "5,000 - 8,000 SF", costPerSqft: "$450 - $550/SF", timeline: "16-20 months" },
-  { tier: "High-End Luxury", range: "$5M - $10M", sqft: "8,000 - 12,000 SF", costPerSqft: "$550 - $650/SF", timeline: "18-24 months" },
-  { tier: "Ultra Luxury", range: "$10M+", sqft: "12,000+ SF", costPerSqft: "$650 - $750+/SF", timeline: "24-36 months" },
-];
-
-const processSteps = [
-  { step: 1, title: "Discovery & Site Analysis", description: "Initial consultation, lot analysis, budget alignment, and design direction with your architect" },
-  { step: 2, title: "Pre-Construction", description: "Detailed budgeting, constructability review, value engineering, and specification development" },
-  { step: 3, title: "Permitting", description: "City of St. Petersburg permits, historic district approvals if applicable, and environmental permits for waterfront properties" },
-  { step: 4, title: "Foundation & Structure", description: "Excavation, foundation work with consideration for high water table, concrete block construction, and roof installation" },
-  { step: 5, title: "Systems & Envelope", description: "Electrical, plumbing, HVAC rough-in, impact windows and doors, and building envelope completion with marine-grade materials" },
-  { step: 6, title: "Finishes & Completion", description: "Interior finishes, cabinetry, flooring, smart home integration, landscaping, and final inspections" },
+  { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
+  { name: "St. Petersburg", href: "/luxury-custom-homes-st-petersburg/" },
 ];
 
 export default function LuxuryCustomHomesStPetersburgPage() {
@@ -123,45 +53,52 @@ export default function LuxuryCustomHomesStPetersburgPage() {
     <>
       <LocalBusinessSchema city="St. Petersburg" service="Luxury Custom Homes" />
       <ServiceSchema
-        serviceName="Luxury Custom Home Construction"
-        serviceDescription="Premier custom home builder in St. Petersburg, FL specializing in $1M-$15M+ waterfront estates, historic district homes, and high-end residences. Serving Old Northeast, Snell Isle, Coffee Pot Bayou, Historic Kenwood, and Tampa Bay waterfront properties."
+        serviceName="Luxury Custom Homes"
+        serviceDescription="Luxury custom home construction in St. Petersburg, FL. Waterfront estates on Snell Isle, Shore Acres, Isla del Sol, and Tierra Verde. Coastal engineering, flood zone design, hurricane-resistant construction. Licensed CBC1262722, 40+ years experience."
         city="St. Petersburg"
-        minPrice="1000000"
-        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
+        minPrice="500000"
+        serviceCategories={["Waterfront Custom Homes", "Coastal Estate Construction", "Design-Build Custom Homes", "Flood Zone Construction", "Hurricane-Resistant Residential"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Luxury Custom Home Builder in St. Petersburg, FL"
-        description="Comprehensive guide to building luxury custom homes in St. Petersburg. Learn about waterfront construction, historic district requirements, premier neighborhoods, costs, timelines, and what to expect from St. Petersburg's leading custom home builder."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-1/custom-home-construction-1-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">St. Petersburg, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving St. Petersburg, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Luxury Custom Homes in St. Petersburg
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Luxury Custom Homes in St. Petersburg, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Tampa Bay's premier custom home builder for $1M-$15M+ waterfront estates, historic district homes, and high-end residences. From Snell Isle to Old Northeast, we bring exceptional craftsmanship to St. Petersburg's finest neighborhoods.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              St. Petersburg's peninsula offers waterfront living unlike anywhere else in Tampa Bay -- homes surrounded by bay, Gulf, and intercoastal waters in neighborhoods from Snell Isle to Tierra Verde. Florida Construction Specialists builds luxury custom homes engineered for this unique coastal environment, combining architectural vision with the structural integrity that peninsula construction demands.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Design Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Custom Home
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -170,343 +107,222 @@ export default function LuxuryCustomHomesStPetersburgPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Gem className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$1M - $15M+ Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Star className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* St. Petersburg Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                St. Petersburg's Premier Luxury Home Builder
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings the same precision, project management expertise, and quality control that defines our commercial construction work to St. Petersburg's most discerning homeowners. We specialize in luxury custom homes from $1 million to over $15 million, with particular expertise in waterfront properties on Snell Isle, Coffee Pot Bayou, and along Tampa Bay.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Waterfront Custom Homes on Florida's Most Distinctive Peninsula
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Building a luxury custom home in St. Petersburg means building on a peninsula where water defines every aspect of the living experience. Snell Isle's bayfront lots look east across Tampa Bay toward the sunrise. Shore Acres waterfront homes face both open bay and protected canal settings. Isla del Sol sits at the peninsula's southern reach where bay and intercoastal waters converge. Tierra Verde, connected to the mainland by a single bridge, is a barrier island that offers direct Gulf of Mexico access and some of the most dramatic coastal settings in the Tampa Bay region. Each location provides a different relationship with water, and each demands a different approach to custom home construction.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                St. Petersburg offers a unique combination of waterfront living, historic charm, and vibrant arts culture unmatched anywhere in Florida. From the tree-lined brick streets of Old Northeast to the exclusive gated community of Snell Isle, from the eclectic charm of Historic Kenwood to the urban sophistication of downtown Beach Drive—our team understands the unique requirements of building in these prestigious neighborhoods.
+              <p className="mb-6">
+                The allure of St. Petersburg's waterfront locations comes with engineering complexity that separates experienced peninsula builders from contractors who treat coastal construction as standard residential work with upgraded windows. Homes on Snell Isle must account for bay-facing wind exposure, flood zone elevation requirements, and soil conditions influenced by proximity to the water table. Shore Acres properties in flood-prone areas may require pile foundation systems and elevated first floors that fundamentally shape the architectural design. Isla del Sol and Tierra Verde homes face the most aggressive saltwater environment on the peninsula, with construction materials subjected to salt spray, humidity, and UV exposure from multiple water surfaces simultaneously.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Luxury Home Specialties
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {homeTypes.map((home) => (
-                  <div key={home.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <home.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{home.type}</h4>
-                        <p className="text-gray-600 text-sm">{home.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why Build a Custom Home in St. Petersburg?
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Waterfront Paradise:</strong> Tampa Bay, Coffee Pot Bayou, and the Intracoastal offer exceptional water access for boating, sailing, paddleboarding, and waterfront dining along the Pier District</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Arts & Culture Capital:</strong> The Dali Museum, Morean Arts Center, Chihuly Collection, and over 35 galleries make St. Pete the cultural heart of the Gulf Coast</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Historic Character:</strong> Old Northeast, Historic Kenwood, and Roser Park offer tree-lined streets, brick roads, and architectural heritage dating to the 1920s</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Urban Walkability:</strong> Beach Drive, Central Avenue, and the Pier District offer the best walkable urban lifestyle in Tampa Bay with restaurants, galleries, and entertainment</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your St. Petersburg Custom Home Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Start Your Project</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a consultation to discuss your luxury home vision, lot selection, or current property in St. Petersburg.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="St. Petersburg" currentService="luxury-custom-homes" />
-              <NearbyLocations currentCity="St. Petersburg" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+              <p className="mb-6">
+                Beyond the waterfront enclaves, St. Petersburg's established neighborhoods also attract custom home construction. The Old Northeast, with its tree-canopied streets and proximity to downtown, draws buyers who want custom construction within walking distance of cultural amenities, restaurants, and the bayfront parks. These urban lots present different challenges -- tighter setbacks, neighbor proximity, tree preservation requirements, and in some cases historic district overlay considerations that affect design approval.
+              </p>
+              <p>
+                Florida Construction Specialists brings four decades of Florida construction experience to custom home projects in St. Petersburg. Our in-house engineering coordination ensures that every custom home is designed from the foundation up for the specific conditions of its peninsula location. We understand the City of St. Petersburg's residential permitting process, flood zone construction requirements, and the practical realities of building premium homes in a dense coastal environment where logistics, material selection, and construction sequencing all differ from inland markets.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-small.webp"
-        alt="Luxury custom home construction"
-        title="Building Dream Homes"
-        subtitle="Waterfront estates and architectural masterpieces"
-        overlayOpacity={0.5}
+        src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
+        alt="Luxury custom home construction in St. Petersburg"
+        title="Custom Homes for Peninsula Living"
+        subtitle="Waterfront estates and luxury residences across St. Petersburg's premier neighborhoods"
+        overlayOpacity={0.55}
       />
 
-      {/* St. Petersburg Neighborhoods */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            St. Petersburg's Premier Neighborhoods for Luxury Homes
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Custom Home Construction Services for St. Petersburg's Coastal Market
           </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            We build in St. Petersburg's most prestigious neighborhoods, each offering unique character, waterfront access, and lifestyle opportunities in Florida's arts and culture capital.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {stPetersburgNeighborhoods.map((neighborhood) => (
-              <div key={neighborhood.name} className="bg-white rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-2">{neighborhood.name}</h3>
-                <p className="text-gray-600 mb-4">{neighborhood.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {neighborhood.features.map((feature) => (
-                    <span key={feature} className="px-3 py-1 bg-brand-green/10 text-brand-green-dark text-sm rounded-full">
-                      {feature}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Table */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            St. Petersburg Luxury Home Construction Costs
-          </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Construction costs vary based on finishes, features, and complexity. These ranges reflect typical St. Petersburg luxury home projects—actual costs depend on specific design and specifications.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Project Tier</th>
-                  <th className="px-6 py-4 text-left">Price Range</th>
-                  <th className="px-6 py-4 text-left">Typical Size</th>
-                  <th className="px-6 py-4 text-left">Cost Per SF</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.tier}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.sqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.costPerSqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Does not include land, design fees, or soft costs. Waterfront properties may have additional costs for seawalls and docks. Historic district homes may require additional architectural review fees.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Custom Home Building Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Building a luxury custom home requires meticulous planning and execution. Our proven 6-phase process ensures your vision becomes reality in St. Petersburg.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From waterfront estates to urban custom homes, we build residences engineered for the peninsula's unique demands.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Home,
+                title: "Waterfront Estate Construction",
+                description: "Custom homes on Snell Isle, Shore Acres, Isla del Sol, and Tierra Verde waterfront lots. We engineer these homes for their specific water exposure profile, integrating elevated living areas, marine-grade materials, impact-resistant envelope systems, and outdoor living spaces designed to embrace the waterfront setting while resisting the coastal environment."
+              },
+              {
+                icon: Building2,
+                title: "Design-Build Custom Homes",
+                description: "Single-source custom home delivery combining architectural design coordination, structural engineering, and construction management. Our design-build approach is particularly effective in St. Petersburg where coastal code requirements, flood zone constraints, and site-specific conditions must inform the design from the earliest concept phase."
+              },
+              {
+                icon: Shield,
+                title: "Hurricane-Resistant Construction",
+                description: "Custom homes built to exceed Florida Building Code wind resistance requirements. We use reinforced concrete and steel construction, impact-rated fenestration, enhanced roof attachment systems, and structural connections designed for the peninsula's coastal wind exposure. Superior hurricane resistance also translates to meaningfully lower insurance premiums."
+              },
+              {
+                icon: HardHat,
+                title: "Flood Zone Custom Design",
+                description: "Custom homes on peninsula lots within FEMA flood zones, with elevated first floors integrated as intentional architectural features. We design foundation systems, utility placement, and garage configurations that comply with flood zone requirements while creating graceful entry sequences and usable ground-level spaces below the flood elevation."
+              },
+              {
+                icon: FileCheck,
+                title: "Coastal Material Selection",
+                description: "Premium material packages specified for the peninsula's aggressive coastal environment. Marine-grade stainless steel hardware, fiber cement or masonry exterior systems, impact-rated aluminum or vinyl window systems, and corrosion-resistant structural connectors that maintain performance and appearance despite constant salt air exposure from multiple water bodies."
+              },
+              {
+                icon: Award,
+                title: "Smart Home and Technology",
+                description: "Integration of home automation, security, climate control, lighting, and entertainment systems designed for coastal living. Hurricane monitoring, water intrusion detection, and automated storm preparation systems provide practical value in the peninsula environment. We plan technology infrastructure during the design phase for seamless integration."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                The FCS Difference in St. Petersburg Luxury Homes
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Our commercial construction background brings unmatched project management capabilities to residential construction. We apply the same rigorous quality control, scheduling discipline, and documentation standards that define major commercial projects—essential for St. Petersburg's unique coastal and historic district requirements.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Building in St. Petersburg's Premier Waterfront Neighborhoods
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Each of St. Petersburg's luxury home neighborhoods presents a distinct construction context shaped by its specific location on the peninsula, its relationship to the surrounding water, and the character expectations of the community.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Always Prime Contractor:</strong> We never subcontract our management responsibility—you get direct accountability</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Coastal Construction Expertise:</strong> Specialized knowledge of Pinellas County coastal regulations and flood zone requirements</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Historic District Experience:</strong> Proven track record navigating Old Northeast, Kenwood, and other historic overlay requirements</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Premium Trade Relationships:</strong> Long-standing relationships with St. Petersburg's best specialty contractors</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$75M+</div>
-                <div className="text-gray-300 text-sm">Residential Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Home className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">50+</div>
-                <div className="text-gray-300 text-sm">Luxury Homes Built</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Award className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100%</div>
-                <div className="text-gray-300 text-sm">Client Satisfaction</div>
-              </div>
+              <p className="mb-6">
+                The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> handles residential building permits, with review timelines typically running 4 to 8 weeks for custom home projects. Properties in flood zones require additional review for flood zone compliance. Waterfront properties may require coordination with environmental agencies for seawall work, dock construction, or development near protected shoreline areas. We manage all of these permitting requirements as part of our pre-construction services.
+              </p>
+              <p className="mb-6">
+                Snell Isle represents the pinnacle of St. Petersburg residential addresses. Originally developed by Perry Snell in the 1920s, the island was designed as an exclusive community with generous lot sizes and bayfront access. Today, custom home construction on Snell Isle involves either new construction on rare available lots or comprehensive tear-down-and-rebuild projects that replace aging homes with modern construction designed for contemporary coastal living. The bayfront exposure, mature tree canopy, and neighborhood character expectations all influence design and construction decisions.
+              </p>
+              <p className="mb-6">
+                Shore Acres offers diverse waterfront opportunities ranging from open bay frontage to protected canal-front lots. The neighborhood's flood zone exposure, particularly in areas that experienced significant flooding in recent storm events, makes flood-resistant construction design paramount. Custom homes here must balance the desire for waterfront living with practical engineering for an area where storm surge risk is well documented. Isla del Sol, at the southern end of the peninsula near the Bayway, provides a more secluded waterfront setting with bayfront and intercoastal exposure. Tierra Verde, accessible via a bridge from the mainland peninsula, offers direct Gulf of Mexico waterfront and some of the most exposed coastal building sites in the St. Petersburg area.
+              </p>
+              <p>
+                The practical challenges of custom home construction in St. Petersburg extend beyond design and engineering. Material deliveries to waterfront sites often navigate narrow residential streets with limited staging space. Subcontractor scheduling must account for the peninsula's distance from mainland supply depots. Building during the rainy season requires careful scheduling of exterior work, particularly roofing and exterior envelope installation, to take advantage of morning dry periods before the typical afternoon thunderstorms. We manage these peninsula logistics through detailed planning and established relationships with suppliers and tradespeople who specialize in coastal residential construction.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
+      {/* Process Section */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why St. Petersburg Homeowners Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            St. Petersburg Custom Home Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Gem className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Uncompromising Quality</h3>
-              <p className="text-gray-600">
-                Every detail matters in a luxury home. Our quality control processes ensure premium finishes, precise millwork, and flawless execution throughout your St. Petersburg project.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Compass className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Design Collaboration</h3>
-              <p className="text-gray-600">
-                We work seamlessly with St. Petersburg's premier architects and designers, providing constructability review and value engineering to optimize your design for coastal living.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
-              <p className="text-gray-600">
-                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process in St. Petersburg.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured process designed for the unique requirements of peninsula luxury home construction.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Analysis and Feasibility",
+                description: "We evaluate your St. Petersburg lot for soil conditions, flood zone classification, setback requirements, tree preservation obligations, and utility infrastructure. For waterfront lots, we assess exposure profiles, seawall conditions, and environmental considerations. This analysis informs the architectural design parameters before the first line is drawn.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design Development and Engineering",
+                description: "Whether providing design-build services or coordinating with your architect, we ensure the custom home design is optimized for its specific peninsula location. Structural engineering addresses coastal wind loads and flood elevation requirements. Material specifications account for saltwater exposure. Mechanical systems are designed for the peninsula's humidity and salt air conditions.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting Through City of St. Petersburg",
+                description: "We manage the complete residential permitting process including building permits, flood zone compliance review, and any additional agency coordination required for waterfront properties. Our established relationships with city review staff support efficient processing of custom home permit applications.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Precision Construction",
+                description: "Experienced superintendents manage daily construction using our network of skilled Pinellas County subcontractors who specialize in premium residential work. We control quality at every phase, manage material procurement to prevent delays, and coordinate the complex sequencing that luxury custom homes require, particularly on waterfront sites with access and staging constraints.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Completion and Homeowner Orientation",
+                description: "Comprehensive punch list resolution, final inspections, Certificate of Occupancy, and a thorough homeowner orientation covering all building systems, smart home technology, maintenance requirements specific to the peninsula's coastal environment, and warranty documentation. We provide ongoing warranty support after move-in.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
       <FAQWithSchema
-        items={stPetersburgFaqs}
-        title="St. Petersburg Luxury Custom Homes FAQs"
-        description="Common questions about building luxury custom homes in St. Petersburg, Florida."
+        items={faqs}
+        title="St. Petersburg Luxury Custom Homes FAQ"
+        description="Common questions about luxury custom home construction in St. Petersburg, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="St. Petersburg" currentService="luxury-custom-homes" />
+            <NearbyLocations currentCity="St. Petersburg" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Build Your St. Petersburg Dream Home
+            Build Your St. Petersburg Waterfront Dream Home
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From Snell Isle waterfront estates to Old Northeast historic renovations, FCS brings exceptional craftsmanship to St. Petersburg's finest custom homes. Schedule a consultation to discuss your vision.
+            Contact Florida Construction Specialists to discuss your custom home vision for St. Petersburg. We will evaluate your site, review coastal construction requirements, and develop a plan that brings your vision to life on the peninsula.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Discuss Your Custom Home
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

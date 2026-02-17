@@ -1,19 +1,45 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, AlertTriangle, FileText, Wrench, Clock, Calendar, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase, AlertTriangle } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
-  title: "Balcony Reconstruction St. Petersburg | SB 4-D | FCS",
-  description: "Balcony Repair in St. Petersburg: full-service general contractor for commercial and residential. CBC-licensed, trusted since 1983. Request a free estimate.",
+  title: "Balcony Reconstruction St. Petersburg | SB 4-D Compliance | FCS",
+  description: "Balcony reconstruction in St. Petersburg by Florida Construction Specialists. Downtown high-rise condos, Isla del Sol waterfront towers, SB 4-D milestone inspections, HOA project management. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "Why does SB 4-D apply to virtually every multi-story building in St. Petersburg?",
+    answer: "St. Petersburg's narrow peninsula geography means the entire city falls within three miles of a coastline, whether that is Tampa Bay to the east, Boca Ciega Bay to the west, or the Gulf of Mexico to the southwest. Under SB 4-D, buildings within three miles of the coast must complete their first milestone structural inspection at 25 years rather than the 30-year standard that applies to inland buildings. Because no point in St. Petersburg exceeds this three-mile threshold, every building three stories or taller in the city is subject to the accelerated 25-year timeline. This affects a substantial number of properties, particularly the condominium buildings constructed during the downtown building booms of the 1980s and early 2000s."
+  },
+  {
+    question: "Which St. Petersburg neighborhoods have the highest concentration of buildings needing balcony reconstruction?",
+    answer: "Downtown St. Petersburg has the densest concentration of affected buildings, with high-rise condominium towers lining Beach Drive, the Pier District, and the Central Avenue corridor. These buildings, many constructed during the 2003 to 2008 development cycle, are now approaching or have passed their 25-year milestone. Isla del Sol and the barrier island communities of St. Pete Beach and Treasure Island contain waterfront towers with severe salt exposure that accelerates balcony deterioration. Shore Acres and Coquina Key feature mid-rise condominiums from the 1970s and 1980s that have long exceeded their inspection deadlines. The Gateway and Carillon corridor contains newer commercial and residential towers that will reach their milestones in the coming decade."
+  },
+  {
+    question: "How does bidirectional water exposure affect balcony deterioration differently in St. Petersburg compared to mainland cities?",
+    answer: "Most Florida coastal cities have salt air exposure from one direction. St. Petersburg receives it from multiple directions simultaneously because the peninsula is flanked by Tampa Bay, Boca Ciega Bay, and the Gulf of Mexico. This means that no building orientation provides natural protection. A balcony facing east receives Tampa Bay salt spray, while a balcony facing west receives Gulf-side exposure. Even interior-facing balconies on courtyard buildings experience salt deposition from prevailing winds that carry moisture across the narrow peninsula. The result is that reinforcing steel in balcony concrete corrodes more uniformly and more rapidly than in mainland coastal locations, and waterproofing membranes degrade from salt exposure regardless of which direction the balcony faces."
+  },
+  {
+    question: "What is the typical cost range for balcony reconstruction on a St. Petersburg high-rise condominium?",
+    answer: "Individual balcony reconstruction on St. Petersburg high-rise condominiums typically ranges from twenty thousand to forty-five thousand dollars per unit for comprehensive restoration including structural concrete repair, rebar treatment, new waterproofing membrane, and railing replacement. The per-unit cost is influenced by floor height, access logistics, and the extent of structural deterioration. Building-wide programs that address all balconies in a phased approach achieve better economics at twelve thousand to twenty-eight thousand per unit because mobilization, scaffolding, and engineering costs are spread across more units. Complete building programs for towers with fifty or more units commonly range from six hundred thousand to six million dollars. FCS develops detailed unit-by-unit assessments so associations can budget accurately for special assessments."
+  },
+  {
+    question: "How does FCS manage balcony reconstruction in occupied condominium buildings?",
+    answer: "Occupied building reconstruction requires a fundamentally different approach than working on vacant structures. FCS develops phased work plans that limit the number of units affected at any one time, typically working on one building face or one floor section at a time. We coordinate with property management on resident notifications, establish designated access routes for materials and equipment that avoid lobby and common areas during peak hours, and contain noise-generating work within specific time windows. For downtown St. Petersburg condominiums with ground-floor retail, we coordinate with commercial tenants separately. Balcony furniture and personal property removal and replacement is handled on a unit-by-unit schedule with advance notice. Our project managers maintain direct communication with HOA boards through regular progress updates and address resident concerns through a single point of contact."
+  },
+  {
+    question: "Can balcony reconstruction address both structural deficiencies and aesthetic upgrades simultaneously?",
+    answer: "Yes, and we recommend this approach whenever possible because it reduces total disruption and cost compared to performing the work in separate phases. When a building is already mobilized for structural balcony repair with scaffolding or swing stages in place, adding railing upgrades, surface finish improvements, or waterproofing enhancements is far more efficient than returning later for aesthetic work. Many St. Petersburg HOAs use the SB 4-D compliance requirement as an opportunity to update railing systems from deteriorating aluminum picket designs to modern glass, cable, or horizontal rail systems that enhance property values. FCS presents options during the assessment phase so boards can evaluate the full scope of possibilities and make informed decisions about combining structural and aesthetic improvements."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -22,126 +48,57 @@ const breadcrumbItems = [
   { name: "St. Petersburg", href: "/balcony-reconstruction-st-petersburg/" },
 ];
 
-const serviceTypes = [
-  {
-    type: "Structural Balcony Repair",
-    description: "Complete structural restoration including concrete repair, rebar treatment, and load-bearing element replacement for St. Pete's high-rise condos",
-    icon: Building2,
-  },
-  {
-    type: "Waterproofing Systems",
-    description: "Marine-grade waterproofing membranes designed for peninsula exposure with salt air and dual-coast weather patterns",
-    icon: Shield,
-  },
-  {
-    type: "Railing Replacement",
-    description: "Corrosion-resistant aluminum, glass, and cable railing systems meeting Florida Building Code and coastal requirements",
-    icon: Wrench,
-  },
-  {
-    type: "SB 4-D Compliance",
-    description: "Milestone inspection support for buildings 3+ stories—most St. Pete properties fall under 25-year coastal deadline",
-    icon: FileText,
-  },
-];
-
-const stPeteFaqs = [
-  {
-    question: "Why does St. Petersburg have so many condos requiring balcony reconstruction?",
-    answer: "St. Petersburg's peninsula geography means virtually the entire city is within 3 miles of the coastline, triggering SB 4-D's stricter 25-year milestone inspection requirement. The city experienced a major condo building boom in the 1980s-1990s, meaning thousands of units are now 25-40 years old. Combined with the peninsula's exposure to both Tampa Bay and the Gulf, salt air corrosion accelerates balcony deterioration. Areas like Downtown, Old Northeast, Snell Isle, and Coquina Key have particularly high concentrations of affected buildings.",
-  },
-  {
-    question: "How does St. Petersburg's peninsula location affect balcony deterioration?",
-    answer: "St. Petersburg is uniquely vulnerable because it's surrounded by water on three sides—Tampa Bay to the east, Boca Ciega Bay to the west, and the Gulf of Mexico to the southwest. This means salt air comes from multiple directions, and no building orientation fully escapes exposure. The city also has the highest lightning strike density in the United States, causing accelerated deterioration of metal components. Combined with 44 inches of annual rainfall and near-constant humidity, balconies in St. Pete deteriorate faster than inland locations.",
-  },
-  {
-    question: "What is the SB 4-D deadline for St. Petersburg condos?",
-    answer: "Because essentially all of St. Petersburg falls within 3 miles of the coastline, the stricter 25-year milestone inspection requirement applies citywide. Buildings that reached 25 years old before July 1, 2022 were required to have milestone inspections completed by December 31, 2024. Buildings reaching 25 years after that date must complete inspections within 2 years of that milestone. After the initial inspection, reinspection is required every 10 years. Non-compliance can result in fines and restrictions on unit sales.",
-  },
-  {
-    question: "How much does balcony reconstruction cost in St. Petersburg?",
-    answer: "St. Petersburg balcony reconstruction typically costs $18,000-$45,000 per balcony for comprehensive restoration—slightly higher than Tampa due to increased access challenges in older high-rises and marine-grade material requirements. Downtown high-rise condos with limited staging access may be 15-20% higher. Multi-unit projects achieve economies of scale at $10,000-$28,000 per unit. Building-wide programs for 50+ unit buildings range from $600,000 to $6 million depending on scope. FCS provides detailed assessments and phased payment options aligned with HOA special assessments.",
-  },
-  {
-    question: "Which St. Petersburg neighborhoods have the most balcony reconstruction needs?",
-    answer: "Downtown St. Petersburg has the highest concentration of high-rise condos requiring assessment, including towers along Beach Drive, the Pier District, and Central Avenue. Old Northeast features many mid-rise buildings from the 1970s-1990s now past their 25-year milestone. Snell Isle's waterfront condos face severe salt air exposure. Coquina Key's direct bay exposure accelerates deterioration. The Gateway area has newer stock but buildings from the late 1990s are now approaching deadlines. Tropicana Field redevelopment may also trigger requirements for nearby buildings.",
-  },
-  {
-    question: "Can balcony work be done during St. Pete's tourist season?",
-    answer: "Yes, though scheduling requires coordination. St. Petersburg's downtown and waterfront areas see increased activity from December through April. FCS schedules work to minimize disruption—noisy operations during daytime hours, advance notice to residents and neighboring businesses, and phased approaches that keep most units accessible. Some HOAs prefer to schedule major work in the summer months when part-time residents are away. We work with your board to determine optimal timing for your community.",
-  },
-  {
-    question: "Do you work with St. Petersburg's historic district condos?",
-    answer: "Yes, FCS has extensive experience with St. Petersburg's five historic districts, including Downtown, Old Northeast, Historic Kenwood, Roser Park, and Historic Uptown. Balcony reconstruction in historic districts requires additional coordination with the City's Historic Preservation Office. We help navigate design requirements while ensuring structural integrity and SB 4-D compliance. In many cases, railing designs and finishes must complement the building's historic character while meeting current safety codes.",
-  },
-  {
-    question: "What waterproofing methods work best for St. Petersburg's climate?",
-    answer: "St. Petersburg's unique peninsula exposure requires marine-grade waterproofing systems. FCS installs multi-layer systems including: penetrating sealers for concrete substrate protection, elastomeric polyurethane membranes with enhanced salt resistance, reinforced coating systems at wall-deck junctions (common failure points), proper slope correction for St. Pete's heavy afternoon rains, and UV-stable traffic coatings rated for Florida's intense sun. We also address flashing and threshold details that often fail in peninsula conditions.",
-  },
-];
-
-const costData = [
-  { scope: "Minor Repairs (per balcony)", range: "$4,000 - $10,000", timeline: "2-4 days", description: "Crack repair, coating renewal, minor concrete patching" },
-  { scope: "Moderate Restoration (per balcony)", range: "$10,000 - $25,000", timeline: "5-10 days", description: "Structural repairs, waterproofing, railing refurbishment" },
-  { scope: "Full Reconstruction (per balcony)", range: "$25,000 - $45,000", timeline: "10-15 days", description: "Complete demo and rebuild, new railings, full waterproofing" },
-  { scope: "Multi-Unit Project (per unit)", range: "$10,000 - $28,000", timeline: "Varies", description: "Economies of scale for 10+ unit projects" },
-  { scope: "Building-Wide Program", range: "$600K - $6M+", timeline: "4-12 months", description: "Comprehensive restoration for entire building" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Testing", description: "Structural evaluation, concrete testing, moisture mapping, and scope development with licensed engineers" },
-  { step: 2, title: "HOA/Board Presentation", description: "Detailed proposals, cost options, and timeline presentations for association decision-making" },
-  { step: 3, title: "Engineering & Permits", description: "Structural engineering drawings, City of St. Petersburg permit applications, and compliance documentation" },
-  { step: 4, title: "Mobilization & Phasing", description: "Site setup, resident notification, and phased work schedule to minimize disruption" },
-  { step: 5, title: "Structural Restoration", description: "Concrete repair, rebar treatment, structural reinforcement, and code-required upgrades" },
-  { step: 6, title: "Waterproofing & Finishes", description: "Marine-grade waterproofing, railings, coatings, and final inspections with warranty documentation" },
-];
-
 export default function BalconyReconstructionStPetersburgPage() {
   return (
     <>
       <LocalBusinessSchema city="St. Petersburg" service="Balcony Reconstruction" />
       <ServiceSchema
-        serviceName="Balcony Reconstruction and Waterproofing"
-        serviceDescription="Expert balcony reconstruction and waterproofing for St. Petersburg condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance for peninsula properties, structural repairs, and HOA project management. Projects from $100,000 to $10 million."
+        serviceName="Balcony Reconstruction"
+        serviceDescription="Balcony reconstruction and SB 4-D compliance in St. Petersburg, FL. Downtown high-rise condos, Isla del Sol waterfront towers, Shore Acres mid-rises, HOA project management, structural restoration. Licensed CBC1262722, 40+ years experience."
         city="St. Petersburg"
         minPrice="100000"
-        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
+        serviceCategories={["Structural Balcony Repair", "SB 4-D Compliance", "Waterproofing Membranes", "Railing Replacement", "HOA Project Management"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Balcony Reconstruction Services in St. Petersburg, FL"
-        description="Comprehensive guide to balcony reconstruction for St. Petersburg condos and apartments. Learn about SB 4-D compliance for peninsula properties, costs, timelines, and working with HOAs on balcony restoration projects."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/balcony-reconstruction-st-petersburg/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">St. Petersburg, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving St. Petersburg, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Balcony Reconstruction in St. Petersburg
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Balcony Reconstruction in St. Petersburg, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Pinellas County's trusted contractor for condo and apartment balcony reconstruction. SB 4-D milestone inspection compliance for St. Pete's peninsula properties, structural repairs, and marine-grade waterproofing. We work directly with HOAs and property managers on projects from $100K to $10M+.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              St. Petersburg's peninsula location places every multi-story building under SB 4-D's accelerated 25-year inspection timeline. Florida Construction Specialists provides comprehensive balcony reconstruction for downtown high-rises, waterfront condominium towers, and mid-rise buildings across Pinellas County, managing the full process from structural assessment through HOA coordination and final inspection.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Request Balcony Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -150,208 +107,173 @@ export default function BalconyReconstructionStPetersburgPage() {
         </div>
       </section>
 
-      {/* SB 4-D Alert Banner */}
-      <section className="py-4 bg-amber-50 border-y border-amber-200">
-        <div className="container-custom">
-          <div className="flex items-center justify-center gap-3 text-amber-800">
-            <AlertTriangle className="w-6 h-6 flex-shrink-0" />
-            <p className="font-semibold">
-              <strong>SB 4-D Alert:</strong> All St. Petersburg buildings 3+ stories require 25-year milestone inspections (entire city is within 3-mile coastal zone).
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">SB 4-D Specialists</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">100+ Condo Buildings</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">HOA Specialists</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* St. Petersburg Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                St. Petersburg's Balcony Reconstruction Experts
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Pinellas County's trusted contractor for balcony reconstruction and waterproofing. St. Petersburg's unique peninsula geography means virtually the entire city falls under SB 4-D's stricter 25-year coastal inspection requirements—making timely balcony assessment critical for condo associations throughout the city.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              The Peninsula Problem: Why Every St. Petersburg Building Faces the 25-Year Deadline
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                SB 4-D's milestone inspection requirement divides Florida into two zones: buildings within three miles of a coastline must be inspected at 25 years, while inland buildings receive an additional five years at the 30-year mark. St. Petersburg is the rare city where this distinction is irrelevant. The narrow peninsula that defines the city's geography means no point within the municipal boundary exceeds the three-mile coastal threshold. Every condominium, apartment building, and commercial structure three stories or taller falls under the accelerated timeline, creating an inspection and repair demand that is proportionally greater than almost any other Florida municipality.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                St. Petersburg's waterfront location presents unique challenges for balcony construction. Properties along Beach Drive, the Pier District, Central Avenue, and throughout Downtown face accelerated deterioration from salt air exposure from multiple directions, the nation's highest lightning strike density, and heavy seasonal rainfall. Our team has restored balconies at condominiums throughout St. Petersburg, from high-rise towers downtown to waterfront communities in Old Northeast and Snell Isle.
+              <p className="mb-6">
+                The scale of the challenge becomes apparent when you consider the building inventory. Downtown St. Petersburg experienced two major condominium construction cycles -- the first in the late 1970s through mid-1980s and the second during the 2003 to 2008 development boom. Buildings from the earlier cycle are now 40 to 50 years old and many have already exceeded their reinspection intervals. Buildings from the later cycle are approaching or have recently crossed the 25-year threshold. Meanwhile, established waterfront communities like Isla del Sol, Shore Acres, and Coquina Key contain mid-rise condominium buildings from the 1970s and 1980s that have been subject to decades of direct bay exposure without the structural maintenance that current standards demand.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Balcony Reconstruction Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why St. Petersburg Condos Need Balcony Assessment
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Peninsula-Wide Coastal Rules:</strong> Entire city falls within 3-mile coastal zone—all 3+ story buildings require 25-year milestone inspections under SB 4-D</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Multi-Directional Salt Exposure:</strong> Tampa Bay, Boca Ciega Bay, and Gulf exposure means salt air corrosion from every direction</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>1980s-1990s Building Stock:</strong> Downtown renaissance brought thousands of condo units now 25-40 years old and requiring assessment</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>High-Rise Challenges:</strong> St. Pete's downtown high-rises require specialized access equipment and phased construction</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Request a Balcony Assessment for Your St. Petersburg Building <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">HOA & Property Managers</h3>
-                <p className="text-gray-200 mb-4">
-                  Request a complimentary assessment and proposal for your St. Petersburg condo building.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              {/* SB 4-D Info Box */}
-              <div className="bg-amber-50 border border-amber-200 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-amber-800 mb-3">SB 4-D Quick Facts</h3>
-                <ul className="space-y-2 text-amber-700 text-sm">
-                  <li>• 3+ story buildings must be inspected</li>
-                  <li>• St. Pete: 25 years (entire city coastal)</li>
-                  <li>• Reinspection every 10 years after</li>
-                  <li>• Penalties for non-compliance</li>
-                  <li>• Affects unit resale and financing</li>
-                </ul>
-                <Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-amber-800 font-semibold text-sm mt-3 inline-block hover:underline">
-                  Read Full SB 4-D Guide →
-                </Link>
-              </div>
-
-              <RelatedServices city="St. Petersburg" currentService="balcony-reconstruction" />
-              <NearbyLocations currentCity="St. Petersburg" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+              <p className="mb-6">
+                The bidirectional salt exposure that characterizes the peninsula compounds the structural urgency. Most coastal Florida cities have a clearly defined ocean side and a protected inland side. St. Petersburg has neither. Tampa Bay lies to the east, Boca Ciega Bay to the west, and the Gulf of Mexico to the southwest. Salt-laden air reaches balconies from every direction, and prevailing winds shift seasonally, meaning no building orientation provides consistent protection. Reinforcing steel in balcony concrete corrodes uniformly rather than preferentially on one face, and waterproofing membranes degrade under constant salt deposition regardless of which direction the balcony faces. This pattern of deterioration is measurably more aggressive than what we encounter in mainland coastal cities.
+              </p>
+              <p>
+                Florida Construction Specialists has reconstructed balconies at condominium buildings throughout St. Petersburg, from the glass towers along Beach Drive to the established communities of Isla del Sol and the mid-rises of Shore Acres. We function as the prime contractor on every project, managing structural engineering coordination, the City of St. Petersburg permitting process, HOA board presentations, and the phased construction approach that occupied buildings require. Our principal's background as an Executive General Adjuster provides additional depth in evaluating structural conditions and developing repair scopes that address the root causes of deterioration rather than just the visible symptoms.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-display.webp"
+        alt="Balcony tile restoration on a St. Petersburg condominium"
+        title="Restoring St. Petersburg's Condominium Balconies"
+        subtitle="Structural repair, waterproofing, and railing systems for peninsula properties under SB 4-D"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            St. Petersburg Balcony Reconstruction Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Balcony Reconstruction Services for St. Petersburg Condominiums
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Costs vary based on balcony size, deterioration extent, and access requirements. St. Petersburg's high-rise concentration and marine environment typically require marine-grade materials and specialized access.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Project Scope</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Includes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.scope}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.description}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Actual costs depend on specific conditions. Contact FCS for detailed assessment and proposal.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Balcony Reconstruction Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            FCS manages balcony reconstruction from initial assessment through warranty completion, with special attention to St. Pete's HOA processes and historic district requirements.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Comprehensive structural and waterproofing capabilities for the peninsula's unique exposure conditions.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Building2,
+                title: "Structural Concrete Restoration",
+                description: "Assessment and repair of deteriorated balcony concrete including spall repair, rebar exposure treatment, carbon fiber reinforcement, and complete slab replacement when deterioration exceeds repair thresholds. We address the chloride contamination from salt air that accelerates rebar corrosion in peninsula buildings, using corrosion inhibitors and cathodic protection where conditions warrant."
+              },
+              {
+                icon: Shield,
+                title: "Marine-Grade Waterproofing",
+                description: "Multi-layer waterproofing systems designed for bidirectional salt exposure including penetrating sealers for concrete substrate protection, elastomeric polyurethane traffic membranes with enhanced salt resistance, and UV-stable topcoats rated for St. Petersburg's intense solar exposure. Proper slope correction addresses ponding water that causes accelerated membrane failure during the peninsula's heavy afternoon rainstorms."
+              },
+              {
+                icon: HardHat,
+                title: "Railing System Replacement",
+                description: "Removal of corroded railing systems and installation of code-compliant replacements using marine-grade aluminum, tempered glass, stainless steel cable, or composite materials. We help HOA boards evaluate options that balance durability in the salt air environment with aesthetic preferences and budget constraints, providing samples and mock-ups for board review before full installation."
+              },
+              {
+                icon: FileCheck,
+                title: "SB 4-D Milestone Compliance",
+                description: "Coordination with licensed structural engineers for milestone inspections, Phase 2 assessment support when Phase 1 identifies concerns, and execution of repair plans that bring buildings into full compliance. We help associations understand their obligations, develop realistic timelines and budgets, and navigate the relationship between inspection findings and the repair scope required to achieve compliance."
+              },
+              {
+                icon: Briefcase,
+                title: "HOA and Board Management",
+                description: "FCS understands condominium governance. We prepare and deliver detailed presentations for board meetings and owner votes, develop phased payment structures aligned with special assessment schedules, and maintain transparent communication throughout the project. Our proposals include the level of documentation that boards need for fiduciary decision-making and that lenders require for unit financing."
+              },
+              {
+                icon: AlertTriangle,
+                title: "Emergency Stabilization",
+                description: "When milestone inspections reveal unsafe conditions requiring immediate attention, FCS provides emergency stabilization including temporary shoring, barrier installation, load restriction implementation, and expedited permanent repairs. Our response capabilities allow us to secure dangerous conditions quickly while developing the comprehensive repair plan that the building ultimately requires."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Balcony Conditions Across St. Petersburg's Distinct Building Communities
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                St. Petersburg's condominium inventory spans multiple decades of construction and occupies dramatically different environments across the peninsula. Understanding the specific conditions that affect each building community is essential to developing appropriate repair scopes and realistic budgets.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> processes building permits for balcony reconstruction projects. We manage the permit application process, coordinate required inspections during construction, and ensure that completed work meets both the Florida Building Code and the structural engineer's specifications. For buildings in the city's five historic districts, additional coordination with the Community Planning and Preservation Commission may be required when balcony work affects exterior appearance.
+              </p>
+              <p className="mb-6">
+                Downtown St. Petersburg's high-rise towers present the most logistically complex balcony projects. Buildings along Beach Drive, the Pier District, and Central Avenue typically range from ten to thirty stories, requiring specialized access equipment including swing stages, mast climbers, or suspended scaffolding systems. Street-level staging must be coordinated with city right-of-way permits, and work schedules must account for pedestrian traffic in St. Petersburg's increasingly active downtown core. Many of these towers were built during the 2003 to 2008 construction cycle using post-tensioned concrete systems, which requires specialized expertise when performing structural repairs that intersect with tensioning cables.
+              </p>
+              <p className="mb-6">
+                Isla del Sol, the residential island community accessible from the Pinellas Bayway, contains condominium towers directly on the bay with the most severe salt exposure conditions in the St. Petersburg market. Buildings here face open water on multiple sides, and the combination of wind-driven salt spray and reflected UV from the water surface creates deterioration rates that exceed even downtown waterfront properties. Balcony railings on Isla del Sol towers frequently show advanced corrosion within fifteen to twenty years, and concrete spalling from rebar corrosion is common on buildings that did not receive adequate waterproofing treatment during original construction.
+              </p>
+              <p>
+                Shore Acres, Coquina Key, and the neighborhoods surrounding Coffee Pot Bayou contain older mid-rise condominium buildings from the 1970s and 1980s that present a different set of challenges. These buildings typically have smaller footprints, lower height profiles, and simpler structural systems compared to downtown towers, but they have endured decades more exposure to the salt environment. Many were built before modern waterproofing standards and corrosion protection requirements, and deferred maintenance during the decades before SB 4-D created enforcement mechanisms means that deterioration is often more advanced than owners expect. FCS frequently encounters conditions in these older buildings where what appears to be cosmetic surface damage actually extends to structural reinforcing steel requiring more comprehensive repair than originally anticipated.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            St. Petersburg Balcony Reconstruction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured approach from initial assessment through warranty completion, designed for the complexities of occupied condominium buildings.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Structural Assessment and Testing",
+                description: "Licensed structural engineers evaluate balcony conditions through visual inspection, concrete core sampling, chloride content testing, and delamination surveys. We document conditions on a unit-by-unit basis to identify the full scope of deterioration and develop repair specifications tailored to the building's specific structural system and exposure conditions.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "HOA Board Presentation and Budgeting",
+                description: "We present assessment findings and repair options to the HOA board with detailed cost projections, phasing alternatives, and timeline estimates. Our proposals include the documentation boards need for owner vote packages and lender communications, including unit-by-unit scope breakdowns that support equitable special assessment allocation.",
+                icon: Briefcase,
+              },
+              {
+                step: "03",
+                title: "Engineering and Permitting",
+                description: "Structural engineering drawings are prepared for the specific repair methods at each unit. We submit permit applications to the City of St. Petersburg Development Services Department, coordinate plan review responses, and secure approvals before mobilization. For buildings in historic districts, we manage the Certificate of Appropriateness process concurrently.",
+                icon: Building2,
+              },
+              {
+                step: "04",
+                title: "Phased Construction",
+                description: "Work proceeds in phases designed to minimize resident disruption, typically addressing one building face or floor section at a time. Concrete repair, rebar treatment, waterproofing installation, and railing replacement follow a sequenced workflow that maintains quality control at each stage. Daily cleanup and noise management protocols protect the occupied building environment.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Inspection, Documentation, and Warranty",
+                description: "City building inspections verify code compliance at required milestones. We compile comprehensive documentation including structural engineer certifications, material test reports, photographs of concealed conditions and repairs, and warranty certificates. This documentation package supports the building's SB 4-D compliance record and provides a baseline for the 10-year reinspection cycle.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -359,121 +281,48 @@ export default function BalconyReconstructionStPetersburgPage() {
         </div>
       </section>
 
-      {/* St. Pete Condo Stats */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                St. Petersburg Condo Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has restored balconies at condo buildings throughout St. Petersburg, from downtown high-rises to waterfront communities along Tampa Bay. Our team understands Pinellas County's unique challenges, HOA governance, and the city's historic preservation requirements.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Historic District Experience:</strong> Work with all five St. Pete historic districts and the Historic Preservation Office</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>High-Rise Specialists:</strong> Equipment and expertise for downtown towers with specialized access needs</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Marine-Grade Materials:</strong> Salt-resistant systems designed for peninsula exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>City of St. Petersburg Expertise:</strong> Established relationships with Development Services for efficient permitting</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Condo Buildings</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$30M+</div>
-                <div className="text-gray-300 text-sm">Balcony Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Calendar className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Waterproofing Warranty</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why St. Petersburg HOAs Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. Your HOA gets direct accountability and single-point responsibility for the entire project.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">SB 4-D Compliance</h3>
-              <p className="text-gray-600">
-                We work with structural engineers to address milestone inspection findings and bring your building into full compliance with Florida's 25-year coastal requirement.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Users className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">HOA Expertise</h3>
-              <p className="text-gray-600">
-                We understand condo governance—from board presentations to special assessments to resident communication. We make complex projects manageable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={stPeteFaqs}
-        title="St. Petersburg Balcony Reconstruction FAQs"
-        description="Common questions about balcony reconstruction, SB 4-D compliance, and HOA projects in St. Petersburg, Florida."
+        items={faqs}
+        title="St. Petersburg Balcony Reconstruction FAQ"
+        description="Common questions about balcony reconstruction and SB 4-D compliance for condominium buildings in St. Petersburg, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="St. Petersburg" currentService="balcony-reconstruction" />
+            <NearbyLocations currentCity="St. Petersburg" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            St. Petersburg Balcony Reconstruction Experts
+            Schedule Your Balcony Assessment
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From SB 4-D compliance to full balcony restoration, FCS is St. Petersburg's trusted partner for condo and apartment balcony reconstruction. Contact us for a complimentary assessment.
+            Contact Florida Construction Specialists to assess your St. Petersburg condominium's balcony conditions and develop a compliance plan that addresses SB 4-D requirements while protecting your building's structural integrity and property values.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request Balcony Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>SB 4-D Specialists</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
