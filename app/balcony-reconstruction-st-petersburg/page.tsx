@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
@@ -82,7 +83,7 @@ export default function BalconyReconstructionStPetersburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -128,6 +129,14 @@ export default function BalconyReconstructionStPetersburgPage() {
                 Florida Construction Specialists has reconstructed balconies at condominium buildings throughout St. Petersburg, from the glass towers along Beach Drive to the established communities of Isla del Sol and the mid-rises of Shore Acres. We function as the prime contractor on every project, managing structural engineering coordination, the City of St. Petersburg permitting process, HOA board presentations, and the phased construction approach that occupied buildings require. Our principal's background as an Executive General Adjuster provides additional depth in evaluating structural conditions and developing repair scopes that address the root causes of deterioration rather than just the visible symptoms.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Milestone Inspections — Balcony Structural Elements"
+              description="SB 4-D milestone inspections evaluate balcony structural connections, reinforcing steel condition, and waterproofing integrity. St. Petersburg's peninsula geography places every condo building within the 3-mile coastal zone, requiring inspection at 25 years rather than 30. Balconies subject to bidirectional salt exposure deteriorate faster than single-coast properties."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

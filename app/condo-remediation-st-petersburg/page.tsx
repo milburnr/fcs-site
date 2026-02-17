@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-st-petersburg/' },
@@ -82,7 +83,7 @@ export default function CondoRemediationStPetersburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -128,6 +129,14 @@ export default function CondoRemediationStPetersburgPage() {
                 Florida Construction Specialists brings a combination of structural construction expertise and insurance industry understanding to condo remediation in St. Petersburg. Our principal's background as an Executive General Adjuster provides insight into the intersection of structural repair and insurance claims that many contractors lack. When remediation costs are significant, understanding how to document work for insurance and reserve fund purposes directly benefits association boards navigating expensive repair programs.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Milestone Inspections for Condominium and Cooperative Buildings"
+              description="Requires structural inspections of condominium buildings 3 stories or higher. St. Petersburg's entire peninsula falls within the 3-mile coastal zone, triggering the accelerated 25-year inspection timeline for virtually every condo building in the city. Associations must complete remediation of identified deficiencies."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

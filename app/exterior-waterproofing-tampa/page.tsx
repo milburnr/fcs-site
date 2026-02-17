@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/" },
@@ -134,6 +135,14 @@ export default function ExteriorWaterproofingTampaPage() {
             <p className="text-lg text-gray-700">
               Florida Construction Specialists has waterproofed buildings across every Tampa submarket since 1982. From the glass-curtain office towers in the Westshore Business District to the historic masonry buildings of Ybor City, from the luxury condominiums on Davis Islands to the medical campuses near Tampa General Hospital, FCS brings the diagnostic capability and manufacturer-certified installation expertise that Tampa's building stock demands.
             </p>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Waterproofing as a Milestone Inspection Element"
+              description="SB 4-D milestone inspections evaluate waterproofing membrane integrity as part of the structural assessment for condominium buildings 3+ stories. Failed waterproofing that allows moisture intrusion into structural elements can trigger remediation requirements under the statute."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

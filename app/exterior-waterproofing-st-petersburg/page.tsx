@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
@@ -82,7 +83,7 @@ export default function ExteriorWaterproofingStPetersburgPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -128,6 +129,14 @@ export default function ExteriorWaterproofingStPetersburgPage() {
                 Florida Construction Specialists has protected St. Petersburg buildings from water intrusion for over two decades, functioning as the prime contractor on every project. We specify and install marine-grade waterproofing systems from manufacturers whose products are tested and warranted for severe coastal exposure. Our 10-year workmanship warranty reflects confidence in both the products we select and the installation quality our crews deliver. We work with building owners, property managers, condominium associations, and architects to develop waterproofing solutions that address the specific conditions each building faces on the peninsula.
               </p>
             </div>
+
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Waterproofing as a Milestone Inspection Element"
+              description="SB 4-D milestone inspections evaluate waterproofing membrane integrity as part of the structural assessment for condominium buildings. On the St. Petersburg peninsula, where bidirectional salt exposure accelerates waterproofing degradation, failed membranes that allow moisture into structural elements frequently trigger remediation requirements."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>
