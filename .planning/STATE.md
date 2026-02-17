@@ -146,6 +146,9 @@ Recent decisions affecting current work:
 - [Phase 05-02]: Peninsula geography as unifying theme: bidirectional salt exposure, no protected building orientation, citywide SB 4-D applicability
 - [Phase 05-02]: Unique parallax images per page, no overlap with Tampa image assignments
 - [Phase 05-02]: SB 4-D citywide applicability (entire city within 3-mile coastal zone) referenced in condo-remediation, balcony, waterproofing pages
+- [Phase 05-07]: Brandon is unincorporated CDP -- all pages reference Hillsborough County Building Services, never "City of Brandon"
+- [Phase 05-07]: Each Brandon page uses unique hero + parallax images distinct from all other cities
+- [Phase 05-07]: Suburban communities differentiated: FishHawk Ranch (luxury), Valrico (historic homes), Lithia (acreage estates)
 
 ### Pending Todos
 
@@ -160,5 +163,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 05-03-PLAN.md (Clearwater location pages)
-Resume file: .planning/phases/05-location-page-strengthening/05-04-PLAN.md
+Stopped at: Completed 05-07-PLAN.md (Brandon location pages)
+Resume file: .planning/phases/05-location-page-strengthening/05-08-PLAN.md
