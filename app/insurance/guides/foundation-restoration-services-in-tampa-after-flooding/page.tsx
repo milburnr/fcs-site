@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/' },
@@ -79,6 +80,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Foundation Restoration in Tampa After Flooding
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with effective foundation repair,water damage repair,and flood damag
           </p>
@@ -104,7 +106,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Flooding poses the most serious threat to foundation integrity in Tampa Bay, where flat topography and frequent storms create conditions that can undermine even well-built foundations. Florida Construction Specialists has provided expert foundation restoration services in Tampa for over 43 years, understanding that flood-damaged foundations require immediate attention to prevent structural failure and costly repairs. Our comprehensive foundation restoration services address both immediate damage and long-term stability, ensuring that your property remains safe, structurally sound, and protected against future flooding events.
-              </p>
+               With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Understanding Flood Damage Impact on Tampa Foundations

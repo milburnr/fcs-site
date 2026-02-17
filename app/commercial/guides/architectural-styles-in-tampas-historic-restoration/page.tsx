@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/architectural-styles-in-tampas-historic-restoration/' },
@@ -111,6 +112,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Architectural Styles in Tampa&apos;s Historic Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding Tampa&apos;s diverse architectural heritage—from Mediterranean Revival grandeur to Vernacular simplicity—is essential for authentic preservation and restoration.
           </p>
@@ -136,7 +138,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa&apos;s built environment tells the story of a city shaped by Cuban and Spanish immigrants, the cigar industry, railroad expansion, and Florida&apos;s real estate booms. From the ornate social clubs of Ybor City to the gracious homes of Hyde Park, each historic structure reflects the architectural traditions and craftsmanship of its era. Successful historic restoration requires not only technical expertise but deep understanding of these distinctive architectural styles.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <p className="text-gray-600 mb-6">
                 Florida Construction Specialists has restored buildings representing every major architectural style found in Tampa&apos;s historic districts. Our craftsmen understand the materials, techniques, and design principles that define each style—knowledge essential for restorations that satisfy both the Secretary of the Interior&apos;s Standards and Tampa&apos;s local preservation commissions.

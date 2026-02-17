@@ -7,6 +7,7 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/com
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/condo-milestone-inspection-remediation/' },
@@ -110,6 +111,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Florida Condo Milestone Inspection Remediation
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Your Phase 2 inspection revealed structural deficiencies. The 365-day clock has started. Florida Construction Specialists is your trusted partner for expert remediation throughout Tampa Bay.
             </p>

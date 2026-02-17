@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Stylish Balcony Railing Designs for Your High-Rise
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Premium railing systems for Tampa Bay condominiums combining safety compliance, durability, and contemporary design.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Balcony railings on high-rise condominiums serve critical safety functions while significantly influencing building aesthetics and unit values. The right railing system enhances views, creates visual interest, and communicates quality—all while meeting stringent Florida Building Code requirements for safety and structural performance. Florida Construction Specialists provides expert railing design, fabrication, and installation services for high-rise buildings throughout Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               Following Florida's SB 4-D legislation, balcony railings receive particular attention during milestone structural inspections. Corroded anchors, deteriorated posts, and compromised connections represent safety hazards that inspectors specifically evaluate. Our railing systems incorporate design features that enhance long-term durability, simplify future inspections, and protect associations from the maintenance challenges that burden many aging buildings.

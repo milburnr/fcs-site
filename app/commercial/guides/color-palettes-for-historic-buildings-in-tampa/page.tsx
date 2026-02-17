@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/color-palettes-for-historic-buildings-in-tampa/' },
@@ -54,6 +55,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Color Palettes for Historic Buildings in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Selecting historically accurate and aesthetically appropriate colors for Tampa's landmark buildings—from Victorian polychromy to Mediterranean Revival earth tones.
           </p>

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-value-engineering-for-construction/' },
@@ -202,6 +203,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Unleashing the Benefits of Value Engineering for Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Maximize value in your Florida commercial construction project. Discover how systematic analysis delivers cost savings, improved efficiency, and better building performance.
           </p>
@@ -230,7 +232,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 Value engineering (VE) is a systematic method for improving the value of a construction project by examining its functions. The goal isn't simply to cut costs—it's to achieve required functions at the lowest lifecycle cost while maintaining or improving quality, performance, and safety.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
               <p className="text-gray-600 mb-6">
                 Value engineering asks a fundamental question: What does this element need to accomplish, and is there a better way to accomplish it? Often, the answer reveals alternatives that designers didn't consider—materials that perform better at lower cost, systems that are more efficient to install, or configurations that reduce waste.
               </p>

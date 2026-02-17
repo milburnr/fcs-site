@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/subcontractors-in-florida-commercial-construction/' },
@@ -145,6 +146,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Subcontractors in Florida Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             How skilled trade partnerships drive successful commercial construction projects throughout Tampa Bay and Florida.
           </p>
@@ -169,7 +171,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Behind every successful commercial construction project in Florida stands a network of skilled subcontractors whose expertise makes complex buildings possible. While general contractors manage and coordinate construction projects, subcontractors perform the specialized trade work that transforms designs into functional buildings—from electrical and plumbing systems to structural steel and finish carpentry.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Understanding how subcontractors function within the commercial construction ecosystem helps project owners appreciate what goes into their buildings and why contractor selection matters so much. The relationships a general contractor maintains with quality subcontractors directly impacts project quality, schedule performance, and cost control.
             </p>

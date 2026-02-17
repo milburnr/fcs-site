@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/' },
@@ -164,6 +165,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Essential Tips for Post-Construction in Florida's Commercial Sector
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Successfully closing out your commercial construction project in Tampa Bay requires systematic attention to inspections, documentation, and Florida-specific requirements. Learn how to ensure a smooth transition from construction to operation.
           </p>
@@ -206,7 +208,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               The construction may be complete, but your project isn't truly finished until post-construction activities are properly executed. In Florida's commercial sector, this phase is particularly critical due to our unique climate challenges, strict building codes, and the long-term implications of proper closeout on building performance.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Many building owners rush through post-construction, eager to occupy their new space and begin operations. This haste often creates problems that persist for years—warranty coverage gaps, missing documentation that complicates future maintenance, unresolved defects that worsen over time, and systems that never perform as designed because commissioning was incomplete.
             </p>

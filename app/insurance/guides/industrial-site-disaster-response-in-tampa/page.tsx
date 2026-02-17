@@ -11,6 +11,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-site-disaster-response-in-tampa/' },
@@ -298,6 +299,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Industrial Site Disaster Response in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
@@ -321,7 +323,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               When disaster strikes your industrial facility, every hour counts. Business interruption losses can dwarf physical damage costs. Equipment sits idle. Customers can't be served. Employees can't work. The pressure to restore operations is immense.
-            </p>
+             With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay's industrial sector faces unique vulnerabilities: hurricane exposure during a six-month season, flood-prone locations near the port and waterways, and aging infrastructure in some industrial corridors. A well-prepared disaster response can mean the difference between weeks of downtime and months.
             </p>

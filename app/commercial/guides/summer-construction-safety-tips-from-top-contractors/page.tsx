@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/summer-construction-safety-tips-from-top-contractors/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Summer Construction Safety Tips from Top Tampa Contractors
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert guidance on protecting construction workers during Florida's brutal summer months, including OSHA heat illness prevention, storm safety protocols, and best practices from Tampa Bay's leading commercial contractors.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Summer construction in Florida presents some of the most challenging working conditions in the country. With heat indices regularly exceeding 100°F, near-daily afternoon thunderstorms, intense UV radiation, and hurricane threats, Tampa Bay construction crews face hazards that demand specialized safety protocols. Florida Construction Specialists has developed comprehensive summer safety programs that protect workers while maintaining productivity throughout the region's hottest months.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tenant-improvement-contractors-tampa/' },
@@ -127,6 +128,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Expert Tenant Improvement Contractors
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             From corporate offices to medical practices to retail storefronts, Florida Construction Specialists delivers tenant improvements that meet deadlines, respect budgets, and create spaces where businesses thrive.
           </p>

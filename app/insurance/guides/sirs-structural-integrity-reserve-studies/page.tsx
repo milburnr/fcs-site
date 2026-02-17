@@ -14,6 +14,7 @@ import {
   DollarSign,
   Scale,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -291,6 +292,7 @@ export default function SIRSStructuralIntegrityReserveStudiesPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               SIRS: Structural Integrity Reserve Studies
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Understanding Florida&apos;s mandatory reserve requirements for condominium
               buildings. What SB 4-D means for your association&apos;s financial planning.

@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/claims-negotiation-for-property-damage-in-tampa/' },
@@ -55,6 +56,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Claims Negotiation for Property Damage in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert Tampa claims negotiation services for property damage. Our skilled team streamlines property damage claims, ensuring you receive fair settlemen
           </p>

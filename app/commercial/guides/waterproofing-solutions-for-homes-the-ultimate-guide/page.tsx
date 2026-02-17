@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Waterproofing Solutions for Residential Buildings: The Ultimate Guide
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive waterproofing systems for high-rise condominiums protecting balconies, parking structures, and building envelopes throughout Tampa Bay.
           </p>

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/how-technology-is-revolutionizing-the-construction-process/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             How Technology Is Revolutionizing the Construction Process
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             From BIM and drones to project management platforms and prefabrication, technology transforms how we build. Florida Construction Specialists embraces innovation to deliver better projects—faster, more efficiently, and with higher quality.
           </p>

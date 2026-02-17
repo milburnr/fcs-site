@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-building-codes-for-insurance-restoration/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Building Codes for Insurance Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding Florida Building Code requirements for insurance restoration. Navigate wind mitigation, flood regulations, and code upgrade requirements for your Tampa Bay commercial property.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               The Florida Building Code establishes some of the nation's most stringent construction requirements, designed to protect buildings from hurricanes, flooding, and other hazards common to Florida. When restoring commercial property after damage, you must comply with current code requirements—often more demanding than when your building was originally constructed. Understanding these requirements helps you plan restoration projects, budget appropriately, and ensure your insurance claim includes code upgrade costs.
-            </p>
+             With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

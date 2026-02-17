@@ -7,6 +7,7 @@ import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/insurance-arbitration-appraisal/' },
@@ -139,6 +140,7 @@ export default function InsuranceArbitrationAppraisalPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight text-white">
               Insurance Arbitration & Appraisal Services
             </h1>
+            <AuthorByline />
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
               Serving as appraiser or umpire in insurance claim disputes under the appraisal clause. With 43+ years in construction and insurance claims—including direct experience as both carrier adjuster and policyholder advocate—Florida Construction Specialists brings unmatched perspective to fair claim resolution.
             </p>

@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, RefreshCw, Building2, Hammer, FileCh
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Complete Property Overhaul After Disasters in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             When disaster damage is extensive, complete property overhaul offers a path to a better building. Total reconstruction services for Tampa Bay commercial properties damaged beyond economical repair.
           </p>

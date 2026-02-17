@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-ideas-for-mall-revamp/' },
@@ -341,6 +342,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Revamp Your Mall with Commercial Construction Innovation
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform underperforming retail into thriving destinations. Florida Construction Specialists delivers mall conversions, adaptive reuse, and mixed-use repositioning throughout Tampa Bay.
           </p>

@@ -5,11 +5,12 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/' },
   title: "Impacts of Technology on Historic Restoration in Tampa",
-  description: "Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1983. Contact us today.",
+  description: "Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact us today.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Impacts of Technology on Historic Restoration in Tampa"
-        description="Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1983. Contact us today."
+        description="Impacts of Technology on Historic Restoration in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact us today."
         datePublished="2024-01-01"
         slug="/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/"
       />
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Impacts of Technology on Historic Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover how cutting-edge technology is revolutionizing historic preservation across Tampa Bay, from 3D laser scanning at the Tampa Theatre to drone-based assessments of Ybor City landmarks.
           </p>

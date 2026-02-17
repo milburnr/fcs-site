@@ -5,11 +5,12 @@ import { Phone, CheckCircle, AlertTriangle, Calendar, FileText, Building2, Shiel
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-milestone-inspection-remediation-tampa/' },
   title: "Condo Milestone Inspection Tampa | SB4-D | FCS",
-  description: "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CBC since 1983. Call (813) 420-7561 for a quote.",
+  description: "Condo Milestone Inspection Sb4-d in Tampa: new builds, renovations, and disaster recovery services. Licensed CBC since 1982. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [
@@ -119,6 +120,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 font-heading">
             Condo Milestone Inspection Remediation in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200 mb-8">
             Your building failed its milestone inspection—or you're preparing for one. Florida Construction Specialists helps HOA boards navigate SB4-D requirements with expert structural remediation that protects residents and your association.
           </p>

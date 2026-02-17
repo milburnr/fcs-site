@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Preventing Home Improvement Fraud in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida Construction Specialists helps property owners protect themselves from contractor fraud with guidance on verifying licenses, recognizing warning signs, and choosing reputable construction companies.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Construction fraud costs Florida property owners millions of dollars annually. Unlicensed contractors, storm chasers, and outright scammers target homeowners and business owners—especially after hurricanes when urgent repairs create opportunities for exploitation. Florida Construction Specialists, a licensed and established Tampa Bay contractor, shares insights on protecting yourself from fraud and choosing reputable construction companies for your projects.
-            </p>
+             Since 1982, Florida Construction Specialists has combined residential craftsmanship with commercial-grade engineering, backed by CBC license CBC1262722.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

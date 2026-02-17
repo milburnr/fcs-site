@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ensuring-construction-site-safety-a-top-priority/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Ensuring Construction Site Safety: A Top Priority
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida Construction Specialists prioritizes safety on every project through comprehensive safety programs, OSHA compliance, and a culture that puts workers and the public first throughout Tampa Bay.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Construction consistently ranks among the most hazardous industries, with workers facing risks from falls, struck-by incidents, electrocution, and caught-between hazards—OSHA's "Fatal Four" that account for over 60% of construction fatalities. At Florida Construction Specialists, we've built our reputation on maintaining an exemplary safety record throughout Tampa, St. Petersburg, Clearwater, and surrounding communities by making safety a core value, not just a compliance requirement.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
               <div className="flex items-start gap-4">

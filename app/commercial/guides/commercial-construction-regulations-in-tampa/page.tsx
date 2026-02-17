@@ -5,6 +5,7 @@ import { Phone, FileText, Shield, Building2, Scale, AlertTriangle, CheckCircle }
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-regulations-in-tampa/' },
@@ -309,6 +310,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Regulations in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Navigate Florida Building Code requirements, local permits, and regulatory compliance with expert guidance from Tampa Bay's experienced commercial contractor.
           </p>

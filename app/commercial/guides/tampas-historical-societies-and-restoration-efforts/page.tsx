@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-historical-societies-and-restoration-efforts/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Historical Societies and Restoration Efforts
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Exploring the vital role of Tampa's historical societies in preserving architectural heritage and supporting restoration of the region's most significant structures.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's historical societies have shaped the region's preservation landscape for over a century, advocating for protection of significant structures, educating the public about architectural heritage, and facilitating restoration of landmark buildings. These organizations—from neighborhood associations to regional preservation advocacy groups—provide essential support for restoration projects and serve as valuable resources for building owners navigating the complexities of historic preservation.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists maintains collaborative relationships with Tampa's historical societies, recognizing that successful preservation requires community engagement alongside technical expertise. These partnerships strengthen restoration projects by connecting building owners with research resources, preservation funding opportunities, and community support that enhances project outcomes.

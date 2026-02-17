@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/utility-mapping-for-commercial-buildings/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Utility Mapping for Commercial Buildings in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional underground utility location services for commercial construction. Prevent utility strikes, avoid costly delays, and ensure worker safety with accurate mapping before excavation.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Commercial construction sites in Tampa Bay are underlain by a complex network of underground utilities: electric, gas, water, sewer, telecommunications, and more. Striking these utilities during excavation causes injuries, property damage, service disruptions, project delays, and significant liability. Florida Construction Specialists coordinates professional utility mapping for commercial projects, ensuring safe excavation and avoiding the costly consequences of utility strikes.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

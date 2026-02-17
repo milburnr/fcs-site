@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/' },
   title: "Executive General Adjusters Tampa | Large Loss",
-  description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1983. Contact us today.",
+  description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982. Contact us today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Executive General Adjusters Tampa | Large Loss"
-        description="Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1983. Contact us today."
+        description="Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982. Contact us today."
         datePublished="2024-01-01"
         slug="/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Role of Executive General Adjusters in Tampa Restorations
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding how Executive General Adjusters manage large commercial property claims in Tampa Bay. Learn what to expect and how to work effectively with EGAs for optimal claim outcomes.
           </p>

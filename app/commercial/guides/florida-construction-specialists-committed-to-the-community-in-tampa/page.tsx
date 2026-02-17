@@ -5,11 +5,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/' },
   title: "FCS - Committed to the Tampa Community",
-  description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate today.",
+  description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="FCS - Committed to the Tampa Community"
-        description="- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1983. Request a free estimate today."
+        description="- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/"
       />
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists: Committed to the Community in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             More than a construction company—we're neighbors invested in Tampa Bay's success. Our commitment extends beyond building structures to building community through local partnerships, workforce development, sustainability, and service.
           </p>

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-benefits-of-exterior-waterproofing/' },
@@ -191,6 +192,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Discover the Benefits of Exterior Waterproofing
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protect your Tampa Bay high-rise investment with professional exterior waterproofing. Reduce long-term costs, extend building life, and ensure SB 4-D compliance.
           </p>
@@ -215,7 +217,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               For Tampa Bay condominium associations and commercial property owners, exterior waterproofing represents one of the highest-return investments in building maintenance. Unlike many building systems that depreciate over time, quality waterproofing actively protects your investment—preventing the costly structural damage that moisture infiltration causes in Florida's challenging coastal climate.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               The 2021 Surfside tragedy and subsequent SB 4-D legislation brought new attention to building structural integrity. While the law focuses on inspections rather than specific maintenance requirements, the reality is clear: buildings that have protected their structures with proper waterproofing are far more likely to pass milestone inspections without costly remediation orders.
             </p>

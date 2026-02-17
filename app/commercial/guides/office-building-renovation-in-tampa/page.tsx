@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/office-building-renovation-in-tampa/' },
   title: "Office Building Renovation Tampa | Modernization",
-  description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
+  description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -111,7 +112,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Office Building Renovation Tampa | Modernization"
-        description="Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today."
+        description="Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/commercial/guides/office-building-renovation-in-tampa/"
       />
@@ -133,6 +134,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Office Building Renovation in Tampa: Modernize for Today's Market
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Tampa's office market demands modern, well-maintained buildings that attract quality tenants and command competitive rents. Florida Construction Specialists transforms aging office properties into market-leading assets.
           </p>

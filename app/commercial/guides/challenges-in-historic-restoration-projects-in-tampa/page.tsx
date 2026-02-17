@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/challenges-in-historic-restoration-projects-in-tampa/' },
@@ -79,6 +80,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Challenges in Historic Restoration Projects in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Historic restoration projects in Tampa present unique challenges—from regulatory compliance and hazardous materials to structural deficiencies and material sourcing. Here&apos;s how experienced contractors overcome them.
           </p>

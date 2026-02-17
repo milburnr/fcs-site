@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/' },
@@ -332,6 +333,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Converting Retail Buildings into Multi-Tenant Spaces
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform underperforming single-tenant retail into profitable multi-tenant properties. Expert guidance on construction, codes, costs, and maximizing ROI in Tampa Bay.
           </p>
@@ -356,7 +358,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               The retail landscape has shifted dramatically. Big box vacancies, changing consumer habits, and the rise of e-commerce have left property owners with underperforming single-tenant retail buildings. But these challenges create opportunities.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Converting large-format retail into multi-tenant spaces can dramatically increase property value and income. In Tampa Bay, subdivided retail spaces often command 20-40% higher rent per square foot than the same building leased to a single tenant—and they lease faster to a deeper pool of tenants.
             </p>

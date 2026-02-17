@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-florida-leading-way-leed-certification/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists: Leading the Way with LEED Certification
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             As Tampa Bay's premier LEED-experienced contractor, Florida Construction Specialists delivers certified green buildings that reduce operating costs, attract quality tenants, and demonstrate environmental leadership.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               LEED (Leadership in Energy and Environmental Design) has become the global benchmark for sustainable building, and Florida Construction Specialists has positioned itself at the forefront of LEED-certified construction in Tampa Bay. With a team that includes LEED-accredited professionals and a portfolio of successful certified projects, we bring the expertise necessary to guide commercial developments from concept through certification—delivering buildings that perform better, cost less to operate, and command premium market values.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Understanding LEED Certification for Commercial Buildings

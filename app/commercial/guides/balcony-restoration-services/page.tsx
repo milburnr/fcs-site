@@ -11,6 +11,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-services/' },
@@ -105,6 +106,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Balcony Restoration Services
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert high-rise balcony restoration for Tampa Bay condominiums and commercial buildings. SB 4-D compliant structural repairs with comprehensive waterproofing solutions.
           </p>

@@ -13,6 +13,7 @@ import {
   MapPin,
   Ruler,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -354,6 +355,7 @@ export default function FloodZoneVEvsAEGuidePage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Flood Zone VE vs AE: What Tampa Bay Homeowners Need to Know
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Understanding the construction requirements, costs, and insurance
               implications of FEMA flood zones for waterfront property in Tampa Bay.
@@ -383,7 +385,7 @@ export default function FloodZoneVEvsAEGuidePage() {
           <p className="text-gray-600 text-center mb-12 max-w-2xl mx-auto">
             Both zones require flood-resistant construction, but VE zones have
             significantly more stringent (and costly) requirements due to wave action.
-          </p>
+           Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
           <div className="overflow-x-auto">
             <table className="w-full border-collapse">
               <thead>

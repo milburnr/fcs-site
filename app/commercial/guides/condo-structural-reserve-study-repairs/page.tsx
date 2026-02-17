@@ -7,6 +7,7 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/com
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-structural-reserve-study-repairs/' },
@@ -110,6 +111,7 @@ export default function SIRSRepairsPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Condo Structural Reserve Study Repairs
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Your SIRS identified millions in upcoming repairs. Now you need a contractor who can plan, phase, and execute major capital projects—without disrupting your residents or breaking your budget.
             </p>

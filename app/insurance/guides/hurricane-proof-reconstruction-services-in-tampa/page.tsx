@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle, Shield, AlertTriangle, Clock, DollarSig
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Hurricane-Proof Reconstruction Services in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Commercial building fortification and storm-resistant reconstruction that exceeds Florida Building Code requirements. Protect your Tampa Bay business from the next major hurricane.
           </p>

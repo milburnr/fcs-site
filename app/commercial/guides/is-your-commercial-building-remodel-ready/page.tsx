@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/is-your-commercial-building-remodel-ready/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Is Your Commercial Building Remodel Ready? A Complete Assessment Guide
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Before investing in a commercial remodel, ensure your Tampa Bay building is truly ready. Our comprehensive readiness assessment helps you avoid costly surprises and plan for success.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-8">
               Commercial building remodels in Tampa Bay represent significant investments ranging from $500,000 to several million dollars depending on scope. Before committing to such a substantial project, building owners and facility managers must conduct thorough readiness assessments. Florida Construction Specialists has guided hundreds of Tampa Bay businesses through this critical evaluation process, helping them determine whether their buildings are truly prepared for transformation.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Understanding Commercial Remodel Readiness

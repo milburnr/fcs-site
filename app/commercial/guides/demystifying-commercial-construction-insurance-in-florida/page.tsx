@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/demystifying-commercial-construction-insurance-in-florida/' },
   title: "Demystifying Commercial Construction Insurance in Florida",
-  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1983. Read more.",
+  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1982. Read more.",
 };
 
 const breadcrumbItems = [
@@ -79,7 +80,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Demystifying Commercial Construction Insurance in Florida"
-        description="Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1983. Read more."
+        description="Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1982. Read more."
         datePublished="2024-01-01"
         slug="/commercial/guides/demystifying-commercial-construction-insurance-in-florida/"
       />
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Demystifying Commercial Construction Insurance in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Navigate the complexities of commercial construction insurance in Florida with confidence. Discover essential tips for understanding policies and safeguarding your Tampa Bay investment.
           </p>

@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-projects-in-tampa/' },
@@ -61,6 +62,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Historic Restoration Projects in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Explore FCS's portfolio of award-winning historic restoration projects in Tampa. From Ybor City's historic theaters to Hyde Park's Victorian mansions, discover our expertise in preserving Tampa's architectural heritage.
           </p>

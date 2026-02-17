@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/water-damage-mitigation-in-tampa/' },
@@ -59,6 +60,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Water Damage Mitigation in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
@@ -83,7 +85,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Water damage mitigation is the critical first line of defense when your Tampa property faces water intrusion emergencies. Florida Construction Specialists brings 43 years of insurance restoration experience to provide immediate, professional water damage mitigation services that minimize property damage and reduce restoration costs. Our rapid response and proven mitigation strategies have saved countless Tampa Bay properties from devastating secondary damage like mold growth and structural deterioration.
-              </p>
+               Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Understanding Water Damage Mitigation vs. Restoration

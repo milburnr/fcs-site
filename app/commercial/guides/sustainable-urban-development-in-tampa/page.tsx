@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-urban-development-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Sustainable Urban Development in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform Tampa Bay's urban landscape with sustainable development practices. Florida Construction Specialists leads the way in green building, LEED certification, and eco-conscious commercial construction.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Tampa Bay stands at the forefront of Florida's sustainable urban development movement. As the region experiences unprecedented growth—with population expected to exceed 4 million by 2030—the need for sustainable construction practices has never been more critical. Florida Construction Specialists is leading this transformation, delivering commercial projects that balance economic development with environmental stewardship, creating vibrant, resilient urban spaces throughout Tampa, Lakeland, Sarasota, and the surrounding communities.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Importance of Sustainable Urban Development in Tampa

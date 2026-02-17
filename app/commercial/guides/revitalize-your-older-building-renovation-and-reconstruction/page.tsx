@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/' },
@@ -140,6 +141,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Revitalize Your Older Building: Expert Renovation & Reconstruction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Tampa Bay's older commercial buildings represent untapped potential. Florida Construction Specialists transforms aging properties into modern, valuable assets through expert renovation and adaptive reuse.
           </p>
@@ -182,7 +184,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Tampa Bay's commercial landscape includes thousands of buildings constructed decades ago—mid-century industrial properties, 1970s office buildings, 1980s retail centers, and countless other structures that predate modern construction standards and contemporary expectations. These buildings often occupy excellent locations in established commercial districts where new construction is difficult or impossible. Yet they struggle to compete with newer properties that offer modern amenities, energy efficiency, and attractive finishes.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Revitalization offers a compelling alternative to demolition and replacement. Done well, it costs less than new construction, completes faster, preserves embodied energy and materials, and often retains architectural character that new buildings cannot replicate. It transforms liabilities into assets, converting struggling properties into competitive market participants.
             </p>

@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Factory, Wrench, Shield, Clock } fro
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Industrial Property Restoration Services in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Specialized restoration for warehouses, manufacturing facilities, and distribution centers. Minimize operational downtime with rapid response and expert industrial construction capabilities.
           </p>

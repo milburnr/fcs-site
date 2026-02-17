@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-unique-facades/' },
   title: "Tampa Custom Homes Unique Facades | Distinctive",
-  description: "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
+  description: "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Tampa Custom Homes Unique Facades | Distinctive"
-        description="Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today."
+        description="Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today."
         datePublished="2024-01-01"
         slug="/residential/guides/tampa-custom-homes-with-unique-facades/"
       />
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Custom Homes with Unique Facades
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Make your statement from the street. Distinctive facade designs, premium materials, and architectural details that create unforgettable first impressions and set your home apart from the ordinary.
           </p>

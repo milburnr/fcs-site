@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Insurance Restoration for Commercial Interiors
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert restoration of office, retail, restaurant, and medical facility interiors. Comprehensive insurance claim support and quality reconstruction to get your Tampa Bay business back in operation.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Commercial interior damage disrupts business operations, affects employee productivity, and can drive away customers. Whether your Tampa Bay office, retail store, restaurant, or medical facility has suffered water, fire, or storm damage, professional interior restoration gets you back in business quickly while maximizing your insurance claim recovery. Florida Construction Specialists specializes in commercial interior restoration that meets both insurance requirements and your operational needs.
-            </p>
+             Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

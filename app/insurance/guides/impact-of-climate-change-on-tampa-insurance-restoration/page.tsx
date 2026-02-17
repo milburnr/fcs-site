@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Impact of Climate Change on Tampa Insurance Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Climate change is reshaping Tampa Bay's insurance landscape with rising premiums, increased storm intensity, and new coverage challenges. Learn how to protect your commercial property in an evolving risk environment.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Tampa Bay sits at the intersection of climate change and insurance industry transformation. Rising sea levels, intensifying hurricanes, and increasing flood risks are driving dramatic changes in commercial property insurance—from soaring premiums to carrier withdrawals to new coverage requirements. For commercial property owners, understanding these changes and adapting strategies accordingly is essential for protecting both physical assets and financial interests.
-            </p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

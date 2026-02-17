@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-bidding-process/' },
@@ -135,6 +136,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Commercial Construction Bidding Process
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Your comprehensive guide to soliciting, evaluating, and selecting the right contractor through an effective bidding process.
           </p>
@@ -159,7 +161,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               The commercial construction bidding process serves as the foundation for successful project delivery. A well-managed bidding process ensures competitive pricing, identifies qualified contractors, and establishes clear expectations that guide the project from groundbreaking through completion. Conversely, a flawed bidding process can lead to budget overruns, schedule delays, and contentious contractor relationships.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               For Tampa Bay commercial projects, the bidding process must account for regional factors including Florida Building Code requirements, hurricane-resistant construction standards, local permitting timelines, and the competitive labor market. Understanding these dynamics helps owners structure bidding processes that attract qualified contractors and yield realistic, competitive pricing.
             </p>

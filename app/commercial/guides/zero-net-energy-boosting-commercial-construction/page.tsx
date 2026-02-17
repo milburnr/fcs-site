@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/zero-net-energy-boosting-commercial-construction/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Zero Net Energy: Boosting Commercial Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Boost your commercial construction project in Tampa with Florida Construction Specialists, experts in zero net energy buildings. Experience the power of ZNE construction for your Tampa Bay business.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Zero Net Energy (ZNE) construction represents the future of commercial building—and Tampa Bay is uniquely positioned to capitalize on this revolutionary approach. As Florida's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists is pioneering ZNE commercial construction that produces as much energy as it consumes on an annual basis. With Tampa's abundant sunshine and rising energy costs, ZNE buildings offer compelling financial returns alongside environmental leadership.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               What Is Zero Net Energy Construction?

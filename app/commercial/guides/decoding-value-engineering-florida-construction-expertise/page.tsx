@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/decoding-value-engineering-florida-construction-expertise/' },
@@ -221,6 +222,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Decoding Value Engineering: Florida Construction Expertise
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             A deep dive into value engineering methodology. Understand how systematic function analysis and creative problem-solving deliver optimized building value for Florida commercial projects.
           </p>
@@ -249,7 +251,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 Value engineering isn't about finding cheap alternatives or cutting corners. It's a rigorous, systematic methodology for improving project value by analyzing functions and finding optimal ways to achieve them. Developed by General Electric during World War II to address material shortages, VE has evolved into a sophisticated discipline applied worldwide.
-              </p>
+               Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
               <p className="text-gray-600 mb-6">
                 The foundation of value engineering is function analysis—understanding what each building element must accomplish independent of how it's currently designed to accomplish it. A wall's basic function is to "enclose space." How that function is achieved—with CMU, steel studs, or tilt-up concrete—is secondary. VE asks: given the required functions, what's the best way to deliver them?
               </p>

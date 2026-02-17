@@ -4,6 +4,7 @@ import { Phone, Building2, History, Shield, Award, ArrowRight } from "lucide-rea
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-preservation/' },
@@ -147,6 +148,7 @@ export default function HistoricRestorationPage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
               Tampa, FL Historic Restoration and Preservation
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8">
               Distinguished leaders in preserving and restoring Florida&apos;s
               rich architectural heritage with meticulous attention to detail.

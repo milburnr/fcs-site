@@ -5,11 +5,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/pet-friendly-home-designs-in-tampa/' },
   title: "Pet-Friendly Home Designs Tampa | Custom Homes",
-  description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
+  description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Pet-Friendly Home Designs Tampa | Custom Homes"
-        description="Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today."
+        description="Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/residential/guides/pet-friendly-home-designs-in-tampa/"
       />
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Pet-Friendly Home Designs in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Homes designed for the whole family—including the four-legged members. Built-in pet amenities, durable finishes, secure outdoor spaces, and thoughtful details that make life better for pets and owners alike.
           </p>

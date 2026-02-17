@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-luxury-bathrooms/' },
   title: "Tampa Custom Homes Luxury Bathrooms | Spa",
-  description: "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
+  description: "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Tampa Custom Homes Luxury Bathrooms | Spa"
-        description="Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today."
+        description="Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/residential/guides/tampa-custom-homes-with-luxury-bathrooms/"
       />
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Custom Homes with Luxury Bathrooms
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform your daily routine into a spa experience. Freestanding soaking tubs, multi-jet rain showers, heated stone floors, and designer fixtures that bring five-star luxury to your Tampa Bay custom home.
           </p>

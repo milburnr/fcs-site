@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/revolutionizing-commercial-construction-florida/' },
@@ -224,6 +225,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Revolutionizing Commercial Construction in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Innovation is transforming how we build in Florida. From design-build delivery to sustainable practices, from prefabrication to smart building technology—discover the trends reshaping Tampa Bay's commercial construction landscape.
           </p>
@@ -266,7 +268,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Commercial construction in Florida is undergoing its most significant transformation in decades. The convergence of technological innovation, sustainability imperatives, labor market changes, and evolving client expectations is creating a new paradigm for how buildings are designed, built, and operated.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               At Florida Construction Specialists, we've embraced these changes as opportunities to deliver better outcomes for our clients. We're not just observers of the revolution—we're participants, integrating new technologies and methods into our practice while maintaining the fundamentals of quality construction that have always defined our work.
             </p>

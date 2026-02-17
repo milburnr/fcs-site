@@ -7,6 +7,7 @@ import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampas-custom-family-home-builders/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Custom Family Home Builders
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Build a home that grows with your family. Thoughtful design for busy households, kid-friendly features, flex spaces for changing needs, and multi-generational options—all in Tampa Bay's best family neighborhoods.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Family life demands homes that work as hard as parents do—flexible spaces for homework and play, durable finishes that survive childhood, room configurations that adapt as children grow, and outdoor areas where memories are made. Florida Construction Specialists has built hundreds of custom family homes throughout Tampa Bay, understanding the unique requirements of busy households with children. We design homes for real family life, not staged photo shoots, creating environments where everyone thrives.
-            </p>
+             Since 1982, Florida Construction Specialists has combined residential craftsmanship with commercial-grade engineering, backed by CBC license CBC1262722.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Designing for Family Life

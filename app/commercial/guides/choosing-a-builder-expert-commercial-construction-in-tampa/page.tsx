@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/' },
@@ -54,6 +55,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Choosing a Builder Expert Commercial Construction in Tampa by Florida Construction Specialists
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.
           </p>

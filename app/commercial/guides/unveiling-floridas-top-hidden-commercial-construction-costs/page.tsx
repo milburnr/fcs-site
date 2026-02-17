@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/' },
@@ -369,6 +370,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Unveiling Florida's Top Hidden Commercial Construction Costs
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             The costs that catch projects off guard aren't mysterious—they're just often overlooked. Florida Construction Specialists reveals what to budget for beyond the obvious.
           </p>
@@ -396,7 +398,7 @@ export default function Page() {
             </h2>
             <p className="text-xl text-gray-600 mb-6">
               Every experienced Florida developer has a story about a project that blew its budget due to costs that "nobody saw coming." But in most cases, these costs weren't truly hidden—they were simply overlooked in early budgeting. Impact fees that weren't researched. Soil conditions that weren't investigated. Hurricane code requirements that weren't understood. Permit timelines that weren't realistic.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Florida presents unique cost factors that don't exist—or exist to a lesser degree—in other states. Our hurricane-prone location requires building systems that cost significantly more than standard construction. Variable soils from sand to limestone create foundation challenges. Complex environmental regulations protect our wetlands but add project costs. Impact fees in Tampa Bay jurisdictions are among the highest in the nation.
             </p>

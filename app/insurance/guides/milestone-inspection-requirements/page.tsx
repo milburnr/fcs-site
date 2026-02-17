@@ -14,6 +14,7 @@ import {
   FileText,
   Shield,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -304,6 +305,7 @@ export default function MilestoneInspectionRequirementsPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Milestone Inspection Requirements Explained
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Understanding Florida&apos;s mandatory structural inspections for
               condominium buildings. Phase 1, Phase 2, timelines, and what associations
@@ -334,7 +336,7 @@ export default function MilestoneInspectionRequirementsPage() {
               <strong>Important:</strong> Initial milestone inspection deadlines have passed
               for most qualifying buildings. Non-compliant associations face significant
               legal exposure.
-            </p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
           </div>
         </div>
       </section>

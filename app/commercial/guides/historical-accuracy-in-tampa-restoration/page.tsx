@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-accuracy-in-tampa-restoration/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Historical Accuracy in Tampa Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Achieving authentic restoration through rigorous research, material analysis, and traditional craftsmanship—essential for preserving Tampa's heritage and qualifying for historic tax credits.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Historical accuracy distinguishes genuine preservation from well-intentioned but ultimately damaging restoration work. When Tampa's historic buildings—from the grand theaters and civic structures of downtown to the industrial heritage of Ybor City—undergo restoration, the accuracy of materials, techniques, and design details determines whether the work preserves or compromises their historic integrity. Florida Construction Specialists applies rigorous research methodologies and traditional craftsmanship to achieve the accuracy that authentic preservation demands.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Beyond cultural considerations, historical accuracy carries significant financial implications. The Federal Historic Preservation Tax Incentive Program requires that rehabilitation work conform to the Secretary of the Interior's Standards for the Treatment of Historic Properties. Inaccurate restoration—wrong colors, inappropriate materials, insensitive modifications—can result in tax credit denial, potentially costing building owners hundreds of thousands of dollars in foregone benefits.

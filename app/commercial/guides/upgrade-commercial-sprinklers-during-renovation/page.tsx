@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/upgrade-commercial-sprinklers-during-renovation/' },
@@ -128,6 +129,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Upgrade Commercial Sprinklers During Renovation: The Smart Strategy
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Renovation provides the perfect opportunity to upgrade your Tampa commercial building's fire sprinkler system. Open ceilings, coordinated scheduling, and combined mobilization create significant cost advantages.
           </p>
@@ -170,7 +172,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Fire sprinkler systems are among the most effective life safety investments a commercial building owner can make. Modern sprinkler systems control or extinguish fires in over 96% of activations, dramatically reducing loss of life, property damage, and business interruption. Yet many Tampa Bay commercial buildings have sprinkler systems that are decades old, undersized for current use, or completely absent. Renovation provides a unique window to address these deficiencies cost-effectively.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               The economics are compelling: when ceilings are already open for other renovation work, sprinkler installation or modification costs 30-50% less than standalone projects. Coordinated scheduling eliminates multiple mobilizations and reduces overall project duration. And addressing fire protection during renovation often allows work to proceed without the operational disruptions a separate sprinkler project would cause.
             </p>

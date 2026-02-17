@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Creating Unique Bedrooms in Tampa Custom Homes
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform your private retreat into a luxury sanctuary. Spa-inspired master suites, designer closets, sitting areas, and personalized amenities that make every night feel like a five-star resort experience.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               In custom home construction, the master bedroom suite represents your most personal space—a sanctuary where design should reflect your individual tastes and lifestyle rather than generic builder standards. Florida Construction Specialists creates exceptional bedroom environments throughout Tampa Bay, from expansive waterfront master suites on Davis Islands to cozy yet luxurious retreats in Carrollwood bungalows. We understand that unique bedrooms require thoughtful integration of architecture, technology, comfort, and personal expression.
-            </p>
+             Since 1982, Florida Construction Specialists has combined residential craftsmanship with commercial-grade engineering, backed by CBC license CBC1262722.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               The Master Suite as Private Resort

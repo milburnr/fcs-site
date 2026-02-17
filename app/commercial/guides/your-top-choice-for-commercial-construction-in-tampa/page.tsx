@@ -5,6 +5,7 @@ import { Phone, CheckCircle, Award, Building, Clock, Shield, Users, Star, MapPin
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/' },
@@ -76,6 +77,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists: Your Top Choice for Commercial Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             We specialize in delivering exceptional commercial construction projects throughout Tampa Bay. Trust Florida Construction Specialists, a full-service construction company with decades of local expertise.
           </p>

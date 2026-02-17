@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/mastering-commercial-construction-design-in-florida/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Mastering Commercial Construction Design in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Learn the ins and outs of architectural design, commercial building design, and commercial construction design with our comprehensive guide for Florida projects in Tampa Bay.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Great commercial construction begins with great design. The design phase sets the foundation for everything that follows—construction costs, building performance, occupant experience, and long-term value. As Florida's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists understands how design decisions impact construction outcomes. This guide explores the principles of effective commercial design in Florida's unique environment.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Importance of Climate-Responsive Design in Florida

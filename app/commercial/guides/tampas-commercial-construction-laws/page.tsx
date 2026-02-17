@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-commercial-construction-laws/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Commercial Construction Laws
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understand Tampa&apos;s Commercial Construction Laws, regulations, and building codes. Ensure your project meets all Tampa construction guidelines for safe
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa's commercial construction industry operates under a comprehensive framework of laws, regulations, and building codes designed to ensure safety, sustainability, and compliance across all projects. As Florida's premier commercial contractor, Florida Construction Specialists has extensive experience navigating these complex legal requirements while delivering exceptional results for clients throughout the Tampa Bay region.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Tampa Building Code Requirements and Regulations

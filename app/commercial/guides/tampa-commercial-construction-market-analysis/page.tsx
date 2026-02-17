@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-market-analysis/' },
@@ -141,6 +142,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Commercial Construction Market Analysis
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive analysis of Tampa Bay's commercial real estate and construction market—trends, opportunities, and outlook for developers and investors.
           </p>
@@ -165,7 +167,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Tampa Bay has emerged as one of the most dynamic commercial real estate and construction markets in the United States. The region's combination of population growth, business-friendly environment, quality of life, and strategic location has attracted significant investment across all commercial property sectors. Understanding this market is essential for developers, investors, and businesses planning commercial construction projects.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               The Tampa-St. Petersburg-Clearwater Metropolitan Statistical Area encompasses Hillsborough, Pinellas, Pasco, and Hernando counties, with a population exceeding 3.2 million residents. This population has grown by over 15% in the past decade, creating sustained demand for commercial space across office, retail, industrial, healthcare, and hospitality sectors.
             </p>

@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-reconstruction-exterior-waterproofing/' },
@@ -113,6 +114,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Balcony Reconstruction & Exterior Waterproofing
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protect your Tampa Bay high-rise investment with expert balcony restoration and waterproofing. SB 4-D compliant inspections and repairs from Florida's trusted commercial construction specialists.
           </p>
@@ -137,7 +139,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Florida's coastal environment presents unique challenges for high-rise balcony structures. Salt air corrosion, intense UV exposure, hurricane-driven rain, and year-round humidity create a perfect storm that accelerates concrete deterioration and waterproofing failure. For Tampa Bay condominium associations and commercial property owners, proactive balcony maintenance isn't optional—it's essential for safety, compliance, and property value.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Following the tragic 2021 Surfside condominium collapse, Florida enacted Senate Bill 4-D (the Building Safety Act), mandating milestone structural inspections for all buildings three stories or higher. Balconies and exterior elevated structures are among the primary areas inspectors evaluate. Properties found with deficiencies face mandatory repair timelines and potential liability exposure.
             </p>

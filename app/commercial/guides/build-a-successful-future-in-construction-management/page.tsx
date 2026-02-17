@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/build-a-successful-future-in-construction-management/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Build a Successful Future in Construction Management
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             The principles, practices, and partnerships that transform construction management into lasting success for Tampa Bay commercial projects.
           </p>
@@ -154,7 +156,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Successful construction management isn't accidental—it results from deliberate application of proven principles, continuous improvement, and unwavering commitment to client success. In Tampa Bay's competitive commercial construction market, the difference between adequate and excellent construction management translates directly into project outcomes. Florida Construction Specialists has built our success by embracing the principles that lead to consistently successful projects for our clients across Tampa, Lakeland, The Villages, and throughout Central Florida.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Foundation: Planning and Preparation

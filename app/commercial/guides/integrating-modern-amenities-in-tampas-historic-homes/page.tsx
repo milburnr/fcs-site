@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/' },
@@ -79,6 +80,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Integrating Modern Amenities in Tampa's Historic Homes
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert integration of modern amenities in Tampa's historic homes. FCS seamlessly blends contemporary comfort, smart technology, and luxury features while preserving architectural integrity and historical character.
           </p>
@@ -108,7 +110,7 @@ export default function Page() {
               </h2>
               <p className="text-gray-700 mb-4">
                 Florida Construction Specialists specializes in seamlessly integrating modern amenities into Tampa's historic homes while preserving their architectural integrity and historical significance. Our expertise in Hyde Park's Victorian mansions, Ybor City's historic houses, and South Tampa's Mediterranean Revival homes demonstrates that contemporary comfort and historic preservation can coexist beautifully.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
               <p className="text-gray-700 mb-4">
                 Working within the Secretary of Interior's Standards for the Treatment of Historic Properties, we implement cutting-edge technology, luxury amenities, and modern mechanical systems using approaches that are reversible, compatible, and virtually invisible. Our integration techniques ensure historic homes function for 21st-century lifestyles while maintaining their irreplaceable character-defining features.
               </p>

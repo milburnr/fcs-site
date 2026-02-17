@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-interior-design-in-tampa/' },
@@ -160,6 +161,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Interior Design in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Strategic interior design that transforms commercial spaces into high-performing environments. From modern offices to healthcare facilities, we create interiors that work as hard as you do.
           </p>
@@ -188,7 +190,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 Commercial interior design isn't about aesthetics alone—it's a strategic investment that impacts employee productivity, customer experience, brand perception, and ultimately your bottom line. In Tampa Bay's competitive business environment, thoughtful interior design creates measurable advantages.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
               <p className="text-gray-600 mb-6">
                 Research consistently demonstrates the ROI of good design. A Cornell study found that improved office lighting increases productivity by 2%. The World Green Building Council reports that enhanced indoor air quality reduces sick time by 35%. Retail environments designed with customer journey in mind see conversion rate improvements of 10-15%. These aren't soft benefits—they're quantifiable returns on design investment.
               </p>

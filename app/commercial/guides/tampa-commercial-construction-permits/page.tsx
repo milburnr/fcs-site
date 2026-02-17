@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-permits/' },
   title: "Tampa Commercial Construction Permits | Guide",
-  description: "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 420-7561 for a quote.",
+  description: "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1982. Call (813) 420-7561 for a quote.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Tampa Commercial Construction Permits | Guide"
-        description="Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1983. Call (813) 420-7561 for a quote."
+        description="Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1982. Call (813) 420-7561 for a quote."
         datePublished="2024-01-01"
         slug="/commercial/guides/tampa-commercial-construction-permits/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Commercial Construction Permits
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive guide to navigating the commercial building permit process in Tampa, including requirements, timelines, fees, and how Florida Construction Specialists manages permit approvals for faster project starts.
           </p>

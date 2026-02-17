@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/' },
@@ -228,6 +229,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Wants vs. Needs
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Master the art of budget prioritization. Learn to distinguish essential requirements from desirable upgrades and maximize the value of every construction dollar.
           </p>
@@ -252,7 +254,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
               Every commercial construction project involves trade-offs. Budgets are finite, but vision often isn't. The most successful projects are those where owners clearly understand the difference between what they absolutely need and what they'd like to have—and make intentional decisions about where to invest their dollars.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               In Tampa's commercial construction market, costs have risen significantly in recent years. What might have been a reasonable "want" a few years ago may now consume budget needed for essentials. Strategic prioritization isn't about settling for less—it's about ensuring you achieve your core objectives while making informed decisions about everything else.
             </p>

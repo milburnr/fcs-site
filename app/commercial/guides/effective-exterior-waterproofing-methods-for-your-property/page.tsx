@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Effective Exterior Waterproofing Methods for Your Property
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive building envelope waterproofing for high-rise condominiums and commercial properties throughout Tampa Bay.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               The exterior envelope of a commercial building or high-rise condominium represents the primary defense against Florida's demanding climate. Intense UV radiation, driving rain, hurricane-force winds, and daily thermal cycling all stress building exteriors in ways that eventually defeat even well-designed waterproofing systems. Florida Construction Specialists provides expert exterior waterproofing services that protect building structures, maintain interior comfort, and preserve property values throughout the Tampa Bay area.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               Unlike residential waterproofing where failures cause inconvenience, commercial building envelope failures can result in extensive structural damage, tenant displacement, business interruption claims, and regulatory compliance issues. For condominium associations, envelope failures translate directly to special assessments and reduced unit values. Our systematic approach to exterior waterproofing addresses both immediate water intrusion problems and long-term building protection.

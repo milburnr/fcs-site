@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Energy Efficiency in Historic Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Preserve Tampa Bay's architectural heritage while achieving modern energy performance. Florida Construction Specialists brings expertise in sustainable historic restoration that honors the past while reducing future operating costs.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Tampa Bay's historic buildings represent irreplaceable cultural and architectural heritage—from the cigar factories of Ybor City to Mediterranean Revival landmarks in Hyde Park and the vernacular commercial buildings of downtown districts. These structures tell the story of our community's history, but they also face the challenge of meeting modern energy performance expectations while preserving their historic character. Florida Construction Specialists brings specialized expertise in energy-efficient historic restoration, helping property owners reduce operating costs and environmental impact without compromising the features that make these buildings historically significant.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Case for Energy-Efficient Historic Restoration

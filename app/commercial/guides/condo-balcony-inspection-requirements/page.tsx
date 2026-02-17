@@ -15,6 +15,7 @@ import {
   AlertCircle,
   Ruler,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -330,6 +331,7 @@ export default function CondoBalconyInspectionRequirementsPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Condo Balcony Inspection Requirements
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Understanding Florida&apos;s balcony inspection requirements under SB 4-D.
               What condo associations need to know about inspections, repairs, and compliance.

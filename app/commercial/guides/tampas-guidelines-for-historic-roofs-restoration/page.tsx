@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/' },
   title: "Tampa's Guidelines for Historic Roofs Restoration",
-  description: "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today.",
+  description: "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Tampa"
-        description="Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1983. Call for a free consultation today."
+        description="Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today."
         datePublished="2024-01-01"
         slug="/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Guidelines for Historic Roofs Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Preserving Tampa's distinctive historic rooflines through appropriate restoration of clay tile, slate, metal, and other period roofing materials while meeting Florida's demanding climate requirements.
           </p>

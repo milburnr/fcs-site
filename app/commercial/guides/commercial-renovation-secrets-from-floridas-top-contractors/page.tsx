@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/' },
@@ -125,6 +126,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Renovation Secrets from Florida's Top Contractors
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Insider knowledge for successful commercial renovation—from tenant improvements to complete building transformations in Tampa Bay.
           </p>
@@ -149,7 +151,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Commercial renovation presents unique challenges that differ significantly from new construction. Working within existing buildings means dealing with unknown conditions, aging systems, code compliance issues, and often the need to maintain business operations during construction. Success requires specialized expertise, careful planning, and strategies refined through years of experience.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay's commercial building stock includes everything from historic structures to 1980s office buildings to relatively recent retail centers—each with distinct renovation considerations. Understanding what you're getting into, planning for contingencies, and working with contractors experienced in renovation work makes the difference between a smooth project and a costly ordeal.
             </p>

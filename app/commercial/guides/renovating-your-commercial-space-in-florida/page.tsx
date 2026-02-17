@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/renovating-your-commercial-space-in-florida/' },
@@ -140,6 +141,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Determining the Right Time to Renovate Your Commercial Space in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Timing is everything in commercial renovation. Learn how to align your Florida renovation project with business cycles, market conditions, and strategic opportunities for maximum impact.
           </p>
@@ -185,7 +187,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Commercial renovation timing involves multiple interrelated decisions: when to begin planning, when to start construction, how long to allow for completion, and when to return to full operations. Getting these decisions right maximizes renovation benefits while minimizing disruption and cost. Getting them wrong can turn a beneficial project into an expensive headache.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists has helped hundreds of Tampa Bay businesses time their renovations strategically. We've learned that successful timing considers business operations, market conditions, financial factors, and construction practicalities simultaneously. The "perfect time" rarely exists, but informed decisions about tradeoffs produce excellent outcomes.
             </p>

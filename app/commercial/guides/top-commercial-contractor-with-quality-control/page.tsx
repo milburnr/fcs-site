@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-with-quality-control/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists Top Commercial Contractor with Quality Control
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Looking for a top commercial contractor in Florida? Florida Construction Specialists is a trusted name in the industry, known for its quality control
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Quality control stands as the cornerstone of exceptional commercial construction, distinguishing top-tier contractors from their competitors. Florida Construction Specialists has earned recognition as Florida's premier commercial contractor through an unwavering commitment to quality excellence, implementing comprehensive quality control systems that ensure every project meets the highest standards of craftsmanship, safety, and performance. Our systematic approach to quality management spans every phase of construction, from initial planning through final delivery.
-              </p>
+               Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Comprehensive Quality Control Framework

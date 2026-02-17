@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-landscaping-solutions/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Custom Home Landscaping Solutions
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform your outdoor spaces into living extensions of your custom home. Tropical gardens, native plantings, outdoor entertaining areas, and sustainable irrigation designed for Tampa Bay's unique climate.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               In Tampa Bay's subtropical climate, landscaping isn't just curb appeal—it's an extension of your living space that can be enjoyed year-round. Florida Construction Specialists coordinates comprehensive landscape design and installation as an integral part of custom home construction, ensuring that outdoor environments complement architecture, enhance lifestyle, and thrive in Florida's demanding conditions. From intimate courtyard gardens in Hyde Park to expansive estate grounds in Avila, we create outdoor spaces as exceptional as the homes they surround.
-            </p>
+             With over four decades of residential building experience, our team brings structural expertise and attention to detail that homeowners throughout Tampa Bay trust.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Integrated Landscape Architecture

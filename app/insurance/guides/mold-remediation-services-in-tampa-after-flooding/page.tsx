@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-services-in-tampa-after-flooding/' },
@@ -84,6 +85,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Mold Remediation Services in Tampa After Flooding
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal, water damage cleanup, and flood damage restoration for you
           </p>
@@ -109,7 +111,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 After flooding hits Tampa Bay properties, mold growth becomes a serious threat that requires immediate professional remediation. Florida Construction Specialists brings 43 years of insurance restoration experience and specialized mold remediation expertise to eliminate mold contamination safely and completely. Our certified team understands that Tampa's humid subtropical climate accelerates mold growth, making rapid, thorough remediation essential for protecting both property and health.
-              </p>
+               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Why Flooding in Tampa Creates Perfect Mold Growth Conditions

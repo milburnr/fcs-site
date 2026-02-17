@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/' },
@@ -150,6 +151,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Why You Must Hire Licensed Contractors for Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             In Florida, hiring an unlicensed contractor for commercial work isn't just risky—it's illegal and can void your insurance, create permit issues, and leave you with no legal recourse.
           </p>

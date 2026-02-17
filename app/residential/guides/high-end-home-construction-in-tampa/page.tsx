@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/high-end-home-construction-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             High-End Home Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Where uncompromising quality meets visionary design. Premier high-end construction featuring rare materials, master craftsmanship, bespoke details, and the meticulous attention that transforms houses into exceptional residences.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               High-end home construction isn't about spending more money—it's about achieving results impossible through standard construction methods. The finest materials sourced globally. Master craftsmen whose skills represent decades of refinement. Details invisible in photographs but palpable when you walk through a space. Systems engineered for generations of performance. Florida Construction Specialists delivers this level of construction throughout Tampa Bay for clients who accept nothing less than exceptional.
-            </p>
+             With over four decades of residential building experience, our team brings structural expertise and attention to detail that homeowners throughout Tampa Bay trust.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               What Distinguishes High-End Construction

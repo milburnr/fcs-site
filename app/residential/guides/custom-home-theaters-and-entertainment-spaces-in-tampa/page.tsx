@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Custom Home Theaters and Entertainment Spaces in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Experience cinema-quality entertainment at home. 4K/8K laser projection, immersive Dolby Atmos audio, acoustic engineering, and luxury theater seating—all designed for Tampa Bay's most discerning entertainment enthusiasts.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               A dedicated home theater elevates movie nights, sports viewing, and gaming into immersive experiences that rival—or exceed—commercial cinemas. Florida Construction Specialists creates custom entertainment spaces throughout Tampa Bay that combine technical excellence with architectural sophistication. From intimate media rooms in Carrollwood homes to full-scale screening rooms in Avila estates, we build theaters that deliver cinema-quality performance in the comfort of your home.
-            </p>
+             Florida Construction Specialists has delivered quality residential construction across Tampa Bay since 1982, with the same CBC-licensed professionalism and in-house engineering that defines our commercial work.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Dedicated Theaters vs. Media Rooms

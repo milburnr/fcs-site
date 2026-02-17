@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Climate-Resilient Custom Homes in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Engineer your home to withstand Tampa Bay's climate challenges. Hurricane-rated construction, flood mitigation, extreme heat management, and whole-home backup power for complete peace of mind.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Tampa Bay sits in one of America's most hurricane-vulnerable regions, yet decades can pass between major storms, creating a false sense of security that often proves costly. Florida Construction Specialists builds climate-resilient custom homes designed for the full spectrum of Tampa's weather challenges—from Category 5 hurricanes to summer heat waves to flash flooding events. Our fortified construction methods protect your investment and your family while maintaining the luxury and comfort you expect in a custom home.
-            </p>
+             With over four decades of residential building experience, our team brings structural expertise and attention to detail that homeowners throughout Tampa Bay trust.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Understanding Tampa Bay's Climate Risks

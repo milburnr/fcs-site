@@ -9,6 +9,7 @@ import {
   Phone,
   HelpCircle,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -211,6 +212,7 @@ export default function FEMA50PercentRulePage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
               The FEMA 50% Rule Explained: What Tampa Homeowners Must Know
             </h1>
+            <AuthorByline />
             <p className="text-xl text-white/90 mb-8">
               Before you renovate your Tampa Bay home, understand how the FEMA
               Substantial Improvement rule could require you to elevate your
@@ -250,7 +252,7 @@ export default function FEMA50PercentRulePage() {
                 <strong>Substantial Improvement Rule</strong>, is a federal
                 regulation enforced by local governments in flood-prone areas.
                 It states:
-              </p>
+               With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
               <div className="bg-brand-gold-bg border-l-4 border-brand-gold p-6 rounded-r-lg mb-6">
                 <p className="text-lg text-gray-800 font-medium italic">
                   &quot;If the cost of reconstruction, rehabilitation, addition,

@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Key Benefits of Choosing a Local General Contractor in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Why Tampa Bay businesses consistently achieve better outcomes when they partner with local general contractors who understand the market.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               When Tampa Bay businesses plan commercial construction projects, they often receive proposals from contractors across the state—and sometimes from out-of-state firms attracted by Florida's booming construction market. While national or regional contractors may have impressive portfolios, local general contractors consistently deliver advantages that translate into smoother projects, better outcomes, and lasting relationships. Florida Construction Specialists, headquartered in the Tampa Bay area and serving Hillsborough, Pinellas, Pasco, and Polk counties, embodies the benefits of working with a truly local contractor.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Deep Understanding of Local Building Codes and Regulations

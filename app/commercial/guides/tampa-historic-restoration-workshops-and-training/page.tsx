@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-workshops-and-training/' },
   title: "Tampa Historic Restoration Workshops and Training",
-  description: "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1983. Contact us today.",
+  description: "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1982. Contact us today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Tampa Historic Restoration Workshops and Training"
-        description="Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1983. Contact us today."
+        description="Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1982. Contact us today."
         datePublished="2024-01-01"
         slug="/commercial/guides/tampa-historic-restoration-workshops-and-training/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Historic Restoration Workshops and Training
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional development opportunities for building owners, contractors, and preservation professionals seeking to master historic restoration principles and practices.
           </p>

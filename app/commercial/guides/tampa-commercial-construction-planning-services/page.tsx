@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-planning-services/' },
@@ -206,6 +207,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Commercial Construction Planning Services
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Set your project up for success before construction begins. Our preconstruction planning services deliver realistic budgets, efficient schedules, and strategic guidance.
           </p>
@@ -230,7 +232,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
               The most important decisions in commercial construction happen before a shovel hits the ground. What you budget, how you schedule, who you hire, and how you structure the project determines whether you'll celebrate success or manage damage control.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Professional construction planning—also called preconstruction services—brings contractor expertise to these early decisions. Instead of designing in a vacuum and hoping the bids come back within budget, you get real-world cost data and constructability input throughout the planning process.
             </p>

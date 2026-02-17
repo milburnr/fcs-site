@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Shield, HardHat, Eye, Zap, Users } f
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/safety-first-in-florida-commercial-construction-projects/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Safety First in Florida Commercial Construction Projects
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida Construction Specialists prioritizes safety as the foundation of every commercial project, protecting workers, the public, and your investment through comprehensive OSHA-compliant safety programs.
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Commercial construction in Florida presents unique safety challenges that demand specialized expertise. From Tampa's urban high-rise projects to St. Petersburg's waterfront developments, construction sites must navigate OSHA federal regulations, Florida-specific building codes, and environmental conditions that can turn hazardous quickly. Florida Construction Specialists has built a reputation across Tampa Bay for maintaining an exceptional safety record while delivering quality commercial projects on time and budget.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

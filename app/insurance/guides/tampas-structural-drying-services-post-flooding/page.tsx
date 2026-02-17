@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-structural-drying-services-post-flooding/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Structural Drying Services Post-Flooding
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional commercial structural drying following flood and water damage. IICRC-certified technicians, industrial dehumidification, and comprehensive moisture monitoring to protect your Tampa Bay property.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               After flooding from hurricanes, storm surge, or water damage events, proper structural drying is the critical step that determines whether your Tampa Bay commercial property can be restored or requires extensive demolition and reconstruction. Moisture trapped in building materials leads to mold growth (often within 24-48 hours in Tampa's climate), structural degradation, and ongoing indoor air quality problems. Florida Construction Specialists provides professional structural drying services using industrial-grade equipment and IICRC-certified protocols to thoroughly dry your building and protect your investment.
-            </p>
+             With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

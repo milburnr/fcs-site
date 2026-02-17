@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-delays/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Managing Construction Delays Insights from Florida Top Commercial Contractor in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa. Gain expert Guide
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Commercial construction delays can derail project budgets, disrupt business operations, and strain relationships between owners and contractors. In Tampa's dynamic construction market, where weather patterns, permitting complexities, and skilled labor availability can impact project timelines, understanding how to prevent and manage delays is crucial for project success. Florida Construction Specialists, with 43 years of experience managing complex commercial projects throughout the Tampa Bay area, has developed proven strategies to minimize delays and keep projects on track.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Common Causes of Commercial Construction Delays in Tampa

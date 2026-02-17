@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/church-renovation-tips-from-top-commercial-contractor/' },
@@ -118,6 +119,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Church Renovation Tips from Tampa's Top Commercial Contractor
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Your sacred space deserves thoughtful renovation that honors its heritage while serving tomorrow's ministry. Florida Construction Specialists shares decades of experience helping Tampa Bay congregations transform their facilities.
           </p>
@@ -160,7 +162,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Church renovation differs fundamentally from typical commercial construction. These are not merely buildings—they are sacred spaces where communities gather for worship, celebration, mourning, and spiritual growth. Decisions about church renovation carry weight beyond practical concerns, touching matters of tradition, theology, and community identity. Florida Construction Specialists approaches every church project with deep respect for these realities and decades of experience navigating them successfully.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay's religious landscape includes hundreds of congregations spanning every tradition—from historic downtown churches built a century ago to contemporary worship centers on suburban campuses. We've worked with Catholic parishes preserving ornate sanctuaries, evangelical churches building modern worship spaces, mainline Protestant congregations adapting traditional buildings for contemporary ministry, and many others. This breadth of experience informs our understanding of what makes church renovation successful.
             </p>

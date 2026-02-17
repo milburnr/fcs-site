@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-the-perfect-location-for-commercial-construction/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Choosing the Perfect Location for Your Florida Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Choosing the perfect location for commercial construction in Florida is crucial for achieving success in your business ventures. Learn how to evaluate sites in Tampa Bay for optimal results.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               In commercial real estate, the adage "location, location, location" exists for good reason. The site you choose for your commercial construction project will impact everything from construction costs to long-term business success. As Florida's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists helps clients evaluate potential sites and understand the construction implications of different locations throughout Tampa Bay.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Key Factors in Commercial Site Selection

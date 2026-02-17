@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/' },
@@ -79,6 +80,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Eco-Friendly Historic Restoration Techniques in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             &quot;The greenest building is the one that is already built.&quot; Discover how sustainable historic restoration in Tampa preserves cultural heritage while advancing environmental goals.
           </p>

@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, HardHat, Trash2, FileCheck } from "l
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Disaster-Related Demolition Services
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Emergency commercial demolition and debris removal for hurricane, flood, and storm-damaged properties. Licensed contractors providing safe, compliant demolition throughout Tampa Bay.
           </p>

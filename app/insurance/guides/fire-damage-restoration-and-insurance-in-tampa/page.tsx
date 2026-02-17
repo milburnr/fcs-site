@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/' },
@@ -60,6 +61,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Fire Damage Restoration &amp; Insurance in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             When fire strikes your commercial property, rapid response and expert restoration minimize business disruption. Our team handles everything from structural stabilization to complete reconstruction while maximizing your insurance recovery.
           </p>

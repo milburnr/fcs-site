@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle, Sun, Droplets, AlertTriangle, Calendar,
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/' },
@@ -134,6 +135,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Expert Tips for Parking Lot Maintenance in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Tampa's intense heat, heavy rainfall, and UV exposure create unique parking lot challenges. Learn essential maintenance strategies that extend pavement life and reduce long-term costs.
           </p>
@@ -179,7 +181,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Tampa's subtropical climate creates one of the most challenging environments for asphalt parking lots in the United States. With temperatures regularly exceeding 90°F, intense year-round UV exposure, and over 60 inches of annual rainfall, Tampa parking lots face stresses that accelerate deterioration far beyond what northern climates experience.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists has maintained hundreds of commercial parking lots across the Tampa Bay area for over two decades. We've seen the costly consequences of inadequate maintenance and the remarkable longevity achieved through proper care. The difference often comes down to understanding Tampa's specific challenges and implementing maintenance strategies designed for our unique climate.
             </p>

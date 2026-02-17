@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-trends-updates-2024/' },
@@ -218,6 +219,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Commercial Construction Trends 2024-2025
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Stay ahead of the market with insights on construction costs, technology adoption, sustainability requirements, and sector-by-sector analysis for Tampa Bay.
           </p>
@@ -245,7 +247,7 @@ export default function Page() {
             </h2>
             <p className="text-xl text-gray-600 mb-6">
               Tampa Bay's commercial construction market continues to outperform national averages, driven by sustained population growth, business relocations, and infrastructure investment. While the market has normalized from the frenetic pace of 2021-2022, demand remains healthy across most sectors.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               The region added over 50,000 residents in 2023 alone, fueling demand for commercial services, healthcare facilities, and logistics infrastructure. Major employers continue relocating or expanding in Tampa Bay, attracted by favorable taxes, business climate, and quality of life. This growth creates a steady pipeline of commercial construction opportunities.
             </p>

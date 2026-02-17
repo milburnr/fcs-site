@@ -8,6 +8,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import type { Metadata } from "next";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/' },
@@ -123,6 +124,7 @@ export default function SB4DCompliancePage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               SB 4-D Compliance for Tampa Bay Condos
             </h1>
+            <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Your complete guide to Florida's milestone inspection law. Understand your obligations, meet your deadlines, and partner with Tampa Bay's trusted remediation contractor.
             </p>

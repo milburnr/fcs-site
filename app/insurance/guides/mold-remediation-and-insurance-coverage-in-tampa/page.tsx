@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ServiceSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/' },
@@ -83,6 +84,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Mold Remediation and Insurance Coverage in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert guidance on mold remediation and insurance coverage for Tampa Bay commercial properties. Understanding Florida's mold regulations, coverage requirements, and proper remediation procedures.
           </p>
@@ -108,7 +110,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Tampa Bay's humid subtropical climate creates ideal conditions for mold growth, making mold issues common in commercial properties—especially after water damage events. Understanding how mold insurance coverage works, what's required for proper remediation, and how to document mold claims can significantly impact your recovery. Florida Construction Specialists helps Tampa Bay commercial property owners navigate the complex intersection of mold remediation and insurance coverage.
-            </p>
+             With over four decades of experience navigating Florida's insurance landscape, our CBC-licensed team provides the documentation and construction expertise that complex claims require.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

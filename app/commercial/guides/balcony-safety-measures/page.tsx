@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-safety-measures/' },
@@ -171,6 +172,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Balcony Safety Measures for Florida Properties
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             From structural inspections to railing requirements, learn how to ensure your balcony is safe, compliant, and properly maintained in Florida's challenging climate.
           </p>
@@ -195,7 +197,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Balcony safety in Florida isn't just about common sense—it's increasingly a matter of law. Following the Surfside condominium collapse in 2021, Florida enacted Senate Bill 4-D (SB4-D), requiring milestone structural inspections for condominium and cooperative buildings. Balconies and elevated walkways are a primary focus of these inspections.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               But beyond compliance, balcony safety is about protecting lives. Falls from balconies cause serious injuries and fatalities every year. Structural failures, while rare, can be catastrophic. And in Florida's humid, salt-air environment, balcony components deteriorate faster than in other climates.
             </p>

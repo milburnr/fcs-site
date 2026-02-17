@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-balcony-flooring-materials-for-style-durability/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Top Balcony Flooring Materials for Style and Durability
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Premium flooring solutions for high-rise balconies combining lasting beauty, weather resistance, and practical performance.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Balcony flooring transforms functional concrete slabs into inviting outdoor spaces that extend living areas and enhance unit values. For high-rise condominiums in Tampa Bay, flooring selection involves considerations beyond residential applications—structural capacity, waterproofing integration, fire code compliance, and long-term maintenance accessibility all factor into the decision. Florida Construction Specialists helps building owners and associations select and install balcony flooring systems that perform beautifully throughout their service lives.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Florida's SB 4-D legislation has added new considerations to flooring selection. Milestone structural inspections require access to evaluate waterproofing systems and structural conditions beneath finished surfaces. Flooring materials that allow easy removal and replacement support inspection requirements, while permanently bonded installations may complicate future compliance activities. Smart flooring selection considers both current aesthetics and long-term building management needs.

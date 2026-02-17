@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/leading-commercial-contractors-in-tampas/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists The Leading Commercial Contractor in Tampa's Construction Projects
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Looking for a reliable commercial contractors in Tampa? Choose Florida Construction Specialists - the leading experts in development projects for comm
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Selecting the right commercial contractor can make or break your construction project. In Tampa Bay's competitive construction market, Florida Construction Specialists has established itself as the premier choice for commercial construction projects of all sizes and complexities. With over 25 years of experience and more than 500 successfully completed projects throughout the Tampa Bay region, we've earned recognition as Tampa's leading commercial contractor through consistent delivery of exceptional quality, on-time completion, and unmatched customer service.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
               <p className="text-gray-600 mb-8">
                 Our reputation as Tampa Bay's top commercial contractor stems from our comprehensive expertise, innovative construction methods, and deep understanding of Florida's unique construction challenges. From office buildings and retail complexes to medical facilities and industrial warehouses, we deliver results that exceed expectations while building lasting relationships with our clients.

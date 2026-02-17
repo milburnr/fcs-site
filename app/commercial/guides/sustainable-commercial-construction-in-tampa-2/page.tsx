@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa-2/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists: Building with Wellness in Mind for Commercial Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Are you looking for sustainable and eco-friendly construction services in Tampa? Florida Construction Specialists specializes in building with wellness in mind, creating healthier spaces for Tampa Bay businesses.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               The commercial construction industry is experiencing a fundamental shift toward sustainability and wellness-focused design. As Tampa Bay's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists is pioneering this transformation. We understand that sustainable construction isn't just about environmental responsibility—it's about creating spaces that enhance occupant health, reduce operating costs, and deliver long-term value for Tampa Bay businesses.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Wellness-Focused Approach to Commercial Construction

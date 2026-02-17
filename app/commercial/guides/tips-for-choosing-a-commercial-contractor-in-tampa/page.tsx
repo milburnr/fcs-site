@@ -5,6 +5,7 @@ import { Phone, CheckCircle, Shield, Award, Users, FileCheck, AlertTriangle, Sta
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/' },
@@ -76,6 +77,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Trusted Tips for Choosing a Commercial Contractor in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Our trusted tips for choosing a commercial construction company will guide you towards reputable contractors and help you make the right decision for your Tampa Bay project.
           </p>

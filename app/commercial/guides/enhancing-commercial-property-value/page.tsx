@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/enhancing-commercial-property-value/' },
   title: "Enhance Commercial Property Value Tampa | FCS",
-  description: "Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1983. Read more.",
+  description: "Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1982. Read more.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Enhance Commercial Property Value Tampa | FCS"
-        description="Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1983. Read more."
+        description="Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1982. Read more."
         datePublished="2024-01-01"
         slug="/commercial/guides/enhancing-commercial-property-value/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Enhancing Commercial Property Value in Tampa Bay
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Strategic renovations and upgrades that maximize your commercial property's value, attract quality tenants, and optimize long-term returns. Florida Construction Specialists helps Tampa Bay property owners make smart improvement investments.
           </p>

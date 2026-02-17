@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-disaster-damage-assessment-services/' },
@@ -55,6 +56,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Disaster Damage Assessment Services
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; s
           </p>
@@ -80,7 +82,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Accurate disaster damage assessment is the foundation of successful insurance claims and effective restoration planning in Tampa Bay. Florida Construction Specialists brings 43 years of insurance experience from both sides of the claims process to provide comprehensive, professional damage assessments that maximize insurance settlements and guide efficient restoration. Our certified assessors understand exactly what insurance companies require and how to document damage to ensure full coverage for your disaster recovery.
-              </p>
+               Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 The Critical Importance of Professional Damage Assessment

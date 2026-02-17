@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-construction-process-for-commercial-construction/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             The Essential Post-Construction Process for Commercial Construction in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Get your commercial construction project in Florida completed smoothly with the essential post-construction process. Discover the key steps for a successful project closeout from Tampa Bay's trusted contractor.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               The post-construction phase is often overlooked, yet it represents one of the most critical stages of any commercial building project. As Florida's premier commercial contractor serving Tampa, Lakeland, Sarasota, and the greater Tampa Bay area, Florida Construction Specialists understands that a meticulous post-construction process is essential for delivering a fully functional, code-compliant, and move-in-ready commercial space. This comprehensive guide will walk you through every aspect of the post-construction process and why it matters for your Florida commercial project.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               What Is the Post-Construction Process?

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/' },
@@ -191,6 +192,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Expert Tips for Planning Your Commercial Construction Project
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Proven strategies from Florida's leading commercial contractor for planning, budgeting, and executing successful construction projects throughout Tampa Bay.
           </p>
@@ -219,7 +221,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 The decisions you make before construction begins have more impact on project success than anything that happens on the job site. Proper planning establishes realistic budgets, identifies problems before they become expensive, and creates a roadmap that guides everyone toward successful completion.
-              </p>
+               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
               <p className="text-gray-600 mb-6">
                 At Florida Construction Specialists, we've seen hundreds of commercial construction projects across Tampa Bay. The ones that succeed share common characteristics: thorough upfront planning, realistic budgets with appropriate contingencies, clear decision-making processes, and teams that communicate effectively. The ones that struggle typically skipped steps in planning, hoping to "figure it out as we go."
               </p>

@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Impact of Climate on Historic Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding how Tampa's subtropical climate—with its hurricanes, humidity, and intense sun—affects historic preservation and the specialized strategies required to protect irreplaceable landmarks.
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's subtropical climate presents unique challenges for historic preservation that differ significantly from those faced in northern states. The combination of high humidity, intense ultraviolet radiation, salt air corrosion, frequent severe storms, and hurricane threats requires specialized restoration approaches that balance historical authenticity with climate resilience. Florida Construction Specialists has developed expertise in addressing these regional challenges while maintaining compliance with the Secretary of the Interior's Standards for the Treatment of Historic Properties.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               Historic landmarks throughout Tampa Bay—from the ornate Mediterranean Revival structures of Hyde Park to the industrial brick buildings of Ybor City's cigar district—face accelerated deterioration compared to similar structures in more temperate climates. Understanding these climate impacts and implementing appropriate mitigation strategies protects both cultural heritage and significant financial investments in historic properties.

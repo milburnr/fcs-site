@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-consultancy-in-tampa/' },
@@ -189,6 +190,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Consultancy in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert construction advisory services from professionals who've built projects, not just designed them. Get objective guidance that protects your investment.
           </p>
@@ -213,7 +215,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
               Commercial construction is complex, expensive, and full of potential pitfalls. Unless you build projects regularly, you're at an information disadvantage when dealing with architects, contractors, and the construction process itself. Construction consultants level that playing field.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               The best construction consultants bring actual building experience—they've managed projects, negotiated with subcontractors, solved field problems, and understand construction economics from the inside. This real-world experience makes them effective advisors who can spot problems before they cost you money.
             </p>

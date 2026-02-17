@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Advantages of Sustainable Materials in Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover the numerous advantages of using sustainable materials in commercial construction. Gain insights from Florida Construction Specialists serving Tampa Bay.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               The commercial construction industry is experiencing a transformative shift toward sustainable building practices, and Tampa Bay businesses are leading the way. As Florida's premier commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists has witnessed firsthand how sustainable materials deliver measurable benefits beyond environmental stewardship—including substantial cost savings, improved building performance, and enhanced property values.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Business Case for Sustainable Construction Materials

@@ -5,11 +5,12 @@ import { Phone, CheckCircle, AlertTriangle, Building2, Shield, Clock, FileCheck 
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/commercial-property-damage-restoration-in-tampa/' },
   title: "Commercial Property Damage Restoration Tampa",
-  description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1983. Read more.",
+  description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1982. Read more.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Commercial Property Damage Restoration Tampa"
-        description="Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1983. Read more."
+        description="Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1982. Read more."
         datePublished="2024-01-01"
         slug="/insurance/guides/commercial-property-damage-restoration-in-tampa/"
       />
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Property Damage Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Full-service commercial property restoration for office buildings, retail centers, and business facilities. Expert hurricane, flood, fire, and storm damage restoration throughout Tampa Bay.
           </p>

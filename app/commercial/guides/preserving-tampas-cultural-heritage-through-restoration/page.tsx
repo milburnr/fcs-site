@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Preserving Tampa's Cultural Heritage through Restoration
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protecting the built heritage that embodies Tampa's diverse cultural history—from Ybor City's immigrant traditions to the civic landmarks that shaped the modern city.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's built heritage tells the story of a diverse community shaped by immigration, industry, and civic aspiration. The magnificent mutual aid society buildings of Ybor City, the elegant homes of Tampa's civic leaders, the churches that served distinct ethnic communities, and the commercial buildings that drove economic growth all contribute to a cultural landscape that restoration helps preserve for future generations.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists approaches historic restoration as cultural preservation—recognizing that buildings embody community memory, cultural identity, and intangible heritage alongside their physical materials. Our work protects not just historic fabric but the meanings and associations that make Tampa's historic places significant.

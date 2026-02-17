@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/' },
@@ -55,6 +56,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Legal Aspects of Insurance Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida&apos;s insurance restoration laws have undergone major changes. Understand the legal requirements, claim deadlines, and contractor regulations that affect your commercial property recovery.
           </p>
@@ -80,7 +82,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Insurance restoration in Florida operates within a complex legal framework that significantly impacts commercial property owners. Recent legislative changes—particularly the insurance reforms of 2022 and 2023—have fundamentally altered the relationship between policyholders, insurers, and restoration contractors. Understanding these legal requirements helps Tampa Bay commercial property owners protect their interests while navigating the restoration process.
-              </p>
+               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
               <p className="text-gray-600 mb-6">
                 This guide covers the key legal aspects of insurance restoration in Tampa, including claim deadlines, contractor licensing requirements, Assignment of Benefits regulations, and dispute resolution options. While Florida Construction Specialists provides this information for general guidance, we always recommend consulting with qualified legal professionals for specific claim disputes or contract issues.
               </p>

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/' },
@@ -223,6 +224,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Mastering Your Post-Construction Checklist
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             A comprehensive guide to closing out your commercial construction project in Tampa Bay. From final inspections to warranty management, ensure nothing falls through the cracks.
           </p>
@@ -265,7 +267,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               The final weeks of a construction project are when details matter most. After months of coordinated effort, the project reaches completion—but "complete" is a relative term. Without a rigorous post-construction checklist, critical items get missed: warranties go unregistered, documentation is incomplete, training doesn't happen, and problems that should have been caught persist into occupancy.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists has refined our post-construction process through hundreds of commercial projects across Tampa Bay. Our checklist approach ensures every project receives the same systematic attention to closeout, regardless of size or complexity. This guide shares our comprehensive checklist along with the context needed to use it effectively.
             </p>

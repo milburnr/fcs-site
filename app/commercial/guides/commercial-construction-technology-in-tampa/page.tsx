@@ -5,6 +5,7 @@ import { Phone, Cpu, Drone, Building2, Layers, Shield, CheckCircle, Smartphone }
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-technology-in-tampa/' },
@@ -323,6 +324,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Technology in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover how cutting-edge technology is revolutionizing commercial construction in Tampa Bay—delivering faster timelines, better quality, and smarter buildings.
           </p>

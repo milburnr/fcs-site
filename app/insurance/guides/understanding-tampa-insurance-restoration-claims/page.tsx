@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/understanding-tampa-insurance-restoration-claims/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Understanding Tampa Insurance Restoration Claims
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Navigate the insurance restoration claim process with confidence. Learn Florida insurance laws, understand your coverage, and protect your rights as a commercial property owner in Tampa Bay.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Insurance restoration claims can be complex, especially for commercial properties in Tampa Bay where hurricanes, flooding, and severe weather create frequent damage events. Understanding how insurance claims work—from initial filing through final settlement—empowers you to protect your rights, avoid common pitfalls, and maximize your recovery. This guide covers the essential elements of Florida insurance restoration claims for commercial property owners.
-            </p>
+             Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

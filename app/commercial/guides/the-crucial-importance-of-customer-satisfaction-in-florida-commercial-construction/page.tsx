@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             The Crucial Importance of Customer Satisfaction in Florida Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover the power of customer satisfaction in Florida commercial construction projects, understanding why it plays a vital role in the success of your business and how Florida Construction Specialists delivers exceptional client experiences.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               In the competitive Tampa Bay commercial construction market, customer satisfaction isn't just a nice-to-have—it's the foundation of sustainable business success. As Florida's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists has built our reputation on delivering exceptional client experiences. We understand that every construction project represents a significant investment of money, time, and trust, and we're committed to exceeding expectations on every project we undertake.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Why Customer Satisfaction Matters in Commercial Construction

@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/' },
@@ -161,6 +162,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Balcony Restoration & Exterior Waterproofing for Long-Term Performance
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protect your Tampa Bay high-rise investment with restoration and waterproofing systems engineered for 20+ years of reliable service in Florida's demanding coastal climate.
           </p>
@@ -185,7 +187,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               For Tampa Bay condominium associations facing balcony restoration decisions, longevity isn't just about choosing the most expensive option—it's about selecting the right system for your specific conditions and maintaining it properly. The difference between a waterproofing system that fails in 8 years versus one that lasts 25 years often comes down to decisions made during the planning phase.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Florida's coastal environment is uniquely challenging for building exteriors. Salt-laden air accelerates corrosion of steel reinforcement. Intense UV radiation degrades polymer-based coatings. Hurricane-driven rain creates pressures that test every seal and membrane. And year-round humidity means moisture never fully dries out. Yet buildings in Tampa Bay routinely achieve decades of service life from their balcony systems—when they're designed and installed correctly.
             </p>

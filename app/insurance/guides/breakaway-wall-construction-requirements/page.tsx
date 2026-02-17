@@ -14,6 +14,7 @@ import {
   Building2,
   AlertCircle,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -335,6 +336,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Breakaway Wall Construction Requirements
             </h1>
+            <AuthorByline />
             <p className="text-xl text-white/90 mb-8 max-w-2xl">
               Understanding FEMA requirements for breakaway wall construction in
               coastal flood zones. Protecting your Tampa Bay waterfront home through
@@ -365,7 +367,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
               <strong>V Zone Requirement:</strong> Breakaway walls are mandatory for
               any enclosed space below the Base Flood Elevation in Coastal High Hazard
               Areas (V zones). Improper construction voids flood insurance coverage.
-            </p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
           </div>
         </div>
       </section>

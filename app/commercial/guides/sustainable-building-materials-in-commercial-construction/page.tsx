@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-building-materials-in-commercial-construction/' },
@@ -100,6 +101,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Sustainable Building Materials Transforming Commercial Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida Construction Specialists is revolutionizing commercial construction in Tampa with innovative and sustainable building materials. Discover how eco-friendly construction creates lasting value for your business.
           </p>
@@ -125,7 +127,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               The commercial construction industry in Tampa Bay is experiencing a fundamental shift toward sustainable building practices. As Florida's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists is at the forefront of this green building revolution. Sustainable building materials not only reduce environmental impact but also deliver significant long-term cost savings, improved occupant health, and enhanced property values for commercial real estate throughout Central Florida.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Why Sustainable Materials Matter for Tampa Bay Commercial Construction

@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/surviving-a-commercial-construction-project/' },
@@ -207,6 +208,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Surviving a Commercial Construction Project: Expert Strategies for Success
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Commercial construction is complex, stressful, and high-stakes. Learn practical strategies from Florida Construction Specialists for navigating your Tampa Bay project from start to successful completion.
           </p>
@@ -249,7 +251,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Let's be honest: commercial construction is hard. Even with the best contractor, realistic budget, and reasonable timeline, you're going to experience stress. Understanding why helps you navigate the challenges more effectively.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               <strong>Complexity:</strong> A commercial building involves thousands of components, hundreds of decisions, and dozens of specialized trades—all coordinated over months or years. No amount of planning eliminates all surprises. Hidden site conditions, material delays, weather events, and changing requirements are normal, not exceptional.
             </p>

@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ultimate-waterproofing-guide-foundations/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Ultimate Foundation Waterproofing Guide
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive waterproofing solutions for commercial foundations, parking structures, and high-rise condominiums throughout Tampa Bay.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Foundation waterproofing is the first line of defense protecting commercial buildings and high-rise condominiums from water intrusion damage. In Tampa Bay's subtropical climate, where annual rainfall exceeds 50 inches and the water table often sits just feet below grade, effective waterproofing isn't optional—it's essential for structural longevity, occupant comfort, and regulatory compliance. Florida Construction Specialists provides expert foundation waterproofing services for commercial properties throughout Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <p className="text-gray-600 mb-6">
               Unlike residential foundations where waterproofing failures might cause basement dampness, commercial foundation failures can result in millions of dollars in structural damage, business interruption, and liability exposure. High-rise condominiums face particular challenges, as water intrusion into parking structures and below-grade common areas can compromise structural steel, damage resident vehicles, and trigger expensive repairs that strain association reserves.

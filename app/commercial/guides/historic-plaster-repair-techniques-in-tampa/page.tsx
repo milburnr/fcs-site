@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-plaster-repair-techniques-in-tampa/' },
@@ -55,6 +56,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Historic Plaster Repair Techniques in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Master authentic historic plaster repair techniques in Tampa with FCS. Expert restoration of Tampa's historic districts using traditional methods, Secretary of Interior standards, and period-appropriate materials for lasting preservation.
           </p>
@@ -84,7 +86,7 @@ export default function Page() {
               </h2>
               <p className="text-gray-700 mb-4">
                 Florida Construction Specialists specializes in authentic historic plaster repair techniques for Tampa's most treasured properties. Our craftsmen have restored historic buildings throughout Ybor City, Hyde Park, South Tampa, and downtown Tampa's historic districts, using traditional methods that maintain architectural integrity while ensuring long-term durability.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
               <p className="text-gray-700 mb-4">
                 Working within the Secretary of Interior's Standards for the Treatment of Historic Properties, we employ time-tested techniques including three-coat lime plaster systems, horsehair reinforcement, and period-appropriate materials sourced specifically for Tampa's historic architecture dating from the 1880s through the 1940s.
               </p>

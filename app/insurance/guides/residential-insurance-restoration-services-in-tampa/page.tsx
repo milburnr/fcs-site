@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Home, Shield, Hammer, Heart } from "
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/residential-insurance-restoration-services-in-tampa/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Residential Insurance Restoration Services in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert restoration for Tampa Bay homeowners. From hurricane and water damage to fire restoration, we help you navigate insurance claims and restore your home to pre-loss condition.
           </p>

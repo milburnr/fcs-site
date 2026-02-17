@@ -11,6 +11,7 @@ import {
   HelpCircle,
   Clock,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -245,12 +246,13 @@ export default function SB4DCompliancePage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
               Florida SB4-D Compliance Guide: What Every Condo Association Must Know
             </h1>
+            <AuthorByline />
             <p className="text-xl text-white/90 mb-8">
               The Florida Building Safety Act (SB4-D) mandates milestone
               inspections and structural reserve studies for condominiums.
               Non-compliance exposes boards to liability. This guide explains
               every requirement Tampa Bay associations must meet.
-            </p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact/"

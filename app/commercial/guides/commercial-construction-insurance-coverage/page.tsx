@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-insurance-coverage/' },
@@ -230,6 +231,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Insurance Coverage
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protect your investment and your project. Understand the essential insurance coverage required for commercial construction in Florida.
           </p>
@@ -254,7 +256,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
               Construction insurance isn't just paperwork—it's the safety net that protects everyone involved when things go wrong. A worker injury without workers' comp, a fire without builder's risk, or a property damage claim without liability coverage can financially devastate a project and everyone associated with it.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Florida's construction insurance landscape presents unique challenges. Hurricane exposure drives up costs and creates coverage gaps that require careful attention. The state's hardening insurance market has significantly increased premiums. And Florida's workers' compensation requirements are particularly strict for the construction industry.
             </p>

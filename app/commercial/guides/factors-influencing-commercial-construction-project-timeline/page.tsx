@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/factors-influencing-commercial-construction-project-timeline/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             The Top Factors Influencing Commercial Construction Project Length in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover the top factors affecting commercial construction project length in Florida. From project delays to construction project timeline.
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Managing commercial construction timelines is crucial for project success and budget control. As Florida's premier commercial contractor in Tampa Bay, Florida Construction Specialists understands the complex factors that influence commercial construction project durations. Our decades of experience completing over 500 commercial projects across the Tampa Bay region has given us unique insight into optimizing construction schedules while maintaining the highest quality standards.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
               <p className="text-gray-600 mb-8">
                 Commercial construction projects in Florida face unique challenges due to weather patterns, regulatory requirements, and the dynamic Tampa Bay construction market. Understanding these factors helps property owners, developers, and businesses make informed decisions about project timelines and budget allocations.

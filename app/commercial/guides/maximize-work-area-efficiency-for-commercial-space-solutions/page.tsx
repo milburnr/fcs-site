@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/maximize-work-area-efficiency-for-commercial-space-solutions/' },
@@ -301,6 +302,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Maximize Work Area Efficiency for Commercial Spaces
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Every square foot costs money. Smart space planning and construction solutions can reduce your footprint 20-30% while improving how your space works—here's how.
           </p>

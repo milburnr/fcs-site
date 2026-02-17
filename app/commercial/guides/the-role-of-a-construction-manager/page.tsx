@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-role-of-a-construction-manager/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             The Role of a Construction Manager: Your Guide to Professional Project Oversight
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding how construction managers serve as the critical link between your vision and a successfully completed commercial building in Tampa Bay.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Commercial construction projects involve countless moving pieces: architects designing your vision, engineers ensuring structural integrity, dozens of specialized subcontractors performing their trades, material suppliers delivering on tight schedules, inspectors verifying code compliance, and financial stakeholders tracking every dollar. Orchestrating all these elements while keeping your project on time and on budget requires professional expertise—and that's precisely the role a construction manager fulfills. Florida Construction Specialists provides expert construction management for commercial projects throughout Tampa, St. Petersburg, Clearwater, Lakeland, and the greater Central Florida region.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Construction Manager as Your Trusted Advisor

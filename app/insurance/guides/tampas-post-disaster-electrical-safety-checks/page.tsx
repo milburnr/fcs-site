@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-post-disaster-electrical-safety-checks/' },
   title: "Post-Disaster Electrical Safety Tampa | Hurricane",
-  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today.",
+  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Post-Disaster Electrical Safety Tampa | Hurricane"
-        description="Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1983. Request a free estimate today."
+        description="Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/insurance/guides/tampas-post-disaster-electrical-safety-checks/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Post-Disaster Electrical Safety Checks
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional electrical inspection after hurricanes, floods, and storms. Protect your property and occupants from electrical fire and electrocution hazards with expert evaluation and safe restoration.
           </p>

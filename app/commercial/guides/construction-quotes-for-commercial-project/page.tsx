@@ -6,11 +6,12 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-quotes-for-commercial-project/' },
   title: "Construction Quotes for Commercial Projects | Tampa FL",
-  description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1983. Read more.",
+  description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1982. Read more.",
 };
 
 const breadcrumbItems = [
@@ -179,6 +180,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Construction Quotes for Commercial Projects
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Wisdom from Florida Construction Specialists on getting, evaluating, and comparing commercial construction quotes. Make informed decisions that protect your investment.
           </p>

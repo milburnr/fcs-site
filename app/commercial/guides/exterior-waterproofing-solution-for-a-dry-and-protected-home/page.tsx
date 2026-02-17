@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Exterior Waterproofing Solutions for Protected Buildings
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive building envelope waterproofing for high-rise condominiums and commercial properties throughout Tampa Bay.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               The exterior envelope of a commercial building represents far more than an aesthetic surface—it's a complex system of coordinated components that protect the building structure, interior spaces, and occupants from water intrusion. When any element of this system fails, water finds pathways to interior spaces where it damages finishes, promotes mold growth, and ultimately deteriorates structural elements. Florida Construction Specialists provides comprehensive exterior waterproofing solutions that protect commercial buildings and high-rise condominiums throughout Tampa Bay.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               High-rise buildings face particular challenges because of their exposure to weather conditions that low-rise structures rarely experience. Wind speeds increase with height, driving rain horizontally into facade systems that would easily shed vertical rainfall. Building sway under wind loads stresses sealant joints and can open gaps at material transitions. The combination of height, exposure, and Tampa Bay's aggressive climate demands exterior waterproofing systems specifically designed for these conditions.

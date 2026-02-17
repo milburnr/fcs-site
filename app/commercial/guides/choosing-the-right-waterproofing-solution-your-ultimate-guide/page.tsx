@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/' },
@@ -206,6 +207,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Choosing the Right Waterproofing Solution: Your Ultimate Guide
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Navigate the complex world of commercial waterproofing with confidence. Compare systems, understand costs, and select the right solution for your Tampa Bay property.
           </p>
@@ -230,7 +232,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Selecting the right waterproofing system for your Tampa Bay commercial property or condominium isn't a decision to make lightly. The wrong choice can mean premature failure, repeated repair costs, and even structural damage to your building. The right choice provides decades of reliable protection with minimal maintenance.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               This guide cuts through marketing claims to help property managers, condo association boards, and facility directors understand what different waterproofing systems actually deliver. We'll compare the major categories of commercial waterproofing, explain when each is appropriate, and provide realistic cost and lifespan expectations for Florida's demanding coastal environment.
             </p>

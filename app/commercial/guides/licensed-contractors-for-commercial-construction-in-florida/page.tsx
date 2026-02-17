@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Licensed Contractors for Commercial Construction in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding Florida's contractor licensing requirements and why proper licensure is essential for protecting your commercial construction investment in Tampa Bay.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Florida maintains some of the most rigorous contractor licensing requirements in the nation, reflecting the state's commitment to protecting consumers and ensuring construction quality. For commercial property owners in Tampa Bay, understanding these licensing requirements—and insisting on properly licensed contractors—is essential for project success and legal protection. Florida Construction Specialists holds all required state licenses for commercial construction, providing Tampa, Lakeland, The Villages, and Central Florida clients with the credentials and expertise their projects demand.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Florida's Contractor Licensing System

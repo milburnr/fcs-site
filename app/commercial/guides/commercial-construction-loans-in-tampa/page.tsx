@@ -5,6 +5,7 @@ import { Phone, CheckCircle, DollarSign, Building, FileText, Clock, TrendingUp, 
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/' },
@@ -76,6 +77,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Loans in Tampa: A Complete Financing Guide
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding construction financing is crucial for your commercial project success. Learn about loan types, requirements, and how to position your Tampa Bay project for financing approval.
           </p>

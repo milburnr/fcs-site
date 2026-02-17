@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Why Florida Construction Specialists Recommends Building Instead of Buying
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             For many Tampa Bay businesses, new construction offers advantages over purchasing existing buildings: customization for your operations, current code compliance, energy efficiency, and long-term value that existing buildings rarely match.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               When Tampa Bay businesses need commercial space, they face a fundamental choice: buy an existing building or build new. While purchasing existing property may seem simpler, Florida Construction Specialists often recommends new construction for businesses seeking optimal functionality, efficiency, and long-term value. Our decades of experience building and renovating commercial properties has shown us the advantages and hidden costs of each approach.
-            </p>
+             Florida Construction Specialists has delivered quality residential construction across Tampa Bay since 1982, with the same CBC-licensed professionalism and in-house engineering that defines our commercial work.</p>
 
             <div className="bg-green-50 border-l-4 border-green-500 p-6 mb-8">
               <div className="flex items-start gap-4">

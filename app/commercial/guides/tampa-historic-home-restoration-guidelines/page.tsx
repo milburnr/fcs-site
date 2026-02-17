@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-home-restoration-guidelines/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Historic Home Restoration Guidelines
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional guidelines for restoring Tampa's historic residences in Hyde Park, Seminole Heights, and other historic neighborhoods while meeting preservation standards.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's historic residential neighborhoods—Hyde Park, Seminole Heights, Tampa Heights, and others—contain some of Florida's finest examples of Victorian, Craftsman, Colonial Revival, and Mediterranean Revival architecture. Restoring these homes requires understanding both the architectural traditions they represent and the regulatory requirements that govern work in Tampa's historic districts.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <p className="text-gray-600 mb-6">
               While Florida Construction Specialists focuses primarily on commercial and institutional restoration, our expertise extends to significant residential projects and the preservation principles that apply across building types. These guidelines draw on professional standards and Tampa-specific requirements to help homeowners approach restoration with informed expectations.

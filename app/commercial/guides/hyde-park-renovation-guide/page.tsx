@@ -12,6 +12,7 @@ import {
   Calendar,
   MapPin,
 } from "lucide-react";
+import { AuthorByline } from "@/components/AuthorByline";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { ServiceSchema, ArticleSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -260,6 +261,7 @@ export default function HydeParkRenovationGuidePage() {
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-6 font-heading">
               The Hyde Park Renovation Guide: ARC Approval & Historic Standards
             </h1>
+            <AuthorByline />
             <p className="text-xl text-white/90 mb-8">
               Renovating a home in Tampa&apos;s most prestigious historic
               district requires navigating the Architectural Review Committee.

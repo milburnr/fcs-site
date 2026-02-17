@@ -7,6 +7,7 @@ import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema"
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-building-practices-florida-green-construction/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Sustainable Building Practices: Florida Green Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform your commercial project with proven sustainable building practices. Florida Construction Specialists delivers green construction solutions that reduce costs, attract tenants, and protect the environment.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Sustainable building practices have transformed from optional features to essential elements of successful commercial construction in Florida. As Tampa Bay's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists integrates sustainable practices into every project—delivering buildings that cost less to operate, provide healthier environments for occupants, and demonstrate environmental responsibility to customers and communities.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               What Makes Construction "Sustainable" in Florida?

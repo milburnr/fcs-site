@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-preconstruction-modern-approach-design/' },
@@ -168,6 +169,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             The Preconstruction Modern Approach Design
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Revolutionizing Florida commercial construction through early collaboration, integrated technology, and proactive problem-solving that delivers projects faster and at lower cost.
           </p>
@@ -196,7 +198,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 The traditional construction model—design everything first, then bid to the lowest contractor—is fundamentally flawed. It separates design decisions from construction realities, creates adversarial relationships, and consistently produces cost overruns, delays, and disputes. The modern approach turns this model on its head.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
               <p className="text-gray-600 mb-6">
                 Modern preconstruction brings construction expertise into the project from day one. Before architects draw a single line, the team establishes realistic budgets based on actual market conditions. As design evolves, constructability reviews catch problems before they're built into documents. Cost estimates update continuously, not just at major milestones. The result: projects that deliver on their original promises.
               </p>

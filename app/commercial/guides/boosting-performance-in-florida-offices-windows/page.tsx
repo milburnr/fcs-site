@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/boosting-performance-in-florida-offices-windows/' },
@@ -274,6 +275,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Boosting Office Performance with Windows in Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             The right windows transform your office—reducing energy costs, improving employee productivity, and meeting Florida's hurricane requirements. Here's everything you need to know.
           </p>
@@ -298,7 +300,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Windows are the most thermally vulnerable component of any building envelope—and in Florida's intense sunshine, they can make or break your energy budget and employee comfort. But properly specified glazing does far more than control heat: it brings in natural light that boosts productivity, provides views that reduce stress, and protects against hurricanes.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay offices face unique challenges. We have some of the highest solar radiation in the country, a long cooling season, and hurricane exposure that requires impact-resistant glazing in many locations. Choosing the right windows requires balancing multiple factors: solar control, daylight quality, views, hurricane protection, and cost.
             </p>

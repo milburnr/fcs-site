@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/smart-home-integration-in-tampa-custom-homes-2/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Smart Home Integration in Tampa Custom Homes
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Seamlessly control lighting, climate, security, entertainment, and more from any device. Professional-grade automation systems designed and installed during construction for invisible, reliable operation.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Smart home technology has matured from novelty to necessity in Tampa's luxury custom homes. At Florida Construction Specialists, we integrate professional-grade automation systems during construction—when it's possible to run wiring invisibly, position components optimally, and create seamless control over your entire home environment. From the convenience of voice-activated lighting to the security of comprehensive camera systems to the energy savings of intelligent climate control, smart home integration enhances every aspect of modern living.
-            </p>
+             Florida Construction Specialists has delivered quality residential construction across Tampa Bay since 1982, with the same CBC-licensed professionalism and in-house engineering that defines our commercial work.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Professional vs. DIY Smart Home Systems

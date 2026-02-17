@@ -6,11 +6,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/' },
   title: "Structural Integrity Evaluation Tampa | FCS",
-  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1983. Get a free project assessment.",
+  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982. Get a free project assessment.",
 };
 
 const breadcrumbItems = [
@@ -80,7 +81,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Structural Integrity Evaluation Tampa | FCS"
-        description="Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1983. Get a free project assessment."
+        description="Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982. Get a free project assessment."
         datePublished="2024-01-01"
         slug="/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/"
       />
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Structural Integrity Evaluation in Tampa Post-Disaster
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional structural assessment by licensed engineers to determine building safety after hurricanes, floods, and storms. Protect occupants and support insurance claims.
           </p>

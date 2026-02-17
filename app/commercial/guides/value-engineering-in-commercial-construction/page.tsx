@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/value-engineering-in-commercial-construction/' },
@@ -312,6 +313,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Unlocking Value Engineering in Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Value engineering delivers more building for your budget. Florida Construction Specialists shows how systematic analysis achieves 10-25% cost savings while maintaining or improving quality.
           </p>
@@ -339,7 +341,7 @@ export default function Page() {
             </h2>
             <p className="text-xl text-gray-600 mb-6">
               Value engineering is a systematic method for improving project value by examining functions. Developed during World War II to address material shortages, VE has evolved into a sophisticated discipline used worldwide in construction, manufacturing, and project management. The core principle: analyze what each element must accomplish (its function), then find optimal ways to achieve that function.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               The foundation of value engineering is function analysis. A wall's function isn't "to be made of brick"—its function is "to enclose space" and potentially "to resist weather," "to provide insulation," and "to present image." Once you understand the required functions, you can evaluate different ways to achieve them. Maybe tilt-up concrete accomplishes the same functions at lower cost. Maybe insulated metal panels deliver better performance. VE opens these possibilities.
             </p>

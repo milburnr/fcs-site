@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-waterproofing-for-long-lasting-protection/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Balcony Waterproofing for Long-Lasting Protection
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Professional waterproofing systems for high-rise balconies that protect structural concrete and maintain beautiful, functional outdoor spaces.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Balcony waterproofing on high-rise condominiums is not merely a maintenance item—it's a critical building system that protects structural concrete from the water intrusion that leads to expensive deterioration. When balcony waterproofing fails, water reaches embedded reinforcing steel and initiates the corrosion process that ultimately compromises structural capacity. Florida Construction Specialists provides expert balcony waterproofing services that protect Tampa Bay high-rise buildings for years of reliable performance.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               The horizontal surfaces of balconies create particularly challenging waterproofing conditions. Unlike vertical walls that shed water, balcony decks collect rainfall and must rely entirely on waterproofing membranes and drainage systems to protect underlying concrete. Add foot traffic, furniture placement, and Tampa Bay's intense UV radiation, and balcony waterproofing faces some of the most demanding conditions any building waterproofing system encounters.

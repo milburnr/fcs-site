@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Building Multi-Generational Homes in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Keep family close while maintaining privacy. Custom multi-generational homes with in-law suites, dual living areas, accessible design, and thoughtful separation for grandparents, parents, and children living together.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Multi-generational living is experiencing a renaissance in America, and Tampa Bay is at the forefront of this trend. Extended families are discovering the emotional, practical, and financial benefits of living together—grandparents providing childcare, adult children supporting aging parents, resources pooled for better homes than any generation could afford alone. Florida Construction Specialists designs and builds custom multi-generational homes that make shared living work for everyone, with thoughtful separation that provides privacy while maintaining family connection.
-            </p>
+             Florida Construction Specialists has delivered quality residential construction across Tampa Bay since 1982, with the same CBC-licensed professionalism and in-house engineering that defines our commercial work.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Why Multi-Generational Living Works

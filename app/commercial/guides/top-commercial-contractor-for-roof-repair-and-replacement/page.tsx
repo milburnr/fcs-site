@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Top Commercial Contractor for Roof Repair and Replacement in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             From prompt leak repairs to complete commercial re-roofing, Florida Construction Specialists delivers expert solutions that protect Tampa Bay businesses. Licensed, insured, and manufacturer-certified.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               When your commercial roof develops problems, choosing the right contractor makes all the difference between a lasting solution and recurring issues. Tampa Bay's combination of hurricane threats, intense UV exposure, and daily summer storms demands contractors with specific expertise in Florida commercial roofing. Florida Construction Specialists has built our reputation on delivering roof repairs and replacements that stand up to everything our climate delivers.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

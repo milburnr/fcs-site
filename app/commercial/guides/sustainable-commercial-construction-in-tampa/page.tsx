@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa/' },
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Leading Sustainable Commercial Construction in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Florida Construction Specialists delivers sustainable commercial construction that reduces operating costs, attracts quality tenants, and demonstrates environmental leadership throughout Tampa Bay.
           </p>
@@ -102,7 +104,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Sustainable commercial construction has become the new standard for forward-thinking businesses in Tampa Bay. As Florida's premier commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists has positioned itself at the forefront of green building practices. We understand that sustainable construction isn't just about environmental responsibility—it's a sound business strategy that delivers measurable returns through reduced operating costs, enhanced property values, and competitive advantages in tenant attraction.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Why Sustainable Commercial Construction Matters in Tampa

@@ -12,11 +12,12 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/employee-communication-with-office-layout/' },
   title: "Office Layout for Communication Tampa | Design",
-  description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1983. Contact our team today.",
+  description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1982. Contact our team today.",
 };
 
 const breadcrumbItems = [
@@ -281,6 +282,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Enhancing Employee Communication with Office Layout
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Your office layout directly impacts how employees communicate and collaborate. Design spaces that foster connection while respecting the need for focused work.
           </p>

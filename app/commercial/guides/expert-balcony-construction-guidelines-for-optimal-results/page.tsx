@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Expert Balcony Construction Guidelines for Optimal Results
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive construction guidelines for high-rise balconies meeting SB 4-D requirements and Florida Building Code specifications.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Balcony construction for high-rise condominiums and commercial buildings requires careful attention to structural engineering, waterproofing integration, and long-term durability. Unlike residential deck construction, commercial balcony projects must satisfy stringent building code requirements, accommodate extreme wind loads, and maintain structural integrity for decades despite Florida's aggressive coastal environment. Florida Construction Specialists brings deep expertise in high-rise balcony construction to every project throughout Tampa, St. Petersburg, Clearwater, Sarasota, and Lakeland.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               Following the implementation of Florida's SB 4-D legislation, balcony construction practices have evolved to emphasize durability, maintainability, and inspectability. Modern balcony designs anticipate the milestone inspections that will occur throughout the building's life, incorporating details that facilitate visual assessment and non-destructive testing of structural elements. This forward-thinking approach protects building owners from costly surprises during required inspections.

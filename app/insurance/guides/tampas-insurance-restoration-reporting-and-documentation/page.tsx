@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Insurance Restoration Reporting and Documentation
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Comprehensive documentation services that support successful insurance claims. Professional reporting, detailed damage assessment, and Xactimate estimates for Tampa Bay commercial properties.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Thorough documentation is the foundation of every successful insurance restoration claim. For Tampa Bay commercial property owners, the quality of your damage documentation directly impacts claim outcomes—determining whether you receive full compensation or face underpayment, delays, or denial. Florida Construction Specialists provides comprehensive documentation services that meet insurance industry standards and support maximum claim recovery.
-            </p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

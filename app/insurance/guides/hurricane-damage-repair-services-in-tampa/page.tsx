@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-damage-repair-services-in-tampa/' },
@@ -55,6 +56,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa Hurricane Damage Repair Services
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair. Get fast, reliable property
           </p>
@@ -80,7 +82,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Hurricane damage repair in Tampa requires specialized expertise that addresses the complex interactions of wind damage, water intrusion, and structural compromise created by major storm events. Florida Construction Specialists has provided comprehensive hurricane damage repair services throughout Tampa Bay for over 43 years, responding to every major hurricane from Elena in 1985 through Ian in 2022. Our hurricane repair expertise combines rapid storm response with complete reconstruction services that restore properties to pre-storm condition while improving resistance to future storms.
-              </p>
+               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
               <p className="text-gray-600 mb-6">
                 Our unique position in Tampa's construction industry stems from 43 years of experience working both sides of insurance claims – as contractors advocating for property owners and as consultants advising insurance companies on appropriate repair scope and pricing. This dual perspective provides unparalleled insight into how hurricane damage claims are evaluated and what documentation produces optimal outcomes for property owners facing complex hurricane restoration challenges.

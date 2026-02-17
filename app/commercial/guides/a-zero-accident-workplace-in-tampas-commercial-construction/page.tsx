@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/' },
@@ -201,6 +202,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Achieving Zero Accidents in Tampa Commercial Construction
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Safety isn't just a requirement—it's a commitment. Learn how leading Tampa contractors build a culture where every worker goes home safely, every day.
           </p>
@@ -225,7 +227,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
               Construction is inherently hazardous work. Workers operate heavy equipment, work at heights, handle dangerous materials, and labor in challenging conditions. But "inherently hazardous" doesn't mean injuries are inevitable—it means safety requires intentional, systematic effort.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               The construction industry has made tremendous progress in safety. Fatality rates have dropped by more than half over the past 30 years. Leading contractors have demonstrated that zero-injury operations are possible—not as a lucky streak, but as a sustained achievement through rigorous safety management.
             </p>

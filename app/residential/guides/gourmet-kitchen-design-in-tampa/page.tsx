@@ -5,11 +5,12 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/gourmet-kitchen-design-in-tampa/' },
   title: "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens",
-  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1983. Contact us today.",
+  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact us today.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens"
-        description="Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1983. Contact us today."
+        description="Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact us today."
         datePublished="2024-01-01"
         slug="/residential/guides/gourmet-kitchen-design-in-tampa/"
       />
@@ -77,6 +78,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Gourmet Kitchen Design in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Where culinary passion meets exceptional design. Professional-grade appliances, custom cabinetry, premium surfaces, and thoughtful layouts that inspire everyday cooking and memorable entertaining.
           </p>

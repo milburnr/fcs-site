@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-building-preservation-in-tampa/' },
@@ -84,6 +85,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Historic Building Preservation in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Tampa&apos;s historic buildings—from Ybor City&apos;s social clubs to Hyde Park&apos;s commercial landmarks—represent irreplaceable cultural and architectural heritage. Expert preservation ensures these treasures endure.
           </p>
@@ -109,7 +111,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Historic building preservation in Tampa encompasses far more than maintaining old structures—it protects the physical evidence of our community&apos;s story, from the immigrant experience in Ybor City to the elegant development of Hyde Park and Tampa Heights. With over 59 locally designated historic landmarks, four local historic districts, and the nationally recognized Ybor City National Historic Landmark District, Tampa possesses an extraordinary collection of historic resources demanding specialized preservation expertise.
-              </p>
+               Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
               <p className="text-gray-600 mb-6">
                 Florida Construction Specialists has served as a trusted partner for Tampa&apos;s most significant historic preservation projects. Our team understands that every historic building presents unique challenges requiring tailored approaches—combining technical expertise in traditional building methods with deep knowledge of preservation standards and regulatory requirements.

@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/' },
@@ -129,6 +130,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Discover the Best Balcony Decking Options for High-Rise Buildings
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Premium decking solutions for Tampa Bay condominiums that combine aesthetics, durability, and code compliance.
           </p>
@@ -153,7 +155,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-gray-600 mb-6">
               Balcony decking transforms utilitarian concrete slabs into attractive outdoor living spaces that enhance both daily enjoyment and unit values. For high-rise condominiums, decking selection involves more than just aesthetics—structural capacity, waterproofing integration, fire code compliance, and maintenance accessibility all factor into the decision. Florida Construction Specialists helps Tampa Bay building owners and associations select and install balcony decking systems that perform beautifully throughout their service lives.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Following Florida's SB 4-D legislation, decking selection has gained additional importance. Milestone structural inspections require access to evaluate waterproofing systems and structural conditions beneath finished surfaces. Decking materials that facilitate inspection access—rather than complicate it—support association compliance requirements while protecting the investment in quality finishes.

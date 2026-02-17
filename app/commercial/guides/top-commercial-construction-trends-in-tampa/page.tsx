@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends-in-tampa/' },
@@ -54,6 +55,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists Keeping an Eye on the Top Commercial Construction Trends in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.Keep your projects on poi
           </p>
@@ -79,7 +81,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa's commercial construction landscape is rapidly evolving, driven by technological innovation, sustainability initiatives, and changing market demands. As the region's premier commercial contractor, Florida Construction Specialists stays at the forefront of emerging trends, ensuring our clients benefit from the latest construction methodologies, materials, and design concepts that define modern commercial development in the Tampa Bay area.
-              </p>
+               With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Sustainable Building and Green Construction Leadership

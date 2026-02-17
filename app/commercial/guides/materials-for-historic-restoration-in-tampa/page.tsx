@@ -5,11 +5,12 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/materials-for-historic-restoration-in-tampa/' },
   title: "Materials for Historic Restoration in Tampa",
-  description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today.",
+  description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
 };
 
 const breadcrumbItems = [
@@ -56,7 +57,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Materials for Historic Restoration in Tampa"
-        description="Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Request a free estimate today."
+        description="Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/commercial/guides/materials-for-historic-restoration-in-tampa/"
       />
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Materials for Historic Restoration in Tampa
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Sourcing and selecting period-appropriate materials essential for authentic restoration of Tampa's landmark buildings, from salvage brick to custom-formulated lime mortars.
           </p>

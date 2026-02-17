@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-historic-districts-restoration-rules/' },
@@ -102,6 +103,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Tampa's Historic Districts Restoration Rules
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Understanding the regulatory framework for restoration projects in Tampa's locally-designated historic districts, including approval processes and design standards.
           </p>
@@ -127,7 +129,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's locally-designated historic districts establish regulatory frameworks that govern exterior modifications to properties within their boundaries. Unlike National Register listing, which primarily affects tax credit eligibility, local historic district designation creates enforceable design review requirements that apply to all visible exterior work. Understanding these rules before beginning restoration planning prevents delays, redesign costs, and project complications.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists navigates Tampa's historic district regulations as an integral part of restoration project management. Our familiarity with local review bodies, design standards, and approval processes enables efficient project execution that satisfies regulatory requirements while achieving client objectives.

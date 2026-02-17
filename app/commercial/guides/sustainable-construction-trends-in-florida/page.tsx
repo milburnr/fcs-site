@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-construction-trends-in-florida/' },
@@ -101,6 +102,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Sustainable Construction Trends Shaping Florida's Future
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Stay ahead with the latest sustainable construction trends in Florida. Florida Construction Specialists brings cutting-edge green building innovations to Tampa Bay commercial projects.
           </p>
@@ -126,7 +128,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Florida's construction industry is experiencing a sustainability revolution. As climate concerns intensify and building performance expectations rise, sustainable construction has moved from a niche specialty to mainstream practice. Florida Construction Specialists is at the forefront of this transformation, bringing the latest sustainable construction trends to commercial projects throughout Tampa, Lakeland, Sarasota, and the greater Tampa Bay region. Understanding these trends helps property owners and developers make informed decisions about their construction investments.
-            </p>
+             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Trend 1: Net-Zero Energy Buildings

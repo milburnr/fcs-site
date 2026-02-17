@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends/' },
@@ -78,6 +79,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Florida Construction Specialists Unveiling the Top  Commercial Construction Trends
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Are you curious about the latest commercial construction trends in Florida? Discover the cutting-edge construction technology advancements with expert
           </p>
@@ -103,7 +105,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 The commercial construction industry is experiencing unprecedented transformation, driven by technological innovation, evolving workplace dynamics, environmental consciousness, and changing economic factors. As a leading commercial contractor serving Florida, Florida Construction Specialists stays at the forefront of these industry developments, ensuring our clients benefit from the most advanced construction methodologies, sustainable practices, and innovative design solutions shaping the future of commercial development.
-              </p>
+               Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Digital Transformation in Commercial Construction

@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/' },
@@ -143,6 +144,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Commercial Construction Budgeting Tips for Florida
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Expert strategies for accurate budgeting, cost control, and avoiding overruns on commercial construction projects in Tampa Bay and throughout Florida.
           </p>
@@ -167,7 +169,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Successful commercial construction projects begin with realistic budgets. In Florida's dynamic construction market, accurate budgeting requires understanding regional cost factors, accounting for code requirements unique to the state, and building appropriate contingencies for the uncertainties that affect every project.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             <p className="text-gray-600 mb-6">
               Budget overruns damage more than bank accounts—they strain relationships, delay occupancy, and can compromise project quality when corners are cut to compensate. By contrast, well-planned budgets enable informed decision-making throughout design and construction, keeping projects on track and relationships positive.
             </p>

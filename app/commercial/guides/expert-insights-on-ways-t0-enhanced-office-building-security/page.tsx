@@ -12,6 +12,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { AuthorByline } from "@/components/AuthorByline";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/' },
@@ -289,6 +290,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
             Expert Insights on Enhanced Office Building Security
           </h1>
+          <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Protect your Tampa Bay office building with integrated security systems. From access control to surveillance, we design and construct security solutions that protect assets and people.
           </p>
@@ -313,7 +315,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Office building security has evolved far beyond locks and guards. Today's commercial buildings require integrated systems that control access, monitor activity, respond to incidents, and provide documentation—all while maintaining the welcoming environment tenants and visitors expect.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay's growing office market, with its mix of corporate headquarters, financial services, healthcare, and technology tenants, presents diverse security requirements. Some tenants handle sensitive data requiring strict access controls. Others need visitor-friendly environments for client meetings. Most need both.
             </p>
