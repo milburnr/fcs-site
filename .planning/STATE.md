@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 6 of 9 (E-E-A-T Signals)
-Plan: 6 of 8 in current phase (6 complete)
-Status: Executing Phase 6
-Last activity: 2026-02-17 -- Completed 06-03 (Service Hub E-E-A-T Enhancement)
+Plan: 8 of 8 in current phase (8 complete)
+Status: Phase 6 Complete
+Last activity: 2026-02-17 -- Completed 06-08 (Experience Language & Founding Date Audit)
 
-Progress: [█████████░] 87%
+Progress: [██████████] 93%
 
 ## Performance Metrics
 
@@ -67,6 +67,9 @@ Progress: [█████████░] 87%
 | Phase 06 P01 | 2min | 1 tasks | 3 files |
 | Phase 06 P05 | 5min | 1 tasks | 261 files |
 | Phase 06 P03 | 10min | 2 tasks | 9 files |
+| Phase 06 P07 | 25min | 2 tasks | 29 files |
+| Phase 06 P08 | 11min | 2 tasks | 52 files |
+| Phase 06 P04 | 12min | 2 tasks | 14 files |
 
 ## Accumulated Context
 
@@ -168,6 +171,8 @@ Recent decisions affecting current work:
 - [Phase 05-08]: Condensed structure drops Local Expertise and Process sections from standard city format
 - [Phase 05-08]: Three geographic anchors: Sun City Center retirement community, Apollo Beach waterfront, US 41 commercial corridor
 - [Phase 05-08]: SB 4-D distinction: 25-year coastal (Apollo Beach) vs 30-year inland (Sun City Center) on relevant pages
+- [Phase 06-08]: Trust badges changed from "20+ Years Experience" to "Since 1982" on all location hubs
+- [Phase 06-08]: All 40 remaining "1983" references corrected to "1982" site-wide (zero remaining)
 - [Phase 06-01]: AuthorByline supports light/dark variant for hero vs body contexts
 - [Phase 06-01]: ProjectGallery omits non-existent size prop from OptimizedImage; uses default responsive sizing
 - [Phase 06-01]: GalleryPhoto type exported from ProjectGallery for consuming page type safety
@@ -177,6 +182,10 @@ Recent decisions affecting current work:
 - [Phase 06-03]: CodeReference skipped on historic-restoration (codes vary by district) and luxury-custom-homes (residential permits local)
 - [Phase 06-03]: Gallery photos use generic captions since verified project-to-photo mapping doesn't exist yet
 - [Phase 06-03]: Insurance page gallery added to InsurancePageClient.tsx (client component) not page.tsx (server wrapper)
+- [Phase 06]: multi-family-construction page skipped for experience language (already 13+ references)
+- [Phase 06-07]: CodeReference added to coastal SB4-D pages only (Sarasota + Bradenton condo-remediation and balcony-reconstruction)
+- [Phase 06-07]: Brandon/Ruskin skipped for CodeReference (inland/suburban, lighter pages)
+- [Phase 06-07]: multi-family-construction-brandon fixed for 1982 consistency (not in plan target list but caught by verification)
 
 ### Pending Todos
 
