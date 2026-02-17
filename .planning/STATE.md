@@ -5,21 +5,21 @@
 See: .planning/PROJECT.md (updated 2026-02-15)
 
 **Core value:** The site ranks page 1 for priority keywords in Tampa Bay and generates organic leads for insurance restoration and condo remediation services.
-**Current focus:** Phase 3: Schema & Trust Signals
+**Current focus:** Phase 4: Hub Page Expansion
 
 ## Current Position
 
-Phase: 3 of 9 (Schema & Trust Signals) -- COMPLETE
-Plan: 4 of 4 in current phase -- COMPLETE
-Status: Phase 3 Complete
-Last activity: 2026-02-16 -- Completed 03-04 (Trust Signals)
+Phase: 4 of 9 (Hub Page Expansion)
+Plan: 3 of 3 in current phase -- COMPLETE
+Status: Phase 4 Complete
+Last activity: 2026-02-16 -- Completed 04-03 (Insurance Hub Expansion)
 
-Progress: [██████░░░░] 48%
+Progress: [███████░░░] 57%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
+- Total plans completed: 19
 - Average duration: ~4min
 - Total execution time: ~70 min
 
@@ -52,6 +52,7 @@ Progress: [██████░░░░] 48%
 | Phase 03 P03 | -- | -- | -- |
 | Phase 03 P04 | 2min | 2 tasks | 2 files |
 | Phase 03 P03 | 10min | 2 tasks | 429 files |
+| Phase 04 P03 | 5min | 1 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -112,6 +113,10 @@ Recent decisions affecting current work:
 - [Phase 03-03]: LocalBusinessSchema restricted to 82 locally-relevant pages (homepage + 9 locations + 72 service-location)
 - [Phase 03]: Service-location pages keep both LocalBusinessSchema and ServiceSchema for dual local+service signals
 - [Phase 03]: serviceCategories (hasOfferCatalog) added to all 119 ServiceSchema instances, not just core hubs
+- [Phase 04-03]: Used PARALLAX_IMAGES.hurricane for insurance hub visual break
+- [Phase 04-03]: Replaced basic "Why FCS" bullet list with 5-card differentiator grid + license card
+- [Phase 04-03]: 8 FAQs written targeting insurance restoration contractor queries
+- [Phase 04-03]: CTA vocabulary: "Request a Claims Consultation" (primary), "Discuss Your Loss" (secondary)
 
 ### Pending Todos
 
@@ -126,5 +131,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 03-04-PLAN.md (Phase 3 complete)
-Resume file: .planning/phases/04-content-depth/04-01-PLAN.md
+Stopped at: Completed 04-03-PLAN.md (Phase 4 complete)
+Resume file: .planning/phases/05-location-pages/05-01-PLAN.md
