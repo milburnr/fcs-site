@@ -10,7 +10,6 @@ import { Testimonials, FCS_TESTIMONIALS, TestimonialSchema } from "@/components/
 import { ParallaxSection, ParallaxCardsContainer, ParallaxCard } from "@/components/ParallaxSection";
 import { PARALLAX_IMAGES } from "@/lib/imageMapping";
 import { HighLevelForm } from "@/components/HighLevelForm";
-import { getOptimizedBgUrl } from "@/components/OptimizedImage";
 import { WordGridParallax } from "@/components/WordGridParallax";
 
 // Hero slideshow images with responsive srcsets
@@ -262,11 +261,15 @@ export function HomePageClient() {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Commercial Feature */}
           <Link href="/commercial/" className="relative h-80 rounded-xl overflow-hidden group shadow-xl block">
-            <div
-              className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-              style={{
-                backgroundImage: `url('${getOptimizedBgUrl("/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-display.webp")}')`,
-              }}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp"
+              srcSet="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp 640w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp 960w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp 1280w"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="Commercial construction in Tampa"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/90 via-brand-green-dark/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
@@ -280,11 +283,15 @@ export function HomePageClient() {
 
           {/* Residential Feature */}
           <Link href="/residential/" className="relative h-80 rounded-xl overflow-hidden group shadow-xl block">
-            <div
-              className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-105"
-              style={{
-                backgroundImage: `url('${getOptimizedBgUrl("/images/custom-home-construction-2/custom-home-construction-2-display.webp")}')`,
-              }}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/custom-home-construction-2/custom-home-construction-2-medium.webp"
+              srcSet="/images/custom-home-construction-2/custom-home-construction-2-small.webp 640w, /images/custom-home-construction-2/custom-home-construction-2-medium.webp 960w, /images/custom-home-construction-2/custom-home-construction-2-large.webp 1280w"
+              sizes="(max-width: 768px) 100vw, 50vw"
+              alt="Luxury custom home construction"
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              loading="lazy"
+              decoding="async"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-gold-dark/90 via-brand-gold-dark/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">

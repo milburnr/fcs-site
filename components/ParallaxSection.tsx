@@ -30,20 +30,40 @@ export function ParallaxSection({
   minHeight = "400px",
   cardOverlap = 0,
 }: ParallaxSectionProps) {
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    const el = sectionRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "300px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <section
+      ref={sectionRef}
       className={`relative ${className}`}
       style={{
         minHeight,
         marginBottom: cardOverlap > 0 ? `-${cardOverlap}px` : undefined,
       }}
     >
-      {/* Fixed Background Image */}
+      {/* Fixed Background Image - lazy loaded */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed"
-        style={{
+        style={isVisible ? {
           backgroundImage: `url('${backgroundImage}')`,
-        }}
+        } : { backgroundColor: '#1a3a2a' }}
       />
 
       {/* Dark Overlay */}

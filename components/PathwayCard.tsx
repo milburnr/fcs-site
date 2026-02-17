@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { ArrowRight, Building2, Home } from "lucide-react";
 
@@ -26,15 +27,35 @@ export function PathwayCard({
 }: PathwayCardProps) {
   const isCommercial = type === "commercial";
   const Icon = isCommercial ? Building2 : Home;
+  const cardRef = useRef<HTMLAnchorElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    if (!backgroundImage) return;
+    const el = cardRef.current;
+    if (!el) return;
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { rootMargin: "200px" }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [backgroundImage]);
 
   return (
     <Link
+      ref={cardRef}
       href={href}
       className="group block relative overflow-hidden rounded-2xl p-8 transition-all duration-500 hover:scale-[1.02] text-white"
     >
-      {/* Background image */}
-      {backgroundImage && (
-        <div 
+      {/* Background image - lazy loaded */}
+      {backgroundImage && isVisible && (
+        <div
           className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         />
