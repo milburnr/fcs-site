@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
 import { Phone, Shield, Award, CheckCircle, ArrowRight } from "lucide-react";
 import { useState, useEffect } from "react";
 import { BUSINESS_INFO } from "@/lib/constants";
@@ -73,13 +72,14 @@ export function HomePageClient() {
             }`}
           >
             <div className="absolute inset-0 animate-ken-burns">
-              <Image
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src={image}
                 alt="Florida Construction Specialists - Tampa Bay commercial construction"
-                fill
-                className="object-cover"
-                priority={index === 0}
-                sizes="100vw"
+                className="absolute inset-0 w-full h-full object-cover"
+                fetchPriority={index === 0 ? "high" : "low"}
+                loading={index === 0 ? "eager" : "lazy"}
+                decoding={index === 0 ? "sync" : "async"}
               />
             </div>
           </div>
