@@ -1,87 +1,50 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, Users, FileCheck, BookOpen, Landmark, Hammer, Scale } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-sarasota/' },
-  title: "Historic Restoration Sarasota FL | Architecture | FCS",
-  description: "Looking for historic restoration in Sarasota? New Builds, Renovations, and Disaster Recovery Services. Licensed CBC since 1983. Request a free estimate.",
+  title: "Historic Restoration Sarasota FL | Mediterranean Revival, Preservation | FCS",
+  description: "Historic restoration in Sarasota by Florida Construction Specialists. Burns Court, Laurel Park, Mediterranean Revival architecture, Ringling-era estates. Licensed CBC, 40+ years experience.",
 };
 
-const serviceTypes = [
+const faqs = [
   {
-    title: "Sarasota School Preservation",
-    description: "Expert restoration of mid-century modern masterpieces by Paul Rudolph, Ralph Twitchell, and Gene Leedy. Understanding experimental materials, climate-responsive design, and minimalist aesthetic."
+    question: "What historic architectural styles are most common in Sarasota, and how does FCS approach each?",
+    answer: "Sarasota has two primary historic architectural traditions. The Mediterranean Revival style was the dominant commercial and residential architecture of the 1920s boom era, influenced by John Ringling's development of the city and characterized by stucco walls, barrel tile roofs, arched openings, and ornamental ironwork. The mid-century Sarasota School of Architecture, which flourished from the late 1940s through the 1960s, produced a distinctly regional modern style with flat roofs, clerestory windows, post-and-beam construction, and open floor plans designed for the Florida climate. We approach each style differently, using period-appropriate materials and techniques for Mediterranean Revival work while respecting the innovative structural approaches and clean geometries of Sarasota School buildings."
   },
   {
-    title: "Mediterranean Revival Restoration",
-    description: "Complete restoration of 1920s-1930s Mediterranean Revival estates featuring stucco repair, terracotta tile restoration, decorative ironwork, and period-authentic details."
+    question: "Does Sarasota have local historic preservation boards that affect restoration projects?",
+    answer: "The City of Sarasota has a Historic Preservation Board that reviews applications for Certificate of Appropriateness for designated historic properties and properties within historic districts. Burns Court and Laurel Park are two neighborhoods with significant concentrations of designated historic properties. The board reviews exterior modifications to ensure compatibility with the historic character of the property and surrounding district. Undesignated properties with historic significance may also require review if they are located within the boundaries of a locally designated historic area. We have experience working with the Sarasota Historic Preservation Board and understand the review criteria, documentation requirements, and design standards that affect restoration project approvals."
   },
   {
-    title: "Adaptive Reuse Projects",
-    description: "Sensitively converting historic buildings to new uses—former commercial buildings to boutique hotels, residences to galleries—while maintaining historic integrity."
+    question: "How does Florida's hurricane building code interact with historic restoration requirements in Sarasota?",
+    answer: "Historic restoration in Sarasota creates a tension between preservation of original character and compliance with modern hurricane codes. The Florida Building Code provides some accommodation for historic structures through the Historic Buildings chapter, which allows alternative materials and methods when strict code compliance would threaten the historic integrity of the building. However, life safety and structural requirements are generally not waivable. We work with structural engineers to develop solutions that meet wind resistance requirements while preserving historic character. This might include concealed structural reinforcement, impact-resistant glazing that replicates historic window profiles, and enhanced roof connections hidden within the existing roof system. Each project requires a balance specific to the building's historic significance and structural condition."
   },
   {
-    title: "Historic Facade Restoration",
-    description: "Exterior restoration including masonry repair, stucco restoration, window preservation, historic storefronts, and architecturally appropriate paint systems."
+    question: "What is the Sarasota School of Architecture and why does it matter for restoration?",
+    answer: "The Sarasota School of Architecture was a mid-century modern movement centered in Sarasota from approximately 1941 to 1966. Architects including Paul Rudolph, Ralph Twitchell, Victor Lundy, and Gene Leedy developed a regional modernist approach that used post-and-beam construction, clerestory windows, open floor plans, and deep overhangs suited to the Florida climate. These buildings are increasingly recognized as architecturally significant, and several are listed on the National Register of Historic Places. Restoration of Sarasota School buildings requires understanding of their distinctive structural systems, original material specifications, and the design intent behind their open relationship with the landscape. We approach these restorations with the same discipline we apply to earlier historic periods."
   },
   {
-    title: "Period Interior Restoration",
-    description: "Interior restoration including original plasterwork, terrazzo floors, decorative ceilings, historic millwork, and period-appropriate fixtures and finishes."
+    question: "How does salt air exposure affect historic buildings in Sarasota, and how does FCS address it?",
+    answer: "Historic buildings in Sarasota, particularly those on the barrier islands or near the bayfront, experience accelerated deterioration from salt air exposure. Mediterranean Revival stucco develops cracking and delamination as salt penetrates through the coating system and attacks the substrate. Original barrel tile roofs develop mortar deterioration at a faster rate. Metal elements including ornamental ironwork, window frames, and structural connections corrode in the salt environment. Sarasota School buildings with exposed steel structural elements are particularly vulnerable. Our restoration approach includes assessment of salt damage penetration depth, specification of salt-resistant repair materials compatible with historic aesthetics, and protective treatment systems that extend the service life of restored elements in the coastal environment."
   },
   {
-    title: "SHPO Coordination & Tax Credits",
-    description: "Full coordination with Florida State Historic Preservation Office for tax credit projects, ensuring rehabilitation work meets Secretary of Interior Standards."
-  }
-];
-
-// Sarasota-specific historic restoration FAQs
-const sarasotaFaqs = [
-  {
-    question: "What historic districts does FCS serve in Sarasota?",
-    answer: "Florida Construction Specialists serves all of Sarasota's designated historic districts: Downtown Sarasota Historic District (concentrated around Main Street and Five Points), Burns Court Historic District (the charming former fishing village), Laurel Park Historic District (eclectic residential neighborhood), and Indian Beach/Sapphire Shores Historic District (featuring significant Sarasota School modernist homes). We also restore individually listed National Register properties throughout the city and county, including notable Sarasota School of Architecture residences on Siesta Key and Longboat Key."
-  },
-  {
-    question: "Can you restore Sarasota School of Architecture buildings?",
-    answer: "Yes, we specialize in mid-century modern preservation, including the internationally significant Sarasota School of Architecture. These buildings by Paul Rudolph, Ralph Twitchell, Gene Leedy, Victor Lundy, and other masters require deep understanding of experimental materials, climate-responsive design principles, and minimalist aesthetic. We address common issues including flat roof failures, jalousie window deterioration, exposed structural element corrosion, and original material replacement. Our approach preserves architectural intent while solving durability challenges inherent in these pioneering designs."
-  },
-  {
-    question: "What makes historic restoration in Sarasota different from other markets?",
-    answer: "Sarasota's affluent, design-conscious community demands exceptional quality and attention to detail that exceeds typical preservation work. The city's dual heritage—Mediterranean Revival estates from the Ringling era alongside internationally significant mid-century modern architecture—requires diverse expertise. Architectural review is rigorous for visible projects, and premium materials and finishes are standard expectations. Barrier island locations like Longboat Key and Siesta Key add coastal construction complexity. Costs run higher than other markets, but clients expect and receive commensurate quality."
-  },
-  {
-    question: "How do historic tax credits work for Sarasota restoration projects?",
-    answer: "Qualifying historic properties in Sarasota can access the Federal Historic Preservation Tax Credit (20% for income-producing properties), Florida's ad valorem tax exemption for historic properties, and potential local incentives. Given the substantial investment required for Sarasota restoration projects—often $1M to $10M+—these tax credits provide meaningful financial benefit. We coordinate SHPO Part 1, Part 2, and Part 3 applications, ensuring proposed work is approved before construction begins and certified upon completion. Many significant Sarasota restorations have utilized these incentives."
-  },
-  {
-    question: "What's the process for historic preservation review in Sarasota?",
-    answer: "Sarasota's historic preservation review process involves several layers. Properties in designated historic districts require Certificate of Appropriateness approval for exterior alterations. The city's Development Services department and Historic Preservation Board review applications against design guidelines. For tax credit projects, additional SHPO coordination is required. Burns Court, Laurel Park, and Indian Beach/Sapphire Shores each have specific character-defining features that inform review. We prepare thorough applications with historic documentation and have developed strong working relationships with city preservation staff."
-  },
-  {
-    question: "How do you preserve Mediterranean Revival features common in Sarasota?",
-    answer: "Mediterranean Revival restoration in Sarasota addresses distinctive features including barrel tile roofs (often requiring custom tile matching), stucco facades (using appropriate lime-based systems), decorative wrought iron balconies and grilles, arched openings and loggias, and ornamental details like carved stone, terracotta, and decorative tile. We work with specialized craftspeople experienced in traditional techniques. For Ringling-era properties along the bayfront, this work often involves coordinating with the city's most stringent review processes given the architectural significance."
-  },
-  {
-    question: "What are typical costs for historic restoration in Sarasota?",
-    answer: "Historic restoration in Sarasota typically costs more than other Tampa Bay markets due to the community's high standards and architectural complexity. Budget ranges are: Sarasota School modernist homes $250-450 per square foot; Mediterranean Revival estates $200-400+ per square foot; Burns Court commercial restoration $175-325 per square foot; facade restoration $75-175 per square foot of facade area. Premium materials, specialized craftspeople, and rigorous review requirements contribute to costs. Federal tax credits (20%) can substantially offset costs for qualifying income-producing properties."
-  },
-  {
-    question: "How long does a historic restoration project take in Sarasota?",
-    answer: "Historic restoration timelines in Sarasota depend on project scope and required approvals. Minor exterior work might take 3-6 months; comprehensive building restoration 14-24 months; complex adaptive reuse projects 18-36 months. Additional time is needed for Certificate of Appropriateness approval (1-3 months depending on complexity), SHPO review for tax credit projects (4-6 months for Part 2 approval), and sourcing period-appropriate materials. Sarasota's design-conscious standards often mean longer design development phases to achieve desired quality. We build these factors into realistic project schedules."
+    question: "What is the typical scope and cost of historic restoration in Sarasota?",
+    answer: "Historic restoration scope in Sarasota ranges from focused interventions like roof restoration and stucco repair on individual properties to comprehensive restorations of significant structures. A focused exterior restoration of a Mediterranean Revival commercial building in Burns Court or Laurel Park may range from two hundred thousand to five hundred thousand dollars. Comprehensive restoration of a larger historic structure involving structural repair, roof replacement with period-appropriate materials, window restoration, and interior rehabilitation can range from one million to ten million dollars. Historic restoration typically costs more per square foot than new construction because of the specialized materials, skilled labor, documentation requirements, and preservation board coordination involved."
   }
 ];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Historic Restoration", href: "/historic-restoration/" },
+  { name: "Historic Restoration", href: "/services/historic-restoration/" },
   { name: "Sarasota", href: "/historic-restoration-sarasota/" },
 ];
 
@@ -91,50 +54,50 @@ export default function HistoricRestorationSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival restoration. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
+        serviceDescription="Historic restoration in Sarasota, FL. Mediterranean Revival, Sarasota School of Architecture, Burns Court, Laurel Park, preservation board coordination. Licensed CBC1262722, 40+ years experience."
         city="Sarasota"
-        minPrice="500000"
-        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
+        minPrice="200000"
+        serviceCategories={["Mediterranean Revival Restoration", "Sarasota School Preservation", "Historic Commercial Renovation", "Preservation Board Coordination", "Period Material Restoration"]}
       />
-
-      <ArticleSchema
-        headline="Historic Restoration Sarasota FL | Sarasota School of Architecture, Burns Court | FCS"
-        description="Expert historic restoration contractor in Sarasota, Florida. Sarasota School of Architecture, Burns Court, Laurel Park, Mediterranean Revival estates. Secretary of Interior Standards, SHPO coordination."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/historic-restoration-sarasota/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/historic-preservation-home/historic-preservation-home-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span className="text-brand-gold font-semibold">Serving Sarasota, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Historic Restoration in Sarasota, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Historic Restoration in Sarasota, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers expert historic restoration throughout Sarasota—from the internationally significant Sarasota School of Architecture masterpieces to the Mediterranean Revival estates of the Ringling era and the charming historic districts of Burns Court and Laurel Park.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the Mediterranean Revival buildings of Burns Court and Laurel Park to the internationally recognized mid-century masterworks of the Sarasota School of Architecture, Sarasota possesses an architectural heritage unlike any other Florida city. Florida Construction Specialists restores and preserves these historically significant structures with the specialized materials, period-appropriate techniques, and preservation board experience that this work demands.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Sarasota's premier historic preservation contractor, we restore buildings to Secretary of Interior Standards, coordinate SHPO approvals for tax credit projects, and meet the exacting quality standards that Sarasota's design-conscious community expects—always with full accountability as the prime contractor.
-            </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Restoration Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -143,329 +106,115 @@ export default function HistoricRestorationSarasotaPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Landmark className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">4 Historic Districts Served</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileCheck className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Tax Credit Expertise</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Sarasota Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Historic Restoration Services in Sarasota
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Sarasota's architectural heritage is among Florida's most distinctive and internationally significant. The city's development as an affluent winter colony in the 1920s left magnificent Mediterranean Revival estates, while the post-war era produced the Sarasota School of Architecture—a regional variant of modernism that gained worldwide recognition. Today, four designated historic districts protect this diverse heritage, each with unique preservation requirements and architectural character.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota's Unique Architectural Heritage Demands Specialized Restoration
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Sarasota's architectural history is remarkably rich for a city its size, and that history creates specific restoration challenges found nowhere else in Florida. The city's first wave of significant architecture arrived during the 1920s Florida land boom, heavily influenced by circus magnate John Ringling, who envisioned Sarasota as a Mediterranean-style resort city. Ringling's patronage attracted architects who designed commercial buildings, hotels, and residences in the Mediterranean Revival style, with stucco facades, barrel tile roofs, arched openings, decorative tile work, and ornamental ironwork. Burns Court, just south of Main Street downtown, preserves an exceptional concentration of these 1920s commercial buildings. Laurel Park, west of downtown, contains Mediterranean Revival residential architecture from the same era.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings specialized expertise to both ends of Sarasota's architectural spectrum. We understand the traditional craftsmanship of Mediterranean Revival—stucco, terracotta, wrought iron, and decorative tile—as well as the experimental materials and minimalist aesthetic of mid-century modernism. Our projects meet Secretary of Interior Standards, qualify for federal and state tax credits, and satisfy Sarasota's rigorous design review processes.
+              <p className="mb-6">
+                The city's second great architectural movement was the Sarasota School of Architecture, a mid-century modern movement that put Sarasota on the international architectural map. Architects like Paul Rudolph, Ralph Twitchell, Victor Lundy, Jack West, and Gene Leedy developed a regional modernist approach that responded to the Florida climate with post-and-beam construction, clerestory windows, deep overhangs, and an open relationship between interior and exterior space. Buildings like the Revere Quality House, the Hiss Studio, and the Sarasota High School addition by Paul Rudolph are nationally recognized architectural landmarks. Several are listed on the National Register of Historic Places.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Sarasota historic project. Our relationships with preservation craftspeople, specialty trades, and local officials ensure smooth execution from documentation through final restoration.
+              <p className="mb-6">
+                These two architectural traditions create very different restoration challenges. Mediterranean Revival restoration requires mastery of lime-based stucco systems, clay barrel tile roofing, ornamental plaster and cast stone, and wrought iron work. Sarasota School restoration demands understanding of post-war structural systems, innovative glazing details, exposed concrete and steel elements, and the often-experimental construction techniques these architect-designers employed. Both types require careful material analysis, period-appropriate repair specifications, and coordination with preservation authorities.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Historic Restoration Capabilities
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{service.title}</h4>
-                    <p className="text-gray-600 text-sm">{service.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Sarasota Historic Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Sarasota" currentService="historic-restoration" />
-              <NearbyLocations currentCity="Sarasota" service="historic-restoration" serviceName="Historic Restoration" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Sarasota Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Historic restoration in Sarasota starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists approaches Sarasota's historic restoration market with the technical discipline and material knowledge that this work requires. We are not a specialty preservation firm, but as a licensed general contractor with over four decades of construction experience, we bring the project management, structural capability, and quality control systems needed for complex restoration projects while coordinating closely with preservation architects and historians who provide the specialized design guidance.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Sarasota Historic Districts Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/historic-preservation/historic-preservation-display.webp"
+        alt="Historic building restoration in Sarasota's architectural district"
+        title="Preserving Sarasota's Architectural Legacy"
+        subtitle="Mediterranean Revival, Sarasota School, and period-appropriate restoration across the city"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota's Historic Districts & Architectural Heritage
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Historic Restoration Capabilities for Sarasota's Architecture
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Each era of Sarasota's architectural heritage presents distinct restoration requirements and material challenges.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Landmark className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Mediterranean Revival Restoration",
+                description: "Restoration of 1920s-era commercial and residential buildings in Burns Court, Laurel Park, and throughout downtown Sarasota. Lime stucco repair and replacement, barrel tile roof restoration, ornamental plaster and cast stone repair, wrought iron restoration, and period-appropriate window repair."
+              },
+              {
+                icon: Award,
+                title: "Sarasota School Preservation",
+                description: "Restoration of mid-century modern buildings from the Sarasota School of Architecture. Post-and-beam structural repair, clerestory window restoration, flat roof system rehabilitation, exposed concrete and steel element preservation, and reproduction of original architectural details."
+              },
+              {
+                icon: Shield,
+                title: "Structural Rehabilitation",
+                description: "Structural repair and reinforcement of historic buildings that maintains their architectural character while meeting safety requirements. Concealed structural upgrades, foundation stabilization, load-bearing wall repair, and hurricane resistance improvements compatible with historic design."
+              },
+              {
+                icon: HardHat,
+                title: "Exterior Envelope Restoration",
+                description: "Complete exterior restoration including stucco systems, masonry repair, window and door restoration, roof replacement with period-appropriate materials, and decorative element repair. We specify materials compatible with original construction while providing improved weather resistance."
+              },
+              {
+                icon: Briefcase,
+                title: "Adaptive Reuse",
+                description: "Converting historic buildings to new uses while preserving their architectural character. Commercial-to-residential conversions in downtown Sarasota, retail modernization in Burns Court, and adaptive reuse of mid-century structures that honors the original design intent while meeting current code and commercial requirements."
+              },
+              {
+                icon: FileCheck,
+                title: "Preservation Board Coordination",
+                description: "Managing the Certificate of Appropriateness process with the Sarasota Historic Preservation Board. We prepare applications with detailed documentation of proposed restoration work, attend board meetings, and ensure construction execution matches approved plans. Our experience with the board's review criteria reduces approval delays."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Sarasota Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                The commercial heart of historic Sarasota centers on Main Street and Five Points, featuring early 20th-century commercial buildings, the Sarasota Opera House, and the iconic Burns Square area. Mediterranean Revival, Art Deco, and vernacular commercial buildings create a walkable historic core now home to galleries, restaurants, and boutique retail.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Burns Court Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                Originally a fishing village commercial area, Burns Court has been lovingly restored into one of Sarasota's most charming destinations. Small-scale Mediterranean Revival and vernacular buildings from the 1920s house restaurants, galleries, and boutiques. The district's intimate scale and pedestrian character make it a preservation success story.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <BookOpen className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Laurel Park Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                An eclectic residential neighborhood west of downtown, Laurel Park features Craftsman bungalows, Colonial Revival cottages, and Frame Vernacular homes from Sarasota's early development. The tree-lined streets and modest scale attract homeowners committed to preservation. Restoration work respects the neighborhood's diverse but cohesive character.
-              </p>
-            </div>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Indian Beach/Sapphire Shores Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                This bayfront neighborhood contains some of Sarasota's most significant Sarasota School of Architecture residences alongside Mediterranean Revival and Ranch-style homes. Properties along the bay feature work by Paul Rudolph, Ralph Twitchell, and Gene Leedy. Preservation here requires expertise in both traditional and mid-century modern techniques.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Sarasota School of Architecture</h3>
-              <p className="text-gray-600 text-sm">
-                Sarasota's mid-century modern legacy extends beyond formal districts to individually significant residences throughout the city and barrier islands. The Sarasota School pioneered climate-responsive design with jalousie windows, deep overhangs, and indoor-outdoor living. These internationally recognized buildings require specialized preservation expertise.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Sarasota School of Architecture Feature Section */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Preserving the Sarasota School of Architecture
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Sarasota's Historic Preservation Environment
             </h2>
-            <p className="text-gray-600 mb-6">
-              The Sarasota School of Architecture emerged in the late 1940s and flourished through the 1960s, producing buildings that gained international recognition for their innovative approach to Florida's subtropical climate. Architects including Paul Rudolph, Ralph Twitchell, Victor Lundy, Gene Leedy, and Tim Seibert created residences and public buildings that pioneered ideas later embraced worldwide.
-            </p>
-            <p className="text-gray-600 mb-8">
-              These buildings pose unique preservation challenges. Experimental materials—including early cable-stayed structures, exposed steel, and thin-shell concrete—often show their age. Flat roofs designed for minimal rainfall face Florida's intense summer storms. Jalousie windows and other original elements may be deteriorated or missing. Preserving these buildings requires understanding their architectural philosophy while addressing practical durability issues.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <h3 className="font-bold text-brand-green-dark mb-4">Common Sarasota School Challenges</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Flat roof membrane failures and water intrusion</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Jalousie window deterioration and seal failures</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Exposed steel and structural element corrosion</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Terrazzo floor cracking and settling</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Original material replacement sourcing</span>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold text-brand-green-dark mb-4">Our Preservation Approach</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Research original drawings and documentation</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Repair over replacement whenever possible</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Source period-appropriate materials and hardware</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Integrate modern systems invisibly</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <span className="text-gray-700">Preserve architectural intent and character</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota Historic Restoration: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Tax Credits</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Sarasota School Modernist Home</td>
-                    <td className="p-4">$250-450/SF</td>
-                    <td className="p-4">12-20 months</td>
-                    <td className="p-4">20% Federal (if income-producing)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Mediterranean Revival Estate</td>
-                    <td className="p-4">$200-400+/SF</td>
-                    <td className="p-4">14-24 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Burns Court Commercial</td>
-                    <td className="p-4">$175-325/SF</td>
-                    <td className="p-4">8-16 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Laurel Park Residential</td>
-                    <td className="p-4">$150-275/SF</td>
-                    <td className="p-4">6-12 months</td>
-                    <td className="p-4">State exemption possible</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 font-medium">Historic Facade Restoration</td>
-                    <td className="p-4">$75-175/SF (facade)</td>
-                    <td className="p-4">4-10 months</td>
-                    <td className="p-4">Part of whole-building</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Sarasota's design-conscious market demands premium quality, reflected in costs. Federal Historic Tax Credits (20%) available for qualifying income-producing properties.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Preservation Standards Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Meeting Sarasota's Preservation Standards
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Scale className="w-5 h-5 text-amber-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Secretary of Interior Standards</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Federal tax credit projects must meet the Secretary of Interior's Standards for Rehabilitation—10 principles that guide preservation work. In Sarasota, where design quality is paramount, these standards provide essential guidance for both Mediterranean Revival and mid-century modern restoration. We ensure all decisions align with these nationally recognized benchmarks.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">SHPO Coordination</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Projects seeking state or federal historic tax credits require Florida State Historic Preservation Office approval. We coordinate Part 1 (significance), Part 2 (proposed work), and Part 3 (completed work) applications. Given the substantial investment in Sarasota restoration projects, tax credits provide meaningful financial benefit worth the documentation effort.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Sarasota Historic Preservation Review</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota's Historic Preservation Board and city staff review exterior alterations in designated historic districts. Each district—Downtown, Burns Court, Laurel Park, Indian Beach/Sapphire Shores—has specific design guidelines. We prepare thorough applications demonstrating how proposed work respects historic character and meets local standards.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
-                    <Hammer className="w-5 h-5 text-purple-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Premium Craftsmanship</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota's discerning community expects exceptional quality in preservation work. We coordinate with master craftspeople specializing in Mediterranean Revival stucco and decorative elements, terrazzo restoration, mid-century materials, historic ironwork, and period-appropriate finishes. This expertise ensures restoration work meets Sarasota's high standards.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Historic restoration in Sarasota operates within a regulatory framework that balances preservation with practical construction realities. The City of Sarasota maintains a local register of designated historic properties and districts, and the Historic Preservation Board reviews exterior modifications to these designated resources. Properties listed on the National Register of Historic Places, which includes several Sarasota School buildings, carry additional considerations particularly when federal tax credits or grant funding is involved.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> processes construction permits for historic restoration work, but projects involving designated historic properties also require Certificate of Appropriateness from the Historic Preservation Board before construction can begin. We coordinate both tracks simultaneously to avoid delays, preparing permit applications and COA submissions in parallel and ensuring that approved preservation plans align with building code requirements.
+              </p>
+              <p className="mb-6">
+                Sarasota's Gulf Coast climate creates persistent challenges for historic building materials. The combination of salt air, intense UV radiation, high humidity, and driving rain deteriorates traditional construction materials at an accelerated rate. Original lime-based stucco on Mediterranean Revival buildings develops cracking and delamination. Barrel tile roofs lose mortar bonds. Ornamental ironwork corrodes despite previous coatings. Wood elements on Sarasota School buildings suffer from termite damage and moisture-related decay. Our restoration specifications account for these environmental stressors, selecting repair materials that are compatible with original construction while providing improved resistance to Sarasota's demanding climate.
+              </p>
+              <p>
+                The Ringling estate influence on Sarasota's architectural identity extends beyond individual buildings. John and Mable Ringling's Ca d'Zan mansion on Sarasota Bay, built in 1926, established the Venetian Gothic and Mediterranean Revival vocabulary that influenced commercial and residential architecture throughout the city. Understanding this cultural context helps inform restoration decisions, from appropriate color palettes and material textures to the relationship between building design and the lush subtropical landscape that characterizes Sarasota's historic neighborhoods. We approach each restoration project as both a construction challenge and a contribution to preserving Sarasota's distinctive sense of place.
+              </p>
             </div>
           </div>
         </div>
@@ -474,149 +223,102 @@ export default function HistoricRestorationSarasotaPage() {
       {/* Process Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Sarasota Historic Restoration Process
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Sarasota Historic Restoration Process
           </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Historic Documentation & Assessment",
-                  description: "We begin with thorough documentation of existing conditions—photographs, measured drawings, and materials analysis. For Sarasota properties, we research building history through local archives, the Sarasota History Center, and available original drawings. For Sarasota School buildings, we may consult architectural archives at the University of Florida and other repositories. This documentation forms the basis for restoration planning."
-                },
-                {
-                  step: "2",
-                  title: "Preservation Planning & Design",
-                  description: "Based on assessment findings, we develop restoration approaches that address deterioration while preserving character-defining features. For Sarasota's design-conscious market, this phase often involves extended collaboration with architects and preservation consultants to achieve the highest quality outcomes. For tax credit projects, we prepare SHPO Part 2 applications during this phase."
-                },
-                {
-                  step: "3",
-                  title: "Regulatory Approvals",
-                  description: "We navigate Sarasota's Certificate of Appropriateness process, coordinate SHPO reviews for tax credit projects, and obtain building permits. Burns Court, Laurel Park, and Indian Beach/Sapphire Shores each have specific requirements. We maintain relationships with city preservation staff and understand the nuances of each district's review criteria."
-                },
-                {
-                  step: "4",
-                  title: "Restoration Execution",
-                  description: "Experienced project managers oversee restoration work with strict adherence to approved plans and preservation specifications. We coordinate specialized craftspeople—Mediterranean Revival stucco specialists, terrazzo restorers, mid-century modern experts—and monitor material quality throughout. Regular documentation supports tax credit certification."
-                },
-                {
-                  step: "5",
-                  title: "Completion & Certification",
-                  description: "We complete all inspections and provide comprehensive documentation of completed work. For tax credit projects, we prepare SHPO Part 3 certification applications with final photographs and project narrative. We ensure all regulatory requirements are satisfied and buildings are ready for occupancy, meeting both code requirements and Sarasota's exacting quality standards."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-white rounded-lg p-6 shadow-sm">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every historic restoration follows a documented process from investigation through preservation board approval and construction.
+          </p>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Sarasota Chooses FCS for Historic Restoration
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Sarasota historic projects. You get direct accountability, single-point contact, and our full commitment to achieving the quality standards Sarasota's preservation community expects.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Diverse Expertise</h3>
-              <p className="text-gray-600">
-                From Mediterranean Revival estates to Sarasota School modernism, we understand the full range of Sarasota's architectural heritage. Our team includes specialists in both traditional craftsmanship and mid-century modern preservation techniques.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <FileCheck className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Tax Credit Success</h3>
-              <p className="text-gray-600">
-                We navigate federal and state historic tax credit programs, coordinating SHPO applications and ensuring work meets certification requirements. For Sarasota's substantial restoration investments, tax credits provide meaningful return.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Historic Assessment and Documentation",
+                description: "Comprehensive evaluation of the building's historic significance, architectural character, structural condition, and material deterioration. We document existing conditions with detailed photographs and measurements, identify character-defining features that must be preserved, and assess the extent of repair versus replacement needed. For designated properties, this documentation supports the Certificate of Appropriateness application.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Restoration Design and Specifications",
+                description: "Development of restoration plans and material specifications in coordination with preservation architects and the property owner. We specify period-appropriate materials compatible with original construction, develop repair details for each building element, and prepare cost estimates that reflect the specialized nature of historic restoration work in Sarasota.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Preservation Board and Permitting",
+                description: "We manage the Certificate of Appropriateness application to the Sarasota Historic Preservation Board and coordinate building permit applications with the City of Sarasota Building Department in parallel. Our experience with the board's review criteria helps prepare applications that address preservation concerns while achieving the owner's restoration objectives.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Restoration Construction",
+                description: "Skilled craftsmen execute the restoration using approved plans, period-appropriate materials, and specialized techniques. We maintain strict quality control on material compatibility, detail execution, and finish quality. Historic restoration requires patience and craft skills that we ensure through careful trade selection and direct supervision of all preservation-sensitive work.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Documentation and Closeout",
+                description: "Comprehensive documentation of all restoration work including before, during, and after photographs, material certifications, and as-built records. For properties pursuing tax credits or National Register designation, we provide the construction documentation needed to support those applications. We also provide maintenance recommendations to protect the restoration investment.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={sarasotaFaqs} title="Historic Restoration in Sarasota - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Sarasota Historic Restoration FAQ"
+        description="Common questions about historic restoration and preservation in Sarasota, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Sarasota</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-sarasota/" className="text-brand-green hover:underline">Commercial Construction Sarasota</Link></li>
-                <li><Link href="/disaster-recovery-sarasota/" className="text-brand-green hover:underline">Disaster Recovery Sarasota</Link></li>
-                <li><Link href="/balcony-reconstruction-sarasota/" className="text-brand-green hover:underline">Balcony Reconstruction Sarasota</Link></li>
-                <li><Link href="/exterior-waterproofing-sarasota/" className="text-brand-green hover:underline">Exterior Waterproofing Sarasota</Link></li>
-                <li><Link href="/luxury-custom-homes-sarasota/" className="text-brand-green hover:underline">Luxury Custom Homes Sarasota</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Historic Restoration Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration-tampa/" className="text-brand-green hover:underline">Historic Restoration Tampa</Link></li>
-                <li><Link href="/historic-restoration-st-petersburg/" className="text-brand-green hover:underline">Historic Restoration St. Petersburg</Link></li>
-                <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-                <li><Link href="/historic-restoration-lakeland/" className="text-brand-green hover:underline">Historic Restoration Lakeland</Link></li>
-                <li><Link href="/historic-restoration-clearwater/" className="text-brand-green hover:underline">Historic Restoration Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration Services</Link></li>
-                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Commercial Historic Restoration</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Sarasota" currentService="historic-restoration" />
+            <NearbyLocations currentCity="Sarasota" service="historic-restoration" serviceName="Historic Restoration" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Sarasota Historic Restoration Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Preserve Sarasota's Architectural Heritage
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver historic restoration excellence in Sarasota—from Mediterranean Revival estates to Sarasota School masterpieces.
+            Contact Florida Construction Specialists to discuss your historic restoration project in Sarasota. Whether restoring a Mediterranean Revival landmark or preserving a Sarasota School mid-century treasure, we bring the construction expertise and preservation sensitivity this work demands.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Discuss Your Restoration Project
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Preservation Board Experience</span>
+            </div>
           </div>
         </div>
       </section>

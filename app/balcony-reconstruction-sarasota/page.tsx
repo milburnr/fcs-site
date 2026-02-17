@@ -1,100 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, AlertTriangle, FileText, Wrench, Clock, Calendar, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/' },
-  title: "Balcony Reconstruction Sarasota | SB 4-D | FCS",
-  description: "Looking for balcony repair in Sarasota? Expert Project Management, Design-build, and Renovations. Licensed and insured CBC. Request a free estimate today.",
+  title: "Balcony Reconstruction Sarasota FL | SB4-D, Condo Balconies | FCS",
+  description: "Balcony reconstruction in Sarasota by Florida Construction Specialists. SB4-D compliance, barrier island condo balconies, saltwater corrosion repair, structural restoration. Licensed CBC, 40+ years.",
 };
+
+const faqs = [
+  {
+    question: "Why are Sarasota barrier island condo balconies deteriorating faster than mainland structures?",
+    answer: "Condo balconies on Siesta Key, Lido Key, Longboat Key, and Bird Key experience dramatically accelerated deterioration because of constant salt spray from the Gulf of Mexico. Salt-laden moisture penetrates concrete through micro-cracks and pores, reaching the reinforcing steel and initiating chloride-induced corrosion. This corrosion generates expansive iron oxide rust that cracks the surrounding concrete from within, causing visible spalling and delamination. The cycle is self-reinforcing because each crack allows more salt and moisture to reach deeper into the concrete. Barrier island balconies also face more intense UV exposure, higher humidity, and direct wind-driven rain during storms. Buildings constructed in the 1970s and 1980s, which make up a large portion of Sarasota's barrier island condo stock, were built with less concrete cover over rebar than current standards require, making them especially vulnerable."
+  },
+  {
+    question: "How does SB4-D specifically affect balcony inspections and reconstruction in Sarasota?",
+    answer: "Senate Bill 4-D requires milestone structural inspections for condominium buildings three stories or higher, and balconies are a primary focus area during these inspections. Inspectors evaluate balcony structural slabs, railings, waterproofing membranes, and the connection between the balcony and the building's main structural frame. For Sarasota barrier island condos within three miles of the coastline, initial milestone inspections are required by the time the building reaches 25 years of age. Many barrier island condo buildings in Sarasota have already exceeded this age threshold. When inspections reveal balcony deterioration, the findings trigger required repairs that must be completed within specific timeframes. We perform the balcony reconstruction work identified during milestone inspections and help associations prioritize repairs based on structural urgency."
+  },
+  {
+    question: "What does a complete balcony reconstruction involve for a Sarasota condo building?",
+    answer: "Complete balcony reconstruction typically includes removal of the existing waterproofing membrane and walking surface, concrete sounding and delamination mapping to identify all deteriorated areas, removal of cracked and spalled concrete to expose corroded reinforcing steel, treatment or replacement of corroded rebar with corrosion-inhibiting materials, application of new concrete repair material compatible with the existing structure, installation of a new traffic-bearing waterproofing membrane, new walking surface installation, and replacement of deteriorated railing systems. For Sarasota barrier island condos, we specify marine-grade repair materials with corrosion inhibitors and protective coating systems designed for the extreme salt exposure environment."
+  },
+  {
+    question: "How does Hurricane Ian damage overlap with balcony deterioration in Sarasota condos?",
+    answer: "Hurricane Ian in 2022 caused direct damage to many Sarasota condo balconies through wind forces and wind-driven debris, but the storm also worsened pre-existing deterioration by driving salt water deeper into already-compromised concrete and overwhelming aging waterproofing membranes. Buildings that had deferred balcony maintenance before Ian often found that the storm accelerated deterioration significantly, creating safety concerns that demanded immediate attention. The overlap between hurricane damage and pre-existing deterioration creates complex reconstruction projects where insurance coverage and association responsibility must be carefully separated. Our principal's insurance industry background helps associations navigate this allocation accurately."
+  },
+  {
+    question: "How do residents use their units during balcony reconstruction at Sarasota condos?",
+    answer: "Balcony reconstruction at occupied condos requires careful phasing to minimize disruption. We typically work building-by-building or elevation-by-elevation, completing all balconies on one section before moving to the next. During active work on a specific balcony, that unit's sliding door access to the balcony is blocked for safety. We provide advance notice to affected residents, typically two to four weeks before work begins on their section. Noise from concrete removal is the most disruptive aspect and is restricted to permitted hours. For Sarasota's seasonal condo buildings, we schedule the most disruptive phases during summer months when occupancy is lower, though SB4-D deadlines increasingly require year-round construction."
+  },
+  {
+    question: "What railing systems does FCS recommend for Sarasota barrier island balcony reconstruction?",
+    answer: "For barrier island condominiums in Sarasota, we recommend railing systems designed specifically for the salt spray environment. Aluminum railings with marine-grade powder coating provide excellent corrosion resistance and minimal maintenance. Cable rail systems with stainless steel cables and aluminum posts perform well in the coastal environment while preserving water views, which is a significant consideration for Sarasota barrier island properties. Glass panel railings with stainless steel or aluminum frames offer maximum view preservation but require regular cleaning in the salt environment. We avoid standard painted steel railings on barrier island projects because they cannot withstand the salt exposure regardless of the coating system. Each railing system must meet Florida Building Code guardrail height and load requirements."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Balcony Reconstruction", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
+  { name: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
   { name: "Sarasota", href: "/balcony-reconstruction-sarasota/" },
-];
-
-const serviceTypes = [
-  {
-    type: "Structural Balcony Repair",
-    description: "Complete structural restoration including concrete repair, rebar treatment, and load-bearing element replacement for Sarasota's luxury condos",
-    icon: Building2,
-  },
-  {
-    type: "Waterproofing Systems",
-    description: "Marine-grade waterproofing membranes designed for Gulf-front properties on Siesta Key, Longboat Key, and Lido Key",
-    icon: Shield,
-  },
-  {
-    type: "Railing Replacement",
-    description: "Premium aluminum, glass, and cable railing systems meeting Florida Building Code and coastal wind requirements",
-    icon: Wrench,
-  },
-  {
-    type: "SB 4-D Compliance",
-    description: "Milestone inspection support for buildings 3+ stories—most Sarasota barrier island condos require 25-year coastal inspections",
-    icon: FileText,
-  },
-];
-
-const sarasotaFaqs = [
-  {
-    question: "What SB 4-D deadline applies to Sarasota condos?",
-    answer: "Sarasota's barrier islands—Siesta Key, Longboat Key, Lido Key, and Bird Key—all fall within 3 miles of the coastline, triggering the stricter 25-year milestone inspection requirement. Mainland Sarasota properties more than 3 miles from the coast follow the 30-year timeline. Buildings that reached their milestone age before July 1, 2022 were required to complete inspections by December 31, 2024. Given Sarasota's concentration of 1980s-1990s Gulf-front condos, many buildings are now past or approaching their deadlines.",
-  },
-  {
-    question: "Why are Sarasota's Gulf-front condos particularly vulnerable to balcony deterioration?",
-    answer: "Sarasota's barrier island condos face among the harshest conditions in Florida. Direct Gulf of Mexico exposure brings constant salt air, intense UV from unobstructed sun, wind-driven rain during storms, and beach sand abrasion. Properties on Siesta Key and Longboat Key often have west-facing balconies that receive maximum sun and weather exposure. The combination of salt, sun, and humidity can accelerate concrete deterioration significantly faster than inland locations. Many luxury condos also have larger balconies with more complex waterproofing requirements.",
-  },
-  {
-    question: "How much does balcony reconstruction cost in Sarasota?",
-    answer: "Sarasota balcony reconstruction typically costs $18,000-$50,000 per balcony for comprehensive restoration—reflecting the premium materials required for Gulf-front locations and Sarasota's luxury market expectations. Longboat Key and Siesta Key properties with larger balconies and higher finish standards may trend higher. Multi-unit projects achieve economies of scale at $10,000-$30,000 per unit. Building-wide programs for 50+ unit buildings range from $600,000 to $8 million depending on scope and finish level.",
-  },
-  {
-    question: "Which Sarasota areas have the most balcony reconstruction needs?",
-    answer: "Longboat Key has extensive high-rise condo development from the 1970s-1990s, with many buildings now 30-50 years old. Siesta Key has a mix of mid-rise and high-rise condos along Beach Road and Midnight Pass. Lido Key and St. Armands have waterfront properties requiring assessment. Downtown Sarasota's bay-front condos along Bayfront Drive and Golden Gate Point face salt air exposure. Bird Key's exclusive properties have unique design considerations. Palmer Ranch and Lakewood Ranch have newer construction with later timelines.",
-  },
-  {
-    question: "Do Sarasota's luxury condos require special balcony finishes?",
-    answer: "Yes, Sarasota's luxury market often demands higher finish standards than standard reconstruction. FCS works with HOA boards and architects to match existing building aesthetics—this may include decorative concrete overlays, premium tile or pavers, custom railing designs, and color-matched coatings. We coordinate with building designers and can provide finish samples for board approval. While premium finishes add cost, they protect property values in Sarasota's competitive luxury market.",
-  },
-  {
-    question: "Can balcony work be scheduled around Sarasota's tourist and snowbird seasons?",
-    answer: "Yes, scheduling is a major consideration for Sarasota condos. Peak season (December through April) brings increased occupancy, social events, and sensitivity to construction disruption. Many HOAs prefer scheduling major work during summer months when seasonal residents are away, though summer brings afternoon thunderstorms that affect exterior work. FCS works with boards to determine optimal timing—some associations split work between shoulder seasons to minimize impact during both summer and winter peaks.",
-  },
-  {
-    question: "How do Sarasota's historic preservation areas affect balcony work?",
-    answer: "Several Sarasota neighborhoods have historic designations that may affect balcony reconstruction, including portions of Downtown Sarasota, Burns Court, and Laurel Park. Work in these areas may require coordination with the Sarasota Historic Preservation Board to ensure repairs are compatible with historic character. This typically affects railing designs and exterior finishes rather than structural work. FCS has experience navigating historic requirements and can coordinate the approval process.",
-  },
-  {
-    question: "What waterproofing systems work best for Sarasota's Gulf-front properties?",
-    answer: "Sarasota's direct Gulf exposure requires premium waterproofing systems. FCS installs multi-layer systems including: deep-penetrating concrete sealers for salt resistance, marine-grade polyurethane membranes rated for extreme UV and salt exposure, reinforced coating systems at deck-wall junctions (common failure points), slope corrections for proper drainage during intense storms, and UV-stable traffic coatings that withstand Florida's intense sun. For luxury properties, we also offer decorative coating options that combine protection with aesthetics.",
-  },
-];
-
-const costData = [
-  { scope: "Minor Repairs (per balcony)", range: "$4,000 - $10,000", timeline: "2-4 days", description: "Crack repair, coating renewal, minor concrete patching" },
-  { scope: "Moderate Restoration (per balcony)", range: "$10,000 - $28,000", timeline: "5-10 days", description: "Structural repairs, waterproofing, railing refurbishment" },
-  { scope: "Full Reconstruction (per balcony)", range: "$28,000 - $50,000", timeline: "10-15 days", description: "Complete demo and rebuild, new railings, full waterproofing" },
-  { scope: "Multi-Unit Project (per unit)", range: "$10,000 - $30,000", timeline: "Varies", description: "Economies of scale for 10+ unit projects" },
-  { scope: "Building-Wide Program", range: "$600K - $8M+", timeline: "4-12 months", description: "Comprehensive restoration for entire luxury building" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Testing", description: "Structural evaluation, concrete testing, moisture mapping, and scope development with licensed engineers" },
-  { step: 2, title: "HOA/Board Presentation", description: "Detailed proposals, cost options, finish selections, and timeline presentations for association decision-making" },
-  { step: 3, title: "Engineering & Permits", description: "Structural engineering drawings, Sarasota County permit applications, and compliance documentation" },
-  { step: 4, title: "Mobilization & Phasing", description: "Site setup, resident notification, seasonal scheduling coordination, and phased work schedule" },
-  { step: 5, title: "Structural Restoration", description: "Concrete repair, rebar treatment, structural reinforcement, and code-required upgrades" },
-  { step: 6, title: "Waterproofing & Finishes", description: "Marine-grade waterproofing, premium railings, decorative coatings, and final inspections with warranty documentation" },
 ];
 
 export default function BalconyReconstructionSarasotaPage() {
@@ -102,46 +53,51 @@ export default function BalconyReconstructionSarasotaPage() {
     <>
       <LocalBusinessSchema city="Sarasota" service="Balcony Reconstruction" />
       <ServiceSchema
-        serviceName="Balcony Reconstruction and Waterproofing"
-        serviceDescription="Expert balcony reconstruction and waterproofing for Sarasota's luxury condominiums on Siesta Key, Longboat Key, and Lido Key. SB 4-D milestone inspection compliance, structural repairs, and HOA project management. Projects from $100,000 to $10 million."
+        serviceName="Balcony Reconstruction"
+        serviceDescription="Balcony reconstruction in Sarasota, FL. SB4-D milestone compliance, barrier island condo balconies, concrete restoration, railing replacement, waterproofing. Licensed CBC1262722, 40+ years experience."
         city="Sarasota"
-        minPrice="100000"
-        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
+        minPrice="250000"
+        serviceCategories={["Balcony Structural Repair", "SB4-D Compliance", "Railing System Replacement", "Waterproofing Membranes", "Concrete Spall Repair"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Balcony Reconstruction Services in Sarasota, FL"
-        description="Comprehensive guide to balcony reconstruction for Sarasota's Gulf-front condos and apartments. Learn about SB 4-D compliance for barrier island properties, costs, timelines, and working with HOAs on luxury balcony restoration projects."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/balcony-reconstruction-sarasota/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/tampa-condo-balcony-restoration/tampa-condo-balcony-restoration-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Sarasota, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Sarasota, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Balcony Reconstruction in Sarasota
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Balcony Reconstruction in Sarasota, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Sarasota County's trusted contractor for Gulf-front condo balcony reconstruction. SB 4-D milestone inspection compliance for Siesta Key, Longboat Key, and Lido Key properties. Marine-grade waterproofing and premium finishes. We work directly with HOAs on projects from $100K to $10M+.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Sarasota's barrier island condominiums contain hundreds of balconies deteriorating from decades of Gulf Coast salt exposure, and Senate Bill 4-D milestone inspections are revealing the full extent of the problem. Florida Construction Specialists reconstructs condominium balconies across Siesta Key, Lido Key, Longboat Key, Bird Key, and the downtown bayfront with the structural repair expertise and marine-grade materials these coastal environments demand.
             </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <AlertTriangle className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">SB4-D Specialists</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Request Balcony Assessment
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Balcony Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -150,208 +106,167 @@ export default function BalconyReconstructionSarasotaPage() {
         </div>
       </section>
 
-      {/* SB 4-D Alert Banner */}
-      <section className="py-4 bg-amber-50 border-y border-amber-200">
-        <div className="container-custom">
-          <div className="flex items-center justify-center gap-3 text-amber-800">
-            <AlertTriangle className="w-6 h-6 flex-shrink-0" />
-            <p className="font-semibold">
-              <strong>SB 4-D Alert:</strong> Sarasota barrier island condos 3+ stories require 25-year milestone inspections. Many 1980s-1990s buildings are past deadline.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">SB 4-D Specialists</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">100+ Condo Buildings</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">HOA Specialists</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Sarasota's Balcony Reconstruction Experts
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Sarasota County's trusted contractor for balcony reconstruction and waterproofing. Sarasota's barrier islands—Siesta Key, Longboat Key, Lido Key, and Bird Key—are home to some of Florida's most prestigious condominium communities. These Gulf-front properties face the stricter 25-year SB 4-D milestone inspection requirement, with many 1980s-1990s buildings now past their deadlines.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota's Barrier Island Balconies: A Growing Structural Crisis
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Walk the streets of any barrier island condominium community in Sarasota and the evidence of balcony deterioration is visible from the ground. Cracked and spalled concrete on balcony soffits, rust stains streaking down building facades from corroding rebar, deteriorated railing systems with visible corrosion at post bases, and waterproofing membranes that have long since failed. These are not cosmetic issues. They are structural safety concerns that Senate Bill 4-D was designed to address, and they are concentrated in exactly the buildings that make up Sarasota's barrier island condo stock.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Sarasota's luxury market demands exceptional quality in balcony reconstruction. Direct Gulf exposure requires marine-grade materials, while property values depend on maintaining premium aesthetics. Our team has restored balconies at condominiums throughout Sarasota, from iconic Longboat Key towers to boutique Siesta Key properties, understanding both the technical requirements and the high standards expected in this market.
+              <p className="mb-6">
+                The barrier islands of Siesta Key, Lido Key, Longboat Key, and Bird Key were developed heavily during the 1970s and 1980s when Sarasota's condo market boomed. The buildings constructed during this period used reinforcing steel with less concrete cover than current standards require, installed waterproofing membranes that had limited service life, and used railing systems made from standard carbon steel that was never designed for constant salt exposure. After 40 to 55 years of Gulf Coast weathering, these components have reached or exceeded their service life. The balconies that gave these condominiums their Gulf views and coastal lifestyle now represent their most pressing maintenance obligation.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Balcony Reconstruction Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why Sarasota Condos Need Balcony Assessment
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Barrier Island Requirements:</strong> Siesta Key, Longboat Key, and Lido Key properties require 25-year coastal milestone inspections under SB 4-D</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Direct Gulf Exposure:</strong> West-facing balconies receive maximum sun, salt, and weather impact—accelerating deterioration</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Luxury Market Standards:</strong> Property values depend on maintaining premium aesthetics—balcony condition affects resale and financing</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>1980s-1990s Building Stock:</strong> Sarasota's condo boom created thousands of units now 25-40 years old and requiring assessment</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Request a Balcony Assessment for Your Sarasota Building <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">HOA & Property Managers</h3>
-                <p className="text-gray-200 mb-4">
-                  Request a complimentary assessment and proposal for your Sarasota condo building.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              {/* SB 4-D Info Box */}
-              <div className="bg-amber-50 border border-amber-200 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-amber-800 mb-3">SB 4-D Quick Facts</h3>
-                <ul className="space-y-2 text-amber-700 text-sm">
-                  <li>• 3+ story buildings must be inspected</li>
-                  <li>• Barrier islands: 25 years (coastal)</li>
-                  <li>• Mainland: 30 years (if &gt;3 mi from coast)</li>
-                  <li>• Reinspection every 10 years after</li>
-                  <li>• Affects unit resale and financing</li>
-                </ul>
-                <Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-amber-800 font-semibold text-sm mt-3 inline-block hover:underline">
-                  Read Full SB 4-D Guide →
-                </Link>
-              </div>
-
-              <RelatedServices city="Sarasota" currentService="balcony-reconstruction" />
-              <NearbyLocations currentCity="Sarasota" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+              <p className="mb-6">
+                Hurricane Ian in September 2022 accelerated the deterioration timeline for many Sarasota balconies. Storm surge and wind-driven rain drove salt water into concrete that was already compromised by years of chloride intrusion. Balcony railings weakened by corrosion were damaged or destroyed by wind forces. Waterproofing membranes that were marginally functional before the storm were overwhelmed by the water intrusion. The combined effect of decades of deferred maintenance plus hurricane damage has made balcony reconstruction one of the most active construction markets in Sarasota County.
+              </p>
+              <p>
+                Florida Construction Specialists reconstructs condo balconies with the structural engineering oversight, marine-grade materials, and occupied-building construction management that this work requires. Our principal's combined construction and insurance industry experience is particularly valuable for buildings where hurricane damage and pre-existing deterioration must be properly separated for insurance claims purposes.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/southwinds-condo-front/southwinds-condo-front-display.webp"
+        alt="Condominium balcony reconstruction on Sarasota barrier island"
+        title="Restoring Sarasota's Coastal Balconies"
+        subtitle="SB4-D compliance, structural repair, and marine-grade materials for barrier island condominiums"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Sarasota Balcony Reconstruction Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Balcony Reconstruction Capabilities for Sarasota Condominiums
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Costs reflect Sarasota's luxury market standards and Gulf-front material requirements. Premium finishes, larger balconies, and higher aesthetic expectations are factored into these ranges.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Project Scope</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Includes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.scope}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.description}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Luxury finish upgrades available. Contact FCS for detailed assessment and proposal.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Balcony Reconstruction Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            FCS manages balcony reconstruction from initial assessment through warranty completion, with special attention to Sarasota's luxury standards and seasonal scheduling requirements.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every component of a deteriorated balcony requires specialized repair techniques and coastal-grade materials.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Building2,
+                title: "Structural Slab Repair",
+                description: "Comprehensive repair of deteriorated balcony structural slabs. Concrete delamination removal, corroded rebar treatment or replacement, corrosion-inhibiting patch material application, and structural reinforcement where load capacity has been compromised. All repair materials specified for the barrier island salt environment."
+              },
+              {
+                icon: Shield,
+                title: "Waterproofing Systems",
+                description: "Installation of traffic-bearing waterproofing membranes designed for Sarasota's coastal exposure. Hot-applied rubberized asphalt, cold-applied sheet membranes, and liquid-applied systems selected based on the specific balcony conditions, expected traffic, and the walking surface to be installed above."
+              },
+              {
+                icon: HardHat,
+                title: "Railing Replacement",
+                description: "Complete removal and replacement of deteriorated railing systems with marine-grade alternatives. Aluminum, stainless steel cable, and glass panel systems that resist salt corrosion and meet Florida Building Code guardrail requirements. Post anchorage systems engineered for the specific balcony edge condition."
+              },
+              {
+                icon: AlertTriangle,
+                title: "SB4-D Inspection Support",
+                description: "Support for Phase 1 and Phase 2 milestone inspections with particular focus on balcony structural elements. We provide access for inspection activities, coordinate with structural engineers on balcony evaluation, and execute repairs identified during milestone inspection findings within required timelines."
+              },
+              {
+                icon: Briefcase,
+                title: "Soffit and Drainage Repair",
+                description: "Repair of balcony soffits, drip edges, and drainage systems that control water flow and prevent moisture intrusion into the unit below. Proper drainage design is critical on Sarasota's barrier islands where 55 inches of annual rainfall, often in intense downpours, challenges balcony drainage capacity."
+              },
+              {
+                icon: FileCheck,
+                title: "Corrosion Protection",
+                description: "Installation of corrosion protection systems including galvanic cathodic protection anodes, corrosion-inhibiting concrete admixtures, penetrating sealers, and protective coating systems. These systems slow future deterioration and extend the service life of the reconstruction investment in Sarasota's demanding coastal environment."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Sarasota Balcony Reconstruction Requires Coastal Specialists
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Balcony reconstruction on Sarasota's barrier islands is not the same work as balcony repair in an inland market. The constant salt spray environment degrades standard construction materials rapidly. Repair materials that perform adequately in Tampa or Orlando may fail within years on Siesta Key or Longboat Key. Every material specification, from the concrete repair mix to the railing post anchors to the waterproofing membrane adhesive, must be selected for direct coastal exposure.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a>, Sarasota County Building Services, and the Town of Longboat Key each handle balcony reconstruction permits in their respective jurisdictions. Permitting requirements for balcony work include structural engineering drawings, material specifications, and phasing plans that demonstrate continued safe occupancy during construction. We maintain relationships with all three jurisdictions and prepare complete permit packages that minimize review time.
+              </p>
+              <p>
+                Working on occupied condo buildings in Sarasota's seasonal market requires careful scheduling and communication. Many barrier island condo associations prefer reconstruction work during the summer low-occupancy months, but SB4-D deadlines often require year-round construction. We develop phased plans that balance construction efficiency with resident disruption, schedule the noisiest work during permitted hours, and maintain clear communication with property management and individual owners throughout the project.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Sarasota Balcony Reconstruction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every balcony reconstruction follows a systematic process from assessment through completed repair and protection.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Condition Survey and Engineering",
+                description: "Comprehensive evaluation of all balconies including concrete sounding, delamination mapping, rebar cover depth measurement, chloride content testing, and railing condition assessment. We coordinate with structural engineers to develop repair specifications based on the specific deterioration found in each building section.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Reconstruction Design and Budgeting",
+                description: "Development of detailed reconstruction plans, material specifications, and phasing schedules. We present comprehensive budgets to the condo board that enable informed decisions on repair scope, material selections, and special assessment planning.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting and Resident Coordination",
+                description: "We manage permits with the appropriate building department and develop resident communication plans. Advance notice schedules, construction hour restrictions, access modifications, and unit-specific impact information keep the board and residents informed throughout the project.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Phased Reconstruction",
+                description: "Systematic balcony reconstruction moving through the building in planned phases. Each balcony receives concrete repair, waterproofing membrane installation, walking surface replacement, and railing installation. Quality control inspections verify each phase before the next begins.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Maintenance Plan",
+                description: "Final engineering inspection, warranty documentation, and a maintenance calendar for the new waterproofing and coating systems. Proper maintenance significantly extends the life of the reconstruction and helps the association budget for future protective maintenance cycles.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -359,121 +274,48 @@ export default function BalconyReconstructionSarasotaPage() {
         </div>
       </section>
 
-      {/* Sarasota Condo Stats */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Sarasota Luxury Condo Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has restored balconies at prestigious condo communities throughout Sarasota County, from Longboat Key towers to Siesta Key beachfront properties. Our team understands the unique requirements of Sarasota's luxury market, HOA governance, and the county's permitting processes.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Luxury Market Experience:</strong> Premium finishes and attention to aesthetic detail for discerning communities</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Barrier Island Expertise:</strong> Marine-grade systems designed for direct Gulf exposure on Siesta Key and Longboat Key</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Seasonal Scheduling:</strong> Flexible timing to minimize impact during snowbird and tourist seasons</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Sarasota County Expertise:</strong> Established relationships with Building Department for efficient permitting</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Condo Buildings</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$30M+</div>
-                <div className="text-gray-300 text-sm">Balcony Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Calendar className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Waterproofing Warranty</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Sarasota HOAs Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. Your HOA gets direct accountability and single-point responsibility for the entire project.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">SB 4-D Compliance</h3>
-              <p className="text-gray-600">
-                We work with structural engineers to address milestone inspection findings and bring your building into full compliance with Florida's 25-year coastal requirement.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Users className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">HOA Expertise</h3>
-              <p className="text-gray-600">
-                We understand condo governance—from board presentations to special assessments to resident communication. We make complex projects manageable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={sarasotaFaqs}
-        title="Sarasota Balcony Reconstruction FAQs"
-        description="Common questions about balcony reconstruction, SB 4-D compliance, and HOA projects in Sarasota, Florida."
+        items={faqs}
+        title="Sarasota Balcony Reconstruction FAQ"
+        description="Common questions about balcony reconstruction and SB4-D compliance in Sarasota, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Sarasota" currentService="balcony-reconstruction" />
+            <NearbyLocations currentCity="Sarasota" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Sarasota Balcony Reconstruction Experts
+            Address Your Sarasota Balcony Reconstruction Needs
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From SB 4-D compliance to premium luxury finishes, FCS is Sarasota's trusted partner for Gulf-front condo balcony reconstruction. Contact us for a complimentary assessment.
+            Contact Florida Construction Specialists to discuss your condominium's balcony reconstruction requirements. Whether responding to SB4-D milestone findings, hurricane damage, or proactive maintenance, we provide the structural expertise and coastal construction knowledge Sarasota's barrier island condominiums need.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request a Balcony Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>SB4-D Compliance Specialists</span>
+            </div>
           </div>
         </div>
       </section>
