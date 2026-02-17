@@ -106,7 +106,7 @@ Plans:
   1. All 72 service+location pages have 1,500+ words and no two pages share more than 40% content
   2. Each location page includes city-specific details: local building department, permit processes, neighborhood names, landmarks, and references to real local projects where available
   3. The generateLocationFAQs() function is replaced with unique, hand-written FAQ content per page
-  4. The Ruskin location page is among the top 5 strongest pages on the site
+  4. Ruskin pages are high quality within their lighter 800-1,000 word format (SUPERSEDED LOC-06 per phase discussion — user decided lighter treatment)
   5. Location hub pages link to ALL service+location pages for that city with bidirectional linking
 **Plans:** 9 plans
 
