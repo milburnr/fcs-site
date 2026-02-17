@@ -62,7 +62,7 @@ Progress: [█████████░] 85%
 | Phase 05 P07 | 29min | 2 tasks | 9 files |
 | Phase 05 P02 | 35min | 2 tasks | 9 files |
 | Phase 05 P06 | 28min | 2 tasks | 9 files |
-| Phase 05 P08 | -- | -- | -- |
+| Phase 05 P08 | 20min | 1 tasks | 9 files |
 | Phase 05 P09 | 4min | 2 tasks | 9 files |
 
 ## Accumulated Context
@@ -161,6 +161,10 @@ Recent decisions affecting current work:
 - [Phase 05-06]: Dual building dept links on every page: City of Bradenton Building Division + Manatee County Building and Development Services
 - [Phase 05-06]: Anna Maria Island three municipalities (Anna Maria, Holmes Beach, Bradenton Beach) referenced individually where relevant
 - [Phase 05-06]: Cortez fishing village (National Register) featured in historic-restoration and waterproofing for unique Bradenton flavor
+- [Phase 05-08]: Ruskin is ONLY city with lighter ~800-1000 word condensed treatment (all other cities get 2,000+)
+- [Phase 05-08]: Condensed structure drops Local Expertise and Process sections from standard city format
+- [Phase 05-08]: Three geographic anchors: Sun City Center retirement community, Apollo Beach waterfront, US 41 commercial corridor
+- [Phase 05-08]: SB 4-D distinction: 25-year coastal (Apollo Beach) vs 30-year inland (Sun City Center) on relevant pages
 
 ### Pending Todos
 
