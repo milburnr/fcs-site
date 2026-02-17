@@ -81,7 +81,7 @@ export default function MultiFamilyConstructionBrandonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
