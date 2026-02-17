@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 5 of 9 (Location Page Strengthening)
-Plan: 1 of 9 in current phase
+Plan: 5 of 9 in current phase
 Status: Executing Phase 5
-Last activity: 2026-02-16 -- Completed 05-01 (Tampa Location Pages)
+Last activity: 2026-02-16 -- Completed 05-05 (Sarasota Location Pages)
 
 Progress: [███████░░░] 60%
 
@@ -56,6 +56,7 @@ Progress: [███████░░░] 60%
 | Phase 04 P02 | 6min | 1 tasks | 1 files |
 | Phase 04 P03 | 5min | 1 tasks | 2 files |
 | Phase 05 P01 | 25min | 2 tasks | 9 files |
+| Phase 05 P05 | 30min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -131,6 +132,10 @@ Recent decisions affecting current work:
 - [Phase 05-01]: Building dept pattern: name + link only, styled as callout card with border-left accent
 - [Phase 05-01]: Word count over line count: pages 267-396 lines but all exceed 2,000 words (cleaner code)
 - [Phase 05-01]: Each Tampa page has unique market intro angle, unique FAQ set (6 per page), different neighborhood coverage
+- [Phase 05-05]: Sarasota pages focus on barrier island luxury market: Siesta Key, Lido Key, Longboat Key, Bird Key
+- [Phase 05-05]: Hurricane Ian (2022) integrated across disaster recovery, insurance, condo remediation, balcony, waterproofing pages
+- [Phase 05-05]: Sarasota School of Architecture (Paul Rudolph) featured in historic-restoration page
+- [Phase 05-05]: Dropped ArticleSchema, cost tables, stats sections from old format per Tampa pattern
 
 ### Pending Todos
 
@@ -145,5 +150,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-16
-Stopped at: Completed 05-01-PLAN.md (Tampa location pages)
-Resume file: .planning/phases/05-location-page-strengthening/05-02-PLAN.md
+Stopped at: Completed 05-05-PLAN.md (Sarasota location pages)
+Resume file: .planning/phases/05-location-page-strengthening/05-06-PLAN.md
