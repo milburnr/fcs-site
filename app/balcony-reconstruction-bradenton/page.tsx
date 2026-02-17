@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-bradenton/' },
@@ -82,7 +83,7 @@ export default function BalconyReconstructionBradentonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -214,6 +215,13 @@ export default function BalconyReconstructionBradentonPage() {
                 Anna Maria Island balcony reconstruction requires a specialized approach that mainland contractors may not anticipate. Beyond the permitting complexity of three separate island municipalities, the physical constraints of island construction affect every aspect of the project. Material staging areas are limited by small lot sizes. Equipment access is constrained by narrow streets and parking limitations. Construction deliveries must account for bridge traffic, particularly during the December through April tourist season when both the Manatee Avenue and Cortez Road bridges carry heavy traffic. Work hour restrictions vary by municipality and may be more restrictive during peak season. Our experience with island projects means we plan for these constraints from the initial project setup rather than discovering them during construction.
               </p>
               <p>
+                <CodeReference
+                  code="Florida Statute 553.899"
+                  section="Milestone Inspections — Balcony Structural Elements"
+                  description="Senate Bill 4-D codified milestone structural inspections that specifically evaluate balcony slabs, railings, waterproofing, and balcony-to-building connections. Coastal buildings within three miles of the shoreline, including all Anna Maria Island and most Bradenton-area condos, must complete initial inspections at 25 years with subsequent inspections every 10 years."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0553/0553.899"
+                  linkText="View F.S. 553.899"
+                />
                 Condo association governance adds a layer of complexity to every Bradenton balcony reconstruction project that goes beyond the technical construction work. Boards must navigate the fiduciary responsibility of approving major capital expenditures, manage the special assessment process with unit owners who may resist the cost, coordinate construction timing with seasonal residents who may be away for months, and maintain adequate reserves throughout the project. We have worked with enough Bradenton condo associations to understand these dynamics and support boards through the process with clear project information, multiple scope options, and transparent financial reporting.
               </p>
             </div>

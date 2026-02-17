@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-bradenton/' },
@@ -82,7 +83,7 @@ export default function CondoRemediationBradentonPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -214,6 +215,20 @@ export default function CondoRemediationBradentonPage() {
                 The occupied nature of condo buildings adds complexity that other construction types do not face. Residents live in the building during remediation. Noise, dust, vibration, temporary loss of balcony access, and scaffolding adjacent to windows all affect daily life. In Bradenton's tourism-influenced market, particularly on Anna Maria Island, unit owners may rely on rental income from seasonal tenants. Extended remediation that prevents rental use creates direct financial pressure on the association and individual owners. We develop remediation schedules that minimize disruption duration while maintaining construction quality and safety standards.
               </p>
               <p>
+                <CodeReference
+                  code="Florida Statute 553.899"
+                  section="Milestone Inspections for Condominiums and Cooperative Buildings"
+                  description="Requires structural milestone inspections for buildings three stories or taller. Coastal buildings within three miles of the shoreline, including Anna Maria Island and most of Bradenton, must complete initial inspections at 25 years; inland buildings at 30 years. Phase 1 is a visual assessment; Phase 2 involves destructive and non-destructive testing if substantial deterioration is found."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0553/0553.899"
+                  linkText="View F.S. 553.899"
+                />
+                <CodeReference
+                  code="Florida Statute 718.112"
+                  section="Condominium Association Reserve Funding Requirements"
+                  description="Requires condominium associations to maintain adequate reserves for structural maintenance and repair, including funding for remediation identified through milestone inspections. Associations may no longer waive or reduce reserves for items identified in structural integrity reserve studies."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0718/0718.112"
+                  linkText="View F.S. 718.112"
+                />
                 Our experience with Manatee County condo buildings gives us insight into the construction methods and material choices that were common during different building eras. 1970s condos in the Bradenton area often used different concrete mix designs, rebar cover depths, and waterproofing approaches than 1990s buildings. Understanding these era-specific construction characteristics helps us anticipate what we will find once demolition begins and plan remediation approaches that address the root causes of deterioration specific to each building's construction vintage.
               </p>
             </div>

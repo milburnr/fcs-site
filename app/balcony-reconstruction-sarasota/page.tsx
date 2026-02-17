@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/' },
@@ -81,7 +82,7 @@ export default function BalconyReconstructionSarasotaPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -210,6 +211,13 @@ export default function BalconyReconstructionSarasotaPage() {
                 The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a>, Sarasota County Building Services, and the Town of Longboat Key each handle balcony reconstruction permits in their respective jurisdictions. Permitting requirements for balcony work include structural engineering drawings, material specifications, and phasing plans that demonstrate continued safe occupancy during construction. We maintain relationships with all three jurisdictions and prepare complete permit packages that minimize review time.
               </p>
               <p>
+                <CodeReference
+                  code="Florida Statute 553.899"
+                  section="Milestone Inspections — Balcony Structural Elements"
+                  description="Senate Bill 4-D codified milestone structural inspections that specifically evaluate balcony slabs, railings, waterproofing, and balcony-to-building connections. Coastal buildings within three miles of the shoreline, including virtually all Sarasota barrier island condos, must complete initial inspections at 25 years with subsequent inspections every 10 years."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0553/0553.899"
+                  linkText="View F.S. 553.899"
+                />
                 Working on occupied condo buildings in Sarasota's seasonal market requires careful scheduling and communication. Many barrier island condo associations prefer reconstruction work during the summer low-occupancy months, but SB4-D deadlines often require year-round construction. We develop phased plans that balance construction efficiency with resident disruption, schedule the noisiest work during permitted hours, and maintain clear communication with property management and individual owners throughout the project.
               </p>
             </div>

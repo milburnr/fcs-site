@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-sarasota/' },
@@ -81,7 +82,7 @@ export default function CondoRemediationSarasotaPage() {
             <div className="flex flex-wrap gap-4 mb-8">
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Shield className="w-4 h-4 text-brand-gold" />
-                <span className="text-white text-sm font-medium">Since 1983</span>
+                <span className="text-white text-sm font-medium">Since 1982</span>
               </div>
               <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
                 <Award className="w-4 h-4 text-brand-gold" />
@@ -213,6 +214,20 @@ export default function CondoRemediationSarasotaPage() {
                 Salt air corrosion is the primary driver of structural deterioration in Sarasota's barrier island condominiums. The constant salt spray from Gulf of Mexico exposure penetrates concrete through micro-cracks and pores, reaching the reinforcing steel and initiating a corrosion cycle that generates expansive rust, which in turn cracks and spalls the surrounding concrete. This process is continuous and accelerates over time. Remediation must not only repair existing damage but install corrosion protection systems that slow future deterioration. We specify marine-grade repair materials, corrosion-inhibiting admixtures, galvanic cathodic protection where appropriate, and protective coating systems designed for the extreme exposure conditions on Sarasota's keys.
               </p>
               <p>
+                <CodeReference
+                  code="Florida Statute 553.899"
+                  section="Milestone Inspections for Condominiums and Cooperative Buildings"
+                  description="Requires structural milestone inspections for buildings three stories or taller. Coastal buildings within three miles of the shoreline must complete initial inspections at 25 years; inland buildings at 30 years. Phase 1 is a visual assessment; Phase 2 involves destructive and non-destructive testing if substantial deterioration is found."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0553/0553.899"
+                  linkText="View F.S. 553.899"
+                />
+                <CodeReference
+                  code="Florida Statute 718.112"
+                  section="Condominium Association Reserve Funding Requirements"
+                  description="Requires condominium associations to maintain adequate reserves for structural maintenance and repair, including funding for remediation identified through milestone inspections. Associations may no longer waive or reduce reserves for items identified in structural integrity reserve studies."
+                  link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0718/0718.112"
+                  linkText="View F.S. 718.112"
+                />
                 Working in occupied condominium buildings requires careful management of resident communication, noise control, access coordination, and safety protocols. Sarasota's seasonal population pattern creates a natural construction window during the summer months when many units are vacant, but boards increasingly cannot wait for seasonal timing when SB4-D deadlines loom. We develop phased remediation plans that allow construction to proceed year-round while maintaining safe occupancy, providing advance notice to residents, and minimizing disruption to building operations including elevators, parking, and common areas.
               </p>
             </div>
