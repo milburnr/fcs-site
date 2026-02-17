@@ -80,16 +80,8 @@ export function HighLevelForm({
 
     observer.observe(container);
 
-    // Fallback: if still not visible after 2 seconds, show anyway
-    // This handles cases where IntersectionObserver doesn't fire properly
-    const fallbackTimer = setTimeout(() => {
-      setIsVisible(true);
-      trackFormEvent("form_view", variant, config.name);
-    }, 2000);
-
     return () => {
       observer.disconnect();
-      clearTimeout(fallbackTimer);
     };
   }, [variant, config.name]);
 

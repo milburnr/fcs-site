@@ -15,44 +15,37 @@ export function WordGridParallax() {
       const windowHeight = window.innerHeight;
       const sectionHeight = rect.height;
 
-      // Calculate how far through the section we've scrolled
-      // 0 = section just entered viewport from bottom
-      // 1 = section just left viewport from top
       const start = windowHeight;
       const end = -sectionHeight;
       const current = rect.top;
-      
+
       const progress = Math.max(0, Math.min(1, (start - current) / (start - end)));
       setScrollProgress(progress);
     };
 
     window.addEventListener("scroll", handleScroll, { passive: true });
-    handleScroll(); // Initial call
-    
+    handleScroll();
+
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Image moves from showing top (0%) to showing bottom (100%) as you scroll
-  const imageTranslateY = scrollProgress * -20; // Adjust multiplier for more/less movement
+  const imageTranslateY = scrollProgress * -20;
 
   return (
-    <section 
+    <section
       ref={sectionRef}
       className="relative h-[80vh] overflow-hidden"
     >
-      {/* Animated water background */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center animate-slow-drift"
-        style={{ backgroundImage: `url('/images/pool-water-texture.jpg')` }}
+      {/* Blue-teal gradient background */}
+      <div
+        className="absolute inset-0"
+        style={{ background: 'linear-gradient(135deg, #0d4f4f 0%, #1a6b5a 25%, #0e3d3d 50%, #1b5e4a 75%, #0a3333 100%)' }}
       />
-      
-      {/* Slight green tint overlay to match brand */}
-      <div className="absolute inset-0 bg-brand-green-dark/30" />
 
       {/* PNG text with parallax - moves up as you scroll down */}
-      <div 
+      <div
         className="absolute inset-0 flex items-center justify-center will-change-transform"
-        style={{ 
+        style={{
           transform: `translateY(${imageTranslateY}%)`,
           transition: 'transform 0.1s ease-out'
         }}
@@ -63,7 +56,7 @@ export function WordGridParallax() {
           width={912}
           height={880}
           className="w-full max-w-4xl h-auto mix-blend-screen scale-125"
-          priority
+          loading="lazy"
         />
       </div>
     </section>
