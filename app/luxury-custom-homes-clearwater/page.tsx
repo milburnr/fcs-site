@@ -1,121 +1,51 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Home, Compass, Waves, Star, Sun, Gem, Users, DollarSign, Anchor } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Home } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-clearwater/' },
-  title: "Luxury Custom Homes Clearwater | Beach | FCS",
-  description: "Luxury Home Builder in Clearwater: insurance restoration, design-build, and renovations. FL-licensed CBC contractor. Call for a free consultation today.",
+  title: "Luxury Custom Homes Clearwater FL | Waterfront, Island Estates | FCS",
+  description: "Luxury custom home construction in Clearwater by Florida Construction Specialists. Island Estates waterfront, Belleair enclave, coastal design. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What makes Island Estates one of Clearwater's premier custom home locations?",
+    answer: "Island Estates occupies a series of man-made islands in Clearwater Harbor, connected to the Clearwater Beach barrier island by bridge. The neighborhood offers waterfront homesites with protected harbor views, deep-water docks for sailboats and larger vessels, and proximity to both Clearwater Beach and mainland amenities. Homes on Island Estates benefit from the waterfront setting while having somewhat more protection from direct Gulf wave action than beach-front properties, though they still require full coastal construction specifications. The combination of water access, beach proximity, and established residential character makes Island Estates one of the most desirable custom home locations in the Tampa Bay area."
+  },
+  {
+    question: "How does building a custom home near Belleair differ from other Clearwater locations?",
+    answer: "Belleair is an incorporated town adjacent to southern Clearwater with its own building department, zoning codes, and architectural standards separate from the City of Clearwater. The community is known for its large-lot residential properties, mature tree canopy, and proximity to the Belleair Country Club. Custom home construction in Belleair operates under the Town of Belleair's permitting process, which may have different setback requirements, height restrictions, and design review processes than Clearwater proper. Belleair's affluent residential character establishes expectations for construction quality, design sophistication, and landscape integration that we incorporate into every custom home project in the area."
+  },
+  {
+    question: "What coastal construction requirements apply to Clearwater waterfront custom homes?",
+    answer: "Waterfront custom homes in Clearwater must meet Florida Building Code requirements for their specific wind zone and flood zone classification. Properties on Island Estates, along the Intracoastal Waterway, or on Clearwater Harbor typically fall within AE or VE flood zones requiring elevated construction above the base flood elevation. Wind speed design requirements for Clearwater waterfront properties range from 130 to 150 mph depending on exact location and exposure. Beyond code minimums, we recommend marine-grade fasteners throughout, corrosion-resistant structural connections, impact-rated glazing on all openings, and waterproofing systems engineered for continuous salt spray exposure. These specifications protect the significant investment custom homeowners make in Clearwater waterfront properties."
+  },
+  {
+    question: "Can FCS design and build a custom home with a private dock in Clearwater?",
+    answer: "Yes, we handle custom home construction that integrates private dock facilities on Clearwater waterfront properties. Dock construction along Clearwater Harbor and the Intracoastal Waterway requires permits from multiple agencies including the City of Clearwater, the Florida Department of Environmental Protection, the Army Corps of Engineers, and potentially Pinellas County depending on the specific location. We coordinate the dock permitting process concurrently with the home construction permits to align construction timelines. Dock design considerations include water depth, seawall condition, vessel size accommodation, and the aesthetic integration of dock structures with the home's architectural design."
+  },
+  {
+    question: "What architectural styles are popular for luxury custom homes in Clearwater?",
+    answer: "Clearwater's luxury custom home market favors architectural styles that embrace the coastal setting. Contemporary coastal designs with clean lines, expansive glass, and indoor-outdoor living spaces are increasingly popular, particularly on Island Estates where water views drive the design program. Mediterranean and Tuscan-influenced designs remain strong in the Belleair area, where they complement the neighborhood's established architectural character. Florida Vernacular designs that reference traditional Gulf Coast building forms with modern performance are popular on harbor-front properties. Regardless of style, Clearwater custom homes emphasize outdoor living with lanais, pool courtyards, summer kitchens, and covered terraces that take advantage of the mild climate and water proximity."
+  },
+  {
+    question: "How long does it take to build a custom home in Clearwater?",
+    answer: "Custom home construction timelines in Clearwater typically range from 12 to 18 months for most luxury residences, with larger or more complex projects extending to 20 to 24 months. The Clearwater permitting process adds 6 to 12 weeks before construction begins, depending on the project's complexity and whether any variances or special approvals are required. Waterfront properties may require additional time for concurrent dock permitting and seawall work. We develop detailed construction schedules that account for Clearwater's rainy season, coordinate marine-related work with tidal conditions, and sequence exterior envelope completion before the most weather-sensitive interior finish work begins."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential", href: "/residential/" },
-  { name: "Luxury Custom Homes Clearwater", href: "/luxury-custom-homes-clearwater/" },
-];
-
-const homeTypes = [
-  {
-    type: "Beachfront Estates",
-    description: "Clearwater Beach and Sand Key Gulf-front properties with direct beach access, panoramic sunset views, and resort-style amenities",
-    icon: Waves,
-  },
-  {
-    type: "Intracoastal Waterfront",
-    description: "Island Estates, Harbor Oaks, and Belleair waterfront homes with private docks, deep water access, and protected harbor moorings",
-    icon: Anchor,
-  },
-  {
-    type: "Coastal Contemporary",
-    description: "Modern architectural designs that maximize Gulf views with floor-to-ceiling glass, rooftop terraces, and hurricane-rated construction",
-    icon: Compass,
-  },
-  {
-    type: "Resort-Style Living",
-    description: "Infinity pools, outdoor kitchens, cabanas, and tropical landscaping designed for the ultimate Florida beach lifestyle",
-    icon: Sun,
-  },
-];
-
-const clearwaterNeighborhoods = [
-  {
-    name: "Clearwater Beach",
-    description: "Premier Gulf-front location with beach walk properties from $2M-$12M+. Direct Gulf access, sunset views, and walkable beach lifestyle.",
-    features: ["Gulf-front lots", "Beach access", "Sunset views", "Walk to Pier 60"],
-  },
-  {
-    name: "Sand Key",
-    description: "Exclusive barrier island community with protected Gulf-front estates $3M-$15M+. Gated neighborhoods and pristine beaches.",
-    features: ["Gated communities", "Gulf frontage", "Private beaches", "Park access"],
-  },
-  {
-    name: "Island Estates",
-    description: "Prestigious waterfront community on the Intracoastal with deep water lots from $1.5M-$8M+ for boaters and yacht owners.",
-    features: ["Deep water docks", "Intracoastal access", "Gulf proximity", "Protected harbor"],
-  },
-  {
-    name: "Harbor Oaks",
-    description: "Historic mainland neighborhood with mature oak canopy, larger lots, and waterfront properties $1.2M-$5M+.",
-    features: ["Historic character", "Large lots", "Mature landscaping", "Water views"],
-  },
-];
-
-const clearwaterFaqs = [
-  {
-    question: "What areas does FCS build luxury custom homes in Clearwater?",
-    answer: "Florida Construction Specialists builds luxury custom homes throughout Clearwater's most desirable areas including Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, and nearby Belleair. We specialize in both Gulf-front beachfront construction and Intracoastal waterfront properties. Our projects range from $1 million mainland estates to $15 million+ beachfront compounds on Sand Key and Clearwater Beach.",
-  },
-  {
-    question: "How much does it cost to build a luxury custom home on Clearwater Beach?",
-    answer: "Beach and barrier island construction in Clearwater commands premium pricing due to strict FEMA requirements, salt-air resistant materials, and specialized coastal foundations. Beachfront construction typically ranges $550-$850+ per square foot, compared to $400-$600/SF for mainland waterfront properties. A 4,000 SF beachfront home might cost $2.2M-$3.4M for construction alone, plus land costs which can exceed $1-4M for Gulf-front lots.",
-  },
-  {
-    question: "What are the building requirements for Clearwater Beach properties?",
-    answer: "Clearwater Beach and Sand Key are in FEMA VE flood zones requiring elevated construction, flood-resistant materials, and breakaway walls at lower levels. The City of Clearwater has beach overlay requirements including height limits, setbacks, and architectural guidelines. All beachfront construction requires impact-resistant windows/doors rated for 150+ mph winds, and structures must meet or exceed the Florida Building Code Coastal requirements.",
-  },
-  {
-    question: "How long does it take to build a luxury home in Clearwater?",
-    answer: "Mainland luxury homes in Clearwater typically require 14-20 months for construction. Beachfront and barrier island construction takes longer—typically 18-26 months—due to weather constraints, specialized inspections, and logistics challenges of building on narrow barrier islands. Design and permitting add 4-8 months, with beach properties often requiring additional environmental and coastal permits.",
-  },
-  {
-    question: "Can you build homes with deep water docks in Clearwater?",
-    answer: "Yes, waterfront construction with private docks is a specialty for FCS. Island Estates and Harbor Oaks offer deep water access to the Intracoastal Waterway with direct Gulf access. Dock construction requires permits from both the City of Clearwater and Florida DEP. We coordinate seawall construction, dock permitting, and boat lift installation as part of comprehensive waterfront projects.",
-  },
-  {
-    question: "What makes building on Sand Key different from mainland Clearwater?",
-    answer: "Sand Key is a barrier island with additional construction challenges: VE flood zone requirements with elevated living floors, limited access via one bridge affecting material delivery, stricter HOA and gated community requirements, and premium costs for salt-resistant materials and specialized coastal labor. However, Sand Key offers some of the most exclusive addresses in the Tampa Bay area with protected beaches and Gulf frontage.",
-  },
-  {
-    question: "Do you handle hurricane-resistant construction in Clearwater?",
-    answer: "Hurricane-resistant construction is mandatory for all Clearwater coastal properties. FCS builds to exceed Florida Building Code requirements with impact-resistant windows and doors, reinforced concrete block or ICF construction, enhanced roof tie-downs, whole-house generators, and proper elevation for flood zones. Our beachfront homes are designed to withstand major hurricanes while maintaining the luxury finishes our clients expect.",
-  },
-  {
-    question: "What is the difference between Clearwater Beach and Belleair for luxury homes?",
-    answer: "Clearwater Beach offers Gulf-front beach lifestyle with walkable amenities, restaurants, and vibrant tourism—ideal for those wanting beachfront living. Belleair is a prestigious mainland community known for the historic Belleview Biltmore area, larger estate lots, mature landscaping, and a quieter, more exclusive atmosphere. Belleair properties typically offer more land and privacy, while Clearwater Beach provides direct Gulf access and beach lifestyle.",
-  },
-];
-
-const costData = [
-  { tier: "Mainland Luxury", range: "$1M - $2.5M", sqft: "3,500 - 5,500 SF", costPerSqft: "$400 - $500/SF", timeline: "14-18 months" },
-  { tier: "Waterfront Estate", range: "$2.5M - $5M", sqft: "5,000 - 7,500 SF", costPerSqft: "$475 - $575/SF", timeline: "16-20 months" },
-  { tier: "Beachfront Premium", range: "$3.5M - $8M", sqft: "4,500 - 7,000 SF", costPerSqft: "$550 - $700/SF", timeline: "18-24 months" },
-  { tier: "Gulf-Front Estate", range: "$8M - $15M+", sqft: "7,000 - 12,000+ SF", costPerSqft: "$700 - $850+/SF", timeline: "24-30 months" },
-];
-
-const processSteps = [
-  { step: 1, title: "Discovery & Site Analysis", description: "Initial consultation, lot evaluation for flood zones and coastal requirements, budget alignment, and design direction" },
-  { step: 2, title: "Pre-Construction", description: "Detailed coastal budgeting, constructability review, FEMA compliance planning, and specification development" },
-  { step: 3, title: "Permitting", description: "City of Clearwater permits, FEMA elevation certificates, beach overlay approvals, and environmental permits" },
-  { step: 4, title: "Foundation & Structure", description: "Elevated foundations for flood zones, concrete or ICF construction, and hurricane-rated structural systems" },
-  { step: 5, title: "Systems & Envelope", description: "Salt-resistant electrical and plumbing, impact windows/doors, and complete building envelope for coastal durability" },
-  { step: 6, title: "Finishes & Completion", description: "Luxury interior finishes, smart home integration, pool construction, dock installation, and final inspections" },
+  { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
+  { name: "Clearwater", href: "/luxury-custom-homes-clearwater/" },
 ];
 
 export default function LuxuryCustomHomesClearwaterPage() {
@@ -123,45 +53,52 @@ export default function LuxuryCustomHomesClearwaterPage() {
     <>
       <LocalBusinessSchema city="Clearwater" service="Luxury Custom Homes" />
       <ServiceSchema
-        serviceName="Luxury Custom Home Construction"
-        serviceDescription="Premier custom home builder in Clearwater, FL specializing in $1M-$15M+ beachfront estates, Gulf-front properties, and waterfront residences. Serving Clearwater Beach, Sand Key, Island Estates, Harbor Oaks, and Belleair."
+        serviceName="Luxury Custom Homes"
+        serviceDescription="Luxury custom home construction in Clearwater, FL. Island Estates waterfront, Belleair luxury, coastal design, private docks. Licensed CBC1262722, 40+ years experience."
         city="Clearwater"
-        minPrice="1000000"
-        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
+        minPrice="500000"
+        serviceCategories={["Waterfront Custom Homes", "Coastal Design-Build", "Luxury Renovation", "Outdoor Living Construction", "Dock Integration"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Luxury Custom Home Builder in Clearwater, FL"
-        description="Comprehensive guide to building luxury custom homes in Clearwater. Learn about beachfront construction, Gulf-front estates, coastal building requirements, costs, timelines, and Clearwater's premier neighborhoods."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Clearwater, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Clearwater, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Luxury Custom Homes in Clearwater
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Luxury Custom Homes in Clearwater, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Clearwater's premier custom home builder for $1M-$15M+ beachfront estates and waterfront residences. From Gulf-front properties on Sand Key to Intracoastal estates on Island Estates, we bring exceptional craftsmanship to the Tampa Bay beaches.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Clearwater offers some of Tampa Bay's most coveted settings for luxury custom home construction. From the waterfront homesites of Island Estates to the gracious lots of Belleair, from harbor-front properties along the Intracoastal Waterway to established neighborhoods with Gulf access, Florida Construction Specialists builds custom homes that capture the Clearwater coastal lifestyle while meeting the demanding construction requirements of waterfront living.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Design Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule a Design Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -170,343 +107,219 @@ export default function LuxuryCustomHomesClearwaterPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Gem className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$1M - $15M+ Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Star className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Coastal Construction Experts</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Clearwater Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Clearwater's Premier Beachfront Home Builder
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings specialized coastal construction expertise to Clearwater's most exclusive addresses. We build luxury custom homes from $1 million to over $15 million, with particular expertise in beachfront properties on Clearwater Beach and Sand Key, and waterfront estates on Island Estates and Harbor Oaks.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Clearwater's Luxury Home Market Combines Waterfront Living with Coastal Character
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Clearwater's luxury residential market is defined by water. Unlike inland markets where views and acreage drive premium pricing, Clearwater's most desirable custom home locations are those with direct water access, whether on the harbor, the Intracoastal Waterway, or the interconnected canal systems that thread through Island Estates and adjacent neighborhoods. This water orientation shapes everything about luxury home design and construction in Clearwater, from the foundation systems required for waterfront building to the outdoor living spaces that frame harbor sunsets to the dock facilities that accommodate the boating lifestyle.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Clearwater offers the quintessential Florida beach lifestyle—from the world-famous white sand beaches of Clearwater Beach to the exclusive Gulf-front estates of Sand Key and the protected deep water of Island Estates. Building in these coastal environments requires specialized knowledge of FEMA flood zones, salt-resistant construction, and hurricane-rated building systems that our team has mastered over two decades.
+              <p className="mb-6">
+                Island Estates, a collection of man-made islands in Clearwater Harbor, represents the most concentrated luxury waterfront market in the Clearwater area. Homes here enjoy protected harbor water, deep-water access for serious boating, and the unique island community experience of being surrounded by water while remaining minutes from both Clearwater Beach and mainland services. Custom home construction on Island Estates requires understanding of the island's specific soil conditions, the relationship between home elevation and flood zone requirements, and the integration of dock and seawall construction with the overall project timeline.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Luxury Home Specialties
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {homeTypes.map((home) => (
-                  <div key={home.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <home.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{home.type}</h4>
-                        <p className="text-gray-600 text-sm">{home.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why Build a Luxury Home in Clearwater?
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>World-Class Beaches:</strong> Clearwater Beach consistently ranks among America's top beaches, with sugar-white sand and stunning Gulf sunsets steps from your door</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Deep Water Access:</strong> Island Estates and the Intracoastal Waterway provide protected deep water for yacht owners with direct Gulf access</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Exclusive Communities:</strong> Sand Key gated communities and Island Estates offer privacy, security, and the most prestigious addresses in Pinellas County</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Year-Round Lifestyle:</strong> Gulf breezes moderate temperatures for comfortable outdoor living with pools, docks, and beach activities throughout the year</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Clearwater Custom Home Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Start Your Project</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a consultation to discuss your beachfront vision, waterfront lot, or existing property.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Clearwater" currentService="luxury-custom-homes" />
-              <NearbyLocations currentCity="Clearwater" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+              <p className="mb-6">
+                Belleair, the incorporated town bordering Clearwater's southern edge, offers a distinctly different luxury market. Known for its large residential lots, established tree canopy, and the Belleair Country Club, Belleair attracts custom home buyers who prefer estate-scale properties in a manicured community setting. Custom construction here operates under Belleair's own building department and design standards, which differ from the City of Clearwater's requirements. The town's residential character emphasizes quality construction and architectural distinction.
+              </p>
+              <p>
+                Florida Construction Specialists brings the structural engineering capability, coastal construction expertise, and project management capacity that Clearwater's luxury custom home market demands. Our experience as a prime general contractor on large commercial projects translates directly to the construction management, subcontractor coordination, and quality control expectations of luxury residential clients who are accustomed to institutional-quality execution.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-small.webp"
-        alt="Luxury custom home construction"
-        title="Building Dream Homes"
-        subtitle="Waterfront estates and architectural masterpieces"
-        overlayOpacity={0.5}
+        src="/images/custom-home-1/custom-home-1-display.webp"
+        alt="Luxury custom home construction in Clearwater's waterfront neighborhoods"
+        title="Clearwater Luxury Custom Homes"
+        subtitle="Island Estates waterfront, Belleair estates, and harbor-front residences built to coastal standards"
+        overlayOpacity={0.55}
       />
 
-      {/* Clearwater Neighborhoods */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Clearwater's Premier Neighborhoods for Luxury Homes
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Custom Home Construction for Clearwater's Premier Neighborhoods
           </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            We build in Clearwater's most desirable locations, from Gulf-front beach properties to protected Intracoastal waterfront estates.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {clearwaterNeighborhoods.map((neighborhood) => (
-              <div key={neighborhood.name} className="bg-white rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-2">{neighborhood.name}</h3>
-                <p className="text-gray-600 mb-4">{neighborhood.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {neighborhood.features.map((feature) => (
-                    <span key={feature} className="px-3 py-1 bg-brand-green/10 text-brand-green-dark text-sm rounded-full">
-                      {feature}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Table */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Clearwater Luxury Home Construction Costs
-          </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Beach and barrier island construction commands premium pricing due to FEMA requirements, coastal materials, and specialized foundations. These ranges reflect typical Clearwater projects.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Property Type</th>
-                  <th className="px-6 py-4 text-left">Price Range</th>
-                  <th className="px-6 py-4 text-left">Typical Size</th>
-                  <th className="px-6 py-4 text-left">Cost Per SF</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.tier}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.sqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.costPerSqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Does not include land, design fees, or soft costs. Beachfront properties include premium for FEMA compliance, coastal foundations, and salt-resistant materials.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Coastal Custom Home Building Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Building on Clearwater's barrier islands and waterfront properties requires specialized expertise. Our proven 6-phase process addresses coastal construction challenges.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From waterfront design-build to estate renovation, we deliver luxury residential construction that meets Clearwater's coastal demands.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Home,
+                title: "Waterfront Design-Build",
+                description: "Complete custom home construction on Clearwater waterfront properties. Site-specific foundation design, coastal-rated structural systems, impact-resistant building envelopes, and water-oriented floor plans that maximize harbor and Gulf views from Island Estates, Intracoastal, and harbor-front homesites."
+              },
+              {
+                icon: Building2,
+                title: "Estate-Scale Construction",
+                description: "Large-scale custom homes in Belleair and Clearwater's established luxury neighborhoods. Multi-level residences, guest houses, detached garages, pool complexes, and landscape structures built to the architectural standards and community expectations of each neighborhood."
+              },
+              {
+                icon: Shield,
+                title: "Coastal Structural Engineering",
+                description: "In-house engineering capability for Clearwater's demanding waterfront construction requirements. Elevated foundation systems for flood zone compliance, reinforced concrete and steel framing for wind loads up to 150 mph, and marine-grade material specifications that protect against salt air corrosion."
+              },
+              {
+                icon: HardHat,
+                title: "Outdoor Living Construction",
+                description: "Expansive lanais, covered terraces, summer kitchens, pool and spa installations, screen enclosures, and landscape hardscaping designed for Clearwater's year-round outdoor lifestyle. Waterfront outdoor spaces with dock access, seawall integration, and wind-resistant design for exposed harbor locations."
+              },
+              {
+                icon: Briefcase,
+                title: "Dock and Marine Integration",
+                description: "Coordination of private dock construction with home building timelines. Multi-agency permitting through City of Clearwater, FDEP, Army Corps of Engineers, and Pinellas County. Seawall assessment and replacement, boat lift installation, and aesthetic integration of marine facilities with the home's architecture."
+              },
+              {
+                icon: FileCheck,
+                title: "Luxury Renovation and Addition",
+                description: "Major renovation and expansion of existing Clearwater luxury homes. Kitchen and bath redesign, wing additions, second-story additions with structural reinforcement, and whole-home modernization that brings older luxury properties to current performance and lifestyle standards."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                The FCS Difference in Coastal Luxury Homes
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Our commercial construction background brings unmatched project management capabilities to coastal residential construction. We understand the unique challenges of building on Clearwater's beaches and barrier islands—from FEMA compliance to hurricane-rated construction.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Building Luxury Homes in Clearwater's Coastal Environment
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Luxury custom home construction in Clearwater demands more than aesthetic excellence. Every waterfront home must perform as an engineered system designed to resist the Gulf's salt environment, withstand hurricane-force winds, comply with flood zone elevation requirements, and maintain its beauty and functionality for decades in one of Florida's most demanding coastal climates.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Coastal Expertise:</strong> Specialized knowledge of VE flood zone requirements, elevated construction, and salt-resistant materials</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Always Prime Contractor:</strong> We never subcontract our management responsibility—you get direct accountability</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest beachfront custom home projects</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Premium Trade Relationships:</strong> Long-standing relationships with Pinellas County's best coastal specialty contractors</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$75M+</div>
-                <div className="text-gray-300 text-sm">Residential Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Home className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">50+</div>
-                <div className="text-gray-300 text-sm">Luxury Homes Built</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Award className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100%</div>
-                <div className="text-gray-300 text-sm">Client Satisfaction</div>
-              </div>
+              <p className="mb-6">
+                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> manages the permitting process for custom home construction within city limits. Waterfront properties require additional review for flood zone compliance, seawall condition, and environmental setbacks. Island Estates properties must demonstrate compliance with the island's specific development standards. Belleair properties go through the Town of Belleair's separate building department, which maintains its own review process and community standards.
+              </p>
+              <p className="mb-6">
+                Material selection for Clearwater luxury homes must balance aesthetic preferences with coastal durability. Exterior cladding systems, whether stucco, stone, or composite materials, must resist salt air degradation. Window and door systems require impact ratings that may exceed standard coastal requirements based on the property's specific exposure. Roofing materials must withstand sustained high winds while meeting the architectural vision. Pool and outdoor living materials must resist the dual effects of chlorine and salt air. We guide clients through material selection with specific knowledge of how products perform in Clearwater's microclimate.
+              </p>
+              <p>
+                The neighborhoods where we build Clearwater luxury homes each have distinct characteristics. Island Estates waterfront lots are typically narrow with water frontage on one or both sides, requiring vertical design solutions and careful site utilization. Harbor Oaks properties offer larger lots with mature landscaping that must be preserved during construction. Belleair estates provide generous setbacks and community expectations for refined architecture. Clearwater Beach waterfront lots, where available, present the most demanding construction conditions with direct Gulf exposure and barrier island flood zone requirements. We adapt our construction approach to each neighborhood's specific conditions and character.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
+      {/* Process Section */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Clearwater Homeowners Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Clearwater Custom Home Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Gem className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Coastal Craftsmanship</h3>
-              <p className="text-gray-600">
-                Every detail is executed with materials and methods designed for the demanding Gulf Coast environment—from salt-resistant finishes to hurricane-rated systems.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Compass className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Design Collaboration</h3>
-              <p className="text-gray-600">
-                We work seamlessly with Clearwater's premier coastal architects, providing constructability review and value engineering to optimize your beachfront design.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">FEMA Expertise</h3>
-              <p className="text-gray-600">
-                Our deep knowledge of flood zone requirements, elevation certificates, and coastal permitting ensures your project meets all regulatory requirements from day one.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured process for luxury home construction designed for Clearwater's waterfront and coastal environments.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Evaluation and Design Development",
+                description: "Thorough assessment of your Clearwater homesite including flood zone, soil conditions, waterfront exposure, and view orientation. We coordinate with your architect or provide design-build services, ensuring the home design accounts for coastal construction requirements, dock integration, and outdoor living potential from the earliest design phases.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Pre-Construction and Value Engineering",
+                description: "Detailed cost estimation, material specification, and construction scheduling for your Clearwater custom home. We identify opportunities to optimize the budget through value engineering while maintaining the design vision and coastal performance standards. Subcontractor selection focuses on crews with Clearwater waterfront experience.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting",
+                description: "Complete permit management through the City of Clearwater or Town of Belleair, including site plan review, building permits, and concurrent dock or seawall permits where applicable. For waterfront properties, we coordinate with FDEP, Army Corps, and Pinellas County for marine-related approvals.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction",
+                description: "On-site superintendent manages daily construction with experienced Clearwater-area crews. Foundation and structural work proceeds first to establish weather protection, followed by mechanical systems, interior finishes, outdoor living construction, and landscape installation. Regular client updates and site meetings ensure the home meets your vision at every stage.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Completion and Transition",
+                description: "Comprehensive punch list, final inspections, Certificate of Occupancy, and warranty orientation. We provide a complete owner's manual covering all building systems, maintenance schedules specific to Clearwater's coastal environment, and warranty documentation. Your custom home is delivered ready for immediate enjoyment.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
       <FAQWithSchema
-        items={clearwaterFaqs}
-        title="Clearwater Luxury Custom Homes FAQs"
-        description="Common questions about building luxury custom homes in Clearwater, Florida including beachfront and waterfront properties."
+        items={faqs}
+        title="Clearwater Luxury Custom Homes FAQ"
+        description="Common questions about luxury custom home construction in Clearwater, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Clearwater" currentService="luxury-custom-homes" />
+            <NearbyLocations currentCity="Clearwater" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Build Your Clearwater Dream Home
+            Build Your Dream Home in Clearwater
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From Gulf-front estates on Sand Key to waterfront homes on Island Estates, FCS brings exceptional coastal craftsmanship to Clearwater's finest custom homes. Schedule a consultation to discuss your vision.
+            Contact Florida Construction Specialists to discuss your custom home vision. Whether on Island Estates, in Belleair, or along Clearwater's harbor, we bring the coastal expertise and construction excellence your luxury home deserves.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Schedule a Design Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

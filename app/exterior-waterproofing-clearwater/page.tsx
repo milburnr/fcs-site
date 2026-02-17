@@ -1,143 +1,51 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Wrench, Clock, Home, Factory, DollarSign, Users, Waves, Sun, Wind, Building } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
-import { GoogleMap } from "@/components/GoogleMap";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Droplets } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
-  title: "Exterior Waterproofing in Clearwater",
-  description: `Waterproofing Contractor in Clearwater: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Schedule your consultation now.`,
+  title: "Exterior Waterproofing Clearwater FL | Gulf-Front, Barrier Island | FCS",
+  description: "Exterior waterproofing in Clearwater by Florida Construction Specialists. Gulf-front moisture protection, salt spray barriers, barrier island flood risk solutions, beach property waterproofing. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "Why does Clearwater's barrier island location demand specialized waterproofing approaches?",
+    answer: "Clearwater Beach occupies a Gulf barrier island where buildings face waterproofing challenges from multiple directions simultaneously. The Gulf side delivers constant salt spray that penetrates building envelopes and degrades standard waterproofing materials at two to three times the rate experienced on the mainland. The Intracoastal side brings tidal moisture fluctuations and brackish water exposure to foundations. From above, Clearwater receives over 50 inches of annual rainfall, much of it in intense afternoon downpours that overwhelm inadequate drainage systems. From below, the island's sandy soil and high water table create hydrostatic pressure against below-grade structures. Standard waterproofing systems designed for inland Florida conditions simply do not perform adequately on the barrier island."
+  },
+  {
+    question: "How does salt spray affect building waterproofing on Clearwater Beach compared to mainland properties?",
+    answer: "Airborne salt on Clearwater Beach penetrates waterproofing systems through mechanisms that do not occur on the mainland. Salt crystals deposited on exterior surfaces absorb moisture from the humid air and grow, creating mechanical pressure that wedges apart coating systems and sealant joints. Salt dissolved in wind-driven rain carries chloride ions deep into concrete pores, initiating corrosion of embedded steel that causes internal concrete cracking. Sealant materials that perform well in protected environments lose elasticity and adhesion faster under continuous salt exposure. Even interior moisture barriers can be compromised when salt-laden moisture migrates through the building envelope and crystallizes behind interior finishes. Our Clearwater waterproofing specifications account for these salt-specific deterioration mechanisms with materials and details that inland applications do not require."
+  },
+  {
+    question: "What waterproofing systems does FCS specify for Clearwater Beach high-rise buildings?",
+    answer: "For Clearwater Beach high-rises, we specify layered waterproofing systems engineered for direct Gulf exposure. Building envelope protection starts with salt-resistant fluid-applied air and water barriers behind the exterior cladding, enhanced flashing systems at window and door openings using marine-grade metals, and elastomeric wall coatings rated for UV stability and salt exposure. Below-grade waterproofing uses crystalline or polyurethane membranes rated for continuous hydrostatic pressure from the high water table. Parking structure decks receive traffic-bearing membrane systems with integral drainage layers. Balcony and terrace waterproofing includes multi-layer systems with reinforced transitions. Every material selection considers Clearwater's specific combination of salt, UV, humidity, and wind-driven rain exposure."
+  },
+  {
+    question: "What does exterior waterproofing cost for commercial buildings in Clearwater?",
+    answer: "Commercial exterior waterproofing in Clearwater ranges from 100,000 dollars for smaller building envelope projects to several million for comprehensive waterproofing of large condominiums or commercial towers. Building envelope wall waterproofing typically costs 8 to 20 dollars per square foot depending on system complexity and substrate condition. Below-grade waterproofing for parking structures and foundations runs 20 to 45 dollars per square foot. Plaza deck and terrace waterproofing ranges from 18 to 35 dollars per square foot for traffic-bearing systems. Clearwater Beach properties generally require premium marine-grade specifications that add 20 to 30 percent over costs for equivalent inland applications due to enhanced material requirements. We provide detailed scope-specific proposals after thorough building assessment."
+  },
+  {
+    question: "How does Clearwater's high water table affect building waterproofing requirements?",
+    answer: "Clearwater's water table typically sits two to six feet below grade on the barrier island, rising significantly during wet season, king tides, and storm events. This creates continuous hydrostatic pressure against below-grade structures including parking garages, elevator pits, mechanical rooms, and foundation walls. The sandy barrier island soil provides little resistance to water migration, and groundwater in the coastal zone contains dissolved salts that accelerate deterioration of standard concrete and waterproofing materials. Effective below-grade waterproofing in Clearwater must be designed as a complete water management system combining positive-side membranes rated for continuous submersion, drainage boards to relieve hydrostatic pressure, properly designed collection and sump systems, and salt-resistant materials throughout."
+  },
+  {
+    question: "Can waterproofing be applied to older Clearwater buildings that were not originally waterproofed to modern standards?",
+    answer: "Yes, and this is one of the most common project types we handle in Clearwater. Many buildings constructed in the 1970s through 1990s were built with waterproofing systems that met the standards of their era but have since failed or were never adequate for the barrier island's demands. Retrofit waterproofing of existing buildings requires thorough diagnostic assessment to identify water entry paths, substrate preparation to create proper bonding surfaces, and system design that works with the building's existing construction rather than against it. We commonly retrofit below-grade waterproofing on parking structures using negative-side crystalline systems when exterior access is impractical, apply exterior wall coating systems after proper surface preparation, and install new flashing and sealant systems at windows and transitions. The goal is comprehensive moisture management within the constraints of the existing building."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential", href: "/residential/" },
   { name: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { name: "Clearwater", href: "/exterior-waterproofing-clearwater/" },
-];
-
-const serviceTypes = [
-  {
-    type: "Foundation Waterproofing",
-    description: "Comprehensive below-grade waterproofing systems for Clearwater's high water table environment. Positive-side membrane applications, drainage boards, and hydrostatic pressure management for commercial and multi-family foundations.",
-    icon: Layers,
-  },
-  {
-    type: "Building Envelope Protection",
-    description: "Complete exterior wall waterproofing including curtain wall systems, window and door flashings, expansion joints, and penetration sealing designed for Gulf Coast salt air and wind-driven rain exposure.",
-    icon: Building2,
-  },
-  {
-    type: "Below-Grade Waterproofing",
-    description: "Specialized waterproofing for basement parking structures, underground mechanical rooms, and below-grade storage areas in Clearwater's challenging coastal soil and groundwater conditions.",
-    icon: Factory,
-  },
-  {
-    type: "Moisture Barrier Installation",
-    description: "Advanced vapor and moisture barrier systems preventing humidity migration through building assemblies, essential for Clearwater's 75%+ average humidity and tropical moisture loads.",
-    icon: Droplets,
-  },
-  {
-    type: "Drainage Solutions",
-    description: "Engineered drainage systems including French drains, sump systems, and perimeter drainage to manage Clearwater's 52+ inches of annual rainfall and seasonal flooding conditions.",
-    icon: Waves,
-  },
-  {
-    type: "Stucco & Facade Restoration",
-    description: "Building envelope restoration including stucco repair, elastomeric coating systems, and weatherproofing treatments for deteriorated exterior finishes on Clearwater's aging commercial buildings.",
-    icon: Building,
-  },
-];
-
-const clearwaterFaqs = [
-  {
-    question: "Why is exterior waterproofing critical for Clearwater commercial buildings?",
-    answer: "Clearwater's unique position on a barrier island creates the most demanding waterproofing conditions in Florida. Direct Gulf exposure means constant salt spray attack on building materials, while the tropical climate delivers 52+ inches of annual rainfall, often in intense storms. High humidity (averaging 75%) promotes moisture migration into building assemblies. Hurricane-force winds drive rain horizontally into facades. Without comprehensive waterproofing, Clearwater buildings experience accelerated concrete deterioration, reinforcing steel corrosion, mold proliferation, and structural degradation. For commercial buildings and condominiums, proper exterior waterproofing isn't optional—it's essential for protecting multi-million dollar investments.",
-  },
-  {
-    question: "What Clearwater neighborhoods and building types do you serve for exterior waterproofing?",
-    answer: "Florida Construction Specialists provides exterior waterproofing throughout Clearwater including Clearwater Beach, Sand Key, Island Estates, Downtown Clearwater, Countryside, Harbor Oaks, Belleair Bluffs, Dunedin, and Safety Harbor. We specialize in large-scale projects for commercial buildings, condominium associations, multi-family apartment complexes, hospitality properties, medical facilities, and retail centers. Our minimum project size is $100,000, allowing us to focus on comprehensive waterproofing solutions for buildings requiring professional-grade protection.",
-  },
-  {
-    question: "How much does commercial exterior waterproofing cost in Clearwater?",
-    answer: "Commercial exterior waterproofing in Clearwater typically ranges from $100,000 to several million dollars depending on building size, scope, and existing conditions. Foundation waterproofing runs $15-35 per square foot for below-grade applications. Building envelope waterproofing costs $8-20 per square foot for wall systems. Parking structure waterproofing ranges from $20-45 per square foot for traffic-bearing systems. Clearwater's beachfront properties typically require premium marine-grade systems at 20-30% additional cost. FCS provides detailed assessments and competitive proposals for qualified projects.",
-  },
-  {
-    question: "What waterproofing systems work best for Clearwater's coastal environment?",
-    answer: "Clearwater's extreme coastal conditions require marine-grade waterproofing systems. For foundations, we specify high-performance polyurethane or modified bitumen membranes with enhanced salt resistance. Building envelopes receive fluid-applied silicone or polyurethane coatings rated for UV stability and salt exposure. Below-grade applications use crystalline waterproofing technology that self-heals in the presence of moisture. We work with manufacturers including Tremco, Carlisle, Sika, BASF, and Neogard who offer extended warranties for coastal installations. All systems are selected for Clearwater's specific combination of salt, UV, humidity, and storm exposure.",
-  },
-  {
-    question: "How does Clearwater's high water table affect foundation waterproofing?",
-    answer: "Clearwater's water table sits 2-6 feet below grade in many areas, rising significantly during wet season and storm events. This creates continuous hydrostatic pressure against below-grade structures. Sandy barrier island soils provide poor drainage in clay lens areas while allowing water migration in others. FCS addresses these conditions with engineered solutions: positive-side waterproofing membranes rated for continuous water exposure, drainage boards that direct water to collection systems, properly designed French drain networks, and sump pump systems with backup power. Foundation waterproofing in Clearwater must be designed as a complete water management system, not just a barrier.",
-  },
-  {
-    question: "Do you waterproof Clearwater Beach condominiums?",
-    answer: "Yes, condominium waterproofing is a core specialty for FCS. Clearwater Beach condos face extreme exposure conditions that accelerate deterioration. We work extensively with HOAs and condominium associations on comprehensive waterproofing projects including building envelope restoration, balcony waterproofing, parking structure protection, and common area moisture remediation. We understand Florida's SB4D milestone inspection requirements and frequently address waterproofing findings in structural inspection reports. Our team coordinates with property managers to minimize resident disruption during multi-month projects.",
-  },
-  {
-    question: "What causes waterproofing failures on Clearwater buildings?",
-    answer: "Waterproofing failures in Clearwater result from multiple factors: original construction with inadequate waterproofing systems, normal aging of materials in harsh coastal conditions, deferred maintenance allowing minor issues to become major failures, storm damage overwhelming existing protection, and improper previous repairs. Salt crystallization within concrete causes spalling and membrane separation. UV degradation breaks down elastomeric coatings. Thermal cycling causes cracking at joints and transitions. Wind-driven rain exploits any gap in protection. FCS begins every project with thorough diagnostics to identify failure causes before specifying appropriate remediation.",
-  },
-  {
-    question: "How long does exterior waterproofing last in Clearwater's climate?",
-    answer: "Properly installed exterior waterproofing in Clearwater's demanding environment typically provides 15-25 years of protection depending on the system, application, and maintenance. Foundation waterproofing membranes can last 25+ years when properly installed and protected. Building envelope coatings typically require maintenance or recoating every 10-15 years. Traffic-bearing systems in parking structures may need wearing surface renewal every 7-10 years. FCS provides 10-year workmanship warranties backed by manufacturer material warranties. We also offer maintenance programs designed specifically for coastal properties to maximize system longevity.",
-  },
-  {
-    question: "Can you waterproof historic buildings in Clearwater?",
-    answer: "Yes, FCS has extensive experience waterproofing historic and older buildings in Clearwater. Historic structures require specialized approaches that protect the building without damaging historic materials or violating preservation standards. We use breathable waterproofing products on historic masonry, reversible treatments where required, and carefully selected products compatible with lime mortars and soft brick. Our experience includes coordination with local historic preservation requirements and the State Historic Preservation Office (SHPO) when applicable.",
-  },
-  {
-    question: "What is your exterior waterproofing process for Clearwater buildings?",
-    answer: "Our process begins with comprehensive assessment including visual inspection, moisture testing, infrared thermography, and destructive testing where necessary to identify water entry points and substrate conditions. We then develop detailed specifications selecting appropriate systems for each building area and exposure condition. Surface preparation includes cleaning, salt removal, crack repair, and concrete restoration as needed. Waterproofing installation follows manufacturer specifications with attention to transitions, penetrations, and details. Quality assurance includes flood testing, adhesion testing, and thorough documentation. We provide complete project records for warranty purposes and future reference.",
-  },
-];
-
-const costData = [
-  { application: "Foundation Waterproofing", range: "$15 - $35/SF", timeline: "4-12 weeks", warranty: "10 years" },
-  { application: "Building Envelope (Walls)", range: "$8 - $20/SF", timeline: "6-16 weeks", warranty: "10 years" },
-  { application: "Below-Grade/Parking", range: "$20 - $45/SF", timeline: "8-20 weeks", warranty: "10 years" },
-  { application: "Plaza/Terrace Decks", range: "$18 - $35/SF", timeline: "4-10 weeks", warranty: "10 years" },
-  { application: "Complete Building Projects", range: "$100,000 - $5M+", timeline: "3-18 months", warranty: "10 years" },
-  { application: "Emergency Remediation", range: "$150,000+", timeline: "Varies", warranty: "5-10 years" },
-];
-
-const processSteps = [
-  { step: 1, title: "Comprehensive Assessment", description: "Building survey, moisture testing, infrared thermography, core sampling, and detailed condition documentation with specific attention to Clearwater's coastal exposure factors" },
-  { step: 2, title: "Engineering & Specification", description: "Waterproofing system design with marine-grade materials selected for Gulf Coast exposure, detailed drawings, and comprehensive project budgeting" },
-  { step: 3, title: "Surface Preparation", description: "Substrate cleaning, salt and chloride removal, crack injection, concrete restoration, and surface profiling for optimal membrane adhesion" },
-  { step: 4, title: "Waterproofing Installation", description: "Application of primers, membranes, flashings, and drainage systems using coastal-rated materials per manufacturer specifications with quality checkpoints" },
-  { step: 5, title: "Quality Assurance Testing", description: "Flood testing, adhesion pull testing, holiday testing for membrane continuity, and inspection documentation for warranty compliance" },
-  { step: 6, title: "Protection & Commissioning", description: "Installation of protection courses, drainage boards, and wear surfaces; comprehensive warranty documentation and coastal maintenance guidance" },
-];
-
-const climateFactors = [
-  {
-    icon: Sun,
-    title: "Intense UV Exposure",
-    description: "Clearwater averages 244 sunny days per year, subjecting exposed waterproofing to extreme ultraviolet degradation. Our systems use UV-stable formulations rated for maximum solar exposure.",
-  },
-  {
-    icon: Droplets,
-    title: "Heavy Rainfall",
-    description: "52+ inches of annual rainfall, often delivered in intense afternoon thunderstorms that test drainage systems and building envelopes. Hurricane events can deliver 10-20 inches in 24-48 hours.",
-  },
-  {
-    icon: Waves,
-    title: "Salt Air Corrosion",
-    description: "Barrier island location means constant salt spray exposure from Gulf winds. Salt accelerates concrete deterioration and promotes reinforcing steel corrosion throughout building structures.",
-  },
-  {
-    icon: Wind,
-    title: "Hurricane-Force Winds",
-    description: "Clearwater sits in a high-velocity hurricane zone. Wind-driven rain during tropical storms creates extreme pressure differentials that force water through any gap in building envelopes.",
-  },
 ];
 
 export default function ExteriorWaterproofingClearwaterPage() {
@@ -146,45 +54,51 @@ export default function ExteriorWaterproofingClearwaterPage() {
       <LocalBusinessSchema city="Clearwater" service="Exterior Waterproofing" />
       <ServiceSchema
         serviceName="Exterior Waterproofing"
-        serviceDescription="Professional exterior waterproofing services for Clearwater commercial buildings, condominiums, and multi-family properties. Building envelope protection, foundation waterproofing, below-grade systems, and moisture barriers for $100K+ projects."
+        serviceDescription="Exterior waterproofing for Clearwater commercial buildings, condominiums, and multi-family properties. Gulf-front moisture protection, building envelope systems, foundation waterproofing, barrier island flood solutions. Licensed CBC1262722, 40+ years experience."
         city="Clearwater"
         minPrice="100000"
-        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
+        serviceCategories={["Building Envelope Waterproofing", "Foundation Waterproofing", "Parking Structure Protection", "Facade Restoration", "Moisture Barrier Systems", "Drainage Solutions"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Exterior Waterproofing Services in Clearwater, FL"
-        description="Comprehensive exterior waterproofing for Clearwater commercial buildings and condominiums. Foundation waterproofing, building envelope protection, moisture barriers, and drainage solutions for coastal properties."
-        datePublished="2024-01-15"
-        dateModified="2025-01-20"
-        slug="/exterior-waterproofing-clearwater/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Clearwater, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Clearwater, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Exterior Waterproofing in Clearwater
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Exterior Waterproofing in Clearwater, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Protect your Clearwater commercial building from Gulf Coast salt spray, intense rainfall, and tropical humidity. Professional building envelope protection, foundation waterproofing, and moisture barrier systems for projects $100,000 and above. 10-year warranty on all installations.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Clearwater's barrier island properties face waterproofing challenges that inland Florida buildings never encounter. Direct Gulf salt spray, a high water table pushing against below-grade structures, over 50 inches of annual rainfall, and hurricane-force wind-driven rain create an environment where standard waterproofing systems fail prematurely. Florida Construction Specialists delivers comprehensive moisture protection engineered specifically for Clearwater's Gulf Coast exposure conditions.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">10-Year Warranty</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Request Waterproofing Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -193,268 +107,170 @@ export default function ExteriorWaterproofingClearwaterPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <DollarSign className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$100K+ Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">10-Year Warranty</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Clearwater Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Clearwater's Exterior Waterproofing Experts for Commercial and Multi-Family Buildings
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides comprehensive exterior waterproofing services for Clearwater's commercial, multi-family, and institutional buildings. Located on a barrier island directly facing the Gulf of Mexico, Clearwater properties experience Florida's most demanding waterproofing conditions: direct salt spray, intense ultraviolet exposure, hurricane-force weather events, and some of the highest humidity levels in the continental United States.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Gulf-Front Moisture Protection for Clearwater's Barrier Island Buildings
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Water is the fundamental enemy of every building on Clearwater Beach, and it attacks from every direction. From the west, Gulf of Mexico salt spray coats building surfaces with corrosive chloride compounds that penetrate exterior finishes and degrade structural materials. From below, the barrier island's water table sits just feet beneath foundations, rising during rain events and king tides to create hydrostatic pressure against below-grade parking structures and mechanical spaces. From above, over 50 inches of annual rainfall, much of it delivered in violent afternoon thunderstorms, tests every joint, flashing, and membrane on the building envelope. And during hurricane events, all of these forces intensify simultaneously.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                From luxury high-rise condominiums along Clearwater Beach and Sand Key to commercial office buildings in Downtown Clearwater, hospitality properties serving the tourism industry, and medical facilities throughout the community, FCS has protected Clearwater buildings with premium waterproofing systems engineered specifically for Gulf Coast conditions. Our focus on projects $100,000 and above allows us to deliver comprehensive solutions that address the full building envelope rather than piecemeal repairs.
+              <p className="mb-6">
+                The commercial buildings, condominium towers, and hospitality properties along Clearwater Beach, Sand Key, and Island Estates represent billions of dollars in real estate value, all of it dependent on waterproofing systems that prevent moisture intrusion. Many of these buildings were constructed during the 1970s through 1990s with waterproofing systems that have reached the end of their effective service life. Original sealants have hardened and pulled away from substrates. Membrane systems have cracked under decades of UV exposure and thermal cycling. Below-grade waterproofing has been compromised by root intrusion, settlement, and continuous salt exposure.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Clearwater's building stock faces accelerated deterioration compared to inland properties. The combination of salt-laden air, intense solar radiation, frequent intense rainfall events, and high humidity creates a uniquely challenging environment. Buildings constructed 20-40 years ago with standard waterproofing systems are now showing significant distress. Condominium associations throughout Clearwater Beach and Sand Key are addressing waterproofing deficiencies identified in Florida's mandatory milestone inspections. FCS provides the expertise and capacity to execute large-scale waterproofing projects that protect these valuable assets.
+              <p className="mb-6">
+                The consequences of waterproofing failure on Clearwater Beach are more severe than in inland markets. Moisture intrusion into concrete structures accelerates reinforcing steel corrosion that can compromise structural integrity, an issue brought into sharp focus by SB4-D milestone inspection requirements. Mold proliferation in the humid coastal environment creates health concerns and liability exposure. Water damage to interior finishes and personal property generates insurance claims and resident complaints. For condominium associations, waterproofing failures can trigger special assessments and property value declines.
               </p>
-
-              <div className="bg-brand-green/10 border-l-4 border-brand-green p-6 mb-8">
-                <h3 className="font-bold text-brand-green-dark mb-2">Project Focus: $100K+ Waterproofing Projects</h3>
-                <p className="text-gray-700">
-                  FCS specializes in substantial exterior waterproofing projects for commercial buildings, condominiums, and multi-family properties. Our minimum project size of $100,000 reflects our focus on comprehensive solutions that address complete building systems rather than temporary repairs. This scale allows us to engineer lasting protection for Clearwater's demanding coastal environment.
-                </p>
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Exterior Waterproofing Services for Clearwater Properties
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Clearwater's Coastal Climate: The Case for Professional Waterproofing
-              </h3>
-
-              <p className="text-gray-600 mb-6">
-                Clearwater's barrier island position creates waterproofing challenges unmatched elsewhere in Tampa Bay. Understanding these conditions explains why professional-grade waterproofing systems are essential for commercial and multi-family buildings in this area.
+              <p>
+                Florida Construction Specialists has protected Clearwater buildings from moisture intrusion for over two decades. We approach every project with comprehensive diagnostic assessment, specify materials and systems rated for the barrier island's specific exposure conditions, and execute installations with the quality control protocols necessary for long-term performance. Our work with the <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> ensures all waterproofing projects meet local code requirements and permitting standards.
               </p>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {climateFactors.map((factor) => (
-                  <div key={factor.title} className="flex items-start gap-3">
-                    <factor.icon className="w-6 h-6 text-brand-green mt-1 flex-shrink-0" />
-                    <div>
-                      <h4 className="font-bold text-brand-green-dark mb-1">{factor.title}</h4>
-                      <p className="text-gray-600 text-sm">{factor.description}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Who We Serve: Target Audience for Clearwater Waterproofing
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Commercial Building Owners:</strong> Office buildings, retail centers, medical facilities, and hospitality properties requiring comprehensive building envelope protection</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Condominium Associations:</strong> HOAs and condo boards addressing waterproofing requirements identified in milestone inspections or proactively protecting building value</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Waterfront Property Owners:</strong> Buildings with direct Gulf exposure requiring marine-grade waterproofing systems</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Property Managers:</strong> Professionals managing commercial portfolios and multi-family properties needing reliable waterproofing partners</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Developers:</strong> New construction projects requiring properly engineered waterproofing from the start</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Clearwater Waterproofing Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Request Assessment</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a complimentary waterproofing assessment for your Clearwater commercial property or condominium.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full mb-4"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-                <Link
-                  href="/contact/"
-                  className="flex items-center justify-center gap-2 bg-white/10 text-white font-bold py-3 px-6 rounded-full hover:bg-white/20 transition-colors w-full"
-                >
-                  Request Consultation
-                </Link>
-              </div>
-
-              {/* Google Map */}
-              <div className="rounded-lg overflow-hidden">
-                <h3 className="font-bold text-brand-green-dark mb-3">Serving Clearwater, FL</h3>
-                <GoogleMap city="Clearwater" height={250} />
-              </div>
-
-              {/* Internal Links */}
-              <div className="bg-gray-50 rounded-lg p-6">
-                <h3 className="font-bold text-brand-green-dark mb-4">Related Services</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <Link href="/exterior-waterproofing/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
-                      <ArrowRight className="w-4 h-4" />
-                      Exterior Waterproofing Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/residential/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
-                      <ArrowRight className="w-4 h-4" />
-                      Residential Construction
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/balcony-reconstruction-clearwater/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
-                      <ArrowRight className="w-4 h-4" />
-                      Balcony Reconstruction Clearwater
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/balcony-reconstruction/" className="text-brand-green hover:text-brand-green-dark transition-colors flex items-center gap-2">
-                      <ArrowRight className="w-4 h-4" />
-                      Balcony Reconstruction Services
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-
-              <NearbyLocations currentCity="Clearwater" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
-        alt="Exterior waterproofing application"
-        title="Complete Waterproofing Protection"
-        subtitle="Premium membrane systems for lasting defense against moisture"
+        src="/images/fcs-commercial-exterior-waterproofing/fcs-commercial-exterior-waterproofing-display.webp"
+        alt="Commercial exterior waterproofing application on Clearwater building"
+        title="Clearwater Exterior Waterproofing"
+        subtitle="Marine-grade moisture protection for Gulf-front commercial, condominium, and multi-family properties"
         overlayOpacity={0.55}
       />
 
-      {/* Cost & Timeline Table */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Clearwater Exterior Waterproofing Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Waterproofing Services for Clearwater's Coastal Properties
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Waterproofing costs for commercial and multi-family buildings vary by application, substrate condition, and Gulf exposure level. Beachfront properties typically require premium marine-grade systems. All FCS waterproofing includes our 10-year workmanship warranty.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Application</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Warranty</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.application}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.warranty}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Beachfront and direct Gulf-exposure properties may require premium marine-grade systems at 20-30% additional cost. Contact FCS for detailed assessment.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Waterproofing Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Successful waterproofing in Clearwater's Gulf Coast environment requires systematic attention to assessment, engineering, preparation, and quality assurance. Our proven process ensures long-term performance even in extreme coastal conditions.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Complete building moisture protection from foundation to roofline, with every system specified for Clearwater Beach's aggressive salt, UV, and humidity exposure.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Building2,
+                title: "Building Envelope Protection",
+                description: "Complete exterior wall waterproofing including fluid-applied air and water barriers, curtain wall joint sealing, window and door flashing systems using marine-grade metals, expansion joint treatment, and elastomeric coating systems rated for Clearwater Beach's salt spray, UV intensity, and wind-driven rain exposure."
+              },
+              {
+                icon: Droplets,
+                title: "Below-Grade Waterproofing",
+                description: "Foundation and parking structure waterproofing designed for Clearwater's high water table and salt-bearing groundwater. Positive-side membranes rated for continuous hydrostatic pressure, drainage boards for pressure relief, crystalline systems for negative-side retrofit applications, and engineered sump and dewatering systems."
+              },
+              {
+                icon: HardHat,
+                title: "Parking Structure Protection",
+                description: "Traffic-bearing waterproofing membranes for elevated and below-grade parking structures. Vehicular-rated deck coatings, joint sealant systems, drainage management, and protective treatments for structural concrete exposed to the salt and moisture conditions specific to Clearwater's coastal parking environments."
+              },
+              {
+                icon: Shield,
+                title: "Facade Restoration and Sealing",
+                description: "Exterior envelope restoration for aging Clearwater buildings including stucco repair, elastomeric re-coating, masonry waterproofing, and comprehensive sealant replacement at all penetrations and transitions. Surface preparation includes salt removal and substrate conditioning for proper coating adhesion."
+              },
+              {
+                icon: FileCheck,
+                title: "Diagnostic Assessment",
+                description: "Thorough moisture investigation using infrared thermography, moisture mapping, adhesion testing, core sampling, and visual survey to identify all water entry points and deteriorated waterproofing systems. Assessment reports include prioritized repair recommendations and budgetary cost projections for Clearwater building owners."
+              },
+              {
+                icon: Briefcase,
+                title: "Maintenance Programs",
+                description: "Ongoing waterproofing maintenance designed for Clearwater's coastal exposure conditions. Periodic sealant inspection and replacement, coating condition monitoring, drainage system maintenance, and early detection of waterproofing system degradation before it progresses to structural damage or interior water intrusion."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Waterproofing Challenges Unique to Clearwater's Barrier Island Geography
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                The geography of Clearwater Beach creates a waterproofing environment unlike anywhere else in the Tampa Bay region. The barrier island is narrow, stretching from Clearwater Pass south through Sand Key, with the Gulf of Mexico on the west and Clearwater Harbor and the Intracoastal Waterway on the east. Buildings on this narrow strip experience salt exposure from both sides, though the Gulf-facing western exposure is significantly more aggressive. This dual-exposure condition means waterproofing systems must protect against salt attack from the dominant westerly winds while also managing brackish moisture conditions on the eastern facades.
+              </p>
+              <p className="mb-6">
+                The island's sandy soil composition creates unique below-grade challenges. While sand provides excellent drainage in general, clay lens formations within the barrier island's geology can trap water and create localized high-pressure zones against foundations. The water table fluctuates significantly between dry and wet seasons, and storm surge events can temporarily saturate the entire soil column. Below-grade structures on Clearwater Beach must be waterproofed for conditions that range from normal water table pressure to near-complete submersion during extreme weather events.
+              </p>
+              <p className="mb-6">
+                The hospitality properties that dominate Clearwater Beach's economy have their own waterproofing demands. Pool decks, outdoor dining areas, lobby entrances exposed to weather, and covered parking structures all require waterproofing details specific to their use and exposure. These properties also cannot tolerate the extended construction periods that some waterproofing methods require because room revenue loss during renovation directly impacts the business. We design construction phasing for Clearwater Beach hospitality properties that completes waterproofing work in the shortest practical timeframes while maintaining product quality.
+              </p>
+              <p>
+                Condominium associations along Sand Key and Clearwater Beach are increasingly addressing waterproofing deficiencies identified during SB4-D milestone inspections and reserve studies. Many associations are discovering that the original waterproofing systems on their 30 to 50 year old buildings have reached failure stage, and comprehensive waterproofing rehabilitation is necessary to protect both the structural integrity and the habitability of these properties. We work with association boards and property managers to develop waterproofing programs that can be funded through existing reserves or structured special assessments.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Clearwater Exterior Waterproofing Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A diagnostic-driven approach that identifies moisture entry paths, specifies appropriate systems, and delivers installation quality that performs in Clearwater's demanding coastal environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Comprehensive Moisture Assessment",
+                description: "Building survey combining visual inspection, infrared thermography to identify moisture patterns invisible to the eye, adhesion testing of existing coatings, core sampling to evaluate substrate condition, and moisture meter mapping. We identify every water entry path and assess the condition of all existing waterproofing components.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "System Engineering and Specification",
+                description: "Selection of waterproofing systems matched to each building zone's specific exposure conditions. Marine-grade materials for Gulf-facing facades, hydrostatic-rated systems for below-grade applications, traffic-bearing membranes for decks and parking structures. Detailed drawings specify every transition, penetration, and termination detail.",
+                icon: Briefcase,
+              },
+              {
+                step: "03",
+                title: "Surface Preparation",
+                description: "Thorough substrate preparation including salt removal through pressure washing with appropriate detergents, concrete crack injection and spall repair, removal of failed existing coatings, surface profiling for optimal membrane adhesion, and moisture content verification. Proper preparation is the foundation of long-term waterproofing performance.",
+                icon: HardHat,
+              },
+              {
+                step: "04",
+                title: "Waterproofing Installation",
+                description: "Application of primers, membranes, flashings, sealants, and protective coatings per manufacturer specifications with FCS quality control protocols. Every critical detail including transitions, penetrations, terminations, and drainage integration is inspected before proceeding. Weather-sensitive scheduling accounts for Clearwater's afternoon thunderstorm patterns.",
+                icon: Building2,
+              },
+              {
+                step: "05",
+                title: "Testing, Documentation, and Warranty",
+                description: "Flood testing of horizontal surfaces, adhesion pull testing of coatings and membranes, visual inspection of all details, and comprehensive photographic documentation. Warranty package includes manufacturer material warranties, FCS 10-year workmanship guarantee, and coastal maintenance guidelines specific to the building's exposure conditions.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -462,121 +278,48 @@ export default function ExteriorWaterproofingClearwaterPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Clearwater Waterproofing Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has protected Clearwater buildings from water intrusion for over two decades. Our waterproofing team combines manufacturer certifications with deep knowledge of Gulf Coast conditions and the specific requirements of commercial and multi-family buildings.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Manufacturer Certified:</strong> Certified applicators for Tremco, Carlisle, Sika, BASF, Neogard, and other premium coastal-rated manufacturers</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Large-Scale Capacity:</strong> Bonding capacity and workforce to execute multi-million dollar waterproofing projects on schedule</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Comprehensive Testing:</strong> Flood testing, adhesion testing, holiday testing, and infrared scanning to verify waterproofing integrity</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Long-Term Support:</strong> Maintenance programs designed for coastal properties with accelerated exposure conditions</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$100K+</div>
-                <div className="text-gray-300 text-sm">Minimum Project</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Droplets className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Warranty Standard</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">50+</div>
-                <div className="text-gray-300 text-sm">Coastal Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Clearwater Property Owners Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. You get direct accountability for your waterproofing project from assessment through warranty, with a single point of contact throughout.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Waves className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Marine-Grade Systems</h3>
-              <p className="text-gray-600">
-                We specify and install marine-grade waterproofing systems selected specifically for Clearwater's direct Gulf exposure, salt spray, UV intensity, and hurricane conditions.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">10-Year Warranty</h3>
-              <p className="text-gray-600">
-                Every FCS waterproofing installation includes our 10-year workmanship warranty, backed by manufacturer material warranties of 10-20 years for complete long-term protection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={clearwaterFaqs}
-        title="Clearwater Exterior Waterproofing FAQs"
+        items={faqs}
+        title="Clearwater Exterior Waterproofing FAQ"
         description="Common questions about exterior waterproofing for commercial buildings, condominiums, and multi-family properties in Clearwater, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Clearwater" currentService="exterior-waterproofing" />
+            <NearbyLocations currentCity="Clearwater" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Protect Your Clearwater Property Investment
+            Protect Your Clearwater Property from Moisture Damage
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From building envelope to foundation, FCS provides comprehensive waterproofing solutions engineered for Clearwater's demanding Gulf Coast climate. Schedule a complimentary assessment for your commercial or multi-family property.
+            From building envelope to foundation, Florida Construction Specialists delivers waterproofing solutions engineered for Clearwater Beach's demanding Gulf Coast environment. Schedule a complimentary assessment for your commercial or multi-family property.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request Waterproofing Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>10-Year Workmanship Warranty</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

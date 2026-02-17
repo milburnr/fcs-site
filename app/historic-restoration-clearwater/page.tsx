@@ -1,80 +1,43 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, Users, FileCheck, BookOpen, Landmark, Hammer, Scale, Waves, Sun } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, BookOpen } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-clearwater/' },
-  title: "Historic Restoration Clearwater | Harbor Oaks",
-  description: "Historic Restoration in Clearwater: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Call (813) 420-7561 for a quote.",
+  title: "Historic Restoration Clearwater FL | Preservation, Older Buildings | FCS",
+  description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes, downtown older buildings, heritage preservation in a beach tourism market. Licensed CBC, 40+ years experience.",
 };
 
-const serviceTypes = [
+const faqs = [
   {
-    title: "Historic Building Restoration",
-    description: "Complete restoration of historic structures to period-accurate condition, addressing structural issues, deteriorated materials, and code compliance while preserving architectural character unique to Clearwater's Gulf Coast heritage."
+    question: "Does Clearwater have officially designated historic districts?",
+    answer: "Clearwater does not have the large formally designated historic districts found in cities like Tampa's Ybor City or St. Petersburg's Old Northeast. However, several Clearwater neighborhoods contain significant concentrations of historically and architecturally notable structures. The Harbor Oaks neighborhood features Mediterranean Revival and Colonial Revival homes from the 1920s and 1930s. Downtown Clearwater retains commercial buildings from the early to mid-twentieth century that contribute to the city's character. The Clearwater Garden Club and the Plumb House are among the individually recognized heritage structures. Restoration work on these older buildings requires sensitivity to original architectural character even when formal historic designation and preservation board oversight are not in place."
   },
   {
-    title: "Coastal Historic Preservation",
-    description: "Specialized restoration addressing the unique challenges of Clearwater's coastal environment—salt air corrosion, hurricane damage, and beachfront preservation requirements."
+    question: "What types of older buildings in Clearwater typically need restoration?",
+    answer: "Clearwater's restoration needs span several categories. Pre-war residential estates in Harbor Oaks and adjacent neighborhoods require foundation stabilization, wood structure repair, period window restoration, and exterior material conservation. Mid-century commercial buildings in downtown Clearwater need facade restoration, structural reinforcement, and interior modernization that preserves their architectural identity. Early Clearwater Beach development from the 1950s and 1960s, including some of the original motels and small commercial buildings that predate the modern resort development, present adaptive reuse opportunities where the original character can be preserved while bringing buildings to current code compliance."
   },
   {
-    title: "Facade Restoration",
-    description: "Exterior restoration of historic building facades including masonry repair, stucco restoration, window preservation, and historically appropriate paint systems designed for coastal conditions."
+    question: "How does Clearwater's coastal environment affect historic building materials?",
+    answer: "Clearwater's proximity to the Gulf creates a salt-laden, high-humidity environment that is particularly destructive to the materials used in older construction. Original wood framing, siding, and trim deteriorate faster than in inland locations due to constant moisture cycling and salt exposure. Masonry and stucco develop efflorescence and spalling from salt crystallization within the porous materials. Original metal hardware, hinges, and decorative elements corrode more aggressively than they would even a few miles inland. Historic restoration in Clearwater must address these material-specific deterioration patterns using repair techniques and replacement materials that maintain period authenticity while improving resistance to the coastal environment."
   },
   {
-    title: "Adaptive Reuse Projects",
-    description: "Sensitively converting historic buildings to new uses—commercial buildings to restaurants, historic homes to bed-and-breakfasts—while maintaining Clearwater's architectural heritage."
+    question: "Can older Clearwater buildings be modernized while preserving their character?",
+    answer: "Yes, and this is where experienced restoration contractors add the most value. Modernization of older Clearwater buildings typically involves upgrading electrical and plumbing systems concealed within original wall and floor cavities, adding hurricane-resistant features without altering exterior appearance, improving energy efficiency through interior-side insulation and upgraded HVAC systems, and making accessibility improvements that work within existing floor plans. The goal is to bring the building to modern performance standards while preserving the architectural elements that define its character. In Harbor Oaks, for example, this might mean installing impact-rated windows that replicate the original muntin patterns, or reinforcing a period roof structure to meet current wind load requirements without changing the roofline."
   },
   {
-    title: "Structural Stabilization",
-    description: "Addressing foundation issues, structural deterioration, and load-bearing concerns in historic buildings using minimally invasive methods that preserve original fabric while meeting current hurricane codes."
+    question: "What foundation challenges do older Clearwater buildings face?",
+    answer: "Many of Clearwater's older buildings were constructed on foundation systems that predate modern understanding of Pinellas County's soil and water table conditions. Pier and beam foundations common in pre-1960s construction can settle unevenly as the sandy soil shifts, particularly in areas near the Intracoastal Waterway or in lower-lying neighborhoods where the water table is high. Concrete block foundations from the mid-century era may show deterioration from moisture wicking and salt exposure. Our restoration approach includes thorough foundation assessment, stabilization through underpinning or helical pier systems where needed, and moisture management improvements that protect the foundation from further deterioration in Clearwater's coastal environment."
   },
   {
-    title: "SHPO Coordination",
-    description: "Full coordination with Florida State Historic Preservation Office for tax credit projects, ensuring rehabilitation work meets Secretary of Interior Standards for Clearwater properties."
-  }
-];
-
-// Clearwater-specific historic restoration FAQs
-const clearwaterFaqs = [
-  {
-    question: "What historic areas does FCS serve in Clearwater?",
-    answer: "Florida Construction Specialists serves all of Clearwater's historic areas including Downtown Clearwater's Cleveland Street Historic District, the Harbor Oaks neighborhood (one of Clearwater's original planned communities from the 1920s), and individual historic landmarks throughout the city. We also work on historic properties in nearby Safety Harbor and Dunedin. Our team understands Clearwater's unique position as both a beach resort town and a community with significant early 20th-century architecture that deserves preservation."
-  },
-  {
-    question: "How does coastal location affect historic restoration in Clearwater?",
-    answer: "Clearwater's Gulf Coast location creates unique preservation challenges including salt air corrosion that accelerates deterioration of metals, masonry, and wood; hurricane exposure requiring structures to meet current wind codes while maintaining historic character; beach erosion and flooding concerns for properties near the water; and intense UV exposure that degrades exterior finishes faster than inland locations. We specify marine-grade materials and coastal-appropriate restoration methods that extend the life of historic buildings while preserving their character."
-  },
-  {
-    question: "Can I get tax credits for historic restoration in Clearwater?",
-    answer: "Yes, qualifying projects in Clearwater may be eligible for the Federal Historic Preservation Tax Credit (20% for income-producing properties), Florida's ad valorem tax exemption for historic properties, and local incentive programs. To qualify for federal tax credits, buildings must be listed on the National Register of Historic Places or be contributing structures in a registered historic district. We can assist with National Register nominations and coordinate SHPO applications to ensure rehabilitation work meets certification requirements."
-  },
-  {
-    question: "What's involved in restoring Harbor Oaks historic homes?",
-    answer: "Harbor Oaks, developed in the 1920s as one of Clearwater's first planned neighborhoods, features Mediterranean Revival, Colonial Revival, and Spanish Eclectic homes with distinctive architectural details. Restoration involves preserving character-defining features like decorative stucco work, clay tile roofs, arched windows and doorways, and period-appropriate landscaping. The neighborhood's special area plan includes design guidelines we navigate on every project. We restore these homes to period-accurate condition while sensitively integrating modern systems."
-  },
-  {
-    question: "How do you handle hurricane requirements in historic buildings?",
-    answer: "Florida Building Code requires historic buildings undergoing substantial renovation to meet current wind and flood standards. We design solutions that satisfy structural requirements while preserving historic character—concealed structural reinforcement, historically appropriate impact-resistant windows and shutters, elevated mechanical systems, and improved envelope performance. For buildings seeking tax credits, we ensure modifications meet Secretary of Interior Standards for compatibility with historic character."
-  },
-  {
-    question: "What's the process for historic preservation approval in Clearwater?",
-    answer: "Clearwater has local historic landmark designation with design guidelines administered by the Planning Department. Projects affecting designated properties require staff review and potentially Development Review Committee approval. For Harbor Oaks, the special area plan includes specific standards. We prepare comprehensive applications with historic documentation, proposed work descriptions, and material specifications. Approval typically takes 3-6 weeks. For tax credit projects, we also coordinate SHPO review."
-  },
-  {
-    question: "What are typical costs for historic restoration in Clearwater?",
-    answer: "Historic restoration in Clearwater typically costs more than conventional renovation due to specialized craftsmanship, period materials, and coastal construction requirements. Budget ranges are: facade restoration $60-175 per square foot of facade (higher due to coastal conditions); full building restoration $225-425+ per square foot; interior restoration $175-325 per square foot. These vary based on building condition, level of restoration, and coastal exposure. Federal tax credits (20%) can substantially offset costs for income-producing properties."
-  },
-  {
-    question: "How long does historic restoration take in Clearwater?",
-    answer: "Historic restoration timelines in Clearwater depend on project scope, approval requirements, and seasonal considerations. Minor exterior work might take 3-5 months; significant building restoration 14-26 months; complex adaptive reuse projects 20-36 months. Tourism season (December-April) can affect construction logistics, particularly for downtown and beach-area projects. Additional time is needed for local approvals (1-2 months) and SHPO review for tax credit projects (4-6 months). We build these factors into realistic project schedules."
+    question: "Does FCS handle adaptive reuse of older commercial buildings in Clearwater?",
+    answer: "Yes, adaptive reuse is an important part of our Clearwater restoration work. Downtown Clearwater contains commercial buildings from the mid-twentieth century that retain sound structural bones but no longer serve their original purpose. Converting these structures for contemporary commercial, mixed-use, or residential purposes preserves the buildings' contribution to Clearwater's character while creating economically viable properties. Adaptive reuse projects require structural assessment and reinforcement, building code compliance upgrades for the new use, and careful integration of modern building systems within the existing structure. We bring both the restoration sensitivity and the commercial construction capability needed for these complex projects."
   }
 ];
 
@@ -91,50 +54,51 @@ export default function HistoricRestorationClearwaterPage() {
       <LocalBusinessSchema city="Clearwater" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Clearwater, Florida. Downtown Cleveland Street, Harbor Oaks neighborhood, coastal historic preservation. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
+        serviceDescription="Historic restoration and heritage building preservation in Clearwater, FL. Harbor Oaks homes, downtown commercial buildings, period-appropriate renovation. Licensed CBC1262722, 40+ years experience."
         city="Clearwater"
-        minPrice="500000"
-        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
+        minPrice="100000"
+        serviceCategories={["Historic Home Restoration", "Heritage Building Preservation", "Adaptive Reuse", "Period-Appropriate Renovation", "Foundation Stabilization"]}
       />
-
-      <ArticleSchema
-        headline="Historic Restoration Clearwater FL | Harbor Oaks, Downtown & Coastal | FCS"
-        description="Expert historic restoration contractor in Clearwater, Florida. Downtown Cleveland Street, Harbor Oaks neighborhood, coastal preservation. Secretary of Interior Standards, SHPO coordination."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/historic-restoration-clearwater/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/tampa-historic-building-restoration/tampa-historic-building-restoration-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span className="text-brand-gold font-semibold">Serving Clearwater, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Historic Restoration in Clearwater, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Historic Restoration in Clearwater, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers expert historic restoration throughout Clearwater—from the early 20th-century commercial buildings of Downtown Cleveland Street to the Mediterranean Revival mansions of Harbor Oaks and historic beachfront properties requiring specialized coastal preservation.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Clearwater's older neighborhoods and downtown commercial buildings represent decades of architectural heritage that predates the city's modern beach tourism identity. From the Mediterranean Revival estates of Harbor Oaks to the mid-century commercial buildings of downtown Clearwater, Florida Construction Specialists brings restoration expertise that preserves architectural character while meeting modern building performance standards in a demanding coastal environment.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Clearwater's trusted historic preservation contractor, we restore buildings to Secretary of Interior Standards, coordinate SHPO approvals for tax credit projects, and address the unique challenges of coastal historic preservation—always with full accountability as the prime contractor.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Restoration Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -143,319 +107,115 @@ export default function HistoricRestorationClearwaterPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Waves className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Coastal Preservation Experts</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileCheck className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Tax Credit Expertise</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Historic Restoration Services in Clearwater
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Clearwater's architectural heritage reflects its development as an early 20th-century Gulf Coast resort town, with distinctive historic buildings concentrated in the downtown Cleveland Street district and the planned Harbor Oaks neighborhood. While smaller than Tampa's or St. Petersburg's historic inventory, Clearwater's historic buildings represent important examples of Mediterranean Revival, Colonial Revival, and early Florida commercial architecture deserving preservation.
-              </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings specialized expertise to Clearwater's historic buildings, including deep understanding of coastal preservation challenges. Salt air corrosion, hurricane exposure, and beach erosion create conditions not found in inland markets. Our restoration projects address these factors while maintaining historic character and meeting Secretary of Interior Standards for tax credit qualification.
-              </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Clearwater historic project. Our relationships with preservation craftspeople, specialty trades, and local officials ensure smooth execution from documentation through final restoration, whether you're restoring a Harbor Oaks mansion or adapting a downtown commercial building for contemporary use.
-              </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Historic Restoration Capabilities
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{service.title}</h4>
-                    <p className="text-gray-600 text-sm">{service.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Clearwater Historic Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Clearwater" currentService="historic-restoration" />
-              <NearbyLocations currentCity="Clearwater" service="historic-restoration" serviceName="Historic Restoration" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Clearwater Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Historic restoration in Clearwater starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Clearwater Historic Areas Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Clearwater's Historic Areas
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Cleveland Street District</h3>
-              <p className="text-gray-600 text-sm">
-                Clearwater's historic commercial core contains early 20th-century buildings now being restored as downtown revitalization continues. Mediterranean Revival, Mission, and Vernacular commercial buildings line Cleveland Street, offering adaptive reuse opportunities for restaurants, retail, and creative offices. Several buildings have been extensively restored, setting a high standard for preservation efforts.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Landmark className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Harbor Oaks Neighborhood</h3>
-              <p className="text-gray-600 text-sm">
-                One of Clearwater's original planned communities, Harbor Oaks was developed in the 1920s with Mediterranean Revival, Colonial Revival, and Spanish Eclectic homes. The neighborhood features mature oak canopy, period streetscaping, and distinctive architectural details including decorative stucco, clay tile roofs, and arched openings. The special area plan ensures preservation of neighborhood character.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Waves className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Historic Beachfront Properties</h3>
-              <p className="text-gray-600 text-sm">
-                Clearwater Beach and Sand Key contain historic hospitality and residential structures from the area's early resort development. These coastal properties face intense preservation challenges from salt air, storm exposure, and flooding. Restoration requires marine-grade materials, hurricane-resistant modifications, and specialized coastal construction techniques while maintaining historic character.
-              </p>
-            </div>
-          </div>
-          <div className="grid md:grid-cols-2 gap-8 mt-8 max-w-4xl mx-auto">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Historic Landmarks</h3>
-              <p className="text-gray-600 text-sm">
-                Clearwater's individually designated historic landmarks include significant public buildings, churches, and notable residences throughout the city. These properties, whether listed on the National Register or designated locally, may qualify for tax incentives and require preservation-sensitive treatment for alterations. We work with owners to maximize both historic integrity and available incentives.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Safety Harbor and Dunedin Historic Districts</h3>
-              <p className="text-gray-600 text-sm">
-                Adjacent to Clearwater, Safety Harbor and Dunedin maintain charming historic downtown districts with early 20th-century commercial and residential architecture. These communities have active preservation programs and historic resources that complement Clearwater's inventory. We serve property owners throughout the greater Clearwater area seeking preservation expertise.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Coastal Preservation Challenges */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Coastal Historic Preservation Challenges
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <p className="text-gray-600 mb-8 text-center">
-              Clearwater's Gulf Coast location creates unique challenges for historic preservation not found in inland markets. Our restoration approach addresses these factors while maintaining historic character.
-            </p>
-            <div className="grid md:grid-cols-2 gap-8">
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Waves className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Salt Air Corrosion</h3>
-                </div>
-                <p className="text-gray-600 text-sm">
-                  Clearwater's salt-laden air accelerates deterioration of metals, masonry, and wood far faster than inland locations. Historic buildings suffer from corroding hardware, spalling masonry, and deteriorating wood at accelerated rates. We specify marine-grade replacement materials and protective coatings that extend restoration longevity in the coastal environment.
-                </p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Sun className="w-5 h-5 text-amber-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">UV Exposure</h3>
-                </div>
-                <p className="text-gray-600 text-sm">
-                  Florida's intense UV radiation degrades paint, sealants, and roofing materials faster than northern climates. Historic buildings in Clearwater require more frequent maintenance and restoration of exterior finishes. We specify UV-resistant coatings and finishes that provide extended protection while maintaining period-appropriate appearance.
-                </p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center">
-                    <Shield className="w-5 h-5 text-red-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Hurricane Requirements</h3>
-                </div>
-                <p className="text-gray-600 text-sm">
-                  Clearwater's direct Gulf exposure increases hurricane risk, and Florida Building Code requires substantial renovations to meet current wind standards. We design structural reinforcement, impact protection, and envelope improvements that satisfy code requirements while preserving historic character—a balance essential for tax credit certification.
-                </p>
-              </div>
-              <div className="bg-gray-50 rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Compliance</h3>
-                </div>
-                <p className="text-gray-600 text-sm">
-                  Beach areas and barrier islands fall within VE and AE flood zones with strict FEMA requirements. Historic buildings undergoing substantial improvement may need elevation or flood-proofing modifications. We design flood-resistant solutions that protect historic buildings while meeting regulatory requirements and maintaining architectural integrity.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Clearwater Historic Restoration: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Tax Credits</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Facade Restoration</td>
-                    <td className="p-4">$60-175/SF (facade)</td>
-                    <td className="p-4">4-10 months</td>
-                    <td className="p-4">Potentially eligible</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Full Building Restoration</td>
-                    <td className="p-4">$225-425+/SF</td>
-                    <td className="p-4">14-26 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Interior Historic Restoration</td>
-                    <td className="p-4">$175-325/SF</td>
-                    <td className="p-4">8-16 months</td>
-                    <td className="p-4">Part of whole-building</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Adaptive Reuse</td>
-                    <td className="p-4">$200-375/SF</td>
-                    <td className="p-4">16-32 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 font-medium">Coastal/Beachfront Restoration</td>
-                    <td className="p-4">$275-500/SF</td>
-                    <td className="p-4">18-36 months</td>
-                    <td className="p-4">Case-by-case evaluation</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs are higher than inland markets due to coastal construction requirements and marine-grade materials. Federal Historic Tax Credits (20%) available for qualifying income-producing properties.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Preservation Standards Section */}
+      {/* Clearwater Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Meeting Clearwater's Preservation Standards
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Preserving Clearwater's Pre-Tourism Architectural Heritage
             </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Before Clearwater Beach became one of America's most celebrated tourist destinations, Clearwater was a Florida Gulf Coast community with a rich built environment shaped by early twentieth-century development patterns. The Harbor Oaks neighborhood, developed in the 1920s during Florida's first real estate boom, features substantial residential estates in Mediterranean Revival, Colonial Revival, and early Florida vernacular styles. These homes, with their original tile roofs, stucco facades, arched entryways, and mature landscaping, represent some of the finest pre-war residential architecture in Pinellas County.
+              </p>
+              <p className="mb-6">
+                Downtown Clearwater retains a collection of commercial and civic buildings from the early to mid-twentieth century. While much of downtown has been redeveloped, remaining older structures along Cleveland Street, Fort Harrison Avenue, and adjacent blocks provide architectural anchors that connect present-day Clearwater to its history. These buildings present restoration opportunities for owners who recognize the value of preserving their character while adapting them for contemporary commercial uses.
+              </p>
+              <p className="mb-6">
+                The challenge of historic restoration in Clearwater is compounded by the coastal environment. Pinellas County's Gulf proximity subjects older buildings to salt air exposure, elevated humidity, intense UV radiation, and hurricane-force wind events that inland historic structures do not face. Original building materials, whether wood framing, clay tile, lime-based stucco, or decorative metalwork, deteriorate under these conditions in ways that require specialized repair knowledge. Generic renovation approaches that substitute modern materials without understanding the original building system often create moisture problems, aesthetic mismatches, and accelerated deterioration.
+              </p>
+              <p>
+                Florida Construction Specialists approaches Clearwater historic restoration with respect for original craftsmanship and realistic understanding of the coastal environment's demands. We assess each building's condition comprehensively, develop restoration plans that address structural, envelope, and aesthetic concerns, and execute repairs using period-appropriate techniques supplemented by modern performance enhancements where they can be integrated without compromising architectural character.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Scale className="w-5 h-5 text-amber-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Secretary of Interior Standards</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Federal tax credit projects must meet the Secretary of Interior's Standards for Rehabilitation—10 principles that guide preservation work. We ensure all restoration decisions align with these standards, from material selection to treatment approaches. This framework also guides best practices for non-tax-credit projects seeking preservation quality.
-                </p>
-              </div>
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/historic-preservation/historic-preservation-display.webp"
+        alt="Historic building restoration and preservation in Clearwater"
+        title="Clearwater Historic Preservation"
+        subtitle="Restoring Harbor Oaks estates, downtown heritage buildings, and Clearwater's pre-tourism architectural identity"
+        overlayOpacity={0.55}
+      />
 
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">SHPO Coordination</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Projects seeking state or federal historic tax credits require Florida State Historic Preservation Office approval. We coordinate Part 1 (significance), Part 2 (proposed work), and Part 3 (completed work) applications, ensuring rehabilitation plans are approved before construction begins and certified upon completion for Clearwater properties.
-                </p>
-              </div>
+      {/* Service Capabilities */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Historic Restoration Capabilities for Clearwater's Heritage Properties
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Comprehensive restoration services that preserve Clearwater's architectural heritage while addressing the realities of coastal climate and modern building codes.
+          </p>
 
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Clearwater Planning Review</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: BookOpen,
+                title: "Period-Appropriate Restoration",
+                description: "Restoration of original architectural elements using techniques and materials consistent with the building's era. Mediterranean Revival tile roofs, original stucco systems, wood window restoration, decorative metalwork conservation, and masonry repair for Harbor Oaks estates and downtown Clearwater heritage buildings."
+              },
+              {
+                icon: Building2,
+                title: "Structural Stabilization",
+                description: "Foundation assessment and repair for Clearwater's older buildings, many of which sit on pre-modern foundation systems in sandy, high-water-table soil. Underpinning, helical pier installation, framing reinforcement, and structural member replacement that stabilizes the building without altering its architectural character."
+              },
+              {
+                icon: Shield,
+                title: "Coastal Resilience Upgrades",
+                description: "Integration of hurricane resistance and moisture protection into older Clearwater buildings. Impact-rated windows that replicate original profiles, concealed structural reinforcement for wind loads, improved roof tie-downs, and waterproofing systems compatible with original construction materials."
+              },
+              {
+                icon: HardHat,
+                title: "Exterior Envelope Restoration",
+                description: "Comprehensive exterior restoration addressing salt air damage to stucco, wood, masonry, and metal elements. Original material repair where feasible, period-appropriate replacement where necessary, and protective coating systems that extend material life in Clearwater's Gulf Coast environment."
+              },
+              {
+                icon: Briefcase,
+                title: "Adaptive Reuse",
+                description: "Conversion of older Clearwater buildings for contemporary uses while preserving architectural character. Downtown commercial buildings adapted for modern office, retail, or mixed-use. Residential properties converted for professional use. Code compliance integration that respects the building's original design."
+              },
+              {
+                icon: FileCheck,
+                title: "Systems Modernization",
+                description: "Discreet integration of modern electrical, plumbing, HVAC, and fire protection systems within older building structures. Concealed routing that avoids disturbing original finishes, energy efficiency improvements, and technology infrastructure added without compromising period character."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Clearwater's Planning Department reviews alterations to locally designated historic properties and structures in protected areas like Harbor Oaks. We prepare thorough applications with historic documentation, proposed work descriptions, and material specifications. Our understanding of Clearwater's guidelines helps streamline the approval process.
-                </p>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
-                    <Hammer className="w-5 h-5 text-purple-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Coastal Preservation Craftsmanship</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Clearwater's coastal historic restoration requires specialized craftsmanship in marine-grade materials and methods. We work with preservation masons experienced in coastal masonry repair, wood specialists who understand salt-resistant treatments, and trades familiar with period-appropriate coastal construction techniques.
-                </p>
-              </div>
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Clearwater's Older Building Stock and Restoration Needs
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Successful restoration of older Clearwater buildings requires understanding both the original construction methods and the specific deterioration patterns caused by decades of Gulf Coast exposure. A Harbor Oaks home built in 1926 uses construction techniques and material systems fundamentally different from modern building practices, and restoration approaches must work with these original systems rather than against them.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> requires permits for restoration work that involves structural modifications, electrical or plumbing system changes, and exterior alterations. While Clearwater does not have the formal historic preservation board oversight found in Tampa's Ybor City or St. Petersburg's historic districts, the city's building code requirements still apply, and bringing older buildings into compliance with current standards requires careful planning that balances code requirements with preservation objectives.
+              </p>
+              <p className="mb-6">
+                Clearwater's climate creates specific material challenges for restoration work. The original lime-based stucco systems used on 1920s Mediterranean Revival buildings breathe differently than modern Portland cement stucco, and patching with incompatible modern stucco creates moisture trapping that accelerates underlying deterioration. Original clay barrel tile roofs require careful repair with salvaged or reproduction tiles that match the original profiles. Wood windows and trim, exposed to Clearwater's salt air for decades, may need selective member replacement rather than wholesale window replacement to maintain period authenticity.
+              </p>
+              <p>
+                The neighborhoods where historic restoration is most active in Clearwater include Harbor Oaks with its concentration of 1920s estates, the Skycrest and Woodlawn areas with mid-century residential architecture, and downtown Clearwater's remaining older commercial buildings along Cleveland Street and Fort Harrison Avenue. Each of these areas presents different architectural styles, construction eras, and restoration requirements. Our experience across these neighborhoods allows us to apply the appropriate restoration techniques for each building's age, style, and current condition.
+              </p>
             </div>
           </div>
         </div>
@@ -464,149 +224,102 @@ export default function HistoricRestorationClearwaterPage() {
       {/* Process Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Clearwater Historic Restoration Process
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Clearwater Historic Restoration Process
           </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Historic Documentation & Coastal Assessment",
-                  description: "We begin with thorough documentation of existing conditions—photographs, measured drawings, and materials analysis. For Clearwater properties, we also assess coastal exposure, previous storm damage, and salt air deterioration. We research building history, original construction methods, and previous alterations to inform restoration planning."
-                },
-                {
-                  step: "2",
-                  title: "Preservation Planning",
-                  description: "Based on assessment findings, we develop restoration approaches addressing deterioration while preserving character-defining features. For Clearwater's coastal properties, this includes specifying marine-grade materials and methods. For tax credit projects, we prepare SHPO Part 2 applications with detailed scope of work."
-                },
-                {
-                  step: "3",
-                  title: "Regulatory Approvals",
-                  description: "We navigate Clearwater's planning review process, coordinate SHPO reviews for tax credit projects, and obtain building permits. For Harbor Oaks properties, we address special area plan requirements. For coastal properties, we coordinate flood zone compliance. We maintain communication with all reviewing agencies throughout approval."
-                },
-                {
-                  step: "4",
-                  title: "Restoration Execution",
-                  description: "Experienced project managers oversee restoration work with strict adherence to approved plans and preservation specifications. For Clearwater projects, we schedule around tourism season impacts and coordinate coastal construction logistics. Regular communication with regulatory agencies ensures continued compliance."
-                },
-                {
-                  step: "5",
-                  title: "Completion & Certification",
-                  description: "We complete all inspections and provide comprehensive documentation of completed work. For tax credit projects, we prepare SHPO Part 3 certification applications with final photographs and project narrative. We ensure all regulatory requirements are satisfied and buildings are ready for occupancy or continued use."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-white rounded-lg p-6">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A careful approach to restoration that respects Clearwater's architectural heritage while addressing coastal climate demands.
+          </p>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Clearwater Chooses FCS for Historic Restoration
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Clearwater historic projects. You get direct accountability, single-point contact, and our full commitment to your project's success throughout the restoration process.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Waves className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Coastal Preservation Expertise</h3>
-              <p className="text-gray-600">
-                We understand the unique challenges of coastal historic preservation—salt air corrosion, hurricane requirements, and flood zone compliance. Our restoration methods extend building longevity in Clearwater's demanding environment.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <FileCheck className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Tax Credit Success</h3>
-              <p className="text-gray-600">
-                We navigate federal and state historic tax credit programs, coordinating SHPO applications and ensuring work meets certification requirements. Tax credits can offset 20% of qualified rehabilitation costs for income-producing properties.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Building Assessment and Documentation",
+                description: "Comprehensive evaluation of the building's structural condition, material deterioration, architectural elements, and modification history. We document original construction details, identify previous repairs, and assess salt air and moisture damage patterns specific to the building's location within Clearwater.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Restoration Planning and Design",
+                description: "Development of a restoration plan that addresses structural stabilization, material repairs, and code compliance while preserving architectural character. Plans specify period-appropriate repair techniques, identify elements requiring replacement versus conservation, and integrate modern performance upgrades discreetly.",
+                icon: BookOpen,
+              },
+              {
+                step: "03",
+                title: "Permitting and Compliance",
+                description: "We navigate the City of Clearwater permitting process for restoration work, ensuring structural modifications and systems upgrades meet current building code while documenting the preservation rationale for approaches that maintain original building character.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Restoration Execution",
+                description: "Skilled craftsmen perform restoration work using appropriate techniques for each building era and material system. Structural stabilization, exterior restoration, interior preservation, and systems modernization proceed in a coordinated sequence that protects completed work and original elements throughout construction.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Completion and Maintenance Planning",
+                description: "Final documentation of all restoration work including techniques, materials, and specifications. We provide maintenance recommendations specific to Clearwater's coastal environment, helping property owners protect their restoration investment against the ongoing effects of salt air, humidity, and UV exposure.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={clearwaterFaqs} title="Historic Restoration in Clearwater - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Clearwater Historic Restoration FAQ"
+        description="Common questions about historic restoration and heritage building preservation in Clearwater, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Clearwater</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-clearwater/" className="text-brand-green hover:underline">Commercial Construction Clearwater</Link></li>
-                <li><Link href="/disaster-recovery-clearwater/" className="text-brand-green hover:underline">Disaster Recovery Clearwater</Link></li>
-                <li><Link href="/balcony-reconstruction-clearwater/" className="text-brand-green hover:underline">Balcony Reconstruction Clearwater</Link></li>
-                <li><Link href="/exterior-waterproofing-clearwater/" className="text-brand-green hover:underline">Exterior Waterproofing Clearwater</Link></li>
-                <li><Link href="/multi-family-construction-clearwater/" className="text-brand-green hover:underline">Multi-Family Construction Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Historic Restoration Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration-tampa/" className="text-brand-green hover:underline">Historic Restoration Tampa</Link></li>
-                <li><Link href="/historic-restoration-st-petersburg/" className="text-brand-green hover:underline">Historic Restoration St. Petersburg</Link></li>
-                <li><Link href="/historic-restoration-lakeland/" className="text-brand-green hover:underline">Historic Restoration Lakeland</Link></li>
-                <li><Link href="/historic-restoration-sarasota/" className="text-brand-green hover:underline">Historic Restoration Sarasota</Link></li>
-                <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration Services</Link></li>
-                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Commercial Historic Restoration</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Clearwater" currentService="historic-restoration" />
+            <NearbyLocations currentCity="Clearwater" service="historic-restoration" serviceName="Historic Restoration" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Clearwater Historic Restoration Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Preserve Clearwater's Architectural Heritage
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver historic restoration excellence in Clearwater, from Downtown Cleveland Street to Harbor Oaks and coastal properties throughout Pinellas County.
+            Contact Florida Construction Specialists to discuss your historic restoration project in Clearwater. We bring decades of experience and genuine respect for period architecture to every restoration we undertake.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Discuss Your Restoration Project
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
