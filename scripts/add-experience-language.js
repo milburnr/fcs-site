@@ -20,7 +20,7 @@ const EXPERIENCE_PATTERNS = [
   /40\+ years/i,
   /four decades/i,
   /over 40 years/i,
-  /40 years/i,
+  /(?<!\d[-–])\b40 years of/i,
   /in-house engineer/i,
   /in-house engineering/i,
   /300\+ project/i,

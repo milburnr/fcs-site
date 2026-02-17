@@ -129,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Purchasing commercial property in Florida involves significant capital and considerable risk. What you can see during a walkthrough represents only a fraction of a building's true condition—hidden issues like roof deterioration, aging HVAC systems, structural concerns, and deferred maintenance can transform an attractive acquisition into an expensive mistake. Smart buyers engage construction professionals during due diligence to identify issues, quantify costs, and strengthen their negotiating position.
-            </p>
+             With more than 300 completed projects since 1982, our CBC-licensed team delivers the structural knowledge and field experience that complex commercial work demands.</p>
 
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists has assessed hundreds of commercial properties for prospective buyers throughout Tampa Bay. Our construction expertise helps you understand what you're actually buying, negotiate appropriate pricing based on property condition, and plan for necessary improvements post-acquisition. We've helped buyers avoid costly mistakes and negotiate better deals on properties they do acquire.

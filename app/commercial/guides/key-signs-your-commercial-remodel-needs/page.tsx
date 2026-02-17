@@ -183,7 +183,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-8">
               Commercial buildings communicate their needs constantly—through rising utility bills, tenant complaints, maintenance calls, and visible deterioration. The challenge for Tampa Bay property owners and managers is learning to read these signals and responding appropriately. Acting too soon wastes capital on unnecessary improvements. Waiting too long allows small problems to compound into expensive emergencies and lost revenue. Florida Construction Specialists helps commercial property owners find the right balance with expert assessments and honest guidance.
-            </p>
+             Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
             
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Why Timing Matters for Commercial Renovation
