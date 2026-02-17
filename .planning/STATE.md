@@ -200,5 +200,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 06-03-PLAN.md (Service Hub E-E-A-T Enhancement)
-Resume file: .planning/phases/06-e-e-a-t-signals/06-04-PLAN.md
+Stopped at: Completed 06-08-PLAN.md (Experience Language & Founding Date Audit) -- Phase 6 Complete
+Resume file: Phase 7 (SB4-D) or Phase 8 (Insurance)
