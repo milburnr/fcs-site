@@ -70,6 +70,7 @@ Progress: [██████████] 93%
 | Phase 06 P07 | 25min | 2 tasks | 29 files |
 | Phase 06 P08 | 11min | 2 tasks | 52 files |
 | Phase 06 P04 | 12min | 2 tasks | 14 files |
+| Phase 06 P06 | 15min | 2 tasks | 9 files |
 
 ## Accumulated Context
 
@@ -186,6 +187,7 @@ Recent decisions affecting current work:
 - [Phase 06-07]: CodeReference added to coastal SB4-D pages only (Sarasota + Bradenton condo-remediation and balcony-reconstruction)
 - [Phase 06-07]: Brandon/Ruskin skipped for CodeReference (inland/suburban, lighter pages)
 - [Phase 06-07]: multi-family-construction-brandon fixed for 1982 consistency (not in plan target list but caught by verification)
+- [Phase 06]: Lakeland SB4-D pages excluded from CodeReference (inland, 30-year timeline, no salt exposure)
 
 ### Pending Todos
 
