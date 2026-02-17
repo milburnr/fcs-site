@@ -1,231 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import {
-  Phone,
-  MapPin,
-  CheckCircle,
-  ArrowRight,
-  Building2,
-  Shield,
-  Award,
-  AlertTriangle,
-  FileText,
-  Wrench,
-  Clock,
-  Calendar,
-  DollarSign,
-  Users,
-  FileCheck,
-  Droplets,
-  Wind,
-  Flame,
-  ClipboardCheck,
-  Waves,
-  Landmark,
-  Scale,
-  Search,
-  Home,
-  HardHat,
-} from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import {
-  LocalBusinessSchema,
-  ServiceSchema,
-  BreadcrumbSchema,
-  FAQSchema,
-} from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase, AlertTriangle } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { InternalLinks, RelatedServices, NearbyLocations } from "@/components/InternalLinks";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/' },
-  title: "Insurance Restoration St. Petersburg | 43 Years",
-  description:
-    "Insurance restoration St. Petersburg: hurricane, flood, fire repair. Historic district specialist. 43 years experience. Request a free quote.",
+  title: "Insurance Restoration St. Petersburg FL | Storm Damage, Large-Loss Claims | FCS",
+  description: "Insurance restoration in St. Petersburg by Florida Construction Specialists. Hurricane damage, large-loss commercial claims, carrier documentation on Florida's most exposed peninsula. Licensed CBC, 40+ years experience. Request a claims consultation.",
 };
+
+const faqs = [
+  {
+    question: "Why does St. Petersburg face higher insurance restoration demand than most Florida cities?",
+    answer: "St. Petersburg's peninsula geography creates dual water exposure from both Tampa Bay and the Gulf of Mexico, meaning storms can push water into the city from multiple directions simultaneously. This is unlike mainland coastal cities where storm surge comes from a single direction. The city also sits at relatively low elevation across much of its land area, with neighborhoods like Shore Acres, Coquina Key, and Pinellas Point particularly vulnerable to flooding. Combined with an aging commercial building stock and a dense concentration of waterfront condominiums, St. Petersburg experiences proportionally higher large-loss insurance claims after major weather events than communities shielded by the peninsula."
+  },
+  {
+    question: "What types of insurance restoration projects does FCS handle in St. Petersburg?",
+    answer: "We handle large-loss commercial and multi-family insurance restoration throughout St. Petersburg. This includes hurricane wind and water damage repair to commercial buildings, storm surge and flood damage restoration in low-lying areas, fire damage reconstruction, structural repair after catastrophic events, and building envelope restoration following weather-related failures. Our St. Petersburg insurance restoration projects typically involve commercial properties, condominium buildings, institutional facilities, and multi-family complexes where claim values range from one hundred thousand to several million dollars. We do not handle residential single-family insurance claims."
+  },
+  {
+    question: "How does FCS's insurance industry background benefit St. Petersburg property owners?",
+    answer: "Our principal spent years working as an Executive General Adjuster before entering general contracting, which means we understand the claims process from the carrier's perspective. This dual expertise allows us to prepare documentation that meets the specific evidentiary standards insurance adjusters require, scope repairs in the format carriers expect, and communicate with adjusters using the terminology and documentation practices they recognize. For St. Petersburg property owners navigating complex claims after storms, this translates to more complete damage documentation, fewer scope disputes, and faster claims resolution. We do not act as public adjusters, but our construction scope documentation naturally supports the claims process."
+  },
+  {
+    question: "What is the timeline for insurance restoration on commercial properties in St. Petersburg?",
+    answer: "Timelines vary significantly based on claim complexity, damage scope, and carrier response times. Emergency stabilization and temporary repairs begin immediately when we are engaged. Permanent restoration work on moderate commercial claims typically takes 3 to 6 months from insurance approval to completion. Large-loss claims involving structural damage, multiple building systems, or complex carrier negotiations can take 6 to 12 months. St. Petersburg's peninsula location adds a layer of complexity because material delivery and subcontractor availability are often constrained after regional storm events when the entire Tampa Bay area is competing for restoration resources. We maintain relationships with suppliers and subcontractors that prioritize our projects."
+  },
+  {
+    question: "Does FCS coordinate directly with insurance carriers on St. Petersburg restoration projects?",
+    answer: "Yes, we coordinate directly with insurance carriers, their adjusters, and their engineering consultants throughout the restoration process. We prepare detailed damage assessments with photographic documentation, develop construction scopes that align with standard insurance estimating formats, and participate in scope review meetings with carrier representatives. Our documentation includes line-item breakdowns, material specifications, and engineering justifications for repair methods that give adjusters the information they need to process claims efficiently. This direct carrier coordination reduces the disputes and delays that arise when restoration contractors submit incomplete or non-standard documentation."
+  },
+  {
+    question: "How does storm surge risk in St. Petersburg affect insurance restoration planning?",
+    answer: "Storm surge is the defining insurance restoration risk in St. Petersburg because the peninsula's low elevation and dual water exposure create surge potential from both Tampa Bay and the Gulf of Mexico. A hurricane making landfall north of St. Petersburg can push Gulf water into the bay, creating surge on the east side of the city, while a storm approaching from the south pushes surge directly into the Gulf-facing western shore. This means commercial buildings across St. Petersburg face surge risk regardless of whether they are on the bay side or Gulf side. Our restoration planning accounts for both the water damage from surge events and the subsequent mold, corrosion, and structural deterioration that follow salt water inundation of building systems."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Disaster Recovery", href: "/disaster-recovery/" },
+  { name: "Services", href: "/services/" },
+  { name: "Insurance Restoration", href: "/insurance/" },
   { name: "St. Petersburg", href: "/insurance-restoration-st-petersburg/" },
-];
-
-const trustBadges = [
-  { icon: Shield, label: "43 Years Insurance Experience" },
-  { icon: FileCheck, label: "Former Allstate Adjuster" },
-  { icon: Award, label: "Licensed CBC1262722" },
-  { icon: Building2, label: "$75M+ Claims Handled" },
-];
-
-const insuranceExperience = [
-  { stat: "43", label: "Years Insurance Industry Experience" },
-  { stat: "7", label: "Years as Insurance Adjuster" },
-  { stat: "28", label: "Years Insurance Restoration Contractor" },
-  { stat: "$75M+", label: "In Claims Handled" },
-];
-
-const services = [
-  {
-    icon: Wind,
-    title: "Hurricane Damage Restoration",
-    description:
-      "Complete hurricane damage restoration including roof repair, water intrusion remediation, structural repairs, and comprehensive insurance claim documentation for St. Petersburg's dual-waterfront properties.",
-  },
-  {
-    icon: Droplets,
-    title: "Flood Damage Recovery",
-    description:
-      "NFIP and private flood claim expertise for St. Pete Beach, Treasure Island, and coastal properties. We understand the critical distinction between covered flood damage and adjacent damage exclusions.",
-  },
-  {
-    icon: Flame,
-    title: "Fire & Smoke Damage",
-    description:
-      "Comprehensive fire restoration including structural repair, smoke remediation, water damage from firefighting, and complete insurance claim management for St. Petersburg commercial and residential properties.",
-  },
-  {
-    icon: FileCheck,
-    title: "Insurance Claim Management",
-    description:
-      "Full claims support including Xactimate estimates, adjuster coordination, supplemental claims, and scope negotiations. Our dual perspective from both sides of the claims process ensures maximum coverage.",
-  },
-  {
-    icon: Landmark,
-    title: "Historic Property Restoration",
-    description:
-      "Specialized insurance restoration for St. Petersburg's historic districts including Old Northeast, Snell Isle, and Kenwood. We navigate preservation requirements while maximizing insurance coverage.",
-  },
-  {
-    icon: Building2,
-    title: "Commercial Restoration",
-    description:
-      "Large loss commercial restoration for downtown St. Petersburg businesses, retail centers, and multi-family properties. Business interruption coordination and tenant considerations included.",
-  },
-];
-
-const stPeteNeighborhoods = [
-  "Downtown St. Petersburg",
-  "St. Pete Beach",
-  "Treasure Island",
-  "Pass-a-Grille",
-  "Snell Isle",
-  "Old Northeast",
-  "Shore Acres",
-  "Kenwood",
-  "Historic Uptown",
-  "Isla del Sol",
-  "Gulfport",
-  "Madeira Beach",
-  "Tierra Verde",
-  "Jungle Terrace",
-  "Pasadena",
-  "Tyrone",
-];
-
-const processSteps = [
-  {
-    step: 1,
-    title: "Emergency Assessment",
-    description:
-      "Rapid damage assessment for St. Petersburg properties including documentation, stabilization recommendations, and preliminary scope development for your insurance claim.",
-  },
-  {
-    step: 2,
-    title: "Insurance Coordination",
-    description:
-      "Direct coordination with your insurance carrier, certified Xactimate estimates, and preparation of documentation that meets carrier requirements—we speak the insurance industry's language.",
-  },
-  {
-    step: 3,
-    title: "Scope Development",
-    description:
-      "Comprehensive scope including hidden damage discovery using our 43 years of claims experience to identify damage that surface inspections miss, supporting supplemental claims when needed.",
-  },
-  {
-    step: 4,
-    title: "Claim Negotiation",
-    description:
-      "Professional scope negotiations and adjuster meetings leveraging our background as former insurance adjusters. We know exactly how claims are evaluated and what documentation supports approval.",
-  },
-  {
-    step: 5,
-    title: "Restoration Execution",
-    description:
-      "Complete property restoration using quality materials and skilled craftsmen. Historic district projects include preservation-compliant methods that maintain architectural integrity.",
-  },
-  {
-    step: 6,
-    title: "Final Documentation",
-    description:
-      "Complete project documentation, warranty information, and final insurance coordination including supplement processing for any additional discovered damage.",
-  },
-];
-
-const stPeteFaqs = [
-  {
-    question: "What makes FCS different from other insurance restoration contractors in St. Petersburg?",
-    answer:
-      "FCS's owner has 43 years of insurance industry experience—7 years as a field adjuster for Allstate and 28 years operating a statewide insurance restoration firm. This dual perspective from both sides of the claims process is extremely rare. We understand exactly how adjusters evaluate claims, what documentation carriers require, and how to present scope of work that gets approved. For St. Petersburg property owners facing storm damage, this expertise means faster claim processing, fewer disputes, and more complete settlements.",
-  },
-  {
-    question: "How does St. Petersburg's dual waterfront exposure affect insurance claims?",
-    answer:
-      "St. Petersburg's unique geography—bordered by Tampa Bay on the east and the Gulf of Mexico beaches on the west—creates complex damage patterns during storms. Properties can experience different types of damage depending on storm direction: Gulf-side properties like St. Pete Beach and Pass-a-Grille face direct ocean surge and salt spray, while bay-side areas like Shore Acres and Snell Isle may experience bay surge and wind-driven rain from different angles. Our experience with St. Pete's dual exposure helps ensure all damage types are properly documented and claimed.",
-  },
-  {
-    question: "Does FCS handle insurance restoration for historic St. Petersburg properties?",
-    answer:
-      "Yes, we specialize in insurance restoration for St. Petersburg's historic districts including Old Northeast, Snell Isle, Historic Kenwood, and Historic Uptown. Historic property claims involve unique considerations—preservation ordinances may require specific restoration methods and materials, and insurance coverage must account for the cost of maintaining historic character. Our team understands both the technical restoration requirements and the insurance documentation needed to secure appropriate coverage for historic property repairs.",
-  },
-  {
-    question: "What should St. Petersburg property owners do immediately after storm damage?",
-    answer:
-      "First, ensure safety and document everything with photos and video before any cleanup. Contact your insurance company to report the claim. Take reasonable steps to prevent further damage (tarping, board-up) but don't begin permanent repairs until damage is documented. Keep all receipts for prompt expenses. For significant losses in St. Petersburg, contact FCS early—our initial assessment helps ensure proper documentation from the start and identifies damage that might otherwise be missed, particularly important for St. Pete's older building stock.",
-  },
-  {
-    question: "How do NFIP flood claims work for St. Pete Beach and barrier island properties?",
-    answer:
-      "NFIP (National Flood Insurance Program) claims operate under completely different rules than standard property insurance. The most critical distinction: NFIP only covers direct physical damage from flood water contact. Damage above the flood line from moisture migration or humidity—even if caused by the flood event—is NOT covered. For St. Pete Beach, Treasure Island, and Pass-a-Grille properties, this distinction is crucial. Our 43 years of claims experience includes extensive NFIP work, and we help property owners understand coverage limitations while maximizing covered claims.",
-  },
-  {
-    question: "Can FCS help if my St. Petersburg insurance claim was denied or underpaid?",
-    answer:
-      "Yes. Our background includes experience with the appraisal and arbitration processes when claims become disputed. We can review existing claims, provide independent certified estimates, and help document why additional coverage may be warranted. For St. Petersburg properties where initial claims were inadequate—common with older buildings where hidden damage is extensive—our detailed supplemental documentation often helps secure additional payments. For severely contested claims, we can recommend qualified public adjusters or attorneys.",
-  },
-  {
-    question: "Does FCS work on both commercial and residential properties in St. Petersburg?",
-    answer:
-      "Yes, FCS handles both commercial and high-value residential disaster recovery throughout St. Petersburg. Our commercial experience includes downtown office buildings, retail centers on Central Avenue, hotels, restaurants, and multi-family complexes. Residential work includes historic homes in Old Northeast and Snell Isle, waterfront properties in Shore Acres, and beach homes throughout the barrier islands. For both sectors, we function as prime general contractor—never a subcontractor—maintaining full project control and accountability.",
-  },
-  {
-    question: "What is the typical timeline for insurance restoration projects in St. Petersburg?",
-    answer:
-      "Timeline varies significantly based on damage extent, building complexity, and insurance process efficiency. A straightforward residential restoration might take 3-6 months from damage to completion. Commercial projects or historic properties often require 6-12 months. Complex large-loss projects can extend to 18-24 months. The insurance claim process itself—from initial inspection through final payment—often takes 2-4 months for residential and 3-6 months for commercial losses. St. Petersburg's older building stock sometimes reveals hidden damage that extends timelines but is captured through supplemental claims.",
-  },
-  {
-    question: "How does FCS handle insurance restoration for St. Petersburg's older buildings?",
-    answer:
-      "St. Petersburg has significant building stock from the 1920s through 1970s, and these older structures often have hidden conditions that affect both damage extent and repair methods. Our 43 years of experience includes extensive work with older construction—we know where damage hides in plaster walls, original windows, terrazzo floors, and older roofing systems. We also understand how code upgrade requirements (Florida's 50% rule) can affect restoration scope when repairs are extensive, and ensure this is properly addressed in insurance documentation.",
-  },
-  {
-    question: "What types of storm damage does FCS restore in St. Petersburg?",
-    answer:
-      "FCS provides comprehensive storm damage restoration including: hurricane wind damage (roof, windows, structural), water intrusion from compromised building envelopes, flood damage (both NFIP and private flood claims), fire and smoke damage, and tornado damage. For St. Petersburg's waterfront properties, we're experienced with salt spray corrosion, surge damage, and the accelerated deterioration common in coastal construction. Our restoration addresses both visible damage and hidden problems that our claims experience helps us identify.",
-  },
-];
-
-const internalLinks = [
-  { href: "/disaster-recovery/", label: "Disaster Recovery Services" },
-  { href: "/insurance-restoration-tampa/", label: "Insurance Restoration Tampa" },
-  { href: "/insurance-restoration-clearwater/", label: "Insurance Restoration Clearwater" },
-  { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/residential/", label: "Residential Construction Services" },
-  { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 export default function InsuranceRestorationStPetersburgPage() {
@@ -234,342 +54,139 @@ export default function InsuranceRestorationStPetersburgPage() {
       <LocalBusinessSchema city="St. Petersburg" service="Insurance Restoration" />
       <ServiceSchema
         serviceName="Insurance Restoration"
-        serviceDescription="St. Petersburg's most experienced insurance restoration contractor with 43 years claims expertise. Hurricane, flood, fire damage restoration for commercial and residential properties. Historic district specialists. Projects from $50,000 to $25 million+."
+        serviceDescription="Insurance restoration and storm damage repair in St. Petersburg, FL. Large-loss commercial claims, hurricane damage, carrier documentation and coordination. Licensed CBC1262722, 40+ years experience."
         city="St. Petersburg"
-        minPrice="50000"
-        serviceCategories={["Claims Management","Damage Assessment","Certified Estimating","Full Property Restoration","Public Adjuster Coordination"]}
+        minPrice="100000"
+        serviceCategories={["Hurricane Damage Restoration", "Large-Loss Commercial Claims", "Storm Surge Repair", "Fire Damage Reconstruction", "Building Envelope Restoration"]}
       />
-      <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      <Breadcrumb items={breadcrumbItems} />
-
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
-            alt="Hurricane damage restoration in St. Petersburg by Florida Construction Specialists"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-red-900/90 via-red-800/85 to-brand-green-dark/90" />
-        </div>
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            {/* Location Badge */}
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Serving St. Petersburg, FL</span>
+              <span className="text-brand-gold font-semibold">Serving St. Petersburg, Florida</span>
             </div>
-
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Insurance Restoration in St. Petersburg:{" "}
-              <span className="text-brand-gold">The Insurance Expert's Contractor</span>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Insurance Restoration in St. Petersburg, Florida
             </h1>
-
-            <p className="text-xl md:text-2xl text-gray-200 mb-4 max-w-3xl leading-relaxed">
-              When disaster strikes your St. Petersburg property, you need a contractor who truly
-              understands insurance claims—from both sides of the process.
-            </p>
-
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              FCS brings 43 years of insurance industry experience: 7 years as an Allstate adjuster,
-              28 years operating a statewide insurance restoration firm, and deep expertise with
-              St. Petersburg's unique dual-waterfront exposure and historic properties.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              When storms cross the peninsula, St. Petersburg's commercial buildings face damage from both Gulf and Bay exposure. Florida Construction Specialists restores large-loss commercial and multi-family properties throughout Pinellas County, combining 40+ years of construction expertise with executive-level insurance industry experience to navigate complex claims and deliver thorough restoration.
             </p>
 
             {/* Trust Badges */}
-            <div className="flex flex-wrap gap-3 mb-8">
-              {trustBadges.map((badge) => (
-                <div
-                  key={badge.label}
-                  className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg"
-                >
-                  <badge.icon className="w-5 h-5 text-brand-gold" />
-                  <span className="text-white font-medium">{badge.label}</span>
-                </div>
-              ))}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
             </div>
 
-            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Damage Assessment
+              <Link href="/contact/" className="btn-cta text-center">
+                Request a Claims Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
-                urgent: {BUSINESS_INFO.phone}
+                {BUSINESS_INFO.phone}
               </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Insurance Experience Stats */}
-      <section className="py-8 bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
-            {insuranceExperience.map((item) => (
-              <div key={item.label}>
-                <div className="text-4xl md:text-5xl font-bold text-brand-gold mb-2">{item.stat}</div>
-                <div className="text-white/90 text-sm md:text-base">{item.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* St. Petersburg Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                St. Petersburg's Most Experienced Insurance Restoration Contractor
-              </h2>
-
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Florida Construction Specialists occupies a unique position in the St. Petersburg
-                disaster recovery industry. Our founder's career began in 1982 as a field adjuster
-                for Allstate Insurance, spending seven years evaluating claims, determining coverage,
-                and understanding exactly how carriers assess damage and process large losses. That
-                insider knowledge became the foundation for a 28-year career operating a statewide
-                insurance restoration firm trusted by major carriers throughout Florida.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              The Peninsula's Insurance Restoration Reality: Exposure from Every Direction
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Insurance restoration in St. Petersburg is shaped by a geographic vulnerability that no other major Tampa Bay city shares. The Pinellas peninsula sits between two large bodies of water -- Tampa Bay on the east and the Gulf of Mexico on the west -- with much of the city at low elevation. When tropical systems affect the region, St. Petersburg does not get storm damage from one direction. It gets it from every direction. Gulf-side winds drive surge into western neighborhoods, bay-side counterflows push water inland from the east, and rainfall pools in low-lying areas that have limited drainage capacity because the water table sits close to the surface across most of the peninsula.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                This dual perspective—having worked both as the adjuster evaluating claims AND as
-                the contractor rebuilding properties—is extraordinarily rare in the construction
-                industry. Most contractors learn insurance processes through trial and error. We
-                learned them from the inside, understanding not just what adjusters look for, but
-                why they look for it, how coverage decisions are made, and what documentation
-                actually supports claim approval.
+              <p className="mb-6">
+                This multi-directional exposure profile produces insurance claims that are often more complex than what carriers and contractors encounter in mainland markets. A commercial building in downtown St. Petersburg might sustain wind damage to the roof, water intrusion through compromised building envelope on the bay-facing elevation, and flood damage at ground level from storm surge -- three distinct damage mechanisms requiring three different repair approaches, all from a single weather event. The Mahaffey Theater waterfront district, the downtown office buildings, the Gateway corridor commercial properties, and the waterfront condo towers along Beach Drive and Shore Acres all face this compound exposure when major storms track through the region.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                For St. Petersburg property owners, this expertise is particularly valuable.
-                St. Pete's unique position on the Pinellas peninsula—with Tampa Bay to the east
-                and Gulf of Mexico beaches to the west—creates complex damage patterns during
-                storms. Add the city's significant inventory of historic properties with specialized
-                restoration requirements, and you need a contractor who understands both the
-                technical and insurance aspects of disaster recovery.
+              <p className="mb-6">
+                The insurance market in Pinellas County reflects this risk. Commercial property insurance premiums in St. Petersburg are among the highest in Florida, and carriers scrutinize claims carefully. This environment rewards property owners who work with restoration contractors that understand insurance documentation standards, scope repairs in formats carriers recognize, and can defend repair methodologies when adjusters challenge scope items. Florida Construction Specialists operates at this intersection of construction expertise and insurance industry knowledge.
               </p>
-
-              <p className="text-gray-600 mb-8">
-                When you hire FCS, you're not just hiring a contractor. You're hiring 43 years
-                of claims experience that helps ensure your St. Petersburg property is properly
-                documented, your claim is fairly evaluated, and your restoration meets both
-                insurance requirements and building codes. We've handled claims as the adjuster,
-                we've built claims as the contractor, and we've navigated disputes through
-                appraisal and arbitration.
+              <p>
+                Our principal's career began in the insurance industry as an Executive General Adjuster before transitioning to general contracting. This background is not a marketing angle -- it fundamentally shapes how we approach insurance restoration in St. Petersburg. We understand what adjusters need to see in damage documentation, how carriers evaluate repair scopes, and where disputes typically arise between property owners and insurance companies. This knowledge allows us to prepare restoration scopes that withstand carrier scrutiny while ensuring property owners receive the complete repair their buildings require.
               </p>
-
-              {/* Project Gallery */}
-              <div className="grid md:grid-cols-3 gap-4 my-8">
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/images/hurricane-ian/hurricane-ian-display.webp"
-                    alt="Hurricane damage restoration St. Petersburg"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Hurricane Restoration</p>
-                    <p className="text-xs text-gray-200">Storm Damage Recovery</p>
-                  </div>
-                </div>
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
-                    alt="Waterproofing and building envelope repair"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Building Envelope</p>
-                    <p className="text-xs text-gray-200">Waterproofing Systems</p>
-                  </div>
-                </div>
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/images/custom-home-construction-2/custom-home-construction-2-display.webp"
-                    alt="Complete property restoration"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Property Restoration</p>
-                    <p className="text-xs text-gray-200">Complete Reconstruction</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Target Audience Section */}
-              <div className="bg-brand-green-bg rounded-xl p-6 mb-8">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
-                  <Users className="w-6 h-6 text-brand-green" />
-                  Who We Serve in St. Petersburg
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Commercial Property Owners</span>
-                      <p className="text-sm text-gray-600">
-                        Downtown businesses, retail, hotels, and office buildings
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Historic Property Owners</span>
-                      <p className="text-sm text-gray-600">
-                        Old Northeast, Snell Isle, Historic Kenwood homes
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Waterfront Properties</span>
-                      <p className="text-sm text-gray-600">
-                        Shore Acres, Snell Isle, bayfront and beachfront homes
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Beach Community Properties</span>
-                      <p className="text-sm text-gray-600">
-                        St. Pete Beach, Treasure Island, Pass-a-Grille
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* CTA */}
-              <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Need Insurance Restoration for Your St. Petersburg Property?
-                    </h4>
-                    <p className="text-gray-600">
-                      Our 43 years of insurance expertise works for you.
-                    </p>
-                  </div>
-                  <a
-                    href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                    className="inline-flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-dark transition-colors whitespace-nowrap"
-                  >
-                    <Phone className="w-5 h-5" />
-                    {BUSINESS_INFO.phone}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4">Insurance Claim Assistance</h3>
-                <p className="text-gray-200 mb-4">
-                  From initial damage assessment to final claim settlement, our 43 years of
-                  insurance experience guides you through the entire restoration process.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-full hover:bg-brand-green-forest transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              {/* Insurance Expertise Box */}
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-amber-800 mb-3 flex items-center gap-2">
-                  <Shield className="w-5 h-5" />
-                  Our Insurance Expertise
-                </h3>
-                <ul className="space-y-2 text-amber-700 text-sm">
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                    <span>7 years as Allstate field adjuster</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                    <span>28 years insurance restoration contractor</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                    <span>Certified Xactimate estimating</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                    <span>Supplemental claim specialists</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <CheckCircle className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                    <span>Appraisal & arbitration experience</span>
-                  </li>
-                </ul>
-                <Link
-                  href="/disaster-recovery/"
-                  className="text-amber-800 font-semibold text-sm mt-4 inline-flex items-center gap-1 hover:underline"
-                >
-                  Full Disaster Recovery Services <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-
-              {/* Related Services */}
-              <RelatedServices city="St. Petersburg" currentService="insurance-restoration" />
-
-              {/* Nearby Locations */}
-              <NearbyLocations
-                currentCity="St. Petersburg"
-                service="insurance-restoration"
-                serviceName="Insurance Restoration"
-              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp"
+        alt="Insurance restoration work on storm-damaged commercial property in St. Petersburg"
+        title="Restoring St. Petersburg After the Storm"
+        subtitle="Large-loss commercial restoration with insurance industry expertise across Pinellas County"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Insurance Restoration Services in St. Petersburg
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Comprehensive disaster recovery and insurance claim support for St. Petersburg
-              commercial properties, historic homes, and waterfront residences.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Insurance Restoration Capabilities for St. Petersburg's Exposure Profile
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Comprehensive restoration services addressing the multi-directional storm damage patterns unique to peninsula commercial properties.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
-              >
-                <div className="w-14 h-14 bg-brand-green-bg rounded-xl flex items-center justify-center mb-4">
-                  <service.icon className="w-7 h-7 text-brand-green" />
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Hurricane and Wind Damage",
+                description: "Structural and building envelope restoration after hurricane wind events. St. Petersburg's coastal wind zone requirements mean commercial buildings sustain damage when systems exceed design thresholds. We restore roof systems, exterior walls, window and door assemblies, and structural connections damaged by high wind events, documenting all work for insurance claim support."
+              },
+              {
+                icon: Building2,
+                title: "Storm Surge and Flood Restoration",
+                description: "Comprehensive restoration of commercial buildings impacted by storm surge and flooding. Peninsula low-lying areas including Shore Acres, Coquina Key, Pinellas Point, and parts of downtown face surge risk from both bay and Gulf water. We address structural damage, contaminated building materials, MEP system replacement, and mold remediation after water inundation events."
+              },
+              {
+                icon: Shield,
+                title: "Large-Loss Claims Management",
+                description: "Coordination of complex insurance claims on commercial properties where damage values exceed one hundred thousand dollars. We prepare carrier-grade damage documentation, participate in scope review meetings, coordinate with independent adjusters and engineering consultants, and manage the restoration scope through supplemental claim submissions when hidden damage is discovered during construction."
+              },
+              {
+                icon: HardHat,
+                title: "Emergency Stabilization",
+                description: "Immediate response to prevent additional damage after catastrophic events. Board-up, temporary roofing, water extraction, structural shoring, and emergency power are deployed to stabilize St. Petersburg commercial properties while permanent restoration plans are developed and insurance claims are processed."
+              },
+              {
+                icon: FileCheck,
+                title: "Building Envelope Restoration",
+                description: "Repair and replacement of exterior wall systems, roofing, windows, and weatherproofing compromised by storm events. St. Petersburg's peninsula exposure means building envelopes experience wind-driven rain from shifting directions during storms, often revealing pre-existing vulnerabilities that complicate insurance scoping."
+              },
+              {
+                icon: Award,
+                title: "Fire and Catastrophic Damage",
+                description: "Complete reconstruction of commercial buildings after fire, explosion, or other catastrophic loss events. We manage demolition of damaged areas, structural repair, complete system replacement, and interior reconstruction, coordinating with fire marshals, insurance investigators, and local building officials throughout the process."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
                 <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>
@@ -579,356 +196,28 @@ export default function InsuranceRestorationStPetersburgPage() {
         </div>
       </section>
 
-      {/* St. Pete-Specific Content Section */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                St. Petersburg's Unique Storm Exposure Patterns
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                St. Petersburg's position on the Pinellas peninsula creates unique challenges for
-                property owners and their insurance claims. Unlike communities with single
-                waterfront exposure, St. Pete faces storm threats from multiple directions—
-                Tampa Bay storms from the east and Gulf hurricanes from the west—each creating
-                different damage patterns that require specific documentation approaches.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
-                  <Waves className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Dual Waterfront Exposure</h4>
-                    <p className="text-gray-600 text-sm">
-                      Properties face both Tampa Bay surge and Gulf hurricane exposure. Storm direction
-                      determines whether damage comes from salt-laden Gulf winds or bay surge flooding,
-                      affecting both damage extent and insurance coverage type.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Landmark className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Historic District Considerations</h4>
-                    <p className="text-gray-600 text-sm">
-                      Old Northeast, Snell Isle, and Historic Kenwood properties require restoration
-                      methods that meet preservation standards. Insurance claims must document the
-                      additional cost of period-appropriate materials and techniques.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Building2 className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Downtown Commercial District</h4>
-                    <p className="text-gray-600 text-sm">
-                      St. Petersburg's thriving downtown includes historic commercial buildings,
-                      modern mixed-use developments, and hospitality properties—each with different
-                      insurance requirements and business interruption considerations.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Home className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Beach Community Properties</h4>
-                    <p className="text-gray-600 text-sm">
-                      St. Pete Beach, Treasure Island, Pass-a-Grille, and Tierra Verde face the
-                      most severe Gulf exposure. NFIP flood coverage is typically required, and
-                      salt air accelerates storm damage deterioration.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                St. Petersburg Areas We Serve
-              </h3>
-              <p className="text-gray-600 mb-6">
-                FCS provides insurance restoration services throughout St. Petersburg and Pinellas
-                County's beach communities. Our team understands the distinct characteristics and
-                insurance requirements of each neighborhood.
-              </p>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {stPeteNeighborhoods.map((neighborhood) => (
-                  <div
-                    key={neighborhood}
-                    className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg"
-                  >
-                    <MapPin className="w-4 h-4 text-brand-green" />
-                    <span className="text-gray-700 text-sm">{neighborhood}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Historic Properties Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="max-w-5xl mx-auto">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-4 bg-brand-green rounded-xl">
-                <Landmark className="w-8 h-8 text-white" />
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark font-heading">
-                Historic Property Restoration Claims
-              </h2>
-            </div>
-
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Insurance Restoration Expertise Rooted in Peninsula Experience
+            </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="text-xl mb-8">
-                St. Petersburg's historic districts—including Old Northeast, Snell Isle, Historic
-                Kenwood, and the Grand Central District—contain some of Florida's most distinctive
-                architecture. Insurance restoration for these properties requires specialized
-                expertise that addresses both preservation requirements and claim documentation.
+              <p className="mb-6">
+                Effective insurance restoration in St. Petersburg requires understanding both the construction challenges of peninsula buildings and the insurance ecosystem that funds their repair. Contractors who excel at construction but lack insurance industry knowledge leave claim value on the table. Contractors who understand insurance but lack construction depth produce restoration work that does not adequately address the damage. We operate at the intersection of both disciplines.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">
-                Preservation Requirements and Insurance Coverage
-              </h3>
-              <p className="mb-4">
-                Historic properties in St. Petersburg's designated districts often face local
-                preservation ordinances that restrict exterior modifications. When storm damage
-                occurs, repairs may require historically appropriate materials and methods that
-                exceed standard construction costs. Proper insurance documentation must capture
-                these requirements to secure appropriate coverage.
+              <p className="mb-6">
+                The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> permits restoration construction work that involves structural modifications, building envelope replacement, or changes to building systems. After major storm events, the city may implement expedited permitting processes for emergency repairs. We maintain relationships with the building department that support efficient permit processing during both normal operations and post-storm surge periods when permit volume increases dramatically.
               </p>
-
-              <p className="mb-4">
-                Our experience with historic property claims includes documenting the specific
-                requirements for period-appropriate windows, original-profile trim and moldings,
-                historic roofing materials, and architectural details that must be replicated
-                rather than replaced with modern alternatives. This documentation supports
-                coverage for the actual cost of compliant restoration, not just generic replacement.
+              <p className="mb-6">
+                St. Petersburg's commercial building inventory presents distinct insurance restoration challenges depending on location and building type. Downtown office towers along the bayfront face wind and water damage patterns specific to high-rise coastal construction, where upper floors sustain wind damage while lower levels may experience surge. Gateway corridor commercial buildings, while set back from the waterfront, are not immune to hurricane damage -- wind events affect the entire peninsula regardless of bay proximity. Waterfront condo buildings in Shore Acres, Isla del Sol, and Coquina Key often generate the most complex insurance claims because they combine structural damage, unit-level interior damage, common area damage, and association-versus-individual-owner insurance coverage questions.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-10 mb-4">
-                Hidden Damage in Historic Construction
-              </h3>
-              <p className="mb-4">
-                St. Petersburg's historic homes often feature construction methods uncommon in
-                modern buildings: plaster and lath walls, original single-pane windows, wood
-                structural elements, and roofing systems with longer expected lifespans. Storm
-                damage to these systems manifests differently than in modern construction, and
-                proper assessment requires understanding historic building techniques.
+              <p className="mb-6">
+                Post-storm restoration in Pinellas County also faces practical logistics challenges. The peninsula has limited access points -- essentially I-275 and US-19 -- which means material deliveries and subcontractor access can be constrained after major events when everyone on the peninsula is competing for the same limited transportation capacity. We maintain material supply relationships and subcontractor commitments that prioritize our St. Petersburg projects during high-demand post-storm periods.
               </p>
-
-              <p className="mb-4">
-                Our 43 years of claims experience includes extensive work with historic properties.
-                We know where water intrusion hides in plaster walls, how wind affects original
-                windows differently than modern units, and what supplemental documentation is
-                needed when repairs reveal additional damage in historic structural systems.
-              </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-10 mb-4">
-                Coordinating with Preservation Boards
-              </h3>
               <p>
-                For properties in designated historic districts, restoration work may require
-                approval from local preservation boards. FCS coordinates with these authorities
-                to ensure repair plans meet preservation standards while documenting any
-                additional costs for insurance purposes. This coordination prevents delays and
-                ensures your restoration maintains the property's historic character and any
-                associated tax benefits or designation status.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Commercial Restoration Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="flex items-center gap-4 mb-6">
-                <div className="p-4 bg-brand-green rounded-xl">
-                  <Building2 className="w-8 h-8 text-white" />
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark font-heading">
-                  Commercial Restoration for Downtown St. Petersburg
-                </h2>
-              </div>
-
-              <p className="text-gray-600 mb-6">
-                St. Petersburg's downtown has transformed into one of Florida's most vibrant urban
-                centers, with a mix of historic commercial buildings, modern offices, boutique
-                hotels, restaurants, and mixed-use developments. Commercial disaster recovery in
-                this environment requires understanding complex insurance structures and minimizing
-                business interruption.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold text-gray-800">Business Interruption Coordination</span>
-                    <p className="text-sm text-gray-600">
-                      We document lost business time and coordinate with BI coverage to minimize
-                      financial impact during restoration.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold text-gray-800">Multi-Tenant Considerations</span>
-                    <p className="text-sm text-gray-600">
-                      Commercial properties with multiple tenants require coordination between
-                      property owner and tenant insurance policies.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold text-gray-800">Code Upgrade Requirements</span>
-                    <p className="text-sm text-gray-600">
-                      Florida's 50% rule may trigger significant code upgrades for older downtown
-                      buildings—we document these requirements for coverage.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-semibold text-gray-800">Large Loss Expertise</span>
-                    <p className="text-sm text-gray-600">
-                      Commercial claims from $250,000 to $25 million require experienced contractors
-                      with bonding capacity and carrier relationships.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-dark transition-colors"
-              >
-                Discuss Commercial Restoration <ArrowRight className="w-5 h-5" />
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-brand-green-bg rounded-xl p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-brand-green-dark mb-1">$75M+</div>
-                <div className="text-gray-600 text-sm">Claims Handled</div>
-              </div>
-              <div className="bg-brand-green-bg rounded-xl p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-brand-green-dark mb-1">$25M</div>
-                <div className="text-gray-600 text-sm">Bonding Capacity</div>
-              </div>
-              <div className="bg-brand-green-bg rounded-xl p-6 text-center">
-                <Calendar className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-brand-green-dark mb-1">43</div>
-                <div className="text-gray-600 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-brand-green-bg rounded-xl p-6 text-center">
-                <FileCheck className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-brand-green-dark mb-1">100%</div>
-                <div className="text-gray-600 text-sm">Prime Contractor</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Flood & NFIP Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="max-w-5xl mx-auto">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="p-4 bg-blue-600 rounded-xl">
-                <Droplets className="w-8 h-8 text-white" />
-              </div>
-              <h2 className="text-3xl md:text-4xl font-bold font-heading">
-                Flood Damage & NFIP Claims in St. Petersburg
-              </h2>
-            </div>
-
-            <div className="bg-amber-500/20 border-l-4 border-amber-400 p-6 mb-8">
-              <div className="flex items-start gap-3">
-                <AlertTriangle className="w-6 h-6 text-amber-400 flex-shrink-0 mt-1" />
-                <div>
-                  <h3 className="font-bold text-amber-200 mb-2">Critical Coverage Distinction</h3>
-                  <p className="text-amber-100">
-                    NFIP flood insurance only covers direct physical damage from flood water contact.
-                    Damage above the flood line from moisture migration—even if caused by the flood—is
-                    NOT covered. Understanding this distinction before a flood event can mean the
-                    difference between full recovery and significant uninsured losses.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="prose prose-lg prose-invert max-w-none">
-              <p className="text-xl text-gray-200 mb-6">
-                St. Pete Beach, Treasure Island, Pass-a-Grille, and Tierra Verde face Florida's
-                highest flood risk zones. Understanding NFIP coverage limitations—and where private
-                flood insurance may provide broader protection—is essential for St. Petersburg
-                waterfront property owners.
-              </p>
-
-              <div className="grid md:grid-cols-2 gap-6 my-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                  <h4 className="text-xl font-bold text-white mb-3">What NFIP Covers</h4>
-                  <ul className="space-y-2 text-gray-200">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Direct flood water contact damage</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Building materials below flood line</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Electrical/HVAC if flood-contacted</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Mitigation costs</span>
-                    </li>
-                  </ul>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                  <h4 className="text-xl font-bold text-white mb-3">What NFIP Excludes</h4>
-                  <ul className="space-y-2 text-gray-200">
-                    <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-                      <span>Moisture damage above flood line</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-                      <span>Mold from humidity (not direct contact)</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-                      <span>Basement/below-grade limitations</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <AlertTriangle className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-                      <span>Exterior improvements (landscaping)</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <p className="text-gray-200">
-                Our 43 years of insurance experience includes extensive NFIP flood claim work.
-                We understand how to properly document flood damage to maximize covered claims
-                while helping property owners understand where coverage gaps may require
-                alternative funding. For St. Petersburg barrier island properties, this expertise
-                is essential for realistic recovery planning.
+                Our documentation practices throughout every insurance restoration project are designed to withstand carrier scrutiny. Photographic documentation of pre-repair conditions, detailed scope breakdowns aligned with insurance estimating platforms, material specifications that justify repair methods, and progress documentation that tracks work against the approved claim scope. This level of documentation discipline comes from our principal's years of reviewing claims from the carrier side and understanding exactly what adjusters need to approve restoration work without unnecessary disputes.
               </p>
             </div>
           </div>
@@ -938,28 +227,53 @@ export default function InsuranceRestorationStPetersburgPage() {
       {/* Process Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our Insurance Restoration Process
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              FCS manages every aspect of insurance restoration from emergency assessment
-              through final claim settlement, leveraging 43 years of insurance expertise
-              to protect your interests.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            St. Petersburg Insurance Restoration Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A systematic approach that addresses both the construction requirements and insurance documentation needs of peninsula property restoration.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Response and Stabilization",
+                description: "Immediate deployment to secure your St. Petersburg property and prevent additional damage. We document existing conditions thoroughly during stabilization, establishing the baseline evidence that supports subsequent insurance claims. Emergency measures are scoped and documented as separate line items from permanent repairs.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Damage Assessment and Claims Documentation",
+                description: "Comprehensive property inspection with photographic documentation, damage categorization by cause and building system, and preliminary scope development. Our documentation follows insurance industry standards, organizing damage by coverage category and presenting findings in formats that adjusters can process efficiently.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Scope Development and Carrier Coordination",
+                description: "We develop detailed restoration scopes, participate in joint inspections with carrier adjusters and engineers, and negotiate scope agreement. Our insurance industry background allows us to anticipate carrier questions and address them proactively in our scope submissions, reducing the dispute cycle that delays many restoration projects.",
+                icon: Building2,
+              },
+              {
+                step: "04",
+                title: "Permitted Restoration Construction",
+                description: "Once the claim scope is agreed upon, we secure permits through the City of St. Petersburg and execute restoration work using qualified Pinellas County subcontractors. We manage supplemental claims when hidden damage is discovered during construction, documenting the newly revealed conditions before proceeding with additional repairs.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Completion and Claims Closeout",
+                description: "Final inspections, Certificate of Occupancy restoration, and comprehensive project documentation that supports claim closure. We provide the carrier with completion certificates, material warranties, and compliance documentation that facilitate final payment processing. Our closeout documentation also serves as the baseline record for future claim events.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -967,176 +281,48 @@ export default function InsuranceRestorationStPetersburgPage() {
         </div>
       </section>
 
-      {/* Why Choose FCS Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why St. Petersburg Property Owners Choose FCS
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                43 Years Insurance Expertise
-              </h3>
-              <p className="text-gray-600">
-                Our founder worked 7 years as an Allstate adjuster before 28 years as a restoration
-                contractor. We understand claims from both sides—what adjusters look for and what
-                documentation gets claims approved.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Landmark className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Historic Property Specialists
-              </h3>
-              <p className="text-gray-600">
-                St. Petersburg's historic districts require restoration contractors who understand
-                preservation requirements and can document the additional costs of period-appropriate
-                materials for insurance coverage.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Scale className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Prime Contractor Only
-              </h3>
-              <p className="text-gray-600">
-                FCS always serves as prime contractor, never a subcontractor. Your St. Petersburg
-                property gets direct accountability, single-point responsibility, and our full
-                $25M bonding capacity on every project.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Form Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Request Your St. Petersburg Property Assessment
-              </h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Whether you're facing hurricane damage, flood recovery, fire restoration, or a
-                disputed insurance claim, FCS provides expert assessment and restoration services
-                backed by 43 years of insurance industry experience.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Complimentary consultation for qualified projects
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Certified Xactimate estimates for insurance submission
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Historic property restoration expertise
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Supplemental claim support for underpaid claims
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="font-bold text-xl mb-3">professional assistance Available</h3>
-                <p className="text-gray-200 mb-4">
-                  For immediate assistance with storm damage to your St. Petersburg property:
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-forest transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Assessment</h3>
-              <HighLevelForm height={500} />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={stPeteFaqs}
-        title="St. Petersburg Insurance Restoration FAQs"
-        description="Common questions about insurance restoration, storm damage claims, and disaster recovery in St. Petersburg, Florida."
+        items={faqs}
+        title="St. Petersburg Insurance Restoration FAQ"
+        description="Common questions about insurance restoration and storm damage repair in St. Petersburg, Florida."
       />
 
-      {/* Map Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Serving St. Petersburg and Pinellas County Beach Communities
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Florida Construction Specialists provides insurance restoration services throughout
-              St. Petersburg, including Downtown, Old Northeast, Snell Isle, Shore Acres, and
-              all Pinellas County beach communities from Clearwater to Pass-a-Grille.
-            </p>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="St. Petersburg" currentService="insurance-restoration" />
+            <NearbyLocations currentCity="St. Petersburg" service="insurance-restoration" serviceName="Insurance Restoration" />
           </div>
-          <GoogleMap city="St. Petersburg" height={400} />
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <InternalLinks title="Related Services & Locations" links={internalLinks} />
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
-      <section className="section bg-brand-green">
+      {/* CTA Section */}
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            St. Petersburg's Insurance Restoration Experts
+            Discuss Your St. Petersburg Insurance Restoration Needs
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-            From emergency damage assessment to final claim settlement, Florida Construction
-            Specialists brings 43 years of insurance industry expertise to your St. Petersburg
-            restoration project. We've worked both sides of the claims process—and now we work for you.
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for a claims consultation on your damaged commercial property in St. Petersburg. Our combined construction and insurance industry expertise ensures thorough restoration and effective claims management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Claims Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Executive General Adjuster Background</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

@@ -1,21 +1,45 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { Building2, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, MapPin, Briefcase, HardHat, FileCheck, Landmark } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { FAQ } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { InternalLinks } from "@/components/InternalLinks";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
-  title: "Commercial Construction in St. Petersburg",
-  description: "Commercial construction St. Petersburg: design-build, medical, multi-family. Historic restoration, federal compliance. Schedule a consultation.",
+  title: "Commercial Construction St. Petersburg FL | Office, Retail, Waterfront | FCS",
+  description: "Commercial construction in St. Petersburg by Florida Construction Specialists. Design-build, waterfront development, office buildouts, Gateway corridor projects. Licensed CBC, 40+ years experience. Request a project bid.",
 };
+
+const faqs = [
+  {
+    question: "How does St. Petersburg's peninsula geography affect commercial construction planning?",
+    answer: "St. Petersburg sits on a narrow peninsula between Tampa Bay and the Gulf of Mexico, which means commercial projects face water exposure from multiple directions. This affects foundation design, wind load calculations, and material selection. Buildings in coastal high hazard areas along the bayfront and Gulf beaches require elevated construction, marine-grade fasteners, and enhanced waterproofing systems. We account for these peninsula-specific conditions from the earliest design phases, ensuring structural integrity against the salt air, driving rain, and storm surge potential that comes with building on a landmass surrounded by water on three sides."
+  },
+  {
+    question: "What is the permitting process for commercial construction through the City of St. Petersburg?",
+    answer: "Commercial construction permits go through the City of St. Petersburg Development Services Department. Standard commercial plan review typically takes 3 to 6 weeks for straightforward projects, though downtown developments or projects in overlay districts may require additional review cycles involving the Development Review Commission or Community Planning and Preservation Commission. We prepare complete permit packages that address all required disciplines simultaneously, reducing back-and-forth with the city. Projects in locally designated historic areas require a Certificate of Appropriateness before building permits are issued."
+  },
+  {
+    question: "Which commercial districts in St. Petersburg have the most active construction markets?",
+    answer: "The Gateway area anchored by Carillon business park remains the largest concentration of corporate office space and sees steady tenant improvement and new construction activity. Downtown St. Petersburg has experienced a building boom with projects like One St. Petersburg and 400 Central reshaping the skyline. The EDGE District and Warehouse Arts District attract adaptive reuse and creative office projects. The Grand Central District along Central Avenue sees ongoing retail and restaurant construction. Each district presents different construction requirements, from corporate build-to-suit standards in Gateway to historic sensitivity in the EDGE District's former industrial buildings."
+  },
+  {
+    question: "Does FCS handle both new commercial construction and renovation projects in St. Petersburg?",
+    answer: "We deliver both ground-up commercial construction and renovation work throughout St. Petersburg. Renovation and tenant improvement projects represent a significant portion of our Pinellas County work, particularly in the Gateway corridor where existing office buildings compete for tenants against newer downtown inventory. We also perform adaptive reuse in the EDGE and Warehouse Arts Districts, medical facility renovations near Johns Hopkins All Children's Hospital and Bayfront Health, and commercial interior buildouts in downtown office towers. Our renovation scope includes structural modifications, complete MEP system upgrades, ADA compliance improvements, and full commercial remodels."
+  },
+  {
+    question: "How does Pinellas County's density affect commercial construction logistics in St. Petersburg?",
+    answer: "Pinellas County is the most densely populated county in Florida, which directly impacts commercial construction logistics. Staging areas are limited, material deliveries must be carefully scheduled to avoid traffic disruption, and crane operations in downtown St. Petersburg require coordination with adjacent buildings and city right-of-way. We plan detailed logistics sequences for every St. Petersburg project, including haul routes, delivery windows, and staging strategies that account for the compact urban environment. Our experience working in dense Pinellas County conditions means fewer surprises and less impact on surrounding businesses and residents."
+  },
+  {
+    question: "What types of commercial construction does FCS specialize in within St. Petersburg?",
+    answer: "In St. Petersburg, we deliver design-build construction, medical and healthcare facilities, multi-family developments, office buildouts and tenant improvements, retail and restaurant construction, industrial and flex space in the Gateway area, and commercial renovations including adaptive reuse. Our St. Petersburg projects typically range from five hundred thousand to twenty-five million dollars. We have depth in waterfront commercial construction given St. Pete's extensive bayfront and Gulf exposure, and in projects requiring coordination with the city's community planning and historic preservation processes."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -24,522 +48,231 @@ const breadcrumbItems = [
   { name: "St. Petersburg", href: "/commercial-construction-st-petersburg/" },
 ];
 
-const stPeteFaqs = [
-  {
-    question: "What types of commercial construction projects do you handle in St. Petersburg?",
-    answer: "Florida Construction Specialists handles a comprehensive range of commercial construction projects in St. Petersburg including design-build construction, medical and healthcare facilities, multi-family developments, industrial and warehouse buildings, tenant improvements, retail construction, historic restoration, and federal facility compliance projects. Our projects typically range from $500,000 to $25 million or more."
-  },
-  {
-    question: "Do you have experience with Pinellas County's permitting process?",
-    answer: "Yes, we have extensive experience navigating Pinellas County's permitting requirements through the City of St. Petersburg Development Services Department. We understand local zoning codes, flood zone regulations, waterfront development requirements, and the specific permitting processes for St. Petersburg's various districts including Downtown, Gateway, Edge District, and the historic Old Northeast."
-  },
-  {
-    question: "Can you handle federal historic compliance projects in St. Petersburg?",
-    answer: "Absolutely. Florida Construction Specialists has completed significant federal historic compliance projects including the $2 million Bay Pines Veterans Hospital renovation in St. Petersburg. We understand Section 106 requirements, coordinate with the State Historic Preservation Office (SHPO), and have experience meeting the Secretary of the Interior's Standards for Historic Preservation on federal properties."
-  },
-  {
-    question: "What is your bonding capacity for St. Petersburg commercial projects?",
-    answer: "Florida Construction Specialists maintains bonding capacity exceeding $10 million, which allows us to take on large-scale commercial projects that many contractors cannot. This financial strength, combined with our License CBC1262722, gives St. Petersburg property owners and developers confidence in our ability to complete substantial projects."
-  },
-  {
-    question: "Do you work on waterfront commercial developments in St. Petersburg?",
-    answer: "Yes, we have extensive experience with waterfront commercial construction in St. Petersburg. We understand the unique requirements including Army Corps of Engineers coordination, seawall considerations, elevated construction in flood zones, marine-grade materials, and the specific permitting requirements for properties near Tampa Bay and the Gulf of Mexico."
-  },
-  {
-    question: "What areas of St. Petersburg do you serve for commercial construction?",
-    answer: "We serve all of St. Petersburg including Downtown St. Pete, the Gateway area, Edge District, Grand Central District, Old Northeast, Historic Kenwood, Pinellas Point, Tyrone, and surrounding areas. Our Ruskin headquarters is strategically located to serve St. Petersburg and all of Pinellas County efficiently."
-  },
-  {
-    question: "Do you provide design-build services in St. Petersburg?",
-    answer: "Yes, design-build is one of our core service offerings for St. Petersburg commercial clients. This single-source approach streamlines communication, accelerates project delivery, and provides clear accountability. We coordinate architects, engineers, and construction teams under one contract for seamless project execution, particularly valuable for the fast-moving St. Pete development market."
-  },
-  {
-    question: "Can you handle medical facility construction in St. Petersburg?",
-    answer: "Absolutely. We have extensive experience with AHCA-compliant medical construction in St. Petersburg including medical offices, surgical centers, clinics, and specialty healthcare facilities. We understand the unique requirements of medical construction including infection control protocols, specialized MEP systems, and regulatory compliance specific to Florida healthcare facilities."
-  },
-  {
-    question: "How do you ensure commercial projects stay on schedule in St. Petersburg?",
-    answer: "We use Critical Path Method (CPM) scheduling for all commercial projects, with experienced project managers who understand St. Petersburg's construction environment. Regular progress meetings, proactive issue resolution, and relationships with local subcontractors and Pinellas County officials help us maintain schedules even when challenges arise, including coordination with the city's active downtown development."
-  },
-  {
-    question: "What makes Florida Construction Specialists different from other St. Petersburg commercial contractors?",
-    answer: "Three key differentiators set us apart: First, we only work as a prime contractor—never subcontracting our general contracting services—which means direct accountability on every St. Petersburg project. Second, our 40+ years experience and in-house engineering enables large-scale projects that many contractors cannot undertake. Third, our unique expertise in federal historic compliance, demonstrated by projects like Bay Pines Veterans Hospital, brings specialized capabilities to St. Petersburg's commercial construction market."
-  },
-];
-
-const pillarLinks = [
-  { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/services/commercial/multi-family/", label: "Multi-Family Construction" },
-];
-
-const nearbyLocationLinks = [
-  { href: "/commercial-construction-tampa/", label: "Tampa Commercial Construction" },
-  { href: "/commercial-construction-clearwater/", label: "Clearwater Commercial Construction" },
-  { href: "/commercial-construction-bradenton/", label: "Bradenton Commercial Construction" },
-  { href: "/locations/lakeland-fl/", label: "Lakeland, FL" },
-];
-
 export default function CommercialConstructionStPetersburgPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="St. Petersburg" service="Commercial Construction" />
       <ServiceSchema
-        serviceName="Commercial Construction in St. Petersburg"
-        serviceDescription="Large-scale commercial construction services in St. Petersburg, FL. Design-build, medical facilities, multi-family, industrial, historic restoration, and federal compliance projects from $500K to $25M+."
+        serviceName="Commercial Construction"
+        serviceDescription="Full-service commercial construction in St. Petersburg, FL. Design-build, waterfront development, office buildings, medical facilities, tenant improvements. Licensed CBC1262722, 40+ years experience."
         city="St. Petersburg"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Waterfront Commercial Development", "Office Building Construction", "Medical Facility Construction", "Tenant Improvements"]}
       />
-      <FAQSchema faqs={stPeteFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      {/* Hero */}
-      <section className="relative py-20 overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-            alt="Commercial construction project in Tampa Bay"
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
-        </div>
+      {/* Hero Section */}
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving St. Petersburg, Florida</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in St. Petersburg, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the corporate campuses lining the Gateway corridor to the waterfront towers transforming downtown St. Pete's skyline, Florida Construction Specialists delivers commercial construction across every sector of Pinellas County's largest city. As a prime general contractor with over four decades of experience, we bring the engineering depth, local permitting knowledge, and bonding capacity that St. Petersburg's peninsula environment demands.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
-            <div className="text-white">
-              <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-sm font-medium">Serving St. Petersburg, FL</span>
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Commercial Construction in St. Petersburg, Florida
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is St. Petersburg's trusted commercial contractor for projects ranging from $500K to $25M+. From Downtown St. Pete's vibrant arts district to the Gateway business corridor and historic Old Northeast, we deliver exceptional commercial construction with 40+ years experience and in-house engineering and federal historic compliance expertise.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Shield className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Bonding</p>
-                  <p className="text-xs text-gray-300">$10M+ Capacity</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Clock className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Experience</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.yearsInBusiness}+ Years</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Building2 className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Projects</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.projectsCompleted}+ Delivered</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Schedule Project Consultation
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Request a St. Petersburg Project Consultation
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your commercial project in St. Petersburg and receive a consultation from our team.
-              </p>
-              <HighLevelForm variant="commercial" />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Project Consultation
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Introduction Section */}
+      {/* St. Petersburg Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-              Your Trusted St. Petersburg Commercial Construction Partner
+              A Peninsula City Redefining Its Commercial Identity
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="lead text-xl mb-6">
-                St. Petersburg has transformed into one of Florida's most dynamic cities, with commercial construction activity spanning from the revitalized Downtown arts district to the expanding Gateway business corridor and the growing Edge District. Florida Construction Specialists has been privileged to contribute to this transformation, delivering commercial projects that help businesses thrive in St. Pete's evolving economy.
+              <p className="text-xl mb-6">
+                St. Petersburg occupies a unique position in Florida's commercial construction landscape. Built on a peninsula bounded by Tampa Bay to the east and the Gulf of Mexico to the west, the city has evolved from a retirement destination into one of the state's most dynamic commercial markets. The downtown core has been reshaped by high-rise development, with One St. Petersburg rising as the tallest building on Florida's west coast and 400 Central adding luxury residential towers to a skyline that barely existed a decade ago. Sundial St. Pete anchors a retail and entertainment district that has attracted national tenants and local entrepreneurs alike.
               </p>
               <p className="mb-6">
-                As a prime general contractor, we never subcontract our general contracting services. When you hire Florida Construction Specialists for your St. Petersburg commercial project, you get direct accountability, clear communication, and the full resources of our experienced team. Our principal brings 43+ years of construction and insurance industry experience, including work as an Executive General Adjuster, providing unique insight into risk management and project delivery.
+                What makes St. Petersburg's commercial construction environment distinct from neighboring Tampa is the peninsula constraint. Land is finite. Pinellas County is the most densely populated county in Florida, and St. Petersburg is its largest city. This density means commercial development happens through vertical growth downtown, adaptive reuse in transitional districts like the EDGE and Warehouse Arts neighborhoods, and intensification of existing commercial corridors rather than greenfield expansion. Every commercial project requires careful site logistics, neighbor coordination, and creative use of limited staging space.
               </p>
               <p className="mb-6">
-                St. Petersburg's commercial construction environment presents unique opportunities and requirements. The city's waterfront location means understanding flood zone construction, marine-grade materials, and Army Corps of Engineers coordination. The historic character of neighborhoods like Old Northeast and the Kenwood Historic District requires sensitivity to preservation standards. The growing Gateway area demands efficient construction delivery to meet the pace of corporate development.
+                The Gateway corridor, anchored by Carillon business park in the northern part of the city, remains the region's premier suburban office market. Major employers including Raymond James Financial and Jabil have their headquarters here, driving demand for corporate office construction, tenant improvements, and supporting commercial development. Meanwhile, the Grand Central District along Central Avenue and the emerging Deuces Live corridor are generating retail and restaurant construction activity rooted in neighborhood revitalization.
               </p>
               <p>
-                Our federal historic compliance expertise, demonstrated through projects like the $2 million Bay Pines Veterans Hospital renovation, sets us apart in the St. Petersburg market. Whether you're developing a medical facility, building a multi-family community in one of St. Pete's growing neighborhoods, constructing industrial space near the port, or renovating historic commercial property, Florida Construction Specialists has the expertise, bonding capacity, and local knowledge to deliver your project successfully.
+                Florida Construction Specialists operates as a prime general contractor throughout St. Petersburg and Pinellas County. We never subcontract our general contracting services, which means every project gets direct accountability and the full resources of our in-house engineering and construction teams. Our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, brings risk management insight that is particularly valuable in a peninsula city where water exposure affects nearly every commercial structure.
               </p>
             </div>
-          
-          {/* Project Gallery */}
-          <div className="mt-12 grid md:grid-cols-3 gap-6">
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
-                alt="Commercial construction project"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Commercial Building</p>
-                <p className="text-sm text-gray-200">New Construction</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
-                alt="Commercial brick building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Commercial Renovation</p>
-                <p className="text-sm text-gray-200">Building Restoration</p>
-              </div>
-            </div>
-            <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-              <Image
-                src="/images/leon-county-detention-center-tallahasse/leon-county-detention-center-tallahasse-display.webp"
-                alt="Multi-story commercial building"
-                fill
-                className="object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-              <div className="absolute bottom-4 left-4 right-4 text-white">
-                <p className="font-semibold">Institutional Facility</p>
-                <p className="text-sm text-gray-200">Large-Scale Project</p>
-              </div>
-            </div>
-          </div>
           </div>
         </div>
       </section>
 
-      {/* Featured Project Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-            <div className="grid lg:grid-cols-2 gap-0">
-              <div className="p-8 lg:p-12">
-                <div className="inline-flex items-center gap-2 bg-brand-green-bg px-4 py-2 rounded-full mb-6">
-                  <Landmark className="w-4 h-4 text-brand-green" />
-                  <span className="text-sm font-medium text-brand-green-dark">Featured Project</span>
-                </div>
-                <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-                  Bay Pines Veterans Hospital
-                </h2>
-                <p className="text-xl text-gray-600 mb-4">$2 Million Federal Historic Healthcare Facility</p>
-                <div className="prose prose-lg max-w-none text-gray-700 mb-6">
-                  <p>
-                    This landmark project demonstrates our expertise in federal historic compliance and healthcare construction. The Bay Pines VA Medical Center required meticulous coordination with the Department of Veterans Affairs, the State Historic Preservation Office, and multiple federal agencies to ensure compliance with Section 106 requirements while delivering a modern healthcare environment.
-                  </p>
-                  <p>
-                    Our team navigated the complex intersection of historic preservation standards, federal acquisition regulations, and AHCA healthcare compliance to deliver a project that honors the facility's historic character while meeting contemporary medical standards. This project showcases our ability to handle the most demanding commercial construction requirements in St. Petersburg and throughout the Tampa Bay region.
-                  </p>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Section 106 federal historic compliance</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">SHPO coordination and approval</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">AHCA healthcare facility standards</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Federal acquisition compliance</span>
-                  </li>
-                </ul>
-                <Link href="/contact/" className="btn-primary inline-flex items-center">
-                  Discuss Your Project <ArrowRight className="w-4 h-4 ml-2" />
-                </Link>
-              </div>
-              <div className="bg-brand-green-bg flex items-center justify-center p-12">
-                <div className="text-center">
-                  <Landmark className="w-24 h-24 text-brand-green mx-auto mb-6" />
-                  <p className="text-2xl font-bold text-brand-green-dark mb-2">$2 Million</p>
-                  <p className="text-gray-600">Federal Historic Healthcare Facility</p>
-                  <p className="text-sm text-gray-500 mt-2">St. Petersburg, FL</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-commercial-construction/tampa-commercial-construction-small.webp"
-        alt="Commercial construction in Tampa Bay"
-        title="40+ Years Building Tampa Bay"
-        subtitle="From ground-up construction to major renovations"
+        src="/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp"
+        alt="Commercial construction project in St. Petersburg's business district"
+        title="Building St. Petersburg's Commercial Future"
+        subtitle="Design-build, office, medical, and waterfront construction across Pinellas County"
         overlayOpacity={0.55}
       />
 
-      {/* Services in St. Petersburg */}
-      <section className="section bg-white">
+      {/* Service Capabilities */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Commercial Construction Services in St. Petersburg
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive commercial construction capabilities tailored for St. Petersburg's diverse and growing business environment.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Capabilities for St. Petersburg's Evolving Market
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A peninsula city with limited land and maximum demand requires commercial construction expertise adapted to its specific conditions.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
+                icon: Building2,
                 title: "Design-Build Construction",
-                description: "Single-source accountability for St. Petersburg commercial projects, combining design and construction under one contract for streamlined delivery and clear communication in the fast-paced St. Pete market.",
-                href: "/services/commercial/design-build/",
+                description: "Single-source commercial delivery for St. Petersburg projects. We combine architectural coordination, engineering, and construction management under one contract, particularly effective for the fast-moving downtown development market where speed to occupancy drives project value."
               },
               {
-                title: "Multi-Family Construction",
-                description: "Apartment complexes, condominiums, and multi-family residential developments throughout St. Petersburg's growing neighborhoods from Edge District to Pinellas Point.",
-                href: "/services/commercial/multi-family/",
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "AHCA-compliant medical construction serving St. Petersburg's healthcare corridor. Johns Hopkins All Children's Hospital and Bayfront Health St. Petersburg anchor a medical district that requires specialized construction for surgical centers, specialty clinics, and medical office buildings with infection control and MEP systems designed for healthcare operations."
               },
               {
-                title: "Industrial & Warehouse",
-                description: "Industrial flex space, distribution centers, and warehouse facilities serving St. Petersburg's logistics and light manufacturing sectors in the Gateway corridor and beyond.",
-                href: "/services/commercial/industrial-construction/",
+                icon: HardHat,
+                title: "Waterfront Commercial Development",
+                description: "St. Pete's bayfront and Gulf-adjacent commercial projects require marine-grade construction techniques, flood zone compliance, and coordination with SWFWMD and Army Corps of Engineers where applicable. We build commercial structures designed for the salt air, storm surge potential, and coastal wind exposure unique to peninsula construction."
               },
               {
-                title: "Tenant Improvements",
-                description: "Commercial interior buildouts, office renovations, and retail space customization for St. Petersburg businesses in Downtown, Gateway, and throughout the city.",
-                href: "/services/commercial/tenant-improvements/",
+                icon: Briefcase,
+                title: "Office and Tenant Improvements",
+                description: "Corporate office buildouts throughout St. Petersburg's diverse office markets. From Class A space in downtown towers and the Sundial mixed-use complex to suburban corporate campuses in the Gateway corridor and Carillon business park, we deliver tenant improvements that minimize disruption to building operations."
               },
               {
-                title: "Historic Restoration",
-                description: "Certified historic restoration and adaptive reuse projects in St. Petersburg's historic districts, with federal compliance expertise demonstrated at Bay Pines Veterans Hospital.",
-                href: "/services/commercial/historic-restoration/",
+                icon: FileCheck,
+                title: "Adaptive Reuse and Retail",
+                description: "The EDGE District and Warehouse Arts District have become models for adaptive reuse, transforming former industrial buildings into breweries, creative offices, and retail spaces. We specialize in these conversions, maintaining structural character while meeting modern commercial code requirements and creating functional business environments."
               },
+              {
+                icon: Award,
+                title: "Commercial Renovations",
+                description: "Major renovations throughout St. Petersburg's commercial building stock, from Gateway office modernization projects competing with newer downtown inventory to historic commercial property updates in the Old Northeast and Grand Central Districts. Our renovation work includes structural modifications, complete MEP upgrades, and ADA compliance improvements."
+              }
             ].map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="group bg-gray-50 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
-              >
-                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4 group-hover:bg-brand-green transition-colors">
-                  <Building2 className="w-7 h-7 text-brand-green-dark group-hover:text-white transition-colors" />
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
-                  {service.title}
-                </h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <span className="inline-flex items-center text-brand-green font-semibold">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </Link>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* St. Petersburg-Specific Content */}
-      <section className="section-light">
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Across St. Petersburg
-              </h2>
-              <div className="prose prose-lg max-w-none text-gray-700">
-                <p className="mb-6">
-                  St. Petersburg's commercial construction landscape has experienced remarkable growth, transforming from a retirement destination to one of Florida's most vibrant business and cultural centers. From the craft breweries and tech startups of the Edge District to the corporate offices of Gateway, commercial construction in St. Petersburg requires contractors who understand the city's unique character and requirements.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Downtown St. Petersburg & Arts District</h3>
-                <p className="mb-6">
-                  Downtown St. Pete's revitalization has created unprecedented demand for commercial construction. The arts district surrounding the Dali Museum and Museum of Fine Arts requires construction that complements the city's cultural identity. Whether building new commercial space, renovating historic storefronts, or developing mixed-use projects, we understand the standards expected in this prestigious area. The Central Avenue corridor continues to attract significant investment, with new retail, restaurant, and office construction transforming the downtown experience.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Gateway Business Corridor</h3>
-                <p className="mb-6">
-                  The Gateway area represents St. Petersburg's modern corporate face, home to major employers including Raymond James, Jabil, and HSN. This expanding business corridor demands efficient construction delivery and contemporary design. We've completed tenant improvements, office buildouts, and commercial construction throughout this thriving corridor, meeting the timeline and quality expectations of corporate clients. Gateway's continued growth makes it one of the Tampa Bay region's most active commercial construction markets.
-                </p>
-
-                <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Edge District</h3>
-                <p className="mb-6">
-                  The Edge District's explosive growth has transformed former warehouse space into a hub for breweries, restaurants, creative offices, and retail. We specialize in adaptive reuse projects that honor the district's industrial heritage while creating modern commercial spaces that attract the businesses driving St. Pete's new economy. This neighborhood exemplifies St. Petersburg's successful urban revitalization.
-                </p>
-              </div>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Navigating St. Petersburg's Commercial Construction Environment
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Commercial construction in St. Petersburg operates within a regulatory and physical environment that differs meaningfully from mainland communities. The city controls its own permitting process independent of Pinellas County government, and the peninsula's water-surrounded geography introduces construction considerations that inland contractors often underestimate.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> manages commercial building permits within city limits. We have established working relationships with the department and understand how plan review timelines differ between standard commercial projects and those requiring additional review from the Development Review Commission, the Community Planning and Preservation Commission, or the city's historic preservation staff for projects in locally designated districts.
+              </p>
+              <p className="mb-6">
+                St. Petersburg's weather patterns reflect its peninsula position. The city receives approximately 52 inches of rainfall annually, but its exposure to both Tampa Bay and the Gulf of Mexico creates weather dynamics that mainland cities do not experience. Tropical systems can approach from the Gulf side with direct storm surge into the bayfront, or from the bay side driving water inland through low-lying areas like Shore Acres, Coquina Key, and Pinellas Point. Commercial buildings throughout the city must meet Florida Building Code wind speed requirements, and projects in flood zones, which cover significant portions of the city's commercial areas, require elevated construction or flood-resistant design features.
+              </p>
+              <p className="mb-6">
+                Our familiarity with St. Petersburg's neighborhoods shapes project planning at every level. Downtown commercial projects near the Sundial complex or along Beach Drive require understanding of pedestrian traffic patterns, parking constraints, and coordination with ongoing development. Gateway corridor projects involve corporate tenant standards and coordination with property management companies overseeing multi-building campuses. The EDGE District and Warehouse Arts District present adaptive reuse challenges including older structural systems, environmental remediation, and maintaining neighborhood character while meeting commercial occupancy codes. The Tyrone area and 66th Street corridor see retail and medical office construction with different site logistics than the dense downtown core.
+              </p>
+              <p>
+                Projects near St. Petersburg's historic neighborhoods, including the Old Northeast, Historic Kenwood, and Crescent Heights, require awareness of the city's historic preservation overlay requirements. Commercial construction adjacent to or within locally designated historic districts may trigger Certificate of Appropriateness review even when the project property itself is not individually designated. Our experience with these processes helps avoid permitting delays and design conflicts that catch less experienced contractors by surprise.
+              </p>
             </div>
-
-            <div>
-              <h3 className="text-xl font-bold text-brand-green-dark mt-8 mb-4">Old Northeast Historic District</h3>
-              <p className="text-gray-700 mb-6">
-                Commercial construction in St. Petersburg's prestigious Old Northeast requires understanding of historic preservation standards and neighborhood character. This district features some of St. Pete's most architecturally significant properties, with many buildings dating to the 1920s. We work with the city's historic preservation staff and understand Certificate of Appropriateness requirements for commercial projects in this protected area. Our experience with federal historic compliance at Bay Pines translates directly to local historic district work.
-              </p>
-
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Waterfront Development</h3>
-              <p className="text-gray-700 mb-6">
-                St. Petersburg's position on Tampa Bay and proximity to the Gulf of Mexico creates unique opportunities and requirements for waterfront commercial construction. We understand flood zone construction, marine-grade materials, seawall coordination, and the permitting requirements for properties in coastal high hazard areas. Our experience includes coordination with the Army Corps of Engineers, Southwest Florida Water Management District (SWFWMD), and local agencies on waterfront projects.
-              </p>
-
-              <h3 className="text-xl font-bold text-brand-green-dark mb-4">Grand Central District</h3>
-              <p className="text-gray-700 mb-6">
-                The Grand Central District's diverse business environment has driven retail and restaurant construction growth. We build commercial spaces that serve this vibrant neighborhood while meeting the city's development standards and neighborhood expectations. The district's unique character requires contractors who understand both new construction and sensitive renovation of existing structures.
-              </p>
-
-              <div className="bg-white rounded-xl p-6 mt-8 shadow-md">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-4">Pinellas County Building Requirements</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">City of St. Petersburg Development Services permits</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Florida Building Code 7th Edition compliance</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Hurricane-resistant construction (140 mph wind zone)</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Pinellas County Environmental Management</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">Coastal high hazard area (CHHA) regulations</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">SWFWMD stormwater management compliance</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-1" />
-                    <span className="text-gray-700">ADA accessibility compliance</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section */}
-      <section className="section bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Ready to Build in St. Petersburg?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We'll discuss your St. Petersburg commercial construction needs and provide preliminary budgeting.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              {BUSINESS_INFO.phone}
-            </a>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our St. Petersburg Construction Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A proven approach tailored for St. Petersburg's commercial construction environment and Pinellas County requirements.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            St. Petersburg Commercial Construction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in St. Petersburg follows a structured process designed for the peninsula's unique construction environment.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="max-w-4xl mx-auto space-y-6">
             {[
               {
                 step: "01",
-                title: "Discovery & Pre-Construction",
-                description: "We assess your St. Petersburg project requirements, conduct site analysis including flood zone evaluation, and develop preliminary budgets and schedules specific to Pinellas County's market conditions and permitting timeline.",
+                title: "Site Assessment and Pre-Construction",
+                description: "We evaluate your St. Petersburg site for flood zone classification, soil conditions, coastal setback requirements, and utility infrastructure. Peninsula sites in low-lying areas like Shore Acres, Isla del Sol, and Coquina Key require careful flood elevation analysis, while downtown sites need assessment of underground utility conflicts from decades of urban development.",
                 icon: FileCheck,
               },
               {
                 step: "02",
-                title: "Design Coordination",
-                description: "Whether design-build or design-bid-build, we coordinate all design elements ensuring constructability and compliance with St. Petersburg's building codes, zoning requirements, and any historic district standards.",
+                title: "Design Coordination and Value Engineering",
+                description: "Whether providing design-build services or coordinating with your architect, we ensure constructability, code compliance, and cost efficiency for St. Petersburg conditions. This includes hurricane-resistant structural design for coastal wind zones, energy code compliance, stormwater management per SWFWMD and city requirements, and material selection that accounts for the peninsula's salt air exposure.",
                 icon: Building2,
               },
               {
                 step: "03",
-                title: "St. Petersburg Permitting",
-                description: "We navigate the City of St. Petersburg Development Services Department, securing all required permits, approvals, and inspections to keep your project on schedule in Pinellas County.",
+                title: "Permitting Through City of St. Petersburg",
+                description: "We prepare and submit complete permit packages to the City of St. Petersburg Development Services Department. For projects requiring Development Review Commission approval, Community Planning and Preservation review, or historic district compliance, we coordinate across all required city boards before construction begins.",
                 icon: Briefcase,
               },
               {
                 step: "04",
-                title: "Construction Execution",
-                description: "Experienced superintendents manage daily construction with St. Petersburg-area subcontractors who understand local conditions, coastal construction requirements, and quality expectations.",
+                title: "Construction with Pinellas County Subcontractor Network",
+                description: "Experienced superintendents manage daily construction using our established network of Pinellas County subcontractors who understand local conditions and code expectations. We schedule around Florida's rainy season, manage tight logistics in dense downtown and Gateway environments, and coordinate with adjacent property operations to minimize disruption.",
                 icon: HardHat,
               },
               {
                 step: "05",
-                title: "Quality Control",
-                description: "Rigorous quality control ensures your St. Petersburg project meets specifications, code requirements, and our high standards—documented at every phase with particular attention to hurricane-resistant construction.",
-                icon: CheckCircle,
-              },
-              {
-                step: "06",
-                title: "Completion & Warranty",
-                description: "Thorough closeout including punch list resolution, Certificate of Occupancy, training, and comprehensive warranty documentation for your St. Petersburg property.",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Thorough punch list resolution, final inspections, Certificate of Occupancy from the City of St. Petersburg, and complete warranty documentation. We provide as-built drawings, equipment manuals, and maintenance guides. For tenant improvement projects in multi-tenant buildings, we coordinate turnover with property management to ensure seamless occupancy.",
                 icon: Award,
               },
             ].map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6">
-                <div className="absolute -top-4 left-6 bg-brand-green text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-brand-green mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -548,97 +281,47 @@ export default function CommercialConstructionStPetersburgPage() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Serving Commercial Construction Throughout St. Petersburg
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              From our Ruskin headquarters, we serve all of St. Petersburg and Pinellas County for commercial construction projects of $500K to $25M+.
-            </p>
-          </div>
-          <GoogleMap city="St. Petersburg" height={400} />
-        </div>
-      </section>
-
       {/* FAQ Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-                St. Petersburg Commercial Construction FAQ
-              </h2>
-              <p className="text-xl text-gray-600">
-                Common questions about commercial construction in St. Petersburg, Florida.
-              </p>
-            </div>
+      <FAQWithSchema
+        items={faqs}
+        title="St. Petersburg Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in St. Petersburg, Florida."
+      />
 
-            <FAQ items={stPeteFaqs} />
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="St. Petersburg" currentService="commercial-construction" />
+            <NearbyLocations currentCity="St. Petersburg" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <InternalLinks
-            title="Explore Our Commercial Services"
-            links={pillarLinks}
-          />
-
-          <div className="mt-12">
-            <InternalLinks
-              title="Nearby Service Areas"
-              links={nearbyLocationLinks}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Final CTA */}
+      {/* CTA Section */}
       <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Start Your St. Petersburg Commercial Project Today
-              </h2>
-              <p className="text-xl text-gray-200 mb-6">
-                Contact Florida Construction Specialists for a consultation on your St. Petersburg commercial construction project. Our team will discuss your vision, provide preliminary budgeting, and outline the path to successful project delivery—with the federal compliance expertise that sets us apart.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call {BUSINESS_INFO.phone}
-                </a>
-                <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
-                  Contact Us Online
-                </Link>
-              </div>
-
-              {/* Trust indicators */}
-              <div className="mt-8 pt-8 border-t border-white/20">
-                <p className="text-sm text-gray-300 mb-4">St. Petersburg's trusted commercial contractor:</p>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-200">
-                  <span>License {BUSINESS_INFO.licenseNumber}</span>
-                  <span>In-House Engineering</span>
-                  <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
-                  <span>{BUSINESS_INFO.projectsCompleted}+ Projects</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Schedule Your Consultation
-              </h3>
-              <HighLevelForm variant="commercial" />
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your St. Petersburg Commercial Construction Project
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for a consultation on your commercial project in St. Petersburg. We will assess your site, discuss your vision, and outline a clear path to successful delivery on the peninsula.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Request a Project Consultation
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
             </div>
           </div>
         </div>
