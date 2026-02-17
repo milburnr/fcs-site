@@ -1,100 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, AlertTriangle, FileText, Wrench, Clock, Calendar, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle, ClipboardCheck } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-lakeland/' },
-  title: "Balcony Reconstruction Lakeland | SB 4-D | FCS",
-  description: "Professional balcony repair in Lakeland. New Construction, Renovations, and Insurance Restoration. Licensed CBC, 40+ years. Request a free estimate today.",
+  title: "Balcony Reconstruction Lakeland FL | SB4-D Compliance, Rain Damage | FCS",
+  description: "Balcony reconstruction in Lakeland by Florida Construction Specialists. SB4-D milestone inspections, rain and moisture damage repair, concrete restoration for lake-front condominiums. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "Why do balconies on Lakeland condominiums deteriorate even without saltwater exposure?",
+    answer: "While Lakeland's inland location eliminates the chloride-driven corrosion that destroys coastal balconies, the city's climate creates its own set of deterioration mechanisms. Lakeland receives approximately 50 inches of rainfall annually, concentrated in intense afternoon thunderstorms from June through September. Balcony surfaces and edges receive direct rain impact during these storms, and ponding water on poorly sloped balcony decks penetrates through cracks in waterproofing membranes to reach the concrete slab and embedded reinforcing steel. Over decades, this moisture causes the steel to corrode and expand, cracking the concrete from within. The extreme UV exposure on south and west facing balconies accelerates the breakdown of waterproofing coatings and sealants. Combined with Lakeland's high humidity, which keeps concrete pore structures saturated for extended periods, these conditions drive gradual but persistent balcony deterioration."
+  },
+  {
+    question: "How does SB 4-D affect balcony inspections and reconstruction requirements in Lakeland?",
+    answer: "Florida Senate Bill 4-D requires structural milestone inspections for condominium buildings three stories or higher when they reach 30 years of age. Balconies are specifically identified as structural elements that must be inspected, because the Surfside collapse investigation highlighted balcony and walkway deterioration as a building-wide concern. For Lakeland condominiums, the inspecting engineer evaluates balcony structural slabs, railings, waterproofing, and drainage. If deterioration is found that affects structural adequacy or life safety, the association must remediate within the prescribed timeframe. Many Lakeland condominiums built in the 1980s and early 1990s around the downtown lakes are now reaching or have reached the 30-year milestone inspection trigger."
+  },
+  {
+    question: "What does balcony reconstruction typically involve for a Lakeland condominium building?",
+    answer: "Balcony reconstruction in Lakeland typically follows a systematic process. We begin with a detailed condition assessment that goes beyond the milestone inspection to evaluate the full extent of deterioration. For concrete balconies, we remove deteriorated concrete to expose corroded reinforcing steel, clean and treat the steel with corrosion inhibitors, and restore the section with engineered repair mortar. Waterproofing membranes are replaced across the entire balcony surface with systems rated for Lakeland's rainfall intensity. Drainage slopes are corrected to eliminate ponding. Railings are evaluated for structural adequacy and replaced when compromised. For more severely deteriorated balconies, we may need to remove and reconstruct the entire balcony slab. Each project is engineered specifically for the conditions found rather than applying a one-size-fits-all approach."
+  },
+  {
+    question: "How much does balcony reconstruction cost for a Lakeland condominium building?",
+    answer: "Balcony reconstruction costs depend on the number of balconies, the severity of deterioration, the type of railing system, and the waterproofing specification. For Lakeland condominiums, individual balcony repairs typically range from five thousand to twenty thousand dollars per balcony for concrete restoration and waterproofing replacement. Full balcony slab replacement, when deterioration is too severe for repair, can range from fifteen thousand to thirty-five thousand dollars per balcony depending on size and structural complexity. Building-wide balcony reconstruction programs for a typical Lakeland condominium with 20 to 60 balconies often fall between two hundred thousand and one million dollars. We provide detailed cost estimates after our assessment so the association can plan special assessments or reserve fund allocations accurately."
+  },
+  {
+    question: "Can balcony reconstruction be done while residents continue to live in the building?",
+    answer: "Yes, and this is the standard approach for Lakeland condominium balcony projects. We phase the work by building elevation, typically completing one side of the building before moving to the next. Individual balconies are typically out of service for one to three weeks during active reconstruction. Residents are notified in advance of work on their unit, and we coordinate timing to minimize inconvenience. Noise-generating work like concrete removal is scheduled during approved working hours. For lake-front condominiums where balconies are a primary amenity, we prioritize phasing to maintain access to the most desirable views. We coordinate closely with the association's property manager to communicate schedules and address resident concerns throughout the project."
+  },
+  {
+    question: "How does FCS prevent future balcony deterioration after reconstruction in Lakeland?",
+    answer: "Preventing recurrence of balcony deterioration requires addressing the root causes, not just the visible symptoms. For Lakeland balconies, this means installing high-performance waterproofing membrane systems rated for the city's 50 inches of annual rainfall, ensuring proper drainage slopes of at least one-quarter inch per foot to prevent ponding, applying corrosion-inhibiting treatments to all reinforcing steel, sealing all penetrations and edges where water can bypass the membrane, and specifying UV-resistant coatings on south and west facing balconies where solar degradation is most severe. We also provide the association with a maintenance schedule that includes regular inspection of sealants and drains, periodic recoating of traffic surfaces, and monitoring for early signs of deterioration so problems can be addressed before they require major reconstruction again."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Balcony Reconstruction", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
+  { name: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
   { name: "Lakeland", href: "/balcony-reconstruction-lakeland/" },
-];
-
-const serviceTypes = [
-  {
-    type: "Structural Balcony Repair",
-    description: "Complete structural restoration including concrete repair, rebar treatment, and load-bearing element replacement for lakefront and inland condos",
-    icon: Building2,
-  },
-  {
-    type: "Waterproofing Systems",
-    description: "High-performance waterproofing membranes designed for Lakeland's climate with heavy seasonal rainfall and humidity",
-    icon: Shield,
-  },
-  {
-    type: "Railing Replacement",
-    description: "Aluminum, glass, and cable railing systems meeting current Florida Building Code requirements",
-    icon: Wrench,
-  },
-  {
-    type: "SB 4-D Compliance",
-    description: "Milestone inspection support for buildings 3+ stories—Lakeland follows the 30-year inland inspection timeline",
-    icon: FileText,
-  },
-];
-
-const lakelandFaqs = [
-  {
-    question: "What is the SB 4-D deadline for Lakeland condos?",
-    answer: "Lakeland is an inland city more than 3 miles from Florida's coastline, so buildings here fall under the 30-year milestone inspection requirement rather than the stricter 25-year coastal rule. Buildings that reached 30 years old before July 1, 2022 were required to complete milestone inspections by December 31, 2024. Buildings reaching 30 years after that date must complete inspections within 2 years of that milestone. After the initial inspection, reinspection is required every 10 years. This gives Lakeland condo associations more time compared to coastal communities.",
-  },
-  {
-    question: "How does Lakeland's inland location affect balcony costs compared to coastal areas?",
-    answer: "Lakeland balcony reconstruction typically costs 15-25% less than comparable projects in coastal communities like Tampa or Clearwater. The inland location means no salt air exposure, so standard (non-marine-grade) materials are usually adequate. Access is generally easier with more staging space. Labor costs in Polk County are slightly lower than Pinellas or Hillsborough counties. However, Lakeland's heavy seasonal rainfall (50 inches annually) still requires proper waterproofing systems, and buildings near lakes may face additional moisture considerations.",
-  },
-  {
-    question: "How much does balcony reconstruction cost in Lakeland?",
-    answer: "Lakeland balcony reconstruction typically costs $12,000-$32,000 per balcony for comprehensive restoration—among the most competitive rates in the Tampa Bay region. Multi-unit projects achieve economies of scale at $7,000-$20,000 per unit. Lakefront condos may trend toward the higher end due to increased moisture exposure. Building-wide programs for 50+ unit buildings range from $400,000 to $4 million depending on scope. FCS provides detailed assessments with phased payment options aligned with HOA special assessment schedules.",
-  },
-  {
-    question: "Which Lakeland areas have the most balcony reconstruction needs?",
-    answer: "Downtown Lakeland has mid-rise condos from the 1980s-1990s now approaching 30-year milestones. Properties around Lake Morton and Lake Hollingsworth include older lakefront condos with additional moisture considerations. The Dixieland historic district has some multi-family properties requiring assessment. Providence and Grasslands have newer construction but some communities are approaching their 25-30 year milestones. South Lakeland has apartment complexes from the 1990s development boom that may require evaluation.",
-  },
-  {
-    question: "Does proximity to Lakeland's lakes affect balcony deterioration?",
-    answer: "Yes, while not as severe as coastal salt exposure, lakefront properties face increased moisture and humidity. Buildings near Lake Morton, Lake Hollingsworth, Lake Mirror, and other Lakeland lakes experience higher ambient humidity and more frequent fog events. This can accelerate concrete carbonation and waterproofing membrane breakdown. FCS recommends enhanced moisture protection for lakefront properties, including more frequent inspection intervals and higher-grade sealers, though costs remain below marine-grade requirements.",
-  },
-  {
-    question: "How does Lakeland's clay soil affect balcony and building issues?",
-    answer: "Lakeland's clay-rich soil differs from the sandy coastal soils elsewhere in Tampa Bay. While this provides better foundation support in many cases, it can cause differential settlement that creates stress on balcony connections to buildings. Clay soil's moisture expansion and contraction cycles can affect building movement. FCS assesses structural connections between balconies and buildings as part of our evaluation, ensuring repairs address any settlement-related issues.",
-  },
-  {
-    question: "Are there benefits to doing balcony work in Lakeland's climate?",
-    answer: "Lakeland's inland location offers several construction advantages: no storm surge risk during hurricanes (though wind is still a factor), occasional winter freeze events that can actually help cure certain concrete products, and slightly lower humidity than coastal areas. The main challenge is Lakeland's heavy afternoon thunderstorms from May through September—FCS schedules concrete pours and coating applications around weather patterns to ensure proper curing.",
-  },
-  {
-    question: "How do you serve Lakeland from your Tampa Bay base?",
-    answer: "Lakeland is approximately 45 minutes from our Ruskin headquarters and Tampa offices, making it highly accessible for our crews. FCS maintains projects throughout Polk County and has established relationships with the City of Lakeland Building Inspection Division. Our team is familiar with local permitting processes, which typically run 3-5 weeks for commercial balcony projects. Proximity to I-4 allows efficient material delivery and crew deployment.",
-  },
-];
-
-const costData = [
-  { scope: "Minor Repairs (per balcony)", range: "$2,500 - $6,500", timeline: "2-4 days", description: "Crack repair, coating renewal, minor concrete patching" },
-  { scope: "Moderate Restoration (per balcony)", range: "$6,500 - $18,000", timeline: "5-10 days", description: "Structural repairs, waterproofing, railing refurbishment" },
-  { scope: "Full Reconstruction (per balcony)", range: "$18,000 - $32,000", timeline: "10-15 days", description: "Complete demo and rebuild, new railings, full waterproofing" },
-  { scope: "Multi-Unit Project (per unit)", range: "$7,000 - $20,000", timeline: "Varies", description: "Economies of scale for 10+ unit projects" },
-  { scope: "Building-Wide Program", range: "$400K - $4M+", timeline: "4-10 months", description: "Comprehensive restoration for entire building" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Testing", description: "Structural evaluation, concrete testing, moisture mapping, and scope development with licensed engineers" },
-  { step: 2, title: "HOA/Board Presentation", description: "Detailed proposals, cost options, and timeline presentations for association decision-making" },
-  { step: 3, title: "Engineering & Permits", description: "Structural engineering drawings, City of Lakeland permit applications, and compliance documentation" },
-  { step: 4, title: "Mobilization & Phasing", description: "Site setup, resident notification, and phased work schedule to minimize disruption" },
-  { step: 5, title: "Structural Restoration", description: "Concrete repair, rebar treatment, structural reinforcement, and code-required upgrades" },
-  { step: 6, title: "Waterproofing & Finishes", description: "Quality waterproofing, railings, coatings, and final inspections with warranty documentation" },
 ];
 
 export default function BalconyReconstructionLakelandPage() {
@@ -102,46 +53,52 @@ export default function BalconyReconstructionLakelandPage() {
     <>
       <LocalBusinessSchema city="Lakeland" service="Balcony Reconstruction" />
       <ServiceSchema
-        serviceName="Balcony Reconstruction and Waterproofing"
-        serviceDescription="Expert balcony reconstruction and waterproofing for Lakeland condominiums, apartments, and commercial buildings. SB 4-D milestone inspection compliance (30-year inland requirement), structural repairs, and HOA project management. Projects from $100,000 to $10 million."
+        serviceName="Balcony Reconstruction"
+        serviceDescription="Balcony reconstruction for condominiums in Lakeland, FL. SB4-D compliance, concrete restoration, waterproofing, railing replacement for lake-front and downtown condominium buildings. Licensed CBC1262722, 40+ years experience."
         city="Lakeland"
         minPrice="100000"
-        serviceCategories={["Structural Repair","Waterproofing","Railing Replacement","Concrete Restoration","SB4-D Compliance"]}
+        serviceCategories={["Balcony Concrete Restoration", "Waterproofing Replacement", "Railing Reconstruction", "SB4-D Balcony Compliance", "Structural Slab Repair"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Balcony Reconstruction Services in Lakeland, FL"
-        description="Comprehensive guide to balcony reconstruction for Lakeland condos and apartments. Learn about SB 4-D compliance for inland properties (30-year milestone), costs, timelines, and working with HOAs on balcony restoration projects."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/balcony-reconstruction-lakeland/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Lakeland, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Lakeland, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Balcony Reconstruction in Lakeland
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Balcony Reconstruction in Lakeland, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Polk County's trusted contractor for condo and apartment balcony reconstruction. SB 4-D milestone inspection compliance with Lakeland's 30-year inland timeline, structural repairs, and quality waterproofing. Competitive inland pricing. We work directly with HOAs on projects from $100K to $10M+.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Lakeland's condominium balconies face decades of heavy inland rainfall, intense UV exposure, and high humidity that gradually deteriorate concrete, waterproofing, and railing systems. With SB 4-D milestone inspections now identifying these conditions, Florida Construction Specialists provides the engineering-driven balcony reconstruction that Lakeland's condominium associations need to restore safety, compliance, and property value.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Request Balcony Assessment
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Balcony Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -150,208 +107,167 @@ export default function BalconyReconstructionLakelandPage() {
         </div>
       </section>
 
-      {/* SB 4-D Alert Banner */}
-      <section className="py-4 bg-amber-50 border-y border-amber-200">
-        <div className="container-custom">
-          <div className="flex items-center justify-center gap-3 text-amber-800">
-            <AlertTriangle className="w-6 h-6 flex-shrink-0" />
-            <p className="font-semibold">
-              <strong>SB 4-D Timeline:</strong> Lakeland (inland) buildings 3+ stories have 30-year milestone inspections—later deadline than coastal areas.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">SB 4-D Specialists</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">100+ Condo Buildings</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Users className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">HOA Specialists</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Lakeland's Balcony Reconstruction Experts
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Polk County's trusted contractor for balcony reconstruction and waterproofing. As an inland city, Lakeland benefits from the 30-year SB 4-D milestone inspection timeline rather than the stricter 25-year coastal requirement—giving condo associations additional time for planning and budgeting. However, many Lakeland buildings from the 1990s are now approaching their deadlines.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Lakeland's Condominium Balconies Need Reconstruction
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Lakeland's condominium buildings, particularly those clustered around Lake Hollingsworth, Lake Morton, Lake Hunter, and downtown, were largely built during the 1980s and 1990s construction booms. These buildings are now 30 to 45 years old, and their balconies have endured decades of Central Florida's demanding climate. Unlike coastal condominiums where saltwater corrosion is the primary balcony threat, Lakeland's inland balconies deteriorate through a different mechanism: relentless freshwater moisture driven by the city's position in one of the rainiest and most lightning-active corridors in the United States.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Lakeland's inland location offers cost advantages compared to coastal communities—no marine-grade materials required, better staging access, and competitive labor rates. However, the city's 50 inches of annual rainfall, lakefront humidity, and clay soil conditions still require proper engineering and waterproofing. Our team has restored balconies at condominiums throughout Lakeland, from downtown mid-rises to lakefront communities around Lake Morton and Lake Hollingsworth.
+              <p className="mb-6">
+                The deterioration process in Lakeland balconies typically begins with the waterproofing membrane. Original waterproofing systems installed in the 1980s and early 1990s were not designed to last 30 or more years under the intensity of Central Florida's rainfall and UV exposure. As membranes age, they crack, delaminate, and lose their water resistance. Rainwater penetrates through the membrane into the concrete slab, saturating the concrete and reaching the embedded reinforcing steel. In Lakeland's high humidity environment, the concrete stays wet for extended periods, accelerating the corrosion of reinforcing steel. As the steel corrodes, it expands, cracking the surrounding concrete and creating visible spalling on the underside of the balcony slab. This cycle progressively weakens the structural capacity of the balcony.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Balcony Reconstruction Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why Lakeland Condos Need Balcony Assessment
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>30-Year Inland Deadline:</strong> Lakeland follows the extended inland timeline—but 1990s buildings are now approaching compliance requirements</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Heavy Rainfall Impact:</strong> 50 inches annual rainfall requires proper waterproofing even without coastal salt exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Lakefront Considerations:</strong> Properties near Lakeland's lakes face increased humidity and moisture-related deterioration</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Cost Advantages:</strong> Inland location means 15-25% lower costs than coastal communities—plan now while timing allows</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Request a Balcony Assessment for Your Lakeland Building <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">HOA & Property Managers</h3>
-                <p className="text-gray-200 mb-4">
-                  Request a complimentary assessment and proposal for your Lakeland condo building.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              {/* SB 4-D Info Box */}
-              <div className="bg-amber-50 border border-amber-200 rounded-lg p-6">
-                <h3 className="text-lg font-bold text-amber-800 mb-3">SB 4-D Quick Facts</h3>
-                <ul className="space-y-2 text-amber-700 text-sm">
-                  <li>• 3+ story buildings must be inspected</li>
-                  <li>• Lakeland (inland): 30-year milestone</li>
-                  <li>• Reinspection every 10 years after</li>
-                  <li>• More time than coastal communities</li>
-                  <li>• Affects unit resale and financing</li>
-                </ul>
-                <Link href="/insurance/guides/florida-sb4d-compliance-guide/" className="text-amber-800 font-semibold text-sm mt-3 inline-block hover:underline">
-                  Read Full SB 4-D Guide →
-                </Link>
-              </div>
-
-              <RelatedServices city="Lakeland" currentService="balcony-reconstruction" />
-              <NearbyLocations currentCity="Lakeland" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+              <p className="mb-6">
+                Railing systems on Lakeland condominium balconies face their own deterioration patterns. Aluminum railings corrode at their base connections where moisture collects. Steel railings rust where protective coatings have broken down from UV exposure and thermal cycling. Glass panel railings develop seal failures around their embedded connections. When railings are compromised, they become a fall hazard that creates both life safety risk and liability exposure for the association. SB 4-D milestone inspections specifically evaluate railing conditions as part of the balcony assessment.
+              </p>
+              <p>
+                Florida Construction Specialists brings a systematic, engineering-driven approach to balcony reconstruction in Lakeland. We do not simply patch visible damage. We assess the full extent of deterioration through sounding surveys, concrete testing, and structural evaluation, then develop reconstruction specifications that address root causes and prevent recurrence. Our principal's combined construction and insurance industry background gives us unique insight into how balcony failures develop, how they should be documented, and how to ensure that reconstruction work fully resolves the conditions that caused the deterioration.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/fcs-tiles-on-balcony/fcs-tiles-on-balcony-display.webp"
+        alt="Balcony reconstruction on condominium in Lakeland"
+        title="Restoring Safety to Lakeland's Condominium Balconies"
+        subtitle="SB4-D compliance, concrete restoration, and waterproofing for lake-front and downtown condos"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland Balcony Reconstruction Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Balcony Reconstruction Services for Lakeland Condominiums
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Lakeland's inland location offers competitive pricing compared to coastal communities. Costs vary based on balcony size, deterioration extent, and lakefront proximity. Standard (non-marine) materials are typically sufficient.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Project Scope</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Includes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.scope}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.description}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Lakeland pricing is typically 15-25% below coastal rates. Contact FCS for detailed assessment and proposal.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Balcony Reconstruction Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            FCS manages balcony reconstruction from initial assessment through warranty completion, with special attention to HOA processes and resident communication.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Complete balcony restoration from structural assessment through waterproof finish, engineered for Lakeland's inland climate conditions.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: AlertTriangle,
+                title: "SB 4-D Balcony Compliance",
+                description: "Response to milestone inspection findings related to balcony structural conditions. We review the engineer's balcony assessment, develop repair or reconstruction specifications, execute the work, and coordinate final verification. Our goal is to bring every balcony into full structural compliance within the timeframe established by the inspection report."
+              },
+              {
+                icon: Building2,
+                title: "Concrete Slab Restoration",
+                description: "Repair of deteriorated balcony concrete including spall repair, delamination removal, reinforcing steel treatment, and section restoration with engineered repair mortars. For Lakeland balconies, we use repair materials rated for the high-moisture, high-humidity conditions that drive inland concrete deterioration. Severely deteriorated slabs are fully replaced when repair is not structurally adequate."
+              },
+              {
+                icon: Shield,
+                title: "Waterproofing System Replacement",
+                description: "Complete removal of failed waterproofing membranes and installation of new systems designed for Lakeland's 50 inches of annual rainfall. We specify traffic-rated membranes with UV resistance for south and west facing balconies, ensure proper drainage slopes, and seal all penetrations and perimeter edges where water intrusion typically originates."
+              },
+              {
+                icon: HardHat,
+                title: "Railing Reconstruction",
+                description: "Assessment and replacement of deteriorated railing systems. We install code-compliant railings designed for Lakeland's wind loads and specify materials and coatings appropriate for the inland climate. Railing connections to the balcony slab are engineered for long-term performance with moisture-resistant anchorage details that prevent the base corrosion common in older installations."
+              },
+              {
+                icon: ClipboardCheck,
+                title: "Drainage Correction",
+                description: "Resloping of balcony surfaces to eliminate ponding water, which is a primary cause of accelerated deterioration. We install scupper drains, through-wall drains, or drip edges as appropriate for each balcony configuration. Proper drainage is the single most important factor in extending the service life of balcony waterproofing and preventing future concrete deterioration."
+              },
+              {
+                icon: FileCheck,
+                title: "Preventive Assessment Programs",
+                description: "Proactive balcony condition assessments for Lakeland condominiums that have not yet reached their SB 4-D milestone trigger. Early identification of waterproofing failures and concrete deterioration allows associations to plan maintenance and repair work before conditions escalate to the point where full reconstruction is required. We provide condition reports and prioritized maintenance recommendations."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Balcony Deterioration in Lakeland's Climate
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Balcony deterioration in Lakeland follows patterns that are distinct from both coastal and northern climates. There is no freeze-thaw cycling cracking the concrete, and there is no salt spray driving chloride contamination. Instead, Lakeland's balconies face the combination of extreme rainfall intensity, year-round high humidity, intense solar radiation, and the thermal cycling that occurs when dark balcony surfaces heat to over 150 degrees Fahrenheit in summer sun and then cool rapidly during afternoon thunderstorms. Understanding these specific deterioration mechanisms is essential for specifying repair materials and waterproofing systems that will perform in Lakeland's environment.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.lakelandgov.net/departments/community-development/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Lakeland Community Development Department</a> issues permits for balcony reconstruction work, and structurally significant repairs require engineering plans sealed by a licensed Florida professional engineer. We coordinate the full permitting process and work with structural engineers experienced in concrete restoration to develop repair specifications that meet both code requirements and the specific conditions of each building.
+              </p>
+              <p>
+                Working with condominium associations in Lakeland on balcony reconstruction requires clear communication about scope, timeline, and cost. We attend board meetings to present assessment findings and reconstruction plans, provide detailed budgets that support special assessment planning, and maintain regular communication with property managers throughout construction. For buildings around Lake Hollingsworth, Lake Morton, and downtown Lakeland where balconies are premium amenities with lake views, we phase work carefully to minimize the time any individual balcony is out of service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Lakeland Balcony Reconstruction Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Systematic assessment through reconstruction, designed for Lakeland's condominium environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Condition Assessment",
+                description: "Detailed evaluation of all balconies including sounding surveys, concrete testing, railing load testing, waterproofing evaluation, and drainage analysis. We document every balcony's condition with photographs and testing data, producing a comprehensive report that serves as the basis for the reconstruction scope.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Engineering and Budgeting",
+                description: "Development of reconstruction specifications by a licensed structural engineer based on assessment findings. We prepare detailed budgets and present the full scope and cost to the association board, answering questions and helping the board plan financing through reserve funds or special assessments.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting and Scheduling",
+                description: "Permit submission to the City of Lakeland or Polk County, material procurement, and development of a phasing plan that minimizes resident disruption. We coordinate scheduling with the property manager and notify affected residents in advance of work on their balconies.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Reconstruction Execution",
+                description: "Systematic balcony-by-balcony reconstruction including concrete repair, waterproofing replacement, drainage correction, and railing installation. Quality inspections at each phase ensure repair materials are properly applied and cured. Work proceeds by building elevation to minimize scaffold moves and maximize efficiency.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Final Verification and Documentation",
+                description: "Coordination with the inspecting engineer for final verification of all reconstructed balconies. Complete documentation of work performed, materials used, and warranty terms. We provide the association with a maintenance schedule to protect the reconstruction investment and extend the service life of the new waterproofing and railing systems.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -359,121 +275,48 @@ export default function BalconyReconstructionLakelandPage() {
         </div>
       </section>
 
-      {/* Lakeland Condo Stats */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Lakeland Condo Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has restored balconies at condo buildings throughout Lakeland and Polk County. Our team understands the advantages and unique considerations of inland construction, HOA governance, and the city's permitting processes.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Inland Construction Expertise:</strong> Understanding of non-coastal requirements and cost-effective material selection</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Lakefront Property Experience:</strong> Enhanced moisture protection for properties near Lakeland's many lakes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Weather-Aware Scheduling:</strong> Work scheduled around seasonal thunderstorms for optimal results</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>City of Lakeland Expertise:</strong> Established relationships with Building Inspection Division for efficient permitting</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Condo Buildings</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$30M+</div>
-                <div className="text-gray-300 text-sm">Balcony Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Calendar className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Waterproofing Warranty</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Lakeland HOAs Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. Your HOA gets direct accountability and single-point responsibility for the entire project.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">SB 4-D Compliance</h3>
-              <p className="text-gray-600">
-                We work with structural engineers to address milestone inspection findings and bring your building into full compliance with Florida's 30-year inland requirement.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Users className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">HOA Expertise</h3>
-              <p className="text-gray-600">
-                We understand condo governance—from board presentations to special assessments to resident communication. We make complex projects manageable.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={lakelandFaqs}
-        title="Lakeland Balcony Reconstruction FAQs"
-        description="Common questions about balcony reconstruction, SB 4-D compliance (30-year inland requirement), and HOA projects in Lakeland, Florida."
+        items={faqs}
+        title="Lakeland Balcony Reconstruction FAQ"
+        description="Common questions about balcony reconstruction for condominiums in Lakeland, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="balcony-reconstruction" />
+            <NearbyLocations currentCity="Lakeland" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Lakeland Balcony Reconstruction Experts
+            Restore Your Lakeland Condo Balconies
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From SB 4-D compliance to full balcony restoration, FCS is Lakeland's trusted partner for condo and apartment balcony reconstruction. Competitive inland pricing. Contact us for a complimentary assessment.
+            Contact Florida Construction Specialists for a balcony condition assessment. Whether responding to a milestone inspection or proactively addressing deterioration, we deliver the engineering-driven reconstruction your building needs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Schedule Balcony Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

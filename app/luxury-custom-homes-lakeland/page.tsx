@@ -1,129 +1,51 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Home, Compass, Waves, Star, Sun, Gem, Users, DollarSign, TreePine, Landmark } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Home, Gem } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/' },
-  title: "Luxury Custom Homes Lakeland FL | Lakefront Estates | FCS",
-  description: "Luxury Home Builder in Lakeland: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Request a free estimate today.",
+  title: "Luxury Custom Homes Lakeland FL | Lake-Front Estates, Grasslands | FCS",
+  description: "Luxury custom home construction in Lakeland by Florida Construction Specialists. Lake-front estates, Grasslands community, Highland Park, Crystal Lake. Licensed CBC, 40+ years experience. Request a design consultation.",
 };
+
+const faqs = [
+  {
+    question: "What makes lake-front custom home construction in Lakeland different from standard residential building?",
+    answer: "Lakeland's lake-front properties present unique construction considerations that go beyond standard residential building. The city has over 30 named lakes, and the most desirable custom home sites are adjacent to lakes like Lake Hollingsworth, Lake Morton, Lake Hunter, Lake Bonny, and Lake Parker. Building near these lakes requires compliance with SWFWMD setback and buffer requirements, careful foundation engineering due to elevated water tables near lake shorelines, and stormwater management systems that protect both the home and the lake ecosystem. The orientation of the home to maximize lake views while managing solar exposure on west-facing elevations requires thoughtful architectural design. We work with architects who understand Lakeland's lake-front building environment and coordinate all environmental permitting before construction begins."
+  },
+  {
+    question: "Which neighborhoods in Lakeland are most popular for luxury custom home construction?",
+    answer: "The Grasslands community in South Lakeland is one of the area's premier planned developments for upscale homes, with generous lot sizes and a golf course setting. The Lake Hollingsworth area attracts custom home buyers who want to be near the scenic walking trail and Florida Southern College. Highland Park in the northern part of the city offers established luxury residential lots. The Crystal Lake area provides a mix of lake-front and lake-view properties. Estates along Lake Parker and Lake Bonny offer larger waterfront parcels for custom builds. The Dixieland Historic District appeals to buyers who want to build or substantially renovate on historically significant lots near downtown. Each area has distinct zoning, setback, and architectural review requirements that we navigate during pre-construction."
+  },
+  {
+    question: "How does Lakeland's inland location affect luxury home design and construction costs?",
+    answer: "Lakeland's inland position creates both advantages and specific considerations for luxury custom homes. The lower wind speed requirements under the Florida Building Code, approximately 115 mph compared to 120 to 130 mph for coastal areas, allow for more expansive window walls and open floor plans without the structural reinforcement that coastal homes require. This can reduce structural costs while enabling larger openings that frame lake views. However, Lakeland's position in Lightning Alley makes comprehensive lightning protection systems essential for homes with exposed locations, and the intense summer thunderstorms require robust stormwater management on lake-front properties. The sandy soils of the Florida Central Ridge often require engineered foundation systems for larger homes, particularly on lake-front sites where soil bearing capacity varies."
+  },
+  {
+    question: "What is the typical timeline and budget for a luxury custom home in Lakeland?",
+    answer: "Luxury custom homes in Lakeland typically take 12 to 24 months from design through completion, depending on size and complexity. The design and permitting phase generally requires 3 to 6 months, with the City of Lakeland Community Development Department processing residential building permits within 4 to 8 weeks after complete plan submission. Construction timelines range from 8 to 18 months depending on square footage, custom features, and the complexity of site conditions. Budget ranges for luxury custom construction in Lakeland typically fall between three hundred fifty and seven hundred fifty dollars per square foot, depending on finishes, systems, and site requirements. Lake-front properties often require additional investment in foundation engineering, seawall or shoreline stabilization, and stormwater management."
+  },
+  {
+    question: "Does FCS handle the entire custom home construction process in Lakeland or just the building phase?",
+    answer: "We manage the complete construction process from pre-construction through final turnover. This includes site evaluation and feasibility analysis, coordination with your architect or introduction to architects experienced in Lakeland's luxury residential market, geotechnical investigation and foundation engineering, permitting through the City of Lakeland or Polk County, full construction management with in-house superintendents, landscape coordination, pool and outdoor living integration, and final quality review before turnover. As a prime general contractor, we maintain single-point accountability for every aspect of your custom home project. We never subcontract our general contracting role, which means you deal directly with our project team throughout the entire process."
+  },
+  {
+    question: "Can FCS build custom homes in the Grasslands community or other HOA-governed developments in Lakeland?",
+    answer: "Yes, we have experience building custom homes within HOA-governed communities in the Lakeland area. Communities like Grasslands, Highland Park, and other master-planned developments have architectural review committees and design guidelines that govern building materials, exterior colors, roof styles, setbacks, and landscaping requirements. We coordinate with these review committees during the design phase to ensure that plans comply with community standards before construction begins. We also manage the required construction access agreements, working hour restrictions, and site cleanliness standards that HOA communities typically enforce. Our experience with multiple Lakeland communities means we understand the review processes and can navigate them efficiently without delays."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Residential", href: "/residential/" },
-  { name: "Luxury Custom Homes Lakeland", href: "/luxury-custom-homes-lakeland/" },
-];
-
-const homeTypes = [
-  {
-    type: "Lakefront Estates",
-    description: "Custom homes on Lake Hollingsworth, Lake Morton, Lake Parker, and 38+ other lakes with private docks, boat houses, and panoramic water views",
-    icon: Waves,
-  },
-  {
-    type: "Architectural Heritage Homes",
-    description: "Prairie Style, Mid-Century Modern, and contemporary designs inspired by Lakeland's Frank Lloyd Wright legacy at Florida Southern College",
-    icon: Landmark,
-  },
-  {
-    type: "Estate Properties",
-    description: "Sprawling 1-5+ acre lots in Grasslands, Providence, and rural Polk County with equestrian facilities, guest houses, and private amenities",
-    icon: TreePine,
-  },
-  {
-    type: "Smart Modern Living",
-    description: "Fully integrated smart home technology with energy-efficient design, solar readiness, and contemporary Florida indoor-outdoor living",
-    icon: Home,
-  },
-];
-
-const lakelandNeighborhoods = [
-  {
-    name: "South Lake Morton / Lake Morton Heights",
-    description: "Historic luxury district with homes ranging $800K-$3M+ on oversized lots with mature oak canopies and lake proximity",
-    features: ["Historic character", "Walkable to downtown", "Mature landscaping", "Lake Morton views"],
-  },
-  {
-    name: "Lake Hollingsworth",
-    description: "Premier lakefront living surrounding the scenic 2.5-mile walking path, with custom homes from $1M-$4M+ and Florida Southern College nearby",
-    features: ["Direct lake access", "Florida Southern campus", "Premium lots", "Architectural heritage"],
-  },
-  {
-    name: "Grasslands",
-    description: "Exclusive gated golf community with estate lots from 1-3+ acres and custom homes $1.5M-$5M+ featuring championship golf and country club amenities",
-    features: ["Gated security", "Golf course lots", "1-3+ acre homesites", "Country club living"],
-  },
-  {
-    name: "Dixieland Historic District",
-    description: "Charming historic neighborhood with bungalows and new construction opportunities from $600K-$1.5M, perfect for renovation or custom builds",
-    features: ["Historic district tax benefits", "Downtown adjacent", "Character homes", "Community events"],
-  },
-];
-
-const lakelandFaqs = [
-  {
-    question: "What neighborhoods does FCS build luxury custom homes in Lakeland?",
-    answer: "Florida Construction Specialists builds luxury custom homes throughout Lakeland's most prestigious areas including South Lake Morton, Lake Morton Heights, Lake Hollingsworth, Grasslands, Providence, Dixieland Historic District, and lakefront properties throughout Polk County. We also build on private acreage in surrounding areas like Auburndale and Winter Haven. Our Lakeland projects typically range from $750,000 to over $5 million.",
-  },
-  {
-    question: "How do Lakeland luxury home costs compare to Tampa and coastal areas?",
-    answer: "Lakeland offers exceptional value compared to coastal Tampa Bay areas. Construction costs are typically 10-15% lower due to reduced material transportation costs and less complex permitting. Land costs are significantly lower—premium lakefront lots in Lakeland start around $150K-$400K compared to $1M+ in South Tampa or Davis Islands. You can build a comparable luxury home for 25-40% less total investment while enjoying larger lots and no flood insurance requirements for most properties.",
-  },
-  {
-    question: "How long does it take to build a luxury custom home in Lakeland?",
-    answer: "Luxury custom homes in Lakeland typically require 12-20 months for construction, depending on size and complexity. A 4,000 SF home may take 12-15 months, while 8,000+ SF estates often require 18-20 months. Lakeland's Building Inspection Division typically processes permits in 3-5 weeks—faster than coastal municipalities. The absence of coastal construction requirements also streamlines the building process.",
-  },
-  {
-    question: "What is the cost to build a luxury custom home in Lakeland?",
-    answer: "Luxury custom home construction in Lakeland typically ranges from $300-$650+ per square foot depending on finishes, features, and complexity. This represents 10-15% savings versus coastal areas. Entry-level luxury ($750K-$1.5M) averages $300-$400/SF, mid-range luxury ($1.5M-$3M) averages $400-$500/SF, and high-end luxury ($3M+) ranges $500-$650/SF with premium finishes and systems.",
-  },
-  {
-    question: "Does Lakeland require hurricane-resistant construction?",
-    answer: "Yes, but Lakeland's inland location means Zone 2 wind requirements (110 mph design wind speed) versus Zone 3 (120 mph) for coastal areas. This can reduce structural costs by 5-10%. All FCS homes still exceed code requirements with impact-resistant windows, reinforced construction, and whole-house generators. Importantly, most Lakeland properties are in Zone X (minimal flood risk), eliminating expensive flood-resistant construction requirements.",
-  },
-  {
-    question: "Can you build lakefront homes on Lakeland's many lakes?",
-    answer: "Yes, lakefront construction is a specialty for FCS in Lakeland. Polk County has 550+ named lakes, offering abundant waterfront opportunities at a fraction of coastal prices. We build on Lake Hollingsworth, Lake Morton, Lake Parker, Lake Gibson, and dozens of other lakes. Lakefront projects require understanding of lake setback requirements, dock permitting through Polk County, and proper stormwater management, but avoid the complex coastal regulations required for Tampa Bay waterfront properties.",
-  },
-  {
-    question: "How does Lakeland's Frank Lloyd Wright heritage influence custom home design?",
-    answer: "Florida Southern College houses the world's largest single-site collection of Frank Lloyd Wright architecture, including 13 structures. This heritage inspires Prairie Style and organic architecture throughout Lakeland. FCS works with architects who specialize in Wright-inspired designs featuring horizontal lines, open floor plans, natural materials, and indoor-outdoor integration. These designs complement Lakeland's natural lake settings while honoring the city's architectural legacy.",
-  },
-  {
-    question: "What makes Lakeland attractive for luxury home buyers?",
-    answer: "Lakeland offers compelling advantages: larger lots (often 1+ acres) at lower prices, abundant lakefront opportunities, no traffic congestion of Tampa, excellent schools, Florida Southern College cultural amenities, and 30-minute access to Tampa and Orlando via I-4. The city's architectural heritage, downtown revitalization, and Publix headquarters corporate presence attract professionals seeking quality of life with proximity to major metros.",
-  },
-];
-
-const costData = [
-  { tier: "Entry Luxury", range: "$750K - $1.5M", sqft: "3,500 - 5,000 SF", costPerSqft: "$300 - $400/SF", timeline: "12-15 months" },
-  { tier: "Mid-Range Luxury", range: "$1.5M - $3M", sqft: "5,000 - 7,500 SF", costPerSqft: "$400 - $500/SF", timeline: "14-18 months" },
-  { tier: "High-End Luxury", range: "$3M - $5M", sqft: "7,500 - 10,000 SF", costPerSqft: "$500 - $600/SF", timeline: "16-20 months" },
-  { tier: "Estate Class", range: "$5M+", sqft: "10,000+ SF", costPerSqft: "$550 - $650+/SF", timeline: "20-30 months" },
-];
-
-const processSteps = [
-  { step: 1, title: "Discovery & Site Selection", description: "Initial consultation, lake and lot analysis, budget alignment, and connection with Lakeland-area architects" },
-  { step: 2, title: "Pre-Construction", description: "Detailed budgeting, constructability review, value engineering, and specification development" },
-  { step: 3, title: "Permitting", description: "City of Lakeland permits, Polk County approvals, HOA review for Grasslands and gated communities" },
-  { step: 4, title: "Foundation & Structure", description: "Site preparation, foundation work, concrete block or wood frame construction, and roof installation" },
-  { step: 5, title: "Systems & Envelope", description: "Electrical, plumbing, HVAC rough-in, windows, doors, and building envelope completion" },
-  { step: 6, title: "Finishes & Completion", description: "Interior finishes, cabinetry, flooring, smart home integration, landscaping, and final inspections" },
-];
-
-const valueComparison = [
-  { feature: "Average Lot Price (Premium)", lakeland: "$150K - $400K", tampa: "$800K - $2M+", savings: "60-80% less" },
-  { feature: "Cost Per Square Foot", lakeland: "$300 - $600/SF", tampa: "$350 - $750/SF", savings: "10-15% less" },
-  { feature: "Typical Lot Size", lakeland: "0.5 - 3+ acres", tampa: "0.15 - 0.5 acres", savings: "3-6x larger" },
-  { feature: "Flood Insurance (Annual)", lakeland: "Usually $0", tampa: "$2,000 - $15,000+", savings: "Major savings" },
-  { feature: "Average Permit Time", lakeland: "3-5 weeks", tampa: "4-8 weeks", savings: "30-40% faster" },
+  { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
+  { name: "Lakeland", href: "/luxury-custom-homes-lakeland/" },
 ];
 
 export default function LuxuryCustomHomesLakelandPage() {
@@ -131,46 +53,52 @@ export default function LuxuryCustomHomesLakelandPage() {
     <>
       <LocalBusinessSchema city="Lakeland" service="Luxury Custom Homes" />
       <ServiceSchema
-        serviceName="Luxury Custom Home Construction"
-        serviceDescription="Premier custom home builder in Lakeland, FL specializing in $750K-$5M+ lakefront estates, architectural homes, and estate properties. Serving South Lake Morton, Lake Hollingsworth, Grasslands, and lakefront properties throughout Polk County."
+        serviceName="Luxury Custom Homes"
+        serviceDescription="Luxury custom home construction in Lakeland, FL. Lake-front estates, Grasslands community, Highland Park, Crystal Lake properties. Licensed CBC1262722, 40+ years experience."
         city="Lakeland"
-        minPrice="750000"
-        serviceCategories={["Custom Home Design","Waterfront Properties","Smart Home Integration","Premium Materials","Outdoor Living Spaces"]}
+        minPrice="500000"
+        serviceCategories={["Lake-Front Custom Homes", "Estate Home Construction", "Custom Home Design-Build", "Luxury Renovations", "Outdoor Living Construction"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Luxury Custom Home Builder in Lakeland, FL"
-        description="Comprehensive guide to building luxury custom homes in Lakeland. Learn about lakefront construction, premier neighborhoods, costs compared to coastal areas, and what to expect from Lakeland's leading custom home builder."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/luxury-custom-homes-lakeland/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-2/custom-home-construction-2-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-1/custom-home-construction-1-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Lakeland, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Lakeland, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Luxury Custom Homes in Lakeland
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Luxury Custom Homes in Lakeland, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Lakeland's premier custom home builder for $750K-$5M+ lakefront estates and architectural residences. Experience larger lots, better value, and Florida's finest lakefront living in the City of Lakes. Frank Lloyd Wright-inspired design meets Central Florida lifestyle.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Lakeland's lake-dotted landscape, established neighborhoods, and growing luxury residential market create exceptional opportunities for custom home construction. From estate homes overlooking Lake Hollingsworth to custom builds in the Grasslands community, Florida Construction Specialists delivers the craftsmanship, engineering expertise, and project management discipline that luxury homebuyers in Lakeland expect.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Schedule Design Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -179,385 +107,219 @@ export default function LuxuryCustomHomesLakelandPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Gem className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$750K - $5M+ Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Star className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Lakeland Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Lakeland's Premier Luxury Home Builder
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings the same precision, project management expertise, and quality control that defines our commercial construction work to Lakeland's most discerning homeowners. We specialize in luxury custom homes from $750,000 to over $5 million, with particular expertise in lakefront properties on Lake Hollingsworth, Lake Morton, Lake Parker, and the prestigious Grasslands community.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Lakeland's Lake Country Attracts Luxury Custom Home Builders
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Lakeland earns its nickname as the City of Swans through the more than 30 named lakes that define its geography and character. For luxury custom home buyers, these lakes create something rare in Central Florida: waterfront living without the premium of coastal property. Lake Hollingsworth, with its mile-long walking trail and views of Florida Southern College's Frank Lloyd Wright campus, is one of the most sought-after addresses in Polk County. Lake Morton and Lake Mirror in downtown Lakeland offer urban waterfront living with walkable access to restaurants, shops, and cultural venues. Lake Parker, one of the city's largest lakes, provides generous waterfront parcels for estate-scale homes.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Lakeland offers an exceptional value proposition for luxury home buyers—larger lots, abundant lakefront opportunities, and construction costs 10-15% below coastal Tampa Bay areas. The city's 38+ named lakes provide waterfront living at a fraction of Tampa Bay prices, while the Frank Lloyd Wright architectural heritage at Florida Southern College inspires distinctive home designs throughout the area.
+              <p className="mb-6">
+                Beyond the lake properties, Lakeland has developed several luxury residential communities that attract custom home builders. The Grasslands, a master-planned community in South Lakeland, features generous lots, a championship golf course, and a country club lifestyle that appeals to executives and professionals. Highland Park in North Lakeland offers established residential lots with mature landscaping and proximity to the Publix corporate campus. The Crystal Lake area provides lake-view and lake-front properties in a quieter suburban setting. Even the Dixieland Historic District attracts luxury buyers who want to build or substantially renovate on historically significant lots within walking distance of downtown.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Luxury Home Specialties
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {homeTypes.map((home) => (
-                  <div key={home.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <home.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{home.type}</h4>
-                        <p className="text-gray-600 text-sm">{home.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Why Build a Custom Home in Lakeland?
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Exceptional Value:</strong> Premium lakefront lots start at $150K-$400K versus $1M+ in South Tampa, with construction costs 10-15% lower than coastal areas</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Larger Lot Sizes:</strong> Typical luxury lots of 0.5-3+ acres compared to 0.15-0.5 acres in coastal communities—room for guest houses, pools, and privacy</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Lakefront Living:</strong> Over 38 named lakes offer abundant waterfront opportunities without coastal flood insurance requirements or storm surge risks</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Architectural Heritage:</strong> Frank Lloyd Wright's Florida Southern College campus inspires distinctive Prairie Style and organic architecture throughout Lakeland</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Strategic Location:</strong> 30 minutes to Tampa and Orlando via I-4, with Publix headquarters and growing corporate presence attracting professionals</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Lakeland Custom Home Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Start Your Project</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a consultation to discuss your luxury home vision, lakefront lot selection, or Grasslands homesite.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Lakeland" currentService="luxury-custom-homes" />
-              <NearbyLocations currentCity="Lakeland" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+              <p className="mb-6">
+                What distinguishes Lakeland's luxury custom home market from coastal alternatives is value. Custom home buyers in Lakeland get more home, more land, and more privacy for their construction investment than they would in Tampa, St. Petersburg, or Sarasota. A three-quarter-acre lake-front lot in Lakeland that accommodates a five thousand square foot custom home would cost a fraction of a comparable waterfront parcel in South Tampa or Siesta Key. This value equation, combined with Lakeland's central location between Tampa and Orlando, has attracted a growing number of executives, medical professionals, and entrepreneurs who want luxury living without coastal prices.
+              </p>
+              <p>
+                Florida Construction Specialists brings commercial-grade construction expertise to the luxury residential market. Our in-house engineering capability, our experience managing complex construction projects, and our principal's construction and insurance industry background create a level of technical depth that residential-only builders cannot match. For custom home buyers who demand the best, we deliver construction quality, project management discipline, and direct accountability as a prime general contractor who never subcontracts the management of your home.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Value Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland vs. Coastal Tampa Bay: The Value Advantage
-          </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Lakeland offers significant advantages for luxury home buyers seeking more space, better value, and lakefront living without coastal complexities.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Feature</th>
-                  <th className="px-6 py-4 text-left">Lakeland</th>
-                  <th className="px-6 py-4 text-left">Tampa (Coastal)</th>
-                  <th className="px-6 py-4 text-left">Your Savings</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {valueComparison.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.feature}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.lakeland}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.tampa}</td>
-                    <td className="px-6 py-4 text-brand-green font-semibold">{item.savings}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Comparisons based on 2025 market data. Individual properties vary based on specific location and features.
-          </p>
-        </div>
-      </section>
-
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-luxury-custom-home-construction/tampa-luxury-custom-home-construction-small.webp"
-        alt="Luxury custom home construction"
-        title="Building Dream Homes"
-        subtitle="Waterfront estates and architectural masterpieces"
-        overlayOpacity={0.5}
+        src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
+        alt="Luxury custom home construction in Lakeland"
+        title="Building Lakeland's Finest Residences"
+        subtitle="Lake-front estates, custom communities, and luxury renovation across Polk County"
+        overlayOpacity={0.55}
       />
 
-      {/* Lakeland Neighborhoods */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland's Premier Neighborhoods for Luxury Homes
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            We build in Lakeland's most prestigious neighborhoods, each offering unique character, lot sizes, and lifestyle opportunities.
-          </p>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {lakelandNeighborhoods.map((neighborhood) => (
-              <div key={neighborhood.name} className="bg-gray-50 rounded-lg p-6 shadow-md">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-2">{neighborhood.name}</h3>
-                <p className="text-gray-600 mb-4">{neighborhood.description}</p>
-                <div className="flex flex-wrap gap-2">
-                  {neighborhood.features.map((feature) => (
-                    <span key={feature} className="px-3 py-1 bg-brand-green/10 text-brand-green-dark text-sm rounded-full">
-                      {feature}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Table */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland Luxury Home Construction Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Custom Home Construction Services in Lakeland
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Construction costs in Lakeland are typically 10-15% lower than coastal Tampa Bay areas. These ranges reflect typical Lakeland luxury home projects—actual costs depend on specific design and specifications.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Project Tier</th>
-                  <th className="px-6 py-4 text-left">Price Range</th>
-                  <th className="px-6 py-4 text-left">Typical Size</th>
-                  <th className="px-6 py-4 text-left">Cost Per SF</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.tier}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.sqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.costPerSqft}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Does not include land, design fees, or soft costs. Lakefront properties may have additional costs for docks and seawalls.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Custom Home Building Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Building a luxury custom home requires meticulous planning and execution. Our proven 6-phase process ensures your vision becomes reality.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From lake-front estate homes to luxury renovations in established neighborhoods, we deliver every aspect of high-end residential construction.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Home,
+                title: "Lake-Front Estate Homes",
+                description: "Custom homes designed to maximize Lakeland's lake views while addressing the specific construction requirements of waterfront sites. Foundation engineering for elevated water tables, SWFWMD-compliant stormwater management, seawall and shoreline integration, and architectural orientation for lake-view living. We build on lake-front lots throughout the city from Lake Hollingsworth to Lake Parker."
+              },
+              {
+                icon: Building2,
+                title: "Community Custom Builds",
+                description: "Custom home construction within Lakeland's master-planned communities including Grasslands, Highland Park, and Crystal Lake. We navigate architectural review committee requirements, coordinate with community management, and build homes that meet both the buyer's vision and the community's design standards. From lot evaluation through final landscaping, we manage the complete process."
+              },
+              {
+                icon: Gem,
+                title: "Luxury Renovations",
+                description: "Major renovation and expansion of existing homes in Lakeland's established luxury neighborhoods. We transform dated properties into modern residences with open floor plans, chef-grade kitchens, spa bathrooms, and outdoor living spaces. For historic properties in the Dixieland district, we blend modern amenities with architectural preservation."
+              },
+              {
+                icon: Shield,
+                title: "Outdoor Living Construction",
+                description: "Custom pool environments, summer kitchens, covered lanais, fire features, and landscape architecture that take advantage of Lakeland's year-round outdoor climate. Lake-front homes often feature dock and seawall construction, lakeside entertainment areas, and graduated outdoor spaces that transition from formal to casual. We integrate outdoor living seamlessly with the home's architecture."
+              },
+              {
+                icon: HardHat,
+                title: "Energy and Technology Systems",
+                description: "Smart home automation, whole-house generators for Lakeland's lightning-prone weather, solar energy systems, advanced HVAC with zoning for large floor plans, and home networking infrastructure. We integrate these systems during construction for clean installation without visible retrofit elements. Lakeland homes benefit particularly from robust lightning protection and surge suppression systems."
+              },
+              {
+                icon: FileCheck,
+                title: "Design-Build Coordination",
+                description: "Full design-build services or coordination with your chosen architect. We work with architects experienced in Lakeland's luxury residential market to optimize designs for local conditions including lake orientation, solar exposure management, storm protection, and the sandy soil conditions that affect foundation design. Pre-construction budgeting ensures design decisions align with construction reality."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                The FCS Difference in Lakeland Luxury Homes
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Our commercial construction background brings unmatched project management capabilities to residential construction. We apply the same rigorous quality control, scheduling discipline, and documentation standards that define major commercial projects—combined with deep understanding of Lakeland's unique building environment.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Building for Lakeland's Specific Residential Conditions
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Luxury custom home construction in Lakeland demands understanding of site conditions and climate factors that are specific to this inland Polk County market. A builder who applies Tampa coastal construction standards to a Lakeland lake-front home over-engineers for wind while under-engineering for the conditions that actually affect the property: lightning exposure, freshwater moisture, sandy soil foundations, and intense summer thunderstorms.
               </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Always Prime Contractor:</strong> We never subcontract our management responsibility—you get direct accountability</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>In-House Engineering:</strong> Financial strength to handle the largest custom home projects in Lakeland</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Polk County Expertise:</strong> Strong relationships with Lakeland Building Division and Polk County permitting</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Premium Trade Relationships:</strong> Long-standing relationships with Central Florida's best specialty contractors</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
-                <div className="text-gray-300 text-sm">Residential Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Home className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">40+</div>
-                <div className="text-gray-300 text-sm">Luxury Homes Built</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Award className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100%</div>
-                <div className="text-gray-300 text-sm">Client Satisfaction</div>
-              </div>
+              <p className="mb-6">
+                The <a href="https://www.lakelandgov.net/departments/community-development/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Lakeland Community Development Department</a> processes residential building permits, with custom homes typically requiring 4 to 8 weeks for plan review depending on complexity. Lake-front properties require additional coordination with SWFWMD for environmental permits. Properties in the Grasslands, Highland Park, and other master-planned communities also need architectural review committee approval before the city permit is submitted. We manage all of these approval processes and coordinate them to minimize delays.
+              </p>
+              <p className="mb-6">
+                Lakeland's soil conditions deserve serious attention for luxury homes. The deep sandy soils of the Florida Central Ridge can present settlement risks for larger homes, particularly on lake-front sites where soil conditions may vary across the building footprint. We commission geotechnical investigations on every custom home site and work with structural engineers to specify foundation systems appropriate for the specific soil bearing capacity, whether that means enhanced spread footings, mat foundations, or pile-supported foundations for the most challenging sites. This engineering discipline is what separates our approach from volume home builders who apply standard foundation details regardless of site conditions.
+              </p>
+              <p>
+                Lightning protection is not optional for luxury homes in Lakeland. The city's position in Lightning Alley means that expensive electronic systems, HVAC equipment, smart home automation, and electrical panels are all vulnerable to direct and nearby lightning strikes. We design comprehensive lightning protection and surge suppression systems into every custom home, protecting both the structure and the technology systems that modern luxury homes depend on. This level of electrical protection is rarely specified by residential builders who are not familiar with Lakeland's lightning exposure statistics.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
+      {/* Process Section */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Lakeland Homeowners Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Lakeland Custom Home Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Gem className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Uncompromising Quality</h3>
-              <p className="text-gray-600">
-                Every detail matters in a luxury home. Our quality control processes ensure premium finishes, precise millwork, and flawless execution throughout your Lakeland project.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Compass className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Design Collaboration</h3>
-              <p className="text-gray-600">
-                We work seamlessly with Central Florida's premier architects and designers, including those specializing in Frank Lloyd Wright-inspired and contemporary Florida designs.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Financial Security</h3>
-              <p className="text-gray-600">
-                Our 40+ years experience and in-house engineering, comprehensive insurance, and detailed project accounting give you confidence throughout the construction process.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured approach from site evaluation through move-in day, with the attention to detail that luxury homes demand.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Evaluation and Pre-Design",
+                description: "Thorough assessment of your Lakeland site including geotechnical investigation, survey, utility analysis, and lake setback determination for waterfront lots. We evaluate building envelope, view corridors, solar orientation, and drainage patterns. For community lots, we review HOA design guidelines and setback requirements. Preliminary budget development based on your program and site conditions.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design Coordination and Budgeting",
+                description: "Working with your architect or our design-build partners to develop plans optimized for Lakeland's conditions. We provide continuous budget feedback during design to ensure the home you envision aligns with your investment. Foundation engineering, lightning protection planning, and outdoor living integration are addressed during design, not as afterthoughts during construction.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting and Pre-Construction",
+                description: "Permit submission to the City of Lakeland or Polk County, HOA architectural review coordination, and SWFWMD environmental permitting for lake-front properties. During plan review, we finalize subcontractor selection, material procurement schedules, and construction sequencing optimized around Lakeland's summer storm season.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction with Quality Milestones",
+                description: "In-house superintendent management with quality checkpoints at foundation, framing, rough-in, and finish stages. Homeowner walkthroughs at each milestone ensure the home matches your expectations. We schedule weather-sensitive work strategically around Lakeland's summer thunderstorm patterns and maintain detailed construction documentation throughout.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Final Review and Turnover",
+                description: "Comprehensive quality review, punch list resolution, final inspections, and Certificate of Occupancy from the City of Lakeland or Polk County. We provide complete documentation including all warranties, as-built plans, equipment manuals, and a home maintenance guide specific to your systems and Lakeland's climate conditions. Final walkthrough with you before turnover.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
       <FAQWithSchema
-        items={lakelandFaqs}
-        title="Lakeland Luxury Custom Homes FAQs"
+        items={faqs}
+        title="Lakeland Luxury Custom Homes FAQ"
+        description="Common questions about luxury custom home construction in Lakeland, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="luxury-custom-homes" />
+            <NearbyLocations currentCity="Lakeland" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
             Build Your Lakeland Dream Home
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From lakefront estates to architectural masterpieces, FCS brings exceptional craftsmanship to Lakeland's finest custom homes. Experience the value advantage of Central Florida's premier lake community.
+            Contact Florida Construction Specialists to discuss your custom home vision in Lakeland. From lake-front estates to community custom builds, we deliver the construction quality and personal attention your home deserves.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Schedule Design Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

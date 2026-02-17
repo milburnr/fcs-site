@@ -1,18 +1,45 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Wrench, Clock, Home, Factory, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Droplets, Layers } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
-  title: "Exterior Waterproofing Lakeland | Envelope | FCS",
-  description: "Waterproofing Contractor in Lakeland: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1983. Request a free estimate today.",
+  title: "Exterior Waterproofing Lakeland FL | Building Envelope, Foundation, Industrial | FCS",
+  description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection, foundation waterproofing, parking deck coatings for inland Central Florida properties. Licensed CBC, 40+ years experience. Request an assessment.",
 };
+
+const faqs = [
+  {
+    question: "Why does Lakeland need a different waterproofing approach than coastal Florida cities?",
+    answer: "Lakeland sits inland on the Florida Central Ridge, which creates a fundamentally different moisture profile than Tampa, St. Petersburg, or Clearwater. There is no salt spray or tidal surge exposure, but the city receives approximately 50 inches of annual rainfall concentrated in intense afternoon thunderstorms from June through September. Lakeland sits in Lightning Alley, the most lightning-active corridor in the United States, and these storms deliver massive volumes of water in short periods that stress building envelopes differently than the steady coastal moisture of Gulf cities. The sandy soils of the Central Ridge drain quickly in some areas but the city's 38 named lakes create localized high water tables that fluctuate seasonally. We specify waterproofing systems that handle sudden heavy water loading and inland humidity rather than the salt-resistant systems prioritized on the coast."
+  },
+  {
+    question: "How do Lakeland's sandy soils affect foundation waterproofing requirements?",
+    answer: "The sandy soils characteristic of the Florida Central Ridge that runs through Lakeland drain more freely than the clay soils found in other parts of Polk County, which means hydrostatic pressure against foundations can build and dissipate rapidly during storm events. Properties near any of Lakeland's 38 lakes experience higher baseline water tables that rise further during the wet season from June through October. This seasonal fluctuation creates cyclical wetting and drying of below-grade structures that stresses waterproofing membranes through expansion and contraction. We conduct site-specific soil and groundwater analysis before specifying foundation waterproofing systems. Many Lakeland commercial properties benefit from combination systems that include both waterproofing membranes and perimeter drainage to manage the variable hydrostatic conditions created by the lake-influenced water table."
+  },
+  {
+    question: "What types of commercial buildings in Lakeland need exterior waterproofing most urgently?",
+    answer: "The most common waterproofing failures we address in Lakeland fall into several categories. Distribution centers and warehouses along the I-4 corridor experience loading dock area water intrusion where grade-level doors meet elevated truck dock floors. Multi-story commercial buildings downtown near Munn Park and Lake Mirror have aging building envelopes where original sealants and flashings have deteriorated after years of UV exposure and thermal cycling. Condominium and apartment buildings near the lakes develop balcony and walkway waterproofing failures from the combination of foot traffic wear and heavy rainfall. Parking structures throughout Lakeland suffer from traffic-bearing membrane deterioration accelerated by standing water and the thermal expansion cycles that are more extreme inland than on the coast where sea breezes moderate temperatures."
+  },
+  {
+    question: "Does the City of Lakeland require permits for exterior waterproofing work?",
+    answer: "Permitting requirements for exterior waterproofing in Lakeland depend on the scope of work. The City of Lakeland Community Development Department generally does not require a separate permit for surface-applied waterproofing coatings and sealant replacement on existing buildings. However, waterproofing projects that involve structural repairs, concrete restoration, or modifications to drainage systems typically do require building permits. Projects on buildings within the Munn Park Historic Commercial District or other locally designated historic areas may require additional review to ensure waterproofing materials and methods are compatible with historic construction. For properties in unincorporated Polk County, the Polk County Building Division handles permitting. We manage the entire permitting process when required and ensure all waterproofing work meets Florida Building Code requirements for moisture protection."
+  },
+  {
+    question: "How does Lakeland's summer heat affect waterproofing membrane performance and application?",
+    answer: "Lakeland's inland location means summer temperatures regularly exceed 95 degrees Fahrenheit, and surface temperatures on exposed building walls and parking decks can reach 150 degrees or higher. This extreme heat affects both the application and long-term performance of waterproofing systems. During application, we schedule membrane installation for early morning hours to avoid working with materials that become too fluid in extreme heat, which can cause uneven thickness and reduced performance. For long-term durability, we specify UV-stable membranes with high-temperature ratings because Lakeland's inland position produces more extreme temperature swings than coastal areas where Gulf breezes moderate heat. The difference between a summer afternoon surface temperature and a winter morning temperature in Lakeland can exceed 120 degrees, creating significant thermal cycling stress on waterproofing membranes. We select systems with high elongation properties that accommodate this movement without cracking or delaminating."
+  },
+  {
+    question: "What is the typical cost range for commercial exterior waterproofing in Lakeland?",
+    answer: "Commercial exterior waterproofing costs in Lakeland vary significantly based on the application. Building envelope wall waterproofing including sealant replacement, flashing repairs, and elastomeric coatings typically ranges from five to fifteen dollars per square foot. Foundation and below-grade waterproofing runs from eight to twenty-two dollars per square foot depending on excavation requirements and drainage system complexity. Parking deck traffic-bearing membrane systems range from fifteen to thirty-five dollars per square foot. Industrial and warehouse floor waterproofing for moisture vapor mitigation costs four to twelve dollars per square foot. Complete commercial waterproofing projects in Lakeland typically fall between fifty thousand and several million dollars depending on building size and scope. Our in-house estimating team provides detailed proposals with unit pricing after conducting a thorough site assessment of your Lakeland property."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -21,127 +48,57 @@ const breadcrumbItems = [
   { name: "Lakeland", href: "/exterior-waterproofing-lakeland/" },
 ];
 
-const serviceTypes = [
-  {
-    type: "Building Envelope",
-    description: "Complete building envelope waterproofing including wall systems, window flashings, expansion joints, and penetration sealing for Lakeland's commercial buildings",
-    icon: Building2,
-  },
-  {
-    type: "Foundation & Below-Grade",
-    description: "Positive-side and negative-side foundation waterproofing with drainage systems designed for Lakeland's clay-rich soils and fluctuating water table",
-    icon: Layers,
-  },
-  {
-    type: "Industrial & Warehouse",
-    description: "Specialized waterproofing for Lakeland's distribution centers, warehouses, cold storage facilities, and industrial properties along the I-4 corridor",
-    icon: Factory,
-  },
-  {
-    type: "Roof & Deck Systems",
-    description: "Roof deck waterproofing, occupied terraces, loading dock areas, and associated drainage for commercial and industrial properties",
-    icon: Home,
-  },
-];
-
-const lakelandFaqs = [
-  {
-    question: "Why is exterior waterproofing important for Lakeland properties?",
-    answer: "Lakeland's Central Florida location creates unique waterproofing challenges: 50+ inches of annual rainfall concentrated in intense summer thunderstorms, clay-rich soils that expand and contract with moisture changes, a fluctuating water table affected by surrounding lakes, and high humidity year-round. Unlike coastal areas, Lakeland's inland location means less salt exposure but greater soil movement concerns. Proper waterproofing prevents foundation damage, mold growth, and structural deterioration.",
-  },
-  {
-    question: "What Lakeland areas do you serve for waterproofing?",
-    answer: "FCS provides exterior waterproofing throughout Lakeland including Downtown, Dixieland, South Lakeland, North Lakeland, Lakeside Village, Cleveland Heights, and the industrial areas along I-4. We serve commercial buildings, warehouses, distribution centers, multi-family housing, and institutional properties. Our teams are experienced with Lakeland's building department requirements and Polk County regulations.",
-  },
-  {
-    question: "How much does exterior waterproofing cost in Lakeland?",
-    answer: "Lakeland waterproofing costs vary by application: building envelope/wall waterproofing typically runs $5-$15/SF, foundation waterproofing ranges from $8-$22/SF (clay soil conditions may add to costs), parking deck waterproofing costs $15-$35/SF, and warehouse/industrial floor waterproofing costs $4-$12/SF. Complete commercial waterproofing projects range from $50,000 to several million dollars. FCS provides detailed site assessments and competitive proposals.",
-  },
-  {
-    question: "What waterproofing systems work best for Lakeland's soil conditions?",
-    answer: "Lakeland's clay-rich soils require flexible waterproofing systems that accommodate ground movement. FCS specifies elastomeric membranes with high elongation properties, crystalline waterproofing for concrete structures, and comprehensive drainage systems to manage hydrostatic pressure. For below-grade applications, we often recommend bentonite waterproofing systems that self-heal minor movements. All systems are selected for Central Florida's UV exposure and humidity.",
-  },
-  {
-    question: "Do you waterproof warehouses and industrial buildings in Lakeland?",
-    answer: "Yes, industrial and warehouse waterproofing is a specialty for FCS. Lakeland's position as a logistics hub means many distribution centers, cold storage facilities, and manufacturing plants require specialized waterproofing. We address loading dock areas, below-grade storage, concrete floor moisture barriers, and building envelope systems. Our teams work around operational schedules to minimize business disruption.",
-  },
-  {
-    question: "How does Lakeland's lake system affect foundation waterproofing?",
-    answer: "Lakeland's numerous lakes (the city is named for its 38 lakes) significantly affect groundwater levels throughout the area. Properties near lakes experience higher and more variable water tables, creating increased hydrostatic pressure on foundations. FCS conducts thorough site assessments including water table monitoring when needed, and designs waterproofing systems specifically for each property's groundwater conditions.",
-  },
-  {
-    question: "Can you waterproof older commercial buildings in Downtown Lakeland?",
-    answer: "Yes, remedial waterproofing for existing buildings is a core service. Downtown Lakeland has many older commercial buildings from the early-to-mid 1900s that require updated waterproofing. FCS provides building assessments, identifies water intrusion sources, and implements comprehensive repairs. We're experienced with historic masonry buildings and can recommend sympathetic waterproofing approaches that don't damage original materials.",
-  },
-  {
-    question: "What warranty do you provide for Lakeland waterproofing projects?",
-    answer: "FCS provides a 10-year workmanship warranty on exterior waterproofing installations in Lakeland, backed by manufacturer material warranties of 10-20 years. Our warranty covers both materials and labor for any leaks resulting from waterproofing system failure. We maintain detailed documentation including photos, material certifications, and test results. Regular maintenance inspections are recommended to ensure continued protection.",
-  },
-];
-
-const costData = [
-  { application: "Building Envelope/Walls", range: "$5 - $15/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Foundation Waterproofing", range: "$8 - $22/SF", timeline: "1-4 weeks", warranty: "10 years" },
-  { application: "Parking Deck (Traffic-Bearing)", range: "$15 - $35/SF", timeline: "4-12 weeks", warranty: "10 years" },
-  { application: "Warehouse/Industrial Floor", range: "$4 - $12/SF", timeline: "1-3 weeks", warranty: "10 years" },
-  { application: "Below-Grade/Basement", range: "$10 - $28/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Remedial/Repair Work", range: "$50,000+", timeline: "Varies", warranty: "5-10 years" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Diagnostics", description: "Building survey, water testing, soil analysis, infrared scanning, and identification of problem areas with attention to Lakeland's clay soil conditions" },
-  { step: 2, title: "System Design", description: "Waterproofing system specification with flexible materials suited for soil movement, detail drawings, and budget development" },
-  { step: 3, title: "Surface Preparation", description: "Substrate cleaning, crack repair, concrete restoration, joint preparation, and surface profiling for optimal membrane adhesion" },
-  { step: 4, title: "Waterproofing Installation", description: "Application of primers, membranes, flashings, and drainage systems per manufacturer specifications with attention to expansion joints" },
-  { step: 5, title: "Quality Assurance", description: "Flood testing, adhesion testing, inspection documentation, and correction of deficiencies before final acceptance" },
-  { step: 6, title: "Protection & Warranty", description: "Installation of protection courses, drainage boards, or wear surfaces; warranty documentation and maintenance guidance for Central Florida conditions" },
-];
-
 export default function ExteriorWaterproofingLakelandPage() {
   return (
     <>
       <LocalBusinessSchema city="Lakeland" service="Exterior Waterproofing" />
       <ServiceSchema
         serviceName="Exterior Waterproofing"
-        serviceDescription="Professional exterior waterproofing services for Lakeland commercial and industrial buildings. Building envelope, foundation, parking deck, and warehouse waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
+        serviceDescription="Professional exterior waterproofing services in Lakeland, FL. Building envelope protection, foundation waterproofing, parking deck coatings, and industrial moisture control for inland Central Florida properties. Licensed CBC1262722, 40+ years experience."
         city="Lakeland"
         minPrice="50000"
-        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
+        serviceCategories={["Building Envelope Waterproofing", "Foundation Waterproofing", "Parking Deck Coatings", "Industrial Waterproofing", "Sealant and Flashing Systems"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Exterior Waterproofing Services in Lakeland, FL"
-        description="Comprehensive guide to exterior waterproofing for Lakeland buildings. Learn about building envelope waterproofing, foundation protection, industrial waterproofing, and costs for commercial properties in Polk County."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/exterior-waterproofing-lakeland/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/waterproofing/waterproofing-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Lakeland, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Lakeland, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Exterior Waterproofing in Lakeland
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Exterior Waterproofing in Lakeland, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Protect your Lakeland property from Central Florida's intense rainfall, clay soil movement, and variable water tables. Professional building envelope, foundation, and industrial waterproofing for commercial and warehouse facilities. 10-year warranty on all installations.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the warehouse districts lining the I-4 corridor to the historic commercial buildings around Munn Park, Lakeland's inland Central Florida properties face intense rainfall, extreme heat cycling, and lake-influenced groundwater that demand specialized waterproofing expertise. Florida Construction Specialists delivers building envelope protection, foundation waterproofing, and parking deck coatings engineered specifically for Polk County's unique moisture environment, where the challenges are heavy rain and humidity rather than the salt spray of the coast.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Request Waterproofing Assessment
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule Waterproofing Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -150,191 +107,173 @@ export default function ExteriorWaterproofingLakelandPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Droplets className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">10-Year Warranty</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Industrial Specialists</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Lakeland Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Lakeland's Exterior Waterproofing Experts
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides comprehensive exterior waterproofing services for Lakeland's commercial, industrial, and multi-family buildings. Located in Central Florida's I-4 corridor, Lakeland faces unique waterproofing challenges including clay-rich soils that expand and contract, intense summer thunderstorms, and groundwater levels influenced by the city's 38 lakes.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Inland Lakeland Demands Specialized Waterproofing Expertise
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Lakeland sits at the heart of what weather professionals call Lightning Alley, the corridor stretching through Central Florida that records more cloud-to-ground lightning strikes per square mile than anywhere else in the country. That distinction comes with a practical consequence for building owners: the same atmospheric conditions that produce all that lightning also produce some of the most intense rainfall events in the southeastern United States. Afternoon thunderstorms from June through September routinely drop two to three inches of rain in under an hour, creating sudden water loads that overwhelm building envelopes, saturate parking deck surfaces, and drive moisture into every gap in a structure's exterior shell.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                From distribution centers along I-4 and warehouse facilities to Downtown Lakeland's commercial buildings and Dixieland's historic structures, FCS has protected Lakeland properties with waterproofing systems designed for Central Florida's specific conditions. Our team understands the demands of industrial facilities and works to minimize operational disruption.
+              <p className="mb-6">
+                What makes Lakeland's waterproofing challenges distinct from coastal cities like Tampa or St. Petersburg is the absence of one factor and the presence of another. There is no saltwater exposure, which means the corrosion-resistant systems prioritized on the coast are less critical here. But Lakeland's inland position on the Florida Central Ridge produces more extreme temperature cycling than the Gulf coast, where sea breezes moderate both summer highs and winter lows. A parking deck or west-facing wall in Lakeland can see surface temperatures exceed 150 degrees on a July afternoon and drop below 40 degrees on a January morning. That 110-degree-plus temperature range creates expansion and contraction forces that stress waterproofing membranes far more than the moderate cycling experienced ten miles from the coast.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Exterior Waterproofing Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Lakeland's Central Florida Climate Demands Quality Waterproofing
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Clay Soil Movement:</strong> Lakeland's clay-rich soils expand when wet and contract when dry, creating ground movement that stresses foundations and requires flexible waterproofing systems</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Intense Summer Storms:</strong> Central Florida's afternoon thunderstorms deliver heavy rainfall that overwhelms inadequate drainage and waterproofing systems</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Variable Water Tables:</strong> Proximity to lakes means fluctuating groundwater levels that create hydrostatic pressure on foundations during wet seasons</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>High Humidity:</strong> Year-round humidity promotes mold growth and requires breathable waterproofing systems that don't trap moisture</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Lakeland Waterproofing Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Request Assessment</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a complimentary waterproofing assessment for your Lakeland property.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Lakeland" currentService="exterior-waterproofing" />
-              <NearbyLocations currentCity="Lakeland" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+              <p className="mb-6">
+                The other factor unique to Lakeland is water. Not ocean water, but freshwater. The city takes its name from its 38 named lakes, and those lakes are connected to a broader groundwater system that creates variable water table levels across the area. A commercial building's foundation on the shore of Lake Morton experiences different hydrostatic conditions than an industrial building along the I-4 corridor three miles away. Properties in the South Lakeland corridor toward Bartow sit on different soils than those in North Lakeland near the Publix Super Markets corporate campus. This variability means that effective waterproofing in Lakeland requires site-specific analysis rather than one-size-fits-all approaches.
+              </p>
+              <p>
+                Florida Construction Specialists brings four decades of commercial construction experience to Lakeland's waterproofing challenges. As a prime general contractor, we never subcontract our general contracting responsibility, which means the same team that assesses your building's waterproofing needs also designs the solution, manages the installation, and stands behind the warranty. Our principal's combined 43 years of construction and insurance industry experience provides a risk management perspective that ensures waterproofing systems are specified not just for current conditions but for the long-term exposure your Lakeland property will face over the coming decades.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
-        alt="Exterior waterproofing application"
-        title="Complete Waterproofing Protection"
-        subtitle="Premium membrane systems for lasting defense against moisture"
+        src="/images/waterproofing/waterproofing-display.webp"
+        alt="Professional exterior waterproofing application on commercial building in Lakeland"
+        title="Protecting Lakeland Properties from the Inside Out"
+        subtitle="Building envelope, foundation, and structural waterproofing for Polk County's inland commercial buildings"
         overlayOpacity={0.55}
       />
 
-      {/* Cost & Timeline Table */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Lakeland Exterior Waterproofing Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Waterproofing Systems for Every Lakeland Building Type
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Waterproofing costs vary by application, substrate condition, and soil conditions. Properties with significant clay content may require additional drainage measures. All FCS waterproofing includes our 10-year workmanship warranty.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Application</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Warranty</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.application}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.warranty}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Properties with challenging soil conditions may require additional drainage systems. Contact FCS for detailed proposal.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Waterproofing Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Successful waterproofing in Lakeland requires understanding Central Florida's unique soil and climate conditions. Our proven process ensures long-term performance even with soil movement and seasonal water table changes.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Lakeland's diverse commercial building stock requires specialized waterproofing approaches tailored to each structure type and its specific moisture exposure profile.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: Building2,
+                title: "Building Envelope Waterproofing",
+                description: "Complete exterior wall waterproofing for Lakeland's commercial and multi-family buildings. Elastomeric wall coatings, window and door flashing systems, expansion joint treatment, and penetration sealing designed to handle the sudden heavy water loads from Lightning Alley thunderstorms. We address the specific failure points where wind-driven rain enters building envelopes during the intense convective storms that characterize Central Florida's summer weather pattern."
+              },
+              {
+                icon: Layers,
+                title: "Foundation and Below-Grade Systems",
+                description: "Foundation waterproofing calibrated for Lakeland's specific groundwater conditions. The sandy soils of the Florida Central Ridge drain differently than coastal fill, and the city's lake-connected water table creates variable hydrostatic pressure that changes seasonally. We combine positive-side membranes with perimeter drainage systems engineered for each site's soil conditions, whether the property sits near Lake Hollingsworth or along the I-4 industrial corridor."
+              },
+              {
+                icon: HardHat,
+                title: "Parking Deck and Traffic-Bearing Coatings",
+                description: "Traffic-bearing membrane systems for Lakeland parking structures and elevated decks. Inland temperature extremes create more thermal cycling stress on deck membranes than coastal locations. We install polyurethane, epoxy, and methacrylate systems rated for the temperature range experienced in Polk County, with proper drainage design to prevent the ponding water conditions that accelerate membrane deterioration during summer storm events."
+              },
+              {
+                icon: Briefcase,
+                title: "Industrial and Warehouse Waterproofing",
+                description: "Specialized moisture control for Lakeland's booming distribution center and warehouse market along the I-4 corridor. Loading dock waterproofing where grade-level transitions create chronic water entry points, concrete floor moisture vapor mitigation for facilities with sensitive inventory, cold storage envelope protection, and joint sealant programs for the large-format industrial buildings that define Lakeland's logistics economy."
+              },
+              {
+                icon: Droplets,
+                title: "Sealant and Joint Systems",
+                description: "Comprehensive sealant replacement and expansion joint treatment for commercial buildings throughout Lakeland. Inland thermal cycling degrades sealants faster than the moderate coastal environment, and Lakeland's UV exposure at 28 degrees latitude accelerates elastomeric breakdown. We specify high-performance silicone, polyurethane, and hybrid sealant systems with the elongation capacity to handle Polk County's temperature-driven joint movement without adhesion failure."
+              },
+              {
+                icon: FileCheck,
+                title: "Waterproofing Assessment and Diagnostics",
+                description: "Comprehensive building moisture diagnostics for Lakeland properties experiencing water intrusion. Infrared thermographic scanning to identify moisture trapped within wall assemblies, water testing to replicate storm-driven rain exposure, core sampling to evaluate existing membrane condition, and groundwater monitoring near lake-adjacent properties. Our diagnostic reports provide the data needed to specify targeted repairs rather than wholesale replacement."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Lakeland's Moisture Environment
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Effective waterproofing in Lakeland starts with understanding what makes this city's moisture environment different from anywhere else in the Tampa Bay region. The most important distinction is that Lakeland is not a coastal city. It sits roughly 35 miles from the nearest Gulf coastline, perched on the elevated sandy ridge that runs down the center of the Florida peninsula. This position eliminates salt spray exposure but introduces a set of conditions that many waterproofing contractors, accustomed to coastal specifications, overlook.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.lakelandgov.net/departments/community-development/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Lakeland Community Development Department</a> oversees building permits within city limits, while the Polk County Building Division handles unincorporated areas. For waterproofing projects that involve structural repairs or drainage modifications, permitting requirements differ between the two jurisdictions. Properties in the Munn Park Historic Commercial District face additional review requirements to ensure waterproofing treatments are compatible with historic masonry construction. We manage permitting through both agencies and understand which approach each jurisdiction expects.
+              </p>
+              <p className="mb-6">
+                Lakeland's rainfall pattern is perhaps the most critical factor in waterproofing specification. The city averages approximately 50 inches of annual precipitation, but that number understates the intensity of the delivery. The majority falls during the June-through-September wet season, often in thunderstorms that produce two to four inches in a single event lasting less than two hours. These storms create sudden sheet-flow conditions on building facades, overwhelm roof drainage systems that are marginally sized, and drive water through any gap in a building's exterior envelope with hydraulic force. The wind-driven rain component during severe thunderstorms can push water upward and laterally, penetrating joints and flashings that perform adequately during gentle rainfall.
+              </p>
+              <p className="mb-6">
+                Temperature cycling is the second major factor. Without the moderating influence of the Gulf of Mexico, Lakeland experiences wider daily and seasonal temperature swings than Tampa or St. Petersburg. Summer afternoon surface temperatures on dark-colored walls and parking decks can exceed 150 degrees Fahrenheit, then drop to the mid-70s overnight. Winter temperatures occasionally reach the low 30s, creating freeze potential that coastal Hillsborough County rarely sees. This temperature range, applied cyclically over years, creates expansion and contraction forces that eventually fatigue waterproofing membranes, sealants, and flashings. Systems specified for Lakeland must have higher elongation capacity and better UV resistance than systems adequate for coastal installations.
+              </p>
+              <p>
+                The groundwater dimension completes the picture. Lakeland's 38 named lakes are not isolated water bodies. They connect to a regional groundwater system that responds to seasonal rainfall patterns, and water table levels can vary by several feet between the dry season peak in May and the wet season peak in September. Commercial buildings with below-grade space, including parking structures, mechanical rooms, and storage areas, experience changing hydrostatic pressure throughout the year. Foundation waterproofing systems must accommodate this fluctuation without membrane fatigue, and drainage systems must manage the volume during peak water table periods without allowing backup pressure against waterproofing membranes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Lakeland Waterproofing Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every waterproofing project in Lakeland follows a diagnostic-driven process designed for the inland Central Florida moisture environment and Polk County's specific building conditions.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Building Diagnostics and Site Assessment",
+                description: "We evaluate your Lakeland property's specific moisture exposure profile including wall orientation relative to prevailing storm direction, proximity to lakes and associated water table conditions, existing waterproofing system age and condition, drainage adequacy, and the history of water intrusion events. Infrared thermographic scanning identifies trapped moisture not visible to the eye. For foundation projects, we assess soil conditions and groundwater levels specific to your Lakeland location.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "System Specification and Engineering",
+                description: "Based on diagnostic findings, we specify waterproofing systems matched to your building's specific exposure. Lakeland properties require materials with high UV resistance and thermal cycling tolerance appropriate for inland conditions. We select from elastomeric membranes, crystalline systems, traffic-bearing coatings, and hybrid approaches based on substrate type, exposure conditions, and service requirements. All specifications account for the intense rainfall loading characteristic of Central Florida thunderstorms.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Surface Preparation and Concrete Restoration",
+                description: "Proper surface preparation determines long-term waterproofing performance. We address spalled concrete, corroded reinforcement, deteriorated sealants, and failed previous waterproofing before applying new systems. Lakeland's humidity and temperature cycling often cause existing coatings to delaminate, requiring complete removal and substrate profiling to achieve the bond strengths that new membrane systems require for reliable performance.",
+                icon: HardHat,
+              },
+              {
+                step: "04",
+                title: "Waterproofing Installation with Quality Control",
+                description: "Application scheduling accounts for Lakeland's weather patterns. Morning installation during summer months avoids afternoon thunderstorms and the extreme surface temperatures that affect membrane application quality. Every installation includes thickness verification, adhesion testing, and detail inspection at penetrations, transitions, and termination points where the majority of waterproofing failures originate. We document conditions and test results throughout the installation process.",
+                icon: Briefcase,
+              },
+              {
+                step: "05",
+                title: "Testing, Documentation, and Warranty",
+                description: "Flood testing on horizontal surfaces, water spray testing on vertical applications, and final inspection of all details, terminations, and transitions. We provide complete documentation including material certifications, test results, and as-built photographs. Our ten-year workmanship warranty covers all installed waterproofing systems, backed by manufacturer material warranties. We recommend annual maintenance inspections to address sealant degradation and minor issues before they compromise the waterproofing system.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -342,121 +281,48 @@ export default function ExteriorWaterproofingLakelandPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Lakeland Waterproofing Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has protected Lakeland buildings from water intrusion for over two decades. Our waterproofing team combines manufacturer certifications with deep knowledge of Central Florida's soil conditions and industrial construction requirements.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Manufacturer Certified:</strong> Certified applicators for Tremco, Carlisle, Sika, Neogard, and other premium manufacturers</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Industrial Experience:</strong> Extensive experience with warehouses, distribution centers, and manufacturing facilities</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Comprehensive Testing:</strong> Flood testing, adhesion testing, and infrared scanning to verify waterproofing integrity</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Long-Term Support:</strong> Maintenance programs and warranty service for continued protection</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Droplets className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Warranty Standard</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
-                <div className="text-gray-300 text-sm">Waterproofing Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Industrial Properties</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Lakeland Chooses FCS for Waterproofing
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. You get direct accountability for your waterproofing project from assessment through warranty.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Layers className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Soil-Appropriate Systems</h3>
-              <p className="text-gray-600">
-                We specify flexible waterproofing systems designed to accommodate Lakeland's clay soil movement and variable groundwater conditions.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">10-Year Warranty</h3>
-              <p className="text-gray-600">
-                Every FCS waterproofing installation includes our 10-year workmanship warranty, backed by manufacturer material warranties for complete protection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={lakelandFaqs}
-        title="Lakeland Exterior Waterproofing FAQs"
-        description="Common questions about exterior waterproofing for commercial and industrial buildings in Lakeland, Florida."
+        items={faqs}
+        title="Lakeland Exterior Waterproofing FAQ"
+        description="Common questions about exterior waterproofing for commercial and industrial buildings in Lakeland, Florida and Polk County."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="exterior-waterproofing" />
+            <NearbyLocations currentCity="Lakeland" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Protect Your Lakeland Property
+            Protect Your Lakeland Property from Moisture Damage
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From building envelope to foundation, FCS provides comprehensive waterproofing solutions designed for Lakeland's Central Florida conditions. Schedule a complimentary assessment.
+            Contact Florida Construction Specialists for a comprehensive waterproofing assessment of your Lakeland commercial property. Whether you are addressing active water intrusion in a downtown building or protecting a new warehouse along the I-4 corridor, we will diagnose the problem and deliver a lasting solution.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request Waterproofing Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

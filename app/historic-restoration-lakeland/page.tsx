@@ -1,86 +1,50 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, Users, FileCheck, BookOpen, Landmark, Hammer, Scale } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Landmark, BookOpen } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-lakeland/' },
-  title: "Historic Restoration Lakeland | Frank Lloyd Wright",
-  description: "Historic Restoration in Lakeland: new construction, renovations, and insurance restoration. 40+ years, licensed CBC. Call for a free consultation today.",
+  title: "Historic Restoration Lakeland FL | Frank Lloyd Wright, Dixieland District | FCS",
+  description: "Historic restoration in Lakeland by Florida Construction Specialists. Frank Lloyd Wright campus at Florida Southern College, Dixieland Historic District, Munn Park downtown buildings. Licensed CBC, 40+ years experience.",
 };
 
-const serviceTypes = [
+const faqs = [
   {
-    title: "Historic Building Restoration",
-    description: "Complete restoration of historic structures to period-accurate condition, addressing structural issues, deteriorated materials, and code compliance while preserving architectural character."
+    question: "What makes Florida Southern College's Frank Lloyd Wright buildings significant for historic restoration?",
+    answer: "Florida Southern College in Lakeland contains the largest single-site collection of Frank Lloyd Wright architecture in the world, with 13 structures designed by Wright between 1938 and 1958. These buildings, collectively known as the Child of the Sun collection, are listed on the National Register of Historic Places and represent some of the most architecturally important structures in Florida. Restoration of Wright buildings requires specialized knowledge of his organic architecture philosophy, his specific construction methods including textile block systems, and the materials he specified for the Florida climate. Work on these buildings must be coordinated with the Frank Lloyd Wright Building Conservancy and comply with the Secretary of the Interior's Standards for Historic Preservation."
   },
   {
-    title: "Frank Lloyd Wright Preservation",
-    description: "Specialized preservation expertise for Florida Southern College's internationally significant collection of Frank Lloyd Wright architecture, requiring the highest standards of conservation practice."
+    question: "What historic districts in Lakeland have buildings that may require restoration?",
+    answer: "Lakeland has several areas with historically significant buildings. The Dixieland Historic District, south of downtown between Lake Hollingsworth and Lake Morton, contains early twentieth century residential and commercial buildings with a mix of architectural styles including Craftsman, Mediterranean Revival, and vernacular Florida architecture. The Munn Park Historic Commercial District in downtown Lakeland features late nineteenth and early twentieth century commercial buildings around the city's oldest public park. The Lake Mirror area includes Civic Center buildings and public structures from the 1920s. Individual properties throughout the city, particularly near the downtown lakes, may also be individually listed on the National Register or designated as local landmarks."
   },
   {
-    title: "Facade Restoration",
-    description: "Exterior restoration of historic building facades including masonry repair, stucco restoration, window rehabilitation, and historically appropriate paint systems."
+    question: "Does historic restoration work in Lakeland require special permits or approvals?",
+    answer: "Historic restoration in Lakeland may involve multiple levels of review depending on the property's designation. Properties listed on the National Register of Historic Places must comply with the Secretary of the Interior's Standards for the Treatment of Historic Properties if federal funding or federal permits are involved. Locally designated landmarks may require review by the city's historic preservation board before exterior modifications are approved. The City of Lakeland Community Development Department issues building permits for restoration work, and we coordinate with all applicable review bodies to ensure that restoration plans meet both preservation standards and current building code requirements. Some projects may qualify for federal historic preservation tax credits, which require additional documentation and National Park Service review."
   },
   {
-    title: "Period Interior Restoration",
-    description: "Interior restoration including historic plasterwork, decorative finishes, millwork, original flooring, and period-appropriate fixtures and hardware."
+    question: "How does FCS approach structural issues in historic Lakeland buildings without compromising character-defining features?",
+    answer: "Historic buildings in Lakeland often have structural concerns that develop over decades of exposure to Florida's climate, including foundation settlement in sandy Polk County soils, deterioration of original wood structural members from moisture and termite damage, and cracking in masonry walls from thermal movement and settlement. Our approach follows the Secretary of the Interior's Standards, which prioritize repair over replacement and require that new work be distinguishable from but compatible with the original. We work with structural engineers experienced in historic buildings to develop repair methods that address structural deficiencies using minimally invasive techniques. When replacement of structural elements is unavoidable, we match original materials and methods as closely as possible while meeting current structural code requirements."
   },
   {
-    title: "Adaptive Reuse Projects",
-    description: "Sensitively converting historic buildings to new uses—downtown commercial buildings to restaurants, historic warehouses to creative offices—while maintaining historic integrity."
+    question: "What types of historic restoration services does FCS provide in Lakeland?",
+    answer: "We provide comprehensive historic restoration services including structural stabilization and foundation repair for buildings on Lakeland's sandy soils, exterior restoration of masonry, stucco, wood siding, and terra cotta ornamental elements, window restoration and historically appropriate replacement when originals cannot be saved, roof restoration using materials that match the original appearance while meeting current code, interior restoration of historically significant spaces including plaster, millwork, and decorative finishes, and adaptive reuse projects that repurpose historic buildings for modern commercial or residential use while preserving character-defining features. Each project begins with a thorough historic structures assessment that documents existing conditions and identifies character-defining features that must be preserved."
   },
   {
-    title: "SHPO Coordination",
-    description: "Full coordination with Florida State Historic Preservation Office for tax credit projects, ensuring rehabilitation work meets Secretary of Interior Standards."
-  }
-];
-
-// Lakeland-specific historic restoration FAQs
-const lakelandFaqs = [
-  {
-    question: "What makes Lakeland's historic architecture unique?",
-    answer: "Lakeland is home to the world's largest single-site collection of Frank Lloyd Wright architecture at Florida Southern College—12 structures designed by the legendary architect between 1938 and 1958. This internationally significant collection, known as 'Child of the Sun,' represents Wright's only complete campus design ever built. Beyond Florida Southern, Lakeland features charming 1920s Mediterranean Revival and Craftsman architecture in its Downtown, Dixieland, and Lake Morton historic districts. This combination of world-famous modernist architecture and traditional early Florida commercial and residential buildings makes Lakeland's preservation landscape uniquely diverse."
-  },
-  {
-    question: "Can FCS work on Frank Lloyd Wright buildings at Florida Southern College?",
-    answer: "Work on Florida Southern College's Frank Lloyd Wright buildings requires specialized expertise and careful coordination with the college, preservation authorities, and often the Frank Lloyd Wright Foundation. These internationally significant structures demand the highest standards of preservation practice, including understanding of Wright's experimental materials, Usonian design principles, and original construction methods. While we respect the extraordinary complexity involved, Florida Construction Specialists has the preservation expertise and craftsmanship required to support conservation work on these exceptional buildings. Any work must meet Secretary of Interior Standards and often involves National Park Service consultation."
-  },
-  {
-    question: "What historic districts does FCS serve in Lakeland?",
-    answer: "Florida Construction Specialists serves all four of Lakeland's designated historic districts: Downtown Lakeland Historic District with its 1920s commercial buildings now housing restaurants and boutiques; Dixieland Historic District featuring Craftsman bungalows and Colonial Revival homes from the 1910s-1920s; Lake Morton Historic District with elegant early 20th-century homes surrounding the scenic lake; and Florida Southern College Historic District preserving Wright's architectural masterwork. Each district has specific preservation standards and review requirements through Lakeland's Historic Preservation Board."
-  },
-  {
-    question: "How does Lakeland's Historic Preservation Board review work?",
-    answer: "Lakeland has a well-established historic preservation program considered one of Florida's most supportive. The Historic Preservation Board reviews exterior alterations to contributing structures in designated historic districts. Applications include proposed work descriptions, material specifications, and historic documentation. The board meets monthly, with staff review for minor work. Approval typically takes 3-6 weeks depending on project complexity. The city also offers matching grants and technical assistance for qualifying preservation projects. We have strong relationships with Lakeland's preservation staff and understand local requirements."
-  },
-  {
-    question: "Are there tax credits available for historic restoration in Lakeland?",
-    answer: "Yes, qualifying projects in Lakeland's historic districts may be eligible for federal historic tax credits (20% for income-producing properties), Florida's ad valorem tax exemption for historic properties, and the city's local incentive programs. To qualify for federal tax credits, buildings must be listed on the National Register of Historic Places (individually or as contributing structures in a historic district), and rehabilitation work must meet Secretary of Interior Standards. We coordinate the SHPO application process and ensure work meets all certification requirements for tax credit qualification."
-  },
-  {
-    question: "What are typical costs for historic restoration in Lakeland?",
-    answer: "Historic restoration in Lakeland typically costs less than coastal markets while maintaining high quality standards. Budget ranges are: facade restoration $45-130 per square foot of facade; full building restoration $175-350+ per square foot; interior restoration $130-275 per square foot. Frank Lloyd Wright preservation work commands premium pricing due to specialized expertise required. Costs vary based on building condition, level of restoration, and whether tax credits are pursued. Federal tax credits (20%) can substantially offset costs for income-producing properties. We provide detailed budgeting during pre-construction assessment."
-  },
-  {
-    question: "How long does historic restoration take in Lakeland?",
-    answer: "Historic restoration timelines in Lakeland depend on project scope and approvals required. Minor exterior work typically takes 2-4 months; significant building restoration 10-20 months; complex adaptive reuse projects 14-30 months. Additional time is needed for Historic Preservation Board review (3-6 weeks), SHPO approval for tax credit projects (4-6 months for Part 2 certification), and sourcing period-appropriate materials. Frank Lloyd Wright projects require extended timelines for specialized consultation and material fabrication. We build these factors into project schedules and maintain clear communication about timeline drivers."
-  },
-  {
-    question: "What adaptive reuse opportunities exist in downtown Lakeland?",
-    answer: "Downtown Lakeland's revitalization has created excellent adaptive reuse opportunities. Historic commercial buildings along Main Street and Kentucky Avenue are being transformed into restaurants, breweries, event venues, and creative office space. Lake Mirror Promenade properties are particularly sought after. The city supports sensitive adaptive reuse through its preservation program and downtown development initiatives. Recent successful conversions include historic banks becoming restaurants and early commercial buildings housing craft breweries. We help property owners navigate preservation requirements while creating viable contemporary spaces."
+    question: "Can historic buildings in Lakeland be adapted for modern commercial use while maintaining preservation standards?",
+    answer: "Yes, adaptive reuse of historic buildings is one of the most effective preservation strategies and is actively encouraged by preservation authorities. Downtown Lakeland has seen several successful adaptive reuse projects where early twentieth century commercial buildings around Munn Park have been converted to restaurants, boutique retail, and professional offices while retaining their historic character. The key is designing modern building systems, including HVAC, electrical, plumbing, and fire protection, in ways that do not damage or obscure character-defining features. We have experience integrating modern mechanical and electrical systems within historic building envelopes using minimally invasive installation methods. Many adaptive reuse projects qualify for federal and state historic preservation tax credits, which can offset 20 to 45 percent of qualified rehabilitation expenditures."
   }
 ];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Historic Restoration", href: "/historic-restoration/" },
+  { name: "Historic Restoration", href: "/services/historic-restoration/" },
   { name: "Lakeland", href: "/historic-restoration-lakeland/" },
 ];
 
@@ -90,50 +54,51 @@ export default function HistoricRestorationLakelandPage() {
       <LocalBusinessSchema city="Lakeland" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration contractor serving Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton historic districts. Secretary of Interior Standards compliance, SHPO coordination, tax credit projects. Projects from $500K to $25M+."
+        serviceDescription="Historic restoration in Lakeland, FL. Frank Lloyd Wright campus, Dixieland Historic District, Munn Park downtown buildings, adaptive reuse. Licensed CBC1262722, 40+ years experience."
         city="Lakeland"
-        minPrice="500000"
-        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
+        minPrice="200000"
+        serviceCategories={["Historic Building Restoration", "Frank Lloyd Wright Preservation", "Adaptive Reuse", "Structural Stabilization", "Facade Restoration"]}
       />
-
-      <ArticleSchema
-        headline="Historic Restoration Lakeland FL | Frank Lloyd Wright & Downtown | FCS"
-        description="Expert historic restoration contractor in Lakeland, Florida. Frank Lloyd Wright architecture at Florida Southern College, Downtown Lakeland, Dixieland, Lake Morton historic districts."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/historic-restoration-lakeland/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/historic-preservation/historic-preservation-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span className="text-brand-gold font-semibold">Serving Lakeland, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Historic Restoration in Lakeland, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Historic Restoration in Lakeland, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers expert historic restoration throughout Lakeland—from the world-renowned Frank Lloyd Wright architecture at Florida Southern College to the charming Mediterranean Revival and Craftsman buildings of Downtown, Dixieland, and Lake Morton historic districts.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Lakeland holds an extraordinary concentration of architecturally significant buildings, from the world's largest collection of Frank Lloyd Wright structures at Florida Southern College to the early twentieth century commercial buildings of the Munn Park Historic District. Florida Construction Specialists brings the specialized construction expertise, preservation knowledge, and careful craftsmanship that historic restoration in Lakeland demands.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Lakeland's premier historic preservation contractor, we restore buildings to Secretary of Interior Standards, coordinate SHPO approvals for tax credit projects, and navigate the Lakeland Historic Preservation Board process—always with full accountability as the prime contractor.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Restoration Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -142,323 +107,115 @@ export default function HistoricRestorationLakelandPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Landmark className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">4 Historic Districts Served</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileCheck className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Tax Credit Expertise</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Lakeland Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Historic Restoration Services in Lakeland
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Lakeland possesses an extraordinary architectural heritage, anchored by the world's largest single-site collection of Frank Lloyd Wright architecture at Florida Southern College. The "Child of the Sun" campus represents Wright's only complete campus design ever built, comprising 12 structures of international architectural significance. Beyond this modernist masterwork, Lakeland's four designated historic districts contain hundreds of contributing structures from the city's early 20th-century development.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Lakeland's Architectural Heritage: From Frank Lloyd Wright to the Munn Park District
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Few cities in Florida can match Lakeland's depth of architectural heritage. The crown jewel is Florida Southern College, where Frank Lloyd Wright designed 13 structures between 1938 and 1958 in what he called the Child of the Sun collection. This campus represents the largest single-site collection of Wright architecture anywhere in the world, a designation that draws architectural scholars, preservation professionals, and visitors from around the globe. The buildings employ Wright's organic architecture principles adapted for the Florida climate, including his textile block construction system, cantilevered overhangs for shade and rain protection, and an integrated esplanade system that connects the structures across the campus.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings specialized expertise to Lakeland's diverse historic buildings. We understand the craftsmanship of original construction—from Wright's experimental textile block systems to the Mediterranean Revival commercial buildings of Downtown Lakeland. Our projects meet Secretary of Interior Standards, qualify for federal and state tax credits, and satisfy the Lakeland Historic Preservation Board.
+              <p className="mb-6">
+                Beyond the Wright campus, Lakeland's architectural significance extends throughout the downtown core. The Munn Park Historic Commercial District, centered around Lakeland's oldest public park, contains late nineteenth and early twentieth century commercial buildings that tell the story of the city's growth from a railroad town to a regional center. These masonry commercial buildings, many featuring Mediterranean Revival, Classical Revival, and Vernacular Florida commercial architecture, are experiencing renewed interest as downtown Lakeland undergoes a commercial revitalization. Property owners are investing in restoration and adaptive reuse of these buildings for restaurants, boutique retail, professional offices, and mixed-use residential.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Lakeland historic project. Our relationships with preservation craftspeople, specialty trades, and local preservation officials ensure smooth execution from documentation through final restoration.
+              <p className="mb-6">
+                The Dixieland Historic District, stretching between Lake Hollingsworth and Lake Morton south of downtown, contains one of Lakeland's most architecturally diverse residential neighborhoods. Homes and small commercial buildings dating from the early 1900s through the 1940s showcase Craftsman bungalows, Mediterranean Revival residences, Colonial Revival houses, and Florida vernacular architecture. The neighborhood's proximity to Florida Southern College and the city's most scenic lakes makes it a desirable area where restoration and renovation of historic structures is an ongoing activity.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Historic Restoration Capabilities
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{service.title}</h4>
-                    <p className="text-gray-600 text-sm">{service.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Lakeland Historic Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Lakeland" currentService="historic-restoration" />
-              <NearbyLocations currentCity="Lakeland" service="historic-restoration" serviceName="Historic Restoration" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Lakeland Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Historic restoration in Lakeland starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists approaches historic restoration in Lakeland with the respect these buildings deserve and the technical expertise their preservation requires. Our team understands the Secretary of the Interior's Standards for the Treatment of Historic Properties, the documentation requirements for tax credit projects, and the construction methods needed to repair and restore buildings ranging from Wright's experimental concrete textile blocks to downtown Lakeland's load-bearing masonry commercial structures. We work alongside preservation architects and historians to ensure that every restoration project honors the building's historic character while addressing the structural and functional needs of modern use.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Lakeland Historic Districts Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/historic-preservation/historic-preservation-display.webp"
+        alt="Historic building restoration in Lakeland"
+        title="Preserving Lakeland's Architectural Legacy"
+        subtitle="Frank Lloyd Wright campus, Dixieland Historic District, and Munn Park downtown buildings"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Lakeland's Historic Districts
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Historic Restoration Services for Lakeland's Heritage Buildings
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Landmark className="w-6 h-6 text-brand-green" />
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From Frank Lloyd Wright's concrete textile blocks to downtown masonry commercial buildings, we deliver preservation-quality restoration across Lakeland's architectural spectrum.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: Landmark,
+                title: "Structural Stabilization",
+                description: "Foundation repair and structural stabilization for historic buildings affected by decades of settlement in Lakeland's sandy Polk County soils. We employ minimally invasive techniques that address structural deficiencies without disturbing character-defining features, including underpinning, supplemental support systems, and masonry crack repair using historically compatible materials."
+              },
+              {
+                icon: Building2,
+                title: "Exterior Facade Restoration",
+                description: "Restoration of historic exterior materials including masonry, stucco, wood siding, terra cotta ornament, and decorative metalwork. For Lakeland's downtown commercial buildings, this often involves cleaning and repointing masonry, restoring original storefronts, and repairing decorative cornices and parapets that define the building's architectural character."
+              },
+              {
+                icon: BookOpen,
+                title: "Adaptive Reuse Construction",
+                description: "Conversion of historic buildings for modern commercial, residential, or mixed-use occupancy while preserving character-defining features. Lakeland's downtown has strong potential for adaptive reuse of early twentieth century commercial buildings. We integrate modern HVAC, electrical, plumbing, and fire protection systems using minimally invasive methods that do not damage historic fabric."
+              },
+              {
+                icon: Shield,
+                title: "Window and Door Restoration",
+                description: "Repair and restoration of original windows and doors, which are often the most visible character-defining features of historic buildings. When originals cannot be saved, we source historically appropriate replacements that match the original profiles, materials, and operation. For buildings in Lakeland's historic districts, window changes often require preservation board review."
+              },
+              {
+                icon: HardHat,
+                title: "Roof Restoration",
+                description: "Historic roof restoration using materials that match the original appearance while meeting current Florida Building Code requirements for wind resistance. For Lakeland's commercial buildings, this includes flat and low-slope roof systems. For residential historic buildings in Dixieland, it may involve restoration of original clay tile, slate, or wood shingle roofing with appropriate underlayment and structural upgrades."
+              },
+              {
+                icon: FileCheck,
+                title: "Tax Credit Documentation",
+                description: "Support for federal and state historic preservation tax credit applications. Qualified rehabilitation of certified historic structures can earn tax credits of 20 to 45 percent of qualified expenditures. We provide the construction documentation, progress photography, and materials specifications that the National Park Service and Florida Division of Historical Resources require for tax credit certification."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Florida Southern College Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                Home to the world's largest single-site collection of Frank Lloyd Wright architecture—12 structures designed between 1938 and 1958. The "Child of the Sun" campus represents Wright's only complete campus design ever built and is of international architectural significance. Preservation work requires the highest standards, specialized expertise in Wright's construction methods, and coordination with preservation authorities. These buildings showcase Wright's textile block system, Usonian principles, and innovative approach to educational architecture.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Lakeland Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                Lakeland's commercial core features early 20th-century buildings now experiencing a renaissance as restaurants, breweries, boutique retail, and creative offices. The Lake Mirror Promenade anchors the district with its 1928 Mediterranean Revival architecture surrounding the scenic lake. Main Street and Kentucky Avenue contain restored commercial buildings that blend historic character with contemporary vitality. The city actively supports adaptive reuse that maintains architectural heritage.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <BookOpen className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Dixieland Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                A charming residential neighborhood featuring Craftsman bungalows, Colonial Revival homes, and Vernacular cottages from the 1910s-1920s. Dixieland has a strong preservation-minded community committed to maintaining the neighborhood's historic character. The tree-lined streets and front porch culture create a walkable neighborhood that attracts homeowners seeking authentic early Florida residential architecture. Restoration work focuses on period-accurate materials and methods.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Lake Morton Historic District</h3>
-              <p className="text-gray-600 text-sm">
-                Elegant early 20th-century homes surrounding scenic Lake Morton represent some of Lakeland's finest residential architecture. The district features Mediterranean Revival estates, Colonial Revival mansions, and substantial Craftsman homes that benefit from the lake's natural beauty and famous swan population. Restoration projects often address original architectural details, historic landscaping, and the integration of modern systems while preserving period character.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Frank Lloyd Wright Section */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Frank Lloyd Wright's "Child of the Sun" Campus
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Preservation Expertise for Lakeland's Unique Building Stock
             </h2>
-            <div className="bg-gray-50 rounded-lg p-8 mb-8">
-              <p className="text-gray-600 mb-6">
-                Florida Southern College's Frank Lloyd Wright campus is one of Lakeland's most significant cultural treasures and a site of international architectural importance. Between 1938 and 1958, Wright designed 12 structures for the campus, including the Annie Pfeiffer Chapel, Danforth Chapel, Roux Library, and a network of esplanades connecting the buildings. This represents the world's largest single-site collection of Wright's work and his only fully realized campus design.
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Historic restoration in Lakeland requires understanding both the specific buildings and the environmental conditions that have shaped their deterioration over decades. Lakeland's inland Central Florida climate creates preservation challenges distinct from coastal cities. There is no salt spray corroding metal elements or driving chloride into masonry, but the combination of intense UV radiation, heavy summer rainfall, high humidity, and the lightning exposure that defines Lakeland's position in Lightning Alley creates its own set of deterioration patterns.
               </p>
-              <p className="text-gray-600 mb-6">
-                The buildings showcase Wright's textile block construction system, Usonian design principles, and innovative integration of architecture with landscape. The campus demonstrates Wright's vision for affordable, beautiful architecture accessible to everyday Americans—in this case, students and faculty at a Methodist college.
+              <p className="mb-6">
+                The <a href="https://www.lakelandgov.net/departments/community-development/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Lakeland Community Development Department</a> handles building permits for restoration work, and projects involving designated historic properties may require additional review through the city's historic preservation process. For properties on the National Register of Historic Places, including the Florida Southern College Wright buildings and structures within the Munn Park Historic Commercial District, any work involving federal funding or permits must comply with Section 106 of the National Historic Preservation Act. We coordinate with all applicable review authorities and understand the documentation and approval processes that historic restoration projects require.
               </p>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-bold text-brand-green-dark mb-3">Preservation Challenges</h4>
-                  <ul className="text-gray-600 text-sm space-y-2">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Textile block deterioration and water intrusion</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Experimental materials requiring specialized expertise</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Code compliance with historic character preservation</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Climate control for Florida's humidity and heat</span>
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h4 className="font-bold text-brand-green-dark mb-3">Preservation Approach</h4>
-                  <ul className="text-gray-600 text-sm space-y-2">
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Secretary of Interior Standards compliance</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Coordination with preservation authorities</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Period-appropriate material sourcing and fabrication</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <CheckCircle className="w-4 h-4 text-brand-green mt-0.5 flex-shrink-0" />
-                      <span>Specialized craftspeople with Wright experience</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Lakeland Historic Restoration: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Tax Credits</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Facade Restoration</td>
-                    <td className="p-4">$45-130/SF (facade)</td>
-                    <td className="p-4">3-6 months</td>
-                    <td className="p-4">Potentially eligible</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Full Building Restoration</td>
-                    <td className="p-4">$175-350+/SF</td>
-                    <td className="p-4">10-20 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Interior Historic Restoration</td>
-                    <td className="p-4">$130-275/SF</td>
-                    <td className="p-4">5-12 months</td>
-                    <td className="p-4">Part of whole-building</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Adaptive Reuse</td>
-                    <td className="p-4">$150-300/SF</td>
-                    <td className="p-4">12-24 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Frank Lloyd Wright Preservation</td>
-                    <td className="p-4">$300-500+/SF</td>
-                    <td className="p-4">18-36 months</td>
-                    <td className="p-4">Case-by-case determination</td>
-                  </tr>
-                  <tr className="bg-white">
-                    <td className="p-4 font-medium">Structural Stabilization</td>
-                    <td className="p-4">$65-175/SF</td>
-                    <td className="p-4">3-8 months</td>
-                    <td className="p-4">Part of larger project</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs vary significantly based on building condition and level of restoration. Federal Historic Tax Credits (20%) available for qualifying income-producing properties. Lakeland costs typically 15-20% lower than coastal markets.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Preservation Standards Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Meeting Lakeland's Preservation Standards
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Scale className="w-5 h-5 text-amber-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Secretary of Interior Standards</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Federal tax credit projects must meet the Secretary of Interior's Standards for Rehabilitation—10 principles that guide preservation work. We ensure all restoration decisions align with these standards, from material selection to treatment approaches. This framework also guides best practices for non-tax-credit projects throughout Lakeland's historic districts.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">SHPO Coordination</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Projects seeking state or federal historic tax credits require Florida State Historic Preservation Office approval. We coordinate Part 1 (significance), Part 2 (proposed work), and Part 3 (completed work) applications, ensuring rehabilitation plans are approved before construction begins and certified upon completion.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Lakeland Historic Preservation Board</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Lakeland's Historic Preservation Board reviews exterior alterations in designated historic districts. The city's preservation program is considered one of Florida's most supportive, offering matching grants and technical assistance. We prepare thorough applications with historic documentation and design rationale, maintaining strong relationships with preservation staff.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
-                    <Hammer className="w-5 h-5 text-purple-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Preservation Craftsmanship</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Historic restoration requires specialized craftsmanship not found in conventional construction. We work with preservation masons, plaster specialists, wood window restorers, and other trades experienced in traditional methods and materials. For Frank Lloyd Wright projects, we engage craftspeople with specific experience in Wright's construction techniques.
-                </p>
-              </div>
+              <p className="mb-6">
+                The Frank Lloyd Wright buildings at Florida Southern College present unique restoration challenges because of Wright's experimental construction methods. His textile block system, where decorative concrete blocks interlock with steel reinforcement, requires specialized repair techniques when blocks crack or spall. The cantilevered esplanade system that connects buildings across the campus has experienced structural distress from decades of thermal movement and settlement. Restoration of these nationally significant buildings requires contractors who understand both the construction methods Wright used and the preservation standards that govern work on buildings of this importance.
+              </p>
+              <p>
+                Downtown Lakeland's commercial buildings present different but equally important restoration challenges. Many of the Munn Park district buildings are load-bearing masonry structures with unreinforced brick walls, cast iron columns, and wood floor framing. These buildings were constructed before modern seismic and wind codes, and restoration must address structural adequacy while preserving the original construction methods and materials that give the buildings their historic character. We work with structural engineers who specialize in historic masonry construction to develop repair approaches that meet current life safety requirements without destroying the building's historic integrity.
+              </p>
             </div>
           </div>
         </div>
@@ -467,149 +224,102 @@ export default function HistoricRestorationLakelandPage() {
       {/* Process Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Lakeland Historic Restoration Process
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Lakeland Historic Restoration Process
           </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Historic Documentation & Assessment",
-                  description: "We begin with thorough documentation of existing conditions—photographs, measured drawings, and materials analysis. For Lakeland properties, we research building history, original construction methods, and previous alterations. For Frank Lloyd Wright structures, we coordinate with preservation authorities and consult archival documentation. This research forms the basis for restoration planning and regulatory submissions."
-                },
-                {
-                  step: "2",
-                  title: "Preservation Planning",
-                  description: "Based on assessment findings, we develop restoration approaches that address deterioration while preserving character-defining features. For tax credit projects, we prepare SHPO Part 2 applications. For all projects, we identify treatment priorities and develop specifications for historically appropriate materials and methods, working closely with preservation consultants when required."
-                },
-                {
-                  step: "3",
-                  title: "Regulatory Approvals",
-                  description: "We navigate Lakeland's Historic Preservation Board approval process, coordinate SHPO reviews for tax credit projects, and obtain building permits. For Florida Southern College projects, additional coordination with the college and preservation authorities is required. We maintain communication with all reviewing agencies throughout the approval process."
-                },
-                {
-                  step: "4",
-                  title: "Restoration Execution",
-                  description: "Experienced project managers oversee restoration work with strict adherence to approved plans and preservation specifications. We coordinate preservation craftspeople, monitor material quality, and document work progress. For Lakeland's historic buildings, we source period-appropriate materials and employ traditional techniques alongside compatible modern methods."
-                },
-                {
-                  step: "5",
-                  title: "Completion & Certification",
-                  description: "We complete all inspections and provide comprehensive documentation of completed work. For tax credit projects, we prepare SHPO Part 3 certification applications with final photographs and project narrative. We ensure all regulatory requirements are satisfied and buildings are ready for occupancy or continued use, with documentation for future preservation reference."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-white rounded-lg p-6">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A careful, documentation-intensive approach that preserves historic character while addressing structural and functional needs.
+          </p>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Lakeland Chooses FCS for Historic Restoration
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Lakeland historic projects. You get direct accountability, single-point contact, and our full commitment to your project's success throughout the restoration process.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Preservation Expertise</h3>
-              <p className="text-gray-600">
-                With 20+ years of experience, we understand historic materials, traditional construction methods, and the regulatory framework governing preservation. We bring specialized expertise to Lakeland's diverse architectural heritage.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <FileCheck className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Tax Credit Success</h3>
-              <p className="text-gray-600">
-                We navigate federal and state historic tax credit programs, coordinating SHPO applications and ensuring work meets certification requirements. Tax credits can offset 20% of qualified rehabilitation costs for income-producing properties.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Historic Structures Assessment",
+                description: "Thorough documentation of existing conditions including architectural survey, structural evaluation, material testing, and identification of character-defining features. For Lakeland buildings, we assess the effects of decades of inland Florida climate exposure on original materials and identify deterioration patterns specific to each building's construction type and location.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Preservation Planning and Approvals",
+                description: "Development of a restoration plan that follows the Secretary of the Interior's Standards, including material specifications, repair methods, and replacement criteria. We coordinate review with the City of Lakeland, Florida Division of Historical Resources, and the National Park Service when tax credits are involved. All approvals are secured before construction begins.",
+                icon: Landmark,
+              },
+              {
+                step: "03",
+                title: "Permitting and Pre-Construction",
+                description: "Building permit submission to the City of Lakeland Community Development Department with full restoration plans. We procure specialty materials, arrange for skilled craftspeople experienced in historic construction methods, and develop detailed construction sequences that protect vulnerable historic elements during the restoration process.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Restoration Construction",
+                description: "Careful execution of restoration work with continuous quality monitoring and documentation. Each phase is photographed and recorded for preservation records and tax credit documentation. We coordinate closely with the preservation architect to ensure that all work meets the approved preservation plan and that unexpected conditions discovered during construction are addressed appropriately.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Documentation and Certification",
+                description: "Complete as-built documentation, preservation photography, and maintenance recommendations for the restored building. For tax credit projects, we prepare the Part 3 application documenting completed work for National Park Service certification. We provide the building owner with a maintenance guide specific to the historic materials and systems in their building.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={lakelandFaqs} title="Historic Restoration in Lakeland - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Lakeland Historic Restoration FAQ"
+        description="Common questions about historic building restoration in Lakeland, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Lakeland</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-lakeland/" className="text-brand-green hover:underline">Commercial Construction Lakeland</Link></li>
-                <li><Link href="/disaster-recovery-lakeland/" className="text-brand-green hover:underline">Disaster Recovery Lakeland</Link></li>
-                <li><Link href="/balcony-reconstruction-lakeland/" className="text-brand-green hover:underline">Balcony Reconstruction Lakeland</Link></li>
-                <li><Link href="/exterior-waterproofing-lakeland/" className="text-brand-green hover:underline">Exterior Waterproofing Lakeland</Link></li>
-                <li><Link href="/multi-family-construction-lakeland/" className="text-brand-green hover:underline">Multi-Family Construction Lakeland</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Historic Restoration Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration-tampa/" className="text-brand-green hover:underline">Historic Restoration Tampa</Link></li>
-                <li><Link href="/historic-restoration-st-petersburg/" className="text-brand-green hover:underline">Historic Restoration St. Petersburg</Link></li>
-                <li><Link href="/historic-restoration-brandon/" className="text-brand-green hover:underline">Historic Restoration Brandon</Link></li>
-                <li><Link href="/historic-restoration-sarasota/" className="text-brand-green hover:underline">Historic Restoration Sarasota</Link></li>
-                <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration Services</Link></li>
-                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Commercial Historic Restoration</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Gallery</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Lakeland" currentService="historic-restoration" />
+            <NearbyLocations currentCity="Lakeland" service="historic-restoration" serviceName="Historic Restoration" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Lakeland Historic Restoration Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Preserve Lakeland's Architectural Heritage
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver historic restoration excellence in Lakeland's four designated districts—from Frank Lloyd Wright masterworks to Downtown's Mediterranean Revival treasures.
+            Contact Florida Construction Specialists to discuss your historic restoration project in Lakeland. From Frank Lloyd Wright buildings to downtown commercial properties, we bring the preservation expertise and construction capability your project requires.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Discuss Your Restoration Project
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
