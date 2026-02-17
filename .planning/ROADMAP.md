@@ -108,11 +108,18 @@ Plans:
   3. The generateLocationFAQs() function is replaced with unique, hand-written FAQ content per page
   4. The Ruskin location page is among the top 5 strongest pages on the site
   5. Location hub pages link to ALL service+location pages for that city with bidirectional linking
-**Plans**: TBD
+**Plans:** 9 plans
 
 Plans:
-- [ ] 05-01: TBD
-- [ ] 05-02: TBD
+- [ ] 05-01-PLAN.md -- Tampa flagship (9 pages, 2,000+ words each)
+- [ ] 05-02-PLAN.md -- St. Petersburg (9 pages, 1,500+ words each)
+- [ ] 05-03-PLAN.md -- Clearwater (9 pages, 1,500+ words each)
+- [ ] 05-04-PLAN.md -- Lakeland (9 pages, 1,500+ words each)
+- [ ] 05-05-PLAN.md -- Sarasota (9 pages, 1,500+ words each)
+- [ ] 05-06-PLAN.md -- Bradenton (9 pages, 1,500+ words each)
+- [ ] 05-07-PLAN.md -- Brandon (9 pages, 1,500+ words each)
+- [ ] 05-08-PLAN.md -- Ruskin lighter treatment (9 pages, 800-1,000 words each)
+- [ ] 05-09-PLAN.md -- Location hub updates (LOC-07) + generateLocationFAQs() cleanup
 
 ### Phase 6: E-E-A-T Signals
 **Goal**: The site demonstrates real expertise, experience, authoritativeness, and trust through visible credentials, author attribution, and first-person experience language
