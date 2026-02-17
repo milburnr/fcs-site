@@ -129,10 +129,17 @@ Plans:
   1. Every blog/article page has an author byline with name, title, and credentials, backed by Person schema
   2. Technical content references specific Florida building codes and local permit requirements
   3. Service pages use first-person experience language ("In our 40+ years...") and real project photos replace stock images where available
-**Plans**: TBD
+**Plans:** 8 plans
 
 Plans:
-- [ ] 06-01: TBD
+- [ ] 06-01-PLAN.md -- Create AuthorByline, CodeReference, and ProjectGallery components
+- [ ] 06-02-PLAN.md -- Batch-add bylines to all ~262 guide articles via script
+- [ ] 06-03-PLAN.md -- Service hub pages: galleries + code references + experience language (9 pages)
+- [ ] 06-04-PLAN.md -- Sub-service + standalone service pages: code references + experience (15 pages)
+- [ ] 06-05-PLAN.md -- Experience language for all ~262 guide articles via script
+- [ ] 06-06-PLAN.md -- Location pages experience + code refs: Tampa, St. Pete, Clearwater, Lakeland (32 pages)
+- [ ] 06-07-PLAN.md -- Location pages experience + code refs: Sarasota, Bradenton, Brandon, Ruskin (32 pages)
+- [ ] 06-08-PLAN.md -- Location hubs, standalone pages, homepage + site-wide 1983 audit (~19 pages)
 
 ### Phase 7: SB4-D Content Hub
 **Goal**: FCS owns the "SB4-D condo remediation Tampa" keyword space with the most comprehensive content hub in the market, leveraging the in-house engineer as a differentiator
