@@ -7,6 +7,8 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -72,6 +74,13 @@ const faqs = [
     "question": "What is your service area for balcony reconstruction?",
     "answer": "Florida Construction Specialists provides balcony reconstruction services throughout the Tampa Bay metropolitan area including Tampa, St. Petersburg, Clearwater, Sarasota, Bradenton, and surrounding communities. We focus on commercial and multi-family projects with minimum project values of $100,000, making us ideal for condominium buildings, apartment complexes, and commercial properties with multiple balconies."
   }
+];
+
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/1-3/1-3", caption: "Commercial construction project in Tampa Bay" },
+  { src: "/images/100/100", caption: "Multi-story commercial construction with safety systems" },
+  { src: "/images/1133/1133", caption: "Multi-family building reconstruction project" },
+  { src: "/images/21/21", caption: "Concrete structure restoration in progress" },
 ];
 
 const breadcrumbItems = [
@@ -164,7 +173,7 @@ export default function BalconyReconstructionPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p>
-                Florida Construction Specialists has established itself as Tampa Bay's premier balcony reconstruction contractor, delivering comprehensive restoration solutions for condominiums, apartment complexes, and commercial buildings throughout the region. With more than two decades of experience and over $25 million in successfully completed projects, we bring unmatched expertise to every balcony repair and reconstruction project we undertake.
+                Since 1982, Florida Construction Specialists has established itself as Tampa Bay's premier balcony reconstruction contractor, delivering comprehensive restoration solutions for condominiums, apartment complexes, and commercial buildings throughout the region. With {BUSINESS_INFO.yearsInBusiness} years of experience, an in-house engineering team, and over $25 million in successfully completed projects, we bring unmatched expertise to every balcony repair and reconstruction project we undertake.
               </p>
               <p>
                 Our focus on multi-family and commercial properties means we understand the unique challenges these projects present. From navigating HOA board approval processes to coordinating construction access across dozens of individual units, we've developed proven systems that minimize disruption while maintaining the highest quality standards. We work closely with property managers, association boards, and building engineers to ensure every project meets both structural requirements and community expectations.
@@ -741,6 +750,14 @@ export default function BalconyReconstructionPage() {
           </div>
 
           <div className="max-w-4xl mx-auto prose prose-lg text-gray-600">
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Milestone Inspections"
+              description="Requires milestone structural inspections for buildings 3 stories or higher at 30 years of age (25 years within 3 miles of coastline), with subsequent inspections every 10 years."
+              link="https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
+
             <p>
               Florida Senate Bill 4-D, enacted in response to the 2021 Surfside condominium collapse, requires milestone structural inspections for buildings three stories or higher. Buildings must undergo initial inspection when they reach 30 years of age—or 25 years if located within three miles of the coastline. Subsequent inspections are required every 10 years thereafter.
             </p>
@@ -971,6 +988,13 @@ export default function BalconyReconstructionPage() {
       </section>
 
       <ServiceAreaLinks service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Recent Balcony Reconstruction Projects"
+        subtitle="A selection of our commercial and multi-family balcony reconstruction work across Tampa Bay"
+        photos={galleryPhotos}
+      />
 
       {/* FAQ */}
       <FAQWithSchema items={faqs} title="Balcony Reconstruction FAQs" />

@@ -7,6 +7,8 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -100,6 +102,13 @@ const faqs = [
     question: "Is FCS licensed, bonded, and insured for large projects?",
     answer: "Yes. FCS holds Florida State Certified Building Contractor license CBC1262722, with bonding capacity for projects up to $25 million. We maintain comprehensive general liability insurance, workers' compensation coverage, and builder's risk insurance options. Our licensing, bonding, and insurance meet the requirements of all major insurance carriers and large commercial property owners."
   }
+];
+
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/e3/e3", caption: "Storm damage assessment and restoration project" },
+  { src: "/images/e7/e7", caption: "Hurricane recovery in coastal Tampa Bay neighborhood" },
+  { src: "/images/g3/g3", caption: "Emergency roof restoration after severe storm damage" },
+  { src: "/images/hurricane-ian/hurricane-ian", caption: "Large-loss disaster recovery following Hurricane Ian" },
 ];
 
 const breadcrumbItems = [
@@ -370,8 +379,15 @@ export default function DisasterRecoveryPage() {
               </p>
 
               <h3 className="text-2xl font-bold text-brand-green-dark mt-10 mb-4">Florida Building Code Requirements</h3>
+              <CodeReference
+                code="Florida Building Code, 8th Edition (2023)"
+                section="Section 1609 — Wind Loads"
+                description="Florida's wind load requirements are the most stringent in the nation, requiring buildings in the Wind-Borne Debris Region to meet enhanced impact-resistance and structural standards for hurricane resilience."
+                link="https://www.floridabuilding.org/"
+                linkText="View Florida Building Code"
+              />
               <p className="mb-4">
-                Hurricane repairs in Florida must meet specific building code requirements that vary by 
+                Hurricane repairs in Florida must meet specific building code requirements that vary by
                 location and damage extent. The Wind-Borne Debris Region (WBDR) encompasses areas within 
                 one mile of the coast and in designated high-velocity hurricane zones. Properties in the 
                 WBDR have stricter requirements for window and door protection, with any replacement windows 
@@ -1869,6 +1885,13 @@ export default function DisasterRecoveryPage() {
 
       {/* Service Areas */}
       <ServiceAreaLinks service="disaster-recovery" serviceName="Disaster Recovery" />
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Disaster Recovery Project Experience"
+        subtitle="Large-loss restoration and hurricane recovery projects across Tampa Bay and beyond"
+        photos={galleryPhotos}
+      />
 
       {/* FAQ */}
       <FAQWithSchema items={faqs} title="Disaster Recovery FAQs" />

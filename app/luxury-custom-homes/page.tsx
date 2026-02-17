@@ -7,6 +7,7 @@ import { ServiceSchema, BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/com
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -69,6 +70,13 @@ const faqs = [
     question: "What areas do you serve for custom home construction?",
     answer: "We build luxury custom homes throughout the Tampa Bay region including Tampa (South Tampa, Davis Islands, Hyde Park, Harbour Island, Beach Park, Palma Ceia), St. Petersburg, Clearwater, Sarasota, Lakewood Ranch, Apollo Beach, Bradenton, and surrounding communities. We focus on projects valued at $1 million and above, with particular expertise in waterfront properties and historic neighborhoods."
   }
+];
+
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/custom-home-construction-5/custom-home-construction-5", caption: "Luxury custom home with architectural metal roof" },
+  { src: "/images/f2/f2", caption: "Waterfront estate with pool and premium finishes" },
+  { src: "/images/f6/f6", caption: "Modern luxury residence at twilight" },
+  { src: "/images/custom-home-construction-1/custom-home-construction-1", caption: "Custom home construction in progress" },
 ];
 
 const breadcrumbItems = [
@@ -1301,6 +1309,13 @@ export default function LuxuryCustomHomesPage() {
           </div>
         </div>
       </section>
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Luxury Custom Home Portfolio"
+        subtitle="A selection of our custom home projects across Tampa Bay's finest neighborhoods"
+        photos={galleryPhotos}
+      />
 
       {/* ═══════════════════════════════════════════════════════════════════════════
           SECTION 10: FAQ

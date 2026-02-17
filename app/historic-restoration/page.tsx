@@ -7,6 +7,7 @@ import { ServiceSchema, ArticleSchema, BreadcrumbSchema, FAQSchema } from "@/com
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -47,6 +48,12 @@ const faqs = [
     "question": "Can you add modern amenities?",
     "answer": "Absolutely. We sensitively integrate modern systems—HVAC, electrical, plumbing—while preserving historic character."
   }
+];
+
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/54f/54f", caption: "Historic commercial building restoration project" },
+  { src: "/images/custom-home-construction-5/custom-home-construction-5", caption: "Architectural restoration with period-accurate details" },
+  { src: "/images/f6/f6", caption: "Completed restoration preserving architectural character" },
 ];
 
 const breadcrumbItems = [
@@ -148,8 +155,8 @@ export default function HistoricRestorationPage() {
                 Expert Historic Restoration Services
               </h2>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists delivers comprehensive historic restoration services
-                throughout the Tampa Bay region. As a prime general contractor, we maintain full project
+                Since 1982, Florida Construction Specialists has delivered comprehensive historic restoration services
+                throughout the Tampa Bay region. With our CBC-licensed team (License {BUSINESS_INFO.licenseNumber}) and in-house engineering capabilities, we maintain full project
                 control and accountability from pre-construction through final completion.
               </p>
               <p className="text-gray-600 mb-6">
@@ -251,6 +258,13 @@ export default function HistoricRestorationPage() {
       <ServiceAreaLinks service="historic-restoration" serviceName="Historic Restoration" />
 
       {/* FAQ */}
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Historic Restoration Portfolio"
+        subtitle="Preserving Tampa Bay's architectural heritage through expert restoration"
+        photos={galleryPhotos}
+      />
+
       <FAQWithSchema items={faqs} title="Historic Restoration FAQs" />
 
       {/* CTA */}

@@ -7,6 +7,8 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -94,6 +96,13 @@ const faqs = [
     question: "What areas in Florida do you service for waterproofing projects?",
     answer: "Florida Construction Specialists provides exterior waterproofing services throughout the Tampa Bay region, including Tampa, St. Petersburg, Clearwater, Sarasota, Lakeland, and surrounding areas. We handle commercial and residential waterproofing projects across Hillsborough, Pinellas, Pasco, Manatee, and Polk counties. Our team regularly completes projects throughout Central Florida and can accommodate larger projects statewide."
   }
+];
+
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/2-5/2-5", caption: "Commercial building envelope waterproofing project" },
+  { src: "/images/download-1/download-1", caption: "Office building waterproofing and facade protection" },
+  { src: "/images/1133/1133", caption: "Multi-family building waterproofing restoration" },
+  { src: "/images/100/100", caption: "High-rise commercial waterproofing in progress" },
 ];
 
 const breadcrumbItems = [
@@ -199,7 +208,7 @@ export default function ExteriorWaterproofingPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p>
-                Florida Construction Specialists has established itself as the Tampa Bay region's premier commercial waterproofing contractor, delivering comprehensive building waterproofing Florida solutions for over two decades. Our expertise spans the full spectrum of exterior waterproofing applications, from high-rise building envelopes to below-grade foundation systems, parking structure waterproofing, and residential property protection.
+                Since 1982, Florida Construction Specialists has established itself as the Tampa Bay region's premier commercial waterproofing contractor, delivering comprehensive building waterproofing Florida solutions backed by {BUSINESS_INFO.yearsInBusiness} years of experience and an in-house engineering team. Our expertise spans the full spectrum of exterior waterproofing applications, from high-rise building envelopes to below-grade foundation systems, parking structure waterproofing, and residential property protection.
               </p>
               <p>
                 As a prime general contractor—never a subcontractor—we maintain complete project accountability from initial consultation through final completion. This direct control ensures quality waterproofing installations that meet the demanding requirements of Florida's subtropical climate. Our in-house engineering capabilities, OSHA-certified safety associates, and partnerships with premium manufacturers like Sika, BASF, Tremco, and Carlisle, enable us to design and install waterproofing systems tailored to each project's specific requirements.
@@ -210,6 +219,13 @@ export default function ExteriorWaterproofingPage() {
               <p>
                 Our commitment to excellence extends beyond installation. We provide detailed waterproofing assessments, thorough surface preparation, quality-controlled application processes, and complete warranty documentation. Whether protecting a new construction project or rehabilitating an existing structure, Florida Construction Specialists delivers waterproofing solutions that provide lasting protection against water infiltration.
               </p>
+              <CodeReference
+                code="Florida Statute 718.113"
+                section="Maintenance; Limitation upon Improvement"
+                description="Requires condominium associations to maintain and repair common elements including building envelope waterproofing systems. Associations must fund structural reserves for waterproofing maintenance per post-Surfside legislation."
+                link="https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0718/Sections/0718.113.html"
+                linkText="View F.S. 718.113"
+              />
             </div>
           </div>
         </div>
@@ -933,6 +949,13 @@ export default function ExteriorWaterproofingPage() {
       </section>
 
       <ServiceAreaLinks service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+
+      {/* Project Gallery */}
+      <ProjectGallery
+        title="Exterior Waterproofing Projects"
+        subtitle="Commercial and multi-family waterproofing projects across the Tampa Bay region"
+        photos={galleryPhotos}
+      />
 
       {/* FAQ */}
       <FAQWithSchema items={faqs} title="Exterior Waterproofing FAQs" />
