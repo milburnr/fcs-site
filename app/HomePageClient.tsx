@@ -13,24 +13,46 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { getOptimizedBgUrl } from "@/components/OptimizedImage";
 import { WordGridParallax } from "@/components/WordGridParallax";
 
-// Hero slideshow images - easy to swap, just update this array
-// Using direct paths for Next.js Image component optimization
+// Hero slideshow images with responsive srcsets
 const heroImages = [
-  "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp",
-  "/images/custom-home-construction-2/custom-home-construction-2-large.webp",
-  "/images/custom-home-2/custom-home-2-large.webp",
+  {
+    small: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp",
+    medium: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp",
+    large: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp",
+    xl: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp",
+  },
+  {
+    small: "/images/custom-home-construction-2/custom-home-construction-2-small.webp",
+    medium: "/images/custom-home-construction-2/custom-home-construction-2-medium.webp",
+    large: "/images/custom-home-construction-2/custom-home-construction-2-large.webp",
+    xl: "/images/custom-home-construction-2/custom-home-construction-2-xl.webp",
+  },
+  {
+    small: "/images/custom-home-2/custom-home-2-small.webp",
+    medium: "/images/custom-home-2/custom-home-2-medium.webp",
+    large: "/images/custom-home-2/custom-home-2-large.webp",
+    xl: "/images/custom-home-2/custom-home-2-large.webp", // no xl variant
+  },
 ];
 
 export function HomePageClient() {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [slidesLoaded, setSlidesLoaded] = useState(false);
+
+  // Defer slideshow images until after first paint
+  useEffect(() => {
+    const timer = setTimeout(() => setSlidesLoaded(true), 100);
+    return () => clearTimeout(timer);
+  }, []);
 
   // Ken Burns slideshow effect
   useEffect(() => {
+    if (!slidesLoaded) return;
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % heroImages.length);
     }, 6000);
     return () => clearInterval(interval);
-  }, []);
+  }, [slidesLoaded]);
 
   return (
     <>
@@ -61,25 +83,46 @@ export function HomePageClient() {
         </div>
       </section>
 
-      {/* Hero Section with Ken Burns Slideshow - Using Next.js Image for LCP optimization */}
+      {/* Hero Section with Ken Burns Slideshow */}
       <section className="relative h-[60vh] overflow-hidden">
-        {/* Slideshow backgrounds with Ken Burns effect */}
-        {heroImages.map((image, index) => (
+        {/* First image: always in DOM for LCP, with responsive srcset */}
+        <div
+          className={`absolute inset-0 transition-opacity duration-1000 ${
+            currentSlide === 0 ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          <div className="absolute inset-0 animate-ken-burns">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={heroImages[0].medium}
+              srcSet={`${heroImages[0].small} 640w, ${heroImages[0].medium} 960w, ${heroImages[0].large} 1280w, ${heroImages[0].xl} 1920w`}
+              sizes="100vw"
+              alt="Florida Construction Specialists - Tampa Bay commercial construction"
+              className="absolute inset-0 w-full h-full object-cover"
+              fetchPriority="high"
+              loading="eager"
+              decoding="async"
+            />
+          </div>
+        </div>
+        {/* Remaining slides: deferred until after first paint */}
+        {slidesLoaded && heroImages.slice(1).map((image, i) => (
           <div
-            key={image}
+            key={image.large}
             className={`absolute inset-0 transition-opacity duration-1000 ${
-              index === currentSlide ? "opacity-100" : "opacity-0"
+              i + 1 === currentSlide ? "opacity-100" : "opacity-0"
             }`}
           >
             <div className="absolute inset-0 animate-ken-burns">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src={image}
+                src={image.medium}
+                srcSet={`${image.small} 640w, ${image.medium} 960w, ${image.large} 1280w, ${image.xl} 1920w`}
+                sizes="100vw"
                 alt="Florida Construction Specialists - Tampa Bay commercial construction"
                 className="absolute inset-0 w-full h-full object-cover"
-                fetchPriority={index === 0 ? "high" : "low"}
-                loading={index === 0 ? "eager" : "lazy"}
-                decoding={index === 0 ? "sync" : "async"}
+                loading="lazy"
+                decoding="async"
               />
             </div>
           </div>

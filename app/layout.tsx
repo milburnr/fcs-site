@@ -53,11 +53,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.variable} ${robotoSlab.variable}`}>
       <head>
-        {/* Preload LCP hero image for faster rendering */}
+        {/* Preload LCP hero image with responsive srcset */}
         <link
           rel="preload"
           as="image"
-          href="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp"
+          href="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp"
+          imageSrcSet="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp 640w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp 960w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp 1280w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp 1920w"
+          imageSizes="100vw"
           type="image/webp"
         />
         {/* Google Analytics 4 */}
