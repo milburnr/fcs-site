@@ -1,74 +1,43 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, FileCheck, Users, Thermometer, Wind, Droplets, HardHat, Anchor } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
-  title: "Commercial Construction Bradenton | $500K+ | FCS",
-  description: "Commercial Construction in Bradenton: commercial and residential construction and restoration. Licensed and insured CBC. Call (813) 420-7561 for a quote.",
+  title: "Commercial Construction Bradenton FL | Lakewood Ranch, Downtown | FCS",
+  description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development, downtown revitalization, medical facilities, industrial projects near Port Manatee. Licensed CBC, 40+ years experience.",
 };
 
-const serviceFeatures = [
+const faqs = [
   {
-    title: "Office Buildings & Professional Spaces",
-    description: "From professional office buildings in Downtown Bradenton to corporate facilities along the SR-64 corridor, serving Manatee County's growing business community."
+    question: "How does Lakewood Ranch's continued growth affect commercial construction demand in Bradenton?",
+    answer: "Lakewood Ranch is one of the fastest-selling master-planned communities in the United States, and its eastern expansion into Manatee County drives substantial commercial construction demand. New village centers, medical offices, retail plazas, and professional office buildings are being developed along Lakewood Ranch Boulevard and in the Waterside Place area. The community's population growth also creates secondary commercial demand along the SR-64 corridor connecting Lakewood Ranch to downtown Bradenton. Florida Construction Specialists serves commercial projects throughout this growth corridor, from ground-up construction in new village centers to tenant improvements in existing Lakewood Ranch commercial properties."
   },
   {
-    title: "Retail Centers & Commercial Plazas",
-    description: "Shopping centers, strip malls, and retail developments along Highway 301, Cortez Road, and major commercial corridors."
+    question: "What is the permitting process for commercial construction in Bradenton versus unincorporated Manatee County?",
+    answer: "Commercial projects within Bradenton city limits go through the City of Bradenton Building Division, while projects in unincorporated Manatee County areas including Lakewood Ranch, Ellenton, and Parrish go through the Manatee County Building Department. The two jurisdictions have different plan review processes and timelines. City of Bradenton commercial plan review typically runs 4 to 6 weeks for standard projects. Manatee County reviews can take 6 to 10 weeks for larger commercial developments due to additional environmental and transportation impact reviews. We manage the complete permitting process with both jurisdictions and understand the specific requirements of each."
   },
   {
-    title: "Hospitality & Tourism Construction",
-    description: "Hotels, restaurants, and entertainment venues supporting Bradenton's tourism industry and proximity to Anna Maria Island."
+    question: "Does the proximity to the Manatee River affect commercial construction site development in downtown Bradenton?",
+    answer: "Absolutely. Downtown Bradenton sits along the south bank of the Manatee River, and many commercial parcels in the downtown and Riverwalk area fall within FEMA flood zones AE. This requires elevated first-floor construction, flood-resistant materials below the base flood elevation, and compliance with SWFWMD stormwater management requirements. Foundation design for riverfront commercial projects must account for the high water table and sandy soil conditions typical of the Manatee River floodplain. Our team has direct experience with these geotechnical and flood zone challenges on commercial projects in the downtown Bradenton area."
   },
   {
-    title: "Educational & Institutional Buildings",
-    description: "Schools, training facilities, and institutional buildings including projects for IMG Academy and local educational institutions."
+    question: "What types of commercial construction does FCS handle in Bradenton?",
+    answer: "We deliver a full range of commercial construction services across Bradenton and Manatee County including design-build office buildings, medical facilities, retail centers, industrial and warehouse projects near Port Manatee, hospitality construction, educational facility work, and commercial renovations. Our Bradenton commercial projects typically range from five hundred thousand to twenty-five million dollars. We have particular experience with medical office construction serving the Manatee Memorial Hospital and Blake Medical Center corridors, retail and office development in Lakewood Ranch, and commercial renovation projects in downtown Bradenton's revitalizing business district."
   },
   {
-    title: "Industrial & Warehouse Facilities",
-    description: "Distribution centers, manufacturing facilities, and industrial buildings near Port Manatee and along I-75 logistics corridors."
-  }
-];
-
-const bradentonFaqs = [
-  {
-    question: "What size commercial construction projects does FCS handle in Bradenton?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Bradenton and Manatee County ranging from $500,000 to over $25 million. We specialize in office buildings, medical facilities near Manatee Memorial Hospital, retail centers, and hospitality venues. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project in the Bradenton area."
+    question: "How do Bradenton's wind load requirements compare to inland Florida locations?",
+    answer: "Bradenton's coastal position on Tampa Bay places it in the Florida Building Code's Wind Zone 3 with a design wind speed of 120 mph for most areas. Properties on Anna Maria Island and along the direct Gulf coastline may require enhanced design wind speeds up to 140 mph. These requirements affect structural framing, roof attachment details, glazing specifications, and exterior cladding systems for every commercial building. Compared to inland central Florida locations in Wind Zone 2, Bradenton commercial construction requires stronger structural connections, impact-rated windows and doors, and enhanced roof tie-down systems. These code-driven requirements typically add 8 to 12 percent to structural costs but are non-negotiable for code compliance."
   },
   {
-    question: "Do you have experience with Bradenton's building codes and permit process?",
-    answer: "Yes, we have extensive experience navigating both City of Bradenton and Manatee County permitting processes. Bradenton follows the Florida Building Code with Zone 3 wind requirements. Waterfront projects along the Manatee River require additional flood zone compliance. We maintain strong relationships with the City of Bradenton Building Division, which helps streamline permit approval and inspections."
-  },
-  {
-    question: "How does Bradenton's weather affect commercial construction projects?",
-    answer: "Bradenton's Gulf Coast climate presents unique challenges we plan for in every project. The summer rainy season (May-September) brings daily afternoon thunderstorms requiring careful scheduling of concrete pours and exterior work. Manatee River flooding during heavy rains affects waterfront sites. Hurricane season (June-November) requires wind-resistant construction meeting Zone 3 requirements. We build this regional knowledge into project planning to minimize delays."
-  },
-  {
-    question: "What commercial areas in Bradenton do you serve?",
-    answer: "We serve all of Bradenton's commercial areas including Downtown Bradenton and the Riverwalk district, the SR-64 (Manatee Avenue) commercial corridor, Highway 301 industrial zone, Cortez Road retail corridor, Lakewood Ranch business parks, and projects near Anna Maria Island. We also serve Palmetto, Ellenton, and Parrish throughout Manatee County."
-  },
-  {
-    question: "Why should I choose FCS over other Bradenton commercial contractors?",
-    answer: "FCS is always the prime contractor on every Bradenton project—we never work as a subcontractor. This means you get direct accountability and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and a track record of $25M+ in completed projects throughout Tampa Bay. Our team has deep relationships with Bradenton's building departments and local subcontractors."
-  },
-  {
-    question: "How long does a typical commercial construction project take in Bradenton?",
-    answer: "Commercial construction timelines in Bradenton vary based on project scope and complexity. A typical tenant improvement might take 2-4 months, while ground-up commercial construction ranges from 8-18 months depending on size. We provide detailed schedules during pre-construction and account for Bradenton-specific factors like rainy season scheduling, flood zone requirements, and Manatee County permit timelines."
-  },
-  {
-    question: "Do you work on projects near Anna Maria Island?",
-    answer: "Yes, we serve the Anna Maria Island area, though the island itself has separate building regulations that are more restrictive. We handle commercial projects in Bradenton Beach, Holmes Beach, and the island gateway areas. Coastal projects require enhanced wind resistance (up to 140 mph design wind speed), flood zone compliance, and marine-grade materials for salt air exposure."
-  },
-  {
-    question: "What insurance and bonding do you carry for Bradenton commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Bradenton market."
+    question: "Can FCS coordinate commercial construction around Bradenton's seasonal tourism patterns?",
+    answer: "Yes, and this is an important consideration for commercial projects in Bradenton's tourism-adjacent areas. Anna Maria Island, the Bradenton Beach area, and the Cortez village waterfront see peak visitor traffic from December through April. Commercial construction projects in these areas often require phased scheduling that minimizes disruption during the winter tourist season. We also schedule weather-sensitive exterior work during Bradenton's dry season from November through April when possible, reserving the May through September rainy season for interior buildout and mechanical work that is not affected by the afternoon thunderstorms typical of the Gulf Coast."
   }
 ];
 
@@ -76,7 +45,8 @@ const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
   { name: "Commercial Construction", href: "/commercial/" },
-  { name: "Bradenton", href: "/commercial-construction-bradenton/" }];
+  { name: "Bradenton", href: "/commercial-construction-bradenton/" },
+];
 
 export default function CommercialConstructionBradentonPage() {
   return (
@@ -84,50 +54,51 @@ export default function CommercialConstructionBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. Large-scale projects from $500K to $25M+. Always the prime contractor."
+        serviceDescription="Full-service commercial construction in Bradenton, FL. Lakewood Ranch development, downtown revitalization, medical facilities, industrial projects near Port Manatee. Licensed CBC1262722, 40+ years experience."
         city="Bradenton"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Medical Facility Construction", "Office Building Construction", "Industrial Construction", "Tenant Improvements"]}
       />
-
-      <ArticleSchema
-        headline="Commercial Construction Bradenton FL | $500K-$25M+ Projects | FCS"
-        description="Premier commercial construction contractor in Bradenton, Florida. Office buildings, medical facilities, retail centers, waterfront developments. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/commercial-construction-bradenton/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/quality-inn-bradenton/quality-inn-bradenton-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span className="text-brand-gold font-semibold">Serving Bradenton & Manatee County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Commercial Construction in Bradenton, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in Bradenton, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Bradenton and Manatee County. From Downtown Bradenton's revitalizing riverfront to medical facilities and retail centers, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Bradenton anchors Manatee County at the crossroads of explosive suburban growth in Lakewood Ranch and historic downtown revitalization along the Manatee River. Florida Construction Specialists delivers commercial construction across this diverse market, from ground-up office buildings in Lakewood Ranch village centers to adaptive reuse projects in the Village of the Arts and medical facilities serving the county's expanding healthcare network.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Bradenton's trusted prime contractor, we handle office buildings, medical facilities, retail centers, hospitality venues, and industrial projects—never as a subcontractor, always with full project accountability.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Schedule Project Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -136,127 +107,91 @@ export default function CommercialConstructionBradentonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Bradenton Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Services in Bradenton
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Bradenton, the seat of Manatee County, has experienced significant growth and revitalization in recent years. With a population exceeding 60,000 in the city and over 400,000 in Manatee County, the region offers a compelling mix of waterfront appeal, proximity to Tampa Bay, and more affordable commercial development costs compared to neighboring Sarasota.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Bradenton's Two-Speed Commercial Construction Market
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Bradenton's commercial construction landscape operates at two distinct speeds. To the east, Lakewood Ranch continues its expansion as one of the top-selling master-planned communities in the nation, driving demand for new commercial buildings across village centers, medical office parks, and professional services campuses along Lakewood Ranch Boulevard, University Parkway, and the Waterside Place mixed-use development. To the west, downtown Bradenton is experiencing a slower but equally significant revitalization anchored by the Riverwalk, the Village of the Arts creative district, and renewed investment in the Old Main Street commercial corridor.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Bradenton's diverse commercial construction needs with the expertise, bonding capacity, and local knowledge required for large-scale projects. Whether you're building a new office complex in Downtown Bradenton, a medical facility near Manatee Memorial Hospital, or a retail center along the Cortez Road corridor, we deliver on time and on budget.
+              <p className="mb-6">
+                Between these two poles, the SR-64 corridor from downtown to Lakewood Ranch serves as the commercial spine of Manatee County. Medical facilities cluster near Manatee Memorial Hospital on the west end and Blake Medical Center in the central corridor. Retail and professional office construction fills the gaps as the corridor evolves from a rural highway into an urban commercial thoroughfare. Port Manatee, Florida's closest deepwater port to the Panama Canal, drives industrial and logistics facility construction in the southern reaches of the county near US-41 and I-275.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Bradenton project. Our relationships with local building departments, subcontractors, and suppliers ensure smooth execution from groundbreaking to certificate of occupancy.
+              <p className="mb-6">
+                This two-speed market demands a contractor who can navigate both Bradenton's urban environment with its flood zone constraints, historic considerations, and dense site conditions, and the greenfield development conditions in Lakewood Ranch where new infrastructure, utility extensions, and community design standards shape every project. Manatee County's permitting environment adds another layer: projects within Bradenton city limits go through the City of Bradenton Building Division, while Lakewood Ranch, Ellenton, Parrish, and other unincorporated areas go through the Manatee County Building Department. Each jurisdiction has its own review processes and inspection protocols.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Commercial Construction Capabilities in Bradenton
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceFeatures.map((feature) => (
-                  <div key={feature.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{feature.title}</h4>
-                    <p className="text-gray-600 text-sm">{feature.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Bradenton Commercial Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Bradenton" currentService="commercial-construction" />
-              <NearbyLocations currentCity="Bradenton" service="commercial-construction" serviceName="Commercial Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Bradenton Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Commercial construction in Bradenton starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists brings over four decades of commercial construction experience to Bradenton's unique market. As a prime general contractor with in-house engineering capability, we handle design-build delivery, complex permitting across both jurisdictions, and construction execution that accounts for Bradenton's coastal climate, soil conditions, and the seasonal rhythms that define Gulf Coast construction.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Bradenton Market Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/quality-inn-bradenton/quality-inn-bradenton-display.webp"
+        alt="Commercial construction project in Bradenton, Florida"
+        title="Building Bradenton's Commercial Future"
+        subtitle="From Lakewood Ranch village centers to downtown Bradenton's Riverwalk corridor"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Bradenton's Commercial Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Capabilities Across Manatee County
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Bradenton's commercial sectors each present distinct construction challenges shaped by location, building type, and regulatory requirements.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Design-Build Construction",
+                description: "Single-source delivery for Bradenton commercial projects from preconstruction through certificate of occupancy. We coordinate architecture, engineering, and construction under one contract, which is particularly valuable for Lakewood Ranch developments where community design standards require early integration of aesthetic and structural decisions."
+              },
+              {
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "Healthcare construction serving Bradenton's growing medical corridor, including medical offices, surgical centers, specialty clinics, and outpatient facilities. Manatee Memorial Hospital and Blake Medical Center anchor the county's healthcare infrastructure, and the expanding population in Lakewood Ranch continues to drive demand for new medical office construction along SR-64 and University Parkway."
+              },
+              {
+                icon: HardHat,
+                title: "Industrial and Logistics Facilities",
+                description: "Warehouse, distribution, and manufacturing construction serving Port Manatee and the I-75 logistics corridor. Port Manatee's position as the closest deepwater port to the Panama Canal creates demand for modern logistics facilities with heavy floor loads, clear-span construction, and efficient truck circulation on sites between US-41 and I-275 in southern Manatee County."
+              },
+              {
+                icon: Briefcase,
+                title: "Office and Tenant Improvements",
+                description: "Commercial office construction and renovation throughout Bradenton's office markets. This includes new professional office buildings in Lakewood Ranch, tenant buildouts in the SR-64 corridor, and commercial renovation projects in downtown Bradenton where older office buildings are being modernized to attract professional tenants returning to the revitalizing downtown core."
+              },
+              {
+                icon: FileCheck,
+                title: "Retail and Hospitality",
+                description: "Retail center construction, restaurant buildouts, and hospitality projects across Bradenton's commercial districts. The Cortez Road commercial corridor, the Anna Maria Island gateway area in West Bradenton, and the rapidly expanding retail nodes in Lakewood Ranch all support active retail and hospitality construction demand throughout the year."
+              },
+              {
+                icon: Award,
+                title: "Commercial Renovations",
+                description: "Major commercial renovation and adaptive reuse projects in Bradenton. The Village of the Arts district and the Old Main Street area in downtown Bradenton offer opportunities for creative commercial renovation, while aging commercial buildings along the US-41 corridor and Cortez Road require modernization to compete with newer Lakewood Ranch commercial inventory."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Bradenton Revitalization</h3>
-              <p className="text-gray-600 text-sm">
-                Downtown Bradenton has undergone significant revitalization with the Riverwalk development, Village of the Arts, and new mixed-use projects. The area attracts commercial investment with its waterfront appeal and growing arts and culture scene.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <FileCheck className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Healthcare Growth</h3>
-              <p className="text-gray-600 text-sm">
-                Manatee Memorial Hospital, Blake Medical Center, and numerous specialty clinics anchor the healthcare sector. Manatee County's growing population drives continued demand for medical offices, urgent care facilities, and specialty clinics.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Anchor className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Waterfront & Tourism</h3>
-              <p className="text-gray-600 text-sm">
-                Anna Maria Island, the Manatee River waterfront, and IMG Academy drive demand for hospitality and tourism construction. The region sees steady investment in hotels, restaurants, marinas, and recreational facilities.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -265,264 +200,129 @@ export default function CommercialConstructionBradentonPage() {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Bradenton's Unique Conditions
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Navigating Bradenton's Commercial Construction Environment
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Thermometer className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Coastal Climate Demands</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton's coastal location along Tampa Bay demands construction methods designed for salt air exposure, intense UV, and high humidity. We specify marine-grade materials and protective coatings that withstand these conditions while meeting Manatee County standards.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Hurricane-Resistant Construction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton coastal areas require up to 140 mph design wind speed construction. All our commercial buildings meet or exceed Florida Building Code requirements for impact-resistant glazing, enhanced roof systems, and wind-resistant structural connections.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Expertise</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Riverfront and coastal Bradenton properties typically fall within FEMA flood zones AE and VE. We navigate flood zone construction requirements, elevation certificates, and SWFWMD permits to ensure compliance and insurability.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Local Permitting Knowledge</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  We maintain strong relationships with the City of Bradenton Building Division and Manatee County Building Department. Our familiarity with local permit processes, plan review requirements, and inspection protocols helps minimize delays.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Bradenton's commercial construction environment is shaped by its dual identity as both a historic Gulf Coast city and a rapidly modernizing suburban growth center. Contractors who only understand one side of this equation struggle with the other. Downtown Bradenton projects near the Riverwalk require understanding of flood zone constraints, aging underground infrastructure, and coordination with the city's ongoing redevelopment initiatives. Lakewood Ranch projects demand familiarity with the community's architectural standards, the master developer's review process, and the infrastructure requirements of a community that is still building out its roads, utilities, and stormwater systems.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.bradentonfl.gov/217/Building" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Bradenton Building Division</a> handles commercial permits for projects within city limits, covering downtown, West Bradenton, the Cortez Road corridor, and the established residential neighborhoods south of the Manatee River. The <a href="https://www.mymanatee.org/departments/building_and_development_services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Manatee County Building and Development Services</a> handles unincorporated areas including Lakewood Ranch, Ellenton, Parrish, and the Port Manatee industrial zone. We maintain relationships with both jurisdictions and understand the nuances that affect plan review timelines and inspection scheduling in each.
+              </p>
+              <p className="mb-6">
+                Bradenton's weather patterns heavily influence commercial construction scheduling. The Gulf Coast location delivers over 50 inches of annual rainfall, with the bulk concentrated in intense afternoon and evening thunderstorms from late May through September. The Manatee River watershed adds localized flooding risk that affects construction sites in low-lying areas near the river and its tributaries, particularly during tropical weather events when storm surge can push river levels well above normal. Salt air from Tampa Bay and the Gulf of Mexico accelerates corrosion on exposed steel and exterior finishes, requiring marine-grade specifications for coastal commercial projects in West Bradenton, Anna Maria Island, and the Cortez area.
+              </p>
+              <p className="mb-6">
+                Soil conditions across Manatee County vary significantly between the sandy, well-drained soils in Lakewood Ranch and the clay-heavy, high-water-table soils near the Manatee River in downtown and West Bradenton. This variability means foundation engineering cannot be assumed based on a general understanding of the area. We conduct geotechnical analysis specific to each commercial project site, which frequently reveals conditions that require auger-cast piles or deep foundation systems for projects in the river floodplain, while standard slab-on-grade construction works well for most Lakewood Ranch sites with proper compaction.
+              </p>
+              <p>
+                Our knowledge of Bradenton extends into the neighborhoods that surround commercial construction projects. Commercial work in the Palma Sola area requires awareness of the established residential character and stormwater sensitivity of the Palma Sola Bay watershed. Projects near IMG Academy on 34th Street West must accommodate the institution's academic and athletic schedules when coordinating deliveries and construction traffic. Retail and hospitality projects near the Cortez fishing village must respect the character of one of the last working fishing villages on Florida's Gulf Coast. This neighborhood-level understanding prevents the friction that delays projects and drives up costs.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost/Timeline Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Bradenton Commercial Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full bg-white rounded-lg shadow-sm">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="px-6 py-4 text-left font-semibold">Project Type</th>
-                    <th className="px-6 py-4 text-left font-semibold">Typical Cost Range</th>
-                    <th className="px-6 py-4 text-left font-semibold">Timeline</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Tenant Improvement</td>
-                    <td className="px-6 py-4 text-gray-600">$50-140/SF</td>
-                    <td className="px-6 py-4 text-gray-600">2-4 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Office Building (Ground-Up)</td>
-                    <td className="px-6 py-4 text-gray-600">$200-380/SF</td>
-                    <td className="px-6 py-4 text-gray-600">10-16 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Medical/Healthcare Facility</td>
-                    <td className="px-6 py-4 text-gray-600">$325-550/SF</td>
-                    <td className="px-6 py-4 text-gray-600">12-18 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Retail Center</td>
-                    <td className="px-6 py-4 text-gray-600">$150-280/SF</td>
-                    <td className="px-6 py-4 text-gray-600">8-14 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Industrial/Warehouse</td>
-                    <td className="px-6 py-4 text-gray-600">$90-175/SF</td>
-                    <td className="px-6 py-4 text-gray-600">6-12 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Hospitality/Restaurant</td>
-                    <td className="px-6 py-4 text-gray-600">$250-450/SF</td>
-                    <td className="px-6 py-4 text-gray-600">8-14 months</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs and timelines are estimates and vary based on project specifics and site conditions. Bradenton often offers lower costs than neighboring Sarasota. Contact us for a detailed estimate.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Bradenton Commercial Construction Process
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with a thorough site evaluation, feasibility analysis, and budget development. For Bradenton projects, this includes flood zone determination, coastal setback analysis, soil testing, and permit pathway planning with City or County officials."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination",
-                  description: "Whether working with your architect or providing design-build services, we ensure plans meet Bradenton's building codes, wind requirements, and any downtown design standards while optimizing constructability and budget."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all permit applications with City of Bradenton Building Division or Manatee County Building Department, coordinate plan reviews, SWFWMD permits, and handle any required variances or special approvals."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Our experienced project managers oversee daily construction with strict quality control, safety protocols, and schedule management. We adjust for Florida's rainy season with strategic scheduling of weather-sensitive work."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all inspections, obtain certificate of occupancy, and provide comprehensive documentation including warranties, as-builts, flood elevation certificates, and operations manuals for your Bradenton commercial building."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-gray-50 rounded-lg p-6 shadow-sm">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Bradenton Businesses Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Bradenton Commercial Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor in Bradenton. You get direct accountability, single-point contact, and our full commitment to your project's success from start to finish.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Anchor className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Waterfront Construction Experts</h3>
-              <p className="text-gray-600">
-                With extensive experience along the Manatee River and coastal Manatee County, we understand the unique challenges of building in flood zones with enhanced wind requirements.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Relationships</h3>
-              <p className="text-gray-600">
-                Strong relationships with Bradenton and Manatee County building departments, inspectors, subcontractors, and suppliers help ensure smooth permitting and efficient construction execution.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in Bradenton follows a process adapted to the specific conditions of Manatee County.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Evaluation and Jurisdiction Assessment",
+                description: "We evaluate your Bradenton-area site for flood zone classification, soil conditions, utility availability, environmental considerations, and zoning compatibility. Critically, we determine whether the project falls under City of Bradenton or Manatee County jurisdiction, since the permitting pathways, review timelines, and inspection processes differ between the two.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design Coordination and Community Standards",
+                description: "Whether providing design-build services or working with your architect, we coordinate all design disciplines for constructability, code compliance, and cost efficiency. For Lakewood Ranch projects, this phase includes review against community design standards. For downtown Bradenton projects, we address flood zone elevation requirements, historic district considerations where applicable, and coordination with the city's downtown development standards.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting Through City or County",
+                description: "We prepare and submit complete permit packages to the appropriate jurisdiction. City of Bradenton commercial permits coordinate across building, fire, mechanical, electrical, and plumbing disciplines. Manatee County permits for larger developments also involve transportation impact, environmental, and stormwater management reviews. For all Bradenton-area projects, SWFWMD permits for stormwater management are coordinated in parallel with building permits.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction with Gulf Coast Scheduling",
+                description: "Experienced superintendents manage daily construction with scheduling that accounts for Bradenton's rainy season, the seasonal rhythms of tourism-adjacent areas, and coordination with neighboring properties in developed commercial corridors. We use our established network of Manatee County subcontractors who understand local conditions, code expectations, and the inspection protocols of both the city and county.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Comprehensive punch list resolution, final inspections, Certificate of Occupancy from the applicable jurisdiction, and complete turnover documentation. For commercial projects in flood zones, we provide elevation certificates and ensure all flood zone compliance documentation is complete for insurance purposes. We deliver as-built drawings, equipment manuals, and maintenance guides tailored to Bradenton's coastal climate demands.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={bradentonFaqs} title="Commercial Construction in Bradenton - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Bradenton Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in Bradenton and Manatee County, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services in Bradenton</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-bradenton/" className="text-brand-green hover:underline">Multi-Family Construction Bradenton</Link></li>
-                <li><Link href="/disaster-recovery-bradenton/" className="text-brand-green hover:underline">Disaster Recovery Bradenton</Link></li>
-                <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-                <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-tampa/" className="text-brand-green hover:underline">Commercial Construction Tampa</Link></li>
-                <li><Link href="/commercial-construction-sarasota/" className="text-brand-green hover:underline">Commercial Construction Sarasota</Link></li>
-                <li><Link href="/commercial-construction-st-petersburg/" className="text-brand-green hover:underline">Commercial Construction St. Petersburg</Link></li>
-                <li><Link href="/commercial-construction-ruskin/" className="text-brand-green hover:underline">Commercial Construction Ruskin</Link></li>
-                <li><Link href="/commercial-construction-lakeland/" className="text-brand-green hover:underline">Commercial Construction Lakeland</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Gallery</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Bradenton" currentService="commercial-construction" />
+            <NearbyLocations currentCity="Bradenton" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
             Start Your Bradenton Commercial Construction Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver commercial construction excellence in Bradenton with projects starting at $500,000.
+            Contact Florida Construction Specialists for a consultation on your commercial project in Bradenton or Manatee County. We will evaluate your site, discuss your vision, provide preliminary budgeting, and outline a clear path from permitting through occupancy.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Project Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

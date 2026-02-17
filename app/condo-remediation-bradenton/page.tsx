@@ -1,326 +1,104 @@
 import Link from "next/link";
-import Image from "next/image";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import {
-  Phone,
-  MapPin,
-  CheckCircle,
-  ArrowRight,
-  Building2,
-  Shield,
-  Award,
-  AlertTriangle,
-  FileText,
-  Wrench,
-  Clock,
-  Calendar,
-  DollarSign,
-  Users,
-  Sun,
-  Droplets,
-  Scale,
-  ClipboardCheck,
-  Waves,
-  Gauge,
-  Palmtree,
-  Search,
-  Hammer,
-  HelpCircle,
-  Target,
-} from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import {
-  LocalBusinessSchema,
-  ServiceSchema,
-  BreadcrumbSchema,
-  FAQSchema,
-} from "@/components/Schema";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, AlertTriangle, ClipboardCheck, Wrench } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { InternalLinks, RelatedServices, NearbyLocations } from "@/components/InternalLinks";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-bradenton/' },
-  title: "Condo Remediation Bradenton | SB4-D Compliance & SIRS",
-  description:
-    "Condo Remediation Sb4-d Compliance & Sirs in Bradenton: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Read more.",
+  title: "Condo Remediation Bradenton FL | SB 4-D, Anna Maria Island | FCS",
+  description: "Condo remediation in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections, Anna Maria Island condos, riverfront buildings, structural restoration. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "Which Bradenton-area condo buildings are most affected by SB 4-D milestone inspection requirements?",
+    answer: "SB 4-D requires milestone structural inspections for condominium buildings three stories or taller that are 30 years old, or 25 years old if located within three miles of the coastline. In Bradenton, the coastline proximity provision captures a large portion of the condo inventory because much of Manatee County's developed area falls within three miles of Tampa Bay, the Manatee River, or the Gulf Coast. Anna Maria Island condos, riverfront condos in downtown Bradenton, condos in West Bradenton near Palma Sola Bay, and even properties along the Braden River may trigger the 25-year threshold. The initial milestone inspection is a Phase 1 visual assessment by a licensed engineer, and if structural deterioration is found, a Phase 2 inspection with testing follows. We work with condo associations throughout this process, from inspection support through remediation construction."
+  },
+  {
+    question: "What makes Anna Maria Island condo buildings particularly vulnerable to structural deterioration?",
+    answer: "Anna Maria Island condos face the most aggressive environmental exposure in the Bradenton area. The barrier island sits directly on the Gulf of Mexico with no buffer from salt spray, wind-driven rain, and storm surge. Salt-laden air accelerates corrosion of reinforcing steel within concrete structural elements, which is the primary driver of concrete spalling, cracking, and structural deterioration in coastal condos. Many Anna Maria Island condos were built in the 1970s and 1980s before modern concrete cover and corrosion protection standards were adopted. The combination of age, direct Gulf exposure, and pre-modern construction practices creates conditions where structural remediation is not a question of if, but when. Holmes Beach and Bradenton Beach condos face similar exposure levels."
+  },
+  {
+    question: "How does condo remediation near the Manatee River differ from Gulf-facing properties?",
+    answer: "Manatee River-adjacent condos in downtown Bradenton and Palmetto face a different but equally challenging exposure profile. River water, while less saline than direct Gulf water, still contains salt content that drives chloride-induced rebar corrosion over time. River-facing condos also contend with periodic flooding during tropical weather events when storm surge pushes river levels above normal. The flooding introduces moisture into lower-floor structural elements that can remain trapped behind wall finishes, creating hidden deterioration that only becomes apparent during milestone inspections or when visible damage appears. Our remediation approach for riverfront Bradenton condos accounts for this moisture intrusion history alongside the standard corrosion assessment."
+  },
+  {
+    question: "What is the typical scope and cost range for condo remediation projects in Bradenton?",
+    answer: "Condo remediation scope in Bradenton varies significantly based on building age, location, original construction quality, and maintenance history. Minor remediation addressing localized concrete spalling and rebar corrosion on balconies and exterior elements may cost fifty thousand to two hundred thousand dollars for a typical mid-size building. Major structural remediation involving post-tensioned cable repairs, column or beam restoration, foundation issues, or extensive balcony reconstruction can range from five hundred thousand to several million dollars. Anna Maria Island condos and older riverfront buildings in Bradenton typically fall toward the higher end of this range due to their aggressive exposure conditions. We provide detailed scope assessments before construction begins so condo associations can plan assessments and financing appropriately."
+  },
+  {
+    question: "Can FCS coordinate condo remediation with ongoing building occupancy?",
+    answer: "Yes, and this is a critical capability for Bradenton condo remediation. Most condo associations cannot vacate their buildings during remediation work. We develop phased remediation plans that allow continued occupancy while construction proceeds, sequencing work to minimize disruption to residents. This includes temporary weatherproofing between work phases, noise and dust containment measures, controlled access around active work zones, and scheduling of the most disruptive activities during hours when the fewest residents are present. For Anna Maria Island seasonal condos, we often schedule major exterior work during the off-season months from May through October when unit occupancy is lower, though this coincides with the rainy and hurricane seasons which requires careful weather contingency planning."
+  },
+  {
+    question: "How does FCS handle the engineering and permitting requirements for Bradenton condo remediation?",
+    answer: "Condo remediation in Bradenton requires coordination between the structural engineer who performed the milestone inspection, our in-house engineering team, and the permitting jurisdiction. Remediation plans must be prepared by a licensed structural engineer and specify repair methods, materials, and acceptance criteria for each structural element. Permits go through the City of Bradenton Building Division for properties within city limits, or Manatee County Building Department for unincorporated areas. Anna Maria Island properties go through the respective city governments of Anna Maria, Holmes Beach, or Bradenton Beach, each of which has its own building department. We manage the complete engineering and permitting process so the condo association has a single point of coordination rather than juggling multiple consultants and jurisdictions."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Commercial Services", href: "/commercial/" },
-  { name: "Condo Remediation", href: "/commercial/condo-remediation/" },
+  { name: "Services", href: "/services/" },
+  { name: "Condo Remediation", href: "/condo-remediation/" },
   { name: "Bradenton", href: "/condo-remediation-bradenton/" },
-];
-
-const trustBadges = [
-  { icon: FileText, label: "SB4-D Compliance" },
-  { icon: ClipboardCheck, label: "Milestone Inspections" },
-  { icon: Shield, label: "Licensed CBC1262722" },
-  { icon: Award, label: "$4.9M+ Condo Projects" },
-];
-
-const services = [
-  {
-    icon: Search,
-    title: "Milestone Inspection Support",
-    description:
-      "Coordination with licensed structural engineers for Phase 1 and Phase 2 milestone inspections, complete documentation, and repair scoping for Manatee County compliance certification.",
-  },
-  {
-    icon: FileText,
-    title: "SIRS Compliance",
-    description:
-      "Structural Integrity Reserve Study support including component assessments, 30-year funding analysis, and reserve planning assistance for Bradenton condo associations facing new requirements.",
-  },
-  {
-    icon: Hammer,
-    title: "Structural Remediation",
-    description:
-      "Expert repair of structural deficiencies identified in inspections—balcony reconstruction, concrete spalling repair, rebar treatment, and waterproofing restoration for barrier island and mainland condos.",
-  },
-  {
-    icon: Droplets,
-    title: "Waterproofing Systems",
-    description:
-      "Multi-layer waterproofing membranes, traffic-bearing deck coatings, and envelope restoration engineered for Anna Maria Island's salt air and Bradenton's intense UV exposure.",
-  },
-  {
-    icon: Building2,
-    title: "Balcony Reconstruction",
-    description:
-      "Complete balcony restoration including structural repairs, railing replacement, surface restoration, and protective coatings using marine-grade materials for Gulf Coast durability.",
-  },
-  {
-    icon: Users,
-    title: "Board & HOA Coordination",
-    description:
-      "Experience working with Bradenton condo boards, property managers, and 55+ community associations on complex compliance projects, special assessments, and phased construction programs.",
-  },
-];
-
-const bradentonNeighborhoods = [
-  "Anna Maria Island",
-  "Holmes Beach",
-  "Bradenton Beach",
-  "Palmetto",
-  "Cortez",
-  "West Bradenton",
-  "Downtown Bradenton",
-  "Lakewood Ranch",
-  "Bayshore Gardens",
-  "Palma Sola",
-  "Northwest Bradenton",
-  "Longboat Key (Manatee)",
-];
-
-const processSteps = [
-  {
-    step: 1,
-    title: "Compliance Assessment",
-    description:
-      "Review your building's age, location (coastal proximity), current compliance status, and any existing inspection reports. Determine milestone inspection and SIRS deadlines for Manatee County requirements.",
-  },
-  {
-    step: 2,
-    title: "Engineering Coordination",
-    description:
-      "Connect with licensed structural engineers for Phase 1 visual inspection. If substantial deterioration is found, coordinate Phase 2 testing, analysis, and repair specification development.",
-  },
-  {
-    step: 3,
-    title: "Board Presentation",
-    description:
-      "Present findings, repair options, and cost estimates to your Bradenton condo board or HOA. Provide detailed proposals suitable for association decision-making and special assessment planning.",
-  },
-  {
-    step: 4,
-    title: "Funding Strategy",
-    description:
-      "Help boards evaluate funding options including existing reserves, special assessments, bank financing, and phased construction approaches to manage costs for Bradenton associations.",
-  },
-  {
-    step: 5,
-    title: "Phased Construction",
-    description:
-      "Execute remediation work strategically to maintain building occupancy, minimize disruption to residents, and coordinate around seasonal patterns for barrier island properties.",
-  },
-  {
-    step: 6,
-    title: "Documentation & Certification",
-    description:
-      "Provide complete documentation for engineering sign-off, Manatee County building department compliance certification, and association records required under SB4-D.",
-  },
-];
-
-const commonIssues = [
-  {
-    issue: "Balcony Deterioration",
-    description: "Spalling concrete, corroded rebar, waterproofing failures, and structural cracking in balcony slabs—especially severe on Anna Maria Island beachfront properties.",
-    severity: "High",
-  },
-  {
-    issue: "Concrete Spalling & Delamination",
-    description: "Surface concrete flaking and separating from reinforcing steel, exposing rebar to salt air corrosion accelerated by Gulf Coast conditions.",
-    severity: "High",
-  },
-  {
-    issue: "Rebar Corrosion",
-    description: "Rust expansion causing concrete cracking and structural capacity reduction—the primary failure mode in coastal Manatee County condominiums.",
-    severity: "Critical",
-  },
-  {
-    issue: "Waterproofing Failures",
-    description: "Failed deck coatings, membrane deterioration, and inadequate drainage allowing water intrusion that accelerates all other deterioration mechanisms.",
-    severity: "Medium",
-  },
-  {
-    issue: "Post-Tension Cable Issues",
-    description: "Corrosion, broken strands, or inadequate grouting in post-tensioned concrete systems common in 1980s-era Bradenton construction.",
-    severity: "Critical",
-  },
-  {
-    issue: "Parking Structure Deterioration",
-    description: "Corrosion damage in covered parking areas, expansion joint failures, and traffic surface wear requiring structural assessment and repair.",
-    severity: "High",
-  },
-];
-
-const bradentonFaqs = [
-  {
-    question: "What is Florida SB4-D and how does it affect Bradenton and Manatee County condominiums?",
-    answer:
-      "Florida Senate Bill 4-D, enacted in 2022 following the Surfside tragedy, mandates milestone structural inspections for all condominium and cooperative buildings three stories or taller. For Bradenton properties within three miles of the coastline—which includes Anna Maria Island, Holmes Beach, Bradenton Beach, Cortez, and most of Palma Sola—buildings 25 years or older must complete inspections by specific deadlines, then every 10 years thereafter. Many barrier island condos built during the 1970s-1990s are now past their critical inspection deadlines, requiring immediate attention to avoid compliance penalties from Manatee County building officials.",
-  },
-  {
-    question: "Which Bradenton areas fall within the SB4-D coastal zone requiring earlier inspections?",
-    answer:
-      "Under SB4-D, buildings within three miles of the coastline must complete milestone inspections at 25 years rather than 30 years for inland properties. In the Bradenton area, this coastal zone includes virtually all of Anna Maria Island (Anna Maria, Holmes Beach, Bradenton Beach), Cortez, Palma Sola, portions of West Bradenton near the bay, and Longboat Key. Properties in Downtown Bradenton, East Bradenton, Palmetto, and Lakewood Ranch typically fall outside the three-mile coastal zone and have slightly longer timelines, but many of these buildings are also approaching or past their 30-year milestones.",
-  },
-  {
-    question: "Why are Anna Maria Island condos especially vulnerable to structural deterioration?",
-    answer:
-      "Anna Maria Island condominiums face some of the most aggressive environmental conditions in Florida for structural deterioration. The combination of direct Gulf of Mexico salt spray, intense tropical UV exposure, humidity averaging 75%+, and seasonal hurricane impacts creates ideal conditions for accelerated concrete carbonation and reinforcing steel corrosion. Beachfront properties on Anna Maria, Holmes Beach, and Bradenton Beach experience salt air concentrations 3-5 times higher than even mainland Bradenton locations. Additionally, many island condos were built during the 1970s-80s with construction practices that didn't fully anticipate long-term salt air exposure.",
-  },
-  {
-    question: "What is a SIRS (Structural Integrity Reserve Study) and does my Bradenton condo need one?",
-    answer:
-      "A Structural Integrity Reserve Study is a specialized 30-year reserve analysis required by SB4-D for structural components including roof, foundation, load-bearing walls, floor structures, waterproofing, plumbing, and electrical systems. Unlike traditional reserve studies, SIRS cannot use pooled funding and associations cannot vote to waive or reduce structural reserves. All Bradenton condominium associations with buildings three stories or taller must complete SIRS by December 31, 2024. Beginning January 1, 2025, associations must fund structural reserves according to SIRS findings—a significant change affecting many Manatee County communities.",
-  },
-  {
-    question: "How much does SB4-D compliance and condo remediation typically cost in Bradenton?",
-    answer:
-      "Costs vary significantly based on building size, age, condition, and deficiency severity. Milestone inspections typically cost $3,000-$15,000 for Phase 1, with Phase 2 (if triggered) adding $15,000-$75,000 depending on complexity. SIRS studies range from $5,000-$30,000 depending on building size. Remediation costs depend entirely on deficiencies found—concrete spalling repair runs $15-50 per square foot, balcony reconstruction $300-600 per square foot, and building envelope rehabilitation $50-150 per square foot. Anna Maria Island properties often face higher costs due to severe salt air damage and logistics of barrier island construction.",
-  },
-  {
-    question: "Can residents stay in their Bradenton condo during remediation work?",
-    answer:
-      "In most cases, yes. FCS develops phased remediation plans specifically designed to maintain building occupancy. Our approach includes working floor-by-floor or section-by-section, creating temporary weather barriers, scheduling noisy work during reasonable hours, and maintaining all life safety systems. For barrier island properties, we coordinate schedules around seasonal occupancy patterns common on Anna Maria Island. Only in cases of severe structural deficiency where safety is compromised would temporary evacuation be recommended—this is relatively rare.",
-  },
-  {
-    question: "What happens if our Bradenton condo association misses SB4-D deadlines?",
-    answer:
-      "Non-compliance with SB4-D carries serious consequences for Manatee County condominiums. Associations face potential personal liability exposure for board members who fail to meet fiduciary duties. Insurance carriers may deny coverage or dramatically increase premiums. Property values decline significantly as buyers and lenders increasingly require compliance documentation before closing. Units may become unsellable or unfinanceable. In extreme cases, Manatee County building officials can declare buildings unsafe for occupancy. Given Anna Maria Island's high property values and desirability, non-compliant buildings face particularly severe market penalties.",
-  },
-  {
-    question: "How does FCS work with Bradenton condo associations and 55+ communities?",
-    answer:
-      "Florida Construction Specialists has extensive experience working with Manatee County condo associations, including the growing number of 55+ retirement communities in areas like Lakewood Ranch, Palmetto, and West Bradenton. We understand the unique governance dynamics, fixed-income budget sensitivities, and communication preferences of these communities. Our team provides detailed proposals suitable for board presentations, attends association meetings when requested, offers flexible payment terms aligned with special assessment schedules, and maintains clear communication with property managers and residents throughout projects.",
-  },
-  {
-    question: "What funding options exist for SB4-D compliance work in Bradenton?",
-    answer:
-      "Common funding approaches for Manatee County associations include: existing reserves (if adequately funded through prior planning), special assessments (one-time or multi-year charges to unit owners), bank loans secured by future assessments (typically repaid over 5-15 years), phased construction (spreading work across multiple budget cycles), and combinations thereof. Many Bradenton associations use reserve loans to begin immediate compliance work while collecting special assessments over time. FCS helps boards understand options and develop strategies that balance urgency with owner financial capacity—particularly important for 55+ communities with fixed-income residents.",
-  },
-  {
-    question: "What's the difference between Phase 1 and Phase 2 milestone inspections?",
-    answer:
-      "Phase 1 is a visual inspection by a licensed engineer or architect to identify any substantial structural deterioration. The inspector examines load-bearing walls, primary structural systems, and overall structural condition. If substantial deterioration is found during Phase 1, a Phase 2 inspection is triggered. Phase 2 requires more extensive investigation including destructive testing (concrete cores, rebar exposure), detailed structural analysis, and development of a comprehensive repair plan with cost estimates and timelines. FCS coordinates with qualified engineers for both phases and implements required remediation work identified in Phase 2 reports.",
-  },
-  {
-    question: "How long does the remediation process take from inspection to completion?",
-    answer:
-      "Timeline depends heavily on scope. Milestone inspections take 2-4 weeks. SIRS studies take 4-8 weeks. Once deficiencies are identified, engineering and bid development typically requires 6-12 weeks. Remediation construction varies by scope—individual balcony repairs may take 1-2 weeks per unit, while building-wide projects span 6-18 months depending on size and complexity. For Anna Maria Island properties, we factor in seasonal considerations and potential weather delays. FCS provides detailed schedules during pre-construction and works with boards to establish realistic timelines.",
-  },
-  {
-    question: "Does FCS have experience with large condo remediation projects?",
-    answer:
-      "Yes. FCS completed the $4.9 million Tiara Condominium Association balcony reconstruction and waterproofing project—one of the largest condo remediation projects in the Tampa Bay region—involving reconstruction of over 180 balconies while maintaining building occupancy throughout construction. We also completed the $2.5 million Southwind Condominiums roof and waterproofing restoration. Our team has decades of experience in multi-family construction and restoration, working with condo boards throughout Manatee and Pinellas counties, and managing complex phased construction in occupied buildings.",
-  },
-];
-
-const internalLinks = [
-  { href: "/commercial/condo-remediation/", label: "Condo Remediation Services" },
-  { href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/", label: "SB4-D Compliance Guide" },
-  { href: "/balcony-reconstruction/", label: "Balcony Reconstruction" },
-  { href: "/exterior-waterproofing/", label: "Exterior Waterproofing" },
-  { href: "/condo-remediation-sarasota/", label: "Condo Remediation Sarasota" },
-  { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
 export default function CondoRemediationBradentonPage() {
   return (
     <>
-      <LocalBusinessSchema city="Bradenton" service="Condo Remediation & SB4-D Compliance" />
+      <LocalBusinessSchema city="Bradenton" service="Condo Remediation" />
       <ServiceSchema
-        serviceName="Condo Remediation & SB4-D Compliance"
-        serviceDescription="Expert condo remediation and SB4-D compliance services for Bradenton, Anna Maria Island, Holmes Beach, and Manatee County condominiums. Milestone inspection support, SIRS compliance, structural repairs. Projects from $100,000 to $10 million+."
+        serviceName="Condo Remediation"
+        serviceDescription="Condo remediation and structural restoration in Bradenton, FL. SB 4-D milestone inspections, Anna Maria Island condos, riverfront buildings, concrete restoration, balcony repairs. Licensed CBC1262722, 40+ years experience."
         city="Bradenton"
         minPrice="100000"
-        serviceCategories={["Concrete Restoration","Rebar Repair","Structural Waterproofing","Milestone Inspections","Common Area Renovation"]}
+        serviceCategories={["Structural Remediation", "Concrete Restoration", "SB 4-D Compliance", "Balcony Repairs", "Building Envelope Restoration"]}
       />
-      <FAQSchema faqs={bradentonFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
-      <Breadcrumb items={breadcrumbItems} />
-
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp')] bg-cover bg-center opacity-15" />
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/80 to-transparent" />
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            {/* Location Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-green/20 rounded-full mb-6">
-              <MapPin className="w-4 h-4 text-brand-green" />
-              <span className="text-brand-green font-semibold">Serving Bradenton & Manatee County</span>
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Bradenton & Manatee County</span>
             </div>
-
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Condo Remediation & SB4-D Compliance in Bradenton
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Condo Remediation in Bradenton, Florida
             </h1>
-
-            <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
-              Manatee County's trusted contractor for SB4-D compliance, milestone inspections, and
-              structural remediation. Serving Anna Maria Island beachfront condos, Lakewood Ranch
-              communities, and Bradenton-area buildings three stories and higher. Projects from $100K to $10M+.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the aging oceanfront condos on Anna Maria Island to the riverfront buildings along the Manatee River in downtown Bradenton, condominium structures across Manatee County face the relentless effects of Gulf Coast salt air, humidity, and storm exposure. Florida Construction Specialists provides comprehensive condo remediation services, from SB 4-D milestone inspection support through full structural restoration, for associations navigating the reality of building aging in one of Florida's most corrosive coastal environments.
             </p>
 
             {/* Trust Badges */}
-            <div className="flex flex-wrap gap-3 mb-8">
-              {trustBadges.map((badge) => (
-                <div
-                  key={badge.label}
-                  className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-lg"
-                >
-                  <badge.icon className="w-5 h-5 text-brand-green" />
-                  <span className="text-white font-medium">{badge.label}</span>
-                </div>
-              ))}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
             </div>
 
-            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Request Compliance Assessment
+              <Link href="/contact/" className="btn-cta text-center">
+                Schedule a Remediation Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -329,287 +107,86 @@ export default function CondoRemediationBradentonPage() {
         </div>
       </section>
 
-      {/* SB4-D Alert Banner */}
-      <section className="py-4 bg-red-600">
-        <div className="container-custom">
-          <div className="flex flex-col md:flex-row items-center justify-center gap-3 text-white">
-            <AlertTriangle className="w-6 h-6 flex-shrink-0" />
-            <p className="font-semibold text-center">
-              <strong>SB4-D Deadline Alert:</strong> Bradenton coastal buildings 30+ years old must complete
-              milestone inspections by December 31, 2024. Many Anna Maria Island condos built in the 1970s-80s
-              are past deadlines. Contact FCS immediately.
-            </p>
-            <Link href="/contact/" className="flex-shrink-0 bg-white text-red-600 px-4 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors">
-              Act Now
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Bradenton Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Bradenton & Manatee County's SB4-D Compliance Specialists
-              </h2>
-
-              <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-                Florida Construction Specialists is the trusted partner for Manatee County condominium
-                associations navigating Florida's SB4-D compliance requirements. With over $7.4 million
-                in completed condo remediation projects and decades of experience working with condo
-                boards throughout the Tampa Bay region, we understand the unique challenges facing
-                Bradenton-area communities—from beachfront high-rises on Anna Maria Island to growing
-                55+ communities in Lakewood Ranch.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Why Bradenton's Condo Buildings Face Urgent Remediation Needs
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Bradenton and Manatee County's condominium inventory tells a story of three distinct exposure zones, each creating different remediation challenges. The most aggressive environment belongs to Anna Maria Island, where barrier island condos built in the 1970s and 1980s sit directly on the Gulf of Mexico with unobstructed exposure to salt spray, hurricane-force winds, and storm surge. Holmes Beach and Bradenton Beach condos share this Gulf-front vulnerability. These buildings were constructed before modern corrosion protection standards and many are now reaching or exceeding the 25-year coastal milestone inspection threshold under SB 4-D.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                The 2021 Surfside condominium collapse exposed critical gaps in Florida's condo safety
-                oversight, prompting the Legislature to pass SB4-D—the most comprehensive condo safety
-                legislation in state history. For Bradenton and Manatee County associations, this means
-                mandatory milestone structural inspections for buildings three stories or taller,
-                Structural Integrity Reserve Studies (SIRS) with strict funding requirements, and
-                serious consequences for non-compliance including potential building closure orders
-                and personal liability for board members.
+              <p className="mb-6">
+                The second exposure zone encompasses the Manatee River corridor through downtown Bradenton and across to Palmetto. Riverfront condo buildings here face brackish water exposure, periodic flooding during tropical weather, and the persistent high humidity that characterizes the river corridor. These buildings may not experience the same intensity of salt spray as Gulf-front condos, but the combination of moisture, humidity, and age creates a different but equally serious deterioration pattern. Rebar corrosion progresses more slowly but over decades produces the same structural concerns: concrete spalling, delamination, and loss of structural capacity in columns, beams, slabs, and balcony elements.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Anna Maria Island and the Bradenton barrier islands face particularly urgent timelines.
-                Buildings within three miles of the coastline must complete inspections at 25 years
-                rather than 30, and many island condos built during the 1970s-80s tourism boom are
-                already past their deadlines. The aggressive salt air environment has accelerated
-                deterioration in these buildings, often revealing significant structural issues when
-                inspections are finally completed.
+              <p className="mb-6">
+                The third zone includes inland Bradenton condos in areas like West Bradenton near Palma Sola Bay, condos along the SR-64 corridor, and properties in the Braden River area. While these buildings have less direct salt exposure than coastal or riverfront properties, Bradenton's overall Gulf Coast climate still delivers salt-laden air, intense UV radiation, and over 50 inches of annual rainfall that test building envelope integrity year after year. Older condos in these areas often show deterioration in parking structures, stairwells, walkways, and balconies where water intrusion has gone unaddressed for years.
               </p>
-
-              <p className="text-gray-600 mb-8">
-                FCS provides the complete SB4-D compliance solution: coordinating milestone inspections
-                with qualified structural engineers, helping boards understand SIRS requirements and
-                funding implications, and executing the structural remediation work that inspections
-                reveal. Our expertise spans balcony reconstruction, concrete restoration, waterproofing
-                systems, and comprehensive building envelope rehabilitation—all using materials and
-                methods specifically engineered for Gulf Coast conditions.
+              <p>
+                SB 4-D has accelerated the timeline for addressing these conditions across all three zones. Condo associations that previously deferred maintenance and reserve funding now face mandatory engineering inspections with legal deadlines. When those inspections reveal structural issues, associations must act, and the remediation construction that follows requires a contractor who understands both the engineering complexity of structural restoration and the practical challenges of working on occupied condominium buildings.
               </p>
-
-              {/* Project Gallery */}
-              <div className="grid md:grid-cols-3 gap-4 my-8">
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp"
-                    alt="Condo remediation project"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Structural Remediation</p>
-                    <p className="text-xs text-gray-200">Multi-Story Condo</p>
-                  </div>
-                </div>
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
-                    alt="Waterproofing restoration"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Waterproofing</p>
-                    <p className="text-xs text-gray-200">Envelope Protection</p>
-                  </div>
-                </div>
-                <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
-                  <Image
-                    src="/wp-content/uploads/2023/12/FCS-Tiles-on-balcony.webp"
-                    alt="Balcony reconstruction"
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
-                  <div className="absolute bottom-3 left-3 right-3 text-white">
-                    <p className="font-semibold text-sm">Balcony Restoration</p>
-                    <p className="text-xs text-gray-200">Complete Rebuild</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Target Audience Section */}
-              <div className="bg-brand-green-bg rounded-xl p-6 mb-8">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-4 flex items-center gap-2">
-                  <Users className="w-6 h-6 text-brand-green" />
-                  Who We Serve in Bradenton & Manatee County
-                </h3>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Condo Associations</span>
-                      <p className="text-sm text-gray-600">
-                        Board members navigating SB4-D compliance for Anna Maria and mainland properties
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">55+ Communities</span>
-                      <p className="text-sm text-gray-600">
-                        Retirement community boards in Lakewood Ranch, Palmetto, and West Bradenton
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Property Managers</span>
-                      <p className="text-sm text-gray-600">
-                        Managing milestone inspections and remediation for Manatee County portfolios
-                      </p>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3">
-                    <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                    <div>
-                      <span className="font-semibold text-gray-800">Multi-Family Owners</span>
-                      <p className="text-sm text-gray-600">
-                        Waterfront and inland building owners facing compliance requirements
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              {/* CTA */}
-              <div className="bg-gray-50 border border-gray-200 rounded-xl p-6 mb-8">
-                <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-                  <div>
-                    <h4 className="font-bold text-gray-900 mb-1">
-                      Need a Compliance Assessment for Your Bradenton Building?
-                    </h4>
-                    <p className="text-gray-600">
-                      We provide complimentary consultations for qualified projects.
-                    </p>
-                  </div>
-                  <a
-                    href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                    className="inline-flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-dark transition-colors whitespace-nowrap"
-                  >
-                    <Phone className="w-5 h-5" />
-                    {BUSINESS_INFO.phone}
-                  </a>
-                </div>
-              </div>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="text-xl font-bold mb-4">HOA & Condo Boards</h3>
-                <p className="text-gray-200 mb-4">
-                  Request a complimentary SB4-D compliance assessment and remediation proposal for
-                  your Bradenton or Anna Maria Island condominium.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-full hover:bg-brand-green-forest transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              {/* SB4-D Info Box */}
-              <div className="bg-amber-50 border border-amber-200 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-amber-800 mb-3 flex items-center gap-2">
-                  <AlertTriangle className="w-5 h-5" />
-                  SB4-D Quick Facts
-                </h3>
-                <ul className="space-y-2 text-amber-700 text-sm">
-                  <li className="flex items-start gap-2">
-                    <span className="font-bold">Applies to:</span> Buildings 3+ stories
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="font-bold">Coastal:</span> 25 years, then every 10 years
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="font-bold">Anna Maria:</span> All within coastal zone
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="font-bold">SIRS Due:</span> December 31, 2024
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="font-bold">No Waivers:</span> Starting January 1, 2025
-                  </li>
-                </ul>
-                <Link
-                  href="/insurance/guides/sb-4-d-compliance-tampa-bay-condos/"
-                  className="text-amber-800 font-semibold text-sm mt-4 inline-flex items-center gap-1 hover:underline"
-                >
-                  Read Full SB4-D Guide <ArrowRight className="w-4 h-4" />
-                </Link>
-              </div>
-
-              {/* Common Issues */}
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-brand-green-dark mb-4 flex items-center gap-2">
-                  <Wrench className="w-5 h-5 text-brand-green" />
-                  Common Issues We Repair
-                </h3>
-                <ul className="space-y-3">
-                  {commonIssues.slice(0, 4).map((item) => (
-                    <li key={item.issue} className="flex items-start gap-2">
-                      <span className={`px-2 py-0.5 rounded text-xs font-bold ${
-                        item.severity === 'Critical' ? 'bg-red-100 text-red-700' :
-                        item.severity === 'High' ? 'bg-orange-100 text-orange-700' :
-                        'bg-yellow-100 text-yellow-700'
-                      }`}>
-                        {item.severity}
-                      </span>
-                      <span className="text-gray-700 text-sm">{item.issue}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-
-              {/* Related Services */}
-              <RelatedServices city="Bradenton" currentService="condo-remediation" />
-
-              {/* Nearby Locations */}
-              <NearbyLocations
-                currentCity="Bradenton"
-                service="condo-remediation"
-                serviceName="Condo Remediation"
-              />
             </div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/southwinds-condo-front/southwinds-condo-front-display.webp"
+        alt="Condominium building in Bradenton area requiring structural remediation"
+        title="Restoring Bradenton's Condominium Buildings"
+        subtitle="SB 4-D compliance, structural restoration, and long-term building preservation across Manatee County"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              SB4-D Compliance & Remediation Services in Bradenton
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Comprehensive condo compliance and structural restoration solutions for Anna Maria Island
-              beachfront condominiums, Lakewood Ranch communities, and Manatee County multi-family buildings.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Condo Remediation Services for Bradenton's Coastal Buildings
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From Anna Maria Island Gulf-front condos to downtown riverfront buildings, we deliver structural remediation tailored to each building's exposure conditions and deterioration patterns.
+          </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {services.map((service) => (
-              <div
-                key={service.title}
-                className="bg-white rounded-xl p-6 shadow-md hover:shadow-lg transition-shadow"
-              >
-                <div className="w-14 h-14 bg-brand-green-bg rounded-xl flex items-center justify-center mb-4">
-                  <service.icon className="w-7 h-7 text-brand-green" />
+            {[
+              {
+                icon: ClipboardCheck,
+                title: "SB 4-D Milestone Inspection Support",
+                description: "We assist condo associations through the SB 4-D milestone inspection process, coordinating with structural engineers during Phase 1 visual inspections and Phase 2 detailed assessments. When inspections reveal structural deficiencies, we translate engineering findings into actionable remediation plans with realistic budgets and timelines, helping associations understand their options and prioritize repairs."
+              },
+              {
+                icon: Building2,
+                title: "Structural Concrete Restoration",
+                description: "Repair of deteriorated concrete structural elements including columns, beams, slabs, shear walls, and parking structures. Bradenton's coastal exposure drives chloride-induced rebar corrosion that causes concrete spalling and delamination. We remove deteriorated concrete, treat or replace corroded reinforcing steel, apply corrosion inhibitors, and place engineered repair mortars that restore structural capacity and extend service life."
+              },
+              {
+                icon: Wrench,
+                title: "Balcony and Walkway Restoration",
+                description: "Comprehensive repair of balcony slabs, railings, waterproofing membranes, and drainage systems. Balconies on Bradenton condos are among the first elements to show deterioration because they are fully exposed to weather on three sides. We restore structural integrity, install modern waterproofing systems, and replace deteriorated railings with code-compliant assemblies that resist the salt air and UV exposure unique to the Gulf Coast."
+              },
+              {
+                icon: Shield,
+                title: "Building Envelope Remediation",
+                description: "Restoration of exterior wall systems, window assemblies, sealant joints, and stucco finishes that protect the building structure from moisture intrusion. Anna Maria Island and riverfront condos in Bradenton experience accelerated exterior deterioration from salt, humidity, and storm-driven rain. We address the root causes of moisture intrusion rather than applying cosmetic repairs that mask ongoing deterioration."
+              },
+              {
+                icon: AlertTriangle,
+                title: "Post-Tensioned Cable Assessment",
+                description: "Evaluation and repair of post-tensioned concrete systems found in many Bradenton-area condos from the 1970s through 1990s. Post-tensioned cables under stress are vulnerable to corrosion-induced failure, which can cause sudden and dangerous structural capacity loss. We work with structural engineers to assess cable condition, perform selective exploratory openings, and execute repairs that preserve the post-tensioning system's integrity."
+              },
+              {
+                icon: FileCheck,
+                title: "Reserve Study Support",
+                description: "We help Bradenton condo associations develop accurate remediation cost estimates for reserve study planning. SB 4-D's reserve funding requirements mean associations must budget realistically for structural maintenance. Our experience with Manatee County condo buildings allows us to provide cost projections based on actual construction costs rather than generic estimating databases that understate Gulf Coast remediation expenses."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
                 <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
                 <p className="text-gray-600">{service.description}</p>
@@ -619,325 +196,81 @@ export default function CondoRemediationBradentonPage() {
         </div>
       </section>
 
-      {/* Bradenton-Specific Content Section */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Bradenton's Unique Condo Compliance Challenges
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Manatee County's diverse condominium landscape presents distinct SB4-D compliance
-                challenges. From salt-battered beachfront towers on Anna Maria Island to expanding
-                55+ communities in Lakewood Ranch, each building type requires specialized approaches
-                to inspection, assessment, and remediation. Understanding these local factors helps
-                boards plan effectively for compliance.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
-                  <Waves className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Barrier Island Vulnerability</h4>
-                    <p className="text-gray-600 text-sm">
-                      Anna Maria Island, Holmes Beach, and Bradenton Beach condos face direct Gulf
-                      exposure with salt concentrations far exceeding mainland properties. Many
-                      1970s-80s era buildings are now revealing decades of accumulated damage.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Target className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Hurricane Exposure</h4>
-                    <p className="text-gray-600 text-sm">
-                      Barrier island properties face elevated hurricane risk. Historic storms have
-                      stressed building envelopes, potentially compromising waterproofing and
-                      creating hidden deterioration pathways only revealed during inspections.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <Users className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Growing 55+ Community Market</h4>
-                    <p className="text-gray-600 text-sm">
-                      Lakewood Ranch, Palmetto, and West Bradenton have seen explosive growth in
-                      retirement communities. Many 3+ story buildings in these communities are
-                      approaching or past SB4-D milestone ages, requiring board action.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3">
-                  <DollarSign className="w-6 h-6 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Fixed-Income Budget Sensitivity</h4>
-                    <p className="text-gray-600 text-sm">
-                      Many Bradenton-area associations serve retirees on fixed incomes. Special
-                      assessments for compliance work require careful planning, phasing options,
-                      and financing alternatives that FCS helps boards navigate.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div>
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Bradenton Areas We Serve
-              </h3>
-              <p className="text-gray-600 mb-6">
-                FCS provides SB4-D compliance and condo remediation services throughout Bradenton
-                and Manatee County. Our team is familiar with local building department requirements,
-                permit processes, and the specific challenges of each community type.
-              </p>
-              <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
-                {bradentonNeighborhoods.map((neighborhood) => (
-                  <div
-                    key={neighborhood}
-                    className="flex items-center gap-2 bg-gray-50 px-3 py-2 rounded-lg"
-                  >
-                    <MapPin className="w-4 h-4 text-brand-green" />
-                    <span className="text-gray-700 text-sm">{neighborhood}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* Coastal vs Inland Box */}
-              <div className="mt-8 bg-blue-50 border border-blue-200 rounded-xl p-6">
-                <h4 className="font-bold text-blue-800 mb-3 flex items-center gap-2">
-                  <MapPin className="w-5 h-5" />
-                  Coastal Zone Deadline Differences
-                </h4>
-                <div className="space-y-3 text-sm text-blue-700">
-                  <div className="flex justify-between items-center border-b border-blue-200 pb-2">
-                    <span className="font-medium">Within 3 Miles (Coastal)</span>
-                    <span className="bg-blue-100 px-2 py-1 rounded">25 Year Milestone</span>
-                  </div>
-                  <p className="text-xs">
-                    Anna Maria Island, Holmes Beach, Bradenton Beach, Cortez, Palma Sola, parts of West Bradenton
-                  </p>
-                  <div className="flex justify-between items-center border-b border-blue-200 pb-2 mt-4">
-                    <span className="font-medium">Beyond 3 Miles (Inland)</span>
-                    <span className="bg-blue-100 px-2 py-1 rounded">30 Year Milestone</span>
-                  </div>
-                  <p className="text-xs">
-                    Downtown Bradenton, Lakewood Ranch, Palmetto, East Bradenton
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Understanding SB4-D Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-8 font-heading text-center">
-              Understanding SB4-D: What Bradenton Condo Boards Must Know
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Bradenton's Condo Building Challenges
             </h2>
-
             <div className="prose prose-lg max-w-none text-gray-700">
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">The Surfside Tragedy and Florida's Response</h3>
               <p className="mb-6">
-                On June 24, 2021, Champlain Towers South in Surfside collapsed without warning, killing
-                98 people in one of the deadliest structural failures in American history. Subsequent
-                investigations revealed years of deferred maintenance, inadequate reserve funding, and
-                missed warning signs about deteriorating structural conditions. The tragedy exposed
-                critical gaps in how Florida oversees condominium building safety.
+                Condo remediation in Bradenton requires understanding how the local environment interacts with building materials over decades. Manatee County's climate is not simply "hot and humid." The specific combination of Gulf of Mexico salt spray, Manatee River estuary moisture, afternoon thunderstorms that dump inches of rain in under an hour, and UV intensity that degrades sealants and coatings faster than manufacturer specifications assume, creates a deterioration environment that generic remediation approaches fail to address adequately.
               </p>
               <p className="mb-6">
-                In response, the Florida Legislature passed Senate Bill 4-D in May 2022, creating the
-                most comprehensive condo safety requirements in state history. The law mandates periodic
-                structural inspections, requires associations to maintain adequate reserves for structural
-                repairs, and eliminates the ability to waive or reduce reserve funding for critical
-                structural components. For Bradenton and Manatee County, this affects hundreds of
-                condominium buildings from Anna Maria Island to Lakewood Ranch.
-              </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">Which Bradenton Buildings Are Affected?</h3>
-              <p className="mb-6">
-                SB4-D applies to condominium and cooperative buildings three stories or taller. In
-                Manatee County, this includes beachfront towers on Anna Maria Island, mid-rise
-                condominiums throughout Bradenton, and many 55+ community buildings in Lakewood Ranch
-                and Palmetto. Key factors determining compliance timelines include building age (30-year
-                milestone, or 25 years within 3 miles of coast), coastal proximity, and building height.
-                The law makes no distinction between luxury beachfront properties and modest retirement
-                community buildings—all are subject to the same requirements.
-              </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">Milestone Inspection Requirements</h3>
-              <p className="mb-6">
-                The centerpiece of SB4-D is the mandatory milestone structural inspection, performed by
-                a licensed architect or engineer. Phase 1 is a visual examination of structural
-                components—foundation, load-bearing walls, floor structures, and building envelope. If
-                Phase 1 reveals substantial deterioration, Phase 2 triggers more extensive investigation
-                including destructive testing and development of a detailed repair plan with cost
-                estimates and timelines.
+                Permitting for condo remediation in Bradenton involves multiple potential jurisdictions. The <a href="https://www.bradentonfl.gov/217/Building" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Bradenton Building Division</a> handles permits within city limits. The <a href="https://www.mymanatee.org/departments/building_and_development_services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Manatee County Building and Development Services</a> covers unincorporated areas. Anna Maria Island condos go through the building departments of Anna Maria, Holmes Beach, or Bradenton Beach depending on location. Each municipality has slightly different processes and review timelines. We navigate all of these jurisdictions and ensure remediation permits are obtained efficiently regardless of building location.
               </p>
               <p className="mb-6">
-                For Bradenton buildings already past their milestone age, initial inspections must be
-                completed by December 31, 2024 (coastal) or December 31, 2025 (inland). Buildings
-                approaching their milestone must complete inspection within the applicable timeframe.
-                After the initial inspection, subsequent milestone inspections are required every 10
-                years—a significant ongoing obligation for associations.
+                The occupied nature of condo buildings adds complexity that other construction types do not face. Residents live in the building during remediation. Noise, dust, vibration, temporary loss of balcony access, and scaffolding adjacent to windows all affect daily life. In Bradenton's tourism-influenced market, particularly on Anna Maria Island, unit owners may rely on rental income from seasonal tenants. Extended remediation that prevents rental use creates direct financial pressure on the association and individual owners. We develop remediation schedules that minimize disruption duration while maintaining construction quality and safety standards.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">SIRS: The End of Reserve Waivers</h3>
-              <p className="mb-6">
-                Perhaps the most significant change for Manatee County associations is the Structural
-                Integrity Reserve Study (SIRS) requirement. This specialized reserve study focuses on
-                structural components: roof, foundation, load-bearing walls, floor structures,
-                waterproofing, plumbing, and electrical systems. Unlike traditional reserve studies,
-                SIRS cannot include pooled funding with non-structural items, and associations cannot
-                vote to waive or reduce funding.
+              <p>
+                Our experience with Manatee County condo buildings gives us insight into the construction methods and material choices that were common during different building eras. 1970s condos in the Bradenton area often used different concrete mix designs, rebar cover depths, and waterproofing approaches than 1990s buildings. Understanding these era-specific construction characteristics helps us anticipate what we will find once demolition begins and plan remediation approaches that address the root causes of deterioration specific to each building's construction vintage.
               </p>
-              <p className="mb-6">
-                Beginning January 1, 2025, associations must fund structural reserves according to
-                their SIRS findings. This represents a fundamental shift for many Bradenton associations
-                that have historically deferred structural maintenance. Boards should begin preparing
-                unit owners now for what may be significant increases in regular assessments—or
-                alternatively, develop special assessment plans for immediate compliance work.
-              </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">Consequences of Non-Compliance</h3>
-              <p className="mb-6">
-                The consequences of failing to comply with SB4-D are severe and designed to be impossible
-                to ignore. Manatee County building officials can issue notices of non-compliance that
-                escalate to building closure orders for structures posing safety risks. Board members
-                who fail to ensure compliance may face personal liability for breach of fiduciary duty.
-                Insurance carriers may decline coverage or charge significant premiums for non-compliant
-                buildings.
-              </p>
-              <p className="mb-6">
-                Beyond regulatory penalties, non-compliance creates practical problems that hit property
-                values directly. Prospective buyers and lenders increasingly require proof of SB4-D
-                compliance before closing transactions. In Anna Maria Island's competitive real estate
-                market, non-compliant buildings face particularly severe market penalties as informed
-                buyers pass over properties with uncertain compliance status.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* SB4-D Compliance Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold mb-6 font-heading">
-                SB4-D Compliance Timeline for Manatee County
-              </h2>
-
-              <p className="text-gray-200 mb-6">
-                Understanding your building's specific deadlines is critical for compliance planning.
-                The timeline varies based on building age and coastal proximity—factors that affect
-                most Bradenton-area condominiums differently.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <AlertTriangle className="w-5 h-5 text-red-400 mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-bold text-red-300">December 31, 2024</span>
-                    <p className="text-gray-200 text-sm">
-                      Coastal buildings 30+ years old must complete milestone inspections. SIRS must be completed for all applicable buildings.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <Clock className="w-5 h-5 text-amber-400 mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-bold text-amber-300">January 1, 2025</span>
-                    <p className="text-gray-200 text-sm">
-                      Reserve waivers prohibited. Associations must fund structural reserves per SIRS findings.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <Calendar className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-bold text-brand-green">December 31, 2025</span>
-                    <p className="text-gray-200 text-sm">
-                      Inland buildings 30+ years old must complete milestone inspections.
-                    </p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-3 bg-white/10 backdrop-blur-sm rounded-lg p-4">
-                  <Building2 className="w-5 h-5 text-gray-300 mt-0.5 flex-shrink-0" />
-                  <div>
-                    <span className="font-bold text-gray-200">Ongoing</span>
-                    <p className="text-gray-200 text-sm">
-                      Subsequent milestone inspections required every 10 years after initial.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-forest transition-colors"
-              >
-                Discuss Your Compliance Timeline <ArrowRight className="w-5 h-5" />
-              </Link>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-white mb-1">$4.9M</div>
-                <div className="text-gray-300 text-sm">Largest Condo Project</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-white mb-1">$7.4M+</div>
-                <div className="text-gray-300 text-sm">Condo Work Completed</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <Calendar className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-white mb-1">40+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
-                <Shield className="w-10 h-10 text-brand-green mx-auto mb-3" />
-                <div className="text-3xl font-bold text-white mb-1">$10M+</div>
-                <div className="text-gray-300 text-sm">Bonding Capacity</div>
-              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our SB4-D Compliance & Remediation Process
-            </h2>
-            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              FCS manages every aspect of condo compliance from initial assessment through completed
-              remediation, with particular attention to Manatee County building requirements and
-              condo association governance.
-            </p>
-          </div>
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Bradenton Condo Remediation Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Condo remediation follows a structured process from initial assessment through construction closeout, with resident communication at every stage.
+          </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Assessment and Scope Development",
+                description: "We review the structural engineer's milestone inspection report, conduct our own construction assessment, and develop a detailed remediation scope. For Bradenton condos, this includes evaluating the building's specific exposure conditions, reviewing maintenance history, and identifying both the deficiencies noted in the engineering report and any additional construction concerns we observe. We present the scope and estimated budget to the condo association board.",
+                icon: ClipboardCheck,
+              },
+              {
+                step: "02",
+                title: "Engineering and Permitting",
+                description: "Working with the structural engineer of record, we develop construction-level remediation plans that specify repair methods, materials, and acceptance criteria for each element. We submit permit applications to the appropriate jurisdiction, whether City of Bradenton, Manatee County, or one of the Anna Maria Island municipalities, and coordinate plan review to ensure approvals are obtained on schedule.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Resident Communication and Phasing",
+                description: "Before construction begins, we present the remediation plan to the association and residents, explaining the work sequence, anticipated duration, access restrictions, and noise expectations. We develop a phasing plan that minimizes impact on occupied units, schedules the most disruptive work strategically, and provides clear communication channels for resident questions throughout the project.",
+                icon: Building2,
+              },
+              {
+                step: "04",
+                title: "Remediation Construction",
+                description: "Experienced crews execute the remediation work following the engineered plans. Concrete removal, rebar treatment, structural repairs, waterproofing installation, and finish restoration proceed in the planned sequence. Our superintendents manage quality control at each repair location, documenting conditions found and work completed for the structural engineer's review and the association's records.",
+                icon: Wrench,
+              },
+              {
+                step: "05",
+                title: "Engineering Verification and Closeout",
+                description: "The structural engineer inspects completed remediation work and provides written verification that the building meets the required structural standards. We coordinate final building inspections, provide complete documentation of all work performed, deliver warranty information, and present the association with a maintenance plan to protect the remediation investment in Bradenton's demanding coastal environment.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -945,268 +278,48 @@ export default function CondoRemediationBradentonPage() {
         </div>
       </section>
 
-      {/* Common Issues Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading text-center">
-              Common Structural Issues in Bradenton Condominiums
-            </h2>
-            <p className="text-lg text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-              Based on our experience with Manatee County condominiums, these are the structural
-              issues most frequently identified during milestone inspections—and the repairs we
-              commonly implement.
-            </p>
-
-            <div className="grid md:grid-cols-2 gap-6">
-              {commonIssues.map((item, index) => (
-                <div
-                  key={index}
-                  className={`bg-white rounded-xl p-6 border-l-4 shadow-sm ${
-                    item.severity === 'Critical' ? 'border-red-500' :
-                    item.severity === 'High' ? 'border-orange-500' :
-                    'border-yellow-500'
-                  }`}
-                >
-                  <div className="flex items-start justify-between mb-2">
-                    <h3 className="text-lg font-bold text-brand-green-dark">{item.issue}</h3>
-                    <span className={`px-2 py-1 rounded text-xs font-bold ${
-                      item.severity === 'Critical' ? 'bg-red-100 text-red-700' :
-                      item.severity === 'High' ? 'bg-orange-100 text-orange-700' :
-                      'bg-yellow-100 text-yellow-700'
-                    }`}>
-                      {item.severity}
-                    </span>
-                  </div>
-                  <p className="text-gray-600 text-sm">{item.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Bradenton Condo Boards Choose Florida Construction Specialists
-          </h2>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Proven Condo Experience
-              </h3>
-              <p className="text-gray-600">
-                Over $7.4 million in completed condo remediation projects including the $4.9M Tiara
-                Condominium reconstruction—one of the largest in Tampa Bay. We understand condo
-                association governance and multi-phase project management.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Shield className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Prime Contractor Only
-              </h3>
-              <p className="text-gray-600">
-                FCS always serves as prime contractor, never a subcontractor. Your Manatee County
-                association gets direct accountability, single-point responsibility, and our full
-                $10M+ bonding protection on every project.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Palmtree className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Gulf Coast Expertise
-              </h3>
-              <p className="text-gray-600">
-                Our team specializes in coastal construction challenges unique to Anna Maria Island
-                and Bradenton. We use marine-grade materials and methods specifically engineered for
-                barrier island salt exposure and hurricane conditions.
-              </p>
-            </div>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8 mt-8">
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <FileText className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                SB4-D Specialists
-              </h3>
-              <p className="text-gray-600">
-                We understand milestone inspection requirements, work seamlessly with structural
-                engineers, and provide complete documentation for Manatee County compliance
-                certification. Our team stays current on evolving regulatory requirements.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                55+ Community Experience
-              </h3>
-              <p className="text-gray-600">
-                We understand the unique needs of retirement communities—fixed-income budget
-                sensitivities, clear communication requirements, and scheduling around resident
-                needs. Many Lakewood Ranch and Palmetto associations trust FCS.
-              </p>
-            </div>
-
-            <div className="text-center p-6">
-              <div className="w-16 h-16 bg-brand-green-bg rounded-full flex items-center justify-center mx-auto mb-4">
-                <Clock className="w-8 h-8 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">
-                Maintained Occupancy
-              </h3>
-              <p className="text-gray-600">
-                Our phased construction approach allows residents to remain in their units during
-                remediation. We minimize disruption while maintaining all life safety systems and
-                coordinating around seasonal occupancy patterns.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Form Section */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-start">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Request Your Bradenton Compliance Assessment
-              </h2>
-              <p className="text-lg text-gray-600 mb-6">
-                Whether you're responding to a milestone inspection report, planning for SIRS
-                compliance, or facing urgent structural concerns at your Anna Maria Island,
-                Downtown Bradenton, or Lakewood Ranch property, FCS provides expert assessment
-                and remediation solutions for Manatee County condominiums.
-              </p>
-
-              <div className="space-y-4 mb-8">
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Complimentary consultation for qualified projects ($100K+)
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Detailed proposals suitable for board presentations
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Phased approaches to accommodate reserve fund planning
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Marine-grade materials for barrier island durability
-                  </span>
-                </div>
-                <div className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700">
-                    Flexible financing options for special assessment coordination
-                  </span>
-                </div>
-              </div>
-
-              <div className="bg-brand-green-dark text-white rounded-xl p-6">
-                <h3 className="font-bold text-xl mb-3">Speak with Our Team</h3>
-                <p className="text-gray-200 mb-4">
-                  For immediate assistance with your Bradenton condo remediation or SB4-D compliance project:
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-green text-white font-bold py-3 px-6 rounded-lg hover:bg-brand-green-forest transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-8 shadow-xl">
-              <h3 className="text-2xl font-bold text-gray-900 mb-6">Request Assessment</h3>
-              <HighLevelForm height={500} />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={bradentonFaqs}
-        title="Bradenton Condo Remediation & SB4-D FAQs"
-        description="Common questions about SB4-D compliance, milestone inspections, SIRS requirements, and condo remediation for Bradenton, Anna Maria Island, and Manatee County condominiums."
+        items={faqs}
+        title="Bradenton Condo Remediation FAQ"
+        description="Common questions about condominium remediation and SB 4-D compliance in Bradenton and Manatee County, Florida."
       />
 
-      {/* Map Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Serving Bradenton, Anna Maria Island & Manatee County
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Florida Construction Specialists provides SB4-D compliance and condo remediation services
-              throughout Bradenton, Anna Maria Island, Holmes Beach, Bradenton Beach, Palmetto, Lakewood
-              Ranch, and surrounding Manatee County communities.
-            </p>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Bradenton" currentService="condo-remediation" />
+            <NearbyLocations currentCity="Bradenton" service="condo-remediation" serviceName="Condo Remediation" />
           </div>
-          <GoogleMap city="Bradenton" height={400} />
         </div>
       </section>
 
-      {/* Internal Links Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <InternalLinks title="Related Services & Locations" links={internalLinks} />
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
-      <section className="section bg-brand-green">
+      {/* CTA Section */}
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Bradenton's Trusted Condo Compliance & Remediation Experts
+            Address Your Bradenton Condo's Remediation Needs
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-3xl mx-auto">
-            From SB4-D compliance assessments to complete structural remediation, Florida
-            Construction Specialists is Manatee County's premier contractor for condominium
-            restoration. With deadlines approaching, contact us today to discuss your project.
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists to discuss your condo association's remediation requirements. Whether you are responding to a milestone inspection finding or proactively addressing building deterioration, we will assess your building and develop a realistic remediation plan.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Remediation Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

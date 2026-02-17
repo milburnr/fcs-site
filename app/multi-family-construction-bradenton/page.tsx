@@ -1,79 +1,43 @@
 import Link from "next/link";
-import { Phone, MapPin, ArrowRight, Building2, Shield, Award, Clock, Users, Thermometer, Wind, Droplets, FileCheck, HardHat } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Users, Home } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-bradenton/' },
-  title: "Multi-Family Construction Bradenton | Condos | FCS",
-  description: "Multi Family Construction in Bradenton: turnkey construction solutions for commercial properties. Licensed CBC, proven results. Request a free estimate today.",
+  title: "Multi-Family Construction Bradenton FL | Apartments, Townhomes | FCS",
+  description: "Multi-family construction in Bradenton by Florida Construction Specialists. Lakewood Ranch apartments, workforce housing, riverfront developments, townhome communities. Licensed CBC, 40+ years experience.",
 };
 
-const projectTypes = [
+const faqs = [
   {
-    title: "Condominium Construction",
-    description: "Ground-up condo development from mid-rise to waterfront towers in Downtown Bradenton, Riverwalk area, and Manatee River locations."
+    question: "What is driving multi-family housing demand in Bradenton and Manatee County?",
+    answer: "Bradenton's multi-family demand is fueled by several converging factors. Lakewood Ranch's continued eastern expansion brings tens of thousands of new residents who need rental housing while homes are built or as a long-term housing choice. The LECOM medical school campus in Bradenton generates steady demand for student and faculty housing. Manatee County's overall population growth, combined with single-family home price increases that have pushed homeownership out of reach for many workers, creates sustained demand for apartments, townhomes, and workforce housing developments. The SR-64 corridor between downtown Bradenton and Lakewood Ranch is particularly active for new multi-family development as it offers convenient access to both employment centers."
   },
   {
-    title: "Apartment Complexes",
-    description: "Garden-style to mid-rise apartment communities throughout Manatee County, including workforce housing serving IMG Academy and local employers."
+    question: "How do flood zone regulations affect multi-family construction along the Manatee River?",
+    answer: "Multi-family developments near the Manatee River and in West Bradenton frequently fall within FEMA flood zones AE and VE. These designations require finished floor elevations above the base flood elevation, flood-resistant materials for any construction below that level, and specific mechanical and electrical system placement to avoid flood damage. For garden-style apartments, this often means elevated first floors with parking or storage below. For mid-rise and high-rise projects, it affects ground-floor design and utility infrastructure placement. SWFWMD stormwater management permits add additional requirements for on-site water retention and treatment. We navigate these requirements during preconstruction so flood zone compliance is integrated into the design rather than added as a costly afterthought."
   },
   {
-    title: "Townhome Developments",
-    description: "Urban infill and suburban townhome communities serving Bradenton's growing demand for affordable ownership alternatives to Sarasota."
+    question: "Does FCS build multi-family projects in Lakewood Ranch?",
+    answer: "Yes, we serve multi-family developments throughout the Lakewood Ranch master-planned community in Manatee County. Lakewood Ranch's growth plan includes apartment communities, townhome developments, and mixed-use projects within its village centers. Multi-family construction in Lakewood Ranch must comply with the community's design standards, which address building exteriors, landscaping, parking configurations, and amenity requirements. These standards are more prescriptive than standard Manatee County zoning, and we coordinate closely with the Lakewood Ranch development review process to ensure projects proceed smoothly from design through final approval."
   },
   {
-    title: "Senior Living Facilities",
-    description: "Independent living, assisted living, and memory care facilities serving Bradenton's expanding retirement community."
+    question: "What types of multi-family projects does FCS handle in Bradenton?",
+    answer: "We handle the full spectrum of multi-family construction in Bradenton and Manatee County including garden-style apartment complexes, mid-rise apartment buildings, townhome communities, workforce housing developments, senior living facilities, and mixed-use projects with residential upper floors over ground-floor retail or office space. Our Bradenton multi-family projects typically range from twenty to two hundred units. We also perform substantial renovation work on existing apartment communities, including full unit renovations, exterior envelope repairs, amenity upgrades, and structural rehabilitation of aging multi-family buildings."
   },
   {
-    title: "Mixed-Use Residential",
-    description: "Residential components of mixed-use developments with ground-floor retail in Downtown Bradenton and Village of the Arts."
+    question: "How does Bradenton's coastal climate affect multi-family building design?",
+    answer: "Bradenton's position on Tampa Bay and proximity to the Gulf of Mexico places multi-family buildings under Wind Zone 3 requirements with 120 mph design wind speeds for most areas. Salt air exposure accelerates corrosion on exterior metals, fasteners, and electrical components, requiring specification of marine-grade or heavily coated materials for exterior applications. High humidity levels year-round demand robust HVAC system design with proper dehumidification capacity to prevent mold growth in residential units. Intense afternoon thunderstorms during the May through September rainy season deliver over 50 inches of annual rainfall that tests building envelope integrity. We design multi-family buildings to handle all of these conditions simultaneously, which is essential for long-term building performance and resident satisfaction."
   },
   {
-    title: "Hospitality-Adjacent Housing",
-    description: "Multi-family developments serving the hospitality workforce supporting IMG Academy, Anna Maria Island tourism, and the growing sports tourism sector."
-  }
-];
-
-// Bradenton-specific multi-family FAQs
-const bradentonFaqs = [
-  {
-    question: "What types of multi-family projects does FCS build in Bradenton?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Bradenton and Manatee County: condominiums, garden-style and mid-rise apartments, townhome developments, senior living facilities, and mixed-use residential. Our Bradenton multi-family projects range from $1 million to $25 million+ and include both ground-up construction and major renovations. We've completed projects in Downtown Bradenton, along the Riverwalk corridor, in the Village of the Arts, and throughout Manatee County."
-  },
-  {
-    question: "How does Bradenton's multi-family market compare to Sarasota?",
-    answer: "Bradenton offers significant cost advantages over neighboring Sarasota, with land costs and construction expenses typically 15-20% lower. This makes Bradenton attractive for developers seeking better returns on workforce housing, affordable senior living, and attainable ownership products like townhomes. The Downtown Riverwalk revitalization is driving demand for urban-style living at price points below Sarasota, while IMG Academy's continued expansion creates steady demand for hospitality-adjacent housing."
-  },
-  {
-    question: "What are the strongest multi-family segments in Bradenton right now?",
-    answer: "Bradenton's multi-family market shows particular strength in: senior living facilities (serving the growing retirement community), workforce housing near Downtown and IMG Academy, townhome communities offering affordable alternatives to Sarasota, and mixed-use developments in the revitalizing Downtown Riverwalk area. The city's position as the gateway to Anna Maria Island also drives demand for seasonal and vacation rental-oriented developments."
-  },
-  {
-    question: "How do Bradenton's building codes affect multi-family construction?",
-    answer: "Bradenton multi-family construction requires compliance with Florida Building Code 2023 with Wind Zone requirements similar to other Gulf Coast communities. For buildings 3+ stories, Florida SB 4-D milestone inspection requirements apply. The City of Bradenton Building Division handles permits for city projects, while unincorporated Manatee County projects go through county permitting. Special requirements exist for Manatee River setbacks, Village of the Arts overlay standards, and flood zone compliance in waterfront areas."
-  },
-  {
-    question: "What are multi-family construction costs in Bradenton?",
-    answer: "Bradenton multi-family construction costs are typically 15-20% lower than Sarasota. Garden-style apartments run $130-190 per square foot; mid-rise apartments $155-240/SF; condominiums $200-340/SF; townhomes $125-185/SF; senior living facilities $190-280/SF. These costs include hard construction but exclude land, soft costs, and financing. We provide detailed budgeting during pre-construction to help you maximize returns in the Bradenton market."
-  },
-  {
-    question: "How long does multi-family construction take in Bradenton?",
-    answer: "Bradenton multi-family construction timelines are comparable to the greater Tampa Bay region. Townhome communities typically take 12-18 months; garden-style apartments 14-20 months; mid-rise buildings 16-22 months; senior living facilities 16-24 months. These timelines include site work, vertical construction, and common area completion. The City of Bradenton Building Division typically processes permits in 3-5 weeks, faster than many neighboring jurisdictions."
-  },
-  {
-    question: "What makes FCS different from other Bradenton multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Bradenton multi-family projects—we never work as a subcontractor. This means direct accountability to you throughout your project. We bring 20+ years of experience, 40+ years experience and in-house engineering, and deep knowledge of Manatee County requirements including Village of the Arts overlay standards, Manatee River setbacks, and coordination with the City of Bradenton Building Division. Our project managers are familiar with local subcontractors and suppliers."
-  },
-  {
-    question: "How does the Downtown Bradenton Riverwalk area affect multi-family development?",
-    answer: "The Downtown Bradenton Riverwalk revitalization has created significant multi-family development opportunities. The waterfront amenity, combined with arts and dining destinations, supports urban-style residential at price points well below Downtown Sarasota or St. Petersburg. We've seen growing interest in mid-rise residential, mixed-use developments with ground-floor retail, and senior living facilities that offer walkable access to Riverwalk amenities. The city encourages quality development in the downtown core."
+    question: "What is the typical timeline for multi-family construction permitting in Bradenton?",
+    answer: "Multi-family construction permitting timelines in Bradenton depend on the jurisdiction and project size. City of Bradenton multi-family permits for smaller projects of 20 to 50 units typically take 6 to 8 weeks for plan review. Larger developments and projects in unincorporated Manatee County that require site plan approval, traffic impact studies, and environmental review can take 3 to 6 months from application to permit issuance. Projects in Lakewood Ranch add the community design review process, which runs in parallel with county permitting but requires its own timeline. We manage the entire permitting process and begin early coordination with the appropriate jurisdiction during the design phase to identify potential issues before formal submission."
   }
 ];
 
@@ -90,50 +54,51 @@ export default function MultiFamilyConstructionBradentonPage() {
       <LocalBusinessSchema city="Bradenton" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Bradenton and Manatee County, Florida. Condominiums, apartments, townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
+        serviceDescription="Multi-family construction in Bradenton, FL. Apartments, townhomes, workforce housing, senior living, mixed-use residential developments across Manatee County. Licensed CBC1262722, 40+ years experience."
         city="Bradenton"
-        minPrice="1000000"
-        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
+        minPrice="500000"
+        serviceCategories={["Apartment Construction", "Townhome Communities", "Workforce Housing", "Senior Living Facilities", "Mixed-Use Residential"]}
       />
-
-      <ArticleSchema
-        headline="Multi-Family Construction Bradenton FL | Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Bradenton, Florida. Condominiums, apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience. 15-20% more affordable than Sarasota."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/multi-family-construction-bradenton/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Serving Bradenton & Manatee County, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Bradenton & Manatee County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Multi-Family Construction in Bradenton, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Multi-Family Construction in Bradenton, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Bradenton and Manatee County. From Downtown Riverwalk condominiums to senior living facilities serving the growing retirement community, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Manatee County's population growth has outpaced its housing supply for years, creating persistent demand for apartment communities, townhome developments, and workforce housing across Bradenton and the Lakewood Ranch growth corridor. Florida Construction Specialists builds multi-family projects that meet this demand while navigating Bradenton's coastal building requirements, flood zone constraints, and the dual-jurisdiction permitting landscape.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Bradenton offers 15-20% cost advantages over neighboring Sarasota—making it ideal for workforce housing, attainable ownership, and value-driven developments. As your prime contractor, we deliver full project accountability from groundbreaking to occupancy.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Multi-Family Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -142,272 +107,91 @@ export default function MultiFamilyConstructionBradentonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Bradenton Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Multi-Family Construction Services in Bradenton
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Bradenton, the county seat of Manatee County, is experiencing significant growth as part of the 850,000-population North Port-Sarasota-Bradenton metro area. With a population of 60,000+ and strong employment anchors including IMG Academy, Manatee Memorial Hospital, Tropicana Products, and Bealls Inc. headquarters, Bradenton offers compelling opportunities for multi-family development.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Bradenton's Multi-Family Housing Boom: Lakewood Ranch, Workforce Needs, and Riverfront Living
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Bradenton's multi-family construction market reflects a county in the middle of a generational growth cycle. Lakewood Ranch, which straddles the Manatee-Sarasota county line, has been the top-selling master-planned community in the United States multiple years running. Its eastern expansion through new villages like Cresswind, Del Webb, and Waterside brings thousands of new residents annually, many of whom rent for months or years before purchasing homes, and many who prefer the flexibility of rental living permanently. This creates strong demand for purpose-built apartment communities within Lakewood Ranch and along the SR-64 corridor connecting the community to downtown Bradenton.
               </p>
-              <p className="text-gray-600 mb-6">
-                The city's strategic position—more affordable than Sarasota to the south yet offering similar Gulf Coast lifestyle—drives demand for workforce housing, attainable ownership products, and senior living facilities. The Downtown Bradenton Riverwalk revitalization, Village of the Arts district, and proximity to Anna Maria Island create diverse market opportunities.
+              <p className="mb-6">
+                Beyond the Lakewood Ranch growth engine, Bradenton faces a workforce housing challenge common to Florida's Gulf Coast communities. Service industry workers, healthcare employees at Manatee Memorial Hospital and Blake Medical Center, educators, and public safety personnel increasingly cannot afford single-family homes in the areas where they work. Multi-family developments that target the workforce housing segment are gaining approval from Manatee County and the City of Bradenton as local governments recognize the connection between available workforce housing and economic development. Projects in East Bradenton, along the US-301 corridor, and in the Ellenton area serve this workforce housing need.
               </p>
-              <p className="text-gray-600 mb-8">
-                Florida Construction Specialists serves Bradenton's multi-family construction needs with the expertise, bonding capacity, and local knowledge required for projects from $1 million to $25 million or more. As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Manatee County project.
+              <p className="mb-6">
+                Downtown Bradenton and the Riverwalk corridor present a different multi-family opportunity. The city's ongoing revitalization, anchored by the Manatee River Riverwalk, the Village of the Arts, and renewed investment in the Old Main Street district, creates demand for urban-style residential construction. Mixed-use developments with apartments above ground-floor retail are appearing in the downtown core, attracting residents who want walkable access to restaurants, cultural venues, and waterfront recreation without the maintenance burden of single-family homeownership.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Multi-Family Project Types We Build in Bradenton
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {projectTypes.map((project) => (
-                  <div key={project.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{project.title}</h4>
-                    <p className="text-gray-600 text-sm">{project.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Bradenton Multi-Family Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Bradenton" currentService="multi-family-construction" />
-              <NearbyLocations currentCity="Bradenton" service="multi-family-construction" serviceName="Multi-Family Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Bradenton Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Multi-family construction in Bradenton starting at $1,000,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                LECOM, the Lake Erie College of Osteopathic Medicine's Bradenton campus, adds another dimension to the multi-family market. The medical school campus on 34th Street West brings a revolving population of students and faculty who need quality rental housing near the campus. Multi-family developments in the surrounding neighborhoods serve this institutional demand alongside the broader Bradenton rental market.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp"
-        alt="Multi-family construction"
-        title="Building Communities"
-        subtitle="Condos, apartments, and townhomes throughout Tampa Bay"
+        src="/images/converting-retail-building-into-multitenant-space/converting-retail-building-into-multitenant-space-display.webp"
+        alt="Multi-family residential construction in Bradenton area"
+        title="Meeting Manatee County's Housing Demand"
+        subtitle="Apartments, townhomes, and workforce housing across the Bradenton growth corridor"
         overlayOpacity={0.55}
       />
 
-      {/* Bradenton Multi-Family Market Section */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Bradenton's Multi-Family Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Multi-Family Construction for Bradenton's Diverse Housing Market
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Riverwalk Revitalization</h3>
-              <p className="text-gray-600 text-sm">
-                The Bradenton Riverwalk transformation has created prime opportunities for urban-style multi-family. Waterfront condos, mixed-use residential, and senior living with walkable access to dining, arts, and recreation are in high demand—all at price points well below Sarasota or St. Petersburg.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Users className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">IMG Academy Hospitality Demand</h3>
-              <p className="text-gray-600 text-sm">
-                IMG Academy, the world-renowned sports training facility, brings thousands of athletes, families, and staff to Bradenton annually. This creates steady demand for workforce housing, extended-stay options, and hospitality-adjacent multi-family developments serving the academy's ecosystem.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Clock className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Anna Maria Island Gateway</h3>
-              <p className="text-gray-600 text-sm">
-                As the primary mainland gateway to Anna Maria Island, Bradenton benefits from the island's tourism economy. Multi-family developments serve seasonal workers, vacation rental investors, and residents seeking proximity to beaches without island prices. The Cortez fishing village adds character and demand.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <FileCheck className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Village of the Arts</h3>
-              <p className="text-gray-600 text-sm">
-                Bradenton's Village of the Arts is a designated arts district with special overlay standards encouraging creative development. This neighborhood supports unique mixed-use and residential projects that blend artistic character with modern multi-family construction, attracting creative professionals and retirees.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From suburban garden-style apartments in Lakewood Ranch to urban mixed-use developments along the Riverwalk, we build residential communities designed for Manatee County's specific conditions.
+          </p>
 
-      {/* Bradenton Construction Considerations */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Bradenton Multi-Family Construction Considerations
-            </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Cost Advantage Over Sarasota</h3>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: Building2,
+                title: "Garden-Style Apartments",
+                description: "Two and three-story apartment communities with surface parking, typically 100 to 300 units. This building type dominates the Bradenton multi-family market, particularly along the SR-64 corridor and in Lakewood Ranch where land availability supports the lower-density footprint. We design these communities to handle Bradenton's wind loads, intense rainfall, and humidity while maximizing unit count within zoning parameters."
+              },
+              {
+                icon: Home,
+                title: "Townhome Communities",
+                description: "Fee-simple and rental townhome developments that offer a middle ground between single-family homes and apartments. Townhome communities in Bradenton serve young professionals, downsizers, and families priced out of the single-family market. Areas around East Bradenton, Parrish, and the outer reaches of Lakewood Ranch support townhome development where land costs allow competitive pricing."
+              },
+              {
+                icon: Users,
+                title: "Workforce Housing",
+                description: "Multi-family projects designed to serve Bradenton's workforce at rents affordable to service workers, healthcare employees, and educators. These projects often involve coordination with Manatee County affordable housing programs, density bonuses, and impact fee reductions. We understand the construction cost constraints of workforce housing and design buildings that meet code requirements and livability standards within tighter per-unit budgets."
+              },
+              {
+                icon: Shield,
+                title: "Senior Living Facilities",
+                description: "Independent living, assisted living, and memory care facilities serving Manatee County's growing senior population. Bradenton's appeal as a retirement destination creates steady demand for senior housing, particularly in the Lakewood Ranch area where communities like Cresswind and Del Webb attract active adults who may eventually need assisted living options nearby."
+              },
+              {
+                icon: HardHat,
+                title: "Mixed-Use Residential",
+                description: "Multi-story developments combining residential units with ground-floor commercial space. Downtown Bradenton's revitalization creates opportunities for mixed-use projects near the Riverwalk and in the Village of the Arts district. These projects require structural design that accommodates different floor-to-floor heights between commercial and residential levels, separate utility metering, and code compliance across both occupancy types."
+              },
+              {
+                icon: FileCheck,
+                title: "Multi-Family Renovations",
+                description: "Substantial renovation of existing apartment communities throughout Bradenton. Manatee County has aging apartment stock from the 1970s through 1990s that requires modernization to remain competitive. We perform full unit renovations, exterior envelope restoration, amenity additions, structural rehabilitation, and ADA compliance upgrades that extend the useful life and market appeal of these existing communities."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
                 </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton offers 15-20% lower construction costs compared to neighboring Sarasota. Land costs, labor rates, and material logistics all favor Bradenton development. This makes Manatee County ideal for workforce housing, attainable townhomes, and senior living facilities where cost efficiency directly impacts project feasibility.
-                </p>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Manatee River Areas</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Multi-family development along the Manatee River and Downtown Riverwalk requires attention to flood zone compliance and setback requirements. Many waterfront and river-adjacent sites fall within AE flood zones. We navigate these requirements to deliver compliant, insurable projects that capitalize on Bradenton's waterfront appeal.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Users className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Growing Retirement Community</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton's growing retirement population creates strong demand for senior living facilities—independent living, assisted living, and memory care. The combination of lower costs than Sarasota, excellent healthcare at Manatee Memorial Hospital, and lifestyle amenities makes Bradenton attractive for senior-focused multi-family development.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Permitting Efficiency</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  The City of Bradenton Building Division typically processes commercial permits in 3-5 weeks—faster than many neighboring jurisdictions. We maintain strong relationships with city staff and understand specific requirements including Village of the Arts overlay standards, Manatee River setbacks, and coordination with Manatee County for unincorporated projects.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Bradenton Multi-Family Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range (per SF)</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Permit Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Garden-Style Apartments</td>
-                    <td className="p-4">$130 - $190</td>
-                    <td className="p-4">14-20 months</td>
-                    <td className="p-4">3-5 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Mid-Rise Apartments</td>
-                    <td className="p-4">$155 - $240</td>
-                    <td className="p-4">16-22 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Condominiums</td>
-                    <td className="p-4">$200 - $340</td>
-                    <td className="p-4">18-28 months</td>
-                    <td className="p-4">4-8 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Townhome Communities</td>
-                    <td className="p-4">$125 - $185</td>
-                    <td className="p-4">12-18 months</td>
-                    <td className="p-4">3-5 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Senior Living Facilities</td>
-                    <td className="p-4">$190 - $280</td>
-                    <td className="p-4">16-24 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="bg-white">
-                    <td className="p-4 font-medium">Mixed-Use Residential</td>
-                    <td className="p-4">$160 - $250</td>
-                    <td className="p-4">14-22 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs reflect hard construction only. Land, soft costs, financing, and developer fees are additional.
-              Bradenton costs are typically 15-20% lower than Sarasota. Estimates based on 2024-2025 Manatee County market conditions.
-            </p>
+            ))}
           </div>
         </div>
       </section>
@@ -416,58 +200,22 @@ export default function MultiFamilyConstructionBradentonPage() {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Bradenton's Unique Conditions
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Building Multi-Family in Bradenton's Coastal Environment
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Thermometer className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Climate Considerations</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton's subtropical climate, similar to Sarasota with Gulf exposure, demands construction methods designed for intense UV exposure, summer heat, and humidity. With 50 inches of annual rainfall and potential Manatee River flooding during heavy rains, we specify appropriate building envelope materials, HVAC systems, and drainage solutions.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Hurricane-Resistant Construction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Bradenton's Gulf Coast location requires hurricane-resistant construction meeting Florida Building Code wind requirements. All our multi-family construction incorporates impact-resistant windows and doors, enhanced roof tie-downs, and wind-resistant structural systems designed to protect residents and property during storm events.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Compliance</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Manatee River areas and coastal properties in Bradenton fall within FEMA flood zones. Downtown has both Zone X and AE areas. Anna Maria Island has separate, stricter requirements. We navigate flood zone construction requirements including elevated structures, flood-resistant materials, and proper drainage to ensure compliance and insurability.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">City of Bradenton Permitting</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  We maintain strong relationships with the City of Bradenton Building Division and Manatee County Construction Services. Our familiarity with local permit processes, Village of the Arts overlay requirements, Manatee River setback regulations, and inspection protocols helps minimize delays and keep your project on schedule.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Multi-family construction in Bradenton demands a builder who understands how the coastal environment affects residential buildings over their multi-decade lifespan. The Gulf Coast's salt-laden air, intense UV exposure, and extreme humidity create an environment that accelerates deterioration of exterior finishes, metal components, and building envelope systems. Multi-family buildings in Bradenton must be designed and built to resist these conditions from day one, because deferred maintenance on a 200-unit apartment community is exponentially more expensive than proper initial construction.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.bradentonfl.gov/217/Building" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Bradenton Building Division</a> and the <a href="https://www.mymanatee.org/departments/building_and_development_services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Manatee County Building and Development Services</a> both handle multi-family permits in their respective jurisdictions. Multi-family projects trigger more extensive review than single-family or small commercial permits, including fire access and suppression requirements, parking ratio compliance, impact fee calculations, and in many cases traffic impact analysis. We begin coordination with the permitting jurisdiction during the design phase to ensure the submitted plans address all requirements on the first review cycle.
+              </p>
+              <p className="mb-6">
+                Stormwater management is a particular challenge for multi-family sites in Bradenton. Large apartment communities generate significant impervious surface area from buildings, parking lots, and driveways. SWFWMD requires on-site stormwater treatment and retention, which consumes land that would otherwise be available for buildings or amenities. Creative stormwater design, including dry retention areas that double as green space, underground detention systems, and pervious paving in appropriate applications, allows multi-family developers to maximize buildable area while meeting environmental requirements.
+              </p>
+              <p>
+                Our understanding of Bradenton's neighborhoods helps us anticipate community concerns that can delay multi-family projects. Developments in the Braden River area must consider the existing residential character and traffic patterns on streets not designed for high-density development. Projects near Palma Sola require attention to stormwater runoff into the sensitive Palma Sola Bay ecosystem. Multi-family construction near the Cortez Road corridor competes for subcontractor availability with active retail and commercial construction in the same area. We build these local considerations into our project planning to avoid surprises during construction.
+              </p>
             </div>
           </div>
         </div>
@@ -476,147 +224,102 @@ export default function MultiFamilyConstructionBradentonPage() {
       {/* Process Section */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Bradenton Multi-Family Construction Process
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Bradenton Multi-Family Construction Process
           </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with thorough site evaluation, constructability review, and detailed budgeting. For Bradenton multi-family projects, this includes soil analysis (mix of sandy and clay soils), flood zone determination, Manatee River setback evaluation, utility coordination, and permit pathway planning through City of Bradenton Building Division or Manatee County."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination",
-                  description: "Whether working with your design team or providing design-build services, we ensure plans meet Florida Building Code requirements, wind resistance standards, fire codes, and accessibility requirements while optimizing for Bradenton's cost advantages. We advise on Village of the Arts overlay compliance when applicable."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all building permit applications through the City of Bradenton Building Division or Manatee County, coordinate plan reviews with multiple departments (building, fire, utilities), and handle any required variances. Bradenton's 3-5 week permit timeline is among the fastest in the region."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Experienced project managers oversee daily construction with strict quality control, safety protocols, and schedule management. We account for Bradenton's rainy season and coordinate with local subcontractors who understand Manatee County requirements."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all inspections, obtain certificate of occupancy from City of Bradenton, and provide comprehensive turnover documentation including warranties, as-builts, and operations manuals. For multi-family, we coordinate with property management for smooth transition to occupancy."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-white rounded-lg p-6">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Multi-family projects in Bradenton require a structured approach that addresses site-specific conditions, permitting complexity, and Gulf Coast construction demands.
+          </p>
 
-      {/* Why Choose FCS */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Bradenton Developers Choose FCS
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Bradenton multi-family projects. You get direct accountability, single-point contact, and our full commitment to your project's success from groundbreaking to occupancy.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Manatee County Expertise</h3>
-              <p className="text-gray-600">
-                We understand Bradenton's unique requirements—Village of the Arts overlay standards, Manatee River setbacks, City of Bradenton permitting, and the cost advantages that make Manatee County attractive for multi-family development.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Relationships</h3>
-              <p className="text-gray-600">
-                Strong relationships with Bradenton building departments, inspectors, subcontractors, and suppliers help ensure smooth permitting and efficient construction execution. Our team knows the local market.
-              </p>
-            </div>
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Analysis and Feasibility",
+                description: "We assess your Bradenton-area site for flood zone classification, soil conditions, utility capacity, zoning density limits, and environmental constraints. For multi-family sites near the Manatee River, this includes geotechnical investigation to determine foundation requirements. For Lakewood Ranch sites, we evaluate the community design review requirements and coordinate early with the master developer.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design and Unit Planning",
+                description: "Whether working with your architect or providing design-build services, we coordinate architectural, structural, MEP, and civil engineering disciplines. Multi-family design for Bradenton must address Wind Zone 3 structural requirements, high-humidity HVAC design, coastal material specifications, and stormwater management from the earliest design stages. Unit mix, building orientation, and amenity placement are optimized for the specific site conditions.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting and Entitlements",
+                description: "We manage the multi-family permitting process through the appropriate Bradenton or Manatee County jurisdiction. This includes building permits, fire department review, SWFWMD environmental permits, utility connection coordination, and any required traffic studies or zoning approvals. For workforce housing projects, we coordinate with county programs for applicable density bonuses and impact fee reductions.",
+                icon: Users,
+              },
+              {
+                step: "04",
+                title: "Phased Construction Execution",
+                description: "Multi-family projects in Bradenton typically benefit from phased construction that allows early buildings to begin lease-up while later phases are still under construction. We schedule site work and foundations during the dry season when possible, and sequence building construction to maintain progress through the rainy months. Experienced superintendents manage quality control across all units to ensure consistency throughout the community.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Turnover and Lease-Up Support",
+                description: "We deliver completed buildings with all inspections passed, certificates of occupancy issued, and comprehensive documentation for property management. For phased projects, we coordinate turnover of completed buildings while construction continues on remaining phases, maintaining separation between occupied and active construction areas for resident safety and satisfaction.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={bradentonFaqs} title="Multi-Family Construction in Bradenton - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Bradenton Multi-Family Construction FAQ"
+        description="Common questions about multi-family housing construction in Bradenton and Manatee County, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Bradenton</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-bradenton/" className="text-brand-green hover:underline">Commercial Construction Bradenton</Link></li>
-                <li><Link href="/historic-restoration-bradenton/" className="text-brand-green hover:underline">Historic Restoration Bradenton</Link></li>
-                <li><Link href="/balcony-reconstruction-bradenton/" className="text-brand-green hover:underline">Balcony Reconstruction Bradenton</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Multi-Family Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-sarasota/" className="text-brand-green hover:underline">Multi-Family Construction Sarasota</Link></li>
-                <li><Link href="/multi-family-construction-tampa/" className="text-brand-green hover:underline">Multi-Family Construction Tampa</Link></li>
-                <li><Link href="/multi-family-construction-st-petersburg/" className="text-brand-green hover:underline">Multi-Family Construction St. Petersburg</Link></li>
-                <li><Link href="/multi-family-construction-lakeland/" className="text-brand-green hover:underline">Multi-Family Construction Lakeland</Link></li>
-                <li><Link href="/multi-family-construction-clearwater/" className="text-brand-green hover:underline">Multi-Family Construction Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
-                <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/insurance/guides/sirs-structural-integrity-reserve-studies/" className="text-brand-green hover:underline">SIRS Structural Integrity Studies</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Bradenton" currentService="multi-family-construction" />
+            <NearbyLocations currentCity="Bradenton" service="multi-family-construction" serviceName="Multi-Family Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Bradenton Multi-Family Construction Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your Bradenton Multi-Family Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver multi-family construction excellence in Bradenton with projects starting at $1,000,000. Take advantage of Bradenton's 15-20% cost savings over Sarasota.
+            Contact Florida Construction Specialists to discuss your multi-family development in Bradenton or Manatee County. We will review your site, evaluate feasibility, and provide preliminary budgeting for your apartment, townhome, or mixed-use project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Development Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

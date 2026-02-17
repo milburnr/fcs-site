@@ -1,97 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileText, Wrench, Users, DollarSign } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, AlertTriangle, Wind, Droplets, Wrench } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-bradenton/' },
-  title: "Disaster Recovery Bradenton | Hurricane | FCS",
+  title: "Disaster Recovery Bradenton FL | Hurricane, Flood Recovery | FCS",
+  description: "Disaster recovery construction in Bradenton. Hurricane response, Manatee River flooding, Anna Maria Island storm recovery, emergency stabilization. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What disaster scenarios pose the greatest risk to Bradenton commercial properties?",
+    answer: "Bradenton faces three primary disaster scenarios that can occur individually or in combination. First, hurricane landfall or near-miss generates catastrophic wind and storm surge. Anna Maria Island and the barrier beaches are the most exposed, but storm surge can push up the Manatee River and flood downtown Bradenton and Palmetto to significant depths. Second, tropical storms and heavy rainfall events cause Manatee River flooding that affects riverfront properties even without hurricane-force winds. Third, severe thunderstorm cells produce localized tornadic activity and straight-line winds that damage commercial buildings in the SR-64 corridor and Lakewood Ranch area. The combined risk profile makes Bradenton one of the more disaster-exposed commercial markets on Florida's west coast."
+  },
+  {
+    question: "How quickly can FCS mobilize disaster recovery teams to Bradenton after a major storm?",
+    answer: "We maintain hurricane preparedness protocols that allow emergency response within 24 to 48 hours of a storm clearing the Bradenton area. During hurricane season, we monitor storm tracks and pre-position materials and equipment when Manatee County falls within a projected storm path. Emergency stabilization services include structural shoring, roof tarping, water extraction, debris removal, and building security. For Anna Maria Island properties, access timing depends on bridge inspections and emergency management clearance, which can delay response by an additional 24 to 48 hours after mainland access is restored. We coordinate with Manatee County Emergency Management for access updates and deploy island-bound crews as soon as bridges are cleared for contractor traffic."
+  },
+  {
+    question: "What is the difference between emergency stabilization and full disaster recovery construction in Bradenton?",
+    answer: "Emergency stabilization happens in the first 24 to 72 hours and focuses on preventing additional damage. For Bradenton properties, this means tarping roof penetrations, extracting standing water before it saturates structural elements and finishes, shoring compromised structural members, securing building openings against weather and unauthorized entry, and removing debris that creates safety hazards. Full disaster recovery construction is the complete restoration phase that follows, encompassing structural repairs, building envelope restoration, MEP system replacement, interior finishes, and code compliance upgrades. Recovery construction in Bradenton must be permitted through the City of Bradenton Building Division or Manatee County Building Department and meets all Florida Building Code requirements, which often means upgrades to current wind and flood resistance standards for older buildings."
+  },
+  {
+    question: "How does Manatee River flooding affect disaster recovery for downtown Bradenton properties?",
+    answer: "Manatee River flooding creates disaster recovery challenges distinct from wind damage. When tropical weather pushes storm surge up the river or heavy rainfall overwhelms the watershed, floodwater enters ground-floor and below-grade areas of downtown Bradenton and Palmetto properties. River floodwater carries sediment, organic contaminants, and brackish salt content that saturates building materials. Drywall, insulation, carpet, and other porous materials below the water line require complete removal. Electrical panels, mechanical equipment, and elevator components that contact floodwater typically require replacement. The recovery process must include thorough drying, environmental testing for mold and contamination, and restoration that addresses flood zone compliance for the rebuilt portions. Properties in FEMA flood zones face additional documentation requirements for flood insurance claims."
+  },
+  {
+    question: "Does the City of Bradenton expedite building permits after a declared disaster?",
+    answer: "Following a federal or state disaster declaration, the City of Bradenton Building Division and the Manatee County Building Department typically activate emergency permitting procedures. Emergency permits for stabilization work such as tarping, shoring, and water extraction can usually be obtained within 24 hours. Full recovery construction permits still require plan review, but the review timeline is compressed compared to normal conditions. Manatee County has a mutual aid agreement with other Florida counties for building official support after major disasters, which increases inspection capacity when local resources are overwhelmed. We maintain relationships with building officials in both jurisdictions that help us navigate emergency processes efficiently. Even under expedited procedures, the construction work must meet full Florida Building Code requirements."
+  },
+  {
+    question: "Can FCS manage disaster recovery for properties across different Bradenton-area jurisdictions simultaneously?",
+    answer: "Yes, and this multi-jurisdiction capability is essential in Bradenton's disaster scenario. A single storm event can damage properties in the City of Bradenton, unincorporated Manatee County including Lakewood Ranch and Palmetto, and the island municipalities of Anna Maria, Holmes Beach, and Bradenton Beach. Each jurisdiction has its own permitting process, inspection schedule, and emergency procedures. We assign dedicated project managers to each jurisdiction and maintain parallel permitting tracks so that construction progress is not delayed by jurisdictional coordination. Our experience working across all Manatee County jurisdictions means we anticipate the specific requirements of each and prepare applications accordingly."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Bradenton", href: "/disaster-recovery-bradenton/" },
-];
-
-const disasterTypes = [
-  {
-    type: "Hurricane Damage",
-    description: "Roof damage, structural impacts, water intrusion, and wind damage from tropical storms affecting Bradenton and Anna Maria Island",
-    icon: AlertTriangle,
-  },
-  {
-    type: "Flood Restoration",
-    description: "Water extraction, structural drying, mold remediation, and flood damage repair for Manatee River and coastal zone properties",
-    icon: Wrench,
-  },
-  {
-    type: "Fire & Smoke Damage",
-    description: "Structural repairs, smoke damage remediation, odor removal, and complete fire restoration for commercial and residential properties",
-    icon: Building2,
-  },
-  {
-    type: "Storm Damage",
-    description: "Severe weather damage repair including hail, lightning, tornadic activity, and heavy rain damage throughout Manatee County",
-    icon: Shield,
-  },
-];
-
-const bradentonFaqs = [
-  {
-    question: "How quickly can FCS respond to disaster damage in Bradenton?",
-    answer: "Florida Construction Specialists maintains rapid response capabilities for Bradenton and Manatee County emergencies. For large loss situations, we can typically have assessment teams on-site within 24-48 hours. Our proximity to the Bradenton area through our Ruskin headquarters and established relationships with the City of Bradenton Building Division ensure efficient project mobilization. We provide immediate stabilization services including board-up, tarping, and water extraction to prevent secondary damage.",
-  },
-  {
-    question: "What areas of Bradenton are most vulnerable to hurricane and flood damage?",
-    answer: "Bradenton's highest-risk areas include properties along the Manatee River, downtown waterfront areas, and communities near Anna Maria Island. The Cortez fishing village, Palma Sola, and Bayshore Gardens face significant storm surge exposure. Properties in these flood zones often require specialized restoration approaches including flood-resistant materials and elevated mechanical systems. The Village of the Arts historic district requires preservation-conscious restoration methods.",
-  },
-  {
-    question: "Do you work with insurance companies on Bradenton disaster claims?",
-    answer: "Yes, FCS specializes in large loss insurance restoration and works directly with all major insurance carriers serving Manatee County. We provide detailed documentation, scope assessments, and claims support for Bradenton property owners. Our experience with Xactimate estimating and insurance adjuster protocols helps expedite claims and ensures property owners receive fair compensation for covered damages.",
-  },
-  {
-    question: "What is the typical timeline for hurricane damage restoration in Bradenton?",
-    answer: "Hurricane damage restoration timelines in Bradenton vary by scope: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-90 days), and full restoration (90-180 days for large commercial projects). Projects over $1 million may require 6-12 months depending on scope and permit requirements through the City of Bradenton Building Division.",
-  },
-  {
-    question: "What types of properties do you restore in Bradenton?",
-    answer: "FCS specializes in large loss disaster recovery for commercial properties, multi-family buildings (condos, apartments), hospitality venues serving Anna Maria Island tourism, retail centers, medical facilities, and high-value residential estates. Our Bradenton projects typically range from $250,000 to $25 million. We work on properties throughout Downtown Bradenton, Village of the Arts, Palma Sola, West Bradenton, and surrounding Manatee County areas.",
-  },
-  {
-    question: "How do historic preservation requirements affect disaster restoration in Bradenton?",
-    answer: "The Village of the Arts and Downtown Bradenton Historic District have specific preservation requirements that affect disaster restoration. FCS has experience navigating these regulations while incorporating modern disaster-resistant improvements where permitted. We work with the City of Bradenton and follow appropriate standards to maintain historic character during restoration projects. The Village of the Arts overlay standards require particular attention to architectural compatibility.",
-  },
-  {
-    question: "What documentation do you provide for Bradenton insurance claims?",
-    answer: "FCS provides comprehensive documentation including initial damage assessments with photos and video, moisture mapping reports, detailed scope of work documents, Xactimate estimates, material specifications, daily progress reports, and final completion documentation. This thorough documentation helps Bradenton property owners maximize their insurance recovery and provides clear records for supplemental claims.",
-  },
-  {
-    question: "How does Bradenton's proximity to Anna Maria Island affect disaster recovery?",
-    answer: "Bradenton serves as the gateway to Anna Maria Island, and properties in this corridor face unique challenges. Storm surge from the Gulf can impact properties along Manatee Avenue and the Cortez Road corridor. We understand the tourism-dependent economy and work efficiently to minimize business interruption for hospitality and retail properties that serve Anna Maria Island visitors. Anna Maria Island itself has separate, stricter building requirements that we navigate regularly.",
-  },
-];
-
-const costData = [
-  { category: "Water Damage Restoration", range: "$13,000 - $65,000", timeline: "1-4 weeks", notes: "Depends on affected area and mold presence" },
-  { category: "Hurricane Roof Repair", range: "$42,000 - $425,000", timeline: "4-12 weeks", notes: "Commercial roofing with wind uplift compliance" },
-  { category: "Fire Damage Restoration", range: "$85,000 - $1.7M+", timeline: "3-9 months", notes: "Structural repairs and smoke remediation" },
-  { category: "Full Building Restoration", range: "$425,000 - $42M+", timeline: "6-18 months", notes: "Complete disaster recovery with code upgrades" },
-];
-
-const processSteps = [
-  { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and detailed scope development" },
-  { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and claims negotiation support" },
-  { step: 4, title: "Restoration Planning", description: "Engineering assessments, permit applications, and detailed project scheduling" },
-  { step: 5, title: "Construction Phase", description: "Professional restoration with quality control, progress reporting, and code compliance" },
-  { step: 6, title: "Final Inspection", description: "City inspections, insurance sign-off, warranty documentation, and project closeout" },
 ];
 
 export default function DisasterRecoveryBradentonPage() {
@@ -99,44 +53,52 @@ export default function DisasterRecoveryBradentonPage() {
     <>
       <LocalBusinessSchema city="Bradenton" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Emergency disaster recovery and insurance restoration services in Bradenton, FL. Hurricane, fire, flood, and storm damage repair."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction in Bradenton, FL. Hurricane response, Manatee River flooding, Anna Maria Island storm recovery, emergency stabilization, commercial and residential restoration. Licensed CBC1262722, 40+ years experience."
         city="Bradenton"
-        minPrice="250000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        minPrice="100000"
+        serviceCategories={["Hurricane Recovery", "Flood Damage Restoration", "Emergency Stabilization", "Structural Recovery", "Commercial Disaster Response"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Disaster Recovery Services in Bradenton, FL"
-        description="Comprehensive guide to disaster recovery and insurance restoration services in Bradenton. Learn about hurricane damage restoration, Manatee River flood remediation, and large loss insurance claim processes."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/disaster-recovery-bradenton/"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/home-hero-after-great-disasters-sandy-crop/home-hero-after-great-disasters-sandy-crop-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Bradenton, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Bradenton & Manatee County</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Disaster Recovery & Insurance Restoration in Bradenton
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Bradenton, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              Bradenton sits at the convergence of Gulf Coast hurricane exposure, Manatee River flood vulnerability, and barrier island storm surge risk. When disaster strikes Manatee County, Florida Construction Specialists deploys emergency response teams for immediate stabilization and follows through with full disaster recovery construction that restores commercial properties to pre-loss condition or better, often with code upgrades that improve long-term resilience.
             </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
+                Request Emergency Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -145,183 +107,170 @@ export default function DisasterRecoveryBradentonPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Clock className="w-6 h-6 text-brand-green" />
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Direct Insurance Billing</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Bradenton Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Bradenton's Premier Disaster Recovery Contractor
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Manatee County's trusted prime contractor for large loss disaster recovery and insurance restoration. With Bradenton's strategic position as the gateway to Anna Maria Island and significant exposure to Manatee River flooding, property owners need experienced restoration partners who understand both the technical challenges and insurance complexities of major disaster recovery in this coastal region.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Bradenton's Disaster Vulnerability: Gulf, River, and Inland Exposure
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Bradenton's disaster risk profile is defined by its geography. Anna Maria Island, Holmes Beach, and Bradenton Beach form a barrier island chain directly on the Gulf of Mexico that absorbs the full force of approaching hurricanes. Storm surge modeling for Manatee County shows potential surge heights of 8 to 15 feet on the barrier islands and 5 to 10 feet in coastal mainland areas during a major hurricane approach from the southwest. These surge levels would inundate ground-floor structures across the island communities and push water up the Manatee River into downtown Bradenton and Palmetto.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Bradenton's location creates unique disaster recovery challenges. The city experiences approximately 50 inches of annual rainfall, sits within a major hurricane corridor, and has flood zones throughout the Manatee River corridor and coastal areas. The historic Village of the Arts and downtown district require specialized restoration approaches that preserve architectural character while meeting modern building codes. Our team has restored properties throughout Bradenton following hurricanes, severe storms, flooding events, and fires—always working as the prime contractor with direct accountability for project success.
+              <p className="mb-6">
+                The Manatee River adds a separate flooding dimension that does not require a direct hurricane hit. Heavy tropical rainfall events, whether from landfalling tropical storms or training thunderstorm bands, can overwhelm the Manatee River watershed and flood low-lying areas in downtown Bradenton, the Riverwalk area, and Palmetto. These river flooding events have occurred without any tropical cyclone involvement, driven purely by intense rainfall that exceeds the watershed's capacity. Commercial properties along the riverfront, particularly those with below-grade parking or ground-floor mechanical spaces, are vulnerable to this type of flooding even in events that do not produce significant wind damage.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Bradenton Disaster Recovery Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {disasterTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Bradenton's Hurricane & Flood Risk Profile
-              </h3>
-
-              <p className="text-gray-600 mb-4">
-                Bradenton and Manatee County face significant hurricane and flood risks due to coastal geography and the Manatee River watershed. Key risk factors for Bradenton properties include:
+              <p className="mb-6">
+                Inland Bradenton and the Lakewood Ranch corridor face disaster risk primarily from hurricane and severe thunderstorm winds. While these areas are protected from direct storm surge by distance from the coast, wind speeds during major hurricanes can still reach 100 mph or more in the SR-64 corridor and eastern Manatee County. Severe thunderstorm cells also produce localized tornado damage and straight-line winds that can destroy commercial roofing, damage building facades, and scatter debris. The rapid suburban growth in Lakewood Ranch means more commercial property value is now exposed to these inland wind hazards than at any previous time.
               </p>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Manatee River Exposure:</strong> Properties along the Manatee River and its tributaries face flooding during heavy rainfall and storm surge events, with downtown and Riverwalk areas particularly vulnerable</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Anna Maria Island Gateway:</strong> The Cortez Road and Manatee Avenue corridors connecting to Anna Maria Island experience storm surge impacts and serve tourism-dependent businesses requiring rapid restoration</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Historic District Considerations:</strong> Village of the Arts and Downtown Bradenton Historic District properties require preservation-sensitive restoration approaches</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Cortez Fishing Village:</strong> This historic working waterfront community has unique restoration requirements balancing heritage preservation with flood resistance</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Bradenton Property's Disaster Recovery Needs <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Bradenton and Manatee County. Our our crews are ready to deploy.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Bradenton" currentService="disaster-recovery" />
-              <NearbyLocations currentCity="Bradenton" service="disaster-recovery" serviceName="Disaster Recovery" />
+              <p>
+                This layered vulnerability means disaster recovery in Bradenton must address multiple damage types simultaneously. A single storm event can produce wind damage to inland commercial properties, flood damage to riverfront buildings, and combined wind and surge devastation on the barrier islands. Florida Construction Specialists has the team depth, multi-jurisdiction permitting experience, and insurance claim knowledge to manage recovery operations across all of these damage scenarios at the same time.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/home-hero-after-great-disasters-sandy-crop/home-hero-after-great-disasters-sandy-crop-display.webp"
+        alt="Disaster recovery operations in coastal Florida"
+        title="When Disaster Strikes Bradenton"
+        subtitle="Emergency response, structural recovery, and full restoration across Manatee County"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Bradenton Disaster Recovery Costs & Timelines
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Capabilities for Manatee County
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Restoration costs in Bradenton typically run 10-15% lower than nearby Sarasota due to lower labor costs and permitting efficiencies. These ranges reflect typical Manatee County projects—actual costs depend on specific conditions and insurance coverage.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Restoration Category</th>
-                  <th className="px-6 py-4 text-left">Typical Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Notes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.category}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.notes}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Bradenton projects typically 10-15% below Sarasota rates. Actual project costs depend on damage assessment, insurance coverage, and code requirements.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Bradenton Disaster Recovery Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Our proven 6-step process ensures thorough restoration, proper documentation, and maximum insurance recovery for Bradenton and Manatee County property owners.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From the first hours after a storm to the final inspection months later, we manage every phase of disaster recovery for Bradenton commercial properties.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Emergency Stabilization",
+                description: "Rapid deployment within 24 to 48 hours of storm clearance for roof tarping, structural shoring, water extraction, and building security. For Bradenton mainland properties, we mobilize from pre-positioned staging areas in elevated Manatee County locations. Anna Maria Island response depends on bridge access clearance, and we coordinate with emergency management for the earliest possible deployment to island properties."
+              },
+              {
+                icon: Wind,
+                title: "Hurricane Wind Damage Recovery",
+                description: "Restoration of commercial properties damaged by hurricane and severe storm winds. This includes roof system replacement, building envelope repair, structural member restoration, glazing replacement, and interior damage from wind-driven rain infiltration. Bradenton's Wind Zone 3 requirements mean recovery construction often upgrades older buildings to current 120 mph design standards, improving long-term hurricane resilience."
+              },
+              {
+                icon: Droplets,
+                title: "Flood Damage Recovery",
+                description: "Comprehensive recovery from storm surge and river flooding affecting Bradenton properties. Flood recovery involves water extraction, contamination testing, removal of saturated materials, structural drying, mold prevention, and complete restoration of affected areas. Downtown Bradenton and Palmetto riverfront properties require particular attention to below-grade spaces and ground-floor mechanical systems that flooding affects first and most severely."
+              },
+              {
+                icon: Building2,
+                title: "Structural Recovery",
+                description: "Assessment and repair of structural damage to commercial buildings following disaster events. Storm-induced structural damage ranges from localized member failure caused by debris impact to system-wide displacement from wind or surge forces. We work with structural engineers to evaluate damage, develop repair designs, and execute structural restoration that returns buildings to full load-bearing capacity."
+              },
+              {
+                icon: Wrench,
+                title: "MEP System Restoration",
+                description: "Repair or replacement of mechanical, electrical, and plumbing systems damaged by storms. Flood damage to electrical panels, HVAC equipment, elevators, and fire suppression systems often represents the most expensive component of disaster recovery. We coordinate MEP restoration with building operations to restore essential systems in the most efficient sequence, prioritizing life safety and building functionality."
+              },
+              {
+                icon: FileCheck,
+                title: "Code Compliance Upgrades",
+                description: "When disaster recovery work triggers Florida Building Code upgrade thresholds, we identify and implement the required improvements. For Bradenton properties built before 2002, this often means upgraded wind resistance, impact-rated openings, and enhanced structural connections. We document code upgrade costs separately for insurance ordinance or law coverage recovery and ensure the restored building exceeds its pre-loss condition."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Disaster Recovery Across Bradenton's Diverse Jurisdictions
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery in Bradenton is complicated by the multiple jurisdictions that govern construction across Manatee County. A single storm event can damage properties in the City of Bradenton, unincorporated Manatee County, Palmetto, and the three Anna Maria Island municipalities, each with its own building department, permitting process, and emergency procedures. Managing recovery construction across these jurisdictions simultaneously requires an understanding of each one's specific requirements.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.bradentonfl.gov/217/Building" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Bradenton Building Division</a> handles disaster recovery permits for properties within city limits, including downtown, West Bradenton, and the established neighborhoods. The <a href="https://www.mymanatee.org/departments/building_and_development_services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Manatee County Building and Development Services</a> covers unincorporated areas including Lakewood Ranch, Ellenton, and Parrish. Anna Maria Island's three municipalities each maintain their own building departments. We navigate all of these jurisdictions and maintain the relationships with building officials that enable efficient permitting during the high-volume post-disaster period.
+              </p>
+              <p className="mb-6">
+                Bradenton's weather patterns make hurricane preparedness a year-round consideration for commercial property owners. Manatee County sits in one of the most hurricane-vulnerable zones on the Gulf Coast, with warm Gulf waters that fuel storm intensification close to shore. The hurricane season from June through November represents a six-month window during which any day could produce a disaster event. We work with commercial property owners and managers on pre-season preparedness, including building envelope assessments, emergency plan coordination, and pre-positioning agreements for rapid response.
+              </p>
+              <p>
+                Our knowledge of Bradenton's commercial building inventory gives us a head start when disaster recovery begins. We understand the construction methods, materials, and structural systems typical of different building eras and neighborhoods across Manatee County. 1970s commercial buildings in West Bradenton use different structural systems than 2000s construction in Lakewood Ranch. Barrier island commercial buildings face different vulnerability patterns than mainland riverfront properties. This familiarity allows us to begin damage assessment and recovery planning faster than contractors unfamiliar with the local building stock.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Bradenton Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Our disaster recovery process moves from emergency stabilization through full restoration in a structured sequence designed for Bradenton's multi-jurisdiction environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Mobilization and Stabilization",
+                description: "Within hours of storm clearance, we deploy emergency teams from pre-positioned staging areas. Structural shoring, roof tarping, water extraction, and building security prevent additional damage while conditions are assessed. For multi-property clients, we triage based on structural severity and life safety, deploying teams to the most critical Bradenton-area properties first.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Comprehensive Damage Assessment",
+                description: "Once stabilization is complete, we conduct detailed damage assessments for each property. Damage is documented by type (wind, flood, debris impact, surge), by building system (structural, envelope, MEP, interior), and by location within the building. This systematic documentation supports both insurance claims and recovery construction planning for properties across all Manatee County jurisdictions.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Recovery Planning and Permitting",
+                description: "We develop recovery construction plans based on damage assessments and code upgrade requirements. Permits are submitted to the appropriate jurisdiction, whether City of Bradenton, Manatee County, or one of the Anna Maria Island municipalities. Under emergency declarations, we pursue expedited permitting for critical stabilization work while full recovery permits go through standard review.",
+                icon: Building2,
+              },
+              {
+                step: "04",
+                title: "Recovery Construction",
+                description: "Permitted recovery work proceeds with experienced superintendents managing construction quality, safety, and schedule. We coordinate with insurance carriers on scope approval and supplemental claims as concealed damage is discovered. Multi-property recovery is sequenced to make efficient use of subcontractor resources, which become the primary constraint when all of Bradenton needs restoration simultaneously.",
+                icon: Wrench,
+              },
+              {
+                step: "05",
+                title: "Completion and Resilience Documentation",
+                description: "Final inspections, Certificate of Occupancy or completion from the applicable jurisdiction, and comprehensive documentation of all recovery work. We deliver as-built drawings that reflect code upgrades performed during recovery, helping property owners understand how their restored building now exceeds its pre-disaster condition. Maintenance recommendations specific to Bradenton's coastal climate complete the turnover package.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -329,119 +278,48 @@ export default function DisasterRecoveryBradentonPage() {
         </div>
       </section>
 
-      {/* Bradenton-Specific Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Local Bradenton Expertise Matters
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Disaster recovery in Bradenton requires contractors who understand local conditions, building codes, and the unique challenges of Manatee County's coastal environment. FCS brings extensive experience in Bradenton and the Anna Maria Island corridor to every restoration project.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>City of Bradenton Permit Expertise:</strong> Established relationships with Bradenton Building Division expedite permit approvals (typically 3-5 weeks for commercial)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Village of the Arts Standards:</strong> Experience navigating historic overlay requirements while incorporating disaster-resistant improvements</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Anna Maria Island Coordination:</strong> Understanding of the island's stricter building requirements and tourism-based restoration priorities</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Manatee River Flood Expertise:</strong> Specialized knowledge of river setback requirements and flood-resistant construction methods</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$40M+</div>
-                <div className="text-gray-300 text-sm">Manatee County Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Properties Restored</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Storm Response</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Bradenton Chooses FCS for Disaster Recovery
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor on Bradenton disaster recovery projects—never a subcontractor. You get direct accountability and single-point responsibility for your restoration.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Insurance Expertise</h3>
-              <p className="text-gray-600">
-                Our team includes insurance restoration specialists who understand claim documentation, Xactimate estimating, and carrier negotiation to maximize your recovery in Manatee County.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Proven Track Record</h3>
-              <p className="text-gray-600">
-                With $40M+ in completed Manatee County disaster recovery projects, we have the experience, bonding capacity, and local expertise to handle any Bradenton restoration challenge.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={bradentonFaqs}
-        title="Bradenton Disaster Recovery FAQs"
+        items={faqs}
+        title="Bradenton Disaster Recovery FAQ"
+        description="Common questions about disaster recovery and emergency response in Bradenton and Manatee County, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Bradenton" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Bradenton" service="disaster-recovery" serviceName="Disaster Recovery" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Bradenton Disaster Recovery Experts
+            Prepare for and Recover from Bradenton Disasters
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for disaster recovery services or pre-season preparedness planning for your Bradenton commercial property. We respond to emergencies and help you build resilience before the next storm.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get storm response
+              Request Emergency Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>24-48 Hour Emergency Response</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
