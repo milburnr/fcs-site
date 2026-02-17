@@ -96,6 +96,9 @@ export default function Page() {
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               When disaster strikes your Tampa Bay commercial property, the insurance claim process can be overwhelming. Public adjusters serve as your professional advocates, working exclusively on your behalf to document damage, calculate losses, and negotiate with insurance companies. Unlike insurance company adjusters whose loyalty lies with the carrier, public adjusters are legally and ethically bound to maximize your claim recovery under Florida law.
             </p>
+            <p className="text-gray-600 mb-8">
+              Florida Construction Specialists has partnered with public adjusters on large-loss commercial claims for over 40 years. With CBC license CBC1262722, in-house engineering, and Frank Bragano's background as a former Allstate Commercial Property adjuster, we provide the technical documentation—Xactimate estimates, structural assessments, and scope narratives—that public adjusters rely on to maximize claim recovery.
+            </p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

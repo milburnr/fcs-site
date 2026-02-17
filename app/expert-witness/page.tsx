@@ -170,8 +170,11 @@ export default function ExpertWitnessPage() {
               <p className="mb-6">
                 Since founding Florida Construction Specialists, Frank has completed over $25 million in construction projects, including complex hurricane restoration, historic preservation, and commercial construction. This hands-on construction experience ensures testimony is grounded in real-world building practices, not just theoretical knowledge.
               </p>
-              <p>
+              <p className="mb-6">
                 This dual perspective—understanding both how buildings are built and how claims are handled—makes our expert witness testimony particularly effective in cases involving insurance coverage disputes, scope disagreements, and construction defect claims.
+              </p>
+              <p>
+                As a licensed Certified Building Contractor (CBC1262722) with over 300 completed projects and in-house engineering capabilities, Frank's testimony is grounded in verifiable credentials and documented project experience—not just theoretical knowledge.
               </p>
             </div>
           </div>

@@ -22,6 +22,7 @@ import { FAQ } from "@/components/FAQ";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/engineering/' },
@@ -261,10 +262,20 @@ export default function EngineeringCoordinationPage() {
               <p className="mb-6">
                 Whether you need a structural assessment following hurricane damage, coordination for mandatory SB4-D milestone inspections, engineering analysis for a renovation project, or documentation to support an insurance claim, FCS manages the entire process. We select appropriate engineering consultants, facilitate their work, ensure proper documentation, and execute any resulting construction - providing you with a single point of accountability.
               </p>
-              <p>
+              <p className="mb-6">
                 With over $10 million in bonding capacity and a track record including {BUSINESS_INFO.projectsCompleted}+ completed projects, Florida Construction Specialists has the capability to coordinate complex engineering requirements and execute large-scale construction. From SB4-D compliance for condominium associations to hurricane damage evaluations supporting million-dollar insurance claims, we bring the coordination expertise your project needs.
               </p>
+              <p>
+                Our in-house engineering team has coordinated structural assessments on hundreds of Florida buildings since 1982. Under CBC license CBC1262722, we integrate engineering analysis directly into construction planning—eliminating the communication gaps that delay projects when engineering and construction are managed separately.
+              </p>
             </div>
+            <CodeReference
+              code="Florida Statute 553.899"
+              section="Mandatory Structural Inspections — Milestone Inspections"
+              description="Requires condominium and cooperative buildings 3 or more stories tall to undergo milestone structural inspections by a licensed engineer at 30 years (25 years within 3 miles of coast) and every 10 years thereafter. FCS coordinates these inspections and manages any resulting remediation."
+              link="https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0500-0599/0553/Sections/0553.899.html"
+              linkText="View F.S. 553.899"
+            />
           </div>
         </div>
       </section>

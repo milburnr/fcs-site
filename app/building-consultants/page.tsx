@@ -19,6 +19,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
+import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-consultants/' },
@@ -301,13 +302,23 @@ export default function BuildingConsultantsPage() {
                 a major project, an attorney handling a construction dispute, or an insurance carrier
                 evaluating a claim, we bring the expertise you need.
               </p>
-              <p>
+              <p className="mb-6">
                 Our consulting practice is built on the same principles that guide our construction
                 work: integrity, expertise, and a commitment to getting it right. We provide honest,
                 objective analysis even when it is not what clients want to hear because our
                 reputation depends on it.
               </p>
+              <p>
+                As a licensed Certified Building Contractor (CBC1262722) with in-house engineering capabilities, Florida Construction Specialists brings technical depth that general consultants cannot match. Our consulting opinions are grounded in hands-on construction experience across every building type in Florida.
+              </p>
             </div>
+            <CodeReference
+              code="Florida Statute 489.113"
+              section="Contractor Qualification Requirements"
+              description="Florida law requires contractors providing construction consulting, estimates, and oversight to hold valid licensure. FCS maintains active CBC license CBC1262722, ensuring all consulting services meet Florida's contractor qualification standards."
+              link="http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Search_String=&URL=0400-0499/0489/Sections/0489.113.html"
+              linkText="View F.S. 489.113"
+            />
           </div>
         </div>
       </section>

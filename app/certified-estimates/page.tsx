@@ -204,8 +204,11 @@ export default function CertifiedEstimatesPage() {
               <p className="mb-6">
                 From 1982 to 1989, Frank served as a Commercial Property adjuster for Allstate, learning exactly how carriers evaluate claims, determine scope, and calculate damages. He later served as an Executive General Adjuster for CJW-Vericlaim/Sedgwick, handling large-loss commercial claims requiring detailed cost analysis. This carrier-side experience informs every estimate we prepare, ensuring nothing is overlooked and every item is properly documented.
               </p>
-              <p>
+              <p className="mb-6">
                 Since founding Florida Construction Specialists, Frank has completed over $25 million in construction projects, providing the real-world cost data that makes our estimates accurate and defensible. Whether you need an estimate for insurance claim support, litigation, appraisal, or project planning, our certified estimates are prepared to the highest professional standards.
+              </p>
+              <p>
+                Every certified estimate we prepare is backed by our active CBC license (CBC1262722) and four decades of verifiable project history across commercial, residential, and insurance restoration work throughout Florida.
               </p>
             </div>
           </div>
