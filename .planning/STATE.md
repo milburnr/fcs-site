@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 6 of 9 (E-E-A-T Signals)
-Plan: 1 of 8 in current phase (1 complete)
+Plan: 5 of 8 in current phase (5 complete)
 Status: Executing Phase 6
-Last activity: 2026-02-17 -- Completed 06-01 (Foundation Components)
+Last activity: 2026-02-17 -- Completed 06-05 (Guide Article Experience Language)
 
 Progress: [█████████░] 87%
 
@@ -65,6 +65,7 @@ Progress: [█████████░] 87%
 | Phase 05 P08 | 20min | 1 tasks | 9 files |
 | Phase 05 P09 | 4min | 2 tasks | 9 files |
 | Phase 06 P01 | 2min | 1 tasks | 3 files |
+| Phase 06 P05 | 5min | 1 tasks | 261 files |
 
 ## Accumulated Context
 
@@ -169,6 +170,9 @@ Recent decisions affecting current work:
 - [Phase 06-01]: AuthorByline supports light/dark variant for hero vs body contexts
 - [Phase 06-01]: ProjectGallery omits non-existent size prop from OptimizedImage; uses default responsive sizing
 - [Phase 06-01]: GalleryPhoto type exported from ProjectGallery for consuming page type safety
+- [Phase 06-05]: Experience language appended to first content paragraph (after hero), not inline replacement
+- [Phase 06-05]: 3 templates per silo rotated to prevent consecutive duplicates
+- [Phase 06-05]: 23 "since 1983" references standardized to "since 1982" across guide articles
 
 ### Pending Todos
 
@@ -183,5 +187,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-17
-Stopped at: Completed 06-02-PLAN.md (Batch Byline Insertion)
-Resume file: .planning/phases/06-e-e-a-t-signals/06-03-PLAN.md
+Stopped at: Completed 06-05-PLAN.md (Guide Article Experience Language)
+Resume file: .planning/phases/06-e-e-a-t-signals/06-06-PLAN.md
