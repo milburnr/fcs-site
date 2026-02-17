@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/energy-efficient-custom-homes-in-tampa/' },
   title: "Energy-Efficient Custom Homes Tampa | Save 40%+",
-  description: "Energy-efficient Custom Homes Save 40%+ in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1983. Request a free estimate.",
+  description: "Energy-efficient Custom Homes Save 40%+ in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Request a free estimate.",
 };
 
 const breadcrumbItems = [

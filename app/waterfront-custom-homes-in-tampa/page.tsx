@@ -9,7 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/waterfront-custom-homes-in-tampa/' },
   title: "Waterfront Custom Homes in Tampa | Luxury Bayfront Living",
-  description: "Waterfront Custom Homes Luxury Bayfront Living in Tampa: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1983. Read more.",
+  description: "Waterfront Custom Homes Luxury Bayfront Living in Tampa: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1982. Read more.",
 };
 
 const breadcrumbItems = [

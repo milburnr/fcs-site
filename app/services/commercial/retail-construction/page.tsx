@@ -10,7 +10,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/retail-construction/' },
   title: "Retail Construction Tampa | Shopping Centers & Stores | FCS",
-  description: "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1983. Request a free estimate.",
+  description: "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982. Request a free estimate.",
 };
 
 const breadcrumbItems = [

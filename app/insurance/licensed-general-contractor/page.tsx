@@ -20,7 +20,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/' },
   title: "Licensed General Contractor | Insurance Restoration | FCS Tampa",
-  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1983. Contact us today.",
+  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982. Contact us today.",
 };
 
 const breadcrumbItems = [

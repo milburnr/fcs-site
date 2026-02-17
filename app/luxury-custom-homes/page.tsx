@@ -212,7 +212,7 @@ export default function LuxuryCustomHomesPage() {
             </div>
 
             <h2 className="font-heading text-3xl md:text-4xl text-white text-center mb-8">
-              Crafting Extraordinary Residences Since 1983
+              Crafting Extraordinary Residences Since 1982
             </h2>
 
             <div className="prose prose-lg prose-invert mx-auto text-gray-300 leading-relaxed">
