@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, MapPin, ArrowRight, Building2, Shield, Award, Home, Hammer, History, AlertTriangle } from "lucide-react";
+import { Phone, MapPin, ArrowRight, Building2, Shield, Award, Home, Hammer, History, AlertTriangle, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { FAQ } from "@/components/FAQ";
 import { LocalBusinessSchema, BreadcrumbSchema, FAQSchema, ServiceSchema } from "@/components/Schema";
@@ -382,6 +382,44 @@ export default function LakelandPage() {
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <InternalLinks title="Our Services" links={serviceLinks} />
             <InternalLinks title="Nearby Locations" links={nearbyLocationLinks} />
+          </div>
+        </div>
+      </section>
+
+      {/* Service+Location Pages */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
+              Our Services in Lakeland
+            </h2>
+            <p className="text-gray-600 text-center mb-8">
+              Explore our full range of construction services available in Lakeland. Each page details our capabilities, process, and local expertise for that specific service.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/commercial-construction-lakeland/", label: "Commercial Construction in Lakeland" },
+                { href: "/multi-family-construction-lakeland/", label: "Multi-Family Construction in Lakeland" },
+                { href: "/condo-remediation-lakeland/", label: "Condo Remediation in Lakeland" },
+                { href: "/insurance-restoration-lakeland/", label: "Insurance Restoration in Lakeland" },
+                { href: "/disaster-recovery-lakeland/", label: "Disaster Recovery in Lakeland" },
+                { href: "/historic-restoration-lakeland/", label: "Historic Restoration in Lakeland" },
+                { href: "/luxury-custom-homes-lakeland/", label: "Luxury Custom Homes in Lakeland" },
+                { href: "/balcony-reconstruction-lakeland/", label: "Balcony Reconstruction in Lakeland" },
+                { href: "/exterior-waterproofing-lakeland/", label: "Exterior Waterproofing in Lakeland" },
+              ].map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:border-brand-green hover:bg-brand-green-bg/30 transition-all group"
+                >
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
+                  <span className="text-gray-700 group-hover:text-brand-green-dark font-medium text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </section>

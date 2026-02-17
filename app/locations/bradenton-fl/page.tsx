@@ -401,6 +401,44 @@ export default function BradentonPage() {
         </div>
       </section>
 
+      {/* Service+Location Pages */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
+              Our Services in Bradenton
+            </h2>
+            <p className="text-gray-600 text-center mb-8">
+              Explore our full range of construction services available in Bradenton. Each page details our capabilities, process, and local expertise for that specific service.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/commercial-construction-bradenton/", label: "Commercial Construction in Bradenton" },
+                { href: "/multi-family-construction-bradenton/", label: "Multi-Family Construction in Bradenton" },
+                { href: "/condo-remediation-bradenton/", label: "Condo Remediation in Bradenton" },
+                { href: "/insurance-restoration-bradenton/", label: "Insurance Restoration in Bradenton" },
+                { href: "/disaster-recovery-bradenton/", label: "Disaster Recovery in Bradenton" },
+                { href: "/historic-restoration-bradenton/", label: "Historic Restoration in Bradenton" },
+                { href: "/luxury-custom-homes-bradenton/", label: "Luxury Custom Homes in Bradenton" },
+                { href: "/balcony-reconstruction-bradenton/", label: "Balcony Reconstruction in Bradenton" },
+                { href: "/exterior-waterproofing-bradenton/", label: "Exterior Waterproofing in Bradenton" },
+              ].map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:border-brand-green hover:bg-brand-green-bg/30 transition-all group"
+                >
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
+                  <span className="text-gray-700 group-hover:text-brand-green-dark font-medium text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section bg-brand-green">
         <div className="container-custom text-center">

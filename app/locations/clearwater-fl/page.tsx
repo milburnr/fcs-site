@@ -401,6 +401,44 @@ export default function ClearwaterPage() {
         </div>
       </section>
 
+      {/* Service+Location Pages */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
+              Our Services in Clearwater
+            </h2>
+            <p className="text-gray-600 text-center mb-8">
+              Explore our full range of construction services available in Clearwater. Each page details our capabilities, process, and local expertise for that specific service.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/commercial-construction-clearwater/", label: "Commercial Construction in Clearwater" },
+                { href: "/multi-family-construction-clearwater/", label: "Multi-Family Construction in Clearwater" },
+                { href: "/condo-remediation-clearwater/", label: "Condo Remediation in Clearwater" },
+                { href: "/insurance-restoration-clearwater/", label: "Insurance Restoration in Clearwater" },
+                { href: "/disaster-recovery-clearwater/", label: "Disaster Recovery in Clearwater" },
+                { href: "/historic-restoration-clearwater/", label: "Historic Restoration in Clearwater" },
+                { href: "/luxury-custom-homes-clearwater/", label: "Luxury Custom Homes in Clearwater" },
+                { href: "/balcony-reconstruction-clearwater/", label: "Balcony Reconstruction in Clearwater" },
+                { href: "/exterior-waterproofing-clearwater/", label: "Exterior Waterproofing in Clearwater" },
+              ].map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:border-brand-green hover:bg-brand-green-bg/30 transition-all group"
+                >
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
+                  <span className="text-gray-700 group-hover:text-brand-green-dark font-medium text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section bg-brand-green">
         <div className="container-custom text-center">

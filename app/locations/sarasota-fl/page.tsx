@@ -401,6 +401,44 @@ export default function SarasotaPage() {
         </div>
       </section>
 
+      {/* Service+Location Pages */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
+              Our Services in Sarasota
+            </h2>
+            <p className="text-gray-600 text-center mb-8">
+              Explore our full range of construction services available in Sarasota. Each page details our capabilities, process, and local expertise for that specific service.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/commercial-construction-sarasota/", label: "Commercial Construction in Sarasota" },
+                { href: "/multi-family-construction-sarasota/", label: "Multi-Family Construction in Sarasota" },
+                { href: "/condo-remediation-sarasota/", label: "Condo Remediation in Sarasota" },
+                { href: "/insurance-restoration-sarasota/", label: "Insurance Restoration in Sarasota" },
+                { href: "/disaster-recovery-sarasota/", label: "Disaster Recovery in Sarasota" },
+                { href: "/historic-restoration-sarasota/", label: "Historic Restoration in Sarasota" },
+                { href: "/luxury-custom-homes-sarasota/", label: "Luxury Custom Homes in Sarasota" },
+                { href: "/balcony-reconstruction-sarasota/", label: "Balcony Reconstruction in Sarasota" },
+                { href: "/exterior-waterproofing-sarasota/", label: "Exterior Waterproofing in Sarasota" },
+              ].map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:border-brand-green hover:bg-brand-green-bg/30 transition-all group"
+                >
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
+                  <span className="text-gray-700 group-hover:text-brand-green-dark font-medium text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section bg-brand-green">
         <div className="container-custom text-center">

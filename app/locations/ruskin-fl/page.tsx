@@ -416,6 +416,44 @@ export default function RuskinPage() {
         </div>
       </section>
 
+      {/* Service+Location Pages */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
+              Our Services in Ruskin
+            </h2>
+            <p className="text-gray-600 text-center mb-8">
+              Explore our full range of construction services available from our Ruskin headquarters. Each page details our capabilities, process, and local expertise for that specific service.
+            </p>
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {[
+                { href: "/commercial-construction-ruskin/", label: "Commercial Construction in Ruskin" },
+                { href: "/multi-family-construction-ruskin/", label: "Multi-Family Construction in Ruskin" },
+                { href: "/condo-remediation-ruskin/", label: "Condo Remediation in Ruskin" },
+                { href: "/insurance-restoration-ruskin/", label: "Insurance Restoration in Ruskin" },
+                { href: "/disaster-recovery-ruskin/", label: "Disaster Recovery in Ruskin" },
+                { href: "/historic-restoration-ruskin/", label: "Historic Restoration in Ruskin" },
+                { href: "/luxury-custom-homes-ruskin/", label: "Luxury Custom Homes in Ruskin" },
+                { href: "/balcony-reconstruction-ruskin/", label: "Balcony Reconstruction in Ruskin" },
+                { href: "/exterior-waterproofing-ruskin/", label: "Exterior Waterproofing in Ruskin" },
+              ].map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="flex items-center gap-3 p-4 border border-gray-200 rounded-lg hover:border-brand-green hover:bg-brand-green-bg/30 transition-all group"
+                >
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0" />
+                  <span className="text-gray-700 group-hover:text-brand-green-dark font-medium text-sm">
+                    {service.label}
+                  </span>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="section bg-brand-green">
         <div className="container-custom text-center">
