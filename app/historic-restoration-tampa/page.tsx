@@ -1,20 +1,45 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
-import { Landmark, Shield, Award, Clock, CheckCircle, Phone, ArrowRight, FileText, Building2, Palette, History, Scale, MapPin, Hammer, BookOpen, Users } from "lucide-react";
-import { LocalBusinessSchema, ServiceSchema, FAQSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Landmark, BookOpen, Palette, History, FileCheck, Scale } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { FAQ } from "@/components/FAQ";
-import { HighLevelForm } from "@/components/HighLevelForm";
-import { GoogleMap } from "@/components/GoogleMap";
-import { InternalLinks, NearbyLocations, RelatedServices } from "@/components/InternalLinks";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-tampa/' },
-  title: "Historic Restoration in Tampa",
-  description: "Historic restoration Tampa: Ybor City, Hyde Park, Seminole Heights. SHPO compliance, tax credits, Interior Standards. Call us today.",
+  title: "Historic Restoration Tampa FL | Ybor City & Hyde Park | FCS",
+  description: "Historic building restoration in Tampa. Ybor City National Historic District, Hyde Park, Tampa Heights preservation. Secretary of Interior standards. Licensed CBC, 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "What historic districts in Tampa require special construction review for restoration work?",
+    answer: "Tampa has two formally designated historic districts with architectural review requirements. Ybor City's National Historic Landmark District, listed on the National Register of Historic Places in 1990, is overseen by the Barrio Latino Commission which reviews exterior alterations, additions, new construction, and demolition within the district boundaries. The Hyde Park Historic District, also on the National Register, is reviewed by the City of Tampa's Architectural Review Commission. Both districts require a Certificate of Appropriateness for exterior work that affects the historic character of buildings. Additionally, individual Tampa properties listed on the National Register or designated as local landmarks outside these districts may have their own protection requirements."
+  },
+  {
+    question: "How does FCS approach restoration of the historic cigar factory buildings in Ybor City?",
+    answer: "Ybor City's cigar factory buildings present unique restoration challenges because of their distinctive brick and masonry construction, industrial-scale floor plates, and the specific preservation requirements of the National Historic Landmark designation. Our approach begins with thorough documentation of existing conditions, including masonry analysis, structural assessment of the heavy timber and masonry bearing wall systems, and identification of character-defining features that must be preserved. We have experience with repointing historic brick using compatible lime-based mortars, restoring cast iron and steel structural elements, rehabilitating original windows where possible, and integrating modern building systems without compromising the architectural integrity that earned these buildings their landmark status."
+  },
+  {
+    question: "Can modern building systems be integrated into Tampa historic buildings without compromising their character?",
+    answer: "Yes, and this integration is one of the most important skills in historic restoration. Tampa's historic buildings require modern HVAC, electrical, plumbing, fire suppression, and accessibility systems to function as contemporary commercial or residential spaces. The key is routing these systems through the building in ways that are concealed or minimally visible, using existing chases, closets, and service corridors wherever possible. For Ybor City's brick industrial buildings, we often route HVAC ductwork through floor cavities and use mini-split systems that minimize visible penetrations. In Hyde Park's wood-frame residential structures, we integrate systems within wall cavities and attic spaces. The Secretary of the Interior's Standards provide the framework we follow for all systems integration."
+  },
+  {
+    question: "What are the Secretary of the Interior's Standards and how do they affect Tampa restoration projects?",
+    answer: "The Secretary of the Interior's Standards for the Treatment of Historic Properties are the nationally recognized guidelines for historic preservation work. They establish four treatment approaches: preservation, rehabilitation, restoration, and reconstruction. For most Tampa commercial historic restoration projects, rehabilitation is the most common treatment, which allows adapting a building for new use while preserving the character-defining features and historical significance. These standards are particularly important in Tampa when projects involve federal historic preservation tax credits, which require that all work comply with the Standards as reviewed by the National Park Service. We are experienced in documenting compliance with these standards throughout the construction process."
+  },
+  {
+    question: "Does Tampa offer any financial incentives for historic building restoration?",
+    answer: "Several incentive programs can offset the costs of historic restoration in Tampa. The Federal Historic Preservation Tax Credit provides a 20 percent tax credit for qualified rehabilitation expenses on income-producing properties listed on the National Register of Historic Places, which includes buildings in both Ybor City and Hyde Park. Florida offers an ad valorem tax exemption for improvements to historically designated properties, which can significantly reduce property taxes during the exemption period. The City of Tampa has periodically offered grants and incentives through its historic preservation programs, particularly for properties in designated historic districts. We work with property owners and their tax advisors to identify applicable incentives before construction begins, as some programs have specific application requirements that must be met during the planning phase."
+  },
+  {
+    question: "How long does a typical historic restoration project take in Tampa compared to conventional construction?",
+    answer: "Historic restoration in Tampa generally takes 20 to 40 percent longer than conventional construction of comparable scope, primarily due to the additional review processes, specialized materials, and careful construction methods required. The Certificate of Appropriateness process through the Barrio Latino Commission for Ybor City projects or the Architectural Review Commission for Hyde Park projects adds 4 to 8 weeks before construction can begin. During construction, work proceeds more slowly because of the need to preserve existing fabric, use compatible repair materials that may require longer cure times, and perform careful selective demolition. A moderate commercial restoration project in Ybor City might take 8 to 14 months compared to 6 to 10 months for similar-scale new commercial construction. We build these timelines into every historic project schedule so clients have realistic expectations."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -23,473 +48,221 @@ const breadcrumbItems = [
   { name: "Tampa", href: "/historic-restoration-tampa/" },
 ];
 
-// 10 Tampa-specific historic restoration FAQs
-const tampaFaqs = [
-  {
-    question: "What historic districts does Florida Construction Specialists serve in Tampa?",
-    answer: "We serve all of Tampa's designated historic districts including Ybor City National Historic Landmark District (Florida's only National Historic Landmark District), Hyde Park Historic District, Seminole Heights Historic District, Tampa Heights Historic District, and West Tampa Historic District. Each district has specific preservation standards, and we have extensive experience navigating the Tampa Historic Preservation Commission (HPC) and Barrio Latino Commission requirements."
-  },
-  {
-    question: "What is the Barrio Latino Commission and how does it affect Ybor City restoration projects?",
-    answer: "The Barrio Latino Commission is a design review board that oversees all construction, alterations, and demolition within Ybor City's National Historic Landmark District. Any exterior changes to contributing structures require a Certificate of Appropriateness (COA) from the Commission before work can begin. We have completed multiple projects in Ybor City including the Italian American Club restoration ($1.2M), the Wotjowicz House, and the Ferraro House, giving us deep expertise in navigating this approval process."
-  },
-  {
-    question: "How do I obtain a Certificate of Appropriateness in Tampa?",
-    answer: "The Certificate of Appropriateness (COA) process involves submitting an application to Tampa's Historic Preservation Commission or, for Ybor City properties, the Barrio Latino Commission. Applications require detailed plans, material specifications, and historic documentation. Minor projects may receive staff-level approval, while major work requires full board review at monthly meetings. FCS prepares comprehensive COA applications and presents projects to the boards, leveraging our established relationships with commission staff."
-  },
-  {
-    question: "Can I get historic tax credits for my Tampa restoration project?",
-    answer: "Yes, qualifying Tampa projects may be eligible for the Federal Historic Preservation Tax Credit (20% for income-producing properties), Florida's ad valorem tax exemption for historic properties, and local incentives. Buildings must be listed on the National Register of Historic Places (individually or as contributing structures in a historic district), and work must meet Secretary of Interior Standards. We coordinate the SHPO Part 1, Part 2, and Part 3 application process to ensure your project qualifies."
-  },
-  {
-    question: "What makes Ybor City's cigar factories unique for restoration?",
-    answer: "Ybor City's cigar factories represent some of Tampa's most architecturally significant structures. Built in the late 1800s and early 1900s, these buildings feature distinctive brick construction, Mediterranean-influenced details, iron balconies, and large interior spaces designed for cigar manufacturing. Restoring these buildings requires specialized knowledge of historic masonry, iron work restoration, and adaptive reuse strategies that preserve character-defining features while meeting modern building codes."
-  },
-  {
-    question: "How do you source period-accurate materials for Tampa historic restorations?",
-    answer: "Period-accurate material sourcing is critical for historic restoration. We maintain relationships with specialty suppliers, architectural salvage dealers, and craftspeople who can fabricate custom reproductions. For Tampa projects, this includes matching historic mortar formulations, sourcing compatible brick, replicating terra cotta details, restoring or replicating iron balcony work, and matching historic millwork profiles. Our material sourcing expertise is detailed on our period-accurate material sourcing page."
-  },
-  {
-    question: "What is the typical cost of historic restoration in Tampa?",
-    answer: "Historic restoration in Tampa typically ranges from $200-400+ per square foot for full building restoration, $50-150 per square foot for facade restoration, and $150-300 per square foot for interior historic restoration. Costs vary based on building condition, level of deterioration, preservation requirements, and whether the project pursues tax credits. The federal Historic Tax Credit (20%) can substantially offset costs for income-producing properties. We provide detailed budgeting during pre-construction."
-  },
-  {
-    question: "How long does a historic restoration project take in Tampa?",
-    answer: "Timeline depends on project scope and approval requirements. Typical ranges: facade restoration 3-8 months, full building restoration 12-24 months, complex adaptive reuse 18-36 months. Additional time is needed for COA approvals (1-2 months), SHPO review for tax credit projects (4-6 months for Part 2 approval), and sourcing period materials. For Ybor City projects, the Barrio Latino Commission review adds time but is essential for maintaining the district's National Historic Landmark status."
-  },
-  {
-    question: "Can you add modern amenities to historic buildings in Tampa while maintaining historic character?",
-    answer: "Yes, successful historic restoration often involves sensitively integrating modern systems—HVAC, electrical, plumbing, fire protection, accessibility, and technology—while preserving character-defining features. The key is designing these updates to be minimally invasive and, where possible, reversible. We route mechanical systems through historically less significant spaces, conceal modern technology behind period-appropriate covers, and design accessibility improvements that respect historic character."
-  },
-  {
-    question: "What social clubs and landmark buildings has FCS restored in Ybor City?",
-    answer: "Our Ybor City portfolio includes major restoration projects such as the Italian American Club ($1.2M complete interior and exterior restoration), the Lion's Eye Institute (National Historic Register property), and ground-up new construction within the Barrio Latino district including the Wotjowicz House and Ferraro House. We've also completed work at Plant High School ($525K tuckpointing and brick restoration). These projects demonstrate our expertise in both restoration and sensitive new construction within Tampa's most significant historic district."
-  },
-];
-
-// Cluster services for internal linking
-const clusterServices = [
-  {
-    name: "SHPO Compliance",
-    href: "/historic-restoration/",
-    description: "Full compliance with Florida State Historic Preservation Office requirements and Secretary of the Interior's Standards for Historic Preservation.",
-    icon: Shield,
-  },
-  {
-    name: "Period-Accurate Material Sourcing",
-    href: "/historic-restoration/",
-    description: "Expert sourcing of period-appropriate materials including historic masonry, millwork, hardware, and architectural elements.",
-    icon: Palette,
-  },
-  {
-    name: "Historic Tax Credits",
-    href: "/historic-restoration/",
-    description: "Navigation of federal and state historic tax credit programs, ensuring work meets qualification requirements.",
-    icon: Scale,
-  },
-];
-
-// Featured projects in Tampa
-const featuredProjects = [
-  {
-    name: "Italian American Club",
-    location: "Ybor City, Tampa",
-    type: "Social Club / National Historic Landmark District",
-    value: "$1.2M",
-    description: "Complete interior and exterior restoration of this historic Ybor City landmark. Work included facade restoration, interior rehabilitation, structural repairs, and sensitive integration of modern systems while preserving the building's historic character and significance to Tampa's Italian-American community.",
-  },
-  {
-    name: "Plant High School",
-    location: "South Tampa",
-    type: "Educational / Historic Institution",
-    value: "$525K",
-    description: "Tuckpointing and brick restoration of this historic Tampa educational institution established in 1927. Careful masonry repair and repointing preserved the building's Mediterranean Revival character while addressing structural concerns and water infiltration issues.",
-  },
-  {
-    name: "Wotjowicz House",
-    location: "Ybor City, Tampa",
-    type: "Residential / Barrio Latino Commission",
-    value: "Custom Build",
-    description: "Ground-up new construction within Ybor City's Barrio Latino historic district. Design and construction met all Certificate of Appropriateness requirements, demonstrating that contemporary luxury living can be achieved within strict historic preservation guidelines.",
-  },
-  {
-    name: "Ferraro House",
-    location: "Ybor City, Tampa",
-    type: "Residential / Barrio Latino Commission",
-    value: "Custom Build",
-    description: "New residential construction in the Barrio Latino district, requiring full Barrio Latino Commission approval. The project balanced modern living requirements with the architectural vocabulary and material palette required to maintain Ybor City's National Historic Landmark status.",
-  },
-];
-
-// Internal links for the page
-const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
-  { href: "/historic-restoration/", label: "SHPO Compliance" },
-  { href: "/historic-restoration/", label: "Period Material Sourcing" },
-  { href: "/historic-restoration/", label: "Historic Tax Credits" },
-  { href: "/historic-restoration-st-petersburg/", label: "Historic Restoration St. Petersburg" },
-  { href: "/historic-restoration-lakeland/", label: "Historic Restoration Lakeland" },
-];
-
 export default function HistoricRestorationTampaPage() {
   return (
     <>
-      {/* Schema Markup */}
       <LocalBusinessSchema city="Tampa" service="Historic Restoration" />
       <ServiceSchema
         serviceName="Historic Restoration"
-        serviceDescription="Expert historic restoration services in Tampa, Florida. Ybor City National Historic Landmark District specialists. SHPO compliance, Secretary of Interior Standards, historic tax credit navigation, Barrio Latino Commission expertise. Projects from $500K to $25M+."
+        serviceDescription="Historic building restoration in Tampa, FL. Ybor City National Historic District, Hyde Park, Tampa Heights. Secretary of Interior Standards compliance. Licensed CBC1262722."
         city="Tampa"
-        minPrice="500000"
-        serviceCategories={["Period-Accurate Renovation","Structural Repair","Adaptive Reuse","Facade Restoration","Historic Preservation"]}
+        serviceCategories={["Historic Building Restoration", "Ybor City Preservation", "Hyde Park Restoration", "Adaptive Reuse", "Historic Tax Credit Projects"]}
       />
-      <FAQSchema faqs={tampaFaqs} />
       <BreadcrumbSchema items={breadcrumbItems} />
 
       {/* Hero Section */}
-      <section className="relative py-20 md:py-28 bg-gradient-to-br from-amber-900 via-amber-800 to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.4"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")' }} />
-        </div>
-
+      <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
+        <div className="absolute inset-0 bg-[url('/images/tampa-historic-building-restoration/tampa-historic-building-restoration-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
+              <MapPin className="w-4 h-4 text-brand-gold" />
+              <span className="text-brand-gold font-semibold">Serving Tampa, Florida</span>
+            </div>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Historic Restoration in Tampa, Florida
+            </h1>
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the cigar factory buildings of Ybor City's National Historic Landmark District to the elegant bungalows and colonial revivals of Hyde Park, Tampa possesses a rich architectural heritage that deserves preservation. Florida Construction Specialists provides historic restoration services that honor the craftsmanship of the past while meeting the demands of modern use.
+            </p>
 
-          <div className="grid lg:grid-cols-2 gap-12 items-center mt-8">
-            <div className="text-white">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
-                <MapPin className="w-4 h-4 text-brand-gold" />
-                <span className="text-brand-gold font-semibold">Serving Tampa, FL</span>
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
               </div>
-
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-heading leading-tight">
-                Historic Restoration in Tampa
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed">
-                Florida Construction Specialists is Tampa's premier historic restoration contractor. From the cigar factories and social clubs of Ybor City's National Historic Landmark District to the Mediterranean Revival mansions of Hyde Park, we preserve Tampa's irreplaceable architectural heritage.
-              </p>
-
-              {/* Trust Badges */}
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Shield className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">SHPO</p>
-                  <p className="text-xs text-gray-300">Compliant</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Landmark className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Secretary</p>
-                  <p className="text-xs text-gray-300">of Interior Stds</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <History className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Ybor City</p>
-                  <p className="text-xs text-gray-300">Specialists</p>
-                </div>
-                <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 text-center">
-                  <Award className="w-8 h-8 mx-auto mb-2 text-brand-gold" />
-                  <p className="text-sm font-semibold">Licensed</p>
-                  <p className="text-xs text-gray-300">{BUSINESS_INFO.licenseNumber}</p>
-                </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
               </div>
-
-              {/* CTAs */}
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/contact/" className="btn-cta text-center">
-                  Schedule Historic Consultation
-                </Link>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  {BUSINESS_INFO.phone}
-                </a>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Landmark className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Historic Preservation Specialists</span>
               </div>
             </div>
 
-            {/* Form */}
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Discuss Your Tampa Historic Project
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Tell us about your historic property and restoration needs in Tampa.
-              </p>
-              <HighLevelForm height={450} />
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Restoration Project
+              </Link>
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
+                <Phone className="w-5 h-5" />
+                {BUSINESS_INFO.phone}
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Introduction - Tampa's Historic Districts */}
+      {/* Tampa Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-              Preserving Tampa's Architectural Heritage
+              Preserving Tampa's Architectural Identity in an Era of Rapid Growth
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
-              <p className="lead text-xl mb-6">
-                Tampa's historic districts tell the story of the city's rich multicultural past—from the Cuban and Italian immigrants who built Ybor City's cigar empire to the early 20th-century developers who created Hyde Park's elegant streetscapes. At Florida Construction Specialists, we consider it a privilege to preserve these irreplaceable structures for future generations.
+              <p className="text-xl mb-6">
+                Tampa's rapid development has made its historic buildings more valuable and more vulnerable at the same time. As new construction transforms the skyline along the waterfront and through emerging neighborhoods, the historic structures in Ybor City, Hyde Park, Tampa Heights, and Seminole Heights represent irreplaceable connections to the city's past. These buildings tell the story of Tampa's cigar industry, its early twentieth-century boom, and the diverse communities that built the city. Once demolished or poorly renovated, that story is lost permanently.
               </p>
               <p className="mb-6">
-                <strong>Ybor City National Historic Landmark District</strong> stands as Florida's only National Historic Landmark District, a designation reflecting its exceptional national significance. The district's cigar factories, social clubs (including the Cuban Club, Centro Asturiano, and Italian American Club), and commercial buildings represent America's finest surviving example of a cigar manufacturing community. Restoration work here requires the highest level of preservation expertise and strict adherence to Barrio Latino Commission requirements.
+                Ybor City stands as Tampa's crown jewel of historic architecture. Designated a National Historic Landmark District in 1990, it contains some of the finest examples of industrial and commercial architecture from Tampa's cigar manufacturing era. The massive brick cigar factories along Seventh Avenue, the casitas (worker cottages) that lined the residential streets, the mutual aid society buildings that served immigrant communities from Cuba, Italy, and Spain -- these structures represent an architectural legacy that exists nowhere else in the United States. Restoration of these buildings requires understanding their unique construction methods, original materials, and the specific preservation standards enforced by the Barrio Latino Commission.
               </p>
               <p className="mb-6">
-                <strong>Hyde Park Historic District</strong> features Tampa's finest residential architecture from the 1910s-1930s, including Mediterranean Revival, Colonial Revival, and Craftsman homes. Located along the prestigious Bayshore Boulevard, these properties command premium values and require restoration approaches that preserve their architectural integrity while accommodating modern living.
-              </p>
-              <p className="mb-6">
-                <strong>Seminole Heights Historic District</strong> offers bungalows, Craftsman cottages, and modest Mediterranean Revival homes that represent Tampa's early suburban development. The neighborhood's walkable character and tree-lined streets attract preservation-minded homeowners committed to maintaining its historic character.
+                Hyde Park, Tampa's first planned suburban development from the late 1800s, presents a different but equally important preservation challenge. The district's collection of bungalows, colonial revival homes, Mediterranean revival residences, and small commercial buildings reflects Tampa's residential evolution from the Victorian era through the 1930s. The Architectural Review Commission oversees alterations within the Hyde Park Historic District, requiring that exterior changes maintain the neighborhood's established architectural character. Commercial restoration projects in Hyde Park's village area along Snow Avenue and Swann Avenue must balance the demands of modern retail and restaurant use with the residential-scale character that defines the district.
               </p>
               <p>
-                Whether you're restoring a landmark social club in Ybor City, renovating a Hyde Park estate, or preserving a Seminole Heights bungalow, FCS brings the expertise, craftsmanship, and regulatory knowledge to ensure your project succeeds.
+                Beyond the two designated districts, Tampa contains hundreds of individually significant historic buildings. The Tampa Heights neighborhood, one of the city's oldest residential areas, has seen increasing restoration activity as the neighborhood revitalizes. Seminole Heights contains early twentieth-century bungalows and commercial buildings along the Central Avenue corridor. West Tampa, historically an independent municipality before annexation, retains cigar-era commercial buildings along Main Street. Each of these areas requires restoration approaches tailored to the specific building types, construction methods, and historical significance of the structures.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
         src="/images/tampa-historic-building-restoration/tampa-historic-building-restoration-small.webp"
-        alt="Historic building restoration"
-        title="Preserving Architectural Heritage"
-        subtitle="Certified historic preservation specialists"
+        alt="Historic building restoration in Tampa's Ybor City district"
+        title="Honoring Tampa's Architectural Heritage"
+        subtitle="Expert restoration of Ybor City, Hyde Park, and Tampa Heights historic buildings"
         overlayOpacity={0.55}
       />
 
-      {/* Services Grid - Cluster Pages */}
-      <section className="section-light">
+      {/* Service Capabilities */}
+      <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Historic Restoration Services in Tampa
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Comprehensive services for Tampa's historic preservation, restoration, and adaptive reuse projects.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {clusterServices.map((service) => (
-              <Link
-                key={service.href}
-                href={service.href}
-                className="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 p-6 border border-gray-100"
-              >
-                <div className="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4 group-hover:bg-amber-700 transition-colors">
-                  <service.icon className="w-7 h-7 text-amber-700 group-hover:text-white transition-colors" />
-                </div>
-                <h3 className="text-xl font-bold text-brand-green-dark mb-3 group-hover:text-brand-green transition-colors">
-                  {service.name}
-                </h3>
-                <p className="text-gray-600 mb-4">{service.description}</p>
-                <span className="inline-flex items-center text-amber-700 font-semibold">
-                  Learn More <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                </span>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Tampa-Specific Content: Ybor City Expertise */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
-                Deep Ybor City Expertise
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Ybor City's National Historic Landmark status reflects the exceptional significance of its cigar factories, social clubs, and commercial buildings. Working in this district requires specialized knowledge that goes beyond standard historic preservation—it demands understanding of the Barrio Latino Commission, the district's unique architectural vocabulary, and the community's expectations for preservation excellence.
-              </p>
-              <div className="space-y-4">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Landmark className="w-5 h-5 text-amber-700" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark">Barrio Latino Commission Experience</h3>
-                    <p className="text-gray-600 text-sm">We've successfully navigated the Certificate of Appropriateness process for multiple Ybor City projects, understanding the Commission's standards and expectations.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-amber-700" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark">Cigar Factory & Social Club Restoration</h3>
-                    <p className="text-gray-600 text-sm">Our $1.2M Italian American Club restoration demonstrates our capability for major Ybor City landmark projects.</p>
-                  </div>
-                </div>
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <Hammer className="w-5 h-5 text-amber-700" />
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark">New Construction in Historic Districts</h3>
-                    <p className="text-gray-600 text-sm">The Wotjowicz House and Ferraro House demonstrate our ability to build new structures that meet Barrio Latino Commission standards.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-amber-50 rounded-2xl p-8 border border-amber-200">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6 font-heading">Ybor City's Historic Significance</h3>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-amber-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>National Historic Landmark District</strong> - Florida's only NHL district, recognizing exceptional national significance</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-amber-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Cigar Manufacturing Heritage</strong> - America's finest surviving cigar manufacturing community</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-amber-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Social Club Tradition</strong> - Cuban Club, Centro Asturiano, Italian American Club, and more</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-amber-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Mediterranean-Influenced Architecture</strong> - Distinctive brick, iron balconies, and decorative details</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-amber-700 mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Barrio Latino Commission Oversight</strong> - Design review for all alterations and new construction</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* CTA Section 1 */}
-      <section className="section bg-amber-700">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Restore Your Tampa Historic Property
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Historic Restoration Services for Tampa's Heritage Buildings
           </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From Ybor City's National Historic Landmark District to Hyde Park's prestigious homes, we bring the expertise Tampa's historic properties deserve.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every historic building tells a unique story. Our restoration approach preserves that story while preparing the building for its next chapter.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-white text-amber-700 font-bold rounded-full hover:bg-gray-100 transition-all">
-              Schedule Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              {BUSINESS_INFO.phone}
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* Featured Projects */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Featured Tampa Historic Restoration Projects
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A selection of our historic preservation work in Tampa, demonstrating our expertise in restoration and sensitive new construction.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-2 gap-8">
-            {featuredProjects.map((project) => (
-              <div key={project.name} className="bg-white rounded-xl shadow-md overflow-hidden">
-                <div className="bg-amber-700 text-white p-4">
-                  <h3 className="text-xl font-bold">{project.name}</h3>
-                  <p className="text-amber-100 text-sm">{project.location}</p>
-                </div>
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-3">
-                    <span className="bg-amber-100 text-amber-800 text-xs font-semibold px-2 py-1 rounded">
-                      {project.type}
-                    </span>
-                    <span className="bg-brand-green-bg text-brand-green-dark text-xs font-semibold px-2 py-1 rounded">
-                      {project.value}
-                    </span>
-                  </div>
-                  <p className="text-gray-600 text-sm">{project.description}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-
-          <div className="text-center mt-8">
-            <Link href="/gallery/" className="inline-flex items-center text-amber-700 font-semibold hover:underline">
-              View Full Portfolio <ArrowRight className="w-4 h-4 ml-2" />
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Historic Restoration Process */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Our Tampa Historic Restoration Process
-            </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A methodical approach that respects Tampa's historic significance while achieving your project goals.
-            </p>
-          </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                step: "01",
-                title: "Historic Assessment & Documentation",
-                description: "We begin with thorough documentation of existing conditions, historic research, and identification of character-defining features. For Tampa properties, we research building history, original construction methods, and previous alterations.",
+                icon: Landmark,
+                title: "Masonry and Brick Restoration",
+                description: "Repointing, brick replacement, and structural repair of historic masonry walls using compatible lime-based mortars and salvaged or custom-matched brick. Essential for Ybor City's cigar factory buildings where the brick masonry is a primary character-defining feature."
+              },
+              {
+                icon: History,
+                title: "Adaptive Reuse Construction",
+                description: "Converting historic Tampa buildings for new commercial, residential, or mixed uses while preserving their historic character. From Ybor City factory-to-loft conversions to Hyde Park residential-to-retail adaptations, we manage the complex intersection of preservation and modern functionality."
+              },
+              {
+                icon: Palette,
+                title: "Exterior Restoration and Finishes",
+                description: "Historic window repair and restoration, period-appropriate paint systems, ornamental metalwork repair, terra cotta and stucco restoration, and exterior trim rehabilitation. We match original materials and methods while meeting current performance standards."
+              },
+              {
+                icon: FileCheck,
+                title: "Preservation Board Navigation",
+                description: "Complete management of the Certificate of Appropriateness process through the Barrio Latino Commission for Ybor City projects and the Architectural Review Commission for Hyde Park projects. We prepare applications, present at hearings, and ensure approved work matches board expectations."
+              },
+              {
+                icon: Scale,
+                title: "Historic Tax Credit Projects",
+                description: "Construction management for projects utilizing the 20 percent Federal Historic Preservation Tax Credit. We maintain the documentation, quality standards, and NPS compliance required to qualify for and retain these valuable credits throughout the construction process."
+              },
+              {
                 icon: BookOpen,
+                title: "Structural Stabilization",
+                description: "Assessment and repair of compromised structural systems in historic Tampa buildings, including heavy timber framing, masonry bearing walls, cast iron columns, and early concrete systems. We stabilize structures using methods that preserve original materials and construction evidence."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Navigating Tampa's Historic Preservation Landscape
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Historic restoration in Tampa requires navigating a preservation framework that includes local, state, and federal review depending on the property and the scope of work. The <a href="https://www.tampa.gov/building-services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Tampa Building Services Department</a> handles building permits for restoration work, but the historic review process adds an additional layer that must be completed before permits can be issued.
+              </p>
+              <p className="mb-6">
+                In Ybor City, the Barrio Latino Commission meets monthly to review proposed work within the National Historic Landmark District. The commission evaluates projects against the Ybor City Design Guidelines, which specify acceptable materials, methods, and design approaches for different building types within the district. Commercial restoration projects on Seventh Avenue, the district's main commercial corridor, receive particular scrutiny because of the avenue's prominence. We prepare detailed presentations for commission meetings that demonstrate how our restoration approach preserves character-defining features while accommodating the proposed use.
+              </p>
+              <p className="mb-6">
+                Tampa's subtropical climate creates specific preservation challenges that affect historic buildings differently than those in more temperate regions. The combination of over 50 inches of annual rainfall, intense UV exposure, high humidity, and salt air from Tampa Bay accelerates deterioration of historic materials. Wood elements experience fungal decay and termite damage. Historic brick suffers from moisture-related spalling and efflorescence. Original lime mortars erode from rainwater exposure. Metal ornamental features rust from the salt-laden atmosphere. Our restoration specifications account for these environmental stresses, selecting repair materials and protective coatings that extend the service life of restored elements in Tampa's demanding climate.
+              </p>
+              <p>
+                The Tampa Heights neighborhood, while not a designated historic district, contains a concentration of early twentieth-century houses and commercial buildings that property owners are increasingly restoring. The area's revitalization, driven by its proximity to the Riverwalk and growing downtown, has created a market for high-quality residential and commercial restoration. Seminole Heights similarly supports a growing restoration community focused on its collection of bungalow-era homes along tree-lined streets. These neighborhoods, outside the formal historic district framework, offer more flexibility in restoration approach while still demanding the craftsmanship and material knowledge that historic buildings require.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Tampa Historic Restoration Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A methodical approach that respects the building's history while delivering a functional, code-compliant result.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Historic Assessment and Documentation",
+                description: "Comprehensive documentation of the building's existing conditions, construction history, and character-defining features. For properties in Ybor City or Hyde Park, we also research the specific design guidelines and any previous preservation board actions that affect the property. This assessment guides every subsequent decision."
               },
               {
                 step: "02",
-                title: "Preservation Planning",
-                description: "Working with architects and preservation consultants, we develop approaches that address deterioration while preserving character-defining features. For tax credit projects, we prepare SHPO Part 2 applications.",
-                icon: FileText,
+                title: "Preservation Board Review",
+                description: "Preparation and submission of Certificate of Appropriateness applications to the Barrio Latino Commission for Ybor City or the Architectural Review Commission for Hyde Park. We develop detailed plans and material specifications that demonstrate compliance with district guidelines, and we present at board meetings to answer questions and address concerns."
               },
               {
                 step: "03",
-                title: "Regulatory Coordination",
-                description: "We navigate Tampa HPC approvals, Barrio Latino Commission reviews (for Ybor City), SHPO coordination for tax credits, and building permits. Our relationships with regulatory staff help streamline approvals.",
-                icon: Scale,
+                title: "Construction Documentation and Permitting",
+                description: "Full construction drawings and specifications that translate the preservation board's approvals into buildable documents. We submit for building permits through the City of Tampa Building Services Department, coordinating any required structural, mechanical, or electrical engineering. For tax credit projects, we begin the NPS Part 2 application during this phase."
               },
               {
                 step: "04",
-                title: "Material Sourcing",
-                description: "We source period-appropriate materials—from salvaged historic elements to custom reproductions. Matching historic mortar formulations, finding compatible brick, or replicating millwork profiles requires specialized knowledge.",
-                icon: Palette,
+                title: "Restoration Construction",
+                description: "Careful construction execution using craftspeople experienced in historic materials and methods. We perform selective demolition with attention to preserving original fabric, use compatible repair materials specified to match the building's existing construction, and integrate modern systems with minimal visual impact on historic spaces."
               },
               {
                 step: "05",
-                title: "Skilled Execution",
-                description: "Restoration work is performed by craftspeople experienced in historic techniques. Whether traditional masonry methods, plaster restoration, or period-accurate carpentry, the work honors original craftsmanship.",
-                icon: Hammer,
-              },
-              {
-                step: "06",
-                title: "Documentation & Completion",
-                description: "We provide thorough documentation of all restoration work—essential for tax credit applications, future maintenance planning, and the historic record. For tax credit projects, we prepare SHPO Part 3 certification.",
-                icon: CheckCircle,
-              },
+                title: "Documentation and Certification",
+                description: "Complete documentation of all restoration work for the property owner's records, including before-and-after photography, material specifications, and maintenance recommendations. For tax credit projects, we compile the NPS Part 3 documentation that demonstrates completed work complies with the Secretary of the Interior's Standards."
+              }
             ].map((item) => (
-              <div key={item.step} className="relative bg-gray-50 rounded-xl p-6 shadow-sm">
-                <div className="absolute -top-4 left-6 bg-amber-700 text-white text-sm font-bold px-3 py-1 rounded-full">
-                  Step {item.step}
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
                 </div>
-                <div className="mt-4">
-                  <item.icon className="w-10 h-10 text-amber-700 mb-4" />
-                  <h3 className="text-xl font-bold text-brand-green-dark mb-3">{item.title}</h3>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
                   <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
@@ -498,215 +271,46 @@ export default function HistoricRestorationTampaPage() {
         </div>
       </section>
 
-      {/* CTA Section 2 */}
-      <section className="section bg-brand-green-dark">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Why Tampa Chooses FCS for Historic Restoration
-              </h2>
-              <div className="space-y-6">
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center">
-                    <Shield className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">Always Prime Contractor</h3>
-                    <p className="text-gray-300">We never work as a subcontractor on Tampa historic projects. You get direct accountability, single-point contact, and our full commitment throughout the restoration.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center">
-                    <Landmark className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">Ybor City Specialists</h3>
-                    <p className="text-gray-300">From the Italian American Club to ground-up construction in the Barrio Latino, we have deep experience in Tampa's most significant historic district.</p>
-                  </div>
-                </div>
-                <div className="flex gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-amber-700 flex items-center justify-center">
-                    <FileText className="w-6 h-6 text-white" />
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">Tax Credit Navigation</h3>
-                    <p className="text-gray-300">We help Tampa property owners maximize historic tax credits, coordinating SHPO applications and ensuring work meets certification requirements.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
-                <Users className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
-                <div className="text-3xl font-bold mb-1">20+</div>
-                <div className="text-sm text-gray-300">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
-                <Building2 className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
-                <div className="text-3xl font-bold mb-1">$10M+</div>
-                <div className="text-sm text-gray-300">Years Experience</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
-                <Landmark className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
-                <div className="text-3xl font-bold mb-1">5</div>
-                <div className="text-sm text-gray-300">Historic Districts</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center text-white">
-                <Award className="w-10 h-10 mx-auto mb-3 text-brand-gold" />
-                <div className="text-3xl font-bold mb-1">150+</div>
-                <div className="text-sm text-gray-300">Projects Completed</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Costs & Timeline Table */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Tampa Historic Restoration: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-amber-700 text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Tax Credits</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Facade Restoration</td>
-                    <td className="p-4">$50-150/SF (facade)</td>
-                    <td className="p-4">3-8 months</td>
-                    <td className="p-4">Potentially eligible</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Full Building Restoration</td>
-                    <td className="p-4">$200-400+/SF</td>
-                    <td className="p-4">12-24 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Interior Historic Restoration</td>
-                    <td className="p-4">$150-300/SF</td>
-                    <td className="p-4">6-14 months</td>
-                    <td className="p-4">Part of whole-building</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-gray-50">
-                    <td className="p-4 font-medium">Adaptive Reuse</td>
-                    <td className="p-4">$175-350/SF</td>
-                    <td className="p-4">14-30 months</td>
-                    <td className="p-4">20% Federal (income properties)</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="p-4 font-medium">New Construction (Historic District)</td>
-                    <td className="p-4">$250-500/SF</td>
-                    <td className="p-4">12-24 months</td>
-                    <td className="p-4">N/A (new construction)</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs vary based on building condition and level of restoration. Federal Historic Tax Credits (20%) available for qualifying income-producing properties.
-            </p>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
-      <section className="section-light">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <FAQ
-              items={tampaFaqs}
-              title="Historic Restoration in Tampa - Frequently Asked Questions"
-              description="Common questions about historic preservation and restoration projects in Tampa, Florida."
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Google Map */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="text-center mb-8">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
-              Historic Restoration Services in Tampa
-            </h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              Serving all of Tampa's historic districts including Ybor City, Hyde Park, Seminole Heights, Tampa Heights, and West Tampa.
-            </p>
-          </div>
-          <GoogleMap city="Tampa" height={400} />
-        </div>
-      </section>
+      <FAQWithSchema
+        items={faqs}
+        title="Tampa Historic Restoration FAQ"
+        description="Frequently asked questions about historic building restoration in Tampa, Florida."
+      />
 
       {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <div>
-              <InternalLinks
-                title="Historic Restoration Resources"
-                links={internalLinks}
-              />
-            </div>
-            <div className="space-y-6">
-              <RelatedServices city="Tampa" currentService="historic-restoration" />
-              <NearbyLocations currentCity="Tampa" service="historic-restoration" serviceName="Historic Restoration" />
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Tampa" currentService="historic-restoration" />
+            <NearbyLocations currentCity="Tampa" service="historic-restoration" serviceName="Historic Restoration" />
           </div>
         </div>
       </section>
 
-      {/* Final CTA */}
-      <section className="section bg-amber-700">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4 font-heading">
-                Preserve Tampa's Architectural Heritage
-              </h2>
-              <p className="text-xl text-white/90 mb-6">
-                Contact Florida Construction Specialists to discuss your Tampa historic restoration project. Whether you're restoring a landmark building in Ybor City, renovating a Hyde Park estate, or exploring adaptive reuse possibilities, we have the expertise to bring your vision to life while honoring the past.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="inline-flex items-center justify-center px-8 py-4 bg-white text-amber-700 font-bold rounded-full hover:bg-gray-100 transition-all"
-                >
-                  <Phone className="w-5 h-5 mr-2" />
-                  Call {BUSINESS_INFO.phone}
-                </a>
-                <Link href="/contact/" className="inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-brand-green-dark font-bold rounded-full hover:bg-brand-gold-light transition-all">
-                  Contact Us Online
-                </Link>
-              </div>
-
-              <div className="mt-8 pt-8 border-t border-white/20">
-                <p className="text-sm text-white/80 mb-4">Trusted for Tampa historic preservation:</p>
-                <div className="flex flex-wrap gap-4 text-sm text-white/90">
-                  <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> SHPO Compliant</span>
-                  <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Secretary of Interior Standards</span>
-                  <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Tax Credit Experience</span>
-                  <span className="flex items-center gap-1"><CheckCircle className="w-4 h-4" /> Ybor City Specialists</span>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl shadow-2xl p-6 lg:p-8">
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
-                Schedule Your Consultation
-              </h3>
-              <HighLevelForm height={400} />
+      {/* CTA Section */}
+      <section className="section bg-brand-green-dark">
+        <div className="container-custom text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Preserve Tampa's Architectural Heritage
+          </h2>
+          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Whether you own a cigar factory building in Ybor City, a bungalow in Hyde Park, or a historic commercial property in Tampa Heights, Florida Construction Specialists has the preservation expertise to restore it properly.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link href="/contact/" className="btn-cta">
+              Discuss Your Restoration Project
+            </Link>
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
+              <Phone className="w-5 h-5 mr-2" />
+              Call {BUSINESS_INFO.phone}
+            </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Secretary of Interior Standards</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
             </div>
           </div>
         </div>

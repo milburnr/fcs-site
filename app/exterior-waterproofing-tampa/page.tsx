@@ -1,18 +1,52 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Droplets, Layers, Wrench, Clock, Home, Factory, DollarSign, Users } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Droplets, CloudRain, Waves, Layers, Wrench, FileCheck } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/' },
-  title: "Exterior Waterproofing Tampa FL | Envelope | FCS",
-  description: "Waterproofing Contractor in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years. Call for a free consultation today.",
+  alternates: { canonical: "https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/" },
+  title: "Exterior Waterproofing Tampa FL | Building Envelope Protection | FCS",
+  description:
+    "Professional exterior waterproofing in Tampa. Building envelope, foundation, parking deck, and plaza waterproofing for commercial and residential properties. CBC1262722. 40+ years experience.",
 };
+
+const faqs = [
+  {
+    question: "How does Tampa's rainfall compare to other Florida cities, and what does that mean for waterproofing?",
+    answer:
+      "Tampa receives approximately 50 inches of rain annually, with roughly 60% falling during the June through September wet season. What makes Tampa particularly challenging is not just the volume but the intensity. Afternoon thunderstorms can drop 2-3 inches in under an hour, creating hydrostatic pressure that overwhelms improperly waterproofed building envelopes. Properties along Bayshore Boulevard and in low-lying areas near the Hillsborough River face compounded exposure from both rainfall and rising water tables during wet season. FCS designs waterproofing systems specifically for these high-intensity rainfall events rather than relying on systems rated for average conditions.",
+  },
+  {
+    question: "What are the most common waterproofing failures FCS encounters in Tampa commercial buildings?",
+    answer:
+      "The most frequent failures we diagnose in Tampa buildings involve three primary areas. First, sealant joints in curtain wall systems that have degraded from UV exposure and thermal cycling, which is especially common in Westshore and downtown office towers built between 1985 and 2005. Second, below-grade waterproofing failures in parking structures where original membranes have deteriorated from chloride contamination and traffic wear. Third, plaza deck waterproofing at mixed-use developments like those in Channelside and Water Street where pedestrian traffic and ponding water have compromised membrane integrity. Each failure type requires a different remediation approach, and our diagnostics include infrared thermography and flood testing to pinpoint exact intrusion paths.",
+  },
+  {
+    question: "Do Tampa condominiums need waterproofing assessments under SB 4-D milestone inspections?",
+    answer:
+      "While SB 4-D milestone inspections focus on structural integrity, waterproofing deficiencies are frequently identified during these inspections because water intrusion is a leading cause of structural deterioration. For condominiums along Tampa's Bayshore corridor, Davis Islands, and Harbour Island where buildings are exposed to salt air and driving rain, inspectors routinely flag waterproofing failures at balcony connections, expansion joints, and parking deck membranes. FCS works with associations to address waterproofing deficiencies identified during milestone inspections, often combining structural repairs with comprehensive re-waterproofing to satisfy inspection requirements and prevent future deterioration.",
+  },
+  {
+    question: "What waterproofing systems perform best in Tampa's coastal climate?",
+    answer:
+      "Tampa's combination of high UV exposure, salt air near the bay, intense rainfall, and hurricane-force winds requires waterproofing systems with specific performance characteristics. For building envelopes, we specify fluid-applied polyurethane membranes with UV-stable topcoats that maintain flexibility through Tampa's thermal cycles. For below-grade applications, crystalline waterproofing integrated with bentonite sheet membranes provides redundant protection against hydrostatic pressure. Parking structures receive traffic-bearing polyurethane systems with aggregate broadcast for slip resistance. FCS is a certified applicator for manufacturers including Tremco, Sika, and Carlisle, and we select systems based on each building's specific exposure conditions rather than applying a one-size-fits-all approach.",
+  },
+  {
+    question: "How does hurricane season affect waterproofing project scheduling in Tampa?",
+    answer:
+      "Hurricane season runs June through November, which overlaps with Tampa's wet season and creates scheduling considerations for exterior waterproofing. Most membrane systems require dry substrates for proper adhesion, so FCS schedules critical applications during morning hours before afternoon storms develop, and we maintain weather monitoring throughout active projects. For emergency waterproofing after hurricane damage, we deploy rapid-response temporary protection systems within 24-48 hours, followed by permanent waterproofing once conditions stabilize. Property managers in areas like Downtown Tampa and Harbour Island often schedule preventive waterproofing during the dry season from December through May to avoid wet-season complications.",
+  },
+  {
+    question: "Can FCS waterproof an occupied Tampa building without displacing tenants?",
+    answer:
+      "Yes, FCS regularly performs exterior waterproofing on occupied commercial buildings, condominiums, and parking structures throughout Tampa. Our phased approach allows tenants and residents to continue normal operations while work progresses. For parking garages, we section off areas in rotation so parking capacity is reduced but never eliminated. For building envelope work on occupied towers in Downtown Tampa or along Bayshore, we use swing-stage access and coordinate with property management to minimize disruption to specific floors and units. Noise-generating activities like surface preparation are scheduled during business hours per City of Tampa ordinances, and we provide advance notice to affected occupants for each phase.",
+  },
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
@@ -21,107 +55,23 @@ const breadcrumbItems = [
   { name: "Tampa", href: "/exterior-waterproofing-tampa/" },
 ];
 
-const serviceTypes = [
-  {
-    type: "Building Envelope",
-    description: "Complete building envelope waterproofing including wall systems, window flashings, expansion joints, and penetration sealing",
-    icon: Building2,
-  },
-  {
-    type: "Foundation & Below-Grade",
-    description: "Positive-side and negative-side foundation waterproofing, drainage boards, and water management systems",
-    icon: Layers,
-  },
-  {
-    type: "Parking & Plaza Decks",
-    description: "Traffic-bearing waterproofing membranes for parking structures, plazas, pedestrian areas, and vehicular surfaces",
-    icon: Factory,
-  },
-  {
-    type: "Roof & Deck Systems",
-    description: "Roof deck waterproofing, green roof systems, occupied roof terrace waterproofing, and associated drainage",
-    icon: Home,
-  },
-];
-
-const tampaFaqs = [
-  {
-    question: "Why is exterior waterproofing especially important in Tampa?",
-    answer: "Tampa's climate creates exceptional waterproofing challenges: 46+ inches of annual rainfall (often in intense downpours), high humidity year-round (70-80%), hurricane-driven rain, and significant temperature variations that stress building materials. Properties near Tampa Bay face additional salt air exposure. Without proper waterproofing, these conditions lead to water intrusion, mold growth, structural deterioration, and costly repairs. Proactive waterproofing is essential for protecting your Tampa property investment.",
-  },
-  {
-    question: "What types of buildings need exterior waterproofing in Tampa?",
-    answer: "All building types benefit from exterior waterproofing in Tampa's climate: commercial office buildings (especially high-rises with curtain wall systems), condominiums and apartments (balconies, common areas, parking structures), retail centers, hospitality properties, medical facilities, parking garages, and residential properties. Buildings with below-grade spaces, occupied rooftops, or plaza decks require specialized waterproofing systems designed for Tampa's conditions.",
-  },
-  {
-    question: "How much does exterior waterproofing cost in Tampa?",
-    answer: "Exterior waterproofing costs vary by application: building envelope/wall waterproofing typically runs $5-$15/SF, foundation waterproofing ranges from $8-$25/SF depending on conditions, parking deck waterproofing costs $15-$35/SF for traffic-bearing systems. Complete building waterproofing projects range from $50,000 for smaller commercial properties to several million dollars for large developments. FCS provides detailed assessments and competitive proposals for all project sizes.",
-  },
-  {
-    question: "What waterproofing systems do you use for Tampa buildings?",
-    answer: "FCS specifies waterproofing systems appropriate for Tampa's conditions: fluid-applied membranes (polyurethane, elastomeric), sheet membranes (modified bitumen, TPO), crystalline waterproofing for concrete, traffic-bearing coatings for parking structures, and specialized systems for green roofs and occupied decks. We work with premium manufacturers including Tremco, Carlisle, Sika, and Neogard. All systems are selected for UV resistance, flexibility, and long-term performance in Florida's climate.",
-  },
-  {
-    question: "How long does exterior waterproofing last in Tampa?",
-    answer: "Properly installed exterior waterproofing in Tampa typically lasts 10-20+ years depending on the system, application, and exposure. FCS provides 10-year warranties on waterproofing installations. Traffic-bearing systems (parking decks) may require maintenance coatings every 5-7 years. Regular inspections and prompt repair of damaged areas extend system life significantly. Tampa's UV exposure and thermal cycling are the primary factors affecting waterproofing longevity.",
-  },
-  {
-    question: "Can you waterproof existing Tampa buildings with water intrusion problems?",
-    answer: "Yes, FCS specializes in remedial waterproofing for existing Tampa buildings. We begin with thorough diagnostics including water testing, infrared thermography, and core sampling to identify failure points. Solutions may include exterior resealing, injection grouting, negative-side (interior) waterproofing, drainage improvements, or complete system replacement. Many Tampa buildings built before modern waterproofing standards benefit from remedial work.",
-  },
-  {
-    question: "Do you provide parking garage waterproofing in Tampa?",
-    answer: "Yes, parking structure waterproofing is a specialty for FCS. Tampa's parking garages face particular challenges: heavy rainfall, salt from coastal air and vehicles, UV exposure on top decks, and thermal movement. We install traffic-bearing membrane systems with wearing courses, joint treatments, and proper drainage. Our parking deck work includes structural repairs, expansion joint replacement, and complete re-waterproofing for aging structures.",
-  },
-  {
-    question: "What warranty do you provide for Tampa waterproofing projects?",
-    answer: "FCS provides a 10-year workmanship warranty on exterior waterproofing installations, backed by manufacturer material warranties of 10-20 years depending on the system. Our warranty covers both materials and labor for leaks resulting from waterproofing failure. We maintain detailed documentation of all installations including photos, material certifications, and test results. Extended warranties may be available for premium systems.",
-  },
-];
-
-const costData = [
-  { application: "Building Envelope/Walls", range: "$5 - $15/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Foundation Waterproofing", range: "$8 - $25/SF", timeline: "1-4 weeks", warranty: "10 years" },
-  { application: "Parking Deck (Traffic-Bearing)", range: "$15 - $35/SF", timeline: "4-12 weeks", warranty: "10 years" },
-  { application: "Plaza/Pedestrian Deck", range: "$12 - $25/SF", timeline: "3-8 weeks", warranty: "10 years" },
-  { application: "Below-Grade/Basement", range: "$10 - $30/SF", timeline: "2-6 weeks", warranty: "10 years" },
-  { application: "Remedial/Repair Work", range: "$50,000+", timeline: "Varies", warranty: "5-10 years" },
-];
-
-const processSteps = [
-  { step: 1, title: "Assessment & Diagnostics", description: "Building survey, water testing, infrared scanning, and identification of problem areas and system requirements" },
-  { step: 2, title: "System Design", description: "Waterproofing system specification, material selection, detail drawings, and budget development" },
-  { step: 3, title: "Surface Preparation", description: "Substrate cleaning, crack repair, concrete restoration, and surface profiling for membrane adhesion" },
-  { step: 4, title: "Waterproofing Installation", description: "Application of primers, membranes, flashings, and drainage systems per manufacturer specifications" },
-  { step: 5, title: "Quality Assurance", description: "Flood testing, adhesion testing, inspection documentation, and correction of any deficiencies" },
-  { step: 6, title: "Protection & Warranty", description: "Installation of protection courses, drainage boards, or wear surfaces; warranty documentation and maintenance guidance" },
-];
-
 export default function ExteriorWaterproofingTampaPage() {
   return (
     <>
       <LocalBusinessSchema city="Tampa" service="Exterior Waterproofing" />
       <ServiceSchema
         serviceName="Exterior Waterproofing"
-        serviceDescription="Professional exterior waterproofing services for Tampa commercial and residential buildings. Building envelope, foundation, parking deck, and plaza waterproofing with 10-year warranty. Projects from $50,000 to $5 million."
+        serviceDescription="Professional exterior waterproofing for Tampa commercial and residential buildings. Building envelope, foundation, parking deck, and plaza waterproofing with manufacturer-backed warranties."
         city="Tampa"
-        minPrice="50000"
-        serviceCategories={["Building Envelope Waterproofing","Foundation Waterproofing","Deck Coatings","Caulking and Sealants","Drainage Systems"]}
+        serviceCategories={["Building Envelope Waterproofing", "Foundation Waterproofing", "Parking Deck Waterproofing", "Plaza Deck Waterproofing", "Remedial Waterproofing"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Exterior Waterproofing Services in Tampa, FL"
-        description="Comprehensive guide to exterior waterproofing for Tampa buildings. Learn about building envelope waterproofing, foundation protection, parking deck systems, and costs for commercial and residential properties."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="/exterior-waterproofing-tampa/"
-      />
 
       <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative">
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
@@ -132,7 +82,7 @@ export default function ExteriorWaterproofingTampaPage() {
               Exterior Waterproofing in Tampa
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Protect your Tampa property from Florida's demanding climate. Professional building envelope, foundation, and deck waterproofing for commercial and residential buildings. 10-year warranty on all installations.
+              Tampa properties absorb more moisture punishment than almost anywhere in the continental United States. FCS provides the building envelope, foundation, and deck waterproofing systems that keep water out for the long term.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -146,195 +96,254 @@ export default function ExteriorWaterproofingTampaPage() {
                 {BUSINESS_INFO.phone}
               </a>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Droplets className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">10-Year Warranty</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Premium Materials</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
+            <div className="flex flex-wrap gap-6 mt-8 text-sm text-gray-300">
+              <span className="flex items-center gap-2">
+                <Shield className="w-4 h-4 text-brand-gold" /> Since 1982
+              </span>
+              <span className="flex items-center gap-2">
+                <Award className="w-4 h-4 text-brand-gold" /> Licensed CBC1262722
+              </span>
+              <span className="flex items-center gap-2">
+                <Building2 className="w-4 h-4 text-brand-gold" /> Prime Contractor
+              </span>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Main Content with Sidebar */}
+      {/* Tampa Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Tampa's Exterior Waterproofing Experts
-              </h2>
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Fifty Inches of Rain, Twelve Months of Humidity, and a Building Stock That Never Gets a Break
+            </h2>
 
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists provides comprehensive exterior waterproofing services for Tampa's commercial and residential buildings. With 46+ inches of annual rainfall, high humidity, and intense UV exposure, Tampa presents unique challenges that require expert waterproofing solutions designed specifically for Florida's climate.
-              </p>
+            <p className="text-lg text-gray-700 mb-6">
+              Tampa sits at the convergence of weather patterns that test building envelopes like few other American cities. The annual rainfall approaches 50 inches, concentrated heavily in summer thunderstorms that can deliver several inches in a single afternoon. Humidity rarely drops below 60% even in winter months. Salt-laden air migrates inland from Tampa Bay, accelerating the degradation of sealants, coatings, and membrane systems. And every June through November, the possibility of a direct hurricane strike means that waterproofing systems must perform not just under normal conditions but under wind-driven rain at 100+ miles per hour.
+            </p>
 
-              <p className="text-gray-600 mb-6">
-                From high-rise commercial buildings in Downtown Tampa and Westshore to waterfront condominiums along Bayshore Boulevard and Davis Islands, FCS has protected Tampa properties with premium waterproofing systems. Our team combines decades of experience with manufacturer-certified installation techniques to deliver waterproofing that performs for years.
-              </p>
+            <p className="text-lg text-gray-700 mb-6">
+              The consequences of waterproofing failure in Tampa are both predictable and severe. Water intrusion leads to mold growth within 48-72 hours in Tampa's warm, humid conditions. Steel reinforcement in concrete structures corrodes rapidly when chloride-laden moisture penetrates the building envelope. Interior finishes, electrical systems, and mechanical equipment suffer damage that far exceeds the cost of preventive waterproofing. Property managers along Bayshore Boulevard, in Westshore's commercial towers, and throughout downtown Tampa understand that waterproofing is not a maintenance item to defer. It is the single most important protective system on their buildings.
+            </p>
 
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Exterior Waterproofing Services
-              </h3>
+            <p className="text-lg text-gray-700 mb-6">
+              What makes Tampa's waterproofing challenges distinct from other Florida markets is the concentration of building types that demand specialized approaches. Downtown Tampa's office towers and the Water Street development require curtain wall and high-rise envelope systems. The condominium corridor along Bayshore Boulevard from South Tampa through Harbour Island presents aging mid-rise and high-rise buildings with original waterproofing that has exceeded its service life. Parking structures serving hospitals, office parks, and residential towers throughout Hillsborough County face the dual assault of weather exposure and vehicular traffic wear. Industrial facilities along the Port Tampa corridor and East Tampa need foundation waterproofing rated for high water tables and seasonal flooding. Each building type requires a different waterproofing strategy, and applying the wrong system to the wrong substrate is a failure waiting to happen.
+            </p>
 
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Tampa's Climate Demands Quality Waterproofing
-              </h3>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Heavy Rainfall:</strong> Tampa receives 46+ inches annually, often in intense afternoon thunderstorms that challenge drainage systems and building envelopes</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>High Humidity:</strong> Year-round humidity of 70-80% promotes mold growth and requires breathable waterproofing systems that prevent moisture entrapment</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>UV Exposure:</strong> Intense Florida sunlight degrades exposed waterproofing—we use UV-stable systems designed for maximum solar exposure</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Hurricane Conditions:</strong> Wind-driven rain during tropical storms requires waterproofing systems that perform under extreme pressure differentials</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Tampa Waterproofing Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <h3 className="text-xl font-bold mb-4">Request Assessment</h3>
-                <p className="text-gray-200 mb-4">
-                  Schedule a complimentary waterproofing assessment for your Tampa property.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Tampa" currentService="exterior-waterproofing" />
-              <NearbyLocations currentCity="Tampa" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
-            </div>
+            <p className="text-lg text-gray-700">
+              Florida Construction Specialists has waterproofed buildings across every Tampa submarket since 1982. From the glass-curtain office towers in the Westshore Business District to the historic masonry buildings of Ybor City, from the luxury condominiums on Davis Islands to the medical campuses near Tampa General Hospital, FCS brings the diagnostic capability and manufacturer-certified installation expertise that Tampa's building stock demands.
+            </p>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* ContentParallax Visual Break */}
       <ContentParallax
-        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
-        alt="Exterior waterproofing application"
-        title="Complete Waterproofing Protection"
-        subtitle="Premium membrane systems for lasting defense against moisture"
+        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp"
+        alt="Exterior waterproofing membrane installation on Tampa commercial building"
+        title="Defending Tampa Buildings Against Moisture"
+        subtitle="Premium membrane systems engineered for Florida's most demanding climate conditions"
         overlayOpacity={0.55}
       />
 
-      {/* Cost & Timeline Table */}
+      {/* Service Capabilities in Tampa */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Tampa Exterior Waterproofing Costs
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Waterproofing Systems for Every Tampa Building Type
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Waterproofing costs vary by application, substrate condition, and system specification. All FCS waterproofing includes our 10-year workmanship warranty.
+          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
+            Different buildings face different moisture challenges. FCS specifies and installs the waterproofing system matched to your building's construction, exposure, and use.
           </p>
 
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Application</th>
-                  <th className="px-6 py-4 text-left">Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Warranty</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.application}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.warranty}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div className="bg-white rounded-xl p-8 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-brand-green/10 rounded-lg flex items-center justify-center">
+                  <Building2 className="w-6 h-6 text-brand-green" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark">Building Envelope Systems</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Tampa's commercial buildings, particularly the glass-and-steel towers along the Westshore corridor and downtown, require comprehensive envelope waterproofing that addresses curtain wall joints, window perimeters, expansion joints, and penetrations. FCS installs fluid-applied membranes behind cladding systems and performs sealant replacement programs that restore weather-tight integrity to aging facades. For buildings in the International Plaza area and along Kennedy Boulevard, where afternoon storm winds drive rain horizontally into vertical surfaces, proper envelope waterproofing is the difference between dry interiors and recurring leak complaints.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-brand-green/10 rounded-lg flex items-center justify-center">
+                  <Layers className="w-6 h-6 text-brand-green" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark">Foundation and Below-Grade</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Tampa's water table rises significantly during wet season, creating hydrostatic pressure against foundation walls and below-grade parking levels. Properties in low-lying areas near the Hillsborough River, in parts of Seminole Heights, and throughout flood-prone zones in South Tampa face chronic below-grade moisture intrusion. FCS installs positive-side membrane systems during new construction and performs negative-side crystalline waterproofing and injection grouting for remedial applications. Proper drainage board installation and water management systems complement the waterproofing to manage groundwater without relying solely on membrane integrity.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-brand-green/10 rounded-lg flex items-center justify-center">
+                  <Waves className="w-6 h-6 text-brand-green" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark">Parking Deck and Plaza Waterproofing</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Parking structures throughout Tampa serve hospitals, office complexes, condominiums, and mixed-use developments. These structures endure the combined assault of heavy rainfall, vehicular traffic, road salts tracked in from coastal roads, and thermal expansion. FCS installs traffic-bearing polyurethane membrane systems with aggregate broadcast for traction, complete with joint treatments, drain installations, and wearing courses. For plaza decks at developments like those in Channelside and the Riverwalk district, we install pedestrian-rated systems beneath pavers or decorative surfaces that protect the structural slab while supporting the intended use above.
+              </p>
+            </div>
+
+            <div className="bg-white rounded-xl p-8 shadow-sm">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="w-12 h-12 bg-brand-green/10 rounded-lg flex items-center justify-center">
+                  <CloudRain className="w-6 h-6 text-brand-green" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark">Remedial and Emergency Waterproofing</h3>
+              </div>
+              <p className="text-gray-600 mb-4">
+                Many Tampa buildings, particularly condominiums built in the 1970s through 1990s along Bayshore Boulevard and on Harbour Island, have original waterproofing that has long exceeded its service life. FCS provides comprehensive diagnostics including infrared thermography, flood testing, and core sampling to identify failure points before designing remediation strategies. After hurricanes or severe storms, our emergency response team deploys temporary waterproofing within 24-48 hours to prevent further damage while permanent systems are designed and installed. This rapid-response capability has protected Tampa properties from millions of dollars in secondary water damage.
+              </p>
+            </div>
           </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Actual costs depend on substrate condition, access, and system specification. Contact FCS for detailed proposal.
-          </p>
         </div>
       </section>
 
-      {/* Process Steps */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Our Waterproofing Process
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Tampa Waterproofing Expertise Built Over Four Decades
+            </h2>
+
+            <p className="text-lg text-gray-700 mb-6">
+              FCS has waterproofed hundreds of Tampa buildings since 1982, developing intimate knowledge of how different building types in different Tampa submarkets respond to the local climate. The concrete high-rises along Bayshore Boulevard behave differently than the steel-frame office buildings in Westshore. The historic masonry structures in Ybor City and Tampa Heights require approaches that would be entirely wrong for the modern curtain-wall towers in the Water Street district. This accumulated knowledge, combined with manufacturer certifications from Tremco, Sika, Carlisle, and other premium waterproofing manufacturers, allows FCS to specify and install systems with confidence that they will perform for their full rated service life in Tampa's conditions.
+            </p>
+
+            <div className="bg-brand-green-dark/5 border-l-4 border-brand-green rounded-r-lg p-6 mb-8">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-3">
+                <FileCheck className="w-5 h-5 inline mr-2" />
+                City of Tampa Building Services Department
+              </h3>
+              <p className="text-gray-700 mb-3">
+                Waterproofing work in Tampa that involves structural modifications, re-roofing, or significant exterior alterations requires permits through the City of Tampa Building Services Department. FCS manages all permitting requirements and coordinates with Hillsborough County for properties outside city limits. For buildings in historic overlay districts like Ybor City and Hyde Park, additional review by the respective historic commissions may apply to exterior waterproofing that alters the building's appearance.
+              </p>
+              <a
+                href="https://www.tampa.gov/building-services"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
+              >
+                City of Tampa Building Services Department
+              </a>
+            </div>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
+              Weather-Driven Waterproofing Demands
+            </h3>
+
+            <div className="space-y-4 mb-8">
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                <p className="text-gray-700">
+                  <strong>Intense Summer Rainfall:</strong> Tampa's wet season delivers approximately 30 inches of rain between June and September, often in violent afternoon thunderstorms. These high-intensity events create sudden hydrostatic loads on building envelopes and foundation walls that steady, moderate rainfall would not. Waterproofing systems must be designed for peak loading, not average conditions.
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                <p className="text-gray-700">
+                  <strong>Year-Round Humidity:</strong> Tampa's relative humidity typically ranges from 60% to 85%, promoting mold growth and corrosion whenever moisture reaches organic materials or steel reinforcement. Waterproofing systems must be breathable enough to allow trapped moisture to escape while preventing new moisture from entering, a balance that requires careful system selection.
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                <p className="text-gray-700">
+                  <strong>Hurricane Wind-Driven Rain:</strong> Tampa's Gulf-facing exposure means hurricanes approach with sustained winds that drive rain horizontally into building facades at pressures exceeding 30 pounds per square foot. Standard waterproofing that handles gravity-flow water may fail completely under wind-driven conditions. FCS specifies systems tested to ASTM E331 standards for wind-driven rain resistance.
+                </p>
+              </div>
+              <div className="flex items-start gap-3">
+                <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
+                <p className="text-gray-700">
+                  <strong>UV and Thermal Cycling:</strong> Tampa's intense sun heats exposed surfaces to 160+ degrees Fahrenheit, followed by afternoon storm cooling of 30-40 degrees in minutes. This thermal shock cycle breaks down rigid sealants and coatings. FCS uses elastomeric systems rated for the thermal movement that Tampa's climate demands.
+                </p>
+              </div>
+            </div>
+
+            <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
+              Tampa Areas We Protect
+            </h3>
+
+            <p className="text-gray-700 mb-4">
+              FCS provides waterproofing services across all Tampa submarkets. Our teams work regularly on commercial properties in the Westshore Business District and along the Kennedy Boulevard corridor, where office tower facades and parking structures require ongoing waterproofing maintenance. In South Tampa, the condominium buildings stretching from Gandy through Bayshore Boulevard to Harbour Island represent one of the largest concentrations of mid-rise and high-rise waterproofing work in the Tampa Bay region. The medical campuses anchored by Tampa General Hospital and facilities near USF depend on waterproofing integrity to protect sensitive medical environments. Residential waterproofing for custom homes in Palma Ceia, Beach Park, Davis Islands, and Culbreath Isles addresses foundation protection, stucco systems, and pool deck waterproofing for properties that represent significant homeowner investments.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-brand-green-dark text-white">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center font-heading">
+            Our Tampa Waterproofing Process
           </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Successful waterproofing requires systematic attention to preparation, installation, and quality assurance. Our proven process ensures long-term performance.
+          <p className="text-gray-200 text-center mb-12 max-w-3xl mx-auto">
+            Effective waterproofing requires systematic assessment, proper system selection, and meticulous installation. Our proven process accounts for Tampa-specific conditions at every step.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                step: 1,
+                title: "Diagnostic Assessment",
+                description:
+                  "Comprehensive building survey including infrared thermography, flood testing, core sampling, and visual inspection to identify all moisture intrusion paths and substrate conditions.",
+                icon: Wrench,
+              },
+              {
+                step: 2,
+                title: "System Engineering",
+                description:
+                  "Waterproofing system specification based on building type, exposure conditions, and performance requirements. Includes detail drawings, material specifications, and budget development.",
+                icon: FileCheck,
+              },
+              {
+                step: 3,
+                title: "Surface Preparation",
+                description:
+                  "Substrate cleaning, concrete crack repair, spall repair, and surface profiling to achieve proper membrane adhesion. In Tampa's climate, surface preparation quality determines long-term performance.",
+                icon: Layers,
+              },
+              {
+                step: 4,
+                title: "Membrane Installation",
+                description:
+                  "Application of primers, membranes, flashings, and termination details per manufacturer specifications. Weather monitoring ensures dry conditions for proper adhesion during Tampa's wet season.",
+                icon: Droplets,
+              },
+              {
+                step: 5,
+                title: "Quality Verification",
+                description:
+                  "Flood testing, adhesion pull testing, thickness verification, and photographic documentation of all installations. Deficiencies are corrected before protection courses are installed.",
+                icon: CheckCircle,
+              },
+              {
+                step: 6,
+                title: "Protection and Warranty",
+                description:
+                  "Installation of protection courses, drainage boards, or wearing surfaces. Complete warranty documentation, maintenance schedule, and as-built drawings delivered to property management.",
+                icon: Shield,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex items-start gap-4">
+                <div className="flex-shrink-0 w-12 h-12 bg-brand-gold/20 rounded-full flex items-center justify-center">
+                  <item.icon className="w-6 h-6 text-brand-gold" />
+                </div>
+                <div>
+                  <div className="text-brand-gold font-semibold text-sm mb-1">Step {item.step}</div>
+                  <h3 className="font-bold text-white mb-2">{item.title}</h3>
+                  <p className="text-gray-300 text-sm">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -342,113 +351,35 @@ export default function ExteriorWaterproofingTampaPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Tampa Waterproofing Expertise
-              </h2>
-              <p className="text-gray-200 mb-6">
-                FCS has protected Tampa buildings from water intrusion for over two decades. Our waterproofing team combines manufacturer certifications with deep knowledge of Tampa's climate challenges.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Manufacturer Certified:</strong> Certified applicators for Tremco, Carlisle, Sika, Neogard, and other premium manufacturers</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Comprehensive Testing:</strong> Flood testing, adhesion testing, and infrared scanning to verify waterproofing integrity</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Detailed Documentation:</strong> Complete project records including photos, material certifications, and test results</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Long-Term Support:</strong> Maintenance programs and warranty service for continued protection</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Droplets className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">10 Yr</div>
-                <div className="text-gray-300 text-sm">Warranty Standard</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$25M+</div>
-                <div className="text-gray-300 text-sm">Waterproofing Projects</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">200+</div>
-                <div className="text-gray-300 text-sm">Buildings Protected</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Tampa Chooses FCS for Waterproofing
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor—never a subcontractor. You get direct accountability for your waterproofing project from assessment through warranty.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Layers className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Premium Systems</h3>
-              <p className="text-gray-600">
-                We specify and install premium waterproofing systems from leading manufacturers, selected specifically for Tampa's climate and your building's requirements.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">10-Year Warranty</h3>
-              <p className="text-gray-600">
-                Every FCS waterproofing installation includes our 10-year workmanship warranty, backed by manufacturer material warranties for complete protection.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={tampaFaqs}
+        items={faqs}
         title="Tampa Exterior Waterproofing FAQs"
         description="Common questions about exterior waterproofing for commercial and residential buildings in Tampa, Florida."
       />
+
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Tampa" currentService="exterior-waterproofing" />
+            <NearbyLocations currentCity="Tampa" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
+          </div>
+        </div>
+      </section>
 
       {/* CTA Section */}
       <section className="section bg-brand-green">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Protect Your Tampa Property
+            Stop Tampa's Weather from Damaging Your Building
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From building envelope to foundation, FCS provides comprehensive waterproofing solutions for Tampa's demanding climate. Schedule a complimentary assessment.
+            From building envelope diagnostics to complete waterproofing system installation, FCS protects Tampa properties against the moisture challenges that define Florida's Gulf Coast. Schedule a complimentary waterproofing assessment.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Request Assessment
+              Request Waterproofing Assessment
             </Link>
             <a
               href={`tel:${BUSINESS_INFO.phoneRaw}`}
