@@ -1,76 +1,43 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, FileCheck, Users, Thermometer, Wind, Droplets, HardHat, Palmtree } from "lucide-react";
-import { BUSINESS_INFO, SERVICES, FAQ_DATABASE } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-sarasota/' },
-  title: "Commercial Construction Sarasota | $500K+ | FCS",
-  description: "Commercial Construction in Sarasota: complete construction services from pre-construction to closeout. 40+ years, licensed CBC. Request a free estimate today.",
+  title: "Commercial Construction Sarasota FL | Office, Medical, Cultural | FCS",
+  description: "Commercial construction in Sarasota by Florida Construction Specialists. Design-build, medical facilities, cultural venues, office buildings. Licensed CBC, 40+ years experience. Request a project bid.",
 };
 
-const serviceFeatures = [
+const faqs = [
   {
-    title: "Office Buildings & Corporate Facilities",
-    description: "From boutique professional offices to multi-story commercial buildings in Downtown Sarasota, University Parkway corridor, and throughout the county's growing business districts."
+    question: "How does building on Sarasota's barrier islands differ from mainland commercial construction?",
+    answer: "Commercial projects on Siesta Key, Lido Key, Longboat Key, and Bird Key face significantly stricter requirements than mainland Sarasota. Barrier island sites fall within FEMA flood zones VE and AE, requiring elevated foundations, breakaway wall construction below flood elevation, and flood-vent engineering. Wind speed design requirements reach 150 mph on the keys versus 130 mph for most mainland Sarasota locations. Salt spray corrosion demands marine-grade fasteners, stainless steel connections, and specialized protective coatings on exposed structural elements. We have built commercial projects on Sarasota's barrier islands for decades and understand the permitting overlay districts that apply to these environmentally sensitive areas."
   },
   {
-    title: "Hospitality & Tourism Construction",
-    description: "Hotels, resorts, restaurants, and entertainment venues supporting Sarasota's renowned cultural attractions, beaches, and thriving tourism industry."
+    question: "What is the commercial permitting process through the City of Sarasota Building Department?",
+    answer: "Commercial construction permits within Sarasota city limits go through the City of Sarasota Building Department. Standard commercial plan review takes 4 to 8 weeks, with more complex projects involving zoning variances, conditional use permits, or environmental review taking up to 12 weeks. Projects within the Rosemary District or downtown overlay zones require additional design review through the city's Development Review Committee. We prepare and submit complete permit packages with all required documentation to reduce review cycles and avoid resubmission delays."
   },
   {
-    title: "Retail Centers & Mixed-Use Developments",
-    description: "Ground-up retail construction, tenant improvements, and mixed-use projects in UTC Mall area, St. Armands Circle, and major commercial corridors."
+    question: "What areas of Sarasota have the most active commercial construction markets?",
+    answer: "Downtown Sarasota along Main Street and the bayfront corridor continues to attract mixed-use and office development at premium price points. The University Parkway and I-75 interchange area is the fastest-growing commercial corridor, driven by the success of University Town Center and the expansion of medical offices and professional services. The Fruitville Road corridor between downtown and I-75 sees steady commercial renovation and new construction activity. Lakewood Ranch, straddling the Sarasota and Manatee County border, supports significant commercial construction in the retail, medical, and professional office sectors. St. Armands Circle maintains demand for premium retail and hospitality construction."
   },
   {
-    title: "Luxury Commercial Projects",
-    description: "High-end commercial construction befitting Sarasota's affluent market, including upscale retail, private clubs, and premium office space with superior finishes."
+    question: "Does FCS handle commercial renovation and adaptive reuse projects in Sarasota?",
+    answer: "Yes, commercial renovations and adaptive reuse represent a meaningful portion of our Sarasota work. Downtown Sarasota has a significant inventory of mid-century commercial buildings that property owners are modernizing to compete with newer construction along University Parkway. We renovate existing office buildings, convert retail space to mixed-use, and perform major tenant improvements throughout Sarasota County. In the Burns Court and Laurel Park areas adjacent to downtown, we have experience with commercial renovations that must respect the architectural character of these historic neighborhoods while meeting modern code requirements."
   },
   {
-    title: "Cultural & Institutional Facilities",
-    description: "Construction for museums, performing arts venues, educational facilities, and institutions supporting Sarasota's reputation as Florida's Cultural Coast."
-  }
-];
-
-// Unique FAQs for Sarasota commercial construction
-const sarasotaFaqs = [
-  {
-    question: "What size commercial construction projects does FCS handle in Sarasota?",
-    answer: "Florida Construction Specialists handles commercial construction projects in Sarasota ranging from $500,000 to over $25 million. We specialize in large-scale projects including office buildings in Downtown Sarasota and University Parkway area, medical facilities near Sarasota Memorial Hospital, hospitality venues on the keys, and retail centers throughout Sarasota County. Our 40+ years experience and in-house engineering allows us to take on virtually any commercial project."
+    question: "How does Sarasota's seasonal population affect commercial construction scheduling?",
+    answer: "Sarasota's population surges significantly during the winter season as seasonal residents and tourists arrive from November through April. This affects commercial construction scheduling in two ways. First, barrier island and St. Armands Circle projects often require reduced construction activity during peak tourist season to minimize disruption. Second, the seasonal population increase accelerates retail and hospitality demand, creating urgency to complete commercial projects before the winter season begins. We build detailed schedules that account for these seasonal dynamics, often accelerating barrier island work during the summer months when the seasonal population is lower and weather windows between afternoon storms allow productive exterior work."
   },
   {
-    question: "Do you have experience with Sarasota's building codes and permit process?",
-    answer: "Yes, we have extensive experience navigating the City of Sarasota Building Department and Sarasota County Building Services. Sarasota requires compliance with the Florida Building Code 2023, with Zone 3 wind requirements (up to 150 mph design wind speed for barrier islands) and strict flood zone regulations for coastal properties. We maintain strong relationships with local building officials to streamline permitting."
-  },
-  {
-    question: "How does Sarasota's coastal location affect commercial construction?",
-    answer: "Sarasota's barrier islands and coastal areas present unique construction challenges we specialize in addressing. These include enhanced wind resistance requirements (150 mph design wind speed), flood zone compliance for properties on Siesta Key, Lido Key, and Longboat Key, salt air corrosion protection, and often elevated construction. We have deep expertise in coastal commercial building in the Sarasota market."
-  },
-  {
-    question: "What commercial districts in Sarasota do you serve?",
-    answer: "We serve all of Sarasota's major commercial districts including Downtown Sarasota (Main Street and Bayfront), St. Armands Circle, the University Parkway/I-75 corridor, UTC Mall area, Fruitville Road commercial corridor, Siesta Key commercial areas, and Lakewood Ranch (partially in Sarasota County). We also work throughout Sarasota County including North Port, Venice, and Englewood."
-  },
-  {
-    question: "Why should I choose FCS over other Sarasota commercial contractors?",
-    answer: "FCS is always the prime contractor on every Sarasota project—we never work as a subcontractor. This means you get direct accountability, a single point of contact, and our full commitment to your project's success. We bring 20+ years of commercial construction experience, 40+ years experience and in-house engineering, and the quality standards that Sarasota's discerning commercial market demands."
-  },
-  {
-    question: "How long does a typical commercial construction project take in Sarasota?",
-    answer: "Commercial construction timelines in Sarasota vary based on project scope and complexity. A typical tenant improvement might take 2-4 months, while ground-up commercial construction ranges from 8-18 months. Barrier island projects may require additional time for coastal permits and environmental compliance. We provide detailed schedules accounting for Sarasota-specific factors including seasonal considerations and permit timelines."
-  },
-  {
-    question: "Do you handle hospitality and tourism-related construction in Sarasota?",
-    answer: "Yes, hospitality construction is one of our specialties in the Sarasota market. We have experience building and renovating hotels, boutique resorts, restaurants, and entertainment venues. We understand Sarasota's tourism-driven economy and the high standards expected for commercial projects in this affluent market, from Siesta Key beachfront properties to Downtown Sarasota's cultural venues."
-  },
-  {
-    question: "What insurance and bonding do you carry for Sarasota commercial projects?",
-    answer: "Florida Construction Specialists maintains comprehensive coverage including general liability insurance, workers' compensation, professional liability, and financial strength to handle projects of virtually any size. We are a fully licensed Florida General Contractor (License #CBC1262722). Our strong financial standing enables us to secure performance and payment bonds for projects of virtually any size in the Sarasota County market."
+    question: "What types of commercial construction projects does FCS deliver in Sarasota?",
+    answer: "In the Sarasota market we deliver design-build commercial construction, medical and healthcare facilities, office buildings, retail and mixed-use developments, cultural and institutional facilities, hospitality projects, and commercial renovations. Our Sarasota commercial projects typically range from five hundred thousand to twenty-five million dollars. We have particular depth in the medical facility sector near Sarasota Memorial Hospital and Doctors Hospital, in office construction along the University Parkway growth corridor, and in premium commercial construction that meets the quality standards Sarasota's affluent market demands."
   }
 ];
 
@@ -87,50 +54,51 @@ export default function CommercialConstructionSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Commercial Construction" />
       <ServiceSchema
         serviceName="Commercial Construction"
-        serviceDescription="Premier commercial construction contractor serving Sarasota, Florida. Office buildings, medical facilities, hospitality, retail centers, luxury commercial projects. Large-scale projects from $500K to $25M+. Always the prime contractor."
+        serviceDescription="Full-service commercial construction in Sarasota, FL. Design-build, medical facilities, office buildings, cultural venues, hospitality projects. Licensed CBC1262722, 40+ years experience."
         city="Sarasota"
         minPrice="500000"
-        serviceCategories={["Design-Build Construction","Medical Facilities","Office Buildings","Retail Construction","Industrial Construction"]}
+        serviceCategories={["Design-Build Construction", "Medical Facility Construction", "Office Building Construction", "Cultural & Institutional Facilities", "Hospitality Construction"]}
       />
-
-      <ArticleSchema
-        headline="Commercial Construction Sarasota FL | $500K-$25M+ Projects | FCS"
-        description="Premier commercial construction contractor in Sarasota, Florida. Downtown development, medical facilities, hospitality, retail centers, luxury commercial projects. 40+ years experience, 20+ years experience. Prime contractor on all projects. Call (813) 420-7561."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/commercial-construction-sarasota/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/commercial-construction-in-tampa/commercial-construction-in-tampa-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
               <span className="text-brand-gold font-semibold">Serving Sarasota, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Commercial Construction in Sarasota, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Commercial Construction in Sarasota, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers large-scale commercial construction throughout Sarasota and Sarasota County. From Downtown Sarasota office buildings to medical facilities near Sarasota Memorial Hospital and hospitality venues on the keys, we bring 20+ years of experience to projects ranging from $500,000 to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From the medical campuses expanding near Sarasota Memorial Hospital to the mixed-use developments reshaping downtown along the bayfront, Florida Construction Specialists delivers commercial construction across every sector of Sarasota's economy. As a prime general contractor with over four decades of experience, we bring in-house engineering, barrier island construction expertise, and the bonding capacity for projects from half a million to twenty-five million dollars.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              As Sarasota's trusted prime contractor, we handle office buildings, medical facilities, hospitality projects, retail centers, and luxury commercial developments—never as a subcontractor, always with full project accountability.
-            </p>
+
+            {/* Trust Badges */}
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
                 Schedule Project Consultation
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -139,127 +107,91 @@ export default function CommercialConstructionSarasotaPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Sarasota Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Commercial Construction Services in Sarasota
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Sarasota is known as Florida's Cultural Coast, home to world-class arts institutions, beautiful beaches, and an affluent population exceeding 58,000 in the city proper and 450,000+ in Sarasota County. The region's strong economy is driven by tourism, healthcare, professional services, and a rapidly growing population attracted to its exceptional quality of life.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota's Upscale Commercial Market Demands Precision and Quality
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Sarasota occupies a unique position among Florida's Gulf Coast cities. Known nationally as the Cultural Coast, the city pairs world-class arts institutions like the Ringling Museum, Sarasota Opera, and the Van Wezel Performing Arts Hall with an affluent population that expects premium quality in every aspect of built environment. The commercial construction market here reflects that expectation. Office buildings downtown command higher finishes than comparable projects in most Florida metros. Medical facilities near Sarasota Memorial Hospital must serve an aging population that is both discerning and growing. Hospitality and retail construction on the barrier islands and along St. Armands Circle must deliver aesthetic standards that match one of the most desirable coastal markets in the southeastern United States.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Sarasota's sophisticated commercial construction needs with the expertise, bonding capacity, and attention to quality the market demands. Whether you're building a new medical facility near Sarasota Memorial Hospital, a boutique hotel on Siesta Key, or a professional office building in the University Parkway corridor, we deliver on time and on budget.
+              <p className="mb-6">
+                The University Parkway corridor has emerged as Sarasota's primary commercial growth engine. University Town Center, the region's dominant retail destination, has attracted a wave of commercial development along the I-75 interchange, including medical offices, corporate headquarters, hotels, and professional services buildings. This corridor stretches east into Lakewood Ranch, which straddles the Sarasota-Manatee County border and continues to generate significant commercial construction demand in the healthcare, retail, and office sectors.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Sarasota project. Our relationships with local building departments, subcontractors, and suppliers ensure smooth execution from groundbreaking to certificate of occupancy.
+              <p className="mb-6">
+                Downtown Sarasota itself is experiencing a vertical transformation. Once characterized by low-rise Mediterranean Revival commercial buildings, the bayfront and Main Street corridor now include mid-rise and high-rise mixed-use developments that combine ground-floor commercial space with residential towers above. This trend creates complex commercial construction projects that require structural engineering for taller buildings, sophisticated MEP systems, and coordination between commercial tenant buildouts and residential construction above.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Our Commercial Construction Capabilities in Sarasota
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {serviceFeatures.map((feature) => (
-                  <div key={feature.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{feature.title}</h4>
-                    <p className="text-gray-600 text-sm">{feature.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Sarasota Commercial Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Sarasota" currentService="commercial-construction" />
-              <NearbyLocations currentCity="Sarasota" service="commercial-construction" serviceName="Commercial Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Sarasota Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Commercial construction in Sarasota starting at $500,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                Florida Construction Specialists has worked across all of Sarasota's commercial submarkets. As a prime general contractor, we never subcontract our general contracting services, giving every Sarasota project direct accountability and the full weight of our in-house engineering and construction management teams. Our principal's 43 years of combined construction and insurance industry experience adds a risk management perspective that is particularly valuable in Sarasota's hurricane-exposed coastal market.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Sarasota Market Section */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/commercial-construction-design/commercial-construction-design-display.webp"
+        alt="Commercial construction project in Sarasota's growing business district"
+        title="Building Sarasota's Commercial Future"
+        subtitle="Design-build, medical, cultural, and office construction across Sarasota County"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota's Commercial Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Commercial Construction Capabilities for Sarasota's Diverse Economy
           </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Sarasota's commercial sectors each present distinct construction challenges. We deliver specialized expertise across all of them.
+          </p>
+
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
+            {[
+              {
+                icon: Building2,
+                title: "Design-Build Construction",
+                description: "Single-source delivery for Sarasota commercial projects. We combine architectural coordination, engineering, and construction management under one contract, streamlining projects along University Parkway, downtown, and throughout Sarasota County including the Fruitville Road corridor and Gulf Gate business areas."
+              },
+              {
+                icon: Shield,
+                title: "Medical Facility Construction",
+                description: "AHCA-compliant medical construction serving Sarasota's healthcare sector. Surgical centers, specialty clinics, medical office buildings, and healthcare facility expansions near Sarasota Memorial Hospital, Doctors Hospital of Sarasota, and the growing medical corridor along University Parkway and Cattlemen Road."
+              },
+              {
+                icon: HardHat,
+                title: "Office and Professional",
+                description: "Commercial office construction and tenant improvements across Sarasota's office markets. From premium downtown bayfront offices to the University Parkway professional corridor, Palmer Ranch office parks, and emerging professional space in the Rosemary District north of downtown."
+              },
+              {
+                icon: Briefcase,
+                title: "Hospitality and Cultural",
+                description: "Hotels, restaurants, cultural venues, and entertainment facilities supporting Sarasota's tourism and arts economy. From boutique hospitality projects on Siesta Key and Lido Key to institutional construction serving Ringling College, New College of Florida, and the city's performing arts organizations."
+              },
+              {
+                icon: FileCheck,
+                title: "Retail and Mixed-Use",
+                description: "Retail construction, tenant improvements, and mixed-use developments across Sarasota County. Ground-floor commercial buildouts in downtown mixed-use towers, standalone retail in the University Town Center area, and specialty retail along St. Armands Circle where the quality bar is exceptionally high."
+              },
+              {
+                icon: Award,
+                title: "Commercial Renovations",
+                description: "Major commercial renovations and adaptive reuse throughout Sarasota. We transform aging commercial buildings downtown, modernize mid-century office stock along the Tamiami Trail, and renovate commercial properties in Burns Court, Laurel Park, and the established neighborhoods surrounding the urban core."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown Sarasota & Bayfront</h3>
-              <p className="text-gray-600 text-sm">
-                Downtown Sarasota continues to see significant commercial investment with mixed-use developments, office buildings, and cultural facilities. The Main Street and Palm Avenue corridors attract premium commercial tenants seeking Sarasota's prestigious address.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <FileCheck className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Healthcare & Medical Hub</h3>
-              <p className="text-gray-600 text-sm">
-                Sarasota Memorial Hospital, Doctors Hospital, and numerous specialty clinics drive significant demand for medical facility construction. The region's aging population creates ongoing need for healthcare facilities from urgent care to surgical centers.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Palmtree className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Tourism & Hospitality</h3>
-              <p className="text-gray-600 text-sm">
-                Siesta Key's world-famous beach, St. Armands Circle's upscale shopping, and Sarasota's cultural attractions drive steady demand for hospitality construction. Hotels, restaurants, and entertainment venues require quality construction that matches the area's standards.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
@@ -268,265 +200,129 @@ export default function CommercialConstructionSarasotaPage() {
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Sarasota's Unique Conditions
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota Construction Expertise Built Over Decades
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center">
-                    <Thermometer className="w-5 h-5 text-orange-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Coastal Climate Demands</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota's Gulf Coast location demands construction methods designed for salt air corrosion, intense UV exposure, and high humidity. We specify marine-grade materials and protective coatings that withstand the coastal environment while maintaining the aesthetic quality Sarasota demands.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Hurricane-Resistant Construction</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota's barrier islands require up to 150 mph design wind speed construction. All our commercial buildings meet or exceed Florida Building Code requirements for impact-resistant glazing, enhanced roof tie-downs, and wind-resistant structural systems.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Expertise</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Properties on Siesta Key, Lido Key, Longboat Key, and coastal Sarasota typically fall within FEMA flood zones VE and AE. We navigate flood zone construction requirements, elevation certificates, and SWFWMD permits to ensure compliance and insurability.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-green-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Local Permitting Knowledge</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  We maintain strong relationships with the City of Sarasota Building Department and Sarasota County Building Services. Our familiarity with local permit processes, architectural review requirements, and inspection protocols helps minimize delays.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Commercial construction in Sarasota requires understanding the city's unique combination of coastal exposure, affluent market expectations, and jurisdictional complexity. Sarasota County covers a large geographic area, and commercial projects may fall under City of Sarasota jurisdiction, unincorporated Sarasota County, or the independent municipalities of Venice, North Port, or Longboat Key depending on location.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> handles permitting for commercial projects within city limits. Sarasota County Building Services covers unincorporated areas including much of the University Parkway corridor, Palmer Ranch, and the barrier islands outside city boundaries. We have established working relationships with both agencies and understand the nuances of each jurisdiction's plan review process, inspection expectations, and Certificate of Occupancy requirements.
+              </p>
+              <p className="mb-6">
+                Sarasota's Gulf Coast location creates construction conditions that demand experienced contractors. The city receives approximately 55 inches of rainfall annually, with the heaviest concentration during afternoon thunderstorms from June through September. This rainfall pattern affects concrete placement, roofing installation, and exterior envelope work. Beyond rain, Sarasota sits directly on the Gulf of Mexico with barrier islands extending into open water. Hurricane Ian in 2022 demonstrated the devastating potential of direct Gulf storm surge, particularly on the keys and along the bayfront. Every commercial structure we build meets the Florida Building Code's enhanced wind requirements for Sarasota County, including 150 mph design wind speeds on barrier island sites.
+              </p>
+              <p className="mb-6">
+                Salt air corrosion is a persistent challenge for commercial construction anywhere in Sarasota, but particularly on the barrier islands. Properties on Siesta Key, Lido Key, Bird Key, and Longboat Key experience constant salt spray exposure that degrades standard construction materials within years. We specify marine-grade stainless steel fasteners, corrosion-resistant flashing, and specialized protective coatings that significantly extend the service life of commercial buildings in these high-exposure environments.
+              </p>
+              <p>
+                Our familiarity with Sarasota neighborhoods informs project planning at every level. Commercial construction downtown involves coordinating with adjacent bayfront activity and managing pedestrian traffic. The Rosemary District north of downtown has specific urban design standards that affect commercial facades and site plans. The University Parkway corridor requires coordination with ongoing development activity and traffic management during construction. Barrier island projects must account for limited access over bridges, seasonal tourist traffic, and environmental regulations specific to the coastal zone.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost/Timeline Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota Commercial Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full bg-white rounded-lg shadow-sm">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="px-6 py-4 text-left font-semibold">Project Type</th>
-                    <th className="px-6 py-4 text-left font-semibold">Typical Cost Range</th>
-                    <th className="px-6 py-4 text-left font-semibold">Timeline</th>
-                  </tr>
-                </thead>
-                <tbody className="divide-y divide-gray-200">
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Tenant Improvement</td>
-                    <td className="px-6 py-4 text-gray-600">$60-175/SF</td>
-                    <td className="px-6 py-4 text-gray-600">2-4 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Office Building (Ground-Up)</td>
-                    <td className="px-6 py-4 text-gray-600">$225-450/SF</td>
-                    <td className="px-6 py-4 text-gray-600">10-16 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Medical/Healthcare Facility</td>
-                    <td className="px-6 py-4 text-gray-600">$375-600/SF</td>
-                    <td className="px-6 py-4 text-gray-600">12-18 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Hotel/Hospitality (Barrier Island)</td>
-                    <td className="px-6 py-4 text-gray-600">$400-700/SF</td>
-                    <td className="px-6 py-4 text-gray-600">14-24 months</td>
-                  </tr>
-                  <tr>
-                    <td className="px-6 py-4 font-medium text-gray-800">Retail Center</td>
-                    <td className="px-6 py-4 text-gray-600">$175-325/SF</td>
-                    <td className="px-6 py-4 text-gray-600">8-14 months</td>
-                  </tr>
-                  <tr className="bg-gray-50">
-                    <td className="px-6 py-4 font-medium text-gray-800">Restaurant Buildout</td>
-                    <td className="px-6 py-4 text-gray-600">$225-500/SF</td>
-                    <td className="px-6 py-4 text-gray-600">3-6 months</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Costs and timelines are estimates and vary based on project specifics, site conditions, and finish levels. Sarasota's affluent market often demands premium finishes. Contact us for a detailed estimate.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Sarasota Commercial Construction Process
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with a thorough site evaluation, feasibility analysis, and budget development. For Sarasota projects, this includes flood zone determination, coastal setback analysis, architectural review requirements, and permit pathway planning with City or County officials."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination",
-                  description: "Whether working with your architect or providing design-build services, we ensure plans meet Sarasota's building codes, enhanced wind requirements, and the aesthetic standards expected in this quality-conscious market."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all permit applications with City of Sarasota Building Department or Sarasota County Building Services, coordinate plan reviews, SWFWMD permits, and handle any architectural review or variance requirements."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Our experienced project managers oversee daily construction with strict quality control, safety protocols, and schedule management. We coordinate around seasonal tourism patterns for barrier island projects and maintain the quality standards Sarasota demands."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all inspections, obtain certificate of occupancy, and provide comprehensive documentation including warranties, as-builts, flood elevation certificates, and operations manuals for your Sarasota commercial building."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-gray-50 rounded-lg p-6 shadow-sm">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Sarasota Businesses Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Sarasota Commercial Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor in Sarasota. You get direct accountability, single-point contact, and our full commitment to your project's success from start to finish.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Quality-Focused Approach</h3>
-              <p className="text-gray-600">
-                We understand Sarasota's discerning commercial market demands superior quality. Our attention to detail and commitment to excellence matches the standards this affluent community expects.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Relationships</h3>
-              <p className="text-gray-600">
-                Strong relationships with Sarasota building departments, inspectors, subcontractors, and suppliers help ensure smooth permitting and efficient construction execution.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every commercial project in Sarasota follows a structured process tailored to the local construction environment.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Assessment and Pre-Construction",
+                description: "We evaluate your Sarasota site for soil conditions, flood zone classification, coastal setback requirements, and zoning compatibility. Barrier island sites require additional environmental review, while downtown sites may involve urban site constraints and utility coordination. Sarasota's sandy soils with variable water table depth require careful geotechnical evaluation, particularly for sites near the bayfront or on the keys.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design Coordination and Value Engineering",
+                description: "Whether collaborating with your architect or providing design-build services, we coordinate all design disciplines for constructability, code compliance, and cost efficiency. Sarasota commercial projects demand hurricane-resistant structural design, energy code compliance, SWFWMD stormwater management, and the premium finish quality that this market expects.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting Through City or County",
+                description: "We prepare and submit complete permit packages to the City of Sarasota Building Department or Sarasota County Building Services depending on project location. This includes coordinating plan review across building, fire, mechanical, electrical, and plumbing disciplines, plus any overlay district design review required for downtown, Rosemary District, or barrier island projects.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction with Local Trade Network",
+                description: "Experienced superintendents manage daily construction using our established network of Sarasota-area subcontractors who understand local conditions, code expectations, and the quality standards this market demands. We schedule strategically around the rainy season and seasonal tourism patterns, coordinate with adjacent operations in dense commercial areas, and maintain rigorous quality control throughout.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Certificate of Occupancy",
+                description: "Thorough punch list resolution, final inspections, Certificate of Occupancy from the City of Sarasota or Sarasota County, and comprehensive warranty documentation. We provide complete as-built drawings, equipment manuals, flood elevation certificates where applicable, and maintenance guides. For barrier island projects, we coordinate final documentation with environmental compliance requirements.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={sarasotaFaqs} title="Commercial Construction in Sarasota - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Sarasota Commercial Construction FAQ"
+        description="Common questions about commercial construction projects in Sarasota, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Services in Sarasota</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-sarasota/" className="text-brand-green hover:underline">Multi-Family Construction Sarasota</Link></li>
-                <li><Link href="/disaster-recovery-sarasota/" className="text-brand-green hover:underline">Disaster Recovery Sarasota</Link></li>
-                <li><Link href="/historic-restoration-sarasota/" className="text-brand-green hover:underline">Historic Restoration Sarasota</Link></li>
-                <li><Link href="/commercial/industrial-construction/" className="text-brand-green hover:underline">Industrial Construction</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Commercial Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-tampa/" className="text-brand-green hover:underline">Commercial Construction Tampa</Link></li>
-                <li><Link href="/commercial-construction-bradenton/" className="text-brand-green hover:underline">Commercial Construction Bradenton</Link></li>
-                <li><Link href="/commercial-construction-st-petersburg/" className="text-brand-green hover:underline">Commercial Construction St. Petersburg</Link></li>
-                <li><Link href="/commercial-construction-lakeland/" className="text-brand-green hover:underline">Commercial Construction Lakeland</Link></li>
-                <li><Link href="/commercial-construction-clearwater/" className="text-brand-green hover:underline">Commercial Construction Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction Services</Link></li>
-                <li><Link href="/locations/sarasota-fl/" className="text-brand-green hover:underline">All Sarasota Services</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Sarasota" currentService="commercial-construction" />
+            <NearbyLocations currentCity="Sarasota" service="commercial-construction" serviceName="Commercial Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
             Start Your Sarasota Commercial Construction Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver commercial construction excellence in Sarasota with projects starting at $500,000.
+            Contact Florida Construction Specialists for a consultation on your commercial project in Sarasota. We will discuss your vision, provide preliminary budgeting, and outline a clear path to successful delivery in this premier Gulf Coast market.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Project Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>

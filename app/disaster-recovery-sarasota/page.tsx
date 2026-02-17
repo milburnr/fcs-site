@@ -1,97 +1,51 @@
 import Link from "next/link";
-import Image from "next/image";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, AlertTriangle, FileText, Wrench, Users, DollarSign } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-sarasota/' },
-  title: "Disaster Recovery Sarasota | Hurricane | FCS",
+  title: "Disaster Recovery Sarasota FL | Hurricane, Storm Surge, Emergency | FCS",
+  description: "Disaster recovery construction in Sarasota by Florida Construction Specialists. Hurricane response, storm surge recovery, barrier island rebuilding, emergency stabilization. Licensed CBC, 40+ years.",
 };
+
+const faqs = [
+  {
+    question: "What makes Sarasota particularly vulnerable to hurricane-related disasters?",
+    answer: "Sarasota faces multiple compounding disaster risks from hurricanes. The barrier islands of Siesta Key, Lido Key, Longboat Key, and Bird Key sit directly in the Gulf of Mexico with no natural protection from storm surge. The bayfront along downtown Sarasota is vulnerable to surge that funnels into Sarasota Bay. Much of the built environment on the keys dates from the 1970s and 1980s and was constructed to less stringent hurricane codes than currently required. Hurricane Ian in 2022 demonstrated these vulnerabilities when surge, wind, and flooding caused catastrophic damage across the barrier islands and bayfront. The combination of Gulf exposure, barrier island geography, aging building stock, and growing property values makes Sarasota one of Florida's highest hurricane risk markets."
+  },
+  {
+    question: "How does FCS prepare for disaster response in the Sarasota area?",
+    answer: "We maintain pre-storm preparation protocols that include equipment staging, material pre-positioning, and communication plans with existing clients and emergency management. During hurricane season we monitor National Hurricane Center forecasts and begin preparation when a system threatens the Sarasota area. After a major event, we deploy emergency response teams as soon as roads and bridge access allow. For barrier island properties, we coordinate with Sarasota County Emergency Management regarding bridge reopening timelines and access restrictions. We maintain relationships with specialty subcontractors for emergency services including temporary roofing, water extraction, structural shoring, and debris removal."
+  },
+  {
+    question: "What is the typical recovery timeline for Sarasota properties after a major hurricane?",
+    answer: "Recovery timelines in Sarasota depend on the severity of damage and the property's location. Emergency stabilization typically begins within days of road access being restored. Damage assessment and insurance documentation take two to four weeks for comprehensive evaluation. Permitting for substantial repairs through the City of Sarasota Building Department or Sarasota County can take four to eight weeks depending on the volume of concurrent applications after a major storm. Construction timelines range from three to six months for moderate commercial repairs to twelve to twenty-four months for comprehensive rebuilds of severely damaged barrier island properties. Material supply chain disruptions and trade labor availability after a major regional hurricane event can extend timelines beyond normal estimates."
+  },
+  {
+    question: "Does FCS handle both emergency stabilization and long-term disaster recovery construction?",
+    answer: "Yes, we provide the full continuum of disaster recovery services from initial emergency response through complete reconstruction. Emergency stabilization includes temporary roofing, water extraction, structural shoring, board-up, and debris management. Long-term recovery includes structural repair or rebuilding, roof system replacement, exterior envelope restoration, interior buildout, mechanical and electrical system replacement, and site restoration. Keeping both phases under one contractor provides continuity of documentation for insurance claims, eliminates the transition gaps that occur when different contractors handle emergency and permanent work, and ensures that emergency work is integrated into the final restoration plan rather than being redone."
+  },
+  {
+    question: "How does the substantial damage rule affect disaster recovery in Sarasota?",
+    answer: "Under Florida regulations, when a building sustains damage exceeding 50 percent of its pre-damage market value, it is classified as substantially damaged. Substantially damaged buildings must be brought into compliance with the current Florida Building Code and current FEMA flood zone requirements when repaired. For older buildings on Sarasota's barrier islands, this can mean significant additional construction requirements including flood elevation compliance, enhanced wind resistance, and updated structural systems. The substantial damage determination is made by the local building official and directly affects the scope and cost of recovery construction. We work with building departments and structural engineers to evaluate substantial damage determinations and develop recovery plans that meet current code requirements."
+  },
+  {
+    question: "What role does FEMA play in Sarasota disaster recovery, and how does FCS coordinate with federal programs?",
+    answer: "FEMA provides several forms of disaster assistance in Sarasota after a federal disaster declaration. For commercial and multi-family properties, the primary federal programs include SBA disaster loans for businesses and property owners, FEMA Public Assistance for government and nonprofit facilities, and Hazard Mitigation Grant Program funding for projects that reduce future disaster risk. We help Sarasota property owners understand which programs may apply to their situation and ensure that recovery construction documentation meets federal program requirements. For properties being rebuilt with mitigation improvements, we design and construct enhanced hurricane resistance that may qualify for FEMA mitigation funding and reduce future insurance costs."
+  }
+];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Disaster Recovery", href: "/insurance/" },
+  { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Sarasota", href: "/disaster-recovery-sarasota/" },
-];
-
-const disasterTypes = [
-  {
-    type: "Hurricane Damage",
-    description: "Roof damage, structural impacts, water intrusion, and wind damage from tropical storms affecting barrier islands and mainland Sarasota",
-    icon: AlertTriangle,
-  },
-  {
-    type: "Flood Restoration",
-    description: "Water extraction, structural drying, mold remediation, and flood damage repair for VE zone barrier island and AE zone waterfront properties",
-    icon: Wrench,
-  },
-  {
-    type: "Fire & Smoke Damage",
-    description: "Structural repairs, smoke damage remediation, odor removal, and complete fire restoration for luxury homes and commercial properties",
-    icon: Building2,
-  },
-  {
-    type: "Storm Surge Damage",
-    description: "Specialized restoration for Gulf-exposed properties on Siesta Key, Longboat Key, Lido Key, and St. Armands after storm surge events",
-    icon: Shield,
-  },
-];
-
-const sarasotaFaqs = [
-  {
-    question: "How quickly can FCS respond to disaster damage in Sarasota and the barrier islands?",
-    answer: "Florida Construction Specialists maintains rapid response capabilities for Sarasota and barrier island emergencies. For large loss situations on Siesta Key, Longboat Key, Lido Key, Bird Key, and mainland Sarasota, we can typically have assessment teams on-site within 2-4 hours. Our proximity to Sarasota through our Ruskin headquarters and established relationships with the City of Sarasota Building Department ensure efficient project mobilization even during post-storm periods when barrier island access may be restricted.",
-  },
-  {
-    question: "What areas of Sarasota are most vulnerable to hurricane and flood damage?",
-    answer: "Sarasota's barrier islands—Siesta Key, Longboat Key, Lido Key, and Bird Key—face the highest risk with VE flood zone designations and direct Gulf exposure. Storm surge potential of 6-12 feet threatens these properties. St. Armands Circle, the downtown bayfront, and waterfront properties on Bird Key and Indian Beach/Sapphire Shores also have significant flood exposure. These high-value properties require specialized restoration approaches including elevated systems and marine-grade materials.",
-  },
-  {
-    question: "Do you work directly with insurance companies on Sarasota disaster claims?",
-    answer: "Yes, FCS specializes in large loss insurance restoration and works directly with all major insurance carriers. For Sarasota's high-value waterfront and barrier island properties, we provide detailed documentation, scope assessments, and claims support. Our experience with Xactimate estimating and insurance adjuster protocols helps expedite claims, which is especially important for the luxury homes and condominiums common in Sarasota.",
-  },
-  {
-    question: "What is the typical timeline for hurricane damage restoration in Sarasota?",
-    answer: "Hurricane damage restoration timelines in Sarasota vary by scope and property access: Stabilization (1-3 days), water extraction and drying (5-14 days), structural repairs (30-120 days), and full restoration (90-180 days for luxury properties). Barrier island projects may face additional logistics challenges during post-storm periods. Projects over $1 million typically require 6-12 months depending on scope and permit requirements through the City of Sarasota Building Department.",
-  },
-  {
-    question: "What types of properties do you restore in Sarasota?",
-    answer: "FCS specializes in large loss disaster recovery for Sarasota's high-value properties including luxury waterfront estates on Longboat Key and Bird Key, Gulf-front condominiums on Siesta Key and Lido Key, historic Sarasota School of Architecture homes, downtown commercial buildings, St. Armands Circle retail and hospitality properties, and multi-family buildings. Our Sarasota projects typically range from $250,000 to $25 million.",
-  },
-  {
-    question: "How do Sarasota building codes affect disaster restoration on barrier islands?",
-    answer: "Sarasota enforces the Florida Building Code with strict coastal construction requirements for barrier islands. All properties in VE zones must meet flood-resistant construction standards. Restoration work often triggers the 50% Rule—if repair costs exceed 50% of building value, the entire structure must be brought to current code. This frequently requires upgraded wind resistance ratings, impact-resistant glazing, elevated mechanical systems, and breakaway wall construction for properties in velocity zones.",
-  },
-  {
-    question: "Can you restore Sarasota School of Architecture (mid-century modern) properties after disaster damage?",
-    answer: "Yes, FCS has extensive experience restoring Sarasota's iconic mid-century modern architecture. The Sarasota School of Architecture properties in neighborhoods like Indian Beach/Sapphire Shores, Lido Shores, and throughout the city require specialized restoration approaches that preserve their distinctive design elements—jalousie windows, floating rooflines, open floor plans, and indoor-outdoor connections—while incorporating modern disaster-resistant improvements where permitted by historic preservation guidelines.",
-  },
-  {
-    question: "What documentation do you provide for Sarasota insurance claims?",
-    answer: "FCS provides comprehensive documentation including initial damage assessments with photos and video, moisture mapping reports, detailed scope of work documents, Xactimate estimates, material specifications, daily progress reports, and final completion documentation. For Sarasota's luxury properties, we also document custom finishes, designer materials, and specialty items that require replacement-value documentation for proper insurance recovery.",
-  },
-];
-
-const costData = [
-  { category: "Water Damage Restoration", range: "$20,000 - $100,000", timeline: "1-4 weeks", notes: "Higher for barrier island properties with salt water intrusion" },
-  { category: "Hurricane Roof Repair", range: "$75,000 - $750,000", timeline: "4-16 weeks", notes: "Luxury homes and tile roofs increase costs" },
-  { category: "Storm Surge Restoration", range: "$150,000 - $3M+", timeline: "3-12 months", notes: "Complete rebuild may be required for VE zone properties" },
-  { category: "Full Property Restoration", range: "$500,000 - $25M+", timeline: "6-18 months", notes: "Luxury estates and large condominiums" },
-];
-
-const processSteps = [
-  { step: 2, title: "Documentation", description: "Comprehensive photo/video documentation, moisture mapping, and luxury finish inventory" },
-  { step: 3, title: "Insurance Coordination", description: "Direct carrier communication, Xactimate estimates, and high-value claims support" },
-  { step: 4, title: "Restoration Planning", description: "Engineering assessments, permit applications, and coordination with Sarasota Building Department" },
-  { step: 5, title: "Construction Phase", description: "Professional restoration with quality control, marine-grade materials, and code compliance" },
-  { step: 6, title: "Final Inspection", description: "City inspections, insurance sign-off, warranty documentation, and project closeout" },
 ];
 
 export default function DisasterRecoverySarasotaPage() {
@@ -99,44 +53,51 @@ export default function DisasterRecoverySarasotaPage() {
     <>
       <LocalBusinessSchema city="Sarasota" service="Disaster Recovery" />
       <ServiceSchema
-        serviceName="Disaster Recovery and Insurance Restoration"
-        serviceDescription="Emergency disaster recovery and insurance restoration services in Sarasota, FL. Hurricane, fire, flood, and storm damage repair."
+        serviceName="Disaster Recovery"
+        serviceDescription="Disaster recovery construction in Sarasota, FL. Hurricane response, storm surge recovery, barrier island rebuilding, emergency stabilization, commercial reconstruction. Licensed CBC1262722, 40+ years experience."
         city="Sarasota"
-        minPrice="250000"
-        serviceCategories={["Hurricane Damage Repair","Fire Restoration","Water Damage Restoration","Storm Damage Recovery","Emergency Board-Up"]}
+        minPrice="500000"
+        serviceCategories={["Hurricane Damage Recovery", "Storm Surge Rebuilding", "Emergency Stabilization", "Commercial Reconstruction", "Barrier Island Recovery"]}
       />
       <BreadcrumbSchema items={breadcrumbItems} />
-      <ArticleSchema
-        headline="Disaster Recovery Services in Sarasota, FL"
-        description="Comprehensive guide to disaster recovery and insurance restoration services in Sarasota. Learn about hurricane damage restoration, storm surge remediation, barrier island recovery, and large loss insurance claim processes."
-        datePublished="2024-01-15"
-        dateModified="2025-01-18"
-        slug="disaster-recovery-sarasota"
-      />
-
-      <Breadcrumb items={breadcrumbItems} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp')] bg-cover bg-center opacity-20" />
-        <div className="container-custom relative">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+        <div className="absolute inset-0 bg-[url('/images/home-hero-after-great-disasters-sandy-crop/home-hero-after-great-disasters-sandy-crop-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="container-custom relative z-10">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Sarasota, Florida</span>
+              <span className="text-brand-gold font-semibold">Serving Sarasota, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Disaster Recovery & Insurance Restoration in Sarasota
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Disaster Recovery in Sarasota, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-8 max-w-2xl">
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              When Hurricane Ian struck Sarasota County in September 2022, barrier island communities, bayfront properties, and inland structures sustained damage that would take years to fully recover from. Florida Construction Specialists provides comprehensive disaster recovery from emergency stabilization through complete reconstruction, combining construction capability with insurance industry expertise to help Sarasota property owners rebuild stronger than before.
             </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <AlertTriangle className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Emergency Response Ready</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
+              <Link href="/contact/" className="btn-cta text-center">
+                Request Emergency Assessment
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -145,183 +106,170 @@ export default function DisasterRecoverySarasotaPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-8 text-center">
-            <div className="flex items-center gap-2">
-              <Clock className="w-6 h-6 text-brand-green" />
-            </div>
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FileText className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Direct Insurance Billing</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content with Sidebar */}
+      {/* Sarasota Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Sarasota's Premier Disaster Recovery Contractor
-              </h2>
-
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists is Sarasota's trusted prime contractor for large loss disaster recovery and insurance restoration. With Sarasota's significant barrier island exposure and concentration of high-value waterfront properties—particularly on Siesta Key, Longboat Key, Lido Key, Bird Key, and St. Armands—property owners need experienced restoration partners who understand both the technical challenges of coastal construction and the insurance complexities of luxury property recovery.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota's Gulf Coast Exposure Demands Experienced Disaster Recovery
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Sarasota's disaster profile is dominated by hurricane risk, and the geography makes it one of the most exposed municipalities on Florida's Gulf Coast. The barrier islands of Siesta Key, Lido Key, Longboat Key, and Bird Key extend into the Gulf of Mexico with minimal topographic protection from storm surge. Hurricane Ian's 2022 impact demonstrated in real terms what emergency models have long predicted: a direct or near-direct Gulf hurricane can push six to twelve feet of surge across the barrier islands, inundate low-lying bayfront areas downtown, and cause wind damage across the entire county.
               </p>
-
-              <p className="text-gray-600 mb-6">
-                Sarasota's barrier islands face direct Gulf of Mexico exposure, creating unique disaster recovery challenges. The city experiences 54 inches of annual rainfall, sits in a major hurricane corridor, and has extensive VE (velocity) flood zones throughout its keys. Storm surge potential of 6-12 feet threatens waterfront properties from downtown Sarasota Bay to the Gulf beaches. Our team has restored properties throughout Sarasota following hurricanes, severe storms, flooding events, and fires—always working as the prime contractor with direct accountability for project success.
+              <p className="mb-6">
+                The disaster recovery challenge in Sarasota is compounded by the age and value of the building stock. Barrier island condominiums built in the 1970s and 1980s sustained more severe damage from Ian than newer structures because they were designed to less stringent wind and flood standards. Downtown commercial buildings that appeared sound before the storm revealed hidden vulnerabilities in their building envelopes. The high property values throughout Sarasota County mean that disaster recovery projects routinely involve millions of dollars in construction scope, complex insurance claims with multiple carriers, and restoration standards that match one of Florida's most affluent property markets.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4 mt-8">
-                Sarasota Disaster Recovery Services
-              </h3>
-
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {disasterTypes.map((service) => (
-                  <div key={service.type} className="border rounded-lg p-5 hover:shadow-md transition-shadow">
-                    <div className="flex items-start gap-3">
-                      <service.icon className="w-8 h-8 text-brand-green flex-shrink-0" />
-                      <div>
-                        <h4 className="font-bold text-brand-green-dark mb-2">{service.type}</h4>
-                        <p className="text-gray-600 text-sm">{service.description}</p>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-4">
-                Sarasota's Hurricane & Flood Risk Profile
-              </h3>
-
-              <p className="text-gray-600 mb-4">
-                Sarasota's barrier islands and waterfront properties face significant hurricane and flood exposure. Key risk factors for Sarasota properties include:
+              <p className="mb-6">
+                Beyond hurricanes, Sarasota faces disaster risks from severe thunderstorms that produce damaging straight-line winds and localized flooding during the summer rainy season. Tropical storms that do not reach hurricane intensity can still produce enough rainfall to cause significant water damage in low-lying areas. Fire events in commercial properties create localized disaster recovery needs year-round. Each of these scenarios requires rapid response, thorough damage documentation, and construction expertise to restore affected properties.
               </p>
-
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Barrier Island Exposure:</strong> Siesta Key, Longboat Key, Lido Key, and Bird Key face direct Gulf storms with potential for 6-12 foot storm surge and severe wind damage</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>VE Flood Zone Coverage:</strong> Most barrier island properties are in VE (velocity) zones requiring specialized flood-resistant construction and elevated structures</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>High-Value Properties:</strong> Sarasota's luxury waterfront estates, Gulf-front condominiums, and St. Armands commercial properties represent significant restoration investments</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span className="text-gray-700"><strong>Sarasota School Architecture:</strong> Mid-century modern properties require specialized restoration approaches to preserve architectural significance while meeting current codes</span>
-                </li>
-              </ul>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Sarasota Property's Disaster Recovery Needs <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark text-white rounded-lg p-6">
-                <p className="text-gray-200 mb-4">
-                  Immediate response for disaster damage in Sarasota and the barrier islands. Our our crews are ready to deploy.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 bg-brand-gold text-brand-green-dark font-bold py-3 px-6 rounded-full hover:bg-brand-gold-light transition-colors w-full"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
-
-              <RelatedServices city="Sarasota" currentService="disaster-recovery" />
-              <NearbyLocations currentCity="Sarasota" service="disaster-recovery" serviceName="Disaster Recovery" />
+              <p>
+                Florida Construction Specialists has supported disaster recovery across the Tampa Bay region for decades. Our principal's combined experience in construction and as an Executive General Adjuster provides Sarasota property owners with a recovery partner who understands both the building science required for proper restoration and the insurance processes required for fair claims resolution. We manage the full recovery process from the first emergency call through final Certificate of Occupancy and claims closure.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Cost & Timeline Table */}
+      {/* Parallax Break */}
+      <ContentParallax
+        src="/images/oahu-wind-storm-damage-repair-services-1024x683-1/oahu-wind-storm-damage-repair-services-1024x683-1-display.webp"
+        alt="Storm damage recovery construction on coastal property"
+        title="Rebuilding Sarasota Stronger"
+        subtitle="From emergency stabilization through complete reconstruction for hurricane-impacted properties"
+        overlayOpacity={0.55}
+      />
+
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Sarasota Disaster Recovery Costs & Timelines
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Disaster Recovery Capabilities for Sarasota Properties
           </h2>
-          <p className="text-gray-600 text-center mb-8 max-w-3xl mx-auto">
-            Restoration costs in Sarasota reflect the area's concentration of luxury properties, barrier island logistics, and coastal construction requirements. These ranges reflect typical projects—actual costs depend on specific conditions and insurance coverage.
-          </p>
-
-          <div className="overflow-x-auto">
-            <table className="w-full bg-white rounded-lg shadow-md">
-              <thead className="bg-brand-green-dark text-white">
-                <tr>
-                  <th className="px-6 py-4 text-left">Restoration Category</th>
-                  <th className="px-6 py-4 text-left">Typical Cost Range</th>
-                  <th className="px-6 py-4 text-left">Timeline</th>
-                  <th className="px-6 py-4 text-left">Notes</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-gray-200">
-                {costData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-50">
-                    <td className="px-6 py-4 font-semibold text-brand-green-dark">{item.category}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.range}</td>
-                    <td className="px-6 py-4 text-gray-700">{item.timeline}</td>
-                    <td className="px-6 py-4 text-gray-600 text-sm">{item.notes}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-
-          <p className="text-sm text-gray-500 text-center mt-4">
-            * Costs as of 2025. Actual project costs depend on damage assessment, insurance coverage, and code requirements. Barrier island properties typically incur 15-25% premium.
-          </p>
-        </div>
-      </section>
-
-      {/* Process Steps */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-4 text-center font-heading">
-            Sarasota Disaster Recovery Process
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Our proven 6-step process ensures thorough restoration, proper documentation, and maximum insurance recovery for Sarasota property owners—including specialized protocols for barrier island access.
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            From the first hours after a disaster through complete property restoration, we manage every phase of recovery.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {processSteps.map((step) => (
-              <div key={step.step} className="relative">
-                <div className="flex items-start gap-4">
-                  <div className="flex-shrink-0 w-12 h-12 bg-brand-green rounded-full flex items-center justify-center text-white font-bold text-xl">
-                    {step.step}
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark mb-2">{step.title}</h3>
-                    <p className="text-gray-600 text-sm">{step.description}</p>
-                  </div>
+            {[
+              {
+                icon: AlertTriangle,
+                title: "Emergency Response",
+                description: "Rapid deployment for emergency stabilization after hurricanes, severe storms, fires, and flooding events. Temporary roofing, water extraction, structural shoring, board-up, and debris management. We coordinate with Sarasota County Emergency Management on barrier island access and utility restoration."
+              },
+              {
+                icon: Shield,
+                title: "Damage Assessment",
+                description: "Comprehensive evaluation of all damage including hidden impacts behind walls, above ceilings, and below flood lines. Our insurance industry background ensures damage documentation is thorough and formatted for carrier acceptance. We separate storm damage from pre-existing conditions where applicable."
+              },
+              {
+                icon: Building2,
+                title: "Structural Reconstruction",
+                description: "Full structural rebuilding for severely damaged properties in Sarasota. When disaster damage triggers substantial damage determinations, we design and construct to current Florida Building Code requirements including enhanced wind resistance and flood zone compliance for barrier island and bayfront properties."
+              },
+              {
+                icon: HardHat,
+                title: "Storm Surge Recovery",
+                description: "Specialized recovery for properties impacted by salt water storm surge on Sarasota's barrier islands. Complete gut and rebuild of surge-impacted floors, salt-contaminated structural treatment, mechanical and electrical system replacement, and interior restoration with materials appropriate for the coastal environment."
+              },
+              {
+                icon: Briefcase,
+                title: "Commercial Property Recovery",
+                description: "Disaster recovery for Sarasota commercial buildings, office spaces, retail properties, and hospitality facilities. We understand the urgency of restoring commercial operations and develop phased recovery plans that prioritize business-critical areas while comprehensive restoration continues."
+              },
+              {
+                icon: FileCheck,
+                title: "Mitigation Construction",
+                description: "Building back stronger with enhanced hurricane resistance that exceeds pre-disaster condition. Impact-rated glazing upgrades, enhanced roof systems, reinforced structural connections, and flood mitigation improvements that reduce vulnerability to future storms and may qualify for insurance premium reductions."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Local Expertise Section */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Local Knowledge Critical for Sarasota Disaster Recovery
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Disaster recovery in Sarasota requires understanding the unique logistical, regulatory, and environmental challenges that this coastal market presents. The barrier islands are accessible only by bridge, which means emergency response, material delivery, and construction operations all depend on bridge access that may be interrupted or restricted after a major storm. We plan for these constraints in our emergency response protocols and maintain relationships with Sarasota County Emergency Management to stay informed about access timelines.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> and Sarasota County Building Services process disaster recovery permits, and after a major hurricane event the volume of concurrent applications creates processing delays that less experienced contractors fail to anticipate. We prepare complete permit packages with detailed engineering documentation to minimize review cycles. When substantial damage determinations apply, we coordinate with the building official on code upgrade requirements and develop construction plans that meet current standards.
+              </p>
+              <p className="mb-6">
+                Sarasota's flood zone designations are critical to disaster recovery construction. Much of the barrier islands fall within FEMA flood zones VE and AE, which impose specific requirements on rebuilt structures including minimum finish floor elevations, breakaway wall construction below flood level, and flood-resistant materials. Properties that trigger the substantial damage rule must bring the rebuilt structure into compliance with current flood zone requirements, which can significantly affect the scope and cost of recovery construction. We work with FEMA elevation specialists and structural engineers to ensure recovered buildings comply with all applicable flood zone requirements.
+              </p>
+              <p>
+                The seasonal population dynamic in Sarasota affects disaster recovery timing and communication. Many barrier island and downtown property owners are seasonal residents who may not be physically present after a storm event. We maintain communication with property owners, property managers, and condominium associations regardless of their physical location, providing regular updates, photographic documentation, and decision packages that enable informed decisions from any location. This is particularly important for condominium associations where board members may be scattered across multiple states.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Process Section */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Sarasota Disaster Recovery Process
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            A structured recovery process from emergency response through complete reconstruction and claims closure.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Emergency Stabilization",
+                description: "Immediate response to prevent further damage. Temporary roofing, water extraction, structural shoring, environmental containment, and debris management. All emergency work is documented for insurance recovery. For Sarasota barrier island properties, we coordinate with emergency management on bridge access and staging areas.",
+                icon: AlertTriangle,
+              },
+              {
+                step: "02",
+                title: "Damage Assessment and Documentation",
+                description: "Comprehensive damage evaluation including destructive investigation where warranted. We document all damage with photographs, moisture readings, structural condition reports, and a detailed scope of loss. Our insurance industry background ensures documentation supports the claims process. We identify substantial damage determination implications early.",
+                icon: FileCheck,
+              },
+              {
+                step: "03",
+                title: "Recovery Planning and Permitting",
+                description: "Development of comprehensive recovery plans that account for code upgrade requirements, flood zone compliance, and the property owner's goals for the rebuilt structure. We manage permitting through the City of Sarasota Building Department or Sarasota County and coordinate insurance claims authorization before major construction begins.",
+                icon: Building2,
+              },
+              {
+                step: "04",
+                title: "Recovery Construction",
+                description: "Full reconstruction managed by experienced project managers with our Sarasota-area subcontractor network. We rebuild to current Florida Building Code standards with enhanced hurricane resistance where triggered by substantial damage rules. Barrier island projects include flood zone compliance, salt-resistant materials, and environmental coordination.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Claims Closure",
+                description: "Final inspections, Certificate of Occupancy, warranty documentation, and comprehensive insurance claims closure. We provide the property owner with complete as-built documentation, maintenance recommendations for the recovered structure, and records supporting any remaining insurance payments. For properties rebuilt to enhanced standards, we document mitigation improvements that may reduce future insurance premiums.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
                 </div>
               </div>
             ))}
@@ -329,178 +277,48 @@ export default function DisasterRecoverySarasotaPage() {
         </div>
       </section>
 
-      {/* Sarasota-Specific Section */}
-      <section className="section bg-brand-green-dark text-white">
-        <div className="container-custom">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl font-bold mb-6 font-heading">
-                Local Sarasota Expertise Matters
-              </h2>
-              <p className="text-gray-200 mb-6">
-                Disaster recovery in Sarasota requires contractors who understand barrier island construction, luxury property restoration, and the unique challenges of coastal Florida. FCS brings decades of Sarasota experience to every restoration project.
-              </p>
-              <ul className="space-y-4">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>City of Sarasota Permit Expertise:</strong> Established relationships with Sarasota Building Department expedite permit approvals</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Coastal Construction Standards:</strong> Full knowledge of VE zone requirements, breakaway walls, and elevated construction</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Sarasota School Architecture:</strong> Expertise restoring mid-century modern properties in Indian Beach/Sapphire Shores and Lido Shores</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" />
-                  <span><strong>Luxury Property Experience:</strong> Proven track record with high-value estates on Longboat Key, Bird Key, and Siesta Key</span>
-                </li>
-              </ul>
-            </div>
-            <div className="grid grid-cols-2 gap-4">
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <DollarSign className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">$40M+</div>
-                <div className="text-gray-300 text-sm">Sarasota Projects Completed</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Building2 className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">100+</div>
-                <div className="text-gray-300 text-sm">Properties Restored</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Clock className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">2-4 Hr</div>
-                <div className="text-gray-300 text-sm">Storm Response</div>
-              </div>
-              <div className="bg-white/10 backdrop-blur rounded-lg p-6 text-center">
-                <Users className="w-10 h-10 text-brand-gold mx-auto mb-2" />
-                <div className="text-3xl font-bold text-white mb-1">20+</div>
-                <div className="text-gray-300 text-sm">Years Experience</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Barrier Islands Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Disaster Recovery for Sarasota's Barrier Islands
-          </h2>
-          <p className="text-gray-600 text-center mb-12 max-w-3xl mx-auto">
-            Each of Sarasota's barrier islands presents unique disaster recovery challenges. FCS has extensive experience restoring properties across all of Sarasota's keys.
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Siesta Key</h3>
-              <p className="text-gray-600 text-sm mb-3">
-                World-famous beaches with Gulf-front condominiums and single-family homes. VE zone construction requirements, significant storm surge exposure.
-              </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>- Gulf-front condos</li>
-                <li>- Elevated residential</li>
-                <li>- Salt air corrosion</li>
-              </ul>
-            </div>
-            <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Longboat Key</h3>
-              <p className="text-gray-600 text-sm mb-3">
-                Luxury estates and high-rise condominiums. Spans Sarasota and Manatee counties with some of the region's most valuable waterfront properties.
-              </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>- Luxury estates $5M+</li>
-                <li>- High-rise condos</li>
-                <li>- Dual county permits</li>
-              </ul>
-            </div>
-            <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Lido Key & St. Armands</h3>
-              <p className="text-gray-600 text-sm mb-3">
-                Mix of residential properties and St. Armands Circle commercial district. Historic mid-century modern homes in Lido Shores neighborhood.
-              </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>- Commercial restoration</li>
-                <li>- Mid-century homes</li>
-                <li>- Historic preservation</li>
-              </ul>
-            </div>
-            <div className="border rounded-lg p-6 hover:shadow-md transition-shadow">
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Bird Key</h3>
-              <p className="text-gray-600 text-sm mb-3">
-                Exclusive residential island with luxury waterfront estates. Bay and Gulf access, high property values, and exacting restoration standards.
-              </p>
-              <ul className="text-sm text-gray-500 space-y-1">
-                <li>- Estate properties</li>
-                <li>- Custom finishes</li>
-                <li>- Marine-grade materials</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Sarasota Chooses FCS for Disaster Recovery
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-8">
-              <Shield className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                FCS is always the prime contractor on Sarasota disaster recovery projects—never a subcontractor. You get direct accountability and single-point responsibility for your restoration.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <FileText className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Luxury Property Expertise</h3>
-              <p className="text-gray-600">
-                Our team specializes in high-value property restoration with experience documenting custom finishes, designer materials, and specialty items for proper insurance recovery.
-              </p>
-            </div>
-            <div className="card text-center p-8">
-              <Award className="w-14 h-14 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-xl mb-3">Proven Track Record</h3>
-              <p className="text-gray-600">
-                With $40M+ in completed Sarasota disaster recovery projects, we have the experience, bonding capacity, and barrier island expertise to handle any restoration challenge.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQ Section */}
       <FAQWithSchema
-        items={sarasotaFaqs}
-        title="Sarasota Disaster Recovery FAQs"
+        items={faqs}
+        title="Sarasota Disaster Recovery FAQ"
+        description="Common questions about disaster recovery and hurricane rebuilding in Sarasota, Florida."
       />
 
+      {/* Internal Links */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Sarasota" currentService="disaster-recovery" />
+            <NearbyLocations currentCity="Sarasota" service="disaster-recovery" serviceName="Disaster Recovery" />
+          </div>
+        </div>
+      </section>
+
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
-            Sarasota Disaster Recovery Experts
+            Sarasota Disaster Recovery When You Need It
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Contact Florida Construction Specialists for disaster recovery support. Whether responding to an active emergency or planning recovery from existing storm damage, we provide the construction expertise and insurance knowledge Sarasota property owners need to rebuild.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Get storm response
+              Request Emergency Assessment
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>Emergency Response Ready</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Insurance Claims Expertise</span>
+            </div>
           </div>
         </div>
       </section>

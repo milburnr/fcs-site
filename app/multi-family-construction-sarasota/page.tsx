@@ -1,86 +1,50 @@
 import Link from "next/link";
-import { Phone, MapPin, CheckCircle, ArrowRight, Building2, Shield, Award, Clock, Users, Thermometer, Wind, Droplets, FileCheck, HardHat, Palette, Home } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
-import { FAQWithSchema } from "@/components/FAQ";
-import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema, ArticleSchema } from "@/components/Schema";
-import { Breadcrumb } from "@/components/Breadcrumb";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
+import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Home } from "lucide-react";
+import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
+import { Breadcrumb } from "@/components/Breadcrumb";
+import { FAQWithSchema } from "@/components/FAQ";
+import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
-  title: "Multi-Family Construction Sarasota | Condos | FCS",
-  description: "Multi Family Construction in Sarasota: insurance restoration, design-build, and renovations. Licensed CBC since 1983. Call (813) 420-7561 for a quote.",
+  title: "Multi-Family Construction Sarasota FL | Condos, Luxury Apartments | FCS",
+  description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums, waterfront towers, retirement communities, apartment complexes. Licensed CBC, 40+ years experience.",
 };
 
-const projectTypes = [
+const faqs = [
   {
-    title: "Luxury Condominium Construction",
-    description: "High-end condo development from mid-rise to high-rise towers in Downtown Sarasota, Longboat Key, and St. Armands Circle—designed for the affluent, design-conscious Sarasota buyer."
+    question: "What type of multi-family construction dominates the Sarasota market?",
+    answer: "Sarasota's multi-family construction market is weighted heavily toward luxury condominiums and upscale rental communities rather than conventional apartment complexes. Downtown Sarasota sees mid-rise and high-rise condominium towers along the bayfront, often with ground-floor commercial space. The barrier islands support low-rise and mid-rise luxury condominiums oriented toward seasonal and retirement residents. The University Parkway and Lakewood Ranch corridors attract class-A apartment communities and active adult communities. Unlike many Florida metros where workforce housing drives multi-family volume, Sarasota's multi-family market skews toward premium price points and higher construction quality expectations."
   },
   {
-    title: "Waterfront Apartments",
-    description: "Premium apartment communities along Sarasota Bay and the barrier islands, featuring resort-style amenities and architectural distinction expected in this market."
+    question: "How does building condominiums on Sarasota's barrier islands compare to mainland projects?",
+    answer: "Barrier island condominium construction on Siesta Key, Lido Key, Longboat Key, and Bird Key involves significantly higher structural requirements and logistical complexity. Wind speed design requirements reach 150 mph versus 130 mph for most mainland locations, requiring enhanced concrete shear walls, hurricane-rated impact glazing on all floors, and reinforced roof connections. Flood zone requirements on the keys mandate elevated construction with specific foundation design. All construction materials, equipment, and concrete trucks must cross bridge access points, which constrains delivery scheduling and requires coordination with seasonal traffic patterns. Salt spray corrosion protection adds material costs that mainland projects do not incur."
   },
   {
-    title: "Boutique Townhome Communities",
-    description: "Architecturally distinctive townhome developments in Southside Village, Laurel Park, and downtown-adjacent neighborhoods appealing to empty-nesters and second-home buyers."
+    question: "What is the current demand for retirement and active adult multi-family housing in Sarasota?",
+    answer: "Sarasota consistently ranks among the top retirement destinations in the United States, which creates sustained demand for age-targeted multi-family construction. Active adult communities in Palmer Ranch, Lakewood Ranch, and along the University Parkway corridor continue to expand. These projects require specific design considerations including ADA-compliant common areas, ground-floor master suites or elevator access to all residential floors, covered parking, community amenity spaces with activity rooms and fitness centers, and lower-maintenance exterior materials. The demographic trend shows no signs of slowing, as the over-65 population in Sarasota County continues to grow faster than the overall population."
   },
   {
-    title: "Senior Living Facilities",
-    description: "Independent living, assisted living, and memory care facilities serving Sarasota's substantial retirement community with premium finishes and comprehensive amenities."
+    question: "How do Sarasota's building codes affect multi-family construction costs?",
+    answer: "Sarasota County's enhanced building code requirements add measurable cost to multi-family construction compared to inland Florida markets. The Florida Building Code's high-velocity hurricane zone requirements mandate impact-rated windows and doors on all units, enhanced structural connections, and concrete construction above specific heights. Flood zone requirements on coastal sites add foundation costs for elevation and engineered flood openings. The Florida Fire Prevention Code requires enhanced sprinkler and fire alarm systems in multi-family buildings over three stories. Salt-resistant materials and coatings for coastal projects add an additional cost premium. Overall, these code requirements typically add 12 to 20 percent to structural and envelope costs compared to non-coastal multi-family construction."
   },
   {
-    title: "Arts District Mixed-Use",
-    description: "Live-work-play developments near Burns Court, Main Street, and the cultural corridor that complement Sarasota's renowned arts and cultural scene."
+    question: "Does FCS build both condominium and rental apartment projects in Sarasota?",
+    answer: "Yes, we deliver both condominium and rental multi-family projects throughout Sarasota County. Condominium projects require specific attention to individual unit separation, fire-rated demising walls, separate utility metering, and the premium finish quality that Sarasota condo buyers expect. Rental apartment communities focus on durable common areas, efficient unit layouts, amenity spaces that attract and retain tenants, and maintenance-friendly exterior systems. We also build mixed-use multi-family projects downtown that combine residential floors with ground-floor retail or office space, which require careful structural and MEP coordination between the commercial and residential components."
   },
   {
-    title: "Barrier Island Residences",
-    description: "Specialized construction on Longboat Key, Lido Key, and Bird Key requiring coastal expertise, architectural review compliance, and premium hurricane-resistant design."
-  }
-];
-
-// Sarasota-specific multi-family FAQs
-const sarasotaFaqs = [
-  {
-    question: "What types of multi-family projects does FCS build in Sarasota?",
-    answer: "Florida Construction Specialists builds all types of multi-family residential in Sarasota: luxury condominiums (mid-rise and high-rise), waterfront apartments, boutique townhome communities, senior living facilities, and mixed-use residential developments. Our Sarasota multi-family projects range from $1 million to $25 million+ and include ground-up construction and major renovations. We've completed projects in Downtown Sarasota, Longboat Key, Lido Key, St. Armands, and throughout Sarasota County. We specialize in the architecturally distinctive, high-quality construction that Sarasota's discerning market demands."
-  },
-  {
-    question: "How does Sarasota's luxury market affect multi-family construction requirements?",
-    answer: "Sarasota's affluent, design-conscious market demands exceptional quality in multi-family construction. Buyers expect premium finishes, architectural distinction, and comprehensive amenities that rival resort properties. This means upgraded materials throughout—impact glass, high-end flooring, designer fixtures, smart home technology, and custom millwork. We work closely with architects experienced in Sarasota's aesthetic preferences to deliver properties that meet the expectations of buyers relocating from high-cost markets like the Northeast and Midwest."
-  },
-  {
-    question: "What are the architectural review requirements for Sarasota multi-family projects?",
-    answer: "Sarasota has strong architectural review processes, particularly for visible projects in downtown, the keys, and historic districts. The City of Sarasota Development Review Committee evaluates design quality, compatibility with surroundings, and compliance with design standards. Projects in historic districts (Downtown, Laurel Park, Burns Court, Indian Beach/Sapphire Shores) require Historic Preservation Board review. Barrier island projects face additional scrutiny for scale and character. We navigate these requirements by engaging architectural review early in the design process."
-  },
-  {
-    question: "How does barrier island construction differ from mainland multi-family projects?",
-    answer: "Barrier island construction on Longboat Key, Lido Key, Bird Key, and St. Armands requires specialized expertise. These sites are in VE flood zones with strict elevation requirements, coastal setbacks, and FEMA compliance. Construction logistics are more complex due to limited access, bridge weight restrictions, and environmental sensitivity. Hurricane-resistant design is critical given direct Gulf exposure. Costs run 15-25% higher than comparable mainland projects due to these factors, but the premium waterfront locations command significantly higher sale prices."
-  },
-  {
-    question: "What are current multi-family construction costs in Sarasota?",
-    answer: "Sarasota multi-family construction costs reflect the premium market expectations. Garden-style apartments run $170-240 per square foot; mid-rise apartments $200-300/SF; high-rise condominiums $280-450/SF; boutique townhomes $180-260/SF; senior living facilities $240-350/SF. Barrier island and waterfront projects typically add 15-25% premium. These costs include hard construction but exclude land, soft costs, and financing. Sarasota's market is 10-15% higher than Tampa due to quality expectations and skilled labor demand. We provide detailed budgeting during pre-construction."
-  },
-  {
-    question: "How long does multi-family construction take in Sarasota?",
-    answer: "Sarasota multi-family construction timelines depend on project scale, location, and approval complexity. Townhome communities typically take 14-20 months; garden-style apartments 16-22 months; mid-rise buildings 20-26 months; high-rise construction 26-40 months. Barrier island projects may add 2-4 months due to permitting complexity and construction logistics. These timelines include site work, vertical construction, and amenity completion. We account for seasonal considerations and the City of Sarasota's thorough review processes."
-  },
-  {
-    question: "Do you handle permitting for Sarasota multi-family projects?",
-    answer: "While land use entitlements are typically handled by the developer's team before construction engagement, FCS manages all building permits and construction-phase approvals. We work with the City of Sarasota Building Department and Sarasota County for unincorporated areas, navigating plan review, fire marshal approval, and inspection processes. For barrier island projects, we coordinate with the appropriate jurisdictions (Longboat Key has its own building department). Our familiarity with local processes helps streamline permitting while ensuring thorough review."
-  },
-  {
-    question: "What makes FCS different from other Sarasota multi-family contractors?",
-    answer: "FCS is always the prime general contractor on Sarasota multi-family projects—we never work as a subcontractor. This means direct accountability to you, not to another GC. We understand Sarasota's unique requirements: the architecturally discerning market, coastal construction expertise for the keys, historic district navigation, and the quality expectations of buyers in this affluent community. Our project managers are accessible throughout your project and we maintain strong relationships with Sarasota's building officials, design professionals, and quality subcontractors."
+    question: "What multi-family project sizes does FCS handle in the Sarasota area?",
+    answer: "In the Sarasota market we deliver multi-family projects ranging from boutique condominium buildings of eight to twelve units up to large-scale apartment communities with two hundred or more units. Our typical Sarasota multi-family projects range from two million to twenty-five million dollars in construction value. We have particular depth in mid-rise condominium construction downtown, luxury low-rise condominiums on the barrier islands, class-A apartment communities along the University Parkway corridor, and age-restricted communities in Palmer Ranch and Lakewood Ranch."
   }
 ];
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Services", href: "/services/" },
-  { name: "Multi-Family Construction", href: "/multi-family-construction/" },
+  { name: "Multi-Family Construction", href: "/multi-family/" },
   { name: "Sarasota", href: "/multi-family-construction-sarasota/" },
 ];
 
@@ -90,50 +54,50 @@ export default function MultiFamilyConstructionSarasotaPage() {
       <LocalBusinessSchema city="Sarasota" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Premier multi-family construction contractor serving Sarasota, Florida. Luxury condominiums, waterfront apartments, boutique townhomes, senior living. Projects from $1M to $25M+. Always the prime contractor."
+        serviceDescription="Multi-family construction in Sarasota, FL. Luxury condominiums, waterfront towers, apartment communities, retirement housing, mixed-use residential. Licensed CBC1262722, 40+ years experience."
         city="Sarasota"
-        minPrice="1000000"
-        serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
+        minPrice="2000000"
+        serviceCategories={["Condominium Construction", "Apartment Community Construction", "Luxury Waterfront Towers", "Retirement Community Construction", "Mixed-Use Residential"]}
       />
-
-      <ArticleSchema
-        headline="Multi-Family Construction Sarasota FL | Luxury Condos, Apartments & Townhomes | FCS"
-        description="Premier multi-family construction contractor in Sarasota, Florida. Luxury condominiums, waterfront apartments, townhomes, senior living. $1M-$25M+ projects. 20+ years experience, 40+ years experience."
-        datePublished="2024-06-01"
-        dateModified="2025-01-18"
-        slug="/multi-family-construction-sarasota/"
-      />
-
       <BreadcrumbSchema items={breadcrumbItems} />
-
-      <Breadcrumb items={breadcrumbItems.slice(1)} />
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/southwinds-condo-front/southwinds-condo-front-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
-          <div className="max-w-4xl">
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
+          <Breadcrumb items={breadcrumbItems} />
+          <div className="max-w-4xl mt-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-brand-gold/20 rounded-full mb-6">
               <MapPin className="w-4 h-4 text-brand-gold" />
-              <span className="text-brand-gold font-semibold">Serving Sarasota, Florida & Sarasota County</span>
+              <span className="text-brand-gold font-semibold">Serving Sarasota, Florida</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Multi-Family Construction in Sarasota, FL
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading leading-tight">
+              Multi-Family Construction in Sarasota, Florida
             </h1>
-            <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists delivers multi-family construction excellence throughout Sarasota and Sarasota County. From Downtown Sarasota high-rise condominiums to luxury barrier island residences, we bring 20+ years of experience to projects ranging from $1 million to $25 million.
+            <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
+              From luxury condominium towers rising along the downtown bayfront to active adult communities expanding through Palmer Ranch and Lakewood Ranch, Florida Construction Specialists delivers multi-family construction across Sarasota's premium residential market. We bring in-house engineering, barrier island building expertise, and the bonding capacity to handle projects from two million to twenty-five million dollars.
             </p>
-            <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Sarasota's discerning buyers expect architectural distinction and premium quality. As Sarasota's trusted prime contractor for multi-family residential, we deliver the craftsmanship and design excellence this luxury market demands—never as a subcontractor, always with full project accountability.
-            </p>
+
+            <div className="flex flex-wrap gap-4 mb-8">
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Shield className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">Since 1983</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Award className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">License {BUSINESS_INFO.licenseNumber}</span>
+              </div>
+              <div className="flex items-center gap-2 bg-white/10 backdrop-blur-sm px-4 py-2 rounded-full">
+                <Building2 className="w-4 h-4 text-brand-gold" />
+                <span className="text-white text-sm font-medium">{BUSINESS_INFO.projectsCompleted}+ Projects</span>
+              </div>
+            </div>
+
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact/" className="btn-cta">
-                Schedule Project Consultation
+              <Link href="/contact/" className="btn-cta text-center">
+                Discuss Your Multi-Family Project
               </Link>
-              <a
-                href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                className="btn-secondary flex items-center justify-center gap-2"
-              >
+              <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="btn-secondary flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5" />
                 {BUSINESS_INFO.phone}
               </a>
@@ -142,422 +106,219 @@ export default function MultiFamilyConstructionSarasotaPage() {
         </div>
       </section>
 
-      {/* Trust Badges */}
-      <section className="py-6 bg-white border-b">
-        <div className="container-custom">
-          <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-center">
-            <div className="flex items-center gap-2">
-              <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Building2 className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">$25M+ Completed Projects</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <HardHat className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">Prime Contractor Only</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Main Content Section */}
+      {/* Sarasota Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-3 gap-12">
-            {/* Main Content */}
-            <div className="lg:col-span-2">
-              <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
-                Multi-Family Construction Services in Sarasota
-              </h2>
-              <p className="text-gray-600 mb-6">
-                Sarasota represents one of Florida's most prestigious residential markets, with a population of 57,000+ in the city and 850,000 in the North Port-Sarasota-Bradenton metro area. Known for its world-class cultural institutions, pristine beaches, and affluent, design-conscious residents, Sarasota demands multi-family construction that meets the highest standards of architectural excellence and quality.
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Sarasota's Multi-Family Market: Luxury, Seasonal, and Retirement-Driven
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="text-xl mb-6">
+                Sarasota's multi-family construction market operates differently from most Florida cities. While Tampa, Orlando, and Jacksonville see heavy conventional apartment construction driven by workforce demand, Sarasota's multi-family market is shaped by three distinct forces: luxury condominium buyers seeking waterfront living, retirees relocating to one of America's most desirable retirement markets, and seasonal residents who maintain Gulf Coast homes for six months of the year. Each of these market segments demands a different approach to multi-family design and construction quality.
               </p>
-              <p className="text-gray-600 mb-6">
-                Florida Construction Specialists serves Sarasota's premium multi-family construction needs with the expertise, bonding capacity, and commitment to excellence required for projects from $1 million to $25 million or more. Whether you're developing a luxury condominium tower in Downtown Sarasota, a boutique townhome community near St. Armands Circle, or senior living facilities serving the region's retirement community, we deliver the quality this discerning market expects.
+              <p className="mb-6">
+                The downtown Sarasota bayfront has become one of Florida's most active luxury condominium markets. Mid-rise and high-rise towers along the waterfront command premium pricing that justifies the highest construction quality available. These projects involve sophisticated structural engineering for wind resistance, premium interior finishes that meet buyer expectations in a market where competing projects feature imported stone, custom millwork, and designer fixtures, and complex site logistics in an increasingly dense downtown environment. The Quay development and other bayfront projects have raised the bar for what condominium buyers expect in this market.
               </p>
-              <p className="text-gray-600 mb-8">
-                As a prime general contractor—never a subcontractor—we maintain full control and accountability on every Sarasota multi-family project. Our relationships with local building departments, architectural review boards, and quality subcontractors ensure smooth execution from groundbreaking to first occupancy.
+              <p className="mb-6">
+                Sarasota's barrier islands support a different type of multi-family construction. Siesta Key, Lido Key, Longboat Key, and Bird Key condominiums tend to be lower density and oriented toward Gulf views, beach access, and the laid-back island lifestyle. Many existing condo buildings on these islands date from the 1970s and 1980s and face major renovation or replacement decisions driven by aging structural systems, obsolete hurricane resistance, and Senate Bill 4-D milestone inspection requirements. New construction on the keys must navigate flood zone regulations, coastal setback requirements, environmental permitting, and bridge-dependent access logistics.
               </p>
-
-              <h3 className="text-2xl font-bold text-brand-green-dark mb-6">
-                Multi-Family Project Types We Build in Sarasota
-              </h3>
-              <div className="grid md:grid-cols-2 gap-6 mb-8">
-                {projectTypes.map((project) => (
-                  <div key={project.title} className="border border-gray-200 rounded-lg p-5 hover:border-brand-green transition-colors">
-                    <h4 className="font-bold text-brand-green-dark mb-2">{project.title}</h4>
-                    <p className="text-gray-600 text-sm">{project.description}</p>
-                  </div>
-                ))}
-              </div>
-
-              <Link
-                href="/contact/"
-                className="inline-flex items-center text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
-              >
-                Discuss Your Sarasota Multi-Family Project <ArrowRight className="w-4 h-4 ml-2" />
-              </Link>
-            </div>
-
-            {/* Sidebar */}
-            <div className="space-y-6">
-              <RelatedServices city="Sarasota" currentService="multi-family-construction" />
-              <NearbyLocations currentCity="Sarasota" service="multi-family-construction" serviceName="Multi-Family Construction" />
-
-              {/* Quick Contact Card */}
-              <div className="bg-brand-green-dark rounded-lg p-6 text-white">
-                <h3 className="font-bold text-xl mb-4">Start Your Sarasota Project</h3>
-                <p className="text-gray-200 mb-4 text-sm">
-                  Contact us for a project consultation. Multi-family construction in Sarasota starting at $1,000,000.
-                </p>
-                <a
-                  href={`tel:${BUSINESS_INFO.phoneRaw}`}
-                  className="flex items-center justify-center gap-2 w-full bg-brand-gold text-brand-green-dark font-bold py-3 px-4 rounded-full hover:bg-brand-gold-light transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  {BUSINESS_INFO.phone}
-                </a>
-              </div>
+              <p>
+                The mainland corridors east of downtown continue to generate multi-family construction demand as well. Palmer Ranch supports active adult and retirement communities with resort-style amenities. The University Parkway corridor near Lakewood Ranch attracts class-A apartment communities serving young professionals and families drawn to the area's employment growth. Gulf Gate and Bee Ridge attract mid-market rental construction. Florida Construction Specialists serves all of these submarkets with the construction quality and project management discipline that Sarasota's demanding market requires.
+              </p>
             </div>
           </div>
         </div>
       </section>
 
-      
-      {/* Visual Break */}
+      {/* Parallax Break */}
       <ContentParallax
-        src="/images/tampa-multifamily-housing-construction/tampa-multifamily-housing-construction-small.webp"
-        alt="Multi-family construction"
-        title="Building Communities"
-        subtitle="Condos, apartments, and townhomes throughout Tampa Bay"
+        src="/images/tampa-condo-building-construction/tampa-condo-building-construction-small.webp"
+        alt="Multi-family condominium construction in coastal Sarasota"
+        title="Sarasota Multi-Family Excellence"
+        subtitle="Luxury condominiums, waterfront towers, and retirement communities across Sarasota County"
         overlayOpacity={0.55}
       />
 
-      {/* Sarasota Multi-Family Market Section */}
+      {/* Service Capabilities */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota's Multi-Family Construction Landscape
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Multi-Family Construction Capabilities for Sarasota
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Building2 className="w-6 h-6 text-brand-green" />
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every segment of Sarasota's multi-family market has distinct construction requirements. We deliver across all of them.
+          </p>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: Building2,
+                title: "Luxury Condominium Towers",
+                description: "Ground-up condominium construction for Sarasota's premium market. Mid-rise and high-rise towers along the downtown bayfront and waterfront corridors with impact glazing, reinforced concrete construction, premium finishes, and the structural engineering required for Gulf Coast hurricane resistance."
+              },
+              {
+                icon: Home,
+                title: "Barrier Island Condominiums",
+                description: "Low-rise and mid-rise condominiums on Siesta Key, Lido Key, Longboat Key, and Bird Key. We navigate flood zone construction, coastal setbacks, environmental permitting, and bridge-access logistics while delivering the coastal luxury these island communities expect."
+              },
+              {
+                icon: Shield,
+                title: "Active Adult and Retirement",
+                description: "Age-targeted multi-family communities in Palmer Ranch, Lakewood Ranch, and suburban Sarasota corridors. ADA-compliant design, ground-floor master suites, covered parking, resort-style amenities, and low-maintenance exterior systems designed for the active adult demographic."
+              },
+              {
+                icon: HardHat,
+                title: "Apartment Communities",
+                description: "Class-A apartment construction along the University Parkway and I-75 corridor. Efficient unit layouts, durable common areas, fitness and pool amenities, and exterior systems designed for Florida's demanding climate. We build rental communities that attract and retain quality tenants."
+              },
+              {
+                icon: Briefcase,
+                title: "Mixed-Use Residential",
+                description: "Multi-family projects with ground-floor commercial space in downtown Sarasota and the Rosemary District. Structural coordination between commercial and residential floors, separate utility systems, fire separation between uses, and premium residential finishes above street-level retail or office."
+              },
+              {
+                icon: FileCheck,
+                title: "Multi-Family Renovations",
+                description: "Major renovations of existing condominium and apartment buildings throughout Sarasota County. Structural upgrades to meet current wind code, exterior envelope replacement, common area modernization, and unit renovations that bring aging buildings to current market standards."
+              }
+            ].map((service) => (
+              <div key={service.title} className="bg-white rounded-xl shadow-md p-6 border border-gray-100 hover:shadow-lg transition-shadow">
+                <div className="w-14 h-14 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
+                  <service.icon className="w-7 h-7 text-brand-green-dark" />
+                </div>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
               </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Downtown High-Rise Boom</h3>
-              <p className="text-gray-600 text-sm">
-                Downtown Sarasota is experiencing a high-rise construction surge, with luxury condominium towers rising along the waterfront and Main Street. These premium developments cater to affluent buyers seeking walkable urban living with proximity to arts venues, restaurants, and Sarasota Bay.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Home className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Luxury Market Focus</h3>
-              <p className="text-gray-600 text-sm">
-                Sarasota's multi-family market skews decidedly upscale. Buyers relocating from high-cost Northeast and Midwest markets expect premium finishes, designer amenities, and architectural distinction. Projects compete on quality and design, not just price.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <Palette className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Arts & Cultural Community</h3>
-              <p className="text-gray-600 text-sm">
-                Home to The Ringling Museum, Sarasota Opera, and world-class performing arts, Sarasota attracts culturally sophisticated residents. Multi-family developments near the cultural corridor command premium pricing and attract design-conscious buyers.
-              </p>
-            </div>
-            <div className="bg-white rounded-lg p-6 shadow-sm">
-              <div className="w-12 h-12 rounded-full bg-brand-green-bg flex items-center justify-center mb-4">
-                <MapPin className="w-6 h-6 text-brand-green" />
-              </div>
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Barrier Island Development</h3>
-              <p className="text-gray-600 text-sm">
-                Longboat Key, Lido Key, Bird Key, and St. Armands Circle represent Sarasota's most exclusive addresses. Multi-family development on the keys requires specialized coastal construction expertise and commands the market's highest price points.
-              </p>
-            </div>
+            ))}
           </div>
         </div>
       </section>
 
-      {/* Sarasota-Specific Construction Considerations */}
+      {/* Local Expertise Section */}
       <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-              Building for Sarasota's Unique Requirements
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">
+              Understanding Sarasota's Multi-Family Construction Environment
             </h2>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center">
-                    <Palette className="w-5 h-5 text-purple-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Affluent, Design-Conscious Market</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota buyers expect premium quality throughout—impact glass, high-end flooring, designer fixtures, smart home technology, and custom millwork. With median household income of $62,000 and many buyers from high-cost markets, the expectation is resort-level quality. We specify materials and finishes that meet these expectations while managing costs.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
-                    <FileCheck className="w-5 h-5 text-amber-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Architectural Review Requirements</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota has rigorous design review processes. The Development Review Committee evaluates visible projects for design quality and neighborhood compatibility. Historic districts (Downtown, Laurel Park, Burns Court, Indian Beach/Sapphire Shores) require Historic Preservation Board approval. We engage these processes early to avoid costly redesigns.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-cyan-100 flex items-center justify-center">
-                    <Wind className="w-5 h-5 text-cyan-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Coastal Construction Expertise</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Sarasota's barrier islands—Longboat Key, Lido Key, Bird Key—require specialized construction methods. These VE flood zones demand elevated structures, coastal setbacks, and FEMA compliance. Direct Gulf exposure means enhanced hurricane resistance. Salt air accelerates corrosion, requiring marine-grade materials. We have deep experience with these challenging but prestigious sites.
-                </p>
-              </div>
-
-              <div>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center">
-                    <Droplets className="w-5 h-5 text-blue-600" />
-                  </div>
-                  <h3 className="font-bold text-brand-green-dark">Flood Zone Navigation</h3>
-                </div>
-                <p className="text-gray-600 text-sm mb-4">
-                  Barrier islands are in VE zones with strict requirements. Downtown has some AE zones. The keys require specialized coastal construction and often helical piles or deep foundations. Shell substrate and high water tables affect foundation design. Our pre-construction analysis identifies all flood zone requirements and mitigation strategies.
-                </p>
-              </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p className="mb-6">
+                Multi-family construction in Sarasota involves regulatory and environmental considerations that contractors without local experience frequently underestimate. The jurisdictional landscape alone is complex: the City of Sarasota, Sarasota County, and the Town of Longboat Key each have their own permitting processes for multi-family construction, with different density allowances, setback requirements, and design review procedures.
+              </p>
+              <p className="mb-6">
+                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> processes multi-family permits for projects within city limits, including the dense downtown area where most high-rise condominium construction occurs. The city has specific zoning districts that control building height, density, and design standards in the downtown core, and the Development Review Committee evaluates larger multi-family projects for compatibility with urban design goals.
+              </p>
+              <p className="mb-6">
+                Sarasota's climate shapes every aspect of multi-family construction. The Gulf Coast location delivers approximately 55 inches of annual rainfall concentrated in summer afternoon thunderstorms, requiring careful scheduling of exterior work. More critically, hurricane exposure demands that every multi-family structure meet enhanced wind resistance standards under the Florida Building Code. On barrier island sites, design wind speeds reach 150 mph, requiring reinforced concrete construction, impact-rated glazing on every opening, and enhanced roof-to-wall connections. Hurricane Ian's 2022 impact on Sarasota's barrier islands underscored why these structural requirements are not academic but life-safety necessities.
+              </p>
+              <p>
+                The seasonal nature of Sarasota's population creates unique scheduling dynamics for multi-family construction. Many condominium buyers are seasonal residents who spend November through April in Sarasota, making the winter season the worst time for construction noise and disruption in existing communities. Renovation projects in occupied condo buildings require careful phasing and noise mitigation during peak season. New construction on the barrier islands benefits from accelerated summer scheduling when seasonal residents are away, tourism traffic is lighter, and bridge access is less congested, despite the summer rain pattern that requires careful daily work planning.
+              </p>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Cost & Timeline Comparison Table */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Sarasota Multi-Family Construction: Costs & Timelines
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="overflow-x-auto">
-              <table className="w-full border-collapse">
-                <thead>
-                  <tr className="bg-brand-green-dark text-white">
-                    <th className="text-left p-4 font-semibold">Project Type</th>
-                    <th className="text-left p-4 font-semibold">Cost Range (per SF)</th>
-                    <th className="text-left p-4 font-semibold">Typical Timeline</th>
-                    <th className="text-left p-4 font-semibold">Permit Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Garden-Style Apartments</td>
-                    <td className="p-4">$170 - $240</td>
-                    <td className="p-4">16-22 months</td>
-                    <td className="p-4">4-8 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Mid-Rise Apartments</td>
-                    <td className="p-4">$200 - $300</td>
-                    <td className="p-4">20-26 months</td>
-                    <td className="p-4">6-10 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">High-Rise Condominiums</td>
-                    <td className="p-4">$280 - $450</td>
-                    <td className="p-4">26-40 months</td>
-                    <td className="p-4">8-14 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200 bg-white">
-                    <td className="p-4 font-medium">Boutique Townhomes</td>
-                    <td className="p-4">$180 - $260</td>
-                    <td className="p-4">14-20 months</td>
-                    <td className="p-4">4-6 weeks</td>
-                  </tr>
-                  <tr className="border-b border-gray-200">
-                    <td className="p-4 font-medium">Senior Living Facilities</td>
-                    <td className="p-4">$240 - $350</td>
-                    <td className="p-4">18-26 months</td>
-                    <td className="p-4">6-10 weeks</td>
-                  </tr>
-                  <tr className="bg-white">
-                    <td className="p-4 font-medium">Barrier Island Projects*</td>
-                    <td className="p-4">+15-25% premium</td>
-                    <td className="p-4">+2-4 months</td>
-                    <td className="p-4">8-14 weeks</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <p className="text-sm text-gray-500 mt-4 text-center">
-              * Barrier island premiums apply to Longboat Key, Lido Key, Bird Key, and St. Armands projects due to coastal construction requirements and logistics.
-              Costs reflect hard construction only. Land, soft costs, financing, and developer fees are additional.
-              Estimates based on 2024-2025 Sarasota market conditions.
-            </p>
           </div>
         </div>
       </section>
 
       {/* Process Section */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Our Sarasota Multi-Family Construction Process
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="space-y-6">
-              {[
-                {
-                  step: "1",
-                  title: "Pre-Construction & Planning",
-                  description: "We begin with thorough site evaluation, constructability review, and detailed budgeting. For Sarasota multi-family projects, this includes geotechnical analysis (sandy coastal soils, shell substrate), flood zone determination, utility coordination, and permit pathway planning through the City of Sarasota Building Department. For barrier island sites, we assess construction logistics and access constraints."
-                },
-                {
-                  step: "2",
-                  title: "Design Coordination & Review",
-                  description: "Whether working with your design team or providing design-build services, we ensure plans meet Sarasota's building codes, architectural review requirements, and the quality expectations of this premium market. For visible projects, we coordinate early engagement with the Development Review Committee and Historic Preservation Board as applicable."
-                },
-                {
-                  step: "3",
-                  title: "Permitting & Approvals",
-                  description: "We manage all building permit applications through the City of Sarasota or Sarasota County (for unincorporated areas), coordinate plan reviews with multiple departments, and handle fire marshal approval. For barrier island projects, we work with the appropriate jurisdiction—Longboat Key has its own building department with additional requirements. Our relationships help streamline this process."
-                },
-                {
-                  step: "4",
-                  title: "Construction Execution",
-                  description: "Experienced project managers oversee daily construction with strict quality control matching Sarasota's premium expectations, safety protocols, and schedule management. We coordinate skilled trades experienced in luxury finishes. For barrier island projects, we manage the logistics of limited access and bridge restrictions while minimizing disruption to neighboring properties."
-                },
-                {
-                  step: "5",
-                  title: "Closeout & Turnover",
-                  description: "We complete all inspections, obtain certificate of occupancy, and provide comprehensive turnover documentation including warranties, as-builts, and operations manuals. For Sarasota's luxury market, we ensure finishes meet the quality standards expected and coordinate with property management for smooth transition to occupancy or sales."
-                }
-              ].map((item) => (
-                <div key={item.step} className="flex gap-4 bg-gray-50 rounded-lg p-6">
-                  <div className="w-12 h-12 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
-                    <span className="text-white font-bold text-lg">{item.step}</span>
-                  </div>
-                  <div>
-                    <h3 className="font-bold text-brand-green-dark text-lg mb-2">{item.title}</h3>
-                    <p className="text-gray-600">{item.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Choose FCS */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-3xl font-bold text-brand-green-dark mb-8 text-center font-heading">
-            Why Sarasota Developers Choose FCS
+          <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 text-center font-heading">
+            Sarasota Multi-Family Construction Process
           </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="card text-center p-6">
-              <Shield className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Always Prime Contractor</h3>
-              <p className="text-gray-600">
-                We never work as a subcontractor on Sarasota multi-family projects. You get direct accountability, single-point contact, and our full commitment to your project's success from groundbreaking to occupancy.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Award className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Luxury Market Experience</h3>
-              <p className="text-gray-600">
-                We understand Sarasota's discerning market. With $25M+ in completed projects, we deliver the architectural distinction, premium finishes, and quality craftsmanship that buyers from high-cost markets expect.
-              </p>
-            </div>
-            <div className="card text-center p-6">
-              <Users className="w-12 h-12 text-brand-green mx-auto mb-4" />
-              <h3 className="font-bold text-brand-green-dark text-lg mb-3">Local Relationships</h3>
-              <p className="text-gray-600">
-                Strong relationships with Sarasota building officials, architectural review boards, and quality subcontractors help ensure smooth approvals and premium execution. Our team knows this market.
-              </p>
-            </div>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto text-center mb-12">
+            Every multi-family project in Sarasota follows a structured process adapted to the local market and conditions.
+          </p>
+
+          <div className="max-w-4xl mx-auto space-y-6">
+            {[
+              {
+                step: "01",
+                title: "Site Evaluation and Feasibility",
+                description: "We assess your Sarasota site for geotechnical conditions, flood zone classification, density zoning, utility capacity, and access logistics. Barrier island sites require environmental review and coastal construction setback analysis. Downtown sites involve traffic impact studies and coordination with adjacent development. We provide pre-construction budgeting that accounts for Sarasota-specific code requirements and market-appropriate finish levels.",
+                icon: FileCheck,
+              },
+              {
+                step: "02",
+                title: "Design and Engineering Coordination",
+                description: "Whether working with your design team or providing design-build services, we coordinate structural, mechanical, electrical, and plumbing engineering for Sarasota's demanding building code environment. Multi-family projects here require hurricane-resistant structural design, AHCA compliance for assisted living components, energy code compliance, and the premium architectural quality that Sarasota buyers and renters expect.",
+                icon: Building2,
+              },
+              {
+                step: "03",
+                title: "Permitting and Approvals",
+                description: "We manage all permit applications with the City of Sarasota Building Department, Sarasota County Building Services, or Town of Longboat Key depending on project location. This includes coordinating multi-discipline plan review, SWFWMD stormwater permits, fire marshal review, and any required Development Review Committee or zoning board approvals for larger multi-family projects.",
+                icon: Briefcase,
+              },
+              {
+                step: "04",
+                title: "Construction Management",
+                description: "Experienced project managers oversee daily construction with our network of Sarasota-area subcontractors. We schedule concrete pours, roofing, and exterior work around the rainy season. Barrier island projects require careful material delivery coordination over bridge access points. We maintain quality control standards that match Sarasota's premium market expectations while managing costs through efficient scheduling and value-driven procurement.",
+                icon: HardHat,
+              },
+              {
+                step: "05",
+                title: "Closeout and Unit Turnover",
+                description: "Comprehensive punch list completion, final inspections, Certificate of Occupancy, and unit-by-unit quality verification. For condominium projects, we coordinate developer turnover documentation including as-built drawings, warranty packages, and common element maintenance manuals. For rental communities, we prepare management company transition packages that cover building systems, maintenance procedures, and warranty information.",
+                icon: Award,
+              },
+            ].map((item) => (
+              <div key={item.step} className="flex gap-6 bg-white rounded-xl p-6 shadow-sm">
+                <div className="w-14 h-14 rounded-full bg-brand-green flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-lg">{item.step}</span>
+                </div>
+                <div>
+                  <h3 className="text-xl font-bold text-brand-green-dark mb-2">{item.title}</h3>
+                  <p className="text-gray-600">{item.description}</p>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* FAQ Section */}
-      <FAQWithSchema items={sarasotaFaqs} title="Multi-Family Construction in Sarasota - Frequently Asked Questions" />
+      <FAQWithSchema
+        items={faqs}
+        title="Sarasota Multi-Family Construction FAQ"
+        description="Common questions about multi-family construction projects in Sarasota, Florida."
+      />
 
-      {/* Internal Links Section */}
+      {/* Internal Links */}
       <section className="section bg-gray-50">
         <div className="container-custom">
-          <h2 className="text-2xl font-bold text-brand-green-dark mb-6 text-center font-heading">
-            Related Services & Locations
-          </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Related Services in Sarasota</h3>
-              <ul className="space-y-2">
-                <li><Link href="/commercial-construction-sarasota/" className="text-brand-green hover:underline">Commercial Construction Sarasota</Link></li>
-                <li><Link href="/historic-restoration-sarasota/" className="text-brand-green hover:underline">Historic Restoration Sarasota</Link></li>
-                <li><Link href="/balcony-reconstruction-sarasota/" className="text-brand-green hover:underline">Balcony Reconstruction Sarasota</Link></li>
-                <li><Link href="/insurance-restoration-sarasota/" className="text-brand-green hover:underline">Insurance Restoration Sarasota</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Multi-Family Construction Nearby</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction-bradenton/" className="text-brand-green hover:underline">Multi-Family Construction Bradenton</Link></li>
-                <li><Link href="/multi-family-construction-tampa/" className="text-brand-green hover:underline">Multi-Family Construction Tampa</Link></li>
-                <li><Link href="/multi-family-construction-st-petersburg/" className="text-brand-green hover:underline">Multi-Family Construction St. Petersburg</Link></li>
-                <li><Link href="/multi-family-construction-lakeland/" className="text-brand-green hover:underline">Multi-Family Construction Lakeland</Link></li>
-                <li><Link href="/multi-family-construction-clearwater/" className="text-brand-green hover:underline">Multi-Family Construction Clearwater</Link></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
-              <ul className="space-y-2">
-                <li><Link href="/multi-family-construction/" className="text-brand-green hover:underline">Multi-Family Construction Services</Link></li>
-                <li><Link href="/commercial/condo-remediation/" className="text-brand-green hover:underline">Condo Remediation Services</Link></li>
-                <li><Link href="/insurance/guides/sirs-structural-integrity-reserve-studies/" className="text-brand-green hover:underline">SIRS Structural Integrity Studies</Link></li>
-                <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-              </ul>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8">
+            <RelatedServices city="Sarasota" currentService="multi-family-construction" />
+            <NearbyLocations currentCity="Sarasota" service="multi-family-construction" serviceName="Multi-Family Construction" />
           </div>
         </div>
       </section>
 
       {/* CTA Section */}
-      <section className="section bg-brand-green">
+      <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Start Your Sarasota Multi-Family Construction Project
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4 font-heading">
+            Start Your Sarasota Multi-Family Project
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Contact Florida Construction Specialists for a project consultation. We deliver multi-family construction excellence in Sarasota with projects starting at $1,000,000.
+            Contact Florida Construction Specialists to discuss your multi-family development in Sarasota. We will evaluate your project, provide preliminary budgeting, and outline a construction approach tailored to Sarasota's unique market requirements.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">
-              Schedule Consultation
+              Request a Development Consultation
             </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
+            <a href={`tel:${BUSINESS_INFO.phoneRaw}`} className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all">
               <Phone className="w-5 h-5 mr-2" />
               Call {BUSINESS_INFO.phone}
             </a>
+          </div>
+          <div className="mt-8 pt-8 border-t border-white/20">
+            <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
+              <span>License {BUSINESS_INFO.licenseNumber}</span>
+              <span>In-House Engineering</span>
+              <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
+              <span>Prime Contractor Only</span>
+            </div>
           </div>
         </div>
       </section>
