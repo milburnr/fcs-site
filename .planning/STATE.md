@@ -155,6 +155,10 @@ Recent decisions affecting current work:
 - [Phase 05-04]: Sandy soils of Florida Central Ridge (corrected from old pages' inaccurate "clay-rich soils" claim)
 - [Phase 05-04]: Frank Lloyd Wright Child of the Sun collection (13 structures at Florida Southern College) as historic anchor
 - [Phase 05-04]: Lightning Alley, I-4 corridor logistics, 38 named lakes, dual jurisdiction (City vs Polk County) woven throughout
+- [Phase 05-06]: Bradenton identity built around three-zone geography: Anna Maria Island Gulf-front, Manatee River corridor, inland Lakewood Ranch
+- [Phase 05-06]: Dual building dept links on every page: City of Bradenton Building Division + Manatee County Building and Development Services
+- [Phase 05-06]: Anna Maria Island three municipalities (Anna Maria, Holmes Beach, Bradenton Beach) referenced individually where relevant
+- [Phase 05-06]: Cortez fishing village (National Register) featured in historic-restoration and waterproofing for unique Bradenton flavor
 
 ### Pending Todos
 
