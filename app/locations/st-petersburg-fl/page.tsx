@@ -146,7 +146,7 @@ export default function StPetersburgPage() {
               Historic waterfront city known for its arts, culture, and growing commercial sector. Florida Construction Specialists delivers large-scale commercial and residential construction throughout St. Petersburg.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From federal historic compliance at Bay Pines VA to downtown commercial development, we bring 20+ years of experience and specialized historic restoration expertise to every St. Pete project.
+              Serving St. Petersburg since 1982, we bring four decades of experience and specialized historic restoration expertise to every project—from federal compliance at Bay Pines VA to downtown commercial development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -178,7 +178,7 @@ export default function StPetersburgPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />

@@ -147,7 +147,7 @@ export default function TampaPage() {
               Florida&apos;s third-largest city and the economic hub of the Tampa Bay region. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Tampa.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From Ybor City historic restoration to downtown commercial development, we bring 20+ years of experience, 40+ years experience and in-house engineering, and deep local relationships to every Tampa project.
+              Serving Tampa since 1982, we bring four decades of experience, in-house engineering, and deep local relationships to every project—from Ybor City historic restoration to downtown commercial development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -179,7 +179,7 @@ export default function TampaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />

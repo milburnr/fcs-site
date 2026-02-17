@@ -147,8 +147,8 @@ export default function ResourcesPage() {
             Construction Knowledge Hub
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-6">
-            Expert guides on Tampa Bay construction regulations, compliance requirements,
-            and best practices. Select your project type below.
+            Expert guides drawn from four decades of Tampa Bay construction experience since 1982.
+            Regulations, compliance requirements, and best practices—select your project type below.
           </p>
           <div className="flex justify-center gap-4">
             <a

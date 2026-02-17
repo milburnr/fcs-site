@@ -210,8 +210,8 @@ export default function GalleryPage() {
             Our Work Speaks for Itself
           </h1>
           <p className="text-xl text-gray-200 max-w-3xl mx-auto mb-8">
-            From large-scale commercial developments to custom luxury homes,
-            explore our portfolio of projects across Tampa Bay.
+            Browse projects completed by Florida Construction Specialists across Tampa Bay since 1982.
+            From large-scale commercial developments to custom luxury homes, our portfolio reflects four decades of construction excellence.
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
             <a

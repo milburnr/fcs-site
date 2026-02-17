@@ -146,7 +146,7 @@ export default function ClearwaterPage() {
               Coastal city with thriving tourism, hospitality, and commercial development. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Clearwater.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From beachfront hospitality projects to hurricane-resistant construction, we bring 20+ years of experience and specialized coastal expertise to every Clearwater project.
+              Serving Clearwater since 1982, we bring four decades of experience and specialized coastal expertise to every project—from beachfront hospitality to hurricane-resistant construction.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -178,7 +178,7 @@ export default function ClearwaterPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />

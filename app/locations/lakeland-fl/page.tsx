@@ -119,7 +119,7 @@ export default function LakelandPage() {
               Lakeland Commercial & Insurance Restoration Contractor
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl">
-              Growing central Florida city strategically located between Tampa and Orlando. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Lakeland and Polk County.
+              Growing central Florida city strategically located between Tampa and Orlando. Florida Construction Specialists has served Lakeland since 1982, delivering large-scale commercial and residential construction throughout Polk County.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

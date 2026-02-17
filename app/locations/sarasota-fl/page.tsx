@@ -146,7 +146,7 @@ export default function SarasotaPage() {
               Affluent Gulf Coast city known for arts, culture, and luxury real estate. Florida Construction Specialists delivers large-scale commercial and high-end residential construction throughout Sarasota.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From waterfront luxury estates on Longboat Key to commercial development in downtown Sarasota, we bring 20+ years of experience and expertise to meet the exacting standards of Sarasota&apos;s discerning market.
+              Serving Sarasota since 1982, we bring four decades of expertise to meet this market&apos;s exacting standards—from waterfront luxury estates on Longboat Key to commercial development downtown.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -178,7 +178,7 @@ export default function SarasotaPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />

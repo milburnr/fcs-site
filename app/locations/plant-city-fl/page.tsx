@@ -131,7 +131,7 @@ export default function PlantCityPage() {
               Florida Construction Specialists delivers large-scale commercial, agricultural, and residential construction throughout Plant City and eastern Hillsborough County. Located just 15 minutes from our Ruskin headquarters, Plant City is one of our closest and most accessible service areas.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From agricultural facilities supporting the &quot;Winter Strawberry Capital&quot; to commercial development along the I-4 corridor, we bring 20+ years of experience and 40+ years experience and in-house engineering to every Plant City project.
+              Serving Plant City since 1982, we bring four decades of experience and in-house engineering to every project—from agricultural facilities supporting the &quot;Winter Strawberry Capital&quot; to commercial development along the I-4 corridor.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -163,7 +163,7 @@ export default function PlantCityPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />

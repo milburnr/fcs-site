@@ -267,9 +267,9 @@ export default function OurProcessPage() {
               A Proven Process for Building Your Dream Home
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl">
-              From first conversation to final walkthrough, our 6-phase process
-              ensures transparency, quality, and a stress-free experience building
-              your luxury custom home.
+              Refined over four decades since 1982, our 6-phase process ensures
+              transparency, quality, and a stress-free experience from first
+              conversation to final walkthrough.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

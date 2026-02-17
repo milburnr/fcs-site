@@ -150,7 +150,7 @@ export default function RuskinPage() {
               Premier general contractor serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $25M+.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Our Ruskin headquarters provides ideal access to Tampa, Brandon, Plant City, Lakeland, Clearwater, St. Petersburg, Sarasota, and Bradenton—the entire Tampa Bay region.
+              Headquartered in Ruskin since 1982, our central location provides ideal access to Tampa, Brandon, Plant City, Lakeland, Clearwater, St. Petersburg, Sarasota, and Bradenton—the entire Tampa Bay region.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">

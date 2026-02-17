@@ -146,7 +146,7 @@ export default function BradentonPage() {
               Historic city experiencing significant commercial and residential growth. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Bradenton and Manatee County.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From multi-family developments to commercial projects serving Bradenton&apos;s growth, we bring 20+ years of experience and 40+ years experience and in-house engineering to every project.
+              Serving Bradenton since 1982, we bring four decades of experience and in-house engineering to every project—from multi-family developments to commercial construction across Manatee County.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -178,7 +178,7 @@ export default function BradentonPage() {
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">20+ Years Experience</span>
+              <span className="font-semibold text-gray-700">Since 1982</span>
             </div>
             <div className="flex items-center gap-2">
               <Hammer className="w-6 h-6 text-brand-green" />
