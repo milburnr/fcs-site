@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-02-15)
 
 **Core value:** The site ranks page 1 for priority keywords in Tampa Bay and generates organic leads for insurance restoration and condo remediation services.
-**Current focus:** Phase 6: E-E-A-T Signals
+**Current focus:** Phase 7: SB4-D Content Hub
 
 ## Current Position
 
-Phase: 6 of 9 (E-E-A-T Signals)
-Plan: 8 of 8 in current phase (8 complete)
-Status: Phase 6 Complete
-Last activity: 2026-02-17 -- Completed 06-08 (Experience Language & Founding Date Audit)
+Phase: 7 of 9 (SB4-D Content Hub)
+Plan: 03 of 6 in current phase (03 complete)
+Status: Executing Phase 7
+Last activity: 2026-02-18 -- Completed 07-03 (SB4-D Inspection Process & SIRS Guide)
 
 Progress: [██████████] 93%
 
@@ -71,6 +71,7 @@ Progress: [██████████] 93%
 | Phase 06 P08 | 11min | 2 tasks | 52 files |
 | Phase 06 P04 | 12min | 2 tasks | 14 files |
 | Phase 06 P06 | 15min | 2 tasks | 9 files |
+| Phase 07 P03 | 5min | 1 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -188,6 +189,11 @@ Recent decisions affecting current work:
 - [Phase 06-07]: Brandon/Ruskin skipped for CodeReference (inland/suburban, lighter pages)
 - [Phase 06-07]: multi-family-construction-brandon fixed for 1982 consistency (not in plan target list but caught by verification)
 - [Phase 06]: Lakeland SB4-D pages excluded from CodeReference (inland, 30-year timeline, no salt exposure)
+- [Phase 07-03]: SB4-D cluster page pattern established: Hero > BackToHub > Content > CodeReference > FAQ > InternalLinks > CTA
+- [Phase 07-03]: Engineer language: "dedicated engineering partners" and "direct access to licensed structural engineers" -- zero "in-house" references
+- [Phase 07-03]: Past-due deadline framing: Dec 2024 and Dec 2025 deadlines presented as already passed
+- [Phase 07-03]: HB 913 integrated: baseline funding plan, 2-year reserve pause, $25K inflation-indexed threshold
+- [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
 
 ### Pending Todos
 
@@ -201,6 +207,6 @@ Recent decisions affecting current work:
 
 ## Session Continuity
 
-Last session: 2026-02-17
-Stopped at: Completed 06-08-PLAN.md (Experience Language & Founding Date Audit) -- Phase 6 Complete
-Resume file: Phase 7 (SB4-D) or Phase 8 (Insurance)
+Last session: 2026-02-18
+Stopped at: Completed 07-03-PLAN.md (SB4-D Inspection Process & SIRS Guide)
+Resume file: Continue Phase 7 plans (01, 02, 04, 05, 06)
