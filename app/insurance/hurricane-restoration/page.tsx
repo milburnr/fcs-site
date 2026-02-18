@@ -322,16 +322,20 @@ export default function HurricaneRestorationPage() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <h2>Tampa Bay's Hurricane Restoration Experts</h2>
             <p>
-              Living in Tampa Bay means living with hurricane risk. From June through November, every property owner 
-              knows the threat is real. When storms strike—whether it's a direct hit or a near miss that still causes 
-              significant damage—you need a contractor who can restore your property properly while navigating the 
+              Living in Tampa Bay means living with hurricane risk. From June through November, every property owner
+              knows the threat is real. When storms strike—whether it's a direct hit or a near miss that still causes
+              significant damage—you need a contractor who can restore your property properly while navigating the
               complex insurance landscape.
             </p>
             <p>
-              Florida Construction Specialists has been that contractor for Tampa Bay since 1982. We've restored 
-              properties after Hurricane Elena (1985), the No-Name Storm (1993), Hurricane Frances and Jeanne (2004), 
-              Hurricane Charley (2004), Hurricane Irma (2017), Hurricane Michael (2018), and countless other named 
-              and unnamed storms that have impacted our region.
+              Florida Construction Specialists has been that contractor for Tampa Bay since 1982. We've restored
+              properties after Hurricane Elena (1985), the No-Name Storm (1993), Hurricane Frances and Jeanne (2004),
+              Hurricane Charley (2004), Hurricane Irma (2017), Hurricane Michael (2018), and countless other named
+              and unnamed storms that have impacted our region. Our hurricane restoration projects range from $250,000
+              single-building roof replacements to $15 million+ multi-building condominium restorations—including
+              100+ unit condo re-roofing and envelope repairs, and commercial facilities requiring 50,000+ sq ft
+              of roof system replacement. Our bonding capacity supports projects exceeding $10 million without
+              subcontractor dependency.
             </p>
 
             <h3>Understanding Hurricane Damage</h3>
@@ -365,9 +369,36 @@ export default function HurricaneRestorationPage() {
               <li>Pre-existing condition allegations</li>
             </ul>
             <p>
-              This is where FCS's dual expertise becomes invaluable. Our owner's background as both an insurance 
-              adjuster and construction professional means we know how to document damage, prepare estimates, and 
+              This is where FCS's dual expertise becomes invaluable. Our owner's background as both an insurance
+              adjuster and construction professional means we know how to document damage, prepare estimates, and
               advocate for proper repair scope—in the language insurance companies understand.
+            </p>
+
+            <h3>Hurricane-Specific Insurance and Code Complexities</h3>
+            <p>
+              Hurricane claims carry unique complexities that fire and water losses do not. Named storm deductibles
+              operate differently from standard deductibles—typically calculated as 2-5% of the total insured value
+              rather than a flat dollar amount. For a commercial property insured at $5 million, that means a
+              $100,000-$250,000 deductible before coverage begins. FCS helps property owners understand these
+              thresholds and document damage thoroughly to maximize recoverable value above the deductible.
+            </p>
+            <p>
+              Wind damage and flood damage are covered by entirely separate insurance programs. Standard windstorm
+              policies cover roof damage, structural wind loads, and wind-driven rain intrusion. However, storm
+              surge and rising water require separate National Flood Insurance Program (NFIP) or private flood
+              policies—and many property owners discover too late that their flood coverage is inadequate. After a
+              hurricane, determining which damage was caused by wind versus surge is critical to claim routing, and
+              FCS's damage documentation distinguishes between these mechanisms for accurate carrier assignment.
+            </p>
+            <p>
+              FEMA's Substantial Damage Rule adds another layer: when hurricane damage exceeds 50% of a building's
+              pre-storm market value, the entire structure must be brought into compliance with current Florida
+              Building Code—not just the damaged portions. This triggers wind load upgrades, elevation certificate
+              requirements, and post-hurricane surge zone reassessment that can significantly expand project scope.
+              FCS works with dedicated engineering partners to evaluate substantial damage determinations and ensure
+              that all code-triggered upgrades are captured in the insurance claim. Our first response includes
+              emergency roof tarping and board-up to prevent secondary damage while claims are processed—stabilization
+              that protects both the property and the policyholder's coverage position.
             </p>
 
             <h3>Prepare Before the Storm</h3>
