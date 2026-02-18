@@ -4,6 +4,10 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
+import { BackToHub } from "@/components/BackToHub";
+import { AuthorByline } from "@/components/AuthorByline";
+import { CodeReference } from "@/components/CodeReference";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { Phone, Flame, Shield, Building2, Wind, Sparkles, Home, AlertTriangle, CheckCircle, Clock, FileText, Hammer, Users, Award, Droplets, Thermometer } from "lucide-react";
@@ -99,6 +103,21 @@ const relatedLinks = [
   { href: "/insurance/appraisal-arbitration/", label: "Appraisal & Arbitration" },
 ];
 
+const galleryPhotos: GalleryPhoto[] = [
+  {
+    src: "/images/rebuild-superjumbo/rebuild-superjumbo-display.webp",
+    caption: "Large-loss structural reconstruction after fire damage",
+  },
+  {
+    src: "/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp",
+    caption: "Roof decking and rafter replacement during fire restoration",
+  },
+  {
+    src: "/images/stages-of-construction-project-management/stages-of-construction-project-management-display.webp",
+    caption: "Multi-phase fire restoration project management",
+  },
+];
+
 export default function FireRestorationPage() {
   return (
     <>
@@ -121,6 +140,8 @@ export default function FireRestorationPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <Breadcrumb items={breadcrumbItems} className="mb-8 text-gray-300" />
+          <BackToHub silo="commercial" customHubTitle="Insurance Services" customHubHref="/insurance/" />
+          <AuthorByline variant="light" />
 
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/50 px-4 py-2 rounded-full mb-6">
@@ -382,6 +403,15 @@ export default function FireRestorationPage() {
           </div>
         </div>
       </section>
+
+      {/* Code Reference */}
+      <CodeReference
+        code="NFPA 921 — Guide for Fire and Explosion Investigations"
+        description="Fire damage restoration cannot begin until the fire investigator or authority having jurisdiction releases the structure. FCS coordinates with fire marshals and insurance investigators to ensure proper evidence preservation before restoration begins. This investigation-first protocol protects the property owner's insurance claim by maintaining the chain of evidence."
+      />
+
+      {/* Project Gallery */}
+      <ProjectGallery photos={galleryPhotos} title="Fire Restoration Projects" />
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">
