@@ -6,6 +6,10 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { BackToHub } from "@/components/BackToHub";
+import { AuthorByline } from "@/components/AuthorByline";
+import { CodeReference } from "@/components/CodeReference";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import Link from "next/link";
 import { Phone, Droplets, Shield, Building2, AlertTriangle, Waves, CloudRain, CheckCircle, Clock, FileText, Thermometer, Wind, Home, Award, Users } from "lucide-react";
 
@@ -117,6 +121,13 @@ const relatedLinks = [
 // Use storm image showing flooding/water damage
 const heroImage = "/images/florida-hurricane-storm/florida-hurricane-storm-11-1920w.webp";
 
+const galleryPhotos: GalleryPhoto[] = [
+  { src: "/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding", caption: "Flood damage assessment and water extraction planning" },
+  { src: "/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration", caption: "Large-scale water damage restoration in Tampa Bay" },
+  { src: "/images/mold-inspection/mold-inspection", caption: "Moisture inspection and mold prevention after water loss" },
+  { src: "/images/waterproofing/waterproofing", caption: "Structural waterproofing and water intrusion repair" },
+];
+
 export default function WaterRestorationPage() {
   return (
     <>
@@ -145,6 +156,8 @@ export default function WaterRestorationPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <Breadcrumb items={breadcrumbItems} className="mb-8 text-gray-300" />
+          <BackToHub silo="commercial" customHubTitle="Insurance Services" customHubHref="/insurance/" />
+          <AuthorByline variant="light" />
 
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-blue-500/20 border border-blue-500/50 px-4 py-2 rounded-full mb-6">
@@ -365,6 +378,15 @@ export default function WaterRestorationPage() {
           </div>
         </div>
       </section>
+
+      {/* Code Reference */}
+      <CodeReference
+        code="IICRC S500 — Standard for Professional Water Damage Restoration"
+        description="All water damage restoration follows IICRC S500 standards, which classify water damage into three categories based on contamination level and define specific restoration protocols for each. Category 1 (clean water) allows drying in place; Category 2 (gray water) requires removal of affected porous materials; Category 3 (black water) demands aggressive controlled demolition and antimicrobial treatment. FCS follows these standards on every water loss project."
+      />
+
+      {/* Project Gallery */}
+      <ProjectGallery photos={galleryPhotos} title="Water Restoration Projects" />
 
       {/* FAQ Section */}
       <section className="py-16 bg-gray-50">
