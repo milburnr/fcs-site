@@ -332,9 +332,11 @@ export default function FireRestorationPage() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <h2>Understanding Fire Damage Restoration</h2>
             <p>
-              Fire damage restoration is one of the most complex types of property restoration. A fire doesn't 
-              just burn—it creates multiple, interacting types of damage that must all be addressed for 
-              successful restoration:
+              Fire damage restoration is one of the most complex types of property restoration. A fire doesn't
+              just burn—it creates multiple, interacting types of damage that must all be addressed for
+              successful restoration. FCS handles fire losses ranging from $250,000+ residential fires requiring
+              full interior reconstruction to $500,000–$10 million commercial fire restorations involving structural,
+              mechanical, and finish work across multi-story buildings.
             </p>
             <ul>
               <li><strong>Structural damage</strong> from the fire itself—burned framing, compromised load paths, heat-weakened materials</li>
@@ -345,29 +347,74 @@ export default function FireRestorationPage() {
               <li><strong>System damage</strong> to electrical, HVAC, and plumbing that may not be visible</li>
             </ul>
 
-            <h3>Why Smoke Damage Is So Challenging</h3>
+            <h3>The Fire Investigation Timeline</h3>
             <p>
-              Smoke doesn't stop at the room where the fire occurred. Pressure differentials during a fire 
-              push smoke through every opening—into walls, HVAC ducts, attics, and adjacent spaces. This is 
-              why you can have extensive smoke damage in areas with no visible fire or heat damage.
+              Unlike hurricane or water damage, fire restoration cannot begin until investigators release the
+              structure. The fire marshal or authority having jurisdiction places a hold on the property for
+              cause determination—a process that can take days to weeks depending on the fire's complexity.
+              Once the cause is determined, the insurance adjuster conducts their inspection, and only after
+              both investigations are complete does the structure receive a restoration release. FCS coordinates
+              with fire marshals, insurance investigators, and property owners throughout this hold period to
+              ensure proper evidence preservation while preparing a restoration scope so work begins immediately
+              upon release.
             </p>
             <p>
-              Different fires create different types of soot requiring different cleaning methods:
+              When arson is suspected or confirmed, the timeline extends further. Subrogation opportunities
+              emerge—the insurance carrier may pursue recovery from a responsible third party—but the
+              investigation's evidentiary requirements delay claim resolution. Evidence preservation becomes
+              paramount: nothing can be moved, cleaned, or demolished until law enforcement, the carrier's
+              forensic investigator, and potentially a court-appointed expert complete their work. FCS
+              documents the pre-restoration condition in forensic detail, protecting the property owner's
+              claim even when investigation delays stretch into months.
+            </p>
+
+            <h3>Smoke Type Classification and Remediation</h3>
+            <p>
+              Smoke doesn't stop at the room where the fire occurred. Pressure differentials during a fire
+              push smoke through every opening—into walls, HVAC ducts, attics, and adjacent spaces. This is
+              why you can have extensive smoke damage in areas with no visible fire or heat damage.
+              Each smoke type requires a fundamentally different remediation approach—applying the wrong method
+              permanently damages surfaces:
             </p>
             <ul>
-              <li><strong>Protein residue</strong> from kitchen fires is nearly invisible but produces intense odors</li>
-              <li><strong>Dry smoke</strong> from fast, hot fires leaves powdery residue that's relatively easy to clean</li>
-              <li><strong>Wet smoke</strong> from slow, smoldering fires leaves thick, sticky residue that smears when cleaned improperly</li>
-              <li><strong>Fuel oil soot</strong> from furnace puff-backs requires different chemistry than fire soot</li>
+              <li><strong>Wet smoke</strong> from slow, smoldering fires at low temperatures leaves thick, sticky, pungent residue that smears when wiped. Requires chemical sponges and specialized solvents—never standard cleaning.</li>
+              <li><strong>Dry smoke</strong> from fast, high-temperature fires leaves powdery, non-smearing residue. Easier to clean but infiltrates cracks and porous materials deeply.</li>
+              <li><strong>Protein smoke</strong> from kitchen fires is nearly invisible but produces extreme odors that permeate every surface. Standard visual inspection misses it entirely—requires UV light detection.</li>
+              <li><strong>Fuel oil soot</strong> from furnace puff-backs has a different chemical composition than fire soot, requiring petroleum-based solvents rather than water-based cleaning agents.</li>
             </ul>
             <p>
-              Using the wrong cleaning method can permanently set stains and drive particles deeper into 
-              materials. This is why professional assessment BEFORE any cleaning is essential.
+              For multi-story commercial buildings, FCS performs floor-by-floor smoke remediation because
+              smoke type and density vary by elevation and proximity to the fire origin. Upper floors may have
+              protein residue while the fire floor has wet smoke damage—each requiring different treatment
+              protocols and different restoration timelines.
+            </p>
+
+            <h3>Thermal Damage Assessment</h3>
+            <p>
+              Beyond visible charring, fire compromises structural integrity in ways that require engineering
+              evaluation. Structural steel loses strength progressively above 600°F and can warp or buckle.
+              Concrete undergoes spalling—surface layers crack and flake as internal moisture flash-heats—potentially
+              compromising load-bearing capacity. Wood char depth analysis determines how much structural timber
+              remains viable: every inch of char reduces the member's load rating. FCS works with dedicated
+              engineering partners who perform thermal damage assessments to determine what can be salvaged versus
+              what requires full replacement, ensuring the structure meets code before reconstruction begins.
+            </p>
+
+            <h3>Content Salvage and Pack-Out Operations</h3>
+            <p>
+              For properties with $1 million or more in personal property or commercial inventory, content
+              salvage is a major operation in itself. FCS manages the full content handling process: room-by-room
+              inventory with photographic documentation, pack-out of salvageable items to climate-controlled storage,
+              professional cleaning using ultrasonic baths for electronics and hard goods, ozone treatment for soft
+              goods, and freeze-drying for water-damaged documents and photographs. Unlike contractors who handle
+              only the structure, FCS coordinates content salvage alongside structural restoration so both
+              timelines run in parallel rather than sequentially—critical for reducing business interruption on
+              commercial losses.
             </p>
 
             <h3>The Insurance Claim Challenge</h3>
             <p>
-              Fire claims are typically large and complex, attracting significant scrutiny from insurance 
+              Fire claims are typically large and complex, attracting significant scrutiny from insurance
               carriers. Common challenges include:
             </p>
             <ul>
@@ -379,26 +426,40 @@ export default function FireRestorationPage() {
               <li>Matching material availability</li>
             </ul>
             <p>
-              Our documentation—detailed photos, moisture readings, Xactimate estimates with industry-standard 
-              line items—provides the evidence base for fair claim resolution. When claims are disputed, 
+              Our documentation—detailed photos, moisture readings, Xactimate estimates with industry-standard
+              line items—provides the evidence base for fair claim resolution. When claims are disputed,
               we have the expertise to support supplemental claims and, if necessary, the appraisal process.
+            </p>
+
+            <h3>Air Quality and Clearance Testing</h3>
+            <p>
+              Before any fire-damaged building can be reoccupied, air quality must meet OSHA permissible
+              exposure limits and EPA indoor air quality guidelines. Fire produces carbon monoxide, hydrogen
+              cyanide, volatile organic compounds, and particulate matter that embed in building materials and
+              off-gas for weeks after the fire is extinguished. FCS coordinates third-party air quality
+              testing at multiple stages—after smoke remediation, after sealant application, and after
+              reconstruction—to verify clearance before certificate of occupancy is issued. This staged
+              testing protocol provides documented proof of safe air quality for both the property owner
+              and their insurance carrier.
             </p>
 
             <h3>Commercial Fire Restoration</h3>
             <p>
-              Commercial fires present unique challenges beyond the restoration itself:
+              Commercial fires present unique challenges beyond the restoration itself. FCS handles
+              $500,000–$10 million+ commercial fire restorations including multi-story buildings requiring
+              complete system replacement—electrical, HVAC, plumbing, fire suppression—alongside structural
+              repair and finish work:
             </p>
             <ul>
-              <li><strong>Business interruption:</strong> Every day closed is lost revenue</li>
-              <li><strong>Tenant concerns:</strong> Multi-tenant buildings need coordination</li>
-              <li><strong>Code requirements:</strong> Commercial rebuilds often trigger upgrades</li>
-              <li><strong>ADA compliance:</strong> Substantial renovations may require accessibility upgrades</li>
-              <li><strong>Specialty systems:</strong> Commercial kitchens, computer rooms, manufacturing equipment</li>
+              <li><strong>Business interruption:</strong> Every day closed is lost revenue—phased restoration allows partial occupancy during reconstruction</li>
+              <li><strong>Tenant concerns:</strong> Multi-tenant buildings need coordination across leases, insurance policies, and occupancy schedules</li>
+              <li><strong>Code requirements:</strong> Commercial rebuilds often trigger upgrades to current fire code, electrical code, and ADA standards</li>
+              <li><strong>Specialty systems:</strong> Commercial kitchens, data centers, manufacturing equipment, and medical facilities each require trade-specific restoration expertise</li>
             </ul>
             <p>
-              FCS has the project management expertise and construction capability to handle complex 
-              commercial fire losses. We can implement phased restoration approaches that allow partial 
-              occupancy during reconstruction, minimizing business interruption while ensuring quality restoration.
+              FCS has the project management expertise, bonding capacity, and direct access to licensed
+              structural engineers to handle complex commercial fire losses from initial investigation
+              through final certificate of occupancy.
             </p>
           </div>
         </div>
