@@ -116,6 +116,7 @@ const processSteps = [
     step: "1",
     title: "Emergency Response & Damage Assessment",
     description: "When disaster strikes, FCS responds rapidly to secure your property and begin the assessment process. Our dedicated engineering partner conducts a thorough structural evaluation, documenting every element of damage with photographs, measurements, and engineering analysis. This initial assessment forms the foundation of your entire claim. Unlike contractors who rely on surface-level inspections, our engineering team identifies hidden structural damage that adjusters frequently miss—cracked load-bearing members behind drywall, compromised roof decking beneath intact shingles, and water intrusion paths that lead to future mold issues.",
+    guideLink: { text: "Learn more about understanding Tampa insurance restoration claims", href: "/insurance/guides/understanding-tampa-insurance-restoration-claims/" },
   },
   {
     icon: Calculator,
@@ -128,12 +129,14 @@ const processSteps = [
     step: "3",
     title: "Direct Carrier Negotiation",
     description: "FCS negotiates scope and pricing directly with your insurance company. With over 40 years of claims experience, we understand how carriers evaluate large loss claims, what documentation they require, and where scope disputes typically arise. We handle supplement requests, respond to adjuster questions with engineering-backed documentation, and advocate for the full scope of restoration your property requires. Property owners should never have to negotiate their own claim against a team of professional adjusters—that is our role.",
+    guideLink: { text: "Read our guide to claims negotiation for property damage in Tampa", href: "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/" },
   },
   {
     icon: FileText,
     step: "4",
     title: "Scope of Work Development",
     description: "Once the claim is approved, FCS develops detailed construction documents that translate the insurance scope into an executable restoration plan. For complex projects, this includes engineering drawings, material specifications, and phasing plans. Our architectural draftsman produces drawings that satisfy both the carrier's requirements and local building department permit applications. This step is where many contractors fall short—they begin work without proper documentation, leading to change orders, delays, and disputes.",
+    guideLink: { text: "See our tips for preparing for insurance restoration consultations in Tampa", href: "/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/" },
   },
   {
     icon: HardHat,
@@ -319,6 +322,9 @@ export function InsurancePageClient() {
                   Commercial and condominium insurance claims require a fundamentally different class of contractor than residential repair work. Carriers assign teams of adjusters, engineers, and attorneys to evaluate large loss claims. They use sophisticated estimating platforms, engineering standards, and claims protocols designed to control costs. Property owners who enter this process without equivalent expertise on their side are at a significant disadvantage. FCS provides that expertise—direct access to licensed structural engineers, certified Xactimate estimators, and four decades of direct experience negotiating with every major property carrier operating in Florida.
                 </p>
                 <p>
+                  The scope of FCS projects reflects the complexity of large loss work: 100-unit condominium re-roofing after named storms, 20-story commercial building facade and window wall replacement, multi-building apartment complex fire restoration across 200+ units, 50,000+ square foot commercial roof system replacement after hail damage, and full interior reconstruction of hurricane-damaged hospitality properties. These are multi-trade, multi-phase restorations that demand a contractor with the licensing, bonding capacity, and claims expertise to manage every element from start to finish.
+                </p>
+                <p>
                   As prime contractor, FCS manages every aspect of restoration under a single contract. We never operate as a subcontractor, and we never delegate the claims process to a third-party public adjuster. When property managers, HOA boards, and building owners engage FCS, they get one team with one point of accountability—from the initial damage assessment through the certificate of completion and final carrier closeout.
                 </p>
               </div>
@@ -401,6 +407,13 @@ export function InsurancePageClient() {
                   <div className="flex-grow">
                     <h3 className="text-xl font-bold text-gray-900 mb-3">{step.title}</h3>
                     <p className="text-gray-600 leading-relaxed">{step.description}</p>
+                    {"guideLink" in step && step.guideLink && (
+                      <p className="mt-2">
+                        <Link href={(step as { guideLink: { text: string; href: string } }).guideLink.href} className="text-brand-green-dark hover:text-brand-green font-medium underline underline-offset-2 transition-colors">
+                          {(step as { guideLink: { text: string; href: string } }).guideLink.text} →
+                        </Link>
+                      </p>
+                    )}
                   </div>
                 </div>
               </FadeIn>
