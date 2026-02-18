@@ -243,7 +243,7 @@ export default function SB4DComplianceStPetersburgPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Florida Construction Specialists provides SB 4-D compliance services to condominium associations throughout St. Petersburg and the broader Pinellas County market. We coordinate directly with licensed structural engineers experienced with Pinellas County properties, translating their milestone inspection findings into detailed remediation scopes and phased construction plans. Our in-house engineering coordination capability bridges the technical gap between engineering reports and construction execution.
+                Florida Construction Specialists provides SB 4-D compliance services to condominium associations throughout St. Petersburg and the broader Pinellas County market. We coordinate directly with licensed structural engineers experienced with Pinellas County properties, translating their milestone inspection findings into detailed remediation scopes and phased construction plans. Our dedicated engineering partnerships bridge the technical gap between engineering reports and construction execution.
               </p>
               <p className="mb-6">
                 Jurisdictional navigation is part of our service in the St. Petersburg market. The <a href="https://www.stpete.org/building_and_development_review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of St. Petersburg Development Services Department</a> handles permitting for properties within city limits, while <a href="https://www.pinellas.gov/department/building-and-development-review/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Pinellas County Building Services</a> covers unincorporated areas and the separately incorporated barrier island municipalities. We know which authority has jurisdiction for each property and prepare permit applications that meet the specific requirements of the relevant department.
@@ -322,7 +322,7 @@ export default function SB4DComplianceStPetersburgPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Peninsula Condo Specialists</span>
             </div>

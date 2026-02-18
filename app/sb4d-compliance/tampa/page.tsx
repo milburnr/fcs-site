@@ -140,7 +140,7 @@ export default function SB4DComplianceTampaPage() {
                 The passage of SB 4-D following the Champlain Towers collapse in Surfside created a structural inspection mandate that affects hundreds of buildings across Tampa. Buildings three stories and above must undergo milestone inspections at 30 years of age, or at 25 years if located within three miles of the coastline. Given Tampa's geography -- with Tampa Bay wrapping around the city's western and southern edges -- the vast majority of Tampa's condominium stock falls under the more aggressive 25-year coastal timeline. Associations that have deferred maintenance for decades are now confronting the condition of their buildings under regulatory and insurance pressure that did not previously exist.
               </p>
               <p>
-                Florida Construction Specialists works alongside the licensed structural engineers conducting milestone inspections, providing construction expertise during the assessment phase and beginning remediation planning before the final report is issued. Our in-house engineering coordination capability allows us to translate inspection findings into actionable construction scopes efficiently, helping Tampa associations move from findings to completed repairs without the communication gaps that occur when contractors lack technical engineering understanding.
+                Florida Construction Specialists works alongside the licensed structural engineers conducting milestone inspections, providing construction expertise during the assessment phase and beginning remediation planning before the final report is issued. Our direct access to licensed structural engineers allows us to translate inspection findings into actionable construction scopes efficiently, helping Tampa associations move from findings to completed repairs without the communication gaps that occur when contractors lack technical engineering understanding.
               </p>
             </div>
 
@@ -333,7 +333,7 @@ export default function SB4DComplianceTampaPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>SB 4-D Compliance Specialists</span>
             </div>
