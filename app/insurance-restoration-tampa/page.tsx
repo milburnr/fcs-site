@@ -212,7 +212,7 @@ export default function InsuranceRestorationTampaPage() {
                 The insurance claim process in Tampa has become more complex as carriers respond to Florida's challenging market conditions. Initial claim assessments are often conservative, requiring detailed supplement documentation to capture the full scope of damage. Concealed damage discovered during demolition, which is common in Tampa's older commercial buildings in Ybor City and the Westshore corridor, must be documented in real time before repair work obscures the evidence. Code upgrade requirements under the Florida Building Code frequently add significant scope to restoration projects, and these upgrades are covered under most commercial policies but must be properly documented and claimed.
               </p>
               <p>
-                Our in-house team handles the construction management, damage documentation, and carrier coordination that insurance restoration demands. For Tampa property owners dealing with large losses, this integrated approach means one team managing both the physical restoration and the financial recovery, eliminating the communication gaps that occur when separate companies handle construction and claims.
+                Our integrated team handles the construction management, damage documentation, and carrier coordination that insurance restoration demands. For Tampa property owners dealing with large losses, this integrated approach means one team managing both the physical restoration and the financial recovery, eliminating the communication gaps that occur when separate companies handle construction and claims.
               </p>
             </div>
           </div>

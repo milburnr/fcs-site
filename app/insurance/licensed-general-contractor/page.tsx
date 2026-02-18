@@ -51,8 +51,8 @@ const faqs = [
     answer: "We specialize in large loss restoration, typically $250,000 and above for residential and $500,000+ for commercial projects. This includes substantial fire damage, hurricane damage, water damage, and other major insurance claims.",
   },
   {
-    question: "Do you have an in-house engineer?",
-    answer: "Yes, FCS has both an in-house engineer and architectural draftsman. This allows us to assess structural damage, develop repair plans, and create necessary documentation without relying on third parties—speeding up the claims and restoration process.",
+    question: "Do you have direct access to structural engineers?",
+    answer: "Yes, FCS has a dedicated engineering partner and architectural draftsman. This direct access allows us to assess structural damage, develop repair plans, and create necessary documentation without the delays of coordinating separate firms—speeding up the claims and restoration process.",
   },
 ];
 
@@ -74,8 +74,8 @@ const qualifications = [
   },
   {
     icon: Users,
-    title: "In-House Team",
-    description: "Engineer, architectural draftsman, and certified estimators on staff.",
+    title: "Integrated Team",
+    description: "Dedicated engineering partner, architectural draftsman, and certified estimators.",
   },
 ];
 
