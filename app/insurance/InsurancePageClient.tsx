@@ -200,7 +200,7 @@ const insuranceFAQs: FAQItem[] = [
   },
   {
     question: "What types of insurance claims does FCS handle?",
-    answer: "FCS specializes in large loss insurance claims typically valued at $250,000 and above. This includes hurricane and wind damage, fire damage, water and flood damage, mold remediation, and multi-peril losses. We work on commercial properties, condominium associations, multi-family buildings, and high-value residential estates. Our experience spans every major hurricane and storm event in Tampa Bay over the past four decades.",
+    answer: "FCS specializes in large loss insurance claims typically valued at $500,000 and above. This includes hurricane and wind damage, fire damage, water and flood damage, mold remediation, and multi-peril losses. We work on commercial properties, condominium associations, multi-family buildings, and high-value residential estates. Our experience spans every major hurricane and storm event in Tampa Bay over the past four decades.",
   },
   {
     question: "How quickly can FCS respond after damage occurs?",

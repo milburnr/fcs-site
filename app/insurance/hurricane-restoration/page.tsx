@@ -286,7 +286,7 @@ export default function HurricaneRestorationPage() {
                   <div>
                     <h3 className="font-bold text-gray-900 mb-1">Large Loss Specialists</h3>
                     <p className="text-gray-600">
-                      We focus on substantial projects—typically $250,000 and above. This means commercial properties, 
+                      We focus on substantial projects—typically $500,000 and above. This means commercial properties,
                       multi-family buildings, and significant residential damage. Our bonding capacity and resources match the scale of major hurricane restoration.
                     </p>
                   </div>
@@ -331,7 +331,7 @@ export default function HurricaneRestorationPage() {
               Florida Construction Specialists has been that contractor for Tampa Bay since 1982. We've restored
               properties after Hurricane Elena (1985), the No-Name Storm (1993), Hurricane Frances and Jeanne (2004),
               Hurricane Charley (2004), Hurricane Irma (2017), Hurricane Michael (2018), and countless other named
-              and unnamed storms that have impacted our region. Our hurricane restoration projects range from $250,000
+              and unnamed storms that have impacted our region. Our hurricane restoration projects range from $500,000
               single-building roof replacements to $15 million+ multi-building condominium restorations—including
               100+ unit condo re-roofing and envelope repairs, and commercial facilities requiring 50,000+ sq ft
               of roof system replacement. Our bonding capacity supports projects exceeding $10 million without

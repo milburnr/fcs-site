@@ -334,8 +334,8 @@ export default function FireRestorationPage() {
             <p>
               Fire damage restoration is one of the most complex types of property restoration. A fire doesn't
               just burn—it creates multiple, interacting types of damage that must all be addressed for
-              successful restoration. FCS handles fire losses ranging from $250,000+ residential fires requiring
-              full interior reconstruction to $500,000–$10 million commercial fire restorations involving structural,
+              successful restoration. FCS handles fire losses ranging from $500,000+ residential fires requiring
+              full interior reconstruction to multi-million dollar commercial fire restorations involving structural,
               mechanical, and finish work across multi-story buildings.
             </p>
             <ul>

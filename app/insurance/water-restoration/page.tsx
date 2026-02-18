@@ -64,7 +64,7 @@ const faqs = [
   },
   {
     question: "What areas do you serve for water restoration?",
-    answer: "We serve Tampa Bay and surrounding areas including Hillsborough County (Tampa, Brandon, Plant City), Pinellas County (St. Petersburg, Clearwater), Pasco County, Manatee County (Bradenton), and Sarasota County. For large commercial losses, we deploy throughout Florida. Our focus on substantial restoration projects ($50,000+) allows us to respond quickly with full resources.",
+    answer: "We serve Tampa Bay and surrounding areas including Hillsborough County (Tampa, Brandon, Plant City), Pinellas County (St. Petersburg, Clearwater), Pasco County, Manatee County (Bradenton), and Sarasota County. For large commercial losses, we deploy throughout Florida. Our focus on substantial restoration projects ($500,000+) allows us to respond quickly with full resources.",
   },
 ];
 
@@ -353,14 +353,13 @@ export default function WaterRestorationPage() {
             <h3>Commercial Water Damage</h3>
             <p>
               Commercial properties present unique water damage challenges: larger affected areas, complex HVAC
-              systems, specialized flooring, and business interruption concerns. We routinely handle $250,000 to
+              systems, specialized flooring, and business interruption concerns. We routinely handle $500,000 to
               $5 million commercial water losses from roof leaks, plumbing failures, and sprinkler system
               malfunctions. In multi-floor commercial buildings, water migrates through elevator shafts, stairwells,
               and interstitial spaces—requiring floor-by-floor assessment and simultaneous drying on every affected
               level. Condominium buildings present a particular challenge: a single pipe burst can produce cascading
-              water damage affecting 10 to 50+ units from one source, with restoration costs exceeding $1 million.
-              Even single-family residential pipe bursts regularly produce $50,000+ losses when water reaches wall
-              cavities and subfloor systems.
+              water damage affecting 10 to 50+ units from one source, with restoration costs regularly exceeding
+              $1 million when multiple units, common areas, and building systems are involved.
             </p>
             <p>
               FCS maintains the equipment inventory and trained workforce to handle large commercial losses.

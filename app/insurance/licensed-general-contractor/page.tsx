@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: "What size projects do you handle?",
-    answer: "We specialize in large loss restoration, typically $250,000 and above for residential and $500,000+ for commercial projects. This includes substantial fire damage, hurricane damage, water damage, and other major insurance claims.",
+    answer: "We specialize in large loss restoration, typically $500,000 and above. This includes substantial fire damage, hurricane damage, water damage, and other major insurance claims across commercial properties, condominium associations, and high-value residential estates.",
   },
   {
     question: "Do you have direct access to structural engineers?",
@@ -211,7 +211,7 @@ export default function LicensedGeneralContractorPage() {
             <ul>
               <li>Commercial properties: $500,000+</li>
               <li>Multi-family buildings: $500,000+</li>
-              <li>High-value residential: $250,000+</li>
+              <li>High-value residential: $500,000+</li>
             </ul>
             <p>
               Our 40+ years of experience includes 300+ completed projects totaling more than $25 million in 
