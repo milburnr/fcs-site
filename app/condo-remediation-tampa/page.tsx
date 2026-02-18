@@ -30,7 +30,7 @@ const faqs = [
   },
   {
     question: "How does FCS help Tampa condo associations manage remediation costs?",
-    answer: "Condo remediation costs are a significant concern for Tampa associations, many of which face special assessments to fund required repairs. We help associations manage costs through several approaches. First, we provide detailed repair scoping that distinguishes between immediately critical structural repairs and lower-priority maintenance items, allowing associations to phase work based on urgency and available funding. Second, our in-house engineering team identifies the most cost-effective repair methods for each deficiency rather than defaulting to the most expensive option. Third, we develop construction phasing plans that spread costs over time when the structural engineer's findings support a phased approach. Fourth, we provide the detailed documentation that insurance carriers and reserve study professionals need to support claims or funding plans."
+    answer: "Condo remediation costs are a significant concern for Tampa associations, many of which face special assessments to fund required repairs. We help associations manage costs through several approaches. First, we provide detailed repair scoping that distinguishes between immediately critical structural repairs and lower-priority maintenance items, allowing associations to phase work based on urgency and available funding. Second, our dedicated engineering partners identify the most cost-effective repair methods for each deficiency rather than defaulting to the most expensive option. Third, we develop construction phasing plans that spread costs over time when the structural engineer's findings support a phased approach. Fourth, we provide the detailed documentation that insurance carriers and reserve study professionals need to support claims or funding plans."
   },
   {
     question: "Does FCS work directly with the structural engineers conducting Tampa condo milestone inspections?",
@@ -124,7 +124,7 @@ export default function CondoRemediationTampaPage() {
                 What many Tampa condo associations are discovering during their milestone inspections is that decades of deferred maintenance, combined with Tampa's harsh subtropical environment, have produced structural deterioration that requires significant remediation. The combination of salt air from Tampa Bay, annual rainfall exceeding 50 inches, intense UV exposure, and hurricane-force wind events accelerates concrete deterioration and steel corrosion far beyond what the original builders anticipated. Balconies, parking structures, exterior walkways, and building envelope systems bear the brunt of this environmental assault.
               </p>
               <p>
-                Florida Construction Specialists brings structural remediation expertise to Tampa condo associations navigating this unprecedented compliance challenge. With our licensed CBC contractor credentials, in-house engineering capabilities, and decades of experience with concrete and structural repair in the Tampa Bay environment, we help associations move from inspection findings to completed remediation efficiently and cost-effectively.
+                Florida Construction Specialists brings structural remediation expertise to Tampa condo associations navigating this unprecedented compliance challenge. With our licensed CBC contractor credentials, direct access to licensed structural engineers, and decades of experience with concrete and structural repair in the Tampa Bay environment, we help associations move from inspection findings to completed remediation efficiently and cost-effectively.
               </p>
             </div>
 
@@ -318,7 +318,7 @@ export default function CondoRemediationTampaPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>SB 4-D Remediation Specialists</span>
             </div>

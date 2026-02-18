@@ -137,7 +137,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
           <div className="flex flex-wrap justify-center gap-8 text-center">
             <div className="flex items-center gap-2">
               <Shield className="w-6 h-6 text-brand-green" />
-              <span className="font-semibold text-gray-700">In-House Engineering</span>
+              <span className="font-semibold text-gray-700">Engineering Coordination</span>
             </div>
             <div className="flex items-center gap-2">
               <Award className="w-6 h-6 text-brand-green" />
@@ -651,7 +651,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
               {
                 icon: Shield,
                 title: "Fully Bonded & Insured",
-                desc: "With 40+ years experience and in-house engineering and comprehensive insurance, your association is protected throughout the remediation process.",
+                desc: "With 40+ years experience, dedicated engineering partners, and comprehensive insurance, your association is protected throughout the remediation process.",
               },
               {
                 icon: FileText,

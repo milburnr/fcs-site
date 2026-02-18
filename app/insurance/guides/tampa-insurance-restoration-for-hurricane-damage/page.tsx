@@ -367,7 +367,7 @@ export default function Page() {
             </p>
 
             <p className="text-gray-600 mb-8">
-              Our in-house capabilities cover every aspect of hurricane restoration—from storm response through complete reconstruction. This allows us to control quality, maintain schedules, and provide single-source accountability throughout your project.
+              Our comprehensive capabilities cover every aspect of hurricane restoration—from storm response through complete reconstruction. This allows us to control quality, maintain schedules, and provide single-source accountability throughout your project.
             </p>
 
             <div className="bg-brand-green-dark text-white p-8 rounded-lg">

@@ -118,7 +118,7 @@ export default function CondoRemediationBrandonPage() {
                 Brandon's condominium stock represents a different profile than the high-rise towers lining Tampa's Bayshore Boulevard or the beachfront properties in St. Petersburg. Most Brandon condominiums are low-rise garden-style or walk-up buildings, two to four stories tall, built during the community's suburban expansion from the early 1980s through the 2000s. These buildings may lack the dramatic height of coastal condos, but they face the same structural aging challenges, the same SB 4-D compliance requirements, and the same need for professional remediation when milestone inspections reveal deterioration.
               </p>
               <p className="mb-6">
-                SB 4-D, the Florida legislation passed in response to the Surfside condominium collapse, applies equally to condominiums in unincorporated Hillsborough County. Brandon condo associations must arrange milestone inspections at the required intervals and maintain adequate structural integrity reserve funds. For buildings approaching thirty years of age, and many in Brandon's established neighborhoods are at or past that threshold, these requirements create an urgent need for qualified remediation contractors who understand both the engineering requirements and the financial realities facing suburban condo associations.
+                SB 4-D, the Florida legislation passed in response to the Surfside condominium collapse, applies equally to condominiums in unincorporated Hillsborough County. Brandon condo associations must arrange milestone inspections at the required intervals and maintain adequate structural integrity reserve funds. For buildings at or past thirty years of age, and many in Brandon's established neighborhoods have reached that threshold, these requirements create an urgent need for qualified remediation contractors who understand both the engineering requirements and the financial realities facing suburban condo associations.
               </p>
               <p className="mb-6">
                 The remediation challenges in Brandon condos differ from coastal properties in important ways. While coastal condominiums contend with salt spray accelerating rebar corrosion and concrete spalling, Brandon's inland condos face moisture-driven deterioration from different sources. Over fifty inches of annual rainfall, combined with high ambient humidity and seasonal temperature cycling, causes concrete carbonation, waterproofing membrane failure, and stucco deterioration over decades. Flat-roof condo buildings, common in Brandon's garden-style communities, are particularly prone to ponding water damage that leads to roof deck deterioration and interior water intrusion.
@@ -315,7 +315,7 @@ export default function CondoRemediationBrandonPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Prime Contractor Only</span>
             </div>

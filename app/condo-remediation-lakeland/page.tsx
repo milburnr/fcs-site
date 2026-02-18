@@ -316,7 +316,7 @@ export default function CondoRemediationLakelandPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Prime Contractor Only</span>
             </div>

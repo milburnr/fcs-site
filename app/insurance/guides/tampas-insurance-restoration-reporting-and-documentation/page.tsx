@@ -129,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Thorough documentation is the foundation of every successful insurance restoration claim. For Tampa Bay commercial property owners, the quality of your damage documentation directly impacts claim outcomes—determining whether you receive full compensation or face underpayment, delays, or denial. Florida Construction Specialists provides comprehensive documentation services that meet insurance industry standards and support maximum claim recovery.
-             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

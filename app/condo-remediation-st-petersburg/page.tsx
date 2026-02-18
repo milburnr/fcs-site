@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: "What distinguishes FCS's approach to condo remediation from other St. Petersburg contractors?",
-    answer: "Three factors differentiate our approach in the St. Petersburg market. First, our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, provides understanding of both the structural engineering and the financial complexity of condo remediation projects. Second, we operate exclusively as a prime general contractor and never subcontract our general contracting services, ensuring direct accountability to the association board throughout the project. Third, our in-house engineering coordination capability means we work effectively with the structural engineers conducting milestone inspections, translating their findings into actionable construction scopes without the communication gaps that occur when contractors lack technical engineering understanding."
+    answer: "Three factors differentiate our approach in the St. Petersburg market. First, our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, provides understanding of both the structural engineering and the financial complexity of condo remediation projects. Second, we operate exclusively as a prime general contractor and never subcontract our general contracting services, ensuring direct accountability to the association board throughout the project. Third, our engineering coordination capability through dedicated partners means we work effectively with the structural engineers conducting milestone inspections, translating their findings into actionable construction scopes without the communication gaps that occur when contractors lack technical engineering understanding."
   }
 ];
 
@@ -123,7 +123,7 @@ export default function CondoRemediationStPetersburgPage() {
                 The aging profile of St. Petersburg's condo inventory compounds this exposure. Many of the city's waterfront condo buildings were constructed in the 1970s and 1980s during early development booms, placing them at 40 to 50 years of age with original concrete, rebar, and waterproofing systems. Buildings along the downtown bayfront, in Shore Acres, on Isla del Sol, at Coquina Key, and in Tierra Verde are reaching the age where reinforcing steel corrosion, concrete spalling, and post-tension cable deterioration become serious structural concerns. The Champlain Towers collapse in Surfside and the subsequent passage of SB 4-D have forced associations that deferred maintenance for decades to confront the condition of their buildings.
               </p>
               <p className="mb-6">
-                SB 4-D's milestone inspection requirements hit St. Petersburg's condo market particularly hard. The law requires structural inspections for buildings three stories or taller, with buildings within three miles of the coast facing inspection at 25 years of age rather than 30. Given St. Petersburg's peninsula geography, essentially every condo building in the city falls within the three-mile coastal zone. This means a large number of buildings are approaching or have already reached their inspection deadlines, creating urgent demand for qualified contractors who can perform the remediation work that milestone inspections reveal.
+                SB 4-D's milestone inspection requirements hit St. Petersburg's condo market particularly hard. The law requires structural inspections for buildings three stories or taller, with buildings within three miles of the coast facing inspection at 25 years of age rather than 30. Given St. Petersburg's peninsula geography, essentially every condo building in the city falls within the three-mile coastal zone. This means a large number of buildings have already passed their inspection deadlines, creating urgent demand for qualified contractors who can perform the remediation work that milestone inspections reveal.
               </p>
               <p>
                 Florida Construction Specialists brings a combination of structural construction expertise and insurance industry understanding to condo remediation in St. Petersburg. Our principal's background as an Executive General Adjuster provides insight into the intersection of structural repair and insurance claims that many contractors lack. When remediation costs are significant, understanding how to document work for insurance and reserve fund purposes directly benefits association boards navigating expensive repair programs.
@@ -328,7 +328,7 @@ export default function CondoRemediationStPetersburgPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Prime Contractor Only</span>
             </div>

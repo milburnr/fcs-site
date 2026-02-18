@@ -75,7 +75,7 @@ const timeline = [
     buildingAge: "30 years (25 if within 3 miles of coast)",
     requirement: "Initial milestone inspection required",
     deadline: "December 31, 2024 (buildings meeting criteria as of July 1, 2022)",
-    notes: "Buildings approaching 30 years should plan 12-18 months ahead",
+    notes: "Buildings at or nearing 30 years should plan 12-18 months ahead",
   },
   {
     buildingAge: "Every 10 years after initial",
@@ -336,7 +336,7 @@ export default function MilestoneInspectionRequirementsPage() {
               <strong>Important:</strong> Initial milestone inspection deadlines have passed
               for most qualifying buildings. Non-compliant associations face significant
               legal exposure.
-             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
           </div>
         </div>
       </section>

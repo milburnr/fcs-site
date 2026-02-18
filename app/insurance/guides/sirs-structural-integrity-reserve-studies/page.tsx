@@ -179,7 +179,7 @@ const faqs = [
   {
     question: "Which Florida condos need a SIRS?",
     answer:
-      "SIRS is required for condominium buildings that are 3 or more stories tall and at least 30 years old (or 25 years if within 3 miles of the coast). The deadline for initial SIRS completion was December 31, 2024. Buildings approaching these thresholds should begin planning 12-18 months in advance. Single-family attached residences (townhomes) and 2-story buildings are generally exempt.",
+      "SIRS is required for condominium buildings that are 3 or more stories tall and at least 30 years old (or 25 years if within 3 miles of the coast). The deadline for initial SIRS completion was December 31, 2024. Buildings nearing these thresholds should begin planning 12-18 months in advance. Single-family attached residences (townhomes) and 2-story buildings are generally exempt.",
   },
   {
     question: "Can our condo association waive SIRS reserve requirements?",

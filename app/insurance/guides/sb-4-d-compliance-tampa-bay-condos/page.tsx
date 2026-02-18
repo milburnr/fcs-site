@@ -424,8 +424,8 @@ export default function SB4DCompliancePage() {
                     <td className="px-4 py-3 font-medium">December 31, 2025</td>
                     <td className="px-4 py-3">SIRS completion for all 3+ story buildings</td>
                     <td className="px-4 py-3">
-                      <span className="inline-flex items-center px-2 py-1 bg-amber-100 text-amber-800 text-xs font-medium rounded-full">
-                        ⚠ Approaching
+                      <span className="inline-flex items-center px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">
+                        ⛔ Past Due
                       </span>
                     </td>
                   </tr>
@@ -433,8 +433,8 @@ export default function SB4DCompliancePage() {
                     <td className="px-4 py-3 font-medium">December 31, 2025</td>
                     <td className="px-4 py-3">Milestone inspection (CO July 1992 - December 1994)</td>
                     <td className="px-4 py-3">
-                      <span className="inline-flex items-center px-2 py-1 bg-amber-100 text-amber-800 text-xs font-medium rounded-full">
-                        ⚠ Approaching
+                      <span className="inline-flex items-center px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">
+                        ⛔ Past Due
                       </span>
                     </td>
                   </tr>
@@ -442,8 +442,8 @@ export default function SB4DCompliancePage() {
                     <td className="px-4 py-3 font-medium">January 1, 2026</td>
                     <td className="px-4 py-3">Full reserve funding begins (no more waivers)</td>
                     <td className="px-4 py-3">
-                      <span className="inline-flex items-center px-2 py-1 bg-amber-100 text-amber-800 text-xs font-medium rounded-full">
-                        ⚠ Approaching
+                      <span className="inline-flex items-center px-2 py-1 bg-red-100 text-red-800 text-xs font-medium rounded-full">
+                        ⛔ Past Due
                       </span>
                     </td>
                   </tr>
@@ -732,7 +732,7 @@ export default function SB4DCompliancePage() {
               {
                 icon: Shield,
                 title: "Fully Licensed & Bonded",
-                desc: "Florida CBC license, 40+ years experience and in-house engineering, comprehensive insurance. Your association is protected.",
+                desc: "Florida CBC license, 40+ years experience, dedicated engineering partners, comprehensive insurance. Your association is protected.",
               },
               {
                 icon: FileText,

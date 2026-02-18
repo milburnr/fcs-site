@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: "How does FCS handle the engineering and permitting requirements for Bradenton condo remediation?",
-    answer: "Condo remediation in Bradenton requires coordination between the structural engineer who performed the milestone inspection, our in-house engineering team, and the permitting jurisdiction. Remediation plans must be prepared by a licensed structural engineer and specify repair methods, materials, and acceptance criteria for each structural element. Permits go through the City of Bradenton Building Division for properties within city limits, or Manatee County Building Department for unincorporated areas. Anna Maria Island properties go through the respective city governments of Anna Maria, Holmes Beach, or Bradenton Beach, each of which has its own building department. We manage the complete engineering and permitting process so the condo association has a single point of coordination rather than juggling multiple consultants and jurisdictions."
+    answer: "Condo remediation in Bradenton requires coordination between the structural engineer who performed the milestone inspection, our dedicated engineering partners, and the permitting jurisdiction. Remediation plans must be prepared by a licensed structural engineer and specify repair methods, materials, and acceptance criteria for each structural element. Permits go through the City of Bradenton Building Division for properties within city limits, or Manatee County Building Department for unincorporated areas. Anna Maria Island properties go through the respective city governments of Anna Maria, Holmes Beach, or Bradenton Beach, each of which has its own building department. We manage the complete engineering and permitting process so the condo association has a single point of coordination rather than juggling multiple consultants and jurisdictions."
   }
 ];
 
@@ -331,7 +331,7 @@ export default function CondoRemediationBradentonPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Prime Contractor Only</span>
             </div>

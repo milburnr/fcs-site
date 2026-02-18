@@ -82,7 +82,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Accurate disaster damage assessment is the foundation of successful insurance claims and effective restoration planning in Tampa Bay. Florida Construction Specialists brings 43 years of insurance experience from both sides of the claims process to provide comprehensive, professional damage assessments that maximize insurance settlements and guide efficient restoration. Our certified assessors understand exactly what insurance companies require and how to document damage to ensure full coverage for your disaster recovery.
-               Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+               Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 The Critical Importance of Professional Damage Assessment

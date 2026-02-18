@@ -367,7 +367,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
               <strong>V Zone Requirement:</strong> Breakaway walls are mandatory for
               any enclosed space below the Base Flood Elevation in Coastal High Hazard
               Areas (V zones). Improper construction voids flood insurance coverage.
-             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
           </div>
         </div>
       </section>

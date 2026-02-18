@@ -42,7 +42,7 @@ const complianceDeadlines = [
   {
     requirement: "Phase 1 Milestone Inspection (Inland 30+ years)",
     deadline: "December 31, 2025",
-    status: "upcoming",
+    status: "critical",
     description: "Buildings more than 3 miles from coast, 3+ stories, 30+ years old",
   },
   {
@@ -252,7 +252,7 @@ export default function SB4DCompliancePage() {
               inspections and structural reserve studies for condominiums.
               Non-compliance exposes boards to liability. This guide explains
               every requirement Tampa Bay associations must meet.
-             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/contact/"

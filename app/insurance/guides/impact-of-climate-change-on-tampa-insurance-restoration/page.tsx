@@ -129,7 +129,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Tampa Bay sits at the intersection of climate change and insurance industry transformation. Rising sea levels, intensifying hurricanes, and increasing flood risks are driving dramatic changes in commercial property insurance—from soaring premiums to carrier withdrawals to new coverage requirements. For commercial property owners, understanding these changes and adapting strategies accordingly is essential for protecting both physical assets and financial interests.
-             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with in-house engineering and certified Xactimate estimating capabilities.</p>
+             Florida Construction Specialists has supported property owners through the insurance restoration process since 1982, with dedicated engineering partners and certified Xactimate estimating capabilities.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

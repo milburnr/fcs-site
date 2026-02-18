@@ -123,7 +123,7 @@ export default function CondoRemediationClearwaterPage() {
                 The structural challenges facing Clearwater's beach condominiums are fundamentally different from those of inland buildings. Salt-laden Gulf air continuously deposits chloride ions on concrete surfaces, where they penetrate through pores and micro-cracks to reach the reinforcing steel within. Once chloride concentrations at the rebar level exceed a critical threshold, corrosion initiates regardless of whether the concrete surface appears sound. The corrosion products expand to several times the volume of the original steel, creating internal pressure that cracks and spalls the surrounding concrete. On a barrier island where salt exposure is constant and inescapable, this process operates at an accelerated pace.
               </p>
               <p className="mb-6">
-                Mainland Clearwater condominiums, while less exposed than their beach counterparts, still operate in a coastal environment with elevated humidity and measurable salt air influence. Buildings along the Intracoastal Waterway, in the Harbor Oaks area, and throughout central Clearwater experience salt exposure that exceeds typical inland conditions. The 1970s and 1980s construction boom produced mainland condominiums that are now approaching or exceeding the 25-year milestone inspection threshold under SB4-D.
+                Mainland Clearwater condominiums, while less exposed than their beach counterparts, still operate in a coastal environment with elevated humidity and measurable salt air influence. Buildings along the Intracoastal Waterway, in the Harbor Oaks area, and throughout central Clearwater experience salt exposure that exceeds typical inland conditions. The 1970s and 1980s construction boom produced mainland condominiums that have now reached or exceeded the 25-year milestone inspection threshold under SB4-D.
               </p>
               <p>
                 Florida Construction Specialists works with Clearwater condominium associations across both the barrier island and mainland to assess building conditions, develop remediation plans, execute structural repairs, and achieve SB4-D compliance. Our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, provides a perspective on building condition assessment and restoration cost management that benefits every association we serve.
@@ -325,7 +325,7 @@ export default function CondoRemediationClearwaterPage() {
           <div className="mt-8 pt-8 border-t border-white/20">
             <div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300">
               <span>License {BUSINESS_INFO.licenseNumber}</span>
-              <span>In-House Engineering</span>
+              <span>Engineering Coordination</span>
               <span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span>
               <span>Prime Contractor Only</span>
             </div>

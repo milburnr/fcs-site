@@ -82,12 +82,12 @@ const complianceTimeline = [
   {
     milestone: "Buildings 25-29 years old (within 3 miles of coast)", 
     deadline: "By building's 30th anniversary",
-    status: "upcoming",
+    status: "ongoing",
   },
   {
     milestone: "Buildings 30+ years old (more than 3 miles from coast)",
     deadline: "December 31, 2025",
-    status: "upcoming",
+    status: "urgent",
   },
   {
     milestone: "SIRS must be completed for all applicable buildings",
@@ -97,7 +97,7 @@ const complianceTimeline = [
   {
     milestone: "Reserve funding must begin (no more waiving structural reserves)",
     deadline: "January 1, 2025",
-    status: "upcoming",
+    status: "urgent",
   },
   {
     milestone: "Subsequent milestone inspections",
@@ -219,7 +219,7 @@ const faqs = [
   },
   {
     question: "How do we get started with SB4-D compliance?",
-    answer: "Contact FCS for an initial consultation. We'll review your building's age, location (coastal proximity), and current compliance status. If you need milestone inspections or SIRS, we can recommend qualified engineers. If you've already received inspection reports identifying deficiencies, we'll review them with you, develop remediation plans, and provide detailed cost estimates. With deadlines approaching, the time to start is now."
+    answer: "Contact FCS for an initial consultation. We'll review your building's age, location (coastal proximity), and current compliance status. If you need milestone inspections or SIRS, we can recommend qualified engineers. If you've already received inspection reports identifying deficiencies, we'll review them with you, develop remediation plans, and provide detailed cost estimates. With key deadlines already past due, the time to start is now."
   },
 ];
 
@@ -287,7 +287,7 @@ export default function CondoRemediationPage() {
               SB4-D Compliance & Condo Remediation Tampa Bay
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-4">
-              Florida&apos;s new condo safety law requires milestone inspections and structural integrity reserve studies. <strong>Deadlines are approaching fast.</strong>
+              Florida&apos;s new condo safety law requires milestone inspections and structural integrity reserve studies. <strong>Key deadlines have already passed -- associations must act now.</strong>
             </p>
             <p className="text-lg text-white/80 mb-8">
               FCS helps Tampa Bay condo associations navigate SB4-D compliance, complete required inspections, and execute remediation work. With $4.9M+ in completed condo projects, we understand the urgency and complexity of this work.
@@ -416,7 +416,7 @@ export default function CondoRemediationPage() {
                 The centerpiece of SB4-D is the mandatory milestone structural inspection. This inspection must be performed by a licensed architect or engineer and consists of two potential phases. Phase 1 is a visual examination of the building&apos;s structural components. If Phase 1 reveals substantial structural deterioration, Phase 2 triggers more extensive investigation including destructive testing and development of a detailed repair plan.
               </p>
               <p className="mb-6">
-                For existing buildings already past their 30-year (or 25-year coastal) anniversary, the initial milestone inspection must be completed by December 31, 2024 for buildings within 3 miles of the coast, or December 31, 2025 for buildings more than 3 miles inland. Buildings approaching their milestone age must complete inspection within their applicable timeframe. After the initial inspection, subsequent milestone inspections are required every 10 years.
+                For existing buildings already past their 30-year (or 25-year coastal) anniversary, the initial milestone inspection must be completed by December 31, 2024 for buildings within 3 miles of the coast, or December 31, 2025 for buildings more than 3 miles inland. Buildings reaching their milestone age must complete inspection within their applicable timeframe. After the initial inspection, subsequent milestone inspections are required every 10 years.
               </p>
 
               <h3 className="text-2xl font-bold text-brand-green-dark mt-8 mb-4">SIRS Requirements</h3>
@@ -996,7 +996,7 @@ export default function CondoRemediationPage() {
             SB4-D Deadlines Won&apos;t Wait. Neither Should You.
           </h2>
           <p className="text-xl text-white/90 mb-4 max-w-3xl mx-auto">
-            The December 31, 2024 deadline is fast approaching for many Tampa Bay condominiums. If your association hasn&apos;t started the SB4-D compliance process, every week matters.
+            The December 31, 2024 deadline has passed for many Tampa Bay condominiums. If your association hasn&apos;t completed the SB4-D compliance process, you are past due and every week matters.
           </p>
           <p className="text-lg text-white/80 mb-8 max-w-3xl mx-auto">
             Contact FCS today for a compliance assessment. We&apos;ll review your building&apos;s status, explain your requirements, and help you develop a plan to meet deadlines and protect your community.

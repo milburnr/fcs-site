@@ -153,7 +153,7 @@ export default function CondoRemediationRuskinPage() {
               {
                 icon: FileCheck,
                 title: "Milestone Inspection Support",
-                description: "Coordination of Phase 1 and Phase 2 structural inspections with licensed engineers for Sun City Center, Apollo Beach, and South Hillsborough condominiums approaching or past their inspection deadlines."
+                description: "Coordination of Phase 1 and Phase 2 structural inspections with licensed engineers for Sun City Center, Apollo Beach, and South Hillsborough condominiums at or past their inspection deadlines."
               },
               {
                 icon: Shield,
