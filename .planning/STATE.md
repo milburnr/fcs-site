@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-15)
 
 **Core value:** The site ranks page 1 for priority keywords in Tampa Bay and generates organic leads for insurance restoration and condo remediation services.
-**Current focus:** Phase 8: Insurance Restoration Content
+**Current focus:** Phase 8: Insurance Restoration Content (COMPLETE)
 
 ## Current Position
 
 Phase: 8 of 9 (Insurance Restoration Content)
-Plan: 04 of 5 in current phase (04 complete)
-Status: In Progress
-Last activity: 2026-02-18 -- Completed 08-04 (Water Restoration E-E-A-T)
+Plan: 05 of 5 in current phase (05 complete -- PHASE COMPLETE)
+Status: Phase 8 Complete
+Last activity: 2026-02-18 -- Completed 08-05 (Dollar Ranges, Scope Details & Guide Cross-Links)
 
-Progress: [████████████████░░░░] 80%
+Progress: [██████████████████░░] 90%
 
 ## Performance Metrics
 
@@ -81,6 +81,7 @@ Progress: [████████████████░░░░] 80%
 | Phase 08 P04 | 3min | 2 tasks | 1 files |
 | Phase 08 P03 | 4min | 2 tasks | 1 files |
 | Phase 08 P02 | 4min | 2 tasks | 1 files |
+| Phase 08 P05 | 4min | 2 tasks | 5 files |
 
 ## Accumulated Context
 
@@ -1031,6 +1032,9 @@ Recent decisions affecting current work:
 - [Phase 08-01]: Insurance silo (app/insurance/ + app/insurance-restoration-tampa/) now zero "in-house"/"staff engineer" instances
 - [Phase 08-01]: Differentiator "In-House Engineering" renamed to "Direct Engineering Access"; qualifications "In-House Team" renamed to "Integrated Team"
 - [Phase 08-01]: FAQ "Do you have an in-house engineer?" reframed to "Do you have direct access to structural engineers?"
+- [Phase 08-05]: guideLink property on processSteps data with separate Link rendering (keeps data layer clean)
+- [Phase 08-05]: Fixed $225K floor to $500K on building-consultant and certified-estimating pages per FCS large-loss positioning
+- [Phase 08-05]: Licensed-GC page expanded from 1,194 to 1,833 words with bonding, structural scope, subcontractor management, carrier documentation
 5K inflation-indexed threshold
 - [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
 - [Phase 07-04]: Tampa page references City Code 5-110.9, Accela RCT record type, CSDLSP contact -- local SB 4-D codification
@@ -1082,6 +1086,9 @@ Recent decisions affecting current work:
 - [Phase 08-01]: Insurance silo (app/insurance/ + app/insurance-restoration-tampa/) now zero "in-house"/"staff engineer" instances
 - [Phase 08-01]: Differentiator "In-House Engineering" renamed to "Direct Engineering Access"; qualifications "In-House Team" renamed to "Integrated Team"
 - [Phase 08-01]: FAQ "Do you have an in-house engineer?" reframed to "Do you have direct access to structural engineers?"
+- [Phase 08-05]: guideLink property on processSteps data with separate Link rendering (keeps data layer clean)
+- [Phase 08-05]: Fixed $225K floor to $500K on building-consultant and certified-estimating pages per FCS large-loss positioning
+- [Phase 08-05]: Licensed-GC page expanded from 1,194 to 1,833 words with bonding, structural scope, subcontractor management, carrier documentation
 5K inflation-indexed threshold
 - [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
 - [Phase 07-04]: Tampa page references City Code 5-110.9, Accela RCT record type, CSDLSP contact -- local SB 4-D codification
@@ -1134,6 +1141,9 @@ Recent decisions affecting current work:
 - [Phase 08-01]: Insurance silo (app/insurance/ + app/insurance-restoration-tampa/) now zero "in-house"/"staff engineer" instances
 - [Phase 08-01]: Differentiator "In-House Engineering" renamed to "Direct Engineering Access"; qualifications "In-House Team" renamed to "Integrated Team"
 - [Phase 08-01]: FAQ "Do you have an in-house engineer?" reframed to "Do you have direct access to structural engineers?"
+- [Phase 08-05]: guideLink property on processSteps data with separate Link rendering (keeps data layer clean)
+- [Phase 08-05]: Fixed $225K floor to $500K on building-consultant and certified-estimating pages per FCS large-loss positioning
+- [Phase 08-05]: Licensed-GC page expanded from 1,194 to 1,833 words with bonding, structural scope, subcontractor management, carrier documentation
 5K inflation-indexed threshold
 - [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
 - [Phase 07-04]: Tampa page references City Code 5-110.9, Accela RCT record type, CSDLSP contact -- local SB 4-D codification
@@ -1185,6 +1195,9 @@ Recent decisions affecting current work:
 - [Phase 08-01]: Insurance silo (app/insurance/ + app/insurance-restoration-tampa/) now zero "in-house"/"staff engineer" instances
 - [Phase 08-01]: Differentiator "In-House Engineering" renamed to "Direct Engineering Access"; qualifications "In-House Team" renamed to "Integrated Team"
 - [Phase 08-01]: FAQ "Do you have an in-house engineer?" reframed to "Do you have direct access to structural engineers?"
+- [Phase 08-05]: guideLink property on processSteps data with separate Link rendering (keeps data layer clean)
+- [Phase 08-05]: Fixed $225K floor to $500K on building-consultant and certified-estimating pages per FCS large-loss positioning
+- [Phase 08-05]: Licensed-GC page expanded from 1,194 to 1,833 words with bonding, structural scope, subcontractor management, carrier documentation
 5K inflation-indexed threshold
 - [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
 - [Phase 07-04]: Tampa page references City Code 5-110.9, Accela RCT record type, CSDLSP contact -- local SB 4-D codification
