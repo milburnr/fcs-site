@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 7 of 9 (SB4-D Content Hub)
-Plan: 04 of 6 in current phase (04 complete)
+Plan: 05 of 6 in current phase (05 complete)
 Status: Executing Phase 7
-Last activity: 2026-02-18 -- Completed 07-04 (Tampa & St. Petersburg SB4-D Location Pages)
+Last activity: 2026-02-18 -- Completed 07-01 (Hub Pillar + Compliance Checklist)
 
 Progress: [██████████] 93%
 
@@ -73,6 +73,7 @@ Progress: [██████████] 93%
 | Phase 06 P06 | 15min | 2 tasks | 9 files |
 | Phase 07 P03 | 5min | 1 tasks | 1 files |
 | Phase 07 P04 | 6min | 2 tasks | 2 files |
+| Phase 07 P01 | 11min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -199,6 +200,10 @@ Recent decisions affecting current work:
 - [Phase 07-04]: St. Pete page uses peninsula geography as unifying theme -- bidirectional salt exposure, citywide 25-year coastal trigger
 - [Phase 07-04]: Dual building dept contact cards on St. Pete page (city vs Pinellas County) for jurisdictional clarity
 - [Phase 07-04]: Compliance timeline section on Tampa page only (St. Pete doesn't need it -- all buildings on same 25-year clock)
+- [Phase 07-01]: Hub pillar uses ServiceSchema without city parameter (service page, not location-specific)
+- [Phase 07-01]: AuthorByline light variant in hero for E-E-A-T visibility
+- [Phase 07-01]: Checklist BackToHub uses customHubTitle/customHubHref for /sb4d-compliance/ (not commercial default)
+- [Phase 07-01]: Hub related services uses manual link cards (not RelatedServices component, since hub is not city-specific)
 
 ### Pending Todos
 
@@ -213,5 +218,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 07-04-PLAN.md (Tampa & St. Petersburg SB4-D Location Pages)
-Resume file: Continue Phase 7 plans (01, 02, 05, 06)
+Stopped at: Completed 07-01-PLAN.md (Hub Pillar + Compliance Checklist)
+Resume file: Continue Phase 7 plans (02, 05, 06)
