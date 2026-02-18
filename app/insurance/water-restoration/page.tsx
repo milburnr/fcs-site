@@ -352,27 +352,66 @@ export default function WaterRestorationPage() {
 
             <h3>Commercial Water Damage</h3>
             <p>
-              Commercial properties present unique water damage challenges: larger affected areas, complex HVAC 
-              systems, specialized flooring, and business interruption concerns. A flooded office building, 
-              warehouse, or retail space requires restoration capacity that residential contractors simply don't have.
+              Commercial properties present unique water damage challenges: larger affected areas, complex HVAC
+              systems, specialized flooring, and business interruption concerns. We routinely handle $250,000 to
+              $5 million commercial water losses from roof leaks, plumbing failures, and sprinkler system
+              malfunctions. In multi-floor commercial buildings, water migrates through elevator shafts, stairwells,
+              and interstitial spaces—requiring floor-by-floor assessment and simultaneous drying on every affected
+              level. Condominium buildings present a particular challenge: a single pipe burst can produce cascading
+              water damage affecting 10 to 50+ units from one source, with restoration costs exceeding $1 million.
+              Even single-family residential pipe bursts regularly produce $50,000+ losses when water reaches wall
+              cavities and subfloor systems.
             </p>
             <p>
-              FCS maintains the equipment inventory and trained workforce to handle large commercial losses. 
-              We've restored flooded hotels, office buildings, shopping centers, and industrial facilities—deploying 
-              dozens of dehumidifiers and air movers simultaneously to achieve rapid dry-out while you focus on 
-              business continuity.
+              FCS maintains the equipment inventory and trained workforce to handle large commercial losses.
+              We've restored flooded hotels, office buildings, shopping centers, and industrial facilities—deploying
+              dozens of dehumidifiers and air movers simultaneously to achieve rapid dry-out while you focus on
+              business continuity. Our dedicated engineering partners provide structural assessments when water
+              damage compromises load-bearing elements, and direct access to licensed structural engineers means
+              we can evaluate affected framing, concrete, and steel without delays.
+            </p>
+
+            <h3>The 24-48 Hour Mold Prevention Window</h3>
+            <p>
+              What makes water damage fundamentally different from hurricane wind damage or fire damage is the
+              biological clock. Mold spores are omnipresent in Florida's humid air—they only need moisture and
+              time to colonize. Within 24 to 48 hours of water exposure, what was a straightforward water loss
+              becomes a mold remediation project with dramatically expanded scope and cost. This critical timeline
+              drives every decision we make: rapid extraction, aggressive drying capacity deployment, and
+              antimicrobial treatment before colonization begins. FCS uses infrared thermography and moisture
+              meters to map hidden water migration that adjusters and less-equipped contractors miss—moisture
+              traveling through wall cavities, wicking up drywall, and pooling in interstitial spaces that
+              appear dry on the surface.
+            </p>
+
+            <h3>Flood Insurance vs. Water Damage Insurance</h3>
+            <p>
+              An important distinction that catches many property owners off guard: standard property insurance
+              and flood insurance are entirely separate policies with different adjusting processes. NFIP flood
+              policies cover rising water from external sources (storm surge, overland flooding, river overflow),
+              while standard property policies cover sudden internal water events (burst pipes, appliance failures,
+              sprinkler discharge). Wind-driven rain falls into yet another category. When a hurricane produces
+              both roof damage (wind policy) and ground-floor flooding (flood policy), two separate claims with
+              two separate adjusters are required. FCS documents damage with enough specificity to support both
+              claim types and coordinates with multiple carriers when losses span policy boundaries.
+            </p>
+            <p>
+              When water damage results from third-party negligence—an upstairs tenant's overflowing bathtub,
+              a contractor's severed water line, or a defective appliance—our detailed documentation supports
+              subrogation recovery. Thorough moisture mapping, daily drying logs, and Xactimate line-item
+              estimates give your insurer or attorney the evidence needed to pursue responsible parties.
             </p>
 
             <h3>Insurance Claim Support</h3>
             <p>
-              Water damage claims can be contentious. Carriers may dispute the source of water, question whether 
-              damage is sudden (covered) versus gradual (often excluded), or disagree on appropriate repair scope. 
+              Water damage claims can be contentious. Carriers may dispute the source of water, question whether
+              damage is sudden (covered) versus gradual (often excluded), or disagree on appropriate repair scope.
               Our documentation—moisture readings, thermal images, progress photos, and detailed Xactimate estimates—
               provides the evidence needed for fair claim resolution.
             </p>
             <p>
-              When water damage results from covered events (pipe bursts, appliance failures, storm damage), we help 
-              ensure your claim captures the full scope of damage, including hidden moisture and necessary demolition. 
+              When water damage results from covered events (pipe bursts, appliance failures, storm damage), we help
+              ensure your claim captures the full scope of damage, including hidden moisture and necessary demolition.
               For flood damage requiring separate flood insurance, we coordinate with both policies when applicable.
             </p>
           </div>
