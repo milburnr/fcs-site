@@ -201,6 +201,9 @@ export default function AppraisalArbitrationPage() {
 
             <h3>Costs and Considerations</h3>
             <p>
+              FCS has supported property owners through the appraisal process on claims ranging from $500,000 to $8 million, consistently achieving settlements significantly above initial carrier offers. The appraisal process is particularly effective on losses exceeding $500,000 where the gap between the carrier's estimate and the actual restoration cost justifies the formal appraisal process.
+            </p>
+            <p>
               Each party pays for their own appraiser, and the cost of the umpire is typically split. While there are costs involved, the potential recovery often far exceeds these expenses—particularly for large loss claims where insurance companies have the most incentive to minimize payments.
             </p>
             <p>

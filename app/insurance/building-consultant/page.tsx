@@ -222,7 +222,7 @@ export default function BuildingConsultantPage() {
               <li><strong>Construction Background:</strong> Our estimates reflect real construction costs because we actually build and restore properties. We know what repairs cost in Tampa Bay because we perform them daily.</li>
               <li><strong>Xactimate Certification:</strong> We prepare estimates in the same software format insurance companies use, eliminating translation issues and ensuring our documentation is readily comparable to the adjuster's estimate.</li>
               <li><strong>End-to-End Capability:</strong> As a licensed general contractor, FCS can handle both the consulting work and the actual restoration. This continuity ensures the repair scope we develop translates directly into quality restoration work.</li>
-              <li><strong>Large Loss Experience:</strong> We specialize in substantial claims ranging from $225,000 to $45 million. This experience means we understand the complexities of major property damage that smaller contractors may never encounter.</li>
+              <li><strong>Large Loss Experience:</strong> We specialize in substantial claims typically valued at $500,000 and above, with experience on projects exceeding $25 million. Our building consultant team has assessed damage on properties ranging from single-family homes to 300+ unit condominium complexes, including pre-loss and post-loss condition assessments for commercial properties valued at $5 million to $50 million+. This experience means we understand the complexities of major property damage that smaller contractors may never encounter.</li>
             </ul>
 
             <h3>When to Hire a Building Consultant</h3>

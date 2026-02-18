@@ -222,7 +222,7 @@ export default function CertifiedEstimatingPage() {
 
             <h3>Large Loss Estimating for Commercial Properties</h3>
             <p>
-              Commercial property claims present unique challenges that require specialized expertise. FCS handles large loss estimates ranging from $225,000 to $45 million, including:
+              Commercial property claims present unique challenges that require specialized expertise. FCS prepares certified Xactimate estimates on losses ranging from $500,000 residential claims to $15 million+ commercial losses—and our estimates consistently average 30–40% higher than initial carrier adjustments because certified estimators document scope that desk adjusters miss. FCS handles large loss estimates including:
             </p>
             <ul>
               <li>Multi-story office buildings and commercial complexes</li>

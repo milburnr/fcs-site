@@ -214,8 +214,43 @@ export default function LicensedGeneralContractorPage() {
               <li>High-value residential: $500,000+</li>
             </ul>
             <p>
-              Our 40+ years of experience includes 300+ completed projects totaling more than $25 million in 
+              Our 40+ years of experience includes 300+ completed projects totaling more than $25 million in
               restoration value throughout Tampa Bay and Florida.
+            </p>
+
+            <h2>Bonding Capacity and Financial Accountability</h2>
+            <p>
+              Large loss insurance restoration projects require a contractor with the financial standing to guarantee completion. FCS's bonding capacity supports projects exceeding $10 million, providing insurance carriers the assurance that the contractor can complete the full scope of work without financial risk. This bonding capacity is a critical qualification that separates licensed general contractors from smaller firms—carriers will not approve payment schedules on multi-million dollar restorations to contractors who cannot demonstrate the financial stability to see the project through.
+            </p>
+            <p>
+              For property owners and HOA boards, bonding capacity translates directly to project security. On a $2 million condominium re-roofing project or a $5 million commercial building restoration, the performance bond ensures that the work will be completed to the contract scope regardless of circumstances. This protection is particularly important during Florida's hurricane season, when demand for restoration contractors surges and under-capitalized firms regularly fail mid-project.
+            </p>
+
+            <h2>Scope That Requires Licensed General Contractor Authority</h2>
+            <p>
+              Many large loss restoration projects involve work that only a licensed general contractor can legally perform in Florida. Unlicensed or specialty-only contractors cannot pull permits for structural modifications, coordinate load-bearing wall reconstruction, manage multi-trade restoration sequencing, or ensure code upgrade compliance across disciplines. FCS handles the full range of licensed GC scope:
+            </p>
+            <ul>
+              <li><strong>Structural modifications and load-bearing wall reconstruction</strong> requiring engineering review and sealed drawings</li>
+              <li><strong>Multi-trade coordination</strong> across roofing, mechanical, electrical, plumbing, fire suppression, and interior trades—all under a single contract and permit set</li>
+              <li><strong>Code upgrade compliance</strong> where the Florida Building Code requires improvements beyond simple in-kind replacement, including hurricane-resistance upgrades, accessibility modifications, and energy code compliance</li>
+              <li><strong>Complex phasing plans</strong> for occupied buildings where restoration must proceed while tenants or businesses continue to operate</li>
+            </ul>
+            <p>
+              On a $500,000+ structural restoration requiring engineering review, or a $1–5 million multi-trade commercial restoration project, the difference between a licensed general contractor and a specialty contractor is not just legal compliance—it is the difference between a coordinated, code-compliant restoration and a fragmented process that invites delays, disputes, and failed inspections.
+            </p>
+
+            <h2>Subcontractor Management for Large Losses</h2>
+            <p>
+              Insurance carriers sometimes attempt to parcel large loss projects across multiple separate contractors—one for roofing, another for interiors, a third for mechanical systems. This approach creates coordination gaps, schedule conflicts, and accountability disputes that ultimately delay completion and increase costs. As prime contractor, FCS manages all trades under one contract. Our project managers coordinate every subcontractor, sequence every phase, and maintain a single schedule that the carrier, property owner, and building department can all track. The result is faster completion, cleaner inspections, and a single point of accountability from mobilization through certificate of completion.
+            </p>
+            <p>
+              Consider a $3 million hurricane restoration on a 150-unit condominium complex. The project requires roofing, structural steel repair, window and sliding door replacement, stucco and waterproofing, interior drywall and paint, flooring, mechanical system repair, fire alarm restoration, and elevator modernization. Without a licensed general contractor managing every trade under a single permit set and schedule, the property owner faces months of coordination delays, duplicated general conditions costs, and finger-pointing between contractors when inspection failures occur. FCS eliminates that complexity by serving as the single prime contractor with direct accountability for scope, schedule, quality, and budget across every discipline.
+            </p>
+
+            <h2>Insurance Carrier Communication and Documentation</h2>
+            <p>
+              Large loss claims require ongoing communication with the insurance carrier throughout the restoration process. FCS maintains detailed project documentation—daily logs, progress photographs, material submittals, inspection reports, and change order records—that satisfies both the carrier's reporting requirements and the property owner's need for transparency. Our project managers produce weekly status reports that carriers can use to authorize progress payments, and our closeout documentation package ensures the final payment release proceeds without delays or disputes. This level of documentation is standard on every FCS project, whether the restoration scope is $500,000 or $10 million.
             </p>
           </div>
         </div>
