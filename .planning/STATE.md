@@ -211,6 +211,10 @@ Recent decisions affecting current work:
 - [Phase 07-05]: Sarasota page focuses on Hurricane Ian overlap, luxury market stakes, multi-jurisdiction complexity (City/County/Longboat Key)
 - [Phase 07-05]: Both pages include CodeReference for F.S. 553.899; Sarasota does NOT duplicate F.S. 718.112 from condo-remediation page
 - [Phase 07-05]: Building dept shown as dual-card layout with border-left accent, matching Phase 05 city page pattern
+- [Phase 07-02]: Deadline page uses responsive table (desktop) + card stack (mobile) for status display
+- [Phase 07-02]: Cost page uses vertical card layout with driver lists rather than a simple table
+- [Phase 07-02]: Both pages use ServiceSchema (not LocalBusinessSchema) since they are topic pages, not location pages
+- [Phase 07-02]: Contingency caveat placed in opening callout, per-FAQ answer, and standalone red reminder box (3 placements)
 
 ### Pending Todos
 
@@ -225,5 +229,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 07-01-PLAN.md (Hub Pillar + Compliance Checklist)
-Resume file: Continue Phase 7 plans (02, 05, 06)
+Stopped at: Completed 07-02-PLAN.md (SB4-D Deadlines & Cost Guidance)
+Resume file: Continue Phase 7 plan 06 (existing page updates)
