@@ -10,11 +10,11 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 7 of 9 (SB4-D Content Hub)
-Plan: 05 of 6 in current phase (05 complete)
-Status: Executing Phase 7
-Last activity: 2026-02-18 -- Completed 07-05 (Clearwater & Sarasota SB4-D Location Pages)
+Plan: 06 of 6 in current phase (06 complete)
+Status: Phase 7 Complete
+Last activity: 2026-02-18 -- Completed 07-06 (Existing Page Updates & Hub Integration)
 
-Progress: [██████████] 93%
+Progress: [██████████] 100%
 
 ## Performance Metrics
 
@@ -76,6 +76,7 @@ Progress: [██████████] 93%
 | Phase 07 P01 | 11min | 2 tasks | 2 files |
 | Phase 07 P05 | 11min | 2 tasks | 2 files |
 | Phase 07 P02 | 8min | 2 tasks | 2 files |
+| Phase 07 P06 | 9min | 2 tasks | 24 files |
 
 ## Accumulated Context
 
@@ -215,6 +216,9 @@ Recent decisions affecting current work:
 - [Phase 07-02]: Cost page uses vertical card layout with driver lists rather than a simple table
 - [Phase 07-02]: Both pages use ServiceSchema (not LocalBusinessSchema) since they are topic pages, not location pages
 - [Phase 07-02]: Contingency caveat placed in opening callout, per-FAQ answer, and standalone red reminder box (3 placements)
+- [Phase 07-06]: 20 pages cleaned of "in-house engineer" language (8 condo-remediation + 7 insurance guides + 5 non-SB4D guides)
+- [Phase 07-06]: Dec 2025 and Jan 2026 deadlines updated to past-due framing; Dec 2026 left as approaching
+- [Phase 07-06]: Blue callout box pattern (bg-blue-50 + AlertTriangle) established for hub cross-linking
 
 ### Pending Todos
 
@@ -229,5 +233,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 07-02-PLAN.md (SB4-D Deadlines & Cost Guidance)
-Resume file: Continue Phase 7 plan 06 (existing page updates)
+Stopped at: Completed 07-06-PLAN.md (Existing Page Updates & Hub Integration)
+Resume file: Phase 7 complete. Next: Phase 8 or 9 per roadmap
