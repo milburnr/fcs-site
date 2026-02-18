@@ -12,7 +12,7 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 Phase: 7 of 9 (SB4-D Content Hub)
 Plan: 05 of 6 in current phase (05 complete)
 Status: Executing Phase 7
-Last activity: 2026-02-18 -- Completed 07-01 (Hub Pillar + Compliance Checklist)
+Last activity: 2026-02-18 -- Completed 07-05 (Clearwater & Sarasota SB4-D Location Pages)
 
 Progress: [██████████] 93%
 
@@ -74,6 +74,8 @@ Progress: [██████████] 93%
 | Phase 07 P03 | 5min | 1 tasks | 1 files |
 | Phase 07 P04 | 6min | 2 tasks | 2 files |
 | Phase 07 P01 | 11min | 2 tasks | 2 files |
+| Phase 07 P05 | 11min | 2 tasks | 2 files |
+| Phase 07 P02 | 8min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -204,6 +206,11 @@ Recent decisions affecting current work:
 - [Phase 07-01]: AuthorByline light variant in hero for E-E-A-T visibility
 - [Phase 07-01]: Checklist BackToHub uses customHubTitle/customHubHref for /sb4d-compliance/ (not commercial default)
 - [Phase 07-01]: Hub related services uses manual link cards (not RelatedServices component, since hub is not city-specific)
+- [Phase 07-05]: Used "Licensed Engineering Partners" in CTA footer instead of "In-House Engineering" per engineer language rules
+- [Phase 07-05]: Clearwater page focuses on barrier island tourism economics, Memorial Causeway logistics, Sand Key/Island Estates specifics
+- [Phase 07-05]: Sarasota page focuses on Hurricane Ian overlap, luxury market stakes, multi-jurisdiction complexity (City/County/Longboat Key)
+- [Phase 07-05]: Both pages include CodeReference for F.S. 553.899; Sarasota does NOT duplicate F.S. 718.112 from condo-remediation page
+- [Phase 07-05]: Building dept shown as dual-card layout with border-left accent, matching Phase 05 city page pattern
 
 ### Pending Todos
 
