@@ -48,7 +48,7 @@ const faqs = [
   },
   {
     question: "What types of damage do you assess?",
-    answer: "We assess all types of property damage including fire, water, wind, hurricane, hail, flood, mold, structural damage, and more. Our in-house engineer evaluates structural concerns, while our estimators document all damage with Xactimate-certified estimates.",
+    answer: "We assess all types of property damage including fire, water, wind, hurricane, hail, flood, mold, structural damage, and more. Our dedicated engineering partner evaluates structural concerns, while our estimators document all damage with Xactimate-certified estimates.",
   },
   {
     question: "Can you help with denied or underpaid claims?",
@@ -185,7 +185,7 @@ export default function BuildingConsultantPage() {
               Without equal expertise on your side, you may accept a settlement that falls far short of true repair costs. You may not realize until repairs begin that the insurance estimate missed critical damage, used outdated pricing, or excluded code-required upgrades that Florida law requires insurers to cover.
             </p>
             <p>
-              Florida Construction Specialists serves as your building consultant, bringing over 40 years of construction experience to your insurance claim. Our in-house engineer, certified estimators, and project managers work exclusively for you—ensuring every element of damage is documented and properly valued.
+              Florida Construction Specialists serves as your building consultant, bringing over 40 years of construction experience to your insurance claim. Our dedicated engineering partner, certified estimators, and project managers work exclusively for you—ensuring every element of damage is documented and properly valued.
             </p>
 
             <h3>What a Building Consultant Does for Your Claim</h3>
@@ -218,7 +218,7 @@ export default function BuildingConsultantPage() {
               What sets FCS apart from other consulting options:
             </p>
             <ul>
-              <li><strong>In-House Engineering:</strong> Our staff engineer provides structural assessments without the delays and costs of third-party engineering firms. This is particularly important for claims involving structural damage, foundation issues, or building stability concerns.</li>
+              <li><strong>Direct Engineering Access:</strong> Our dedicated engineering partner provides structural assessments without the delays and costs of coordinating separate engineering firms. This is particularly important for claims involving structural damage, foundation issues, or building stability concerns.</li>
               <li><strong>Construction Background:</strong> Our estimates reflect real construction costs because we actually build and restore properties. We know what repairs cost in Tampa Bay because we perform them daily.</li>
               <li><strong>Xactimate Certification:</strong> We prepare estimates in the same software format insurance companies use, eliminating translation issues and ensuring our documentation is readily comparable to the adjuster's estimate.</li>
               <li><strong>End-to-End Capability:</strong> As a licensed general contractor, FCS can handle both the consulting work and the actual restoration. This continuity ensures the repair scope we develop translates directly into quality restoration work.</li>

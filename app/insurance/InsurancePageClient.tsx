@@ -115,7 +115,7 @@ const processSteps = [
     icon: Search,
     step: "1",
     title: "Emergency Response & Damage Assessment",
-    description: "When disaster strikes, FCS responds rapidly to secure your property and begin the assessment process. Our in-house engineer conducts a thorough structural evaluation, documenting every element of damage with photographs, measurements, and engineering analysis. This initial assessment forms the foundation of your entire claim. Unlike contractors who rely on surface-level inspections, our engineer identifies hidden structural damage that adjusters frequently miss—cracked load-bearing members behind drywall, compromised roof decking beneath intact shingles, and water intrusion paths that lead to future mold issues.",
+    description: "When disaster strikes, FCS responds rapidly to secure your property and begin the assessment process. Our dedicated engineering partner conducts a thorough structural evaluation, documenting every element of damage with photographs, measurements, and engineering analysis. This initial assessment forms the foundation of your entire claim. Unlike contractors who rely on surface-level inspections, our engineering team identifies hidden structural damage that adjusters frequently miss—cracked load-bearing members behind drywall, compromised roof decking beneath intact shingles, and water intrusion paths that lead to future mold issues.",
   },
   {
     icon: Calculator,
@@ -152,8 +152,8 @@ const processSteps = [
 const differentiators = [
   {
     icon: Search,
-    title: "In-House Engineering",
-    description: "Structural assessments are conducted by FCS's own engineer—not outsourced to a third party who has never set foot on your property. This means faster damage evaluations, more accurate scope development, and an engineer who is available throughout the entire project to address issues as they arise. When a carrier's engineer disputes your claim, our engineer responds with equal credibility and direct knowledge of the property's condition.",
+    title: "Direct Engineering Access",
+    description: "Structural assessments are conducted through our dedicated engineering partnership—not outsourced to a third party who has never set foot on your property. This means faster damage evaluations, more accurate scope development, and direct access to licensed structural engineers who are available throughout the entire project to address issues as they arise. When a carrier's engineer disputes your claim, our engineering partner responds with equal credibility and direct knowledge of the property's condition.",
   },
   {
     icon: Calculator,
@@ -196,7 +196,7 @@ const insuranceFAQs: FAQItem[] = [
   },
   {
     question: "Can FCS handle both the structural and cosmetic restoration?",
-    answer: "Yes. As a licensed Florida Certified Building Contractor (CBC1262722) with an in-house engineer and architectural draftsman, FCS handles every phase of restoration from emergency structural stabilization through final cosmetic finishes. This includes structural repairs, roofing, mechanical systems, electrical, plumbing, drywall, painting, flooring, and specialty finishes. Managing everything under one contract eliminates coordination gaps and ensures consistent quality throughout the project.",
+    answer: "Yes. As a licensed Florida Certified Building Contractor (CBC1262722) with a dedicated engineering partner and architectural draftsman, FCS handles every phase of restoration from emergency structural stabilization through final cosmetic finishes. This includes structural repairs, roofing, mechanical systems, electrical, plumbing, drywall, painting, flooring, and specialty finishes. Managing everything under one contract eliminates coordination gaps and ensures consistent quality throughout the project.",
   },
   {
     question: "What types of insurance claims does FCS handle?",
@@ -316,7 +316,7 @@ export function InsurancePageClient() {
                   Florida Construction Specialists has served as a large loss prime contractor across Tampa Bay since 1982. We are a merging of Florida Restoration Team and Shamblin Construction—two firms with decades of experience in commercial restoration, structural engineering, and insurance claims management. This dual foundation gives FCS a unique advantage: we do not simply repair buildings, we manage the entire restoration lifecycle from the moment damage occurs through the carrier's final payment release.
                 </p>
                 <p>
-                  Commercial and condominium insurance claims require a fundamentally different class of contractor than residential repair work. Carriers assign teams of adjusters, engineers, and attorneys to evaluate large loss claims. They use sophisticated estimating platforms, engineering standards, and claims protocols designed to control costs. Property owners who enter this process without equivalent expertise on their side are at a significant disadvantage. FCS provides that expertise—an in-house engineer, certified Xactimate estimators, and four decades of direct experience negotiating with every major property carrier operating in Florida.
+                  Commercial and condominium insurance claims require a fundamentally different class of contractor than residential repair work. Carriers assign teams of adjusters, engineers, and attorneys to evaluate large loss claims. They use sophisticated estimating platforms, engineering standards, and claims protocols designed to control costs. Property owners who enter this process without equivalent expertise on their side are at a significant disadvantage. FCS provides that expertise—direct access to licensed structural engineers, certified Xactimate estimators, and four decades of direct experience negotiating with every major property carrier operating in Florida.
                 </p>
                 <p>
                   As prime contractor, FCS manages every aspect of restoration under a single contract. We never operate as a subcontractor, and we never delegate the claims process to a third-party public adjuster. When property managers, HOA boards, and building owners engage FCS, they get one team with one point of accountability—from the initial damage assessment through the certificate of completion and final carrier closeout.
