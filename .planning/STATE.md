@@ -80,6 +80,7 @@ Progress: [████████████████░░░░] 80%
 | Phase 08 P01 | 2min | 2 tasks | 4 files |
 | Phase 08 P04 | 3min | 2 tasks | 1 files |
 | Phase 08 P03 | 4min | 2 tasks | 1 files |
+| Phase 08 P02 | 4min | 2 tasks | 1 files |
 
 ## Accumulated Context
 
@@ -1212,6 +1213,10 @@ Recent decisions affecting current work:
 - [Phase 08]: Water page differentiation: IICRC S500 categories, 24-48hr mold window, flood vs water insurance, moisture mapping, subrogation recovery
 - [Phase 08]: Fire page gallery uses construction/reconstruction photos (no fire-specific images in catalog)
 - [Phase 08]: Fire investigation timeline section as major differentiator from hurricane/water pages
+- [Phase 08-02]: Hurricane page gallery uses 4 images from 4 separate directories for visual variety
+- [Phase 08-02]: Dollar ranges woven into existing intro paragraph (not standalone section) per INS-05
+- [Phase 08-02]: FEMA 50% rule, named storm deductibles, wind vs flood insurance as hurricane-only differentiators per INS-04
+- [Phase 08-02]: FAQ "contact us" lowercase preserved (natural language, not CTA label -- plan rule applies to button text only)
 
 ### Pending Todos
 
@@ -1226,5 +1231,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 08-03-PLAN.md (Fire Restoration E-E-A-T + Differentiation)
-Resume file: Continue with 08-05 (fire restoration)
+Stopped at: Completed 08-02-PLAN.md (Hurricane Restoration E-E-A-T + Differentiation)
+Resume file: Continue with 08-05 (certified estimating)
