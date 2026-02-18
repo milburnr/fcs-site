@@ -169,11 +169,14 @@ Plans:
   2. A claims process guide targets "insurance restoration contractor Tampa" and related long-tail keywords
   3. Content covers FCS's differentiators: direct carrier negotiation, certified Xactimate estimates, expert witness capability
   4. Disaster recovery pages (hurricane, fire, water) each have differentiated, unique content per damage type
-**Plans**: TBD
+**Plans:** 5 plans
 
 Plans:
-- [ ] 08-01: TBD
-- [ ] 08-02: TBD
+- [ ] 08-01-PLAN.md -- Fix "in-house engineer" language across insurance silo (INS-03 language consistency)
+- [ ] 08-02-PLAN.md -- Hurricane restoration page expansion + E-E-A-T (INS-04, INS-05)
+- [ ] 08-03-PLAN.md -- Fire restoration page expansion + E-E-A-T (INS-04, INS-05)
+- [ ] 08-04-PLAN.md -- Water restoration page expansion + E-E-A-T (INS-04, INS-05)
+- [ ] 08-05-PLAN.md -- Hub + differentiator pages: dollar ranges, scope details, cross-links (INS-01, INS-05)
 
 ### Phase 9: Conversion Optimization
 **Goal**: Every page on the site has a clear, service-specific path to conversion with verified delivery and tracking
