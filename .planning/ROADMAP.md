@@ -142,19 +142,23 @@ Plans:
 - [ ] 06-08-PLAN.md -- Location hubs, standalone pages, homepage + site-wide 1983 audit (~19 pages)
 
 ### Phase 7: SB4-D Content Hub
-**Goal**: FCS owns the "SB4-D condo remediation Tampa" keyword space with the most comprehensive content hub in the market, leveraging the in-house engineer as a differentiator
+**Goal**: FCS owns the "SB4-D condo remediation Tampa" keyword space with the most comprehensive content hub in the market, positioning dedicated engineering partnerships as a differentiator
 **Depends on**: Phase 6
 **Requirements**: SB4D-01, SB4D-02, SB4D-03, SB4D-04, SB4D-05, SB4D-06
 **Success Criteria** (what must be TRUE):
   1. The SB4-D hub includes a compliance checklist page, a deadline calendar with current milestone dates, cost guidance content, and an inspection process guide
-  2. The in-house engineer credential is prominently featured on all SB4-D pages as an E-E-A-T differentiator
+  2. Engineering partnerships are prominently featured on all SB4-D pages as an E-E-A-T differentiator (using "dedicated engineering partner" / "direct access" language)
   3. SB4-D pages target specific keywords: "milestone inspection," "SIRS study," "condo remediation cost," "SB4-D compliance"
-  4. CTAs on SB4-D pages are specific ("Get a Free SB4-D Compliance Assessment") rather than generic
-**Plans**: TBD
+  4. CTAs on SB4-D pages are phone-first ("Call to Discuss Your Building's Compliance Needs") rather than generic
+**Plans:** 6 plans
 
 Plans:
-- [ ] 07-01: TBD
-- [ ] 07-02: TBD
+- [ ] 07-01-PLAN.md -- Hub pillar landing page + compliance checklist (SB4D-01)
+- [ ] 07-02-PLAN.md -- Deadline calendar + cost guidance (SB4D-02, SB4D-03)
+- [ ] 07-03-PLAN.md -- Inspection process & SIRS guide (SB4D-04)
+- [ ] 07-04-PLAN.md -- Tampa + St. Petersburg location pages
+- [ ] 07-05-PLAN.md -- Clearwater + Sarasota location pages
+- [ ] 07-06-PLAN.md -- Fix existing pages (engineer language, deadlines, hub links), nav, sitemap (SB4D-05, SB4D-06)
 
 ### Phase 8: Insurance Restoration Content
 **Goal**: FCS is positioned as Tampa Bay's large-loss insurance restoration authority with content covering the full claims lifecycle and specific project scope details
