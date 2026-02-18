@@ -6,6 +6,10 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
+import { BackToHub } from "@/components/BackToHub";
+import { AuthorByline } from "@/components/AuthorByline";
+import { CodeReference } from "@/components/CodeReference";
+import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import Link from "next/link";
 import { Phone, Wind, Shield, Building2, Home, Droplets, AlertTriangle, CheckCircle, Clock, FileText, Users, Award, Hammer } from "lucide-react";
 
@@ -89,6 +93,25 @@ const relatedLinks = [
   { href: "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/", label: "Hurricane Insurance Claims Guide" },
 ];
 
+const galleryPhotos: GalleryPhoto[] = [
+  {
+    src: "/images/hurricane-restoration/hurricane-restoration-display.webp",
+    caption: "Hurricane wind damage restoration — commercial roof system replacement",
+  },
+  {
+    src: "/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-display.webp",
+    caption: "Tampa Bay hurricane damage assessment and emergency stabilization",
+  },
+  {
+    src: "/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp",
+    caption: "Post-hurricane structural reconstruction and building envelope repair",
+  },
+  {
+    src: "/images/hurricane-ian/hurricane-ian-display.webp",
+    caption: "Hurricane Ian aftermath — large-loss commercial restoration project",
+  },
+];
+
 // Rotate through hurricane hero images
 const heroImages = [
   "/images/florida-hurricane-storm/florida-hurricane-storm-1-1920w.webp",
@@ -125,6 +148,8 @@ export default function HurricaneRestorationPage() {
 
         <div className="container mx-auto px-4 relative z-10">
           <Breadcrumb items={breadcrumbItems} className="mb-8 text-gray-300" />
+          <BackToHub silo="commercial" customHubTitle="Insurance Services" customHubHref="/insurance/" />
+          <AuthorByline variant="light" />
 
           <div className="max-w-4xl">
             <div className="inline-flex items-center gap-2 bg-red-500/20 border border-red-500/50 px-4 py-2 rounded-full mb-6">
@@ -365,6 +390,24 @@ export default function HurricaneRestorationPage() {
           </div>
         </div>
       </section>
+
+      {/* Florida Building Code Reference */}
+      <section className="py-12 bg-white">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <CodeReference
+              code="Florida Building Code 8th Edition (2023)"
+              section="Section 1609 — Wind Loads"
+              description="All structural repairs after hurricane damage must meet current Florida Building Code wind load requirements. Tampa Bay properties require design for 150-170 mph wind speeds depending on proximity to the coast. FCS ensures all hurricane restoration work meets or exceeds these requirements, even when the original structure was built to older, lower standards."
+              link="https://www.floridabuilding.org/fbc/thecode/3_FBC-8th-Edition-2023-Code-and-Commentary.htm"
+              linkText="View Florida Building Code"
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Hurricane Restoration Gallery */}
+      <ProjectGallery photos={galleryPhotos} title="Hurricane Restoration Projects" />
 
       {/* FAQ Section */}
       <section className="py-16 bg-white">
