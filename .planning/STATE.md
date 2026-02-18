@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-15)
 
 **Core value:** The site ranks page 1 for priority keywords in Tampa Bay and generates organic leads for insurance restoration and condo remediation services.
-**Current focus:** Phase 7: SB4-D Content Hub
+**Current focus:** Phase 8: Insurance Restoration Content
 
 ## Current Position
 
-Phase: 7 of 9 (SB4-D Content Hub)
-Plan: 06 of 6 in current phase (06 complete)
-Status: Phase 7 Complete
-Last activity: 2026-02-18 -- Completed 07-06 (Existing Page Updates & Hub Integration)
+Phase: 8 of 9 (Insurance Restoration Content)
+Plan: 01 of 5 in current phase (01 complete)
+Status: In Progress
+Last activity: 2026-02-18 -- Completed 08-01 (Engineer Language Cleanup)
 
-Progress: [██████████] 100%
+Progress: [██████████████░░░░░░] 20%
 
 ## Performance Metrics
 
@@ -77,6 +77,7 @@ Progress: [██████████] 100%
 | Phase 07 P05 | 11min | 2 tasks | 2 files |
 | Phase 07 P02 | 8min | 2 tasks | 2 files |
 | Phase 07 P06 | 9min | 2 tasks | 24 files |
+| Phase 08 P01 | 2min | 2 tasks | 4 files |
 
 ## Accumulated Context
 
@@ -219,6 +220,9 @@ Recent decisions affecting current work:
 - [Phase 07-06]: 20 pages cleaned of "in-house engineer" language (8 condo-remediation + 7 insurance guides + 5 non-SB4D guides)
 - [Phase 07-06]: Dec 2025 and Jan 2026 deadlines updated to past-due framing; Dec 2026 left as approaching
 - [Phase 07-06]: Blue callout box pattern (bg-blue-50 + AlertTriangle) established for hub cross-linking
+- [Phase 08-01]: Insurance silo (app/insurance/ + app/insurance-restoration-tampa/) now zero "in-house"/"staff engineer" instances
+- [Phase 08-01]: Differentiator "In-House Engineering" renamed to "Direct Engineering Access"; qualifications "In-House Team" renamed to "Integrated Team"
+- [Phase 08-01]: FAQ "Do you have an in-house engineer?" reframed to "Do you have direct access to structural engineers?"
 
 ### Pending Todos
 
@@ -233,5 +237,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 07-06-PLAN.md (Existing Page Updates & Hub Integration)
-Resume file: Phase 7 complete. Next: Phase 8 or 9 per roadmap
+Stopped at: Completed 08-01-PLAN.md (Engineer Language Cleanup)
+Resume file: Continue Phase 8 plans 02-05
