@@ -10,9 +10,9 @@ See: .planning/PROJECT.md (updated 2026-02-15)
 ## Current Position
 
 Phase: 7 of 9 (SB4-D Content Hub)
-Plan: 03 of 6 in current phase (03 complete)
+Plan: 04 of 6 in current phase (04 complete)
 Status: Executing Phase 7
-Last activity: 2026-02-18 -- Completed 07-03 (SB4-D Inspection Process & SIRS Guide)
+Last activity: 2026-02-18 -- Completed 07-04 (Tampa & St. Petersburg SB4-D Location Pages)
 
 Progress: [██████████] 93%
 
@@ -72,6 +72,7 @@ Progress: [██████████] 93%
 | Phase 06 P04 | 12min | 2 tasks | 14 files |
 | Phase 06 P06 | 15min | 2 tasks | 9 files |
 | Phase 07 P03 | 5min | 1 tasks | 1 files |
+| Phase 07 P04 | 6min | 2 tasks | 2 files |
 
 ## Accumulated Context
 
@@ -194,6 +195,10 @@ Recent decisions affecting current work:
 - [Phase 07-03]: Past-due deadline framing: Dec 2024 and Dec 2025 deadlines presented as already passed
 - [Phase 07-03]: HB 913 integrated: baseline funding plan, 2-year reserve pause, $25K inflation-indexed threshold
 - [Phase 07-03]: Responsibility clarity pattern: explicitly state engineer vs FCS vs board roles at each process stage
+- [Phase 07-04]: Tampa page references City Code 5-110.9, Accela RCT record type, CSDLSP contact -- local SB 4-D codification
+- [Phase 07-04]: St. Pete page uses peninsula geography as unifying theme -- bidirectional salt exposure, citywide 25-year coastal trigger
+- [Phase 07-04]: Dual building dept contact cards on St. Pete page (city vs Pinellas County) for jurisdictional clarity
+- [Phase 07-04]: Compliance timeline section on Tampa page only (St. Pete doesn't need it -- all buildings on same 25-year clock)
 
 ### Pending Todos
 
@@ -208,5 +213,5 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-18
-Stopped at: Completed 07-03-PLAN.md (SB4-D Inspection Process & SIRS Guide)
-Resume file: Continue Phase 7 plans (01, 02, 04, 05, 06)
+Stopped at: Completed 07-04-PLAN.md (Tampa & St. Petersburg SB4-D Location Pages)
+Resume file: Continue Phase 7 plans (01, 02, 05, 06)
