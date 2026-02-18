@@ -122,7 +122,7 @@ function getPriority(slug) {
     'balcony-reconstruction', 'exterior-waterproofing',
     'historic-restoration', 'luxury-custom-homes',
     'multi-family-construction', 'custom-homes',
-    'engineering'
+    'engineering', 'sb4d-compliance'
   ];
   if (hubSlugs.includes(slug)) return '0.9';
 

@@ -322,12 +322,37 @@ export default function CondoRemediationPage() {
                 SB4-D Deadlines Are Here: 
               </span>
               <span className="ml-0 md:ml-2">
-                Buildings 30+ years old within 3 miles of coast must complete milestone inspections by December 31, 2024. Don&apos;t risk building closure orders.
+                The December 31, 2024 coastal deadline has passed. Buildings not yet in compliance face enforcement action. Don&apos;t risk building closure orders.
               </span>
             </div>
             <Link href="/contact/" className="flex-shrink-0 bg-white text-red-600 px-6 py-2 rounded-full font-bold hover:bg-gray-100 transition-colors">
               Act Now
             </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SB4-D Compliance Hub Callout */}
+      <section className="py-8 bg-blue-50 border-y border-blue-100">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <div className="bg-white rounded-xl p-6 shadow-sm border-l-4 border-blue-600">
+              <h3 className="text-xl font-bold text-brand-green-dark mb-2">SB4-D Compliance Hub</h3>
+              <p className="text-gray-700 mb-4">
+                Deadlines, checklists, cost guidance, and local resources -- everything your condo association needs for SB4-D compliance in one place.
+              </p>
+              <div className="flex flex-wrap gap-3">
+                <Link href="/sb4d-compliance/" className="inline-flex items-center gap-2 px-5 py-2 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700 transition-colors text-sm">
+                  Visit Compliance Hub <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link href="/sb4d-compliance/checklist/" className="inline-flex items-center gap-2 px-5 py-2 bg-white text-blue-600 font-semibold rounded-full border border-blue-200 hover:bg-blue-50 transition-colors text-sm">
+                  Compliance Checklist
+                </Link>
+                <Link href="/sb4d-compliance/deadlines/" className="inline-flex items-center gap-2 px-5 py-2 bg-white text-blue-600 font-semibold rounded-full border border-blue-200 hover:bg-blue-50 transition-colors text-sm">
+                  Deadline Status
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>

@@ -219,6 +219,10 @@ export default function SB4DCompliancePage() {
 
       <div className="container-custom py-8">
         <BackToHub silo="commercial" />
+        <div className="mt-3 flex items-center gap-2 text-sm text-blue-700">
+          <ArrowRight className="w-4 h-4" />
+          <span>See also: <Link href="/sb4d-compliance/" className="underline font-semibold hover:text-blue-600">SB4-D Compliance Hub</Link> -- checklists, deadlines, costs, and local resources</span>
+        </div>
       </div>
 
       {/* Alert Banner */}

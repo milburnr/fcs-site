@@ -104,6 +104,13 @@ export default function SB4DCompliancePage() {
         { name: "SB 4-D Compliance Tampa Bay", href: "/insurance/guides/sb-4-d-compliance-tampa-bay-condos/" },
       ]} />
 
+      <div className="container-custom py-4">
+        <div className="flex items-center gap-2 text-sm text-blue-700">
+          <ArrowRight className="w-4 h-4" />
+          <span>See also: <Link href="/sb4d-compliance/" className="underline font-semibold hover:text-blue-600">SB4-D Compliance Hub</Link> -- checklists, deadlines, costs, and local resources</span>
+        </div>
+      </div>
+
       {/* Hero */}
       <section className="relative py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">

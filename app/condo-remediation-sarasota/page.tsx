@@ -107,6 +107,19 @@ export default function CondoRemediationSarasotaPage() {
         </div>
       </section>
 
+      {/* SB4-D Hub Callout */}
+      <section className="py-4 bg-blue-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto flex items-center gap-3 text-sm">
+            <AlertTriangle className="w-5 h-5 text-blue-600 flex-shrink-0" />
+            <p className="text-blue-800">
+              <strong>SB4-D Compliance Resource:</strong> For comprehensive compliance checklists, deadlines, cost guidance, and Sarasota-specific requirements, visit our{' '}
+              <Link href="/sb4d-compliance/sarasota/" className="underline font-semibold hover:text-blue-600">SB4-D Compliance Guide for Sarasota</Link>.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Sarasota Market Introduction */}
       <section className="section bg-white">
         <div className="container-custom">

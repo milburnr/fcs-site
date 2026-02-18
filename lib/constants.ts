@@ -224,6 +224,7 @@ export const COMMERCIAL_SERVICES = [
   { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
   { label: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { label: "Condo Remediation", href: "/commercial/condo-remediation/" },
+  { label: "SB4-D Compliance", href: "/sb4d-compliance/" },
   { label: "CPM Scheduling", href: "/commercial/cpm-scheduling/" },
 ];
 
