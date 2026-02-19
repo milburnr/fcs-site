@@ -7,6 +7,7 @@ import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema"
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
+import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-real-estate-development/' },
@@ -371,28 +372,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
-      <section className="section bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Build Your Tampa Bay Development
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Florida Construction Specialists—your construction partner for successful commercial real estate development in Tampa Bay.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Get Free Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+            <GuideCTA silo="commercial" heading="Build Your Tampa Bay Development" />
     </>
   );
 }

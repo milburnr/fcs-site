@@ -13,6 +13,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { AuthorByline } from "@/components/AuthorByline";
+import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/' },
@@ -624,29 +625,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="section bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Ready to Convert Your Retail Property?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Florida Construction Specialists has converted retail properties throughout Tampa Bay. Let us evaluate your building and develop a conversion strategy that maximizes value.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Get Free Consultation
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+            <GuideCTA silo="commercial" heading="Ready to Convert Your Retail Property?" />
     </>
   );
 }
