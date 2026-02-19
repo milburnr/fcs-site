@@ -338,7 +338,7 @@ export default function TenantImprovementsPage() {
       {/* Related Resources */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
-          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial/" }, { label: "Contact Us", href: "/contact/" }]} />
+          <InternalLinks title="Related Resources" links={[{ label: "Commercial Construction", href: "/commercial/" }, { label: "Plan Your Tenant Improvement", href: "/contact/" }]} />
         </div>
       </section>
 
