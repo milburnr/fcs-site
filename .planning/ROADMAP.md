@@ -187,10 +187,13 @@ Plans:
   2. Every blog post ends with a relevant service page link and specific CTA
   3. HighLevel form submissions are verified to reach someone who responds within business hours
   4. Phone click tracking is confirmed working on all pages via GA4
-**Plans**: TBD
+**Plans:** 4 plans
 
 Plans:
-- [ ] 09-01: TBD
+- [ ] 09-01-PLAN.md -- GuideCTA component + fix 6 service pages with generic "Contact Us" (CTA-01)
+- [ ] 09-02-PLAN.md -- Batch-replace CTA banners on ~191 commercial guide pages (CTA-02 partial)
+- [ ] 09-03-PLAN.md -- Batch-replace CTA banners on ~71 insurance + residential guide pages (CTA-02 complete)
+- [ ] 09-04-PLAN.md -- Verify HighLevel form delivery + GA4 phone tracking (CTA-03, CTA-04)
 
 ## Progress
 
