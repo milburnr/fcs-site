@@ -26,6 +26,7 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/flood-zone-ve-vs-ae-guide/' },
@@ -627,30 +628,7 @@ export default function FloodZoneVEvsAEGuidePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-brand-green">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-heading">
-            Planning a Waterfront Home in Tampa Bay?
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            FCS specializes in flood zone construction for Tampa Bay&apos;s most
-            challenging waterfront sites. We understand VE and AE requirements
-            and can help you navigate the complexities of coastal construction.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="/contact/" className="btn-cta">
-              Discuss Your Waterfront Project
-            </Link>
-            <a
-              href={`tel:${BUSINESS_INFO.phoneRaw}`}
-              className="inline-flex items-center justify-center px-8 py-4 bg-white text-brand-green-dark font-bold rounded-full hover:bg-gray-100 transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              Call {BUSINESS_INFO.phone}
-            </a>
-          </div>
-        </div>
-      </section>
+            <GuideCTA silo="insurance" heading="Planning a Waterfront Home in Tampa Bay?" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
 

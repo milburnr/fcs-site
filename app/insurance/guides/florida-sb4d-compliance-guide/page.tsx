@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/accordion";
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
+import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/florida-sb4d-compliance-guide/' },
@@ -597,21 +598,7 @@ export default function SB4DCompliancePage() {
       </section>
 
       {/* CTA */}
-      <section className="py-16 bg-brand-green-dark">
-        <div className="container-custom text-center">
-          <h2 className="text-3xl font-bold text-white mb-6 font-heading">
-            SB4-D Compliance Deadlines Are Here
-          </h2>
-          <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Don&apos;t risk non-compliance. FCS helps Tampa Bay condo
-            associations meet SB4-D requirements and complete necessary
-            structural repairs.
-          </p>
-          <Link href="/contact/" className="btn-cta">
-            Schedule Compliance Consultation
-          </Link>
-        </div>
-      </section>
+            <GuideCTA silo="insurance" heading="SB4-D Compliance Deadlines Are Here" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
 
