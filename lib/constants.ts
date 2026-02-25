@@ -270,6 +270,7 @@ export const NAV_ITEMS = [
     href: "/locations/",
     submenu: LOCATIONS.map((l) => ({ label: `${l.name}, FL`, href: `/locations/${l.slug}/` })),
   },
+  { label: "Gallery", href: "/gallery/" },
   { label: "About", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];
