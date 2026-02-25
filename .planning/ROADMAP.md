@@ -211,3 +211,19 @@ Phases execute in numeric order. Note: Phases 4 and 6 both depend on Phase 2 (no
 | 7. SB4-D Content Hub | 0/? | Not started | - |
 | 8. Insurance Restoration Content | 0/? | Not started | - |
 | 9. Conversion Optimization | 0/? | Not started | - |
+
+### Phase 10: Add Gallery Photos
+
+**Goal:** A working project photo gallery with 8 real project photo sets hosted on Cloudflare R2, accessible via /gallery/ index and /gallery/{project}/ individual pages with carousel, thumbnails, and fullscreen lightbox
+**Depends on:** Phase 9
+**Requirements:** GAL-01, GAL-02, GAL-03, GAL-04, GAL-05, GAL-06, GAL-07
+**Success Criteria** (what must be TRUE):
+  1. 213 photos from 8 project folders are processed to WebP (thumb + full sizes) and hosted on Cloudflare R2
+  2. Gallery index at /gallery/ displays a responsive card grid with hero photos linking to individual project pages
+  3. Each project page has a carousel with thumbnail strip and fullscreen lightbox
+  4. Gallery is in the main site navigation and site builds successfully
+**Plans:** 2 plans
+
+Plans:
+- [ ] 10-01-PLAN.md -- Image processing, R2 upload, and gallery data file (GAL-01, GAL-02, GAL-03)
+- [ ] 10-02-PLAN.md -- Gallery UI: YARL carousel component, index page, 8 project pages, nav update (GAL-04, GAL-05, GAL-06, GAL-07)
