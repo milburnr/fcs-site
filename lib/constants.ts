@@ -270,7 +270,20 @@ export const NAV_ITEMS = [
     href: "/locations/",
     submenu: LOCATIONS.map((l) => ({ label: `${l.name}, FL`, href: `/locations/${l.slug}/` })),
   },
-  { label: "Gallery", href: "/gallery/" },
+  {
+    label: "Gallery",
+    href: "/gallery/",
+    submenu: [
+      { label: "5th Ave Home", href: "/gallery/5th-ave-home/" },
+      { label: "Bayshore Drive", href: "/gallery/bayshore-drive/" },
+      { label: "Commodore's Cove", href: "/gallery/commodores-cove/" },
+      { label: "Horseshoe Loop Road", href: "/gallery/horseshoe-loop-rd/" },
+      { label: "Italian American Club", href: "/gallery/italian-club/" },
+      { label: "MVP Orthodontics", href: "/gallery/mvp-orthodontics/" },
+      { label: "Tampa Motor Enclave", href: "/gallery/race-track/" },
+      { label: "Lion's Eye Institute", href: "/gallery/world-vision/" },
+    ],
+  },
   { label: "About", href: "/about/" },
   { label: "Contact", href: "/contact/" },
 ];
