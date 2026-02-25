@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useRef } from 'react';
 import Lightbox from 'yet-another-react-lightbox';
 import Inline from 'yet-another-react-lightbox/plugins/inline';
 import Thumbnails from 'yet-another-react-lightbox/plugins/thumbnails';
@@ -21,7 +21,8 @@ interface GalleryCarouselProps {
 
 export function GalleryCarousel({ slides }: GalleryCarouselProps) {
   const [lightboxOpen, setLightboxOpen] = useState(false);
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [lightboxIndex, setLightboxIndex] = useState(0);
+  const currentIndexRef = useRef(0);
 
   const yarlSlides = slides.map((s) => ({
     src: s.src,
@@ -29,13 +30,14 @@ export function GalleryCarousel({ slides }: GalleryCarouselProps) {
     thumbnail: s.thumb,
   }));
 
-  const handleClick = useCallback(
-    ({ index }: { index: number }) => {
-      setCurrentIndex(index);
-      setLightboxOpen(true);
-    },
-    []
-  );
+  const handleView = useCallback(({ index }: { index: number }) => {
+    currentIndexRef.current = index;
+  }, []);
+
+  const handleClick = useCallback(({ index }: { index: number }) => {
+    setLightboxIndex(index);
+    setLightboxOpen(true);
+  }, []);
 
   return (
     <div className="mx-auto" style={{ maxWidth: 1200 }}>
@@ -50,7 +52,7 @@ export function GalleryCarousel({ slides }: GalleryCarouselProps) {
           },
         }}
         carousel={{ finite: true }}
-        on={{ click: handleClick }}
+        on={{ view: handleView, click: handleClick }}
         thumbnails={{ border: 0, gap: 8, padding: 4 }}
         styles={{
           container: { backgroundColor: 'transparent' },
@@ -61,7 +63,7 @@ export function GalleryCarousel({ slides }: GalleryCarouselProps) {
       <Lightbox
         open={lightboxOpen}
         close={() => setLightboxOpen(false)}
-        index={currentIndex}
+        index={lightboxIndex}
         slides={yarlSlides}
         plugins={[Thumbnails, Fullscreen, Zoom]}
         thumbnails={{ border: 0, gap: 8, padding: 4 }}
