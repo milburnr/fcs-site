@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This 3,000 SF private garage buildout at Tampa Motor Enclave was designed for high-end automotive storage and entertainment use.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Scope included installation of a structural steel mezzanine, custom video wall integration, full bathroom buildout, and upgraded interior finishes. The project transformed a raw garage shell into a premium motorsports lifestyle space.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

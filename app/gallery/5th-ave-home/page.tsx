@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This 3,400 SF state-of-the-art custom residence was built in the heart of historic Ybor City and constructed to strict barrio design specifications to reflect turn-of-the-century architectural standards. Every exterior and structural detail was developed to meet historic conformity requirements while integrating modern building systems.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Completed at a total investment of approximately $1.4 million, this project balances authentic historic character with contemporary performance, delivering a custom home that respects Ybor&apos;s heritage without sacrificing durability or efficiency.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

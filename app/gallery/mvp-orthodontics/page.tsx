@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This $900,000 ground-up commercial construction project delivered a fully customized orthodontic facility located along US 301 in Riverview.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              The building features distinctive architectural elements inside and out, along with specialized adaptations for dental equipment, imaging systems, and integrated electronics. Designed for operational efficiency and patient experience, the structure combines modern aesthetics with functional precision.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

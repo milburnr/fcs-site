@@ -42,7 +42,18 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This $600,000 exterior restoration project focused on preserving historic architectural elements while reinforcing long-term building protection.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Scope included brick tuckpointing and sealing, reconstruction of an elaborate soffit and fascia system to comply with historic barrio specifications, and comprehensive waterproofing of all windows, soffit, and fascia assemblies. The result enhances structural durability while maintaining historic visual integrity.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
+          <p className="text-sm text-gray-500 italic mt-6">
+            Note: Garage construction is still in progress.
+          </p>
         </div>
       </section>
 

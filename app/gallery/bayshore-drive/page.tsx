@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This 4,200 SF custom Key West&ndash;style waterfront residence sits on historic Terra Ceia Island, offering unobstructed views along Bayshore Drive. Designed for coastal living, the home incorporates elevated construction, reinforced structural systems, and hurricane-resistant components.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Completed at a cost of approximately $1.8 million, the property has since withstood two hurricanes without damage &mdash; a testament to its engineering, material selection, and construction quality.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

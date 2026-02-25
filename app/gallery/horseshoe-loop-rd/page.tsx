@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              A one-of-a-kind 1,200 SF custom residence located on historic Terra Ceia Island, this $900,000 build emphasizes craftsmanship and distinctive material selection.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Both exterior and interior finishes incorporate unique, custom-sourced materials, creating a highly personalized structure that reflects the character of the island while maintaining structural strength and coastal performance standards.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

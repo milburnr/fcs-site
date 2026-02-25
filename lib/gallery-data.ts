@@ -25,14 +25,14 @@ export interface GalleryImage {
  * Total: 213 photos across 8 projects.
  */
 export const GALLERY_PROJECTS: GalleryProject[] = [
-  { slug: "5th-ave-home", name: "5th Ave Home", photoCount: 49 },
-  { slug: "bayshore-drive", name: "Bayshore Drive", photoCount: 36 },
-  { slug: "commodores-cove", name: "Commodore's Cove", photoCount: 10 },
-  { slug: "horseshoe-loop-rd", name: "Horseshoe Loop Rd", photoCount: 23 },
-  { slug: "italian-club", name: "Italian Club", photoCount: 33 },
-  { slug: "mvp-orthodontics", name: "MVP Orthodontics", photoCount: 22 },
-  { slug: "race-track", name: "Race Track", photoCount: 23 },
-  { slug: "world-vision", name: "World Vision", photoCount: 17 },
+  { slug: "5th-ave-home", name: "5th Ave Home \u2013 Historic Ybor City", photoCount: 49 },
+  { slug: "bayshore-drive", name: "Bayshore Drive \u2013 Terra Ceia Island", photoCount: 36 },
+  { slug: "commodores-cove", name: "Commodore\u2019s Cove \u2013 Waterfront Residence", photoCount: 10 },
+  { slug: "horseshoe-loop-rd", name: "Horseshoe Loop Road \u2013 Terra Ceia Island", photoCount: 23 },
+  { slug: "italian-club", name: "Italian American Club \u2013 Historic Ybor City", photoCount: 33 },
+  { slug: "mvp-orthodontics", name: "MVP Orthodontics \u2013 Riverview, FL", photoCount: 22 },
+  { slug: "race-track", name: "Tampa Motor Enclave \u2013 Private Garage Buildout", photoCount: 23 },
+  { slug: "world-vision", name: "Lion\u2019s Eye \u2013 Exterior Renovation", photoCount: 17 },
 ];
 
 /**

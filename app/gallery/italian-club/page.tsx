@@ -39,9 +39,18 @@ export default function ProjectPage() {
           <h1 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-2 font-heading">
             {project.name}
           </h1>
+          <p className="text-lg text-gray-500 italic mb-4">(L&apos;Unione Italiana)</p>
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This $1.5 million historic preservation and restoration project revitalized the iconic L&apos;Unione Italiana building in Ybor City.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Work included complete exterior and interior restoration, brick tuckpointing and sealing, full reconstruction of historic windows with custom-fabricated interior and exterior trim, replastering of interior walls, faux finishing, and multiple structural and aesthetic improvements. The project preserved architectural authenticity while strengthening long-term durability.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>
