@@ -32,7 +32,7 @@ export const GALLERY_PROJECTS: GalleryProject[] = [
   { slug: "italian-club", name: "Italian American Club \u2013 Historic Ybor City", photoCount: 33 },
   { slug: "mvp-orthodontics", name: "MVP Orthodontics \u2013 Riverview, FL", photoCount: 22 },
   { slug: "race-track", name: "Tampa Motor Enclave \u2013 Private Garage Buildout", photoCount: 23 },
-  { slug: "world-vision", name: "Lion\u2019s Eye \u2013 Exterior Renovation", photoCount: 17 },
+  { slug: "world-vision", name: "Lion\u2019s Eye Institute \u2013 Exterior Renovation", photoCount: 17 },
 ];
 
 /**
