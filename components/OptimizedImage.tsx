@@ -22,6 +22,19 @@ interface ImageMapEntry {
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 const typedImageMap = imageMap as Record<string, any>;
 
+// Build reverse lookup: basePath -> image entry (for /images/... paths)
+const basePathMap: Record<string, ImageMapEntry> = {};
+for (const key of Object.keys(typedImageMap)) {
+  const entry = typedImageMap[key];
+  if (entry?.basePath) {
+    basePathMap[entry.basePath] = entry;
+  }
+}
+
+function lookupImage(src: string): ImageMapEntry | undefined {
+  return typedImageMap[src] || basePathMap[src];
+}
+
 // Helper to get size variant, handling different naming conventions
 function getSizeVariant(entry: ImageMapEntry, preferredSize: string, format: string): SizeVariant | undefined {
   const sizes = entry.sizes;
@@ -87,8 +100,8 @@ export function OptimizedImage({
   onClick,
 }: OptimizedImageProps) {
   // Look up optimized version
-  const imageEntry = typedImageMap[src];
-  
+  const imageEntry = lookupImage(src);
+
   // If no optimized version exists, fall back to original
   if (!imageEntry) {
     return (
@@ -178,7 +191,7 @@ export function OptimizedImage({
  * Returns the best available format (prefers webp for broad support)
  */
 export function getOptimizedBgUrl(src: string, size: "large" | "medium" | "small" = "large"): string {
-  const imageEntry = typedImageMap[src] as ImageMapEntry | undefined;
+  const imageEntry = lookupImage(src);
   if (!imageEntry) return src;
   
   // Return webp for best balance of support and compression
@@ -191,14 +204,14 @@ export function getOptimizedBgUrl(src: string, size: "large" | "medium" | "small
  * Get image metadata (alt text, quality score, tags)
  */
 export function getImageMeta(src: string): ImageMapEntry | null {
-  return (typedImageMap[src] as ImageMapEntry) || null;
+  return lookupImage(src) || null;
 }
 
 /**
  * Check if an image has an optimized version
  */
 export function hasOptimizedVersion(src: string): boolean {
-  return src in typedImageMap;
+  return !!lookupImage(src);
 }
 
 export default OptimizedImage;

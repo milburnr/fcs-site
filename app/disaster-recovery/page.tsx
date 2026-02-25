@@ -415,7 +415,7 @@ export default function DisasterRecoveryPage() {
 
       {/* Visual Break - Storm Damage */}
       <ContentParallax
-        src="/images/hurricane-restoration/hurricane-restoration-large.webp"
+        src="/images/hurricane-restoration/hurricane-restoration-display.webp"
         alt="Storm damage restoration and prompt repairs"
         title="Complete Property Recovery"
         subtitle="From structural stabilization to full reconstruction"

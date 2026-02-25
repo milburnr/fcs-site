@@ -233,7 +233,7 @@ export default function ExteriorWaterproofingPage() {
 
       {/* Visual Break */}
       <ContentParallax
-        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-large.webp"
+        src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp"
         alt="Professional waterproofing application in Tampa Bay"
         title="Complete Building Protection"
         subtitle="From foundation to rooftop, we defend your investment against moisture"
