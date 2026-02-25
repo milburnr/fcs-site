@@ -42,6 +42,14 @@ export default function ProjectPage() {
           <p className="text-gray-600 mb-8">
             {project.photoCount} project photos
           </p>
+          <div className="max-w-3xl mx-auto mb-8">
+            <p className="text-gray-600 leading-relaxed mb-4">
+              This $1.7 million hurricane restoration project on historic Bayshore Boulevard involved comprehensive rehabilitation of four first-floor condominium units, along with full restoration of the building&apos;s lobby and clubhouse.
+            </p>
+            <p className="text-gray-600 leading-relaxed">
+              Scope also included removal and replacement of the lower four feet of the perimeter wall system to address storm-related damage and improve long-term resilience. The result restored structural integrity while modernizing common areas and enhancing durability against future storm events.
+            </p>
+          </div>
           <GalleryCarousel slides={slides} />
         </div>
       </section>

@@ -27,7 +27,7 @@ export interface GalleryImage {
 export const GALLERY_PROJECTS: GalleryProject[] = [
   { slug: "5th-ave-home", name: "5th Ave Home \u2013 Historic Ybor City", photoCount: 49 },
   { slug: "bayshore-drive", name: "Bayshore Drive \u2013 Terra Ceia Island", photoCount: 36 },
-  { slug: "commodores-cove", name: "Commodore\u2019s Cove \u2013 Waterfront Residence", photoCount: 10 },
+  { slug: "commodores-cove", name: "Commodore\u2019s Cove \u2013 Bayshore Boulevard", photoCount: 10 },
   { slug: "horseshoe-loop-rd", name: "Horseshoe Loop Road \u2013 Terra Ceia Island", photoCount: 23 },
   { slug: "italian-club", name: "Italian American Club \u2013 Historic Ybor City", photoCount: 33 },
   { slug: "mvp-orthodontics", name: "MVP Orthodontics \u2013 Riverview, FL", photoCount: 22 },
