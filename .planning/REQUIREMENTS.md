@@ -100,9 +100,9 @@ Requirements for this milestone. Each maps to roadmap phases.
 
 ### Project Gallery
 
-- [ ] **GAL-01**: All 213 source photos from 8 project folders are processed to WebP format in two sizes (400px thumbnail, 1600px full)
-- [ ] **GAL-02**: Processed images are hosted on Cloudflare R2 and publicly accessible via URL
-- [ ] **GAL-03**: A gallery data file maps project slugs to names, photo counts, and R2 image URLs
+- [x] **GAL-01**: All 213 source photos from 8 project folders are processed to WebP format in two sizes (400px thumbnail, 1600px full)
+- [x] **GAL-02**: Processed images are hosted on Cloudflare R2 and publicly accessible via URL
+- [x] **GAL-03**: A gallery data file maps project slugs to names, photo counts, and R2 image URLs
 - [ ] **GAL-04**: Gallery index page at /gallery/ displays a responsive card grid with one hero photo per project linking to individual project pages
 - [ ] **GAL-05**: Each project page at /gallery/{slug}/ has a carousel with thumbnail strip navigation and fullscreen lightbox on click
 - [ ] **GAL-06**: Gallery is accessible from the main site navigation
@@ -214,9 +214,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CTA-02 | Phase 9 | Pending |
 | CTA-03 | Phase 9 | Pending |
 | CTA-04 | Phase 9 | Pending |
-| GAL-01 | Phase 10 | Pending |
-| GAL-02 | Phase 10 | Pending |
-| GAL-03 | Phase 10 | Pending |
+| GAL-01 | Phase 10 | Complete |
+| GAL-02 | Phase 10 | Complete |
+| GAL-03 | Phase 10 | Complete |
 | GAL-04 | Phase 10 | Pending |
 | GAL-05 | Phase 10 | Pending |
 | GAL-06 | Phase 10 | Pending |

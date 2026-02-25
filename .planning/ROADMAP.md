@@ -225,5 +225,5 @@ Phases execute in numeric order. Note: Phases 4 and 6 both depend on Phase 2 (no
 **Plans:** 2 plans
 
 Plans:
-- [ ] 10-01-PLAN.md -- Image processing, R2 upload, and gallery data file (GAL-01, GAL-02, GAL-03)
+- [x] 10-01-PLAN.md -- Image processing, R2 upload, and gallery data file (GAL-01, GAL-02, GAL-03)
 - [ ] 10-02-PLAN.md -- Gallery UI: YARL carousel component, index page, 8 project pages, nav update (GAL-04, GAL-05, GAL-06, GAL-07)
