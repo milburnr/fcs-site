@@ -19,7 +19,7 @@ echo ""
 
 # Create bucket if it doesn't exist
 echo "Ensuring bucket exists..."
-wrangler r2 bucket create "$BUCKET" --remote 2>/dev/null || true
+wrangler r2 bucket create "$BUCKET" 2>/dev/null || true
 
 # Upload each project directory
 for project_dir in "$SOURCE"/*/; do
