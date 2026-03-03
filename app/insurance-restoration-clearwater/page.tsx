@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-clearwater/' },
-  title: "Insurance Restoration Clearwater FL | Storm Damage, Claims | FCS",
-  description: "Insurance restoration in Clearwater by Florida Construction Specialists. Hurricane damage, beach property claims, carrier negotiation, large-loss restoration. Licensed CBC, 40+ years experience.",
+  title: "Insurance Restoration Clearwater | Storm Damage",
+  description: "Insurance restoration in Clearwater by Florida Construction Specialists. Hurricane damage beach property claims carrier negotiation large-loss restoration.",
+  openGraph: {
+    title: "Insurance Restoration Clearwater | Storm Damage",
+    description: "Insurance restoration in Clearwater by Florida Construction Specialists. Hurricane damage beach property claims carrier negotiation large-loss restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

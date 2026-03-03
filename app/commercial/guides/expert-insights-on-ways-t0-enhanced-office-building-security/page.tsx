@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/' },
   title: "Office Building Security Tampa | Commercial",
   description: "Expert guide to office building security construction in Tampa Bay. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Office Building Security Tampa | Commercial",
+    description: "Expert guide to office building security construction in Tampa Bay. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

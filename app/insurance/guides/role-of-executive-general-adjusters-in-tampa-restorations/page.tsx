@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/' },
   title: "Executive General Adjusters Tampa | Large Loss",
-  description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982. Contact us today.",
+  description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Executive General Adjusters Tampa | Large Loss",
+    description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

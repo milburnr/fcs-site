@@ -12,7 +12,15 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/ruskin-fl/' },
   title: "Ruskin General Contractor | FCS HQ | $500K+",
-  description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
+  description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration.",
+  openGraph: {
+    title: "Ruskin General Contractor | FCS HQ | $500K+",
+    description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration.",
+    url: "https://floridaconstructionspecialists.com/locations/ruskin-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/materials-for-historic-restoration-in-tampa/' },
   title: "Materials for Historic Restoration in Tampa",
   description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
+  openGraph: {
+    title: "Materials for Historic Restoration in Tampa",
+    description: "Materials for Historic Restoration in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/materials-for-historic-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

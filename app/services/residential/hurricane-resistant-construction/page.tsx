@@ -10,8 +10,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/' },
-  title: "Hurricane-Resistant Home Construction Tampa | FCS",
-  description: "Hurricane-resistant Home Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Contact us today.",
+  title: "Hurricane-Resistant Home Construction Tampa",
+  description: "Hurricane-resistant Home Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Hurricane-Resistant Home Construction Tampa",
+    description: "Hurricane-resistant Home Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

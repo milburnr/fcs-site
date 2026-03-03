@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/' },
-  title: "Structural Integrity Evaluation Tampa | FCS",
-  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982. Get a free project assessment.",
+  title: "Structural Integrity Evaluation Tampa",
+  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Structural Integrity Evaluation Tampa",
+    description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -66,7 +74,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

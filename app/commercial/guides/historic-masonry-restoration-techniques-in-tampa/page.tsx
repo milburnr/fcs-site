@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
   description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
+  openGraph: {
+    title: "Historic Masonry Restoration Techniques in Tampa",
+    description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

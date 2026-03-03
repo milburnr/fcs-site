@@ -19,6 +19,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/effective-balcony-maintenance-tips/' },
   title: "Balcony Maintenance Tips Tampa | High-Rise",
   description: "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Contact our team today.",
+  openGraph: {
+    title: "Balcony Maintenance Tips Tampa | High-Rise",
+    description: "Expert balcony maintenance guidance for Tampa Bay high-rise condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Contact our team today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/effective-balcony-maintenance-tips/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

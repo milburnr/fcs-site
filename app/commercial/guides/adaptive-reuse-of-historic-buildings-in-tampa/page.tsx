@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/' },
-  title: "Adaptive Reuse Historic Buildings Tampa | FCS",
-  description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City, Hyde Park & Tampa Heights preservation projects with federal tax credit expertise.",
+  title: "Adaptive Reuse Historic Buildings Tampa",
+  description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City.",
+  openGraph: {
+    title: "Adaptive Reuse Historic Buildings Tampa",
+    description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

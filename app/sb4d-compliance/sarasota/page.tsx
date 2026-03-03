@@ -12,8 +12,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/sarasota/" },
-  title: "SB4-D Compliance Sarasota | Condo Milestone Inspection | FCS",
-  description: "SB4-D compliance for Sarasota condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island luxury condos. Post-Hurricane Ian expertise. Licensed CBC, 40+ years experience.",
+  title: "SB4-D Compliance Sarasota | Condo Milestone Inspection",
+  description: "SB4-D compliance for Sarasota condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island luxury condos.",
+  openGraph: {
+    title: "SB4-D Compliance Sarasota | Condo Milestone Inspection",
+    description: "SB4-D compliance for Sarasota condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island luxury condos.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/cost-of-historic-restoration-in-tampa/' },
   title: "Cost of Historic Restoration in Tampa",
   description: "Comprehensive guide to historic restoration costs in Tampa. Budget planning for commercial and institutional projects with tax credit ROI analysis.",
+  openGraph: {
+    title: "Cost of Historic Restoration in Tampa",
+    description: "Comprehensive guide to historic restoration costs in Tampa. Budget planning for commercial and institutional projects with tax credit ROI analysis.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/cost-of-historic-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

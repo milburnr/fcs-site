@@ -19,8 +19,16 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/building-consultant/' },
-  title: "Building Consultant | Insurance Claims Expert | FCS Tampa",
+  title: "Building Consultant | Insurance Claims Expert",
   description: "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  openGraph: {
+    title: "Building Consultant | Insurance Claims Expert",
+    description: "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+    url: "https://floridaconstructionspecialists.com/insurance/building-consultant/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

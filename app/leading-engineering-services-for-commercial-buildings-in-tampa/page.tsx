@@ -8,8 +8,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/leading-engineering-services-for-commercial-buildings-in-tampa/' },
-  title: "Engineering Services Tampa | Structural & MEP | FCS",
+  title: "Engineering Services Tampa | Structural & MEP",
   description: "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CBC. Request a free estimate.",
+  openGraph: {
+    title: "Engineering Services Tampa | Structural & MEP",
+    description: "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CBC. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/leading-engineering-services-for-commercial-buildings-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

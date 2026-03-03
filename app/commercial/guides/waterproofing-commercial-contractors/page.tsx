@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-commercial-contractors/' },
-  title: "Commercial Waterproofing Tampa | High-Rise | FCS",
-  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
+  title: "Commercial Waterproofing Tampa | High-Rise",
+  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Commercial Waterproofing Tampa | High-Rise",
+    description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/waterproofing-commercial-contractors/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-sarasota/' },
-  title: "Disaster Recovery Sarasota FL | Hurricane, Storm Surge, Emergency | FCS",
-  description: "Disaster recovery construction in Sarasota by Florida Construction Specialists. Hurricane response, storm surge recovery, barrier island rebuilding, emergency stabilization. Licensed CBC, 40+ years.",
+  title: "Disaster Recovery Sarasota | Hurricane",
+  description: "Disaster recovery construction in Sarasota by Florida Construction Specialists. Hurricane response storm surge recovery barrier island rebuilding.",
+  openGraph: {
+    title: "Disaster Recovery Sarasota | Hurricane",
+    description: "Disaster recovery construction in Sarasota by Florida Construction Specialists. Hurricane response storm surge recovery barrier island rebuilding.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

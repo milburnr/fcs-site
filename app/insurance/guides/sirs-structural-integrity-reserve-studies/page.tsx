@@ -34,6 +34,14 @@ export const metadata: Metadata = {
   title: "SIRS Reserve Studies Florida | Condo Compliance",
   description:
     "Complete guide to SIRS (Structural Integrity Reserve Studies) for Florida condominiums. Understand SB 4-D reserve requirements and funding obligations.",
+  openGraph: {
+    title: "SIRS Reserve Studies Florida | Condo Compliance",
+    description: "Complete guide to SIRS (Structural Integrity Reserve Studies) for Florida condominiums. Understand SB 4-D reserve requirements and funding obligations.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/sirs-structural-integrity-reserve-studies/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const sirsComponents = [

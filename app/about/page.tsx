@@ -24,7 +24,15 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/about/' },
   title: "About Us | Tampa Bay's Premier Builder",
   description:
-    "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay. Schedule your consultation now.",
+    "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay.",
+  openGraph: {
+    title: "About Us | Tampa Bay's Premier Builder",
+    description: "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay.",
+    url: "https://floridaconstructionspecialists.com/about/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const values = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-brandon/' },
-  title: "Disaster Recovery Brandon FL | Storm, Flood, Fire Restoration | FCS",
-  description: "Disaster recovery construction in Brandon FL. Hurricane damage, flooding, lightning strikes, fire damage. Emergency response and full restoration. Licensed CBC, 40+ years experience.",
+  title: "Disaster Recovery Brandon | Storm",
+  description: "Disaster recovery construction in Brandon FL. Hurricane damage, flooding, lightning strikes, fire damage. Emergency response and full restoration.",
+  openGraph: {
+    title: "Disaster Recovery Brandon | Storm",
+    description: "Disaster recovery construction in Brandon FL. Hurricane damage, flooding, lightning strikes, fire damage. Emergency response and full restoration.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-sarasota/' },
-  title: "Insurance Restoration Sarasota FL | Hurricane Claims, Storm Damage | FCS",
-  description: "Insurance restoration in Sarasota by Florida Construction Specialists. Hurricane damage repair, large-loss claims, barrier island restoration, carrier negotiation. Licensed CBC, 40+ years experience.",
+  title: "Insurance Restoration Sarasota | Hurricane Claims",
+  description: "Insurance restoration in Sarasota by Florida Construction Specialists. Hurricane damage repair large-loss claims barrier island restoration.",
+  openGraph: {
+    title: "Insurance Restoration Sarasota | Hurricane Claims",
+    description: "Insurance restoration in Sarasota by Florida Construction Specialists. Hurricane damage repair large-loss claims barrier island restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

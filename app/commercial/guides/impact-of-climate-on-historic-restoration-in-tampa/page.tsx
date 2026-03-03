@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/' },
   title: "Impact of Climate on Historic Restoration in Tampa",
-  description: "Learn how Tampa's subtropical climate affects historic building preservation. Expert strategies for protecting landmarks from humidity, hurricanes, and salt air corrosion.",
+  description: "Learn how Tampa's subtropical climate affects historic building preservation. Expert strategies for protecting landmarks from humidity hurricanes.",
+  openGraph: {
+    title: "Impact of Climate on Historic Restoration in Tampa",
+    description: "Learn how Tampa's subtropical climate affects historic building preservation. Expert strategies for protecting landmarks from humidity hurricanes.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

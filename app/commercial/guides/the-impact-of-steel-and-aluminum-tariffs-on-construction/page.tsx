@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/' },
-  title: "The Impact of Steel and Aluminum Tariffs on Construction",
-  description: "Discover how steel and aluminum tariffs are shaping the commercial construction industry in Florida and the impact it has on the steel and aluminum sectors.",
+  title: "The Impact of Steel and Aluminum Tariffs on",
+  description: "Discover how steel and aluminum tariffs are shaping the commercial construction industry in Florida and the impact it has on the steel and aluminum.",
+  openGraph: {
+    title: "The Impact of Steel and Aluminum Tariffs on",
+    description: "Discover how steel and aluminum tariffs are shaping the commercial construction industry in Florida and the impact it has on the steel and aluminum.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

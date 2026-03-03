@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-florida-leading-way-leed-certification/' },
   title: "Florida Construction | LEED Certification Leader",
-  description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists. Read more.",
+  description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Florida Construction | LEED Certification Leader",
+    description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/construction-florida-leading-way-leed-certification/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

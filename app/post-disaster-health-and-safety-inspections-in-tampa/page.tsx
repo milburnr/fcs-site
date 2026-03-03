@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/' },
   title: "Post-Disaster Safety Inspections Tampa | Hurricane",
-  description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
+  description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years.",
+  openGraph: {
+    title: "Post-Disaster Safety Inspections Tampa | Hurricane",
+    description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

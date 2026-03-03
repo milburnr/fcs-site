@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-negotiating-property-purchases-in-florida/' },
   title: "Negotiating Property Purchases FL | Due Diligence",
   description: "Expert tips for negotiating commercial property purchases in Florida. How construction assessments strengthen your position and protect your investment.",
+  openGraph: {
+    title: "Negotiating Property Purchases FL | Due Diligence",
+    description: "Expert tips for negotiating commercial property purchases in Florida. How construction assessments strengthen your position and protect your investment.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tips-for-negotiating-property-purchases-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

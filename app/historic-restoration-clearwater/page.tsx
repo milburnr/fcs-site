@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-clearwater/' },
-  title: "Historic Restoration Clearwater FL | Preservation, Older Buildings | FCS",
-  description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes, downtown older buildings, heritage preservation in a beach tourism market. Licensed CBC, 40+ years experience.",
+  title: "Historic Restoration Clearwater | Preservation",
+  description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes downtown older buildings.",
+  openGraph: {
+    title: "Historic Restoration Clearwater | Preservation",
+    description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes downtown older buildings.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

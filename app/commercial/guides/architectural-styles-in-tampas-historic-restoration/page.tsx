@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/architectural-styles-in-tampas-historic-restoration/' },
   title: "Architectural Styles in Tampa Historic Restoration",
-  description: "Expert guide to Tampa's historic architectural styles: Mediterranean Revival, Vernacular, Tampa Bungalow. Learn restoration techniques for Ybor City, Hyde Park & more.",
+  description: "Expert guide to Tampa's historic architectural styles: Mediterranean Revival, Vernacular, Tampa Bungalow.",
+  openGraph: {
+    title: "Architectural Styles in Tampa Historic Restoration",
+    description: "Expert guide to Tampa's historic architectural styles: Mediterranean Revival, Vernacular, Tampa Bungalow.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/architectural-styles-in-tampas-historic-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { Phone, Scale, Shield, FileText, Users, Gavel } from "lucide-react";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/appraisal-arbitration/' },
-  title: "Appraisal & Arbitration | Insurance Claim Disputes | FCS Tampa",
-  description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements. Expert representation for property owners.",
+  title: "Appraisal & Arbitration | Insurance Claim Disputes",
+  description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements.",
+  openGraph: {
+    title: "Appraisal & Arbitration | Insurance Claim Disputes",
+    description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements.",
+    url: "https://floridaconstructionspecialists.com/insurance/appraisal-arbitration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

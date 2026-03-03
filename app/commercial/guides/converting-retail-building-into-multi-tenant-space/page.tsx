@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/' },
   title: "Converting Retail to Multi-Tenant | Tampa Bay",
-  description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Converting Retail to Multi-Tenant | Tampa Bay",
+    description: "Expert guide to converting retail buildings into multi-tenant spaces in Tampa Bay. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

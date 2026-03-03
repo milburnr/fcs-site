@@ -36,9 +36,17 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/historic-restoration/' },
-  title: "Historic Restoration Tampa | SHPO Compliance | FCS",
+  title: "Historic Restoration Tampa | SHPO Compliance",
   description:
-    "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Contact us today.'s Eye Institute, Bay Pines VA Hospital restoration.",
+    "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Historic Restoration Tampa | SHPO Compliance",
+    description: "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/commercial/historic-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const features = [

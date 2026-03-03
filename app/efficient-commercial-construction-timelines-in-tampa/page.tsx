@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/efficient-commercial-construction-timelines-in-tampa/' },
   title: "Commercial Construction Timelines Tampa | Scheduling",
-  description: "Master commercial construction timelines in Tampa. Learn typical project durations, schedule optimization strategies, and how to keep your project on track.",
+  description: "Master commercial construction timelines in Tampa. Learn typical project durations schedule optimization strategies and how to keep your project on track.",
+  openGraph: {
+    title: "Commercial Construction Timelines Tampa | Scheduling",
+    description: "Master commercial construction timelines in Tampa. Learn typical project durations schedule optimization strategies and how to keep your project on track.",
+    url: "https://floridaconstructionspecialists.com/efficient-commercial-construction-timelines-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

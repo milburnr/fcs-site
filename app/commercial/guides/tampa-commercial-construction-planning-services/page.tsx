@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-planning-services/' },
-  title: "Tampa Commercial Construction Planning | FCS",
+  title: "Tampa Commercial Construction Planning",
   description: "Professional construction planning services for commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Tampa Commercial Construction Planning",
+    description: "Professional construction planning services for commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-planning-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

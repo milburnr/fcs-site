@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-structural-drying-services-post-flooding/' },
-  title: "Structural Drying Services Tampa | Flood | FCS",
-  description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC. Call (813) 420-7561 for a quote.",
+  title: "Structural Drying Services Tampa | Flood",
+  description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Structural Drying Services Tampa | Flood",
+    description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-structural-drying-services-post-flooding/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -66,7 +74,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

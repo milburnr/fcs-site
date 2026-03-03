@@ -14,6 +14,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes/' },
   title: "Luxury Custom Home Builders Tampa | Waterfront",
   description: "Luxury custom homes Tampa: waterfront estates, hurricane-resistant design, smart home tech. 40+ years building excellence. Schedule a visit.",
+  openGraph: {
+    title: "Luxury Custom Home Builders Tampa | Waterfront",
+    description: "Luxury custom homes Tampa: waterfront estates, hurricane-resistant design, smart home tech. 40+ years building excellence. Schedule a visit.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const tocItems = [

@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/vip-public-adjuster/' },
   title: "VIP Public Adjuster Tampa | Commercial Claims",
   description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Expert tips from Florida Construction Specialists, licensed CBC. Get a free quote.",
+  openGraph: {
+    title: "VIP Public Adjuster Tampa | Commercial Claims",
+    description: "Expert VIP public adjuster services for Tampa Bay commercial properties. Expert tips from Florida Construction Specialists, licensed CBC. Get a free quote.",
+    url: "https://floridaconstructionspecialists.com/vip-public-adjuster/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

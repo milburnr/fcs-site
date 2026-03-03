@@ -27,7 +27,15 @@ import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/engineering/' },
   title: "Engineering Coordination Services",
-  description: "Expert engineering coordination for construction projects. 43+ years experience, licensed contractor CBC1262722. Schedule consultation. Call (813) 420-7561.",
+  description: "Expert engineering coordination for construction projects. 43+ years experience, licensed contractor CBC1262722. Schedule consultation.",
+  openGraph: {
+    title: "Engineering Coordination Services",
+    description: "Expert engineering coordination for construction projects. 43+ years experience, licensed contractor CBC1262722. Schedule consultation.",
+    url: "https://floridaconstructionspecialists.com/engineering/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

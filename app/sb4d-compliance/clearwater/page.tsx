@@ -12,8 +12,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/clearwater/" },
-  title: "SB4-D Compliance Clearwater | Condo Milestone Inspection | FCS",
-  description: "SB4-D compliance services for Clearwater condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island and beach condos. Licensed CBC, 40+ years experience.",
+  title: "SB4-D Compliance Clearwater",
+  description: "SB4-D compliance services for Clearwater condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island and beach condos.",
+  openGraph: {
+    title: "SB4-D Compliance Clearwater",
+    description: "SB4-D compliance services for Clearwater condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island and beach condos.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

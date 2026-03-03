@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-design-build-construction-for-commercial-project/' },
   title: "Design-Build Benefits for Commercial Tampa",
   description: "Discover design-build benefits for commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Design-Build Benefits for Commercial Tampa",
+    description: "Discover design-build benefits for commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

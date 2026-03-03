@@ -28,9 +28,17 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hyde-park-renovation-guide/' },
-  title: "Hyde Park Renovation Guide Tampa | ARC | FCS",
+  title: "Hyde Park Renovation Guide Tampa | ARC",
   description:
     "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call for a free consultation today.",
+  openGraph: {
+    title: "Hyde Park Renovation Guide Tampa | ARC",
+    description: "Discover hyde park renovation guide arc with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/hyde-park-renovation-guide/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const arcProcess = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-lakeland/' },
-  title: "Condo Remediation Lakeland FL | SB4-D, Lake-Front Condos, Structural Repair | FCS",
-  description: "Condo remediation in Lakeland by Florida Construction Specialists. SB4-D milestone inspections, structural repair, concrete restoration for lake-front and downtown condominiums. Licensed CBC, 40+ years experience.",
+  title: "Condo Remediation Lakeland | SB4-D",
+  description: "Condo remediation in Lakeland by Florida Construction Specialists. SB4-D milestone inspections structural repair.",
+  openGraph: {
+    title: "Condo Remediation Lakeland | SB4-D",
+    description: "Condo remediation in Lakeland by Florida Construction Specialists. SB4-D milestone inspections structural repair.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

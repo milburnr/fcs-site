@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-importance-of-quality-construction-materials-in-tampa/' },
   title: "Quality Construction Materials Tampa | Code",
-  description: "Learn why quality construction materials matter in Tampa's demanding climate. Florida Construction Specialists explains FBC requirements, hurricane-resistant materials, and material specifications for commercial buildings.",
+  description: "Learn why quality construction materials matter in Tampa's demanding climate. Florida Construction Specialists explains FBC requirements.",
+  openGraph: {
+    title: "Quality Construction Materials Tampa | Code",
+    description: "Learn why quality construction materials matter in Tampa's demanding climate. Florida Construction Specialists explains FBC requirements.",
+    url: "https://floridaconstructionspecialists.com/the-importance-of-quality-construction-materials-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

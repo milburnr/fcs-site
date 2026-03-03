@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-bidding-process/' },
   title: "Tampa Commercial Construction Bidding | Guide",
   description: "Tampa commercial construction bidding: RFP preparation, contractor evaluation, negotiation strategies. Get your competitive quote today.",
+  openGraph: {
+    title: "Tampa Commercial Construction Bidding | Guide",
+    description: "Tampa commercial construction bidding: RFP preparation, contractor evaluation, negotiation strategies. Get your competitive quote today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-bidding-process/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

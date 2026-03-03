@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-disaster-landscaping-restoration-in-tampa/' },
   title: "Post-Disaster Landscaping Restoration Tampa",
-  description: "Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Schedule your consultation now.",
+  description: "Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Post-Disaster Landscaping Restoration Tampa",
+    description: "Post-disaster Landscaping Restoration in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/post-disaster-landscaping-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

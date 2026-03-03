@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
-  title: "Multi-Family Construction Sarasota FL | Condos, Luxury Apartments | FCS",
-  description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums, waterfront towers, retirement communities, apartment complexes. Licensed CBC, 40+ years experience.",
+  title: "Multi-Family Construction Sarasota | Condos",
+  description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums waterfront towers retirement communities.",
+  openGraph: {
+    title: "Multi-Family Construction Sarasota | Condos",
+    description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums waterfront towers retirement communities.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

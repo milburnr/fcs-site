@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-wine-cellars-in-tampa/' },
   title: "Custom Home Wine Cellars Tampa | Climate Control",
   description: "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Contact us today.",
+  openGraph: {
+    title: "Custom Home Wine Cellars Tampa | Climate Control",
+    description: "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Contact us today.",
+    url: "https://floridaconstructionspecialists.com/custom-home-wine-cellars-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

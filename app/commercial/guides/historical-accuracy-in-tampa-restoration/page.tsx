@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-accuracy-in-tampa-restoration/' },
   title: "Historical Accuracy in Tampa Restoration",
   description: "Achieving historical accuracy in restoration projects through research, documentation,. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
+  openGraph: {
+    title: "Historical Accuracy in Tampa Restoration",
+    description: "Achieving historical accuracy in restoration projects through research, documentation,. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historical-accuracy-in-tampa-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

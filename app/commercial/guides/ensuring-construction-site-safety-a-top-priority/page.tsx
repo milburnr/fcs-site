@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ensuring-construction-site-safety-a-top-priority/' },
   title: "Construction Site Safety Tampa | Top Priority",
-  description: "Ensuring construction site safety is Florida Construction Specialists' top priority. Learn about OSHA compliance, Florida Building Code requirements, and comprehensive safety programs in Tampa Bay.",
+  description: "Ensuring construction site safety is Florida Construction Specialists' top priority. Learn about OSHA compliance Florida Building Code requirements.",
+  openGraph: {
+    title: "Construction Site Safety Tampa | Top Priority",
+    description: "Ensuring construction site safety is Florida Construction Specialists' top priority. Learn about OSHA compliance Florida Building Code requirements.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/ensuring-construction-site-safety-a-top-priority/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

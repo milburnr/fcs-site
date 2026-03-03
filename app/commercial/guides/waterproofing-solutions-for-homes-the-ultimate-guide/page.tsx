@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/' },
-  title: "Waterproofing High-Rise Residential Tampa | FCS",
+  title: "Waterproofing High-Rise Residential Tampa",
   description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
+  openGraph: {
+    title: "Waterproofing High-Rise Residential Tampa",
+    description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

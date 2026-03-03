@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/' },
-  title: "Preserving Tampa's Cultural Heritage through Restoration",
-  description: "Protecting Tampa's cultural heritage through expert restoration of historically significant buildings in Ybor City, Hyde Park, and Tampa Bay's diverse ethnic neighborhoods.",
+  title: "Preserving Tampa's Cultural Heritage through",
+  description: "Protecting Tampa's cultural heritage through expert restoration of historically significant buildings in Ybor City Hyde Park.",
+  openGraph: {
+    title: "Preserving Tampa's Cultural Heritage through",
+    description: "Protecting Tampa's cultural heritage through expert restoration of historically significant buildings in Ybor City Hyde Park.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

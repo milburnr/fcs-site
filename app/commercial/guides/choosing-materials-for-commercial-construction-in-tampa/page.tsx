@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/' },
   title: "Materials for Commercial Construction Tampa",
-  description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant, humidity-proof, and cost-effective material options for commercial buildings.",
+  description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant humidity-proof.",
+  openGraph: {
+    title: "Materials for Commercial Construction Tampa",
+    description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant humidity-proof.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

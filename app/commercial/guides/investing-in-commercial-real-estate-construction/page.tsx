@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/investing-in-commercial-real-estate-construction/' },
-  title: "Commercial Real Estate Construction Tampa | FCS",
+  title: "Commercial Real Estate Construction Tampa",
   description: "Discover commercial real estate construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  openGraph: {
+    title: "Commercial Real Estate Construction Tampa",
+    description: "Discover commercial real estate construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/investing-in-commercial-real-estate-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/' },
   title: "Tampa Insurance Restoration | Commercial Interiors",
   description: "Expert commercial interior insurance restoration in Tampa. Office, retail, restaurant, and medical facility restoration with full insurance claim support.",
+  openGraph: {
+    title: "Tampa Insurance Restoration | Commercial Interiors",
+    description: "Expert commercial interior insurance restoration in Tampa. Office, retail, restaurant, and medical facility restoration with full insurance claim support.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-for-commercial-interiors/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

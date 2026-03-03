@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends-in-tampa/' },
   title: "Top Commercial Construction Trends in Tampa",
-  description: "Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.Keep your projects on point with us",
+  description: "Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.",
+  openGraph: {
+    title: "Top Commercial Construction Trends in Tampa",
+    description: "Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

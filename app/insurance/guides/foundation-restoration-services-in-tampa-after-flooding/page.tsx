@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/' },
-  title: "Foundation Restoration Services in Tampa After Flooding",
-  description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CBC. Request a free estimate.",
+  title: "Foundation Restoration Services",
+  description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Foundation Restoration Services",
+    description: "Get expert foundation restoration services in Tampa, ensure your home&apos;s stability with. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/foundation-restoration-services-in-tampa-after-flooding/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

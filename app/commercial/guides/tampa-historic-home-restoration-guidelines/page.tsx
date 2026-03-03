@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-home-restoration-guidelines/' },
   title: "Tampa Historic Home Restoration Guidelines",
-  description: "Comprehensive guidelines for restoring Tampa's historic homes in Hyde Park, Seminole Heights, and other preservation districts. Professional standards and best practices.",
+  description: "Comprehensive guidelines for restoring Tampa's historic homes in Hyde Park, Seminole Heights, and other preservation districts.",
+  openGraph: {
+    title: "Tampa Historic Home Restoration Guidelines",
+    description: "Comprehensive guidelines for restoring Tampa's historic homes in Hyde Park, Seminole Heights, and other preservation districts.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-home-restoration-guidelines/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

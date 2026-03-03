@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-bradenton/' },
-  title: "Balcony Reconstruction Bradenton FL | SB 4-D | Anna Maria Island | FCS",
-  description: "Balcony reconstruction in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections, Anna Maria Island condos, riverfront balcony repair, HOA project management. Licensed CBC, 40+ years experience.",
+  title: "Balcony Reconstruction Bradenton | SB 4-D",
+  description: "Balcony reconstruction in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections Anna Maria Island condos riverfront balcony repair.",
+  openGraph: {
+    title: "Balcony Reconstruction Bradenton | SB 4-D",
+    description: "Balcony reconstruction in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections Anna Maria Island condos riverfront balcony repair.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

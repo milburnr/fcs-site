@@ -28,6 +28,14 @@ export const metadata: Metadata = {
   title: "FEMA 50% Rule Tampa | Substantial Improvement",
   description:
     "Complete guide to the FEMA 50% Rule for Tampa Bay homeowners. Learn how substantial improvement calculations affect your flood zone renovation project.",
+  openGraph: {
+    title: "FEMA 50% Rule Tampa | Substantial Improvement",
+    description: "Complete guide to the FEMA 50% Rule for Tampa Bay homeowners. Learn how substantial improvement calculations affect your flood zone renovation project.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/fema-50-percent-rule-explained/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const calculationExamples = [
@@ -141,7 +149,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

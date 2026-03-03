@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/guide-to-waterproofing-solutions-for-basements/' },
-  title: "Basement Waterproofing Tampa | Below-Grade Solutions | FCS",
+  title: "Basement Waterproofing Tampa | Below-Grade Solutions",
   description: "Discover basement waterproofing below-grade solutions with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+  openGraph: {
+    title: "Basement Waterproofing Tampa | Below-Grade Solutions",
+    description: "Discover basement waterproofing below-grade solutions with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/guide-to-waterproofing-solutions-for-basements/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

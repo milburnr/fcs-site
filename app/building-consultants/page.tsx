@@ -25,7 +25,15 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-consultants/' },
   title: "Building Consultants | Construction Consulting",
   description:
-    "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate.",
+    "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CBC with 40+ years experience.",
+  openGraph: {
+    title: "Building Consultants | Construction Consulting",
+    description: "Professional building consulting for property owners, attorneys & insurers. Learn from FCS, a licensed CBC with 40+ years experience.",
+    url: "https://floridaconstructionspecialists.com/building-consultants/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -89,7 +97,7 @@ const faqs = [
 const relatedServices = [
   { href: "/expert-witness/", label: "Expert Witness Services" },
   { href: "/certified-estimates/", label: "Certified Estimates" },
-  { href: "/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
+  { href: "/insurance/guides/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
   { href: "/commercial/", label: "Commercial Construction" },
 ];
 

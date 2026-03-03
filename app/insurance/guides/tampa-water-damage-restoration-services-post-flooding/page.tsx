@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-water-damage-restoration-services-post-flooding/' },
   title: "Tampa water damage restoration Services Post-Flooding",
-  description: "Get expert Water Extraction Services offer immediate flood damage cleanup and emergency water damage restoration inTampa to bring your property back to normal.",
+  description: "Expert water extraction services offering immediate flood damage cleanup and emergency water damage restoration in Tampa.",
+  openGraph: {
+    title: "Tampa water damage restoration Services Post-Flooding",
+    description: "Expert water extraction services offering immediate flood damage cleanup and emergency water damage restoration in Tampa.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampa-water-damage-restoration-services-post-flooding/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

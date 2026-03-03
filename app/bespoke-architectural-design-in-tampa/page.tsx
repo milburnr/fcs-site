@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/' },
   title: "Bespoke Architectural Design Tampa | Commercial",
   description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CBC, proven results. Contact us today.",
+  openGraph: {
+    title: "Bespoke Architectural Design Tampa | Commercial",
+    description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CBC, proven results. Contact us today.",
+    url: "https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

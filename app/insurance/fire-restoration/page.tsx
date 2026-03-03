@@ -14,8 +14,16 @@ import { Phone, Flame, Shield, Building2, Wind, Sparkles, Home, AlertTriangle, C
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/fire-restoration/' },
-  title: "Fire Restoration Tampa | Commercial & Residential Fire Damage Repair | FCS",
+  title: "Fire Restoration Tampa",
   description: "Fire damage restoration Tampa: structural repairs, smoke remediation, odor removal. Commercial and residential recovery. 40+ years. Call now.",
+  openGraph: {
+    title: "Fire Restoration Tampa",
+    description: "Fire damage restoration Tampa: structural repairs, smoke remediation, odor removal. Commercial and residential recovery. 40+ years. Call now.",
+    url: "https://floridaconstructionspecialists.com/insurance/fire-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

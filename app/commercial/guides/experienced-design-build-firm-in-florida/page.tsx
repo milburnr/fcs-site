@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/experienced-design-build-firm-in-florida/' },
   title: "Experienced Design-Build Firm in Florida",
-  description: "Florida Construction Specialists - Tampa Bay's trusted design-build firm with decades of commercial construction experience. Learn what makes an experienced design-build partner essential for project success.",
+  description: "Florida Construction Specialists - Tampa Bay's trusted design-build firm with decades of commercial construction experience.",
+  openGraph: {
+    title: "Experienced Design-Build Firm in Florida",
+    description: "Florida Construction Specialists - Tampa Bay's trusted design-build firm with decades of commercial construction experience.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/experienced-design-build-firm-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -26,7 +34,7 @@ const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/commercial/guides/benefits-of-design-build-construction-for-commercial-project/", label: "Benefits of Design-Build" },
   { href: "/about/", label: "About Our Company" },
-  { href: "/portfolio/", label: "View Our Portfolio" },
+  { href: "/gallery/", label: "View Our Portfolio" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

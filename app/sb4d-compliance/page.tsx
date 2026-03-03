@@ -11,8 +11,16 @@ import { RelatedServices } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb4d-compliance/' },
-  title: "SB4-D Compliance Tampa Bay | Condo Milestone Inspection Remediation | FCS",
-  description: "SB4-D compliance services for Tampa Bay condo associations. Milestone inspection remediation, SIRS coordination, structural repairs. Many buildings are already past due. Licensed CBC, since 1982.",
+  title: "SB4-D Compliance Tampa Bay",
+  description: "SB4-D compliance services for Tampa Bay condo associations. Milestone inspection remediation, SIRS coordination, structural repairs.",
+  openGraph: {
+    title: "SB4-D Compliance Tampa Bay",
+    description: "SB4-D compliance services for Tampa Bay condo associations. Milestone inspection remediation, SIRS coordination, structural repairs.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

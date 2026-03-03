@@ -15,8 +15,16 @@ import { Phone, Wind, Shield, Building2, Home, Droplets, AlertTriangle, CheckCir
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/hurricane-restoration/' },
-  title: "Hurricane Restoration Tampa | Storm Damage Repair Contractor | FCS",
+  title: "Hurricane Restoration Tampa",
   description: "Hurricane restoration Tampa Bay: roof repairs, wind damage, flood recovery. Licensed large-loss specialist. 40+ years storm expertise. Call now.",
+  openGraph: {
+    title: "Hurricane Restoration Tampa",
+    description: "Hurricane restoration Tampa Bay: roof repairs, wind damage, flood recovery. Licensed large-loss specialist. 40+ years storm expertise. Call now.",
+    url: "https://floridaconstructionspecialists.com/insurance/hurricane-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

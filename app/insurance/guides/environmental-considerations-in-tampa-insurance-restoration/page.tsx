@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/' },
-  title: "Environmental Considerations in Tampa Insurance Restoration",
-  description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+  title: "Environmental Considerations",
+  description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Environmental Considerations",
+    description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

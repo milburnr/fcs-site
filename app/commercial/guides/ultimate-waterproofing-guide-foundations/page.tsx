@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ultimate-waterproofing-guide-foundations/' },
   title: "Foundation Waterproofing Guide | Commercial Tampa",
-  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CBC. Contact us today.",
+  description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Foundation Waterproofing Guide | Commercial Tampa",
+    description: "Complete guide to foundation waterproofing for commercial buildings and high-rise condominiums. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/ultimate-waterproofing-guide-foundations/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

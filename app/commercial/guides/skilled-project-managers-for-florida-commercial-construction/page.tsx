@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/skilled-project-managers-for-florida-commercial-construction/' },
-  title: "Skilled Project Managers in Commercial Construction Florida",
-  description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}. Contact our team today.",
+  title: "Skilled Project Managers in Commercial Construction",
+  description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Skilled Project Managers in Commercial Construction",
+    description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/skilled-project-managers-for-florida-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

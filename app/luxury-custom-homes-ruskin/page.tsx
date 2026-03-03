@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-ruskin/' },
-  title: "Luxury Custom Homes Ruskin FL | Waterfront, Apollo Beach | FCS",
-  description: "Luxury custom home builder in Ruskin FL by Florida Construction Specialists — headquartered locally. Apollo Beach waterfront estates, Sun City Center golf course homes, Tampa Bay canal properties. Licensed CBC.",
+  title: "Luxury Custom Homes Ruskin | Waterfront, Apollo Beach",
+  description: "Luxury custom home builder in Ruskin FL by Florida Construction Specialists — headquartered locally.",
+  openGraph: {
+    title: "Luxury Custom Homes Ruskin | Waterfront, Apollo Beach",
+    description: "Luxury custom home builder in Ruskin FL by Florida Construction Specialists — headquartered locally.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

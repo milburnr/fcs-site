@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/custom-commercial-construction-solutions-in-tampa/' },
   title: "Custom Commercial Construction Solutions in Tampa",
   description: "Our experienced commercial building contractors specialize in custom commercial construction solutions tailored for your Tampa business needs.",
+  openGraph: {
+    title: "Custom Commercial Construction Solutions in Tampa",
+    description: "Our experienced commercial building contractors specialize in custom commercial construction solutions tailored for your Tampa business needs.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/custom-commercial-construction-solutions-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

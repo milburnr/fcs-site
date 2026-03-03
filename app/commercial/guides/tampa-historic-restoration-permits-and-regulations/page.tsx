@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-permits-and-regulations/' },
   title: "Tampa Historic Restoration Permits and Regulations",
   description: "Tampa historic restoration permits: COA, SHPO review, building permits coordination. Expert regulatory navigation. Contact us for help.",
+  openGraph: {
+    title: "Tampa Historic Restoration Permits and Regulations",
+    description: "Tampa historic restoration permits: COA, SHPO review, building permits coordination. Expert regulatory navigation. Contact us for help.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-permits-and-regulations/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

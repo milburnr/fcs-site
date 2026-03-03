@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/' },
   title: "Legal Aspects of Insurance Restoration in Tampa",
-  description: "Navigate Florida insurance restoration laws, contractor requirements, and claim deadlines. Essential legal guidance for Tampa Bay commercial property owners.",
+  description: "Navigate Florida insurance restoration laws, contractor requirements, and claim deadlines.",
+  openGraph: {
+    title: "Legal Aspects of Insurance Restoration in Tampa",
+    description: "Navigate Florida insurance restoration laws, contractor requirements, and claim deadlines.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

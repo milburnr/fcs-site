@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/color-palettes-for-historic-buildings-in-tampa/' },
   title: "Color Palettes for Historic Buildings in Tampa",
-  description: "Expert guidance on selecting period-appropriate color palettes for Tampa's historic buildings. Paint analysis, historic color research, and compliance with preservation standards.",
+  description: "Expert guidance on selecting period-appropriate color palettes for Tampa's historic buildings. Paint analysis historic color research.",
+  openGraph: {
+    title: "Color Palettes for Historic Buildings in Tampa",
+    description: "Expert guidance on selecting period-appropriate color palettes for Tampa's historic buildings. Paint analysis historic color research.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/color-palettes-for-historic-buildings-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

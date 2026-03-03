@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-bradenton/' },
-  title: "Insurance Restoration Bradenton FL | Storm Damage, Claims | FCS",
-  description: "Insurance restoration contractor in Bradenton. Hurricane damage, Anna Maria Island storm claims, Manatee River flooding, carrier negotiation, commercial and residential restoration. Licensed CBC, 40+ years experience.",
+  title: "Insurance Restoration Bradenton | Storm Damage, Claims",
+  description: "Insurance restoration contractor in Bradenton. Hurricane damage Anna Maria Island storm claims Manatee River flooding carrier negotiation.",
+  openGraph: {
+    title: "Insurance Restoration Bradenton | Storm Damage, Claims",
+    description: "Insurance restoration contractor in Bradenton. Hurricane damage Anna Maria Island storm claims Manatee River flooding carrier negotiation.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

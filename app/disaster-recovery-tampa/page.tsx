@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-tampa/' },
-  title: "Disaster Recovery Tampa FL | Hurricane & Storm Recovery | FCS",
-  description: "Disaster recovery construction in Tampa. Hurricane preparedness, emergency response, structural stabilization, commercial and residential recovery. Licensed CBC, 40+ years experience.",
+  title: "Disaster Recovery Tampa | Hurricane & Storm Recovery",
+  description: "Disaster recovery construction in Tampa. Hurricane preparedness, emergency response, structural stabilization, commercial and residential recovery.",
+  openGraph: {
+    title: "Disaster Recovery Tampa | Hurricane & Storm Recovery",
+    description: "Disaster recovery construction in Tampa. Hurricane preparedness, emergency response, structural stabilization, commercial and residential recovery.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

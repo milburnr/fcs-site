@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/' },
   title: "Preventing Home Improvement Fraud Tampa",
-  description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}. Request a free estimate.",
+  description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Preventing Home Improvement Fraud Tampa",
+    description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

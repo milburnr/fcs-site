@@ -23,9 +23,17 @@ const servicesGalleryPhotos: GalleryPhoto[] = [
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/' },
-  title: "Construction Services Tampa Bay | Full-Service General Contractor | FCS",
+  title: "Construction Services Tampa Bay",
   description:
-    "Tampa Bay general contractor since 1982: commercial construction, multi-family, disaster recovery, historic restoration, and custom homes. $500K-$25M+ projects. Discuss your project today.",
+    "Tampa Bay general contractor since 1982: commercial construction, multi-family, disaster recovery, historic restoration, and custom homes.",
+  openGraph: {
+    title: "Construction Services Tampa Bay",
+    description: "Tampa Bay general contractor since 1982: commercial construction, multi-family, disaster recovery, historic restoration, and custom homes.",
+    url: "https://floridaconstructionspecialists.com/services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

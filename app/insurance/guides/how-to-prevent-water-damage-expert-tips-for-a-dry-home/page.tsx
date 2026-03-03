@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/' },
   title: "Prevent Water Damage Tampa | Commercial Tips",
   description: "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Prevent Water Damage Tampa | Commercial Tips",
+    description: "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -66,7 +74,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

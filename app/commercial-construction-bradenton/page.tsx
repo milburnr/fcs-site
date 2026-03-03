@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
-  title: "Commercial Construction Bradenton FL | Lakewood Ranch, Downtown | FCS",
-  description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development, downtown revitalization, medical facilities, industrial projects near Port Manatee. Licensed CBC, 40+ years experience.",
+  title: "Commercial Construction Bradenton | Lakewood Ranch",
+  description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development downtown revitalization medical facilities.",
+  openGraph: {
+    title: "Commercial Construction Bradenton | Lakewood Ranch",
+    description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development downtown revitalization medical facilities.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

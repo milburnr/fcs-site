@@ -9,9 +9,17 @@ import { GALLERY_PROJECTS, getProjectImages, R2_BASE_URL } from "@/lib/gallery-d
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/gallery/" },
-  title: "Project Gallery | Florida Construction Specialists",
+  title: "Project Gallery",
   description:
-    "Browse commercial construction projects completed by Florida Construction Specialists across Tampa Bay. View photos of completed renovations, restorations, and new builds.",
+    "Browse commercial construction projects completed by Florida Construction Specialists across Tampa Bay.",
+  openGraph: {
+    title: "Project Gallery",
+    description: "Browse commercial construction projects completed by Florida Construction Specialists across Tampa Bay.",
+    url: "https://floridaconstructionspecialists.com/gallery/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

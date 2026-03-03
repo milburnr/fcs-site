@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/avoid-commercial-construction-delays-in-florida/' },
   title: "Avoid Commercial Construction Delays Florida",
-  description: "Learn the top causes of commercial construction delays in Florida and proven strategies to keep your project on schedule. Expert tips from Tampa Bay's leading general contractor.",
+  description: "Learn the top causes of commercial construction delays in Florida and proven strategies to keep your project on schedule.",
+  openGraph: {
+    title: "Avoid Commercial Construction Delays Florida",
+    description: "Learn the top causes of commercial construction delays in Florida and proven strategies to keep your project on schedule.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/avoid-commercial-construction-delays-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -8,8 +8,16 @@ import classificationData from "@/seo/article-classification.json";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/' },
-  title: "Insurance Restoration Guides | Florida Construction Specialists",
+  title: "Insurance Restoration Guides",
   description: "Expert insurance restoration guides for Tampa Bay. Browse our library of articles on property claims, disaster recovery, storm damage repair, and more.",
+  openGraph: {
+    title: "Insurance Restoration Guides",
+    description: "Expert insurance restoration guides for Tampa Bay. Browse our library of articles on property claims, disaster recovery, storm damage repair, and more.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

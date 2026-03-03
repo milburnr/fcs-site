@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-commercial-renovation-in-florida/' },
   title: "Commercial Renovation Tips Florida | Tampa",
-  description: "Essential tips for successful commercial renovation in Florida's unique climate. Hurricane codes, humidity management, permit processes, and contractor selection from Tampa's construction experts.",
+  description: "Essential tips for successful commercial renovation in Florida's unique climate. Hurricane codes humidity management permit processes.",
+  openGraph: {
+    title: "Commercial Renovation Tips Florida | Tampa",
+    description: "Essential tips for successful commercial renovation in Florida's unique climate. Hurricane codes humidity management permit processes.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tips-for-commercial-renovation-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

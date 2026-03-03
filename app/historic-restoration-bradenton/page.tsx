@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-bradenton/' },
-  title: "Historic Restoration Bradenton FL | Village of the Arts, Cortez | FCS",
-  description: "Historic restoration in Bradenton by Florida Construction Specialists. Village of the Arts, Cortez fishing village, Old Main Street, downtown historic buildings. Licensed CBC, 40+ years experience.",
+  title: "Historic Restoration Bradenton | Village of the Arts",
+  description: "Historic restoration in Bradenton by Florida Construction Specialists. Village of the Arts Cortez fishing village Old Main Street.",
+  openGraph: {
+    title: "Historic Restoration Bradenton | Village of the Arts",
+    description: "Historic restoration in Bradenton by Florida Construction Specialists. Village of the Arts Cortez fishing village Old Main Street.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

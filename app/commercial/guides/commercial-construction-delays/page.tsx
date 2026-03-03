@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-delays/' },
   title: "Managing Commercial Construction Delays",
-  description: "Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa. Gain expert Guides!",
+  description: "Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa.",
+  openGraph: {
+    title: "Managing Commercial Construction Delays",
+    description: "Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-delays/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

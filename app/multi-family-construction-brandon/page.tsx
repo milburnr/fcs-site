@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-brandon/' },
-  title: "Multi-Family Construction Brandon FL | Apartments, Townhomes | FCS",
-  description: "Multi-family construction in Brandon FL by Florida Construction Specialists. Apartments, townhomes, and mixed-use housing in eastern Hillsborough County. Licensed CBC, 40+ years experience. Request a consultation.",
+  title: "Multi-Family Construction Brandon | Apartments",
+  description: "Multi-family construction in Brandon FL by Florida Construction Specialists. Apartments, townhomes, and mixed-use housing in eastern Hillsborough County.",
+  openGraph: {
+    title: "Multi-Family Construction Brandon | Apartments",
+    description: "Multi-family construction in Brandon FL by Florida Construction Specialists. Apartments, townhomes, and mixed-use housing in eastern Hillsborough County.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

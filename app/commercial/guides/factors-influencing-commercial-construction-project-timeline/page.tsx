@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/factors-influencing-commercial-construction-project-timeline/' },
-  title: "Factors Influencing Commercial Construction Project timeline",
+  title: "Factors Influencing Commercial Construction Project",
   description: "Discover the top factors affecting commercial construction project length in Florida. From project delays to construction project timeline.",
+  openGraph: {
+    title: "Factors Influencing Commercial Construction Project",
+    description: "Discover the top factors affecting commercial construction project length in Florida. From project delays to construction project timeline.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/factors-influencing-commercial-construction-project-timeline/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

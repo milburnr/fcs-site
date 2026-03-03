@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/' },
   title: "Tampa Disaster Demolition | Emergency Commercial",
   description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Tampa Disaster Demolition | Emergency Commercial",
+    description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

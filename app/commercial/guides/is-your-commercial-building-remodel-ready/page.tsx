@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/is-your-commercial-building-remodel-ready/' },
   title: "Is Your Building Remodel Ready? | Tampa",
-  description: "Comprehensive guide to assessing your commercial building's remodel readiness in Tampa Bay. Structural assessments, code compliance, budget planning, and timeline considerations from Florida Construction Specialists.",
+  description: "Comprehensive guide to assessing your commercial building's remodel readiness in Tampa Bay. Structural assessments code compliance budget planning.",
+  openGraph: {
+    title: "Is Your Building Remodel Ready? | Tampa",
+    description: "Comprehensive guide to assessing your commercial building's remodel readiness in Tampa Bay. Structural assessments code compliance budget planning.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/is-your-commercial-building-remodel-ready/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

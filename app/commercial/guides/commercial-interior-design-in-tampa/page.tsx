@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-interior-design-in-tampa/' },
   title: "Commercial Interior Design Tampa | Office",
-  description: "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC. Request a free estimate today.",
+  description: "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC.",
+  openGraph: {
+    title: "Commercial Interior Design Tampa | Office",
+    description: "Commercial Interior Design Office in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-interior-design-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

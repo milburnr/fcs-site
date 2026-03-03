@@ -11,9 +11,17 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/" },
-  title: "Exterior Waterproofing Tampa FL | Building Envelope Protection | FCS",
+  title: "Exterior Waterproofing Tampa",
   description:
-    "Professional exterior waterproofing in Tampa. Building envelope, foundation, parking deck, and plaza waterproofing for commercial and residential properties. CBC1262722. 40+ years experience.",
+    "Professional exterior waterproofing in Tampa. Building envelope foundation parking deck and plaza waterproofing for commercial and residential properties.",
+  openGraph: {
+    title: "Exterior Waterproofing Tampa",
+    description: "Professional exterior waterproofing in Tampa. Building envelope foundation parking deck and plaza waterproofing for commercial and residential properties.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

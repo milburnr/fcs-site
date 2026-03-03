@@ -12,6 +12,14 @@ export const metadata = {
   title: "Historic Restoration & Preservation Tampa FL",
   description:
     "Historic restoration Tampa: traditional craftsmanship and modern techniques. Preserve Florida heritage. SHPO compliance. Get a consultation.",
+  openGraph: {
+    title: "Historic Restoration & Preservation Tampa",
+    description: "Historic restoration Tampa: traditional craftsmanship and modern techniques. Preserve Florida heritage. SHPO compliance.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-preservation/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Historic Restoration" }],
+  },
 };
 
 const breadcrumbItems = [

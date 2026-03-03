@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/' },
   title: "Eco-Friendly Historic Restoration Tampa | Green",
   description: "Eco-friendly Historic Restoration Green in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years. Request a free estimate.",
+  openGraph: {
+    title: "Eco-Friendly Historic Restoration Tampa | Green",
+    description: "Eco-friendly Historic Restoration Green in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

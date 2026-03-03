@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/lakeland-fl/' },
-  title: "Lakeland Commercial Restoration | $500K-$25M+ | FCS",
+  title: "Lakeland Commercial Restoration | $500K-$25M+",
   description: "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+  openGraph: {
+    title: "Lakeland Commercial Restoration | $500K-$25M+",
+    description: "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/locations/lakeland-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

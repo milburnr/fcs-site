@@ -11,6 +11,13 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/water-damage-mitigation-in-tampa/' },
   title: "Water Damage Mitigation in Tampa",
+  openGraph: {
+    title: "Water Damage Mitigation in Tampa",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/water-damage-mitigation-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

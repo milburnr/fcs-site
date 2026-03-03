@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-interior-restoration-in-tampa/' },
   title: "Post-Disaster Interior Restoration Tampa",
-  description: "Post-disaster Interior Restoration in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC. Request a free estimate today.",
+  description: "Post-disaster Interior Restoration in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC.",
+  openGraph: {
+    title: "Post-Disaster Interior Restoration Tampa",
+    description: "Post-disaster Interior Restoration in Tampa: design-build, pre-construction, and project management. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/post-disaster-interior-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

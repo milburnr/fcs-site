@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends/' },
-  title: "Unveiling the Top Commercial Construction Trends in Florida",
-  description: "Are you curious about the latest commercial construction trends in Florida? Discover the cutting-edge construction technology advancements with experts in Fl...",
+  title: "Unveiling the Top Commercial Construction Trends",
+  description: "Discover the latest commercial construction trends in Florida. Explore cutting-edge construction technology advancements with industry experts.",
+  openGraph: {
+    title: "Unveiling the Top Commercial Construction Trends",
+    description: "Discover the latest commercial construction trends in Florida. Explore cutting-edge construction technology advancements with industry experts.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

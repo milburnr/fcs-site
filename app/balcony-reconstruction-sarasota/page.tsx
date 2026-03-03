@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/' },
-  title: "Balcony Reconstruction Sarasota FL | SB4-D, Condo Balconies | FCS",
-  description: "Balcony reconstruction in Sarasota by Florida Construction Specialists. SB4-D compliance, barrier island condo balconies, saltwater corrosion repair, structural restoration. Licensed CBC, 40+ years.",
+  title: "Balcony Reconstruction Sarasota | SB4-D",
+  description: "Balcony reconstruction in Sarasota by Florida Construction Specialists. SB4-D compliance barrier island condo balconies saltwater corrosion repair.",
+  openGraph: {
+    title: "Balcony Reconstruction Sarasota | SB4-D",
+    description: "Balcony reconstruction in Sarasota by Florida Construction Specialists. SB4-D compliance barrier island condo balconies saltwater corrosion repair.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

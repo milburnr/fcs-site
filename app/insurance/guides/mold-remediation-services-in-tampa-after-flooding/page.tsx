@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-services-in-tampa-after-flooding/' },
   title: "Mold Remediation Services in Tampa After Flooding",
-  description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal, water damage cleanup, and flood damage restoration for your home ...",
+  description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal water damage cleanup.",
+  openGraph: {
+    title: "Mold Remediation Services in Tampa After Flooding",
+    description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal water damage cleanup.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-services-in-tampa-after-flooding/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -44,7 +52,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

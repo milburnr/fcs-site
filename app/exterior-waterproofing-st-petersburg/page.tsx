@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
-  title: "Exterior Waterproofing St. Petersburg FL | Coastal Building Envelope | FCS",
-  description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope, foundation, parking deck, and plaza waterproofing for peninsula properties. Marine-grade systems, 10-year warranty. Licensed CBC, 40+ years experience.",
+  title: "Exterior Waterproofing St. Pete",
+  description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope foundation parking deck.",
+  openGraph: {
+    title: "Exterior Waterproofing St. Pete",
+    description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope foundation parking deck.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

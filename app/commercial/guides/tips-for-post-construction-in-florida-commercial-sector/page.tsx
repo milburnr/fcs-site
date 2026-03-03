@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/' },
   title: "Post-Construction Tips Florida Commercial",
   description: "Essential post-construction tips for Florida commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Post-Construction Tips Florida Commercial",
+    description: "Essential post-construction tips for Florida commercial projects. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tips-for-post-construction-in-florida-commercial-sector/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/' },
-  title: "Balcony Restoration & Waterproofing Tampa | FCS",
-  description: "Maximize your Tampa Bay condo's balcony lifespan with professional restoration and waterproofing. Expert strategies for 20+ year durability in Florida's coastal climate.",
+  title: "Balcony Restoration & Waterproofing Tampa",
+  description: "Maximize your Tampa Bay condo's balcony lifespan with professional restoration and waterproofing.",
+  openGraph: {
+    title: "Balcony Restoration & Waterproofing Tampa",
+    description: "Maximize your Tampa Bay condo's balcony lifespan with professional restoration and waterproofing.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-and-exterior-waterproofing-for-longevity/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

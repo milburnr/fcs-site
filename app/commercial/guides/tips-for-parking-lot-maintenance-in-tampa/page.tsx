@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/' },
   title: "Parking Lot Maintenance Tampa | Commercial Guide",
-  description: "Essential parking lot maintenance tips for Tampa's climate. Heat damage prevention, drainage solutions, sealcoating schedules, and cost-saving strategies from commercial construction experts.",
+  description: "Essential parking lot maintenance tips for Tampa's climate. Heat damage prevention drainage solutions sealcoating schedules.",
+  openGraph: {
+    title: "Parking Lot Maintenance Tampa | Commercial Guide",
+    description: "Essential parking lot maintenance tips for Tampa's climate. Heat damage prevention drainage solutions sealcoating schedules.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

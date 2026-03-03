@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/' },
   title: "Reinforced Construction Tampa | Hurricane-Proof",
   description: "Reinforced construction services in for disaster prevention. Expert analysis from Florida Construction Specialists. Call for a free consultation today.",
+  openGraph: {
+    title: "Reinforced Construction Tampa | Hurricane-Proof",
+    description: "Reinforced construction services in for disaster prevention. Expert analysis from Florida Construction Specialists. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -66,7 +74,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa/' },
   title: "Leading Sustainable Commercial Construction in Tampa",
   description: "Sustainable commercial construction Tampa: LEED projects, green building, eco-friendly materials. Energy-efficient buildings. Get a quote.",
+  openGraph: {
+    title: "Leading Sustainable Commercial Construction in Tampa",
+    description: "Sustainable commercial construction Tampa: LEED projects, green building, eco-friendly materials. Energy-efficient buildings. Get a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

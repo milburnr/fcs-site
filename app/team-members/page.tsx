@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   title: "Our Team | Florida Construction Specialists Leadership",
   description:
     "Meet the experienced leadership team at Florida Construction Specialists. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  openGraph: {
+    title: "Our Team | Florida Construction Specialists Leadership",
+    description: "Meet the experienced leadership team at Florida Construction Specialists. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/team-members/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

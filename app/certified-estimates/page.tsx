@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
   title: "Certified Construction Estimates",
   description: "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+  openGraph: {
+    title: "Certified Construction Estimates",
+    description: "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+    url: "https://floridaconstructionspecialists.com/certified-estimates/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -64,7 +72,7 @@ const faqs = [
 
 const relatedServices = [
   { href: "/expert-witness/", label: "Expert Witness Services" },
-  { href: "/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
+  { href: "/insurance/guides/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
   { href: "/building-consultants/", label: "Building Consultants" },
   { href: "/insurance/", label: "Disaster Recovery" },
 ];
@@ -274,7 +282,7 @@ export default function CertifiedEstimatesPage() {
                 ))}
               </ul>
 
-              <Link href="/insurance-arbitration-appraisal/" className="inline-flex items-center gap-2 text-brand-green font-semibold hover:underline">
+              <Link href="/insurance/guides/insurance-arbitration-appraisal/" className="inline-flex items-center gap-2 text-brand-green font-semibold hover:underline">
                 Learn about our appraisal services
                 <ArrowRight className="w-4 h-4" />
               </Link>

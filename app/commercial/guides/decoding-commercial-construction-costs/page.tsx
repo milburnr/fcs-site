@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/decoding-commercial-construction-costs/' },
-  title: "Commercial Construction Costs Tampa Bay | FCS",
+  title: "Commercial Construction Costs Tampa Bay",
   description: "Discover commercial construction costs with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call for a free consultation today.",
+  openGraph: {
+    title: "Commercial Construction Costs Tampa Bay",
+    description: "Discover commercial construction costs with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/decoding-commercial-construction-costs/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

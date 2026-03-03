@@ -28,4 +28,7 @@ Thumbs.db
 
 # Local Netlify folder
 .netlify
-# Trigger rebuild
+
+# Images served from Cloudflare R2 via Netlify proxy (see _redirects)
+public/images/
+public/wp-content/

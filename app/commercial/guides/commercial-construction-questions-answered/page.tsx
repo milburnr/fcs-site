@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-questions-answered/' },
-  title: "Commercial Construction Questions Answered: Expert Guides",
-  description: "Get expert insights on commercial construction Questions Answered from Florida construction specialists. Our experts provide valuable tips and aproject FAQs.",
+  title: "Commercial Construction Questions Answered: Expert",
+  description: "Get expert insights on commercial construction Questions Answered from Florida construction specialists.",
+  openGraph: {
+    title: "Commercial Construction Questions Answered: Expert",
+    description: "Get expert insights on commercial construction Questions Answered from Florida construction specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-questions-answered/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

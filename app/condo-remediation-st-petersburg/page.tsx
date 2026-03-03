@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-st-petersburg/' },
-  title: "Condo Remediation St. Petersburg FL | SB 4-D, Structural Repair, Waterfront | FCS",
-  description: "Condo remediation in St. Petersburg by Florida Construction Specialists. SB 4-D milestone inspections, structural concrete repair, waterfront tower restoration. Licensed CBC, 40+ years experience. Schedule an assessment.",
+  title: "Condo Remediation St. Pete | SB 4-D",
+  description: "Condo remediation in St. Petersburg by Florida Construction Specialists. SB 4-D milestone inspections structural concrete repair.",
+  openGraph: {
+    title: "Condo Remediation St. Pete | SB 4-D",
+    description: "Condo remediation in St. Petersburg by Florida Construction Specialists. SB 4-D milestone inspections structural concrete repair.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

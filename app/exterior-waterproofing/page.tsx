@@ -13,8 +13,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing/' },
-  title: "Exterior Waterproofing Tampa | Florida | FCS",
-  description: "Building Envelope Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Call (813) 420-7561 for a quote.",
+  title: "Exterior Waterproofing Tampa | Florida",
+  description: "Building Envelope Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Exterior Waterproofing Tampa | Florida",
+    description: "Building Envelope Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const features = [

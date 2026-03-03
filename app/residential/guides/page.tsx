@@ -8,8 +8,16 @@ import classificationData from "@/seo/article-classification.json";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/' },
-  title: "Residential Construction Guides | Florida Construction Specialists",
+  title: "Residential Construction Guides",
   description: "Expert residential construction guides for Tampa Bay. Browse our library of articles on custom homes, renovations, smart home technology, and more.",
+  openGraph: {
+    title: "Residential Construction Guides",
+    description: "Expert residential construction guides for Tampa Bay. Browse our library of articles on custom homes, renovations, smart home technology, and more.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

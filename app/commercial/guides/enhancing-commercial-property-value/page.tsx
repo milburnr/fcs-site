@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/enhancing-commercial-property-value/' },
-  title: "Enhance Commercial Property Value Tampa | FCS",
+  title: "Enhance Commercial Property Value Tampa",
   description: "Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1982. Read more.",
+  openGraph: {
+    title: "Enhance Commercial Property Value Tampa",
+    description: "Maximize your Tampa commercial property value with strategic renovations and upgrades. Professional advice from FCS, serving clients since 1982. Read more.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/enhancing-commercial-property-value/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

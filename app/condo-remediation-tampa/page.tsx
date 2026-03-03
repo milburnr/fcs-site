@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-tampa/' },
-  title: "Condo Remediation Tampa FL | SB 4-D Compliance | Milestone Inspections | FCS",
-  description: "Condo remediation and SB 4-D milestone inspection compliance in Tampa. Structural repairs, concrete restoration, waterproofing for aging condos. Licensed CBC, 40+ years experience.",
+  title: "Condo Remediation Tampa | SB 4-D Compliance",
+  description: "Condo remediation and SB 4-D milestone inspection compliance in Tampa. Structural repairs, concrete restoration, waterproofing for aging condos.",
+  openGraph: {
+    title: "Condo Remediation Tampa | SB 4-D Compliance",
+    description: "Condo remediation and SB 4-D milestone inspection compliance in Tampa. Structural repairs, concrete restoration, waterproofing for aging condos.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

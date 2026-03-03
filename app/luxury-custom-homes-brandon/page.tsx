@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-brandon/' },
-  title: "Luxury Custom Homes Brandon FL | FishHawk, Lithia, Valrico | FCS",
-  description: "Luxury custom home construction in Brandon, FishHawk Ranch, Lithia, and Valrico. Estate homes on acreage lots, custom builds in master-planned communities. Licensed CBC, 40+ years experience.",
+  title: "Luxury Custom Homes Brandon | FishHawk",
+  description: "Luxury custom home construction in Brandon, FishHawk Ranch, Lithia, and Valrico. Estate homes on acreage lots, custom builds in master-planned communities.",
+  openGraph: {
+    title: "Luxury Custom Homes Brandon | FishHawk",
+    description: "Luxury custom home construction in Brandon, FishHawk Ranch, Lithia, and Valrico. Estate homes on acreage lots, custom builds in master-planned communities.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -9,8 +9,16 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/home-additions/' },
-  title: "Home Additions Tampa | Room Additions & Expansions | FCS",
+  title: "Home Additions Tampa | Room Additions & Expansions",
   description: "Home Additions Room Additions & Expansions across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  openGraph: {
+    title: "Home Additions Tampa | Room Additions & Expansions",
+    description: "Home Additions Room Additions & Expansions across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+    url: "https://floridaconstructionspecialists.com/services/residential/home-additions/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

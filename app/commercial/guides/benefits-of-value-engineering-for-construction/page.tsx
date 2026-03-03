@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-value-engineering-for-construction/' },
-  title: "Benefits of Value Engineering for Construction | Tampa FL",
-  description: "Maximize your commercial construction budget through value engineering. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+  title: "Benefits of Value Engineering for Construction | Tampa",
+  description: "Maximize your commercial construction budget through value engineering. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Benefits of Value Engineering for Construction | Tampa",
+    description: "Maximize your commercial construction budget through value engineering. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/benefits-of-value-engineering-for-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

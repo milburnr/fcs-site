@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/summer-construction-safety-tips-from-top-contractors/' },
   title: "Summer Construction Safety Tampa | Heat Safety",
   description: "Expert summer construction safety tips from top Tampa contractors. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Summer Construction Safety Tampa | Heat Safety",
+    description: "Expert summer construction safety tips from top Tampa contractors. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/summer-construction-safety-tips-from-top-contractors/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-tampa-homes-with-personalized-office-spaces/' },
   title: "Tampa Homes with Personalized Office Spaces",
   description: "Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CBC with 40+ years experience. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Tampa Homes with Personalized Office Spaces",
+    description: "Design the perfect home office in your custom home in Tampa. Learn from FCS, a licensed CBC with 40+ years experience. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/building-tampa-homes-with-personalized-office-spaces/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

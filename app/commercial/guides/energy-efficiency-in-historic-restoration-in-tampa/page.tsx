@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/' },
   title: "Energy Efficiency in Historic Restoration in Tampa",
-  description: "Revitalize Tampa Bay's heritage with energy-efficient historic restoration. Expert renovations blending historic preservation with modern energy conservation.",
+  description: "Revitalize Tampa Bay's heritage with energy-efficient historic restoration. Expert renovations blending historic preservation with modern energy.",
+  openGraph: {
+    title: "Energy Efficiency in Historic Restoration in Tampa",
+    description: "Revitalize Tampa Bay's heritage with energy-efficient historic restoration. Expert renovations blending historic preservation with modern energy.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-consultancy-in-tampa/' },
-  title: "Commercial Construction Consultancy Tampa | FCS",
-  description: "Expert commercial construction consultants in Tampa offering project advisory, owner's representation, and construction management services. Get objective guidance for your project.",
+  title: "Commercial Construction Consultancy Tampa",
+  description: "Expert commercial construction consultants in Tampa offering project advisory, owner's representation, and construction management services.",
+  openGraph: {
+    title: "Commercial Construction Consultancy Tampa",
+    description: "Expert commercial construction consultants in Tampa offering project advisory, owner's representation, and construction management services.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-consultancy-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

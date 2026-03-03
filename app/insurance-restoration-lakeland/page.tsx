@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-lakeland/' },
-  title: "Insurance Restoration Lakeland FL | Lightning, Storm, Hail Damage | FCS",
-  description: "Insurance restoration in Lakeland by Florida Construction Specialists. Lightning damage, storm repair, hail claims, wind damage in Lightning Alley. Licensed CBC, 40+ years experience. Request a claims consultation.",
+  title: "Insurance Restoration Lakeland | Lightning",
+  description: "Insurance restoration in Lakeland by Florida Construction Specialists. Lightning damage, storm repair, hail claims, wind damage in Lightning Alley.",
+  openGraph: {
+    title: "Insurance Restoration Lakeland | Lightning",
+    description: "Insurance restoration in Lakeland by Florida Construction Specialists. Lightning damage, storm repair, hail claims, wind damage in Lightning Alley.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

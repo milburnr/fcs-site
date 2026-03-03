@@ -12,8 +12,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/inspection-process/" },
-  title: "Milestone Inspection & SIRS Process Guide | SB4-D Compliance | FCS",
-  description: "Understand the SB4-D milestone inspection and SIRS process. Phase 1 visual inspection, Phase 2 detailed examination, remediation timelines, and reserve study requirements explained for condo boards.",
+  title: "Milestone Inspection & SIRS Process Guide",
+  description: "Understand the SB4-D milestone inspection and SIRS process. Phase 1 visual inspection Phase 2 detailed examination remediation timelines.",
+  openGraph: {
+    title: "Milestone Inspection & SIRS Process Guide",
+    description: "Understand the SB4-D milestone inspection and SIRS process. Phase 1 visual inspection Phase 2 detailed examination remediation timelines.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/inspection-process/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

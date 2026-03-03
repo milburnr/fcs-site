@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/streamlining-your-design-build-project-timeline/' },
-  title: "Streamlining Your Design-Build Project Timeline | Tampa FL",
+  title: "Streamlining Your Design-Build Project Timeline",
   description: "Expert strategies for managing commercial construction timelines in Tampa Bay. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  openGraph: {
+    title: "Streamlining Your Design-Build Project Timeline",
+    description: "Expert strategies for managing commercial construction timelines in Tampa Bay. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/streamlining-your-design-build-project-timeline/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

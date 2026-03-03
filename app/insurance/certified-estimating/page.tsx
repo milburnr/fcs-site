@@ -10,8 +10,16 @@ import { CheckCircle, Phone, FileText, Calculator, ClipboardCheck, Shield } from
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/certified-estimating/' },
-  title: "Certified Estimating | Xactimate Insurance Estimates | FCS Tampa",
-  description: "Xactimate-certified construction estimates for insurance claims. Detailed, defensible documentation that ensures fair settlements. Tampa Bay's trusted estimating experts.",
+  title: "Certified Estimating | Xactimate Insurance Estimates",
+  description: "Xactimate-certified construction estimates for insurance claims. Detailed, defensible documentation that ensures fair settlements.",
+  openGraph: {
+    title: "Certified Estimating | Xactimate Insurance Estimates",
+    description: "Xactimate-certified construction estimates for insurance claims. Detailed, defensible documentation that ensures fair settlements.",
+    url: "https://floridaconstructionspecialists.com/insurance/certified-estimating/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/brandon-fl/' },
-  title: "Brandon Commercial Construction | $500K+ | FCS",
-  description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration. Request a free estimate today.",
+  title: "Brandon Commercial Construction | $500K+",
+  description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration.",
+  openGraph: {
+    title: "Brandon Commercial Construction | $500K+",
+    description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration.",
+    url: "https://floridaconstructionspecialists.com/locations/brandon-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/office-building-renovation-in-tampa/' },
   title: "Office Building Renovation Tampa | Modernization",
-  description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982. Request a free estimate today.",
+  description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982.",
+  openGraph: {
+    title: "Office Building Renovation Tampa | Modernization",
+    description: "Office Building Renovation Modernization in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/office-building-renovation-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

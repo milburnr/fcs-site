@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-clearwater/' },
-  title: "Condo Remediation Clearwater FL | SB4-D, Milestone Inspections | FCS",
-  description: "Condo remediation and structural restoration in Clearwater by Florida Construction Specialists. SB4-D compliance, milestone inspections, beach high-rise concrete repair. Licensed CBC, 40+ years experience.",
+  title: "Condo Remediation Clearwater | SB4-D",
+  description: "Condo remediation and structural restoration in Clearwater by Florida Construction Specialists. SB4-D compliance milestone inspections.",
+  openGraph: {
+    title: "Condo Remediation Clearwater | SB4-D",
+    description: "Condo remediation and structural restoration in Clearwater by Florida Construction Specialists. SB4-D compliance milestone inspections.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

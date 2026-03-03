@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-bradenton/' },
-  title: "Exterior Waterproofing Bradenton FL | Building Envelope | Coastal | FCS",
-  description: "Exterior waterproofing in Bradenton by Florida Construction Specialists. Building envelope, foundation, parking deck, waterfront property waterproofing. Marine-grade systems, 10-year warranty. Licensed CBC, 40+ years.",
+  title: "Exterior Waterproofing Bradenton | Building Envelope",
+  description: "Exterior waterproofing in Bradenton by Florida Construction Specialists. Building envelope, foundation, parking deck, waterfront property waterproofing.",
+  openGraph: {
+    title: "Exterior Waterproofing Bradenton | Building Envelope",
+    description: "Exterior waterproofing in Bradenton by Florida Construction Specialists. Building envelope, foundation, parking deck, waterfront property waterproofing.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

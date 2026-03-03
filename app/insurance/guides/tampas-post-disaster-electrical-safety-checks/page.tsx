@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-post-disaster-electrical-safety-checks/' },
   title: "Post-Disaster Electrical Safety Tampa | Hurricane",
-  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today.",
+  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Post-Disaster Electrical Safety Tampa | Hurricane",
+    description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-post-disaster-electrical-safety-checks/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -66,7 +74,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/' },
-  title: "Benefits of Local General Contractor Tampa | FCS",
-  description: "Benefits of Local General Contractor in Tampa: commercial and residential construction and restoration. Licensed and insured CBC. Get a free project assessment.",
+  title: "Benefits of Local General Contractor Tampa",
+  description: "Benefits of Local General Contractor in Tampa: commercial and residential construction and restoration. Licensed and insured CBC.",
+  openGraph: {
+    title: "Benefits of Local General Contractor Tampa",
+    description: "Benefits of Local General Contractor in Tampa: commercial and residential construction and restoration. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

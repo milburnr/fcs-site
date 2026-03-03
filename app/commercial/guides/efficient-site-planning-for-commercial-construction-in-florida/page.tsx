@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/' },
   title: "Site Planning for Commercial Construction FL",
   description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+  openGraph: {
+    title: "Site Planning for Commercial Construction FL",
+    description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

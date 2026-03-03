@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/' },
   title: "Exterior Waterproofing Methods Tampa | Commercial",
-  description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in. Professional guidance from FCS, licensed CBC. Contact us today.",
+  description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Exterior Waterproofing Methods Tampa | Commercial",
+    description: "Expert exterior waterproofing methods for high-rise condominiums and commercial buildings in. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

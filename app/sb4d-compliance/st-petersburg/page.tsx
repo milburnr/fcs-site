@@ -13,8 +13,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/st-petersburg/" },
-  title: "SB4-D Compliance St. Petersburg | Condo Milestone Inspection | FCS",
-  description: "SB4-D compliance for St. Petersburg condominiums. Peninsula-wide milestone inspection coverage, structural remediation for waterfront towers, Pinellas County condo repair. Licensed CBC, 40+ years experience.",
+  title: "SB4-D Compliance St. Pete | Condo Milestone Inspection",
+  description: "SB4-D compliance for St. Petersburg condominiums. Peninsula-wide milestone inspection coverage structural remediation for waterfront towers.",
+  openGraph: {
+    title: "SB4-D Compliance St. Pete | Condo Milestone Inspection",
+    description: "SB4-D compliance for St. Petersburg condominiums. Peninsula-wide milestone inspection coverage structural remediation for waterfront towers.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

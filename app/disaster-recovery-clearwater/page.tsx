@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
-  title: "Disaster Recovery Clearwater FL | Hurricane, Flood, Emergency | FCS",
-  description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response, storm surge recovery, emergency building stabilization. Licensed CBC, 40+ years experience.",
+  title: "Disaster Recovery Clearwater | Hurricane",
+  description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response storm surge recovery.",
+  openGraph: {
+    title: "Disaster Recovery Clearwater | Hurricane",
+    description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response storm surge recovery.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

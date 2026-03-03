@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-building-structural-assessment-in-tampa/' },
   title: "Historic Building Structural Assessment in Tampa",
-  description: "Expert structural assessment for Tampa's historic buildings. Comprehensive evaluation of load-bearing systems, foundation conditions, and structural integrity for preservation projects.",
+  description: "Expert structural assessment for Tampa's historic buildings. Comprehensive evaluation of load-bearing systems foundation conditions.",
+  openGraph: {
+    title: "Historic Building Structural Assessment in Tampa",
+    description: "Expert structural assessment for Tampa's historic buildings. Comprehensive evaluation of load-bearing systems foundation conditions.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historic-building-structural-assessment-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

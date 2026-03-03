@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-lakeland/' },
-  title: "Historic Restoration Lakeland FL | Frank Lloyd Wright, Dixieland District | FCS",
-  description: "Historic restoration in Lakeland by Florida Construction Specialists. Frank Lloyd Wright campus at Florida Southern College, Dixieland Historic District, Munn Park downtown buildings. Licensed CBC, 40+ years experience.",
+  title: "Historic Restoration Lakeland | Frank Lloyd Wright",
+  description: "Historic restoration in Lakeland by Florida Construction Specialists. Frank Lloyd Wright campus at Florida Southern College Dixieland Historic District.",
+  openGraph: {
+    title: "Historic Restoration Lakeland | Frank Lloyd Wright",
+    description: "Historic restoration in Lakeland by Florida Construction Specialists. Frank Lloyd Wright campus at Florida Southern College Dixieland Historic District.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

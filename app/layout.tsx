@@ -28,7 +28,7 @@ const robotoSlab = Roboto_Slab({
 export const metadata: Metadata = {
   title: {
     default: `Tampa Commercial Construction | ${BUSINESS_INFO.name}`,
-    template: `%s | ${BUSINESS_INFO.name}`,
+    template: `%s | ${BUSINESS_INFO.shortName}`,
   },
   description:
     "With decades of experience in construction and insurance restoration, both residential and commercial, you can count on Florida Construction Specialists.",
@@ -42,6 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     siteName: BUSINESS_INFO.name,
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
   },
 };
 

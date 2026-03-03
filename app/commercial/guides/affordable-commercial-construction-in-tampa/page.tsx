@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/affordable-commercial-construction-in-tampa/' },
-  title: "Affordable Commercial Construction Tampa | FCS",
-  description: "Affordable Commercial Construction in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC. Request a free estimate today.",
+  title: "Affordable Commercial Construction Tampa",
+  description: "Affordable Commercial Construction in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC.",
+  openGraph: {
+    title: "Affordable Commercial Construction Tampa",
+    description: "Affordable Commercial Construction in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/affordable-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

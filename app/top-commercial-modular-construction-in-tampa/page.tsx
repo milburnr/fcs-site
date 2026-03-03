@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-modular-construction-in-tampa/' },
   title: "Commercial Modular Construction Tampa | Prefab",
   description: "Modular construction Tampa: prefab office, healthcare, education buildings. Faster timelines, cost control, quality. Get a quote today.",
+  openGraph: {
+    title: "Commercial Modular Construction Tampa | Prefab",
+    description: "Modular construction Tampa: prefab office, healthcare, education buildings. Faster timelines, cost control, quality. Get a quote today.",
+    url: "https://floridaconstructionspecialists.com/top-commercial-modular-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/' },
-  title: "High-Rise Balcony Renovation Tampa | Transform Your Condo",
-  description: "Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+  title: "High-Rise Balcony Renovation Tampa",
+  description: "Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "High-Rise Balcony Renovation Tampa",
+    description: "Discover high-rise balcony renovation transform your condo with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/inspiring-balcony-renovation-transform-your-outdoor-space/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,8 +12,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration/' },
-  title: "Historic Restoration & Preservation | Certified Specialists",
-  description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO requirements.",
+  title: "Historic Restoration & Preservation",
+  description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO.",
+  openGraph: {
+    title: "Historic Restoration & Preservation",
+    description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const features = [

@@ -8,8 +8,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-commercial-contractors-in-tampa/' },
-  title: "Hiring Commercial Contractors in Tampa: Complete Guide | FCS",
+  title: "Hiring Commercial Contractors in Tampa: Complete Guide",
   description: "Step-by-step guide to hiring commercial contractors in Tampa Bay. Learn the process from RFP to contract signing to ensure your project succeeds.",
+  openGraph: {
+    title: "Hiring Commercial Contractors in Tampa: Complete Guide",
+    description: "Step-by-step guide to hiring commercial contractors in Tampa Bay. Learn the process from RFP to contract signing to ensure your project succeeds.",
+    url: "https://floridaconstructionspecialists.com/hiring-commercial-contractors-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

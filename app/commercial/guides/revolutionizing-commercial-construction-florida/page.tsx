@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/revolutionizing-commercial-construction-florida/' },
   title: "Commercial Construction Innovation Florida | Tech",
-  description: "Discover how innovative technologies and methods are transforming commercial construction in Florida. Professional guidance from FCS, licensed CBC. Read more.'s leading contractor.",
+  description: "Discover how innovative technologies and methods are transforming commercial construction in Florida. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Commercial Construction Innovation Florida | Tech",
+    description: "Discover how innovative technologies and methods are transforming commercial construction in Florida. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/revolutionizing-commercial-construction-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

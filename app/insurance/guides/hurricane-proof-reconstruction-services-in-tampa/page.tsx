@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/' },
   title: "Hurricane-Proof Reconstruction Tampa | Commercial",
-  description: "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years. Request a free estimate.",
+  description: "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Hurricane-Proof Reconstruction Tampa | Commercial",
+    description: "Hurricane-proof Reconstruction Commercial in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

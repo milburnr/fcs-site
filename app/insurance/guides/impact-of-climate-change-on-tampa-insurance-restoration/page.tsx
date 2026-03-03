@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/' },
   title: "Climate Change & Tampa Insurance Restoration",
   description: "How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Climate Change & Tampa Insurance Restoration",
+    description: "How climate change affects Bay insurance restoration in Tampa. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/impact-of-climate-change-on-tampa-insurance-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

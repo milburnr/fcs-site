@@ -13,9 +13,17 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/locations/" },
-  title: "Tampa Bay Service Areas | 9 Cities | Florida Construction Specialists",
+  title: "Tampa Bay Service Areas | 9 Cities",
   description:
-    "Florida Construction Specialists serves 9 Tampa Bay cities: Tampa, St. Petersburg, Clearwater, Lakeland, Sarasota, Bradenton, Brandon, Ruskin & Plant City. CBC1262722.",
+    "Florida Construction Specialists serves 9 Tampa Bay cities: Tampa, St. Petersburg, Clearwater, Lakeland, Sarasota, Bradenton, Brandon, Ruskin & Plant City.",
+  openGraph: {
+    title: "Tampa Bay Service Areas | 9 Cities",
+    description: "Florida Construction Specialists serves 9 Tampa Bay cities: Tampa, St. Petersburg, Clearwater, Lakeland, Sarasota, Bradenton, Brandon, Ruskin & Plant City.",
+    url: "https://floridaconstructionspecialists.com/locations/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

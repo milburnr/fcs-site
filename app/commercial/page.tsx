@@ -40,9 +40,17 @@ const commercialGalleryPhotos: GalleryPhoto[] = [
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/' },
-  title: "Commercial Construction Tampa | $500K-$25M+ | FCS",
+  title: "Commercial Construction Tampa | $500K-$25M+",
   description:
     "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
+  openGraph: {
+    title: "Commercial Construction Tampa | $500K-$25M+",
+    description: "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
+    url: "https://floridaconstructionspecialists.com/commercial/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 // Commercial service clusters with icons and images

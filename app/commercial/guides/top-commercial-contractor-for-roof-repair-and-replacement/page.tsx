@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/' },
-  title: "Commercial Roof Repair & Replacement Tampa | FCS",
+  title: "Commercial Roof Repair & Replacement Tampa",
   description: "Commercial roof repair Tampa: emergency storm repairs, re-roofing, hurricane damage. Manufacturer-certified, licensed CBC. Get a free quote.",
+  openGraph: {
+    title: "Commercial Roof Repair & Replacement Tampa",
+    description: "Commercial roof repair Tampa: emergency storm repairs, re-roofing, hurricane damage. Manufacturer-certified, licensed CBC. Get a free quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-for-roof-repair-and-replacement/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

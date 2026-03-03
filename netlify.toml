@@ -32,7 +32,7 @@
   from = "/*"
   to = "/:splat/"
   status = 301
-  conditions = {Path = ["!*.js", "!*.css", "!*.png", "!*.jpg", "!*.gif", "!*.svg", "!*.ico", "!*.woff", "!*.woff2", "!/404", "!/_next/*"]}
+  conditions = {Path = ["!*.js", "!*.css", "!*.png", "!*.jpg", "!*.webp", "!*.avif", "!*.gif", "!*.svg", "!*.ico", "!*.woff", "!*.woff2", "!/404", "!/_next/*", "!/images/*", "!/wp-content/*"]}
 
 # ===========================================
 # 301 Redirects for Duplicate Page Consolidation

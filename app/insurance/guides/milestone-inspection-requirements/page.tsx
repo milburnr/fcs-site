@@ -34,6 +34,14 @@ export const metadata: Metadata = {
   title: "Milestone Inspection Requirements FL | SB 4-D",
   description:
     "Complete guide to milestone structural inspections for Florida condominiums under SB 4-D. Phase 1, Phase 2 requirements, timelines, and what to expect.",
+  openGraph: {
+    title: "Milestone Inspection Requirements FL | SB 4-D",
+    description: "Complete guide to milestone structural inspections for Florida condominiums under SB 4-D. Phase 1, Phase 2 requirements, timelines, and what to expect.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/milestone-inspection-requirements/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const inspectionPhases = [

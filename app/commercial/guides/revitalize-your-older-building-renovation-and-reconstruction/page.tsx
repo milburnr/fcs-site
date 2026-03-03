@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/' },
   title: "Revitalize Your Building Tampa | Renovation",
-  description: "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CBC in ${region}. Request a free estimate.",
+  description: "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Revitalize Your Building Tampa | Renovation",
+    description: "Revitalize Your Building Renovation: transform aging commercial properties in tampa bay with. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/revitalize-your-older-building-renovation-and-reconstruction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

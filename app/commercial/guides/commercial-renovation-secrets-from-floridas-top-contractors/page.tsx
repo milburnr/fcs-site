@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/' },
-  title: "Commercial Renovation Secrets from Florida's Top Contractors",
+  title: "Commercial Renovation Secrets from Florida's Top",
   description: "Insider tips for successful commercial renovation in Tampa Bay. Expert analysis from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Commercial Renovation Secrets from Florida's Top",
+    description: "Insider tips for successful commercial renovation in Tampa Bay. Expert analysis from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-renovation-secrets-from-floridas-top-contractors/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

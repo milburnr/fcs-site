@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/claims-negotiation-for-property-damage-in-tampa/' },
   title: "Claims Negotiation for Property Damage in Tampa",
-  description: "Expert Tampa claims negotiation services for property damage. Our skilled team streamlines property damage claims, ensuring you receive fair settlements fast.",
+  description: "Expert Tampa claims negotiation services for property damage. Our skilled team streamlines property damage claims.",
+  openGraph: {
+    title: "Claims Negotiation for Property Damage in Tampa",
+    description: "Expert Tampa claims negotiation services for property damage. Our skilled team streamlines property damage claims.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

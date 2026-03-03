@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-ruskin/' },
-  title: "Insurance Restoration Ruskin FL | Claims, Large Loss | FCS",
-  description: "Insurance restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Large loss claims, Sun City Center property restoration, Apollo Beach waterfront damage. Licensed CBC, direct carrier billing.",
+  title: "Insurance Restoration Ruskin FL | Claims, Large Loss",
+  description: "Insurance restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Large loss claims Sun City Center property restoration.",
+  openGraph: {
+    title: "Insurance Restoration Ruskin FL | Claims, Large Loss",
+    description: "Insurance restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Large loss claims Sun City Center property restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-luxury-custom-home-building-services/' },
-  title: "Tampa Luxury Custom Home Building Services | Premier Builder",
-  description: "Premier luxury custom home building services in Tampa. Bespoke designs, premium materials, white-glove service. Award-winning craftsmanship from $600K-$10M+.",
+  title: "Tampa Luxury Custom Home Building Services",
+  description: "Premier luxury custom home building services in Tampa. Bespoke designs, premium materials, white-glove service.",
+  openGraph: {
+    title: "Tampa Luxury Custom Home Building Services",
+    description: "Premier luxury custom home building services in Tampa. Bespoke designs, premium materials, white-glove service.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/tampa-luxury-custom-home-building-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

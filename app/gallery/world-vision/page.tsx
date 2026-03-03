@@ -13,8 +13,16 @@ const slides = getProjectImages(project);
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/gallery/world-vision/" },
-  title: `${project.name} | Project Gallery | Florida Construction Specialists`,
+  title: `${project.name} | Gallery`,
   description: `View ${project.photoCount} photos of the ${project.name} project completed by Florida Construction Specialists in Tampa Bay.`,
+  openGraph: {
+    title: `${project.name} | Gallery`,
+    description: `View ${project.photoCount} photos of the ${project.name} project by Florida Construction Specialists.`,
+    url: "https://floridaconstructionspecialists.com/gallery/world-vision/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Project Gallery" }],
+  },
 };
 
 const breadcrumbItems = [

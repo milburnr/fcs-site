@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/commercial-property-damage-restoration-in-tampa/' },
   title: "Commercial Property Damage Restoration Tampa",
-  description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1982. Read more.",
+  description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1982.",
+  openGraph: {
+    title: "Commercial Property Damage Restoration Tampa",
+    description: "Commercial Property Damage Restoration in Tampa: complete construction services from pre-construction to closeout. CBC-licensed, trusted since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/commercial-property-damage-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

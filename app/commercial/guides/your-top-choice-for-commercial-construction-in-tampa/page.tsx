@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/' },
   title: "Your Top Choice for Commercial Construction in Tampa",
   description: "We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay.",
+  openGraph: {
+    title: "Your Top Choice for Commercial Construction in Tampa",
+    description: "We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-premier-commercial-remodeling-contractors/' },
   title: "Tampa's Premier Commercial Remodeling Contractors",
   description: "Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CBC contractor. Request an estimate today.",
+  openGraph: {
+    title: "Tampa's Premier Commercial Remodeling Contractors",
+    description: "Commercial remodeling Tampa: office, retail, medical renovations. Serving four counties. Licensed CBC contractor. Request an estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-premier-commercial-remodeling-contractors/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

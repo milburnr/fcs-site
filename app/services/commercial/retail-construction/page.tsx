@@ -9,8 +9,16 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/retail-construction/' },
-  title: "Retail Construction Tampa | Shopping Centers & Stores | FCS",
-  description: "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982. Request a free estimate.",
+  title: "Retail Construction Tampa | Shopping Centers & Stores",
+  description: "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+  openGraph: {
+    title: "Retail Construction Tampa | Shopping Centers & Stores",
+    description: "Explore retail construction shopping centers & stores from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/retail-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

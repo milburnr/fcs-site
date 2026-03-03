@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/build-a-successful-future-in-construction-management/' },
-  title: "Construction Management Career Tampa Bay | FCS",
+  title: "Construction Management Career Tampa Bay",
   description: "Learn how construction management excellence leads to project success. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+  openGraph: {
+    title: "Construction Management Career Tampa Bay",
+    description: "Learn how construction management excellence leads to project success. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/build-a-successful-future-in-construction-management/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

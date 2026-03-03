@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-tampa/' },
-  title: "Balcony Reconstruction Tampa FL | SB 4-D Compliance | Condo Balconies | FCS",
-  description: "Balcony reconstruction in Tampa. SB 4-D milestone inspection compliance, condo balcony repair, concrete restoration, waterproofing. Bayshore, Harbour Island, Channelside. Licensed CBC.",
+  title: "Balcony Reconstruction Tampa | SB 4-D Compliance",
+  description: "Balcony reconstruction in Tampa. SB 4-D milestone inspection compliance, condo balcony repair, concrete restoration, waterproofing.",
+  openGraph: {
+    title: "Balcony Reconstruction Tampa | SB 4-D Compliance",
+    description: "Balcony reconstruction in Tampa. SB 4-D milestone inspection compliance, condo balcony repair, concrete restoration, waterproofing.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

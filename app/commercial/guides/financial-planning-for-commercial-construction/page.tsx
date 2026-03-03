@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/financial-planning-for-commercial-construction/' },
   title: "Financial Planning Commercial Construction Tampa",
-  description: "Discover financial planning commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover financial planning commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "Financial Planning Commercial Construction Tampa",
+    description: "Discover financial planning commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/financial-planning-for-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

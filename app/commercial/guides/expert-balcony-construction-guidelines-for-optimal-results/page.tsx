@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/' },
   title: "Balcony Construction Guidelines Tampa | High-Rise",
-  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CBC. Contact us today.",
+  description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Balcony Construction Guidelines Tampa | High-Rise",
+    description: "Comprehensive balcony construction guidelines for high-rise condominiums and commercial buildings. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

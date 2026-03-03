@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/' },
   title: "Tampa's Guidelines for Historic Roofs Restoration",
   description: "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+  openGraph: {
+    title: "Tampa's Guidelines for Historic Roofs Restoration",
+    description: "Expert guidance on historic roof restoration in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-guidelines-for-historic-roofs-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

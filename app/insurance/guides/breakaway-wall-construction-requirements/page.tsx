@@ -30,9 +30,17 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/breakaway-wall-construction-requirements/' },
-  title: "Breakaway Wall Construction Tampa Bay | FCS",
+  title: "Breakaway Wall Construction Tampa Bay",
   description:
-    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC. Request a free estimate.",
+    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Breakaway Wall Construction Tampa Bay",
+    description: "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/breakaway-wall-construction-requirements/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breakawayRequirements = [

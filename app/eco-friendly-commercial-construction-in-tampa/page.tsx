@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-commercial-construction-in-tampa/' },
   title: "Eco-Friendly Commercial Construction Tampa",
-  description: "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Request a free estimate.",
+  description: "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results.",
+  openGraph: {
+    title: "Eco-Friendly Commercial Construction Tampa",
+    description: "Eco-friendly Commercial Construction in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results.",
+    url: "https://floridaconstructionspecialists.com/eco-friendly-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

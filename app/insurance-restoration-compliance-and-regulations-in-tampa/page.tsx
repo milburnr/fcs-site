@@ -10,7 +10,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-compliance-and-regulations-in-tampa/' },
   title: "Insurance Restoration Compliance Tampa | Laws",
-  description: "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1982. Contact us today.",
+  description: "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1982.",
+  openGraph: {
+    title: "Insurance Restoration Compliance Tampa | Laws",
+    description: "Insurance Restoration Compliance Laws in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-compliance-and-regulations-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

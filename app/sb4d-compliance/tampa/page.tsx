@@ -13,8 +13,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/tampa/" },
-  title: "SB4-D Compliance Tampa | Condo Milestone Inspection | FCS",
-  description: "SB4-D compliance services for Tampa condominiums. Milestone inspection coordination, structural remediation, and condo repair along Bayshore Boulevard, Harbour Island, and Davis Islands. Licensed CBC, 40+ years experience.",
+  title: "SB4-D Compliance Tampa | Condo Milestone Inspection",
+  description: "SB4-D compliance services for Tampa condominiums. Milestone inspection coordination structural remediation and condo repair along Bayshore Boulevard.",
+  openGraph: {
+    title: "SB4-D Compliance Tampa | Condo Milestone Inspection",
+    description: "SB4-D compliance services for Tampa condominiums. Milestone inspection coordination structural remediation and condo repair along Bayshore Boulevard.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

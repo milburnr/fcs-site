@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-unique-facades/' },
   title: "Tampa Custom Homes Unique Facades | Distinctive",
   description: "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+  openGraph: {
+    title: "Tampa Custom Homes Unique Facades | Distinctive",
+    description: "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-unique-facades/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

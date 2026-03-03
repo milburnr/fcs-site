@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/pre-construction-services-tampa/' },
   title: "Pre-Construction Services Tampa",
   description: "Pre-construction Services in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Call for a free consultation today.",
+  openGraph: {
+    title: "Pre-Construction Services Tampa",
+    description: "Pre-construction Services in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/pre-construction-services-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

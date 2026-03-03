@@ -39,9 +39,17 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/industrial-construction/' },
-  title: "Industrial Construction Tampa | Tilt-Wall | FCS",
+  title: "Industrial Construction Tampa | Tilt-Wall",
   description:
-    "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
+    "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Industrial Construction Tampa | Tilt-Wall",
+    description: "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/commercial/industrial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const features = [

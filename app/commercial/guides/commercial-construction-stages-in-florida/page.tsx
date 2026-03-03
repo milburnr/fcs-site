@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-stages-in-florida/' },
   title: "Commercial Construction Stages Florida | 2024",
-  description: "Learn the 7 essential stages of commercial construction in Florida—from pre-construction planning through final walkthrough. Expert insights from Tampa Bay's premier general contractor.",
+  description: "Learn the 7 essential stages of commercial construction in Florida—from pre-construction planning through final walkthrough.",
+  openGraph: {
+    title: "Commercial Construction Stages Florida | 2024",
+    description: "Learn the 7 essential stages of commercial construction in Florida—from pre-construction planning through final walkthrough.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-stages-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

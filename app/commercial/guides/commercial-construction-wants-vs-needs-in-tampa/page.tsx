@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/' },
   title: "Commercial Construction Wants vs Needs Tampa",
-  description: "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC. Contact our team today.",
+  description: "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+  openGraph: {
+    title: "Commercial Construction Wants vs Needs Tampa",
+    description: "Commercial Construction Wants vs Needs in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

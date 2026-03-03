@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/' },
   title: "Licensed Commercial Contractors Florida | Tampa",
-  description: "Understand Florida contractor licensing requirements and why licensed contractors are essential for commercial construction. Verify credentials before hiring.",
+  description: "Understand Florida contractor licensing requirements and why licensed contractors are essential for commercial construction.",
+  openGraph: {
+    title: "Licensed Commercial Contractors Florida | Tampa",
+    description: "Understand Florida contractor licensing requirements and why licensed contractors are essential for commercial construction.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

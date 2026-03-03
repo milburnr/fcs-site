@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/' },
-  title: "Build vs Buy Commercial Property Tampa | FCS",
-  description: "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC. Contact us today.",
+  title: "Build vs Buy Commercial Property Tampa",
+  description: "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Build vs Buy Commercial Property Tampa",
+    description: "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

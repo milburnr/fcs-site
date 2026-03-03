@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-bradenton/' },
-  title: "Condo Remediation Bradenton FL | SB 4-D, Anna Maria Island | FCS",
-  description: "Condo remediation in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections, Anna Maria Island condos, riverfront buildings, structural restoration. Licensed CBC, 40+ years experience.",
+  title: "Condo Remediation Bradenton | SB 4-D",
+  description: "Condo remediation in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections Anna Maria Island condos riverfront buildings.",
+  openGraph: {
+    title: "Condo Remediation Bradenton | SB 4-D",
+    description: "Condo remediation in Bradenton by Florida Construction Specialists. SB 4-D milestone inspections Anna Maria Island condos riverfront buildings.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

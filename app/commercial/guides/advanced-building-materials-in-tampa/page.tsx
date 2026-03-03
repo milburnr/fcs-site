@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/advanced-building-materials-in-tampa/' },
   title: "Advanced Building Materials in Tampa",
-  description: "Discover advanced building materials transforming Tampa Bay construction. From sustainable options to high-performance systems, elevate your commercial project.",
+  description: "Discover advanced building materials transforming Tampa Bay construction. From sustainable options to high-performance systems.",
+  openGraph: {
+    title: "Advanced Building Materials in Tampa",
+    description: "Discover advanced building materials transforming Tampa Bay construction. From sustainable options to high-performance systems.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/advanced-building-materials-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

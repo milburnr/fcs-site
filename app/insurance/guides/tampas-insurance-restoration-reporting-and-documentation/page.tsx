@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/' },
   title: "Tampa Insurance Restoration Documentation | Claims",
   description: "Professional insurance restoration reporting and documentation services in. Expert insights from Florida Construction Specialists. Request a free estimate.",
+  openGraph: {
+    title: "Tampa Insurance Restoration Documentation | Claims",
+    description: "Professional insurance restoration reporting and documentation services in. Expert insights from Florida Construction Specialists. Request a free estimate.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-insurance-restoration-reporting-and-documentation/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

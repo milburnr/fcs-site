@@ -12,8 +12,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-reconstruction-exterior-waterproofing/' },
-  title: "Balcony Reconstruction & Exterior Waterproofing | Tampa",
-  description: "Expert balcony reconstruction and exterior waterproofing for Tampa Bay condos and high-rise buildings. SB 4-D compliant. Licensed engineers. Free estimates.",
+  title: "Balcony Reconstruction & Exterior Waterproofing",
+  description: "Expert balcony reconstruction and exterior waterproofing for Tampa Bay condos and high-rise buildings. SB 4-D compliant. Licensed engineers.",
+  openGraph: {
+    title: "Balcony Reconstruction & Exterior Waterproofing",
+    description: "Expert balcony reconstruction and exterior waterproofing for Tampa Bay condos and high-rise buildings. SB 4-D compliant. Licensed engineers.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/balcony-reconstruction-exterior-waterproofing/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

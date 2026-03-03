@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/' },
   title: "Choosing Waterproofing Solutions Tampa | Guide",
-  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in ${region}. Request a free estimate today.",
+  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Choosing Waterproofing Solutions Tampa | Guide",
+    description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

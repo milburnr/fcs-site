@@ -11,6 +11,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/expert-witness/' },
   title: "Construction Expert Witness Services",
   description: "Discover construction expert witness services with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  openGraph: {
+    title: "Construction Expert Witness Services",
+    description: "Discover construction expert witness services with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/expert-witness/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -64,7 +72,7 @@ const faqs = [
 
 const relatedServices = [
   { href: "/certified-estimates/", label: "Certified Estimates" },
-  { href: "/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
+  { href: "/insurance/guides/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
   { href: "/building-consultants/", label: "Building Consultants" },
   { href: "/insurance/", label: "Disaster Recovery" },
 ];

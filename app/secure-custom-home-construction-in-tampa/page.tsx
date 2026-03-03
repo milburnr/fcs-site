@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/' },
   title: "Secure Custom Home Construction Tampa | Safety",
-  description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982. Contact us today.",
+  description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982.",
+  openGraph: {
+    title: "Secure Custom Home Construction Tampa | Safety",
+    description: "Secure Custom Home Construction Safety in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982.",
+    url: "https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

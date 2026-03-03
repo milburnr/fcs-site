@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/' },
-  title: "Commercial Fire Damage Restoration & Insurance in Tampa",
-  description: "Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction, with insurance claim support.",
+  title: "Commercial Fire Damage Restoration & Insurance",
+  description: "Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction.",
+  openGraph: {
+    title: "Commercial Fire Damage Restoration & Insurance",
+    description: "Expert commercial fire damage restoration in Tampa Bay. Full-service recovery from smoke remediation to complete reconstruction.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

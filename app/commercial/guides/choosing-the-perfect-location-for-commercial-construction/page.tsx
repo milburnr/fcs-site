@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-the-perfect-location-for-commercial-construction/' },
-  title: "Choosing the Perfect Location for Commercial Construction",
-  description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving. Professional guidance from FCS, licensed CBC. Contact us today.",
+  title: "Choosing the Perfect Location",
+  description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Choosing the Perfect Location",
+    description: "Choosing the perfect location for commercial construction in Florida is crucial for achieving. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/choosing-the-perfect-location-for-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

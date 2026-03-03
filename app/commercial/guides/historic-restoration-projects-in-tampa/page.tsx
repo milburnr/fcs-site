@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-projects-in-tampa/' },
   title: "Historic Restoration Projects Tampa | FCS Portfolio",
-  description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City, Hyde Park, and downtown Tampa showcasing expert preservation of theatres, mansions, and commercial buildings using Secretary of Interior standards.",
+  description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City Hyde Park.",
+  openGraph: {
+    title: "Historic Restoration Projects Tampa | FCS Portfolio",
+    description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City Hyde Park.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-projects-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

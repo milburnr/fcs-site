@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
-  title: "Exterior Waterproofing Lakeland FL | Building Envelope, Foundation, Industrial | FCS",
-  description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection, foundation waterproofing, parking deck coatings for inland Central Florida properties. Licensed CBC, 40+ years experience. Request an assessment.",
+  title: "Exterior Waterproofing Lakeland | Building Envelope",
+  description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection foundation waterproofing.",
+  openGraph: {
+    title: "Exterior Waterproofing Lakeland | Building Envelope",
+    description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection foundation waterproofing.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

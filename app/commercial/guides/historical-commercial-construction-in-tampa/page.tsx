@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-commercial-construction-in-tampa/' },
-  title: "Historic Commercial Construction Tampa | Heritage Building",
-  description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Read more.",
+  title: "Historic Commercial Construction Tampa",
+  description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+  openGraph: {
+    title: "Historic Commercial Construction Tampa",
+    description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historical-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

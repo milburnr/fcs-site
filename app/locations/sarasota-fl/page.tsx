@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/sarasota-fl/' },
-  title: "Sarasota Commercial Construction | $500K+ | FCS",
+  title: "Sarasota Commercial Construction | $500K+",
   description: "Licensed construction contractor serving Sarasota, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+  openGraph: {
+    title: "Sarasota Commercial Construction | $500K+",
+    description: "Licensed construction contractor serving Sarasota, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/locations/sarasota-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

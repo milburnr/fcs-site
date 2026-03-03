@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-market-analysis/' },
   title: "Tampa Commercial Construction Market 2024",
   description: "In-depth analysis of Tampa's commercial construction market. Current trends, sector performance, cost data, and forecasts for developers and investors.",
+  openGraph: {
+    title: "Tampa Commercial Construction Market 2024",
+    description: "In-depth analysis of Tampa's commercial construction market. Current trends, sector performance, cost data, and forecasts for developers and investors.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-market-analysis/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

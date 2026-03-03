@@ -12,7 +12,15 @@ import { AuthorByline } from "@/components/AuthorByline";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/insurance-arbitration-appraisal/' },
   title: "Insurance Arbitration & Appraisal Services",
-  description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster. Schedule consultation: (813) 420-7561.",
+  description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster.",
+  openGraph: {
+    title: "Insurance Arbitration & Appraisal Services",
+    description: "Expert appraiser/umpire for insurance claim disputes under policy appraisal clauses. 43+ years, former Allstate adjuster.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/insurance-arbitration-appraisal/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

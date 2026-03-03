@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choose-between-general-contractor-and-construction-manager/' },
   title: "GC vs Construction Manager Tampa | Which to Choose",
-  description: "Discover gc vs construction manager which to choose with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover gc vs construction manager which to choose with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "GC vs Construction Manager Tampa | Which to Choose",
+    description: "Discover gc vs construction manager which to choose with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/choose-between-general-contractor-and-construction-manager/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

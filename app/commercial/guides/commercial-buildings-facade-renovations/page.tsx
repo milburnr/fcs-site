@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-buildings-facade-renovations/' },
   title: "Commercial Facade Renovations Tampa | Exterior",
-  description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization, EIFS repair, curtain wall upgrades, and exterior restoration from Florida Construction Specialists.",
+  description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization EIFS repair curtain wall upgrades.",
+  openGraph: {
+    title: "Commercial Facade Renovations Tampa | Exterior",
+    description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization EIFS repair curtain wall upgrades.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-buildings-facade-renovations/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-sarasota/' },
-  title: "Exterior Waterproofing Sarasota FL | Building Envelope, Coastal | FCS",
-  description: "Exterior waterproofing in Sarasota by Florida Construction Specialists. Building envelope, foundation, barrier island protection, salt spray defense, hurricane-rated systems. Licensed CBC, 40+ years.",
+  title: "Exterior Waterproofing Sarasota | Building Envelope",
+  description: "Exterior waterproofing in Sarasota by Florida Construction Specialists. Building envelope foundation barrier island protection salt spray defense.",
+  openGraph: {
+    title: "Exterior Waterproofing Sarasota | Building Envelope",
+    description: "Exterior waterproofing in Sarasota by Florida Construction Specialists. Building envelope foundation barrier island protection salt spray defense.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

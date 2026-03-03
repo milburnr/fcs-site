@@ -13,8 +13,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery/' },
-  title: "Storm & Disaster Recovery Tampa | 43 Years | FCS",
+  title: "Storm & Disaster Recovery Tampa | 43 Years",
   description: "Tampa disaster recovery: 43 years insurance restoration. Commercial large-loss specialist. Hurricane, flood, fire claims expertise. Call 24/7.",
+  openGraph: {
+    title: "Storm & Disaster Recovery Tampa | 43 Years",
+    description: "Tampa disaster recovery: 43 years insurance restoration. Commercial large-loss specialist. Hurricane, flood, fire claims expertise. Call 24/7.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const coreServices = [

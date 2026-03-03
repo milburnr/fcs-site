@@ -13,7 +13,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/contractors-role-in-tampa-insurance-restoration/' },
   title: "Contractor's Role in Tampa Insurance Restoration",
-  description: "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CBC with 40+ years experience. Contact us today.",
+  description: "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CBC with 40+ years experience.",
+  openGraph: {
+    title: "Contractor's Role in Tampa Insurance Restoration",
+    description: "Expert guide to how commercial contractors support Bay insurance restoration claims. Learn from FCS, a licensed CBC with 40+ years experience.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/contractors-role-in-tampa-insurance-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

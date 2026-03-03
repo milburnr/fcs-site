@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/spacious-family-homes-construction-in-tampa/' },
   title: "Spacious Family Homes Tampa | Large Custom Homes",
-  description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC. Contact our team today.",
+  description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC.",
+  openGraph: {
+    title: "Spacious Family Homes Tampa | Large Custom Homes",
+    description: "Spacious Family Homes Large Custom Homes in Tampa: new construction, renovations, and insurance restoration. 40+ years, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/spacious-family-homes-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

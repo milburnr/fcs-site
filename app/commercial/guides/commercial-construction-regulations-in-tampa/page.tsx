@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-regulations-in-tampa/' },
   title: "Commercial Construction Regulations Tampa | Permits",
-  description: "Tampa commercial construction regulations: Florida Building Code, permits, zoning, ADA compliance. Expert guidance for project approval. Schedule consultation.",
+  description: "Tampa commercial construction regulations: Florida Building Code, permits, zoning, ADA compliance. Expert guidance for project approval.",
+  openGraph: {
+    title: "Commercial Construction Regulations Tampa | Permits",
+    description: "Tampa commercial construction regulations: Florida Building Code, permits, zoning, ADA compliance. Expert guidance for project approval.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-regulations-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

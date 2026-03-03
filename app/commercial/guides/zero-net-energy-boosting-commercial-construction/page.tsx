@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/zero-net-energy-boosting-commercial-construction/' },
-  title: "Zero Net Energy Boosting Commercial Construction in Tampa",
-  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}. Request a free estimate.",
+  title: "Zero Net Energy Boosting Commercial Construction",
+  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Zero Net Energy Boosting Commercial Construction",
+    description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/zero-net-energy-boosting-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

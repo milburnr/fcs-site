@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-homes-with-custom-art-studios/' },
   title: "Tampa Homes with Custom Art Studios | Creative Spaces",
   description: "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+  openGraph: {
+    title: "Tampa Homes with Custom Art Studios | Creative Spaces",
+    description: "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/tampa-homes-with-custom-art-studios/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

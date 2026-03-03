@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-balcony-flooring-materials-for-style-durability/' },
-  title: "Top Balcony Flooring Materials for High-Rise Buildings Tampa",
+  title: "Top Balcony Flooring Materials",
   description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CBC. Contact us today.",
+  openGraph: {
+    title: "Top Balcony Flooring Materials",
+    description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CBC. Contact us today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/top-balcony-flooring-materials-for-style-durability/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-accessibility-features-in-tampa/' },
   title: "Custom Home Accessibility Tampa | Universal Design",
-  description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years. Request a free estimate.",
+  description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years.",
+  openGraph: {
+    title: "Custom Home Accessibility Tampa | Universal Design",
+    description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/custom-home-accessibility-features-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

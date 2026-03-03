@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/' },
   title: "Top Bonded & Insured Commercial Contractor in Tampa",
-  description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Request a free estimate.",
+  description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+  openGraph: {
+    title: "Top Bonded & Insured Commercial Contractor in Tampa",
+    description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+    url: "https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -17,6 +17,13 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-site-disaster-response-in-tampa/' },
   title: "Industrial Disaster Response Tampa | Emergency",
+  openGraph: {
+    title: "Industrial Disaster Response Tampa | Emergency",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/industrial-site-disaster-response-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

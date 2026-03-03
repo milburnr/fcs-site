@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/clearwater-fl/' },
-  title: "Clearwater Commercial Construction | $500K+ | FCS",
+  title: "Clearwater Commercial Construction | $500K+",
   description: "Licensed construction contractor serving Clearwater, FL. Commercial, residential, and insurance restoration services. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Clearwater Commercial Construction | $500K+",
+    description: "Licensed construction contractor serving Clearwater, FL. Commercial, residential, and insurance restoration services. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/locations/clearwater-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,7 +10,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/' },
   title: "Insurance Restoration PM Tampa | Commercial",
-  description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC. Request a free estimate today.",
+  description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC.",
+  openGraph: {
+    title: "Insurance Restoration PM Tampa | Commercial",
+    description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

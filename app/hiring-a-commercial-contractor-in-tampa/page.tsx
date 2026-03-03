@@ -10,6 +10,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-a-commercial-contractor-in-tampa/' },
   title: "Hiring a Commercial Contractor Tampa | Guide",
   description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Contact our team today.",
+  openGraph: {
+    title: "Hiring a Commercial Contractor Tampa | Guide",
+    description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Contact our team today.",
+    url: "https://floridaconstructionspecialists.com/hiring-a-commercial-contractor-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

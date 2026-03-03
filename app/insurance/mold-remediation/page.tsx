@@ -10,8 +10,16 @@ import { Phone, AlertTriangle, Shield, Building2, Wind, Droplets, CheckCircle } 
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/mold-remediation/' },
-  title: "Mold Remediation | Professional Mold Removal | FCS Tampa",
+  title: "Mold Remediation | Professional Mold Removal",
   description: "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  openGraph: {
+    title: "Mold Remediation | Professional Mold Removal",
+    description: "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+    url: "https://floridaconstructionspecialists.com/insurance/mold-remediation/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

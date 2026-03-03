@@ -11,8 +11,16 @@ import { BackToHub } from "@/components/BackToHub";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb4d-compliance/checklist/' },
-  title: "SB4-D Compliance Checklist for Condo Boards | Florida Construction Specialists",
-  description: "Step-by-step SB4-D compliance checklist for Florida condo associations. Determine your deadline, schedule inspections, plan remediation, complete SIRS. Many buildings already past due.",
+  title: "SB4-D Compliance Checklist for Condo Boards",
+  description: "Step-by-step SB4-D compliance checklist for Florida condo associations. Determine your deadline, schedule inspections, plan remediation, complete SIRS.",
+  openGraph: {
+    title: "SB4-D Compliance Checklist for Condo Boards",
+    description: "Step-by-step SB4-D compliance checklist for Florida condo associations. Determine your deadline, schedule inspections, plan remediation, complete SIRS.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/checklist/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

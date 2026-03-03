@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-construction-process-for-commercial-construction/' },
-  title: "The Ultimate Guide to Post Construction Process in Florida",
-  description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC. Contact us today.",
+  title: "The Ultimate Guide to Post Construction Process",
+  description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "The Ultimate Guide to Post Construction Process",
+    description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/post-construction-process-for-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

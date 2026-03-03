@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-brandon/' },
-  title: "Historic Restoration Brandon FL | Older Buildings, Preservation | FCS",
-  description: "Historic restoration and older building renovation in Brandon FL. Pre-1980s commercial restoration, adaptive reuse, character preservation in eastern Hillsborough County. Licensed CBC, 40+ years experience.",
+  title: "Historic Restoration Brandon | Older Buildings",
+  description: "Historic restoration and older building renovation in Brandon FL. Pre-1980s commercial restoration adaptive reuse.",
+  openGraph: {
+    title: "Historic Restoration Brandon | Older Buildings",
+    description: "Historic restoration and older building renovation in Brandon FL. Pre-1980s commercial restoration adaptive reuse.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

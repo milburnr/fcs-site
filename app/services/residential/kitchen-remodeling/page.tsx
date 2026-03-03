@@ -9,8 +9,16 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/kitchen-remodeling/' },
-  title: "Luxury Kitchen Remodeling Tampa | High-End | FCS",
-  description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
+  title: "Luxury Kitchen Remodeling Tampa | High-End",
+  description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Luxury Kitchen Remodeling Tampa | High-End",
+    description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/residential/kitchen-remodeling/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

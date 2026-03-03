@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-project-management-and-scheduling/' },
   title: "Construction Project Management Tampa | Tips",
   description: "Discover construction project management tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  openGraph: {
+    title: "Construction Project Management Tampa | Tips",
+    description: "Discover construction project management tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/construction-project-management-and-scheduling/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/' },
   title: "Importance of Proper Permits Tampa | Commercial",
-  description: "Insights from Tampa's top commercial contractor on why proper construction permits matter. Learn about legal requirements, insurance implications, and how permits protect your investment.",
+  description: "Insights from Tampa's top commercial contractor on why proper construction permits matter. Learn about legal requirements insurance implications.",
+  openGraph: {
+    title: "Importance of Proper Permits Tampa | Commercial",
+    description: "Insights from Tampa's top commercial contractor on why proper construction permits matter. Learn about legal requirements insurance implications.",
+    url: "https://floridaconstructionspecialists.com/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

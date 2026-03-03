@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/' },
-  title: "Modern Amenities in Tampa Historic Homes | FCS",
-  description: "Expert integration of modern amenities in Tampa's historic homes. FCS seamlessly blends contemporary systems, smart technology, and luxury features while preserving architectural integrity in Hyde Park, Ybor City, and South Tampa historic districts.",
+  title: "Modern Amenities in Tampa Historic Homes",
+  description: "Expert integration of modern amenities in Tampa's historic homes. FCS seamlessly blends contemporary systems smart technology.",
+  openGraph: {
+    title: "Modern Amenities in Tampa Historic Homes",
+    description: "Expert integration of modern amenities in Tampa's historic homes. FCS seamlessly blends contemporary systems smart technology.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

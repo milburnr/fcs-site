@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-historical-societies-and-restoration-efforts/' },
   title: "Tampa's Historical Societies and Restoration Efforts",
-  description: "Learn about Tampa's historical societies and their role in preservation. Partner organizations supporting restoration of Ybor City, Hyde Park, and Tampa Bay landmarks.",
+  description: "Learn about Tampa's historical societies and their role in preservation. Partner organizations supporting restoration of Ybor City Hyde Park.",
+  openGraph: {
+    title: "Tampa's Historical Societies and Restoration Efforts",
+    description: "Learn about Tampa's historical societies and their role in preservation. Partner organizations supporting restoration of Ybor City Hyde Park.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-historical-societies-and-restoration-efforts/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

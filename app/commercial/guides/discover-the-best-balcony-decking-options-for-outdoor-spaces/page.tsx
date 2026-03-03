@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/' },
-  title: "Best Balcony Decking Options for High-Rise Buildings Tampa",
+  title: "Best Balcony Decking Options",
   description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+  openGraph: {
+    title: "Best Balcony Decking Options",
+    description: "Premium balcony decking options for Tampa Bay high-rise condominiums. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

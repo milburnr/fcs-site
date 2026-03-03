@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-job-opportunities/' },
   title: "Tampa Commercial Construction Job Opportunities",
   description: "Explore top Tampa Commercial Construction Job Opportunities. Find the latest job openings in the Tampa construction industry. Your dream job is here!",
+  openGraph: {
+    title: "Tampa Commercial Construction Job Opportunities",
+    description: "Explore top Tampa Commercial Construction Job Opportunities. Find the latest job openings in the Tampa construction industry. Your dream job is here!",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-job-opportunities/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

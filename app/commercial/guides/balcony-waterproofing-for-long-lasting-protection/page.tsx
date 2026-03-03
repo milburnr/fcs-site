@@ -17,8 +17,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-waterproofing-for-long-lasting-protection/' },
-  title: "Balcony Waterproofing Tampa | High-Rise | FCS",
+  title: "Balcony Waterproofing Tampa | High-Rise",
   description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Balcony Waterproofing Tampa | High-Rise",
+    description: "Expert balcony waterproofing for Tampa Bay high-rise condominiums. Expert insights from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/balcony-waterproofing-for-long-lasting-protection/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-tampa/' },
-  title: "Multi-Family Construction Tampa FL | Apartments, Condos, Townhomes | FCS",
-  description: "Multi-family construction in Tampa by Florida Construction Specialists. Condos, apartments, townhomes, senior living, student housing. Licensed CBC, 40+ years experience. Get a project consultation.",
+  title: "Multi-Family Construction Tampa | Apartments",
+  description: "Multi-family construction in Tampa by Florida Construction Specialists. Condos, apartments, townhomes, senior living, student housing.",
+  openGraph: {
+    title: "Multi-Family Construction Tampa | Apartments",
+    description: "Multi-family construction in Tampa by Florida Construction Specialists. Condos, apartments, townhomes, senior living, student housing.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

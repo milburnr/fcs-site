@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-tampa/' },
-  title: "Luxury Custom Homes Tampa FL | Waterfront & Estate Construction | FCS",
-  description: "Luxury custom home construction in Tampa. Waterfront estates, Davis Islands, Culbreath Isles, Beach Park, Palma Ceia. Licensed CBC, 40+ years experience in high-end residential.",
+  title: "Luxury Custom Homes Tampa",
+  description: "Luxury custom home construction in Tampa. Waterfront estates, Davis Islands, Culbreath Isles, Beach Park, Palma Ceia.",
+  openGraph: {
+    title: "Luxury Custom Homes Tampa",
+    description: "Luxury custom home construction in Tampa. Waterfront estates, Davis Islands, Culbreath Isles, Beach Park, Palma Ceia.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/' },
   title: "Property Damage Assessment Tampa | Insurance Claims",
-  description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact our team today.",
+  description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+  openGraph: {
+    title: "Property Damage Assessment Tampa | Insurance Claims",
+    description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+    url: "https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

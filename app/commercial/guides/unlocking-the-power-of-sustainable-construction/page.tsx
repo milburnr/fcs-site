@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/unlocking-the-power-of-sustainable-construction/' },
   title: "Unlocking the Power of Sustainable Construction",
-  description: "Discover the transformative power of sustainable construction. Florida Construction Specialists delivers green building solutions that drive value in Tampa Bay.",
+  description: "Discover the transformative power of sustainable construction. Florida Construction Specialists delivers green building solutions that drive lasting value.",
+  openGraph: {
+    title: "Unlocking the Power of Sustainable Construction",
+    description: "Discover the transformative power of sustainable construction. Florida Construction Specialists delivers green building solutions that drive lasting value.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/unlocking-the-power-of-sustainable-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

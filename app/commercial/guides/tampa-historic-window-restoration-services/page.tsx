@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-window-restoration-services/' },
   title: "Tampa Historic Window Restoration Services",
   description: "Discover historic window restoration services with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  openGraph: {
+    title: "Tampa Historic Window Restoration Services",
+    description: "Discover historic window restoration services with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-window-restoration-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

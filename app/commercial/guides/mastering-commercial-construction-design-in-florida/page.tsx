@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/mastering-commercial-construction-design-in-florida/' },
   title: "Mastering Commercial Construction Design in Florida",
-  description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists. Read more.",
+  description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Mastering Commercial Construction Design in Florida",
+    description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/mastering-commercial-construction-design-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

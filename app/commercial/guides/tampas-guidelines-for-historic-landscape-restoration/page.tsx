@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/' },
   title: "Tampa's Guidelines for Historic Landscape Restoration",
   description: "Tampa historic landscape restoration: guidelines for Ybor City, Hyde Park preservation districts. Expert landmark compliance. Contact us.",
+  openGraph: {
+    title: "Tampa's Guidelines for Historic Landscape Restoration",
+    description: "Tampa historic landscape restoration: guidelines for Ybor City, Hyde Park preservation districts. Expert landmark compliance. Contact us.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

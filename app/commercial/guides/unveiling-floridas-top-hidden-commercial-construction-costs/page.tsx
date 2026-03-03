@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/' },
   title: "Hidden Commercial Construction Costs Florida",
-  description: "Uncover the hidden costs that catch Florida commercial construction projects off guard. Expert analysis from Florida Construction Specialists. Contact us today.",
+  description: "Uncover the hidden costs that catch Florida commercial construction projects off guard. Expert analysis from Florida Construction Specialists.",
+  openGraph: {
+    title: "Hidden Commercial Construction Costs Florida",
+    description: "Uncover the hidden costs that catch Florida commercial construction projects off guard. Expert analysis from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/unveiling-floridas-top-hidden-commercial-construction-costs/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

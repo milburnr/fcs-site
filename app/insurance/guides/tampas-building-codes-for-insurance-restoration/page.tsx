@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-building-codes-for-insurance-restoration/' },
   title: "Tampa Building Codes for Insurance Restoration",
   description: "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+  openGraph: {
+    title: "Tampa Building Codes for Insurance Restoration",
+    description: "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampas-building-codes-for-insurance-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

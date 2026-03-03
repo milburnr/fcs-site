@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-builders-with-artistic-flair/' },
   title: "Tampa Custom Home Builders | Unique Architecture",
-  description: "Discover custom home builders unique architecture with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  description: "Discover custom home builders unique architecture with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "Tampa Custom Home Builders | Unique Architecture",
+    description: "Discover custom home builders unique architecture with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-builders-with-artistic-flair/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

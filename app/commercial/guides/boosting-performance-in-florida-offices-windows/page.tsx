@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/boosting-performance-in-florida-offices-windows/' },
   title: "Office Windows Florida | Energy-Efficient Glazing",
-  description: "Boost office productivity and energy efficiency with the right windows for Florida's climate. Guide to commercial glazing, solar heat gain, natural light, and hurricane impact requirements.",
+  description: "Boost office productivity and energy efficiency with the right windows for Florida's climate. Guide to commercial glazing solar heat gain natural light.",
+  openGraph: {
+    title: "Office Windows Florida | Energy-Efficient Glazing",
+    description: "Boost office productivity and energy efficiency with the right windows for Florida's climate. Guide to commercial glazing solar heat gain natural light.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/boosting-performance-in-florida-offices-windows/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

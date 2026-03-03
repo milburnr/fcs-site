@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-brandon/' },
-  title: "Condo Remediation Brandon FL | SB 4-D Compliance, Structural Repair | FCS",
-  description: "Condo remediation and structural repair in Brandon FL. SB 4-D milestone inspections, concrete restoration, building envelope repair for suburban condo communities. Licensed CBC, 40+ years experience.",
+  title: "Condo Remediation Brandon | SB 4-D Compliance",
+  description: "Condo remediation and structural repair in Brandon FL. SB 4-D milestone inspections concrete restoration.",
+  openGraph: {
+    title: "Condo Remediation Brandon | SB 4-D Compliance",
+    description: "Condo remediation and structural repair in Brandon FL. SB 4-D milestone inspections concrete restoration.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

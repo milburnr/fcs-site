@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
-  title: "Commercial Construction Clearwater FL | Beach Hotels, Medical, Retail | FCS",
-  description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant. Licensed CBC, 40+ years experience. Schedule a project bid.",
+  title: "Commercial Construction Clearwater | Beach Hotels",
+  description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant.",
+  openGraph: {
+    title: "Commercial Construction Clearwater | Beach Hotels",
+    description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

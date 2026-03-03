@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/church-renovation-tips-from-top-commercial-contractor/' },
-  title: "Church Renovation Tips Tampa | Commercial | FCS",
+  title: "Church Renovation Tips Tampa | Commercial",
   description: "Expert church renovation guidance for Tampa Bay congregations. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Church Renovation Tips Tampa | Commercial",
+    description: "Expert church renovation guidance for Tampa Bay congregations. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/church-renovation-tips-from-top-commercial-contractor/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

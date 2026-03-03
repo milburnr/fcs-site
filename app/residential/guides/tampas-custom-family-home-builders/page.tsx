@@ -13,7 +13,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampas-custom-family-home-builders/' },
   title: "Tampa's Custom Family Home Builders | Design for Life",
-  description: "Build your family's dream home in Tampa. Kid-friendly designs, flex spaces, multi-generational options, and homes that grow with your family. Custom family homes from $400K-$3M+.",
+  description: "Build your family's dream home in Tampa. Kid-friendly designs, flex spaces, multi-generational options, and homes that grow with your family.",
+  openGraph: {
+    title: "Tampa's Custom Family Home Builders | Design for Life",
+    description: "Build your family's dream home in Tampa. Kid-friendly designs, flex spaces, multi-generational options, and homes that grow with your family.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/tampas-custom-family-home-builders/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

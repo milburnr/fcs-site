@@ -1,3 +1,7 @@
+# Proxy images to Cloudflare R2 (images removed from git, served via CDN)
+/images/* https://pub-293ff74728cf48d6827f2ddadc36947a.r2.dev/images/:splat 200
+/wp-content/uploads/* https://pub-293ff74728cf48d6827f2ddadc36947a.r2.dev/wp-content/uploads/:splat 200
+
 /a-comprehensive-look-at-commercial-construction-stages-in-florida/ /commercial-construction-stages-in-florida/ 301
 /advantages-of-sustainable-materials-in-commercial-construction-insights-from-florida-construction-specialists/ /benefits-of-sustainable-materials-in-commercial-construction/ 301
 /answering-financial-questions-florida-construction-specialists-perspective-on-commercial-construction-in-tampa/ /commercial-construction-questions-answered/ 301

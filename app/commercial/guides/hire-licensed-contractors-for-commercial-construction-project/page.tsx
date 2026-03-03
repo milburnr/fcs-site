@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/' },
   title: "Licensed Contractors for Commercial | Florida",
-  description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CBC in ${region}. Request a free estimate.",
+  description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CBC in ${region}.",
+  openGraph: {
+    title: "Licensed Contractors for Commercial | Florida",
+    description: "Learn why hiring a licensed contractor is essential for commercial construction in Florida. From FCS, your licensed CBC in ${region}.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

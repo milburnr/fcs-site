@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/' },
   title: "Commercial Construction Loans in Tampa",
   description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
+  openGraph: {
+    title: "Commercial Construction Loans in Tampa",
+    description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

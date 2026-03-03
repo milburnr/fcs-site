@@ -13,8 +13,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/' },
-  title: "SB 4-D Compliance Tampa Bay Condos | FCS",
+  title: "SB 4-D Compliance Tampa Bay Condos",
   description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+  openGraph: {
+    title: "SB 4-D Compliance Tampa Bay Condos",
+    description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

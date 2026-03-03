@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/' },
   title: "Funding and Grants for Historic Restoration in Tampa",
-  description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years. Contact our team today.",
+  description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years.",
+  openGraph: {
+    title: "Funding and Grants for Historic Restoration in Tampa",
+    description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

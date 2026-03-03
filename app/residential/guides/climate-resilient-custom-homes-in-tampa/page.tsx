@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/' },
   title: "Climate-Resilient Custom Homes Tampa | Hurricane",
-  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Request a free estimate.",
+  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC.",
+  openGraph: {
+    title: "Climate-Resilient Custom Homes Tampa | Hurricane",
+    description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

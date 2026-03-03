@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-ruskin/' },
-  title: "Historic Restoration Ruskin FL | Agricultural Heritage | FCS",
-  description: "Historic restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Agricultural heritage structures, Sun City Center mid-century buildings, US 41 corridor preservation. Licensed CBC.",
+  title: "Historic Restoration Ruskin FL | Agricultural Heritage",
+  description: "Historic restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Agricultural heritage structures.",
+  openGraph: {
+    title: "Historic Restoration Ruskin FL | Agricultural Heritage",
+    description: "Historic restoration in Ruskin FL by Florida Construction Specialists — headquartered locally. Agricultural heritage structures.",
+    url: "https://floridaconstructionspecialists.com/historic-restoration-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

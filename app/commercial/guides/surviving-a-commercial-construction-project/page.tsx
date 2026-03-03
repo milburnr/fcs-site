@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/surviving-a-commercial-construction-project/' },
   title: "Surviving Commercial Construction | Tampa Guide",
-  description: "Expert strategies for navigating commercial construction in Tampa Bay. Expert insights from Florida Construction Specialists. Call (813) 420-7561 for a quote.",
+  description: "Expert strategies for navigating commercial construction in Tampa Bay. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Surviving Commercial Construction | Tampa Guide",
+    description: "Expert strategies for navigating commercial construction in Tampa Bay. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/surviving-a-commercial-construction-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

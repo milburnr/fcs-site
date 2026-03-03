@@ -31,9 +31,17 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-balcony-inspection-requirements/' },
-  title: "Condo Balcony Inspection Florida | SB 4-D | FCS",
+  title: "Condo Balcony Inspection Florida | SB 4-D",
   description:
-    "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "Condo Balcony Inspection Florida | SB 4-D",
+    description: "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/condo-balcony-inspection-requirements/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const inspectionTriggers = [

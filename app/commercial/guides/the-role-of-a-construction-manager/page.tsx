@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-role-of-a-construction-manager/' },
   title: "Construction Manager Role Tampa | Commercial",
-  description: "Discover how construction managers guide commercial building projects from concept to completion. Learn about CM services from Florida Construction Specialists.",
+  description: "Discover how construction managers guide commercial building projects from concept to completion.",
+  openGraph: {
+    title: "Construction Manager Role Tampa | Commercial",
+    description: "Discover how construction managers guide commercial building projects from concept to completion.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-role-of-a-construction-manager/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

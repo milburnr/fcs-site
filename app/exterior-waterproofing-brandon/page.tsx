@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-brandon/' },
-  title: "Exterior Waterproofing Brandon FL | Building Envelope, Stucco | FCS",
-  description: "Exterior waterproofing in Brandon FL. Building envelope repair, stucco remediation, below-grade waterproofing, drainage solutions for suburban properties. Licensed CBC, 40+ years experience.",
+  title: "Exterior Waterproofing Brandon | Building Envelope",
+  description: "Exterior waterproofing in Brandon FL. Building envelope repair, stucco remediation, below-grade waterproofing, drainage solutions for suburban properties.",
+  openGraph: {
+    title: "Exterior Waterproofing Brandon | Building Envelope",
+    description: "Exterior waterproofing in Brandon FL. Building envelope repair, stucco remediation, below-grade waterproofing, drainage solutions for suburban properties.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

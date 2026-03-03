@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/terms-and-conditions/' },
   title: "Terms and Conditions",
-  description: "Review the terms and conditions for using Florida Construction Specialists' website. Understand your rights, responsibilities, and our policies for Tampa Bay construction services.",
+  description: "Review the terms and conditions for using Florida Construction Specialists' website. Understand your rights responsibilities.",
+  openGraph: {
+    title: "Terms and Conditions",
+    description: "Review the terms and conditions for using Florida Construction Specialists' website. Understand your rights responsibilities.",
+    url: "https://floridaconstructionspecialists.com/terms-and-conditions/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

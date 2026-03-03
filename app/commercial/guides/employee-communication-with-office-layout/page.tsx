@@ -18,7 +18,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/employee-communication-with-office-layout/' },
   title: "Office Layout for Communication Tampa | Design",
-  description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1982. Contact our team today.",
+  description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Office Layout for Communication Tampa | Design",
+    description: "Design office layouts that enhance employee communication and collaboration. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/employee-communication-with-office-layout/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

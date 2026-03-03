@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-bradenton/' },
-  title: "Multi-Family Construction Bradenton FL | Apartments, Townhomes | FCS",
-  description: "Multi-family construction in Bradenton by Florida Construction Specialists. Lakewood Ranch apartments, workforce housing, riverfront developments, townhome communities. Licensed CBC, 40+ years experience.",
+  title: "Multi-Family Construction Bradenton | Apartments",
+  description: "Multi-family construction in Bradenton by Florida Construction Specialists. Lakewood Ranch apartments workforce housing riverfront developments.",
+  openGraph: {
+    title: "Multi-Family Construction Bradenton | Apartments",
+    description: "Multi-family construction in Bradenton by Florida Construction Specialists. Lakewood Ranch apartments workforce housing riverfront developments.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
   title: "Technology in Tampa Insurance Restoration | Tools",
-  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC. Call (813) 420-7561 for a quote.",
+  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC.",
+  openGraph: {
+    title: "Technology in Tampa Insurance Restoration | Tools",
+    description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   title: `Terms of Service | ${BUSINESS_INFO.name}`,
   description: `Terms of Service for ${BUSINESS_INFO.name}. Please read these terms carefully before using our website or services.`,
   robots: "noindex, follow",
+  openGraph: {
+    title: "Terms of Service | Florida Construction Specialists",
+    url: "https://floridaconstructionspecialists.com/terms/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists" }],
+  },
 };
 
 const breadcrumbItems = [

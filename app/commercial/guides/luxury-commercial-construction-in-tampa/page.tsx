@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/luxury-commercial-construction-in-tampa/' },
   title: "Luxury Commercial Construction in Tampa",
-  description: "Looking for luxury commercial construction in Tampa? Our high-end commercial development services offer premium building solutions for upscale construction p...",
+  description: "Looking for luxury commercial construction in Tampa? Our high-end commercial development services offer premium building solutions for upscale.",
+  openGraph: {
+    title: "Luxury Commercial Construction in Tampa",
+    description: "Looking for luxury commercial construction in Tampa? Our high-end commercial development services offer premium building solutions for upscale.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/luxury-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

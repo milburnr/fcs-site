@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/trends-and-future-of-commercial-construction-in-tampa/' },
   title: "Future of Commercial Construction Tampa | 2024",
-  description: "Discover the latest commercial construction trends shaping Tampa's skyline. From sustainable building to smart technology, explore what's driving the future of commercial development in Tampa Bay.",
+  description: "Discover the latest commercial construction trends shaping Tampa's skyline. From sustainable building to smart technology.",
+  openGraph: {
+    title: "Future of Commercial Construction Tampa | 2024",
+    description: "Discover the latest commercial construction trends shaping Tampa's skyline. From sustainable building to smart technology.",
+    url: "https://floridaconstructionspecialists.com/trends-and-future-of-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

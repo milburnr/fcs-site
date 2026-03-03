@@ -32,7 +32,15 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/flood-zone-ve-vs-ae-guide/' },
   title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
   description:
-    "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements, elevation rules, and insurance implications.",
+    "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements elevation rules and insurance implications.",
+  openGraph: {
+    title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
+    description: "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements elevation rules and insurance implications.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/flood-zone-ve-vs-ae-guide/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const zoneComparison = [
@@ -294,7 +302,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

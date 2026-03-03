@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-workshops-and-training/' },
   title: "Tampa Historic Restoration Workshops and Training",
-  description: "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1982. Contact us today.",
+  description: "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Tampa Historic Restoration Workshops and Training",
+    description: "Professional development and training opportunities for historic restoration in. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-workshops-and-training/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

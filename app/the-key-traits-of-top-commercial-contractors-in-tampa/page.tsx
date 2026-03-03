@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-key-traits-of-top-commercial-contractors-in-tampa/' },
   title: "Key Traits of Top Commercial Contractors Tampa",
-  description: "Discover the essential characteristics that distinguish outstanding commercial contractors in Tampa Bay. Learn what separates the best from the rest in Florida's competitive market.",
+  description: "Discover the essential characteristics that distinguish outstanding commercial contractors in Tampa Bay.",
+  openGraph: {
+    title: "Key Traits of Top Commercial Contractors Tampa",
+    description: "Discover the essential characteristics that distinguish outstanding commercial contractors in Tampa Bay.",
+    url: "https://floridaconstructionspecialists.com/the-key-traits-of-top-commercial-contractors-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

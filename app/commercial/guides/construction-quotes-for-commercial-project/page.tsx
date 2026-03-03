@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-quotes-for-commercial-project/' },
   title: "Construction Quotes for Commercial Projects | Tampa FL",
-  description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1982. Read more.",
+  description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Construction Quotes for Commercial Projects | Tampa FL",
+    description: "How to get, evaluate, and compare construction quotes for commercial projects in Tampa Bay. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/construction-quotes-for-commercial-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

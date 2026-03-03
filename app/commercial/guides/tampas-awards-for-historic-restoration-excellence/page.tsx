@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-awards-for-historic-restoration-excellence/' },
-  title: "Tampa&apos;s Awards for Historic Restoration Excellence",
-  description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Contact our team today.",
+  title: "Tampa&apos;s Awards for Historic Restoration",
+  description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  openGraph: {
+    title: "Tampa&apos;s Awards for Historic Restoration",
+    description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-awards-for-historic-restoration-excellence/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

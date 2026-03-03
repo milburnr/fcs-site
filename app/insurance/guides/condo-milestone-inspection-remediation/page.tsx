@@ -12,8 +12,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/condo-milestone-inspection-remediation/' },
-  title: "Condo Milestone Inspection Remediation FL | FCS",
-  description: "Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay's trusted contractor for condo concrete restoration, balcony repairs, and SB 4-D compliance. 365-day deadline specialists.",
+  title: "Condo Milestone Inspection Remediation FL",
+  description: "Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay's trusted contractor for condo concrete restoration.",
+  openGraph: {
+    title: "Condo Milestone Inspection Remediation FL",
+    description: "Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay's trusted contractor for condo concrete restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/condo-milestone-inspection-remediation/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const remediationServices = [

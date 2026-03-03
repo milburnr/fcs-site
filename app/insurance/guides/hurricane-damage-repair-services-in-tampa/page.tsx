@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-damage-repair-services-in-tampa/' },
   title: "Hurricane Damage Repair Services in Tampa",
-  description: "Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair. Get fast, reliable property repairs.",
+  description: "Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair.",
+  openGraph: {
+    title: "Hurricane Damage Repair Services in Tampa",
+    description: "Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/hurricane-damage-repair-services-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

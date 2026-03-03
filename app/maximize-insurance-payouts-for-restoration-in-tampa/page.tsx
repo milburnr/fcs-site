@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/maximize-insurance-payouts-for-restoration-in-tampa/' },
   title: "Maximize Insurance Payouts Tampa | Commercial",
-  description: "Strategies to maximize insurance payouts for commercial restoration in Tampa. Documentation tips, coverage optimization, and claim support for full recovery.",
+  description: "Strategies to maximize insurance payouts for commercial restoration in Tampa. Documentation tips coverage optimization and claim support for full recovery.",
+  openGraph: {
+    title: "Maximize Insurance Payouts Tampa | Commercial",
+    description: "Strategies to maximize insurance payouts for commercial restoration in Tampa. Documentation tips coverage optimization and claim support for full recovery.",
+    url: "https://floridaconstructionspecialists.com/maximize-insurance-payouts-for-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

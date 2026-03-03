@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/' },
   title: "Roof Damage Restoration Tampa | Insurance Claims",
-  description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years. Request a free estimate.",
+  description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Roof Damage Restoration Tampa | Insurance Claims",
+    description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/plant-city-fl/' },
-  title: "Plant City Construction Contractor | Commercial | FCS",
+  title: "Plant City Construction Contractor | Commercial",
   description: "Licensed construction contractor serving Plant City, FL. Commercial, residential, and insurance restoration services. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Plant City Construction Contractor | Commercial",
+    description: "Licensed construction contractor serving Plant City, FL. Commercial, residential, and insurance restoration services. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/locations/plant-city-fl/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -424,7 +432,7 @@ export default function PlantCityPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Learn More</h3>
               <ul className="space-y-2">
                 <li><Link href="/about/" className="text-brand-green hover:underline">About FCS</Link></li>
-                <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
+                <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
                 <li><Link href="/locations/" className="text-brand-green hover:underline">All Locations</Link></li>
               </ul>

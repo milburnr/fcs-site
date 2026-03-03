@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-brandon/' },
-  title: "Insurance Restoration Brandon FL | Storm Damage, Claims | FCS",
-  description: "Insurance restoration contractor in Brandon FL. Storm damage repair, wind and hail claims, roof replacement, structural restoration. Licensed CBC with insurance industry experience. Request a claims consultation.",
+  title: "Insurance Restoration Brandon | Storm Damage, Claims",
+  description: "Insurance restoration contractor in Brandon FL. Storm damage repair, wind and hail claims, roof replacement, structural restoration.",
+  openGraph: {
+    title: "Insurance Restoration Brandon | Storm Damage, Claims",
+    description: "Insurance restoration contractor in Brandon FL. Storm damage repair, wind and hail claims, roof replacement, structural restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

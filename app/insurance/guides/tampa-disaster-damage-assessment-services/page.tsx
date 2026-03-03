@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-disaster-damage-assessment-services/' },
   title: "Tampa Disaster Damage Assessment Services",
-  description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; storms.",
+  description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes floods.",
+  openGraph: {
+    title: "Tampa Disaster Damage Assessment Services",
+    description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes floods.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampa-disaster-damage-assessment-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

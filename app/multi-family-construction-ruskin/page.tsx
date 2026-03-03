@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-ruskin/' },
-  title: "Multi-Family Construction Ruskin FL | Condos, Apartments | FCS",
-  description: "Multi-family construction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center senior living, Apollo Beach condos, workforce housing. Licensed CBC, 40+ years.",
+  title: "Multi-Family Construction Ruskin | Condos, Apartments",
+  description: "Multi-family construction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center senior living Apollo Beach condos.",
+  openGraph: {
+    title: "Multi-Family Construction Ruskin | Condos, Apartments",
+    description: "Multi-family construction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center senior living Apollo Beach condos.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

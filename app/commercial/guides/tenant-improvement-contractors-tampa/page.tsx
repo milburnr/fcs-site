@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tenant-improvement-contractors-tampa/' },
-  title: "Tenant Improvement Contractors Tampa | TI | FCS",
-  description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC. Request a free estimate today.",
+  title: "Tenant Improvement Contractors Tampa | TI",
+  description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+  openGraph: {
+    title: "Tenant Improvement Contractors Tampa | TI",
+    description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tenant-improvement-contractors-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

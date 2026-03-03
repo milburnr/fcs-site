@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-landmarks-restoration-in-tampa/' },
   title: "Historical Landmarks Restoration in Tampa",
-  description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park. Certified specialists in National Register properties and tax credit projects.",
+  description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park.",
+  openGraph: {
+    title: "Historical Landmarks Restoration in Tampa",
+    description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/historical-landmarks-restoration-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-ruskin/' },
-  title: "Disaster Recovery Ruskin FL | Hurricane, Storm, Flood | FCS",
-  description: "Disaster recovery in Ruskin FL by Florida Construction Specialists — headquartered locally. Hurricane damage, Tampa Bay flooding, Sun City Center storm recovery, Apollo Beach waterfront restoration. Licensed CBC.",
+  title: "Disaster Recovery Ruskin FL | Hurricane, Storm, Flood",
+  description: "Disaster recovery in Ruskin FL by Florida Construction Specialists — headquartered locally. Hurricane damage Tampa Bay flooding.",
+  openGraph: {
+    title: "Disaster Recovery Ruskin FL | Hurricane, Storm, Flood",
+    description: "Disaster recovery in Ruskin FL by Florida Construction Specialists — headquartered locally. Hurricane damage Tampa Bay flooding.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

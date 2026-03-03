@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/upgrade-commercial-sprinklers-during-renovation/' },
   title: "Upgrade Commercial Sprinklers Tampa | Fire",
   description: "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CBC. Read more.",
+  openGraph: {
+    title: "Upgrade Commercial Sprinklers Tampa | Fire",
+    description: "Why renovating your Tampa commercial building is the ideal time to upgrade fire sprinkler systems. Professional guidance from FCS, licensed CBC. Read more.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/upgrade-commercial-sprinklers-during-renovation/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

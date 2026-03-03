@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-insurance-coverage/' },
   title: "Commercial Construction Insurance Florida | Guide",
-  description: "Understand commercial construction insurance requirements in Florida. Learn about liability, workers' comp, builder's risk, and what coverage contractors should carry.",
+  description: "Understand commercial construction insurance requirements in Florida. Learn about liability workers' comp builder's risk.",
+  openGraph: {
+    title: "Commercial Construction Insurance Florida | Guide",
+    description: "Understand commercial construction insurance requirements in Florida. Learn about liability workers' comp builder's risk.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-insurance-coverage/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/' },
-  title: "Restaurant Design & Construction Tampa | FCS",
+  title: "Restaurant Design & Construction Tampa",
   description: "Discover restaurant design & construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Schedule your consultation now.",
+  openGraph: {
+    title: "Restaurant Design & Construction Tampa",
+    description: "Discover restaurant design & construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Schedule your consultation now.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/successful-restaurant-design-with-florida-construction-specialists/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

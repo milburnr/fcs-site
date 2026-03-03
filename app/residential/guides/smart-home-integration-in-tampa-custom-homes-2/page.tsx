@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/smart-home-integration-in-tampa-custom-homes-2/' },
-  title: "Smart Home Integration Tampa | Automation | FCS",
+  title: "Smart Home Integration Tampa | Automation",
   description: "Integrate smart home technology in your custom home. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Smart Home Integration Tampa | Automation",
+    description: "Integrate smart home technology in your custom home. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/smart-home-integration-in-tampa-custom-homes-2/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

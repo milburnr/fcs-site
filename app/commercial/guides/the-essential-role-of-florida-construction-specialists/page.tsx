@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-essential-role-of-florida-construction-specialists/' },
   title: "Essential Role of FCS Tampa | Premier Contractor",
-  description: "Discover the essential role Florida Construction Specialists plays in Tampa Bay's construction industry. Premier commercial contractor delivering excellence since our founding.",
+  description: "Discover the essential role Florida Construction Specialists plays in Tampa Bay's construction industry.",
+  openGraph: {
+    title: "Essential Role of FCS Tampa | Premier Contractor",
+    description: "Discover the essential role Florida Construction Specialists plays in Tampa Bay's construction industry.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-essential-role-of-florida-construction-specialists/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

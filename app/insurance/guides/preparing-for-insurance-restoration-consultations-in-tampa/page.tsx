@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/' },
   title: "Insurance Restoration Consultations Tampa | Guide",
   description: "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1982. Read more.",
+  openGraph: {
+    title: "Insurance Restoration Consultations Tampa | Guide",
+    description: "Insurance Restoration Consultations Guide in Tampa: new construction, renovations, and insurance restoration. CBC-licensed, trusted since 1982. Read more.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

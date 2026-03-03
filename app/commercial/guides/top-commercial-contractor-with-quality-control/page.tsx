@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-with-quality-control/' },
   title: "Top Commercial Contractor with Quality Control",
-  description: "Looking for a top commercial contractor in Florida? Florida Construction Specialists is a trusted name in the industry, known for its quality control and pro...",
+  description: "Looking for a top commercial contractor in Florida? Florida Construction Specialists is a trusted name in the industry.",
+  openGraph: {
+    title: "Top Commercial Contractor with Quality Control",
+    description: "Looking for a top commercial contractor in Florida? Florida Construction Specialists is a trusted name in the industry.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-with-quality-control/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

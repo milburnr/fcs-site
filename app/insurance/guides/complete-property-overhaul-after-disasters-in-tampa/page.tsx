@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/' },
   title: "Complete Property Overhaul After Disasters Tampa",
-  description: "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, 40+ years. Request a free estimate.",
+  description: "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Complete Property Overhaul After Disasters Tampa",
+    description: "Complete Property Overhaul After Disasters in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

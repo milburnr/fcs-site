@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-latest-commercial-construction-projects/' },
   title: "Tampa Commercial Construction Projects 2024-2025",
   description: "Explore Tampa's latest commercial construction projects. See what's being built across Tampa Bay—from downtown skyscrapers to suburban retail centers.",
+  openGraph: {
+    title: "Tampa Commercial Construction Projects 2024-2025",
+    description: "Explore Tampa's latest commercial construction projects. See what's being built across Tampa Bay—from downtown skyscrapers to suburban retail centers.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-latest-commercial-construction-projects/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

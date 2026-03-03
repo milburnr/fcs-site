@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-top-causes-of-construction-delays-in-florida/' },
   title: "Construction Delays Florida | Tampa Bay Causes",
   description: "Discover construction delays florida causes with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Construction Delays Florida | Tampa Bay Causes",
+    description: "Discover construction delays florida causes with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-top-causes-of-construction-delays-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

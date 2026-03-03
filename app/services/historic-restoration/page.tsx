@@ -12,7 +12,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/historic-restoration/' },
   title: "Historic Restoration & Preservation in Tampa Bay",
-  description: "Historic restoration Tampa: SHPO compliance, tax credits, Secretary of Interior Standards. Ybor City, Hyde Park specialist. Schedule preservation consultation.",
+  description: "Historic restoration Tampa: SHPO compliance, tax credits, Secretary of Interior Standards. Ybor City, Hyde Park specialist.",
+  openGraph: {
+    title: "Historic Restoration & Preservation in Tampa Bay",
+    description: "Historic restoration Tampa: SHPO compliance, tax credits, Secretary of Interior Standards. Ybor City, Hyde Park specialist.",
+    url: "https://floridaconstructionspecialists.com/services/historic-restoration/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

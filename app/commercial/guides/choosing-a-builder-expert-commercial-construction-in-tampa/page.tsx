@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/' },
-  title: "Choosing a Builder Expert Commercial Construction in Tampa",
+  title: "Choosing a Builder Expert Commercial Construction",
   description: "Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.",
+  openGraph: {
+    title: "Choosing a Builder Expert Commercial Construction",
+    description: "Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

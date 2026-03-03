@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/' },
   title: "Unique Bedrooms in Tampa Custom Homes | Luxury",
-  description: "Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites, custom closets, sitting areas, and resort-style amenities from $75K-$300K+.",
+  description: "Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites custom closets sitting areas.",
+  openGraph: {
+    title: "Unique Bedrooms in Tampa Custom Homes | Luxury",
+    description: "Design unique luxury bedrooms in your Tampa custom home. Spa-inspired master suites custom closets sitting areas.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

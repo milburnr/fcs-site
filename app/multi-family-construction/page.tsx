@@ -11,8 +11,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
-  title: "Multi-Family Construction Tampa | Apartments | FCS",
+  title: "Multi-Family Construction Tampa Bay | Condos",
   description: "Multi-family construction Tampa: condos, apartments, mixed-use. In-house engineering, SB4-D compliance, 40+ years experience. Request a bid.",
+  openGraph: {
+    title: "Multi-Family Construction Tampa Bay | Condos",
+    description: "Multi-family construction Tampa: condos, apartments, mixed-use. In-house engineering, SB4-D compliance, 40+ years experience. Request a bid.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const comprehensiveFaqs = [

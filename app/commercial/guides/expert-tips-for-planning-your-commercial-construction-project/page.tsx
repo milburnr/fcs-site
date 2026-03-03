@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/' },
   title: "Planning Commercial Construction Tampa | Tips",
-  description: "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CBC. Request a free estimate.'s leading design-build firm.",
+  description: "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CBC.",
+  openGraph: {
+    title: "Planning Commercial Construction Tampa | Tips",
+    description: "Comprehensive guide to planning commercial construction in Florida. Expert tips from Florida Construction Specialists, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/expert-tips-for-planning-your-commercial-construction-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

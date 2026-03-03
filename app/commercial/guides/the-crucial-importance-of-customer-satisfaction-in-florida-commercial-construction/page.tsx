@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/' },
-  title: "Customer Satisfaction in Florida Commercial Construction",
+  title: "Customer Satisfaction Commercial Construction",
   description: "Discover the power of customer satisfaction in Florida commercial construction projects,. Expert analysis from Florida Construction Specialists. Read more.",
+  openGraph: {
+    title: "Customer Satisfaction Commercial Construction",
+    description: "Discover the power of customer satisfaction in Florida commercial construction projects,. Expert analysis from Florida Construction Specialists. Read more.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-crucial-importance-of-customer-satisfaction-in-florida-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

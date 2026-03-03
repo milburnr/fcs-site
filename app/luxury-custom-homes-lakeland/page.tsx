@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/' },
-  title: "Luxury Custom Homes Lakeland FL | Lake-Front Estates, Grasslands | FCS",
-  description: "Luxury custom home construction in Lakeland by Florida Construction Specialists. Lake-front estates, Grasslands community, Highland Park, Crystal Lake. Licensed CBC, 40+ years experience. Request a design consultation.",
+  title: "Luxury Custom Homes Lakeland | Lake-Front Estates",
+  description: "Luxury custom home construction in Lakeland by Florida Construction Specialists. Lake-front estates, Grasslands community, Highland Park, Crystal Lake.",
+  openGraph: {
+    title: "Luxury Custom Homes Lakeland | Lake-Front Estates",
+    description: "Luxury custom home construction in Lakeland by Florida Construction Specialists. Lake-front estates, Grasslands community, Highland Park, Crystal Lake.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

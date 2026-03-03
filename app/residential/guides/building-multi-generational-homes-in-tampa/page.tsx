@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/' },
-  title: "Building Multi-Generational Homes in Tampa | Family Living",
-  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Contact us today.",
+  title: "Building Multi-Generational Homes in Tampa",
+  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+  openGraph: {
+    title: "Building Multi-Generational Homes in Tampa",
+    description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

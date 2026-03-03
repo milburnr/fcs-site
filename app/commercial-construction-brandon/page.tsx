@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
-  title: "Commercial Construction Brandon FL | Retail, Office, Industrial | FCS",
-  description: "Commercial construction in Brandon FL by Florida Construction Specialists. SR 60 corridor retail, office buildings, distribution centers near I-75. Licensed CBC, 40+ years experience. Request a project bid.",
+  title: "Commercial Construction Brandon | Retail",
+  description: "Commercial construction in Brandon FL by Florida Construction Specialists. SR 60 corridor retail, office buildings, distribution centers near I-75.",
+  openGraph: {
+    title: "Commercial Construction Brandon | Retail",
+    description: "Commercial construction in Brandon FL by Florida Construction Specialists. SR 60 corridor retail, office buildings, distribution centers near I-75.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

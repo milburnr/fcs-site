@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/' },
   title: "Commercial Blueprint Tampa | FCS Construction",
   description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  openGraph: {
+    title: "Commercial Blueprint Tampa | FCS Construction",
+    description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-trends-updates-2024/' },
   title: "Tampa Commercial Construction Trends 2024-2025",
-  description: "Stay ahead with the latest commercial construction trends in Tampa. Discover market insights, technology innovations, and what's shaping Tampa Bay's construction industry.",
+  description: "Stay ahead with the latest commercial construction trends in Tampa. Discover market insights technology innovations.",
+  openGraph: {
+    title: "Tampa Commercial Construction Trends 2024-2025",
+    description: "Stay ahead with the latest commercial construction trends in Tampa. Discover market insights technology innovations.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-trends-updates-2024/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

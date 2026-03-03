@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-preconstruction-modern-approach-design/' },
   title: "The Preconstruction Modern Approach Design",
   description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in ${region}. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "The Preconstruction Modern Approach Design",
+    description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in ${region}. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/the-preconstruction-modern-approach-design/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

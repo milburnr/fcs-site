@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-building-design-services-in-tampa/' },
-  title: "Commercial Building Design Services in Tampa | FCS",
+  title: "Commercial Building Design Services in Tampa",
   description: "Commercial Building Design Services in Tampa: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Contact us today.",
+  openGraph: {
+    title: "Commercial Building Design Services in Tampa",
+    description: "Commercial Building Design Services in Tampa: full-service general contractor for commercial and residential. FL-licensed CBC contractor. Contact us today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-building-design-services-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

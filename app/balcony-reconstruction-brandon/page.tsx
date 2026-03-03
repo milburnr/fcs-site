@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-brandon/' },
-  title: "Balcony Reconstruction Brandon FL | SB 4-D, Walkway Repair | FCS",
-  description: "Balcony reconstruction and walkway repair in Brandon FL. SB 4-D compliance, structural balcony repair, waterproofing, railing replacement for suburban condos and apartments. Licensed CBC, 40+ years experience.",
+  title: "Balcony Reconstruction Brandon | SB 4-D",
+  description: "Balcony reconstruction and walkway repair in Brandon FL. SB 4-D compliance structural balcony repair waterproofing.",
+  openGraph: {
+    title: "Balcony Reconstruction Brandon | SB 4-D",
+    description: "Balcony reconstruction and walkway repair in Brandon FL. SB 4-D compliance structural balcony repair waterproofing.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-brandon/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

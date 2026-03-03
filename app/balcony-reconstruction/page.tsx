@@ -13,8 +13,16 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction/' },
-  title: "Balcony Reconstruction Tampa | Condo Repair | FCS",
-  description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
+  title: "Balcony Reconstruction Tampa | Condo Repair",
+  description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Balcony Reconstruction Tampa | Condo Repair",
+    description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const features = [
@@ -858,7 +866,7 @@ export default function BalconyReconstructionPage() {
           </div>
 
           <div className="text-center mt-12">
-            <Link href="/portfolio/" className="btn-primary">
+            <Link href="/gallery/" className="btn-primary">
               View All Projects <ArrowRight className="w-4 h-4 ml-2 inline" />
             </Link>
           </div>

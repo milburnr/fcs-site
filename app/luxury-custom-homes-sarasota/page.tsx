@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-sarasota/' },
-  title: "Luxury Custom Homes Sarasota FL | Waterfront, Gulf-Front | FCS",
-  description: "Luxury custom home construction in Sarasota by Florida Construction Specialists. Bird Key, Siesta Key, Lido Key, Longboat Key waterfront estates. Licensed CBC, 40+ years experience.",
+  title: "Luxury Custom Homes Sarasota | Waterfront, Gulf-Front",
+  description: "Luxury custom home construction in Sarasota by Florida Construction Specialists. Bird Key, Siesta Key, Lido Key, Longboat Key waterfront estates.",
+  openGraph: {
+    title: "Luxury Custom Homes Sarasota | Waterfront, Gulf-Front",
+    description: "Luxury custom home construction in Sarasota by Florida Construction Specialists. Bird Key, Siesta Key, Lido Key, Longboat Key waterfront estates.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-sarasota/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -10,6 +10,14 @@ import { AuthorByline } from "@/components/AuthorByline";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-post-disaster-rebuilding-services/' },
   title: "Tampa Post-Disaster Rebuilding | Storm & Fire",
+  openGraph: {
+    title: "Tampa Post-Disaster Rebuilding | Storm & Fire",
+    description: "Secure your property against further damage",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/tampa-post-disaster-rebuilding-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

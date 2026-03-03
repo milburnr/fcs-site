@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-historic-restoration-zoning-laws/' },
   title: "Tampa's Historic Restoration Zoning Laws",
   description: "Tampa historic zoning laws: preservation overlay zones, variances, adaptive reuse regulations. Expert navigation. Schedule a consultation.",
+  openGraph: {
+    title: "Tampa's Historic Restoration Zoning Laws",
+    description: "Tampa historic zoning laws: preservation overlay zones, variances, adaptive reuse regulations. Expert navigation. Schedule a consultation.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-historic-restoration-zoning-laws/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

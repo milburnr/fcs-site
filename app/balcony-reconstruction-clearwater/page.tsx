@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
-  title: "Balcony Reconstruction Clearwater FL | Beach High-Rises, SB4-D | FCS",
-  description: "Balcony reconstruction in Clearwater by Florida Construction Specialists. Beach high-rise balconies, saltwater corrosion repair, SB4-D compliance, Gulf wind exposure. Licensed CBC, 40+ years experience.",
+  title: "Balcony Reconstruction Clearwater | Beach High-Rises",
+  description: "Balcony reconstruction in Clearwater by Florida Construction Specialists. Beach high-rise balconies saltwater corrosion repair SB4-D compliance.",
+  openGraph: {
+    title: "Balcony Reconstruction Clearwater | Beach High-Rises",
+    description: "Balcony reconstruction in Clearwater by Florida Construction Specialists. Beach high-rise balconies saltwater corrosion repair SB4-D compliance.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

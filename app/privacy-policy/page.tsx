@@ -9,8 +9,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/privacy-policy/' },
   title: "Privacy Policy",
-  description: "Read Florida Construction Specialists' privacy policy. Learn how we collect, protect, and use your personal information when you visit our Tampa Bay construction company website.",
+  description: "Read Florida Construction Specialists' privacy policy. Learn how we collect protect.",
   robots: { index: false, follow: true },
+  openGraph: {
+    title: "Privacy Policy",
+    description: "Read Florida Construction Specialists' privacy policy. Learn how we collect protect.",
+    url: "https://floridaconstructionspecialists.com/privacy-policy/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

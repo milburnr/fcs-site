@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/' },
-  title: "Balcony Reconstruction St. Petersburg | SB 4-D Compliance | FCS",
-  description: "Balcony reconstruction in St. Petersburg by Florida Construction Specialists. Downtown high-rise condos, Isla del Sol waterfront towers, SB 4-D milestone inspections, HOA project management. Licensed CBC, 40+ years experience.",
+  title: "Balcony Reconstruction St. Pete | SB 4-D Compliance",
+  description: "Balcony reconstruction in St. Petersburg by Florida Construction Specialists. Downtown high-rise condos Isla del Sol waterfront towers.",
+  openGraph: {
+    title: "Balcony Reconstruction St. Pete | SB 4-D Compliance",
+    description: "Balcony reconstruction in St. Petersburg by Florida Construction Specialists. Downtown high-rise condos Isla del Sol waterfront towers.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

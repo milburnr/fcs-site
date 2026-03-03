@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-contractors-in-tampa/' },
   title: "Top Commercial Contractors Tampa 2024 | Guide",
-  description: "Find the best commercial contractors in Tampa Bay. Learn what makes a contractor top-rated, how to evaluate them, and what to expect from Tampa's leading builders.",
+  description: "Find the best commercial contractors in Tampa Bay. Learn what makes a contractor top-rated how to evaluate them.",
+  openGraph: {
+    title: "Top Commercial Contractors Tampa 2024 | Guide",
+    description: "Find the best commercial contractors in Tampa Bay. Learn what makes a contractor top-rated how to evaluate them.",
+    url: "https://floridaconstructionspecialists.com/top-commercial-contractors-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

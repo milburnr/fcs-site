@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-clearwater/' },
-  title: "Luxury Custom Homes Clearwater FL | Waterfront, Island Estates | FCS",
-  description: "Luxury custom home construction in Clearwater by Florida Construction Specialists. Island Estates waterfront, Belleair enclave, coastal design. Licensed CBC, 40+ years experience.",
+  title: "Luxury Custom Homes Clearwater | Waterfront",
+  description: "Luxury custom home construction in Clearwater by Florida Construction Specialists. Island Estates waterfront, Belleair enclave, coastal design.",
+  openGraph: {
+    title: "Luxury Custom Homes Clearwater | Waterfront",
+    description: "Luxury custom home construction in Clearwater by Florida Construction Specialists. Island Estates waterfront, Belleair enclave, coastal design.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

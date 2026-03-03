@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/' },
-  title: "Custom Home Libraries in Tampa | Luxury Book Rooms & Studies",
-  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years. Contact us today.",
+  title: "Custom Home Libraries in Tampa",
+  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Custom Home Libraries in Tampa",
+    description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

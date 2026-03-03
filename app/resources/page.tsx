@@ -22,9 +22,17 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/resources/' },
-  title: "Resources & Guides | Construction Knowledge Hub | FCS Tampa",
+  title: "Resources & Guides | Construction Knowledge Hub",
   description:
-    "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+    "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Resources & Guides | Construction Knowledge Hub",
+    description: "Resources & Guides Construction Knowledge Hub across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/resources/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const commercialResources = [

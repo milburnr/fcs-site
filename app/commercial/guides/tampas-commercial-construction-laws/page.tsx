@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-commercial-construction-laws/' },
   title: "Tampa&apos;s Commercial Construction Laws",
-  description: "Understand Tampa&apos;s Commercial Construction Laws, regulations, and building codes. Ensure your project meets all Tampa construction guidelines for safety.",
+  description: "Understand Tampa&apos;s Commercial Construction Laws, regulations, and building codes.",
+  openGraph: {
+    title: "Tampa&apos;s Commercial Construction Laws",
+    description: "Understand Tampa&apos;s Commercial Construction Laws, regulations, and building codes.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampas-commercial-construction-laws/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

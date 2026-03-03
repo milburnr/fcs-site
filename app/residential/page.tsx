@@ -11,9 +11,17 @@ import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/' },
-  title: "Lifetime Custom Homes Tampa | Luxury Home Builder | FCS",
+  title: "Lifetime Custom Homes Tampa | Luxury Home Builder",
   description:
     "Luxury custom homes Tampa Bay: waterfront estates, hurricane-resistant design, historic renovations. 28+ years experience. Schedule today.",
+  openGraph: {
+    title: "Lifetime Custom Homes Tampa | Luxury Home Builder",
+    description: "Luxury custom homes Tampa Bay: waterfront estates, hurricane-resistant design, historic renovations. 28+ years experience. Schedule today.",
+    url: "https://floridaconstructionspecialists.com/residential/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const residentialGalleryPhotos: GalleryPhoto[] = [

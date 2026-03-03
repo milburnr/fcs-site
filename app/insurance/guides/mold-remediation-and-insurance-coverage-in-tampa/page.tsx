@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/' },
   title: "Mold Remediation & Insurance Tampa | Commercial",
-  description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results. Request a free estimate.",
+  description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results.",
+  openGraph: {
+    title: "Mold Remediation & Insurance Tampa | Commercial",
+    description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,8 +12,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-building-practices-florida-green-construction/' },
-  title: "Sustainable Building Practices: Florida Green Construction",
+  title: "Sustainable Building Practices: Florida Green",
   description: "Expert sustainable building practices for Florida commercial construction. LEED-certified contractors delivering green buildings throughout Tampa Bay.",
+  openGraph: {
+    title: "Sustainable Building Practices: Florida Green",
+    description: "Expert sustainable building practices for Florida commercial construction. LEED-certified contractors delivering green buildings throughout Tampa Bay.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/sustainable-building-practices-florida-green-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

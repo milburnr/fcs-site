@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-lakeland/' },
-  title: "Balcony Reconstruction Lakeland FL | SB4-D Compliance, Rain Damage | FCS",
-  description: "Balcony reconstruction in Lakeland by Florida Construction Specialists. SB4-D milestone inspections, rain and moisture damage repair, concrete restoration for lake-front condominiums. Licensed CBC, 40+ years experience.",
+  title: "Balcony Reconstruction Lakeland | SB4-D Compliance",
+  description: "Balcony reconstruction in Lakeland by Florida Construction Specialists. SB4-D milestone inspections rain and moisture damage repair.",
+  openGraph: {
+    title: "Balcony Reconstruction Lakeland | SB4-D Compliance",
+    description: "Balcony reconstruction in Lakeland by Florida Construction Specialists. SB4-D milestone inspections rain and moisture damage repair.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

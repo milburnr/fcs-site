@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-safety-measures/' },
   title: "Balcony Safety Measures Florida | Compliance",
   description: "Essential balcony safety measures for Florida condos and apartments. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+  openGraph: {
+    title: "Balcony Safety Measures Florida | Compliance",
+    description: "Essential balcony safety measures for Florida condos and apartments. Professional guidance from FCS, licensed CBC. Call for a free consultation today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/balcony-safety-measures/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

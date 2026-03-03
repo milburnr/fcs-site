@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-construction-trends-in-florida/' },
   title: "Sustainable Construction Trends in Florida",
-  description: "Explore the latest sustainable construction trends shaping Florida's commercial building industry. From smart buildings to net-zero energy, discover what's next.",
+  description: "Explore the latest sustainable construction trends shaping Florida's commercial building industry. From smart buildings to net-zero energy.",
+  openGraph: {
+    title: "Sustainable Construction Trends in Florida",
+    description: "Explore the latest sustainable construction trends shaping Florida's commercial building industry. From smart buildings to net-zero energy.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/sustainable-construction-trends-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

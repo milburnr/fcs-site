@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-ruskin/' },
-  title: "Commercial Construction Ruskin FL | FCS Home Base | Licensed CBC",
-  description: "Commercial construction in Ruskin FL by Florida Construction Specialists — headquartered right here at 822 Bayview Dr. US 41 corridor retail, Sun City Center commercial, Apollo Beach waterfront. Request a project bid.",
+  title: "Commercial Construction Ruskin | FCS Home Base",
+  description: "Commercial construction in Ruskin FL by Florida Construction Specialists — headquartered right here at 822 Bayview Dr.",
+  openGraph: {
+    title: "Commercial Construction Ruskin | FCS Home Base",
+    description: "Commercial construction in Ruskin FL by Florida Construction Specialists — headquartered right here at 822 Bayview Dr.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

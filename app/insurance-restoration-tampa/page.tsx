@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-tampa/' },
-  title: "Insurance Restoration Tampa FL | Hurricane & Storm Damage | FCS",
-  description: "Insurance restoration contractor in Tampa. Hurricane damage, large-loss claims, carrier negotiation, commercial and residential restoration. Licensed CBC, 40+ years experience.",
+  title: "Insurance Restoration Tampa | Hurricane & Storm Damage",
+  description: "Insurance restoration contractor in Tampa. Hurricane damage, large-loss claims, carrier negotiation, commercial and residential restoration.",
+  openGraph: {
+    title: "Insurance Restoration Tampa | Hurricane & Storm Damage",
+    description: "Insurance restoration contractor in Tampa. Hurricane damage, large-loss claims, carrier negotiation, commercial and residential restoration.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

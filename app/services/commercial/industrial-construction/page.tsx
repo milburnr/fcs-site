@@ -10,8 +10,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
-  title: "Industrial Construction Tampa | Warehouse | FCS",
-  description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate.",
+  title: "Industrial Construction Tampa | Warehouse",
+  description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Industrial Construction Tampa | Warehouse",
+    description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/industrial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -352,7 +360,7 @@ export default function IndustrialConstructionPage() {
               <ul className="space-y-2">
                 <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
-                <li><Link href="/portfolio/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
+                <li><Link href="/gallery/" className="text-brand-green hover:underline">Project Portfolio</Link></li>
               </ul>
             </div>
           </div>

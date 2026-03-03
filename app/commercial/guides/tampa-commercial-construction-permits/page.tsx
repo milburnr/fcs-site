@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-permits/' },
   title: "Tampa Commercial Construction Permits | Guide",
   description: "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1982. Call (813) 420-7561 for a quote.",
+  openGraph: {
+    title: "Tampa Commercial Construction Permits | Guide",
+    description: "Complete guide to commercial construction permits in Tampa. Professional advice from FCS, serving clients since 1982. Call (813) 420-7561 for a quote.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-permits/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

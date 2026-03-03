@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-networking-events/' },
   title: "Tampa Construction Networking Events 2024-2025",
-  description: "Connect with industry leaders at commercial construction networking events. Learn from FCS, a licensed CBC with 40+ years experience. Request a free estimate.",
+  description: "Connect with industry leaders at commercial construction networking events. Learn from FCS, a licensed CBC with 40+ years experience.",
+  openGraph: {
+    title: "Tampa Construction Networking Events 2024-2025",
+    description: "Connect with industry leaders at commercial construction networking events. Learn from FCS, a licensed CBC with 40+ years experience.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-networking-events/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -12,6 +12,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-urban-development-in-tampa/' },
   title: "Sustainable Urban Development in Tampa",
   description: "Leading sustainable urban development in Tampa Bay with green building practices, LEED certification, and eco-friendly commercial construction solutions.",
+  openGraph: {
+    title: "Sustainable Urban Development in Tampa",
+    description: "Leading sustainable urban development in Tampa Bay with green building practices, LEED certification, and eco-friendly commercial construction solutions.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/sustainable-urban-development-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

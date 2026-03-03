@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-ruskin/' },
-  title: "Balcony Reconstruction Ruskin FL | Sun City Center SB4-D | FCS",
-  description: "Balcony reconstruction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center condo balconies, Apollo Beach waterfront properties, SB 4-D compliance. Licensed CBC.",
+  title: "Balcony Reconstruction Ruskin | Sun City Center SB4-D",
+  description: "Balcony reconstruction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center condo balconies.",
+  openGraph: {
+    title: "Balcony Reconstruction Ruskin | Sun City Center SB4-D",
+    description: "Balcony reconstruction in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center condo balconies.",
+    url: "https://floridaconstructionspecialists.com/balcony-reconstruction-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

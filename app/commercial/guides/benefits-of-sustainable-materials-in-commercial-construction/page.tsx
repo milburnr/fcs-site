@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/' },
-  title: "Benefits of Sustainable Materials in Commercial Construction",
-  description: "Discover the numerous advantages of using sustainable materials in commercial construction. Gain insights from Florida Construction Specialists in Tampa Bay.",
+  title: "Benefits of Sustainable Materials",
+  description: "Discover the numerous advantages of using sustainable materials in commercial construction.",
+  openGraph: {
+    title: "Benefits of Sustainable Materials",
+    description: "Discover the numerous advantages of using sustainable materials in commercial construction.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/benefits-of-sustainable-materials-in-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

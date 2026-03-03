@@ -10,8 +10,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
-  title: "Multi-Family Construction Tampa | Apartments & Condos | FCS",
-  description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  title: "Multi-Family Construction Tampa | Apartments & Condos",
+  description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Multi-Family Construction Tampa | Apartments & Condos",
+    description: "Multi-family Construction Apartments & Condos across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/multi-family/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

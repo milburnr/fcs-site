@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/renovating-vs-new-construction-florida/' },
   title: "Renovating vs New Construction Florida | Tampa",
-  description: "Should you renovate your existing commercial building or build new in Florida? Expert analysis of costs, timeline, permitting, and strategic factors from Tampa's leading contractor.",
+  description: "Should you renovate your existing commercial building or build new in Florida? Expert analysis of costs timeline permitting.",
+  openGraph: {
+    title: "Renovating vs New Construction Florida | Tampa",
+    description: "Should you renovate your existing commercial building or build new in Florida? Expert analysis of costs timeline permitting.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/renovating-vs-new-construction-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

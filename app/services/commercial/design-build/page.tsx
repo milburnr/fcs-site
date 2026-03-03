@@ -9,8 +9,16 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/design-build/' },
-  title: "Design-Build Construction Tampa | FCS",
-  description: "Design-build Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Request a free estimate today.",
+  title: "Design-Build Construction Tampa",
+  description: "Design-build Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Design-Build Construction Tampa",
+    description: "Design-build Construction across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/design-build/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

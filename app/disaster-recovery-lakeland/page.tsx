@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-lakeland/' },
-  title: "Disaster Recovery Lakeland FL | Tornado, Lightning, Storm Reconstruction | FCS",
-  description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage, severe storm reconstruction, lightning fire restoration, flood recovery. Licensed CBC, 40+ years experience.",
+  title: "Disaster Recovery Lakeland | Tornado",
+  description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage severe storm reconstruction lightning fire restoration.",
+  openGraph: {
+    title: "Disaster Recovery Lakeland | Tornado",
+    description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage severe storm reconstruction lightning fire restoration.",
+    url: "https://floridaconstructionspecialists.com/disaster-recovery-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

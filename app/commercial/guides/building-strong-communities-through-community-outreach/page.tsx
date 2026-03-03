@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/building-strong-communities-through-community-outreach/' },
   title: "Building Strong Communities Through Community Outreach",
-  description: "Florida Construction Specialists' commitment to Tampa Bay communities through charitable initiatives, local partnerships, workforce development, and social engagement.",
+  description: "Florida Construction Specialists' commitment to Tampa Bay communities through charitable initiatives local partnerships workforce development.",
+  openGraph: {
+    title: "Building Strong Communities Through Community Outreach",
+    description: "Florida Construction Specialists' commitment to Tampa Bay communities through charitable initiatives local partnerships workforce development.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/building-strong-communities-through-community-outreach/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

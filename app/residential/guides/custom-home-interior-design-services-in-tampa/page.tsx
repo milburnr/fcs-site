@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-interior-design-services-in-tampa/' },
   title: "Custom Home Interior Design Tampa | Luxury",
-  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results. Contact our team today.",
+  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results.",
+  openGraph: {
+    title: "Custom Home Interior Design Tampa | Luxury",
+    description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/custom-home-interior-design-services-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

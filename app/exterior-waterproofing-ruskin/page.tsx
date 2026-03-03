@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-ruskin/' },
-  title: "Exterior Waterproofing Ruskin FL | Coastal, Condo | FCS",
-  description: "Exterior waterproofing in Ruskin FL by Florida Construction Specialists — headquartered locally. Apollo Beach coastal protection, Sun City Center condo waterproofing, Tampa Bay humidity defense. Licensed CBC.",
+  title: "Exterior Waterproofing Ruskin FL | Coastal, Condo",
+  description: "Exterior waterproofing in Ruskin FL by Florida Construction Specialists — headquartered locally. Apollo Beach coastal protection.",
+  openGraph: {
+    title: "Exterior Waterproofing Ruskin FL | Coastal, Condo",
+    description: "Exterior waterproofing in Ruskin FL by Florida Construction Specialists — headquartered locally. Apollo Beach coastal protection.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/' },
   title: "Zero Accident Workplace Tampa | Safety Commitment",
   description: "Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  openGraph: {
+    title: "Zero Accident Workplace Tampa | Safety Commitment",
+    description: "Discover how top commercial contractors achieve zero-accident workplaces. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/a-zero-accident-workplace-in-tampas-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

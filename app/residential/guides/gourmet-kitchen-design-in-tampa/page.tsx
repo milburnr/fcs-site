@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/gourmet-kitchen-design-in-tampa/' },
-  title: "Gourmet Kitchen Design in Tampa | Luxury Custom Kitchens",
-  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982. Contact us today.",
+  title: "Gourmet Kitchen Design in Tampa",
+  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+  openGraph: {
+    title: "Gourmet Kitchen Design in Tampa",
+    description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/gourmet-kitchen-design-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

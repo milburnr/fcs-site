@@ -9,7 +9,15 @@ import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/water-damage-restoration-insurance-claims-in-tampa/' },
   title: "Water Damage Restoration Insurance Claims in Tampa",
-  description: "Navigating water damage restoration insurance claims in Tampa? Our expert team helps you maximize your claim for swift and seamless water damage restoration.",
+  description: "Navigating water damage restoration insurance claims in Tampa? Our expert team helps you maximize your claim for swift and seamless water damage.",
+  openGraph: {
+    title: "Water Damage Restoration Insurance Claims in Tampa",
+    description: "Navigating water damage restoration insurance claims in Tampa? Our expert team helps you maximize your claim for swift and seamless water damage.",
+    url: "https://floridaconstructionspecialists.com/water-damage-restoration-insurance-claims-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

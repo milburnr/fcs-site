@@ -28,9 +28,17 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/florida-sb4d-compliance-guide/' },
-  title: "Florida SB4-D Compliance Guide | Milestone | FCS",
+  title: "Florida SB4-D Compliance Guide | Milestone",
   description:
-    "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections, SIRS requirements, deadlines, and remediation planning for Tampa Bay.",
+    "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections SIRS requirements deadlines.",
+  openGraph: {
+    title: "Florida SB4-D Compliance Guide | Milestone",
+    description: "Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections SIRS requirements deadlines.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/florida-sb4d-compliance-guide/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const complianceDeadlines = [

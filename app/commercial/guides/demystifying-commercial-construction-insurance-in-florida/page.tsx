@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/demystifying-commercial-construction-insurance-in-florida/' },
-  title: "Demystifying Commercial Construction Insurance in Florida",
-  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1982. Read more.",
+  title: "Demystifying Commercial Construction Insurance",
+  description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1982.",
+  openGraph: {
+    title: "Demystifying Commercial Construction Insurance",
+    description: "Navigate the complexities of commercial construction insurance in Florida with confidence. Professional advice from FCS, serving clients since 1982.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/demystifying-commercial-construction-insurance-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

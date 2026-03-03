@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/commercial-residential-construction-in-florida/' },
   title: "Commercial Residential Construction in Florida",
-  description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CBC. Request a free estimate today.",
+  description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CBC.",
+  openGraph: {
+    title: "Commercial Residential Construction in Florida",
+    description: "Find commercial residential construction in Florida with Tampa&apos;s top contractor. Insights from FCS, a trusted licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/commercial-residential-construction-in-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

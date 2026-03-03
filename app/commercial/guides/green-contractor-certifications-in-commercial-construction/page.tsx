@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/green-contractor-certifications-in-commercial-construction/' },
-  title: "Green Contractor Certifications in Commercial Construction",
+  title: "Green Contractor Certifications",
   description: "Discover green contractor certifications in commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Read more.",
+  openGraph: {
+    title: "Green Contractor Certifications",
+    description: "Discover green contractor certifications in commercial construction with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Read more.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/green-contractor-certifications-in-commercial-construction/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

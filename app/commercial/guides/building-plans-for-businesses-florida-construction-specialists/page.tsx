@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/building-plans-for-businesses-florida-construction-specialists/' },
-  title: "Building Plans for Businesses Tampa | FCS",
+  title: "Building Plans for Businesses Tampa",
   description: "Our Tampa-based construction specialists provide tailored building plans, business-specific designs, and customized solutions to meet your unique needs.",
+  openGraph: {
+    title: "Building Plans for Businesses Tampa",
+    description: "Our Tampa-based construction specialists provide tailored building plans, business-specific designs, and customized solutions to meet your unique needs.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/building-plans-for-businesses-florida-construction-specialists/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

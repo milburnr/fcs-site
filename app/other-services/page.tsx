@@ -10,9 +10,17 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/other-services/' },
-  title: "Specialty Construction Services Tampa Bay | FCS",
+  title: "Specialty Construction Services Tampa Bay",
   description: "Specialized construction services in Tampa Bay: balcony reconstruction, waterproofing, condo assessments, envelope repairs. Request a quote.",
   robots: { index: false, follow: true },
+  openGraph: {
+    title: "Specialty Construction Services Tampa Bay",
+    description: "Specialized construction services in Tampa Bay: balcony reconstruction, waterproofing, condo assessments, envelope repairs. Request a quote.",
+    url: "https://floridaconstructionspecialists.com/other-services/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

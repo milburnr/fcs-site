@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/building-hurricane-safe-structures-florida/' },
   title: "Hurricane-Safe Structures Florida | Guide",
-  description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design, impact glazing, and storm-proof construction from Tampa Bay contractors.",
+  description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design impact glazing.",
+  openGraph: {
+    title: "Hurricane-Safe Structures Florida | Guide",
+    description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design impact glazing.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/building-hurricane-safe-structures-florida/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
@@ -43,7 +51,7 @@ const relatedArticles = [
   },
   {
     "title": "Insurance Arbitration and Appraisal",
-    "href": "/insurance-arbitration-appraisal/",
+    "href": "/insurance/guides/insurance-arbitration-appraisal/",
     "description": "When and how to use appraisal and arbitration to resolve insurance disputes."
   },
   {

@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa-2/' },
   title: "Sustainable Commercial Construction in Tampa",
-  description: "Are you looking for sustainable and eco-friendly construction services in Tampa? Florida Construction Specialists specialize in building with wellness in mind.",
+  description: "Looking for sustainable and eco-friendly construction services in Tampa? Florida Construction Specialists specialize in building with wellness in mind.",
+  openGraph: {
+    title: "Sustainable Commercial Construction in Tampa",
+    description: "Looking for sustainable and eco-friendly construction services in Tampa? Florida Construction Specialists specialize in building with wellness in mind.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/sustainable-commercial-construction-in-tampa-2/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-st-petersburg/' },
-  title: "Multi-Family Construction St. Petersburg FL | Apartments, Condos, Townhomes | FCS",
-  description: "Multi-family construction in St. Petersburg by Florida Construction Specialists. Apartments, condominiums, townhomes on Florida's densest peninsula. Licensed CBC, 40+ years experience. Request a project bid.",
+  title: "Multi-Family Construction St. Pete | Apartments",
+  description: "Multi-family construction in St. Petersburg by Florida Construction Specialists. Apartments, condominiums, townhomes on Florida's densest peninsula.",
+  openGraph: {
+    title: "Multi-Family Construction St. Pete | Apartments",
+    description: "Multi-family construction in St. Petersburg by Florida Construction Specialists. Apartments, condominiums, townhomes on Florida's densest peninsula.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

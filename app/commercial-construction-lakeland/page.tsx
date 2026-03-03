@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-lakeland/' },
-  title: "Commercial Construction Lakeland FL | I-4 Corridor, Industrial, Office | FCS",
-  description: "Commercial construction in Lakeland by Florida Construction Specialists. Distribution centers, corporate offices, medical facilities along the I-4 corridor. Licensed CBC, 40+ years experience. Request a project bid.",
+  title: "Commercial Construction Lakeland | I-4 Corridor",
+  description: "Commercial construction in Lakeland by Florida Construction Specialists. Distribution centers corporate offices medical facilities along the I-4 corridor.",
+  openGraph: {
+    title: "Commercial Construction Lakeland | I-4 Corridor",
+    description: "Commercial construction in Lakeland by Florida Construction Specialists. Distribution centers corporate offices medical facilities along the I-4 corridor.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

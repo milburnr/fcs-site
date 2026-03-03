@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/' },
   title: "Master Your Post-Construction Checklist",
-  description: "Complete post-construction checklist for Florida commercial projects. Expert analysis from Florida Construction Specialists. Call (813) 420-7561 for a quote.'s leading contractor.",
+  description: "Complete post-construction checklist for Florida commercial projects. Expert analysis from Florida Construction Specialists.",
+  openGraph: {
+    title: "Master Your Post-Construction Checklist",
+    description: "Complete post-construction checklist for Florida commercial projects. Expert analysis from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-mastering-your-post-construction-checklist/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

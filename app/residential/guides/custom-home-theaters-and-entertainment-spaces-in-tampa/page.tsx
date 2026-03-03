@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/' },
   title: "Custom Home Theaters and Entertainment Spaces in Tampa",
-  description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout. Request a free estimate.",
+  description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout.",
+  openGraph: {
+    title: "Custom Home Theaters and Entertainment Spaces in Tampa",
+    description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout.",
+    url: "https://floridaconstructionspecialists.com/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

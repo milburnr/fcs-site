@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/understanding-tampa-insurance-restoration-claims/' },
   title: "Understanding Tampa Insurance Restoration Claims",
-  description: "Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CBC. Request a free estimate today.",
+  description: "Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CBC.",
+  openGraph: {
+    title: "Understanding Tampa Insurance Restoration Claims",
+    description: "Complete guide to understanding insurance restoration claims in. Expert tips from Florida Construction Specialists, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/understanding-tampa-insurance-restoration-claims/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

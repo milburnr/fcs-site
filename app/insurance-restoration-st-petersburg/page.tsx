@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/' },
-  title: "Insurance Restoration St. Petersburg FL | Storm Damage, Large-Loss Claims | FCS",
-  description: "Insurance restoration in St. Petersburg by Florida Construction Specialists. Hurricane damage, large-loss commercial claims, carrier documentation on Florida's most exposed peninsula. Licensed CBC, 40+ years experience. Request a claims consultation.",
+  title: "Insurance Restoration St. Pete | Storm Damage",
+  description: "Insurance restoration in St. Petersburg by Florida Construction Specialists. Hurricane damage large-loss commercial claims.",
+  openGraph: {
+    title: "Insurance Restoration St. Pete | Storm Damage",
+    description: "Insurance restoration in St. Petersburg by Florida Construction Specialists. Hurricane damage large-loss commercial claims.",
+    url: "https://floridaconstructionspecialists.com/insurance-restoration-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

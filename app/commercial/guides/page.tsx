@@ -8,8 +8,16 @@ import classificationData from "@/seo/article-classification.json";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/' },
-  title: "Commercial Construction Guides | Florida Construction Specialists",
+  title: "Commercial Construction Guides",
   description: "Expert commercial construction guides for Tampa Bay. Browse our library of 140+ articles on building, renovation, design-build, and project management.",
+  openGraph: {
+    title: "Commercial Construction Guides",
+    description: "Expert commercial construction guides for Tampa Bay. Browse our library of 140+ articles on building, renovation, design-build, and project management.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

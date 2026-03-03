@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-lakeland/' },
-  title: "Multi-Family Construction Lakeland FL | Apartments, Workforce Housing | FCS",
-  description: "Multi-family construction in Lakeland by Florida Construction Specialists. Apartments, workforce housing, lake-adjacent communities, senior living. Licensed CBC, 40+ years experience. Request a project consultation.",
+  title: "Multi-Family Construction Lakeland | Apartments",
+  description: "Multi-family construction in Lakeland by Florida Construction Specialists. Apartments, workforce housing, lake-adjacent communities, senior living.",
+  openGraph: {
+    title: "Multi-Family Construction Lakeland | Apartments",
+    description: "Multi-family construction in Lakeland by Florida Construction Specialists. Apartments, workforce housing, lake-adjacent communities, senior living.",
+    url: "https://floridaconstructionspecialists.com/multi-family-construction-lakeland/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

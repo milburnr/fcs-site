@@ -9,9 +9,9 @@ interface LocalBusinessSchemaProps {
 export function LocalBusinessSchema({ city, service, schemaType = "GeneralContractor" }: LocalBusinessSchemaProps) {
   const schema: Record<string, unknown> = {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "HomeAndConstructionBusiness", schemaType],
+    "@type": schemaType,
     "name": BUSINESS_INFO.name,
-    "image": "https://floridaconstructionspecialists.com/logo.jpg",
+    "image": "https://floridaconstructionspecialists.com/og-image.jpg",
     "telephone": "+1-813-420-7561",
     "email": BUSINESS_INFO.email,
     "url": "https://floridaconstructionspecialists.com",
@@ -34,20 +34,8 @@ export function LocalBusinessSchema({ city, service, schemaType = "GeneralContra
       "opens": "08:00",
       "closes": "16:00",
     },
-    "hasCredential": [
-      {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "license",
-        "name": "Florida Certified Building Contractor License",
-        "identifier": BUSINESS_INFO.licenseNumber,
-        "recognizedBy": {
-          "@type": "Organization",
-          "name": "Florida Department of Business and Professional Regulation",
-        },
-      },
-    ],
     "foundingDate": BUSINESS_INFO.foundingDate,
-    "slogan": "Prime Contractor for Large-Scale Commercial & Residential Construction",
+    "description": "Prime contractor for large-scale commercial and residential construction in Tampa Bay, Florida. Licensed CBC, 40+ years experience.",
   };
 
   const containedInPlace = { "@type": "State", "name": "Florida" };
@@ -125,8 +113,11 @@ export function ServiceSchema({ serviceName, serviceDescription, city, serviceCa
       "@type": "OfferCatalog",
       "name": `${serviceName} Services`,
       "itemListElement": serviceCategories.map(cat => ({
-        "@type": "OfferCatalog",
-        "name": cat,
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": cat,
+        },
       })),
     };
   }

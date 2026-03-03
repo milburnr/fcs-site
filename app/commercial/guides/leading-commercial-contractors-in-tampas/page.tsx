@@ -11,8 +11,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/leading-commercial-contractors-in-tampas/' },
-  title: "Leading Commercial Contractors in Tampa",
-  description: "Looking for a reliable commercial contractors in Tampa? Choose Florida Construction Specialists - the leading experts in development projects for commercial ...",
+  title: "Guide: Leading Commercial Contractors in Tampa",
+  description: "Looking for reliable commercial contractors in Tampa? Choose Florida Construction Specialists - the leading experts in development projects.",
+  openGraph: {
+    title: "Guide: Leading Commercial Contractors in Tampa",
+    description: "Looking for reliable commercial contractors in Tampa? Choose Florida Construction Specialists - the leading experts in development projects.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/leading-commercial-contractors-in-tampas/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -10,8 +10,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/commercial-additions/' },
-  title: "Commercial Additions Tampa | Building Expansions | FCS",
-  description: "Commercial Additions Building Expansions across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Get a free quote.",
+  title: "Commercial Additions Tampa | Building Expansions",
+  description: "Commercial Additions Building Expansions across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Commercial Additions Tampa | Building Expansions",
+    description: "Commercial Additions Building Expansions across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/commercial-additions/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

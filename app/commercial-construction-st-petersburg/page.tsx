@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
-  title: "Commercial Construction St. Petersburg FL | Office, Retail, Waterfront | FCS",
-  description: "Commercial construction in St. Petersburg by Florida Construction Specialists. Design-build, waterfront development, office buildouts, Gateway corridor projects. Licensed CBC, 40+ years experience. Request a project bid.",
+  title: "Commercial Construction St. Pete | Office",
+  description: "Commercial construction in St. Petersburg by Florida Construction Specialists. Design-build waterfront development office buildouts.",
+  openGraph: {
+    title: "Commercial Construction St. Pete | Office",
+    description: "Commercial construction in St. Petersburg by Florida Construction Specialists. Design-build waterfront development office buildouts.",
+    url: "https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

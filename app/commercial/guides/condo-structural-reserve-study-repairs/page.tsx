@@ -13,7 +13,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-structural-reserve-study-repairs/' },
   title: "Condo Reserve Study Repairs | SIRS | FCS Tampa",
-  description: "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CBC. Contact our team today.",
+  description: "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CBC.",
+  openGraph: {
+    title: "Condo Reserve Study Repairs | SIRS | FCS Tampa",
+    description: "Expert planning and execution of major condo capital projects identified in Structural. Professional guidance from FCS, licensed CBC.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/condo-structural-reserve-study-repairs/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const capitalProjectTypes = [

@@ -11,8 +11,16 @@ import { CodeReference } from "@/components/CodeReference";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/' },
-  title: "Exterior Waterproofing Clearwater FL | Gulf-Front, Barrier Island | FCS",
-  description: "Exterior waterproofing in Clearwater by Florida Construction Specialists. Gulf-front moisture protection, salt spray barriers, barrier island flood risk solutions, beach property waterproofing. Licensed CBC, 40+ years experience.",
+  title: "Exterior Waterproofing Clearwater | Gulf-Front",
+  description: "Exterior waterproofing in Clearwater by Florida Construction Specialists. Gulf-front moisture protection salt spray barriers.",
+  openGraph: {
+    title: "Exterior Waterproofing Clearwater | Gulf-Front",
+    description: "Exterior waterproofing in Clearwater by Florida Construction Specialists. Gulf-front moisture protection salt spray barriers.",
+    url: "https://floridaconstructionspecialists.com/exterior-waterproofing-clearwater/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

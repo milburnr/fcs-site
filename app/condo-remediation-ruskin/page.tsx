@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-ruskin/' },
-  title: "Condo Remediation Ruskin FL | Sun City Center SB4-D | FCS",
-  description: "Condo remediation and SB4-D compliance in Ruskin FL by Florida Construction Specialists — headquartered locally. Sun City Center milestone inspections, Apollo Beach coastal condos, structural repairs. Licensed CBC.",
+  title: "Condo Remediation Ruskin FL | Sun City Center SB4-D",
+  description: "Condo remediation and SB4-D compliance in Ruskin FL by Florida Construction Specialists — headquartered locally.",
+  openGraph: {
+    title: "Condo Remediation Ruskin FL | Sun City Center SB4-D",
+    description: "Condo remediation and SB4-D compliance in Ruskin FL by Florida Construction Specialists — headquartered locally.",
+    url: "https://floridaconstructionspecialists.com/condo-remediation-ruskin/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

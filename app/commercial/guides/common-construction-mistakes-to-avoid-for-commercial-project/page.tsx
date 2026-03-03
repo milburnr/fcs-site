@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/' },
   title: "Construction Mistakes to Avoid | Commercial Tampa",
   description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today.",
+  openGraph: {
+    title: "Construction Mistakes to Avoid | Commercial Tampa",
+    description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

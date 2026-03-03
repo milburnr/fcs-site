@@ -13,6 +13,14 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/decoding-value-engineering-florida-construction-expertise/' },
   title: "Value Engineering Florida | Construction Tampa",
   description: "Deep dive into value engineering methodology for commercial construction. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  openGraph: {
+    title: "Value Engineering Florida | Construction Tampa",
+    description: "Deep dive into value engineering methodology for commercial construction. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/decoding-value-engineering-florida-construction-expertise/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

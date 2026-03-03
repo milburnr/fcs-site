@@ -10,8 +10,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/' },
-  title: "Luxury Custom Homes Bradenton FL | Lakewood Ranch, Anna Maria | FCS",
-  description: "Luxury custom home construction in Bradenton by Florida Construction Specialists. Lakewood Ranch estates, Anna Maria Island builds, riverfront homes, Country Club East. Licensed CBC, 40+ years experience.",
+  title: "Luxury Custom Homes Bradenton | Lakewood Ranch",
+  description: "Luxury custom home construction in Bradenton by Florida Construction Specialists. Lakewood Ranch estates Anna Maria Island builds riverfront homes.",
+  openGraph: {
+    title: "Luxury Custom Homes Bradenton | Lakewood Ranch",
+    description: "Luxury custom home construction in Bradenton by Florida Construction Specialists. Lakewood Ranch estates Anna Maria Island builds riverfront homes.",
+    url: "https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

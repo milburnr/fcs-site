@@ -11,8 +11,16 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb4d-compliance/costs/' },
-  title: "Condo Remediation Cost Guide | SB4-D Compliance Costs | FCS",
-  description: "Realistic condo remediation cost ranges for SB4-D compliance. Special assessments $10K-$150K+ per unit, balcony remediation $500K-$5M, concrete restoration $1M-$15M. Honest guidance with contingency recommendations.",
+  title: "Condo Remediation Cost Guide | SB4-D Compliance Costs",
+  description: "Realistic condo remediation cost ranges for SB4-D compliance. Special assessments $10K-$150K+ per unit balcony remediation $500K-$5M.",
+  openGraph: {
+    title: "Condo Remediation Cost Guide | SB4-D Compliance Costs",
+    description: "Realistic condo remediation cost ranges for SB4-D compliance. Special assessments $10K-$150K+ per unit balcony remediation $500K-$5M.",
+    url: "https://floridaconstructionspecialists.com/sb4d-compliance/costs/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const faqs = [

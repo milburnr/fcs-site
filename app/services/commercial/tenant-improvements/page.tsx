@@ -9,8 +9,16 @@ import { FAQ } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/' },
-  title: "Tenant Improvements Tampa | Commercial Buildouts & TI | FCS",
-  description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  title: "Tenant Improvements Tampa | Commercial Buildouts & TI",
+  description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  openGraph: {
+    title: "Tenant Improvements Tampa | Commercial Buildouts & TI",
+    description: "Tenant Improvements Commercial Buildouts & Ti across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    url: "https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

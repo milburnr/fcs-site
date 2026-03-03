@@ -10,8 +10,16 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-technology-in-tampa/' },
-  title: "Commercial Construction Technology Tampa | FCS",
-  description: "Explore cutting-edge construction technology transforming Tampa's commercial building industry. BIM, drones, prefab, smart buildings & more from Tampa's tech-forward contractor.",
+  title: "Commercial Construction Technology Tampa",
+  description: "Explore cutting-edge construction technology transforming Tampa's commercial building industry. BIM drones prefab.",
+  openGraph: {
+    title: "Commercial Construction Technology Tampa",
+    description: "Explore cutting-edge construction technology transforming Tampa's commercial building industry. BIM drones prefab.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-technology-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

@@ -9,6 +9,13 @@ export const metadata: Metadata = {
   title: `Privacy Policy | ${BUSINESS_INFO.name}`,
   description: `Privacy Policy for ${BUSINESS_INFO.name}. Learn how we collect, use, and protect your personal information.`,
   robots: "noindex, follow",
+  openGraph: {
+    title: "Privacy Policy | Florida Construction Specialists",
+    url: "https://floridaconstructionspecialists.com/privacy/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists" }],
+  },
 };
 
 const breadcrumbItems = [

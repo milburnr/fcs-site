@@ -8,8 +8,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/designing-your-dream-home-in-tampa/' },
-  title: "Designing Your Dream Home in Tampa | Custom Home Design",
-  description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years. Contact our team today.",
+  title: "Designing Your Dream Home in Tampa",
+  description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
+  openGraph: {
+    title: "Designing Your Dream Home in Tampa",
+    description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/designing-your-dream-home-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

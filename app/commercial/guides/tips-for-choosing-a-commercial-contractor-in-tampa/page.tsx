@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/' },
   title: "Tips for Choosing a Commercial Contractor in Tampa",
-  description: "Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years. Request a free estimate.",
+  description: "Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years.",
+  openGraph: {
+    title: "Tips for Choosing a Commercial Contractor in Tampa",
+    description: "Tips for Choosing a Commercial Contractor in Tampa: turnkey construction solutions for commercial properties. CBC1262722, 40+ years.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

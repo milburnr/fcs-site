@@ -11,7 +11,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/residential-insurance-restoration-services-in-tampa/' },
   title: "Residential Insurance Restoration Tampa | Homes",
-  description: "Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support for homeowners.",
+  description: "Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support.",
+  openGraph: {
+    title: "Residential Insurance Restoration Tampa | Homes",
+    description: "Expert residential insurance restoration services in Tampa Bay. Hurricane, water, and fire damage restoration with full insurance claim support.",
+    url: "https://floridaconstructionspecialists.com/insurance/guides/residential-insurance-restoration-services-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

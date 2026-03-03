@@ -8,8 +8,16 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
-  title: "Flood Remediation Tampa | Commercial Damage | FCS",
-  description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CBC contractor. Call (813) 420-7561 for a quote.",
+  title: "Flood Remediation Tampa | Commercial Damage",
+  description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CBC contractor.",
+  openGraph: {
+    title: "Flood Remediation Tampa | Commercial Damage",
+    description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CBC contractor.",
+    url: "https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

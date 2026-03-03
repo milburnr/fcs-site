@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-safety-standards/' },
   title: "Tampa Commercial Construction Safety Standards",
-  description: "Ensure a secure commercial construction process in with our top-notch safety standards. Expert insights from Florida Construction Specialists. Contact us today.",
+  description: "Ensure a secure commercial construction process in with our top-notch safety standards. Expert insights from Florida Construction Specialists.",
+  openGraph: {
+    title: "Tampa Commercial Construction Safety Standards",
+    description: "Ensure a secure commercial construction process in with our top-notch safety standards. Expert insights from Florida Construction Specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-safety-standards/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

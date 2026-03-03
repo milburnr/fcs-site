@@ -10,9 +10,17 @@ import { FadeIn } from "@/components/AnimatedElements";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/contact/' },
-  title: "Contact Florida Construction Specialists | Tampa Bay General Contractor",
+  title: "Contact Florida Construction Specialists",
   description:
-    "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience, $500K-$25M+ projects. Schedule a consultation today.",
+    "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience, $500K-$25M+ projects.",
+  openGraph: {
+    title: "Contact Florida Construction Specialists",
+    description: "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience, $500K-$25M+ projects.",
+    url: "https://floridaconstructionspecialists.com/contact/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

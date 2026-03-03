@@ -12,7 +12,15 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/unlocking-commercial-construction-permits/' },
   title: "Unlocking Commercial Construction Permits",
-  description: "Gain expert insights into understanding commercial construction permits from Florida&apos;s seasoned Tampa specialists. Navigate the permit process with ease.",
+  description: "Gain expert insights into understanding commercial construction permits from Florida&apos;s seasoned Tampa specialists.",
+  openGraph: {
+    title: "Unlocking Commercial Construction Permits",
+    description: "Gain expert insights into understanding commercial construction permits from Florida&apos;s seasoned Tampa specialists.",
+    url: "https://floridaconstructionspecialists.com/commercial/guides/unlocking-commercial-construction-permits/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [

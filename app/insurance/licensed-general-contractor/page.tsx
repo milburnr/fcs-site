@@ -19,8 +19,16 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/' },
-  title: "Licensed General Contractor | Insurance Restoration | FCS Tampa",
-  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982. Contact us today.",
+  title: "Licensed General Contractor | Insurance Restoration",
+  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+  openGraph: {
+    title: "Licensed General Contractor | Insurance Restoration",
+    description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+    url: "https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/",
+    type: "website",
+    siteName: "Florida Construction Specialists",
+    images: [{ url: "https://floridaconstructionspecialists.com/og-image.jpg", width: 1200, height: 630, alt: "Florida Construction Specialists - Tampa Bay Commercial Construction" }],
+  },
 };
 
 const breadcrumbItems = [
