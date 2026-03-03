@@ -80,10 +80,11 @@ interface OptimizedImageProps {
 
 /**
  * OptimizedImage Component
- * 
+ *
  * Renders optimized images with AVIF/WebP/JPG fallbacks and responsive srcsets.
  * Automatically maps old wp-content paths to optimized versions.
- * 
+ * Images served via Netlify proxy to Cloudflare R2.
+ *
  * Usage:
  * <OptimizedImage src="/wp-content/uploads/2023/12/custom-home-1.png" />
  * <OptimizedImage src="/wp-content/uploads/2023/12/custom-home-1.png" alt="Custom override" priority />
@@ -120,16 +121,16 @@ export function OptimizedImage({
 
   // Use metadata alt if no override provided
   const finalAlt = alt || imageEntry.altText || "";
-  
+
   // Build srcsets for each format using helper
   const largeAvif = getSizeVariant(imageEntry, "large", "avif");
   const mediumAvif = getSizeVariant(imageEntry, "medium", "avif");
   const smallAvif = getSizeVariant(imageEntry, "small", "avif");
-  
+
   const largeWebp = getSizeVariant(imageEntry, "large", "webp");
   const mediumWebp = getSizeVariant(imageEntry, "medium", "webp");
   const smallWebp = getSizeVariant(imageEntry, "small", "webp");
-  
+
   const largeJpg = getSizeVariant(imageEntry, "large", "jpg");
   const mediumJpg = getSizeVariant(imageEntry, "medium", "jpg");
   const smallJpg = getSizeVariant(imageEntry, "small", "jpg");
@@ -140,14 +141,14 @@ export function OptimizedImage({
     smallAvif && `${smallAvif.path} ${smallAvif.width}w`,
   ].filter(Boolean);
   const avifSrcset = avifParts.join(", ");
-  
+
   const webpParts = [
     largeWebp && `${largeWebp.path} ${largeWebp.width}w`,
     mediumWebp && `${mediumWebp.path} ${mediumWebp.width}w`,
     smallWebp && `${smallWebp.path} ${smallWebp.width}w`,
   ].filter(Boolean);
   const webpSrcset = webpParts.join(", ");
-  
+
   const jpgParts = [
     largeJpg && `${largeJpg.path} ${largeJpg.width}w`,
     mediumJpg && `${mediumJpg.path} ${mediumJpg.width}w`,
@@ -157,7 +158,7 @@ export function OptimizedImage({
 
   // Fallback to medium jpg
   const fallbackSrc = mediumJpg?.path || largeJpg?.path || src;
-  
+
   // Get dimensions from medium size
   const imgWidth = width || mediumJpg?.width;
   const imgHeight = height || mediumJpg?.height;
@@ -193,7 +194,7 @@ export function OptimizedImage({
 export function getOptimizedBgUrl(src: string, size: "large" | "medium" | "small" = "large"): string {
   const imageEntry = lookupImage(src);
   if (!imageEntry) return src;
-  
+
   // Return webp for best balance of support and compression
   const webp = getSizeVariant(imageEntry, size, "webp");
   const jpg = getSizeVariant(imageEntry, size, "jpg");
