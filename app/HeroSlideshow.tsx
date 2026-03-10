@@ -22,9 +22,10 @@ export function HeroSlideshow() {
   const [currentSlide, setCurrentSlide] = useState(0); // 0=slide1(server), 1=slide2, 2=slide3
   const [loaded, setLoaded] = useState(false);
 
-  // Defer slides 2-3 until after first paint
+  // Defer slides 2-3 until well after LCP hero image loads
+  // 100ms was too aggressive — slide images (213KB) were stealing bandwidth from hero LCP
   useEffect(() => {
-    const timer = setTimeout(() => setLoaded(true), 100);
+    const timer = setTimeout(() => setLoaded(true), 3500);
     return () => clearTimeout(timer);
   }, []);
 

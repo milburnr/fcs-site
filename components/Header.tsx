@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import Image from "next/image";
+
 import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown, Phone } from "lucide-react";
 import { BUSINESS_INFO, NAV_ITEMS } from "@/lib/constants";
@@ -33,13 +33,15 @@ export default function Header() {
         <div className="container-custom flex items-center justify-between py-2">
           {/* Logo */}
           <Link href="/" className="flex items-center group">
-            <Image
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
               src="/logo.jpg"
               alt={BUSINESS_INFO.name}
               width={150}
               height={70}
               className="h-14 w-auto transition-transform duration-300 group-hover:scale-105"
-              priority
+              loading="eager"
+              decoding="async"
             />
           </Link>
 

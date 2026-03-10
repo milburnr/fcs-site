@@ -1,7 +1,5 @@
-# Netlify Early Hints (103) - browser starts fetching hero before HTML body arrives
-# Same-origin from public/hero/ = fastest possible CDN delivery
-/
-  Link: </hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp>; rel=preload; as=image; type=image/webp
+# No Early Hints hero preload — the <link rel="preload" imageSrcSet> in HTML handles it.
+# Early Hints was preloading small.webp while srcset picks medium/large, causing double download.
 
 # Long-lived cache for hashed static assets
 /_next/static/*
