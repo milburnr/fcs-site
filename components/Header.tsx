@@ -48,8 +48,8 @@ export default function Header() {
             href={`tel:${BUSINESS_INFO.phoneRaw}`}
             className="relative inline-flex items-center gap-2 px-5 py-2.5 overflow-hidden font-bold rounded-full transition-all duration-300 group"
             style={{
-              background: 'linear-gradient(135deg, #daa520 0%, #b8860b 100%)',
-              boxShadow: '0 4px 15px rgba(218, 165, 32, 0.3)',
+              background: 'linear-gradient(135deg, #8B6914 0%, #7A5C12 100%)',
+              boxShadow: '0 4px 15px rgba(139, 105, 20, 0.3)',
             }}
           >
             {/* Shine effect */}
@@ -64,7 +64,7 @@ export default function Header() {
       <nav 
         className="relative overflow-visible"
         style={{
-          background: 'linear-gradient(135deg, #daa520 0%, #cd9b1d 50%, #b8860b 100%)',
+          background: 'linear-gradient(135deg, #8B6914 0%, #7F6213 50%, #7A5C12 100%)',
         }}
       >
         {/* Subtle top highlight */}

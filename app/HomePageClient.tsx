@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { Phone, Shield, Award, CheckCircle, ArrowRight } from "lucide-react";
-import { useState, useEffect } from "react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { LocalBusinessSchema, OrganizationSchema } from "@/components/Schema";
 import { PathwayCard } from "@/components/PathwayCard";
@@ -12,136 +11,11 @@ import { PARALLAX_IMAGES } from "@/lib/imageMapping";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { WordGridParallax } from "@/components/WordGridParallax";
 
-// Hero slideshow images with responsive srcsets
-const heroImages = [
-  {
-    small: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp",
-    medium: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp",
-    large: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp",
-    xl: "/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp",
-  },
-  {
-    small: "/images/custom-home-construction-2/custom-home-construction-2-small.webp",
-    medium: "/images/custom-home-construction-2/custom-home-construction-2-medium.webp",
-    large: "/images/custom-home-construction-2/custom-home-construction-2-large.webp",
-    xl: "/images/custom-home-construction-2/custom-home-construction-2-xl.webp",
-  },
-  {
-    small: "/images/custom-home-2/custom-home-2-small.webp",
-    medium: "/images/custom-home-2/custom-home-2-medium.webp",
-    large: "/images/custom-home-2/custom-home-2-large.webp",
-    xl: "/images/custom-home-2/custom-home-2-large.webp", // no xl variant
-  },
-];
-
 export function HomePageClient() {
-  const [currentSlide, setCurrentSlide] = useState(0);
-  const [slidesLoaded, setSlidesLoaded] = useState(false);
-
-  // Defer slideshow images until after first paint
-  useEffect(() => {
-    const timer = setTimeout(() => setSlidesLoaded(true), 100);
-    return () => clearTimeout(timer);
-  }, []);
-
-  // Ken Burns slideshow effect
-  useEffect(() => {
-    if (!slidesLoaded) return;
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % heroImages.length);
-    }, 6000);
-    return () => clearInterval(interval);
-  }, [slidesLoaded]);
-
   return (
     <>
       <LocalBusinessSchema />
       <OrganizationSchema />
-
-      {/* Trust Bar - Shared Credentials */}
-      <section className="bg-brand-green-dark py-3">
-        <div className="container-custom">
-          <div className="flex flex-wrap items-center justify-center gap-6 text-white text-sm md:text-base">
-            <div className="flex items-center gap-2">
-              <Shield className="h-5 w-5 text-brand-gold" />
-              <span>Licensed: {BUSINESS_INFO.licenseNumber}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <Award className="h-5 w-5 text-brand-gold" />
-              <span>Financing & Grant Assistance</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="h-5 w-5 text-brand-gold" />
-              <span>{BUSINESS_INFO.yearsInBusiness} Years Experience</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <CheckCircle className="h-5 w-5 text-brand-gold" />
-              <span>{BUSINESS_INFO.projectsCompleted} Projects Completed</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Hero Section with Ken Burns Slideshow */}
-      <section className="relative h-[60vh] overflow-hidden">
-        {/* First image: always in DOM for LCP, with responsive srcset */}
-        <div
-          className={`absolute inset-0 transition-opacity duration-1000 ${
-            currentSlide === 0 ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <div className="absolute inset-0 animate-ken-burns">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src={heroImages[0].medium}
-              srcSet={`${heroImages[0].small} 640w, ${heroImages[0].medium} 960w, ${heroImages[0].large} 1280w, ${heroImages[0].xl} 1920w`}
-              sizes="100vw"
-              alt="Florida Construction Specialists - Tampa Bay commercial construction"
-              className="absolute inset-0 w-full h-full object-cover"
-              fetchPriority="high"
-              loading="eager"
-              decoding="async"
-            />
-          </div>
-        </div>
-        {/* Remaining slides: deferred until after first paint */}
-        {slidesLoaded && heroImages.slice(1).map((image, i) => (
-          <div
-            key={image.large}
-            className={`absolute inset-0 transition-opacity duration-1000 ${
-              i + 1 === currentSlide ? "opacity-100" : "opacity-0"
-            }`}
-          >
-            <div className="absolute inset-0 animate-ken-burns">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={image.medium}
-                srcSet={`${image.small} 640w, ${image.medium} 960w, ${image.large} 1280w, ${image.xl} 1920w`}
-                sizes="100vw"
-                alt="Florida Construction Specialists - Tampa Bay commercial construction"
-                className="absolute inset-0 w-full h-full object-cover"
-                loading="lazy"
-                decoding="async"
-              />
-            </div>
-          </div>
-        ))}
-
-        {/* Content overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
-
-        <div className="container-custom relative z-10 h-full flex flex-col items-center justify-center text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4 font-heading max-w-4xl">
-            Tampa Bay&apos;s Premier Large-Scale Construction Specialists
-          </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-2 max-w-3xl">
-            From $500K commercial projects to $25M+ developments
-          </p>
-          <p className="text-lg text-brand-gold font-semibold">
-            Choose Your Pathway Below
-          </p>
-        </div>
-      </section>
 
       {/* Split-Funnel Gateway Section */}
       <section className="py-16 bg-gray-50">
@@ -187,7 +61,7 @@ export function HomePageClient() {
               ]}
               href="/residential/"
               ctaText="Explore Design/Build"
-              backgroundImage="/images/custom-home-2/custom-home-2-display.webp"
+              backgroundImage="/images/custom-home-2/custom-home-2-large.webp"
             />
           </div>
         </div>

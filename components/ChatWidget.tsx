@@ -36,6 +36,27 @@ export function ChatWidget() {
       script.setAttribute("data-widget-id", "696e669e9ec201ee9889bf3f");
       script.async = true;
       document.body.appendChild(script);
+
+      // Patch accessibility on injected chat widget elements
+      const a11yObserver = new MutationObserver(() => {
+        // Add aria-labels to buttons without accessible names
+        const buttons = document.querySelectorAll('[class*="lc_"] button, [class*="lc_"][role="button"], [id*="lc-"] button');
+        buttons.forEach((btn) => {
+          if (!btn.getAttribute("aria-label") && !btn.textContent?.trim()) {
+            btn.setAttribute("aria-label", "Open chat");
+          }
+        });
+        // Fix heading hierarchy issues from injected widget
+        const widgetHeadings = document.querySelectorAll('[class*="lc_"] h1, [class*="lc_"] h2, [class*="lc_"] h3, [id*="lc-"] h1, [id*="lc-"] h2, [id*="lc-"] h3');
+        widgetHeadings.forEach((heading) => {
+          if (!heading.getAttribute("role")) {
+            heading.setAttribute("role", "presentation");
+          }
+        });
+      });
+      a11yObserver.observe(document.body, { childList: true, subtree: true });
+      // Stop observing after 15s to avoid unnecessary overhead
+      setTimeout(() => a11yObserver.disconnect(), 15000);
     };
 
     // Load on user interaction

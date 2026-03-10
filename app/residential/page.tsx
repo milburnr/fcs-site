@@ -67,7 +67,7 @@ export default function ResidentialHubPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.webp"
+            src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.webp"
             alt="Luxury waterfront estate at sunset"
             fill
             className="object-cover"
@@ -465,7 +465,7 @@ export default function ResidentialHubPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="col-span-2 row-span-2 relative group overflow-hidden cursor-pointer">
               <Image
-                src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-display.webp"
+                src="/images/custom-home-2-rotated-1/custom-home-2-rotated-1-large.webp"
                 alt="Harbour Island Estate"
                 width={800}
                 height={800}
@@ -501,7 +501,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-2/custom-home-2-display.webp"
+                src="/images/custom-home-2/custom-home-2-large.webp"
                 alt="Beach Park Residence"
                 width={400}
                 height={400}

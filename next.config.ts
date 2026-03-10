@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
   // Tree-shake barrel imports for smaller bundles
   experimental: {
     optimizePackageImports: ["lucide-react"],
+    inlineCss: true,
   },
   // Remove console.log in production
   compiler: {

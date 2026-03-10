@@ -1,11 +1,21 @@
 # Netlify Early Hints (103) - browser starts fetching hero before HTML body arrives
-# Saves ~1 round trip on slow mobile connections
+# Same-origin from public/hero/ = fastest possible CDN delivery
 /
-  Link: </images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp>; rel=preload; as=image; type=image/webp
+  Link: </hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp>; rel=preload; as=image; type=image/webp
 
 # Long-lived cache for hashed static assets
 /_next/static/*
   Cache-Control: public, max-age=31536000, immutable
 
+# Hero images served directly from Netlify CDN
+/hero/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Proxied R2 images - tell Netlify edge to cache them
 /images/*
   Cache-Control: public, max-age=31536000, immutable
+  Netlify-CDN-Cache-Control: public, max-age=31536000, immutable, durable
+
+/wp-content/uploads/*
+  Cache-Control: public, max-age=31536000, immutable
+  Netlify-CDN-Cache-Control: public, max-age=31536000, immutable, durable

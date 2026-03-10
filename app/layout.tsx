@@ -54,12 +54,12 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.variable} ${robotoSlab.variable}`}>
       <head>
-        {/* Preload LCP hero image with responsive srcset */}
+        {/* Preload LCP hero image - same-origin from public/hero/ for fastest CDN delivery */}
         <link
           rel="preload"
           as="image"
-          href="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp"
-          imageSrcSet="/images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp 640w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp 960w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp 1280w, /images/downtown-tampa-over-the-bay-at-sunrise-1024x682-1/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp 1920w"
+          href="/hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp"
+          imageSrcSet="/hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp 640w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp 960w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp 1280w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp 1920w"
           imageSizes="100vw"
           type="image/webp"
         />

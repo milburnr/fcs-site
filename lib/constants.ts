@@ -216,7 +216,7 @@ export const LOCATIONS = [
 
 // Commercial services (B2B - Risk & ROI focus)
 export const COMMERCIAL_SERVICES = [
-  { label: "Commercial Construction", href: "/commercial-construction/" },
+  { label: "Commercial Construction", href: "/commercial/" },
   { label: "Multi-Family Construction", href: "/multi-family-construction/" },
   { label: "Industrial Flex", href: "/commercial/industrial-construction/" },
   { label: "Disaster Recovery (B2B)", href: "/disaster-recovery/" },
@@ -225,14 +225,14 @@ export const COMMERCIAL_SERVICES = [
   { label: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
   { label: "Condo Remediation", href: "/commercial/condo-remediation/" },
   { label: "SB4-D Compliance", href: "/sb4d-compliance/" },
-  { label: "CPM Scheduling", href: "/commercial/cpm-scheduling/" },
+  { label: "CPM Scheduling", href: "/commercial/" },
 ];
 
 // Design/Build services (B2C - Vision & Legacy focus)
 export const RESIDENTIAL_SERVICES = [
   { label: "Lifetime Custom Homes", href: "/residential/" },
-  { label: "Waterfront Resilience", href: "/residential/waterfront-homes/" },
-  { label: "FEMA Compliance", href: "/residential/fema-compliance/" },
+  { label: "Waterfront Resilience", href: "/luxury-custom-homes/" },
+  { label: "FEMA Compliance", href: "/disaster-recovery/" },
 ];
 
 // Insurance Restoration services (Large Loss Commercial & Residential)
@@ -245,7 +245,7 @@ export const INSURANCE_SERVICES = [
   { label: "Water Restoration", href: "/insurance/water-restoration/" },
   { label: "Hurricane Restoration", href: "/insurance/hurricane-restoration/" },
   { label: "Mold Remediation", href: "/insurance/mold-remediation/" },
-  { label: "Expert Witness", href: "/insurance/expert-witness/" },
+  { label: "Expert Witness", href: "/expert-witness/" },
 ];
 
 export const NAV_ITEMS = [
