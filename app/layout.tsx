@@ -54,20 +54,15 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${roboto.variable} ${robotoSlab.variable}`}>
       <head>
-        {/* Preload LCP hero image - same-origin from public/hero/ for fastest CDN delivery */}
-        <link
-          rel="preload"
-          as="image"
-          imageSrcSet="/hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-small.webp 640w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-medium.webp 960w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-large.webp 1280w, /hero/downtown-tampa-over-the-bay-at-sunrise-1024x682-1-xl.webp 1920w"
-          imageSizes="100vw"
-          fetchPriority="high"
-        />
-        {/* Google Analytics 4 */}
+        {/* Hero preload removed — React auto-generates one from fetchPriority="high" on the <img> */}
+
+        {/* Google Analytics 4 — use lazyOnload to avoid preload link that steals hero bandwidth
+            afterInteractive generates <link rel="preload"> for GTM (149KB), killing LCP on mobile */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SF1MH0NQ35"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
         />
-        <Script id="gtag-init" strategy="afterInteractive">
+        <Script id="gtag-init" strategy="lazyOnload">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -75,10 +70,6 @@ export default function RootLayout({
             gtag('config', 'G-SF1MH0NQ35');
           `}
         </Script>
-
-        {/* Preconnect to third-party domains for faster loading */}
-        <link rel="preconnect" href="https://widgets.leadconnectorhq.com" />
-        <link rel="preconnect" href="https://link.trustbasedseo.com" />
 
         <OrganizationSchema />
       </head>
