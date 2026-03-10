@@ -68,5 +68,47 @@ netlify deploy --prod --dir=out --no-build
 - Check image-map.json for the mapping
 - AI alt tags are in metadata.json per image folder
 
+## Mobile PageSpeed Rules (MUST follow)
+
+Current score: 92-99 mobile. These rules prevent regressions.
+
+### After ANY code change, check:
+Run `./scripts/check-pagespeed.sh` after deploy. Score must stay ≥85.
+
+### Never do these things:
+1. **Never use `priority` on Next.js `<Image>`** except for the LCP hero. It generates `<link rel="preload">` that steals bandwidth. Use `loading="eager"` instead for above-fold images.
+2. **Never use `<Script strategy="afterInteractive">`** for third-party scripts. It generates `<link rel="preload">`. Use `strategy="lazyOnload"` for analytics, chat widgets, etc.
+3. **Never add `<link rel="preload">` manually** if React/Next.js already generates one (e.g., from `fetchPriority="high"` on `<img>`). Check build output for duplicates.
+4. **Never load carousel/slideshow images before 3s.** Defer with `setTimeout(fn, 3500)` minimum.
+5. **Never add `<link rel="preconnect">` for non-critical domains.** Each preconnect burns bandwidth on DNS/TCP/TLS.
+
+### The LCP budget (throttled mobile = 200KB/s):
+On Lighthouse mobile, the browser has ~200KB/s bandwidth. Everything in the first 2 seconds fights for that pipe:
+- Hero image: ~67KB (MUST win the race)
+- 2 fonts: ~72KB (preloaded, necessary)
+- Logo: ~6KB (small, fine)
+- **Budget remaining: ~55KB** before hero is delayed
+
+If you add ANY resource that loads in the first 2s (preloads, eager images, preconnects, scripts), it eats from this budget and pushes LCP later.
+
+### Hero image rules:
+- Served from `public/hero/` (same-origin Netlify CDN, NOT R2 proxy)
+- Compressed at quality 70 (dark gradient overlay hides quality loss)
+- `fetchPriority="high"` on the `<img>` tag — React auto-generates the preload
+- Server-rendered in `page.tsx` (NOT inside a "use client" component)
+
+### Checking for problems:
+```bash
+# After build, count preloads in homepage HTML:
+grep -c 'rel="preload"' out/index.html
+# Should be ≤5 (2 fonts, 1 logo, 1 hero, 1 webpack-low)
+
+# Check for GTM/analytics preload (should be ZERO):
+grep 'preload.*googletagmanager\|preload.*analytics' out/index.html
+
+# Check hero image size (should be <80KB):
+ls -la public/hero/*-medium.webp
+```
+
 ## Memory Channel
 When using memory-keeper, use channel: "fcs-site"
