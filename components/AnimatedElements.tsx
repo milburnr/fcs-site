@@ -1,7 +1,7 @@
 "use client";
 
-import { motion, HTMLMotionProps, Variants } from "framer-motion";
-import { ReactNode } from "react";
+import { motion, useReducedMotion, HTMLMotionProps, Variants } from "framer-motion";
+import React, { ReactNode } from "react";
 
 // FadeIn Component - Animates elements with a fade and slide up effect
 interface FadeInProps extends Omit<HTMLMotionProps<"div">, "initial" | "animate" | "transition"> {
@@ -22,6 +22,11 @@ export function FadeIn({
   className,
   ...props
 }: FadeInProps) {
+  const prefersReducedMotion = useReducedMotion();
+  if (prefersReducedMotion) {
+    return <div className={className} {...(props as React.HTMLAttributes<HTMLDivElement>)}>{children}</div>;
+  }
+
   const directionOffset = {
     up: { y: distance },
     down: { y: -distance },
@@ -76,6 +81,11 @@ export function StaggerContainer({
   className,
   ...props
 }: StaggerContainerProps) {
+  const prefersReducedMotion = useReducedMotion();
+  if (prefersReducedMotion) {
+    return <div className={className} {...(props as React.HTMLAttributes<HTMLDivElement>)}>{children}</div>;
+  }
+
   return (
     <motion.div
       initial="hidden"
@@ -119,6 +129,11 @@ const itemVariants: Variants = {
 };
 
 export function StaggerItem({ children, className, ...props }: StaggerItemProps) {
+  const prefersReducedMotion = useReducedMotion();
+  if (prefersReducedMotion) {
+    return <div className={className} {...(props as React.HTMLAttributes<HTMLDivElement>)}>{children}</div>;
+  }
+
   return (
     <motion.div variants={itemVariants} className={className} {...props}>
       {children}
@@ -213,6 +228,11 @@ export function SlideIn({
   className,
   ...props
 }: SlideInProps) {
+  const prefersReducedMotion = useReducedMotion();
+  if (prefersReducedMotion) {
+    return <div className={className} {...(props as React.HTMLAttributes<HTMLDivElement>)}>{children}</div>;
+  }
+
   const offsets = {
     left: { x: -100, y: 0 },
     right: { x: 100, y: 0 },
@@ -260,6 +280,11 @@ export function BlurIn({
   className,
   ...props
 }: BlurInProps) {
+  const prefersReducedMotion = useReducedMotion();
+  if (prefersReducedMotion) {
+    return <div className={className} {...(props as React.HTMLAttributes<HTMLDivElement>)}>{children}</div>;
+  }
+
   return (
     <motion.div
       initial={{

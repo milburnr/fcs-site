@@ -132,6 +132,8 @@ export default function Header() {
               className="md:hidden p-2 text-white rounded-lg hover:bg-white/20 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
               aria-label="Toggle menu"
+              aria-expanded={mobileMenuOpen}
+              aria-controls="mobile-menu"
             >
               {mobileMenuOpen ? (
                 <X className="w-6 h-6" />
@@ -143,7 +145,7 @@ export default function Header() {
 
           {/* Mobile Navigation - Premium */}
           {mobileMenuOpen && (
-            <div className="md:hidden py-4 border-t border-white/20 max-h-[70vh] overflow-y-auto">
+            <div id="mobile-menu" className="md:hidden py-4 border-t border-white/20 max-h-[70vh] overflow-y-auto">
               {NAV_ITEMS.map((item) => (
                 <div key={item.label} className="mb-1">
                   <Link

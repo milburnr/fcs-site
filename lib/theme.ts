@@ -28,6 +28,7 @@ export const theme = {
     accent: '#C9A227',            // Gold
     accentLight: '#E8D48A',       // Light gold - nav background
     accentDark: '#9A7B0A',        // Dark gold - hover states
+    accentAccessible: '#8B6914',  // Accessible gold — 5.09:1 on white, used for CTA buttons
 
     // Text colors
     textPrimary: '#2D3748',       // Dark gray - main text

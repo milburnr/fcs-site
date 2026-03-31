@@ -44,7 +44,7 @@
 @layer components {
   /* Buttons */
   .btn-primary {
-    @apply inline-flex items-center justify-center px-6 py-3 bg-brand-green text-white font-semibold rounded-full hover:bg-brand-green-accent transition-all duration-300 shadow-lg hover:shadow-xl;
+    @apply inline-flex items-center justify-center px-6 py-3 bg-brand-green-dark text-white font-semibold rounded-full hover:bg-brand-green-forest transition-all duration-300 shadow-lg hover:shadow-xl;
   }
 
   .btn-secondary {
@@ -52,7 +52,7 @@
   }
 
   .btn-cta {
-    @apply inline-flex items-center justify-center px-8 py-4 bg-brand-gold text-white font-bold rounded-full hover:bg-brand-gold-dark transition-all duration-300 shadow-lg hover:shadow-xl;
+    @apply inline-flex items-center justify-center px-8 py-4 bg-brand-gold-accessible text-white font-bold rounded-full hover:bg-brand-gold-dark transition-all duration-300 shadow-lg hover:shadow-xl;
   }
 
   /* Cards - Premium elevated styles */
@@ -311,4 +311,15 @@
 .animate-slow-drift {
   background-size: 120% 120%;
   animation: slow-drift 20s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

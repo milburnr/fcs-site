@@ -147,7 +147,7 @@ export function HomePageClient() {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-brand-green-dark/90 via-brand-green-dark/50 to-transparent" />
             <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-              <span className="inline-block bg-brand-green px-3 py-1 rounded-full text-xs font-bold mb-2">
+              <span className="inline-block bg-brand-green-dark px-3 py-1 rounded-full text-xs font-bold mb-2 text-white">
                 COMMERCIAL
               </span>
               <h3 className="text-xl font-bold font-heading mb-1">Multi-Family Developments</h3>
@@ -228,7 +228,7 @@ export function HomePageClient() {
       <TestimonialSchema testimonials={FCS_TESTIMONIALS} businessName={BUSINESS_INFO.name} />
 
       {/* Final CTA */}
-      <section className="py-16 bg-brand-green">
+      <section className="py-16 bg-brand-green-dark">
         <div className="container-custom text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 font-heading">
             Ready to Build Something Exceptional?

@@ -32,6 +32,7 @@ export default {
           gold: theme.colors.accent,
           'gold-light': theme.colors.accentLight,
           'gold-dark': theme.colors.accentDark,
+          'gold-accessible': theme.colors.accentAccessible,
           'gold-accent': '#D4AF37',
           'gold-bg': '#FDF8E7',  // Light gold background for residential silo
         },

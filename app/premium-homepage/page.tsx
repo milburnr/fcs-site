@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { Building2, DollarSign, Zap, ClipboardList, Landmark, Wind } from 'lucide-react';
 
 
 export default function PremiumHomepage() {
@@ -271,38 +272,38 @@ export default function PremiumHomepage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                icon: '🏗️',
+                Icon: Building2,
                 title: 'Always Prime Contractor',
                 description: 'We never subcontract the critical work. Your project gets our A-team from groundbreaking to ribbon cutting.'
               },
               {
-                icon: '💰',
+                Icon: DollarSign,
                 title: 'In-House Engineering',
                 description: 'Financial strength to take on major projects with the security and peace of mind you deserve.'
               },
               {
-                icon: '⚡',
+                Icon: Zap,
                 title: 'Insurance Restoration Experts',
                 description: 'Decades of experience navigating complex insurance claims. We maximize your coverage while minimizing your stress.'
               },
               {
-                icon: '🏛️',
+                Icon: Landmark,
                 title: 'Historic Preservation',
                 description: 'Certified expertise in restoring Tampa Bay\'s architectural treasures while meeting modern code requirements.'
               },
               {
-                icon: '🌀',
+                Icon: Wind,
                 title: 'Hurricane-Hardened',
                 description: 'We build for Florida\'s reality. Every project engineered to withstand what Mother Nature delivers.'
               },
               {
-                icon: '📋',
+                Icon: ClipboardList,
                 title: 'SB 4-D Compliance',
                 description: 'Leading expertise in Florida\'s new condo safety requirements. Protect your association from liability.'
               }
             ].map((item, idx) => (
               <div key={idx} className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
-                <div className="text-4xl mb-4">{item.icon}</div>
+                <item.Icon className="w-10 h-10 text-amber-500 mb-4" aria-hidden="true" />
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{item.title}</h3>
                 <p className="text-slate-600 leading-relaxed">{item.description}</p>
               </div>

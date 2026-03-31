@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
-import { Phone, CheckCircle, AlertTriangle, FileText, Scale, Shield, Clock, DollarSign } from "lucide-react";
+import { Phone, CheckCircle, AlertTriangle, FileText, Scale, Shield, Clock, DollarSign, Landmark } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
@@ -272,19 +272,25 @@ export default function Page() {
 
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="bg-green-50 p-6 rounded-lg border-2 border-green-400 text-center">
-                <div className="text-4xl mb-3">🏛️</div>
+                <div className="flex justify-center mb-3">
+                  <Landmark className="w-10 h-10 text-brand-green-dark" aria-hidden="true" />
+                </div>
                 <h3 className="text-lg font-bold text-brand-green-dark mb-2">Property Value</h3>
                 <p className="text-gray-600 text-sm">Properly permitted construction adds documented value. Unpermitted work often must be discounted or removed for sale.</p>
               </div>
 
               <div className="bg-blue-50 p-6 rounded-lg border-2 border-blue-400 text-center">
-                <div className="text-4xl mb-3">🛡️</div>
+                <div className="flex justify-center mb-3">
+                  <Shield className="w-10 h-10 text-brand-green-dark" aria-hidden="true" />
+                </div>
                 <h3 className="text-lg font-bold text-brand-green-dark mb-2">Insurance Coverage</h3>
                 <p className="text-gray-600 text-sm">Permitted construction is covered by insurance. Unpermitted work is typically excluded from coverage.</p>
               </div>
 
               <div className="bg-purple-50 p-6 rounded-lg border-2 border-purple-400 text-center">
-                <div className="text-4xl mb-3">⚖️</div>
+                <div className="flex justify-center mb-3">
+                  <Scale className="w-10 h-10 text-brand-green-dark" aria-hidden="true" />
+                </div>
                 <h3 className="text-lg font-bold text-brand-green-dark mb-2">Liability Protection</h3>
                 <p className="text-gray-600 text-sm">Code compliance demonstrates due diligence if someone is injured. Non-compliance creates negligence exposure.</p>
               </div>
