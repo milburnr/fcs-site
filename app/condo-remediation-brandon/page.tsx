@@ -5,7 +5,7 @@ import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase,
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -306,14 +306,7 @@ export default function CondoRemediationBrandonPage() {
       />
 
       {/* Internal Links */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Brandon" currentService="condo-remediation" />
-            <NearbyLocations currentCity="Brandon" service="condo-remediation" serviceName="Condo Remediation" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Brandon" currentService="condo-remediation" currentServiceName="Condo Remediation" />
 
       {/* CTA Section */}
       <section className="section bg-brand-green-dark">

@@ -5,7 +5,7 @@ import { Phone, Building2, Shield, Award, HardHat, FileCheck, Home, Droplets } f
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -133,12 +133,7 @@ export default function ExteriorWaterproofingRuskinPage() {
 
       <FAQWithSchema items={faqs} title="Ruskin Exterior Waterproofing FAQ" description="Common questions about exterior waterproofing for Ruskin, Apollo Beach, and Sun City Center properties." />
 
-      <section className="section bg-gray-50">
-        <div className="container-custom"><div className="grid md:grid-cols-2 gap-8">
-          <RelatedServices city="Ruskin" currentService="exterior-waterproofing" />
-          <NearbyLocations currentCity="Ruskin" service="exterior-waterproofing" serviceName="Exterior Waterproofing" />
-        </div></div>
-      </section>
+      <RelatedServiceLocations currentCity="Ruskin" currentService="exterior-waterproofing" currentServiceName="Exterior Waterproofing" />
 
       <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">

@@ -5,7 +5,7 @@ import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
 
@@ -319,14 +319,7 @@ export default function CondoRemediationStPetersburgPage() {
       />
 
       {/* Internal Links */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="St. Petersburg" currentService="condo-remediation" />
-            <NearbyLocations currentCity="St. Petersburg" service="condo-remediation" serviceName="Condo Remediation" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="St. Petersburg" currentService="condo-remediation" currentServiceName="Condo Remediation" />
 
       {/* CTA Section */}
       <section className="section bg-brand-green-dark">

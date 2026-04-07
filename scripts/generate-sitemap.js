@@ -10,12 +10,30 @@
 
 const fs = require('fs');
 const path = require('path');
+const { execSync } = require('child_process');
 
 const BASE_URL = 'https://floridaconstructionspecialists.com';
 const APP_DIR = path.resolve(__dirname, '..', 'app');
 const NETLIFY_TOML = path.resolve(__dirname, '..', 'netlify.toml');
 const OUTPUT = path.resolve(__dirname, '..', 'public', 'sitemap.xml');
 const TODAY = new Date().toISOString().split('T')[0];
+
+// ── 0. Git lastmod lookup ──────────────────────────────────────────────────
+
+function getGitLastmod(filePath) {
+  try {
+    const result = execSync(`git log -1 --format=%aI -- "${filePath}"`, {
+      encoding: 'utf-8',
+      stdio: ['pipe', 'pipe', 'pipe'],
+    }).trim();
+    if (result) {
+      return result.split('T')[0]; // ISO date only
+    }
+  } catch {
+    // git not available or file not in repo
+  }
+  return TODAY;
+}
 
 // ── 1. Discover all page.tsx files ──────────────────────────────────────────
 
@@ -217,7 +235,7 @@ function main() {
 
     included.push({
       loc: `${BASE_URL}${urlPath}`,
-      lastmod: TODAY,
+      lastmod: getGitLastmod(page.filePath),
       changefreq,
       priority,
       slug: page.slug

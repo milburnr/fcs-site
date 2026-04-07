@@ -5,7 +5,7 @@ import { Phone, Building2, Shield, Award, HardHat, FileCheck, Home, Users } from
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -122,10 +122,7 @@ export default function BalconyReconstructionRuskinPage() {
 
       <FAQWithSchema items={faqs} title="Ruskin Balcony Reconstruction FAQ" description="Common questions about balcony reconstruction, SB 4-D compliance, and HOA projects in Ruskin, Sun City Center, and Apollo Beach." />
 
-      <section className="section bg-gray-50"><div className="container-custom"><div className="grid md:grid-cols-2 gap-8">
-        <RelatedServices city="Ruskin" currentService="balcony-reconstruction" />
-        <NearbyLocations currentCity="Ruskin" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
-      </div></div></section>
+      <RelatedServiceLocations currentCity="Ruskin" currentService="balcony-reconstruction" currentServiceName="Balcony Reconstruction" />
 
       <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">

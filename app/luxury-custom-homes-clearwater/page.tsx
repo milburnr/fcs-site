@@ -5,7 +5,7 @@ import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase,
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -294,14 +294,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
       />
 
       {/* Internal Links */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Clearwater" currentService="luxury-custom-homes" />
-            <NearbyLocations currentCity="Clearwater" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Clearwater" currentService="luxury-custom-homes" currentServiceName="Luxury Custom Homes" />
 
       {/* CTA Section */}
       <section className="section bg-brand-green-dark">

@@ -5,7 +5,7 @@ import { Phone, Building2, Shield, Award, HardHat, FileCheck, Home, Waves } from
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -122,10 +122,7 @@ export default function LuxuryCustomHomesRuskinPage() {
 
       <FAQWithSchema items={faqs} title="Ruskin Luxury Custom Homes FAQ" description="Common questions about building luxury custom homes in Ruskin, Apollo Beach, Sun City Center, and South Hillsborough County." />
 
-      <section className="section bg-gray-50"><div className="container-custom"><div className="grid md:grid-cols-2 gap-8">
-        <RelatedServices city="Ruskin" currentService="luxury-custom-homes" />
-        <NearbyLocations currentCity="Ruskin" service="luxury-custom-homes" serviceName="Luxury Custom Homes" />
-      </div></div></section>
+      <RelatedServiceLocations currentCity="Ruskin" currentService="luxury-custom-homes" currentServiceName="Luxury Custom Homes" />
 
       <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">

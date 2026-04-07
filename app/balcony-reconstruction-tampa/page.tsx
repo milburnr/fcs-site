@@ -5,7 +5,7 @@ import { Phone, MapPin, CheckCircle, Building2, Shield, Award, AlertTriangle, Fi
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
 
@@ -246,14 +246,7 @@ export default function BalconyReconstructionTampaPage() {
 
       <FAQWithSchema items={faqs} title="Tampa Balcony Reconstruction FAQ" description="Common questions about balcony reconstruction and SB 4-D compliance for Tampa condominiums." />
 
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Tampa" currentService="balcony-reconstruction" />
-            <NearbyLocations currentCity="Tampa" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Tampa" currentService="balcony-reconstruction" currentServiceName="Balcony Reconstruction" />
 
       <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">

@@ -5,7 +5,7 @@ import { Phone, MapPin, Building2, Shield, Award, FileCheck, Wrench, AlertTriang
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
 
@@ -302,14 +302,7 @@ export default function BalconyReconstructionBradentonPage() {
       />
 
       {/* Internal Links */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Bradenton" currentService="balcony-reconstruction" />
-            <NearbyLocations currentCity="Bradenton" service="balcony-reconstruction" serviceName="Balcony Reconstruction" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Bradenton" currentService="balcony-reconstruction" currentServiceName="Balcony Reconstruction" />
 
       {/* CTA Section */}
       <section className="section bg-brand-green-dark">

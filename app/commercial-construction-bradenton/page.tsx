@@ -5,7 +5,7 @@ import { Phone, MapPin, Building2, Shield, Award, Clock, ArrowRight, FileCheck, 
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -297,14 +297,7 @@ export default function CommercialConstructionBradentonPage() {
       />
 
       {/* Internal Links */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Bradenton" currentService="commercial-construction" />
-            <NearbyLocations currentCity="Bradenton" service="commercial-construction" serviceName="Commercial Construction" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Bradenton" currentService="commercial-construction" currentServiceName="Commercial Construction" />
 
       {/* CTA Section */}
       <section className="section bg-brand-green-dark">

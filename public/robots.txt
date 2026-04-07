@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /wp-content/plugins/
 
 Sitemap: https://floridaconstructionspecialists.com/sitemap.xml

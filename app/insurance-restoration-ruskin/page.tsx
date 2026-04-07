@@ -5,7 +5,7 @@ import { Phone, Building2, Shield, Award, HardHat, FileCheck, Home, Briefcase } 
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
-import { RelatedServices, NearbyLocations } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -174,14 +174,7 @@ export default function InsuranceRestorationRuskinPage() {
 
       <FAQWithSchema items={faqs} title="Ruskin Insurance Restoration FAQ" description="Common questions about insurance restoration and large loss claims in Ruskin, Sun City Center, and Apollo Beach." />
 
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8">
-            <RelatedServices city="Ruskin" currentService="insurance-restoration" />
-            <NearbyLocations currentCity="Ruskin" service="insurance-restoration" serviceName="Insurance Restoration" />
-          </div>
-        </div>
-      </section>
+      <RelatedServiceLocations currentCity="Ruskin" currentService="insurance-restoration" currentServiceName="Insurance Restoration" />
 
       <section className="section bg-brand-green-dark">
         <div className="container-custom text-center">
