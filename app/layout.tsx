@@ -10,19 +10,24 @@ import { PhoneTrackingProvider } from "@/components/PhoneTrackingProvider";
 import { ChatWidget } from "@/components/ChatWidget";
 import { StickyMobileCTA } from "@/components/StickyMobileCTA";
 
-// Load fonts via next/font for automatic optimization (self-hosted, no render-blocking)
+// Body font: only weights used on first paint (regular + bold).
+// Preloaded because FCP depends on body text rendering.
 const roboto = Roboto({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "700"],
+  weight: ["400", "700"],
   variable: "--font-roboto",
   display: "swap",
 });
 
+// Heading font: only bold weight actually used. `preload: false` keeps it OUT of the
+// critical bandwidth race so the hero LCP image isn't delayed on throttled mobile.
+// Headings briefly render in the serif fallback (~100-300ms) then swap.
 const robotoSlab = Roboto_Slab({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
+  weight: ["700"],
   variable: "--font-roboto-slab",
   display: "swap",
+  preload: false,
 });
 
 export const metadata: Metadata = {
