@@ -10,7 +10,13 @@
 set -euo pipefail
 
 BUCKET="fcs-gallery"
-SOURCE="/Volumes/External-2TB/Projects/fcs-gallery-processed"
+SOURCE="${FCS_GALLERY_DIR:-/Volumes/External-2TB/Projects/fcs-gallery-processed}"
+
+if [ ! -d "$SOURCE" ]; then
+  echo "Gallery source dir not found: $SOURCE"
+  echo "Set FCS_GALLERY_DIR env var to override"
+  exit 1
+fi
 
 echo "=== FCS Gallery R2 Upload ==="
 echo "Bucket: $BUCKET"

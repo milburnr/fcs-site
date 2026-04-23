@@ -6,8 +6,9 @@
 
 set -e
 
-STAGING_DIR="/Volumes/External-2TB/projects/service-site-builder/sites/fcs-final/ai-images-staging"
-OUTPUT_DIR="/Volumes/External-2TB/projects/service-site-builder/sites/fcs-final/public/images"
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+STAGING_DIR="${STAGING_DIR:-$SCRIPT_DIR/ai-images-staging}"
+OUTPUT_DIR="${OUTPUT_DIR:-$SCRIPT_DIR/public/images}"
 
 # Tampa Bay coordinates for geotagging
 TAMPA_LAT="27.9506"

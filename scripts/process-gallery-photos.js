@@ -8,12 +8,18 @@
  * Usage: node scripts/process-gallery-photos.js
  */
 
-const sharp = require('/Volumes/External-2TB/Projects/service-site-builder/tools/image-processing/node_modules/sharp');
+const sharp = require('sharp');
 const fs = require('fs');
 const path = require('path');
 
-const INPUT_DIR = '/Volumes/External-2TB/Projects/fcs-photos';
-const OUTPUT_DIR = '/Volumes/External-2TB/Projects/fcs-gallery-processed';
+const INPUT_DIR = process.env.FCS_PHOTOS_DIR || process.argv[2];
+const OUTPUT_DIR = process.env.FCS_GALLERY_OUT || process.argv[3];
+
+if (!INPUT_DIR || !OUTPUT_DIR) {
+  console.error('Usage: node scripts/process-gallery-photos.js <input-dir> <output-dir>');
+  console.error('Or set FCS_PHOTOS_DIR and FCS_GALLERY_OUT environment variables');
+  process.exit(1);
+}
 
 const SIZES = {
   full: { width: 1600, suffix: 'full' },

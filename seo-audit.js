@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const OUT_DIR = '/Volumes/External-2TB/projects/service-site-builder/sites/fcs-final/out';
+const OUT_DIR = path.resolve(__dirname, 'out');
 
 // Collect all HTML files
 function getAllHtmlFiles(dir, files = []) {
@@ -218,7 +218,7 @@ const output = {
   linkStats: linkedToCount
 };
 
-fs.writeFileSync('/Volumes/External-2TB/projects/service-site-builder/sites/fcs-final/seo-audit-results.json', JSON.stringify(output, null, 2));
+fs.writeFileSync(path.resolve(__dirname, 'seo-audit-results.json'), JSON.stringify(output, null, 2));
 console.log('Results written to seo-audit-results.json');
 
 // Summary stats

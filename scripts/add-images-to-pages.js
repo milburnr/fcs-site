@@ -12,8 +12,16 @@ const fs = require('fs');
 const path = require('path');
 
 const APP_DIR = path.join(__dirname, '..', 'app');
-const IMAGES_JSON = '/mnt/d/Projects/service-site-builder/packages/tools/image-processing/output/fcs-analyzed-images.json';
+const IMAGES_JSON = process.env.FCS_IMAGES_JSON
+  || process.argv.find(a => a.startsWith('--images=') || a.endsWith('.json') && !a.includes('--dry-run'))?.replace(/^--images=/, '')
+  || path.resolve(__dirname, '..', 'lib', 'image-map.json');
 const DRY_RUN = process.argv.includes('--dry-run');
+
+if (!fs.existsSync(IMAGES_JSON)) {
+  console.error(`IMAGES_JSON not found: ${IMAGES_JSON}`);
+  console.error('Set FCS_IMAGES_JSON env var or pass --images=<path>');
+  process.exit(1);
+}
 
 // Topic to image tag mapping
 const TOPIC_TAGS = {
