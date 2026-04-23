@@ -29,6 +29,9 @@ Thumbs.db
 # Local Netlify folder
 .netlify
 
+# Session artifacts
+.playwright-mcp/
+
 # Images served from Cloudflare R2 via Netlify proxy (see _redirects)
 public/images/
 public/wp-content/
