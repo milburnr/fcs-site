@@ -1,0 +1,141 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e4]:
+      - link "Florida Construction Specialists" [ref=e5] [cursor=pointer]:
+        - /url: /
+        - img "Florida Construction Specialists" [ref=e6]
+      - link "(813) 420-7561" [ref=e7] [cursor=pointer]:
+        - /url: tel:8134207561
+        - img [ref=e9]
+        - generic [ref=e11]: (813) 420-7561
+    - navigation [ref=e12]:
+      - generic [ref=e16]:
+        - link "Home" [ref=e18] [cursor=pointer]:
+          - /url: /
+        - link "Commercial" [ref=e22] [cursor=pointer]:
+          - /url: /commercial/
+        - link "Residential" [ref=e28] [cursor=pointer]:
+          - /url: /residential/
+        - link "Insurance" [ref=e34] [cursor=pointer]:
+          - /url: /insurance/
+        - link "Locations" [ref=e40] [cursor=pointer]:
+          - /url: /locations/
+        - link "Gallery" [ref=e46] [cursor=pointer]:
+          - /url: /gallery/
+        - link "About" [ref=e52] [cursor=pointer]:
+          - /url: /about/
+        - link "Contact" [ref=e56] [cursor=pointer]:
+          - /url: /contact/
+  - main [ref=e60]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - img [ref=e65]
+        - generic [ref=e67]: "Licensed: CBC1262722"
+      - generic [ref=e68]:
+        - img [ref=e69]
+        - generic [ref=e72]: Financing & Grant Assistance
+      - generic [ref=e73]:
+        - img [ref=e74]
+        - generic [ref=e77]: 40+ Years Experience
+      - generic [ref=e78]:
+        - img [ref=e79]
+        - generic [ref=e82]: 300+ Projects Completed
+    - generic [ref=e83]:
+      - img "Florida Construction Specialists - Tampa Bay commercial construction" [ref=e86]
+      - img "Florida Construction Specialists - Tampa Bay commercial construction" [ref=e458]
+      - img "Florida Construction Specialists - Tampa Bay commercial construction" [ref=e461]
+      - generic [ref=e88]:
+        - heading "Tampa Bay's Premier Large-Scale Construction Specialists" [level=1] [ref=e89]
+        - paragraph [ref=e90]: From $500K commercial projects to $25M+ developments
+        - paragraph [ref=e91]: Choose Your Pathway Below
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - heading "Two Pathways, One Standard of Excellence" [level=2] [ref=e95]
+        - paragraph [ref=e96]: Select your project type to explore services tailored to your specific needs
+      - generic [ref=e97]:
+        - 'link "B2B Commercial Pathway Risk & ROI Focus Projects: $500K - $25M+ Multi-Family Developments Industrial & Flex Space Insurance Restoration (Large Loss) Historic Restoration (Commercial) Explore Commercial" [ref=e98] [cursor=pointer]':
+          - /url: /commercial/
+        - 'link "B2C Design/Build Pathway Vision & Legacy Focus Projects: $1M+ Lifetime Homes Lifetime Custom Homes Historic Preservation FEMA/Flood Zone Compliance Balcony Reconstruction Hurricane-Resistant Design Explore Design/Build" [ref=e123] [cursor=pointer]':
+          - /url: /residential/
+    - img "Design Engineer Construction - Florida Construction Specialists" [ref=e152]
+    - generic [ref=e157]:
+      - heading "Why Tampa Bay Chooses Florida Construction Specialists" [level=2] [ref=e158]
+      - paragraph [ref=e159]: Trusted expertise for projects of any scale
+    - generic [ref=e162]:
+      - generic [ref=e165]:
+        - img [ref=e167]
+        - heading "Always Prime Contractor" [level=3] [ref=e169]
+        - paragraph [ref=e170]: We never work as a subcontractor. Your project gets our full attention, direct accountability, and complete control.
+      - generic [ref=e173]:
+        - img [ref=e175]
+        - heading "40+ Years Experience" [level=3] [ref=e178]
+        - paragraph [ref=e179]: Four decades of expertise means we can handle projects of virtually any scale with confidence.
+      - generic [ref=e182]:
+        - img [ref=e184]
+        - heading "$25M+ Delivered" [level=3] [ref=e187]
+        - paragraph [ref=e188]: A proven track record of delivering large-scale projects on time and on budget throughout Tampa Bay.
+    - generic [ref=e193]:
+      - heading "Featured Projects" [level=2] [ref=e194]
+      - paragraph [ref=e195]: Excellence delivered throughout Tampa Bay
+    - generic [ref=e197]:
+      - link "View Full Portfolio" [ref=e199] [cursor=pointer]:
+        - /url: /portfolio/
+        - text: View Full Portfolio
+        - img [ref=e200]
+      - generic [ref=e202]:
+        - link "Commercial construction in Tampa COMMERCIAL Multi-Family Developments Large-scale residential and mixed-use projects" [ref=e203] [cursor=pointer]:
+          - /url: /commercial/
+        - link "Luxury custom home construction RESIDENTIAL Luxury Custom Estates Waterfront homes and architectural residences" [ref=e210] [cursor=pointer]:
+          - /url: /residential/
+    - generic [ref=e219]:
+      - generic [ref=e220]:
+        - heading "Ready to Discuss Your Project?" [level=2] [ref=e221]
+        - paragraph [ref=e222]: Whether you're planning a $500K commercial renovation or a $50M development, Florida Construction Specialists has the experience, resources, and commitment to deliver excellence.
+        - generic [ref=e223]
+      - generic [ref=e242]: Loading form...
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - heading "What Our Clients Say" [level=2] [ref=e246]
+        - paragraph [ref=e247]: Trusted by property managers, developers, and homeowners throughout Tampa Bay
+      - generic [ref=e248]:
+        - generic [ref=e249]
+        - generic [ref=e270]
+        - generic [ref=e291]
+        - generic [ref=e311]
+        - generic [ref=e332]
+        - generic [ref=e352]
+    - generic [ref=e374]:
+      - heading "Ready to Build Something Exceptional?" [level=2] [ref=e375]
+      - paragraph [ref=e376]: Florida Construction Specialists is the prime contractor for large-scale commercial, multi-family, and luxury residential projects throughout Tampa Bay.
+      - generic [ref=e377]:
+        - link "Schedule Project Consultation" [ref=e378] [cursor=pointer]:
+          - /url: /contact/
+        - link "Call (813) 420-7561" [ref=e379] [cursor=pointer]:
+          - /url: tel:8134207561
+  - contentinfo [ref=e382]:
+    - generic [ref=e384]:
+      - generic [ref=e385]:
+        - heading "Florida Construction Specialists" [level=3] [ref=e386]
+        - generic [ref=e387]
+      - generic [ref=e409]:
+        - heading "Our Services" [level=3] [ref=e410]
+        - list [ref=e411]
+      - generic [ref=e426]:
+        - heading "Service Areas" [level=3] [ref=e427]
+        - list [ref=e428]
+      - generic [ref=e437]:
+        - heading "Quick Links" [level=3] [ref=e438]
+        - list [ref=e439]
+    - paragraph [ref=e450]: Since 1982 | Licensed CBC1262722 | In-House Engineering
+    - generic [ref=e452]:
+      - paragraph [ref=e453]: © 2026 Florida Construction Specialists. All rights reserved.
+      - paragraph [ref=e454]: Tampa Commercial Construction Experts
+  - alert [ref=e455]
+  - generic [ref=e464]:
+    - generic [ref=e466] [cursor=pointer]:
+      - img "Avatar" [ref=e467]
+      - generic [ref=e468]: Hi there! Have a question? Chat with us here.
+      - button "Close prompt" [ref=e469]:
+        - img [ref=e470]
+    - button "Select to open the chat widget" [ref=e472] [cursor=pointer]:
+      - img [ref=e474]
