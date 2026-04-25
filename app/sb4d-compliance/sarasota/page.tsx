@@ -9,6 +9,7 @@ import { AuthorByline } from "@/components/AuthorByline";
 import { BackToHub } from "@/components/BackToHub";
 import { CodeReference } from "@/components/CodeReference";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/sarasota/" },
@@ -365,6 +366,7 @@ export default function SB4DComplianceSarasotaPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="sb4d-compliance-sarasota" />
     </>
   );
 }

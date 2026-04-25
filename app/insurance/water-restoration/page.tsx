@@ -12,6 +12,7 @@ import { CodeReference } from "@/components/CodeReference";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import Link from "next/link";
 import { Phone, Droplets, Shield, Building2, AlertTriangle, Waves, CloudRain, CheckCircle, Clock, FileText, Thermometer, Wind, Home, Award, Users } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/water-restoration/' },
@@ -479,6 +480,7 @@ export default function WaterRestorationPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="water-restoration" />
     </>
   );
 }

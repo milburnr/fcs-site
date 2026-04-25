@@ -12,6 +12,7 @@ import { ParallaxSection, ParallaxCardsContainer } from "@/components/ParallaxSe
 import { FadeIn } from "@/components/AnimatedElements";
 import { AI_IMAGES, AI_IMAGE_ALT, PARALLAX_IMAGES } from "@/lib/imageMapping";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
+import RelatedArticles from "@/components/RelatedArticles";
 
 const servicesGalleryPhotos: GalleryPhoto[] = [
   { src: "/images/100/100", caption: "Commercial high-rise construction project" },
@@ -624,6 +625,7 @@ export default function ServicesPage() {
           />
         </div>
       </section>
+    <RelatedArticles pageSlug="services" />
     </>
   );
 }

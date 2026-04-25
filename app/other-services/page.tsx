@@ -7,6 +7,7 @@ import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema"
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/other-services/' },
@@ -690,6 +691,7 @@ export default function SpecialtyServicesPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="other-services" />
     </>
   );
 }

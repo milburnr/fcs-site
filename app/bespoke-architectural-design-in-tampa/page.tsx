@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, ArticleSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/' },
@@ -520,6 +521,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="bespoke-architectural-design-in-tampa" />
     </>
   );
 }

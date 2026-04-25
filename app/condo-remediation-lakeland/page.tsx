@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/condo-remediation-lakeland/' },
@@ -337,6 +338,7 @@ export default function CondoRemediationLakelandPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="condo-remediation-lakeland" />
     </>
   );
 }

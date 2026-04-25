@@ -6,6 +6,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
+import RelatedArticles from "@/components/RelatedArticles";
 import {
   CheckCircle,
   Shield,
@@ -336,6 +337,7 @@ export default function BuildingConsultantPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="building-consultant" />
     </>
   );
 }

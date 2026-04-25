@@ -10,6 +10,7 @@ import { ContentImage, ContentParallax } from "@/components/ContentImage";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing/' },
@@ -991,6 +992,7 @@ export default function ExteriorWaterproofingPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="exterior-waterproofing" />
     </>
   );
 }

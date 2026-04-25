@@ -5,6 +5,7 @@ import { Phone, ArrowRight, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/water-damage-restoration-insurance-claims-in-tampa/' },
@@ -734,6 +735,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+<RelatedArticles pageSlug="water-damage-restoration-insurance-claims-in-tampa" />
 </>
   );
 }

@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/hurricane-resistant-construction/' },
   title: "Hurricane-Resistant Home Construction Tampa",
@@ -362,6 +363,7 @@ export default function HurricaneResistantPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="hurricane-resistant-construction" />
     </>
   );
 }

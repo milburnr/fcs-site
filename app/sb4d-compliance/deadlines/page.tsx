@@ -8,6 +8,7 @@ import { AuthorByline } from "@/components/AuthorByline";
 import { CodeReference } from "@/components/CodeReference";
 import { BackToHub } from "@/components/BackToHub";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb4d-compliance/deadlines/' },
@@ -487,6 +488,7 @@ export default function SB4DDeadlinesPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="deadlines" />
     </>
   );
 }

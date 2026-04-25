@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Cpu, Camera, Database, Smartphone } 
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
@@ -448,6 +449,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="technology-role-in-insurance-restoration-processes-in-tampa" />
     </>
   );
 }

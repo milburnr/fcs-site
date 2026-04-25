@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Droplets, Shield, FileCheck, Clock }
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
@@ -438,6 +439,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="flood-remediation-contractors-in-tampa" />
     </>
   );
 }

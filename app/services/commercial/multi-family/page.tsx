@@ -8,6 +8,7 @@ import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/multi-family/' },
   title: "Multi-Family Construction Tampa | Apartments & Condos",
@@ -359,6 +360,7 @@ export default function MultiFamilyPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="multi-family" />
     </>
   );
 }

@@ -9,6 +9,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO, FAQ_DATABASE } from "@/lib/constants";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/historic-restoration/' },
   title: "Historic Restoration & Preservation in Tampa Bay",
@@ -720,6 +721,7 @@ export default function HistoricRestorationPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="historic-restoration" />
     </>
   );
 }

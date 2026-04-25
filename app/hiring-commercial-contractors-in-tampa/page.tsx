@@ -5,6 +5,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-commercial-contractors-in-tampa/' },
@@ -474,6 +475,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="hiring-commercial-contractors-in-tampa" />
     </>
   );
 }

@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-bradenton/' },
@@ -330,6 +331,7 @@ export default function ExteriorWaterproofingBradentonPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="exterior-waterproofing-bradenton" />
     </>
   );
 }

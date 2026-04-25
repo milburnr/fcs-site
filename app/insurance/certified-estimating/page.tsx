@@ -7,6 +7,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { CheckCircle, Phone, FileText, Calculator, ClipboardCheck, Shield } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/certified-estimating/' },
@@ -303,6 +304,7 @@ export default function CertifiedEstimatingPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="certified-estimating" />
     </>
   );
 }

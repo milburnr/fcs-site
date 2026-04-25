@@ -12,6 +12,7 @@ import { CodeReference } from "@/components/CodeReference";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import Link from "next/link";
 import { Phone, Wind, Shield, Building2, Home, Droplets, AlertTriangle, CheckCircle, Clock, FileText, Users, Award, Hammer } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/hurricane-restoration/' },
@@ -493,6 +494,7 @@ export default function HurricaneRestorationPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="hurricane-restoration" />
     </>
   );
 }

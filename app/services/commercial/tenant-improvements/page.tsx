@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/tenant-improvements/' },
   title: "Tenant Improvements Tampa | Commercial Buildouts & TI",
@@ -350,6 +351,7 @@ export default function TenantImprovementsPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="tenant-improvements" />
     </>
   );
 }

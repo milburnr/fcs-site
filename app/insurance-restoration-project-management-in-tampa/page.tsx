@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { ContentParallax } from "@/components/ContentImage";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/' },
@@ -408,6 +409,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="insurance-restoration-project-management-in-tampa" />
     </>
   );
 }

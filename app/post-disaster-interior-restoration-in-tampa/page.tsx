@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Paintbrush, Droplets, Wind, Hammer }
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-interior-restoration-in-tampa/' },
@@ -437,6 +438,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="post-disaster-interior-restoration-in-tampa" />
     </>
   );
 }

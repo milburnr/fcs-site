@@ -7,6 +7,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { Phone, Scale, Shield, FileText, Users, Gavel } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/appraisal-arbitration/' },
@@ -275,6 +276,7 @@ export default function AppraisalArbitrationPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="appraisal-arbitration" />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { Phone, TrendingUp, Building2, Leaf, Cpu, Users, CheckCircle } from "luc
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/trends-and-future-of-commercial-construction-in-tampa/' },
@@ -504,6 +505,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="trends-and-future-of-commercial-construction-in-tampa" />
     </>
   );
 }

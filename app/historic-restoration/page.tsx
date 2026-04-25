@@ -9,6 +9,7 @@ import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import type { Metadata } from "next";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration/' },
@@ -298,6 +299,7 @@ export default function HistoricRestorationPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="historic-restoration" />
     </>
   );
 }

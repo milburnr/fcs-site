@@ -36,6 +36,7 @@ import {
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/industrial-construction/' },
@@ -1284,6 +1285,7 @@ export default function IndustrialConstructionPage() {
           />
         </div>
       </section>
+    <RelatedArticles pageSlug="industrial-construction" />
     </>
   );
 }

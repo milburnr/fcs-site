@@ -20,6 +20,7 @@ import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/building-consultants/' },
@@ -695,6 +696,7 @@ export default function BuildingConsultantsPage() {
           </div>
         </div>
       </section>
+<RelatedArticles pageSlug="building-consultants" />
 </>
   );
 }

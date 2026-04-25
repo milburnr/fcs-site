@@ -5,6 +5,7 @@ import { Phone, Leaf, Sun, Droplets, Wind, Recycle, CheckCircle, Award } from "l
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-commercial-construction-in-tampa/' },
@@ -370,6 +371,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="eco-friendly-commercial-construction-in-tampa" />
     </>
   );
 }

@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-ruskin/' },
@@ -135,6 +136,7 @@ export default function HistoricRestorationRuskinPage() {
           <div className="mt-8 pt-8 border-t border-white/20"><div className="flex flex-wrap gap-6 justify-center text-sm text-gray-300"><span>License {BUSINESS_INFO.licenseNumber}</span><span>Ruskin Headquartered</span><span>{BUSINESS_INFO.yearsInBusiness}+ Years Experience</span><span>Prime Contractor Only</span></div></div>
         </div>
       </section>
+    <RelatedArticles pageSlug="historic-restoration-ruskin" />
     </>
   );
 }

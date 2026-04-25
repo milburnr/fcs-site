@@ -32,6 +32,7 @@ import {
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/condo-remediation/' },
@@ -1086,6 +1087,7 @@ export default function CondoRemediationPage() {
           />
         </div>
       </section>
+    <RelatedArticles pageSlug="condo-remediation" />
     </>
   );
 }

@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Home, Shield, FileText, Wrench } fro
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/' },
@@ -453,6 +454,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="roof-damage-restoration-and-insurance-claims-in-tampa" />
     </>
   );
 }

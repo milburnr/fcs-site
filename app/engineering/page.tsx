@@ -23,6 +23,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/engineering/' },
@@ -640,6 +641,7 @@ export default function EngineeringCoordinationPage() {
           </div>
         </div>
       </section>
+<RelatedArticles pageSlug="engineering" />
 </>
   );
 }

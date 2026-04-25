@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/home-additions/' },
   title: "Home Additions Tampa | Room Additions & Expansions",
@@ -354,6 +355,7 @@ export default function HomeAdditionsPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="home-additions" />
     </>
   );
 }

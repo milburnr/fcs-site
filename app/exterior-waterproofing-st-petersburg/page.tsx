@@ -8,6 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
@@ -336,6 +337,7 @@ export default function ExteriorWaterproofingStPetersburgPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="exterior-waterproofing-st-petersburg" />
     </>
   );
 }

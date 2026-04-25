@@ -8,6 +8,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
 import { AuthorByline } from "@/components/AuthorByline";
 import { BackToHub } from "@/components/BackToHub";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/sb4d-compliance/checklist/' },
@@ -444,6 +445,7 @@ export default function SB4DChecklistPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="checklist" />
     </>
   );
 }

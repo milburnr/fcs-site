@@ -6,6 +6,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
@@ -680,6 +681,7 @@ export default function CertifiedEstimatesPage() {
           </div>
         </div>
       </section>
+<RelatedArticles pageSlug="certified-estimates" />
 </>
   );
 }

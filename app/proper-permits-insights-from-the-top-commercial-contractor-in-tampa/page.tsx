@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, FileText, Scale, Shield, Clock, Doll
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/' },
@@ -457,6 +458,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="proper-permits-insights-from-the-top-commercial-contractor-in-tampa" />
     </>
   );
 }

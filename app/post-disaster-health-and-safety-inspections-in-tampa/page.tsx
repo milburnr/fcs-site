@@ -5,6 +5,7 @@ import { Phone, CheckCircle, AlertTriangle, Shield, ClipboardCheck, Building2, D
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/' },
@@ -480,6 +481,7 @@ export default function Page() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="post-disaster-health-and-safety-inspections-in-tampa" />
     </>
   );
 }

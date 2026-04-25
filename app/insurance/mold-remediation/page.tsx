@@ -7,6 +7,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { Phone, AlertTriangle, Shield, Building2, Wind, Droplets, CheckCircle } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/mold-remediation/' },
@@ -305,6 +306,7 @@ export default function MoldRemediationPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="mold-remediation" />
     </>
   );
 }

@@ -9,6 +9,7 @@ import { CodeReference } from "@/components/CodeReference";
 import { BackToHub } from "@/components/BackToHub";
 import { InternalLinks } from "@/components/InternalLinks";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/inspection-process/" },
@@ -606,6 +607,7 @@ export default function SB4DInspectionProcessPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="inspection-process" />
     </>
   );
 }

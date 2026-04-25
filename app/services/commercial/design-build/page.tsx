@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/design-build/' },
   title: "Design-Build Construction Tampa",
@@ -482,6 +483,7 @@ export default function DesignBuildPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="design-build" />
     </>
   );
 }

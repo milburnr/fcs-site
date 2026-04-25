@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQ } from "@/components/FAQ";
 
 import { InternalLinks } from "@/components/InternalLinks";
+import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/retail-construction/' },
   title: "Retail Construction Tampa | Shopping Centers & Stores",
@@ -351,6 +352,7 @@ export default function RetailConstructionPage() {
         </div>
       </section>
 
+    <RelatedArticles pageSlug="retail-construction" />
     </>
   );
 }

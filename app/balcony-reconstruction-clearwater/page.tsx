@@ -8,6 +8,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction-clearwater/' },
@@ -333,6 +334,7 @@ export default function BalconyReconstructionClearwaterPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="balcony-reconstruction-clearwater" />
     </>
   );
 }

@@ -11,6 +11,7 @@ import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { BUSINESS_INFO } from "@/lib/constants";
 import Link from "next/link";
 import { Phone, Flame, Shield, Building2, Wind, Sparkles, Home, AlertTriangle, CheckCircle, Clock, FileText, Hammer, Users, Award, Droplets, Thermometer } from "lucide-react";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/fire-restoration/' },
@@ -527,6 +528,7 @@ export default function FireRestorationPage() {
           <InternalLinks title="Related Services" links={relatedLinks} />
         </div>
       </section>
+    <RelatedArticles pageSlug="fire-restoration" />
     </>
   );
 }

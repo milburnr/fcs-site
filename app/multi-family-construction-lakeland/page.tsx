@@ -7,6 +7,7 @@ import { Breadcrumb } from "@/components/Breadcrumb";
 import { FAQWithSchema } from "@/components/FAQ";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { BUSINESS_INFO } from "@/lib/constants";
+import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-lakeland/' },
@@ -324,6 +325,7 @@ export default function MultiFamilyConstructionLakelandPage() {
           </div>
         </div>
       </section>
+    <RelatedArticles pageSlug="multi-family-construction-lakeland" />
     </>
   );
 }
