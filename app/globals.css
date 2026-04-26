@@ -323,3 +323,14 @@
     scroll-behavior: auto !important;
   }
 }
+
+/* Hide LeadConnector chat widget when on pages that already have a
+   contact-form opt-in (A2P/SMS compliance: chat widget opt-in must be
+   the only opt-in on pages where it appears). Toggled by ChatWidget.tsx. */
+html[data-chat-hidden="1"] [class*="lc_text-widget"],
+html[data-chat-hidden="1"] [class*="lc-widget"],
+html[data-chat-hidden="1"] [id*="lc_text-widget"],
+html[data-chat-hidden="1"] iframe[src*="leadconnectorhq.com"],
+html[data-chat-hidden="1"] iframe[src*="msgsndr.com"] {
+  display: none !important;
+}

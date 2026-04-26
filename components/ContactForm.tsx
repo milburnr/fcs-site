@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Phone, Send, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO, SERVICES, LOCATIONS } from "@/lib/constants";
+import { useMarkContactForm } from "./useMarkContactForm";
 
 interface ContactFormProps {
   preselectedCity?: string;
@@ -11,6 +12,7 @@ interface ContactFormProps {
 }
 
 export function ContactForm({ preselectedCity, preselectedService, variant = "full" }: ContactFormProps) {
+  useMarkContactForm();
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
     projectType: preselectedService || "",

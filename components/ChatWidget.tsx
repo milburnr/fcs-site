@@ -1,53 +1,84 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef } from "react";
+import { usePathname } from "next/navigation";
+
+const WIDGET_ID = "696e669e9ec201ee9889bf3f";
+const WIDGET_LOADER = "https://widgets.leadconnectorhq.com/loader.js";
+const WIDGET_RESOURCES = "https://widgets.leadconnectorhq.com/chat-widget/loader.js";
 
 /**
  * ChatWidget - Loads LeadConnector chat widget with delayed loading
- * to avoid blocking Time to Interactive (TTI)
+ * to avoid blocking Time to Interactive (TTI).
+ *
+ * A2P/SMS compliance: the chat widget collects an opt-in, so on pages that
+ * already have a contact form (also an opt-in) we MUST NOT show it. Pages
+ * with a contact form mark `body[data-has-contact-form="1"]` via
+ * useMarkContactForm. We re-evaluate on every route change.
  *
  * Loads after:
  * - User interaction (scroll, click, mousemove, touchstart) OR
  * - 5 second timeout (whichever comes first)
  */
 export function ChatWidget() {
-  const [loaded, setLoaded] = useState(false);
+  const pathname = usePathname();
+  const loadedRef = useRef(false);
 
   useEffect(() => {
-    if (loaded) return;
+    if (typeof window === "undefined") return;
 
-    let timeoutId: NodeJS.Timeout;
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
+    let interactionListeners: Array<[string, EventListener]> = [];
+
+    const hasContactForm = () =>
+      document.body.hasAttribute("data-has-contact-form");
+
+    const setVisible = (visible: boolean) => {
+      document.documentElement.setAttribute(
+        "data-chat-hidden",
+        visible ? "0" : "1"
+      );
+    };
+
+    const cleanupListeners = () => {
+      interactionListeners.forEach(([e, h]) =>
+        window.removeEventListener(e, h)
+      );
+      interactionListeners = [];
+    };
 
     const loadWidget = () => {
-      if (loaded) return;
-      setLoaded(true);
+      cleanupListeners();
+      if (timeoutId) clearTimeout(timeoutId);
+      if (loadedRef.current) return;
+      // Re-check at load time — form may have just mounted
+      if (hasContactForm()) {
+        setVisible(false);
+        return;
+      }
+      loadedRef.current = true;
 
-      // Clean up listeners
-      window.removeEventListener("scroll", loadWidget);
-      window.removeEventListener("click", loadWidget);
-      window.removeEventListener("mousemove", loadWidget);
-      window.removeEventListener("touchstart", loadWidget);
-      clearTimeout(timeoutId);
-
-      // Create and inject the script
       const script = document.createElement("script");
-      script.src = "https://widgets.leadconnectorhq.com/loader.js";
-      script.setAttribute("data-resources-url", "https://widgets.leadconnectorhq.com/chat-widget/loader.js");
-      script.setAttribute("data-widget-id", "696e669e9ec201ee9889bf3f");
+      script.src = WIDGET_LOADER;
+      script.setAttribute("data-resources-url", WIDGET_RESOURCES);
+      script.setAttribute("data-widget-id", WIDGET_ID);
       script.async = true;
       document.body.appendChild(script);
+      setVisible(true);
 
       // Patch accessibility on injected chat widget elements
       const a11yObserver = new MutationObserver(() => {
-        // Add aria-labels to buttons without accessible names
-        const buttons = document.querySelectorAll('[class*="lc_"] button, [class*="lc_"][role="button"], [id*="lc-"] button');
+        const buttons = document.querySelectorAll(
+          '[class*="lc_"] button, [class*="lc_"][role="button"], [id*="lc-"] button'
+        );
         buttons.forEach((btn) => {
           if (!btn.getAttribute("aria-label") && !btn.textContent?.trim()) {
             btn.setAttribute("aria-label", "Open chat");
           }
         });
-        // Fix heading hierarchy issues from injected widget
-        const widgetHeadings = document.querySelectorAll('[class*="lc_"] h1, [class*="lc_"] h2, [class*="lc_"] h3, [id*="lc-"] h1, [id*="lc-"] h2, [id*="lc-"] h3');
+        const widgetHeadings = document.querySelectorAll(
+          '[class*="lc_"] h1, [class*="lc_"] h2, [class*="lc_"] h3, [id*="lc-"] h1, [id*="lc-"] h2, [id*="lc-"] h3'
+        );
         widgetHeadings.forEach((heading) => {
           if (!heading.getAttribute("role")) {
             heading.setAttribute("role", "presentation");
@@ -55,27 +86,35 @@ export function ChatWidget() {
         });
       });
       a11yObserver.observe(document.body, { childList: true, subtree: true });
-      // Stop observing after 15s to avoid unnecessary overhead
       setTimeout(() => a11yObserver.disconnect(), 15000);
     };
 
-    // Load on user interaction
-    window.addEventListener("scroll", loadWidget, { once: true, passive: true });
-    window.addEventListener("click", loadWidget, { once: true });
-    window.addEventListener("mousemove", loadWidget, { once: true, passive: true });
-    window.addEventListener("touchstart", loadWidget, { once: true, passive: true });
+    // Wait one tick for any contact-form components on the new route to
+    // mount and set the body attribute before evaluating.
+    const checkTimer = setTimeout(() => {
+      if (hasContactForm()) {
+        setVisible(false);
+        return;
+      }
+      setVisible(true);
+      if (loadedRef.current) return;
 
-    // Fallback: load after 5 seconds if no interaction
-    timeoutId = setTimeout(loadWidget, 5000);
+      const handler = () => loadWidget();
+      ["scroll", "click", "mousemove", "touchstart"].forEach((e) => {
+        const opts =
+          e === "click" ? { once: true } : { once: true, passive: true };
+        window.addEventListener(e, handler, opts);
+        interactionListeners.push([e, handler]);
+      });
+      timeoutId = setTimeout(loadWidget, 5000);
+    }, 250);
 
     return () => {
-      window.removeEventListener("scroll", loadWidget);
-      window.removeEventListener("click", loadWidget);
-      window.removeEventListener("mousemove", loadWidget);
-      window.removeEventListener("touchstart", loadWidget);
-      clearTimeout(timeoutId);
+      clearTimeout(checkTimer);
+      if (timeoutId) clearTimeout(timeoutId);
+      cleanupListeners();
     };
-  }, [loaded]);
+  }, [pathname]);
 
-  return null; // This component doesn't render anything visible
+  return null;
 }

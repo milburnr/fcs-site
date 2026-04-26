@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState, useRef } from "react";
+import { useMarkContactForm } from "./useMarkContactForm";
 
 declare global {
   interface Window {
@@ -56,6 +57,7 @@ export function HighLevelForm({
   className = "",
   height,
 }: HighLevelFormProps) {
+  useMarkContactForm();
   const config = FORMS[variant];
   const formHeight = height ?? config.height;
   const [isVisible, setIsVisible] = useState(false);
