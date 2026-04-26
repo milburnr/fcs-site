@@ -10,6 +10,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import type { Metadata } from "next";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration/' },
@@ -299,6 +300,12 @@ export default function HistoricRestorationPage() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="historic-restoration"
+        currentServiceName="Historic Restoration"
+      />
+
     <RelatedArticles pageSlug="historic-restoration" />
     </>
   );

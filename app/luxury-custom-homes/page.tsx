@@ -10,6 +10,7 @@ import { ContentParallax } from "@/components/ContentImage";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import type { Metadata } from "next";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes/' },
@@ -1486,6 +1487,12 @@ export default function LuxuryCustomHomesPage() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="luxury-custom-homes"
+        currentServiceName="Luxury Custom Homes"
+      />
+
     <RelatedArticles pageSlug="luxury-custom-homes" />
     </>
   );

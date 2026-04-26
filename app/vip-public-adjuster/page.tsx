@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/vip-public-adjuster/' },
@@ -437,6 +438,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="insurance-restoration"
+        currentServiceName="Insurance Restoration"
+      />
+
     <RelatedArticles pageSlug="vip-public-adjuster" />
     </>
   );

@@ -7,6 +7,7 @@ import { FAQ } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
@@ -681,6 +682,12 @@ export default function CertifiedEstimatesPage() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="insurance-restoration"
+        currentServiceName="Insurance Restoration"
+      />
+
 <RelatedArticles pageSlug="certified-estimates" />
 </>
   );

@@ -11,6 +11,7 @@ import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery/' },
@@ -1940,6 +1941,12 @@ export default function DisasterRecoveryPage() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="disaster-recovery"
+        currentServiceName="Disaster Recovery"
+      />
+
     <RelatedArticles pageSlug="disaster-recovery" />
     </>
   );

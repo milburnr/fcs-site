@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/' },
@@ -491,6 +492,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="insurance-restoration"
+        currentServiceName="Insurance Restoration"
+      />
+
     <RelatedArticles pageSlug="property-damage-assessment-for-insurance-claims-in-tampa" />
     </>
   );

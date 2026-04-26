@@ -5,13 +5,13 @@ import { HeroSlideshow } from "./HeroSlideshow";
 import { HomePageClient } from "./HomePageClient";
 
 export const metadata: Metadata = {
-  title: "Tampa Commercial Construction",
+  title: "Tampa Bay Commercial Construction | FCS",
   description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects from $500K to $25M+.",
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/",
   },
   openGraph: {
-    title: "Tampa Commercial Construction",
+    title: "Tampa Bay Commercial Construction | FCS",
     description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects from $500K to $25M+.",
     url: "https://floridaconstructionspecialists.com/",
     type: "website",

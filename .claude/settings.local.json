@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netlify status:*)",
+      "Bash(netlify api:*)",
+      "Bash(curl:*)"
+    ]
+  }
+}

@@ -21,6 +21,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { InternalLinks } from "@/components/InternalLinks";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/our-process/' },
@@ -557,6 +558,11 @@ export default function OurProcessPage() {
         </div>
       </section>
 
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="commercial-construction"
+        currentServiceName="Commercial Construction"
+      />
     </>
   );
 }

@@ -11,6 +11,7 @@ import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { CodeReference } from "@/components/CodeReference";
 import type { Metadata } from "next";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction/' },
@@ -1031,6 +1032,12 @@ export default function BalconyReconstructionPage() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="balcony-reconstruction"
+        currentServiceName="Balcony Reconstruction"
+      />
+
     <RelatedArticles pageSlug="balcony-reconstruction" />
     </>
   );

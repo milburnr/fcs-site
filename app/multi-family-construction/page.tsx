@@ -9,6 +9,7 @@ import { ServiceAreaLinks } from "@/components/InternalLinks";
 import { ContentParallax } from "@/components/ContentImage";
 import type { Metadata } from "next";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
@@ -1126,6 +1127,12 @@ export default function MultiFamilyConstructionPage() {
           </p>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="multi-family-construction"
+        currentServiceName="Multi-Family Construction"
+      />
+
     <RelatedArticles pageSlug="multi-family-construction" />
     </>
   );

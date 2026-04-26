@@ -27,6 +27,23 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# Block WordPress plugin/theme paths — 410 tells Google these are permanently gone
+# (wp-content/uploads/* is proxied to R2 in public/_redirects and must stay)
+[[redirects]]
+  from = "/wp-content/plugins/*"
+  to = "/404/"
+  status = 410
+
+[[redirects]]
+  from = "/wp-content/themes/*"
+  to = "/404/"
+  status = 410
+
+[[redirects]]
+  from = "/wp-includes/*"
+  to = "/404/"
+  status = 410
+
 # Trailing slashes
 [[redirects]]
   from = "/*"

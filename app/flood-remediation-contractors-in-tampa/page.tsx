@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
@@ -439,6 +440,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="disaster-recovery"
+        currentServiceName="Disaster Recovery"
+      />
+
     <RelatedArticles pageSlug="flood-remediation-contractors-in-tampa" />
     </>
   );

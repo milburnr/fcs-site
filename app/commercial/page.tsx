@@ -31,6 +31,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { InternalLinks } from "@/components/InternalLinks";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 const commercialGalleryPhotos: GalleryPhoto[] = [
   { src: "/images/1-8/1-8", caption: "Commercial construction with formwork and tower crane" },
@@ -629,6 +630,12 @@ export default function CommercialHubPage() {
           />
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="commercial-construction"
+        currentServiceName="Commercial Construction"
+      />
+
 
     <RelatedArticles pageSlug="commercial" />
     </>

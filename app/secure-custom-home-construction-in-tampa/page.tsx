@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/secure-custom-home-construction-in-tampa/' },
@@ -442,6 +443,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="luxury-custom-homes"
+        currentServiceName="Luxury Custom Homes"
+      />
+
     <RelatedArticles pageSlug="secure-custom-home-construction-in-tampa" />
     </>
   );

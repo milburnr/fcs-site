@@ -6,6 +6,7 @@ import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
+import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/proper-permits-insights-from-the-top-commercial-contractor-in-tampa/' },
@@ -458,6 +459,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <RelatedServiceLocations
+        currentCity="Tampa"
+        currentService="commercial-construction"
+        currentServiceName="Commercial Construction"
+      />
+
     <RelatedArticles pageSlug="proper-permits-insights-from-the-top-commercial-contractor-in-tampa" />
     </>
   );
