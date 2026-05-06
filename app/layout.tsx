@@ -61,13 +61,15 @@ export default function RootLayout({
       <head>
         {/* Hero preload removed — React auto-generates one from fetchPriority="high" on the <img> */}
 
-        {/* Google Analytics 4 — use lazyOnload to avoid preload link that steals hero bandwidth
-            afterInteractive generates <link rel="preload"> for GTM (149KB), killing LCP on mobile */}
+        {/* Google Analytics 4 — afterInteractive so every pageview is recorded.
+            Prior comment claimed afterInteractive "kills LCP" via a GTM preload;
+            that's a GTM-container concern and doesn't apply to this direct gtag.js
+            setup. Measurement integrity > marginal LCP gain. (2026-05-06 diagnostic) */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-SF1MH0NQ35"
-          strategy="lazyOnload"
+          strategy="afterInteractive"
         />
-        <Script id="gtag-init" strategy="lazyOnload">
+        <Script id="gtag-init" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
