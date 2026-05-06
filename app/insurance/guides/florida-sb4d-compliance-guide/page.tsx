@@ -187,20 +187,6 @@ export default function SB4DCompliancePage() {
     { name: "SB4-D Compliance Guide", href: "/insurance/guides/florida-sb4d-compliance-guide/" },
   ];
 
-  // FAQ Schema
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
   return (
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
@@ -209,12 +195,6 @@ export default function SB4DCompliancePage() {
         serviceDescription="Complete SB4-D compliance services including milestone inspections, SIRS assessments, and structural remediation for Tampa Bay condominiums"
         minPrice="5000"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
-      
       <ArticleSchema
         headline="Florida SB4-D Compliance Guide | Condo Milestone Inspections & SIRS | FCS"
         description="Complete guide to Florida SB4-D compliance for condo associations. Milestone inspections, SIRS requirements, deadlines, and remediation planning for Tampa Bay."

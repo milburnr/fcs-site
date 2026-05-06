@@ -129,7 +129,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
@@ -154,7 +154,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -165,20 +165,6 @@ export default function FEMA50PercentRulePage() {
     { name: "FEMA Compliance", href: "/disaster-recovery/" },
     { name: "50% Rule Explained", href: "/insurance/guides/fema-50-percent-rule-explained/" },
   ];
-
-  // FAQ Schema
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
 
   return (
     <>
@@ -196,10 +182,6 @@ export default function FEMA50PercentRulePage() {
         slug="/insurance/guides/fema-50-percent-rule-explained/"
       />
       <FAQSchema faqs={faqs} />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
 
       <Breadcrumb items={breadcrumbItems} />
 

@@ -213,6 +213,8 @@ export function ArticleSchema({
   slug = "/",
   imageUrl,
 }: ArticleSchemaProps) {
+  // Google rich-results requires Article.image; fall back to the site OG image.
+  const finalImageUrl = imageUrl || "https://floridaconstructionspecialists.com/og-image.jpg";
   const schema = {
     "@context": "https://schema.org",
     "@type": "Article",
@@ -237,12 +239,10 @@ export function ArticleSchema({
       "@type": "WebPage",
       "@id": `https://floridaconstructionspecialists.com${slug}`,
     },
-    ...(imageUrl && {
-      "image": {
-        "@type": "ImageObject",
-        "url": imageUrl,
-      },
-    }),
+    "image": {
+      "@type": "ImageObject",
+      "url": finalImageUrl,
+    },
   };
 
   return (
@@ -264,23 +264,11 @@ interface FAQSchemaProps {
 }
 
 export function FAQSchema({ faqs }: FAQSchemaProps) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": faqs.map((faq) => ({
-      "@type": "Question",
-      "name": faq.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": faq.answer,
-      },
-    })),
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  // FAQPage schema removed 2026-05-06: Google's 2023 update restricts
+  // FAQ rich results to government and health sites; the schema is now
+  // overhead/risk for non-eligible domains. Visible FAQ JSX in callers is
+  // unaffected — Google can still cite Q&A from the page body. The
+  // signature is preserved so all 292 callers keep compiling.
+  void faqs;
+  return null;
 }

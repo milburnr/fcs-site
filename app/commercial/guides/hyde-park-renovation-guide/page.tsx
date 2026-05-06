@@ -176,7 +176,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
@@ -213,20 +213,6 @@ export default function HydeParkRenovationGuidePage() {
     { name: "Hyde Park Guide", href: "/commercial/guides/hyde-park-renovation-guide/" },
   ];
 
-  // FAQ Schema
-  const faqSchema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: faqs.map((faq) => ({
-      "@type": "Question",
-      name: faq.question,
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: faq.answer,
-      },
-    })),
-  };
-
   return (
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
@@ -235,12 +221,6 @@ export default function HydeParkRenovationGuidePage() {
         serviceDescription="Expert historic renovation services for Hyde Park Tampa homes with ARC compliance and Certificate of Appropriateness coordination"
         minPrice="100000"
       />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-      />
-
-      
       <ArticleSchema
         headline="Hyde Park Renovation Guide | ARC Guidelines & Historic Tampa | FCS"
         description="Complete guide to renovating in Hyde Park Tampa. ARC approval process, Certificate of Appropriateness, historic district requirements, and period-accurate restoration."
