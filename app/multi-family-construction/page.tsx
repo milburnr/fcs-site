@@ -93,7 +93,7 @@ export default function MultiFamilyConstructionPage() {
       />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Multi-Family Construction", href: "/multi-family-construction/" },
       ]} />
 
@@ -1084,7 +1084,7 @@ export default function MultiFamilyConstructionPage() {
             {LOCATIONS.map((location) => (
               <Link
                 key={location.slug}
-                href={`/locations/${location.slug}/multi-family-construction/`}
+                href={`/multi-family-construction-${location.slug.replace(/-fl$/, '')}/`}
                 className="flex items-center gap-2 p-4 bg-gray-50 rounded-lg hover:bg-brand-green-bg transition-colors group"
               >
                 <MapPin className="w-5 h-5 text-brand-green group-hover:text-brand-green-dark" />
@@ -1126,7 +1126,16 @@ export default function MultiFamilyConstructionPage() {
             Licensed Florida General Contractor #{BUSINESS_INFO.licenseNumber} | Serving Florida Since {BUSINESS_INFO.foundingDate}
           </p>
         </div>
+            {/* auto-linker:start */}
+      <section className="auto-linked-related my-8">
+        <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
+        <ul className="list-disc pl-6 space-y-2">
+          {/* auto-link:modern-construction */}
+          <li><a href="/resources/modern-construction/" className="text-blue-700 underline">What Is Modern Construction? Methods & Expectations</a></li>
+        </ul>
       </section>
+      {/* auto-linker:end */}
+</section>
       <RelatedServiceLocations
         currentCity="Tampa"
         currentService="multi-family-construction"
