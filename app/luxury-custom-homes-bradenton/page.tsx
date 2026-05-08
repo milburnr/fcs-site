@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/luxury-custom-homes-bradenton/' },
   title: "Luxury Custom Homes Bradenton | Lakewood Ranch",
-  description: "Luxury custom home construction in Bradenton by Florida Construction Specialists. Lakewood Ranch estates Anna Maria Island builds riverfront homes.",
+  description: "Luxury custom home builder in Bradenton, FL — Lakewood Ranch estates, Anna Maria Island, and waterfront properties. We manage all permits from start to finish.",
   openGraph: {
     title: "Luxury Custom Homes Bradenton | Lakewood Ranch",
     description: "Luxury custom home construction in Bradenton by Florida Construction Specialists. Lakewood Ranch estates Anna Maria Island builds riverfront homes.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
   { name: "Bradenton", href: "/luxury-custom-homes-bradenton/" },
 ];
@@ -72,7 +72,7 @@ export default function LuxuryCustomHomesBradentonPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-3/custom-home-construction-3-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-3/custom-home-construction-3-large.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
           <div className="max-w-4xl mt-8">
@@ -143,7 +143,7 @@ export default function LuxuryCustomHomesBradentonPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/custom-home-construction-3/custom-home-construction-3-display.webp"
+        src="/images/custom-home-construction-3/custom-home-construction-3-large.webp"
         alt="Luxury custom home construction in the Bradenton area"
         title="Crafting Bradenton's Finest Residences"
         subtitle="Lakewood Ranch estates, Anna Maria Island builds, and Manatee River waterfront homes"
