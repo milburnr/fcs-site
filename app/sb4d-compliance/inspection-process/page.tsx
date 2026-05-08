@@ -14,7 +14,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/inspection-process/" },
   title: "Milestone Inspection & SIRS Process Guide",
-  description: "Understand the SB4-D milestone inspection and SIRS process. Phase 1 visual inspection Phase 2 detailed examination remediation timelines.",
+  description: "Florida's SB4-D milestone inspection and SIRS process: Phase 1 visual assessment, Phase 2 detailed engineering examination, and remediation timelines explained.",
   openGraph: {
     title: "Milestone Inspection & SIRS Process Guide",
     description: "Understand the SB4-D milestone inspection and SIRS process. Phase 1 visual inspection Phase 2 detailed examination remediation timelines.",
