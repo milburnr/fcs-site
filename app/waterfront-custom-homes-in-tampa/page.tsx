@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/waterfront-custom-homes-in-tampa/' },
   title: "Waterfront Custom Homes in Tampa",
-  description: "Waterfront Custom Homes Luxury Bayfront Living in Tampa: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1982. Read more.",
+  description: "Waterfront custom homes and luxury bayfront living in Tampa: design-build, renovations & insurance restoration. CBC-licensed, trusted since 1982.",
   openGraph: {
     title: "Waterfront Custom Homes in Tampa",
     description: "Waterfront Custom Homes Luxury Bayfront Living in Tampa: insurance restoration, design-build, and renovations. CBC-licensed, trusted since 1982. Read more.",
@@ -29,7 +29,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/luxury-custom-homes/", label: "Waterfront Home Construction" },
-  { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Construction" },
+  { href: "/residential/guides/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Construction" },
   { href: "/services/residential/hurricane-resistant-construction/", label: "Hurricane-Resistant Building" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Home Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
