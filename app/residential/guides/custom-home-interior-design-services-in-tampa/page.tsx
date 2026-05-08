@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-interior-design-services-in-tampa/' },
   title: "Custom Home Interior Design Tampa | Luxury",
-  description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results.",
+  description: "Luxury interior design for Tampa custom homes. From concept to installation — materials, millwork, fixtures, and furniture coordinated with your construction schedule.",
   openGraph: {
     title: "Custom Home Interior Design Tampa | Luxury",
     description: "Custom Home Interior Design Luxury in Tampa: turnkey construction solutions for commercial properties. Licensed CBC, proven results.",
