@@ -21,7 +21,7 @@ import {
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/building-consultant/' },
   title: "Building Consultant | Insurance Claims Expert",
-  description: "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  description: "Licensed building consultant serving Tampa Bay property owners through insurance claims. Professional damage assessment, Xactimate estimates, and expert advocacy. 40+ years of CBC experience.",
   openGraph: {
     title: "Building Consultant | Insurance Claims Expert",
     description: "Building Consultant Insurance Claims Expert across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
@@ -92,7 +92,7 @@ const relatedLinks = [
   { href: "/insurance/", label: "Insurance Services Overview" },
   { href: "/insurance/certified-estimating/", label: "Certified Estimating" },
   { href: "/insurance/appraisal-arbitration/", label: "Appraisal & Arbitration" },
-  { href: "/expert-witness/", label: "Expert Witness" },
+  { href: "/other-services/", label: "Expert Witness" },
 ];
 
 export default function BuildingConsultantPage() {
@@ -121,9 +121,7 @@ export default function BuildingConsultantPage() {
               <span className="text-blue-200 font-medium">Property Owner Advocate</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Building Consultant
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Building Consultant for Insurance Claims</h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
               Expert construction consulting for insurance claims. We assess damage, develop repair scopes, 
