@@ -11,8 +11,8 @@ import { CodeReference } from "@/components/CodeReference";
 import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/commercial/industrial-construction/' },
-  title: "Industrial Construction Tampa | Warehouse",
-  description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  title: "Industrial Construction Tampa | Licensed Contractors",
+  description: "Full-service industrial and warehouse construction across Tampa Bay. Licensed CBC contractor with over 40 years of commercial experience.",
   openGraph: {
     title: "Industrial Construction Tampa | Warehouse",
     description: "Industrial Construction Warehouse across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Commercial Construction", href: "/commercial/" },
   { name: "Industrial Construction", href: "/services/commercial/industrial-construction/" },
 ];
