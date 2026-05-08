@@ -30,9 +30,9 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/flood-zone-ve-vs-ae-guide/' },
-  title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
+  title: "Flood Zone VE vs AE: Guide for Tampa Bay Homeowners",
   description:
-    "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements elevation rules and insurance implications.",
+    "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements, elevation rules, and insurance implications explained.",
   openGraph: {
     title: "Flood Zone VE vs AE Tampa Bay | Waterfront",
     description: "Understanding the difference between VE and AE flood zones for Tampa Bay homeowners. Construction requirements elevation rules and insurance implications.",
@@ -307,7 +307,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -346,7 +346,7 @@ export default function FloodZoneVEvsAEGuidePage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
