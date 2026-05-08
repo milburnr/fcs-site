@@ -8,7 +8,7 @@ import classificationData from "@/seo/article-classification.json";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/' },
-  title: "Insurance Restoration Guides",
+  title: "Tampa Bay Insurance Restoration Guides & Resources",
   description: "Expert insurance restoration guides for Tampa Bay. Browse our library of articles on property claims, disaster recovery, storm damage repair, and more.",
   openGraph: {
     title: "Insurance Restoration Guides",
