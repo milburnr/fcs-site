@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-bradenton/' },
   title: "Commercial Construction Bradenton | Lakewood Ranch",
-  description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development downtown revitalization medical facilities.",
+  description: "Commercial construction in Bradenton and Lakewood Ranch by Florida Construction Specialists — expert permitting across city and Manatee County jurisdictions.",
   openGraph: {
     title: "Commercial Construction Bradenton | Lakewood Ranch",
     description: "Commercial construction in Bradenton by Florida Construction Specialists. Lakewood Ranch development downtown revitalization medical facilities.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Commercial Construction", href: "/commercial/" },
   { name: "Bradenton", href: "/commercial-construction-bradenton/" },
 ];
