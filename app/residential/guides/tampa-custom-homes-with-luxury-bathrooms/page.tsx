@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-luxury-bathrooms/' },
-  title: "Tampa Custom Homes Luxury Bathrooms | Spa",
+  title: "Tampa Custom Homes with Luxury Spa Bathrooms | FCS",
   description: "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today.",
   openGraph: {
     title: "Tampa Custom Homes Luxury Bathrooms | Spa",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Luxury Master Suites" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
-  { href: "/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
+  { href: "/residential/guides/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];
