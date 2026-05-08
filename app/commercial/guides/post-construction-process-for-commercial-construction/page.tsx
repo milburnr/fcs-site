@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-construction-process-for-commercial-construction/' },
-  title: "The Ultimate Guide to Post Construction Process",
-  description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC.",
+  title: "Post-Construction Process for Commercial Construction in Florida",
+  description: "A step-by-step guide to Florida commercial post-construction: punch lists, HVAC commissioning, CO readiness, and document packages — from FCS, licensed CBC.",
   openGraph: {
     title: "The Ultimate Guide to Post Construction Process",
     description: "Get your commercial construction project in Florida completed smoothly with the essential post. Insights from FCS, a trusted licensed CBC.",
