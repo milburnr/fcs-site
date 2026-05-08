@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
-  description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
+  description: "Why Portland cement harms historic brick, how to spot improper repointing, and when mortar analysis matters for Tampa historic tax credit projects.",
   openGraph: {
     title: "Historic Masonry Restoration Techniques in Tampa",
     description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
