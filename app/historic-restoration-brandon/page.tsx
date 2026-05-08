@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-brandon/' },
-  title: "Historic Restoration Brandon | Older Buildings",
-  description: "Historic restoration and older building renovation in Brandon FL. Pre-1980s commercial restoration adaptive reuse.",
+  title: "Brandon Historic Restoration | Older Building Renovation",
+  description: "Older building renovation and historic restoration services in Brandon, FL. Pre-1980s commercial and residential properties, adaptive reuse, code-compliant upgrades.",
   openGraph: {
     title: "Historic Restoration Brandon | Older Buildings",
     description: "Historic restoration and older building renovation in Brandon FL. Pre-1980s commercial restoration adaptive reuse.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Historic Restoration", href: "/historic-restoration/" },
   { name: "Brandon", href: "/historic-restoration-brandon/" },
 ];
