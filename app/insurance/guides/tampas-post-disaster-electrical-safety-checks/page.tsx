@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-post-disaster-electrical-safety-checks/' },
-  title: "Post-Disaster Electrical Safety Tampa | Hurricane",
-  description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982.",
+  title: "Tampa Post-Disaster Electrical Safety Checks | Hurricane",
+  description: "Post-disaster electrical safety checks in Tampa from FCS. Licensed inspectors evaluate panels, wiring, and GFCIs after hurricanes—serving Florida since 1982.",
   openGraph: {
     title: "Post-Disaster Electrical Safety Tampa | Hurricane",
     description: "Professional post-disaster electrical safety checks in Bay in Tampa. Professional advice from FCS, serving clients since 1982.",
@@ -57,7 +57,7 @@ const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/post-disaster-health-and-safety-inspections-in-tampa/", label: "Post-Disaster Safety Inspections" },
   { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
 
@@ -79,7 +79,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Post-disaster electrical safety inspection in Tampa"
             fill
             className="object-cover"
