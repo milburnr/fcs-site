@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/roof-damage-restoration-and-insurance-claims-in-tampa/' },
   title: "Roof Damage Restoration Tampa | Insurance Claims",
-  description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years.",
+  description: "Tampa roof damage restoration: 24/7 emergency tarping, insurance claim documentation, and full commercial roofing repairs. Licensed CBC, 40+ years.",
   openGraph: {
     title: "Roof Damage Restoration Tampa | Insurance Claims",
     description: "Roof Damage Restoration Insurance Claims in Tampa: expert project management, design-build, and renovations. Licensed CBC, 40+ years.",
@@ -54,7 +54,7 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Hurricane Damage Services" },
   { href: "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/", label: "Insurance Restoration" },
   { href: "/property-damage-assessment-for-insurance-claims-in-tampa/", label: "Damage Assessment Services" },
-  { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
+  { href: "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
 
@@ -68,7 +68,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Roof damage restoration and insurance claims in Tampa"
             fill
             className="object-cover"
