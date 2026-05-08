@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/' },
-  title: "Choosing a Builder Expert Commercial Construction",
-  description: "Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.",
+  title: "Choosing a Commercial Builder in Tampa | Expert Guide",
+  description: "Florida Construction Specialists guides you through choosing a commercial builder in Tampa — red flags, key questions, and what to look for.",
   openGraph: {
     title: "Choosing a Builder Expert Commercial Construction",
     description: "Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.",
@@ -61,9 +61,7 @@ export default function Page() {
           <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
         </div>
         <div className="container-custom text-center text-white relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Choosing a Builder Expert Commercial Construction in Tampa by Florida Construction Specialists
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">How to Choose a Commercial Builder in Tampa</h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Choose Florida Construction Specialists, the expert in choosing a builder, home construction, contractor selection, and finding a reliable builder.
