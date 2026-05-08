@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/pet-friendly-home-designs-in-tampa/' },
   title: "Pet-Friendly Home Designs Tampa | Custom Homes",
-  description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982.",
+  description: "Explore pet-friendly home designs for Tampa homeowners — dedicated wash stations, built-in feeding stations, non-slip surfaces, and secure outdoor spaces.",
   openGraph: {
     title: "Pet-Friendly Home Designs Tampa | Custom Homes",
     description: "Pet-friendly Home Designs Custom Homes in Tampa: insurance restoration, design-build, and renovations. Licensed CBC since 1982.",
