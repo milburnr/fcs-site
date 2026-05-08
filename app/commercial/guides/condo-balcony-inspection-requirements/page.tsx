@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-balcony-inspection-requirements/' },
   title: "Condo Balcony Inspection Florida | SB 4-D",
   description:
-    "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+    "Florida's SB 4-D requires mandatory balcony inspections for condos. Learn the inspection timelines, structural requirements, and how to stay compliant.",
   openGraph: {
     title: "Condo Balcony Inspection Florida | SB 4-D",
     description: "Discover condo balcony inspection florida sb 4-d with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
