@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-disaster-damage-assessment-services/' },
-  title: "Tampa Disaster Damage Assessment Services",
-  description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes floods.",
+  title: "Tampa Disaster Damage Assessment – Certified Engineers",
+  description: "Certified Tampa damage assessment engineers with 43 years of insurance industry experience. We document all damage types to maximize your insurance claim settlement.",
   openGraph: {
     title: "Tampa Disaster Damage Assessment Services",
     description: "Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes floods.",
@@ -53,7 +53,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
