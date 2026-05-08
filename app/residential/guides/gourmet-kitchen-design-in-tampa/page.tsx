@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/gourmet-kitchen-design-in-tampa/' },
   title: "Gourmet Kitchen Design in Tampa",
-  description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+  description: "Custom gourmet kitchens in Tampa — pro-grade appliances, bespoke cabinetry, and premium stone surfaces. New construction, renovations & insurance restoration. Licensed CBC since 1982.",
   openGraph: {
     title: "Gourmet Kitchen Design in Tampa",
     description: "Gourmet Kitchen Design Luxury Custom Kitchens in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
@@ -32,7 +32,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Home Building" },
-  { href: "/high-end-home-construction-in-tampa/", label: "High-End Home Construction" },
+  { href: "/residential/guides/high-end-home-construction-in-tampa/", label: "High-End Home Construction" },
   { href: "/designing-your-dream-home-in-tampa/", label: "Dream Home Design" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
