@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-landscaping-solutions/' },
-  title: "Tampa Custom Home Landscaping | Luxury Outdoor",
-  description: "Custom Home Landscaping Luxury Outdoor: create stunning landscapes for your custom home. Professional guidance from FCS, licensed CBC.",
+  title: "Tampa Custom Home Landscaping Solutions | FCS",
+  description: "Create stunning custom home landscapes in Tampa. Expert design and installation from Florida Construction Specialists, licensed CBC contractor.",
   openGraph: {
     title: "Tampa Custom Home Landscaping | Luxury Outdoor",
     description: "Custom Home Landscaping Luxury Outdoor: create stunning landscapes for your custom home. Professional guidance from FCS, licensed CBC.",
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];
