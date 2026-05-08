@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/bespoke-architectural-design-in-tampa/' },
   title: "Bespoke Architectural Design Tampa | Commercial",
-  description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CBC, proven results. Contact us today.",
+  description: "Bespoke architectural design built for Tampa: hurricane-resistant, flood zone-compliant, and tailored to your specific business. Licensed CBC, proven results.",
   openGraph: {
     title: "Bespoke Architectural Design Tampa | Commercial",
     description: "Bespoke Architectural Design Commercial in Tampa: expert project management, design-build, and renovations. Licensed CBC, proven results. Contact us today.",
@@ -29,8 +29,8 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
-  { href: "/commercial-interior-design-in-tampa/", label: "Commercial Interior Design" },
-  { href: "/commercial-building-design-services-in-tampa/", label: "Commercial Design Services" },
+  { href: "/commercial/guides/commercial-interior-design-in-tampa/", label: "Commercial Interior Design" },
+  { href: "/commercial/guides/commercial-building-design-services-in-tampa/", label: "Commercial Design Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
