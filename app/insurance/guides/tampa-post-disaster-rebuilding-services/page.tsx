@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "Tampa Post-Disaster Rebuilding | Storm & Fire",
   openGraph: {
     title: "Tampa Post-Disaster Rebuilding | Storm & Fire",
-    description: "Secure your property against further damage",
+    description: "Tampa Bay commercial disaster restoration cost ranges for 2024. Storm, fire, and flood damage — what to expect and how insurance covers rebuilding.",
     url: "https://floridaconstructionspecialists.com/insurance/guides/tampa-post-disaster-rebuilding-services/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -111,7 +111,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Post-disaster commercial rebuilding in Tampa Bay"
             fill
             className="object-cover"
