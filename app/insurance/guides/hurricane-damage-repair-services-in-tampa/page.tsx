@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-damage-repair-services-in-tampa/' },
-  title: "Hurricane Damage Repair Services in Tampa",
-  description: "Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair.",
+  title: "Hurricane Damage Repair in Tampa | Insurance Restoration",
+  description: "Expert hurricane damage repair services in Tampa. We handle insurance claims, structural assessments, and complete storm damage restoration.",
   openGraph: {
     title: "Hurricane Damage Repair Services in Tampa",
     description: "Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair.",
@@ -53,7 +53,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
