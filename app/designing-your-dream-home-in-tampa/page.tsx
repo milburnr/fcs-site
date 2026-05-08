@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/designing-your-dream-home-in-tampa/' },
   title: "Designing Your Dream Home in Tampa",
-  description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
+  description: "Turn your vision into reality with Florida Construction Specialists — Tampa's custom home design and build experts, licensed CBC with 40+ years of experience.",
   openGraph: {
     title: "Designing Your Dream Home in Tampa",
     description: "Designing Your Dream Home Custom Home Design in Tampa: commercial and residential construction and restoration. Licensed CBC, 40+ years.",
