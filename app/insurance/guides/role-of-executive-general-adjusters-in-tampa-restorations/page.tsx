@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/role-of-executive-general-adjusters-in-tampa-restorations/' },
   title: "Executive General Adjusters Tampa | Large Loss",
-  description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982.",
+  description: "EGAs handle major Tampa commercial claims—but they work for the insurer, not you. Learn how they operate and when to get your own advocate.",
   openGraph: {
     title: "Executive General Adjusters Tampa | Large Loss",
     description: "Understanding the role of Executive General Adjusters (EGAs) in commercial property. Professional advice from FCS, serving clients since 1982.",
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Executive General Adjusters in Tampa restorations"
             fill
             className="object-cover"
