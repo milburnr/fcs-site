@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/your-top-choice-for-commercial-construction-in-tampa/' },
   title: "Your Top Choice for Commercial Construction in Tampa",
-  description: "We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay.",
+  description: "FCS delivers Tampa Bay commercial construction on time and on budget — backed by local expertise, transparent project management, and disciplined cost control.",
   openGraph: {
     title: "Your Top Choice for Commercial Construction in Tampa",
     description: "We specialize in top-notch commercial construction in Tampa. Trust Florida Construction Specialists, a full-service construction company serving Tampa Bay.",
