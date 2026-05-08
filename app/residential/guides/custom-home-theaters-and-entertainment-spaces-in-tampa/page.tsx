@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/' },
   title: "Custom Home Theaters and Entertainment Spaces in Tampa",
-  description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout.",
+  description: "Design and build a custom home theater or entertainment space in Tampa. Expert construction from initial planning through final installation — tailored to your vision.",
   openGraph: {
     title: "Custom Home Theaters and Entertainment Spaces in Tampa",
     description: "Custom Home Theaters and Entertainment Spaces services in Tampa, FL. Complete Construction Services From Pre-construction to Closeout.",
