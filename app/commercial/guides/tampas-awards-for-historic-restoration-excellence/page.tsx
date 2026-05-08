@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-awards-for-historic-restoration-excellence/' },
-  title: "Tampa&apos;s Awards for Historic Restoration",
-  description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
+  title: "Tampa's Awards for Historic Restoration Excellence",
+  description: "Discover Tampa's awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
   openGraph: {
     title: "Tampa&apos;s Awards for Historic Restoration",
     description: "Discover &apos;s awards for historic restoration excellence with Florida Construction Specialists. Licensed CBC, 40+ years of expertise.",
@@ -77,7 +77,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
