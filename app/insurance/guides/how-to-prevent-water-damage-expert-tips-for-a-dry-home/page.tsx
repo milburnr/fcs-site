@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/' },
-  title: "Prevent Water Damage Tampa | Commercial Tips",
-  description: "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  title: "How to Prevent Water Damage in Tampa | Expert Tips",
+  description: "Expert water damage prevention tips for Tampa commercial properties. Licensed CBC contractor, 40+ years of expertise. Call (813) 420-7561 for a quote.",
   openGraph: {
     title: "Prevent Water Damage Tampa | Commercial Tips",
     description: "Discover prevent water damage commercial tips with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
@@ -57,7 +57,7 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/insurance/guides/identifying-water-damage-signs-prevention-and-action/", label: "Identifying Water Damage" },
   { href: "/insurance/guides/tampas-structural-drying-services-post-flooding/", label: "Structural Drying Services" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
 
@@ -79,7 +79,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Preventing water damage in Tampa commercial properties"
             fill
             className="object-cover"
