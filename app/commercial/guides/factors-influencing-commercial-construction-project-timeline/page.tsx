@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/factors-influencing-commercial-construction-project-timeline/' },
-  title: "Factors Influencing Commercial Construction Project",
-  description: "Discover the top factors affecting commercial construction project length in Florida. From project delays to construction project timeline.",
+  title: "Factors Influencing Commercial Construction Timelines",
+  description: "Learn what drives commercial construction timelines in Florida — weather windows, permitting, material lead times, and contractor coordination.",
   openGraph: {
     title: "Factors Influencing Commercial Construction Project",
     description: "Discover the top factors affecting commercial construction project length in Florida. From project delays to construction project timeline.",
