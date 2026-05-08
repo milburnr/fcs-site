@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/' },
-  title: "FCS - Committed to the Tampa Community",
-  description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982.",
+  title: "Florida Construction Specialists: Committed to Tampa",
+  description: "Since 1982, FCS has built Tampa Bay through local hiring, apprenticeship programs, and commercial construction that puts community first. CBC licensed contractor.",
   openGraph: {
     title: "FCS - Committed to the Tampa Community",
     description: "- Committed to the Community in Tampa: complete construction services from pre-construction to closeout. Licensed CBC since 1982.",
@@ -54,7 +54,7 @@ const faqs = [
 
 const internalLinks = [
   { href: "/about/", label: "About Us" },
-  { href: "/services/", label: "Our Services" },
+  { href: "/commercial/", label: "Our Services" },
   { href: "/insurance/", label: "Disaster Recovery" },
   { href: "/commercial/guides/the-essential-role-of-florida-construction-specialists/", label: "Our Essential Role" },
   { href: "/contact/", label: "Contact Us" },
