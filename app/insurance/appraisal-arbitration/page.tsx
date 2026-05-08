@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/appraisal-arbitration/' },
   title: "Appraisal & Arbitration | Insurance Claim Disputes",
-  description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements.",
+  description: "Insurance claim low-balled or damages missed? Tampa Bay appraisal uses two appraisers and a neutral umpire for binding resolution. FCS explains when and how to invoke it.",
   openGraph: {
     title: "Appraisal & Arbitration | Insurance Claim Disputes",
     description: "Insurance claim appraisal and arbitration services in Tampa Bay. Resolve disputed claims and ensure fair settlements.",
@@ -66,7 +66,7 @@ const services = [
 const relatedLinks = [
   { href: "/insurance/", label: "Insurance Services Overview" },
   { href: "/insurance/certified-estimating/", label: "Certified Estimating" },
-  { href: "/expert-witness/", label: "Expert Witness" },
+  { href: "/other-services/", label: "Expert Witness" },
   { href: "/insurance/building-consultant/", label: "Building Consultant" },
 ];
 
