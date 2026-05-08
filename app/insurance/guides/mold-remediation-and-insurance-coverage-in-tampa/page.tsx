@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-and-insurance-coverage-in-tampa/' },
-  title: "Mold Remediation & Insurance Tampa | Commercial",
-  description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results.",
+  title: "Mold Remediation & Insurance Coverage in Tampa",
+  description: "Mold insurance coverage in Tampa depends on cause and response time. Covers MRSA assessment, containment, clearance testing, and reconstruction documentation.",
   openGraph: {
     title: "Mold Remediation & Insurance Tampa | Commercial",
     description: "Mold Remediation & Insurance Commercial in Tampa: design-build, pre-construction, and project management. Licensed CBC, proven results.",
@@ -81,7 +81,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Mold remediation and insurance coverage in Tampa"
             fill
             className="object-cover"
