@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/high-end-home-construction-in-tampa/' },
-  title: "High-End Home Construction in Tampa",
-  description: "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+  title: "High-End Home Construction in Tampa | Luxury Custom Builders",
+  description: "Luxury custom home construction in Tampa: $500K–$25M projects, design-build and pre-construction services. Licensed CBC, proven results.",
   openGraph: {
     title: "High-End Home Construction in Tampa",
     description: "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
