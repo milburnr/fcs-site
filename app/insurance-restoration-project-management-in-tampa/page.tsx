@@ -11,8 +11,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance-restoration-project-management-in-tampa/' },
-  title: "Insurance Restoration PM Tampa | Commercial",
-  description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC.",
+  title: "Insurance Restoration Project Management | Tampa Commercial",
+  description: "Commercial insurance restoration project management in Tampa. Professional docs, adjuster coordination, and claim settlements — 15–25% typically recovered. CBC licensed.",
   openGraph: {
     title: "Insurance Restoration PM Tampa | Commercial",
     description: "Insurance Restoration Pm Commercial in Tampa: new builds, renovations, and disaster recovery services. 40+ years, licensed CBC.",
@@ -75,7 +75,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Insurance restoration project management in Tampa"
             fill
             className="object-cover"
