@@ -10,8 +10,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/flood-remediation-contractors-in-tampa/' },
-  title: "Flood Remediation Tampa | Commercial Damage",
-  description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CBC contractor.",
+  title: "Flood Remediation Contractors in Tampa | CBC Licensed",
+  description: "24/7 flood remediation contractors in Tampa Bay serving commercial properties. Insurance restoration, water extraction & rebuilding. FL-licensed CBC.",
   openGraph: {
     title: "Flood Remediation Tampa | Commercial Damage",
     description: "Flood Remediation Commercial Damage in Tampa: insurance restoration, design-build, and renovations. FL-licensed CBC contractor.",
@@ -53,7 +53,7 @@ const faqs = [
 const internalLinks = [
   { href: "/disaster-recovery/", label: "Water Damage Services" },
   { href: "/insurance/guides/tampas-structural-drying-services-post-flooding/", label: "Structural Drying Services" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/insurance/guides/identifying-water-damage-signs-prevention-and-action/", label: "Identifying Water Damage" },
   { href: "/contact/", label: "Schedule Assessment" },
 ];
@@ -68,7 +68,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Flood remediation contractors in Tampa"
             fill
             className="object-cover"
