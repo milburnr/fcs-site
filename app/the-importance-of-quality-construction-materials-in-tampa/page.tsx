@@ -10,7 +10,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/the-importance-of-quality-construction-materials-in-tampa/' },
-  title: "Quality Construction Materials Tampa | Code",
+  title: "Quality Construction Materials Tampa | FBC Standards",
   description: "Learn why quality construction materials matter in Tampa's demanding climate. Florida Construction Specialists explains FBC requirements.",
   openGraph: {
     title: "Quality Construction Materials Tampa | Code",
@@ -53,7 +53,7 @@ const faqs = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
+  { href: "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
   { href: "/commercial/guides/ensuring-construction-site-safety-a-top-priority/", label: "Construction Safety" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
