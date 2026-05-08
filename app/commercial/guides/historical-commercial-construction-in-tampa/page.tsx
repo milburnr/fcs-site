@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-commercial-construction-in-tampa/' },
-  title: "Historic Commercial Construction Tampa",
-  description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+  title: "Tampa Historic Commercial Construction | Preservation Experts",
+  description: "30+ years serving Tampa's historic districts — Ybor City, Hyde Park & Franklin Street. Historic tax credits, adaptive reuse, and FL-licensed CBC contractor.",
   openGraph: {
     title: "Historic Commercial Construction Tampa",
     description: "Historic Commercial Construction Heritage Building in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
