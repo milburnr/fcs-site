@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/mold-remediation-services-in-tampa-after-flooding/' },
   title: "Mold Remediation Services in Tampa After Flooding",
-  description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal water damage cleanup.",
+  description: "Tampa mold remediation after flooding — certified specialists handle removal, insurance documentation, and post-remediation clearance testing. Call today.",
   openGraph: {
     title: "Mold Remediation Services in Tampa After Flooding",
     description: "Get expert Mold Remediation Services in Tampa after flooding-we specialize in mold removal water damage cleanup.",
@@ -57,7 +57,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -82,7 +82,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
