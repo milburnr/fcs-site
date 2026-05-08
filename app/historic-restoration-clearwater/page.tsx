@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration-clearwater/' },
   title: "Historic Restoration Clearwater | Preservation",
-  description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes downtown older buildings.",
+  description: "Clearwater historic restoration by Florida Construction Specialists — permits, code compliance, and exterior work for older homes and historic buildings.",
   openGraph: {
     title: "Historic Restoration Clearwater | Preservation",
     description: "Historic restoration in Clearwater by Florida Construction Specialists. Harbor Oaks historic homes downtown older buildings.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Historic Restoration", href: "/historic-restoration/" },
   { name: "Clearwater", href: "/historic-restoration-clearwater/" },
 ];
