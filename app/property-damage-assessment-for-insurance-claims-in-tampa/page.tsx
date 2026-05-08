@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/property-damage-assessment-for-insurance-claims-in-tampa/' },
   title: "Property Damage Assessment Tampa | Insurance Claims",
-  description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
+  description: "Tampa property damage assessment for insurance claims. We handle documentation, Xactimate estimates, and adjuster meetings so your claim meets Florida's 90-day deadline.",
   openGraph: {
     title: "Property Damage Assessment Tampa | Insurance Claims",
     description: "Property Damage Assessment Insurance Claims in Tampa: new construction, renovations, and insurance restoration. Licensed CBC since 1982.",
@@ -54,7 +54,7 @@ const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance/guides/tampa-insurance-restoration-for-hurricane-damage/", label: "Insurance Restoration Services" },
   { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Damage Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Damage Restoration" },
   { href: "/contact/", label: "Schedule Assessment" },
 ];
 
@@ -68,7 +68,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Property damage assessment for insurance claims in Tampa"
             fill
             className="object-cover"
