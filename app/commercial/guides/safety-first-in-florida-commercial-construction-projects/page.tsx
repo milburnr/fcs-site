@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/safety-first-in-florida-commercial-construction-projects/' },
-  title: "Safety First Florida Commercial | OSHA Tampa",
-  description: "Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CBC. Contact our team today.",
+  title: "Florida Commercial Construction Safety | OSHA Compliance",
+  description: "Florida ranks top 5 for construction fatalities. See how FCS's OSHA-compliant safety program addresses fall protection, struck-by hazards, and electrical safety on commercial sites.",
   openGraph: {
     title: "Safety First Florida Commercial | OSHA Tampa",
     description: "Learn how Florida Construction Specialists puts safety first in commercial construction. Insights from FCS, a trusted licensed CBC. Contact our team today.",
