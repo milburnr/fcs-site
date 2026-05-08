@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/environmental-considerations-in-tampa-insurance-restoration/' },
-  title: "Environmental Considerations",
-  description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists.",
+  title: "Environmental Considerations in Tampa Insurance Restoration",
+  description: "Asbestos, mold, lead paint, and green compliance requirements for Tampa commercial insurance restoration projects. Guidance from Florida Construction Specialists.",
   openGraph: {
     title: "Environmental Considerations",
     description: "Navigate environmental hazards during commercial restoration projects. Expert insights from Florida Construction Specialists.",
@@ -77,7 +77,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
