@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/custom-home-wine-cellars-in-tampa/' },
   title: "Custom Home Wine Cellars Tampa | Climate Control",
-  description: "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Contact us today.",
+  description: "Custom climate-controlled wine cellars in Tampa, built by a Licensed CBC contractor. Residential design and installation with proven results. Contact us today.",
   openGraph: {
     title: "Custom Home Wine Cellars Tampa | Climate Control",
     description: "Custom Home Wine Cellars Climate Control in Tampa: commercial and residential construction and restoration. Licensed CBC, proven results. Contact us today.",
@@ -29,8 +29,8 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
-  { href: "/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Entertainment Spaces" },
-  { href: "/crafting-custom-home-libraries-in-tampa/", label: "Custom Libraries" },
+  { href: "/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Entertainment Spaces" },
+  { href: "/residential/guides/crafting-custom-home-libraries-in-tampa/", label: "Custom Libraries" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
