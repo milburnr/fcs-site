@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/' },
-  title: "Structural Integrity Evaluation Tampa",
-  description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982.",
+  title: "Structural Integrity Evaluation in Tampa Post-Disaster",
+  description: "After a disaster, FCS assesses Tampa buildings for structural integrity — same-day safety checks to PE-stamped engineering reports. Trusted since 1982.",
   openGraph: {
     title: "Structural Integrity Evaluation Tampa",
     description: "Professional structural integrity evaluation in post-disaster in Tampa. Professional advice from FCS, serving clients since 1982.",
@@ -56,8 +56,8 @@ const faqs = [
 const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/property-damage-assessment-for-insurance-claims-in-tampa/", label: "Damage Assessment Services" },
-  { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Reconstruction" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Reconstruction" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Evaluation" },
 ];
 
@@ -79,7 +79,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Structural integrity evaluation in Tampa post-disaster"
             fill
             className="object-cover"
