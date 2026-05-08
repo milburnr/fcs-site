@@ -10,8 +10,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-contractors-in-tampa/' },
-  title: "Top Commercial Contractors Tampa 2024 | Guide",
-  description: "Find the best commercial contractors in Tampa Bay. Learn what makes a contractor top-rated how to evaluate them.",
+  title: "Top Commercial Contractors in Tampa Bay | FCS",
+  description: "Find top-rated commercial contractors in Tampa Bay. Learn what sets elite contractors apart—local permitting expertise, strong safety records, and high repeat client rates.",
   openGraph: {
     title: "Top Commercial Contractors Tampa 2024 | Guide",
     description: "Find the best commercial contractors in Tampa Bay. Learn what makes a contractor top-rated how to evaluate them.",
