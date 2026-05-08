@@ -17,8 +17,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-commercial-contractors/' },
-  title: "Commercial Waterproofing Tampa | High-Rise",
-  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC.",
+  title: "Commercial Waterproofing Tampa | High-Rise Experts",
+  description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condos and commercial buildings. FCS is a trusted licensed CBC in Florida.",
   openGraph: {
     title: "Commercial Waterproofing Tampa | High-Rise",
     description: "Expert commercial waterproofing contractors serving Tampa Bay high-rise condominiums and. Insights from FCS, a trusted licensed CBC.",
