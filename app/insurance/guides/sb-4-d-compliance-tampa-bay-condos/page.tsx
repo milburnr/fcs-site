@@ -13,8 +13,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/' },
-  title: "SB 4-D Compliance Tampa Bay Condos",
-  description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+  title: "SB 4-D Compliance for Tampa Bay Condos: Deadlines & Costs",
+  description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn deadlines, inspection phases, and reserve requirements from FCS.",
   openGraph: {
     title: "SB 4-D Compliance Tampa Bay Condos",
     description: "Complete guide to SB 4-D compliance for Hillsborough and Pinellas County condominiums. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
@@ -137,9 +137,7 @@ export default function SB4DCompliancePage() {
             <div className="inline-block px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
               <span className="text-brand-gold font-semibold">Florida Building Safety Act</span>
             </div>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              SB 4-D Compliance for Tampa Bay Condos
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">SB 4-D Compliance for Tampa Bay Condos: Checklists, Deadlines & Costs</h1>
             <AuthorByline />
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
               Your complete guide to Florida's milestone inspection law. Understand your obligations, meet your deadlines, and partner with Tampa Bay's trusted remediation contractor.
