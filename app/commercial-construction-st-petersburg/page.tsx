@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-st-petersburg/' },
-  title: "Commercial Construction St. Pete | Office",
+  title: "Commercial Construction in St. Petersburg, FL | FCS",
   description: "Commercial construction in St. Petersburg by Florida Construction Specialists. Design-build waterfront development office buildouts.",
   openGraph: {
     title: "Commercial Construction St. Pete | Office",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Commercial Construction", href: "/commercial/" },
   { name: "St. Petersburg", href: "/commercial-construction-st-petersburg/" },
 ];
