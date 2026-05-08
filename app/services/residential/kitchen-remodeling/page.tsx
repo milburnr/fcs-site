@@ -10,8 +10,8 @@ import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/services/residential/kitchen-remodeling/' },
-  title: "Luxury Kitchen Remodeling Tampa | High-End",
-  description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  title: "Luxury Kitchen Remodeling Tampa | High-End Renovations",
+  description: "Licensed CBC with 40+ years delivering luxury kitchen remodels across Tampa Bay. Custom design, premium finishes, and hands-on project management.",
   openGraph: {
     title: "Luxury Kitchen Remodeling Tampa | High-End",
     description: "Luxury Kitchen Remodeling High-end across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Residential Construction", href: "/residential/" },
   { name: "Kitchen Remodeling", href: "/services/residential/kitchen-remodeling/" },
 ];
@@ -348,7 +348,7 @@ export default function KitchenRemodelingPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />
