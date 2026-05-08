@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/mold-remediation/' },
-  title: "Mold Remediation | Professional Mold Removal",
-  description: "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
+  title: "Professional Mold Remediation | Tampa Bay, FL",
+  description: "Licensed CBC contractor with 40+ years in Tampa Bay. Full mold assessment, containment, removal, and moisture-source repair for residential and commercial properties.",
   openGraph: {
     title: "Mold Remediation | Professional Mold Removal",
     description: "Mold Remediation Professional Mold Removal across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Read more.",
@@ -98,9 +98,7 @@ export default function MoldRemediationPage() {
               <span className="text-green-200 font-medium">Certified Remediation</span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Mold Remediation
-            </h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Mold Remediation Services in Tampa Bay</h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
               Professional mold assessment, containment, and removal. We address the problem properly 
