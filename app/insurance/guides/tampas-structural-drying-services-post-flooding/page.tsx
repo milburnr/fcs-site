@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-structural-drying-services-post-flooding/' },
-  title: "Structural Drying Services Tampa | Flood",
-  description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC.",
+  title: "Structural Drying Services Tampa | Flood & Water Damage",
+  description: "Professional structural drying services for commercial flood and water damage in Tampa. Rapid response stops mold growth. FCS, licensed CBC.",
   openGraph: {
     title: "Structural Drying Services Tampa | Flood",
     description: "Professional structural drying services in for commercial flood and water damage. Insights from FCS, a trusted licensed CBC.",
@@ -57,7 +57,7 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/flood-remediation-contractors-in-tampa/", label: "Flood Remediation Services" },
   { href: "/post-disaster-interior-restoration-in-tampa/", label: "Interior Restoration" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Assessment" },
 ];
 
@@ -79,7 +79,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Structural drying services in Tampa"
             fill
             className="object-cover"
