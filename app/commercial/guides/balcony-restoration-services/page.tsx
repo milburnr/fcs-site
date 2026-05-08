@@ -17,7 +17,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-services/' },
   title: "Balcony Restoration Services Tampa | High-Rise",
-  description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in ${region}.",
+  description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. FCS is your licensed CBC in Tampa, FL.",
   openGraph: {
     title: "Balcony Restoration Services Tampa | High-Rise",
     description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in ${region}.",
