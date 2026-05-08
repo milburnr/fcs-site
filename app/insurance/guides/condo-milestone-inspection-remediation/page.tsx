@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/condo-milestone-inspection-remediation/' },
-  title: "Condo Milestone Inspection Remediation FL",
+  title: "Florida Condo Milestone Inspection Remediation Guide",
   description: "Expert remediation after Phase 2 milestone inspections reveal structural deficiencies. Tampa Bay's trusted contractor for condo concrete restoration.",
   openGraph: {
     title: "Condo Milestone Inspection Remediation FL",
@@ -96,7 +96,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Condo Milestone Inspection Remediation", href: "/insurance/guides/condo-milestone-inspection-remediation/" },
       ]} />
 
