@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/' },
   title: "Commercial Construction Loans in Tampa",
-  description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
+  description: "Florida Construction Specialists helps Tampa developers navigate commercial construction loans with lender-ready budgets, draw schedules, and full documentation. Free estimate.",
   openGraph: {
     title: "Commercial Construction Loans in Tampa",
     description: "Commercial Construction Loans in Tampa: design-build, pre-construction, and project management. Licensed CBC, 40+ years. Request a free estimate today.",
