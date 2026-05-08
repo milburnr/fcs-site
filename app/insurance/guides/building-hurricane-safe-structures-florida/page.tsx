@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/building-hurricane-safe-structures-florida/' },
-  title: "Hurricane-Safe Structures Florida | Guide",
-  description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design impact glazing.",
+  title: "Building Hurricane-Safe Structures in Florida | Guide",
+  description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design and impact glazing.",
   openGraph: {
     title: "Hurricane-Safe Structures Florida | Guide",
     description: "Learn how Florida's building codes create hurricane-resistant commercial structures. Expert guidance on wind-resistant design impact glazing.",
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -181,7 +181,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane-resistant construction in Florida"
             fill
             className="object-cover"
