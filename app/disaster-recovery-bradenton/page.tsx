@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-bradenton/' },
-  title: "Disaster Recovery Bradenton | Hurricane",
+  title: "Bradenton Disaster Recovery Contractors | Hurricane Response",
   description: "Disaster recovery construction in Bradenton. Hurricane response, Manatee River flooding, Anna Maria Island storm recovery, emergency stabilization.",
   openGraph: {
     title: "Disaster Recovery Bradenton | Hurricane",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Bradenton", href: "/disaster-recovery-bradenton/" },
 ];
