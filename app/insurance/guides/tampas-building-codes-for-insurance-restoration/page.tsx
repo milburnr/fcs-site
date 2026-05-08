@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-building-codes-for-insurance-restoration/' },
   title: "Tampa Building Codes for Insurance Restoration",
-  description: "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
+  description: "Don't accept Tampa insurance settlements that ignore code-upgrade costs. Florida Statute 627.7011 and Law & Ordinance coverage require insurers to fund full restoration compliance.",
   openGraph: {
     title: "Tampa Building Codes for Insurance Restoration",
     description: "Understanding building codes for insurance restoration in Tampa. Expert analysis from Florida Construction Specialists. Request a free estimate today.",
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Tampa building codes for insurance restoration"
             fill
             className="object-cover"
