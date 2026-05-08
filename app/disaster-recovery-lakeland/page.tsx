@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-lakeland/' },
-  title: "Disaster Recovery Lakeland | Tornado",
-  description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage severe storm reconstruction lightning fire restoration.",
+  title: "Disaster Recovery Contractor Lakeland FL | FCS",
+  description: "Florida Construction Specialists handles disaster recovery construction in Lakeland — tornado, storm, fire, and lightning damage. Emergency permitting, code-compliant rebuilds.",
   openGraph: {
     title: "Disaster Recovery Lakeland | Tornado",
     description: "Disaster recovery construction in Lakeland by Florida Construction Specialists. Tornado damage severe storm reconstruction lightning fire restoration.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Lakeland", href: "/disaster-recovery-lakeland/" },
 ];
@@ -72,7 +72,7 @@ export default function DisasterRecoveryLakelandPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/hurricane-ian/hurricane-ian-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/hurricane-ian/hurricane-ian-large.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
           <div className="max-w-4xl mt-8">
@@ -143,7 +143,7 @@ export default function DisasterRecoveryLakelandPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-ian/hurricane-ian-display.webp"
+        src="/images/hurricane-ian/hurricane-ian-large.webp"
         alt="Disaster recovery construction in Central Florida"
         title="Rebuilding After the Storm"
         subtitle="Emergency response, structural reconstruction, and full disaster recovery for Lakeland commercial properties"
