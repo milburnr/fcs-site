@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/construction-florida-leading-way-leed-certification/' },
   title: "Florida Construction | LEED Certification Leader",
-  description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists.",
+  description: "Florida Construction Specialists guides Tampa Bay commercial projects through every LEED certification step — from design credits to GBCI review. Get expert help.",
   openGraph: {
     title: "Florida Construction | LEED Certification Leader",
     description: "Florida Construction Specialists leads Tampa Bay in LEED-certified commercial construction. Expert insights from Florida Construction Specialists.",
