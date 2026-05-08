@@ -13,7 +13,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/sb4d-compliance/clearwater/" },
-  title: "SB4-D Compliance Clearwater",
+  title: "SB4-D Compliance for Clearwater Condominiums | Inspections & SIRS",
   description: "SB4-D compliance services for Clearwater condominiums. Milestone inspections, SIRS studies, and structural remediation for barrier island and beach condos.",
   openGraph: {
     title: "SB4-D Compliance Clearwater",
