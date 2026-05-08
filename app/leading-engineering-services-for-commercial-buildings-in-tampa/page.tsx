@@ -10,8 +10,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/leading-engineering-services-for-commercial-buildings-in-tampa/' },
-  title: "Engineering Services Tampa | Structural & MEP",
-  description: "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CBC. Request a free estimate.",
+  title: "Commercial Engineering Services Tampa | Structural & MEP",
+  description: "Tampa commercial building engineering: PE-stamped structural, MEP & civil coordination for Florida code compliance. Licensed CBC contractor. Free estimate.",
   openGraph: {
     title: "Engineering Services Tampa | Structural & MEP",
     description: "Engineering Services Structural & Mep in Tampa: commercial and residential construction and restoration. Licensed and insured CBC. Request a free estimate.",
