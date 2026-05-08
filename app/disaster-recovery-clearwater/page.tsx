@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-clearwater/' },
-  title: "Disaster Recovery Clearwater | Hurricane",
-  description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response storm surge recovery.",
+  title: "Clearwater Disaster Recovery Contractors | Hurricane & Flood",
+  description: "Clearwater disaster recovery by Florida Construction Specialists. Hurricane reconstruction, substantial damage assessments, and flood zone compliance for barrier island properties.",
   openGraph: {
     title: "Disaster Recovery Clearwater | Hurricane",
     description: "Disaster recovery construction in Clearwater by Florida Construction Specialists. Barrier island hurricane response storm surge recovery.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Clearwater", href: "/disaster-recovery-clearwater/" },
 ];
@@ -143,7 +143,7 @@ export default function DisasterRecoveryClearwaterPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-ian/hurricane-ian-display.webp"
+        src="/images/hurricane-ian/hurricane-ian-large.webp"
         alt="Hurricane damage and disaster recovery in coastal Florida"
         title="Clearwater Disaster Recovery"
         subtitle="Emergency response, structural stabilization, and full rebuilding for barrier island and mainland properties"
