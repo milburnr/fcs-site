@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-brandon/' },
-  title: "Disaster Recovery Brandon | Storm",
+  title: "Disaster Recovery in Brandon, FL | Storm & Flood Restoration",
   description: "Disaster recovery construction in Brandon FL. Hurricane damage, flooding, lightning strikes, fire damage. Emergency response and full restoration.",
   openGraph: {
     title: "Disaster Recovery Brandon | Storm",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Disaster Recovery", href: "/disaster-recovery/" },
   { name: "Brandon", href: "/disaster-recovery-brandon/" },
 ];
@@ -142,7 +142,7 @@ export default function DisasterRecoveryBrandonPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp"
+        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-large.webp"
         alt="Disaster recovery construction and restoration work"
         title="Rapid Recovery for Brandon Properties"
         subtitle="Emergency response, damage mitigation, and complete reconstruction for all disaster types"
