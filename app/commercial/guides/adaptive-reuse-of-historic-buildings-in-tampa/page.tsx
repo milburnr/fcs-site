@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/' },
-  title: "Adaptive Reuse Historic Buildings Tampa",
-  description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City.",
+  title: "Adaptive Reuse of Historic Buildings in Tampa | FCS",
+  description: "FCS specializes in Tampa historic building adaptive reuse — assessments, 20% federal tax credits, and Certificate of Appropriateness approvals.",
   openGraph: {
     title: "Adaptive Reuse Historic Buildings Tampa",
     description: "Transform Tampa's historic structures through adaptive reuse. FCS specializes in Ybor City.",
