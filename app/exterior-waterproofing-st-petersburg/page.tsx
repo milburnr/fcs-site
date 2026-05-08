@@ -12,8 +12,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
-  title: "Exterior Waterproofing St. Pete",
-  description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope foundation parking deck.",
+  title: "Exterior Waterproofing in St. Petersburg, FL | FCS",
+  description: "Florida Construction Specialists handles exterior waterproofing in St. Petersburg — building envelope, foundation, and parking deck. Fully permitted, Florida Building Code compliant.",
   openGraph: {
     title: "Exterior Waterproofing St. Pete",
     description: "Exterior waterproofing in St. Petersburg by Florida Construction Specialists. Building envelope foundation parking deck.",
@@ -53,7 +53,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Exterior Waterproofing", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
   { name: "St. Petersburg", href: "/exterior-waterproofing-st-petersburg/" },
 ];
