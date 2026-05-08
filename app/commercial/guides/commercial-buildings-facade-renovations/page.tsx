@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-buildings-facade-renovations/' },
-  title: "Commercial Facade Renovations Tampa | Exterior",
-  description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization EIFS repair curtain wall upgrades.",
+  title: "Commercial Facade Renovation Cost Guide Tampa 2024",
+  description: "2024 Tampa Bay commercial facade renovation costs by material — EIFS, curtain wall, ACM, masonry. Per-sq-ft pricing, warranty guidance, and contractor tips.",
   openGraph: {
     title: "Commercial Facade Renovations Tampa | Exterior",
     description: "Transform your Tampa commercial building's facade with expert renovation services. Storefront modernization EIFS repair curtain wall upgrades.",
@@ -133,9 +133,7 @@ export default function Page() {
           <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
         </div>
         <div className="container-custom text-center text-white relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Commercial Building Facade Renovations in Tampa Bay
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">Commercial Building Facade Renovation Cost Guide — Tampa Bay 2024</h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Transform your commercial building's first impression. From aging storefronts to dated office exteriors, Florida Construction Specialists delivers facade renovations that increase property value, attract tenants, and modernize your Tampa Bay investment.
