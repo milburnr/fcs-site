@@ -17,7 +17,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-balcony-flooring-materials-for-style-durability/' },
-  title: "Top Balcony Flooring Materials",
+  title: "Top Balcony Flooring Materials for Style and Durability",
   description: "Premium balcony flooring materials for Tampa Bay high-rise condominiums. Expert tips from Florida Construction Specialists, licensed CBC. Contact us today.",
   openGraph: {
     title: "Top Balcony Flooring Materials",
