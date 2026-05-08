@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/' },
-  title: "Climate-Resilient Custom Homes Tampa | Hurricane",
-  description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC.",
+  title: "Climate-Resilient Custom Homes in Tampa | Hurricane-Ready",
+  description: "Build a hurricane-ready custom home in Tampa with Florida Construction Specialists — expert design-build, storm-resistant materials, and licensed CBC construction.",
   openGraph: {
     title: "Climate-Resilient Custom Homes Tampa | Hurricane",
     description: "Climate-resilient Custom Homes Hurricane in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC.",
