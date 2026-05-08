@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/' },
   title: "Preventing Home Improvement Fraud Tampa",
-  description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}.",
+  description: "Protect yourself from home improvement fraud in Tampa. Learn to verify contractor licenses at myfloridalicense.com and recognize high-pressure scam tactics before you sign.",
   openGraph: {
     title: "Preventing Home Improvement Fraud Tampa",
     description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}.",
