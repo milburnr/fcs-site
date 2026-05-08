@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/why-florida-construction-specialists-recommend-building-instead-of-buying/' },
   title: "Build vs Buy Commercial Property Tampa",
-  description: "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC.",
+  description: "FCS breaks down why building new commercial property usually beats buying existing — covering costs, timelines, and code compliance for Tampa businesses.",
   openGraph: {
     title: "Build vs Buy Commercial Property Tampa",
     description: "Discover why Florida Construction Specialists recommends building instead of buying commercial. Insights from FCS, a trusted licensed CBC.",
