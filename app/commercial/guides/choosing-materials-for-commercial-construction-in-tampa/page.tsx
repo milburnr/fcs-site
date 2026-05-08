@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/' },
-  title: "Materials for Commercial Construction Tampa",
-  description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant humidity-proof.",
+  title: "Choosing Materials for Commercial Construction in Tampa",
+  description: "Expert guidance on construction materials for Tampa's hurricane zone and humid climate—impact glass, cool roofing, and moisture-resistant solutions.",
   openGraph: {
     title: "Materials for Commercial Construction Tampa",
     description: "Expert guidance on selecting construction materials for Tampa's climate. Hurricane-resistant humidity-proof.",
@@ -33,7 +33,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/eco-friendly-commercial-construction-in-tampa/", label: "Sustainable Building" },
   { href: "/commercial/guides/tampa-commercial-construction-costs/", label: "Construction Costs" },
-  { href: "/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
+  { href: "/commercial/guides/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
