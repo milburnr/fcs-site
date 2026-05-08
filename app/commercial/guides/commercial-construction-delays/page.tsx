@@ -85,9 +85,7 @@ export default function Page() {
           <div className="absolute inset-0 bg-gradient-to-br from-brand-green-dark/90 via-brand-green-forest/85 to-brand-green-dark/90" />
         </div>
         <div className="container-custom text-center text-white relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Managing Construction Delays Insights from Florida Top Commercial Contractor in Tampa
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">Managing Commercial Construction Delays: Insights from a Tampa Contractor</h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Discover valuable insights on managing commercial construction delays from one of Florida&apos;s leading commercial contractors in Tampa. Gain expert Guide
