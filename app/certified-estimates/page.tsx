@@ -11,8 +11,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
-  title: "Certified Construction Estimates",
-  description: "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
+  title: "Certified Construction Estimates for Insurance Claims | FCS",
+  description: "Professional certified estimates for insurance claims, litigation & project planning. FCS is a licensed CBC with 40+ years of experience & in-house engineering.",
   openGraph: {
     title: "Certified Construction Estimates",
     description: "Professional certified estimates for insurance claims, litigation & project planning. Learn from FCS, a licensed CBC with 40+ years experience. Read more.",
@@ -25,8 +25,8 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Certified Estimates", href: "/certified-estimates/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Certified Estimates", href: "/commercial/" },
 ];
 
 const faqs = [
@@ -73,9 +73,9 @@ const faqs = [
 ];
 
 const relatedServices = [
-  { href: "/expert-witness/", label: "Expert Witness Services" },
+  { href: "/other-services/", label: "Expert Witness Services" },
   { href: "/insurance/guides/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
-  { href: "/building-consultants/", label: "Building Consultants" },
+  { href: "/commercial/", label: "Building Consultants" },
   { href: "/insurance/", label: "Disaster Recovery" },
 ];
 
@@ -114,7 +114,7 @@ const estimateTypes = [
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
@@ -382,7 +382,7 @@ export default function CertifiedEstimatesPage() {
               <p className="text-gray-300 mb-6">
                 Frank Bragano is available to provide deposition and trial testimony supporting certified estimates.
               </p>
-              <Link href="/expert-witness/" className="inline-flex items-center gap-2 bg-brand-gold text-gray-900 px-6 py-3 rounded-full font-bold hover:bg-brand-gold-light transition-all">
+              <Link href="/other-services/" className="inline-flex items-center gap-2 bg-brand-gold text-gray-900 px-6 py-3 rounded-full font-bold hover:bg-brand-gold-light transition-all">
                 Expert Witness Services
                 <ArrowRight className="w-4 h-4" />
               </Link>
@@ -580,7 +580,7 @@ export default function CertifiedEstimatesPage() {
               </div>
 
               <div className="mt-8">
-                <Link href="/building-consultants/" className="inline-flex items-center gap-2 text-brand-green font-semibold hover:underline">
+                <Link href="/commercial/" className="inline-flex items-center gap-2 text-brand-green font-semibold hover:underline">
                   Learn about our consulting services
                   <ArrowRight className="w-4 h-4" />
                 </Link>
