@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/' },
-  title: "Commercial Blueprint Tampa | FCS Construction",
-  description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
+  title: "Commercial Blueprint Guide Tampa | FCS Construction",
+  description: "Expert guide to commercial construction blueprints in Tampa, FL. Professional guidance from FCS, licensed CBC contractor. Request a free estimate.",
   openGraph: {
     title: "Commercial Blueprint Tampa | FCS Construction",
     description: "Expert guide to creating the perfect commercial construction blueprint in. Professional guidance from FCS, licensed CBC. Request a free estimate today.",
