@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-unique-facades/' },
-  title: "Tampa Custom Homes Unique Facades | Distinctive",
+  title: "Tampa Custom Homes with Unique Facades | FCS",
   description: "Create a distinctive facade for your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
   openGraph: {
     title: "Tampa Custom Homes Unique Facades | Distinctive",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/residential/guides/tampa-custom-home-builders-with-artistic-flair/", label: "Artistic Custom Homes" },
-  { href: "/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
+  { href: "/residential/guides/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];
