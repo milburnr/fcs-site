@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
-  title: "Commercial Construction Clearwater | Beach Hotels",
-  description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant.",
+  title: "Commercial Construction in Clearwater, FL | FCS",
+  description: "Commercial construction in Clearwater by Florida Construction Specialists. Permitting, CRA review, coastal setbacks, and SWFWMD compliance near Morton Plant.",
   openGraph: {
     title: "Commercial Construction Clearwater | Beach Hotels",
     description: "Commercial construction in Clearwater by Florida Construction Specialists. Resort hotels, US 19 retail, medical facilities near Morton Plant.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Commercial Construction", href: "/commercial/" },
   { name: "Clearwater", href: "/commercial-construction-clearwater/" },
 ];
