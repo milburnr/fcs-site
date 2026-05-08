@@ -10,8 +10,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/technology-role-in-insurance-restoration-processes-in-tampa/' },
-  title: "Technology in Tampa Insurance Restoration | Tools",
-  description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC.",
+  title: "Technology's Role in Tampa Insurance Restoration",
+  description: "Drones, thermal imaging, and Xactimate documentation help Tampa property owners recover more from insurance restoration claims. 40+ years, CBC licensed.",
   openGraph: {
     title: "Technology in Tampa Insurance Restoration | Tools",
     description: "Technology Insurance Restoration Tools in Tampa: insurance restoration, design-build, and renovations. 40+ years, licensed CBC.",
@@ -68,7 +68,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Technology in insurance restoration processes"
             fill
             className="object-cover"
