@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/' },
-  title: "Tampa Disaster Demolition | Emergency Commercial",
-  description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
+  title: "Tampa Disaster Demolition Services | Emergency Response",
+  description: "Professional disaster-related demolition services in Tampa. Florida Construction Specialists, licensed CBC, delivers emergency response for storm-damaged structures. Call (813) 420-7561.",
   openGraph: {
     title: "Tampa Disaster Demolition | Emergency Commercial",
     description: "Professional disaster-related demolition services in. Expert tips from Florida Construction Specialists, licensed CBC. Call (813) 420-7561 for a quote.",
@@ -55,7 +55,7 @@ const faqs = [
 const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/disaster-recovery/", label: "Hurricane Damage Restoration" },
-  { href: "/complete-property-overhaul-after-disasters-in-tampa/", label: "Complete Property Overhaul" },
+  { href: "/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/", label: "Complete Property Overhaul" },
   { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Integrity Evaluation" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -76,7 +76,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Storm damage disaster demolition services in Tampa"
             fill
             className="object-cover"
