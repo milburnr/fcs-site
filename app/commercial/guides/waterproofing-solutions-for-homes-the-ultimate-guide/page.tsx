@@ -17,8 +17,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/' },
-  title: "Waterproofing High-Rise Residential Tampa",
-  description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
+  title: "Waterproofing Solutions for Tampa Homes: The Ultimate Guide",
+  description: "Comprehensive waterproofing solutions for Tampa residential buildings. FCS is your licensed CBC in Florida. Protect your property — contact our team today.",
   openGraph: {
     title: "Waterproofing High-Rise Residential Tampa",
     description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
