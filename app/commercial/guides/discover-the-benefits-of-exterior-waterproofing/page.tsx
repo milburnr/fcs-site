@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-benefits-of-exterior-waterproofing/' },
   title: "Benefits of Exterior Waterproofing Tampa Bay",
-  description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends. Insights from FCS, a trusted licensed CBC.",
+  description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, lowers long-term costs, and passes inspections. Insights from FCS, licensed CBC.",
   openGraph: {
     title: "Benefits of Exterior Waterproofing Tampa Bay",
     description: "Learn how exterior waterproofing protects Tampa Bay high-rises from structural damage, extends. Insights from FCS, a trusted licensed CBC.",
