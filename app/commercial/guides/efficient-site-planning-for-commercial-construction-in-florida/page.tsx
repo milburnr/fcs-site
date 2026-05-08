@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/efficient-site-planning-for-commercial-construction-in-florida/' },
-  title: "Site Planning for Commercial Construction FL",
-  description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
+  title: "Efficient Site Planning for Commercial Construction in FL",
+  description: "How Florida commercial contractors handle infill sites, contaminated soils, and stormwater challenges. Real case studies from FCS's 40+ years of experience.",
   openGraph: {
     title: "Site Planning for Commercial Construction FL",
     description: "Discover site planning for commercial construction fl with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate.",
@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/commercial-construction-stages-in-florida/", label: "Construction Stages" },
-  { href: "/commercial-construction-regulations-in-tampa/", label: "Regulations" },
+  { href: "/commercial/guides/commercial-construction-regulations-in-tampa/", label: "Regulations" },
   { href: "/commercial/guides/tampa-commercial-construction-costs/", label: "Construction Costs" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
