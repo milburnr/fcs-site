@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-lakeland/' },
   title: "Exterior Waterproofing Lakeland | Building Envelope",
-  description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection foundation waterproofing.",
+  description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. We manage permits through the City and Polk County Building Division, including historic district requirements.",
   openGraph: {
     title: "Exterior Waterproofing Lakeland | Building Envelope",
     description: "Exterior waterproofing in Lakeland by Florida Construction Specialists. Building envelope protection foundation waterproofing.",
@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Exterior Waterproofing", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
   { name: "Lakeland", href: "/exterior-waterproofing-lakeland/" },
 ];
