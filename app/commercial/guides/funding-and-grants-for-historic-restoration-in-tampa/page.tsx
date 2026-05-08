@@ -11,7 +11,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/funding-and-grants-for-historic-restoration-in-tampa/' },
   title: "Funding and Grants for Historic Restoration in Tampa",
-  description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years.",
+  description: "Learn how to combine federal and Florida historic tax credits for up to 45% on qualified rehab costs, plus grants and funding sources for Tampa historic properties.",
   openGraph: {
     title: "Funding and Grants for Historic Restoration in Tampa",
     description: "Funding and Grants for Historic Restoration in Tampa: expert project management, design-build, and renovations. CBC1262722, 40+ years.",
