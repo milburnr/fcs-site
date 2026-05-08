@@ -10,8 +10,8 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-custom-homes-in-tampa/' },
-  title: "Eco-Friendly Custom Homes Tampa | Sustainable",
-  description: "Eco-friendly Custom Homes Sustainable in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed and insured CBC.",
+  title: "Eco-Friendly Custom Homes Tampa | Sustainable Design",
+  description: "Build a sustainable custom home in Tampa: solar-optimized design, $500K–$25M projects, design-build & pre-construction. Licensed, insured CBC builder.",
   openGraph: {
     title: "Eco-Friendly Custom Homes Tampa | Sustainable",
     description: "Eco-friendly Custom Homes Sustainable in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed and insured CBC.",
@@ -31,7 +31,7 @@ const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Custom Homes" },
   { href: "/residential/guides/tampa-custom-homes-with-green-building-practices/", label: "Green Building Practices" },
-  { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Homes" },
+  { href: "/residential/guides/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Homes" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
