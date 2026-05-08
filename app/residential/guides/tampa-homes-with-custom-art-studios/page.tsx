@@ -12,7 +12,7 @@ import { GuideCTA } from "@/components/GuideCTA";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-homes-with-custom-art-studios/' },
   title: "Tampa Homes with Custom Art Studios | Creative Spaces",
-  description: "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
+  description: "Build custom homes with dedicated art studios in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
   openGraph: {
     title: "Tampa Homes with Custom Art Studios | Creative Spaces",
     description: "Build custom homes with dedicated art studios in in Tampa. Professional advice from FCS, serving clients since 1982. Call for a free consultation today.",
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];
