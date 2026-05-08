@@ -11,8 +11,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-water-damage-restoration-services-post-flooding/' },
-  title: "Tampa water damage restoration Services Post-Flooding",
-  description: "Expert water extraction services offering immediate flood damage cleanup and emergency water damage restoration in Tampa.",
+  title: "Tampa Water Damage Restoration Services Post-Flooding",
+  description: "Expert water damage restoration in Tampa — fast extraction, certified drying, mold prevention, and insurance claim documentation after flooding.",
   openGraph: {
     title: "Tampa water damage restoration Services Post-Flooding",
     description: "Expert water extraction services offering immediate flood damage cleanup and emergency water damage restoration in Tampa.",
@@ -77,7 +77,7 @@ export default function Page() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
@@ -86,9 +86,7 @@ export default function Page() {
           <div className="absolute inset-0 bg-gradient-to-br from-red-900/90 via-red-800/85 to-brand-green-dark/90" />
         </div>
         <div className="container-custom text-center text-white relative z-10">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Tampa Water Extraction Services Post-Flooding
-          </h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">Tampa Water Damage Restoration Services Post-Flooding</h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
             Get expert Water Extraction Services offer immediate flood damage cleanup and emergency water damage restoration inTampa to bring your property back t
