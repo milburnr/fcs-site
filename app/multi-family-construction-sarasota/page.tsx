@@ -11,8 +11,8 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction-sarasota/' },
-  title: "Multi-Family Construction Sarasota | Condos",
-  description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums waterfront towers retirement communities.",
+  title: "Multi-Family Construction Sarasota, FL | FCS Contractors",
+  description: "Florida Construction Specialists builds luxury condominiums, waterfront towers, and retirement communities across Sarasota. Expert multi-family permitting and zoning navigation included.",
   openGraph: {
     title: "Multi-Family Construction Sarasota | Condos",
     description: "Multi-family construction in Sarasota by Florida Construction Specialists. Luxury condominiums waterfront towers retirement communities.",
@@ -52,8 +52,8 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Multi-Family Construction", href: "/multi-family/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Multi-Family Construction", href: "/multi-family-construction/" },
   { name: "Sarasota", href: "/multi-family-construction-sarasota/" },
 ];
 
