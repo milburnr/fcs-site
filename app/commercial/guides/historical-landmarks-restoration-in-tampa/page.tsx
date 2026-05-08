@@ -10,8 +10,8 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-landmarks-restoration-in-tampa/' },
-  title: "Historical Landmarks Restoration in Tampa",
-  description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park.",
+  title: "Historical Landmark Restoration in Tampa: Costs & Timeline",
+  description: "Expert restoration of Tampa's historical landmarks. This guide covers cost ranges by building type, project timelines of 18–36 months, adaptive reuse, and historic tax credit eligibility.",
   openGraph: {
     title: "Historical Landmarks Restoration in Tampa",
     description: "Expert restoration of Tampa's historical landmarks including Ybor City, Tampa Theatre, and Hyde Park.",
