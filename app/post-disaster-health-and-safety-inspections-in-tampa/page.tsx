@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/' },
   title: "Post-Disaster Safety Inspections Tampa | Hurricane",
-  description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years.",
+  description: "After a hurricane, Tampa buildings may hide structural, electrical, and mold hazards. Learn what post-disaster inspectors check and when it's safe to re-enter.",
   openGraph: {
     title: "Post-Disaster Safety Inspections Tampa | Hurricane",
     description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years.",
@@ -54,7 +54,7 @@ const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance/guides/structural-integrity-evaluation-in-tampa-post-disaster/", label: "Structural Evaluation Services" },
   { href: "/insurance/guides/tampas-post-disaster-electrical-safety-checks/", label: "Electrical Safety Checks" },
-  { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Reconstruction" },
+  { href: "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Reconstruction" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
 
@@ -68,7 +68,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Post-disaster safety inspection in Tampa"
             fill
             className="object-cover"
