@@ -240,7 +240,7 @@ export default function TampaPage() {
             <div className="grid md:grid-cols-3 gap-6 mb-8">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                 <Image
-                  src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
+                  src="/images/lions-world-vision-institute-building-exterior/lions-world-vision-institute-building-exterior-large.webp"
                   alt="Lions World Vision Institute historic restoration in Ybor City, Tampa"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

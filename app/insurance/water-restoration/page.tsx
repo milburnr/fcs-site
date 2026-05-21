@@ -132,7 +132,7 @@ const heroImage = "/images/florida-hurricane-storm/florida-hurricane-storm-11-19
 
 const galleryPhotos: GalleryPhoto[] = [
   { src: "/images/how-to-prevent-your-home-from-flooding/how-to-prevent-your-home-from-flooding", caption: "Flood damage assessment and water extraction planning" },
-  { src: "/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration", caption: "Large-scale water damage restoration in Tampa Bay" },
+  { src: "/images/tampa-hurricane-damage-restoration/tampa-hurricane-damage-restoration-display.webp", caption: "Large-scale water damage restoration in Tampa Bay" },
   { src: "/images/mold-inspection/mold-inspection", caption: "Moisture inspection and mold prevention after water loss" },
   { src: "/images/waterproofing/waterproofing", caption: "Structural waterproofing and water intrusion repair" },
 ];

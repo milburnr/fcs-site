@@ -70,32 +70,14 @@ export function FAQ({ items, title = "Frequently Asked Questions", description, 
 }
 
 export function FAQSchema({ items }: { items: FAQItem[] }) {
-  const schema = {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": items.map((item) => ({
-      "@type": "Question",
-      "name": item.question,
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": item.answer,
-      },
-    })),
-  };
-
-  return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
-    />
-  );
+  // FAQPage schema removed 2026-05-21: Google's May-2024 update deprecated
+  // FAQ rich-result eligibility for general (non-gov/non-health) sites.
+  // Continued emission is a schema defect; visible FAQ DOM in <FAQ /> is
+  // unaffected. Signature preserved so all 808 callers keep compiling.
+  void items;
+  return null;
 }
 
 export function FAQWithSchema({ items, title, description, className }: FAQProps) {
-  return (
-    <>
-      <FAQ items={items} title={title} description={description} className={className} />
-      <FAQSchema items={items} />
-    </>
-  );
+  return <FAQ items={items} title={title} description={description} className={className} />;
 }

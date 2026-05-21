@@ -521,7 +521,7 @@ export default function ResidentialHubPage() {
             </div>
             <div className="relative group overflow-hidden cursor-pointer aspect-square">
               <Image
-                src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
+                src="/images/custom-home-construction-1/custom-home-construction-1-large.webp"
                 alt="Sunset Park Villa"
                 width={400}
                 height={400}
@@ -640,7 +640,7 @@ export default function ResidentialHubPage() {
         {/* Background Image */}
         <div className="absolute inset-0 -z-10">
           <Image
-            src="/images/custom-home-construction-3/custom-home-construction-3-display.webp"
+            src="/images/custom-home-construction-3/custom-home-construction-3-large.webp"
             alt="Luxury home at dusk"
             fill
             className="object-cover opacity-30"

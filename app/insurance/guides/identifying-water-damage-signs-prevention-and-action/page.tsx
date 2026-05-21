@@ -57,7 +57,7 @@ const internalLinks = [
   { href: "/disaster-recovery/", label: "Water Damage Restoration" },
   { href: "/insurance/guides/tampas-structural-drying-services-post-flooding/", label: "Structural Drying Services" },
   { href: "/insurance/guides/how-to-prevent-water-damage-expert-tips-for-a-dry-home/", label: "Water Damage Prevention Tips" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Property Restoration" },
   { href: "/contact/", label: "Schedule Inspection" },
 ];
 
@@ -79,7 +79,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   }
 ];
@@ -100,7 +100,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Identifying water damage in commercial buildings"
             fill
             className="object-cover"

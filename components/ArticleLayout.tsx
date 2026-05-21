@@ -31,22 +31,10 @@ export function ArticleLayout({ article, children }: Props) {
     { name: frontmatter.title, href: `/resources/${frontmatter.slug}/` },
   ];
 
-  // JSON-LD FAQPage schema (only if frontmatter.faq is populated)
-  const faqSchema =
-    frontmatter.faq && frontmatter.faq.length > 0
-      ? {
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          mainEntity: frontmatter.faq.map((item) => ({
-            "@type": "Question",
-            name: item.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: item.a,
-            },
-          })),
-        }
-      : null;
+  // FAQPage JSON-LD removed 2026-05-21: Google's May-2024 update deprecated
+  // FAQ rich-result eligibility for general sites. frontmatter.faq still
+  // renders as visible DOM elsewhere on the page; only the schema emit is
+  // gone.
 
   return (
     <>
@@ -58,12 +46,6 @@ export function ArticleLayout({ article, children }: Props) {
         slug={`/resources/${frontmatter.slug}/`}
         imageUrl={frontmatter.heroImage}
       />
-      {faqSchema && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-      )}
 
       <Breadcrumb items={breadcrumbItems} />
 

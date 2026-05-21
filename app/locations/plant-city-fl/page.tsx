@@ -250,7 +250,7 @@ export default function PlantCityPage() {
               </div>
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                 <Image
-                  src="/images/Ian-2/ian-2-display.webp"
+                  src="/images/ian-2/ian-2-large.webp"
                   alt="Hurricane damage restoration and disaster recovery"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -469,7 +469,7 @@ export default function PlantCityPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/locations/tampa/","label":"Tampa Construction Services"}]}
+            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/contact/","label":"Tampa Construction Services"}]}
             title="Related Resources"
             
           />

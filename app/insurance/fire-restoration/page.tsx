@@ -114,15 +114,15 @@ const relatedLinks = [
 
 const galleryPhotos: GalleryPhoto[] = [
   {
-    src: "/images/rebuild-superjumbo/rebuild-superjumbo-display.webp",
+    src: "/images/rebuild-superjumbo/rebuild-superjumbo-large.webp",
     caption: "Large-loss structural reconstruction after fire damage",
   },
   {
-    src: "/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-display.webp",
+    src: "/images/replacing-roof-decking-and-rafters/replacing-roof-decking-and-rafters-large.webp",
     caption: "Roof decking and rafter replacement during fire restoration",
   },
   {
-    src: "/images/stages-of-construction-project-management/stages-of-construction-project-management-display.webp",
+    src: "/images/stages-of-construction-project-management/stages-of-construction-project-management-large.webp",
     caption: "Multi-phase fire restoration project management",
   },
 ];

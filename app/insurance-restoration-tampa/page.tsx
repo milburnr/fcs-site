@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Insurance Restoration", href: "/insurance/" },
   { name: "Tampa", href: "/insurance-restoration-tampa/" },
 ];
@@ -141,7 +141,7 @@ export default function InsuranceRestorationTampaPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp"
+        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-large.webp"
         alt="Insurance restoration work following hurricane damage in Tampa Bay"
         title="Restoring Tampa After the Storm"
         subtitle="Construction expertise meets insurance industry knowledge for maximum recovery"

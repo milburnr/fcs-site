@@ -52,8 +52,8 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Insurance Restoration", href: "/insurance-restoration/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Insurance Restoration", href: "/insurance/" },
   { name: "Clearwater", href: "/insurance-restoration-clearwater/" },
 ];
 
@@ -143,7 +143,7 @@ export default function InsuranceRestorationClearwaterPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp"
+        src="/images/hurricane-restoration-construction/hurricane-restoration-construction-large.webp"
         alt="Hurricane damage restoration on Clearwater commercial property"
         title="Clearwater Storm Damage Restoration"
         subtitle="Insurance claims expertise combined with coastal construction knowledge for Gulf-front property recovery"

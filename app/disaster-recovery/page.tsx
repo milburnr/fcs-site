@@ -139,7 +139,7 @@ export default function DisasterRecoveryPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Disaster Recovery", href: "/disaster-recovery/" },
       ]} />
 
@@ -147,7 +147,7 @@ export default function DisasterRecoveryPage() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration by Florida Construction Specialists"
             fill
             className="object-cover"

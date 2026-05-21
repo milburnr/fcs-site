@@ -52,6 +52,41 @@
   conditions = {Path = ["!*.js", "!*.css", "!*.png", "!*.jpg", "!*.webp", "!*.avif", "!*.gif", "!*.svg", "!*.ico", "!*.woff", "!*.woff2", "!/404", "!/_next/*", "!/images/*", "!/wp-content/*"]}
 
 # ===========================================
+# Natural-URL redirects — URLs people type/cite that don't exist
+# Decision 2026-05-21: redirect to homepage; no dedicated pages.
+# ===========================================
+
+[[redirects]]
+  from = "/blog/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/blog/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/reviews/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/reviews/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/testimonials/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/testimonials/*"
+  to = "/"
+  status = 301
+
+# ===========================================
 # 301 Redirects for Duplicate Page Consolidation
 # ===========================================
 
@@ -820,7 +855,7 @@
 # Thin pages -> /expert-witness/
 [[redirects]]
   from = "/insurance/expert-witness/"
-  to = "/expert-witness/"
+  to = "/other-services/"
   status = 301
 
 # Thin pages -> /historic-restoration-tampa/
@@ -2133,4 +2168,135 @@
 [[redirects]]
   from = "/water-damage-mitigation-in-tampa/"
   to = "/insurance/guides/water-damage-mitigation-in-tampa/"
+  status = 301
+
+# Added by audit fix 2026-04-30 — B1 (404 sweep)
+[[redirects]]
+  from = "/condo-remediation"
+  to = "/condo-remediation-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/condo-remediation/"
+  to = "/condo-remediation-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/multi-family"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/multi-family/"
+  to = "/multi-family-construction/"
+  status = 301
+
+[[redirects]]
+  from = "/concrete-restoration"
+  to = "/resources/concrete-restore/"
+  status = 301
+
+[[redirects]]
+  from = "/concrete-restoration/"
+  to = "/resources/concrete-restore/"
+  status = 301
+
+[[redirects]]
+  from = "/stucco-repair"
+  to = "/resources/repairing-stucco/"
+  status = 301
+
+[[redirects]]
+  from = "/stucco-repair/"
+  to = "/resources/repairing-stucco/"
+  status = 301
+
+[[redirects]]
+  from = "/services/luxury-custom-homes"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/services/luxury-custom-homes/"
+  to = "/luxury-custom-homes/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/tampa-fl/multi-family-construction"
+  to = "/multi-family-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/tampa-fl/multi-family-construction/"
+  to = "/multi-family-construction-tampa/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/st-petersburg-fl/multi-family-construction"
+  to = "/multi-family-construction-st-petersburg/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/st-petersburg-fl/multi-family-construction/"
+  to = "/multi-family-construction-st-petersburg/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/clearwater-fl/multi-family-construction"
+  to = "/multi-family-construction-clearwater/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/clearwater-fl/multi-family-construction/"
+  to = "/multi-family-construction-clearwater/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/lakeland-fl/multi-family-construction"
+  to = "/multi-family-construction-lakeland/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/lakeland-fl/multi-family-construction/"
+  to = "/multi-family-construction-lakeland/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/sarasota-fl/multi-family-construction"
+  to = "/multi-family-construction-sarasota/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/sarasota-fl/multi-family-construction/"
+  to = "/multi-family-construction-sarasota/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/bradenton-fl/multi-family-construction"
+  to = "/multi-family-construction-bradenton/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/bradenton-fl/multi-family-construction/"
+  to = "/multi-family-construction-bradenton/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/brandon-fl/multi-family-construction"
+  to = "/multi-family-construction-brandon/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/brandon-fl/multi-family-construction/"
+  to = "/multi-family-construction-brandon/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/ruskin-fl/multi-family-construction"
+  to = "/multi-family-construction-ruskin/"
+  status = 301
+
+[[redirects]]
+  from = "/locations/ruskin-fl/multi-family-construction/"
+  to = "/multi-family-construction-ruskin/"
   status = 301

@@ -269,7 +269,7 @@ export default function RuskinPage() {
               </div>
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
                 <Image
-                  src="/images/Ian-2/ian-2-display.webp"
+                  src="/images/ian-2/ian-2-large.webp"
                   alt="Hurricane damage restoration and disaster recovery"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-500"

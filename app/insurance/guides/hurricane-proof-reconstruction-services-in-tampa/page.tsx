@@ -75,7 +75,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane-proof commercial building reconstruction in Tampa"
             fill
             className="object-cover"
@@ -143,7 +143,7 @@ export default function Page() {
 
             <div className="mb-8">
               <Image
-                src="/images/Ian-2/ian-2-display.webp"
+                src="/images/ian-2/ian-2-large.webp"
                 alt="Aerial view of catastrophic hurricane damage to roofs and homes in coastal community"
                 width={800}
                 height={500}

@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Exterior Waterproofing", href: "/commercial/guides/balcony-reconstruction-exterior-waterproofing/" },
   { name: "Sarasota", href: "/exterior-waterproofing-sarasota/" },
 ];
@@ -72,7 +72,7 @@ export default function ExteriorWaterproofingSarasotaPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
           <div className="max-w-4xl mt-8">

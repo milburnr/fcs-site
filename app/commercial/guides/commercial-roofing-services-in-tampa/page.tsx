@@ -130,7 +130,7 @@ export default function Page() {
 
             <div className="mb-8">
               <Image
-                src="/images/maya-patel/maya-patel-display.webp"
+                src="/images/maya-patel/maya-patel-large.webp"
                 alt="Modern commercial building with professional flat roof installation, MVP Orthodontics office"
                 width={800}
                 height={500}

@@ -55,8 +55,8 @@ const faqs = [
 const internalLinks = [
   { href: "/insurance/", label: "Disaster Recovery Services" },
   { href: "/insurance/guides/tampas-disaster-related-demolition-services/", label: "Demolition Services" },
-  { href: "/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
-  { href: "/commercial-property-damage-restoration-in-tampa/", label: "Commercial Restoration" },
+  { href: "/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/", label: "Hurricane-Proof Construction" },
+  { href: "/insurance/guides/commercial-property-damage-restoration-in-tampa/", label: "Commercial Restoration" },
   { href: "/contact/", label: "Schedule Consultation" },
 ];
 
@@ -76,7 +76,7 @@ export default function Page() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Complete property overhaul after disasters in Tampa"
             fill
             className="object-cover"

@@ -128,7 +128,7 @@ export default function Page() {
 
               <div className="mb-8">
                 <Image
-                  src="/images/i9/i9-display.webp"
+                  src="/images/i9/i9-large.webp"
                   alt="Historic brick commercial building with exterior lighting at twilight after restoration"
                   width={800}
                   height={500}
@@ -203,7 +203,7 @@ export default function Page() {
 
               <div className="mb-8">
                 <Image
-                  src="/images/1111/1111-display.webp"
+                  src="/images/1111/1111-large.webp"
                   alt="Historic church building restoration with scaffolding and clay tile roof repair in progress"
                   width={800}
                   height={500}

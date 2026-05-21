@@ -112,11 +112,11 @@ const galleryPhotos: GalleryPhoto[] = [
     caption: "Tampa Bay hurricane damage assessment and emergency stabilization",
   },
   {
-    src: "/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp",
+    src: "/images/hurricane-restoration-construction/hurricane-restoration-construction-large.webp",
     caption: "Post-hurricane structural reconstruction and building envelope repair",
   },
   {
-    src: "/images/hurricane-ian/hurricane-ian-display.webp",
+    src: "/images/hurricane-ian/hurricane-ian-large.webp",
     caption: "Hurricane Ian aftermath — large-loss commercial restoration project",
   },
 ];

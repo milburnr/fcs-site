@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
   { name: "St. Petersburg", href: "/luxury-custom-homes-st-petersburg/" },
 ];
@@ -72,7 +72,7 @@ export default function LuxuryCustomHomesStPetersburgPage() {
 
       {/* Hero Section */}
       <section className="relative py-20 bg-gradient-to-br from-brand-green-dark via-brand-green-forest to-brand-green-dark overflow-hidden">
-        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-1/custom-home-construction-1-display.webp')] bg-cover bg-center opacity-20" />
+        <div className="absolute inset-0 bg-[url('/images/custom-home-construction-1/custom-home-construction-1-large.webp')] bg-cover bg-center opacity-20" />
         <div className="container-custom relative z-10">
           <Breadcrumb items={breadcrumbItems} />
           <div className="max-w-4xl mt-8">
@@ -143,7 +143,7 @@ export default function LuxuryCustomHomesStPetersburgPage() {
 
       {/* Parallax Break */}
       <ContentParallax
-        src="/images/custom-home-construction-1/custom-home-construction-1-display.webp"
+        src="/images/custom-home-construction-1/custom-home-construction-1-large.webp"
         alt="Luxury custom home construction in St. Petersburg"
         title="Custom Homes for Peninsula Living"
         subtitle="Waterfront estates and luxury residences across St. Petersburg's premier neighborhoods"

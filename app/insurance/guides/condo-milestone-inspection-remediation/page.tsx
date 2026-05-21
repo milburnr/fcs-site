@@ -390,7 +390,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
             <div className="bg-gray-50 rounded-xl p-6">
               <div className="mb-4">
                 <Image
-                  src="/images/FCS-Exterior-Waterproofing/fcs-exterior-waterproofing-display.webp"
+                  src="/images/fcs-exterior-waterproofing/fcs-exterior-waterproofing-display.webp"
                   alt="Black bituminous waterproofing applied to exposed brick foundation wall during excavation"
                   width={600}
                   height={400}

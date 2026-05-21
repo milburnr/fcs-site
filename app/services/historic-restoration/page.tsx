@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Historic Restoration", href: "/services/historic-restoration/" },
 ];
 
@@ -237,7 +237,7 @@ export default function HistoricRestorationPage() {
           <div className="mt-12 grid md:grid-cols-3 gap-6">
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/Lions-World-Vision-Institute-Building-Exterior/lions-world-vision-institute-building-exterior-display.webp"
+                src="/images/lions-world-vision-institute-building-exterior/lions-world-vision-institute-building-exterior-large.webp"
                 alt="Lions World Vision Institute historic brick building with restored architectural features"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
@@ -250,7 +250,7 @@ export default function HistoricRestorationPage() {
             </div>
             <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg group">
               <Image
-                src="/images/1111/1111-display.webp"
+                src="/images/1111/1111-large.webp"
                 alt="Historic church building restoration with scaffolding and clay tile roof repair"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"

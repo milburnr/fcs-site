@@ -92,7 +92,7 @@ export default function HistoricRestorationPage() {
       />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Historic Restoration", href: "/historic-restoration/" },
       ]} />
 
@@ -101,7 +101,7 @@ export default function HistoricRestorationPage() {
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           <Image
-            src="/images/hurricane-ian/hurricane-ian-display.webp"
+            src="/images/hurricane-ian/hurricane-ian-large.webp"
             alt="Hurricane damage restoration"
             fill
             className="object-cover"
