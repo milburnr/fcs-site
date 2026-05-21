@@ -77,22 +77,35 @@ function discoverAllPages() {
 // ── 2. Parse noindexed pages ────────────────────────────────────────────────
 
 function isNoindexed(filePath) {
+  const check = (content) => {
+    // Object form: robots: { index: false, ... }
+    if (/robots:\s*\{[^}]*index:\s*false/s.test(content)) return true;
+    // String form: robots: "noindex, ..." or 'noindex' anywhere in robots literal
+    if (/robots:\s*['"`][^'"`]*noindex/i.test(content)) return true;
+    return false;
+  };
+
   const content = fs.readFileSync(filePath, 'utf-8');
-  if (/robots:\s*\{[^}]*index:\s*false/s.test(content)) {
-    return true;
-  }
+  if (check(content)) return true;
 
   // Also check layout.tsx in the same directory (e.g. premium-homepage)
   const dir = path.dirname(filePath);
   const layoutPath = path.join(dir, 'layout.tsx');
   if (fs.existsSync(layoutPath)) {
     const layoutContent = fs.readFileSync(layoutPath, 'utf-8');
-    if (/robots:\s*\{[^}]*index:\s*false/s.test(layoutContent)) {
-      return true;
-    }
+    if (check(layoutContent)) return true;
   }
 
   return false;
+}
+
+// Returns the canonical URL declared in the page (or null). Catches:
+//   alternates: { canonical: "https://..." }
+//   alternates: { canonical: `${SITE_URL}/foo/` }
+function getDeclaredCanonical(filePath) {
+  const content = fs.readFileSync(filePath, 'utf-8');
+  const m = content.match(/canonical:\s*["'`]([^"'`]+)["'`]/);
+  return m ? m[1] : null;
 }
 
 // ── 3. Parse redirected URLs from netlify.toml ──────────────────────────────
@@ -228,6 +241,24 @@ function main() {
       continue;
     }
 
+    // Check that the page's declared canonical matches the URL we'd emit.
+    // If a page has a canonical pointing elsewhere, skip it — listing both
+    // would be a "non-canonical in sitemap" finding.
+    const declaredCanonical = getDeclaredCanonical(page.filePath);
+    if (declaredCanonical) {
+      const expected = `${BASE_URL}${urlPath}`;
+      // Permit the declared canonical to use either trailing-slash form,
+      // and ignore template literal expressions (they may be dynamic).
+      const norm = declaredCanonical.replace(/\/$/, '');
+      const expectedNorm = expected.replace(/\/$/, '');
+      const isDynamic = /\$\{|\\$/.test(declaredCanonical) || declaredCanonical.includes('${');
+      if (!isDynamic && declaredCanonical.startsWith('http') && norm !== expectedNorm) {
+        excluded.nonCanonical = excluded.nonCanonical || [];
+        excluded.nonCanonical.push({ urlPath, canonical: declaredCanonical });
+        continue;
+      }
+    }
+
     const priority = getPriority(page.slug);
     const changefreq = priority === '1.0' ? 'weekly' :
                        priority === '0.9' ? 'weekly' :
@@ -270,6 +301,10 @@ function main() {
   console.log(`Noindexed: ${excluded.noindex.length}`);
   for (const p of excluded.noindex) console.log(`  - ${p}`);
 
+  if (excluded.nonCanonical && excluded.nonCanonical.length) {
+    console.log(`Non-canonical: ${excluded.nonCanonical.length}`);
+    for (const x of excluded.nonCanonical) console.log(`  - ${x.urlPath}  →  canonical=${x.canonical}`);
+  }
   console.log(`Redirected: ${excluded.redirect.length}`);
   for (const p of excluded.redirect.slice(0, 10)) console.log(`  - ${p}`);
   if (excluded.redirect.length > 10) {

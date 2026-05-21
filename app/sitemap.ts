@@ -7,6 +7,77 @@ export const dynamic = "force-static";
 
 const BASE_URL = "https://floridaconstructionspecialists.com";
 const APP_DIR = path.join(process.cwd(), "app");
+const NETLIFY_TOML = path.join(process.cwd(), "netlify.toml");
+const REDIRECTS_FILE = path.join(process.cwd(), "public", "_redirects");
+
+// Sources of truth for "should this URL be in the sitemap?"
+//  - skip noindex pages (Article + LocalBusiness require fresh sitemap entries)
+//  - skip pages whose `from` is a 301 source (page is unreachable, redirects away)
+//  - skip pages whose declared canonical points elsewhere
+
+function readIfExists(p: string): string {
+  return fs.existsSync(p) ? fs.readFileSync(p, "utf-8") : "";
+}
+
+const REDIRECT_SOURCES: Set<string> = (() => {
+  const set = new Set<string>();
+  // netlify.toml [[redirects]] blocks
+  const toml = readIfExists(NETLIFY_TOML);
+  for (const block of toml.split("[[redirects]]").slice(1)) {
+    const from = block.match(/from\s*=\s*"([^"]+)"/)?.[1];
+    const status = parseInt(block.match(/status\s*=\s*(\d+)/)?.[1] || "301", 10);
+    if (!from || status < 300 || status >= 400) continue;
+    if (from.includes("*") || from.includes(":")) continue;
+    set.add(normalizePath(from));
+  }
+  // _redirects entries
+  const redirects = readIfExists(REDIRECTS_FILE);
+  for (const line of redirects.split("\n")) {
+    const t = line.trim();
+    if (!t || t.startsWith("#")) continue;
+    const m = t.match(/^(\S+)\s+(\S+)(?:\s+(\d+))?/);
+    if (!m) continue;
+    const status = parseInt(m[3] || "301", 10);
+    if (status < 300 || status >= 400) continue;
+    if (m[1].includes("*") || m[1].includes(":")) continue;
+    set.add(normalizePath(m[1]));
+  }
+  return set;
+})();
+
+function normalizePath(p: string): string {
+  let q = p;
+  if (q.startsWith("http")) {
+    try { q = new URL(q).pathname; } catch { /* ignore */ }
+  }
+  if (!q.startsWith("/")) q = "/" + q;
+  if (q.length > 1 && q.endsWith("/")) q = q.slice(0, -1);
+  return q;
+}
+
+function isPageNoindex(pageDir: string): boolean {
+  const candidates = ["page.tsx", "page.jsx", "page.ts", "page.js", "layout.tsx", "layout.jsx", "layout.ts", "layout.js"];
+  for (const f of candidates) {
+    const fp = path.join(pageDir, f);
+    if (!fs.existsSync(fp)) continue;
+    const txt = fs.readFileSync(fp, "utf-8");
+    if (/robots:\s*\{[\s\S]*?index:\s*false/.test(txt)) return true;
+    if (/robots:\s*['"`][^'"`]*noindex/i.test(txt)) return true;
+  }
+  return false;
+}
+
+function pageCanonical(pageDir: string): string | null {
+  const candidates = ["page.tsx", "page.jsx", "page.ts", "page.js"];
+  for (const f of candidates) {
+    const fp = path.join(pageDir, f);
+    if (!fs.existsSync(fp)) continue;
+    const txt = fs.readFileSync(fp, "utf-8");
+    const m = txt.match(/canonical:\s*["'`]([^"'`]+)["'`]/);
+    if (m) return m[1];
+  }
+  return null;
+}
 
 // Directories under app/ to skip entirely (Next.js internals or routes whose
 // children are enumerated through other means).
@@ -19,6 +90,8 @@ interface DiscoveredRoute {
   segments: string[];
   /** Filesystem depth from APP_DIR, used for priority heuristics. Route groups don't count. */
   urlDepth: number;
+  /** Absolute filesystem dir of the page (used for noindex/canonical checks). */
+  absDir: string;
 }
 
 /**
@@ -64,6 +137,7 @@ function discoverRoutes(): DiscoveredRoute[] {
           out.push({
             segments: childSegments,
             urlDepth: childSegments.length,
+            absDir: childAbs,
           });
         }
       }
@@ -112,8 +186,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
   // Discovered app routes (recursive)
   for (const route of discoverRoutes()) {
     const urlPath = route.segments.join("/");
+    const fullPath = `/${urlPath}`;
+    // Skip pages that redirect (unreachable, would be a non-canonical entry)
+    if (REDIRECT_SOURCES.has(normalizePath(fullPath))) continue;
+    // Skip noindex pages
+    if (isPageNoindex(route.absDir)) continue;
+    // Skip pages whose declared canonical points elsewhere
+    const canonical = pageCanonical(route.absDir);
+    if (canonical && canonical.startsWith("http") && !canonical.includes("${")) {
+      const expected = `${BASE_URL}${fullPath}/`;
+      if (canonical.replace(/\/$/, "") !== expected.replace(/\/$/, "")) continue;
+    }
     push({
-      url: `${BASE_URL}/${urlPath}/`,
+      url: `${BASE_URL}${fullPath}/`,
       lastModified: now,
       changeFrequency: changeFreqFor(route.urlDepth),
       priority: priorityFor(route.urlDepth),

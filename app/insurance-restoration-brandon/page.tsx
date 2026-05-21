@@ -52,8 +52,8 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Insurance Restoration", href: "/insurance-restoration/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Insurance Restoration", href: "/insurance/" },
   { name: "Brandon", href: "/insurance-restoration-brandon/" },
 ];
 

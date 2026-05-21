@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Engineering Coordination", href: "/engineering/" },
 ];
 
@@ -163,7 +163,7 @@ const processSteps = [
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
@@ -571,7 +571,7 @@ export default function EngineeringCoordinationPage() {
               </span>
             </Link>
 
-            <Link href="/building-consultants/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/commercial/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-lg font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
                 Building Consultants
               </h3>
@@ -581,7 +581,7 @@ export default function EngineeringCoordinationPage() {
               </span>
             </Link>
 
-            <Link href="/certified-estimates/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
+            <Link href="/commercial/" className="group bg-white rounded-xl p-6 hover:shadow-lg transition-all">
               <h3 className="text-lg font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
                 Certified Estimates
               </h3>

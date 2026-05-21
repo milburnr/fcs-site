@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];

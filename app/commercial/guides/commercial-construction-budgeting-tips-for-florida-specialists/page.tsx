@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/tampa-commercial-construction-costs/", label: "Construction Costs" },
-  { href: "/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
+  { href: "/commercial/guides/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
   { href: "/commercial/guides/tampa-commercial-construction-bidding-process/", label: "Bidding Process" },
   { href: "/contact/", label: "Get a Custom Estimate" },
 ];

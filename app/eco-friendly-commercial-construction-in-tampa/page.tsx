@@ -31,7 +31,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/trends-and-future-of-commercial-construction-in-tampa/", label: "Construction Trends" },
-  { href: "/choosing-materials-for-commercial-construction-in-tampa/", label: "Material Selection" },
+  { href: "/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/", label: "Material Selection" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

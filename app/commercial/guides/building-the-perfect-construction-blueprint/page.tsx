@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/services/commercial/design-build/", label: "Design-Build Services" },
   { href: "/commercial/guides/crafting-the-ideal-commercial-blueprint-in-tampa-florida/", label: "Tampa Blueprint Guide" },
-  { href: "/commercial-building-design-services-in-tampa/", label: "Commercial Design Services" },
+  { href: "/commercial/guides/commercial-building-design-services-in-tampa/", label: "Commercial Design Services" },
   { href: "/pre-construction-services-tampa/", label: "Pre-Construction Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

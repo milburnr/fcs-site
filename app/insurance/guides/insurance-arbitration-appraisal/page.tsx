@@ -74,9 +74,9 @@ const faqs = [
 ];
 
 const relatedServices = [
-  { href: "/expert-witness/", label: "Expert Witness Services" },
-  { href: "/certified-estimates/", label: "Certified Estimates" },
-  { href: "/building-consultants/", label: "Building Consultants" },
+  { href: "/other-services/", label: "Expert Witness Services" },
+  { href: "/commercial/", label: "Certified Estimates" },
+  { href: "/commercial/", label: "Building Consultants" },
   { href: "/insurance/", label: "Disaster Recovery" },
 ];
 
@@ -102,7 +102,7 @@ const relatedArticles = [
   },
   {
     "title": "Claims Negotiation for Property Damage",
-    "href": "/claims-negotiation-for-property-damage-in-tampa/",
+    "href": "/insurance/guides/claims-negotiation-for-property-damage-in-tampa/",
     "description": "Maximize your insurance settlement with professional claims support."
   },
   {

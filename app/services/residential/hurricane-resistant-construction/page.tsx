@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Residential Construction", href: "/residential/" },
   { name: "Hurricane-Resistant Construction", href: "/services/residential/hurricane-resistant-construction/" },
 ];
@@ -356,7 +356,7 @@ export default function HurricaneResistantPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/services/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
+            links={[{"href":"/residential/","label":"Residential Construction Services"},{"href":"/luxury-custom-homes/","label":"Luxury Custom Homes"},{"href":"/balcony-reconstruction/","label":"Balcony Reconstruction"},{"href":"/exterior-waterproofing/","label":"Exterior Waterproofing"},{"href":"/luxury-custom-homes/","label":"Waterfront Home Construction"}]}
             title="Related Resources"
             
           />

@@ -489,7 +489,7 @@ export default function TeamMembersPage() {
           <div className="flex flex-wrap justify-center gap-8">
             {[
               { name: "About FCS", href: "/about/" },
-              { name: "Our Services", href: "/services/" },
+              { name: "Our Services", href: "/commercial/" },
               { name: "Project Gallery", href: "/gallery/" },
               { name: "Contact Us", href: "/contact/" },
             ].map((link) => (

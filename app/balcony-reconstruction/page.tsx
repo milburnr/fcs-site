@@ -111,7 +111,7 @@ export default function BalconyReconstructionPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
       ]} />
 

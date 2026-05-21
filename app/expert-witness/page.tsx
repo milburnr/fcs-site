@@ -25,8 +25,8 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Expert Witness", href: "/expert-witness/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Expert Witness", href: "/other-services/" },
 ];
 
 const faqs = [
@@ -73,15 +73,15 @@ const faqs = [
 ];
 
 const relatedServices = [
-  { href: "/certified-estimates/", label: "Certified Estimates" },
+  { href: "/commercial/", label: "Certified Estimates" },
   { href: "/insurance/guides/insurance-arbitration-appraisal/", label: "Insurance Arbitration & Appraisal" },
-  { href: "/building-consultants/", label: "Building Consultants" },
+  { href: "/commercial/", label: "Building Consultants" },
   { href: "/insurance/", label: "Disaster Recovery" },
 ];
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },

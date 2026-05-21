@@ -495,7 +495,7 @@ export default function LocationsHubPage() {
           <InternalLinks
             title="Explore Our Services"
             links={[
-              { href: "/services/", label: "All Construction Services" },
+              { href: "/commercial/", label: "All Construction Services" },
               { href: "/commercial/", label: "Commercial Construction" },
               { href: "/residential/", label: "Residential Construction" },
               { href: "/insurance/", label: "Insurance Restoration" },

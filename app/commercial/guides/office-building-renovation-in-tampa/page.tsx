@@ -34,7 +34,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/commercial/guides/tampas-premier-commercial-remodeling-contractors/", label: "Commercial Remodeling Contractors" },
-  { href: "/smooth-commercial-renovations-solution-in-tampa/", label: "Smooth Occupied Renovations" },
+  { href: "/commercial/guides/smooth-commercial-renovations-solution-in-tampa/", label: "Smooth Occupied Renovations" },
   { href: "/contact/", label: "Get Free Estimate" },
 ];
 

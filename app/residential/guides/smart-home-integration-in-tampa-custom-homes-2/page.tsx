@@ -34,7 +34,7 @@ const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Homes" },
   { href: "/secure-custom-home-construction-in-tampa/", label: "Home Security Features" },
-  { href: "/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Home Theater Spaces" },
+  { href: "/residential/guides/custom-home-theaters-and-entertainment-spaces-in-tampa/", label: "Home Theater Spaces" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -51,7 +51,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   },
   {

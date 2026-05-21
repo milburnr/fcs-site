@@ -30,7 +30,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/key-questions-for-floridas-top-commercial-contractor/", label: "Questions to Ask Contractors" },
-  { href: "/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/", label: "Key Selection Factors" },
+  { href: "/commercial/guides/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/", label: "Key Selection Factors" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

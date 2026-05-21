@@ -33,7 +33,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
   { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
-  { href: "/the-preferred-commercial-general-contractors-in-tampa/", label: "Preferred GCs in Tampa" },
+  { href: "/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/", label: "Preferred GCs in Tampa" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

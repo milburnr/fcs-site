@@ -13,10 +13,10 @@ const slides = getProjectImages(project);
 
 export const metadata: Metadata = {
   alternates: { canonical: "https://floridaconstructionspecialists.com/gallery/race-track/" },
-  title: `${project.name} | Gallery`,
+  title: project.name,
   description: `View ${project.photoCount} photos of the ${project.name} project completed by Florida Construction Specialists in Tampa Bay.`,
   openGraph: {
-    title: `${project.name} | Gallery`,
+    title: project.name,
     description: `View ${project.photoCount} photos of the ${project.name} project by Florida Construction Specialists.`,
     url: "https://floridaconstructionspecialists.com/gallery/race-track/",
     type: "website",
@@ -95,7 +95,7 @@ export default function ProjectPage() {
               { href: "/commercial/", label: "Commercial Construction" },
               { href: "/residential/", label: "Residential Construction" },
               { href: "/insurance/", label: "Insurance Restoration" },
-              { href: "/services/", label: "All Services" },
+              { href: "/commercial/", label: "All Services" },
               { href: "/contact/", label: "Contact Us" },
             ]}
             title="Explore Our Services"

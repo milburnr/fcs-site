@@ -98,7 +98,7 @@ export default function ProjectPage() {
               { href: "/commercial/", label: "Commercial Construction" },
               { href: "/residential/", label: "Residential Construction" },
               { href: "/insurance/", label: "Insurance Restoration" },
-              { href: "/services/", label: "All Services" },
+              { href: "/commercial/", label: "All Services" },
               { href: "/contact/", label: "Contact Us" },
             ]}
             title="Explore Our Services"

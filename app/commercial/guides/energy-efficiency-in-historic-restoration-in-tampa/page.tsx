@@ -33,7 +33,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvements" },
   { href: "/commercial/guides/sustainable-building-materials-in-commercial-construction/", label: "Sustainable Building Materials" },
-  { href: "/materials-for-historic-restoration-in-tampa/", label: "Historic Restoration Materials" },
+  { href: "/commercial/guides/materials-for-historic-restoration-in-tampa/", label: "Historic Restoration Materials" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

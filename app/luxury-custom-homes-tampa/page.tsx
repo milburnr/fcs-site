@@ -52,7 +52,7 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
   { name: "Luxury Custom Homes", href: "/luxury-custom-homes/" },
   { name: "Tampa", href: "/luxury-custom-homes-tampa/" },
 ];

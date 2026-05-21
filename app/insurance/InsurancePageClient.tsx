@@ -97,7 +97,7 @@ const services = [
   {
     icon: Gavel,
     title: "Expert Witness",
-    href: "/expert-witness/",
+    href: "/other-services/",
     description: "Construction expert witness testimony for litigation, arbitration, and dispute resolution. 40+ years of credible expertise.",
   },
 ];

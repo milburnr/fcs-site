@@ -377,7 +377,7 @@ export default function SpecialtyServicesPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Specialty Services", href: "/other-services/" },
       ]} />
 

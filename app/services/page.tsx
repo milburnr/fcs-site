@@ -39,14 +39,14 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
+  { name: "Services", href: "/commercial/" },
 ];
 
 // Commercial service cards with images
 const commercialServiceCards = [
   {
     name: "Commercial Construction",
-    href: "/commercial-construction/",
+    href: "/commercial/",
     image: AI_IMAGES.commercialHero,
     imageAlt: AI_IMAGE_ALT.commercialHero,
     description: "Office buildings, medical facilities, retail centers, and industrial projects from $500K to $25M+.",
@@ -92,28 +92,28 @@ const commercialServiceCards = [
 const insuranceServiceCards = [
   {
     name: "Insurance Restoration",
-    href: "/insurance-restoration/",
+    href: "/insurance/",
     image: AI_IMAGES.hurricane,
     imageAlt: "Insurance restoration services Tampa Bay",
     description: "Large-loss insurance claim management and complete property restoration. We work directly with adjusters and carriers.",
   },
   {
     name: "Certified Estimates",
-    href: "/certified-estimates/",
+    href: "/commercial/",
     image: AI_IMAGES.office,
     imageAlt: "Certified construction estimates Tampa Bay",
     description: "Accurate certified construction estimates for insurance claims, legal proceedings, and project planning.",
   },
   {
     name: "Expert Witness",
-    href: "/expert-witness/",
+    href: "/other-services/",
     image: AI_IMAGES.office,
     imageAlt: "Construction expert witness Tampa Bay",
     description: "Construction expert witness testimony for litigation, arbitration, and dispute resolution.",
   },
   {
     name: "Building Consultants",
-    href: "/building-consultants/",
+    href: "/commercial/",
     image: AI_IMAGES.office,
     imageAlt: "Building consultants Tampa Bay",
     description: "Expert construction consulting for project planning, feasibility studies, and owner representation.",

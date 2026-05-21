@@ -32,7 +32,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/residential/guides/tampas-custom-family-home-builders/", label: "Custom Family Home Builders" },
-  { href: "/custom-home-accessibility-features-in-tampa/", label: "Accessibility Features" },
+  { href: "/residential/guides/custom-home-accessibility-features-in-tampa/", label: "Accessibility Features" },
   { href: "/spacious-family-homes-construction-in-tampa/", label: "Spacious Family Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

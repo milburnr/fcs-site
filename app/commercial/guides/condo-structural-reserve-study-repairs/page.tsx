@@ -96,7 +96,7 @@ export default function SIRSRepairsPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "SIRS Repairs", href: "/commercial/guides/condo-structural-reserve-study-repairs/" },
       ]} />
 

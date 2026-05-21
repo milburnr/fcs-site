@@ -34,8 +34,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/commercial-construction-budgeting-tips-for-florida-specialists/", label: "Budgeting Tips" },
-  { href: "/choosing-materials-for-commercial-construction-in-tampa/", label: "Material Selection" },
-  { href: "/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
+  { href: "/commercial/guides/choosing-materials-for-commercial-construction-in-tampa/", label: "Material Selection" },
+  { href: "/commercial/guides/affordable-commercial-construction-in-tampa/", label: "Affordable Construction" },
   { href: "/contact/", label: "Get a Custom Quote" },
 ];
 

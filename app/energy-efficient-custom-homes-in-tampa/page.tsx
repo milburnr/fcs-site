@@ -31,7 +31,7 @@ const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/eco-friendly-custom-homes-in-tampa/", label: "Eco-Friendly Custom Homes" },
   { href: "/residential/guides/smart-home-integration-in-tampa-custom-homes-2/", label: "Smart Home Integration" },
-  { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Homes" },
+  { href: "/residential/guides/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

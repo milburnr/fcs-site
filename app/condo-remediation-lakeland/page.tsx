@@ -52,8 +52,8 @@ const faqs = [
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Services", href: "/services/" },
-  { name: "Condo Remediation", href: "/condo-remediation/" },
+  { name: "Services", href: "/commercial/" },
+  { name: "Condo Remediation", href: "/condo-remediation-tampa/" },
   { name: "Lakeland", href: "/condo-remediation-lakeland/" },
 ];
 

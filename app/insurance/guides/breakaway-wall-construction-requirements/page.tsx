@@ -262,7 +262,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/", label: "Our Construction Services" },
+  { href: "/commercial/", label: "Our Construction Services" },
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
   { href: "/about/", label: "About Florida Construction Specialists" },
@@ -316,7 +316,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
       <Breadcrumb
         items={[
           { name: "Residential", href: "/residential/" },
-          { name: "Coastal Resilience", href: "/residential/coastal-resilience/" },
+          { name: "Coastal Resilience", href: "/disaster-recovery/" },
           { name: "Breakaway Walls", href: "/insurance/guides/breakaway-wall-construction-requirements/" },
         ]}
       />
@@ -339,7 +339,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
             <BackToHub
               silo="residential"
               customHubTitle="Coastal Resilience"
-              customHubHref="/residential/coastal-resilience/"
+              customHubHref="/disaster-recovery/"
             />
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Breakaway Wall Construction Requirements

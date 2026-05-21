@@ -245,7 +245,7 @@ export default function ContactPage() {
         <div className="container-custom">
           <InternalLinks
             links={[
-              { href: "/services/", label: "Our Services" },
+              { href: "/commercial/", label: "Our Services" },
               { href: "/commercial/", label: "Commercial Construction" },
               { href: "/residential/", label: "Residential Construction" },
               { href: "/insurance/", label: "Insurance Restoration" },

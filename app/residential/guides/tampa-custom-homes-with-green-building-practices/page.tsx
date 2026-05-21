@@ -34,7 +34,7 @@ const internalLinks = [
   { href: "/eco-friendly-custom-homes-in-tampa/", label: "Eco-Friendly Custom Homes" },
   { href: "/energy-efficient-custom-homes-in-tampa/", label: "Energy-Efficient Homes" },
   { href: "/residential/", label: "Residential Construction Services" },
-  { href: "/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Construction" },
+  { href: "/residential/guides/climate-resilient-custom-homes-in-tampa/", label: "Climate-Resilient Construction" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -56,7 +56,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   }
 ];

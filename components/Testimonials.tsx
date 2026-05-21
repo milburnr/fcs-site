@@ -140,7 +140,20 @@ export function TestimonialSchema({ testimonials, businessName }: TestimonialSch
   const reviewSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
+    "@id": "https://floridaconstructionspecialists.com/#localbusiness",
     "name": businessName,
+    "image": "https://floridaconstructionspecialists.com/og-image.jpg",
+    "url": "https://floridaconstructionspecialists.com",
+    "telephone": "+1-813-420-7561",
+    "priceRange": "$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "822 Bayview Dr",
+      "addressLocality": "Ruskin",
+      "addressRegion": "FL",
+      "postalCode": "33579",
+      "addressCountry": "US",
+    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": (

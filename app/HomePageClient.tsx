@@ -125,7 +125,7 @@ export function HomePageClient() {
       <ParallaxCardsContainer overlap={200} className="pb-16">
         <div className="flex justify-end mb-4">
           <Link
-            href="/portfolio/"
+            href="/gallery/"
             className="flex items-center gap-2 text-brand-green font-semibold hover:text-brand-green-dark transition-colors"
           >
             View Full Portfolio

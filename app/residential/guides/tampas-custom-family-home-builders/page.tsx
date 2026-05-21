@@ -33,7 +33,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
-  { href: "/custom-home-accessibility-features-in-tampa/", label: "Accessibility Features" },
+  { href: "/residential/guides/custom-home-accessibility-features-in-tampa/", label: "Accessibility Features" },
   { href: "/residential/guides/creating-unique-bedrooms-in-tampa-custom-homes/", label: "Bedroom Design" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
   { href: "/contact/", label: "Schedule a Consultation" },
@@ -52,7 +52,7 @@ const relatedArticles = [
   },
   {
     "title": "Climate Resilient Custom Homes in Tampa",
-    "href": "/climate-resilient-custom-homes-in-tampa/",
+    "href": "/residential/guides/climate-resilient-custom-homes-in-tampa/",
     "description": "Design strategies for homes that perform in Florida's challenging environment."
   },
   {

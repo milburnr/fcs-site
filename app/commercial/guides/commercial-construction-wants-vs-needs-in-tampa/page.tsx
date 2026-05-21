@@ -33,7 +33,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/efficient-commercial-construction-timelines-in-tampa/", label: "Construction Timelines" },
   { href: "/commercial/guides/tampa-commercial-construction-planning-services/", label: "Planning Services" },
-  { href: "/commercial-construction-consultancy-in-tampa/", label: "Construction Consultancy" },
+  { href: "/commercial/guides/commercial-construction-consultancy-in-tampa/", label: "Construction Consultancy" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

@@ -33,8 +33,8 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/services/commercial/tenant-improvements/", label: "Tenant Improvement Services" },
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/smooth-commercial-renovations-solution-in-tampa/", label: "Smooth Commercial Renovations" },
-  { href: "/office-building-renovation-in-tampa/", label: "Office Building Renovation" },
+  { href: "/commercial/guides/smooth-commercial-renovations-solution-in-tampa/", label: "Smooth Commercial Renovations" },
+  { href: "/commercial/guides/office-building-renovation-in-tampa/", label: "Office Building Renovation" },
   { href: "/contact/", label: "Get Free Estimate" },
 ];
 

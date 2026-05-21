@@ -314,7 +314,7 @@ export function getSiloHub(silo: Silo): string {
  */
 export function isLinkAllowed(fromPath: string, toPath: string): boolean {
   // Neutral pages can link anywhere
-  const neutralPages = ['/', '/about/', '/contact/', '/locations/', '/portfolio/'];
+  const neutralPages = ['/', '/about/', '/contact/', '/locations/', '/gallery/'];
   if (neutralPages.includes(fromPath)) return true;
 
   // Check silo assignments

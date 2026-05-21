@@ -6,7 +6,7 @@ import { getArticle, getArticleSlugs } from "@/lib/articles";
 import { ArticleLayout } from "@/components/ArticleLayout";
 import { mdxComponents } from "@/components/mdx-components";
 
-const SITE_URL = "https://fcsflorida.com";
+const SITE_URL = "https://floridaconstructionspecialists.com";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const url = `${SITE_URL}/resources/${slug}/`;
 
   return {
-    title: `${title} | Florida Construction Specialists`,
+    title,
     description,
     alternates: { canonical: url },
     openGraph: {

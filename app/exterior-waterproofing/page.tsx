@@ -142,7 +142,7 @@ export default function ExteriorWaterproofingPage() {
       <FAQSchema faqs={faqs} />
 
       <Breadcrumb items={[
-        { name: "Services", href: "/services/" },
+        { name: "Services", href: "/commercial/" },
         { name: "Exterior Waterproofing", href: "/exterior-waterproofing/" },
       ]} />
 

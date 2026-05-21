@@ -33,7 +33,7 @@ const internalLinks = [
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/residential/guides/building-tampa-homes-with-personalized-office-spaces/", label: "Home Office Spaces" },
   { href: "/residential/guides/tampa-luxury-custom-home-building-services/", label: "Luxury Custom Homes" },
-  { href: "/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
+  { href: "/residential/guides/custom-home-interior-design-services-in-tampa/", label: "Interior Design Services" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

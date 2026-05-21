@@ -54,16 +54,23 @@ export default function Footer() {
               Our Services
             </h3>
             <ul className="space-y-2">
-              {SERVICES.map((service) => (
-                <li key={service.slug}>
-                  <Link
-                    href={`/${service.slug}/`}
-                    className="text-gray-300 hover:text-brand-green transition-colors"
-                  >
-                    {service.name}
-                  </Link>
-                </li>
-              ))}
+              {SERVICES.map((service) => {
+                // The "commercial-construction" slug is used for city-suffixed
+                // service-location pages, but its hub lives at /commercial/.
+                const hubHref = service.slug === "commercial-construction"
+                  ? "/commercial/"
+                  : `/${service.slug}/`;
+                return (
+                  <li key={service.slug}>
+                    <Link
+                      href={hubHref}
+                      className="text-gray-300 hover:text-brand-green transition-colors"
+                    >
+                      {service.name}
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
@@ -107,7 +114,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/services/"
+                  href="/commercial/"
                   className="text-gray-300 hover:text-brand-green transition-colors"
                 >
                   Services
@@ -119,6 +126,38 @@ export default function Footer() {
                   className="text-gray-300 hover:text-brand-green transition-colors"
                 >
                   Contact
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/team/"
+                  className="text-gray-300 hover:text-brand-green transition-colors"
+                >
+                  Our Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/gallery/"
+                  className="text-gray-300 hover:text-brand-green transition-colors"
+                >
+                  Project Gallery
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/privacy-policy/"
+                  className="text-gray-300 hover:text-brand-green transition-colors"
+                >
+                  Privacy Policy
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/terms-and-conditions/"
+                  className="text-gray-300 hover:text-brand-green transition-colors"
+                >
+                  Terms &amp; Conditions
                 </Link>
               </li>
             </ul>

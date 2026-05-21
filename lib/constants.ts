@@ -245,7 +245,7 @@ export const INSURANCE_SERVICES = [
   { label: "Water Restoration", href: "/insurance/water-restoration/" },
   { label: "Hurricane Restoration", href: "/insurance/hurricane-restoration/" },
   { label: "Mold Remediation", href: "/insurance/mold-remediation/" },
-  { label: "Expert Witness", href: "/expert-witness/" },
+  { label: "Expert Witness", href: "/other-services/" },
 ];
 
 export const NAV_ITEMS = [
