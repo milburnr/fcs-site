@@ -469,32 +469,7 @@ export default function BrandonPage() {
             </a>
           </div>
         </div>
-            {/* auto-linker:start */}
-      <section className="auto-linked-related my-8">
-        <h2 className="text-2xl font-semibold mb-4">Related Resources</h2>
-        <ul className="list-disc pl-6 space-y-2">
-          {/* auto-link:balcony-reconstruction-brandon */}
-          <li><a href="/balcony-reconstruction-brandon/" className="text-blue-700 underline">Balcony Reconstruction Brandon</a></li>
-                  {/* auto-link:commercial-construction-brandon */}
-          <li><a href="/commercial-construction-brandon/" className="text-blue-700 underline">Commercial Construction Brandon</a></li>
-                  {/* auto-link:condo-remediation-brandon */}
-          <li><a href="/condo-remediation-brandon/" className="text-blue-700 underline">condo remediation brandon guide</a></li>
-                  {/* auto-link:disaster-recovery-brandon */}
-          <li><a href="/disaster-recovery-brandon/" className="text-blue-700 underline">Disaster Recovery Brandon</a></li>
-                  {/* auto-link:exterior-waterproofing-brandon */}
-          <li><a href="/exterior-waterproofing-brandon/" className="text-blue-700 underline">Exterior Waterproofing Brandon</a></li>
-                  {/* auto-link:historic-restoration-brandon */}
-          <li><a href="/historic-restoration-brandon/" className="text-blue-700 underline">historic restoration brandon guide</a></li>
-                  {/* auto-link:insurance-restoration-brandon */}
-          <li><a href="/insurance-restoration-brandon/" className="text-blue-700 underline">Insurance Restoration Brandon</a></li>
-                  {/* auto-link:luxury-custom-homes-brandon */}
-          <li><a href="/luxury-custom-homes-brandon/" className="text-blue-700 underline">Luxury Custom Homes Brandon</a></li>
-                  {/* auto-link:multi-family-construction-brandon */}
-          <li><a href="/multi-family-construction-brandon/" className="text-blue-700 underline">multi family construction brandon</a></li>
-        </ul>
       </section>
-      {/* auto-linker:end */}
-</section>
     </>
   );
 }
