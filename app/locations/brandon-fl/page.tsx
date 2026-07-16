@@ -479,6 +479,12 @@ export default function BrandonPage() {
           <li><a href="/commercial-construction-brandon/" className="text-blue-700 underline">Commercial Construction Brandon</a></li>
                   {/* auto-link:condo-remediation-brandon */}
           <li><a href="/condo-remediation-brandon/" className="text-blue-700 underline">condo remediation brandon guide</a></li>
+                  {/* auto-link:disaster-recovery-brandon */}
+          <li><a href="/disaster-recovery-brandon/" className="text-blue-700 underline">Disaster Recovery Brandon</a></li>
+                  {/* auto-link:exterior-waterproofing-brandon */}
+          <li><a href="/exterior-waterproofing-brandon/" className="text-blue-700 underline">Exterior Waterproofing Brandon</a></li>
+                  {/* auto-link:historic-restoration-brandon */}
+          <li><a href="/historic-restoration-brandon/" className="text-blue-700 underline">historic restoration brandon guide</a></li>
         </ul>
       </section>
       {/* auto-linker:end */}
