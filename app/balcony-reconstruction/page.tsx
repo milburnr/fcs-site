@@ -15,11 +15,11 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/balcony-reconstruction/' },
-  title: "Balcony Reconstruction Tampa | Condo Repair",
-  description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  title: "Balcony Repair & Restoration Tampa | Reconstruction",
+  description: "Expert balcony repair, restoration & reconstruction across Tampa Bay. Condo & multi-family balcony repairs, waterproofing, and SB4-D remediation. Certified Building Contractor CBC1262722, 40+ years.",
   openGraph: {
-    title: "Balcony Reconstruction Tampa | Condo Repair",
-    description: "Balcony Reconstruction Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    title: "Balcony Repair & Restoration Tampa | Reconstruction",
+    description: "Expert balcony repair, restoration & reconstruction across Tampa Bay. Condo & multi-family balcony repairs, waterproofing, and SB4-D remediation. Certified Building Contractor with 40+ years experience.",
     url: "https://floridaconstructionspecialists.com/balcony-reconstruction/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -52,6 +52,14 @@ const warningSignsList = [
 ];
 
 const faqs = [
+  {
+    "question": "What is the difference between balcony repair, restoration, and reconstruction?",
+    "answer": "Balcony repair addresses localized, isolated problems — a corroded railing, a small area of spalling concrete, or a failed section of waterproofing — while the rest of the balcony remains sound. Balcony restoration brings a deteriorated balcony back to code-compliant condition across its full surface, including concrete replacement, new waterproofing, and railing upgrades, when the structure itself is still adequate. Reconstruction is reserved for balconies where deterioration has compromised structural capacity, requiring removal to the structural slab and a complete rebuild. Florida Construction Specialists assesses each building and recommends the least-invasive approach that will genuinely last."
+  },
+  {
+    "question": "Do you offer balcony repair and restoration for older Tampa Bay condos?",
+    "answer": "Yes. Balcony repair and restoration for aging condominiums and multi-family buildings is a core part of our work throughout Tampa, St. Petersburg, Clearwater, Sarasota, and Bradenton. Many Tampa Bay condos built in the 1980s and 1990s now show surface deterioration and failed waterproofing that can be addressed with restoration rather than full reconstruction if caught before structural capacity is lost. We provide the assessment that determines whether repair, restoration, or reconstruction is appropriate, and we handle the association coordination that condo balcony projects require."
+  },
   {
     "question": "How much does balcony reconstruction cost in Tampa Bay?",
     "answer": "Balcony reconstruction costs in Tampa Bay typically range from $15,000 to $50,000 per balcony depending on size, extent of damage, waterproofing system selected, and railing requirements. Building-wide projects involving dozens of balconies often qualify for volume pricing. Florida Construction Specialists provides detailed estimates after thorough structural assessment, and we work with HOAs and condo associations on phased approaches to manage reserve fund impacts."
@@ -133,10 +141,10 @@ export default function BalconyReconstructionPage() {
               <span className="text-brand-gold font-semibold">Tampa Bay's Condo & Multi-Family Balcony Specialists</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Balcony Reconstruction Tampa & Florida Gulf Coast
+              Balcony Repair, Restoration & Reconstruction in Tampa
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-2xl">
-              Expert balcony repair and reconstruction for condominiums, apartments, and commercial buildings. From structural assessment through waterproofing installation, we deliver complete balcony restoration solutions that protect your investment and ensure resident safety.
+              Expert balcony repair, restoration, and full reconstruction for condominiums, apartments, and commercial buildings across Tampa Bay. From targeted balcony repairs and waterproofing through complete structural reconstruction, we deliver solutions that protect your investment and ensure resident safety.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -179,11 +187,11 @@ export default function BalconyReconstructionPage() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading text-center">
-              Tampa Bay's Trusted Balcony Reconstruction Contractor
+              Tampa Bay's Trusted Balcony Repair & Reconstruction Contractor
             </h2>
             <div className="prose prose-lg max-w-none text-gray-600">
               <p>
-                Since 1982, Florida Construction Specialists has established itself as Tampa Bay's premier balcony reconstruction contractor, delivering comprehensive restoration solutions for condominiums, apartment complexes, and commercial buildings throughout the region. With {BUSINESS_INFO.yearsInBusiness} years of experience, an in-house engineering team, and over $25 million in successfully completed projects, we bring unmatched expertise to every balcony repair and reconstruction project we undertake.
+                Since 1982, Florida Construction Specialists has established itself as Tampa Bay's premier balcony repair and reconstruction contractor, delivering comprehensive balcony restoration solutions for condominiums, apartment complexes, and commercial buildings throughout the region. With {BUSINESS_INFO.yearsInBusiness} years of experience, an in-house engineering team, and over $25 million in successfully completed projects, we bring unmatched expertise to every balcony repair, restoration, and reconstruction project we undertake — from a handful of problem balconies to a full building-wide program.
               </p>
               <p>
                 Our focus on multi-family and commercial properties means we understand the unique challenges these projects present. From navigating HOA board approval processes to coordinating construction access across dozens of individual units, we've developed proven systems that minimize disruption while maintaining the highest quality standards. We work closely with property managers, association boards, and building engineers to ensure every project meets both structural requirements and community expectations.
@@ -193,6 +201,34 @@ export default function BalconyReconstructionPage() {
               </p>
               <p>
                 Notable projects include the Tiara Condominium's $4.9 million balcony and waterproofing reconstruction, along with numerous multi-family projects throughout Pinellas, Hillsborough, Manatee, and Sarasota counties. Whether your building requires assessment of a few problem balconies or complete reconstruction of all exterior platforms, Florida Construction Specialists delivers the expertise, resources, and proven track record your project demands.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Balcony Repair vs Restoration vs Reconstruction */}
+      <section className="section bg-brand-green-bg">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
+              Balcony Repair, Restoration, and Reconstruction — What Your Building Needs
+            </h2>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p>
+                Not every balcony needs full reconstruction. The right scope depends on how far deterioration has progressed, and matching the work to the actual condition is where an experienced Tampa Bay contractor saves an association real money. We assess each building and recommend the least-invasive approach that will genuinely last, whether that is targeted balcony repair, comprehensive restoration, or complete reconstruction.
+              </p>
+              <p>
+                <strong>Balcony repair</strong> addresses localized problems — isolated concrete spalling, a corroded railing post, a failed section of waterproofing, or a hairline crack near a door threshold — before they spread. When chloride contamination is limited and the underlying slab remains sound, focused balcony repairs restore safety and appearance at a fraction of the cost of full replacement. This is the right call for buildings caught early, and early action is exactly what keeps a repair a repair rather than a reconstruction.
+              </p>
+              <p>
+                <strong>Balcony restoration</strong> goes further, bringing a deteriorated balcony back to sound, code-compliant condition across its full surface: removing and replacing damaged concrete, treating or supplementing reinforcing steel, re-establishing proper slope-to-drain, installing a new traffic-bearing waterproofing membrane, and upgrading railings. Restoration suits balconies with widespread surface deterioration and failed waterproofing that have not yet lost structural capacity.
+              </p>
+              <p>
+                <strong>Balcony reconstruction</strong> is the appropriate response when deterioration has compromised the structure itself — when chlorides have penetrated throughout the slab, delamination is extensive, or post-tension tendons are corroded. Reconstruction removes concrete to the structural slab, replaces reinforcement, and rebuilds the balcony to current Florida Building Code with new waterproofing and railings. It costs more up front but eliminates contaminated material and resets the balcony's service life for decades.
+              </p>
+              <p>
+                Florida Construction Specialists delivers all three across Tampa, St. Petersburg, Clearwater, Sarasota, and Bradenton. Because we are always the prime contractor, the same accountable team assesses your balconies, recommends an honest scope, and executes the repair, restoration, or reconstruction your building actually needs.
               </p>
             </div>
           </div>

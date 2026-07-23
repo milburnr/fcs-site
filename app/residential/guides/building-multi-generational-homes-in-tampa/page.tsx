@@ -10,11 +10,11 @@ import { GuideCTA } from "@/components/GuideCTA";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/' },
-  title: "Building Multi-Generational Homes in Tampa",
-  description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+  title: "Multi-Generational Home Builders Tampa | Extended Family",
+  description: "Multi-generational and extended-family home builders in Tampa. Custom in-law suites, dual-master homes, and accessible design. Certified Building Contractor CBC1262722, 40+ years in Tampa Bay.",
   openGraph: {
-    title: "Building Multi-Generational Homes in Tampa",
-    description: "Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor.",
+    title: "Multi-Generational Home Builders Tampa | Extended Family",
+    description: "Multi-generational and extended-family home builders in Tampa. Custom in-law suites, dual-master homes, and accessible aging-in-place design. Certified Building Contractor with 40+ years in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -65,8 +65,8 @@ export default function Page() {
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
-        headline="Building Multi-Generational Homes in Tampa | Family Living"
-        description="Building Multi-generational Homes Family Living in Tampa: new builds, renovations, and disaster recovery services. FL-licensed CBC contractor. Contact us today."
+        headline="Multi-Generational Home Builders in Tampa | Extended Family Living"
+        description="Multi-generational and extended-family home builders in Tampa: custom in-law suites, dual-master homes, and accessible design. Certified Building Contractor. Contact us today."
         datePublished="2024-01-01"
         slug="/residential/guides/building-multi-generational-homes-in-tampa/"
       />
@@ -85,11 +85,11 @@ export default function Page() {
         </div>
         <div className="container-custom text-center text-white relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Building Multi-Generational Homes in Tampa
+            Multi-Generational & Extended-Family Home Builders in Tampa
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Keep family close while maintaining privacy. Custom multi-generational homes with in-law suites, dual living areas, accessible design, and thoughtful separation for grandparents, parents, and children living together.
+            Tampa's custom builders for multi-generational and extended-family homes. Keep family close while maintaining privacy — in-law suites, dual-master living, accessible aging-in-place design, and thoughtful separation for grandparents, parents, and children under one roof.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -112,8 +112,8 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Multi-generational living is experiencing a renaissance in America, and Tampa Bay is at the forefront of this trend. Extended families are discovering the emotional, practical, and financial benefits of living together—grandparents providing childcare, adult children supporting aging parents, resources pooled for better homes than any generation could afford alone. Florida Construction Specialists designs and builds custom multi-generational homes that make shared living work for everyone, with thoughtful separation that provides privacy while maintaining family connection.
-             Florida Construction Specialists has delivered quality residential construction across Tampa Bay since 1982, with the same CBC-licensed professionalism and in-house engineering that defines our commercial work.</p>
+              Multi-generational living is experiencing a renaissance in America, and Tampa Bay is at the forefront of this trend. Extended families are discovering the emotional, practical, and financial benefits of living together—grandparents providing childcare, adult children supporting aging parents, resources pooled for better homes than any generation could afford alone. As experienced Tampa multi-generational and extended-family home builders, Florida Construction Specialists designs and builds custom homes that make shared living work for everyone, with thoughtful separation that provides privacy while maintaining family connection.
+             We have delivered quality residential construction across Tampa Bay since 1982 as a Florida Certified Building Contractor (CBC1262722), bringing the same in-house engineering and prime-contractor accountability that defines our commercial work to every extended-family home we build.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Why Multi-Generational Living Works
