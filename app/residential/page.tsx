@@ -10,6 +10,7 @@ import { HighLevelForm } from "@/components/HighLevelForm";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import RelatedArticles from "@/components/RelatedArticles";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
+import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/' },
@@ -713,6 +714,16 @@ export default function ResidentialHubPage() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+      <section className="py-16">
+        <div className="container-custom">
+          <InternalLinks
+            title="Custom Home Guides"
+            links={[
+              { label: "Multigenerational Home Builder in Tampa", href: "/resources/multigenerational-home-builder-tampa/" },
+            ]}
+          />
         </div>
       </section>
       <RelatedServiceLocations

@@ -7,7 +7,7 @@ import { FAQWithSchema } from "@/components/FAQ";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { CodeReference } from "@/components/CodeReference";
 import { AuthorByline } from "@/components/AuthorByline";
-import { RelatedServices } from "@/components/InternalLinks";
+import { RelatedServices, InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
@@ -457,6 +457,17 @@ export default function SB4DCompliancePage() {
               <span>SB4-D Remediation Specialists</span>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="py-16">
+        <div className="container-custom">
+          <InternalLinks
+            title="SB4-D Milestone & Recertification by City"
+            links={[
+              { label: "SB4-D Milestone Inspection Contractor in Sarasota", href: "/resources/sb4d-milestone-inspection-contractor-sarasota/" },
+              { label: "SB4-D Condo Recertification Contractor in Bradenton", href: "/resources/sb4d-condo-recertification-contractor-bradenton/" },
+            ]}
+          />
         </div>
       </section>
       <RelatedServiceLocations

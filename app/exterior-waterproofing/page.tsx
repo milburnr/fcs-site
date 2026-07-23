@@ -5,7 +5,7 @@ import { BUSINESS_INFO, LOCATIONS } from "@/lib/constants";
 import { FAQWithSchema } from "@/components/FAQ";
 import { ServiceSchema, BreadcrumbSchema, FAQSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
-import { ServiceAreaLinks } from "@/components/InternalLinks";
+import { ServiceAreaLinks, InternalLinks } from "@/components/InternalLinks";
 import { ContentImage, ContentParallax } from "@/components/ContentImage";
 import { ProjectGallery, type GalleryPhoto } from "@/components/ProjectGallery";
 import { CodeReference } from "@/components/CodeReference";
@@ -991,6 +991,18 @@ export default function ExteriorWaterproofingPage() {
               Call {BUSINESS_INFO.phone}
             </a>
           </div>
+        </div>
+      </section>
+      <section className="py-16">
+        <div className="container-custom">
+          <InternalLinks
+            title="Stucco & EIFS Repair Guides"
+            links={[
+              { label: "Stucco Repair in St. Petersburg", href: "/resources/stucco-repair-near-me-st-petersburg/" },
+              { label: "EIFS Stucco Repair in St. Petersburg", href: "/resources/eifs-stucco-repair-st-petersburg/" },
+              { label: "DIY vs. Pro Stucco Repair in St. Petersburg", href: "/resources/stucco-repair-diy-st-petersburg/" },
+            ]}
+          />
         </div>
       </section>
       <RelatedServiceLocations

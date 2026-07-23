@@ -626,6 +626,9 @@ export default function CommercialHubPage() {
               { label: "Disaster Recovery", href: "/disaster-recovery/" },
               { label: "Historic Restoration", href: "/commercial/historic-restoration/" },
               { label: "Balcony Reconstruction", href: "/balcony-reconstruction/" },
+              { label: "Commercial General Contractors in St. Petersburg", href: "/resources/commercial-general-contractors-near-me-st-petersburg/" },
+              { label: "Tenant Improvement Contractors in St. Petersburg", href: "/resources/tenant-improvement-contractors-near-me-st-petersburg/" },
+              { label: "Commercial Contractor in Clearwater & Pinellas County", href: "/resources/commercial-contractor-clearwater-pinellas-county/" },
             ]}
           />
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { InsurancePageClient } from "./InsurancePageClient";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
+import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   title: "Insurance Restoration Tampa | Licensed GC",
@@ -37,6 +38,16 @@ export default function InsurancePage() {
       />
       <BreadcrumbSchema items={breadcrumbItems} />
       <InsurancePageClient />
+      <section className="py-16">
+        <div className="container-custom">
+          <InternalLinks
+            title="Hurricane Restoration Resources"
+            links={[
+              { label: "Hurricane Insurance Restoration Contractor in Tampa", href: "/resources/hurricane-insurance-restoration-contractor-tampa/" },
+            ]}
+          />
+        </div>
+      </section>
       <RelatedServiceLocations
         currentCity="Tampa"
         currentService="insurance-restoration"

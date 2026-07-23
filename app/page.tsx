@@ -3,6 +3,7 @@ import { Shield, Award, CheckCircle } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import { HeroSlideshow } from "./HeroSlideshow";
 import { HomePageClient } from "./HomePageClient";
+import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   title: "Tampa Bay Commercial Construction | FCS",
@@ -92,6 +93,17 @@ export default function HomePage() {
 
       {/* Rest of homepage (interactive, needs client-side JS) */}
       <HomePageClient />
+
+      <section className="py-16 bg-gray-50">
+        <div className="container-custom">
+          <InternalLinks
+            title="Featured Guide"
+            links={[
+              { label: "Multigenerational Home Builder in Tampa", href: "/resources/multigenerational-home-builder-tampa/" },
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }
