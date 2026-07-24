@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -136,6 +136,12 @@ export default function CommercialConstructionTampaPage() {
               <p>
                 Florida Construction Specialists has worked across all of these Tampa submarkets. As a prime general contractor, we never subcontract our general contracting services, which means every Tampa project gets direct accountability, a single point of contact, and the full weight of our in-house engineering and construction teams. Our principal's 43 years of combined construction and insurance industry experience, including work as an Executive General Adjuster, brings a risk management perspective that benefits every commercial project we deliver.
               </p>
+              <ContentImage
+                src="/images/tampa-commercial-office-construction/tampa-commercial-office-construction-display.webp"
+                alt="Class A commercial office construction underway in Tampa's Westshore Business District"
+                caption="Office and mixed-use construction across Tampa's Westshore and downtown Water Street corridors."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -220,14 +226,20 @@ export default function CommercialConstructionTampaPage() {
                 The <a href="https://www.tampa.gov/building-services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Tampa Building Services Department</a> handles permitting for commercial projects within city limits, while unincorporated areas of Hillsborough County go through county construction services. We have established working relationships with both agencies and understand the nuances that affect plan review timelines, inspection scheduling, and Certificate of Occupancy processes.
               </p>
               <p className="mb-6">
-                Tampa's weather patterns significantly influence commercial construction planning. The city receives over 50 inches of rainfall annually, concentrated in intense afternoon thunderstorms from May through September. This seasonal pattern affects concrete pours, roofing installation, exterior envelope work, and site grading schedules. Beyond rainfall, Tampa's direct exposure to Tampa Bay and the Gulf of Mexico places it in a high hurricane risk zone. Every commercial structure we build meets the Florida Building Code's Wind Zone 3 requirements, with enhanced structural connections, impact-rated glazing, and roof systems designed for 120 mph sustained winds.
+                Tampa sits inside the Florida Building Code's wind-borne debris region. Under the 8th Edition (2023) of the code, most of the city carries ultimate design wind speeds in the range of 140 to 150 mph (Risk Category II), which drives impact-rated or shuttered glazing, continuous load-path connections, and enhanced roof-deck attachment on every commercial envelope we build. Flood exposure varies sharply by parcel: Harbour Island, Davis Islands, Channelside, and stretches of Bayshore Boulevard fall in FEMA AE zones with mapped base flood elevations, while much of interior Hillsborough County sits in Zone X. We pull the FEMA panel and finished-floor requirement for each site before design begins, because getting the elevation certificate wrong is one of the most expensive mistakes in Tampa commercial work.
               </p>
               <p className="mb-6">
                 Our knowledge of Tampa neighborhoods shapes how we approach each project. Commercial construction in the Westshore Business District involves coordinating with property management companies and existing tenants. Downtown Tampa projects near Water Street require awareness of ongoing infrastructure changes and dense pedestrian traffic. Medical facility projects near Tampa General Hospital on Davis Islands or in the BayCare network across the city demand compliance with healthcare-specific codes. Industrial projects near Port Tampa and in the East Tampa industrial corridor require understanding of heavy vehicle access, environmental regulations, and utility capacity for manufacturing operations.
               </p>
               <p>
-                Projects in Tampa's two designated historic districts, Ybor City and Hyde Park, require additional coordination with local preservation boards. The Barrio Latino Commission oversees commercial construction within Ybor City's National Historic Landmark District, while the Hyde Park Historic District has its own review process through the city's Architectural Review Commission. We have experience navigating both of these processes, understanding what modifications require Certificates of Appropriateness and how to balance modern commercial requirements with historic preservation standards.
+                Projects in Tampa's two designated historic districts, Ybor City and Hyde Park, require additional coordination with local preservation boards. The Barrio Latino Commission oversees commercial construction within Ybor City's National Historic Landmark District, listed on the National Register in 1990, while the Hyde Park Historic Districts, listed in 1985, follow their own review process through the city's Architectural Review Commission. We have experience navigating both of these processes, understanding what modifications require Certificates of Appropriateness and how to balance modern commercial requirements with historic preservation standards.
               </p>
+              <ContentImage
+                src="/images/tampa-industrial-warehouse-construction/tampa-industrial-warehouse-construction-display.webp"
+                alt="Industrial warehouse construction near the Port of Tampa and the I-4 logistics corridor"
+                caption="Clear-span industrial and logistics construction near the Port of Tampa and I-4."
+                position="center"
+              />
             </div>
           </div>
         </div>

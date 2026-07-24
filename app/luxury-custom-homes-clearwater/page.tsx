@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Home } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -136,6 +136,12 @@ export default function LuxuryCustomHomesClearwaterPage() {
               <p>
                 Florida Construction Specialists brings the structural engineering capability, coastal construction expertise, and project management capacity that Clearwater's luxury custom home market demands. Our experience as a prime general contractor on large commercial projects translates directly to the construction management, subcontractor coordination, and quality control expectations of luxury residential clients who are accustomed to institutional-quality execution.
               </p>
+              <ContentImage
+                src="/images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-display.webp"
+                alt="Waterfront luxury custom home construction on Island Estates in Clearwater Harbor"
+                caption="Elevated waterfront custom home construction on Clearwater's Island Estates and harbor-front lots."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -217,7 +223,7 @@ export default function LuxuryCustomHomesClearwaterPage() {
                 Luxury custom home construction in Clearwater demands more than aesthetic excellence. Every waterfront home must perform as an engineered system designed to resist the Gulf's salt environment, withstand hurricane-force winds, comply with flood zone elevation requirements, and maintain its beauty and functionality for decades in one of Florida's most demanding coastal climates.
               </p>
               <p className="mb-6">
-                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> manages the permitting process for custom home construction within city limits. Waterfront properties require additional review for flood zone compliance, seawall condition, and environmental setbacks. Island Estates properties must demonstrate compliance with the island's specific development standards. Belleair properties go through the Town of Belleair's separate building department, which maintains its own review process and community standards.
+                The <a href="https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Construction-Services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Construction Services Division</a> reviews custom home permits within city limits, but jurisdiction on the barrier islands is where the detail matters. Island Estates lots on the man-made islands of Clearwater Harbor typically sit in FEMA AE zones, while Gulf-fronting lots on Clearwater Beach and Sand Key fall in VE zones that require pile foundations, breakaway walls, and a living floor elevated above the base flood elevation. Any construction seaward of Florida's Coastal Construction Control Line adds an FDEP permit on top of the city review. Belleair, meanwhile, is a separately incorporated town: custom homes there go through the Town of Belleair's own building department, setback rules, and architectural standards, not the City of Clearwater at all.
               </p>
               <p className="mb-6">
                 Material selection for Clearwater luxury homes must balance aesthetic preferences with coastal durability. Exterior cladding systems, whether stucco, stone, or composite materials, must resist salt air degradation. Window and door systems require impact ratings that may exceed standard coastal requirements based on the property's specific exposure. Roofing materials must withstand sustained high winds while meeting the architectural vision. Pool and outdoor living materials must resist the dual effects of chlorine and salt air. We guide clients through material selection with specific knowledge of how products perform in Clearwater's microclimate.
@@ -225,6 +231,12 @@ export default function LuxuryCustomHomesClearwaterPage() {
               <p>
                 The neighborhoods where we build Clearwater luxury homes each have distinct characteristics. Island Estates waterfront lots are typically narrow with water frontage on one or both sides, requiring vertical design solutions and careful site utilization. Harbor Oaks properties offer larger lots with mature landscaping that must be preserved during construction. Belleair estates provide generous setbacks and community expectations for refined architecture. Clearwater Beach waterfront lots, where available, present the most demanding construction conditions with direct Gulf exposure and barrier island flood zone requirements. We adapt our construction approach to each neighborhood's specific conditions and character.
               </p>
+              <ContentImage
+                src="/images/custom-home-2/custom-home-2-display.webp"
+                alt="Completed luxury custom home with coastal design in a Clearwater waterfront neighborhood"
+                caption="Coastal-style custom residence built to Clearwater's waterfront wind and flood standards."
+                position="center"
+              />
             </div>
           </div>
         </div>

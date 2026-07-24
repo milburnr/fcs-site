@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, Building2, Shield, Award, HardHat, FileCheck, Home, BookOpen } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -90,8 +90,20 @@ export default function HistoricRestorationRuskinPage() {
           <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">Preserving Ruskin's Agricultural Heritage and Mid-Century Character</h2>
           <div className="prose prose-lg max-w-none text-gray-700">
             <p className="text-xl mb-6">Ruskin was founded in 1910 as a cooperative agricultural colony by Dr. George McA. Miller, and the community's identity remains rooted in its farming heritage — particularly the tomato industry that defined the area for decades. While Ruskin is not a historic district on the scale of Ybor City or downtown St. Petersburg, it contains structures worth preserving: early twentieth-century commercial buildings along US 41, agricultural processing facilities, the original Ruskin community buildings, and the infrastructure of what was once one of Florida's most productive agricultural communities.</p>
-            <p className="mb-6">Sun City Center adds a different layer to South Hillsborough's preservation needs. Developed beginning in the 1960s, the community's original clubhouses, recreational buildings, and institutional structures represent mid-century modern architecture that is increasingly recognized as historically significant. As these buildings reach 50 to 60 years of age, they require restoration that addresses structural aging, code compliance, and accessibility while preserving the design character that defines the community.</p>
-            <p>As the only prime general contractor headquartered in this part of Hillsborough County, Florida Construction Specialists brings both local knowledge and construction expertise to preservation projects. All permitting goes through <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a>, and we navigate the county's historic resources review process when applicable.</p>
+            <p className="mb-6">Sun City Center adds a different layer to South Hillsborough's preservation needs. Launched by the Del Webb Corporation in 1961 as a planned retirement community, its original clubhouses, recreational buildings, and institutional structures represent mid-century modern architecture that is increasingly recognized as historically significant. As these buildings pass 60 years of age, they require restoration that addresses structural aging, current Florida Building Code compliance, and ADA accessibility while preserving the design character that defines the community.</p>
+            <ContentImage
+              src="/images/facility-building-turner-agricivic-center-arcadia-fl/facility-building-turner-agricivic-center-arcadia-fl-display.webp"
+              alt="Restoration of an agricultural-era heritage building near Ruskin in South Hillsborough County"
+              caption="Sensitive restoration of agricultural-heritage and mid-century community structures across the SouthShore area."
+              position="center"
+            />
+            <p>As the only prime general contractor headquartered in this part of Hillsborough County, Florida Construction Specialists brings both local knowledge and construction expertise to preservation projects. Because Ruskin, Apollo Beach, and Sun City Center are all unincorporated, there is no municipal historic preservation board here: all permitting goes through <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a>, and the county's Historic Resources Review process applies only to properties on or eligible for the National Register. Ruskin's low elevation and proximity to the Little Manatee River also mean many older parcels sit in FEMA flood zones, which shapes how we handle foundations and finished-floor elevations during restoration.</p>
+            <ContentImage
+              src="/images/historic-preservation-home/historic-preservation-home-display.webp"
+              alt="Restored early-twentieth-century wood-frame building along the US 41 corridor in Ruskin"
+              caption="Wood-frame heritage restoration adapted to Gulf Coast humidity and South Hillsborough flood requirements."
+              position="center"
+            />
           </div>
         </div></div>
       </section>

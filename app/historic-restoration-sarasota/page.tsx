@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -124,7 +124,7 @@ export default function HistoricRestorationSarasotaPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="text-xl mb-6">
-                Sarasota's architectural history is remarkably rich for a city its size, and that history creates specific restoration challenges found nowhere else in Florida. The city's first wave of significant architecture arrived during the 1920s Florida land boom, heavily influenced by circus magnate John Ringling, who envisioned Sarasota as a Mediterranean-style resort city. Ringling's patronage attracted architects who designed commercial buildings, hotels, and residences in the Mediterranean Revival style, with stucco facades, barrel tile roofs, arched openings, decorative tile work, and ornamental ironwork. Burns Court, just south of Main Street downtown, preserves an exceptional concentration of these 1920s commercial buildings. Laurel Park, west of downtown, contains Mediterranean Revival residential architecture from the same era.
+                Sarasota's architectural history is remarkably rich for a city its size, and that history creates specific restoration challenges found nowhere else in Florida. The city's first wave of significant architecture arrived during the 1920s Florida land boom, heavily influenced by circus magnate John Ringling, who envisioned Sarasota as a Mediterranean-style resort city. Ringling's patronage attracted architects who designed commercial buildings, hotels, and residences in the Mediterranean Revival style, with stucco facades, barrel tile roofs, arched openings, decorative tile work, and ornamental ironwork. Burns Court, just south of Main Street downtown and listed on the National Register in 1984, preserves a concentration of Mediterranean Revival bungalows built in 1924 and 1925 by developer Owen Burns to designs by architect Thomas Reed Martin. Laurel Park, west of downtown, is Sarasota's largest residential National Register district (listed 2008), with Craftsman Bungalow and Mediterranean Revival homes built between roughly 1900 and 1926. The Central-Cocoanut district north of downtown, added to the Register in 2005, rounds out the city's early-era residential fabric.
               </p>
               <p className="mb-6">
                 The city's second great architectural movement was the Sarasota School of Architecture, a mid-century modern movement that put Sarasota on the international architectural map. Architects like Paul Rudolph, Ralph Twitchell, Victor Lundy, Jack West, and Gene Leedy developed a regional modernist approach that responded to the Florida climate with post-and-beam construction, clerestory windows, deep overhangs, and an open relationship between interior and exterior space. Buildings like the Revere Quality House, the Hiss Studio, and the Sarasota High School addition by Paul Rudolph are nationally recognized architectural landmarks. Several are listed on the National Register of Historic Places.
@@ -135,6 +135,12 @@ export default function HistoricRestorationSarasotaPage() {
               <p>
                 Florida Construction Specialists approaches Sarasota's historic restoration market with the technical discipline and material knowledge that this work requires. We are not a specialty preservation firm, but as a licensed general contractor with over four decades of construction experience, we bring the project management, structural capability, and quality control systems needed for complex restoration projects while coordinating closely with preservation architects and historians who provide the specialized design guidance.
               </p>
+              <ContentImage
+                src="/images/historic-preservation/historic-preservation-display.webp"
+                alt="Mediterranean Revival stucco and barrel-tile restoration in Sarasota's Burns Court historic district"
+                caption="Lime-stucco and barrel-tile restoration of a 1920s Mediterranean Revival building in Burns Court."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -213,7 +219,7 @@ export default function HistoricRestorationSarasotaPage() {
             </h2>
             <div className="prose prose-lg max-w-none text-gray-700">
               <p className="mb-6">
-                Historic restoration in Sarasota operates within a regulatory framework that balances preservation with practical construction realities. The City of Sarasota maintains a local register of designated historic properties and districts, and the Historic Preservation Board reviews exterior modifications to these designated resources. Properties listed on the National Register of Historic Places, which includes several Sarasota School buildings, carry additional considerations particularly when federal tax credits or grant funding is involved.
+                Historic restoration in Sarasota operates within a regulatory framework that balances preservation with practical construction realities. Sarasota has been a Certified Local Government since 1986 and protects more than 3,500 historic structures within city limits. Its seven-member Historic Preservation Board reviews exterior modifications to locally designated resources and issues the Certificate of Appropriateness that must be secured before a building permit for designated-property work can proceed. Properties on the National Register, which includes several Sarasota School buildings, carry additional considerations, particularly when the federal 20 percent rehabilitation tax credit or grant funding is involved.
               </p>
               <p className="mb-6">
                 The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> processes construction permits for historic restoration work, but projects involving designated historic properties also require Certificate of Appropriateness from the Historic Preservation Board before construction can begin. We coordinate both tracks simultaneously to avoid delays, preparing permit applications and COA submissions in parallel and ensuring that approved preservation plans align with building code requirements.
@@ -224,6 +230,12 @@ export default function HistoricRestorationSarasotaPage() {
               <p>
                 The Ringling estate influence on Sarasota's architectural identity extends beyond individual buildings. John and Mable Ringling's Ca d'Zan mansion on Sarasota Bay, built in 1926, established the Venetian Gothic and Mediterranean Revival vocabulary that influenced commercial and residential architecture throughout the city. Understanding this cultural context helps inform restoration decisions, from appropriate color palettes and material textures to the relationship between building design and the lush subtropical landscape that characterizes Sarasota's historic neighborhoods. We approach each restoration project as both a construction challenge and a contribution to preserving Sarasota's distinctive sense of place.
               </p>
+              <ContentImage
+                src="/images/historic-preservation-home/historic-preservation-home-display.webp"
+                alt="Restored mid-century Sarasota School of Architecture residence with post-and-beam detailing"
+                caption="Preservation of a mid-century Sarasota School structure with its original post-and-beam and clerestory details."
+                position="center"
+              />
             </div>
           </div>
         </div>

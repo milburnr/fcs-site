@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, AlertTriangle, ClipboardCheck } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -135,6 +135,12 @@ export default function InsuranceRestorationBrandonPage() {
               <p>
                 Florida Construction Specialists handles the complete insurance restoration process for Brandon properties. From initial damage assessment and emergency stabilization through claim documentation, permit acquisition through Hillsborough County, and final restoration construction, we manage every phase so property owners can focus on their business operations or personal recovery. As a prime general contractor, we maintain direct accountability for every aspect of the restoration rather than subcontracting the project management to others.
               </p>
+              <ContentImage
+                src="/images/hurricane-restoration-construction/hurricane-restoration-construction-display.webp"
+                alt="Commercial roof and structural storm-damage restoration on a Brandon retail center"
+                caption="Wind and storm-damage restoration on commercial property along Brandon's SR 60 corridor."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -222,6 +228,15 @@ export default function InsuranceRestorationBrandonPage() {
                 The Florida Building Code creates an important insurance restoration consideration for Brandon properties. When storm damage requires replacement of building components, the repairs must comply with current code requirements, which are often more stringent than what existed when the building was originally constructed. This code upgrade obligation can significantly increase restoration costs beyond what the original structure cost to build. We document code-triggered upgrades separately in our estimates so property owners can pursue coverage under the Ordinance or Law provisions in their policies, which many carriers offer but policyholders often fail to claim.
               </p>
               <p>
+                Because Brandon is inland, its flood exposure is riverine rather than coastal: properties near the Alafia River and its tributaries, or in the low-lying pockets around Limona and Valrico, can sit in mapped FEMA AE floodplains even miles from Tampa Bay. That distinction matters for claims, because riverine flood damage falls under the National Flood Insurance Program rather than a standard windstorm policy, and the two are documented and adjusted very differently. We identify which peril actually caused the loss before a claim is filed, so wind, water intrusion, and flood are each routed to the right coverage.
+              </p>
+              <ContentImage
+                src="/images/hurricane-insurance-restoration/hurricane-insurance-restoration-display.webp"
+                alt="Insurance restoration damage documentation and repair on a Brandon commercial building"
+                caption="Xactimate-grade damage documentation and restoration for Brandon commercial and multi-family property claims."
+                position="center"
+              />
+              <p className="mb-6">
                 Our Ruskin headquarters places us within twenty minutes of Brandon, enabling rapid response when storms hit. After a tropical system or severe weather event, we can mobilize emergency response crews to Brandon properties for board-up, tarping, and water extraction before secondary damage compounds the original loss. This proximity also enables efficient daily project oversight during the restoration construction phase, ensuring quality control and schedule adherence that larger restoration companies operating from distant offices cannot match.
               </p>
             </div>

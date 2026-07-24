@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Landmark, BookOpen, Palette, History, FileCheck, Scale } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -129,11 +129,17 @@ export default function HistoricRestorationTampaPage() {
                 Ybor City stands as Tampa's crown jewel of historic architecture. Designated a National Historic Landmark District in 1990, it contains some of the finest examples of industrial and commercial architecture from Tampa's cigar manufacturing era. The massive brick cigar factories along Seventh Avenue, the casitas (worker cottages) that lined the residential streets, the mutual aid society buildings that served immigrant communities from Cuba, Italy, and Spain -- these structures represent an architectural legacy that exists nowhere else in the United States. Restoration of these buildings requires understanding their unique construction methods, original materials, and the specific preservation standards enforced by the Barrio Latino Commission.
               </p>
               <p className="mb-6">
-                Hyde Park, Tampa's first planned suburban development from the late 1800s, presents a different but equally important preservation challenge. The district's collection of bungalows, colonial revival homes, Mediterranean revival residences, and small commercial buildings reflects Tampa's residential evolution from the Victorian era through the 1930s. The Architectural Review Commission oversees alterations within the Hyde Park Historic District, requiring that exterior changes maintain the neighborhood's established architectural character. Commercial restoration projects in Hyde Park's village area along Snow Avenue and Swann Avenue must balance the demands of modern retail and restaurant use with the residential-scale character that defines the district.
+                Hyde Park, Tampa's first planned suburban development from the late 1800s and listed on the National Register in 1985, presents a different but equally important preservation challenge. The district's collection of bungalows, colonial revival homes, Mediterranean revival residences, and small commercial buildings reflects Tampa's residential evolution from the Victorian era through the 1930s. The Architectural Review Commission oversees alterations within the Hyde Park Historic District, requiring that exterior changes maintain the neighborhood's established architectural character. Commercial restoration projects in Hyde Park's village area along Snow Avenue and Swann Avenue must balance the demands of modern retail and restaurant use with the residential-scale character that defines the district.
               </p>
               <p>
-                Beyond the two designated districts, Tampa contains hundreds of individually significant historic buildings. The Tampa Heights neighborhood, one of the city's oldest residential areas, has seen increasing restoration activity as the neighborhood revitalizes. Seminole Heights contains early twentieth-century bungalows and commercial buildings along the Central Avenue corridor. West Tampa, historically an independent municipality before annexation, retains cigar-era commercial buildings along Main Street. Each of these areas requires restoration approaches tailored to the specific building types, construction methods, and historical significance of the structures.
+                Beyond the two designated districts, Tampa contains hundreds of individually significant historic buildings. The Tampa Heights Historic District, listed on the National Register in 1995 and one of the city's oldest residential areas, has seen increasing restoration activity as the neighborhood revitalizes. The Seminole Heights Residential District, listed in 1993, contains early twentieth-century bungalows and commercial buildings along the Central Avenue and Florida Avenue corridors. West Tampa, historically an independent municipality before annexation, retains cigar-era commercial buildings along Main Street. Each of these areas requires restoration approaches tailored to the specific building types, construction methods, and historical significance of the structures.
               </p>
+              <ContentImage
+                src="/images/tampa-historic-building-restoration/tampa-historic-building-restoration-display.webp"
+                alt="Historic brick cigar factory restoration in Tampa's Ybor City National Historic Landmark District"
+                caption="Masonry restoration of Ybor City's landmark cigar-era brick buildings on Seventh Avenue."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -221,8 +227,14 @@ export default function HistoricRestorationTampaPage() {
                 Tampa's subtropical climate creates specific preservation challenges that affect historic buildings differently than those in more temperate regions. The combination of over 50 inches of annual rainfall, intense UV exposure, high humidity, and salt air from Tampa Bay accelerates deterioration of historic materials. Wood elements experience fungal decay and termite damage. Historic brick suffers from moisture-related spalling and efflorescence. Original lime mortars erode from rainwater exposure. Metal ornamental features rust from the salt-laden atmosphere. Our restoration specifications account for these environmental stresses, selecting repair materials and protective coatings that extend the service life of restored elements in Tampa's demanding climate.
               </p>
               <p>
-                The Tampa Heights neighborhood, while not a designated historic district, contains a concentration of early twentieth-century houses and commercial buildings that property owners are increasingly restoring. The area's revitalization, driven by its proximity to the Riverwalk and growing downtown, has created a market for high-quality residential and commercial restoration. Seminole Heights similarly supports a growing restoration community focused on its collection of bungalow-era homes along tree-lined streets. These neighborhoods, outside the formal historic district framework, offer more flexibility in restoration approach while still demanding the craftsmanship and material knowledge that historic buildings require.
+                Tampa Heights, driven by its proximity to the Riverwalk, the Armature Works food hall, and a growing downtown, has created a strong market for high-quality residential and commercial restoration. Seminole Heights similarly supports a thriving restoration community focused on its collection of Craftsman and bungalow-era homes along tree-lined streets. Both neighborhoods sit within their own National Register districts yet still leave room for adaptive approaches, provided the craftsmanship and material knowledge that historic buildings require are respected.
               </p>
+              <ContentImage
+                src="/images/historic-preservation/historic-preservation-display.webp"
+                alt="Restored Hyde Park bungalow with period-appropriate exterior finishes in Tampa"
+                caption="Exterior restoration of a Hyde Park residence to Secretary of the Interior standards."
+                position="center"
+              />
             </div>
           </div>
         </div>

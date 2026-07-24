@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, Building2, Shield, Award, FileCheck, HardHat, Briefcase, Home } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -135,6 +135,12 @@ export default function LuxuryCustomHomesSarasotaPage() {
               <p>
                 Florida Construction Specialists brings to Sarasota's luxury home market the same construction management discipline, in-house engineering capability, and quality control systems we apply to our commercial and multi-family projects. Our principal's 43 years of combined experience ensures that every custom home receives the project management attention and technical oversight that clients investing millions in their Sarasota residence deserve.
               </p>
+              <ContentImage
+                src="/images/tampa-luxury-home-builder/tampa-luxury-home-builder-display.webp"
+                alt="Gulf-front luxury custom home construction on Siesta Key in Sarasota"
+                caption="Elevated Gulf-front custom home construction on Sarasota's barrier islands."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -216,7 +222,7 @@ export default function LuxuryCustomHomesSarasotaPage() {
                 Luxury custom home construction in Sarasota requires builders who understand that the Gulf Coast environment is simultaneously the reason people want to live here and the primary threat to their investment. Every material selection, structural detail, and construction method must account for salt air corrosion, hurricane wind loads, coastal flooding potential, intense UV exposure, and the heaviest rainfall in the continental United States.
               </p>
               <p className="mb-6">
-                The <a href="https://www.sarasotafl.gov/government/building-department" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Building Department</a> and Sarasota County Building Services process residential construction permits depending on the property's jurisdiction. Barrier island properties may also fall under the Town of Longboat Key's building department. Custom home permits in Sarasota typically require 6 to 12 weeks for plan review, with waterfront properties requiring additional reviews from environmental agencies, SWFWMD for stormwater management, and FEMA for flood zone compliance.
+                Jurisdiction in Sarasota is genuinely fragmented, and it drives the schedule. A Bird Key or downtown-bayfront home is permitted by the <a href="https://www.sarasotafl.gov/government/development-services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Sarasota Development Services</a>; a Siesta Key or Casey Key home goes through Sarasota County; and the northern reach of Longboat Key answers to the Town of Longboat Key's own building department. Gulf-fronting lots seaward of the Coastal Construction Control Line require a separate FDEP permit, and every barrier-island project must comply with Sarasota County's sea-turtle protection ordinance, which restricts exterior lighting visible from the beach during nesting season (roughly May through October). Waterfront plan review typically runs 6 to 12 weeks and stacks SWFWMD stormwater review and FEMA flood-zone compliance on top of the building permit.
               </p>
               <p className="mb-6">
                 Sarasota's approximately 55 inches of annual rainfall, concentrated in intense afternoon thunderstorms from June through September, demands careful construction scheduling. We front-load weather-sensitive work into the dry season when possible and schedule concrete pours, roofing, and exterior work around the predictable afternoon storm pattern during summer months. For barrier island projects, we also account for seasonal traffic patterns, scheduling heavy material deliveries outside peak bridge traffic periods and coordinating construction activity with seasonal resident expectations.
@@ -224,6 +230,12 @@ export default function LuxuryCustomHomesSarasotaPage() {
               <p>
                 The luxury custom home market in Sarasota attracts buyers who have built or owned fine homes in other markets. They bring high expectations for construction quality, project communication, and schedule reliability. We meet those expectations through disciplined project management, weekly owner meetings, detailed construction schedules, and a quality control process that inspects work at every critical milestone before it is concealed. Our clients invest in Sarasota for the lifestyle, and our job is to build the home that makes that lifestyle possible.
               </p>
+              <ContentImage
+                src="/images/tampa-waterfront-home-construction/tampa-waterfront-home-construction-display.webp"
+                alt="Bay-access luxury custom home with deepwater dock under construction in Sarasota's Harbor Acres"
+                caption="Bay-access custom home construction with dock integration in Harbor Acres, Sarasota."
+                position="center"
+              />
             </div>
           </div>
         </div>

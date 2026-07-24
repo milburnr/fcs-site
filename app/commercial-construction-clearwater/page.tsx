@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Metadata } from "next";
-import { ContentParallax } from "@/components/ContentImage";
+import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Clock, ArrowRight, FileCheck, HardHat, Briefcase } from "lucide-react";
 import { LocalBusinessSchema, ServiceSchema, BreadcrumbSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
@@ -136,6 +136,12 @@ export default function CommercialConstructionClearwaterPage() {
               <p>
                 Morton Plant Hospital, a BayCare Health System facility in central Clearwater, anchors a substantial healthcare construction market. The hospital campus and surrounding medical offices generate steady demand for medical facility construction, specialty clinic buildouts, and healthcare-related tenant improvements. Florida Construction Specialists has the AHCA compliance expertise, coastal construction knowledge, and prime contractor accountability that Clearwater's commercial projects require.
               </p>
+              <ContentImage
+                src="/images/tampa-retail-plaza-construction/tampa-retail-plaza-construction-display.webp"
+                alt="Retail and multi-tenant commercial construction along the US 19 corridor in Clearwater"
+                caption="Corridor retail and mixed-use construction along US 19 and Gulf-to-Bay Boulevard in Clearwater."
+                position="center"
+              />
             </div>
           </div>
         </div>
@@ -217,11 +223,17 @@ export default function CommercialConstructionClearwaterPage() {
                 Commercial construction in Clearwater presents a split challenge. Beach-side projects operate under barrier island conditions with severe coastal exposure, while mainland projects face more conventional but still demanding construction environments shaped by Pinellas County's density, sandy soils, and high water table. A contractor who understands only one side of Clearwater's building landscape will struggle with the other.
               </p>
               <p className="mb-6">
-                The <a href="https://www.clearwater-fl.com/gov/depts/pwa/ds/" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Development Services Department</a> manages permitting for commercial projects within city limits. Clearwater's plan review process covers building, fire, mechanical, electrical, plumbing, and environmental disciplines. Projects in the downtown Community Redevelopment Area may require additional review through the Community Development Board. Beach-area projects often involve concurrent approvals from FEMA for flood compliance, the Southwest Florida Water Management District for stormwater, and the Florida Department of Environmental Protection for coastal construction setback compliance.
+                Permitting for commercial work inside city limits runs through the <a href="https://www.myclearwater.com/My-Government/0-City-Departments/Planning-Development/Construction-Services" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">City of Clearwater Construction Services Division</a>, part of the Planning and Development Department. Plan review covers building, fire, mechanical, electrical, plumbing, and environmental disciplines, and downtown projects inside the Community Redevelopment Area may also go before the Community Development Board. Barrier-island work adds layers that mainland Pinellas projects never see: any structure seaward of Florida's Coastal Construction Control Line requires a separate FDEP permit, and beachfront parcels sit in FEMA VE (velocity/wave-action) zones that mandate pile or column foundations, breakaway walls below the base flood elevation, and flood-resistant materials on the lowest floor.
               </p>
               <p className="mb-6">
-                Clearwater's weather directly shapes construction planning. The city receives roughly 50 inches of annual rainfall, concentrated in intense afternoon thunderstorms from June through September. Clearwater Beach's full Gulf exposure places barrier island structures in some of the highest wind speed zones in the Tampa Bay area, with design wind speeds of 150 mph or greater for beach-side commercial buildings. Beyond wind, the salt spray environment on the barrier island accelerates corrosion of steel, aluminum, and standard fasteners, requiring marine-grade specifications throughout the building envelope and structural connections.
+                The two sides of Clearwater carry genuinely different code loads. Beach and Sand Key commercial buildings design to ultimate wind speeds near 150 mph with the full salt-spray corrosion regime, so we specify hot-dip galvanized or stainless connectors, marine-grade coatings, and impact glazing throughout. Mainland US 19 and Gulf-to-Bay parcels typically design closer to 140 mph and stay in FEMA Zone X, which changes both the structural budget and the foundation approach. Getting a bid right in Clearwater means knowing which side of the Memorial Causeway the site is on before a single line is drawn.
               </p>
+              <ContentImage
+                src="/images/tampa-medical-facility-construction/tampa-medical-facility-construction-display.webp"
+                alt="AHCA-compliant medical facility construction near Morton Plant Hospital in Clearwater"
+                caption="Healthcare construction in the Morton Plant Hospital corridor of central Clearwater."
+                position="center"
+              />
               <p className="mb-6">
                 Our knowledge of Clearwater's neighborhoods informs every project. Commercial construction along US 19 near Countryside requires coordination with the high-traffic corridor's access management standards and FDOT requirements. The Gulf-to-Bay corridor connecting Clearwater Beach to mainland Clearwater supports office and medical construction with proximity to both the beach tourism economy and the residential population in Clearwater neighborhoods like Harbor Oaks, Skycrest, and Woodlawn. Downtown Clearwater is undergoing redevelopment with new mixed-use commercial projects that must navigate the city's urban design standards.
               </p>
