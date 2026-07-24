@@ -1476,6 +1476,31 @@ export default function CommercialHistoricRestorationPage() {
         </div>
       </section>
     <RelatedArticles pageSlug="historic-restoration" />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Historic Restoration Guides"
+            links={[
+              { label: "Tampa Historic Restoration Workshops And Training", href: "/commercial/guides/tampa-historic-restoration-workshops-and-training/" },
+              { label: "Tampas Awards For Historic Restoration Excellence", href: "/commercial/guides/tampas-awards-for-historic-restoration-excellence/" },
+              { label: "Historic Building Preservation In Tampa", href: "/commercial/guides/historic-building-preservation-in-tampa/" },
+              { label: "Tampa Historic Restoration Permits And Regulations", href: "/commercial/guides/tampa-historic-restoration-permits-and-regulations/" },
+              { label: "Historic Plaster Repair Techniques In Tampa", href: "/commercial/guides/historic-plaster-repair-techniques-in-tampa/" },
+              { label: "Tampa Historic Home Restoration Guidelines", href: "/commercial/guides/tampa-historic-home-restoration-guidelines/" },
+              { label: "Historical Commercial Construction In Tampa", href: "/commercial/guides/historical-commercial-construction-in-tampa/" },
+              { label: "Hyde Park Renovation Guide", href: "/commercial/guides/hyde-park-renovation-guide/" },
+              { label: "Balcony Restoration Services", href: "/commercial/guides/balcony-restoration-services/" },
+              { label: "Historic Restoration Preservation", href: "/commercial/guides/historic-restoration-preservation/" },
+              { label: "Historical Landmarks Restoration In Tampa", href: "/commercial/guides/historical-landmarks-restoration-in-tampa/" },
+              { label: "Historic Restoration Projects In Tampa", href: "/commercial/guides/historic-restoration-projects-in-tampa/" },
+              { label: "Preserving Tampas Cultural Heritage Through Restoration", href: "/commercial/guides/preserving-tampas-cultural-heritage-through-restoration/" },
+              { label: "Tampa Historic Window Restoration Services", href: "/commercial/guides/tampa-historic-window-restoration-services/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

@@ -477,6 +477,28 @@ export default function SB4DCompliancePage() {
       />
 
     <RelatedArticles pageSlug="sb4d-compliance" />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Condo Compliance & Safety Guides"
+            links={[
+              { label: "Condo Milestone Inspection Remediation Tampa", href: "/commercial/guides/condo-milestone-inspection-remediation-tampa/" },
+              { label: "Condo Structural Reserve Study Repairs", href: "/commercial/guides/condo-structural-reserve-study-repairs/" },
+              { label: "Commercial Construction Regulations In Tampa", href: "/commercial/guides/commercial-construction-regulations-in-tampa/" },
+              { label: "Tampas Commercial Construction Laws", href: "/commercial/guides/tampas-commercial-construction-laws/" },
+              { label: "Commercial Construction Insurance Coverage", href: "/commercial/guides/commercial-construction-insurance-coverage/" },
+              { label: "Ensuring Construction Site Safety A Top Priority", href: "/commercial/guides/ensuring-construction-site-safety-a-top-priority/" },
+              { label: "Summer Construction Safety Tips From Top Contractors", href: "/commercial/guides/summer-construction-safety-tips-from-top-contractors/" },
+              { label: "Condo Balcony Inspection Requirements", href: "/commercial/guides/condo-balcony-inspection-requirements/" },
+              { label: "Discover The Best Balcony Decking Options For Outdoor Spaces", href: "/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/" },
+              { label: "Effective Exterior Waterproofing Methods For Your Property", href: "/commercial/guides/effective-exterior-waterproofing-methods-for-your-property/" },
+              { label: "Expert Balcony Construction Guidelines For Optimal Results", href: "/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

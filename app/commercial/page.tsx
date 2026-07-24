@@ -643,6 +643,33 @@ export default function CommercialHubPage() {
 
 
     <RelatedArticles pageSlug="commercial" />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Commercial Construction Guides"
+            links={[
+              { label: "Tampa Commercial Construction Trends Updates 2024", href: "/commercial/guides/tampa-commercial-construction-trends-updates-2024/" },
+              { label: "Customized Outdoor Sports Facilities In Tampa Homes", href: "/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/" },
+              { label: "Tips For Parking Lot Maintenance In Tampa", href: "/commercial/guides/tips-for-parking-lot-maintenance-in-tampa/" },
+              { label: "Enhancing Commercial Property Value", href: "/commercial/guides/enhancing-commercial-property-value/" },
+              { label: "Tampas Latest Commercial Construction Projects", href: "/commercial/guides/tampas-latest-commercial-construction-projects/" },
+              { label: "Tampa Commercial Real Estate Development", href: "/commercial/guides/tampa-commercial-real-estate-development/" },
+              { label: "Tampa Commercial Construction Market Analysis", href: "/commercial/guides/tampa-commercial-construction-market-analysis/" },
+              { label: "Affordable Commercial Construction In Tampa", href: "/commercial/guides/affordable-commercial-construction-in-tampa/" },
+              { label: "The Top Causes Of Construction Delays In Florida", href: "/commercial/guides/the-top-causes-of-construction-delays-in-florida/" },
+              { label: "Avoid Commercial Construction Delays In Florida", href: "/commercial/guides/avoid-commercial-construction-delays-in-florida/" },
+              { label: "Factors Influencing Commercial Construction Project Timeline", href: "/commercial/guides/factors-influencing-commercial-construction-project-timeline/" },
+              { label: "Commercial Construction Stages In Florida", href: "/commercial/guides/commercial-construction-stages-in-florida/" },
+              { label: "Skilled Project Managers For Florida Commercial Construction", href: "/commercial/guides/skilled-project-managers-for-florida-commercial-construction/" },
+              { label: "Tampa Commercial Construction Costs", href: "/commercial/guides/tampa-commercial-construction-costs/" },
+              { label: "Decoding Commercial Construction Costs", href: "/commercial/guides/decoding-commercial-construction-costs/" },
+              { label: "The Impact Of Steel And Aluminum Tariffs On Construction", href: "/commercial/guides/the-impact-of-steel-and-aluminum-tariffs-on-construction/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

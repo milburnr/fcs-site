@@ -53,6 +53,27 @@ export default function InsurancePage() {
         currentService="insurance-restoration"
         currentServiceName="Insurance Restoration"
       />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Restoration & Safety Guides"
+            links={[
+              { label: "Commercial Construction Regulations In Tampa", href: "/commercial/guides/commercial-construction-regulations-in-tampa/" },
+              { label: "Tampas Commercial Construction Laws", href: "/commercial/guides/tampas-commercial-construction-laws/" },
+              { label: "Commercial Construction Insurance Coverage", href: "/commercial/guides/commercial-construction-insurance-coverage/" },
+              { label: "Ensuring Construction Site Safety A Top Priority", href: "/commercial/guides/ensuring-construction-site-safety-a-top-priority/" },
+              { label: "Summer Construction Safety Tips From Top Contractors", href: "/commercial/guides/summer-construction-safety-tips-from-top-contractors/" },
+              { label: "Safety First In Florida Commercial Construction Projects", href: "/commercial/guides/safety-first-in-florida-commercial-construction-projects/" },
+              { label: "Commercial Buildings Facade Renovations", href: "/commercial/guides/commercial-buildings-facade-renovations/" },
+              { label: "Office Building Renovation In Tampa", href: "/commercial/guides/office-building-renovation-in-tampa/" },
+              { label: "Converting Retail Building Into Multi Tenant Space", href: "/commercial/guides/converting-retail-building-into-multi-tenant-space/" },
+              { label: "Renovating Your Commercial Space In Florida", href: "/commercial/guides/renovating-your-commercial-space-in-florida/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

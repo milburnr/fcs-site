@@ -1012,6 +1012,27 @@ export default function ExteriorWaterproofingPage() {
       />
 
     <RelatedArticles pageSlug="exterior-waterproofing" />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Waterproofing Guides"
+            links={[
+              { label: "Waterproofing Commercial Contractors", href: "/commercial/guides/waterproofing-commercial-contractors/" },
+              { label: "Exterior Waterproofing Solution For A Dry And Protected Home", href: "/commercial/guides/exterior-waterproofing-solution-for-a-dry-and-protected-home/" },
+              { label: "Choosing The Right Waterproofing Solution Your Ultimate Guide", href: "/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/" },
+              { label: "Balcony Safety Measures", href: "/commercial/guides/balcony-safety-measures/" },
+              { label: "Balcony Waterproofing For Long Lasting Protection", href: "/commercial/guides/balcony-waterproofing-for-long-lasting-protection/" },
+              { label: "Waterproofing Solutions For Homes The Ultimate Guide", href: "/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/" },
+              { label: "Top Balcony Flooring Materials For Style Durability", href: "/commercial/guides/top-balcony-flooring-materials-for-style-durability/" },
+              { label: "Effective Balcony Maintenance Tips", href: "/commercial/guides/effective-balcony-maintenance-tips/" },
+              { label: "Ultimate Waterproofing Guide Foundations", href: "/commercial/guides/ultimate-waterproofing-guide-foundations/" },
+              { label: "Guide To Waterproofing Solutions For Basements", href: "/commercial/guides/guide-to-waterproofing-solutions-for-basements/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }

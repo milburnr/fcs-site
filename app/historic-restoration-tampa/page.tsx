@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { InternalLinks } from "@/components/InternalLinks";
 import type { Metadata } from "next";
 import { ContentParallax, ContentImage } from "@/components/ContentImage";
 import { Phone, MapPin, CheckCircle, Building2, Shield, Award, Landmark, BookOpen, Palette, History, FileCheck, Scale } from "lucide-react";
@@ -330,6 +331,29 @@ export default function HistoricRestorationTampaPage() {
         </div>
       </section>
     <RelatedArticles pageSlug="historic-restoration-tampa" />
+
+      {/* Related Guides — de-orphan internal links */}
+      <section className="py-16 bg-white">
+        <div className="container-custom">
+          <InternalLinks
+            title="Related Historic Restoration Guides"
+            links={[
+              { label: "Tampas Guidelines For Historic Landscape Restoration", href: "/commercial/guides/tampas-guidelines-for-historic-landscape-restoration/" },
+              { label: "Impacts Of Technology On Historic Restoration In Tampa", href: "/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/" },
+              { label: "Energy Efficiency In Historic Restoration In Tampa", href: "/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/" },
+              { label: "Integrating Modern Amenities In Tampas Historic Homes", href: "/commercial/guides/integrating-modern-amenities-in-tampas-historic-homes/" },
+              { label: "Materials For Historic Restoration In Tampa", href: "/commercial/guides/materials-for-historic-restoration-in-tampa/" },
+              { label: "Eco Friendly Historic Restoration Techniques In Tampa", href: "/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/" },
+              { label: "Impact Of Climate On Historic Restoration In Tampa", href: "/commercial/guides/impact-of-climate-on-historic-restoration-in-tampa/" },
+              { label: "Tampa Historic Restoration Workshops And Training", href: "/commercial/guides/tampa-historic-restoration-workshops-and-training/" },
+              { label: "Tampas Awards For Historic Restoration Excellence", href: "/commercial/guides/tampas-awards-for-historic-restoration-excellence/" },
+              { label: "Historic Building Preservation In Tampa", href: "/commercial/guides/historic-building-preservation-in-tampa/" },
+              { label: "Tampa Historic Restoration Permits And Regulations", href: "/commercial/guides/tampa-historic-restoration-permits-and-regulations/" },
+              { label: "Historic Plaster Repair Techniques In Tampa", href: "/commercial/guides/historic-plaster-repair-techniques-in-tampa/" }
+            ]}
+          />
+        </div>
+      </section>
     </>
   );
 }
