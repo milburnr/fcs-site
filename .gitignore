@@ -44,3 +44,4 @@ public/wp-content/
 # content-ops: fact-check grounding sidecars — build artifacts for
 # engine/validate_article.py, never site content. Never ship these.
 *.grounding.json
+tsconfig.tsbuildinfo
