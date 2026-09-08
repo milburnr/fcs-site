@@ -306,6 +306,28 @@ export default function HistoricRestorationPage() {
         currentServiceName="Historic Restoration"
       />
 
+    {/* core30-spine:start */}
+    <section className="core30-spine section bg-white">
+      <div className="max-w-[880px] mx-auto">
+        <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">Historic Restoration & Preservation Services</h2>
+        {/* core30-child:svc__apartment_and_condominium_renovation */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/apartment-and-condominium-renovation/">Apartment & Condominium Renovation Tampa</a>
+        </h3>
+        <p className="text-gray-600">Renovating an occupied apartment or condominium building means residents stay in place while corridors, common areas, amenity spaces, building systems, and unit programs are rebuilt around them. Our apartment and condominium renovation page explains how we phase building-wide work across Tampa Bay so nobody relocates, and how we prepare documentation and presentations built for the way associations actually decide. Our in-house engineer and architectural draftsman turn assessment findings into buildable details, and accountability stays with us from property assessment through the final phase hand-back. Click through for the FAQs and the related multi-family guides for boards and property managers.</p>
+        {/* core30-child:svc__historic_building_restoration */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/historic-restoration-tampa/">Historic Restoration Tampa FL</a>
+        </h3>
+        <p className="text-gray-600">Tampa has formally designated historic districts with architectural review requirements, and Ybor City, Hyde Park, and Tampa Heights each carry their own construction history. Our Tampa historic restoration page covers masonry and brick restoration with compatible lime-based mortars, structural stabilization, exterior restoration and finishes, adaptive reuse construction, and historic tax credit projects, along with preservation board navigation and construction documentation and permitting. We restore to the Secretary of the Interior standards and prioritize original material over replacement. Read it for the FAQ on how we approach the historic cigar factory buildings in Ybor City without compromising their character.</p>
+        {/* core30-child:svc__multi_family_construction */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/multi-family-construction/">Multi-Family Construction Tampa Bay</a>
+        </h3>
+        <p className="text-gray-600">New condominium, apartment, and mixed-use construction in Tampa Bay carries a permitting load most owners underestimate, from local building and site development permits to Southwest Florida Water Management District stormwater approvals, fire and health department sign-offs, and elevator inspections. Our multi-family construction page walks through the process from blueprint to move-in, explains how we structure phased developments so early buildings can be occupied while later ones are built, and covers balcony construction and waterproofing with SB 4-D compliance designed in from the start. Click through for the multi-family FAQs on timelines, permits, and working with existing associations.</p>
+      </div>
+    </section>
+    {/* core30-spine:end */}
     <RelatedArticles pageSlug="historic-restoration" />
     </>
   );

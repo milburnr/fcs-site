@@ -340,6 +340,43 @@ export default function CommercialConstructionTampaPage() {
           </div>
         </div>
       </section>
+    {/* core30-spine:start */}
+    <section className="core30-spine section bg-white">
+      <div className="max-w-[880px] mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-6 font-heading">Commercial Construction Tampa Services</h2>
+        {/* core30-child:svc__commercial_renovation_and_reconstruction */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/commercial-renovation-and-reconstruction/">Commercial Renovation & Reconstruction Tampa</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Existing buildings hide conditions that no set of old drawings will reveal, which is why our renovation and reconstruction page starts with an existing-conditions survey before anything is scoped. It covers structural reconstruction, envelope and building systems modernization, and the phasing, containment, and tenant coordination that keep a Tampa Bay commercial building open while we work inside it. When a discovered condition surfaces mid-project, our in-house engineer and architectural draftsman resolve it without a design delay. Click through for the FAQs on whole-building renovation and the related commercial construction guides for Hillsborough County owners.</p>
+        {/* core30-child:svc__certified_construction_estimates */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/insurance/certified-estimating/">Certified Estimating</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Insurance settlements on commercial and multi-family claims rise or fall on the estimate behind them. Our certified estimating page covers Xactimate estimates, the industry-standard format insurance carriers recognize and accept, backed by photos, measurements, and specifications that support every line item. As the prime contractor who will actually perform the repair, we prepare scopes we are prepared to build rather than a generic template. That matters after a Tampa Bay storm season, when hurricane claims must be filed within Florida's one-year window. Read it to understand why a defensible estimate separates a fair settlement from a reopened claim.</p>
+        {/* core30-child:svc__design_build_and_pre_construction_coordination */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/services/commercial/design-build/">Design-Build Construction Tampa</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Design-build puts the architect, engineer, and builder under one contract, so there is one responsible party and no finger-pointing when a detail fails. Our design-build page walks through each phase, from discovery and programming, conceptual design, and design development to construction, closeout, and warranty, and explains how early pricing collaboration and value engineering produce a guaranteed maximum price before ground breaks. Our in-house engineer and architectural draftsman work alongside the field team from day one on Tampa Bay projects. Click through to see how integrated pre-construction coordination removes budget surprises on commercial work across Hillsborough County.</p>
+        {/* core30-child:svc__industrial_and_warehouse_construction */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/services/commercial/industrial-construction/">Industrial Construction Tampa</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Industrial buildings in Tampa Bay have to satisfy logistics, process, and hurricane-resistant structural demands at once. Our industrial construction page covers warehouse and distribution centers with high-bay construction and dock equipment, manufacturing facilities with clean rooms and process utilities, flex and light industrial space, and cold storage with specialized insulation and refrigeration. It also compares the structural systems we build with: tilt-wall concrete, pre-engineered metal buildings, conventional steel frame, and concrete construction. We hold the contract as prime contractor on every project. Read it to match your facility type to the right building system before design begins.</p>
+        {/* core30-child:svc__retail_construction */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/services/commercial/retail-construction/">Retail Construction Tampa</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Retail projects across Tampa Bay range from shell construction on a multi-tenant strip center to a single-tenant drive-thru on a pad site. Our retail construction page covers shopping centers, standalone retail, restaurant construction with commercial kitchens, hoods, grease traps, and walk-ins, convenience and fuel sites, ground-floor retail inside mixed-use developments, and retail renovations. Each type carries its own permitting, ventilation, and coordination demands, and we handle them as the prime contractor rather than handing them to a subcontractor who vanishes at closeout. Click through to see which retail formats we build and how we sequence pad site work.</p>
+        {/* core30-child:svc__tenant_improvement_construction */}
+        <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
+          <a href="/services/commercial/tenant-improvements/">Tenant Improvements Tampa</a>
+        </h3>
+        <p className="text-base font-light leading-[1.8] text-brand-green-dark">Tenant improvement work means finishing a space to a specific use without disrupting the building around it. Our tenant improvements page covers office buildouts with private offices, conference rooms, and data coordination, retail store construction, restaurant and food service buildouts with health department compliance, medical suite buildouts with AHCA compliance for licensed facilities, fitness and wellness space, and professional services offices. Since 1982 we have handled buildouts across Tampa Bay for landlords and tenants who want one accountable contractor. Read it to see what compliance each suite type carries before you sign a lease with a construction allowance.</p>
+      </div>
+    </section>
+    {/* core30-spine:end */}
     <RelatedArticles pageSlug="commercial-construction-tampa" />
     </>
   );
