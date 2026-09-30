@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/build-guide-related.mjs",
     "build": "NODE_OPTIONS='--max-old-space-size=8192' next build",
     "build:large": "NODE_OPTIONS='--max-old-space-size=16384' next build",
     "start": "next start",
