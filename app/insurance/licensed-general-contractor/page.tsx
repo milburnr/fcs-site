@@ -20,11 +20,11 @@ import {
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/' },
-  title: "Licensed General Contractor | Insurance Restoration",
-  description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+  title: "Licensed Building Contractor | Insurance Restoration",
+  description: "Insurance restoration from a state-licensed building contractor, Certified Building Contractor CBC1262722. Always the prime contractor. Serving Tampa Bay since 1982.",
   openGraph: {
-    title: "Licensed General Contractor | Insurance Restoration",
-    description: "Explore licensed general contractor insurance restoration from Florida Construction Specialists. Licensed CBC serving Tampa Bay since 1982.",
+    title: "Licensed Building Contractor | Insurance Restoration",
+    description: "Insurance restoration from a state-licensed building contractor, Certified Building Contractor CBC1262722. Always the prime contractor. Serving Tampa Bay since 1982.",
     url: "https://floridaconstructionspecialists.com/insurance/licensed-general-contractor/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
 const breadcrumbItems = [
   { name: "Home", href: "/" },
   { name: "Insurance", href: "/insurance/" },
-  { name: "Licensed General Contractor", href: "/insurance/licensed-general-contractor/" },
+  { name: "Licensed Building Contractor", href: "/insurance/licensed-general-contractor/" },
 ];
 
 const faqs = [
@@ -69,7 +69,7 @@ const qualifications = [
   {
     icon: Award,
     title: "CBC1262722",
-    description: "Florida Certified General Contractor license authorizing statewide construction.",
+    description: "Florida Certified Building Contractor license authorizing statewide construction.",
   },
   {
     icon: Building2,
@@ -99,8 +99,8 @@ export default function LicensedGeneralContractorPage() {
   return (
     <>
       <ServiceSchema
-        serviceName="Licensed General Contractor Services"
-        serviceDescription="Florida-licensed general contractor (CBC1262722) for insurance restoration. Always prime contractor with 40+ years experience in large loss commercial and residential restoration."
+        serviceName="Licensed Building Contractor Services"
+        serviceDescription="Florida Certified Building Contractor (CBC1262722) for insurance restoration. Always prime contractor with 40+ years experience in large loss commercial and residential restoration."
         minPrice="250000"
       serviceCategories={["Licensed Contracting","Permit Management","Code Compliance","Quality Assurance"]}
       />
@@ -122,7 +122,7 @@ export default function LicensedGeneralContractorPage() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-              Licensed General Contractor
+              Licensed Building Contractor
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed">
@@ -204,7 +204,7 @@ export default function LicensedGeneralContractorPage() {
 
             <h2>Our License and Insurance</h2>
             <p>
-              FCS holds Florida Certified General Contractor license <strong>CBC1262722</strong>, issued by the 
+              FCS holds Florida Certified Building Contractor license <strong>CBC1262722</strong>, issued by the 
               Florida Department of Business and Professional Regulation. This state-level certification authorizes 
               us to perform any type of construction project throughout Florida.
             </p>
@@ -229,15 +229,15 @@ export default function LicensedGeneralContractorPage() {
 
             <h2>Bonding Capacity and Financial Accountability</h2>
             <p>
-              Large loss insurance restoration projects require a contractor with the financial standing to guarantee completion. FCS's bonding capacity supports projects exceeding $10 million, providing insurance carriers the assurance that the contractor can complete the full scope of work without financial risk. This bonding capacity is a critical qualification that separates licensed general contractors from smaller firms—carriers will not approve payment schedules on multi-million dollar restorations to contractors who cannot demonstrate the financial stability to see the project through.
+              Large loss insurance restoration projects require a contractor with the financial standing to guarantee completion. FCS's bonding capacity supports projects exceeding $10 million, providing insurance carriers the assurance that the contractor can complete the full scope of work without financial risk. This bonding capacity is a critical qualification that separates licensed prime contractors from smaller firms—carriers will not approve payment schedules on multi-million dollar restorations to contractors who cannot demonstrate the financial stability to see the project through.
             </p>
             <p>
               For property owners and HOA boards, bonding capacity translates directly to project security. On a $2 million condominium re-roofing project or a $5 million commercial building restoration, the performance bond ensures that the work will be completed to the contract scope regardless of circumstances. This protection is particularly important during Florida's hurricane season, when demand for restoration contractors surges and under-capitalized firms regularly fail mid-project.
             </p>
 
-            <h2>Scope That Requires Licensed General Contractor Authority</h2>
+            <h2>Scope That Requires a Licensed Prime Contractor</h2>
             <p>
-              Many large loss restoration projects involve work that only a licensed general contractor can legally perform in Florida. Unlicensed or specialty-only contractors cannot pull permits for structural modifications, coordinate load-bearing wall reconstruction, manage multi-trade restoration sequencing, or ensure code upgrade compliance across disciplines. FCS handles the full range of licensed GC scope:
+              Many large loss restoration projects involve work that only a state-licensed contractor can legally perform in Florida. Unlicensed or specialty-only contractors cannot pull permits for structural modifications, coordinate load-bearing wall reconstruction, manage multi-trade restoration sequencing, or ensure code upgrade compliance across disciplines. FCS handles the full range of licensed prime-contractor scope:
             </p>
             <ul>
               <li><strong>Structural modifications and load-bearing wall reconstruction</strong> requiring engineering review and sealed drawings</li>
@@ -246,7 +246,7 @@ export default function LicensedGeneralContractorPage() {
               <li><strong>Complex phasing plans</strong> for occupied buildings where restoration must proceed while tenants or businesses continue to operate</li>
             </ul>
             <p>
-              On a $500,000+ structural restoration requiring engineering review, or a $1–5 million multi-trade commercial restoration project, the difference between a licensed general contractor and a specialty contractor is not just legal compliance—it is the difference between a coordinated, code-compliant restoration and a fragmented process that invites delays, disputes, and failed inspections.
+              On a $500,000+ structural restoration requiring engineering review, or a $1–5 million multi-trade commercial restoration project, the difference between a licensed prime contractor and a specialty contractor is not just legal compliance—it is the difference between a coordinated, code-compliant restoration and a fragmented process that invites delays, disputes, and failed inspections.
             </p>
 
             <h2>Subcontractor Management for Large Losses</h2>
@@ -254,7 +254,7 @@ export default function LicensedGeneralContractorPage() {
               Insurance carriers sometimes attempt to parcel large loss projects across multiple separate contractors—one for roofing, another for interiors, a third for mechanical systems. This approach creates coordination gaps, schedule conflicts, and accountability disputes that ultimately delay completion and increase costs. As prime contractor, FCS manages all trades under one contract. Our project managers coordinate every subcontractor, sequence every phase, and maintain a single schedule that the carrier, property owner, and building department can all track. The result is faster completion, cleaner inspections, and a single point of accountability from mobilization through certificate of completion.
             </p>
             <p>
-              Consider a $3 million hurricane restoration on a 150-unit condominium complex. The project requires roofing, structural steel repair, window and sliding door replacement, stucco and waterproofing, interior drywall and paint, flooring, mechanical system repair, fire alarm restoration, and elevator modernization. Without a licensed general contractor managing every trade under a single permit set and schedule, the property owner faces months of coordination delays, duplicated general conditions costs, and finger-pointing between contractors when inspection failures occur. FCS eliminates that complexity by serving as the single prime contractor with direct accountability for scope, schedule, quality, and budget across every discipline.
+              Consider a $3 million hurricane restoration on a 150-unit condominium complex. The project requires roofing, structural steel repair, window and sliding door replacement, stucco and waterproofing, interior drywall and paint, flooring, mechanical system repair, fire alarm restoration, and elevator modernization. Without a licensed prime contractor managing every trade under a single permit set and schedule, the property owner faces months of coordination delays, duplicated general conditions costs, and finger-pointing between contractors when inspection failures occur. FCS eliminates that complexity by serving as the single prime contractor with direct accountability for scope, schedule, quality, and budget across every discipline.
             </p>
 
             <h2>Insurance Carrier Communication and Documentation</h2>
@@ -281,7 +281,7 @@ export default function LicensedGeneralContractorPage() {
       <section className="py-16 md:py-24 bg-brand-green-dark text-white">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Need a Licensed General Contractor?
+            Need a Licensed Building Contractor?
           </h2>
           <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
             Contact FCS for your insurance restoration project. Always the prime contractor.

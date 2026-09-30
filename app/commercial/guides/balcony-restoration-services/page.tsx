@@ -14,13 +14,14 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-services/' },
   title: "Balcony Restoration Services Tampa | High-Rise",
   description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial buildings. FCS is your licensed CBC in Tampa, FL.",
   openGraph: {
     title: "Balcony Restoration Services Tampa | High-Rise",
-    description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in ${region}.",
+    description: "Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/balcony-restoration-services/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -87,7 +88,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Balcony Restoration Services Tampa | High-Rise"
-        description="Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in ${region}. Contact our team today."
+        description="Professional balcony restoration services for Tampa Bay high-rise condominiums and commercial. From FCS, your licensed CBC in Tampa Bay. Contact our team today."
         datePublished="2024-01-01"
         slug="/commercial/guides/balcony-restoration-services/"
       />
@@ -598,6 +599,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/balcony-restoration-services/" />
             <GuideCTA silo="commercial" heading="Ready to Restore Your Building's Balconies?" />
     </>
   );

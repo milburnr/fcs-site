@@ -10,6 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampas-custom-family-home-builders/' },
   title: "Tampa's Custom Family Home Builders | Design for Life",
@@ -609,6 +610,7 @@ export default function Page() {
       />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/residential/guides/tampas-custom-family-home-builders/" />
 
       
 

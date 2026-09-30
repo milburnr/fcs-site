@@ -9,13 +9,14 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-projects-in-tampa/' },
-  title: "Historic Restoration Projects Tampa | FCS Portfolio",
-  description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City Hyde Park.",
+  title: "Historic Restoration Projects in Tampa | Portfolio",
+  description: "Historic restoration projects in Tampa, from Ybor City and Hyde Park to downtown heritage buildings: the techniques used and how each met preservation rules.",
   openGraph: {
     title: "Historic Restoration Projects Tampa | FCS Portfolio",
-    description: "Explore FCS's award-winning historic restoration projects in Tampa. Case studies from Ybor City Hyde Park.",
+    description: "Historic restoration projects in Tampa, from Ybor City and Hyde Park to downtown heritage buildings: the techniques used and how each met preservation rules.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-projects-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -333,6 +334,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/historic-restoration-projects-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

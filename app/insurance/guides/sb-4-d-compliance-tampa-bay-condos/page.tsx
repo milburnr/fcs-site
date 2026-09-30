@@ -11,6 +11,7 @@ import type { Metadata } from "next";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sb-4-d-compliance-tampa-bay-condos/' },
   title: "SB 4-D Compliance for Tampa Bay Condos: Deadlines & Costs",
@@ -775,6 +776,7 @@ export default function SB4DCompliancePage() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/sb-4-d-compliance-tampa-bay-condos/" />
 
       
 

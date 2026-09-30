@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/climate-resilient-custom-homes-in-tampa/' },
   title: "Climate-Resilient Custom Homes in Tampa | Hurricane-Ready",
@@ -429,6 +430,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/climate-resilient-custom-homes-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Build a Climate-Resilient Home?" />
     </>
   );

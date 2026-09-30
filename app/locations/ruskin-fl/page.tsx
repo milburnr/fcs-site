@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/ruskin-fl/' },
-  title: "Ruskin General Contractor | FCS HQ | $500K+",
-  description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration.",
+  title: "Licensed & Insured Building Contractor in Ruskin, FL",
+  description: "Licensed and insured building contractor headquartered in Ruskin, FL (CBC1262722). Commercial construction, remodeling, restoration, and custom homes since 1982.",
   openGraph: {
-    title: "Ruskin General Contractor | FCS HQ | $500K+",
-    description: "Florida Construction Specialists serves Ruskin, FL with commercial and residential construction, renovation, and restoration.",
+    title: "Licensed & Insured Building Contractor in Ruskin, FL",
+    description: "Licensed and insured building contractor headquartered in Ruskin, FL (CBC1262722). Commercial construction, remodeling, restoration, and custom homes since 1982.",
     url: "https://floridaconstructionspecialists.com/locations/ruskin-fl/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     question: "What is your bonding capacity?",
-    answer: "Florida Construction Specialists maintains 40+ years experience and in-house engineering, enabling us to take on large-scale projects that many contractors cannot. Combined with our Florida General Contractor License #CBC1262722, comprehensive general liability insurance, and workers' compensation coverage, we have the financial strength to handle projects of any size."
+    answer: "Florida Construction Specialists maintains 40+ years experience and in-house engineering, enabling us to take on large-scale projects that many contractors cannot. Combined with our Florida Certified Building Contractor License #CBC1262722, comprehensive general liability insurance, and workers' compensation coverage, we have the financial strength to handle projects of any size."
   },
   {
     question: "Do you provide disaster recovery services?",
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     question: "Are you licensed and insured?",
-    answer: "Yes, Florida Construction Specialists is fully licensed and insured. We hold Florida General Contractor License #CBC1262722, maintain 40+ years experience and in-house engineering, carry comprehensive general liability insurance, and provide full workers' compensation coverage for all employees and subcontractors."
+    answer: "Yes, Florida Construction Specialists is fully licensed and insured. We hold Florida Certified Building Contractor License #CBC1262722, maintain 40+ years experience and in-house engineering, carry comprehensive general liability insurance, and provide full workers' compensation coverage for all employees and subcontractors."
   },
   {
     question: "What makes Florida Construction Specialists different?",
@@ -152,10 +152,10 @@ export default function RuskinPage() {
               <span className="text-brand-gold font-semibold">FCS Headquarters - Ruskin, Florida</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Florida Construction Specialists Headquarters
+              Licensed & Insured Building Contractor in Ruskin, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Premier general contractor serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $25M+.
+              Florida Construction Specialists is headquartered here, serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $25M+.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Headquartered in Ruskin since 1982, our central location provides ideal access to Tampa, Brandon, Plant City, Lakeland, Clearwater, St. Petersburg, Sarasota, and Bradenton—the entire Tampa Bay region.

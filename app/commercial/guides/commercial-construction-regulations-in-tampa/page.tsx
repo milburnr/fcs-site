@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-regulations-in-tampa/' },
   title: "Commercial Construction Regulations Tampa | Permits",
@@ -808,6 +809,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/commercial-construction-regulations-in-tampa/" />
             <GuideCTA silo="commercial" heading="Navigate Tampa Regulations with Confidence" />
     </>
   );

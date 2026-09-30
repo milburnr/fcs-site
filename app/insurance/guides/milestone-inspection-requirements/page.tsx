@@ -29,6 +29,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/milestone-inspection-requirements/' },
   title: "Milestone Inspection Requirements FL | SB 4-D",
@@ -594,6 +595,7 @@ export default function MilestoneInspectionRequirementsPage() {
             <GuideCTA silo="insurance" heading="Need Repairs After Your Milestone Inspection?" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/milestone-inspection-requirements/" />
 
       
       {/* Internal Links */}

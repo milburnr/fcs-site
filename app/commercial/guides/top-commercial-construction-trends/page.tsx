@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends/' },
   title: "Unveiling the Top Commercial Construction Trends",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Are you curious about the latest commercial construction trends in Florida? Discover the cutting-edge construction technology advancements with expert
+            The construction methods and technology changing commercial projects in Florida.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -618,6 +619,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/top-commercial-construction-trends/" />
 
       
 

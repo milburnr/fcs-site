@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-construction-process-for-commercial-construction/' },
   title: "Post-Construction Process for Commercial Construction in Florida",
@@ -466,6 +467,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/post-construction-process-for-commercial-construction/" />
 
       
 

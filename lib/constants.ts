@@ -238,7 +238,7 @@ export const RESIDENTIAL_SERVICES = [
 // Insurance Restoration services (Large Loss Commercial & Residential)
 export const INSURANCE_SERVICES = [
   { label: "Building Consultant", href: "/insurance/building-consultant/" },
-  { label: "Licensed General Contractor", href: "/insurance/licensed-general-contractor/" },
+  { label: "Licensed Building Contractor", href: "/insurance/licensed-general-contractor/" },
   { label: "Certified Estimating", href: "/insurance/certified-estimating/" },
   { label: "Appraisal & Arbitration", href: "/insurance/appraisal-arbitration/" },
   { label: "Fire Restoration", href: "/insurance/fire-restoration/" },
@@ -471,7 +471,7 @@ export const FAQ_DATABASE = {
     },
     {
       question: "Are you licensed and insured?",
-      answer: "Yes, Florida Construction Specialists is a fully licensed Florida General Contractor with comprehensive insurance coverage including general liability, workers' compensation, and professional liability. We also have an in-house engineer and architectural draftsman on staff."
+      answer: "Yes, Florida Construction Specialists is a fully licensed Florida Certified Building Contractor (CBC1262722) with comprehensive insurance coverage including general liability, workers' compensation, and professional liability. We also have an in-house engineer and architectural draftsman on staff."
     },
     {
       question: "What sets FCS apart from other contractors?",

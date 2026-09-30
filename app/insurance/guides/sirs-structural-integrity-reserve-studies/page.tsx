@@ -29,6 +29,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/sirs-structural-integrity-reserve-studies/' },
   title: "SIRS Reserve Studies Florida | Condo Compliance",
@@ -567,6 +568,7 @@ export default function SIRSStructuralIntegrityReserveStudiesPage() {
             <GuideCTA silo="insurance" heading="Need Construction Estimates for Your SIRS?" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/sirs-structural-integrity-reserve-studies/" />
 
       
       {/* Internal Links */}

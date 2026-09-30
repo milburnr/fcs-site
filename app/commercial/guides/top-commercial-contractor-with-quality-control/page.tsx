@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-contractor-with-quality-control/' },
   title: "Top Commercial Contractor with Quality Control",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Looking for a top commercial contractor in Florida? Florida Construction Specialists is a trusted name in the industry, known for its quality control
+            What quality control looks like on a commercial project, and how to check that your contractor has it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -597,6 +598,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/top-commercial-contractor-with-quality-control/" />
 
       
 

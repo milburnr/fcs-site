@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/office-building-renovation-in-tampa/' },
   title: "Office Building Renovation Tampa | Modernization",
@@ -333,6 +334,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/office-building-renovation-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Transform Your Tampa Office Building?" />
     </>
   );

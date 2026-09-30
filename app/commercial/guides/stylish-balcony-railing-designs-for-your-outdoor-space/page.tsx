@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/' },
   title: "Balcony Railing Designs Tampa | High-Rise Styles",
@@ -167,7 +168,7 @@ export default function Page() {
              Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
-              Following Florida's SB 4-D legislation, balcony railings receive particular attention during milestone structural inspections. Corroded anchors, deteriorated posts, and compromised connections represent safety hazards that inspectors specifically evaluate. Our railing systems incorporate design features that enhance long-term durability, simplify future inspections, and protect associations from the maintenance challenges that burden many aging buildings.
+              Following Florida's SB 4-D legislation, balcony railings receive particular attention during milestone structural inspections. Corroded anchors, deteriorated posts, and compromised connections represent safety hazards that inspectors specifically evaluate. Our railing systems incorporate design features that enhance long-term durability, simplify future inspections, and protect associations from the maintenance challenges that burden many aging buildings. If you are preparing for a balcony inspection in Florida, start with our guide to the <Link href="/commercial/guides/condo-balcony-inspection-requirements/" className="text-brand-green font-semibold hover:underline">Florida balcony inspection requirements</Link> under SB 4-D.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -336,6 +337,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/stylish-balcony-railing-designs-for-your-outdoor-space/" />
 
       
 

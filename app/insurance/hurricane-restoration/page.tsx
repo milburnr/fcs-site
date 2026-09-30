@@ -16,7 +16,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/hurricane-restoration/' },
-  title: "Hurricane Restoration Tampa",
+  title: "Hurricane Restoration Contractor in Tampa | FCS",
   description: "Hurricane restoration Tampa Bay: roof repairs, wind damage, flood recovery. Licensed large-loss specialist. 40+ years storm expertise. Call now.",
   openGraph: {
     title: "Hurricane Restoration Tampa",

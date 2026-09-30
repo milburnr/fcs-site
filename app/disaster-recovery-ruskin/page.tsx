@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     question: "How fast can FCS respond to disaster damage in Ruskin?",
-    answer: "Florida Construction Specialists is headquartered at 822 Bayview Dr in Ruskin, which means we respond faster than any other licensed general contractor in the region. Our crews, equipment, and project managers are stationed locally. For emergency stabilization — tarping, board-up, water extraction — we can mobilize within hours rather than the half-day or longer it takes contractors commuting from Tampa or St. Petersburg. This response time advantage is particularly critical after hurricanes when every contractor in the region is deployed and travel times increase dramatically."
+    answer: "Florida Construction Specialists is headquartered at 822 Bayview Dr in Ruskin, which means we respond faster than any other state-licensed building contractor in the region. Our crews, equipment, and project managers are stationed locally. For emergency stabilization — tarping, board-up, water extraction — we can mobilize within hours rather than the half-day or longer it takes contractors commuting from Tampa or St. Petersburg. This response time advantage is particularly critical after hurricanes when every contractor in the region is deployed and travel times increase dramatically."
   },
   {
     question: "What disaster risks are unique to Ruskin and South Hillsborough County?",
@@ -84,7 +84,7 @@ export default function DisasterRecoveryRuskinPage() {
               Disaster Recovery in Ruskin, Florida
             </h1>
             <p className="text-xl text-gray-200 mb-8 max-w-3xl leading-relaxed">
-              When disaster strikes South Hillsborough County, Florida Construction Specialists is already here. Headquartered at 822 Bayview Dr in Ruskin, we respond faster than any other licensed general contractor — deploying crews for emergency stabilization, coordinating insurance documentation, and managing complete restoration from hurricane damage to flood recovery across Apollo Beach, Sun City Center, and the entire SouthShore area.
+              When disaster strikes South Hillsborough County, Florida Construction Specialists is already here. Headquartered at 822 Bayview Dr in Ruskin, we respond faster than any other state-licensed building contractor — deploying crews for emergency stabilization, coordinating insurance documentation, and managing complete restoration from hurricane damage to flood recovery across Apollo Beach, Sun City Center, and the entire SouthShore area.
             </p>
 
             {/* Trust Badges */}

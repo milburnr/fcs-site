@@ -23,6 +23,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/fema-50-percent-rule-explained/' },
   title: "FEMA 50% Rule Tampa | Substantial Improvement",
@@ -556,6 +557,7 @@ export default function FEMA50PercentRulePage() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/fema-50-percent-rule-explained/" />
 
       
       {/* Internal Links */}

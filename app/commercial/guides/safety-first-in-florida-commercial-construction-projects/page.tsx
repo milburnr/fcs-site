@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/safety-first-in-florida-commercial-construction-projects/' },
   title: "Florida Commercial Construction Safety | OSHA Compliance",
@@ -486,6 +487,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/commercial/guides/safety-first-in-florida-commercial-construction-projects/" />
             <GuideCTA silo="commercial" heading="Safety-First Commercial Construction" />
     </>
   );

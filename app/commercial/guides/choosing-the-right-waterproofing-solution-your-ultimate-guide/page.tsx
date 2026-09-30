@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/' },
   title: "Choosing Waterproofing Solutions Tampa | Guide",
-  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in ${region}.",
+  description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in Tampa Bay.",
   openGraph: {
     title: "Choosing Waterproofing Solutions Tampa | Guide",
-    description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in ${region}.",
+    description: "Complete guide to selecting commercial waterproofing systems for Tampa Bay high-rises. From FCS, your licensed CBC in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -585,6 +586,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/choosing-the-right-waterproofing-solution-your-ultimate-guide/" />
 
       
 

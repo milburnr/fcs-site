@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/' },
   title: "Preferred Commercial General Contractors in Tampa",
@@ -691,6 +692,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/" />
             <GuideCTA silo="commercial" heading="Join Our Satisfied Clients" />
     </>
   );

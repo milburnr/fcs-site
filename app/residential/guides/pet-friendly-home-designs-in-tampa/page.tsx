@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/pet-friendly-home-designs-in-tampa/' },
   title: "Pet-Friendly Home Designs Tampa | Custom Homes",
@@ -442,6 +443,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/pet-friendly-home-designs-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Build Your Pet-Friendly Home?" />
     </>
   );

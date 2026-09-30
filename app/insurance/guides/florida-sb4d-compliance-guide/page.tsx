@@ -26,6 +26,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/florida-sb4d-compliance-guide/' },
   title: "Florida SB4-D Compliance Guide | Milestone",
@@ -589,6 +590,7 @@ export default function SB4DCompliancePage() {
             <GuideCTA silo="insurance" heading="SB4-D Compliance Deadlines Are Here" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/florida-sb4d-compliance-guide/" />
 
       
       {/* Internal Links */}

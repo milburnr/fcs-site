@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/building-plans-for-businesses-florida-construction-specialists/' },
   title: "Building Plans for Businesses Tampa",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Our Tampa-based construction specialists provide tailored building plans, business-specific designs, and customized solutions to meet your unique need
+            Building plans designed around how your business actually operates, from our Tampa-based team.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -609,6 +610,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/building-plans-for-businesses-florida-construction-specialists/" />
 
       
 

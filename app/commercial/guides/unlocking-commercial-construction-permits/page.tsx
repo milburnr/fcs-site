@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/unlocking-commercial-construction-permits/' },
   title: "Unlocking Commercial Construction Permits",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Gain expert insights into understanding commercial construction permits from Florida&apos;s seasoned Tampa specialists. Navigate the permit process with ea
+            How commercial construction permits work in Tampa, and how to move through the process without delays.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -615,6 +616,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/unlocking-commercial-construction-permits/" />
 
       
 

@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/zero-net-energy-boosting-commercial-construction/' },
   title: "Zero Net Energy Boosting Commercial Construction",
-  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}.",
+  description: "Boost your commercial construction project in Tampa with Florida Construction Specialists. From FCS, your licensed CBC in Tampa Bay.",
   openGraph: {
     title: "Zero Net Energy Boosting Commercial Construction",
-    description: "Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}.",
+    description: "Boost your commercial construction project in Tampa with Florida Construction Specialists. From FCS, your licensed CBC in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/zero-net-energy-boosting-commercial-construction/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -89,7 +90,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Zero Net Energy Boosting Commercial Construction in Tampa"
-        description="Boost your commercial construction project in Tampa with Florida Construction Specialists,. From FCS, your licensed CBC in ${region}. Request a free estimate."
+        description="Boost your commercial construction project in Tampa with Florida Construction Specialists. From FCS, your licensed CBC in Tampa Bay. Request a free estimate."
         datePublished="2024-01-01"
         slug="/commercial/guides/zero-net-energy-boosting-commercial-construction/"
       />
@@ -513,6 +514,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/zero-net-energy-boosting-commercial-construction/" />
 
       
 

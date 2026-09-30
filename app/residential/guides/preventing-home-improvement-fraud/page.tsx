@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/' },
   title: "Preventing Home Improvement Fraud Tampa",
   description: "Protect yourself from home improvement fraud in Tampa. Learn to verify contractor licenses at myfloridalicense.com and recognize high-pressure scam tactics before you sign.",
   openGraph: {
     title: "Preventing Home Improvement Fraud Tampa",
-    description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}.",
+    description: "Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/residential/guides/preventing-home-improvement-fraud/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -90,7 +91,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Preventing Home Improvement Fraud Tampa"
-        description="Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in ${region}. Request a free estimate."
+        description="Preventing Home Improvement Fraud: protect yourself from home improvement fraud in tampa. From FCS, your licensed CBC in Tampa Bay. Request a free estimate."
         datePublished="2024-01-01"
         slug="/residential/guides/preventing-home-improvement-fraud/"
       />
@@ -475,6 +476,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/residential/guides/preventing-home-improvement-fraud/" />
 
       
 

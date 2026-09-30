@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/affordable-commercial-construction-in-tampa/' },
   title: "Affordable Commercial Construction Tampa",
@@ -592,6 +593,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/affordable-commercial-construction-in-tampa/" />
             <GuideCTA silo="commercial" heading="Build Smart, Build Affordable" />
     </>
   );

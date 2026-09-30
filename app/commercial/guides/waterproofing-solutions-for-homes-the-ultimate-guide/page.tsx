@@ -15,13 +15,14 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/' },
   title: "Waterproofing Solutions for Tampa Homes: The Ultimate Guide",
   description: "Comprehensive waterproofing solutions for Tampa residential buildings. FCS is your licensed CBC in Florida. Protect your property — contact our team today.",
   openGraph: {
     title: "Waterproofing High-Rise Residential Tampa",
-    description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today.",
+    description: "Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in Tampa Bay. Contact our team today.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -111,7 +112,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Waterproofing High-Rise Residential Tampa | FCS"
-        description="Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in ${region}. Contact our team today."
+        description="Waterproofing High-rise Residential: comprehensive waterproofing solutions for high-rise. From FCS, your licensed CBC in Tampa Bay. Contact our team today."
         datePublished="2024-01-01"
         slug="/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/"
       />
@@ -612,6 +613,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/waterproofing-solutions-for-homes-the-ultimate-guide/" />
 
       
 

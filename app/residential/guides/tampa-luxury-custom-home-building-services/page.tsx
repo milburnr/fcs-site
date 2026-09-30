@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-luxury-custom-home-building-services/' },
   title: "Tampa Luxury Custom Home Building Services",
@@ -390,6 +391,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/tampa-luxury-custom-home-building-services/" />
             <GuideCTA silo="residential" heading="Ready to Build Your Luxury Dream Home?" />
     </>
   );

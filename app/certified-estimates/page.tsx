@@ -11,7 +11,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/certified-estimates/' },
-  title: "Certified Construction Estimates for Insurance Claims | FCS",
+  title: "Certified Construction Estimates for Insurance Claims",
   description: "Professional certified estimates for insurance claims, litigation & project planning. FCS is a licensed CBC with 40+ years of experience & in-house engineering.",
   openGraph: {
     title: "Certified Construction Estimates",
@@ -502,7 +502,7 @@ export default function CertifiedEstimatesPage() {
                 <ul className="space-y-3 text-gray-300">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />
-                    <span>Florida Licensed General Contractor - {BUSINESS_INFO.licenseNumber}</span>
+                    <span>Florida Certified Building Contractor - {BUSINESS_INFO.licenseNumber}</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-gold flex-shrink-0 mt-0.5" />

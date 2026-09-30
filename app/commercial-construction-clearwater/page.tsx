@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-clearwater/' },
-  title: "Commercial Construction in Clearwater, FL | FCS",
+  title: "Commercial Construction in Clearwater, FL",
   description: "Commercial construction in Clearwater by Florida Construction Specialists. Permitting, CRA review, coastal setbacks, and SWFWMD compliance near Morton Plant.",
   openGraph: {
     title: "Commercial Construction Clearwater | Beach Hotels",

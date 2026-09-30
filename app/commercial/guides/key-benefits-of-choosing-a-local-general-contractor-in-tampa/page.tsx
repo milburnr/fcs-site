@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/' },
   title: "Benefits of Local General Contractor Tampa",
@@ -330,6 +331,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/key-benefits-of-choosing-a-local-general-contractor-in-tampa/" />
             <GuideCTA silo="commercial" heading="Experience the Local Advantage" />
     </>
   );

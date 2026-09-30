@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-landmarks-restoration-in-tampa/' },
   title: "Historical Landmark Restoration in Tampa: Costs & Timeline",
@@ -617,6 +618,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/historical-landmarks-restoration-in-tampa/" />
             <GuideCTA silo="commercial" />
     </>
   );

@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/' },
   title: "Outdoor Sports Facilities Tampa Homes | Courts",
-  description: "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+  description: "Custom outdoor sports facilities for Tampa homes: tennis and pickleball courts, basketball courts, golf practice areas, and the site work behind them.",
   openGraph: {
     title: "Outdoor Sports Facilities Tampa Homes | Courts",
-    description: "Discover outdoor sports facilities homes courts with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Request a free estimate today.",
+    description: "Custom outdoor sports facilities for Tampa homes: tennis and pickleball courts, basketball courts, golf practice areas, and the site work behind them.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -451,6 +452,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/customized-outdoor-sports-facilities-in-tampa-homes/" />
 
       
 

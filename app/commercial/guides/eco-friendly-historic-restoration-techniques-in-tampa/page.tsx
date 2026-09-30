@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/' },
   title: "Eco-Friendly Historic Restoration Tampa | Green",
@@ -438,6 +439,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/eco-friendly-historic-restoration-techniques-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

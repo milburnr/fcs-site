@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/insurance-arbitration-appraisal/' },
   title: "Insurance Arbitration & Appraisal Services",
@@ -508,6 +509,7 @@ export default function InsuranceArbitrationAppraisalPage() {
       {/* CTA Section */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/insurance-arbitration-appraisal/" />
 
       
       

@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choose-between-general-contractor-and-construction-manager/' },
   title: "GC vs Construction Manager Tampa | Which to Choose",
@@ -76,7 +77,7 @@ const faqs = [
   },
   {
     question: "How do Florida licensing requirements differ between GCs and CMs?",
-    answer: "In Florida, both general contractors and construction managers performing at-risk work must hold appropriate contractor licenses (CGC for general contractors). Construction managers operating purely as agents (CMa) may work under different arrangements, but most commercial CMs in Tampa Bay hold CGC licenses to provide full-service capabilities. Always verify your contractor's license status through the Florida DBPR website."
+    answer: "In Florida, both general contractors and construction managers performing at-risk work must hold appropriate contractor licenses (CGC for general contractors). Construction managers operating purely as agents (CMa) may work under different arrangements, but most commercial CMs in Tampa Bay hold a state contractor license (CGC or CBC) to provide full-service capabilities. Always verify your contractor's license status through the Florida DBPR website."
   },
   {
     question: "Which approach is better for fast-track commercial projects in Tampa?",
@@ -347,7 +348,7 @@ export default function Page() {
                   How do Florida licensing requirements differ between GCs and CMs?
                 </h3>
                 <p className="text-gray-600">
-                  In Florida, both general contractors and construction managers performing at-risk work must hold appropriate contractor licenses (CGC for general contractors). Construction managers operating purely as agents (CMa) may work under different arrangements, but most commercial CMs in Tampa Bay hold CGC licenses to provide full-service capabilities. Always verify your contractor's license status through the Florida DBPR website.
+                  In Florida, both general contractors and construction managers performing at-risk work must hold appropriate contractor licenses (CGC for general contractors). Construction managers operating purely as agents (CMa) may work under different arrangements, but most commercial CMs in Tampa Bay hold a state contractor license (CGC or CBC) to provide full-service capabilities. Always verify your contractor's license status through the Florida DBPR website.
                 </p>
               </div>
               
@@ -687,6 +688,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/choose-between-general-contractor-and-construction-manager/" />
 
       
 

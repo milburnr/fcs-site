@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/' },
   title: "Reinforced Construction Tampa | Hurricane-Proof",
@@ -461,6 +462,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/reinforced-construction-services-in-tampa-for-disaster-prevention/" />
 
       
 

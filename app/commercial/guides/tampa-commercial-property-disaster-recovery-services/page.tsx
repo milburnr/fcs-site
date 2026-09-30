@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-property-disaster-recovery-services/' },
   title: "Tampa Commercial Property Disaster Recovery Services",
@@ -66,7 +67,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Recover quickly from unexpected damage with Tampa&apos;s top-rated Commercial Property Disaster Recovery services. Get expert restoration solutions. Call n
+            Recover from storm, fire, or water damage to your Tampa commercial property with a contractor who handles the rebuild start to finish.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -267,7 +268,7 @@ export default function Page() {
                 <ul className="space-y-2">
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
-                    <span>Licensed general contractor with specialized disaster recovery experience</span>
+                    <span>State-licensed building contractor with specialized disaster recovery experience</span>
                   </li>
                   <li className="flex items-start gap-3">
                     <CheckCircle className="w-5 h-5 text-brand-green mt-1 flex-shrink-0" />
@@ -368,6 +369,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/tampa-commercial-property-disaster-recovery-services/" />
 <GuideCTA silo="commercial" />
 </>
   );

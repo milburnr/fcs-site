@@ -14,10 +14,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/multi-family-construction/' },
   title: "Multi-Family Construction Tampa Bay | Condos",
-  description: "Multi-family construction Tampa: condos, apartments, mixed-use. In-house engineering, SB4-D compliance, 40+ years experience. Request a bid.",
+  description: "Multi-family construction in Tampa Bay: condos, apartments, mixed-use. Hurricane-code compliant design, in-house engineering, SB 4-D compliance, 40+ years. Request a bid.",
   openGraph: {
     title: "Multi-Family Construction Tampa Bay | Condos",
-    description: "Multi-family construction Tampa: condos, apartments, mixed-use. In-house engineering, SB4-D compliance, 40+ years experience. Request a bid.",
+    description: "Multi-family construction in Tampa Bay: condos, apartments, mixed-use. Hurricane-code compliant design, in-house engineering, SB 4-D compliance, 40+ years. Request a bid.",
     url: "https://floridaconstructionspecialists.com/multi-family-construction/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -181,7 +181,9 @@ export default function MultiFamilyConstructionPage() {
                 What truly distinguishes FCS is our in-house engineering capability and deep insurance restoration expertise. Many multi-family projects involve existing structures requiring assessment, remediation, or restoration—whether addressing hurricane damage, concrete deterioration, balcony failures, or building envelope issues. Our engineering team provides structural analysis, waterproofing design, and construction solutions under one roof, eliminating finger-pointing between consultants and contractors.
               </p>
               <p className="leading-relaxed">
-                FCS is a merging of Florida Restoration Team and Shamblin Construction, large-scale general contractors that have operated in Florida since 1982. This heritage means we understand Florida&apos;s unique construction challenges: hurricane-resistant building requirements, flood zone construction, the corrosive coastal environment, and the regulatory landscape from local building departments to state agencies. When you choose FCS, you&apos;re partnering with a contractor that has successfully navigated every challenge Florida construction presents.
+                FCS is a merging of Florida Restoration Team and Shamblin Construction, large-scale general contractors that have operated in Florida since 1982. This heritage means we understand Florida&apos;s unique construction challenges: hurricane-resistant building requirements, flood zone construction, the corrosive coastal environment, and the regulatory landscape from local building departments to state agencies. When you choose FCS, you&apos;re partnering with a contractor that has successfully navigated every challenge Florida construction presents. If you are earlier in planning, our guide to{" "}
+                <Link href="/resources/multi-family-construction/" className="text-brand-green font-semibold hover:underline">what multi-family construction involves in Tampa Bay</Link>{" "}
+                covers the code and ownership basics first.
               </p>
             </div>
           </div>
@@ -691,7 +693,7 @@ export default function MultiFamilyConstructionPage() {
         <div className="container-custom">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark mb-4 font-heading">
-              Florida-Specific Construction Considerations
+              Hurricane-Compliant Multi-Family Construction in Florida
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Building in Florida presents unique challenges. Our 40+ years of experience means we understand every aspect of constructing durable, safe multi-family buildings in our demanding environment.

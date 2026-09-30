@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/' },
   title: "Construction Mistakes to Avoid | Commercial Tampa",
-  description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today.",
+  description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in Tampa Bay. Request a free estimate today.",
   openGraph: {
     title: "Construction Mistakes to Avoid | Commercial Tampa",
-    description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today.",
+    description: "Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in Tampa Bay. Request a free estimate today.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -90,7 +91,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Construction Mistakes to Avoid | Commercial Tampa"
-        description="Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in ${region}. Request a free estimate today."
+        description="Learn the most common commercial construction mistakes and how to avoid them. From FCS, your licensed CBC in Tampa Bay. Request a free estimate today."
         datePublished="2024-01-01"
         slug="/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/"
       />
@@ -496,6 +497,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/" />
 
       
 

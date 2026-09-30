@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-building-design-services-in-tampa/' },
   title: "Commercial Building Design Services in Tampa",
@@ -178,7 +179,8 @@ export default function Page() {
                 Commercial building design in Tampa Bay requires specialized expertise that most architectural firms simply don't possess. Beyond creating attractive buildings, effective commercial design must address Florida's unique climate challenges, navigate complex regulatory requirements, and deliver spaces that drive business performance—all while remaining constructable within realistic budgets.
               </p>
               <p className="text-gray-600 mb-6">
-                Florida Construction Specialists brings a distinctive approach to commercial design: our architectural capabilities are fully integrated with construction expertise. This means every design decision is informed by real-world buildability considerations, accurate cost implications, and practical scheduling impacts. There's no gap between what designers envision and what builders can deliver.
+                Florida Construction Specialists brings a distinctive approach to commercial design: our architectural capabilities are fully integrated with construction expertise. This means every design decision is informed by real-world buildability considerations, accurate cost implications, and practical scheduling impacts. There's no gap between what designers envision and what builders can deliver. For the statewide picture (climate, wind, and energy requirements that shape every project), see our guide to{" "}
+                <Link href="/commercial/guides/mastering-commercial-construction-design-in-florida/" className="text-brand-green font-semibold hover:underline">commercial building design in Florida</Link>.
               </p>
               <p className="text-gray-600 mb-6">
                 Our design team has completed projects across Tampa Bay's diverse commercial landscape—from Class A office towers in downtown Tampa to medical facilities in South Tampa, retail centers in Brandon, and industrial parks near the Port of Tampa. This breadth of experience means we understand what works in each building type and can apply lessons learned across sectors.
@@ -555,6 +557,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/commercial-building-design-services-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Design Your Commercial Building?" />
     </>
   );

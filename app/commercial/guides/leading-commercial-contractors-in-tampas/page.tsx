@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/leading-commercial-contractors-in-tampas/' },
   title: "Guide: Leading Commercial Contractors in Tampa",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Looking for a reliable commercial contractors in Tampa? Choose Florida Construction Specialists - the leading experts in development projects for comm
+            What to look for in a commercial contractor in Tampa, and how Florida Construction Specialists approaches development projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -420,6 +421,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/leading-commercial-contractors-in-tampas/" />
 
       
 

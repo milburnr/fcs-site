@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/' },
   title: "Impacts of Technology on Historic Restoration in Tampa",
@@ -295,6 +296,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/impacts-of-technology-on-historic-restoration-in-tampa/" />
             <GuideCTA silo="commercial" />
     </>
   );

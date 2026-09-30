@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-commercial-construction-permits/' },
   title: "Tampa Commercial Construction Permits | Guide",
@@ -137,7 +138,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
-              Commercial construction in Tampa requires navigating a comprehensive permitting process governed by the Florida Building Code and local ordinances. Proper permits ensure buildings are safe, code-compliant, and legally constructed. Florida Construction Specialists manages the entire permit process for our clients, from initial application through final certificate of occupancy, leveraging our experience with the City of Tampa and surrounding jurisdictions to minimize delays and keep projects on schedule.
+              Commercial construction in Tampa requires navigating a comprehensive permitting process governed by the Florida Building Code and local ordinances. Proper permits ensure buildings are safe, code-compliant, and legally constructed. Florida Construction Specialists manages the entire permit process for our clients, from initial application through final certificate of occupancy, leveraging our experience with the City of Tampa and surrounding jurisdictions to minimize delays and keep projects on schedule. For a shorter primer on what triggers a permit and who reviews it, see <Link href="/resources/tampa-building-permits-tampa/" className="text-brand-green font-semibold hover:underline">Tampa building permits: what commercial owners need to know</Link>.
             </p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
@@ -499,6 +500,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/tampa-commercial-construction-permits/" />
 
       
 

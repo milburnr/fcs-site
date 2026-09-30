@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Clearwater?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Clearwater. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida Certified Building Contractor License #CBC1262722, which allows us to work on commercial and residential projects throughout Florida, including Clearwater. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Clearwater?",

@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-structural-reserve-study-repairs/' },
   title: "Condo Reserve Study Repairs | SIRS | FCS Tampa",
@@ -822,6 +823,7 @@ export default function SIRSRepairsPage() {
         description="Common questions about planning and executing condo capital improvement projects"
       />
 
+            <MoreGuides current="/commercial/guides/condo-structural-reserve-study-repairs/" />
             <GuideCTA silo="commercial" heading="Ready to Plan Your SIRS Capital Project?" />
     </>
   );

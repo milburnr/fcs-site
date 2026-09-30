@@ -9,13 +9,14 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tenant-improvement-contractors-tampa/' },
   title: "Tenant Improvement Contractors Tampa | TI",
-  description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+  description: "Tenant improvement contractors in Tampa for office, medical, retail, and restaurant build-outs. Fast-track schedules and cost control from a licensed CBC since 1982.",
   openGraph: {
     title: "Tenant Improvement Contractors Tampa | TI",
-    description: "Tenant Improvement Contractors Ti in Tampa: turnkey construction solutions for commercial properties. Licensed and insured CBC.",
+    description: "Tenant improvement contractors in Tampa for office, medical, retail, and restaurant build-outs. Fast-track schedules and cost control from a licensed CBC since 1982.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/tenant-improvement-contractors-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -692,6 +693,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/tenant-improvement-contractors-tampa/" />
             <GuideCTA silo="commercial" heading="Planning a Tenant Improvement Project?" />
     </>
   );

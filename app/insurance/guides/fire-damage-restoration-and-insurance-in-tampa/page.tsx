@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/' },
   title: "Commercial Fire Damage Restoration & Insurance",
@@ -510,6 +511,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/insurance/guides/fire-damage-restoration-and-insurance-in-tampa/" />
 <GuideCTA silo="insurance" heading="Commercial Fire Damage? We&apos;re Here 24/7" />
 </>
   );

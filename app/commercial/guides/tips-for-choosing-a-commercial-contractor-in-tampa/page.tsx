@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/' },
   title: "Tips for Choosing a Commercial Contractor in Tampa",
@@ -264,7 +265,7 @@ export default function Page() {
                   <tr>
                     <td className="px-6 py-4 font-medium">Licensing & Insurance</td>
                     <td className="px-6 py-4">Pass/Fail</td>
-                    <td className="px-6 py-4">Valid CGC license, adequate coverage</td>
+                    <td className="px-6 py-4">Valid CGC or CBC license, adequate coverage</td>
                   </tr>
                   <tr className="bg-gray-50">
                     <td className="px-6 py-4 font-medium">Relevant Experience</td>
@@ -375,7 +376,7 @@ export default function Page() {
             <ul className="space-y-3 mb-8">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
-                <span className="text-gray-600"><strong>Licensed and Bonded:</strong> Valid Florida CGC license with comprehensive insurance coverage exceeding industry standards</span>
+                <span className="text-gray-600"><strong>Licensed and Bonded:</strong> Valid Florida CGC or CBC license with comprehensive insurance coverage exceeding industry standards</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-6 h-6 text-brand-green shrink-0 mt-0.5" />
@@ -463,6 +464,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/tips-for-choosing-a-commercial-contractor-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Discuss Your Commercial Project?" />
     </>
   );

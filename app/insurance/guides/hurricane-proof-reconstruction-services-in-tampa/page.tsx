@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/' },
   title: "Hurricane-Proof Reconstruction Tampa | Commercial",
@@ -419,6 +420,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/hurricane-proof-reconstruction-services-in-tampa/" />
             <GuideCTA silo="insurance" heading="Ready to Hurricane-Proof Your Commercial Property?" />
     </>
   );

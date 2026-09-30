@@ -35,7 +35,7 @@ const faqs = [
   },
   {
     question: "What contractor licenses are required for insurance restoration in Florida?",
-    answer: "Florida requires specific licenses for construction work. General contractors must hold a CGC license from DBPR for projects over $2,500. Specialty contractors (electrical, plumbing, HVAC, roofing) need their respective state licenses. Verify any contractor's license at DBPR.state.fl.us. Additionally, contractors must carry workers' compensation insurance (or be exempt) and general liability insurance. Using unlicensed contractors can void your insurance coverage and create liability issues."
+    answer: "Florida requires specific licenses for construction work. General and building contractors must hold a CGC or CBC license from DBPR for projects over $2,500. Specialty contractors (electrical, plumbing, HVAC, roofing) need their respective state licenses. Verify any contractor's license at DBPR.state.fl.us. Additionally, contractors must carry workers' compensation insurance (or be exempt) and general liability insurance. Using unlicensed contractors can void your insurance coverage and create liability issues."
   },
   {
     question: "What does Florida Statute 627.7011 require for code upgrade coverage?",

@@ -58,7 +58,7 @@ export default function TermsOfServicePage() {
                 Services Description
               </h2>
               <p className="text-gray-700 mb-4">
-                {BUSINESS_INFO.name} is a licensed general contractor providing commercial and residential
+                {BUSINESS_INFO.name} is a state-licensed building contractor providing commercial and residential
                 construction services throughout the Tampa Bay area. Our services include but are not limited to:
               </p>
               <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
@@ -140,7 +140,7 @@ export default function TermsOfServicePage() {
                 in the State of Florida:
               </p>
               <ul className="list-disc list-inside text-gray-700 mb-4 space-y-2">
-                <li>Florida State Certified General Contractor License: {BUSINESS_INFO.licenseNumber}</li>
+                <li>Florida Certified Building Contractor License: {BUSINESS_INFO.licenseNumber}</li>
                 <li>Experience: {BUSINESS_INFO.yearsInBusiness} years</li>
                 <li>Comprehensive general liability insurance</li>
                 <li>Workers&apos; compensation insurance</li>

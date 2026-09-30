@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-awards-for-historic-restoration-excellence/' },
   title: "Tampa's Awards for Historic Restoration Excellence",
@@ -91,7 +92,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Experience the honor of Tampa&apos;s Awards for Historic Restoration Excellence - where the finest restoration accolades and historic renovation celebrate
+            A look at how Tampa recognizes excellence in historic restoration, and what award-winning projects have in common.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -608,6 +609,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/tampas-awards-for-historic-restoration-excellence/" />
 
       
 

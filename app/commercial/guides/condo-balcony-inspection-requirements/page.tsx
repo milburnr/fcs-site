@@ -29,6 +29,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/condo-balcony-inspection-requirements/' },
   title: "Condo Balcony Inspection Florida | SB 4-D",
@@ -680,6 +681,7 @@ export default function CondoBalconyInspectionRequirementsPage() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/condo-balcony-inspection-requirements/" />
             <GuideCTA silo="commercial" heading="Need Balcony Repairs for Your Condo Building?" />
       {/* Internal Links */}
       <section className="section bg-gray-50">

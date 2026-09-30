@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/' },
   title: "Custom Home Libraries in Tampa",
@@ -420,6 +421,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/crafting-custom-home-libraries-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Build Your Dream Library?" />
     </>
   );

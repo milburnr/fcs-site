@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/balcony-safety-measures/' },
   title: "Balcony Safety Measures Florida | Compliance",
@@ -208,7 +209,7 @@ export default function Page() {
               Balcony safety in Florida isn't just about common sense—it's increasingly a matter of law. Following the Surfside condominium collapse in 2021, Florida enacted Senate Bill 4-D (SB4-D), requiring milestone structural inspections for condominium and cooperative buildings. Balconies and elevated walkways are a primary focus of these inspections.
              Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
-              But beyond compliance, balcony safety is about protecting lives. Falls from balconies cause serious injuries and fatalities every year. Structural failures, while rare, can be catastrophic. And in Florida's humid, salt-air environment, balcony components deteriorate faster than in other climates.
+              But beyond compliance, balcony safety is about protecting lives. Falls from balconies cause serious injuries and fatalities every year. Structural failures, while rare, can be catastrophic. And in Florida's humid, salt-air environment, balcony components deteriorate faster than in other climates. For the inspection timelines and what inspectors check, see our guide to <Link href="/commercial/guides/condo-balcony-inspection-requirements/" className="text-brand-green font-semibold hover:underline">condo balcony inspection requirements in Florida</Link>.
             </p>
             <p className="text-gray-600 mb-8">
               This guide covers the essential safety measures every Florida property owner and condo association should implement, from structural integrity to child safety features.
@@ -745,6 +746,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/balcony-safety-measures/" />
 
       
 

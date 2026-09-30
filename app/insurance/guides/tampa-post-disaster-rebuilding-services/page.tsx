@@ -6,6 +6,7 @@ import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema, ArticleSchema } from "@/components/Schema";
 import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
+import { MoreGuides } from "@/components/MoreGuides";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-post-disaster-rebuilding-services/' },
@@ -328,6 +329,8 @@ export default function Page() {
         </div>
       </section>
 
+      <MoreGuides current="/insurance/guides/tampa-post-disaster-rebuilding-services/" />
+
       {/* CTA */}
       <section className="section bg-red-800">
         <div className="container-custom text-center">
@@ -335,6 +338,7 @@ export default function Page() {
             Disaster Doesn't Wait. Neither Do We.
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
+            Call now for emergency stabilization, or contact us to plan the rebuild.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -342,7 +346,7 @@ export default function Page() {
               className="inline-flex items-center justify-center px-8 py-4 bg-white text-red-800 font-bold rounded-full hover:bg-gray-100 transition-all"
             >
               <Phone className="w-5 h-5 mr-2" />
-              urgent: {BUSINESS_INFO.phone}
+              Urgent: {BUSINESS_INFO.phone}
             </a>
             <Link href="/contact/" className="btn-secondary border-white text-white hover:bg-white/10">
               Non-Emergency Contact

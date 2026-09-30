@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/' },
   title: "Office Building Security Tampa | Commercial",
@@ -605,6 +606,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/expert-insights-on-ways-t0-enhanced-office-building-security/" />
 
       
 

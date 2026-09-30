@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/brandon-fl/' },
-  title: "Brandon Commercial Construction | $500K+",
-  description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration.",
+  title: "Brandon Commercial & Retail Construction | $500K+",
+  description: "Commercial and retail construction in Brandon, FL: tenant improvements, restaurant buildouts, new retail space, and insurance restoration. In-house engineering since 1982.",
   openGraph: {
-    title: "Brandon Commercial Construction | $500K+",
-    description: "Florida Construction Specialists serves Brandon, FL with commercial and residential construction, renovation, and restoration.",
+    title: "Brandon Commercial & Retail Construction | $500K+",
+    description: "Commercial and retail construction in Brandon, FL: tenant improvements, restaurant buildouts, new retail space, and insurance restoration. In-house engineering since 1982.",
     url: "https://floridaconstructionspecialists.com/locations/brandon-fl/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Brandon?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Brandon. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida Certified Building Contractor License #CBC1262722, which allows us to work on commercial and residential projects throughout Florida, including Brandon. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Brandon?",
@@ -148,7 +148,7 @@ export default function BrandonPage() {
               <span className="text-brand-gold font-semibold">Serving Brandon, Florida</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
-              Brandon Commercial & Insurance Restoration Contractor
+              Brandon Commercial & Retail Construction Contractor
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
               Major Tampa suburb with extensive commercial and retail development. Florida Construction Specialists delivers large-scale commercial and residential construction throughout Brandon.
@@ -204,7 +204,9 @@ export default function BrandonPage() {
               Construction Services in Brandon
             </h2>
             <p className="text-gray-600 mb-6">
-              Brandon is one of Tampa Bay&apos;s largest and most dynamic suburban communities, with strong commercial corridors, extensive retail development, and growing residential neighborhoods. Florida Construction Specialists is ideally positioned to serve Brandon&apos;s diverse construction needs.
+              Brandon is one of Tampa Bay&apos;s largest and most dynamic suburban communities, with strong commercial corridors, extensive retail development, and growing residential neighborhoods. Florida Construction Specialists is ideally positioned to serve Brandon&apos;s diverse construction needs, and much of that work is{" "}
+              <Link href="/services/commercial/retail-construction/" className="text-brand-green font-semibold hover:underline">retail construction</Link>{" "}
+              around Westfield Brandon and the surrounding commercial corridors.
             </p>
             <p className="text-gray-600 mb-8">
               Whether you&apos;re developing commercial property along Brandon Boulevard, building out retail space near Westfield Brandon, restoring storm damage, or constructing a custom home in one of Brandon&apos;s established neighborhoods, FCS brings the expertise, bonding capacity, and local knowledge to deliver your project on time and on budget.

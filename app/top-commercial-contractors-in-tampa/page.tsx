@@ -10,7 +10,7 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-commercial-contractors-in-tampa/' },
-  title: "Top Commercial Contractors in Tampa Bay | FCS",
+  title: "Top Commercial Contractors in Tampa Bay",
   description: "Find top-rated commercial contractors in Tampa Bay. Learn what sets elite contractors apart—local permitting expertise, strong safety records, and high repeat client rates.",
   openGraph: {
     title: "Top Commercial Contractors Tampa 2024 | Guide",
@@ -44,7 +44,7 @@ const whatMakesTopContractor = [
   {
     icon: Shield,
     title: "Proper Credentials",
-    description: "State CGC license, adequate insurance ($1M+ liability), bonding capacity, and safety certifications are non-negotiable for top-tier contractors.",
+    description: "State contractor license (CGC or CBC), adequate insurance ($1M+ liability), bonding capacity, and safety certifications are non-negotiable for top-tier contractors.",
   },
   {
     icon: Users,
@@ -81,7 +81,7 @@ const evaluationCriteria = [
   {
     category: "Credentials & Compliance",
     criteria: [
-      "Valid Florida CGC license (verify at myfloridalicense.com)",
+      "Valid Florida CGC or CBC license (verify at myfloridalicense.com)",
       "General liability insurance ($1M minimum for commercial)",
       "Workers' compensation coverage",
       "Bonding capacity appropriate for project size",

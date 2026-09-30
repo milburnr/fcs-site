@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-loans-in-tampa/' },
   title: "Commercial Construction Loans in Tampa",
@@ -518,6 +519,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/commercial-construction-loans-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Discuss Your Commercial Construction Project?" />
     </>
   );

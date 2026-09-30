@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Why does FCS being headquartered in Ruskin matter for our condo remediation project?",
-    answer: "Our Ruskin headquarters at 822 Bayview Dr means your condo association gets faster response times than any other licensed general contractor in the region. We can have an engineer on-site within 24 to 48 hours for urgent situations. Our proximity means lower mobilization costs, consistent superintendent oversight with daily site visits, and genuine accountability as your neighbors. For Sun City Center associations, we are literally minutes away. This local presence translates to smoother projects, faster issue resolution, and a contractor genuinely invested in the community."
+    answer: "Our Ruskin headquarters at 822 Bayview Dr means your condo association gets faster response times than any other state-licensed building contractor in the region. We can have an engineer on-site within 24 to 48 hours for urgent situations. Our proximity means lower mobilization costs, consistent superintendent oversight with daily site visits, and genuine accountability as your neighbors. For Sun City Center associations, we are literally minutes away. This local presence translates to smoother projects, faster issue resolution, and a contractor genuinely invested in the community."
   },
   {
     question: "What structural issues are most common in South Hillsborough condominiums?",
@@ -144,7 +144,7 @@ export default function CondoRemediationRuskinPage() {
                 Apollo Beach adds a coastal dimension to South Hillsborough's condo remediation needs. Waterfront properties within three miles of Tampa Bay face the stricter 25-year inspection threshold and accelerated deterioration from salt air exposure. Properties in Bahia Beach, Little Harbor, and along the Apollo Beach waterfront often discover more extensive structural damage during inspections due to the marine environment's aggressive effect on concrete and reinforcing steel.
               </p>
               <p>
-                Florida Construction Specialists is headquartered at 822 Bayview Dr in Ruskin, making us the closest licensed general contractor to both Sun City Center and Apollo Beach. All condo remediation permitting goes through <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a>, and our long-standing relationships with county inspectors help keep compliance projects moving efficiently through the approval process.
+                Florida Construction Specialists is headquartered at 822 Bayview Dr in Ruskin, making us the closest state-licensed building contractor to both Sun City Center and Apollo Beach. All condo remediation permitting goes through <a href="https://www.hillsboroughcounty.org/en/residents/property-owners-and-renters/building-and-renovations/permits-and-inspections" target="_blank" rel="noopener noreferrer" className="text-brand-green hover:underline">Hillsborough County Building Services</a>, and our long-standing relationships with county inspectors help keep compliance projects moving efficiently through the approval process.
               </p>
             </div>
           </div>

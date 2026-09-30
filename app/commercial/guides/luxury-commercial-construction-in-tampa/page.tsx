@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/luxury-commercial-construction-in-tampa/' },
   title: "Luxury Commercial Construction in Tampa",
@@ -66,7 +67,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Looking for luxury commercial construction in Tampa? Our high-end commercial development services offer premium building solutions for upscale constru
+            High-end commercial construction in Tampa for upscale retail, hospitality, and office projects.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -397,6 +398,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/luxury-commercial-construction-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

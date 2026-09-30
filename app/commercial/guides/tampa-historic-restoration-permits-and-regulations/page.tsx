@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampa-historic-restoration-permits-and-regulations/' },
   title: "Tampa Historic Restoration Permits and Regulations",
@@ -137,7 +138,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             
             <p className="text-gray-600 mb-6">
-              Historic restoration projects in Tampa navigate multiple regulatory frameworks that must be coordinated for successful project completion. Local historic preservation review, standard building permits, and—for projects seeking tax credits—state and federal preservation review all impose requirements that affect project design, documentation, and timeline.
+              Historic restoration projects in Tampa navigate multiple regulatory frameworks that must be coordinated for successful project completion. Local historic preservation review, standard building permits, and—for projects seeking tax credits—state and federal preservation review all impose requirements that affect project design, documentation, and timeline. If your project is not in a historic district, our overview of <Link href="/resources/tampa-building-permits-tampa/" className="text-brand-green font-semibold hover:underline">Tampa building permits</Link> covers the standard process.
             </p>
 
             <p className="text-gray-600 mb-6">
@@ -328,6 +329,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/tampa-historic-restoration-permits-and-regulations/" />
 
       
 

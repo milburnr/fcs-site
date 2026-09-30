@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/hurricane-damage-repair-services-in-tampa/' },
   title: "Hurricane Damage Repair in Tampa | Insurance Restoration",
@@ -67,7 +68,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Looking Hurricane Damage Repair Services in Tampa? Our team specializes in hurricane restoration and storm damage repair. Get fast, reliable property
+            Hurricane damage repair in Tampa, from emergency stabilization through the full storm damage rebuild.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -397,6 +398,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/insurance/guides/hurricane-damage-repair-services-in-tampa/" />
 <GuideCTA silo="insurance" />
 </>
   );

@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/is-your-commercial-building-remodel-ready/' },
   title: "Is Your Building Remodel Ready? | Tampa",
@@ -334,7 +335,7 @@ export default function Page() {
                 "Utility capacity hasn't been evaluated",
                 "No business continuity plan for occupied buildings",
                 "Unrealistic timeline expectations",
-                "Haven't consulted with licensed general contractor"
+                "Haven't consulted with a licensed contractor"
               ].map((warning, index) => (
                 <div key={index} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
                   <AlertTriangle className="w-5 h-5 text-yellow-500 shrink-0 mt-0.5" />
@@ -367,6 +368,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/is-your-commercial-building-remodel-ready/" />
 
       
 

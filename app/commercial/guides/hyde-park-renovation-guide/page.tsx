@@ -26,6 +26,7 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/hyde-park-renovation-guide/' },
   title: "Hyde Park Renovation Guide Tampa | ARC",
@@ -611,6 +612,7 @@ export default function HydeParkRenovationGuidePage() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/hyde-park-renovation-guide/" />
 
       
       {/* Internal Links */}

@@ -28,14 +28,15 @@ import {
 import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/breakaway-wall-construction-requirements/' },
-  title: "Breakaway Wall Construction Tampa Bay",
+  title: "Breakaway Wall Requirements: FEMA & ASCE 24 Guide | FCS",
   description:
-    "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC.",
+    "Breakaway walls below elevated buildings in V zones must be designed to fail at 10 to 20 psf under FEMA and ASCE 24. Design types, certification, and Florida flood-zone rules.",
   openGraph: {
     title: "Breakaway Wall Construction Tampa Bay",
-    description: "Breakaway Wall Construction: complete guide to breakaway wall construction requirements. Professional guidance from FCS, licensed CBC.",
+    description: "Breakaway walls below elevated buildings in V zones must be designed to fail at 10 to 20 psf under FEMA and ASCE 24. Design types, certification, and Florida flood-zone rules.",
     url: "https://floridaconstructionspecialists.com/insurance/guides/breakaway-wall-construction-requirements/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -689,6 +690,7 @@ export default function BreakawayWallConstructionRequirementsPage() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/breakaway-wall-construction-requirements/" />
 
       
       {/* Internal Links */}

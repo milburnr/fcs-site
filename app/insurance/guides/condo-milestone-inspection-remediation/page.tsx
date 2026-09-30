@@ -10,6 +10,7 @@ import type { Metadata } from "next";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/condo-milestone-inspection-remediation/' },
   title: "Florida Condo Milestone Inspection Remediation Guide",
@@ -253,7 +254,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
-                  <span><strong>Contractor engagement:</strong> Signed contract with a licensed general contractor</span>
+                  <span><strong>Contractor engagement:</strong> Signed contract with a state-licensed contractor</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="w-5 h-5 text-brand-green mt-0.5 flex-shrink-0" />
@@ -435,7 +436,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
               <div className="space-y-4">
                 {[
                   {
-                    title: "Florida General Contractor License",
+                    title: "Florida Contractor License (CGC or CBC)",
                     desc: "Verify active CGC or CBC license through DBPR. Don't accept unlicensed 'specialty' contractors for structural work.",
                   },
                   {
@@ -706,6 +707,7 @@ export default function CondoMilestoneInspectionRemediationPage() {
       />
 
       {/* CTA */}
+            <MoreGuides current="/insurance/guides/condo-milestone-inspection-remediation/" />
             <GuideCTA silo="insurance" heading="Your 365-Day Clock Is Ticking. Let's Get Started." />
     </>
   );

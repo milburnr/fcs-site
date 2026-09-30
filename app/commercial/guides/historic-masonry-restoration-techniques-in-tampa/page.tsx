@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/' },
   title: "Historic Masonry Restoration Techniques in Tampa",
@@ -632,6 +633,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/historic-masonry-restoration-techniques-in-tampa/" />
             <GuideCTA silo="commercial" />
     </>
   );

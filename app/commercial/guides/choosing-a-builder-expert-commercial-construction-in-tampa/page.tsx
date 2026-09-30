@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/' },
   title: "Choosing a Commercial Builder in Tampa | Expert Guide",
@@ -104,7 +105,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Licensing and Credentials</h3>
               <p className="text-gray-600 mb-6">
-                Proper licensing is non-negotiable when choosing a commercial builder in Tampa. Verify that your potential contractor holds a current Florida General Contractor License (Florida Construction Specialists License #CBC1262722), carries comprehensive insurance coverage, and maintains bonding capacity appropriate for your project size. Additionally, look for certifications from industry organizations, LEED accreditation for sustainable construction, and specialized credentials relevant to your project type.
+                Proper licensing is non-negotiable when choosing a commercial builder in Tampa. Verify that your potential contractor holds a current Florida contractor license (Florida Construction Specialists holds Certified Building Contractor License #CBC1262722), carries comprehensive insurance coverage, and maintains bonding capacity appropriate for your project size. Additionally, look for certifications from industry organizations, LEED accreditation for sustainable construction, and specialized credentials relevant to your project type.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Local Market Knowledge</h3>
@@ -611,6 +612,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/choosing-a-builder-expert-commercial-construction-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

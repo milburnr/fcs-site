@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/lakeland-fl/' },
-  title: "Lakeland Commercial Restoration | $500K-$25M+",
-  description: "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+  title: "Commercial Reconstruction & Restoration in Lakeland, FL",
+  description: "Commercial reconstruction and restoration services in Lakeland, FL: storm and fire rebuilds, insurance restoration, and renovations from $500K to $25M+. Call for a free consultation today.",
   openGraph: {
-    title: "Lakeland Commercial Restoration | $500K-$25M+",
-    description: "Licensed construction contractor serving Lakeland, FL. Commercial, residential, and insurance restoration services. Call for a free consultation today.",
+    title: "Commercial Reconstruction & Restoration in Lakeland, FL",
+    description: "Commercial reconstruction and restoration services in Lakeland, FL: storm and fire rebuilds, insurance restoration, and renovations from $500K to $25M+. Call for a free consultation today.",
     url: "https://floridaconstructionspecialists.com/locations/lakeland-fl/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     question: "Are you licensed to work in Lakeland?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License CBC1262722 with comprehensive insurance coverage. We are licensed to work throughout the state including Lakeland and all Tampa Bay communities."
+    answer: "Yes, Florida Construction Specialists holds Florida Certified Building Contractor License CBC1262722 with comprehensive insurance coverage. We are licensed to work throughout the state including Lakeland and all Tampa Bay communities."
   },
   {
     question: "What is your typical project size in Lakeland?",
@@ -124,7 +124,7 @@ export default function LakelandPage() {
               <span className="text-amber-300 font-semibold">Serving Lakeland, Florida</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Lakeland Commercial & Insurance Restoration Contractor
+              Commercial Reconstruction & Restoration Contractor in Lakeland
             </h1>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl">
               Growing central Florida city strategically located between Tampa and Orlando. Florida Construction Specialists has served Lakeland since 1982, delivering large-scale commercial and residential construction throughout Polk County.
@@ -180,9 +180,17 @@ export default function LakelandPage() {
                 Florida Construction Specialists is a premier general contractor serving Lakeland with
                 large-scale <Link href="/commercial/" className="text-blue-600 hover:underline">commercial construction</Link>,
                 multi-family residential, <Link href="/insurance/" className="text-blue-600 hover:underline">disaster recovery</Link>,
-                <Link href="/services/historic-restoration/" className="text-blue-600 hover:underline">historic restoration</Link>,
+                {" "}<Link href="/services/historic-restoration/" className="text-blue-600 hover:underline">historic restoration</Link>,
                 and luxury custom home building. As a prime contractor, we maintain full project control
                 and direct accountability on every Lakeland project.
+              </p>
+              <p className="mb-4">
+                Much of our Lakeland work is commercial reconstruction: bringing a damaged or outdated building
+                back into service. That covers storm, fire, and water losses, where we handle{" "}
+                <Link href="/insurance/guides/commercial-property-damage-restoration-in-tampa/" className="text-blue-600 hover:underline">commercial property damage restoration</Link>{" "}
+                from assessment through the insurance scope, and planned{" "}
+                <Link href="/commercial-renovation-and-reconstruction/" className="text-blue-600 hover:underline">commercial renovation and reconstruction</Link>{" "}
+                where the structure, envelope, and systems are rebuilt while the property keeps operating.
               </p>
               <p className="mb-4">
                 Lakeland sits at the heart of Central Florida, positioned strategically between Tampa and Orlando

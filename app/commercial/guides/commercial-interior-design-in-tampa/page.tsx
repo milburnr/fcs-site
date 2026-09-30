@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-interior-design-in-tampa/' },
   title: "Commercial Interior Design Tampa | Office",
@@ -450,6 +451,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/commercial-interior-design-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Transform Your Commercial Space?" />
     </>
   );

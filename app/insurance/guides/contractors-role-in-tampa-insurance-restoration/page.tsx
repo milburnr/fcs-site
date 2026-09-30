@@ -10,6 +10,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/contractors-role-in-tampa-insurance-restoration/' },
   title: "Contractor's Role in Tampa Insurance Restoration",
@@ -569,6 +570,7 @@ export default function Page() {
       />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/contractors-role-in-tampa-insurance-restoration/" />
 
       
       

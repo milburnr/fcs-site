@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/' },
   title: "Energy Efficiency in Historic Restoration in Tampa",
@@ -498,6 +499,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/energy-efficiency-in-historic-restoration-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Restore Your Historic Building?" />
     </>
   );

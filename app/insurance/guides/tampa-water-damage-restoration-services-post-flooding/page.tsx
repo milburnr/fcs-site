@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-water-damage-restoration-services-post-flooding/' },
   title: "Tampa Water Damage Restoration Services Post-Flooding",
@@ -89,7 +90,7 @@ export default function Page() {
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">Tampa Water Damage Restoration Services Post-Flooding</h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Get expert Water Extraction Services offer immediate flood damage cleanup and emergency water damage restoration inTampa to bring your property back t
+            Water extraction, flood cleanup, and water damage restoration in Tampa to get your property back to normal.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -412,6 +413,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/tampa-water-damage-restoration-services-post-flooding/" />
 
       
 

@@ -28,6 +28,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { RelatedArticles } from "@/components/RelatedArticles";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/flood-zone-ve-vs-ae-guide/' },
   title: "Flood Zone VE vs AE: Guide for Tampa Bay Homeowners",
@@ -639,6 +640,7 @@ export default function FloodZoneVEvsAEGuidePage() {
             <GuideCTA silo="insurance" heading="Planning a Waterfront Home in Tampa Bay?" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/insurance/guides/flood-zone-ve-vs-ae-guide/" />
 
       
       {/* Internal Links */}

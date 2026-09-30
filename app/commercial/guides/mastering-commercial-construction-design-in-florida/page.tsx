@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/mastering-commercial-construction-design-in-florida/' },
-  title: "Mastering Commercial Construction Design in Florida",
-  description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists.",
+  title: "Commercial Building Design in Florida: A Practical Guide",
+  description: "How commercial building design works in Florida: climate-responsive design, wind and energy code, mechanical systems, and keeping the design on budget.",
   openGraph: {
-    title: "Mastering Commercial Construction Design in Florida",
-    description: "Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists.",
+    title: "Commercial Building Design in Florida: A Practical Guide",
+    description: "How commercial building design works in Florida: climate-responsive design, wind and energy code, mechanical systems, and keeping the design on budget.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/mastering-commercial-construction-design-in-florida/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -88,7 +89,7 @@ export default function Page() {
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
-        headline="Mastering Commercial Construction Design in Florida"
+        headline="Commercial Building Design in Florida: A Practical Guide"
         description="Learn the ins and outs of architectural design, commercial building design, and commercial. Expert insights from Florida Construction Specialists. Read more."
         datePublished="2024-01-01"
         slug="/commercial/guides/mastering-commercial-construction-design-in-florida/"
@@ -108,7 +109,7 @@ export default function Page() {
         </div>
         <div className="container-custom text-center text-white relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Mastering Commercial Construction Design in Florida
+            Commercial Building Design in Florida: Mastering the Process
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
@@ -488,6 +489,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/mastering-commercial-construction-design-in-florida/" />
 
       
 

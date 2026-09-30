@@ -9,9 +9,10 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-home-landscaping-solutions/' },
-  title: "Tampa Custom Home Landscaping Solutions | FCS",
+  title: "Tampa Custom Home Landscaping Solutions",
   description: "Create stunning custom home landscapes in Tampa. Expert design and installation from Florida Construction Specialists, licensed CBC contractor.",
   openGraph: {
     title: "Tampa Custom Home Landscaping | Luxury Outdoor",
@@ -437,6 +438,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/residential/guides/tampa-custom-home-landscaping-solutions/" />
 
       
 

@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
   openGraph: {
     title: "SB4-D Compliance Tampa | Condo Milestone",
-    description: "Sb4-d Compliance Condo Milestone across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    description: "SB 4-D condo remediation in Tampa Bay: milestone inspection repairs, SIRS planning, concrete and balcony restoration, and work that keeps residents in place. Licensed CBC.",
     url: "https://floridaconstructionspecialists.com/commercial/condo-remediation/",
     type: "website",
     siteName: "Florida Construction Specialists",

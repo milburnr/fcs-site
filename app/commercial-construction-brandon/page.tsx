@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-brandon/' },
-  title: "Commercial Construction Services Brandon FL | FCS",
+  title: "Commercial Construction Services Brandon FL",
   description: "Commercial construction in Brandon FL by Florida Construction Specialists. SR 60 corridor retail, office buildings, distribution centers near I-75.",
   openGraph: {
     title: "Commercial Construction Brandon | Retail",

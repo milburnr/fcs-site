@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/custom-commercial-construction-solutions-in-tampa/' },
   title: "Custom Commercial Construction Solutions in Tampa",
@@ -89,7 +90,9 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             
               <p className="text-gray-600 mb-6">
-                Every business has unique operational requirements that demand customized commercial construction solutions rather than one-size-fits-all approaches. In Tampa's diverse business landscape, from high-tech startups in downtown corridors to specialized manufacturing facilities in industrial parks, success depends on construction partners who understand that custom solutions drive competitive advantage. Florida Construction Specialists has spent 43 years developing the expertise and flexibility to deliver truly custom commercial construction solutions for Tampa's most demanding business requirements.
+                Every business has unique operational requirements that demand customized commercial construction solutions rather than one-size-fits-all approaches. In Tampa's diverse business landscape, from high-tech startups in downtown corridors to specialized manufacturing facilities in industrial parks, success depends on construction partners who understand that custom solutions drive competitive advantage. Florida Construction Specialists has spent 43 years developing the expertise and flexibility to deliver truly custom commercial construction solutions for Tampa's most demanding business requirements. This guide covers custom builds; for the full range of our{" "}
+                <Link href="/commercial/" className="text-brand-green font-semibold hover:underline">commercial construction services in Tampa Bay</Link>, and what to look for in{" "}
+                <Link href="/commercial/guides/the-preferred-commercial-general-contractors-in-tampa/" className="text-brand-green font-semibold hover:underline">commercial general contractors in Tampa</Link>, see those pages.
               </p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -608,6 +611,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/custom-commercial-construction-solutions-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/ultimate-waterproofing-guide-foundations/' },
   title: "Foundation Waterproofing Guide | Commercial Tampa",
@@ -611,6 +612,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/ultimate-waterproofing-guide-foundations/" />
 
       
 

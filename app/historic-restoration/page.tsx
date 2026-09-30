@@ -14,11 +14,11 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/historic-restoration/' },
-  title: "Historic Restoration & Preservation",
-  description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO.",
+  title: "Historic Restoration & Preservation Across Tampa Bay",
+  description: "Historic restoration and preservation across Tampa Bay, from St. Petersburg and Clearwater to Sarasota and Lakeland. Modern code compliance and SHPO coordination.",
   openGraph: {
-    title: "Historic Restoration & Preservation",
-    description: "Expert historic restoration and preservation services. We restore Tampa Bay's architectural heritage while meeting modern building codes and SHPO.",
+    title: "Historic Restoration & Preservation Across Tampa Bay",
+    description: "Historic restoration and preservation across Tampa Bay, from St. Petersburg and Clearwater to Sarasota and Lakeland. Modern code compliance and SHPO coordination.",
     url: "https://floridaconstructionspecialists.com/historic-restoration/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -167,7 +167,9 @@ export default function HistoricRestorationPage() {
               <p className="text-gray-600 mb-6">
                 Since 1982, Florida Construction Specialists has delivered comprehensive historic restoration services
                 throughout the Tampa Bay region. With our CBC-licensed team (License {BUSINESS_INFO.licenseNumber}) and in-house engineering capabilities, we maintain full project
-                control and accountability from pre-construction through final completion.
+                control and accountability from pre-construction through final completion. For our full program in
+                the city itself (SHPO compliance, Secretary of the Interior Standards, and Ybor City and Hyde Park work), see{" "}
+                <Link href="/commercial/historic-restoration/" className="text-brand-green font-semibold hover:underline">historic restoration in Tampa</Link>.
               </p>
               <p className="text-gray-600 mb-6">
                 Our experienced team has completed over $25 million in projects, bringing the expertise

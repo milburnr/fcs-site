@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/the-preconstruction-modern-approach-design/' },
   title: "The Preconstruction Modern Approach Design",
-  description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in ${region}. Call (813) 420-7561 for a quote.",
+  description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in Tampa Bay. Call (813) 420-7561 for a quote.",
   openGraph: {
     title: "The Preconstruction Modern Approach Design",
-    description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in ${region}. Call (813) 420-7561 for a quote.",
+    description: "Revolutionize your commercial construction with modern preconstruction services. From FCS, your licensed CBC in Tampa Bay. Call (813) 420-7561 for a quote.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/the-preconstruction-modern-approach-design/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -503,6 +504,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/the-preconstruction-modern-approach-design/" />
 
       
 

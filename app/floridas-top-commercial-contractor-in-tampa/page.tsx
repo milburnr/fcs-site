@@ -11,10 +11,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/floridas-top-commercial-contractor-in-tampa/' },
   title: "Florida's Top Commercial Contractor in Tampa",
-  description: "Discover why Florida Construction Specialists is recognized as Florida's top commercial contractor in Tampa.",
+  description: "Commercial contractor in Tampa for $500K to $25M+ projects. Always the prime contractor, with in-house engineering, serving Hillsborough County since 1982. Call for a bid.",
   openGraph: {
     title: "Florida's Top Commercial Contractor in Tampa",
-    description: "Discover why Florida Construction Specialists is recognized as Florida's top commercial contractor in Tampa.",
+    description: "Commercial contractor in Tampa for $500K to $25M+ projects. Always the prime contractor, with in-house engineering, serving Hillsborough County since 1982. Call for a bid.",
     url: "https://floridaconstructionspecialists.com/floridas-top-commercial-contractor-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",

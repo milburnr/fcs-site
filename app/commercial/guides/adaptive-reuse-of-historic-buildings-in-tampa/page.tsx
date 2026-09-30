@@ -8,9 +8,10 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/' },
-  title: "Adaptive Reuse of Historic Buildings in Tampa | FCS",
+  title: "Adaptive Reuse of Historic Buildings in Tampa",
   description: "FCS specializes in Tampa historic building adaptive reuse — assessments, 20% federal tax credits, and Certificate of Appropriateness approvals.",
   openGraph: {
     title: "Adaptive Reuse Historic Buildings Tampa",
@@ -642,6 +643,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/adaptive-reuse-of-historic-buildings-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

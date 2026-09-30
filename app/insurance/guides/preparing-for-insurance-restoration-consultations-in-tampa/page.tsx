@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/' },
   title: "Insurance Restoration Consultations Tampa | Guide",
@@ -441,6 +442,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/preparing-for-insurance-restoration-consultations-in-tampa/" />
             <GuideCTA silo="insurance" />
     </>
   );

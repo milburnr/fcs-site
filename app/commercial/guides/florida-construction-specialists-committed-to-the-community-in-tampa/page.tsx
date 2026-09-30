@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/' },
   title: "Florida Construction Specialists: Committed to Tampa",
@@ -357,6 +358,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/commercial/guides/florida-construction-specialists-committed-to-the-community-in-tampa/" />
             <GuideCTA silo="commercial" heading="Building Community, One Project at a Time" />
     </>
   );

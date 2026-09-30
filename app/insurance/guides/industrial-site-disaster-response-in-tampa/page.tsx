@@ -14,6 +14,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-site-disaster-response-in-tampa/' },
   title: "Industrial Disaster Response Tampa | Emergency",
@@ -592,6 +593,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/insurance/guides/industrial-site-disaster-response-in-tampa/" />
             <GuideCTA silo="insurance" heading="Need storm response Now?" />
     </>
   );

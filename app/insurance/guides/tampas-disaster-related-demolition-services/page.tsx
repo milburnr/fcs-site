@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampas-disaster-related-demolition-services/' },
   title: "Tampa Disaster Demolition Services | Emergency Response",
@@ -420,6 +421,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/tampas-disaster-related-demolition-services/" />
             <GuideCTA silo="insurance" heading="Tampa Bay's Trusted Disaster Demolition Contractor" />
     </>
   );

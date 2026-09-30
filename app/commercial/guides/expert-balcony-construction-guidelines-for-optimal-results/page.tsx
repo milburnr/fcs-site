@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/' },
   title: "Balcony Construction Guidelines Tampa | High-Rise",
@@ -167,7 +168,7 @@ export default function Page() {
              Florida Construction Specialists brings over four decades of commercial construction expertise to every project, backed by CBC license CBC1262722 and an in-house engineering team.</p>
 
             <p className="text-gray-600 mb-6">
-              Following the implementation of Florida's SB 4-D legislation, balcony construction practices have evolved to emphasize durability, maintainability, and inspectability. Modern balcony designs anticipate the milestone inspections that will occur throughout the building's life, incorporating details that facilitate visual assessment and non-destructive testing of structural elements. This forward-thinking approach protects building owners from costly surprises during required inspections.
+              Following the implementation of Florida's SB 4-D legislation, balcony construction practices have evolved to emphasize durability, maintainability, and inspectability. Modern balcony designs anticipate the milestone inspections that will occur throughout the building's life, incorporating details that facilitate visual assessment and non-destructive testing of structural elements. This forward-thinking approach protects building owners from costly surprises during required inspections. Our guide to <Link href="/commercial/guides/condo-balcony-inspection-requirements/" className="text-brand-green font-semibold hover:underline">Florida condo balcony inspection requirements</Link> explains when those inspections happen and what they cover.
             </p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
@@ -486,6 +487,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/expert-balcony-construction-guidelines-for-optimal-results/" />
 
       
 

@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
   openGraph: {
     title: "Historic Restoration Tampa | SHPO Compliance",
-    description: "Historic Restoration Shpo Compliance across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    description: "Historic restoration in Tampa: SHPO coordination, Secretary of the Interior Standards, and code upgrades for Ybor City, Hyde Park, and other historic buildings. Licensed CBC since 1982.",
     url: "https://floridaconstructionspecialists.com/commercial/historic-restoration/",
     type: "website",
     siteName: "Florida Construction Specialists",

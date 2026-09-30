@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/benefits-of-design-build-construction-for-commercial-project/' },
   title: "Design-Build Benefits for Commercial Tampa",
-  description: "Discover design-build benefits for commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+  description: "How design-build works for commercial projects in Tampa: one contract, one accountable team, and when it beats design-bid-build. From FCS, licensed CBC since 1982.",
   openGraph: {
     title: "Design-Build Benefits for Commercial Tampa",
-    description: "Discover design-build benefits for commercial with Florida Construction Specialists. Licensed CBC, 40+ years of expertise. Call (813) 420-7561 for a quote.",
+    description: "How design-build works for commercial projects in Tampa: one contract, one accountable team, and when it beats design-bid-build. From FCS, licensed CBC since 1982.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/benefits-of-design-build-construction-for-commercial-project/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -639,6 +640,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/benefits-of-design-build-construction-for-commercial-project/" />
 
       
 

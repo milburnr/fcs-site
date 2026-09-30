@@ -9,13 +9,14 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-accessibility-features-in-tampa/' },
   title: "Custom Home Accessibility Tampa | Universal Design",
-  description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years.",
+  description: "Accessibility and universal design for Tampa custom homes: single-level living, elevators and lifts, accessible baths and kitchens, and a planning checklist. CBC1262722.",
   openGraph: {
     title: "Custom Home Accessibility Tampa | Universal Design",
-    description: "Custom Home Accessibility Universal Design in Tampa: design-build, pre-construction, and project management. CBC1262722, 40+ years.",
+    description: "Accessibility and universal design for Tampa custom homes: single-level living, elevators and lifts, accessible baths and kitchens, and a planning checklist. CBC1262722.",
     url: "https://floridaconstructionspecialists.com/residential/guides/custom-home-accessibility-features-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -597,6 +598,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/custom-home-accessibility-features-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Build an Accessible Custom Home?" />
     </>
   );

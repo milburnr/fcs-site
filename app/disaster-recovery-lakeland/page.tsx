@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/disaster-recovery-lakeland/' },
-  title: "Disaster Recovery Contractor Lakeland FL | FCS",
+  title: "Disaster Recovery Contractor Lakeland FL",
   description: "Florida Construction Specialists handles disaster recovery construction in Lakeland — tornado, storm, fire, and lightning damage. Emergency permitting, code-compliant rebuilds.",
   openGraph: {
     title: "Disaster Recovery Lakeland | Tornado",

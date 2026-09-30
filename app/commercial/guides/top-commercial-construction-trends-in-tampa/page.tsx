@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/top-commercial-construction-trends-in-tampa/' },
   title: "Top Commercial Construction Trends in Tampa",
@@ -66,7 +67,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Stay ahead with Florida Construction Specialists - your expert source for the latest commercial construction trends in Tampa.Keep your projects on poi
+            The commercial construction trends shaping Tampa projects, and what they mean for your schedule and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -537,6 +538,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/top-commercial-construction-trends-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tips-for-commercial-renovation-in-florida/' },
   title: "Commercial Renovation Tips Florida | Tampa",
@@ -87,7 +88,7 @@ const essentialTips = [
   {
     number: "04",
     title: "Verify Contractor Licensing",
-    content: "Florida requires specific licenses for different work types. General contractors need CGC licenses; specialty contractors need specific trade licenses. Verify licenses through MyFloridaLicense.com and confirm adequate insurance coverage."
+    content: "Florida requires specific licenses for different work types. General and building contractors need CGC or CBC licenses; specialty contractors need specific trade licenses. Verify licenses through MyFloridaLicense.com and confirm adequate insurance coverage."
   },
   {
     number: "05",
@@ -602,6 +603,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/tips-for-commercial-renovation-in-florida/" />
 
       
 

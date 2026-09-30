@@ -9,6 +9,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/custom-home-interior-design-services-in-tampa/' },
   title: "Custom Home Interior Design Tampa | Luxury",
@@ -593,6 +594,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/custom-home-interior-design-services-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Design Your Dream Interior?" />
     </>
   );

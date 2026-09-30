@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
   openGraph: {
     title: "Industrial Construction Tampa | Tilt-Wall",
-    description: "Industrial Construction Tilt-wall across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    description: "Industrial construction in Tampa Bay: tilt-wall and steel buildings, warehouses, and site development. Prime contractor with in-house engineering, licensed CBC since 1982.",
     url: "https://floridaconstructionspecialists.com/commercial/industrial-construction/",
     type: "website",
     siteName: "Florida Construction Specialists",

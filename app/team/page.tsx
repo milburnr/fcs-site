@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     "Our Team Leadership & Expertise across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
   openGraph: {
     title: "Our Team | Leadership & Expertise",
-    description: "Our Team Leadership & Expertise across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    description: "Meet the Florida Construction Specialists team: 40+ years of construction and insurance restoration experience across Tampa Bay, led from our Ruskin headquarters.",
     url: "https://floridaconstructionspecialists.com/team/",
     type: "website",
     siteName: "Florida Construction Specialists",

@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historical-commercial-construction-in-tampa/' },
   title: "Tampa Historic Commercial Construction | Preservation Experts",
@@ -594,6 +595,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/commercial/guides/historical-commercial-construction-in-tampa/" />
 <GuideCTA silo="commercial" />
 </>
   );

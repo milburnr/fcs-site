@@ -10,7 +10,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-pinellas-county/' },
-  title: "Commercial Contractor Pinellas County, FL | FCS",
+  title: "Commercial Contractor Pinellas County, FL",
   description: "Commercial contractor and construction across Pinellas County — St. Petersburg, Clearwater, Largo, Dunedin, and the beaches. Coastal code, SB4-D, and permitting expertise. Certified Building Contractor CBC1262722.",
   openGraph: {
     title: "Commercial Contractor Pinellas County | FCS",

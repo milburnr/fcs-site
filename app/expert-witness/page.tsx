@@ -305,7 +305,7 @@ export default function ExpertWitnessPage() {
             <div className="prose prose-lg max-w-none text-gray-700">
               <h3 className="text-xl font-bold text-gray-900 mb-4">Industry Certifications & Licenses</h3>
               <p className="mb-6">
-                Florida Construction Specialists maintains current licensing and certifications essential for credible expert witness testimony. Our General Contractor license {BUSINESS_INFO.licenseNumber} demonstrates ongoing compliance with state construction industry requirements. We maintain required continuing education to stay current with evolving building codes, construction techniques, and industry standards.
+                Florida Construction Specialists maintains current licensing and certifications essential for credible expert witness testimony. Our Certified Building Contractor license {BUSINESS_INFO.licenseNumber} demonstrates ongoing compliance with state construction industry requirements. We maintain required continuing education to stay current with evolving building codes, construction techniques, and industry standards.
               </p>
               <p className="mb-6">
                 Frank Bragano's insurance industry credentials include extensive training in Commercial Property adjusting, catastrophic loss handling, and coverage interpretation. His experience includes handling claims under standard commercial policies, specialty coverage forms, and complex multi-location claims. This background provides essential understanding of how insurance disputes develop and how claims are evaluated from a carrier perspective.

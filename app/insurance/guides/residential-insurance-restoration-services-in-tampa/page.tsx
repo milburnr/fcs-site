@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/residential-insurance-restoration-services-in-tampa/' },
   title: "Residential Insurance Restoration Tampa | Homes",
@@ -396,6 +397,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/residential-insurance-restoration-services-in-tampa/" />
             <GuideCTA silo="insurance" heading="Restore Your Home with Confidence" />
     </>
   );

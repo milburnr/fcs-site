@@ -10,7 +10,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial-construction-hillsborough-county/' },
-  title: "Commercial Contractor Hillsborough County, FL | FCS",
+  title: "Commercial Contractor Hillsborough County, FL",
   description: "Commercial contractor and construction across Hillsborough County — Tampa, Brandon, Riverview, Plant City, and Ruskin. Industrial, medical, retail, and office. Certified Building Contractor CBC1262722, based in Ruskin.",
   openGraph: {
     title: "Commercial Contractor Hillsborough County | FCS",

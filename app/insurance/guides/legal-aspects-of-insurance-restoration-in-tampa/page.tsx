@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/' },
   title: "Legal Aspects of Insurance Restoration in Tampa",
@@ -396,6 +397,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/insurance/guides/legal-aspects-of-insurance-restoration-in-tampa/" />
 <GuideCTA silo="insurance" heading="Questions About Your Insurance Restoration Project?" />
 </>
   );

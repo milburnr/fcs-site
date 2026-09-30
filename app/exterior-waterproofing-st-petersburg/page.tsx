@@ -12,7 +12,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing-st-petersburg/' },
-  title: "Exterior Waterproofing in St. Petersburg, FL | FCS",
+  title: "Exterior Waterproofing in St. Petersburg, FL",
   description: "Florida Construction Specialists handles exterior waterproofing in St. Petersburg — building envelope, foundation, and parking deck. Fully permitted, Florida Building Code compliant.",
   openGraph: {
     title: "Exterior Waterproofing St. Pete",

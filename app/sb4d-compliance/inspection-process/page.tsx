@@ -506,7 +506,7 @@ export default function SB4DInspectionProcessPage() {
                 {
                   icon: Building2,
                   title: "Remediation Construction Management",
-                  description: "As the licensed general contractor, FCS manages all aspects of the remediation construction. We coordinate subcontractors, manage materials, maintain quality control, ensure safety compliance, and keep the project on schedule. We work alongside the inspection engineers throughout construction so they can verify that repairs are executed according to their specifications.",
+                  description: "As the licensed building contractor, FCS manages all aspects of the remediation construction. We coordinate subcontractors, manage materials, maintain quality control, ensure safety compliance, and keep the project on schedule. We work alongside the inspection engineers throughout construction so they can verify that repairs are executed according to their specifications.",
                 },
                 {
                   icon: FileCheck,

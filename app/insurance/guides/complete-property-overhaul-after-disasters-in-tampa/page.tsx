@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/' },
   title: "Complete Property Overhaul After Disasters Tampa",
@@ -467,6 +468,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/complete-property-overhaul-after-disasters-in-tampa/" />
             <GuideCTA silo="insurance" heading="Tampa Bay Complete Property Overhaul Specialists" />
     </>
   );

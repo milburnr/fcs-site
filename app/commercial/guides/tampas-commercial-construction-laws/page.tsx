@@ -9,6 +9,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-commercial-construction-laws/' },
   title: "Tampa&apos;s Commercial Construction Laws",
@@ -90,7 +91,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Understand Tampa&apos;s Commercial Construction Laws, regulations, and building codes. Ensure your project meets all Tampa construction guidelines for safe
+            Tampa&apos;s commercial construction laws, regulations, and building codes, and what they mean for your project.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -265,7 +266,7 @@ export default function Page() {
 
               <div className="bg-gray-50 p-6 rounded-lg mb-6">
                 <ul className="text-gray-600 space-y-3">
-                  <li><strong>State General Contractor License:</strong> Required for all commercial construction projects over $25,000</li>
+                  <li><strong>State Contractor License (CGC or CBC):</strong> Required for all commercial construction projects over $25,000</li>
                   <li><strong>City of Tampa Business License:</strong> Annual licensing requirement for all contractors operating within city limits</li>
                   <li><strong>Specialty Trade Licenses:</strong> Electrical, plumbing, and HVAC contractors must maintain separate certifications</li>
                   <li><strong>Workers' Compensation Insurance:</strong> Mandatory coverage for all employees and subcontractors</li>
@@ -458,6 +459,7 @@ export default function Page() {
       {/* CTA */}
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/tampas-commercial-construction-laws/" />
 
       
 

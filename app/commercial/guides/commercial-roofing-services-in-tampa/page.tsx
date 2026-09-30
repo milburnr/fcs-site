@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-roofing-services-in-tampa/' },
   title: "Commercial Roofing Services Tampa | Expert",
@@ -419,6 +420,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/commercial/guides/commercial-roofing-services-in-tampa/" />
             <GuideCTA silo="commercial" heading="Tampa Bay's Trusted Commercial Roofing Contractor" />
     </>
   );

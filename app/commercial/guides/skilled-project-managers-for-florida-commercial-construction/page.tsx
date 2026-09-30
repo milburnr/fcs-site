@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/skilled-project-managers-for-florida-commercial-construction/' },
   title: "Skilled Project Managers in Commercial Construction",
-  description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}.",
+  description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in Tampa Bay.",
   openGraph: {
     title: "Skilled Project Managers in Commercial Construction",
-    description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}.",
+    description: "Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in Tampa Bay.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/skilled-project-managers-for-florida-commercial-construction/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -89,7 +90,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Skilled Project Managers in Commercial Construction Florida"
-        description="Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in ${region}. Contact our team today."
+        description="Looking for experienced project managers for your commercial construction projects in Florida. From FCS, your licensed CBC in Tampa Bay. Contact our team today."
         datePublished="2024-01-01"
         slug="/commercial/guides/skilled-project-managers-for-florida-commercial-construction/"
       />
@@ -492,6 +493,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/skilled-project-managers-for-florida-commercial-construction/" />
 
       
 

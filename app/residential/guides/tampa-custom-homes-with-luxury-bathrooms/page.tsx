@@ -9,9 +9,10 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/tampa-custom-homes-with-luxury-bathrooms/' },
-  title: "Tampa Custom Homes with Luxury Spa Bathrooms | FCS",
+  title: "Tampa Custom Homes with Luxury Spa Bathrooms",
   description: "Create spa-inspired luxury bathrooms in your custom home in Tampa. Professional advice from FCS, serving clients since 1982. Request a free estimate today.",
   openGraph: {
     title: "Tampa Custom Homes Luxury Bathrooms | Spa",
@@ -434,6 +435,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/residential/guides/tampa-custom-homes-with-luxury-bathrooms/" />
 
       
 

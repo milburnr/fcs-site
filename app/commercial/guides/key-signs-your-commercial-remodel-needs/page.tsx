@@ -9,13 +9,14 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/key-signs-your-commercial-remodel-needs/' },
   title: "Signs Your Building Needs a Remodel | Tampa",
-  description: "Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in ${region}. Contact our team today.",
+  description: "Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in Tampa Bay. Contact our team today.",
   openGraph: {
     title: "Signs Your Building Needs a Remodel | Tampa",
-    description: "Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in ${region}. Contact our team today.",
+    description: "Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in Tampa Bay. Contact our team today.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/key-signs-your-commercial-remodel-needs/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -145,7 +146,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Signs Your Building Needs a Remodel | Tampa"
-        description="Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in ${region}. Contact our team today."
+        description="Discover the warning signs that indicate your Tampa commercial building needs remodeling. From FCS, your licensed CBC in Tampa Bay. Contact our team today."
         datePublished="2024-01-01"
         slug="/commercial/guides/key-signs-your-commercial-remodel-needs/"
       />
@@ -372,6 +373,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/key-signs-your-commercial-remodel-needs/" />
 
       
 

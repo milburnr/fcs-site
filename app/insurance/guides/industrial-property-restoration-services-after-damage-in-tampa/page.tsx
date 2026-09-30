@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/' },
   title: "Industrial Property Restoration Tampa | Warehouse",
@@ -425,6 +426,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/" />
             <GuideCTA silo="insurance" heading="Tampa Bay's Industrial Restoration Experts" />
     </>
   );

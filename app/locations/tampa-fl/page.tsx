@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/tampa-fl/' },
-  title: "Tampa Commercial Construction | $500K-$25M+",
-  description: "Florida Construction Specialists serves Tampa, FL with commercial and residential construction, renovation, and restoration.",
+  title: "Tampa Commercial Construction & Reconstruction | $500K-$25M+",
+  description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Projects from $500K to $25M+, in-house engineering, serving Tampa since 1982.",
   openGraph: {
-    title: "Tampa Commercial Construction | $500K-$25M+",
-    description: "Florida Construction Specialists serves Tampa, FL with commercial and residential construction, renovation, and restoration.",
+    title: "Tampa Commercial Construction & Reconstruction | $500K-$25M+",
+    description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Projects from $500K to $25M+, in-house engineering, serving Tampa since 1982.",
     url: "https://floridaconstructionspecialists.com/locations/tampa-fl/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -86,7 +86,7 @@ const faqs = [
   },
   {
     question: "Are you licensed for commercial construction in Tampa?",
-    answer: "Yes, Florida Construction Specialists holds Florida General Contractor License #CBC1262722, which allows us to work on commercial and residential projects of any size throughout Florida, including Tampa. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
+    answer: "Yes, Florida Construction Specialists holds Florida Certified Building Contractor License #CBC1262722, which allows us to work on commercial and residential projects throughout Florida, including Tampa. We carry 40+ years experience and in-house engineering, comprehensive general liability insurance, and workers' compensation coverage."
   },
   {
     question: "What size projects do you typically handle in Tampa?",
@@ -304,7 +304,9 @@ export default function TampaPage() {
               </div>
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Insurance Expertise</h3>
               <p className="text-gray-600 text-sm">
-                Frank Bragano&apos;s 43+ years in property claims (former Allstate Commercial adjuster) means we understand both sides of large loss restoration. Direct carrier relationships for faster claim resolution.
+                Frank Bragano&apos;s 43+ years in property claims (former Allstate Commercial adjuster) means we understand both sides of large loss restoration. Direct carrier relationships for faster claim resolution, and one team for the{" "}
+                <Link href="/commercial-renovation-and-reconstruction/" className="text-brand-green font-semibold hover:underline">commercial reconstruction</Link>{" "}
+                that follows.
               </p>
             </div>
             <div className="bg-white rounded-lg p-6 shadow-sm">

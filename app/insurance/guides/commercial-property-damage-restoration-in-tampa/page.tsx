@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/commercial-property-damage-restoration-in-tampa/' },
   title: "Commercial Property Damage Restoration Tampa",
@@ -451,6 +452,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/insurance/guides/commercial-property-damage-restoration-in-tampa/" />
             <GuideCTA silo="insurance" heading="Tampa Bay Commercial Property Restoration Experts" />
     </>
   );

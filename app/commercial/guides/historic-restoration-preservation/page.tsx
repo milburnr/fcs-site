@@ -7,6 +7,7 @@ import { RelatedArticles } from "@/components/RelatedArticles";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/historic-restoration-preservation/' },
   title: "Historic Restoration & Preservation Tampa FL",
@@ -673,6 +674,7 @@ export default function HistoricRestorationPage() {
             <GuideCTA silo="commercial" heading="Start Your Historic Preservation Project" />
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/historic-restoration-preservation/" />
 
       
       {/* Internal Links */}

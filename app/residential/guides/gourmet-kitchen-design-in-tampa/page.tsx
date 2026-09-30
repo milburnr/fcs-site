@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/gourmet-kitchen-design-in-tampa/' },
   title: "Gourmet Kitchen Design in Tampa",
@@ -447,6 +448,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/gourmet-kitchen-design-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Design Your Gourmet Kitchen?" />
     </>
   );

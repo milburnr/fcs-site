@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/tampas-latest-commercial-construction-projects/' },
   title: "Tampa Commercial Construction Projects 2024-2025",
@@ -398,6 +399,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/tampas-latest-commercial-construction-projects/" />
             <GuideCTA silo="commercial" heading="Ready to Add Your Project to Tampa's Skyline?" />
     </>
   );

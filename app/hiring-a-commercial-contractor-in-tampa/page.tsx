@@ -11,10 +11,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/hiring-a-commercial-contractor-in-tampa/' },
   title: "Hiring a Commercial Contractor Tampa | Guide",
-  description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Contact our team today.",
+  description: "How to hire a commercial contractor in Tampa: a 6-step process, what to verify (license, insurance, bonding), red flags, and typical costs. From FCS, licensed CBC since 1982.",
   openGraph: {
     title: "Hiring a Commercial Contractor Tampa | Guide",
-    description: "Hiring a Commercial Contractor Guide in Tampa: expert project management, design-build, and renovations. Licensed and insured CBC. Contact our team today.",
+    description: "How to hire a commercial contractor in Tampa: a 6-step process, what to verify (license, insurance, bonding), red flags, and typical costs. From FCS, licensed CBC since 1982.",
     url: "https://floridaconstructionspecialists.com/hiring-a-commercial-contractor-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -78,7 +78,7 @@ const evaluationCriteria = [
   {
     icon: Shield,
     title: "Licensing & Insurance",
-    factors: ["State CGC license", "General liability ($1M+)", "Workers' compensation", "Bonding capacity"],
+    factors: ["State CGC or CBC license", "General liability ($1M+)", "Workers' compensation", "Bonding capacity"],
     weight: "20%",
   },
   {

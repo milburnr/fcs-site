@@ -5,13 +5,13 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
-  title: "Insurance Restoration Tampa | Licensed GC",
+  title: "Insurance Restoration Tampa | Licensed CBC",
   description: "Florida Construction Specialists — licensed CBC with 40+ years handling large-loss insurance claims in Tampa Bay. Fire, water, hurricane restoration.",
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/insurance/",
   },
   openGraph: {
-    title: "Insurance Restoration Tampa | Licensed GC",
+    title: "Insurance Restoration Tampa | Licensed CBC | FCS",
     description: "Florida Construction Specialists — licensed CBC with 40+ years handling large-loss insurance claims in Tampa Bay. Fire, water, hurricane restoration.",
     url: "https://floridaconstructionspecialists.com/insurance/",
     type: "website",

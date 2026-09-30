@@ -38,7 +38,7 @@ const faqs = [
   },
   {
     question: "Who is responsible for pulling permits—contractor or owner?",
-    answer: "In Florida, licensed contractors pull permits in their own name and are responsible for compliance. Owners can pull permits for their own property (owner-builder) but accept full responsibility for code compliance and lose some consumer protections. For commercial construction, permits should always be pulled by the licensed general contractor who is accountable for the work."
+    answer: "In Florida, licensed contractors pull permits in their own name and are responsible for compliance. Owners can pull permits for their own property (owner-builder) but accept full responsibility for code compliance and lose some consumer protections. For commercial construction, permits should always be pulled by the licensed prime contractor who is accountable for the work."
   },
   {
     question: "How do permits affect property insurance?",

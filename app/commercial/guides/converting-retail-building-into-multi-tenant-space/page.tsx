@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/converting-retail-building-into-multi-tenant-space/' },
   title: "Converting Retail to Multi-Tenant | Tampa Bay",
@@ -620,6 +621,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/converting-retail-building-into-multi-tenant-space/" />
 
       
 

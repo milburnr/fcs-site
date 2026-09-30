@@ -64,7 +64,7 @@ export default function Page() {
             Water Damage Restoration Insurance Claims in Tampa
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Navigating water damage restoration insurance claims in Tampa? Our expert team helps you maximize your claim for swift and seamless water damage resto
+            Navigating a water damage insurance claim in Tampa? We document the loss, scope the repairs, and rebuild to code.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">

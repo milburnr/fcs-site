@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/building-multi-generational-homes-in-tampa/' },
   title: "Multi-Generational Home Builders Tampa | Extended Family",
@@ -113,7 +114,9 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Multi-generational living is experiencing a renaissance in America, and Tampa Bay is at the forefront of this trend. Extended families are discovering the emotional, practical, and financial benefits of living together—grandparents providing childcare, adult children supporting aging parents, resources pooled for better homes than any generation could afford alone. As experienced Tampa multi-generational and extended-family home builders, Florida Construction Specialists designs and builds custom homes that make shared living work for everyone, with thoughtful separation that provides privacy while maintaining family connection.
-             We have delivered quality residential construction across Tampa Bay since 1982 as a Florida Certified Building Contractor (CBC1262722), bringing the same in-house engineering and prime-contractor accountability that defines our commercial work to every extended-family home we build.</p>
+             We have delivered quality residential construction across Tampa Bay since 1982 as a Florida Certified Building Contractor (CBC1262722), bringing the same in-house engineering and prime-contractor accountability that defines our commercial work to every extended-family home we build. Planning in New Tampa or Tampa Palms? Our notes on{" "}
+              <Link href="/resources/multigenerational-home-builder-tampa/" className="text-brand-green font-semibold hover:underline">in-law suite permitting and design in New Tampa</Link>{" "}
+              cover the Hillsborough County code questions in more detail.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Why Multi-Generational Living Works
@@ -427,6 +430,7 @@ export default function Page() {
       </section>
 
       {/* CTA */}
+            <MoreGuides current="/residential/guides/building-multi-generational-homes-in-tampa/" />
             <GuideCTA silo="residential" heading="Ready to Build Your Multi-Generational Home?" />
     </>
   );

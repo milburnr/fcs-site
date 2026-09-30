@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/' },
   title: "Choosing Top Commercial Contractor Tampa",
@@ -334,6 +335,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/key-factors-for-choosing-the-top-commercial-contractor-in-tampa/" />
             <GuideCTA silo="commercial" heading="Ready to Evaluate Your Options?" />
     </>
   );

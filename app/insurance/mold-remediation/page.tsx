@@ -11,7 +11,7 @@ import RelatedArticles from "@/components/RelatedArticles";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/mold-remediation/' },
-  title: "Professional Mold Remediation | Tampa Bay, FL",
+  title: "Commercial & Residential Mold Remediation | Tampa Bay",
   description: "Licensed CBC contractor with 40+ years in Tampa Bay. Full mold assessment, containment, removal, and moisture-source repair for residential and commercial properties.",
   openGraph: {
     title: "Mold Remediation | Professional Mold Removal",
@@ -203,7 +203,7 @@ export default function MoldRemediationPage() {
               <li><strong>Cleaning:</strong> Non-porous surfaces are cleaned with appropriate antimicrobial solutions. HEPA vacuuming removes surface spores from structural materials.</li>
               <li><strong>Drying:</strong> Commercial dehumidification and drying equipment reduces moisture levels to prevent recurrence. We monitor until materials reach safe moisture content.</li>
               <li><strong>Post-Remediation Testing:</strong> Independent hygienists verify successful remediation before containment is removed and restoration begins.</li>
-              <li><strong>Restoration:</strong> As a licensed general contractor, FCS restores affected areas—replacing drywall, insulation, flooring, and other materials removed during remediation.</li>
+              <li><strong>Restoration:</strong> As a state-licensed building contractor, FCS restores affected areas—replacing drywall, insulation, flooring, and other materials removed during remediation.</li>
             </ol>
 
             <h3>Commercial Mold Remediation Challenges</h3>

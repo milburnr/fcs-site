@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay.",
   openGraph: {
     title: "About Us | Tampa Bay's Premier Builder",
-    description: "About Us across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience. Serving Tampa Bay.",
+    description: "Florida Construction Specialists is a Ruskin-based building contractor (CBC1262722) serving Tampa Bay since 1982, always as prime contractor, with in-house engineering.",
     url: "https://floridaconstructionspecialists.com/about/",
     type: "website",
     siteName: "Florida Construction Specialists",

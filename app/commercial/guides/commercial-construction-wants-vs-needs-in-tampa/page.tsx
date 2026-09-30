@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/' },
   title: "Commercial Construction Wants vs Needs Tampa",
@@ -578,6 +579,7 @@ export default function Page() {
         </div>
       </section>
 
+            <MoreGuides current="/commercial/guides/commercial-construction-wants-vs-needs-in-tampa/" />
             <GuideCTA silo="commercial" heading="Let's Prioritize Your Project Together" />
     </>
   );

@@ -16,10 +16,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/exterior-waterproofing/' },
   title: "Exterior Waterproofing Tampa | Florida",
-  description: "Building Envelope Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+  description: "Exterior waterproofing for Tampa Bay condos, commercial buildings, and homes: building envelope assessments, coatings, sealants, and water intrusion repair. Licensed CBC, 40+ years.",
   openGraph: {
     title: "Exterior Waterproofing Tampa | Florida",
-    description: "Building Envelope Florida across Tampa Bay. Full-service licensed CBC with 40+ years of commercial and residential experience.",
+    description: "Exterior waterproofing for Tampa Bay condos, commercial buildings, and homes: building envelope assessments, coatings, sealants, and water intrusion repair. Licensed CBC, 40+ years.",
     url: "https://floridaconstructionspecialists.com/exterior-waterproofing/",
     type: "website",
     siteName: "Florida Construction Specialists",

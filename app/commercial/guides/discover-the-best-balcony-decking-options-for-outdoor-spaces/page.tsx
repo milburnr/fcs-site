@@ -15,6 +15,7 @@ import {
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/' },
   title: "Best Balcony Decking Options",
@@ -482,6 +483,7 @@ export default function Page() {
       </section>
       {/* Related Articles */}
       <RelatedArticles articles={relatedArticles} />
+      <MoreGuides current="/commercial/guides/discover-the-best-balcony-decking-options-for-outdoor-spaces/" />
 
       
 

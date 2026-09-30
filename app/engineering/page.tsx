@@ -53,7 +53,7 @@ const engineeringFaqs = [
   },
   {
     question: "Is Florida Construction Specialists a licensed engineering firm?",
-    answer: "No, FCS is a licensed general contractor (CBC1262722), not an engineering firm. We coordinate with licensed Professional Engineers (PEs) who provide the actual engineering analysis, calculations, and sealed documents. Our role is to facilitate this coordination, ensure clear communication between all parties, and integrate engineering requirements into the construction process."
+    answer: "No, FCS is a state-licensed building contractor (CBC1262722), not an engineering firm. We coordinate with licensed Professional Engineers (PEs) who provide the actual engineering analysis, calculations, and sealed documents. Our role is to facilitate this coordination, ensure clear communication between all parties, and integrate engineering requirements into the construction process."
   },
   {
     question: "What types of engineering services do you coordinate?",

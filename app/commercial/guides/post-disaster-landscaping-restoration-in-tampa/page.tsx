@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/post-disaster-landscaping-restoration-in-tampa/' },
   title: "Post-Disaster Landscaping Restoration Tampa",
@@ -449,6 +450,7 @@ export default function Page() {
       </section>
 
       {/* Final CTA */}
+            <MoreGuides current="/commercial/guides/post-disaster-landscaping-restoration-in-tampa/" />
             <GuideCTA silo="commercial" heading="Tampa Bay Landscape Restoration Experts" />
     </>
   );

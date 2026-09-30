@@ -54,7 +54,7 @@ const services = [
   },
   {
     icon: Award,
-    title: "Licensed General Contractor",
+    title: "Licensed Building Contractor",
     href: "/insurance/licensed-general-contractor/",
     description: "Florida-licensed CBC with 40+ years experience. Prime contractor for large loss restoration—never a subcontractor.",
   },

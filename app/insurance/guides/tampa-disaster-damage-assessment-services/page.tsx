@@ -8,6 +8,7 @@ import { InternalLinks } from "@/components/InternalLinks";
 import { AuthorByline } from "@/components/AuthorByline";
 import { GuideCTA } from "@/components/GuideCTA";
 
+import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/tampa-disaster-damage-assessment-services/' },
   title: "Tampa Disaster Damage Assessment – Certified Engineers",
@@ -67,7 +68,7 @@ export default function Page() {
           </h1>
           <AuthorByline />
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Need timely and accurate disaster damage assessment services in Tampa? Our expert team provides comprehensive assessments like hurricanes, floods, &amp; s
+            Disaster damage assessments in Tampa after hurricanes, floods, and storms, documented for your insurance claim.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -398,6 +399,7 @@ export default function Page() {
         </div>
       </section>
 
+<MoreGuides current="/insurance/guides/tampa-disaster-damage-assessment-services/" />
 <GuideCTA silo="insurance" />
 </>
   );
