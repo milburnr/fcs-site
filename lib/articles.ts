@@ -38,7 +38,7 @@ export function getArticleSlugs(): string[] {
   if (!fs.existsSync(CONTENT_DIR)) return [];
   return fs
     .readdirSync(CONTENT_DIR)
-    .filter((f) => f.endsWith(".mdx"))
+    .filter((f) => f.endsWith(".mdx") && !f.endsWith(".draft.mdx"))
     .map((f) => f.replace(/\.mdx$/, ""));
 }
 

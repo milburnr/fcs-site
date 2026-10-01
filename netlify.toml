@@ -44,6 +44,31 @@
   to = "/404/"
   status = 410
 
+# Draft files that were briefly published as pages (removed 2026-09-30)
+[[redirects]]
+  from = "/resources/exterior-stucco-repair-near-me-tampa.draft/"
+  to = "/resources/exterior-stucco-repair-near-me-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/exterior-stucco-repair-near-me-tampa.draft"
+  to = "/resources/exterior-stucco-repair-near-me-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/stucco-crack-repair-tampa.draft/"
+  to = "/resources/stucco-crack-repair-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/stucco-crack-repair-tampa.draft"
+  to = "/resources/stucco-crack-repair-tampa/"
+  status = 301
+  force = true
+
 # Trailing slashes
 [[redirects]]
   from = "/*"
