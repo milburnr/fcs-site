@@ -34,7 +34,7 @@ const breadcrumbItems = [
 const faqs = [
   {
     question: "What types of commercial development projects do you handle?",
-    answer: "We partner with developers on the full spectrum of commercial projects: retail centers, office buildings, medical facilities, industrial/warehouse developments, mixed-use projects, hospitality properties, and multi-family residential. Our experience spans ground-up construction, adaptive reuse, and major renovations. Project sizes range from single-tenant buildings to multi-phase developments exceeding $25 million."
+    answer: "We partner with developers on the full spectrum of commercial projects: retail centers, office buildings, medical facilities, industrial/warehouse developments, mixed-use projects, hospitality properties, and multi-family residential. Our experience spans ground-up construction, adaptive reuse, and major renovations. Project sizes range from single-tenant buildings to multi-phase developments. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How early should I involve a contractor in the development process?",

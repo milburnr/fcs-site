@@ -115,9 +115,9 @@ const caseStudies = [
   },
   {
     name: "Historic Sebring Fire Station",
-    description: "FEMA compliance restoration following storm damage, requiring coordination with both federal emergency management requirements and historic preservation standards. Careful documentation and approval process ensured funding eligibility while maintaining historic character.",
+    description: "FEMA-funded restoration after Hurricane Charley, requiring coordination with both federal emergency management requirements and historic preservation standards. Work included structural repairs and exterior restoration so the building could stay in public service. Careful documentation and approval process ensured funding eligibility while maintaining historic character.",
     designation: "Local Historic Landmark",
-    scope: "FEMA Compliance Restoration",
+    scope: "$900K FEMA Compliance Restoration",
   },
   {
     name: "Wotjowicz House, Ybor City",
@@ -173,6 +173,14 @@ const faqs = [
   {
     question: "Can you help with FEMA funding for historic building damage?",
     answer: "Yes, FCS has experience coordinating FEMA requirements with historic preservation standards, as demonstrated in our Historic Sebring Fire Station project. When historic buildings are damaged by disasters, FEMA's Public Assistance program can fund repairs, but work must comply with Section 106 of the National Historic Preservation Act. This requires SHPO review to ensure repairs don't harm historic character. FCS navigates both FEMA documentation requirements and historic preservation reviews to maximize funding while maintaining compliance."
+  },
+  {
+    question: "How do you restore Ybor City's historic cigar factory buildings?",
+    answer: "Ybor City's cigar factories combine heavy brick masonry, large industrial floor plates, and the preservation requirements that come with the National Historic Landmark District. We start by documenting existing conditions: masonry analysis, a structural assessment of the heavy timber and masonry bearing wall systems, and a list of the character-defining features that have to stay. Typical work includes repointing historic brick with compatible lime-based mortars, restoring cast iron and steel structural elements, rehabilitating original windows where they can be saved, and routing modern building systems so they don't compromise the architecture that earned these buildings landmark status."
+  },
+  {
+    question: "How do you balance modern building codes with historic preservation?",
+    answer: "This is one of the harder parts of historic work. We work with building officials, historic preservation boards, and architects to find solutions that meet both life-safety requirements and preservation standards. That often means using the alternative compliance methods the Florida Building Code allows for historic buildings, rather than forcing a change that would damage character-defining features."
   },
 ];
 
@@ -523,6 +531,13 @@ export default function CommercialHistoricRestorationPage() {
                 the Architectural Review Commission addresses projects in other local historic districts. 
                 COA applications address exterior alterations, new construction, demolition, and signage 
                 within designated districts.
+              </p>
+              <p>
+                Building permits for restoration work in the city go through the City of Tampa Building
+                Services Department, but the historic review has to be completed before a permit can be
+                issued. In Ybor City, projects on Seventh Avenue, the district&apos;s main commercial corridor,
+                get particular scrutiny because of the street&apos;s prominence. Schedules should treat the COA
+                as a step that comes before permitting, not alongside it.
               </p>
               <p>
                 Local review focuses on compatibility with district character and compliance with adopted 
@@ -1082,6 +1097,20 @@ export default function CommercialHistoricRestorationPage() {
                 traditional mortars, period hardware, architectural glass, roofing materials, 
                 and ornamental elements. For unique requirements, custom fabrication by 
                 skilled craftspeople produces components matching historic originals.
+              </p>
+
+              <h3 className="text-2xl font-bold text-brand-green-dark mt-8">How Tampa&apos;s Climate Affects Historic Materials</h3>
+              <p>
+                Tampa&apos;s subtropical climate wears on historic buildings faster than a temperate one
+                would. Heavy rainfall, intense UV, high humidity, and salt air off Tampa Bay all speed up
+                deterioration. Wood elements suffer fungal decay and termite damage. Historic brick spalls
+                and shows efflorescence from moisture. Original lime mortars erode under rainwater, and
+                ornamental metal rusts in the salt-laden air.
+              </p>
+              <p>
+                Our restoration specifications account for these conditions. We select repair materials
+                and protective coatings that extend the service life of restored elements in this climate,
+                while staying compatible with the original fabric they protect.
               </p>
             </div>
           </div>

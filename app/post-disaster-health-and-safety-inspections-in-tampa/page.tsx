@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   description: "After a hurricane, Tampa buildings may hide structural, electrical, and mold hazards. Learn what post-disaster inspectors check and when it's safe to re-enter.",
   openGraph: {
     title: "Post-Disaster Safety Inspections Tampa | Hurricane",
-    description: "Post-disaster Safety Inspections Hurricane in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years.",
+    description: "Post-disaster Safety Inspections Hurricane in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years.",
     url: "https://floridaconstructionspecialists.com/post-disaster-health-and-safety-inspections-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",

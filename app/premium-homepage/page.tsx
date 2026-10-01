@@ -36,7 +36,7 @@ export default function PremiumHomepage() {
               Projects
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 mb-8 leading-relaxed max-w-2xl">
-              From $500K commercial renovations to $25M+ developments. 
+              From tenant improvements to ground-up developments (most projects $500K and up). 
               We don't just build structures—we build landmarks that define Tampa Bay.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -346,7 +346,7 @@ export default function PremiumHomepage() {
             Ready to Build Something Exceptional?
           </h2>
           <p className="text-xl text-slate-300 mb-8">
-            Whether you're planning a $500K renovation or a $50M development, 
+            Whether you're planning a $500K renovation or a ground-up development, 
             let's discuss how FCS can bring your vision to life.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

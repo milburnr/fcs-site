@@ -40,7 +40,7 @@ const services = [
     title: "Historic Restoration",
     description: "Preserving St. Petersburg's architectural heritage including federal historic compliance. Featured project: Bay Pines Veterans Hospital ($2M).",
     icon: Landmark,
-    href: "/services/historic-restoration/",
+    href: "/commercial/historic-restoration/",
   },
   {
     title: "Disaster Recovery",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in St. Petersburg?",
-    answer: "In St. Petersburg, we handle commercial construction, historic restoration, multi-family residential, disaster recovery, luxury waterfront homes, balcony reconstruction, and exterior waterproofing. Given St. Pete's rich architectural heritage, we have particular expertise in historic preservation and federal compliance. Project values typically range from $250,000 to $25 million or more."
+    answer: "In St. Petersburg, we handle commercial construction, historic restoration, multi-family residential, disaster recovery, luxury waterfront homes, balcony reconstruction, and exterior waterproofing. Given St. Pete's rich architectural heritage, we have particular expertise in historic preservation and federal compliance. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How far is your office from St. Petersburg?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     question: "What size projects do you typically handle in St. Petersburg?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, historic restoration, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the St. Petersburg area."
+    answer: "Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes commercial construction, historic restoration, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the St. Petersburg area."
   },
   {
     question: "How do I get started on a project in St. Petersburg?",
@@ -102,7 +102,7 @@ const pillarLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
 ];
 
 const nearbyLocationLinks = [
@@ -120,7 +120,7 @@ export default function StPetersburgPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in St. Petersburg"
-        serviceDescription="Premier general contractor serving St. Petersburg, FL with commercial construction, historic restoration, disaster recovery, and residential construction. Projects $250K-$25M+."
+        serviceDescription="Premier general contractor serving St. Petersburg, FL with commercial construction, historic restoration, disaster recovery, and residential construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />

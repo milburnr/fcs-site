@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description: "Why Portland cement harms historic brick, how to spot improper repointing, and when mortar analysis matters for Tampa historic tax credit projects.",
   openGraph: {
     title: "Historic Masonry Restoration Techniques in Tampa",
-    description: "Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
+    description: "Historic Masonry Restoration Techniques in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/historic-masonry-restoration-techniques-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -31,7 +31,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration/", label: "Historic Material Sourcing" },
@@ -67,7 +67,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Historic Masonry Restoration Techniques in Tampa"
-        description="Historic Masonry Restoration Techniques in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today."
+        description="Historic Masonry Restoration Techniques in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years. Contact our team today."
         datePublished="2024-01-01"
         slug="/commercial/guides/historic-masonry-restoration-techniques-in-tampa/"
       />

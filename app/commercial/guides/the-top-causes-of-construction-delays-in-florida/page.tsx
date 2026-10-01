@@ -35,7 +35,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/common-construction-mistakes-to-avoid-for-commercial-project/", label: "Construction Mistakes to Avoid" },
   { href: "/commercial/guides/the-stages-of-construction-project-management/", label: "Project Management Stages" },
-  { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
+  { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

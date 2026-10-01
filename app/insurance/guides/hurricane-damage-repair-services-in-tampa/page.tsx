@@ -92,7 +92,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Hurricane damage repair in Tampa requires specialized expertise that addresses the complex interactions of wind damage, water intrusion, and structural compromise created by major storm events. Florida Construction Specialists has provided comprehensive hurricane damage repair services throughout Tampa Bay for over 43 years, responding to every major hurricane from Elena in 1985 through Ian in 2022. Our hurricane repair expertise combines rapid storm response with complete reconstruction services that restore properties to pre-storm condition while improving resistance to future storms.
-               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
+               Since 1982, Florida Construction Specialists has helped property owners restore major losses, most of them $500K and up, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
               <p className="text-gray-600 mb-6">
                 Our unique position in Tampa's construction industry stems from 43 years of experience working both sides of insurance claims – as contractors advocating for property owners and as consultants advising insurance companies on appropriate repair scope and pricing. This dual perspective provides unparalleled insight into how hurricane damage claims are evaluated and what documentation produces optimal outcomes for property owners facing complex hurricane restoration challenges.

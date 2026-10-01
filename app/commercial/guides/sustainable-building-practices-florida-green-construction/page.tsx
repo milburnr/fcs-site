@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Sustainable building practices have transformed from optional features to essential elements of successful commercial construction in Florida. As Tampa Bay's leading commercial contractor serving Tampa, Lakeland, Sarasota, and the surrounding areas, Florida Construction Specialists integrates sustainable practices into every project—delivering buildings that cost less to operate, provide healthier environments for occupants, and demonstrate environmental responsibility to customers and communities.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               What Makes Construction "Sustainable" in Florida?

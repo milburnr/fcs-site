@@ -211,7 +211,7 @@ export default function IndustrialConstructionPage() {
               FCS Construction delivers large-scale industrial and warehouse construction 
               throughout Tampa Bay and Central Florida. From tilt-wall distribution centers 
               to steel manufacturing facilities, we bring 40+ years of experience to projects 
-              ranging from $500K to $25M+. Our design-build approach ensures your industrial 
+              that are mostly $500K and up. Our design-build approach ensures your industrial 
               facility is delivered on time, on budget, and built to perform for decades.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">

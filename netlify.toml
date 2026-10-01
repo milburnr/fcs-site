@@ -69,6 +69,91 @@
   status = 301
   force = true
 
+# Duplicate pages merged into their owner pages (2026-09-30; none were indexed in Google)
+[[redirects]]
+  from = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/historic-restoration-tampa"
+  to = "/commercial/historic-restoration/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/historic-restoration/"
+  to = "/commercial/historic-restoration/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/services/historic-restoration"
+  to = "/commercial/historic-restoration/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-commercial-contractors-in-tampa/"
+  to = "/commercial/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/top-commercial-contractors-in-tampa"
+  to = "/commercial/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leading-commercial-contractors-in-tampa/"
+  to = "/commercial/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/leading-commercial-contractors-in-tampa"
+  to = "/commercial/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hiring-commercial-contractors-in-tampa/"
+  to = "/hiring-a-commercial-contractor-in-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/hiring-commercial-contractors-in-tampa"
+  to = "/hiring-a-commercial-contractor-in-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/stucco-repair-tampa/"
+  to = "/resources/what-to-know-about-stucco-repair-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/stucco-repair-tampa"
+  to = "/resources/what-to-know-about-stucco-repair-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/repair-stucco-hole-tampa/"
+  to = "/resources/how-to-repair-large-stucco-holes-tampa/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/resources/repair-stucco-hole-tampa"
+  to = "/resources/how-to-repair-large-stucco-holes-tampa/"
+  status = 301
+  force = true
+
 # Trailing slashes
 [[redirects]]
   from = "/*"
@@ -401,17 +486,17 @@
 
 [[redirects]]
   from = "/exploring-tampas-rich-architectural-heritage/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/facade-preservation-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/historic-building-restorations-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
@@ -421,7 +506,7 @@
 
 [[redirects]]
   from = "/historic-restoration-challenges-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
@@ -431,57 +516,57 @@
 
 [[redirects]]
   from = "/historic-restoration-success-stories-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/historic-restoration-techniques-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/importance-of-historic-preservation-in-tampas-urban-landscape/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/navigating-tampa-historic-preservation-guidelines/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/preserving-tampas-historical-gems/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/restoring-historic-interiors-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/secrets-to-successfully-restoring-historic-buildings-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/seismic-retrofitting-for-historic-buildings-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampa-historic-restoration-projects-unique-challenges-and-solutions/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampas-historic-business-districts-restored/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampas-most-notable-historic-building-restorations/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
@@ -491,17 +576,17 @@
 
 [[redirects]]
   from = "/the-art-of-historic-building-restoration-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/traditional-techniques-in-historic-restoration-in-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/unlocking-tampas-hidden-treasures-historic-restoration/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 # Balcony Duplicates → /balcony-reconstruction/
@@ -883,30 +968,30 @@
   to = "/other-services/"
   status = 301
 
-# Thin pages -> /historic-restoration-tampa/
+# Thin pages -> /commercial/historic-restoration/ (was /historic-restoration-tampa/, merged 2026-09-30)
 [[redirects]]
   from = "/renovating-historic-homes-tampa/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/south-tampa-historic-district-guide/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampa-certificate-of-appropriateness/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampa-historic-social-clubs-restoration/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 [[redirects]]
   from = "/tampa-historical-property-insurance-restoration-expert/"
-  to = "/historic-restoration-tampa/"
+  to = "/commercial/historic-restoration/"
   status = 301
 
 # Thin pages -> /historic-restoration/

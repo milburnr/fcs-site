@@ -115,7 +115,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa Bay's booming commercial construction industry offers exceptional career opportunities for skilled professionals seeking stable, well-paying jobs with growth potential. As one of Florida's fastest-growing metropolitan areas, Tampa Bay's construction sector is experiencing unprecedented expansion, creating thousands of new job opportunities across all skill levels and specialties. Florida Construction Specialists, as a leading employer in the region, is at the forefront of this growth, offering competitive careers that combine meaningful work with excellent benefits and advancement opportunities.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <p className="text-gray-600 mb-8">
                 The Tampa Bay commercial construction market has grown by over 35% in the past five years, with major projects including office towers, medical facilities, retail complexes, and mixed-use developments creating sustained demand for construction professionals. This growth translates into excellent job security, competitive salaries, and numerous opportunities for career advancement in an industry that continues to evolve with new technologies and construction methods.

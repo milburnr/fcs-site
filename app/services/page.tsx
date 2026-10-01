@@ -49,7 +49,7 @@ const commercialServiceCards = [
     href: "/commercial/",
     image: AI_IMAGES.commercialHero,
     imageAlt: AI_IMAGE_ALT.commercialHero,
-    description: "Office buildings, medical facilities, retail centers, and industrial projects from $500K to $25M+.",
+    description: "Office buildings, medical facilities, retail centers, and industrial projects, most of them $500K and up.",
   },
   {
     name: "Multi-Family Construction",
@@ -124,7 +124,7 @@ const insuranceServiceCards = [
 const servicesFAQs = [
   {
     question: "What types of construction projects does Florida Construction Specialists handle?",
-    answer: "FCS handles a comprehensive range of construction projects across three main divisions: commercial construction ($500K-$25M+ including office buildings, medical facilities, retail centers, and industrial projects), residential construction (luxury custom homes, waterfront estates, and hurricane-resistant residences), and insurance restoration (large-loss disaster recovery, certified estimates, expert witness services, and building consulting). Our team has completed over 300 projects throughout Tampa Bay and the Southeast.",
+    answer: "FCS handles a comprehensive range of construction projects across three main divisions: commercial construction (most projects $500K and up, including office buildings, medical facilities, retail centers, and industrial projects), residential construction (luxury custom homes, waterfront estates, and hurricane-resistant residences), and insurance restoration (large-loss disaster recovery, certified estimates, expert witness services, and building consulting). Our team has completed over 300 projects throughout Tampa Bay and the Southeast.",
   },
   {
     question: "How do I know if my project qualifies for FCS services?",
@@ -158,7 +158,7 @@ export default function ServicesPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services"
-        serviceDescription="Full-service general contractor serving Tampa Bay since 1982. Commercial construction, multi-family, disaster recovery, historic restoration, custom homes, and insurance restoration. $500K-$25M+ projects."
+        serviceDescription="Full-service general contractor serving Tampa Bay since 1982. Commercial construction, multi-family, disaster recovery, historic restoration, custom homes, and insurance restoration. Most projects are $500K and up."
         serviceCategories={[
           "Commercial Construction",
           "Multi-Family Construction",
@@ -197,7 +197,7 @@ export default function ServicesPage() {
               Construction Services Across Tampa Bay
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl">
-              From $500K commercial builds to $25M+ developments, Florida Construction Specialists
+              From tenant improvements to ground-up developments (most projects $500K and up), Florida Construction Specialists
               delivers large-scale construction, disaster recovery, and insurance restoration
               with {BUSINESS_INFO.yearsInBusiness} years of proven experience.
             </p>
@@ -232,7 +232,7 @@ export default function ServicesPage() {
             <div className="h-12 w-px bg-gray-200 hidden md:block" />
             <div>
               <p className="text-3xl font-bold text-brand-green-dark">{BUSINESS_INFO.projectValueRange}</p>
-              <p className="text-sm text-gray-600">Project Range</p>
+              <p className="text-sm text-gray-600">Typical Project Size</p>
             </div>
             <div className="h-12 w-px bg-gray-200 hidden md:block" />
             <div>
@@ -261,7 +261,7 @@ export default function ServicesPage() {
             <FadeIn delay={0.1}>
               <div className="prose prose-lg max-w-none text-gray-700">
                 <p>
-                  Florida Construction Specialists is a merging of Florida Restoration Team and Shamblin Construction, large-scale general contractors that have operated in Florida since 1982. With over four decades of experience and more than 300 completed projects, our leadership team has built or restored hundreds of large-scale projects across the Southeast United States and the Bahamas. Today, FCS operates as one of Tampa Bay's most capable prime contractors, handling projects that range from $500,000 tenant improvements to $25 million ground-up developments.
+                  Florida Construction Specialists is a merging of Florida Restoration Team and Shamblin Construction, large-scale general contractors that have operated in Florida since 1982. With over four decades of experience and more than 300 completed projects, our leadership team has built or restored hundreds of large-scale projects across the Southeast United States and the Bahamas. Today, FCS operates as one of Tampa Bay's most capable prime contractors, handling tenant improvements through ground-up developments. Most of our projects are $500K and up, and we take on work from about $250K depending on scope.
                 </p>
 
                 <p>
@@ -295,7 +295,7 @@ export default function ServicesPage() {
               </h2>
               <p className="text-lg text-gray-600 max-w-3xl mx-auto">
                 Large-scale commercial construction focused on risk mitigation, regulatory compliance,
-                and return on investment. FCS handles projects from $500K to $25M+ across every
+                and return on investment. FCS handles projects across every
                 commercial sector in Tampa Bay.
               </p>
             </div>
@@ -588,7 +588,7 @@ export default function ServicesPage() {
             Ready to Discuss Your Project?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From $500K improvements to $25M+ developments, Florida Construction Specialists
+            From tenant improvements to ground-up developments (most projects $500K and up), Florida Construction Specialists
             has the experience and capability to deliver your project on time and on budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

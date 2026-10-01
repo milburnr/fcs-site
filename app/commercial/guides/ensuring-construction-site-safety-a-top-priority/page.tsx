@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Construction consistently ranks among the most hazardous industries, with workers facing risks from falls, struck-by incidents, electrocution, and caught-between hazards—OSHA's "Fatal Four" that account for over 60% of construction fatalities. At Florida Construction Specialists, we've built our reputation on maintaining an exemplary safety record throughout Tampa, St. Petersburg, Clearwater, and surrounding communities by making safety a core value, not just a compliance requirement.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-yellow-50 border-l-4 border-yellow-500 p-6 mb-8">
               <div className="flex items-start gap-4">

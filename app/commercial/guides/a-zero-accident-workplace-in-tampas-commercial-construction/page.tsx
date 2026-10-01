@@ -34,7 +34,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/", label: "Licensed Contractor Requirements" },
-  { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
+  { href: "/floridas-top-commercial-contractor-in-tampa/", label: "Why Tampa Owners Choose FCS" },
   { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Guide" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];

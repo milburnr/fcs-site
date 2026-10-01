@@ -100,7 +100,7 @@ export default function Page() {
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Experience and Track Record</h3>
               <p className="text-gray-600 mb-6">
-                The complexity of commercial construction demands extensive experience across multiple project types and sizes. Florida Construction Specialists brings four decades of specialized expertise in high-end commercial projects throughout the Tampa Bay area, with a portfolio spanning from $500,000 medical facilities to $50 million corporate headquarters. Our track record includes successful completion of office buildings, retail centers, healthcare facilities, industrial complexes, and multi-family developments across Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities.
+                The complexity of commercial construction demands extensive experience across multiple project types and sizes. Florida Construction Specialists brings four decades of specialized expertise in high-end commercial projects throughout the Tampa Bay area, with a portfolio of medical facilities, offices and larger developments, most of them $500K and up. Our track record includes successful completion of office buildings, retail centers, healthcare facilities, industrial complexes, and multi-family developments across Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities.
               </p>
 
               <h3 className="text-xl font-bold text-brand-green-dark mb-3">Licensing and Credentials</h3>

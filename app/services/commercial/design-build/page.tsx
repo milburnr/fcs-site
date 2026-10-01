@@ -116,7 +116,7 @@ const faqs = [
   },
   {
     question: "What size projects do you handle with design-build?",
-    answer: "Florida Construction Specialists handles design-build projects ranging from $500,000 to over $25 million. Our 40+ years experience and in-house engineering allows us to take on large commercial developments, while our experienced team can efficiently deliver smaller tenant improvements and building additions. The design-build approach scales effectively across project sizes.",
+    answer: "Florida Construction Specialists handles design-build projects of many sizes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. Our 40+ years experience and in-house engineering allows us to take on large commercial developments, while our experienced team can efficiently deliver smaller tenant improvements and building additions. The design-build approach scales effectively across project sizes.",
   },
   {
     question: "Do you have design-build experience in my industry?",
@@ -133,7 +133,7 @@ export default function DesignBuildPage() {
     <>
       <ServiceSchema
         serviceName="Design-Build Construction"
-        serviceDescription="Integrated design-build construction services in Tampa Bay. Single-source accountability for commercial projects from $500K to $25M+. Faster delivery, cost certainty, and seamless coordination."
+        serviceDescription="Integrated design-build construction services in Tampa Bay. Single-source accountability for commercial projects, most of them $500K and up. Faster delivery, cost certainty, and seamless coordination."
         minPrice="500000"
       serviceCategories={["Integrated Design-Build","Pre-Construction Planning","Value Engineering","Project Management"]}
       />
@@ -158,7 +158,7 @@ export default function DesignBuildPage() {
               One team. One contract. One point of accountability. Florida Construction Specialists delivers design-build projects that combine architectural excellence with construction expertise—faster timelines, better coordination, and cost certainty from concept to completion.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              From $500K tenant improvements to $25M+ commercial developments, our integrated approach eliminates the conflicts and delays of traditional construction delivery.
+              From tenant improvements to ground-up commercial developments (most of them $500K and up), our integrated approach eliminates the conflicts and delays of traditional construction delivery.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -445,7 +445,7 @@ export default function DesignBuildPage() {
               <ul className="space-y-2">
                 <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
-                <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
+                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
               </ul>
             </div>
           </div>

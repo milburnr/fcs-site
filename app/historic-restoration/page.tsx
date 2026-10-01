@@ -173,7 +173,7 @@ export default function HistoricRestorationPage() {
               </p>
               <p className="text-gray-600 mb-6">
                 Our experienced team has completed over $25 million in projects, bringing the expertise
-                and resources needed for projects ranging from $500,000 to $25 million or more.
+                and resources for large projects. Most of our projects are $500K and up, and we take on work from about $250K depending on scope.
               </p>
               <Link
                 href="/contact/"
@@ -260,7 +260,7 @@ export default function HistoricRestorationPage() {
             <div className="card text-center p-6">
               <Building2 className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-2">Large-Scale Expertise</h3>
-              <p className="text-gray-600">Specializing in projects from $500,000 to $25M+.</p>
+              <p className="text-gray-600">Most projects $500K and up; we take on work from about $250K depending on scope.</p>
             </div>
           </div>
         </div>
@@ -319,7 +319,7 @@ export default function HistoricRestorationPage() {
         <p className="text-gray-600">Renovating an occupied apartment or condominium building means residents stay in place while corridors, common areas, amenity spaces, building systems, and unit programs are rebuilt around them. Our apartment and condominium renovation page explains how we phase building-wide work across Tampa Bay so nobody relocates, and how we prepare documentation and presentations built for the way associations actually decide. Our in-house engineer and architectural draftsman turn assessment findings into buildable details, and accountability stays with us from property assessment through the final phase hand-back. Click through for the FAQs and the related multi-family guides for boards and property managers.</p>
         {/* core30-child:svc__historic_building_restoration */}
         <h3 className="font-bold text-brand-green-dark font-heading text-xl mt-8 mb-3">
-          <a href="/historic-restoration-tampa/">Historic Restoration Tampa FL</a>
+          <a href="/commercial/historic-restoration/">Historic Restoration Tampa FL</a>
         </h3>
         <p className="text-gray-600">Tampa has formally designated historic districts with architectural review requirements, and Ybor City, Hyde Park, and Tampa Heights each carry their own construction history. Our Tampa historic restoration page covers masonry and brick restoration with compatible lime-based mortars, structural stabilization, exterior restoration and finishes, adaptive reuse construction, and historic tax credit projects, along with preservation board navigation and construction documentation and permitting. We restore to the Secretary of the Interior standards and prioritize original material over replacement. Read it for the FAQ on how we approach the historic cigar factory buildings in Ybor City without compromising their character.</p>
         {/* core30-child:svc__multi_family_construction */}

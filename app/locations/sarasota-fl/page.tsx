@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Sarasota?",
-    answer: "In Sarasota, we handle commercial construction, luxury custom homes, multi-family residential, disaster recovery, waterfront estates, balcony reconstruction, and exterior waterproofing. Given Sarasota's affluent market, we have particular expertise in high-end residential construction and coastal development. Project values typically range from $250,000 to $25 million or more."
+    answer: "In Sarasota, we handle commercial construction, luxury custom homes, multi-family residential, disaster recovery, waterfront estates, balcony reconstruction, and exterior waterproofing. Given Sarasota's affluent market, we have particular expertise in high-end residential construction and coastal development. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How far is your office from Sarasota?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     question: "What size projects do you typically handle in Sarasota?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, luxury custom homes, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Sarasota area."
+    answer: "Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes commercial construction, luxury custom homes, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Sarasota area."
   },
   {
     question: "How do I get started on a project in Sarasota?",
@@ -102,7 +102,7 @@ const pillarLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
 ];
 
 const nearbyLocationLinks = [
@@ -120,7 +120,7 @@ export default function SarasotaPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Sarasota"
-        serviceDescription="Premier general contractor serving Sarasota, FL with commercial construction, luxury residential, disaster recovery, and coastal construction. Projects $250K-$25M+."
+        serviceDescription="Premier general contractor serving Sarasota, FL with commercial construction, luxury residential, disaster recovery, and coastal construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />

@@ -33,7 +33,7 @@ const breadcrumbItems = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/tampa-commercial-construction-trends-updates-2024/", label: "2024 Construction Trends" },
-  { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
+  { href: "/floridas-top-commercial-contractor-in-tampa/", label: "Why Tampa Owners Choose FCS" },
   { href: "/commercial/guides/tampa-commercial-construction-networking-events/", label: "Networking Events" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
@@ -235,7 +235,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-600 mb-6">
               Tampa Bay's commercial construction market continues to thrive despite economic headwinds. The region's population growth, business-friendly environment, and strategic location drive sustained development across virtually every commercial sector.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-8">
               While the pace has moderated from the frenetic activity of 2021-2022, quality projects continue moving forward. Developers who secure financing, assemble experienced teams, and identify the right opportunities are finding success. The market rewards disciplined development over speculative excess.
             </p>

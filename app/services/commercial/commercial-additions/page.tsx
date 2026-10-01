@@ -92,7 +92,7 @@ const faqs = [
   },
   {
     question: "What size additions do you handle?",
-    answer: "We handle commercial additions ranging from $250,000 to $20 million or more. This includes modest warehouse expansions, significant office building additions, and large-scale manufacturing facility expansions. Our 40+ years experience and in-house engineering allows us to take on substantial addition projects while maintaining the attention required for smaller expansions.",
+    answer: "We handle commercial additions of many sizes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes modest warehouse expansions, significant office building additions, and large-scale manufacturing facility expansions. Our 40+ years experience and in-house engineering allows us to take on substantial addition projects while maintaining the attention required for smaller expansions.",
   },
   {
     question: "Is it better to add on or relocate?",
@@ -130,7 +130,7 @@ export default function CommercialAdditionsPage() {
               Florida Construction Specialists expands your facility without the disruption of relocating. Whether you need more warehouse space, additional office capacity, or expanded manufacturing capabilities, we build additions that integrate seamlessly with your existing building.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Warehouse, office, manufacturing, and retail additions. Occupied building expertise. Structural matching and utility integration. $250K-$20M+ projects.
+              Warehouse, office, manufacturing, and retail additions. Occupied building expertise. Structural matching and utility integration. Most projects are $500K and up.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">

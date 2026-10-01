@@ -227,7 +227,7 @@ export default function AboutPage() {
               </p>
               <p className="text-gray-600 text-lg">
                 Today, with proven access to construction financing and grant funding for commercial, residential, and historic preservation projects, 
-                we take on projects ranging from $500K to $25M+. Whether it&apos;s a medical office build-out, disaster recovery, 
+                we take on projects mostly $500K and up, starting from about $250K depending on scope. Whether it&apos;s a medical office build-out, disaster recovery, 
                 or a waterfront estate on Davis Islands, every client receives the same commitment to excellence.
               </p>
             </div>
@@ -444,7 +444,7 @@ export default function AboutPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/contact/","label":"Tampa Construction Services"}]}
+            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/commercial/historic-restoration/","label":"Historic Restoration"},{"href":"/contact/","label":"Tampa Construction Services"}]}
             title="Related Resources"
             
           />

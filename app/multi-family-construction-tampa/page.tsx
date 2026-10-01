@@ -63,7 +63,7 @@ export default function MultiFamilyConstructionTampaPage() {
       <LocalBusinessSchema city="Tampa" service="Multi-Family Construction" />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Multi-family construction contractor serving Tampa, FL. Condominiums, apartments, townhomes, senior living, student housing, mixed-use. Licensed CBC1262722, projects from $1M to $25M+."
+        serviceDescription="Multi-family construction contractor serving Tampa, FL. Condominiums, apartments, townhomes, senior living, student housing, mixed-use. Licensed CBC1262722; most projects $500K and up."
         city="Tampa"
         minPrice="1000000"
         serviceCategories={["Condominium Construction", "Apartment Complexes", "Townhome Developments", "Senior Living Facilities", "Student Housing", "Mixed-Use Residential"]}

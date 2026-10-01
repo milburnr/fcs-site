@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Phone, CheckCircle, Award, Building2, Users, Shield, Star, MapPin, Clock, Target } from "lucide-react";
+import { Phone, CheckCircle, Award, Building2, Users, Shield } from "lucide-react";
 import { BUSINESS_INFO } from "@/lib/constants";
 import type { Metadata } from "next";
 import { BreadcrumbSchema, FAQSchema } from "@/components/Schema";
@@ -8,13 +8,17 @@ import { InternalLinks } from "@/components/InternalLinks";
 import RelatedArticles from "@/components/RelatedArticles";
 import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 
+const pageTitle = "Why Choose FCS | Tampa Commercial Track Record";
+const pageDescription =
+  "Why Tampa owners hire FCS: license CBC1262722, in-house engineering, always the prime contractor, and past projects like Tiara and Bay Pines VA.";
+
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/floridas-top-commercial-contractor-in-tampa/' },
-  title: "Florida's Top Commercial Contractor in Tampa",
-  description: "Commercial contractor in Tampa for $500K to $25M+ projects. Always the prime contractor, with in-house engineering, serving Hillsborough County since 1982. Call for a bid.",
+  title: pageTitle,
+  description: pageDescription,
   openGraph: {
-    title: "Florida's Top Commercial Contractor in Tampa",
-    description: "Commercial contractor in Tampa for $500K to $25M+ projects. Always the prime contractor, with in-house engineering, serving Hillsborough County since 1982. Call for a bid.",
+    title: pageTitle,
+    description: pageDescription,
     url: "https://floridaconstructionspecialists.com/floridas-top-commercial-contractor-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -24,135 +28,121 @@ export const metadata: Metadata = {
 
 const breadcrumbItems = [
   { name: "Home", href: "/" },
-  { name: "Florida's Top Commercial Contractor in Tampa", href: "/floridas-top-commercial-contractor-in-tampa/" },
+  { name: "Why Tampa Owners Choose FCS", href: "/floridas-top-commercial-contractor-in-tampa/" },
 ];
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
+  { href: "/hiring-a-commercial-contractor-in-tampa/", label: "How to Hire a Commercial Contractor in Tampa" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
-  { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
-  { href: "/leading-commercial-contractors-in-tampa/", label: "Leading Tampa Contractors" },
+  { href: "/about/", label: "About FCS" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
-const differentiators = [
+const credentials = [
+  {
+    icon: Shield,
+    title: "License CBC1262722",
+    description: "FCS is a Florida Certified Building Contractor. You can look up the license number at myfloridalicense.com before you ever meet us.",
+  },
   {
     icon: Award,
-    title: "Decades of Excellence",
-    description: "Our track record speaks for itself—decades of successful commercial projects across Tampa Bay, delivering on time and on budget.",
+    title: "In-House Engineering",
+    description: "We have an engineer and an architectural draftsman on staff, so structural questions get answered inside the company instead of waiting on an outside consultant.",
   },
   {
     icon: Building2,
-    title: "Full-Service Capabilities",
-    description: "From design-build to general contracting to construction management, we offer the delivery method that best fits your project needs.",
+    title: "Always the Prime Contractor",
+    description: "FCS is always the prime contractor, never a subcontractor. You get direct accountability and a single point of contact for your entire project.",
   },
   {
     icon: Users,
-    title: "Experienced Team",
-    description: "Our project managers, superintendents, and estimators bring deep expertise and maintain long-term relationships with quality subcontractors.",
-  },
-  {
-    icon: Shield,
-    title: "Rock-Solid Credentials",
-    description: "Certified General Contractor, fully insured, bonded for projects of any size, with an exceptional safety record.",
-  },
-  {
-    icon: MapPin,
-    title: "Tampa Bay Expertise",
-    description: "We know this market—the permitting process, local codes, reliable subcontractors, and the unique challenges of Florida construction.",
-  },
-  {
-    icon: Star,
-    title: "Client-Focused Approach",
-    description: "Transparent communication, proactive problem-solving, and a commitment to your success that extends beyond project completion.",
+    title: "Operating Since 1982",
+    description: "FCS combines Florida Restoration Team and Shamblin Construction, contractors that have worked in Florida since 1982, with 300+ completed projects between them.",
   },
 ];
 
-const serviceAreas = [
-  { area: "Tampa", description: "Our home base and primary service area" },
-  { area: "St. Petersburg", description: "Full commercial construction services" },
-  { area: "Clearwater", description: "Complete construction capabilities" },
-  { area: "Brandon", description: "Growing suburban market expertise" },
-  { area: "Lakeland", description: "Serving the I-4 corridor" },
-  { area: "Sarasota", description: "Expanding services south of Tampa Bay" },
-];
-
-const projectTypes = [
+const trackRecord = [
   {
-    type: "Office Buildings",
-    examples: "Corporate headquarters, professional offices, multi-tenant buildings",
-    approach: "We understand that offices represent your brand. From sleek modern designs to professional traditional spaces, we deliver environments that attract talent and impress clients.",
+    name: "Turner Agri-Center",
+    location: "Polk County, FL",
+    value: "$12.5M",
+    shows: "Large-scale rebuild",
+    description: "Complete rebuild of the Turner Agri-Civic Center after catastrophic damage from Hurricane Charley, including structural steel erection and full MEP systems.",
   },
   {
-    type: "Retail & Hospitality",
-    examples: "Restaurants, retail stores, hotels, entertainment venues",
-    approach: "Retail moves fast. We specialize in efficient buildouts that get you open for business on schedule, with the quality finishes that draw customers.",
+    name: "Tiara Condominium Association",
+    location: "Tampa Bay Area",
+    value: "$4.9M",
+    shows: "Work in occupied buildings",
+    description: "Reconstruction of over 180 balconies plus exterior waterproofing, done while residents stayed in the building.",
   },
   {
-    type: "Healthcare Facilities",
-    examples: "Medical offices, dental practices, surgery centers, urgent care",
-    approach: "Healthcare construction demands precision. We navigate complex regulatory requirements while creating healing environments for patients and efficient spaces for providers.",
+    name: "Bay Pines Veterans Hospital",
+    location: "Bay Pines, FL",
+    value: "$2M",
+    shows: "Federal and historic compliance",
+    description: "Historic restoration of a federal facility. The job required federal compliance, coordination with VA facilities management, SHPO adherence, and infection control during active hospital operations.",
   },
   {
-    type: "Industrial & Warehouse",
-    examples: "Distribution centers, manufacturing facilities, flex space",
-    approach: "Tampa's industrial market is booming. We build the facilities that power commerce—from small flex buildings to major distribution centers.",
+    name: "Italian American Club",
+    location: "Ybor City, Tampa",
+    value: "$1.2M",
+    shows: "Historic district approvals",
+    description: "Complete restoration of a landmark building in Ybor City's historic district, working within Barrio Latino Commission requirements.",
   },
   {
-    type: "Educational & Institutional",
-    examples: "Schools, training centers, religious facilities, government buildings",
-    approach: "Institutional projects require specialized expertise. We understand the unique requirements of public-serving facilities and the approval processes they involve.",
-  },
-  {
-    type: "Tenant Improvements",
-    examples: "Office buildouts, restaurant conversions, retail renovations",
-    approach: "Sometimes you don't need a new building—you need to transform existing space. Our tenant improvement expertise delivers quality spaces on tight timelines.",
+    name: "Plant High School",
+    location: "Tampa",
+    value: "$525K",
+    shows: "Specialized masonry",
+    description: "Historic brick restoration at one of Tampa's best-known schools.",
   },
 ];
 
 const processSteps = [
   {
     step: 1,
-    title: "Discovery",
-    description: "We start by understanding your vision, requirements, budget, and timeline. Our team asks the right questions to ensure we're aligned from day one.",
+    title: "Site visit and scope",
+    description: "We walk the property with you, talk through budget and schedule, and tell you plainly whether the project is a good fit for us.",
   },
   {
     step: 2,
-    title: "Planning",
-    description: "During preconstruction, we develop detailed estimates, identify value engineering opportunities, and create a realistic schedule. No surprises later.",
+    title: "Engineering review and estimate",
+    description: "Our in-house engineer looks at the structural side early. The estimate is built on what we actually found, which keeps change orders down later.",
   },
   {
     step: 3,
-    title: "Execution",
-    description: "Our experienced teams manage every aspect of construction—quality, safety, schedule, and budget—with transparent communication throughout.",
+    title: "One contract, one point of contact",
+    description: "As prime contractor we hold the subcontracts and run the schedule. You deal with one project manager, not a dozen trades.",
   },
   {
     step: 4,
-    title: "Delivery",
-    description: "We don't just hand over keys. We ensure systems are commissioned, teams are trained, and you're ready for successful occupancy.",
+    title: "Closeout",
+    description: "Inspections, punch list, and final paperwork are finished before we call the job done.",
   },
 ];
 
 const faqs = [
   {
-    question: "What makes Florida Construction Specialists a 'top' commercial contractor?",
-    answer: "Our reputation is built on results: decades of successful project delivery, repeat clients who trust us with project after project, industry recognition, and referrals from architects, developers, and satisfied clients. We maintain the highest standards for licensing, insurance, safety, and quality—and we're deeply embedded in Tampa Bay's construction community.",
+    question: "What license does Florida Construction Specialists hold?",
+    answer: "FCS holds Florida Certified Building Contractor license CBC1262722. You can verify it on the Florida DBPR site at myfloridalicense.com.",
   },
   {
-    question: "What types of commercial projects do you handle?",
-    answer: "We're a full-service commercial contractor handling projects across all sectors: office, retail, hospitality, healthcare, industrial, educational, and institutional. We offer general contracting, design-build, and construction management services. Project sizes range from small tenant improvements to major ground-up construction.",
+    question: "What size projects does FCS take on?",
+    answer: "Most of our projects are $500K and up; we take on work from about $250K depending on scope.",
   },
   {
-    question: "What geographic areas do you serve?",
-    answer: "Our primary service area is Tampa Bay—including Tampa, St. Petersburg, Clearwater, Brandon, and surrounding communities. We also serve the greater Central Florida region including Lakeland, Sarasota, and along the I-4 corridor. For the right projects, we'll go wherever our clients need us in Florida.",
+    question: "What does it mean that FCS is always the prime contractor?",
+    answer: "We contract directly with the owner and never work as a subcontractor under another firm. That gives you one company accountable for the schedule, the budget, and the trades on site.",
   },
   {
-    question: "How do your fees compare to other commercial contractors?",
-    answer: "We're competitive with other top-tier commercial contractors in Tampa Bay. Our pricing reflects the value we provide: experienced teams, quality workmanship, reliable schedules, and professional project management. We're not the cheapest option—and clients who've experienced budget contractors understand why that matters.",
+    question: "Can I see examples of past FCS projects?",
+    answer: "Yes. Past work includes the $4.9 million Tiara Condominium balcony project, the $2M Bay Pines Veterans Hospital restoration, the $1.2M Italian American Club restoration in Ybor City, Plant High School brick restoration, and the Turner Agri-Center rebuild after Hurricane Charley.",
   },
   {
-    question: "Do you offer design-build services?",
-    answer: "Yes. Design-build is one of our core services, providing single-source responsibility for both design and construction. This approach often accelerates schedules, improves coordination, and gives you one accountable partner. We work with trusted design partners or can incorporate your preferred architect into the team.",
+    question: "Why does in-house engineering matter on a commercial project?",
+    answer: "Structural questions come up on almost every renovation and restoration job. Having an engineer on staff means those questions get answered quickly and the answers feed straight into the estimate and the schedule.",
   },
 ];
 
@@ -161,7 +151,7 @@ export default function Page() {
     <>
       <BreadcrumbSchema items={breadcrumbItems} />
       <FAQSchema faqs={faqs} />
-      
+
       {/* Hero */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
@@ -176,10 +166,10 @@ export default function Page() {
         </div>
         <div className="container-custom text-center text-white relative z-10">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 font-heading">
-            Florida's Top Commercial Contractor in Tampa
+            Why Tampa Owners Choose FCS: Track Record, Credentials, and Past Projects
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200">
-            Florida Construction Specialists has earned our reputation through decades of successful commercial projects. Discover why Tampa Bay businesses trust us with their most important construction needs.
+            The license, the people, and the finished buildings behind Florida Construction Specialists, so you can check our work before you ask us to bid.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
             <Link href="/contact/" className="btn-cta">
@@ -201,29 +191,37 @@ export default function Page() {
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-6">
-              Being called "Florida's top commercial contractor" isn't a title we gave ourselves—it's a reputation we've earned project by project, client by client, over decades of delivering excellence in Tampa Bay's commercial construction market.
+              Before you hire a contractor for a large commercial job, you want proof: a license you can look up, projects you can drive past, and a clear picture of who will run your job. This page puts that in one place.
             </p>
             <p className="text-gray-600 mb-6">
-              In an industry where many contractors come and go, we've built lasting relationships with clients who return to us for project after project. We've developed deep partnerships with the region's best subcontractors and suppliers. We've navigated Tampa's permitting requirements, hurricane seasons, and market fluctuations while consistently delivering quality results.
+              FCS holds Florida Certified Building Contractor license CBC1262722, keeps an engineer on staff, and is always the prime contractor. Most of our projects are $500K and up; we take on work from about $250K depending on scope.
             </p>
             <p className="text-gray-600 mb-8">
-              What does being a "top" contractor mean in practice? It means we have the experience to anticipate problems before they occur. The relationships to assemble the right team for every project. The financial stability to see projects through regardless of market conditions. And the commitment to make your project's success our priority.
+              If you want the full list of what we build, see{" "}
+              <Link href="/commercial/" className="text-brand-green font-semibold hover:underline">
+                our commercial construction services in Tampa Bay
+              </Link>
+              . If you are still comparing firms, our guide on{" "}
+              <Link href="/hiring-a-commercial-contractor-in-tampa/" className="text-brand-green font-semibold hover:underline">
+                how to hire a commercial contractor in Tampa
+              </Link>{" "}
+              covers the questions to ask any bidder, including us.
             </p>
           </div>
         </div>
       </section>
 
-      {/* What Sets Us Apart */}
+      {/* Credentials */}
       <section className="section bg-gray-50">
         <div className="container-custom">
           <h2 className="text-3xl font-bold text-center text-brand-green-dark mb-4 font-heading">
-            What Sets Florida Construction Specialists Apart
+            Credentials You Can Check
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            Any contractor can make promises. These are the qualities that define our performance.
+            Each of these is something you can verify or ask us to show you.
           </p>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {differentiators.map((item, index) => (
+          <div className="grid md:grid-cols-2 gap-6 max-w-5xl mx-auto">
+            {credentials.map((item, index) => (
               <div key={index} className="bg-white rounded-xl shadow-lg p-6">
                 <div className="w-12 h-12 bg-brand-gold/20 rounded-full flex items-center justify-center mb-4">
                   <item.icon className="w-6 h-6 text-brand-gold" />
@@ -233,39 +231,59 @@ export default function Page() {
               </div>
             ))}
           </div>
+          <div className="max-w-5xl mx-auto mt-6 bg-white rounded-xl shadow-lg p-6">
+            <h3 className="text-lg font-bold text-brand-green-dark mb-4 font-heading">Insurance</h3>
+            <ul className="space-y-3">
+              <li className="flex items-start gap-2 text-gray-600">
+                <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
+                <span>General liability insurance</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-600">
+                <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
+                <span>Workers&apos; compensation coverage</span>
+              </li>
+              <li className="flex items-start gap-2 text-gray-600">
+                <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
+                <span>Professional liability coverage</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      {/* Project Types */}
+      {/* Track record */}
       <section className="section bg-white">
         <div className="container-custom">
           <h2 className="text-3xl font-bold text-center text-brand-green-dark mb-4 font-heading">
-            Commercial Construction Expertise
+            Past Projects and What They Show
           </h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-            We bring specialized expertise to every type of commercial project.
+            A few of the jobs FCS and its founding companies have completed, and the kind of problem each one proves we can handle.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {projectTypes.map((item, index) => (
+            {trackRecord.map((item, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-xl font-bold text-brand-green-dark mb-2 font-heading">{item.type}</h3>
-                <p className="text-sm text-brand-gold mb-3">{item.examples}</p>
-                <p className="text-gray-600 text-sm">{item.approach}</p>
+                <p className="text-sm font-semibold text-brand-gold mb-2">{item.shows}</p>
+                <h3 className="text-xl font-bold text-brand-green-dark mb-1 font-heading">{item.name}</h3>
+                <p className="text-sm text-gray-500 mb-3">
+                  {item.location} &middot; {item.value}
+                </p>
+                <p className="text-gray-600 text-sm">{item.description}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Our Process */}
+      {/* How FCS runs a project */}
       <section className="section bg-gray-50">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading text-center">
-              Our Proven Process
+              How FCS Runs a Project
             </h2>
             <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-              Every successful project follows a proven path from concept to completion.
+              What working with us looks like, from the first site visit to closeout.
             </p>
             <div className="space-y-6">
               {processSteps.map((step, index) => (
@@ -284,112 +302,8 @@ export default function Page() {
         </div>
       </section>
 
-      {/* Service Areas */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading flex items-center gap-3">
-              <MapPin className="w-8 h-8 text-brand-gold" />
-              Tampa Bay & Beyond
-            </h2>
-            <p className="text-gray-600 mb-8">
-              We're proud to serve the entire Tampa Bay region and surrounding areas throughout Central Florida.
-            </p>
-            <div className="grid md:grid-cols-3 gap-4">
-              {serviceAreas.map((area, index) => (
-                <div key={index} className="bg-gray-50 rounded-xl p-4 text-center">
-                  <h3 className="font-bold text-brand-green-dark mb-1">{area.area}</h3>
-                  <p className="text-sm text-gray-600">{area.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Why Tampa */}
-      <section className="section bg-gray-50">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
-              Why Tampa Bay Needs Top-Tier Contractors
-            </h2>
-            
-            <div className="prose prose-lg max-w-none text-gray-600">
-              <p className="mb-6">
-                Tampa Bay is one of the fastest-growing metropolitan areas in the United States, and that growth demands quality commercial construction. The businesses relocating here, the entrepreneurs starting here, and the investors building here deserve contractors who can deliver excellence—not just adequate work.
-              </p>
-              <p className="mb-6">
-                Florida's construction environment presents unique challenges. Hurricane codes are among the nation's strictest. The subtropical climate requires specific construction techniques and materials. The permitting landscape varies significantly between jurisdictions. And the booming market means competition for skilled labor and quality subcontractors is fierce.
-              </p>
-              <p className="mb-6">
-                A top contractor in this market must have more than just construction skills. We need deep local knowledge, established relationships, financial stability to weather market fluctuations, and the commitment to maintain quality even when it would be easier to cut corners.
-              </p>
-              <p>
-                That's what Florida Construction Specialists brings to every project. We're not just building structures—we're building Tampa Bay's future, one quality project at a time.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Credentials */}
-      <section className="section bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
-              Our Credentials
-            </h2>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-brand-green-dark mb-4 font-heading">Licensing & Insurance</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Florida Certified Building Contractor (CBC)</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Comprehensive general liability insurance</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Full workers' compensation coverage</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Bonding capacity for major projects</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="bg-gray-50 rounded-xl p-6">
-                <h3 className="text-lg font-bold text-brand-green-dark mb-4 font-heading">Industry Involvement</h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>Tampa Bay Builders Association member</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>ABC Florida active participant</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>OSHA safety certified</span>
-                  </li>
-                  <li className="flex items-start gap-2 text-gray-600">
-                    <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
-                    <span>BBB accredited business</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* FAQs */}
-      <section className="section bg-gray-50">
+      <section className="section bg-white">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold text-brand-green-dark mb-8 font-heading">
@@ -397,7 +311,7 @@ export default function Page() {
             </h2>
             <div className="space-y-6">
               {faqs.map((faq, index) => (
-                <div key={index} className="bg-white rounded-xl p-6 shadow-lg">
+                <div key={index} className="bg-gray-50 rounded-xl p-6 shadow-lg">
                   <h3 className="text-lg font-bold text-brand-green-dark mb-3 font-heading">{faq.question}</h3>
                   <p className="text-gray-600">{faq.answer}</p>
                 </div>
@@ -408,10 +322,10 @@ export default function Page() {
       </section>
 
       {/* Internal Links */}
-      <section className="section bg-white">
+      <section className="section bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            title="Explore Our Services"
+            title="Learn More About FCS"
             links={internalLinks}
           />
         </div>
@@ -421,10 +335,10 @@ export default function Page() {
       <section className="section bg-brand-green">
         <div className="container-custom text-center">
           <h2 className="text-3xl font-bold text-white mb-4 font-heading">
-            Experience the Florida Construction Specialists Difference
+            Ask Us for References
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Let us show you why Tampa Bay's most discerning clients choose us for their commercial construction projects.
+            Tell us about your project and we will share comparable past work and walk you through how we would run it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">

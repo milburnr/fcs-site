@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Phone, ArrowRight, MapPin } from "lucide-react";
-import { BUSINESS_INFO } from "@/lib/constants";
+import { BUSINESS_INFO, serviceCityHref } from "@/lib/constants";
 import { BreadcrumbSchema, ServiceSchema } from "@/components/Schema";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { FadeIn } from "@/components/AnimatedElements";
@@ -292,7 +292,7 @@ export default function LocationsHubPage() {
                 </p>
 
                 <p>
-                  FCS brings the same capabilities to every city we serve: in-house engineering and architectural drafting, Critical Path Method (CPM) scheduling for timeline control, certified estimating for insurance claims, and the bonding capacity required for projects from $500K to $25M+. Whether your project is a single-building restoration in Bradenton or a multi-site commercial program spanning Tampa, St. Petersburg, and Lakeland, Florida Construction Specialists has the local knowledge, technical resources, and project management infrastructure to deliver results.
+                  FCS brings the same capabilities to every city we serve: in-house engineering and architectural drafting, Critical Path Method (CPM) scheduling for timeline control, certified estimating for insurance claims, and the bonding capacity required for large projects (most of ours are $500K and up). Whether your project is a single-building restoration in Bradenton or a multi-site commercial program spanning Tampa, St. Petersburg, and Lakeland, Florida Construction Specialists has the local knowledge, technical resources, and project management infrastructure to deliver results.
                 </p>
               </div>
             </div>
@@ -355,7 +355,7 @@ export default function LocationsHubPage() {
                           {SERVICE_LOCATION_PAGES.map((service) => (
                             <Link
                               key={`${service.slug}-${city.slug}`}
-                              href={`/${service.slug}-${city.slug}/`}
+                              href={serviceCityHref(service.slug, city.slug)}
                               className="flex items-center gap-2 px-4 py-2.5 bg-gray-50 hover:bg-brand-green-bg rounded-lg text-sm font-medium text-brand-green-dark hover:text-brand-green transition-colors group"
                             >
                               <ArrowRight className="w-3.5 h-3.5 text-gray-400 group-hover:text-brand-green transition-colors flex-shrink-0" />

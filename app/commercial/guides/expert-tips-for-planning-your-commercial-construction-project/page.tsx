@@ -231,7 +231,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 The decisions you make before construction begins have more impact on project success than anything that happens on the job site. Proper planning establishes realistic budgets, identifies problems before they become expensive, and creates a roadmap that guides everyone toward successful completion.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
               <p className="text-gray-600 mb-6">
                 At Florida Construction Specialists, we've seen hundreds of commercial construction projects across Tampa Bay. The ones that succeed share common characteristics: thorough upfront planning, realistic budgets with appropriate contingencies, clear decision-making processes, and teams that communicate effectively. The ones that struggle typically skipped steps in planning, hoping to "figure it out as we go."
               </p>

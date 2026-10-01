@@ -121,7 +121,7 @@ export default function Page() {
                 Why Choose Florida Construction Specialists for Your Business Building Plans in Tampa
               </h2>
               <p className="text-gray-600 mb-6">
-                When selecting a commercial construction partner for your building plans in Tampa, experience and local expertise are paramount. Florida Construction Specialists stands as the region's most trusted name in high-end commercial construction, having successfully completed projects ranging from $500,000 to $50 million throughout the Tampa Bay area. Our team of licensed architects, engineers, and construction specialists understands the intricate balance between functionality, aesthetics, and regulatory compliance required for successful business facilities.
+                When selecting a commercial construction partner for your building plans in Tampa, experience and local expertise are paramount. Florida Construction Specialists stands as the region's most trusted name in high-end commercial construction, having completed projects throughout the Tampa Bay area, most of them $500K and up. Our team of licensed architects, engineers, and construction specialists understands the intricate balance between functionality, aesthetics, and regulatory compliance required for successful business facilities.
               </p>
               
               <p className="text-gray-600 mb-6">

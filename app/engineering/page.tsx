@@ -555,7 +555,7 @@ export default function EngineeringCoordinationPage() {
               <h3 className="text-lg font-bold text-gray-800 mb-3 group-hover:text-blue-600 transition-colors">
                 Commercial Construction
               </h3>
-              <p className="text-gray-600 text-sm mb-4">Large-scale commercial projects from $500K to $25M+ throughout Tampa Bay.</p>
+              <p className="text-gray-600 text-sm mb-4">Large-scale commercial projects throughout Tampa Bay, most of them $500K and up.</p>
               <span className="inline-flex items-center text-blue-600 font-semibold text-sm">
                 Learn More <ArrowRight className="w-4 h-4 ml-2" />
               </span>

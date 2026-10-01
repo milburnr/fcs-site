@@ -32,7 +32,7 @@ const breadcrumbItems = [
 const services = [
   {
     title: "Commercial Construction",
-    description: "Office buildings, retail centers, medical facilities, and mixed-use developments. Projects from $500K to $25M+ throughout Tampa Bay.",
+    description: "Office buildings, retail centers, medical facilities, and mixed-use developments. Most projects $500K and up throughout Tampa Bay.",
     icon: Building2,
     href: "/commercial/",
   },
@@ -52,7 +52,7 @@ const services = [
     title: "Historic Restoration",
     description: "SHPO compliance, Secretary of Interior Standards, historic tax credits. Ybor City expertise including Italian American Club restoration.",
     icon: Building2,
-    href: "/services/historic-restoration/",
+    href: "/commercial/historic-restoration/",
   },
 ];
 
@@ -63,7 +63,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle?",
-    answer: "We handle large-scale commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. As a prime contractor (never a subcontractor), we take full accountability on every project. Project values typically range from $250,000 to $25 million or more."
+    answer: "We handle large-scale commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. As a prime contractor (never a subcontractor), we take full accountability on every project. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "What areas do you serve from your Ruskin location?",
@@ -103,7 +103,7 @@ const pillarLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
 ];
 
 const serviceAreaLinks = [
@@ -124,7 +124,7 @@ export default function RuskinPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services from Ruskin Headquarters"
-        serviceDescription="Florida Construction Specialists headquarters. Premier general contractor serving Tampa Bay with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
+        serviceDescription="Florida Construction Specialists headquarters. Premier general contractor serving Tampa Bay with commercial construction, disaster recovery, historic restoration, and residential construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
@@ -155,7 +155,7 @@ export default function RuskinPage() {
               Licensed & Insured Building Contractor in Ruskin, FL
             </h1>
             <p className="text-xl text-gray-200 mb-4 max-w-3xl">
-              Florida Construction Specialists is headquartered here, serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects from $250K to $25M+.
+              Florida Construction Specialists is headquartered here, serving all of Tampa Bay from our central Ruskin location. Commercial construction, disaster recovery, historic restoration, and luxury residential projects, most of them $500K and up.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               Headquartered in Ruskin since 1982, our central location provides ideal access to Tampa, Brandon, Plant City, Lakeland, Clearwater, St. Petersburg, Sarasota, and Bradenton—the entire Tampa Bay region.
@@ -316,7 +316,7 @@ export default function RuskinPage() {
               </div>
               <h3 className="font-bold text-brand-green-dark text-lg mb-3">Dual Expertise</h3>
               <p className="text-gray-600 text-sm">
-                Commercial and residential construction under one roof. Whether you need a $50M commercial development or a custom luxury home, we have the expertise to deliver.
+                Commercial and residential construction under one roof. Whether you need a large commercial development or a custom luxury home, we have the expertise to deliver.
               </p>
             </div>
           </div>

@@ -115,7 +115,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa's commercial construction industry operates under a comprehensive framework of laws, regulations, and building codes designed to ensure safety, sustainability, and compliance across all projects. As Florida's premier commercial contractor, Florida Construction Specialists has extensive experience navigating these complex legal requirements while delivering exceptional results for clients throughout the Tampa Bay region.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Tampa Building Code Requirements and Regulations

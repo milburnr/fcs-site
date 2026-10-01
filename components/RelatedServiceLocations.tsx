@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, MapPin, Wrench } from "lucide-react";
+import { serviceCityHref } from "@/lib/constants";
 
 // All 9 service-location services (cross-references actual app/ directory)
 const ALL_SERVICES = [
@@ -56,7 +57,7 @@ export function RelatedServiceLocations({
               {otherServices.map((service) => (
                 <Link
                   key={service.slug}
-                  href={`/${service.slug}-${citySlug}/`}
+                  href={serviceCityHref(service.slug, citySlug)}
                   className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 shadow-sm hover:border-brand-green hover:shadow-md transition-all group"
                 >
                   <ArrowRight className="w-4 h-4 text-brand-gold flex-shrink-0 group-hover:translate-x-1 transition-transform" />
@@ -78,7 +79,7 @@ export function RelatedServiceLocations({
               {otherCities.map((city) => (
                 <Link
                   key={city.slug}
-                  href={`/${currentService}-${city.slug}/`}
+                  href={serviceCityHref(currentService, city.slug)}
                   className="flex items-center gap-3 p-3 bg-white rounded-lg border border-gray-200 shadow-sm hover:border-brand-green hover:shadow-md transition-all group"
                 >
                   <ArrowRight className="w-4 h-4 text-brand-gold flex-shrink-0 group-hover:translate-x-1 transition-transform" />

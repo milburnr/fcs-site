@@ -129,7 +129,7 @@ export default function CommercialGuidesPage() {
         <div className="container mx-auto px-4 max-w-5xl text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Need Expert Commercial Construction Guidance?</h2>
           <p className="text-gray-600 mb-6">
-            Florida Construction Specialists has delivered $500K–$25M+ commercial projects across Tampa Bay since 1982.
+            Florida Construction Specialists has delivered commercial projects across Tampa Bay since 1982. Most are $500K and up; we take on work from about $250K depending on scope.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

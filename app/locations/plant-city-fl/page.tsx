@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Plant City?",
-    answer: "In Plant City, we handle a full range of construction services including commercial construction, agricultural and industrial facilities, disaster recovery, and luxury residential projects. Given Plant City's agricultural heritage, we have particular expertise in warehouses, cold storage facilities, and processing plants. Project values typically range from $250,000 to $25 million or more."
+    answer: "In Plant City, we handle a full range of construction services including commercial construction, agricultural and industrial facilities, disaster recovery, and luxury residential projects. Given Plant City's agricultural heritage, we have particular expertise in warehouses, cold storage facilities, and processing plants. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How close is your office to Plant City?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     question: "What size projects do you typically handle in Plant City?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, agricultural facilities, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Plant City area."
+    answer: "Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes commercial construction, agricultural facilities, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Plant City area."
   },
   {
     question: "How do I get started on a project in Plant City?",
@@ -105,7 +105,7 @@ export default function PlantCityPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Plant City"
-        serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Projects $250K-$25M+."
+        serviceDescription="Premier general contractor serving Plant City, FL with commercial construction, agricultural facilities, disaster recovery, and residential construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
@@ -416,7 +416,7 @@ export default function PlantCityPage() {
                 <li><Link href="/commercial/" className="text-brand-green hover:underline">Commercial Construction</Link></li>
                 <li><Link href="/residential/" className="text-brand-green hover:underline">Residential Construction</Link></li>
                 <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
-                <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
+                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
               </ul>
             </div>
             <div>
@@ -469,7 +469,7 @@ export default function PlantCityPage() {
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
           <InternalLinks
-            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/services/historic-restoration/","label":"Historic Restoration"},{"href":"/contact/","label":"Tampa Construction Services"}]}
+            links={[{"href":"/commercial/","label":"Commercial Construction"},{"href":"/residential/","label":"Residential Construction"},{"href":"/insurance/","label":"Disaster Recovery"},{"href":"/commercial/historic-restoration/","label":"Historic Restoration"},{"href":"/contact/","label":"Tampa Construction Services"}]}
             title="Related Resources"
             
           />

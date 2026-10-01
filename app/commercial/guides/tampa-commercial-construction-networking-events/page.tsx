@@ -33,7 +33,7 @@ const breadcrumbItems = [
 
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
-  { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
+  { href: "/floridas-top-commercial-contractor-in-tampa/", label: "Why Tampa Owners Choose FCS" },
   { href: "/commercial/guides/tampa-commercial-construction-trends-updates-2024/", label: "2024 Construction Trends" },
   { href: "/commercial/guides/commercial-construction-consultancy-in-tampa/", label: "Construction Consultancy" },
   { href: "/contact/", label: "Schedule a Consultation" },

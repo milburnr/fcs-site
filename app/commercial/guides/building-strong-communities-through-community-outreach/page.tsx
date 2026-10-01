@@ -138,7 +138,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Construction shapes communities physically, but our impact extends far beyond the buildings we create. Florida Construction Specialists has served Tampa Bay for decades, and we recognize that our success depends on healthy, thriving communities. Our outreach initiatives address housing needs, support local nonprofits, develop workforce skills, and engage our employees in meaningful service. We believe companies that benefit from communities have obligation to give back, and we take that obligation seriously.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Our Community Philosophy

@@ -60,7 +60,7 @@ const projectTypes = [
 const faqs = [
   {
     question: "What size multi-family projects do you handle?",
-    answer: "Florida Construction Specialists handles multi-family projects ranging from $1 million to over $25 million. This includes smaller townhome developments (10-30 units), mid-size apartment communities (50-150 units), and large-scale developments (150+ units). Our 40+ years experience and in-house engineering allows us to take on substantial multi-family projects while our experienced team can efficiently deliver smaller developments.",
+    answer: "Florida Construction Specialists handles multi-family projects of many sizes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes smaller townhome developments (10-30 units), mid-size apartment communities (50-150 units), and large-scale developments (150+ units). Our 40+ years experience and in-house engineering allows us to take on substantial multi-family projects while our experienced team can efficiently deliver smaller developments.",
   },
   {
     question: "Do you work with multi-family developers?",
@@ -105,7 +105,7 @@ export default function MultiFamilyPage() {
     <>
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Multi-family residential construction in Tampa Bay including apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Projects from $1M to $25M+."
+        serviceDescription="Multi-family residential construction in Tampa Bay including apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Most projects $500K and up."
         minPrice="1000000"
       serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Mixed-Use Developments"]}
       />
@@ -130,7 +130,7 @@ export default function MultiFamilyPage() {
               Florida Construction Specialists delivers multi-family projects that meet developer pro forma requirements while creating quality living environments. From townhome communities to large-scale apartment developments, we bring efficiency and expertise to residential construction.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. $1M-$25M+ projects with 40+ years experience and in-house engineering.
+              Apartments, condominiums, townhomes, and senior living. Ground-up construction and renovation. Most projects are $500K and up, with 40+ years experience and in-house engineering.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">

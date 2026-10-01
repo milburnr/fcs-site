@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Summer construction in Florida presents some of the most challenging working conditions in the country. With heat indices regularly exceeding 100°F, near-daily afternoon thunderstorms, intense UV radiation, and hurricane threats, Tampa Bay construction crews face hazards that demand specialized safety protocols. Florida Construction Specialists has developed comprehensive summer safety programs that protect workers while maintaining productivity throughout the region's hottest months.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

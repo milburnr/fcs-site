@@ -12,10 +12,10 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/contact/' },
   title: "Contact Florida Construction Specialists",
   description:
-    "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience, $500K-$25M+ projects.",
+    "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience; most projects $500K and up.",
   openGraph: {
     title: "Contact Florida Construction Specialists",
-    description: "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience, $500K-$25M+ projects.",
+    description: "Contact FCS to discuss your commercial or residential construction project in Tampa Bay. 40+ years experience; most projects $500K and up.",
     url: "https://floridaconstructionspecialists.com/contact/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -41,7 +41,7 @@ export default function ContactPage() {
             Let&apos;s Discuss Your Project
           </h1>
           <p className="text-xl max-w-3xl mx-auto text-gray-200 mb-6">
-            Whether you are managing a $500K condo restoration or planning a $25M commercial
+            Whether you are managing a $500K condo restoration or planning a ground-up commercial
             build, our team is ready to discuss your project scope, timeline, and budget.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

@@ -31,7 +31,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/services/commercial/design-build/", label: "Design-Build Construction" },
   { href: "/commercial/guides/hire-licensed-contractors-for-commercial-construction-project/", label: "Why Hire Licensed Contractors" },
-  { href: "/top-commercial-contractors-in-tampa/", label: "Top Tampa Contractors" },
+  { href: "/floridas-top-commercial-contractor-in-tampa/", label: "FCS Track Record & Credentials" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -107,6 +107,42 @@ const evaluationCriteria = [
   },
 ];
 
+const deliveryMethods = [
+  {
+    type: "General Contractor (Design-Bid-Build)",
+    description: "You hire an architect to complete the design, then bid it out. The contractor manages subcontractors, schedule, budget, and quality.",
+    bestFor: "Projects with complete drawings where you want competitive bids on a fixed scope.",
+  },
+  {
+    type: "Design-Build",
+    description: "One contract covers design and construction, so a single firm is accountable for both.",
+    bestFor: "Projects where speed matters and you want one point of accountability.",
+  },
+  {
+    type: "Construction Manager (CM)",
+    description: "The contractor joins during design, gives cost and constructability input, then manages construction.",
+    bestFor: "Complex projects where early contractor input adds value and you want fee transparency.",
+  },
+];
+
+const rfpSections = [
+  { section: "Project Description", include: "Scope, location, size, building type, special requirements" },
+  { section: "Drawings & Specs", include: "Whatever design documents are available" },
+  { section: "Schedule Requirements", include: "Start date, completion date, key milestones" },
+  { section: "Submission Requirements", include: "Format, content, and credentials required" },
+  { section: "Selection Criteria", include: "How proposals will be evaluated" },
+  { section: "Process Timeline", include: "Questions deadline, submission deadline, interviews, decision date" },
+];
+
+const contractTerms = [
+  { term: "Contract Sum", detail: "Clear price with inclusions and exclusions spelled out" },
+  { term: "Payment Terms", detail: "Schedule of values, payment timing, retainage provisions" },
+  { term: "Schedule", detail: "Contractual completion date, milestone dates, delay remedies" },
+  { term: "Change Orders", detail: "Process for changes, pricing method, approval requirements" },
+  { term: "Insurance & Bonding", detail: "Required coverages, limits, and documentation" },
+  { term: "Dispute Resolution", detail: "How disagreements get resolved" },
+];
+
 const redFlags = [
   "Requires large upfront payment (over 10%)",
   "No physical office or business address",
@@ -125,7 +161,7 @@ const faqs = [
   },
   {
     question: "How do I verify a contractor's license in Florida?",
-    answer: "Visit myfloridalicense.com and search by the contractor's name or license number. For commercial work, ensure they hold a Certified General Contractor (CGC) license, which allows them to build any structure statewide. Also verify their insurance certificates directly with the insurance company, not just copies from the contractor.",
+    answer: "Visit myfloridalicense.com and search by the contractor's name or license number. For commercial work, confirm they hold a state-certified license such as a Certified General Contractor (CGC) or Certified Building Contractor (CBC) license, and that its scope covers your building type. Also verify their insurance certificates directly with the insurance company, not just copies from the contractor.",
   },
   {
     question: "What questions should I ask a commercial contractor before hiring?",
@@ -138,6 +174,18 @@ const faqs = [
   {
     question: "Should I hire the lowest bidder for my commercial project?",
     answer: "Rarely. The lowest bid often indicates missed scope items, inexperience, or a contractor who plans to make up costs through change orders. Evaluate total value: experience, reputation, communication, and realistic timelines matter as much as price. Aim for the best-qualified contractor within your budget range, typically the middle third of bids received.",
+  },
+  {
+    question: "How long does the contractor selection process take?",
+    answer: "Allow four to eight weeks: one to two weeks to write and send the RFP, two to three weeks for contractors to prepare proposals, one to two weeks for evaluation and interviews, and about a week for reference checks and negotiation. Rushing it raises the risk of a poor choice.",
+  },
+  {
+    question: "Should I negotiate price after receiving proposals?",
+    answer: "Yes, but focus on value rather than just a lower number. Ask contractors to explain their pricing, where scope could be adjusted, and what alternatives exist. Avoid bid shopping (using one contractor's price to pressure another). It damages relationships and often leads to reduced quality or scope.",
+  },
+  {
+    question: "Should I hire an owner's representative to help select a contractor?",
+    answer: "For larger projects, especially if you don't have construction experience, an owner's representative, construction consultant, or your architect can run the selection process, evaluate proposals, and review contract terms on your behalf.",
   },
 ];
 
@@ -318,7 +366,7 @@ export default function Page() {
                   Licensing, Insurance & Bonding
                 </h3>
                 <p className="text-gray-600 mb-4">
-                  This is non-negotiable. Florida law requires contractors performing commercial work over $1,000 to hold a valid license. For most commercial projects, you need a Certified General Contractor (CGC) who can build any structure statewide. Verify their license at myfloridalicense.com—don't just take their word for it.
+                  This is non-negotiable. Florida law requires contractors performing commercial work over $1,000 to hold a valid license. For most commercial projects, look for a state-certified contractor, such as a Certified General Contractor (CGC) or Certified Building Contractor (CBC), whose license scope covers your building type. Verify their license at myfloridalicense.com—don't just take their word for it.
                 </p>
                 <p className="text-gray-600 mb-4">
                   Insurance is equally critical. Request certificates of insurance directly from their insurance company (not just copies from the contractor). For commercial work, look for at least $1 million in general liability and adequate workers' compensation. Bonding provides additional protection—it guarantees project completion if the contractor defaults.
@@ -339,6 +387,19 @@ export default function Page() {
                 </p>
                 <p className="text-gray-600 mb-4">
                   Pay attention to responsiveness during the bidding process. If a contractor takes a week to return your calls now, imagine how they'll perform when you're competing with their other active projects. The best contractors are responsive, organized, and proactive in their communication.
+                </p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 shadow-lg">
+                <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading flex items-center gap-2">
+                  <CheckCircle className="w-6 h-6 text-brand-gold" />
+                  Safety Record
+                </h3>
+                <p className="text-gray-600 mb-4">
+                  Ask for the contractor's Experience Modification Rate (EMR), the workers' comp rating insurers use to compare a firm's injury history to the industry average. An EMR below 1.0 means fewer claims than average. Also ask for their OSHA history and a copy of their written safety program, and look at how organized and safe their active job sites are.
+                </p>
+                <p className="text-gray-600">
+                  To check reputation beyond the references a contractor hands you, ask subcontractors and suppliers who they like working for. They know which firms pay on time and run orderly projects.
                 </p>
               </div>
             </div>
@@ -366,6 +427,82 @@ export default function Page() {
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Delivery Methods */}
+      <section className="section bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
+              Choosing a Project Delivery Method
+            </h2>
+            <p className="text-gray-600 mb-8">
+              Decide how you want the project delivered before you shortlist contractors. It changes who you hire first and what you ask them to price.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6">
+              {deliveryMethods.map((method, index) => (
+                <div key={index} className="bg-white rounded-xl p-6 shadow-lg">
+                  <h3 className="text-lg font-bold text-brand-green-dark mb-2 font-heading">{method.type}</h3>
+                  <p className="text-gray-600 text-sm mb-3">{method.description}</p>
+                  <p className="text-sm"><strong className="text-brand-green-dark">Best for:</strong> <span className="text-gray-700">{method.bestFor}</span></p>
+                </div>
+              ))}
+            </div>
+            <p className="text-gray-600 mt-6">
+              Design-build is covered in more detail on our{" "}
+              <Link href="/services/commercial/design-build/" className="text-brand-green font-semibold hover:underline">
+                design-build construction
+              </Link>{" "}
+              page.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* RFP & Contract */}
+      <section className="section bg-white">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-brand-green-dark mb-4 font-heading">
+              Writing the RFP and Negotiating the Contract
+            </h2>
+            <p className="text-gray-600 mb-8">
+              A clear request for proposal (RFP) gets you bids you can actually compare. Include these sections:
+            </p>
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden mb-10">
+              <table className="w-full">
+                <thead className="bg-brand-green-dark text-white">
+                  <tr>
+                    <th className="px-6 py-4 text-left font-heading">RFP Section</th>
+                    <th className="px-6 py-4 text-left font-heading">What to Include</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-gray-200">
+                  {rfpSections.map((row, index) => (
+                    <tr key={index} className={index % 2 === 0 ? "bg-gray-50" : "bg-white"}>
+                      <td className="px-6 py-4 font-semibold text-gray-700">{row.section}</td>
+                      <td className="px-6 py-4 text-gray-600">{row.include}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <h3 className="text-xl font-bold text-brand-green-dark mb-4 font-heading">
+              Contract Terms to Pin Down
+            </h3>
+            <div className="grid md:grid-cols-2 gap-4 mb-6">
+              {contractTerms.map((item, index) => (
+                <div key={index} className="flex items-start gap-3 bg-gray-50 rounded-lg p-4">
+                  <CheckCircle className="w-5 h-5 text-brand-green flex-shrink-0 mt-0.5" />
+                  <span className="text-gray-700"><strong>{item.term}:</strong> {item.detail}</span>
+                </div>
+              ))}
+            </div>
+            <p className="text-gray-600">
+              Standard forms such as AIA or ConsensusDocs contracts are a reasonable starting point because they address common issues with balanced terms. Have your attorney review the contract before signing, particularly if the contractor drafted it.
+            </p>
           </div>
         </div>
       </section>
@@ -457,14 +594,18 @@ export default function Page() {
               Why Tampa Businesses Choose Florida Construction Specialists
             </h2>
             <p className="text-gray-600 mb-8">
-              As a leading commercial contractor serving Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area, Florida Construction Specialists brings the experience, resources, and commitment that discerning clients demand.
+              Florida Construction Specialists serves Tampa, St. Petersburg, Clearwater, and the greater Tampa Bay area. Most of our projects are $500K and up; we take on work from about $250K depending on scope. See our{" "}
+              <Link href="/commercial/" className="text-brand-green font-semibold hover:underline">
+                commercial construction services in Tampa
+              </Link>{" "}
+              for the project types we build.
             </p>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="flex items-start gap-4">
                 <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-1" />
                 <div>
                   <h3 className="font-bold text-gray-800 mb-1">Licensed & Insured</h3>
-                  <p className="text-gray-600 text-sm">Certified General Contractor with full insurance coverage and bonding for projects of any size.</p>
+                  <p className="text-gray-600 text-sm">Florida Certified Building Contractor ({BUSINESS_INFO.licenseNumber}) with full insurance coverage and bonding.</p>
                 </div>
               </div>
               <div className="flex items-start gap-4">

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight, MapPin, Wrench } from "lucide-react";
-import { SERVICES, LOCATIONS } from "@/lib/constants";
+import { SERVICES, LOCATIONS, serviceCityHref } from "@/lib/constants";
 
 interface RelatedServicesProps {
   city: string;
@@ -33,7 +33,7 @@ export function RelatedServices({ city, currentService, limit = 6 }: RelatedServ
         {services.map((service) => (
           <li key={service.slug}>
             <Link
-              href={`/${service.slug}-${citySlug}/`}
+              href={serviceCityHref(service.slug, citySlug)}
               className="flex items-center text-gray-700 hover:text-brand-green transition-colors group"
             >
               <ArrowRight className="w-4 h-4 mr-2 text-brand-gold group-hover:translate-x-1 transition-transform" />
@@ -65,7 +65,7 @@ export function NearbyLocations({ currentCity, service, serviceName, limit = 7 }
       <ul className="space-y-2">
         {locations.map((location) => {
           const href = service
-            ? `/${service}-${location.slug.replace("-fl", "")}/`
+            ? serviceCityHref(service, location.slug.replace("-fl", ""))
             : `/locations/${location.slug}/`;
           return (
             <li key={location.slug}>
@@ -102,7 +102,7 @@ export function ServiceAreaLinks({ service, serviceName }: ServiceAreaLinksProps
             return (
               <Link
                 key={location.slug}
-                href={`/${service}-${citySlug}/`}
+                href={serviceCityHref(service, citySlug)}
                 className="flex items-center justify-center p-4 bg-gray-50 rounded-lg hover:bg-brand-green-bg transition-colors group"
               >
                 <MapPin className="w-4 h-4 mr-2 text-brand-gold" />
@@ -169,7 +169,7 @@ export function ServiceCardGrid({ city, citySlug }: ServiceCardGridProps) {
       {SERVICES.map((service) => (
         <Link
           key={service.slug}
-          href={`/${service.slug}-${citySlug}/`}
+          href={serviceCityHref(service.slug, citySlug)}
           className="card hover:shadow-lg transition-shadow group"
         >
           <h3 className="text-lg font-bold text-brand-green-dark mb-2 group-hover:text-brand-green transition-colors">

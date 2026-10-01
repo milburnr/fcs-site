@@ -57,7 +57,7 @@ const faqs = [
 const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction" },
   { href: "/residential/", label: "Residential Construction" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration" },
   { href: "/insurance/", label: "Disaster Recovery" },
   { href: "/contact/", label: "Contact Us" },
 ];

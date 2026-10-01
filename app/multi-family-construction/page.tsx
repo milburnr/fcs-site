@@ -87,7 +87,7 @@ export default function MultiFamilyConstructionPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Multi-Family Construction"
-        serviceDescription="Tampa Bay's premier multi-family construction contractor. 40+ years building condominiums, apartment complexes, townhomes, senior living facilities, and mixed-use developments. Projects from $1M to $50M+."
+        serviceDescription="Tampa Bay's premier multi-family construction contractor. 40+ years building condominiums, apartment complexes, townhomes, senior living facilities, and mixed-use developments. Most projects $500K and up."
         minPrice="1000000"
         serviceCategories={["Condominiums","Apartment Complexes","Townhomes","Senior Living Facilities","Mixed-Use Developments"]}
       />
@@ -112,7 +112,7 @@ export default function MultiFamilyConstructionPage() {
         <div className="container-custom relative z-10">
           <div className="max-w-4xl">
             <div className="inline-block px-4 py-2 bg-brand-gold/20 rounded-full mb-4">
-              <span className="text-brand-gold font-semibold">Projects $1M - $50M+ | 40+ Years Experience</span>
+              <span className="text-brand-gold font-semibold">Most Projects $500K+ | 40+ Years Experience</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 font-heading">
               Multi-Family Construction Tampa Bay
@@ -175,7 +175,7 @@ export default function MultiFamilyConstructionPage() {
                 Florida Construction Specialists (FCS) stands apart in the Tampa Bay multi-family construction market through our unwavering commitment to serving as the prime contractor on every project. We never work as a subcontractor—this means you get direct accountability, streamlined communication, and a single point of responsibility from groundbreaking to ribbon cutting.
               </p>
               <p className="leading-relaxed mb-6">
-                Our multi-family construction expertise spans the full spectrum of residential development: luxury high-rise condominiums overlooking Tampa Bay, garden-style apartment communities, townhome developments, senior living facilities licensed by AHCA, student housing near Florida&apos;s universities, and mixed-use projects integrating residential over retail. With projects ranging from $1 million to $50 million and beyond, we bring the resources, bonding capacity, and technical expertise that complex multi-family projects demand.
+                Our multi-family construction expertise spans the full spectrum of residential development: luxury high-rise condominiums overlooking Tampa Bay, garden-style apartment communities, townhome developments, senior living facilities licensed by AHCA, student housing near Florida&apos;s universities, and mixed-use projects integrating residential over retail. With most projects $500K and up, we bring the resources, bonding capacity, and technical expertise that complex multi-family projects demand.
               </p>
               <p className="leading-relaxed mb-6">
                 What truly distinguishes FCS is our in-house engineering capability and deep insurance restoration expertise. Many multi-family projects involve existing structures requiring assessment, remediation, or restoration—whether addressing hurricane damage, concrete deterioration, balcony failures, or building envelope issues. Our engineering team provides structural analysis, waterproofing design, and construction solutions under one roof, eliminating finger-pointing between consultants and contractors.
@@ -1110,7 +1110,7 @@ export default function MultiFamilyConstructionPage() {
             From initial feasibility through construction completion, Florida Construction Specialists delivers multi-family projects that exceed expectations.
           </p>
           <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto">
-            Contact us for a project consultation. We specialize in projects $1 million and above throughout Tampa Bay and greater Florida.
+            Contact us for a project consultation. Most of our projects are $500K and up, and we take on work from about $250K depending on scope, throughout Tampa Bay and greater Florida.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact/" className="btn-cta">

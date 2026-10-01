@@ -11,11 +11,11 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/locations/tampa-fl/' },
-  title: "Tampa Commercial Construction & Reconstruction | $500K-$25M+",
-  description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Projects from $500K to $25M+, in-house engineering, serving Tampa since 1982.",
+  title: "Tampa Commercial Construction & Reconstruction | $500K+ Projects",
+  description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Most projects $500K and up, in-house engineering, serving Tampa since 1982.",
   openGraph: {
-    title: "Tampa Commercial Construction & Reconstruction | $500K-$25M+",
-    description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Projects from $500K to $25M+, in-house engineering, serving Tampa since 1982.",
+    title: "Tampa Commercial Construction & Reconstruction | $500K+ Projects",
+    description: "Commercial construction, reconstruction, and insurance restoration in Tampa, FL. Most projects $500K and up, in-house engineering, serving Tampa since 1982.",
     url: "https://floridaconstructionspecialists.com/locations/tampa-fl/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -40,7 +40,7 @@ const services = [
     title: "Historic Restoration",
     description: "Preserving Tampa's architectural heritage including Ybor City historic district. SHPO compliance, Secretary of Interior Standards.",
     icon: Landmark,
-    href: "/services/historic-restoration/",
+    href: "/commercial/historic-restoration/",
   },
   {
     title: "Disaster Recovery",
@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Tampa?",
-    answer: "In Tampa, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Tampa's diverse architecture, we have particular expertise in both modern commercial development and historic preservation, especially in Ybor City. Project values typically range from $250,000 to $25 million or more."
+    answer: "In Tampa, we handle commercial construction, multi-family residential, disaster recovery, historic restoration, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Tampa's diverse architecture, we have particular expertise in both modern commercial development and historic preservation, especially in Ybor City. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How far is your office from Tampa?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     question: "What size projects do you typically handle in Tampa?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, multi-family developments, historic restoration, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Tampa area."
+    answer: "Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes commercial construction, multi-family developments, historic restoration, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Tampa area."
   },
   {
     question: "How do I get started on a project in Tampa?",
@@ -102,7 +102,7 @@ const pillarLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
 ];
 
 const nearbyLocationLinks = [
@@ -121,7 +121,7 @@ export default function TampaPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Tampa"
-        serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Projects $250K-$25M+."
+        serviceDescription="Premier general contractor serving Tampa, FL with commercial construction, disaster recovery, historic restoration, and residential construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />
@@ -429,7 +429,7 @@ export default function TampaPage() {
                 { href: "/condo-remediation-tampa/", label: "Condo Remediation in Tampa" },
                 { href: "/insurance-restoration-tampa/", label: "Insurance Restoration in Tampa" },
                 { href: "/disaster-recovery-tampa/", label: "Disaster Recovery in Tampa" },
-                { href: "/historic-restoration-tampa/", label: "Historic Restoration in Tampa" },
+                { href: "/commercial/historic-restoration/", label: "Historic Restoration in Tampa" },
                 { href: "/luxury-custom-homes-tampa/", label: "Luxury Custom Homes in Tampa" },
                 { href: "/balcony-reconstruction-tampa/", label: "Balcony Reconstruction in Tampa" },
                 { href: "/exterior-waterproofing-tampa/", label: "Exterior Waterproofing in Tampa" },

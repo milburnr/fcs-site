@@ -42,12 +42,12 @@ const commercialGalleryPhotos: GalleryPhoto[] = [
 
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/' },
-  title: "Commercial Construction Tampa | $500K-$25M+",
+  title: "Commercial Construction Tampa | $500K+ Projects",
   description:
-    "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
+    "Tampa commercial general contractor; most projects $500K and up. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
   openGraph: {
-    title: "Commercial Construction Tampa | $500K-$25M+",
-    description: "Tampa commercial general contractor: $500K-$25M projects. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
+    title: "Commercial Construction Tampa | $500K+ Projects",
+    description: "Tampa commercial general contractor; most projects $500K and up. Multi-family, industrial, disaster recovery + in-house engineering. Call for bid today.",
     url: "https://floridaconstructionspecialists.com/commercial/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -174,6 +174,34 @@ const industriesServed = [
     description: "Civic buildings, detention facilities, public works, and federal projects",
   }];
 
+// What to look for when choosing a commercial contractor
+const contractorCriteria = [
+  {
+    title: "Verifiable Credentials",
+    description: "A state-certified license (CGC or CBC) you can confirm at myfloridalicense.com, at least $1M in general liability, workers' compensation, and bonding capacity above your project's value.",
+  },
+  {
+    title: "Safety Record",
+    description: "An Experience Modification Rate (EMR) below 1.0, a clean OSHA history, and a written safety program.",
+  },
+  {
+    title: "Relevant Projects",
+    description: "Several completed projects similar to yours in type, size, and complexity, with references you can actually call.",
+  },
+  {
+    title: "Right-Sized Fit",
+    description: "Your project should be meaningful to the contractor: not so small it gets their B team, not so large it strains their capacity.",
+  },
+  {
+    title: "A Stable Team",
+    description: "Long-tenured project managers and superintendents. Meet the person who will run your job before you sign.",
+  },
+  {
+    title: "Repeat Clients",
+    description: "Owners who hire the same contractor again are the strongest sign of satisfaction. Ask how much of their work is repeat business.",
+  },
+];
+
 // Featured commercial articles (placeholder - will be populated from actual content)
 const featuredArticles = [
   {
@@ -232,7 +260,7 @@ export default function CommercialHubPage() {
               Commercial Construction Tampa | Risk & ROI Focus
             </h1>
             <p className="text-xl text-white/90 mb-8 max-w-3xl">
-              Large-scale commercial projects from $500K to $25M+. Medical facilities,
+              Large-scale commercial projects, most of them $500K and up. Medical facilities,
               multi-family developments, industrial construction, and disaster recovery
               with {BUSINESS_INFO.yearsInBusiness} experience.
             </p>
@@ -262,7 +290,7 @@ export default function CommercialHubPage() {
           <div className="flex flex-wrap items-center justify-center gap-8 text-center">
             <div>
               <p className="text-3xl font-bold text-brand-green-dark">{BUSINESS_INFO.projectValueRange}</p>
-              <p className="text-sm text-gray-600">Project Range</p>
+              <p className="text-sm text-gray-600">Typical Project Size</p>
             </div>
             <div className="h-12 w-px bg-gray-200 hidden md:block" />
             <div>
@@ -297,7 +325,7 @@ export default function CommercialHubPage() {
               </p>
               
               <p>
-                Our commercial division handles projects ranging from $500,000 tenant improvements to $25 million+ ground-up developments. This focused expertise means we understand that commercial construction isn't just about building structures—it's about enabling business operations, meeting strict compliance requirements, and delivering facilities that generate returns for property owners and investors.
+                Our commercial division handles tenant improvements through ground-up developments. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This focused expertise means we understand that commercial construction isn't just about building structures—it's about enabling business operations, meeting strict compliance requirements, and delivering facilities that generate returns for property owners and investors.
               </p>
               
               <p>
@@ -536,6 +564,44 @@ export default function CommercialHubPage() {
         </div>
       </section>
 
+      {/* Choosing a Commercial Contractor */}
+      <section className="py-16 bg-gray-50">
+        <div className="container-custom">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl md:text-4xl font-bold text-brand-green-dark font-heading mb-6 text-center">
+              What to Look for in a Commercial Contractor
+            </h2>
+            <p className="text-lg text-gray-600 mb-10 text-center">
+              Marketing and company size don't tell you much. These are the criteria that predict how a contractor will perform on your project.
+            </p>
+            <div className="grid md:grid-cols-2 gap-6 mb-10">
+              {contractorCriteria.map((item) => (
+                <div key={item.title} className="flex items-start gap-4 bg-white rounded-xl p-6 border border-gray-100">
+                  <CheckCircle className="w-6 h-6 text-brand-green flex-shrink-0 mt-1" />
+                  <div>
+                    <h3 className="text-lg font-bold text-brand-green-dark font-heading mb-1">{item.title}</h3>
+                    <p className="text-sm text-gray-600">{item.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="prose prose-lg max-w-none text-gray-700">
+              <p>
+                FCS is a Florida Certified Building Contractor ({BUSINESS_INFO.licenseNumber}). For our licensing, project history, and completed work, see{" "}
+                <Link href="/floridas-top-commercial-contractor-in-tampa/">
+                  FCS&apos;s track record, credentials, and project examples
+                </Link>
+                . If you are earlier in the process, our guide on{" "}
+                <Link href="/hiring-a-commercial-contractor-in-tampa/">
+                  how to hire a commercial contractor in Tampa
+                </Link>{" "}
+                covers the RFP, evaluation scorecard, red flags, and contract terms step by step.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Related Articles */}
       <section className="py-16 bg-gray-50">
         <div className="container-custom">
@@ -596,7 +662,7 @@ export default function CommercialHubPage() {
             Ready to Discuss Your Commercial Project?
           </h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            From $500K tenant improvements to $25M+ developments,
+            Most of our projects are $500K and up,
             Florida Construction Specialists has the experience and bonding capacity
             to deliver your project on time and on budget.
           </p>

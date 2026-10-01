@@ -49,7 +49,7 @@ const commercialResources = [
     category: "Historic Restoration (Commercial)",
     icon: Landmark,
     articles: [
-      { title: "Tampa's Historic Social Clubs Restoration", href: "/historic-restoration-tampa/" },
+      { title: "Tampa's Historic Social Clubs Restoration", href: "/commercial/historic-restoration/" },
       { title: "Navigating Florida SHPO Requirements", href: "/historic-restoration/" },
       { title: "Historic Tax Credits for Commercial Buildings", href: "/historic-restoration/" },
       { title: "Adaptive Reuse of Historic Civic Buildings", href: "/historic-restoration/" }],
@@ -88,8 +88,8 @@ const residentialResources = [
     icon: FileText,
     articles: [
       { title: "The Hyde Park Renovation Guide", href: "/commercial/guides/hyde-park-renovation-guide/", isNew: true },
-      { title: "Certificate of Appropriateness Process", href: "/historic-restoration-tampa/", isNew: true },
-      { title: "South Tampa Historic District Guide", href: "/historic-restoration-tampa/", isNew: true },
+      { title: "Certificate of Appropriateness Process", href: "/commercial/historic-restoration/", isNew: true },
+      { title: "South Tampa Historic District Guide", href: "/commercial/guides/tampas-historic-districts-restoration-rules/", isNew: true },
       { title: "Sourcing Historic Materials Tampa Bay", href: "/historic-restoration/" }],
   },
   {
@@ -123,7 +123,7 @@ const residentialResources = [
     category: "Historic Preservation (Residential)",
     icon: Landmark,
     articles: [
-      { title: "Renovating Historic Homes in Tampa", href: "/historic-restoration-tampa/", isNew: true },
+      { title: "Renovating Historic Homes in Tampa", href: "/commercial/guides/tampa-historic-home-restoration-guidelines/", isNew: true },
       { title: "Balancing Modern Comfort with Historic Character", href: "/historic-restoration/", isNew: true },
       { title: "Historic Home Energy Efficiency Upgrades", href: "/historic-restoration/", isNew: true },
       { title: "Period-Accurate Material Sourcing", href: "/historic-restoration/" }],

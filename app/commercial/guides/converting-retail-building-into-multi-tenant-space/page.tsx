@@ -368,7 +368,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               The retail landscape has shifted dramatically. Big box vacancies, changing consumer habits, and the rise of e-commerce have left property owners with underperforming single-tenant retail buildings. But these challenges create opportunities.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Converting large-format retail into multi-tenant spaces can dramatically increase property value and income. In Tampa Bay, subdivided retail spaces often command 20-40% higher rent per square foot than the same building leased to a single tenant—and they lease faster to a deeper pool of tenants.
             </p>

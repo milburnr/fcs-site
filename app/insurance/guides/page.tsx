@@ -84,7 +84,7 @@ export default function InsuranceGuidesPage() {
         <div className="container mx-auto px-4 max-w-5xl text-center">
           <h2 className="text-2xl font-bold text-gray-900 mb-4">Property Damage? We Can Help.</h2>
           <p className="text-gray-600 mb-6">
-            Florida Construction Specialists handles $250K–$25M+ insurance restoration projects with direct carrier negotiation.
+            Florida Construction Specialists handles large insurance restoration projects (most $500K and up) with direct carrier negotiation.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: "What is considered a 'large loss' property claim?",
-    answer: "In the insurance industry, large loss typically refers to claims exceeding $250,000. These claims require experienced contractors who understand complex insurance processes, can provide certified estimates, and have the bonding capacity and resources to handle substantial projects. FCS specializes in large loss claims ranging from $250,000 to $25 million or more, including complete building rebuilds, major hurricane damage, and multi-building commercial losses."
+    answer: "In the insurance industry, large loss typically refers to claims exceeding $250,000. These claims require experienced contractors who understand complex insurance processes, can provide certified estimates, and have the bonding capacity and resources to handle substantial projects. FCS specializes in large loss claims, most of them $500K and up, including complete building rebuilds, major hurricane damage, and multi-building commercial losses."
   },
   {
     question: "How quickly can FCS respond to disaster situations?",
@@ -171,7 +171,7 @@ export default function DisasterRecoveryPage() {
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
               FCS brings 43 years of insurance industry experience: 7 years as an Allstate adjuster, 
               28 years operating a statewide insurance restoration firm, and deep expertise in large loss 
-              claims from $250,000 to $25 million. With OSHA-certified safety associates on staff, we speak insurance fluently because we've lived it.
+              claims, most of them $500K and up. With OSHA-certified safety associates on staff, we speak insurance fluently because we've lived it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -1936,7 +1936,7 @@ export default function DisasterRecoveryPage() {
               </a>
             </div>
             <p className="text-white/70 mt-6 text-sm">
-              Licensed Florida State Certified Building Contractor CBC1262722 | Projects $250,000 to $25M+
+              Licensed Florida State Certified Building Contractor CBC1262722 | Most Projects $500K+
             </p>
           </div>
         </div>

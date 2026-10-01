@@ -12,10 +12,10 @@ import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/commercial/guides/smooth-commercial-renovations-solution-in-tampa/' },
   title: "Smooth Commercial Renovations Tampa | Stay Open",
-  description: "Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
+  description: "Smooth Commercial Renovations Stay Open in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
   openGraph: {
     title: "Smooth Commercial Renovations Tampa | Stay Open",
-    description: "Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
+    description: "Smooth Commercial Renovations Stay Open in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate.",
     url: "https://floridaconstructionspecialists.com/commercial/guides/smooth-commercial-renovations-solution-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -105,7 +105,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Smooth Commercial Renovations Tampa | Stay Open"
-        description="Smooth Commercial Renovations Stay Open in Tampa: $500K-$25M projects, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate."
+        description="Smooth Commercial Renovations Stay Open in Tampa: most projects $500K and up, design-build and pre-construction. CBC1262722, 40+ years. Request a free estimate."
         datePublished="2024-01-01"
         slug="/commercial/guides/smooth-commercial-renovations-solution-in-tampa/"
       />

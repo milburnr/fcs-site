@@ -91,7 +91,7 @@ const faqs = [
   },
   {
     question: "What size retail projects do you handle?",
-    answer: "We handle retail projects ranging from $100,000 tenant improvements to $20 million+ shopping center developments. Our experience spans boutique retail buildouts, restaurant construction, multi-tenant strip centers, and large format retail. Our 40+ years experience and in-house engineering supports substantial retail development.",
+    answer: "We handle retail work from tenant improvements to shopping center developments. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. Our experience spans boutique retail buildouts, restaurant construction, multi-tenant strip centers, and large format retail. Our 40+ years experience and in-house engineering supports substantial retail development.",
   },
   {
     question: "What areas do you serve for retail construction?",
@@ -129,7 +129,7 @@ export default function RetailConstructionPage() {
               Florida Construction Specialists builds retail environments that drive customer traffic and support successful businesses. From shopping center development to individual store buildouts, we deliver retail construction on the fast timelines that retailers demand.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Shopping centers, standalone retail, restaurants, and mixed-use. Ground-up construction and tenant improvements. National brand experience. $100K-$20M+ projects.
+              Shopping centers, standalone retail, restaurants, and mixed-use. Ground-up construction and tenant improvements. National brand experience. Most projects are $500K and up.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">
@@ -313,7 +313,7 @@ export default function RetailConstructionPage() {
               <h3 className="font-bold text-brand-green-dark mb-3">Other Services</h3>
               <ul className="space-y-2">
                 <li><Link href="/insurance/" className="text-brand-green hover:underline">Disaster Recovery</Link></li>
-                <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
+                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
                 <li><Link href="/contact/" className="text-brand-green hover:underline">Contact Us</Link></li>
               </ul>
             </div>

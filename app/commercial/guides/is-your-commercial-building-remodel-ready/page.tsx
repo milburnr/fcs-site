@@ -165,7 +165,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto">
             <p className="text-xl text-gray-600 mb-8">
               Commercial building remodels in Tampa Bay represent significant investments ranging from $500,000 to several million dollars depending on scope. Before committing to such a substantial project, building owners and facility managers must conduct thorough readiness assessments. Florida Construction Specialists has guided hundreds of Tampa Bay businesses through this critical evaluation process, helping them determine whether their buildings are truly prepared for transformation.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             
             <h2 className="text-3xl font-bold text-brand-green-dark mb-6 font-heading">
               Understanding Commercial Remodel Readiness

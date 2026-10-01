@@ -33,7 +33,7 @@ const breadcrumbItems = [
 
 
 const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration/", label: "Historic Material Sourcing" },
@@ -148,7 +148,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Tampa&apos;s built environment tells the story of a city shaped by Cuban and Spanish immigrants, the cigar industry, railroad expansion, and Florida&apos;s real estate booms. From the ornate social clubs of Ybor City to the gracious homes of Hyde Park, each historic structure reflects the architectural traditions and craftsmanship of its era. Successful historic restoration requires not only technical expertise but deep understanding of these distinctive architectural styles.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <p className="text-gray-600 mb-6">
                 Florida Construction Specialists has restored buildings representing every major architectural style found in Tampa&apos;s historic districts. Our craftsmen understand the materials, techniques, and design principles that define each style—knowledge essential for restorations that satisfy both the Secretary of the Interior&apos;s Standards and Tampa&apos;s local preservation commissions.

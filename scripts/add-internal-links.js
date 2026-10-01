@@ -48,7 +48,7 @@ const TOPICS = {
   },
   historic: {
     keywords: ['historic', 'preservation', 'ybor', 'landmark', 'heritage', 'period', 'antique', 'shpo', 'tax-credit', 'historical'],
-    pillar: { href: '/services/historic-restoration/', label: 'Historic Restoration Services' },
+    pillar: { href: '/commercial/historic-restoration/', label: 'Historic Restoration Services' },
     relatedLinks: [
       { href: '/services/historic-restoration/shpo-compliance/', label: 'SHPO Compliance' },
       { href: '/services/historic-restoration/historic-tax-credits/', label: 'Historic Tax Credits' },

@@ -11,10 +11,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/eco-friendly-custom-homes-in-tampa/' },
   title: "Eco-Friendly Custom Homes Tampa | Sustainable Design",
-  description: "Build a sustainable custom home in Tampa: solar-optimized design, $500K–$25M projects, design-build & pre-construction. Licensed, insured CBC builder.",
+  description: "Build a sustainable custom home in Tampa: solar-optimized design, most projects $500K and up, design-build & pre-construction. Licensed, insured CBC builder.",
   openGraph: {
     title: "Eco-Friendly Custom Homes Tampa | Sustainable",
-    description: "Eco-friendly Custom Homes Sustainable in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed and insured CBC.",
+    description: "Eco-friendly Custom Homes Sustainable in Tampa: most projects $500K and up, design-build and pre-construction. Licensed and insured CBC.",
     url: "https://floridaconstructionspecialists.com/eco-friendly-custom-homes-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",

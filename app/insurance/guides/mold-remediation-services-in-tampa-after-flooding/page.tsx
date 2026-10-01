@@ -121,7 +121,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 After flooding hits Tampa Bay properties, mold growth becomes a serious threat that requires immediate professional remediation. Florida Construction Specialists brings 43 years of insurance restoration experience and specialized mold remediation expertise to eliminate mold contamination safely and completely. Our certified team understands that Tampa's humid subtropical climate accelerates mold growth, making rapid, thorough remediation essential for protecting both property and health.
-               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
+               Since 1982, Florida Construction Specialists has helped property owners restore major losses, most of them $500K and up, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Why Flooding in Tampa Creates Perfect Mold Growth Conditions

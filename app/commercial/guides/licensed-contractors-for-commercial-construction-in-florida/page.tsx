@@ -35,7 +35,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/top-bonded-insured-commercial-contractor-in-tampa/", label: "Bonded & Insured Contractors" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
-  { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
+  { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 
@@ -138,7 +138,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Florida maintains some of the most rigorous contractor licensing requirements in the nation, reflecting the state's commitment to protecting consumers and ensuring construction quality. For commercial property owners in Tampa Bay, understanding these licensing requirements—and insisting on properly licensed contractors—is essential for project success and legal protection. Florida Construction Specialists holds all required state licenses for commercial construction, providing Tampa, Lakeland, The Villages, and Central Florida clients with the credentials and expertise their projects demand.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Florida's Contractor Licensing System

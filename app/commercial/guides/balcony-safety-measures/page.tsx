@@ -207,7 +207,7 @@ export default function Page() {
           <div className="max-w-4xl mx-auto prose prose-lg">
             <p className="text-xl text-gray-600 mb-6">
               Balcony safety in Florida isn't just about common sense—it's increasingly a matter of law. Following the Surfside condominium collapse in 2021, Florida enacted Senate Bill 4-D (SB4-D), requiring milestone structural inspections for condominium and cooperative buildings. Balconies and elevated walkways are a primary focus of these inspections.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               But beyond compliance, balcony safety is about protecting lives. Falls from balconies cause serious injuries and fatalities every year. Structural failures, while rare, can be catastrophic. And in Florida's humid, salt-air environment, balcony components deteriorate faster than in other climates. For the inspection timelines and what inspectors check, see our guide to <Link href="/commercial/guides/condo-balcony-inspection-requirements/" className="text-brand-green font-semibold hover:underline">condo balcony inspection requirements in Florida</Link>.
             </p>

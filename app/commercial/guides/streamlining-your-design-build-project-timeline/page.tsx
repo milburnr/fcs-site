@@ -213,7 +213,7 @@ export default function Page() {
             <div className="prose prose-lg max-w-none">
               <p className="text-xl text-gray-600 mb-6">
                 In commercial construction, time truly is money. Every month of construction represents carrying costs on your loan, delayed revenue from operations, and opportunity cost of capital tied up in development. A project that finishes 3 months early doesn't just save construction interest—it generates 3 additional months of income.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
               <p className="text-gray-600 mb-6">
                 Traditional design-bid-build delivery follows a linear path: complete design, bid the project, negotiate contracts, then build. Each phase must finish before the next begins. This sequential approach is inherently slow—and the delays compound. Design takes longer than expected, permits get comments requiring revisions, bidding reveals budget gaps, and construction doesn't start for 9-12 months after project inception.
               </p>

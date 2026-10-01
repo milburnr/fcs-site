@@ -172,7 +172,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Church renovation differs fundamentally from typical commercial construction. These are not merely buildings—they are sacred spaces where communities gather for worship, celebration, mourning, and spiritual growth. Decisions about church renovation carry weight beyond practical concerns, touching matters of tradition, theology, and community identity. Florida Construction Specialists approaches every church project with deep respect for these realities and decades of experience navigating them successfully.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Tampa Bay's religious landscape includes hundreds of congregations spanning every tradition—from historic downtown churches built a century ago to contemporary worship centers on suburban campuses. We've worked with Catholic parishes preserving ornate sanctuaries, evangelical churches building modern worship spaces, mainline Protestant congregations adapting traditional buildings for contemporary ministry, and many others. This breadth of experience informs our understanding of what makes church renovation successful.
             </p>

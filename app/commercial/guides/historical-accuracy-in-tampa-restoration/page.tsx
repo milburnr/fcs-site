@@ -32,7 +32,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration/", label: "Historic Material Sourcing" },
@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Historical accuracy distinguishes genuine preservation from well-intentioned but ultimately damaging restoration work. When Tampa's historic buildings—from the grand theaters and civic structures of downtown to the industrial heritage of Ybor City—undergo restoration, the accuracy of materials, techniques, and design details determines whether the work preserves or compromises their historic integrity. Florida Construction Specialists applies rigorous research methodologies and traditional craftsmanship to achieve the accuracy that authentic preservation demands.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Beyond cultural considerations, historical accuracy carries significant financial implications. The Federal Historic Preservation Tax Incentive Program requires that rehabilitation work conform to the Secretary of the Interior's Standards for the Treatment of Historic Properties. Inaccurate restoration—wrong colors, inappropriate materials, insensitive modifications—can result in tax credit denial, potentially costing building owners hundreds of thousands of dollars in foregone benefits.

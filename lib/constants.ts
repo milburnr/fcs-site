@@ -35,7 +35,7 @@ export const BUSINESS_INFO = {
   googleReviewLink: "https://g.page/r/CUxqhJ0kPgLtEBM/review",
   foundingDate: "1982",
   // Premium positioning data
-  projectValueRange: "$500K - $25M+",
+  projectValueRange: "$500K+",
   yearsInBusiness: "40+",
   projectsCompleted: "300+",
   totalProjectValue: "$25M+",
@@ -56,7 +56,7 @@ export const SERVICES = [
     name: "Commercial Construction",
     slug: "commercial-construction",
     silo: "commercial" as const,
-    description: "Large-scale commercial construction from $500K to $50M+ including office buildings, medical facilities, retail, and hospitality.",
+    description: "Large-scale commercial construction (most projects $500K and up) including office buildings, medical facilities, retail, and hospitality.",
     icon: "Building2",
     minValue: "$500,000",
     features: [
@@ -293,7 +293,7 @@ export const FAQ_DATABASE = {
   commercial: [
     {
       question: "What size commercial projects does FCS handle?",
-      answer: "Florida Construction Specialists handles commercial construction projects ranging from $500,000 to over $50 million. We specialize in large-scale projects including office buildings, medical facilities, retail centers, hospitality venues, and educational institutions throughout the Tampa Bay area."
+      answer: "Florida Construction Specialists handles commercial construction projects of many sizes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. We specialize in large-scale projects including office buildings, medical facilities, retail centers, hospitality venues, and educational institutions throughout the Tampa Bay area."
     },
     {
       question: "Do you work as a subcontractor or prime contractor?",
@@ -331,7 +331,7 @@ export const FAQ_DATABASE = {
     },
     {
       question: "What is the typical project value for multi-family construction?",
-      answer: "Our multi-family projects typically range from $1 million for smaller townhome developments to $50 million or more for large condominium and apartment complexes. We're equipped to handle projects of virtually any scale."
+      answer: "Our multi-family projects range from smaller townhome developments to large condominium and apartment complexes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
     },
     {
       question: "How do you handle common area construction?",
@@ -479,3 +479,14 @@ export const FAQ_DATABASE = {
     },
   ],
 };
+
+// Service-city pages that were merged into an owner page (301 in netlify.toml).
+// Link to the owner directly so generated city grids don't route through a redirect.
+const MERGED_SERVICE_CITY_PAGES: Record<string, string> = {
+  "historic-restoration-tampa": "/commercial/historic-restoration/",
+};
+
+export function serviceCityHref(service: string, city: string): string {
+  const slug = `${service}-${city}`;
+  return MERGED_SERVICE_CITY_PAGES[slug] ?? `/${slug}/`;
+}

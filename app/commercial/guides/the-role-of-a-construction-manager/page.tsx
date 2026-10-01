@@ -138,7 +138,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Commercial construction projects involve countless moving pieces: architects designing your vision, engineers ensuring structural integrity, dozens of specialized subcontractors performing their trades, material suppliers delivering on tight schedules, inspectors verifying code compliance, and financial stakeholders tracking every dollar. Orchestrating all these elements while keeping your project on time and on budget requires professional expertise—and that's precisely the role a construction manager fulfills. Florida Construction Specialists provides expert construction management for commercial projects throughout Tampa, St. Petersburg, Clearwater, Lakeland, and the greater Central Florida region.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               The Construction Manager as Your Trusted Advisor

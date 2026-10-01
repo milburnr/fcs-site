@@ -12,10 +12,10 @@ import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/' },
   title: "Custom Home Libraries in Tampa",
-  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years.",
+  description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, 40+ years.",
   openGraph: {
     title: "Custom Home Libraries in Tampa",
-    description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years.",
+    description: "Custom Home Libraries Luxury Book Rooms & Studies in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, 40+ years.",
     url: "https://floridaconstructionspecialists.com/residential/guides/crafting-custom-home-libraries-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -67,7 +67,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Custom Home Libraries in Tampa | Luxury Book Rooms & Studies"
-        description="Custom Home Libraries Luxury Book Rooms & Studies in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, 40+ years. Contact us today."
+        description="Custom Home Libraries Luxury Book Rooms & Studies in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, 40+ years. Contact us today."
         datePublished="2024-01-01"
         slug="/residential/guides/crafting-custom-home-libraries-in-tampa/"
       />

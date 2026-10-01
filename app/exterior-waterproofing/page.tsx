@@ -224,7 +224,7 @@ export default function ExteriorWaterproofingPage() {
                 As a prime general contractor—never a subcontractor—we maintain complete project accountability from initial consultation through final completion. This direct control ensures quality waterproofing installations that meet the demanding requirements of Florida's subtropical climate. Our in-house engineering capabilities, OSHA-certified safety associates, and partnerships with premium manufacturers like Sika, BASF, Tremco, and Carlisle, enable us to design and install waterproofing systems tailored to each project's specific requirements.
               </p>
               <p>
-                With over $25 million in completed projects throughout the Tampa Bay area, our portfolio demonstrates proven success across diverse applications including condominium restoration, commercial building envelope waterproofing, parking structure rehabilitation, plaza deck systems, and comprehensive foundation waterproofing. We specialize in projects ranging from $50,000 to $25 million or more, bringing the resources, expertise, and financial stability required for successful waterproofing installations.
+                With over $25 million in completed projects throughout the Tampa Bay area, our portfolio demonstrates proven success across diverse applications including condominium restoration, commercial building envelope waterproofing, parking structure rehabilitation, plaza deck systems, and comprehensive foundation waterproofing. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. We bring the resources, expertise, and financial stability required for successful waterproofing installations.
               </p>
               <p>
                 Our commitment to excellence extends beyond installation. We provide detailed waterproofing assessments, thorough surface preparation, quality-controlled application processes, and complete warranty documentation. Whether protecting a new construction project or rehabilitating an existing structure, Florida Construction Specialists delivers waterproofing solutions that provide lasting protection against water infiltration.
@@ -548,7 +548,7 @@ export default function ExteriorWaterproofingPage() {
                 Florida Construction Specialists provides comprehensive commercial waterproofing services for the Tampa Bay region's diverse commercial building inventory. Our experience spans high-rise office towers, medical facilities, hospitality properties, retail centers, educational buildings, and industrial facilities—each with unique waterproofing requirements demanding specialized expertise.
               </p>
               <p className="text-gray-600 mb-6">
-                As a prime general contractor specializing in projects from $50,000 to $25 million, we bring the resources and financial stability commercial property owners require. Our bonding capacity, comprehensive insurance coverage, and established relationships with premium material suppliers enable us to handle complex commercial waterproofing projects efficiently.
+                As a prime general contractor with most projects $500K and up, we bring the resources and financial stability commercial property owners require. Our bonding capacity, comprehensive insurance coverage, and established relationships with premium material suppliers enable us to handle complex commercial waterproofing projects efficiently.
               </p>
               
               <h3 className="text-xl font-bold text-brand-green-dark mb-4">High-Rise Building Waterproofing</h3>
@@ -870,7 +870,7 @@ export default function ExteriorWaterproofingPage() {
                 Florida Construction Specialists delivers comprehensive exterior waterproofing services throughout the Tampa Bay region. As a prime general contractor, we maintain full project control and accountability from pre-construction through final completion.
               </p>
               <p className="text-gray-600 mb-6">
-                Our experienced team has completed over $25 million in projects, bringing the expertise and resources needed for projects ranging from $50,000 to $25 million or more.
+                Our experienced team has completed over $25 million in projects, bringing the expertise and resources for large projects. Most of our projects are $500K and up, and we take on work from about $250K depending on scope.
               </p>
               <Link
                 href="/contact/"
@@ -922,7 +922,7 @@ export default function ExteriorWaterproofingPage() {
             <div className="card text-center p-6">
               <Building2 className="w-12 h-12 text-brand-green mx-auto mb-4" />
               <h3 className="font-bold text-brand-green-dark text-lg mb-2">Large-Scale Expertise</h3>
-              <p className="text-gray-600">Specializing in projects from $50,000 to $25M+.</p>
+              <p className="text-gray-600">Most projects $500K and up; we take on work from about $250K depending on scope.</p>
             </div>
             <div className="card text-center p-6">
               <Droplets className="w-12 h-12 text-brand-green mx-auto mb-4" />

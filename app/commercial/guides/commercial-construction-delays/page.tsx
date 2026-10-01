@@ -113,7 +113,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Commercial construction delays can derail project budgets, disrupt business operations, and strain relationships between owners and contractors. In Tampa's dynamic construction market, where weather patterns, permitting complexities, and skilled labor availability can impact project timelines, understanding how to prevent and manage delays is crucial for project success. Florida Construction Specialists, with 43 years of experience managing complex commercial projects throughout the Tampa Bay area, has developed proven strategies to minimize delays and keep projects on track.
-               Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+               Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
               <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
                 Common Causes of Commercial Construction Delays in Tampa

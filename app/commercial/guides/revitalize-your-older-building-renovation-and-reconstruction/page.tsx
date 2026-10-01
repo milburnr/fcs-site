@@ -194,7 +194,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               Tampa Bay's commercial landscape includes thousands of buildings constructed decades ago—mid-century industrial properties, 1970s office buildings, 1980s retail centers, and countless other structures that predate modern construction standards and contemporary expectations. These buildings often occupy excellent locations in established commercial districts where new construction is difficult or impossible. Yet they struggle to compete with newer properties that offer modern amenities, energy efficiency, and attractive finishes.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Revitalization offers a compelling alternative to demolition and replacement. Done well, it costs less than new construction, completes faster, preserves embodied energy and materials, and often retains architectural character that new buildings cannot replicate. It transforms liabilities into assets, converting struggling properties into competitive market participants.
             </p>

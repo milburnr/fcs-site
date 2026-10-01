@@ -31,7 +31,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration/", label: "Historic Material Sourcing" },

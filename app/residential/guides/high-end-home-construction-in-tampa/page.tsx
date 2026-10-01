@@ -12,10 +12,10 @@ import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/residential/guides/high-end-home-construction-in-tampa/' },
   title: "High-End Home Construction in Tampa | Luxury Custom Builders",
-  description: "Luxury custom home construction in Tampa: $500K–$25M projects, design-build and pre-construction services. Licensed CBC, proven results.",
+  description: "Luxury custom home construction in Tampa: most projects $500K and up, design-build and pre-construction services. Licensed CBC, proven results.",
   openGraph: {
     title: "High-End Home Construction in Tampa",
-    description: "High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+    description: "High-end Home Construction Luxury Custom Builders in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results.",
     url: "https://floridaconstructionspecialists.com/residential/guides/high-end-home-construction-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -67,7 +67,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="High-End Home Construction in Tampa | Luxury Custom Builders"
-        description="High-end Home Construction Luxury Custom Builders in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Read more."
+        description="High-end Home Construction Luxury Custom Builders in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results. Read more."
         datePublished="2024-01-01"
         slug="/residential/guides/high-end-home-construction-in-tampa/"
       />

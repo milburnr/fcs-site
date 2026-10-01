@@ -3,13 +3,13 @@ import { BUSINESS_INFO } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Insurance Restoration Contractor Tampa",
-  description: "Tampa Bay's large loss insurance restoration contractor. Prime contractor for $250K-$25M+ claims with certified Xactimate estimating and direct carrier.",
+  description: "Tampa Bay's large loss insurance restoration contractor. Prime contractor for large-loss claims, most $500K and up, with certified Xactimate estimating and direct carrier.",
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/insurance/",
   },
   openGraph: {
     title: "Insurance Restoration Contractor Tampa",
-    description: "Tampa Bay's large loss insurance restoration contractor. Prime contractor for $250K-$25M+ claims with certified Xactimate estimating and direct carrier.",
+    description: "Tampa Bay's large loss insurance restoration contractor. Prime contractor for large-loss claims, most $500K and up, with certified Xactimate estimating and direct carrier.",
     url: "https://floridaconstructionspecialists.com/insurance/",
     type: "website",
     siteName: "Florida Construction Specialists",

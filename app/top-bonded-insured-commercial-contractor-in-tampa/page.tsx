@@ -11,10 +11,10 @@ import { RelatedServiceLocations } from "@/components/RelatedServiceLocations";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/' },
   title: "Top Bonded & Insured Commercial Contractor in Tampa",
-  description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+  description: "Bonded & Insured Commercial Contractor in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results.",
   openGraph: {
     title: "Top Bonded & Insured Commercial Contractor in Tampa",
-    description: "Bonded & Insured Commercial Contractor in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results.",
+    description: "Bonded & Insured Commercial Contractor in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results.",
     url: "https://floridaconstructionspecialists.com/top-bonded-insured-commercial-contractor-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -31,7 +31,7 @@ const internalLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/commercial/guides/licensed-contractors-for-commercial-construction-in-florida/", label: "Licensed Contractors in Florida" },
   { href: "/the-key-traits-of-top-commercial-contractors-in-tampa/", label: "Traits of Top Contractors" },
-  { href: "/hiring-commercial-contractors-in-tampa/", label: "Hiring Commercial Contractors" },
+  { href: "/hiring-a-commercial-contractor-in-tampa/", label: "Hiring Commercial Contractors" },
   { href: "/contact/", label: "Schedule a Consultation" },
 ];
 

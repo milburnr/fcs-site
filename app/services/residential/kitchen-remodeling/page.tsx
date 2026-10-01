@@ -304,8 +304,8 @@ export default function KitchenRemodelingPage() {
             <div>
               <h3 className="font-bold text-brand-green-dark mb-3">Historic</h3>
               <ul className="space-y-2">
-                <li><Link href="/services/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
-                <li><Link href="/historic-restoration-tampa/" className="text-brand-green hover:underline">Tampa Historic Districts</Link></li>
+                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Historic Restoration</Link></li>
+                <li><Link href="/commercial/historic-restoration/" className="text-brand-green hover:underline">Tampa Historic Districts</Link></li>
               </ul>
             </div>
             <div>

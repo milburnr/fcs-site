@@ -277,7 +277,7 @@ export default function Page() {
             </h2>
             <p className="text-gray-600 mb-6">
               The final weeks of a construction project are when details matter most. After months of coordinated effort, the project reaches completion—but "complete" is a relative term. Without a rigorous post-construction checklist, critical items get missed: warranties go unregistered, documentation is incomplete, training doesn't happen, and problems that should have been caught persist into occupancy.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists has refined our post-construction process through hundreds of commercial projects across Tampa Bay. Our checklist approach ensures every project receives the same systematic attention to closeout, regardless of size or complexity. This guide shares our comprehensive checklist along with the context needed to use it effectively.
             </p>

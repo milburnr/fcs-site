@@ -92,7 +92,7 @@ export default function Page() {
             
               <p className="text-gray-600 mb-6">
                 Insurance restoration in Florida operates within a complex legal framework that significantly impacts commercial property owners. Recent legislative changes—particularly the insurance reforms of 2022 and 2023—have fundamentally altered the relationship between policyholders, insurers, and restoration contractors. Understanding these legal requirements helps Tampa Bay commercial property owners protect their interests while navigating the restoration process.
-               Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
+               Since 1982, Florida Construction Specialists has helped property owners restore major losses, most of them $500K and up, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
               <p className="text-gray-600 mb-6">
                 This guide covers the key legal aspects of insurance restoration in Tampa, including claim deadlines, contractor licensing requirements, Assignment of Benefits regulations, and dispute resolution options. While Florida Construction Specialists provides this information for general guidance, we always recommend consulting with qualified legal professionals for specific claim disputes or contract issues.
               </p>

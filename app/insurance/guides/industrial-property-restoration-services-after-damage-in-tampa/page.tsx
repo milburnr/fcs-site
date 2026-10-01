@@ -12,10 +12,10 @@ import { MoreGuides } from "@/components/MoreGuides";
 export const metadata: Metadata = {
   alternates: { canonical: 'https://floridaconstructionspecialists.com/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/' },
   title: "Industrial Property Restoration Tampa | Warehouse",
-  description: "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Get a free quote.",
+  description: "Industrial Property Restoration Warehouse in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results. Get a free quote.",
   openGraph: {
     title: "Industrial Property Restoration Tampa | Warehouse",
-    description: "Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Get a free quote.",
+    description: "Industrial Property Restoration Warehouse in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results. Get a free quote.",
     url: "https://floridaconstructionspecialists.com/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -67,7 +67,7 @@ export default function Page() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ArticleSchema
         headline="Industrial Property Restoration Tampa | Warehouse"
-        description="Industrial Property Restoration Warehouse in Tampa: $500K-$25M projects, design-build and pre-construction. Licensed CBC, proven results. Get a free quote."
+        description="Industrial Property Restoration Warehouse in Tampa: most projects $500K and up, design-build and pre-construction. Licensed CBC, proven results. Get a free quote."
         datePublished="2024-01-01"
         slug="/insurance/guides/industrial-property-restoration-services-after-damage-in-tampa/"
       />

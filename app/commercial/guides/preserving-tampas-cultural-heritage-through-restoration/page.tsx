@@ -32,7 +32,7 @@ const breadcrumbItems = [
 ];
 
 const internalLinks = [
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
   { href: "/historic-restoration/", label: "SHPO Compliance" },
   { href: "/historic-restoration/", label: "Historic Tax Credits" },
   { href: "/historic-restoration/", label: "Historic Material Sourcing" },
@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6">
               Tampa's built heritage tells the story of a diverse community shaped by immigration, industry, and civic aspiration. The magnificent mutual aid society buildings of Ybor City, the elegant homes of Tampa's civic leaders, the churches that served distinct ethnic communities, and the commercial buildings that drove economic growth all contribute to a cultural landscape that restoration helps preserve for future generations.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <p className="text-gray-600 mb-6">
               Florida Construction Specialists approaches historic restoration as cultural preservation—recognizing that buildings embody community memory, cultural identity, and intangible heritage alongside their physical materials. Our work protects not just historic fabric but the meanings and associations that make Tampa's historic places significant.

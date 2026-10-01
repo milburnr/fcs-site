@@ -35,7 +35,7 @@ export function HomePageClient() {
               type="commercial"
               title="Commercial Pathway"
               subtitle="Risk & ROI Focus"
-              projectRange="$500K - $25M+"
+              projectRange="Most $500K+"
               features={[
                 "Multi-Family Developments",
                 "Industrial & Flex Space",
@@ -189,7 +189,7 @@ export function HomePageClient() {
                 Ready to Discuss Your Project?
               </h2>
               <p className="text-lg text-gray-600 mb-6">
-                Whether you&apos;re planning a $500K commercial renovation or a $50M development,
+                Whether you&apos;re planning a $500K commercial renovation or a ground-up development,
                 Florida Construction Specialists has the experience, resources, and commitment
                 to deliver excellence.
               </p>

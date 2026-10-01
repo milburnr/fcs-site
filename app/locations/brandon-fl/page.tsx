@@ -62,7 +62,7 @@ const faqs = [
   },
   {
     question: "What types of construction projects do you handle in Brandon?",
-    answer: "In Brandon, we handle commercial construction, retail and restaurant buildouts, multi-family residential, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Brandon's strong retail presence, we have particular expertise in tenant improvements and commercial buildouts. Project values typically range from $250,000 to $25 million or more."
+    answer: "In Brandon, we handle commercial construction, retail and restaurant buildouts, multi-family residential, disaster recovery, luxury custom homes, balcony reconstruction, and exterior waterproofing. Given Brandon's strong retail presence, we have particular expertise in tenant improvements and commercial buildouts. Most of our projects are $500K and up, and we take on work from about $250K depending on scope."
   },
   {
     question: "How far is your office from Brandon?",
@@ -90,7 +90,7 @@ const faqs = [
   },
   {
     question: "What size projects do you typically handle in Brandon?",
-    answer: "We specialize in large-scale projects ranging from $250,000 to $25 million or more. This includes commercial construction, retail buildouts, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Brandon area."
+    answer: "Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes commercial construction, retail buildouts, multi-family developments, and large loss disaster recovery. As a prime contractor (never a subcontractor), we take full accountability for projects of all sizes in the Brandon area."
   },
   {
     question: "How do I get started on a project in Brandon?",
@@ -102,7 +102,7 @@ const pillarLinks = [
   { href: "/commercial/", label: "Commercial Construction Services" },
   { href: "/residential/", label: "Residential Construction Services" },
   { href: "/insurance/", label: "Disaster Recovery Services" },
-  { href: "/services/historic-restoration/", label: "Historic Restoration Services" },
+  { href: "/commercial/historic-restoration/", label: "Historic Restoration Services" },
 ];
 
 const nearbyLocationLinks = [
@@ -120,7 +120,7 @@ export default function BrandonPage() {
       <BreadcrumbSchema items={breadcrumbItems} />
       <ServiceSchema
         serviceName="Construction Services in Brandon"
-        serviceDescription="Premier general contractor serving Brandon, FL with commercial construction, retail buildouts, disaster recovery, and residential construction. Projects $250K-$25M+."
+        serviceDescription="Premier general contractor serving Brandon, FL with commercial construction, retail buildouts, disaster recovery, and residential construction. Most projects $500K and up; work from about $250K depending on scope."
         minPrice="250000"
       serviceCategories={["Commercial Construction","Disaster Recovery","Historic Restoration","Luxury Custom Homes","Insurance Restoration"]}
       />

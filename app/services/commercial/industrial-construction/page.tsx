@@ -75,7 +75,7 @@ const constructionMethods = [
 const faqs = [
   {
     question: "What size industrial projects do you handle?",
-    answer: "Florida Construction Specialists handles industrial construction projects ranging from $500,000 to over $25 million. This includes smaller flex space buildings (10,000-30,000 SF), mid-size warehouses (50,000-150,000 SF), and large distribution centers (150,000+ SF). Our 40+ years experience and in-house engineering allows us to take on substantial industrial developments.",
+    answer: "Florida Construction Specialists handles industrial construction projects of many sizes. Most of our projects are $500K and up, and we take on work from about $250K depending on scope. This includes smaller flex space buildings (10,000-30,000 SF), mid-size warehouses (50,000-150,000 SF), and large distribution centers (150,000+ SF). Our 40+ years experience and in-house engineering allows us to take on substantial industrial developments.",
   },
   {
     question: "What construction methods do you use for industrial buildings?",
@@ -120,7 +120,7 @@ export default function IndustrialConstructionPage() {
     <>
       <ServiceSchema
         serviceName="Industrial Construction"
-        serviceDescription="Industrial construction in Tampa Bay including warehouses, distribution centers, manufacturing facilities, and flex space. Tilt-wall, steel, and concrete construction. Projects from $500K to $25M+."
+        serviceDescription="Industrial construction in Tampa Bay including warehouses, distribution centers, manufacturing facilities, and flex space. Tilt-wall, steel, and concrete construction. Most projects $500K and up."
         minPrice="500000"
       serviceCategories={["Warehouse Construction","Manufacturing Facilities","Distribution Centers","Industrial Renovations"]}
       />
@@ -145,7 +145,7 @@ export default function IndustrialConstructionPage() {
               Florida Construction Specialists builds industrial facilities that support your operations—warehouses that optimize logistics, manufacturing facilities that enable production, and flex spaces that adapt to your business needs.
             </p>
             <p className="text-lg text-gray-300 mb-8 max-w-3xl">
-              Tilt-wall, pre-engineered metal, and conventional construction. $500K-$25M+ projects with 40+ years experience and in-house engineering. From the I-4 corridor to Port Tampa Bay.
+              Tilt-wall, pre-engineered metal, and conventional construction. Most projects are $500K and up, with 40+ years experience and in-house engineering. From the I-4 corridor to Port Tampa Bay.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact/" className="btn-cta">

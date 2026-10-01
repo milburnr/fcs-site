@@ -7,13 +7,13 @@ import { InternalLinks } from "@/components/InternalLinks";
 
 export const metadata: Metadata = {
   title: "Tampa Bay Commercial Construction | FCS",
-  description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects from $500K to $25M+.",
+  description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects, most of them $500K and up.",
   alternates: {
     canonical: "https://floridaconstructionspecialists.com/",
   },
   openGraph: {
     title: "Tampa Bay Commercial Construction | FCS",
-    description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects from $500K to $25M+.",
+    description: "Tampa Bay's premier large-scale construction specialists. Commercial, residential, and insurance restoration projects, most of them $500K and up.",
     url: "https://floridaconstructionspecialists.com/",
     type: "website",
     siteName: "Florida Construction Specialists",
@@ -83,7 +83,7 @@ export default function HomePage() {
             Tampa Bay&apos;s Premier Large-Scale Construction Specialists
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-2 max-w-3xl">
-            From $500K commercial projects to $25M+ developments
+            From tenant improvements to ground-up developments (most projects $500K and up)
           </p>
           <p className="text-lg text-brand-gold font-semibold">
             Choose Your Pathway Below

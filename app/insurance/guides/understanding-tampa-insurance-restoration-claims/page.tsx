@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               Insurance restoration claims can be complex, especially for commercial properties in Tampa Bay where hurricanes, flooding, and severe weather create frequent damage events. Understanding how insurance claims work—from initial filing through final settlement—empowers you to protect your rights, avoid common pitfalls, and maximize your recovery. This guide covers the essential elements of Florida insurance restoration claims for commercial property owners.
-             Since 1982, Florida Construction Specialists has helped property owners restore damage valued from $500K to $25M+, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
+             Since 1982, Florida Construction Specialists has helped property owners restore major losses, most of them $500K and up, with the engineering and estimating credentials that carriers and adjusters recognize.</p>
 
             <div className="bg-amber-50 border-l-4 border-amber-600 p-6 mb-8">
               <div className="flex items-start gap-4">

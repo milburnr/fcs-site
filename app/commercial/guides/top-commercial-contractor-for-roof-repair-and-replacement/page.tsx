@@ -139,7 +139,7 @@ export default function Page() {
             
             <p className="text-xl text-gray-700 mb-8 leading-relaxed">
               When your commercial roof develops problems, choosing the right contractor makes all the difference between a lasting solution and recurring issues. Tampa Bay's combination of hurricane threats, intense UV exposure, and daily summer storms demands contractors with specific expertise in Florida commercial roofing. Florida Construction Specialists has built our reputation on delivering roof repairs and replacements that stand up to everything our climate delivers.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <div className="bg-red-50 border-l-4 border-red-600 p-6 mb-8">
               <div className="flex items-start gap-4">

@@ -138,7 +138,7 @@ export default function Page() {
             
             <p className="text-gray-600 mb-6 text-lg leading-relaxed">
               Florida's construction industry is experiencing a sustainability revolution. As climate concerns intensify and building performance expectations rise, sustainable construction has moved from a niche specialty to mainstream practice. Florida Construction Specialists is at the forefront of this transformation, bringing the latest sustainable construction trends to commercial projects throughout Tampa, Lakeland, Sarasota, and the greater Tampa Bay region. Understanding these trends helps property owners and developers make informed decisions about their construction investments.
-             Since 1982, Florida Construction Specialists has managed commercial projects from $500K to $25M+, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
+             Since 1982, Florida Construction Specialists has managed commercial projects across Tampa Bay, most of them $500K and up, bringing in-house engineering and decades of Florida building expertise to every engagement.</p>
 
             <h2 className="text-2xl font-bold text-brand-green-dark mb-4 font-heading">
               Trend 1: Net-Zero Energy Buildings
